@@ -1,0 +1,216 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  STUDENT
+  GUARDIAN
+  TEACHER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  PENDING
+  BLOCKED
+}
+
+enum SimulationStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+  INACTIVE
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  TRUE_FALSE_MULTIPLE
+  MATCHING
+  CLASSIFICATION
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  FINISHED
+  ABANDONED
+  EXPIRED
+}
+
+model User {
+  id                   String            @id @default(cuid())
+  name                 String
+  email                String            @unique
+  passwordHash         String
+  role                 UserRole
+  status               UserStatus        @default(PENDING)
+  createdAt            DateTime          @default(now())
+  updatedAt            DateTime          @updatedAt
+  lastLoginAt          DateTime?
+  deletedAt            DateTime?
+  studentProfile       StudentProfile?
+  createdSimulations   Simulation[]      @relation("SimulationCreatedBy")
+  guardianLinks        GuardianStudent[] @relation("GuardianLinks")
+  studentGuardianLinks GuardianStudent[] @relation("StudentGuardianLinks")
+  attempts             Attempt[]         @relation("StudentAttempts")
+
+  @@index([role])
+  @@index([status])
+}
+
+model StudentProfile {
+  id         String   @id @default(cuid())
+  userId     String   @unique
+  schoolYear Int
+  className  String?
+  schoolName String?
+  avatarUrl  String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  user       User     @relation(fields: [userId], references: [id])
+}
+
+model GuardianStudent {
+  id           String   @id @default(cuid())
+  guardianId   String
+  studentId    String
+  relationship String
+  createdAt    DateTime @default(now())
+  guardian     User     @relation("GuardianLinks", fields: [guardianId], references: [id])
+  student      User     @relation("StudentGuardianLinks", fields: [studentId], references: [id])
+
+  @@unique([guardianId, studentId])
+  @@index([studentId])
+}
+
+model Discipline {
+  id          String       @id @default(cuid())
+  name        String
+  slug        String       @unique
+  description String?
+  icon        String?
+  themeColor  String?
+  isActive    Boolean      @default(true)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  deletedAt   DateTime?
+  simulations Simulation[]
+}
+
+model Simulation {
+  id                       String           @id @default(cuid())
+  title                    String
+  subtitle                 String?
+  slug                     String           @unique
+  schoolYear               Int
+  bimester                 Int
+  assessment               String
+  disciplineId             String
+  status                   SimulationStatus @default(DRAFT)
+  totalQuestions           Int
+  maxScore                 Decimal          @db.Decimal(6, 2)
+  estimatedDurationMinutes Int?
+  createdById              String
+  createdAt                DateTime         @default(now())
+  updatedAt                DateTime         @updatedAt
+  publishedAt              DateTime?
+  deletedAt                DateTime?
+  discipline               Discipline       @relation(fields: [disciplineId], references: [id])
+  createdBy                User             @relation("SimulationCreatedBy", fields: [createdById], references: [id])
+  questions                Question[]
+  attempts                 Attempt[]
+
+  @@index([disciplineId])
+  @@index([status])
+  @@index([schoolYear, bimester, assessment])
+}
+
+model Question {
+  id             String           @id @default(cuid())
+  simulationId   String
+  type           QuestionType
+  statement      String
+  tip            String?
+  points         Decimal          @db.Decimal(6, 2)
+  sortOrder      Int              @map("order")
+  isActive       Boolean          @default(true)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+  deletedAt      DateTime?
+  simulation     Simulation       @relation(fields: [simulationId], references: [id])
+  options        QuestionOption[]
+  answers        QuestionAnswer[]
+  attemptAnswers AttemptAnswer[]
+
+  @@unique([simulationId, sortOrder])
+  @@index([type])
+}
+
+model QuestionOption {
+  id         String   @id @default(cuid())
+  questionId String
+  optionKey  String
+  text       String
+  groupKey   String?
+  sortOrder  Int      @map("order")
+  metadata   Json?
+  question   Question @relation(fields: [questionId], references: [id])
+
+  @@unique([questionId, optionKey])
+  @@index([questionId, sortOrder])
+}
+
+model QuestionAnswer {
+  id          String   @id @default(cuid())
+  questionId  String
+  answerKey   String
+  answerValue String
+  metadata    Json?
+  question    Question @relation(fields: [questionId], references: [id])
+
+  @@unique([questionId, answerKey])
+}
+
+model Attempt {
+  id              String          @id @default(cuid())
+  studentId       String
+  simulationId    String
+  status          AttemptStatus   @default(IN_PROGRESS)
+  startedAt       DateTime        @default(now())
+  finishedAt      DateTime?
+  score           Decimal?        @db.Decimal(6, 2)
+  maxScore        Decimal         @db.Decimal(6, 2)
+  percentage      Decimal?        @db.Decimal(5, 2)
+  correctCount    Int             @default(0)
+  wrongCount      Int             @default(0)
+  durationSeconds Int?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  student         User            @relation("StudentAttempts", fields: [studentId], references: [id])
+  simulation      Simulation      @relation(fields: [simulationId], references: [id])
+  answers         AttemptAnswer[]
+
+  @@index([studentId])
+  @@index([simulationId])
+  @@index([status])
+}
+
+model AttemptAnswer {
+  id           String   @id @default(cuid())
+  attemptId    String
+  questionId   String
+  answer       Json
+  isCorrect    Boolean?
+  pointsEarned Decimal? @db.Decimal(6, 2)
+  createdAt    DateTime @default(now())
+  attempt      Attempt  @relation(fields: [attemptId], references: [id])
+  question     Question @relation(fields: [questionId], references: [id])
+
+  @@unique([attemptId, questionId])
+  @@index([questionId])
+}
