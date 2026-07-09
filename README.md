@@ -6,7 +6,7 @@ Este repositório inicia a migração do modelo atual, baseado em dados locais n
 
 ## Status
 
-Fase 1 em desenvolvimento: fundação técnica do backend.
+Fase 2 em desenvolvimento: autenticação e usuários.
 
 Implementado neste repositório:
 
@@ -15,6 +15,9 @@ Implementado neste repositório:
 - Docker Compose para PostgreSQL.
 - Prisma configurado com schema inicial do domínio.
 - Endpoints técnicos `GET /health` e `GET /ready`.
+- Cadastro, login, refresh token, logout e `GET /auth/me`.
+- CRUD administrativo inicial de usuários.
+- Guards de autenticação JWT e autorização por role.
 - Teste unitário inicial do health check.
 - Checklist de desenvolvimento em `docs/checklist-desenvolvimento.md`.
 
@@ -77,6 +80,7 @@ src/
 O schema inicial do Prisma cobre as entidades previstas no plano:
 
 - `User`
+- `RefreshToken`
 - `StudentProfile`
 - `GuardianStudent`
 - `Discipline`
@@ -97,6 +101,8 @@ Enums principais:
 
 ## Endpoints implementados
 
+### Health checks
+
 ```http
 GET /health
 GET /ready
@@ -106,8 +112,6 @@ GET /ready
 
 `/ready` verifica se a aplicação consegue consultar o banco de dados.
 
-## Endpoints planejados
-
 ### Autenticação
 
 ```http
@@ -115,8 +119,6 @@ POST /auth/register
 POST /auth/login
 POST /auth/logout
 POST /auth/refresh
-POST /auth/forgot-password
-POST /auth/reset-password
 GET  /auth/me
 ```
 
@@ -128,6 +130,17 @@ GET    /users/:id
 PATCH  /users/:id
 PATCH  /users/:id/status
 DELETE /users/:id
+```
+
+As rotas de usuários são administrativas e exigem role `ADMIN`.
+
+## Endpoints planejados
+
+### Recuperação de senha
+
+```http
+POST /auth/forgot-password
+POST /auth/reset-password
 ```
 
 ### Alunos
@@ -254,6 +267,12 @@ Execute a primeira migration:
 
 ```bash
 npm run prisma:migrate
+```
+
+Depois de alterar o schema localmente, gere o Prisma Client:
+
+```bash
+npm run prisma:generate
 ```
 
 Rode a API em desenvolvimento:
