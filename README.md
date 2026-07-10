@@ -6,7 +6,7 @@ Este repositório inicia a migração do modelo atual, baseado em dados locais n
 
 ## Status
 
-Fase 2 em desenvolvimento: autenticação e usuários.
+Fase 3 em desenvolvimento: disciplinas, simulados e questões.
 
 Implementado neste repositório:
 
@@ -18,6 +18,9 @@ Implementado neste repositório:
 - Cadastro, login, refresh token, logout e `GET /auth/me`.
 - CRUD administrativo inicial de usuários.
 - Guards de autenticação JWT e autorização por role.
+- CRUD de disciplinas.
+- CRUD de simulados com publicação, arquivamento e listagem pública de simulados disponíveis.
+- CRUD de questões com alternativas, gabarito protegido e reordenação.
 - Teste unitário inicial do health check.
 - Checklist de desenvolvimento em `docs/checklist-desenvolvimento.md`.
 
@@ -134,29 +137,11 @@ DELETE /users/:id
 
 As rotas de usuários são administrativas e exigem role `ADMIN`.
 
-## Endpoints planejados
-
-### Recuperação de senha
-
-```http
-POST /auth/forgot-password
-POST /auth/reset-password
-```
-
-### Alunos
-
-```http
-GET   /students/me
-PATCH /students/me
-GET   /students/:id
-GET   /students/:id/attempts
-GET   /students/:id/performance
-```
-
 ### Disciplinas
 
 ```http
 GET    /disciplines
+GET    /disciplines/admin
 POST   /disciplines
 GET    /disciplines/:id
 PATCH  /disciplines/:id
@@ -184,6 +169,29 @@ POST   /simulations/:simulationId/questions
 PATCH  /questions/:id
 DELETE /questions/:id
 PATCH  /questions/:id/reorder
+```
+
+Rotas administrativas de disciplinas, simulados e questões exigem role `ADMIN`.
+`GET /simulations/available` retorna apenas simulados publicados.
+`GET /simulations/:simulationId/questions` exige `ADMIN` nesta fase e não retorna gabaritos.
+
+## Endpoints planejados
+
+### Recuperação de senha
+
+```http
+POST /auth/forgot-password
+POST /auth/reset-password
+```
+
+### Alunos
+
+```http
+GET   /students/me
+PATCH /students/me
+GET   /students/:id
+GET   /students/:id/attempts
+GET   /students/:id/performance
 ```
 
 ### Tentativas
