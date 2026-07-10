@@ -64,20 +64,20 @@ Critério de aceite:
 
 Objetivo: substituir a base local por dados persistidos.
 
-- [ ] Criar módulo `disciplines`.
-- [ ] Implementar CRUD de disciplinas.
-- [ ] Criar módulo `simulations`.
-- [ ] Implementar CRUD de simulados.
-- [ ] Implementar status `DRAFT`, `PUBLISHED`, `ARCHIVED`, `INACTIVE`.
-- [ ] Criar módulo `questions`.
-- [ ] Implementar CRUD de questões.
-- [ ] Implementar tipos `MULTIPLE_CHOICE`, `TRUE_FALSE_MULTIPLE`, `MATCHING`, `CLASSIFICATION`.
-- [ ] Implementar alternativas e gabaritos por questão.
-- [ ] Implementar reordenação de questões.
-- [ ] Implementar publicação e arquivamento de simulados.
+- [x] Criar módulo `disciplines`.
+- [x] Implementar CRUD de disciplinas.
+- [x] Criar módulo `simulations`.
+- [x] Implementar CRUD de simulados.
+- [x] Implementar status `DRAFT`, `PUBLISHED`, `ARCHIVED`, `INACTIVE`.
+- [x] Criar módulo `questions`.
+- [x] Implementar CRUD de questões.
+- [x] Implementar tipos `MULTIPLE_CHOICE`, `TRUE_FALSE_MULTIPLE`, `MATCHING`, `CLASSIFICATION`.
+- [x] Implementar alternativas e gabaritos por questão.
+- [x] Implementar reordenação de questões.
+- [x] Implementar publicação e arquivamento de simulados.
 - [ ] Criar seed/importação dos dados atuais do front-end.
 - [ ] Garantir importação idempotente.
-- [ ] Implementar `GET /simulations/available`.
+- [x] Implementar `GET /simulations/available`.
 - [ ] Criar testes de permissão para rotas administrativas.
 
 Critério de aceite:
