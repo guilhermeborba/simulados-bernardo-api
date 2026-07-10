@@ -255,6 +255,7 @@ JWT_ACCESS_SECRET=REPLACE_WITH_RANDOM_ACCESS_SECRET_MIN_32_CHARS
 JWT_ACCESS_EXPIRES_IN=15m
 JWT_REFRESH_SECRET=REPLACE_WITH_RANDOM_REFRESH_SECRET_MIN_32_CHARS
 JWT_REFRESH_EXPIRES_IN=7d
+FRONTEND_DATA_DIR=../simulados-bernardo/data
 ```
 
 ## Como rodar localmente
@@ -296,6 +297,33 @@ curl http://localhost:3333/health
 curl http://localhost:3333/ready
 ```
 
+## Seed dos dados do front-end
+
+O seed importa os arquivos TypeScript atuais do front-end em `data/` e é idempotente: pode ser executado novamente sem duplicar disciplinas, simulados, questões, alternativas ou gabaritos.
+
+Por padrão, o script procura os dados em `../simulados-bernardo/data`. Para outro caminho, defina `FRONTEND_DATA_DIR`.
+
+Valide a leitura dos arquivos sem gravar no banco:
+
+```bash
+npm run seed:dry-run
+```
+
+Execute a importação no banco configurado em `DATABASE_URL`:
+
+```bash
+npm run seed
+```
+
+O seed cria:
+
+- disciplinas por `slug`;
+- simulados publicados por disciplina, ano, bimestre e avaliação;
+- questões por ordem dentro do simulado;
+- alternativas/itens/opções;
+- gabaritos em `QuestionAnswer`, sem expor respostas nos endpoints públicos;
+- usuário técnico inativo `seed-importer@simulados.local` para preencher `createdById`.
+
 ## Scripts
 
 ```bash
@@ -308,6 +336,8 @@ npm run test:e2e
 npm run prisma:generate
 npm run prisma:migrate
 npm run prisma:studio
+npm run seed
+npm run seed:dry-run
 ```
 
 ## Testes
