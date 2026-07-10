@@ -75,8 +75,8 @@ Objetivo: substituir a base local por dados persistidos.
 - [x] Implementar alternativas e gabaritos por questão.
 - [x] Implementar reordenação de questões.
 - [x] Implementar publicação e arquivamento de simulados.
-- [ ] Criar seed/importação dos dados atuais do front-end.
-- [ ] Garantir importação idempotente.
+- [x] Criar seed/importação dos dados atuais do front-end.
+- [x] Garantir importação idempotente.
 - [x] Implementar `GET /simulations/available`.
 - [ ] Criar testes de permissão para rotas administrativas.
 
