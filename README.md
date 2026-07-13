@@ -6,7 +6,7 @@ Este repositório inicia a migração do modelo atual, baseado em dados locais n
 
 ## Status
 
-Fase 3 em desenvolvimento: disciplinas, simulados e questões.
+Fase 4 em desenvolvimento: tentativas e correção.
 
 Implementado neste repositório:
 
@@ -21,6 +21,8 @@ Implementado neste repositório:
 - CRUD de disciplinas.
 - CRUD de simulados com publicação, arquivamento e listagem pública de simulados disponíveis.
 - CRUD de questões com alternativas, gabarito protegido e reordenação.
+- Início de tentativas, envio de respostas, finalização e resultado detalhado.
+- Correção no servidor para múltipla escolha, verdadeiro/falso, associação e classificação.
 - Teste unitário inicial do health check.
 - Checklist de desenvolvimento em `docs/checklist-desenvolvimento.md`.
 
@@ -175,6 +177,22 @@ Rotas administrativas de disciplinas, simulados e questões exigem role `ADMIN`.
 `GET /simulations/available` retorna apenas simulados publicados.
 `GET /simulations/:simulationId/questions` exige `ADMIN` nesta fase e não retorna gabaritos.
 
+### Tentativas
+
+```http
+POST  /simulations/:simulationId/attempts
+GET   /attempts/:id
+POST  /attempts/:id/answers
+POST  /attempts/:id/questions/:questionId/answer
+POST  /attempts/:id/finish
+GET   /attempts/:id/result
+GET   /me/attempts
+```
+
+Rotas de tentativa exigem role `STUDENT`, exceto consulta administrativa de tentativa/resultado permitida para `ADMIN`.
+Tentativas finalizadas não aceitam novas respostas.
+Resultados só ficam disponíveis após finalização.
+
 ## Endpoints planejados
 
 ### Recuperação de senha
@@ -192,17 +210,6 @@ PATCH /students/me
 GET   /students/:id
 GET   /students/:id/attempts
 GET   /students/:id/performance
-```
-
-### Tentativas
-
-```http
-POST  /simulations/:simulationId/attempts
-GET   /attempts/:id
-POST  /attempts/:id/answers
-POST  /attempts/:id/finish
-GET   /attempts/:id/result
-GET   /me/attempts
 ```
 
 ### Relatórios

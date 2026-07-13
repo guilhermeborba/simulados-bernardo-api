@@ -90,21 +90,21 @@ Critério de aceite:
 
 Objetivo: salvar simulados realizados e calcular resultados no backend.
 
-- [ ] Criar módulo `attempts`.
-- [ ] Implementar início de tentativa.
-- [ ] Salvar respostas em JSON.
-- [ ] Impedir alteração de tentativa finalizada.
-- [ ] Implementar finalização de tentativa.
-- [ ] Implementar correção de múltipla escolha.
-- [ ] Implementar correção de verdadeiro/falso múltiplo.
-- [ ] Implementar correção de associação de pares.
-- [ ] Implementar correção de classificação por categoria.
-- [ ] Calcular pontuação final.
-- [ ] Calcular percentual de aproveitamento.
-- [ ] Calcular acertos e erros.
-- [ ] Registrar duração da tentativa.
-- [ ] Retornar resultado detalhado após finalização.
-- [ ] Criar testes unitários da correção.
+- [x] Criar módulo `attempts`.
+- [x] Implementar início de tentativa.
+- [x] Salvar respostas em JSON.
+- [x] Impedir alteração de tentativa finalizada.
+- [x] Implementar finalização de tentativa.
+- [x] Implementar correção de múltipla escolha.
+- [x] Implementar correção de verdadeiro/falso múltiplo.
+- [x] Implementar correção de associação de pares.
+- [x] Implementar correção de classificação por categoria.
+- [x] Calcular pontuação final.
+- [x] Calcular percentual de aproveitamento.
+- [x] Calcular acertos e erros.
+- [x] Registrar duração da tentativa.
+- [x] Retornar resultado detalhado após finalização.
+- [x] Criar testes unitários da correção.
 - [ ] Criar testes de integração do fluxo de tentativa.
 
 Critério de aceite:
