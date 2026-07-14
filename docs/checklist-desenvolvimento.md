@@ -118,23 +118,23 @@ Critério de aceite:
 
 Objetivo: entregar acompanhamento de desempenho por aluno, responsável, professor e administrador.
 
-- [ ] Criar perfil do aluno.
-- [ ] Implementar vínculo responsável-aluno.
-- [ ] Implementar histórico de tentativas por aluno.
-- [ ] Implementar melhores notas por simulado.
-- [ ] Implementar desempenho por disciplina.
-- [ ] Implementar desempenho por bimestre.
-- [ ] Implementar relatório por simulado.
-- [ ] Implementar questões com maior taxa de erro.
-- [ ] Restringir responsável a alunos vinculados.
+- [x] Criar perfil do aluno.
+- [x] Implementar vínculo responsável-aluno.
+- [x] Implementar histórico de tentativas por aluno.
+- [x] Implementar melhores notas por simulado.
+- [x] Implementar desempenho por disciplina.
+- [x] Implementar desempenho por bimestre.
+- [x] Implementar relatório por simulado.
+- [x] Implementar questões com maior taxa de erro.
+- [x] Restringir responsável a alunos vinculados.
 - [ ] Restringir professor a alunos ou turmas autorizadas.
-- [ ] Criar testes de autorização dos relatórios.
+- [x] Criar testes de autorização dos relatórios.
 
 Critério de aceite:
 
-- [ ] Aluno vê seu próprio histórico.
-- [ ] Responsável vê apenas alunos vinculados.
-- [ ] Administrador vê relatórios gerais.
+- [x] Aluno vê seu próprio histórico.
+- [x] Responsável vê apenas alunos vinculados.
+- [x] Administrador vê relatórios gerais.
 
 ## Fase 6 — Segurança, hardening e produção
 

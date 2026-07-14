@@ -6,7 +6,7 @@ Este repositório inicia a migração do modelo atual, baseado em dados locais n
 
 ## Status
 
-Fase 4 em desenvolvimento: tentativas e correção.
+Fase 5 em desenvolvimento: perfil do aluno, vínculos e relatórios.
 
 Implementado neste repositório:
 
@@ -23,6 +23,9 @@ Implementado neste repositório:
 - CRUD de questões com alternativas, gabarito protegido e reordenação.
 - Início de tentativas, envio de respostas, finalização e resultado detalhado.
 - Correção no servidor para múltipla escolha, verdadeiro/falso, associação e classificação.
+- Perfil do aluno, histórico de tentativas e desempenho agregado.
+- Vínculo responsável-aluno com restrição de acesso.
+- Relatórios básicos por aluno, disciplina, simulado e taxa de erro por questão.
 - Teste unitário inicial do health check.
 - Checklist de desenvolvimento em `docs/checklist-desenvolvimento.md`.
 
@@ -193,15 +196,6 @@ Rotas de tentativa exigem role `STUDENT`, exceto consulta administrativa de tent
 Tentativas finalizadas não aceitam novas respostas.
 Resultados só ficam disponíveis após finalização.
 
-## Endpoints planejados
-
-### Recuperação de senha
-
-```http
-POST /auth/forgot-password
-POST /auth/reset-password
-```
-
 ### Alunos
 
 ```http
@@ -212,6 +206,19 @@ GET   /students/:id/attempts
 GET   /students/:id/performance
 ```
 
+Aluno acessa apenas seus próprios dados. Responsável acessa apenas alunos vinculados. `ADMIN` acessa alunos em geral.
+Professores ainda não possuem vínculo/turma modelado, portanto não recebem acesso amplo a alunos.
+
+### Responsáveis
+
+```http
+GET    /guardians/me/students
+POST   /guardians/students
+DELETE /guardians/:guardianId/students/:studentId
+```
+
+`POST` e `DELETE` de vínculos exigem role `ADMIN`.
+
 ### Relatórios
 
 ```http
@@ -219,6 +226,17 @@ GET /reports/student/:studentId/summary
 GET /reports/student/:studentId/by-discipline
 GET /reports/simulations/:simulationId/performance
 GET /reports/questions/error-rate
+```
+
+Relatórios por aluno seguem a mesma restrição de acesso de estudantes. Relatórios gerais de simulado e taxa de erro exigem role `ADMIN`.
+
+## Endpoints planejados
+
+### Recuperação de senha
+
+```http
+POST /auth/forgot-password
+POST /auth/reset-password
 ```
 
 ## Regras importantes
