@@ -230,3 +230,21 @@ model AttemptAnswer {
   @@unique([attemptId, questionId])
   @@index([questionId])
 }
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actorId   String?
+  action    String
+  method    String
+  path      String
+  statusCode Int?
+  requestId String?
+  ip        String?
+  userAgent String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([actorId])
+  @@index([action])
+  @@index([createdAt])
+}

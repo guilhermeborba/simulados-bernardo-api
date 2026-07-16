@@ -6,7 +6,7 @@ Este repositório inicia a migração do modelo atual, baseado em dados locais n
 
 ## Status
 
-Fase 5 em desenvolvimento: perfil do aluno, vínculos e relatórios.
+Fase 6 em desenvolvimento: segurança, hardening e produção.
 
 Implementado neste repositório:
 
@@ -26,6 +26,13 @@ Implementado neste repositório:
 - Perfil do aluno, histórico de tentativas e desempenho agregado.
 - Vínculo responsável-aluno com restrição de acesso.
 - Relatórios básicos por aluno, disciplina, simulado e taxa de erro por questão.
+- Rate limit global configurável.
+- Headers de segurança com Helmet.
+- `requestId` por requisição via `x-request-id`.
+- Respostas de erro padronizadas.
+- Logs estruturados sem payload sensível.
+- Auditoria administrativa para ações mutáveis.
+- Swagger/OpenAPI em `GET /docs`.
 - Teste unitário inicial do health check.
 - Checklist de desenvolvimento em `docs/checklist-desenvolvimento.md`.
 
@@ -98,6 +105,7 @@ O schema inicial do Prisma cobre as entidades previstas no plano:
 - `QuestionAnswer`
 - `Attempt`
 - `AttemptAnswer`
+- `AuditLog`
 
 Enums principais:
 
@@ -230,6 +238,14 @@ GET /reports/questions/error-rate
 
 Relatórios por aluno seguem a mesma restrição de acesso de estudantes. Relatórios gerais de simulado e taxa de erro exigem role `ADMIN`.
 
+### Documentação técnica
+
+```http
+GET /docs
+```
+
+Disponível quando `API_DOCS_ENABLED=true`.
+
 ## Endpoints planejados
 
 ### Recuperação de senha
@@ -281,6 +297,9 @@ JWT_ACCESS_EXPIRES_IN=15m
 JWT_REFRESH_SECRET=REPLACE_WITH_RANDOM_REFRESH_SECRET_MIN_32_CHARS
 JWT_REFRESH_EXPIRES_IN=7d
 FRONTEND_DATA_DIR=../simulados-bernardo/data
+RATE_LIMIT_TTL_MS=60000
+RATE_LIMIT_MAX=100
+API_DOCS_ENABLED=true
 ```
 
 ## Como rodar localmente
@@ -348,6 +367,23 @@ O seed cria:
 - alternativas/itens/opções;
 - gabaritos em `QuestionAnswer`, sem expor respostas nos endpoints públicos;
 - usuário técnico inativo `seed-importer@simulados.local` para preencher `createdById`.
+
+Guia detalhado: `docs/guia-seed-importacao.md`.
+
+## Segurança e operação
+
+- CORS restrito por `FRONTEND_URL`.
+- Rate limit global por `RATE_LIMIT_TTL_MS` e `RATE_LIMIT_MAX`.
+- Headers HTTP de segurança via Helmet.
+- `x-request-id` aceito e retornado em todas as requisições.
+- Erros seguem formato padronizado com `requestId`.
+- Logs estruturados não incluem corpo da requisição.
+- Auditoria administrativa grava método, rota, usuário, status e metadados não sensíveis.
+
+Guias:
+
+- `docs/guia-permissoes.md`
+- `docs/guia-deploy.md`
 
 ## Scripts
 
