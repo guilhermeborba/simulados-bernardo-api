@@ -140,23 +140,23 @@ Critério de aceite:
 
 Objetivo: preparar o backend para uso real.
 
-- [ ] Configurar rate limit em endpoints sensíveis.
-- [ ] Configurar CORS restrito.
-- [ ] Padronizar respostas de erro.
-- [ ] Adicionar filtro global de exceções.
-- [ ] Adicionar logs estruturados.
-- [ ] Adicionar `requestId`.
-- [ ] Adicionar auditoria administrativa.
-- [ ] Revisar logs para não expor dados sensíveis.
-- [ ] Documentar API com Swagger/OpenAPI.
-- [ ] Criar guia de seed/importação.
-- [ ] Criar guia de permissões por perfil.
-- [ ] Criar guia de deploy.
-- [ ] Executar revisão final de permissões.
+- [x] Configurar rate limit em endpoints sensíveis.
+- [x] Configurar CORS restrito.
+- [x] Padronizar respostas de erro.
+- [x] Adicionar filtro global de exceções.
+- [x] Adicionar logs estruturados.
+- [x] Adicionar `requestId`.
+- [x] Adicionar auditoria administrativa.
+- [x] Revisar logs para não expor dados sensíveis.
+- [x] Documentar API com Swagger/OpenAPI.
+- [x] Criar guia de seed/importação.
+- [x] Criar guia de permissões por perfil.
+- [x] Criar guia de deploy.
+- [x] Executar revisão final de permissões.
 
 Critério de aceite:
 
-- [ ] Endpoints sensíveis estão protegidos.
-- [ ] Erros seguem formato padronizado.
-- [ ] Logs não expõem dados sensíveis.
-- [ ] API está documentada para integração com o front-end.
+- [x] Endpoints sensíveis estão protegidos.
+- [x] Erros seguem formato padronizado.
+- [x] Logs não expõem dados sensíveis.
+- [x] API está documentada para integração com o front-end.

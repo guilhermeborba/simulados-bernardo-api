@@ -11,6 +11,12 @@ const envSchema = z.object({
   JWT_ACCESS_EXPIRES_IN: z.string().default('15m'),
   JWT_REFRESH_SECRET: z.string().min(16),
   JWT_REFRESH_EXPIRES_IN: z.string().default('7d'),
+  RATE_LIMIT_TTL_MS: z.coerce.number().int().positive().default(60_000),
+  RATE_LIMIT_MAX: z.coerce.number().int().positive().default(100),
+  API_DOCS_ENABLED: z
+    .enum(['true', 'false'])
+    .default('true')
+    .transform((value) => value === 'true'),
 });
 
 export type Env = z.infer<typeof envSchema>;
