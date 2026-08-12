@@ -50,7 +50,9 @@ GET  /me/attempts
 
 ### Proteção de rota
 
-`middleware.ts` na raiz do Next protege `/selecao`, `/disciplinas`, `/simulado/*` e `/historico`: verifica apenas a **presença** do cookie `sb_access_token` (sem validar assinatura — isso é responsabilidade do backend a cada chamada) e redireciona para `/login?returnTo=...` quando ausente. Um `AuthContext` (React context) carrega `GET /api/auth/me` uma vez no mount do layout autenticado, expõe `{ user, isLoading, logout }` para a árvore de componentes.
+`/selecao` e `/disciplinas` não são rotas reais do Next — são passos de um único componente client-side (`SelectionScreen.tsx`) que troca de tela via `useState`, sem navegação de URL. Por isso a proteção deles acontece no próprio componente: o botão "Começar" do `HeroStep` só avança de passo se `AuthContext` já tiver um usuário carregado; caso contrário redireciona para `/login`.
+
+`middleware.ts` na raiz do Next protege as rotas que **são** endereços próprios — `/simulado/*` e `/historico` — verificando apenas a **presença** do cookie `sb_access_token` (sem validar assinatura — isso é responsabilidade do backend a cada chamada) e redirecionando para `/login?returnTo=...` quando ausente. Um `AuthContext` (React context) carrega `GET /api/auth/me` uma vez no mount do layout raiz, expõe `{ user, isLoading, login, register, logout }` para a árvore de componentes.
 
 ## Fluxo do aluno
 
