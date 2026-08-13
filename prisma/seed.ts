@@ -51,6 +51,7 @@ interface DisciplineSeed {
   description: string;
   icon: string;
   themeColor: string;
+  hidden?: boolean;
 }
 
 interface SimulationSeed {
@@ -63,6 +64,7 @@ interface SimulationSeed {
   title: string;
   subtitle: string;
   estimatedDurationMinutes: number;
+  slug?: string;
 }
 
 interface NormalizedSimulationSeed
@@ -106,6 +108,15 @@ const disciplines: DisciplineSeed[] = [
     description: 'Mapas, regiões, paisagens e espaço geográfico.',
     icon: '🌎',
     themeColor: '#8B6DE0',
+  },
+  {
+    name: 'Enfermagem',
+    slug: 'enfermagem',
+    description:
+      'Fundamentos, ética e legislação do Curso Técnico em Enfermagem.',
+    icon: '🩺',
+    themeColor: '#2FB867',
+    hidden: true,
   },
 ];
 
@@ -242,6 +253,18 @@ const simulations: SimulationSeed[] = [
     subtitle: '2º Bimestre — 3º Ano',
     estimatedDurationMinutes: 45,
   },
+  {
+    file: 'questoes-enfermagem.ts',
+    exportName: 'questoesEnfermagem',
+    disciplineSlug: 'enfermagem',
+    schoolYear: 0,
+    bimester: 0,
+    assessment: 'UNICO',
+    title: 'Simulado — Fundamentos, Ética e Legislação em Enfermagem',
+    subtitle: 'Curso Técnico em Enfermagem — 75 questões',
+    estimatedDurationMinutes: 90,
+    slug: 'enfermagem',
+  },
 ];
 
 async function main() {
@@ -272,7 +295,7 @@ async function main() {
     }
 
     const maxScore = getMaxScore(simulation.questions);
-    const simulationSlug = getSimulationSlug(simulation);
+    const simulationSlug = simulation.slug ?? getSimulationSlug(simulation);
     const savedSimulation = await prisma.simulation.upsert({
       where: { slug: simulationSlug },
       create: {
@@ -354,15 +377,19 @@ async function upsertDisciplines() {
       const savedDiscipline = await prisma.discipline.upsert({
         where: { slug: discipline.slug },
         create: {
-          ...discipline,
-          isActive: true,
+          name: discipline.name,
+          slug: discipline.slug,
+          description: discipline.description,
+          icon: discipline.icon,
+          themeColor: discipline.themeColor,
+          isActive: !discipline.hidden,
         },
         update: {
           name: discipline.name,
           description: discipline.description,
           icon: discipline.icon,
           themeColor: discipline.themeColor,
-          isActive: true,
+          isActive: !discipline.hidden,
           deletedAt: null,
         },
       });
