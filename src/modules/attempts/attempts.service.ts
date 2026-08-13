@@ -26,10 +26,10 @@ export class AttemptsService {
     private readonly correctionService: AttemptsCorrectionService,
   ) {}
 
-  async startAttempt(simulationId: string, studentId: string) {
+  async startAttempt(simulationIdOrSlug: string, studentId: string) {
     const simulation = await this.prisma.simulation.findFirst({
       where: {
-        id: simulationId,
+        OR: [{ id: simulationIdOrSlug }, { slug: simulationIdOrSlug }],
         status: SimulationStatus.PUBLISHED,
         deletedAt: null,
       },
@@ -57,7 +57,7 @@ export class AttemptsService {
     return this.prisma.attempt.create({
       data: {
         studentId,
-        simulationId,
+        simulationId: simulation.id,
         status: AttemptStatus.IN_PROGRESS,
         maxScore: simulation.maxScore,
       },
