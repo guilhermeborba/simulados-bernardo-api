@@ -71,6 +71,41 @@ export class AttemptsService {
     return attempt;
   }
 
+  async getAttemptQuestions(attemptId: string, user: RequestUser) {
+    const attempt = await this.findAttemptOrThrow(attemptId);
+    this.assertCanAccessAttempt(attempt.studentId, user);
+
+    const questions = await this.prisma.question.findMany({
+      where: {
+        simulationId: attempt.simulationId,
+        isActive: true,
+        deletedAt: null,
+      },
+      include: {
+        options: {
+          orderBy: { sortOrder: 'asc' },
+        },
+      },
+      orderBy: { sortOrder: 'asc' },
+    });
+
+    return questions.map((question) => ({
+      id: question.id,
+      type: question.type,
+      statement: question.statement,
+      tip: question.tip,
+      points: question.points,
+      order: question.sortOrder,
+      options: question.options.map((option) => ({
+        id: option.id,
+        optionKey: option.optionKey,
+        text: option.text,
+        groupKey: option.groupKey,
+        order: option.sortOrder,
+      })),
+    }));
+  }
+
   async findMyAttempts(studentId: string) {
     return this.prisma.attempt.findMany({
       where: { studentId },

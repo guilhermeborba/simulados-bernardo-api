@@ -38,6 +38,15 @@ export class AttemptsController {
     return this.attemptsService.findAttempt(id, user);
   }
 
+  @Get('attempts/:id/questions')
+  @Roles(UserRole.STUDENT, UserRole.ADMIN)
+  getAttemptQuestions(
+    @Param('id') id: string,
+    @CurrentUser() user: AuthenticatedUser,
+  ) {
+    return this.attemptsService.getAttemptQuestions(id, user);
+  }
+
   @Post('attempts/:id/questions/:questionId/answer')
   @Roles(UserRole.STUDENT)
   submitAnswer(
