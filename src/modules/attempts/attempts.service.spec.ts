@@ -136,6 +136,73 @@ describe('AttemptsService', () => {
     );
   });
 
+  it('returns questions with options for an attempt, without answer keys', async () => {
+    prisma.attempt.findUnique.mockResolvedValue({
+      id: 'attempt-1',
+      studentId: student.id,
+      simulationId: 'simulation-1',
+      status: AttemptStatus.IN_PROGRESS,
+      simulation: {},
+    });
+    prisma.question.findMany.mockResolvedValue([
+      {
+        id: 'question-1',
+        type: QuestionType.MULTIPLE_CHOICE,
+        statement: 'What is 2 + 2?',
+        tip: 'Add the numbers',
+        points: new Prisma.Decimal(1),
+        sortOrder: 1,
+        options: [
+          {
+            id: 'option-1',
+            optionKey: 'a',
+            text: '3',
+            groupKey: null,
+            sortOrder: 1,
+          },
+          {
+            id: 'option-2',
+            optionKey: 'b',
+            text: '4',
+            groupKey: null,
+            sortOrder: 2,
+          },
+        ],
+      },
+    ]);
+
+    await expect(
+      service.getAttemptQuestions('attempt-1', student),
+    ).resolves.toEqual([
+      {
+        id: 'question-1',
+        type: QuestionType.MULTIPLE_CHOICE,
+        statement: 'What is 2 + 2?',
+        tip: 'Add the numbers',
+        points: new Prisma.Decimal(1),
+        order: 1,
+        options: [
+          { id: 'option-1', optionKey: 'a', text: '3', groupKey: null, order: 1 },
+          { id: 'option-2', optionKey: 'b', text: '4', groupKey: null, order: 2 },
+        ],
+      },
+    ]);
+  });
+
+  it('blocks reading questions for an attempt owned by another student', async () => {
+    prisma.attempt.findUnique.mockResolvedValue({
+      id: 'attempt-1',
+      studentId: 'other-student',
+      simulationId: 'simulation-1',
+      status: AttemptStatus.IN_PROGRESS,
+      simulation: {},
+    });
+
+    await expect(
+      service.getAttemptQuestions('attempt-1', student),
+    ).rejects.toBeInstanceOf(ForbiddenException);
+  });
+
   it('finishes an attempt and calculates score', async () => {
     const startedAt = new Date(Date.now() - 30_000);
     prisma.attempt.findUnique
