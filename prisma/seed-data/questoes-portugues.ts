@@ -3130,8 +3130,8 @@ export const questoesPortugues = {
         {
           id: 30,
           type: "multiple_choice",
-          text: "Leia: \"Ontem fomos ao parque. Hoje brincamos em casa. Amanhã iremos à escola.\" Qual é a ordem dos tempos indicados pelas três frases?",
-          tip: "Observe especialmente as palavras ontem, hoje e amanhã. Curiosidade: os verbos podem mudar de forma para indicar se algo já aconteceu, está acontecendo ou ainda acontecerá.",
+          text: "Leia: \"Ontem fomos ao parque. Agora estamos brincando em casa. Amanhã iremos à escola.\" Qual é a ordem dos tempos indicados?",
+          tip: "Observe os verbos fomos, estamos brincando e iremos — cada um marca um tempo diferente. Curiosidade: os verbos podem mudar de forma para indicar se algo já aconteceu, está acontecendo ou ainda acontecerá.",
           points: 1,
           options: [
             {
