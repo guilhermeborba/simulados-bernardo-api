@@ -17,7 +17,7 @@ const prisma = new PrismaClient();
 
 const frontendDataDir =
   process.env.FRONTEND_DATA_DIR ??
-  resolve(process.cwd(), '../simulados-bernardo/data');
+  resolve(process.cwd(), 'prisma/seed-data');
 
 interface FrontendOption {
   id: string | number;
