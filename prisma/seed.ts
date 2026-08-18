@@ -155,6 +155,17 @@ const simulations: SimulationSeed[] = [
     estimatedDurationMinutes: 45,
   },
   {
+    file: 'questoes-matematica-3bim-av1.ts',
+    exportName: 'questoesMatematica3BimAv1',
+    disciplineSlug: 'matematica',
+    schoolYear: 3,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado AV1 — Matemática',
+    subtitle: '3º Bimestre — 3º Ano',
+    estimatedDurationMinutes: 45,
+  },
+  {
     file: 'questoes-ciencias.ts',
     exportName: 'questoesCiencias',
     disciplineSlug: 'ciencias',
