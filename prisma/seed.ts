@@ -276,6 +276,17 @@ const simulations: SimulationSeed[] = [
     estimatedDurationMinutes: 45,
   },
   {
+    file: 'questoes-geografia-3bim-av1.ts',
+    exportName: 'questoesGeografiaAv1Bim3',
+    disciplineSlug: 'geografia',
+    schoolYear: 3,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado AV1 — Geografia',
+    subtitle: '3º Bimestre — 3º Ano',
+    estimatedDurationMinutes: 45,
+  },
+  {
     file: 'questoes-enfermagem.ts',
     exportName: 'questoesEnfermagem',
     disciplineSlug: 'enfermagem',
