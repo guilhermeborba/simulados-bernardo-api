@@ -199,6 +199,17 @@ const simulations: SimulationSeed[] = [
     estimatedDurationMinutes: 45,
   },
   {
+    file: 'questoes-ciencias-3bim-av1.ts',
+    exportName: 'questoesCienciasAv1Bim3',
+    disciplineSlug: 'ciencias',
+    schoolYear: 3,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado AV1 — Ciências',
+    subtitle: '3º Bimestre — 3º Ano',
+    estimatedDurationMinutes: 45,
+  },
+  {
     file: 'questoes-historia.ts',
     exportName: 'questoesHistoria',
     disciplineSlug: 'historia',
