@@ -61,6 +61,13 @@ export class AttemptsService {
         status: AttemptStatus.IN_PROGRESS,
         maxScore: simulation.maxScore,
       },
+      include: {
+        simulation: {
+          include: {
+            discipline: true,
+          },
+        },
+      },
     });
   }
 
