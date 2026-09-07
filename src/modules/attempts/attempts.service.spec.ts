@@ -20,6 +20,7 @@ describe('AttemptsService', () => {
     attempt: {
       create: jest.Mock;
       findUnique: jest.Mock;
+      findFirst: jest.Mock;
       update: jest.Mock;
       findMany: jest.Mock;
     };
@@ -47,6 +48,7 @@ describe('AttemptsService', () => {
       attempt: {
         create: jest.fn(),
         findUnique: jest.fn(),
+        findFirst: jest.fn().mockResolvedValue(null),
         update: jest.fn(),
         findMany: jest.fn(),
       },
@@ -103,6 +105,24 @@ describe('AttemptsService', () => {
         }),
       }),
     );
+  });
+
+  it('reuses the attempt already in progress instead of creating another', async () => {
+    prisma.simulation.findFirst.mockResolvedValue({
+      id: 'simulation-1',
+      status: SimulationStatus.PUBLISHED,
+      maxScore: new Prisma.Decimal(2),
+      questions: [{ id: 'question-1' }],
+    });
+    prisma.attempt.findFirst.mockResolvedValue({
+      id: 'attempt-em-andamento',
+      status: AttemptStatus.IN_PROGRESS,
+    });
+
+    await expect(
+      service.startAttempt('simulation-1', student.id),
+    ).resolves.toMatchObject({ id: 'attempt-em-andamento' });
+    expect(prisma.attempt.create).not.toHaveBeenCalled();
   });
 
   it('blocks answer updates after attempt is finished', async () => {
@@ -170,6 +190,7 @@ describe('AttemptsService', () => {
             sortOrder: 2,
           },
         ],
+        attemptAnswers: [{ answer: { answer: 'b' } }],
       },
     ]);
 
@@ -183,6 +204,7 @@ describe('AttemptsService', () => {
         tip: 'Add the numbers',
         points: new Prisma.Decimal(1),
         order: 1,
+        answer: { answer: 'b' },
         options: [
           { id: 'option-1', optionKey: 'a', text: '3', groupKey: null, order: 1 },
           { id: 'option-2', optionKey: 'b', text: '4', groupKey: null, order: 2 },

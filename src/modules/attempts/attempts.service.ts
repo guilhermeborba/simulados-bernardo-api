@@ -54,6 +54,30 @@ export class AttemptsService {
       throw new BadRequestException('Simulation has no active questions');
     }
 
+    // Entrar de novo em um simulado retoma a tentativa aberta em vez de criar
+    // outra. Sem isso, cada carregamento da página gerava uma tentativa nova e
+    // o histórico do aluno enchia de registros "em andamento" que ele nunca
+    // abriu de propósito.
+    const openAttempt = await this.prisma.attempt.findFirst({
+      where: {
+        studentId,
+        simulationId: simulation.id,
+        status: AttemptStatus.IN_PROGRESS,
+      },
+      orderBy: { createdAt: 'desc' },
+      include: {
+        simulation: {
+          include: {
+            discipline: true,
+          },
+        },
+      },
+    });
+
+    if (openAttempt) {
+      return openAttempt;
+    }
+
     return this.prisma.attempt.create({
       data: {
         studentId,
@@ -92,6 +116,11 @@ export class AttemptsService {
         options: {
           orderBy: { sortOrder: 'asc' },
         },
+        // A própria resposta do aluno, para que retomar a tentativa recupere o
+        // que ele já tinha marcado. Continua sem expor o gabarito.
+        attemptAnswers: {
+          where: { attemptId },
+        },
       },
       orderBy: { sortOrder: 'asc' },
     });
@@ -103,6 +132,7 @@ export class AttemptsService {
       tip: question.tip,
       points: question.points,
       order: question.sortOrder,
+      answer: question.attemptAnswers[0]?.answer ?? null,
       options: question.options.map((option) => ({
         id: option.id,
         optionKey: option.optionKey,
