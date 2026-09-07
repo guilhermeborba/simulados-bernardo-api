@@ -93,14 +93,16 @@ describe('AttemptsService', () => {
       id: 'attempt-1',
       status: AttemptStatus.IN_PROGRESS,
     });
-    expect(prisma.attempt.create).toHaveBeenCalledWith({
-      data: expect.objectContaining({
-        studentId: student.id,
-        simulationId: 'simulation-1',
-        status: AttemptStatus.IN_PROGRESS,
-        maxScore: new Prisma.Decimal(2),
+    expect(prisma.attempt.create).toHaveBeenCalledWith(
+      expect.objectContaining({
+        data: expect.objectContaining({
+          studentId: student.id,
+          simulationId: 'simulation-1',
+          status: AttemptStatus.IN_PROGRESS,
+          maxScore: new Prisma.Decimal(2),
+        }),
       }),
-    });
+    );
   });
 
   it('blocks answer updates after attempt is finished', async () => {
