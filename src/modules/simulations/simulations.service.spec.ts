@@ -9,6 +9,7 @@ describe('SimulationsService', () => {
   let prisma: {
     simulation: {
       findFirst: jest.Mock;
+      findMany: jest.Mock;
       update: jest.Mock;
     };
     question: {
@@ -20,6 +21,7 @@ describe('SimulationsService', () => {
     prisma = {
       simulation: {
         findFirst: jest.fn(),
+        findMany: jest.fn().mockResolvedValue([]),
         update: jest.fn(),
       },
       question: {
@@ -38,6 +40,23 @@ describe('SimulationsService', () => {
     }).compile();
 
     service = moduleRef.get(SimulationsService);
+  });
+
+  it('keeps schoolYear 0 as a filter so técnico simulations are not mixed in', async () => {
+    await service.findAvailable({ schoolYear: 0 });
+
+    expect(prisma.simulation.findMany).toHaveBeenCalledWith(
+      expect.objectContaining({
+        where: expect.objectContaining({ schoolYear: 0 }),
+      }),
+    );
+  });
+
+  it('omits the schoolYear filter when it was not informed', async () => {
+    await service.findAvailable({});
+
+    const where = prisma.simulation.findMany.mock.calls[0][0].where;
+    expect(where).not.toHaveProperty('schoolYear');
   });
 
   it('publishes simulation when active question count matches total', async () => {

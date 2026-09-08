@@ -126,6 +126,9 @@ model Simulation {
   schoolYear               Int
   bimester                 Int
   assessment               String
+  /// Eixo temático. Só faz sentido em curso técnico, que não tem bimestre nem
+  /// avaliação: é por ele que o aluno chega ao simulado.
+  topic                    String?
   disciplineId             String
   status                   SimulationStatus @default(DRAFT)
   totalQuestions           Int
@@ -144,6 +147,7 @@ model Simulation {
   @@index([disciplineId])
   @@index([status])
   @@index([schoolYear, bimester, assessment])
+  @@index([disciplineId, topic])
 }
 
 model Question {

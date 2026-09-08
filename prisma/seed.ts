@@ -65,6 +65,11 @@ interface SimulationSeed {
   subtitle: string;
   estimatedDurationMinutes: number;
   slug?: string;
+  /**
+   * Eixo temático, usado só no curso técnico. Na educação básica o simulado é
+   * encontrado por ano/bimestre/avaliação e este campo fica vazio.
+   */
+  topic?: string;
 }
 
 interface NormalizedSimulationSeed
@@ -116,7 +121,6 @@ const disciplines: DisciplineSeed[] = [
       'Fundamentos, ética e legislação do Curso Técnico em Enfermagem.',
     icon: '🩺',
     themeColor: '#2FB867',
-    hidden: true,
   },
 ];
 
@@ -308,6 +312,7 @@ const simulations: SimulationSeed[] = [
     subtitle: 'Curso Técnico em Enfermagem — 75 questões',
     estimatedDurationMinutes: 90,
     slug: 'enfermagem',
+    topic: 'Fundamentos, Ética e Legislação',
   },
 ];
 
@@ -349,6 +354,7 @@ async function main() {
         schoolYear: simulation.schoolYear,
         bimester: simulation.bimester,
         assessment: simulation.assessment,
+        topic: simulation.topic ?? null,
         disciplineId: discipline.id,
         status: SimulationStatus.PUBLISHED,
         totalQuestions: simulation.questions.length,
@@ -363,6 +369,7 @@ async function main() {
         schoolYear: simulation.schoolYear,
         bimester: simulation.bimester,
         assessment: simulation.assessment,
+        topic: simulation.topic ?? null,
         disciplineId: discipline.id,
         status: SimulationStatus.PUBLISHED,
         totalQuestions: simulation.questions.length,
