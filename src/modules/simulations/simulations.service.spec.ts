@@ -1,7 +1,8 @@
 import { BadRequestException } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
-import { SimulationStatus } from '@prisma/client';
+import { SimulationStatus, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { TurmasService } from '../turmas/turmas.service';
 import { SimulationsService } from './simulations.service';
 
 describe('SimulationsService', () => {
@@ -17,7 +18,10 @@ describe('SimulationsService', () => {
     };
   };
 
+  let turmas: { accessibleTurmaIds: jest.Mock };
+
   beforeEach(async () => {
+    turmas = { accessibleTurmaIds: jest.fn().mockResolvedValue([]) };
     prisma = {
       simulation: {
         findFirst: jest.fn(),
@@ -35,6 +39,10 @@ describe('SimulationsService', () => {
         {
           provide: PrismaService,
           useValue: prisma,
+        },
+        {
+          provide: TurmasService,
+          useValue: turmas,
         },
       ],
     }).compile();
@@ -57,6 +65,30 @@ describe('SimulationsService', () => {
 
     const where = prisma.simulation.findMany.mock.calls[0][0].where;
     expect(where).not.toHaveProperty('schoolYear');
+  });
+
+  it('hides turma simulations from anonymous visitors', async () => {
+    await service.findAvailable({});
+
+    const where = prisma.simulation.findMany.mock.calls[0][0].where;
+    expect(where.turmaId).toBeNull();
+  });
+
+  it('shows public simulations plus the ones of turmas the student belongs to', async () => {
+    turmas.accessibleTurmaIds.mockResolvedValue(['turma-1']);
+
+    await service.findAvailable({}, { id: 'aluno-1', role: UserRole.STUDENT });
+
+    const where = prisma.simulation.findMany.mock.calls[0][0].where;
+    expect(where.OR).toEqual([{ turmaId: null }, { turmaId: { in: ['turma-1'] } }]);
+  });
+
+  it('hides nothing from an admin', async () => {
+    await service.findAvailable({}, { id: 'admin-1', role: UserRole.ADMIN });
+
+    const where = prisma.simulation.findMany.mock.calls[0][0].where;
+    expect(where).not.toHaveProperty('turmaId');
+    expect(where).not.toHaveProperty('OR');
   });
 
   it('publishes simulation when active question count matches total', async () => {

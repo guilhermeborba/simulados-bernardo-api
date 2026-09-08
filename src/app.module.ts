@@ -18,6 +18,7 @@ import { QuestionsModule } from './modules/questions/questions.module';
 import { ReportsModule } from './modules/reports/reports.module';
 import { SimulationsModule } from './modules/simulations/simulations.module';
 import { StudentsModule } from './modules/students/students.module';
+import { TurmasModule } from './modules/turmas/turmas.module';
 import { UsersModule } from './modules/users/users.module';
 
 @Module({
@@ -47,6 +48,7 @@ import { UsersModule } from './modules/users/users.module';
     StudentsModule,
     GuardiansModule,
     ReportsModule,
+    TurmasModule,
   ],
   providers: [
     {

@@ -7,6 +7,7 @@ import { User, UserRole, UserStatus } from '@prisma/client';
 import { compare, hash } from 'bcryptjs';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { UsersService } from '../users/users.service';
+import { TurmasService } from '../turmas/turmas.service';
 import { AuthService } from './auth.service';
 import { AuthTokenPayload } from './types/auth-token-payload';
 
@@ -90,6 +91,13 @@ describe('AuthService', () => {
         {
           provide: PrismaService,
           useValue: prisma,
+        },
+        {
+          provide: TurmasService,
+          useValue: {
+            assertInviteUsable: jest.fn(),
+            redeemInvite: jest.fn(),
+          },
         },
         {
           provide: JwtService,

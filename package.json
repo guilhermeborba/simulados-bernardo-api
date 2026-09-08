@@ -20,7 +20,8 @@
     "prisma:studio": "prisma studio",
     "seed": "ts-node --transpile-only prisma/seed.ts",
     "seed:dry-run": "SEED_DRY_RUN=true ts-node --transpile-only prisma/seed.ts",
-    "limpar:tentativas": "ts-node --transpile-only scripts/limpar-tentativas-orfas.ts"
+    "limpar:tentativas": "ts-node --transpile-only scripts/limpar-tentativas-orfas.ts",
+    "convite": "ts-node --transpile-only scripts/gerar-convite.ts"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.28",

@@ -17,6 +17,7 @@ import {
   AuthenticatedUser,
   JwtAuthGuard,
 } from '../../common/guards/jwt-auth.guard';
+import { OptionalJwtAuthGuard } from '../../common/guards/optional-jwt-auth.guard';
 import { RolesGuard } from '../../common/guards/roles.guard';
 import { CreateSimulationDto } from './dto/create-simulation.dto';
 import { FindAvailableSimulationsDto } from './dto/find-available-simulations.dto';
@@ -27,9 +28,16 @@ import { SimulationsService } from './simulations.service';
 export class SimulationsController {
   constructor(private readonly simulationsService: SimulationsService) {}
 
+  // Continua aberta: a porta de entrada lista o catálogo público antes do
+  // login. O guard só identifica quem já está autenticado, para que o conteúdo
+  // de turma apareça para os membros.
   @Get('available')
-  findAvailable(@Query() filters: FindAvailableSimulationsDto) {
-    return this.simulationsService.findAvailable(filters);
+  @UseGuards(OptionalJwtAuthGuard)
+  findAvailable(
+    @Query() filters: FindAvailableSimulationsDto,
+    @CurrentUser() user?: AuthenticatedUser,
+  ) {
+    return this.simulationsService.findAvailable(filters, user ?? null);
   }
 
   @Get()

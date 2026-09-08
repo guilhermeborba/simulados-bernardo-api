@@ -59,6 +59,8 @@ model User {
   studentGuardianLinks GuardianStudent[] @relation("StudentGuardianLinks")
   attempts             Attempt[]         @relation("StudentAttempts")
   refreshTokens        RefreshToken[]
+  turmaMemberships     TurmaMembership[]
+  createdTurmaInvites  TurmaInvite[]     @relation("TurmaInviteCreatedBy")
 
   @@index([role])
   @@index([status])
@@ -129,6 +131,9 @@ model Simulation {
   /// Eixo temático. Só faz sentido em curso técnico, que não tem bimestre nem
   /// avaliação: é por ele que o aluno chega ao simulado.
   topic                    String?
+  /// Nulo é público. Preenchido, o simulado só aparece — e só pode ser
+  /// iniciado — por quem é membro da turma.
+  turmaId                  String?
   disciplineId             String
   status                   SimulationStatus @default(DRAFT)
   totalQuestions           Int
@@ -140,6 +145,7 @@ model Simulation {
   publishedAt              DateTime?
   deletedAt                DateTime?
   discipline               Discipline       @relation(fields: [disciplineId], references: [id])
+  turma                    Turma?           @relation(fields: [turmaId], references: [id])
   createdBy                User             @relation("SimulationCreatedBy", fields: [createdById], references: [id])
   questions                Question[]
   attempts                 Attempt[]
@@ -148,6 +154,7 @@ model Simulation {
   @@index([status])
   @@index([schoolYear, bimester, assessment])
   @@index([disciplineId, topic])
+  @@index([turmaId])
 }
 
 model Question {
@@ -236,19 +243,74 @@ model AttemptAnswer {
 }
 
 model AuditLog {
-  id        String   @id @default(cuid())
-  actorId   String?
-  action    String
-  method    String
-  path      String
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
+  method     String
+  path       String
   statusCode Int?
-  requestId String?
-  ip        String?
-  userAgent String?
-  metadata  Json?
-  createdAt DateTime @default(now())
+  requestId  String?
+  ip         String?
+  userAgent  String?
+  metadata   Json?
+  createdAt  DateTime @default(now())
 
   @@index([actorId])
   @@index([action])
   @@index([createdAt])
+}
+
+/// Turma fechada: um grupo de alunos que enxerga simulados que o resto do site
+/// não enxerga. Existe porque as provas da escola não devem ficar públicas.
+model Turma {
+  id          String            @id @default(cuid())
+  name        String
+  slug        String            @unique
+  schoolName  String?
+  schoolYear  Int?
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  deletedAt   DateTime?
+  invites     TurmaInvite[]
+  memberships TurmaMembership[]
+  simulations Simulation[]
+}
+
+/// Convite de entrada na turma. O token viaja no link, mas aqui fica só o seu
+/// hash — um vazamento do banco não entrega acesso a ninguém.
+model TurmaInvite {
+  id          String    @id @default(cuid())
+  turmaId     String
+  tokenHash   String    @unique
+  label       String?
+  expiresAt   DateTime?
+  maxUses     Int?
+  usedCount   Int       @default(0)
+  revokedAt   DateTime?
+  createdById String
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  turma       Turma             @relation(fields: [turmaId], references: [id])
+  createdBy   User              @relation("TurmaInviteCreatedBy", fields: [createdById], references: [id])
+  memberships TurmaMembership[]
+
+  @@index([turmaId])
+}
+
+/// Participação de um aluno numa turma. É este registro — e não o link — que
+/// autoriza o acesso: o convite só existe para criá-lo.
+model TurmaMembership {
+  id        String   @id @default(cuid())
+  turmaId   String
+  userId    String
+  inviteId  String?
+  createdAt DateTime @default(now())
+
+  turma  Turma        @relation(fields: [turmaId], references: [id])
+  user   User         @relation(fields: [userId], references: [id])
+  invite TurmaInvite? @relation(fields: [inviteId], references: [id])
+
+  @@unique([turmaId, userId])
+  @@index([userId])
 }

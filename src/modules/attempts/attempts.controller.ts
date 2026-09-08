@@ -29,7 +29,7 @@ export class AttemptsController {
     @Param('simulationId') simulationId: string,
     @CurrentUser() user: AuthenticatedUser,
   ) {
-    return this.attemptsService.startAttempt(simulationId, user.id);
+    return this.attemptsService.startAttempt(simulationId, user);
   }
 
   @Get('attempts/:id')

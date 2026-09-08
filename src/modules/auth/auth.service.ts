@@ -6,6 +6,7 @@ import { User, UserStatus } from '@prisma/client';
 import { compare, hash } from 'bcryptjs';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { SafeUser } from '../users/users.presenter';
+import { TurmasService } from '../turmas/turmas.service';
 import { UsersService } from '../users/users.service';
 import { LoginDto } from './dto/login.dto';
 import { RefreshTokenDto } from './dto/refresh-token.dto';
@@ -33,9 +34,16 @@ export class AuthService {
     private readonly prisma: PrismaService,
     private readonly jwtService: JwtService,
     private readonly configService: ConfigService,
+    private readonly turmasService: TurmasService,
   ) {}
 
   async register(dto: RegisterDto): Promise<AuthResponse> {
+    // Convite conferido antes de criar a conta: um link ruim vira erro sem
+    // deixar um usuário criado pela metade.
+    if (dto.inviteToken) {
+      await this.turmasService.assertInviteUsable(dto.inviteToken);
+    }
+
     const passwordHash = await hash(dto.password, this.passwordSaltRounds);
     const user = await this.usersService.create({
       name: dto.name,
@@ -43,6 +51,10 @@ export class AuthService {
       passwordHash,
       status: UserStatus.ACTIVE,
     });
+
+    if (dto.inviteToken) {
+      await this.turmasService.redeemInvite(dto.inviteToken, user.id);
+    }
 
     const tokens = await this.createTokenPair(user);
 
