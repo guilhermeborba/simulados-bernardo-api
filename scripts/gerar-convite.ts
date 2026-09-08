@@ -69,7 +69,7 @@ async function main() {
   console.log(`Usos:     ${invite.maxUses ?? 'ilimitados'}`);
   console.log(`Expira:   ${invite.expiresAt?.toISOString() ?? 'nunca'}`);
   console.log(`\nLink para enviar aos alunos:\n`);
-  console.log(`  ${baseUrl}/registro?convite=${token}\n`);
+  console.log(`  ${baseUrl}/convite?t=${token}\n`);
   console.log('Guarde o link: o token não pode ser recuperado depois.\n');
 }
 
