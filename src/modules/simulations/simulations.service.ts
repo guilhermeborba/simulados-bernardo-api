@@ -32,8 +32,13 @@ export class SimulationsService {
         deletedAt: null,
         ...(filters.discipline ? { slug: filters.discipline } : {}),
       },
-      ...(filters.schoolYear ? { schoolYear: filters.schoolYear } : {}),
-      ...(filters.bimester ? { bimester: filters.bimester } : {}),
+      // Comparar com undefined, não com falsy: curso técnico é gravado com
+      // schoolYear 0, e o teste anterior descartava esse filtro, devolvendo
+      // todos os simulados da base.
+      ...(filters.schoolYear !== undefined
+        ? { schoolYear: filters.schoolYear }
+        : {}),
+      ...(filters.bimester !== undefined ? { bimester: filters.bimester } : {}),
       ...(filters.assessment
         ? { assessment: filters.assessment.trim().toUpperCase() }
         : {}),
