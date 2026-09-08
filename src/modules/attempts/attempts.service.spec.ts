@@ -1,4 +1,8 @@
-import { BadRequestException, ForbiddenException } from '@nestjs/common';
+import {
+  BadRequestException,
+  ForbiddenException,
+  NotFoundException,
+} from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import {
   AttemptStatus,
@@ -8,6 +12,7 @@ import {
   UserRole,
 } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
 
@@ -34,6 +39,7 @@ describe('AttemptsService', () => {
     };
     $transaction: jest.Mock;
   };
+  let turmas: { assertCanAccessTurma: jest.Mock };
 
   const student = {
     id: 'student-1',
@@ -62,6 +68,7 @@ describe('AttemptsService', () => {
       },
       $transaction: jest.fn(async (operations: unknown[]) => operations),
     };
+    turmas = { assertCanAccessTurma: jest.fn().mockResolvedValue(undefined) };
 
     const moduleRef = await Test.createTestingModule({
       providers: [
@@ -70,6 +77,10 @@ describe('AttemptsService', () => {
         {
           provide: PrismaService,
           useValue: prisma,
+        },
+        {
+          provide: TurmasService,
+          useValue: turmas,
         },
       ],
     }).compile();
@@ -90,7 +101,7 @@ describe('AttemptsService', () => {
     });
 
     await expect(
-      service.startAttempt('simulation-1', student.id),
+      service.startAttempt('simulation-1', student),
     ).resolves.toMatchObject({
       id: 'attempt-1',
       status: AttemptStatus.IN_PROGRESS,
@@ -107,6 +118,39 @@ describe('AttemptsService', () => {
     );
   });
 
+  it('refuses to start a turma simulation for a student who is not a member', async () => {
+    prisma.simulation.findFirst.mockResolvedValue({
+      id: 'simulation-1',
+      turmaId: 'turma-1',
+      status: SimulationStatus.PUBLISHED,
+      maxScore: new Prisma.Decimal(2),
+      questions: [{ id: 'question-1' }],
+    });
+    turmas.assertCanAccessTurma.mockRejectedValue(
+      new NotFoundException('Published simulation not found'),
+    );
+
+    await expect(
+      service.startAttempt('simulation-1', student),
+    ).rejects.toBeInstanceOf(NotFoundException);
+    expect(prisma.attempt.create).not.toHaveBeenCalled();
+  });
+
+  it('checks turma access before creating the attempt', async () => {
+    prisma.simulation.findFirst.mockResolvedValue({
+      id: 'simulation-1',
+      turmaId: 'turma-1',
+      status: SimulationStatus.PUBLISHED,
+      maxScore: new Prisma.Decimal(2),
+      questions: [{ id: 'question-1' }],
+    });
+    prisma.attempt.create.mockResolvedValue({ id: 'attempt-1' });
+
+    await service.startAttempt('simulation-1', student);
+
+    expect(turmas.assertCanAccessTurma).toHaveBeenCalledWith('turma-1', student);
+  });
+
   it('reuses the attempt already in progress instead of creating another', async () => {
     prisma.simulation.findFirst.mockResolvedValue({
       id: 'simulation-1',
@@ -120,7 +164,7 @@ describe('AttemptsService', () => {
     });
 
     await expect(
-      service.startAttempt('simulation-1', student.id),
+      service.startAttempt('simulation-1', student),
     ).resolves.toMatchObject({ id: 'attempt-em-andamento' });
     expect(prisma.attempt.create).not.toHaveBeenCalled();
   });

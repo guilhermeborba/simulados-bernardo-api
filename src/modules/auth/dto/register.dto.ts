@@ -1,4 +1,4 @@
-import { IsEmail, IsString, MaxLength, MinLength } from 'class-validator';
+import { IsEmail, IsOptional, IsString, MaxLength, MinLength } from 'class-validator';
 
 export class RegisterDto {
   @IsString()
@@ -13,4 +13,11 @@ export class RegisterDto {
   @MinLength(8)
   @MaxLength(128)
   password!: string;
+
+  /** Token do link de convite, quando o cadastro veio por uma turma. */
+  @IsOptional()
+  @IsString()
+  @MinLength(20)
+  @MaxLength(200)
+  inviteToken?: string;
 }

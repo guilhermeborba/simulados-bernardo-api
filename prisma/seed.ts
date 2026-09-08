@@ -54,6 +54,12 @@ interface DisciplineSeed {
   hidden?: boolean;
 }
 
+interface TurmaSeed {
+  name: string;
+  slug: string;
+  schoolYear?: number;
+}
+
 interface SimulationSeed {
   file: string;
   exportName: string;
@@ -70,6 +76,11 @@ interface SimulationSeed {
    * encontrado por ano/bimestre/avaliação e este campo fica vazio.
    */
   topic?: string;
+  /**
+   * Turma dona do simulado. Preenchido, ele sai do catálogo público e só
+   * aparece para quem entrou na turma pelo link de convite.
+   */
+  turmaSlug?: string;
 }
 
 interface NormalizedSimulationSeed
@@ -124,12 +135,21 @@ const disciplines: DisciplineSeed[] = [
   },
 ];
 
+const turmas: TurmaSeed[] = [
+  {
+    name: '3º ano — Turma do Bernardo',
+    slug: 'turma-bernardo',
+    schoolYear: 3,
+  },
+];
+
 const simulations: SimulationSeed[] = [
   {
     file: 'questoes-matematica.ts',
     exportName: 'questoesMathematica',
     disciplineSlug: 'matematica',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 1,
     assessment: 'AV2',
     title: 'Simulado de Matemática',
@@ -141,6 +161,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesMatematicaAv1',
     disciplineSlug: 'matematica',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV1',
     title: 'Simulado AV1 — Matemática',
@@ -152,6 +173,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesMatematicaAv2',
     disciplineSlug: 'matematica',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV2',
     title: 'Simulado AV2 — Matemática',
@@ -163,6 +185,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesMatematica3BimAv1',
     disciplineSlug: 'matematica',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 3,
     assessment: 'AV1',
     title: 'Simulado AV1 — Matemática',
@@ -174,6 +197,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesCiencias',
     disciplineSlug: 'ciencias',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 1,
     assessment: 'AV2',
     title: 'Simulado de Ciências',
@@ -185,6 +209,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesCienciasAv1',
     disciplineSlug: 'ciencias',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV1',
     title: 'Simulado AV1 — Ciências',
@@ -196,6 +221,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesCienciasAv2',
     disciplineSlug: 'ciencias',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV2',
     title: 'Simulado AV2 — Ciências',
@@ -207,6 +233,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesCienciasAv1Bim3',
     disciplineSlug: 'ciencias',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 3,
     assessment: 'AV1',
     title: 'Simulado AV1 — Ciências',
@@ -218,6 +245,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesHistoria',
     disciplineSlug: 'historia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 1,
     assessment: 'AV2',
     title: 'Simulado de História',
@@ -229,6 +257,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesHistoriaAv1',
     disciplineSlug: 'historia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV1',
     title: 'Simulado AV1 — História',
@@ -240,6 +269,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesHistoriaAv2',
     disciplineSlug: 'historia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV2',
     title: 'Simulado AV2 — História',
@@ -251,6 +281,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesHistoriaAv1Bim3',
     disciplineSlug: 'historia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 3,
     assessment: 'AV1',
     title: 'Simulado AV1 — História',
@@ -262,6 +293,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesGeografia',
     disciplineSlug: 'geografia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 1,
     assessment: 'AV2',
     title: 'Simulado de Geografia',
@@ -273,6 +305,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesGeografiaAv1',
     disciplineSlug: 'geografia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV1',
     title: 'Simulado AV1 — Geografia',
@@ -284,6 +317,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesGeografiaAv2',
     disciplineSlug: 'geografia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 2,
     assessment: 'AV2',
     title: 'Simulado AV2 — Geografia',
@@ -295,6 +329,7 @@ const simulations: SimulationSeed[] = [
     exportName: 'questoesGeografiaAv1Bim3',
     disciplineSlug: 'geografia',
     schoolYear: 3,
+    turmaSlug: 'turma-bernardo',
     bimester: 3,
     assessment: 'AV1',
     title: 'Simulado AV1 — Geografia',
@@ -335,12 +370,21 @@ async function main() {
 
   const systemUser = await upsertSeedUser();
   const disciplineBySlug = await upsertDisciplines();
+  const turmaBySlug = await upsertTurmas();
 
   for (const simulation of normalizedSimulations) {
     const discipline = disciplineBySlug.get(simulation.disciplineSlug);
 
     if (!discipline) {
       throw new Error(`Discipline not found: ${simulation.disciplineSlug}`);
+    }
+
+    const turma = simulation.turmaSlug
+      ? turmaBySlug.get(simulation.turmaSlug)
+      : undefined;
+
+    if (simulation.turmaSlug && !turma) {
+      throw new Error(`Turma not found: ${simulation.turmaSlug}`);
     }
 
     const maxScore = getMaxScore(simulation.questions);
@@ -355,6 +399,7 @@ async function main() {
         bimester: simulation.bimester,
         assessment: simulation.assessment,
         topic: simulation.topic ?? null,
+        turmaId: turma?.id ?? null,
         disciplineId: discipline.id,
         status: SimulationStatus.PUBLISHED,
         totalQuestions: simulation.questions.length,
@@ -370,6 +415,7 @@ async function main() {
         bimester: simulation.bimester,
         assessment: simulation.assessment,
         topic: simulation.topic ?? null,
+        turmaId: turma?.id ?? null,
         disciplineId: discipline.id,
         status: SimulationStatus.PUBLISHED,
         totalQuestions: simulation.questions.length,
@@ -383,13 +429,18 @@ async function main() {
     await upsertQuestions(savedSimulation.id, simulation.questions);
   }
 
+  const membershipsBackfilled = await backfillMembershipsFromAttempts();
+
   const totalQuestions = normalizedSimulations.reduce(
     (total, simulation) => total + simulation.questions.length,
     0,
   );
 
   console.log(
-    `Seed concluído: ${disciplines.length} disciplinas, ${normalizedSimulations.length} simulados e ${totalQuestions} questões importadas.`,
+    `Seed concluído: ${disciplines.length} disciplinas, ${turmas.length} turmas, ${normalizedSimulations.length} simulados e ${totalQuestions} questões importadas.`,
+  );
+  console.log(
+    `Participações em turma garantidas para quem já tinha tentativa: ${membershipsBackfilled}.`,
   );
 }
 
@@ -452,6 +503,63 @@ async function upsertDisciplines() {
   return new Map(entries);
 }
 
+async function upsertTurmas() {
+  const entries = await Promise.all(
+    turmas.map(async (turma) => {
+      const saved = await prisma.turma.upsert({
+        where: { slug: turma.slug },
+        create: {
+          name: turma.name,
+          slug: turma.slug,
+          schoolYear: turma.schoolYear,
+        },
+        update: {
+          name: turma.name,
+          schoolYear: turma.schoolYear,
+          deletedAt: null,
+        },
+      });
+
+      return [turma.slug, saved] as const;
+    }),
+  );
+
+  return new Map(entries);
+}
+
+/**
+ * Quem já respondeu um simulado antes de ele passar a ser da turma entra nela.
+ * Sem isso, o aluno perderia o acesso ao próprio histórico e não conseguiria
+ * retomar uma tentativa que já estava em andamento.
+ */
+async function backfillMembershipsFromAttempts() {
+  const attempts = await prisma.attempt.findMany({
+    where: { simulation: { turmaId: { not: null } } },
+    select: { studentId: true, simulation: { select: { turmaId: true } } },
+    distinct: ['studentId', 'simulationId'],
+  });
+
+  const pairs = new Map<string, { turmaId: string; userId: string }>();
+  attempts.forEach((attempt) => {
+    const turmaId = attempt.simulation.turmaId;
+    if (!turmaId) return;
+    pairs.set(`${turmaId}:${attempt.studentId}`, {
+      turmaId,
+      userId: attempt.studentId,
+    });
+  });
+
+  for (const pair of pairs.values()) {
+    await prisma.turmaMembership.upsert({
+      where: { turmaId_userId: pair },
+      create: pair,
+      update: {},
+    });
+  }
+
+  return pairs.size;
+}
+
 function loadSimulations(): NormalizedSimulationSeed[] {
   const flatSimulations = simulations.map((simulation) => {
     const exports = loadDataModule(simulation.file);
@@ -478,6 +586,7 @@ function loadSimulations(): NormalizedSimulationSeed[] {
         return {
           disciplineSlug: 'portugues',
           schoolYear: 3,
+          turmaSlug: 'turma-bernardo',
           bimester: Number(bimester),
           assessment,
           title: `Simulado de Português - ${bimester}º Bimestre ${assessment}`,

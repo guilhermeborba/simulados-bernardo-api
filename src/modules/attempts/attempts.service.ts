@@ -11,6 +11,7 @@ import {
   UserRole,
 } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 
@@ -24,9 +25,15 @@ export class AttemptsService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly correctionService: AttemptsCorrectionService,
+    private readonly turmasService: TurmasService,
   ) {}
 
-  async startAttempt(simulationIdOrSlug: string, studentId: string) {
+  async startAttempt(
+    simulationIdOrSlug: string,
+    student: { id: string; role: UserRole },
+  ) {
+    const studentId = student.id;
+
     const simulation = await this.prisma.simulation.findFirst({
       where: {
         OR: [{ id: simulationIdOrSlug }, { slug: simulationIdOrSlug }],
@@ -53,6 +60,10 @@ export class AttemptsService {
     if (simulation.questions.length === 0) {
       throw new BadRequestException('Simulation has no active questions');
     }
+
+    // Aqui é por onde passa o link direto. Sem esta checagem, filtrar a
+    // listagem não esconderia nada: bastaria receber a URL do simulado.
+    await this.turmasService.assertCanAccessTurma(simulation.turmaId, student);
 
     // Entrar de novo em um simulado retoma a tentativa aberta em vez de criar
     // outra. Sem isso, cada carregamento da página gerava uma tentativa nova e

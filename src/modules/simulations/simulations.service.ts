@@ -4,16 +4,20 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { Prisma, SimulationStatus } from '@prisma/client';
+import { Prisma, SimulationStatus, UserRole } from '@prisma/client';
 import { slugify } from '../../common/utils/slugify';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { TurmasService } from '../turmas/turmas.service';
 import { CreateSimulationDto } from './dto/create-simulation.dto';
 import { FindAvailableSimulationsDto } from './dto/find-available-simulations.dto';
 import { UpdateSimulationDto } from './dto/update-simulation.dto';
 
 @Injectable()
 export class SimulationsService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly turmasService: TurmasService,
+  ) {}
 
   findAll() {
     return this.prisma.simulation.findMany({
@@ -23,10 +27,28 @@ export class SimulationsService {
     });
   }
 
-  findAvailable(filters: FindAvailableSimulationsDto) {
+  /**
+   * `viewer` é nulo para quem não está autenticado. Simulado de turma nunca
+   * aparece para anônimo, nem para aluno que não é membro dela.
+   */
+  async findAvailable(
+    filters: FindAvailableSimulationsDto,
+    viewer: { id: string; role: UserRole } | null = null,
+  ) {
+    const turmaIds = await this.turmasService.accessibleTurmaIds(
+      viewer?.id ?? null,
+    );
+    const seesEveryTurma =
+      viewer?.role === UserRole.ADMIN || viewer?.role === UserRole.TEACHER;
+
     const where: Prisma.SimulationWhereInput = {
       status: SimulationStatus.PUBLISHED,
       deletedAt: null,
+      ...(seesEveryTurma
+        ? {}
+        : turmaIds.length > 0
+          ? { OR: [{ turmaId: null }, { turmaId: { in: turmaIds } }] }
+          : { turmaId: null }),
       discipline: {
         isActive: true,
         deletedAt: null,
