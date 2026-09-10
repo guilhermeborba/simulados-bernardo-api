@@ -14,6 +14,7 @@ import { AuditModule } from './modules/audit/audit.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { DisciplinesModule } from './modules/disciplines/disciplines.module';
 import { GuardiansModule } from './modules/guardians/guardians.module';
+import { PontuacaoModule } from './modules/pontuacao/pontuacao.module';
 import { QuestionsModule } from './modules/questions/questions.module';
 import { ReportsModule } from './modules/reports/reports.module';
 import { SimulationsModule } from './modules/simulations/simulations.module';
@@ -49,6 +50,7 @@ import { UsersModule } from './modules/users/users.module';
     GuardiansModule,
     ReportsModule,
     TurmasModule,
+    PontuacaoModule,
   ],
   providers: [
     {
