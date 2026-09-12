@@ -3153,6 +3153,428 @@ export const questoesPortugues = {
           ],
           correctAnswer: "c"
         }
+      ],
+      AV2: [
+        {
+          id: 1,
+          type: "multiple_choice",
+          text: "A notícia é um texto jornalístico que:",
+          tip: "A notícia trata de fatos reais; o conto e a fábula tratam de fatos inventados. Curiosidade: a palavra \"notícia\" vem do latim notitia, que significa \"conhecimento\".",
+          points: 1,
+          options: [
+            { id: "a", text: "conta uma história inventada, com personagens de ficção" },
+            { id: "b", text: "informa sobre um assunto atual ou um acontecimento importante" },
+            { id: "c", text: "ensina o passo a passo para fabricar um objeto" },
+            { id: "d", text: "apresenta apenas a opinião de quem escreve" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 2,
+          type: "multiple_choice",
+          text: "A notícia costuma aparecer em:",
+          tip: "Hoje a maior parte das notícias é lida na internet. Curiosidade: o Jornal Joca, citado no capítulo, é um jornal brasileiro feito especialmente para crianças e jovens.",
+          points: 1,
+          options: [
+            { id: "a", text: "jornais, revistas e na internet" },
+            { id: "b", text: "apenas em livros de receitas" },
+            { id: "c", text: "somente em bilhetes e cartas" },
+            { id: "d", text: "apenas em histórias em quadrinhos" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 3,
+          type: "multiple_choice",
+          text: "O título, também chamado de manchete, é:",
+          tip: "A manchete precisa ser curta e chamar a atenção. Curiosidade: \"manchete\" vem de \"mancha\" — os títulos grandes formavam uma mancha escura na página do jornal.",
+          points: 1,
+          options: [
+            { id: "a", text: "o último parágrafo da notícia" },
+            { id: "b", text: "uma frase curta que resume o assunto da notícia" },
+            { id: "c", text: "o nome do jornal em que a notícia foi publicada" },
+            { id: "d", text: "a explicação do que aparece na foto" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 4,
+          type: "multiple_choice",
+          text: "O subtítulo, também chamado de linha fina, serve para:",
+          tip: "A linha fina complementa o título. Curiosidade: o nome vem do fato de ela ser escrita com letras menores e mais finas que as do título.",
+          points: 1,
+          options: [
+            { id: "a", text: "repetir exatamente as mesmas palavras do título" },
+            { id: "b", text: "trazer mais informações sobre a notícia" },
+            { id: "c", text: "indicar o preço do jornal" },
+            { id: "d", text: "mostrar a data de nascimento do repórter" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 5,
+          type: "multiple_choice",
+          text: "O lide é o primeiro parágrafo da notícia e responde a perguntas como:",
+          tip: "São as 6 perguntas do lide. Curiosidade: \"lide\" vem do inglês lead, que significa \"conduzir\" — é o parágrafo que conduz o leitor.",
+          points: 1,
+          options: [
+            { id: "a", text: "Quanto custa? Quem vende? Onde comprar?" },
+            { id: "b", text: "O que aconteceu? Onde? Quando? Com quem? Como? Por quê?" },
+            { id: "c", text: "Qual é o final da história? Quem é o vilão?" },
+            { id: "d", text: "Quais são os ingredientes e o modo de preparo?" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 6,
+          type: "multiple_choice",
+          text: "A parte da notícia que conta mais detalhes sobre o assunto é:",
+          tip: "O corpo traz os detalhes que não cabem no lide. Dica: jornalistas escrevem em \"pirâmide invertida\" — o mais importante vem primeiro, para quem lê só o começo já entender o essencial.",
+          points: 1,
+          options: [
+            { id: "a", text: "a manchete" },
+            { id: "b", text: "a foto-legenda" },
+            { id: "c", text: "o corpo da notícia" },
+            { id: "d", text: "a fonte" }
+          ],
+          correctAnswer: "c"
+        },
+        {
+          id: 7,
+          type: "multiple_choice",
+          text: "A foto-legenda é o elemento que:",
+          tip: "Cuidado para não confundir imagem (a foto em si) com foto-legenda (o textinho que explica a foto).",
+          points: 1,
+          options: [
+            { id: "a", text: "explica o que aparece na foto da notícia" },
+            { id: "b", text: "mostra onde o texto foi publicado" },
+            { id: "c", text: "resume o assunto em uma frase curta" },
+            { id: "d", text: "responde às perguntas do lide" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 8,
+          type: "multiple_choice",
+          text: "Em uma notícia, a fonte mostra:",
+          tip: "Atenção: aqui \"fonte\" não é o tipo de letra do computador! É a indicação de onde o texto foi publicado — como o endereço do site e a data de acesso.",
+          points: 1,
+          options: [
+            { id: "a", text: "o tipo de letra usado pelo jornal" },
+            { id: "b", text: "onde o texto foi publicado" },
+            { id: "c", text: "quantas pessoas leram a notícia" },
+            { id: "d", text: "quantas fotos a notícia tem" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 9,
+          type: "multiple_choice",
+          text: "Os critérios de noticiabilidade indicam:",
+          tip: "São as \"perguntas-filtro\" que o jornalista faz antes de decidir se um fato vira notícia. Curiosidade: uma mesma notícia costuma atender a vários critérios ao mesmo tempo.",
+          points: 1,
+          options: [
+            { id: "a", text: "quando um assunto ou acontecimento é importante para virar notícia" },
+            { id: "b", text: "o tamanho que a notícia deve ter" },
+            { id: "c", text: "a cor das letras usadas no jornal" },
+            { id: "d", text: "quantas fotos a notícia precisa ter" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 10,
+          type: "multiple_choice",
+          text: "O critério da atualidade faz a pergunta:",
+          tip: "Atualidade = recente. Dica: pense \"aconteceu agora ou faz pouco tempo?\".",
+          points: 1,
+          options: [
+            { id: "a", text: "O acontecimento é recente?" },
+            { id: "b", text: "É a primeira vez que isso acontece?" },
+            { id: "c", text: "O acontecimento ocorreu perto de quem vai ler?" },
+            { id: "d", text: "O acontecimento mostra problemas ou debates?" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 11,
+          type: "multiple_choice",
+          text: "\"É a primeira vez que esse acontecimento ocorre?\" Essa pergunta corresponde ao critério de:",
+          tip: "\"Inédito\" significa \"nunca visto antes\". Curiosidade: por isso as primeiras vezes viram manchete — primeiro voo, primeira vacina, primeiro título.",
+          points: 1,
+          options: [
+            { id: "a", text: "proximidade" },
+            { id: "b", text: "ineditismo" },
+            { id: "c", text: "relevância" },
+            { id: "d", text: "conflito" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 12,
+          type: "multiple_choice",
+          text: "O critério da proximidade está presente quando:",
+          tip: "Proximidade = perto de quem lê. Dica: uma chuva forte em Florianópolis interessa mais a quem mora aqui do que a quem mora em outro país.",
+          points: 1,
+          options: [
+            { id: "a", text: "o acontecimento é muito antigo" },
+            { id: "b", text: "o acontecimento ocorreu perto das pessoas que vão ler ou ouvir a notícia" },
+            { id: "c", text: "o acontecimento mostra uma discussão" },
+            { id: "d", text: "a notícia tem muitas fotos" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 13,
+          type: "multiple_choice",
+          text: "Quando um acontecimento é importante para a vida ou o dia a dia das pessoas, dizemos que ele tem:",
+          tip: "Relevância = importa para a vida das pessoas. Dica: pense \"isso muda ou afeta o meu dia a dia?\".",
+          points: 1,
+          options: [
+            { id: "a", text: "ineditismo" },
+            { id: "b", text: "atualidade" },
+            { id: "c", text: "relevância" },
+            { id: "d", text: "conflito" }
+          ],
+          correctAnswer: "c"
+        },
+        {
+          id: 14,
+          type: "multiple_choice",
+          text: "Uma notícia que emociona, inspira ou diverte, mostrando ações de solidariedade e histórias de superação, atende ao critério de:",
+          tip: "Interesse humano é o critério das histórias que emocionam. Curiosidade: a notícia do cão Teddy atende bem a esse critério, por mostrar superação e vínculo.",
+          points: 1,
+          options: [
+            { id: "a", text: "interesse humano" },
+            { id: "b", text: "ineditismo" },
+            { id: "c", text: "proximidade" },
+            { id: "d", text: "atualidade" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 15,
+          type: "multiple_choice",
+          text: "O critério do conflito aparece quando o acontecimento:",
+          tip: "Conflito não é só briga: também é debate de ideias ou um desafio a ser resolvido.",
+          points: 1,
+          options: [
+            { id: "a", text: "é engraçado e diverte as pessoas" },
+            { id: "b", text: "mostra problemas, desafios ou debate de ideias" },
+            { id: "c", text: "aconteceu há muitos anos" },
+            { id: "d", text: "foi publicado em uma revista" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 16,
+          type: "multiple_choice",
+          text: "A notícia sobre o cão Teddy foi escrita e publicada em 2025, no mesmo período em que o caso aconteceu. Isso mostra que ela atende principalmente ao critério de:",
+          tip: "A notícia foi publicada logo após o fato — isso é atualidade. Dica: na questão 4 da atividade do livro, \"Sim. Ela foi escrita em 2025\" responde justamente à pergunta sobre atualidade.",
+          points: 1,
+          options: [
+            { id: "a", text: "conflito" },
+            { id: "b", text: "atualidade" },
+            { id: "c", text: "relevância" },
+            { id: "d", text: "ineditismo" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 17,
+          type: "multiple_choice",
+          text: "Segundo o texto \"Cães de assistência: heróis de quatro patas\", os cães-guia:",
+          tip: "Cães-guia = olhos emprestados. Curiosidade: no Brasil, a lei garante que o cão-guia entre com seu dono em ônibus, lojas, escolas e hospitais.",
+          points: 1,
+          options: [
+            { id: "a", text: "auxiliam pessoas cegas ou com baixa visão a se locomover com segurança" },
+            { id: "b", text: "avisam sobre o toque do telefone e o alarme de incêndio" },
+            { id: "c", text: "fazem equoterapia com crianças" },
+            { id: "d", text: "trabalham somente dentro de hospitais" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 18,
+          type: "multiple_choice",
+          text: "Os cães ouvintes colaboram com pessoas com deficiência auditiva:",
+          tip: "Cães ouvintes = ouvidos emprestados. Eles tocam a pessoa com a patinha para avisar sobre um som importante.",
+          points: 1,
+          options: [
+            { id: "a", text: "puxando cadeiras de rodas" },
+            { id: "b", text: "na percepção de sons importantes, como o toque do telefone ou o alarme de incêndio" },
+            { id: "c", text: "ensinando a língua de sinais" },
+            { id: "d", text: "levando remédios até a farmácia" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 19,
+          type: "multiple_choice",
+          text: "De acordo com o texto, os cães de serviço trabalham com pessoas que vivem com autismo, epilepsia, diabetes ou outras condições e podem:",
+          tip: "Cães de serviço fazem várias tarefas. Curiosidade: alguns conseguem perceber mudanças no cheiro do corpo e alertar antes de uma crise acontecer.",
+          points: 1,
+          options: [
+            { id: "a", text: "apenas brincar e passear" },
+            { id: "b", text: "alertar para crises, acalmar a pessoa em momentos de estresse, buscar objetos ou acionar ajuda" },
+            { id: "c", text: "substituir totalmente os médicos" },
+            { id: "d", text: "dirigir carros e ônibus" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 20,
+          type: "multiple_choice",
+          text: "Na Terapia Assistida por Animais (TAA), os cavalos são usados:",
+          tip: "Equoterapia é a terapia feita com cavalos. Curiosidade: \"equo\" vem do latim equus, que significa cavalo.",
+          points: 1,
+          options: [
+            { id: "a", text: "em equoterapia, para ajudar no equilíbrio e na força física" },
+            { id: "b", text: "para acalmar crianças internadas em hospitais" },
+            { id: "c", text: "para reduzir a solidão em asilos e clínicas" },
+            { id: "d", text: "para alertar sobre alarmes de incêndio" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 21,
+          type: "multiple_choice",
+          text: "Ainda sobre a TAA, os gatos e os coelhos podem:",
+          tip: "Gatos e coelhos são pequenos e calmos, ideais para hospitais infantis. Atenção: quem reduz a solidão em asilos e clínicas são os cães.",
+          points: 1,
+          options: [
+            { id: "a", text: "guiar pessoas cegas pelas ruas" },
+            { id: "b", text: "acalmar crianças internadas em hospitais" },
+            { id: "c", text: "ajudar no equilíbrio e na força física" },
+            { id: "d", text: "perceber o toque do telefone" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 22,
+          type: "multiple_choice",
+          text: "Segundo o instrutor Fabiano Pereira, entrevistado pelo Jornal Joca, a base do trabalho dos cães de assistência está:",
+          tip: "O treinamento é importante, mas a base é o vínculo. Curiosidade: esse treinamento é longo — pode durar cerca de dois anos.",
+          points: 1,
+          options: [
+            { id: "a", text: "somente no treinamento, que dura poucos dias" },
+            { id: "b", text: "no vínculo emocional criado para o cão ajudar a pessoa de quem gosta" },
+            { id: "c", text: "na raça do cachorro" },
+            { id: "d", text: "no tamanho do animal" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 23,
+          type: "multiple_choice",
+          text: "Na notícia \"Alunos de Santo André se destacam com projetos de robótica em evento nacional\", o texto:",
+          tip: "A notícia relata o destaque de três estudantes. Curiosidade: Arthur (11 anos) criou um \"robô de garimpo\" para evitar riscos na mineração; Antônio (13) fez uma prótese de mão robótica com inteligência artificial e peças impressas em 3D; e Davi (13) desenvolveu entregas com drones autônomos.",
+          points: 1,
+          options: [
+            { id: "a", text: "mostra como é o trabalho dos jurados em eventos de tecnologia" },
+            { id: "b", text: "relata o destaque que três estudantes tiveram com seus projetos de robótica" },
+            { id: "c", text: "explica por que a robótica é mais importante que outras áreas da ciência" },
+            { id: "d", text: "ensina a montar um robô em casa" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 24,
+          type: "multiple_choice",
+          text: "Nas palavras depende, tratamento e como, as vogais e e o do final muitas vezes são pronunciadas como:",
+          tip: "Falamos \"dependi\", \"tratamentu\", \"comu\" — mas escrevemos com e e o.",
+          points: 1,
+          options: [
+            { id: "a", text: "-a e -e" },
+            { id: "b", text: "-i e -u" },
+            { id: "c", text: "-o e -a" },
+            { id: "d", text: "-é e -ó" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 25,
+          type: "multiple_choice",
+          text: "Sobre essa mudança na pronúncia das vogais e e o no final das palavras, é correto afirmar que ela:",
+          tip: "Dica de ouro para o ditado: a fala pode mudar, a escrita não. Por isso não se escreve \"bolu\" nem \"genti\".",
+          points: 1,
+          options: [
+            { id: "a", text: "acontece na fala, mas não muda a forma como escrevemos as palavras" },
+            { id: "b", text: "muda também a escrita das palavras" },
+            { id: "c", text: "acontece só em palavras muito compridas" },
+            { id: "d", text: "nunca acontece na língua portuguesa" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 26,
+          type: "multiple_choice",
+          text: "As palavras avô, até e você são oxítonas ou monossílabos acentuados. Nelas, as vogais e e o do final:",
+          tip: "O acento \"segura\" o som original: avô, até, você.",
+          points: 1,
+          options: [
+            { id: "a", text: "mantêm a pronúncia, ou seja, são faladas como se escrevem" },
+            { id: "b", text: "são pronunciadas como -i e -u" },
+            { id: "c", text: "não são pronunciadas" },
+            { id: "d", text: "mudam de lugar dentro da palavra" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 27,
+          type: "multiple_choice",
+          text: "Leia: \"O cachorro latiu muito. Ele estava feliz.\" Nesse exemplo, a repetição foi evitada com o uso de:",
+          tip: "Pronomes como ele, ela, isso e aquilo substituem palavras já ditas.",
+          points: 1,
+          options: [
+            { id: "a", text: "um pronome" },
+            { id: "b", text: "uma palavra mais geral" },
+            { id: "c", text: "a omissão de uma parte da frase" },
+            { id: "d", text: "uma palavra de sentido contrário" }
+          ],
+          correctAnswer: "a"
+        },
+        {
+          id: 28,
+          type: "multiple_choice",
+          text: "Leia: \"O gato subiu na árvore. O animal estava fugindo de um cachorro.\" Nesse caso, a repetição foi evitada com o uso de:",
+          tip: "\"Animal\" é uma palavra mais geral que \"gato\". Curiosidade: na gramática, essa palavra mais ampla é chamada de hiperônimo.",
+          points: 1,
+          options: [
+            { id: "a", text: "um pronome" },
+            { id: "b", text: "uma palavra mais geral" },
+            { id: "c", text: "uma palavra de sentido contrário" },
+            { id: "d", text: "a omissão de uma parte da frase" }
+          ],
+          correctAnswer: "b"
+        },
+        {
+          id: 29,
+          type: "multiple_choice",
+          text: "Leia: \"Eu gosto de cachorros e você de gatos.\" Nessa frase, a repetição de \"gostar de\" foi evitada porque essa parte foi:",
+          tip: "Quando a parte omitida é facilmente entendida, o texto fica mais leve. Curiosidade: esse recurso tem nome: elipse.",
+          points: 1,
+          options: [
+            { id: "a", text: "repetida duas vezes" },
+            { id: "b", text: "trocada por um pronome" },
+            { id: "c", text: "omitida, já que pode ser facilmente entendida" },
+            { id: "d", text: "escrita com outras letras" }
+          ],
+          correctAnswer: "c"
+        },
+        {
+          id: 30,
+          type: "multiple_choice",
+          text: "Leia: \"Teddy é um cão de assistência. Teddy ajuda a garota a se desenvolver.\" Qual palavra ou expressão pode substituir o trecho destacado para evitar a repetição?",
+          tip: "\"O cão\" e \"O cachorro\" servem; \"O menino\" não, porque Teddy é um cachorro, e \"A garota\" é outra personagem.",
+          points: 1,
+          options: [
+            { id: "a", text: "O menino" },
+            { id: "b", text: "O cão" },
+            { id: "c", text: "A garota" },
+            { id: "d", text: "O treinador" }
+          ],
+          correctAnswer: "b"
+        }
       ]
     }
   }
