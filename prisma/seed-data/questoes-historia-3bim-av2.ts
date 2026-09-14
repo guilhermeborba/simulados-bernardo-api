@@ -338,7 +338,7 @@ export const questoesHistoriaAv2Bim3 = [
   {
     id: 25,
     type: "multiple_choice",
-    text: "Segundo o texto, descansar e brincar são jeitos de cuidar da saúde porque:",
+    text: "É correto afirmar que descansar e brincar são jeitos de cuidar da saúde porque:",
     tip: "Curiosidade: brincar também é jeito de usar a imaginação e aprender coisas novas.",
     points: 1,
     options: [

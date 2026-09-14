@@ -3382,7 +3382,7 @@ export const questoesPortugues = {
         {
           id: 17,
           type: "multiple_choice",
-          text: "Segundo o texto \"Cães de assistência: heróis de quatro patas\", os cães-guia:",
+          text: "Os cães-guia são treinados especialmente para:",
           tip: "Cães-guia = olhos emprestados. Curiosidade: no Brasil, a lei garante que o cão-guia entre com seu dono em ônibus, lojas, escolas e hospitais.",
           points: 1,
           options: [
@@ -3410,7 +3410,7 @@ export const questoesPortugues = {
         {
           id: 19,
           type: "multiple_choice",
-          text: "De acordo com o texto, os cães de serviço trabalham com pessoas que vivem com autismo, epilepsia, diabetes ou outras condições e podem:",
+          text: "Cães de serviço são treinados para trabalhar com pessoas que vivem com autismo, epilepsia, diabetes ou outras condições. Entre suas tarefas, eles podem:",
           tip: "Cães de serviço fazem várias tarefas. Curiosidade: alguns conseguem perceber mudanças no cheiro do corpo e alertar antes de uma crise acontecer.",
           points: 1,
           options: [
@@ -3452,7 +3452,7 @@ export const questoesPortugues = {
         {
           id: 22,
           type: "multiple_choice",
-          text: "Segundo o instrutor Fabiano Pereira, entrevistado pelo Jornal Joca, a base do trabalho dos cães de assistência está:",
+          text: "A base do treinamento dos cães de assistência está, principalmente:",
           tip: "O treinamento é importante, mas a base é o vínculo. Curiosidade: esse treinamento é longo — pode durar cerca de dois anos.",
           points: 1,
           options: [
@@ -3466,7 +3466,7 @@ export const questoesPortugues = {
         {
           id: 23,
           type: "multiple_choice",
-          text: "Na notícia \"Alunos de Santo André se destacam com projetos de robótica em evento nacional\", o texto:",
+          text: "Uma notícia sobre um evento nacional de robótica em Santo André destacou os projetos de três estudantes da cidade. Esse tipo de notícia tem como função principal:",
           tip: "A notícia relata o destaque de três estudantes. Curiosidade: Arthur (11 anos) criou um \"robô de garimpo\" para evitar riscos na mineração; Antônio (13) fez uma prótese de mão robótica com inteligência artificial e peças impressas em 3D; e Davi (13) desenvolveu entregas com drones autônomos.",
           points: 1,
           options: [
