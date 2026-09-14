@@ -2,7 +2,7 @@ export const questoesHistoriaAv1Bim3 = [
   {
     id: 1,
     type: "multiple_choice",
-    text: "Ao observar a rotina de Luísa e Felipe, podemos perceber que eles provavelmente moram:",
+    text: "Luísa e Felipe acordam cedo, ajudam a cuidar dos animais e caminham por trilhas de terra cercadas de área verde antes de ir à escola. Considerando essa rotina, podemos perceber que eles provavelmente moram:",
     tip: "Observe a presença de animais, áreas verdes e caminhos de terra. Curiosidade: sítios são propriedades rurais geralmente menores e podem ser usados para moradia e produção de alimentos.",
     points: 1,
     options: [
@@ -28,7 +28,7 @@ export const questoesHistoriaAv1Bim3 = [
   {
     id: 2,
     type: "multiple_choice",
-    text: "Qual característica aparece no lugar onde Luísa e Felipe vivem?",
+    text: "Considerando que Luísa e Felipe vivem cercados de animais, área verde e caminhos de terra sem asfalto, qual característica aparece no lugar onde eles vivem?",
     tip: "Nas imagens há árvores, animais e bastante espaço aberto. Curiosidade: no espaço rural normalmente há maior presença de áreas naturais do que nas regiões urbanas.",
     points: 1,
     options: [
@@ -678,7 +678,7 @@ export const questoesHistoriaAv1Bim3 = [
   {
     id: 27,
     type: "multiple_choice",
-    text: "Na pintura antiga apresentada no material, as pessoas realizam o trabalho agrícola principalmente:",
+    text: "Em uma pintura antiga, os trabalhadores agrícolas aparecem usando enxadas e revolvendo a terra diretamente com ferramentas simples, sem nenhuma máquina à vista. Nessa pintura, as pessoas realizam o trabalho agrícola principalmente:",
     tip: "Observe a enxada e o trabalho feito diretamente sobre a terra. Curiosidade: pinturas e fotografias antigas podem ser fontes históricas para conhecer maneiras de trabalhar no passado.",
     points: 1,
     options: [

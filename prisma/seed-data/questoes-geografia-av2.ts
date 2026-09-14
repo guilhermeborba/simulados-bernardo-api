@@ -236,7 +236,7 @@ export const questoesGeografiaAv2 = [
   {
     id: 10,
     type: "multiple_choice",
-    text: "Segundo o ranking apresentado no livro, o maior rebanho do Brasil é de:",
+    text: "O Brasil possui o maior rebanho de galináceos (galinhas) do mundo, criados para produção de carne e ovos. Considerando essa informação, o maior rebanho do Brasil é de:",
     tip: "O Brasil tem o maior rebanho de galináceos (galinhas), usado para carne e ovos.",
     points: 1,
     options: [
