@@ -1774,7 +1774,7 @@ export const questoesPortugues = {
         {
           id: 8,
           type: "multiple_choice",
-          text: "O texto considera as aranhas animais:",
+          text: "O texto conta que, mesmo quando sua teia é destruída, a aranha não desiste e logo tece uma nova. Diante disso, o texto considera as aranhas animais:",
           tip: "Persistência significa não desistir facilmente.",
           points: 1,
           options: [
@@ -2480,7 +2480,7 @@ export const questoesPortugues = {
         {
           id: 5,
           type: "multiple_choice",
-          text: "No trecho de Diário de Pilar na África, Pilar queria aprender a tocar:",
+          text: "No trecho, Pilar sonhava em aprender a tocar um instrumento muito ligado às rodas de capoeira brasileira. Ela queria aprender a tocar:",
           tip: "Esse instrumento também aparece em rodas de capoeira. Curiosidade: o berimbau é um instrumento muito ligado à capoeira brasileira.",
           points: 1,
           options: [
@@ -2506,7 +2506,7 @@ export const questoesPortugues = {
         {
           id: 6,
           type: "multiple_choice",
-          text: "Por que Pilar ficou incomodada com a pergunta da diretora?",
+          text: "No trecho, a diretora sugeriu que Pilar aprendesse piano ou violão — os instrumentos que \"todo mundo\" costumava escolher. Mas Pilar queria mesmo era aprender berimbau. Por que Pilar ficou incomodada com a pergunta da diretora?",
           tip: "Pilar não queria simplesmente fazer aquilo que \"todo mundo\" fazia. Curiosidade: o texto também mostra a importância de respeitar os diferentes interesses das pessoas.",
           points: 1,
           options: [
@@ -2532,7 +2532,7 @@ export const questoesPortugues = {
         {
           id: 7,
           type: "multiple_choice",
-          text: "Quem ajudou Pilar a tentar construir um berimbau?",
+          text: "No trecho, o amigo Breno acompanhava Pilar em sua aventura e a ajudou a tentar construir o instrumento. Quem ajudou Pilar a tentar construir um berimbau?",
           tip: "É o amigo que acompanha Pilar em sua aventura. Curiosidade: Breno também aparece conversando com Pilar sobre instrumentos musicais.",
           points: 1,
           options: [
@@ -2558,7 +2558,7 @@ export const questoesPortugues = {
         {
           id: 8,
           type: "multiple_choice",
-          text: "Para tentar fazer o berimbau, Pilar e Breno usaram materiais como:",
+          text: "No trecho, Pilar e Breno tentaram construir um berimbau usando um cabo de vassoura, arame e uma lata, objetos que encontraram em casa. Para tentar fazer o berimbau, Pilar e Breno usaram materiais como:",
           tip: "Eles improvisaram o instrumento com objetos encontrados em casa. Curiosidade: instrumentos podem ser construídos com diferentes materiais e formatos.",
           points: 1,
           options: [

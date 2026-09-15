@@ -76,7 +76,7 @@ export class PontuacaoService {
 
     const turma = await this.prisma.turma.findFirst({
       where: { id: turmaId, deletedAt: null },
-      select: { id: true, name: true },
+      select: { id: true, name: true, rankingCountsFrom: true },
     });
 
     if (!turma) {
@@ -88,6 +88,9 @@ export class PontuacaoService {
         status: AttemptStatus.FINISHED,
         simulation: { turmaId },
         student: { turmaMemberships: { some: { turmaId } } },
+        ...(turma.rankingCountsFrom
+          ? { finishedAt: { gte: turma.rankingCountsFrom } }
+          : {}),
       },
       select: {
         studentId: true,
@@ -144,9 +147,11 @@ export class PontuacaoService {
     // no ranking da sala.
     const meusSimuladosNaTurma =
       porAluno.get(user.id)?.melhores.size ?? 0;
+    const { rankingCountsFrom, ...turmaPublica } = turma;
 
     return {
-      turma,
+      turma: turmaPublica,
+      rankingContaAPartirDe: rankingCountsFrom,
       totalClassificados: classificados.length,
       minimoDeSimulados: MINIMO_DE_SIMULADOS_PARA_RANKING,
       meusSimuladosNaTurma,

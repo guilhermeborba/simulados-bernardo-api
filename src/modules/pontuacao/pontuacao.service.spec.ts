@@ -224,5 +224,29 @@ describe('PontuacaoService', () => {
       ).rejects.toThrow();
       expect(prisma.attempt.findMany).not.toHaveBeenCalled();
     });
+
+    it('só considera tentativas a partir da data de corte da turma, quando definida', async () => {
+      const corte = new Date('2026-09-15T00:00:00-03:00');
+      prisma.turma.findFirst.mockResolvedValue({
+        id: 'turma-1',
+        name: '3º ano',
+        rankingCountsFrom: corte,
+      });
+      prisma.attempt.findMany.mockResolvedValue([]);
+
+      await service.getRankingDaTurma('turma-1', aluno);
+
+      const where = prisma.attempt.findMany.mock.calls[0][0].where;
+      expect(where.finishedAt).toEqual({ gte: corte });
+    });
+
+    it('não filtra por data quando a turma não tem corte definido', async () => {
+      prisma.attempt.findMany.mockResolvedValue([]);
+
+      await service.getRankingDaTurma('turma-1', aluno);
+
+      const where = prisma.attempt.findMany.mock.calls[0][0].where;
+      expect(where.finishedAt).toBeUndefined();
+    });
   });
 });
