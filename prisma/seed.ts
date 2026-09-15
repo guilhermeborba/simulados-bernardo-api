@@ -58,6 +58,11 @@ interface TurmaSeed {
   name: string;
   slug: string;
   schoolYear?: number;
+  /**
+   * Ranking da turma só conta tentativas finalizadas a partir desta data.
+   * Fica fixa no código: recalcular a cada deploy zeraria o ranking sempre.
+   */
+  rankingCountsFrom?: Date;
 }
 
 interface SimulationSeed {
@@ -140,6 +145,7 @@ const turmas: TurmaSeed[] = [
     name: '3º ano — Turma do Bernardo',
     slug: 'turma-bernardo',
     schoolYear: 3,
+    rankingCountsFrom: new Date('2026-09-15T00:00:00-03:00'),
   },
 ];
 
@@ -560,10 +566,12 @@ async function upsertTurmas() {
           name: turma.name,
           slug: turma.slug,
           schoolYear: turma.schoolYear,
+          rankingCountsFrom: turma.rankingCountsFrom,
         },
         update: {
           name: turma.name,
           schoolYear: turma.schoolYear,
+          rankingCountsFrom: turma.rankingCountsFrom,
           deletedAt: null,
         },
       });

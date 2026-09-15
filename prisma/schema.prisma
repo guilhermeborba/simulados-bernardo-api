@@ -263,17 +263,21 @@ model AuditLog {
 /// Turma fechada: um grupo de alunos que enxerga simulados que o resto do site
 /// não enxerga. Existe porque as provas da escola não devem ficar públicas.
 model Turma {
-  id          String            @id @default(cuid())
-  name        String
-  slug        String            @unique
-  schoolName  String?
-  schoolYear  Int?
-  createdAt   DateTime          @default(now())
-  updatedAt   DateTime          @updatedAt
-  deletedAt   DateTime?
-  invites     TurmaInvite[]
-  memberships TurmaMembership[]
-  simulations Simulation[]
+  id                String            @id @default(cuid())
+  name              String
+  slug              String            @unique
+  schoolName        String?
+  schoolYear        Int?
+  /// Ranking da turma só conta tentativas finalizadas a partir desta data.
+  /// Nulo = conta o histórico inteiro. Existe para zerar a régua quando
+  /// colegas novos entram numa turma que já tem gente adiantada.
+  rankingCountsFrom DateTime?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  deletedAt         DateTime?
+  invites           TurmaInvite[]
+  memberships       TurmaMembership[]
+  simulations       Simulation[]
 }
 
 /// Convite de entrada na turma. O token viaja no link, mas aqui fica só o seu
