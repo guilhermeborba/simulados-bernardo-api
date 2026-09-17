@@ -163,6 +163,10 @@ model Question {
   type           QuestionType
   statement      String
   tip            String?
+  /// "Você sabia?" — curiosidade da questão, mostrada sempre na tela de
+  /// resultado (acertando ou errando). Diferente do tip: não ajuda a
+  /// responder, é conteúdo extra de recompensa.
+  funFact        String?
   points         Decimal          @db.Decimal(6, 2)
   sortOrder      Int              @map("order")
   isActive       Boolean          @default(true)
