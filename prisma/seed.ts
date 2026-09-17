@@ -413,6 +413,21 @@ const simulations: SimulationSeed[] = [
     slug: 'enfermagem',
     topic: 'Fundamentos, Ética e Legislação',
   },
+  {
+    file: 'questoes-infantil4-eu-outro-nos.ts',
+    exportName: 'questoesInfantil4EuOutroNos',
+    disciplineSlug: 'infantil-eu-outro-nos',
+    // -1 = Infantil 4 anos, espelha INFANTIL_4_SCHOOL_YEAR em lib/trilha.ts
+    // no frontend. Os dois precisam concordar nesse valor.
+    schoolYear: -1,
+    bimester: 0,
+    assessment: 'UNICO',
+    title: 'Simulado — Eu, minha família e meus sentimentos',
+    subtitle: 'Educação Infantil 4 anos — Campo: O eu, o outro e o nós',
+    estimatedDurationMinutes: 25,
+    slug: 'infantil4-eu-outro-nos',
+    topic: 'Eu, minha família e meus sentimentos',
+  },
 ];
 
 async function main() {
