@@ -42,6 +42,8 @@ interface FrontendQuestion {
   pairs?: FrontendPair[];
   correctAnswer: string | Record<string, string>;
   tip?: string;
+  /** "Você sabia?" — curiosidade mostrada sempre no resultado, acertando ou errando. */
+  funFact?: string;
   points?: number;
 }
 
@@ -137,6 +139,14 @@ const disciplines: DisciplineSeed[] = [
       'Fundamentos, ética e legislação do Curso Técnico em Enfermagem.',
     icon: '🩺',
     themeColor: '#2FB867',
+  },
+  {
+    name: 'O eu, o outro e o nós',
+    slug: 'infantil-eu-outro-nos',
+    description:
+      'Família, corpo, emoções e rotina — campo de experiência da BNCC para a Educação Infantil.',
+    icon: '🧸',
+    themeColor: '#FF8FA3',
   },
 ];
 
@@ -727,6 +737,7 @@ async function upsertQuestions(
         type: mapQuestionType(question.type),
         statement: question.text,
         tip: question.tip,
+        funFact: question.funFact,
         points: question.points ?? 1,
         sortOrder,
         isActive: true,
@@ -735,6 +746,7 @@ async function upsertQuestions(
         type: mapQuestionType(question.type),
         statement: question.text,
         tip: question.tip,
+        funFact: question.funFact,
         points: question.points ?? 1,
         isActive: true,
         deletedAt: null,

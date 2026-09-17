@@ -60,6 +60,16 @@ describe('SimulationsService', () => {
     );
   });
 
+  it('keeps a negative schoolYear as a filter so Educação Infantil simulations are not mixed in', async () => {
+    await service.findAvailable({ schoolYear: -1 });
+
+    expect(prisma.simulation.findMany).toHaveBeenCalledWith(
+      expect.objectContaining({
+        where: expect.objectContaining({ schoolYear: -1 }),
+      }),
+    );
+  });
+
   it('omits the schoolYear filter when it was not informed', async () => {
     await service.findAvailable({});
 

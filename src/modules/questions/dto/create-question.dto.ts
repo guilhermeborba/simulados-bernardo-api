@@ -29,6 +29,11 @@ export class CreateQuestionDto {
   @MaxLength(1000)
   tip?: string;
 
+  @IsOptional()
+  @IsString()
+  @MaxLength(1000)
+  funFact?: string;
+
   @Type(() => Number)
   @IsNumber({ maxDecimalPlaces: 2 })
   @Min(0.01)
