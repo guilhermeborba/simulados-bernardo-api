@@ -204,6 +204,17 @@ const simulations: SimulationSeed[] = [
     estimatedDurationMinutes: 30,
   },
   {
+    file: 'questoes-matematica-2ano-b1-av2.ts',
+    exportName: 'questoesMatematica2AnoB1Av2',
+    disciplineSlug: 'matematica',
+    schoolYear: 2,
+    bimester: 1,
+    assessment: 'AV2',
+    title: 'Simulado de Matemática',
+    subtitle: '1º Bimestre — 2º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-portugues-2ano-b1-av1.ts',
     exportName: 'questoesPortugues2AnoB1Av1',
     disciplineSlug: 'portugues',
