@@ -193,6 +193,17 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-ciencias-2ano-b3-av1.ts',
+    exportName: 'questoesCiencias2AnoB3Av1',
+    disciplineSlug: 'ciencias',
+    schoolYear: 2,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado de Ciências',
+    subtitle: '3º Bimestre — 2º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-ciencias-2ano-b2-av2.ts',
     exportName: 'questoesCiencias2AnoB2Av2',
     disciplineSlug: 'ciencias',
