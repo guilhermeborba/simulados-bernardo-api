@@ -193,6 +193,20 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-geografia-3ano-b3-av1.ts',
+    exportName: 'questoesGeografia3AnoB3Av1',
+    disciplineSlug: 'geografia',
+    schoolYear: 3,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado de Geografia',
+    subtitle: '3º Bimestre — 3º Ano — AV1',
+    estimatedDurationMinutes: 30,
+    // Já existe um simulado de turma (turma-bernardo) para essa mesma
+    // combinação — ver memória do projeto sobre colisão de slug no 3º ano.
+    slug: 'geografia-3-ano-3-bimestre-av1-publico',
+  },
+  {
     file: 'questoes-geografia-3ano-b2-av2.ts',
     exportName: 'questoesGeografia3AnoB2Av2',
     disciplineSlug: 'geografia',
