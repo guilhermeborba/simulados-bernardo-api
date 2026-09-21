@@ -193,6 +193,20 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-matematica-3ano-b2-av1.ts',
+    exportName: 'questoesMatematica3AnoB2Av1',
+    disciplineSlug: 'matematica',
+    schoolYear: 3,
+    bimester: 2,
+    assessment: 'AV1',
+    title: 'Simulado de Matemática',
+    subtitle: '2º Bimestre — 3º Ano — AV1',
+    estimatedDurationMinutes: 30,
+    // Já existe conteúdo de turma (turma-bernardo) para essa mesma
+    // combinação em seed.ts — ver memória do projeto.
+    slug: 'matematica-3-ano-2-bimestre-av1-publico',
+  },
+  {
     file: 'questoes-matematica-3ano-b1-av2.ts',
     exportName: 'questoesMatematica3AnoB1Av2',
     disciplineSlug: 'matematica',
