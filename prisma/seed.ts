@@ -193,6 +193,21 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-matematica-3ano-b4-av2.ts',
+    exportName: 'questoesMatematica3AnoB4Av2',
+    disciplineSlug: 'matematica',
+    schoolYear: 3,
+    bimester: 4,
+    assessment: 'AV2',
+    title: 'Simulado de Matemática',
+    subtitle: '4º Bimestre — 3º Ano — AV2',
+    estimatedDurationMinutes: 30,
+    // Ainda não existe conteúdo de turma-bernardo para o 4º bimestre,
+    // mas ele está previsto — slug explícito aplicado preemptivamente
+    // para evitar colisão futura (mesmo padrão dos demais bimestres).
+    slug: 'matematica-3-ano-4-bimestre-av2-publico',
+  },
+  {
     file: 'questoes-matematica-3ano-b4-av1.ts',
     exportName: 'questoesMatematica3AnoB4Av1',
     disciplineSlug: 'matematica',
