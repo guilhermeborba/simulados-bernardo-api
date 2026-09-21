@@ -193,6 +193,20 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-portugues-3ano-b3-av2.ts',
+    exportName: 'questoesPortugues3AnoB3Av2',
+    disciplineSlug: 'portugues',
+    schoolYear: 3,
+    bimester: 3,
+    assessment: 'AV2',
+    title: 'Simulado de Português',
+    subtitle: '3º Bimestre — 3º Ano — AV2',
+    estimatedDurationMinutes: 30,
+    // Já existe conteúdo de turma (turma-bernardo) para essa mesma
+    // combinação em questoes-portugues.ts — ver memória do projeto.
+    slug: 'portugues-3-ano-3-bimestre-av2-publico',
+  },
+  {
     file: 'questoes-portugues-3ano-b3-av1.ts',
     exportName: 'questoesPortugues3AnoB3Av1',
     disciplineSlug: 'portugues',
