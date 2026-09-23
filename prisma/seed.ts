@@ -193,6 +193,18 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-historia-3ano-b1-av1.ts',
+    exportName: 'questoesHistoria3AnoB1Av1',
+    disciplineSlug: 'historia',
+    schoolYear: 3,
+    bimester: 1,
+    assessment: 'AV1',
+    title: 'Simulado de História',
+    subtitle: '1º Bimestre — 3º Ano — AV1',
+    estimatedDurationMinutes: 30,
+    // Turma-bernardo só tem AV2 nesse bimestre/matéria — sem colisão de slug.
+  },
+  {
     file: 'questoes-ciencias-3ano-b4-av2.ts',
     exportName: 'questoesCiencias3AnoB4Av2',
     disciplineSlug: 'ciencias',
