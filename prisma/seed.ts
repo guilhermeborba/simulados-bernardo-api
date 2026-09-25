@@ -193,6 +193,17 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-geografia-5ano-b4-av1.ts',
+    exportName: 'questoesGeografia5AnoB4Av1',
+    disciplineSlug: 'geografia',
+    schoolYear: 5,
+    bimester: 4,
+    assessment: 'AV1',
+    title: 'Simulado de Geografia',
+    subtitle: '4º Bimestre — 5º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-geografia-5ano-b3-av2.ts',
     exportName: 'questoesGeografia5AnoB3Av2',
     disciplineSlug: 'geografia',
