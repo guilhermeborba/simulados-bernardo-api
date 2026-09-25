@@ -193,6 +193,17 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-portugues-5ano-b1-av2.ts',
+    exportName: 'questoesPortugues5AnoB1Av2',
+    disciplineSlug: 'portugues',
+    schoolYear: 5,
+    bimester: 1,
+    assessment: 'AV2',
+    title: 'Simulado de Português',
+    subtitle: '1º Bimestre — 5º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-portugues-5ano-b1-av1.ts',
     exportName: 'questoesPortugues5AnoB1Av1',
     disciplineSlug: 'portugues',
