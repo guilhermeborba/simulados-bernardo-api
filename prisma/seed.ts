@@ -193,6 +193,28 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-historia-5ano-b3-av2.ts',
+    exportName: 'questoesHistoria5AnoB3Av2',
+    disciplineSlug: 'historia',
+    schoolYear: 5,
+    bimester: 3,
+    assessment: 'AV2',
+    title: 'Simulado de História',
+    subtitle: '3º Bimestre — 5º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-historia-5ano-b3-av1.ts',
+    exportName: 'questoesHistoria5AnoB3Av1',
+    disciplineSlug: 'historia',
+    schoolYear: 5,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado de História',
+    subtitle: '3º Bimestre — 5º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-historia-5ano-b2-av2.ts',
     exportName: 'questoesHistoria5AnoB2Av2',
     disciplineSlug: 'historia',
