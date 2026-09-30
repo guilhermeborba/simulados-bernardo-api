@@ -188,6 +188,14 @@ const disciplines: DisciplineSeed[] = [
     icon: '🇬🇧',
     themeColor: '#4A90D9',
   },
+  {
+    name: 'Arte',
+    slug: 'arte',
+    description:
+      'Linguagens artísticas — artes visuais, música, dança e teatro para o Ensino Fundamental.',
+    icon: '🎨',
+    themeColor: '#E040FB',
+  },
 ];
 
 const turmas: TurmaSeed[] = [
@@ -200,6 +208,28 @@ const turmas: TurmaSeed[] = [
 ];
 
 const simulations: SimulationSeed[] = [
+  {
+    file: 'questoes-arte-6ano-b1-av2.ts',
+    exportName: 'questoesArte6AnoB1Av2',
+    disciplineSlug: 'arte',
+    schoolYear: 6,
+    bimester: 1,
+    assessment: 'AV2',
+    title: 'Simulado de Arte',
+    subtitle: '1º Bimestre — 6º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-arte-6ano-b1-av1.ts',
+    exportName: 'questoesArte6AnoB1Av1',
+    disciplineSlug: 'arte',
+    schoolYear: 6,
+    bimester: 1,
+    assessment: 'AV1',
+    title: 'Simulado de Arte',
+    subtitle: '1º Bimestre — 6º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
   {
     file: 'questoes-ingles-6ano-b4-av2.ts',
     exportName: 'questoesIngles6AnoB4Av2',
