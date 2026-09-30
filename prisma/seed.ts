@@ -193,6 +193,28 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-ciencias-6ano-b3-av2.ts',
+    exportName: 'questoesCiencias6AnoB3Av2',
+    disciplineSlug: 'ciencias',
+    schoolYear: 6,
+    bimester: 3,
+    assessment: 'AV2',
+    title: 'Simulado de Ciências',
+    subtitle: '3º Bimestre — 6º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-ciencias-6ano-b3-av1.ts',
+    exportName: 'questoesCiencias6AnoB3Av1',
+    disciplineSlug: 'ciencias',
+    schoolYear: 6,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado de Ciências',
+    subtitle: '3º Bimestre — 6º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-ciencias-6ano-b2-av2.ts',
     exportName: 'questoesCiencias6AnoB2Av2',
     disciplineSlug: 'ciencias',
