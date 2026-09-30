@@ -209,6 +209,28 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-arte-6ano-b3-av2.ts',
+    exportName: 'questoesArte6AnoB3Av2',
+    disciplineSlug: 'arte',
+    schoolYear: 6,
+    bimester: 3,
+    assessment: 'AV2',
+    title: 'Simulado de Arte',
+    subtitle: '3º Bimestre — 6º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-arte-6ano-b3-av1.ts',
+    exportName: 'questoesArte6AnoB3Av1',
+    disciplineSlug: 'arte',
+    schoolYear: 6,
+    bimester: 3,
+    assessment: 'AV1',
+    title: 'Simulado de Arte',
+    subtitle: '3º Bimestre — 6º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-arte-6ano-b2-av2.ts',
     exportName: 'questoesArte6AnoB2Av2',
     disciplineSlug: 'arte',
