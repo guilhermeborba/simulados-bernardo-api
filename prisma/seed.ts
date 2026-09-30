@@ -180,6 +180,14 @@ const disciplines: DisciplineSeed[] = [
     icon: '🔢',
     themeColor: '#FF9F5A',
   },
+  {
+    name: 'Inglês',
+    slug: 'ingles',
+    description:
+      'Língua inglesa — vocabulário, gramática e comunicação para o Ensino Fundamental.',
+    icon: '🇬🇧',
+    themeColor: '#4A90D9',
+  },
 ];
 
 const turmas: TurmaSeed[] = [
@@ -192,6 +200,28 @@ const turmas: TurmaSeed[] = [
 ];
 
 const simulations: SimulationSeed[] = [
+  {
+    file: 'questoes-ingles-6ano-b1-av2.ts',
+    exportName: 'questoesIngles6AnoB1Av2',
+    disciplineSlug: 'ingles',
+    schoolYear: 6,
+    bimester: 1,
+    assessment: 'AV2',
+    title: 'Simulado de Inglês',
+    subtitle: '1º Bimestre — 6º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-ingles-6ano-b1-av1.ts',
+    exportName: 'questoesIngles6AnoB1Av1',
+    disciplineSlug: 'ingles',
+    schoolYear: 6,
+    bimester: 1,
+    assessment: 'AV1',
+    title: 'Simulado de Inglês',
+    subtitle: '1º Bimestre — 6º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
   {
     file: 'questoes-historia-6ano-b4-av2.ts',
     exportName: 'questoesHistoria6AnoB4Av2',
