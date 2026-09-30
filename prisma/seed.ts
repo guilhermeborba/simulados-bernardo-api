@@ -217,6 +217,28 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-matematica-7ano-b1-av2.ts',
+    exportName: 'questoesMatematica7AnoB1Av2',
+    disciplineSlug: 'matematica',
+    schoolYear: 7,
+    bimester: 1,
+    assessment: 'AV2',
+    title: 'Simulado de Matemática',
+    subtitle: '1º Bimestre — 7º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-matematica-7ano-b1-av1.ts',
+    exportName: 'questoesMatematica7AnoB1Av1',
+    disciplineSlug: 'matematica',
+    schoolYear: 7,
+    bimester: 1,
+    assessment: 'AV1',
+    title: 'Simulado de Matemática',
+    subtitle: '1º Bimestre — 7º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-portugues-7ano-b2-av2.ts',
     exportName: 'questoesPortugues7AnoB2Av2',
     disciplineSlug: 'portugues',
