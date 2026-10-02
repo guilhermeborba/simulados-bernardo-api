@@ -217,6 +217,28 @@ const turmas: TurmaSeed[] = [
 
 const simulations: SimulationSeed[] = [
   {
+    file: 'questoes-educacao-fisica-7ano-b4-av2.ts',
+    exportName: 'questoesEducacaoFisica7AnoB4Av2',
+    disciplineSlug: 'educacao-fisica',
+    schoolYear: 7,
+    bimester: 4,
+    assessment: 'AV2',
+    title: 'Simulado de Educação Física',
+    subtitle: '4º Bimestre — 7º Ano — AV2',
+    estimatedDurationMinutes: 30,
+  },
+  {
+    file: 'questoes-educacao-fisica-7ano-b4-av1.ts',
+    exportName: 'questoesEducacaoFisica7AnoB4Av1',
+    disciplineSlug: 'educacao-fisica',
+    schoolYear: 7,
+    bimester: 4,
+    assessment: 'AV1',
+    title: 'Simulado de Educação Física',
+    subtitle: '4º Bimestre — 7º Ano — AV1',
+    estimatedDurationMinutes: 30,
+  },
+  {
     file: 'questoes-educacao-fisica-7ano-b3-av2.ts',
     exportName: 'questoesEducacaoFisica7AnoB3Av2',
     disciplineSlug: 'educacao-fisica',
