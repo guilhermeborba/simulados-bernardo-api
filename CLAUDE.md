@@ -183,12 +183,35 @@ npm run seed           # grava (idempotente: pode rodar várias vezes)
 
 ### Convenção de branch para novo simulado
 
+**Ensino Fundamental:**
 ```
 feat/{disciplina-curta}-{ano}ano-b{bimestre}av{avaliacao}
 ```
 Exemplos: `feat/mat-4ano-b1av1`, `feat/port-3ano-b2av2`, `feat/geo-4ano-b1av1`
 
+**Ensino Médio** (use `{n}em` no lugar de `{n}ano`):
+```
+feat/{disciplina-curta}-{n}em-completo   # todas as séries de uma disciplina
+feat/{disciplina-curta}-em-completo      # todas as 3 séries de uma disciplina
+```
+Exemplos: `feat/bio-em-completo`, `feat/fis-quim-em-completo`
+
+## Ensino Médio — convenções de nomenclatura
+
+| Série | Rótulo no arquivo | `schoolYear` | Subtítulo |
+|---|---|---|---|
+| 1ª série EM | `1em` | `10` | `'Xº Bimestre — 1ª Série (EM) — AVY'` |
+| 2ª série EM | `2em` | `11` | `'Xº Bimestre — 2ª Série (EM) — AVY'` |
+| 3ª série EM | `3em` | `12` | `'Xº Bimestre — 3ª Série (EM) — AVY'` |
+
+**Exemplos de arquivo e exportName para EM:**
+- `questoes-biologia-1em-b1-av1.ts` → `questoesBiologia1EmB1Av1`
+- `questoes-fisica-2em-b3-av2.ts` → `questoesFisica2EmB3Av2`
+- `questoes-matematica-3em-b4-av1.ts` → `questoesMatematica3EmB4Av1`
+
 ## Disciplinas disponíveis (slugs fixos)
+
+### Ensino Fundamental
 
 | Slug | Nome |
 |---|---|
@@ -197,12 +220,25 @@ Exemplos: `feat/mat-4ano-b1av1`, `feat/port-3ano-b2av2`, `feat/geo-4ano-b1av1`
 | `ciencias` | Ciências |
 | `historia` | História |
 | `geografia` | Geografia |
+| `arte` | Arte |
+| `educacao-fisica` | Educação Física |
+| `ingles` | Inglês |
 | `enfermagem` | Enfermagem (curso técnico) |
 | `infantil-eu-outro-nos` | O eu, o outro e o nós (Ed. Infantil) |
 | `infantil-corpo-gestos-movimentos` | Corpo, gestos e movimentos (Ed. Infantil) |
 | `infantil-tracos-sons-cores-formas` | Traços, sons, cores e formas (Ed. Infantil) |
 | `infantil-escuta-fala-pensamento-imaginacao` | Escuta, fala, pensamento e imaginação (Ed. Infantil) |
 | `infantil-espacos-tempos-quantidades` | Espaços, tempos, quantidades, relações e transformações (Ed. Infantil) |
+
+### Ensino Médio (novos)
+
+| Slug | Nome |
+|---|---|
+| `biologia` | Biologia |
+| `fisica` | Física |
+| `quimica` | Química |
+| `filosofia` | Filosofia |
+| `sociologia` | Sociologia |
 
 **Nunca crie novas disciplinas sem alinhamento** — a lista é controlada no seed.ts.
 
