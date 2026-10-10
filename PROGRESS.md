@@ -1,6 +1,6 @@
 # Estado do Projeto — simulados-bernardo-api
 
-> Atualizado em: 2026-09-25
+> Atualizado em: 2026-10-09
 > Atualizar este arquivo ao concluir cada fase ou iniciativa relevante.
 
 ## Status geral
@@ -30,17 +30,37 @@ Pendências menores (não bloqueantes para produção):
 
 ## Conteúdo de simulados
 
-**169 arquivos** em `prisma/seed-data/`. Cobertura por disciplina:
+**488 arquivos** em `prisma/seed-data/` — **492 simulados, ~14.760 questões** (último dry-run em 2026-10-09).
 
-| Disciplina | Anos cobertos | Observações |
+### Ensino Fundamental I (1º ao 5º ano)
+
+Disciplinas: Ciências, Geografia, História, Matemática, Português — **todos os bimestres AV1+AV2 de todos os anos**.
+
+| Série | Arquivos | Status |
 |---|---|---|
-| Matemática | 1º ao 4º ano (todos os bimestres AV1+AV2) | Completo |
-| Português | 1º ao 3º ano completo; 4º ano parcial (B1AV1 apenas) | 4º ano em andamento |
-| Geografia | 1º ao 4º ano (todos os bimestres AV1+AV2) | Completo |
-| História | 1º ao 3º ano (todos os bimestres AV1+AV2) | 4º ano ausente |
-| Ciências | 1º ao 3º ano (todos os bimestres AV1+AV2) | 4º ano ausente |
-| Educação Infantil | Infantil 4 e 5 (todos os campos BNCC) | Completo |
-| Enfermagem | Curso técnico | Presente (formato `topic`, sem bimestre) |
+| 1º ano | 40 | ✅ Completo |
+| 2º ano | 40 | ✅ Completo |
+| 3º ano | 40 | ✅ Completo |
+| 4º ano | 40 | ✅ Completo |
+| 5º ano | 40 | ✅ Completo |
+
+### Ensino Fundamental II (6º ao 9º ano)
+
+Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matemática, Português — **todos os bimestres AV1+AV2 de todos os anos**.
+
+| Série | Arquivos | Status |
+|---|---|---|
+| 6º ano | 64 | ✅ Completo |
+| 7º ano | 64 | ✅ Completo |
+| 8º ano | 64 | ✅ Completo |
+| 9º ano | 64 | ✅ Completo |
+
+### Outros
+
+| Segmento | Cobertura | Status |
+|---|---|---|
+| Educação Infantil | Infantil 4 e 5 (todos os campos BNCC) | ✅ Completo |
+| Enfermagem | Curso técnico (formato `topic`, sem bimestre) | ✅ Presente |
 
 **Convenção de branch para novo simulado:** `feat/{disciplina-curta}-{ano}ano-b{bimestre}av{avaliacao}`
 
@@ -57,13 +77,7 @@ Escopo: login/registro, listagem de simulados via API, tentativa com correção 
 
 Gap de backend identificado na spec: endpoint `GET /attempts/:id/questions` (questões de uma tentativa em andamento, sem gabarito) — ainda não implementado.
 
-### 2. Conteúdo faltante — 4º ano
-
-- Português 4º ano: B1AV2, B2, B3, B4 (8 simulados)
-- História 4º ano: todos os bimestres (8 simulados)
-- Ciências 4º ano: todos os bimestres (8 simulados)
-
-### 3. Recuperação de senha
+### 2. Recuperação de senha
 
 Endpoints planejados mas não implementados: `POST /auth/forgot-password` e `POST /auth/reset-password`. Requer envio de e-mail — decidir provider antes de implementar.
 
