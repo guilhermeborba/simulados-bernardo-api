@@ -1,6 +1,7 @@
 import { resolve } from 'node:path';
 import { hash } from 'bcryptjs';
 import {
+  ActivityKind,
   Prisma,
   PrismaClient,
   QuestionType,
@@ -8905,6 +8906,23 @@ export async function main() {
   }
 
   prisma = new PrismaClient();
+  // Quiz content has its own authoring/versioning path. Fail before any writes.
+  const quizCollisions = await prisma.simulation.findMany({
+    where: {
+      activityKind: ActivityKind.QUIZ,
+      slug: {
+        in: normalizedSimulations.map(
+          (simulation) => simulation.slug ?? getSimulationSlug(simulation),
+        ),
+      },
+    },
+    select: { slug: true },
+  });
+  if (quizCollisions.length) {
+    throw new Error(
+      `Seed de simulados bloqueado: slugs pertencem a quizzes: ${quizCollisions.map(({ slug }) => slug).join(', ')}`,
+    );
+  }
   const systemUser = await upsertSeedUser();
   const disciplineBySlug = await upsertDisciplines();
   const turmaBySlug = await upsertTurmas();
@@ -8927,8 +8945,9 @@ export async function main() {
     const maxScore = getMaxScore(simulation.questions);
     const simulationSlug = simulation.slug ?? getSimulationSlug(simulation);
     const savedSimulation = await prisma.simulation.upsert({
-      where: { slug: simulationSlug },
+      where: { slug: simulationSlug, activityKind: ActivityKind.SIMULATION },
       create: {
+        activityKind: ActivityKind.SIMULATION,
         title: simulation.title,
         subtitle: simulation.subtitle,
         slug: simulationSlug,
@@ -9065,7 +9084,12 @@ async function upsertTurmas() {
  */
 async function backfillMembershipsFromAttempts() {
   const attempts = await prisma.attempt.findMany({
-    where: { simulation: { turmaId: { not: null } } },
+    where: {
+      simulation: {
+        activityKind: ActivityKind.SIMULATION,
+        turmaId: { not: null },
+      },
+    },
     select: { studentId: true, simulation: { select: { turmaId: true } } },
     distinct: ['studentId', 'simulationId'],
   });

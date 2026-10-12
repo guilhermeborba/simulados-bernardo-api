@@ -1,5 +1,5 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
-import { AttemptStatus, Prisma, UserRole } from '@prisma/client';
+import { ActivityKind, AttemptStatus, Prisma, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { toSafeUser } from '../users/users.presenter';
 import { UpdateStudentProfileDto } from './dto/update-student-profile.dto';
@@ -53,7 +53,10 @@ export class StudentsService {
     await this.studentAccessService.assertCanAccessStudent(studentId, user);
 
     return this.prisma.attempt.findMany({
-      where: { studentId },
+      where: {
+        studentId,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+      },
       include: {
         simulation: {
           include: {
@@ -72,6 +75,7 @@ export class StudentsService {
       where: {
         studentId,
         status: AttemptStatus.FINISHED,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
       },
       include: {
         simulation: {

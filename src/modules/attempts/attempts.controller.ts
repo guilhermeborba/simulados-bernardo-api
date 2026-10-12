@@ -32,6 +32,15 @@ export class AttemptsController {
     return this.attemptsService.startAttempt(simulationId, user);
   }
 
+  @Post('quizzes/:quizId/attempts')
+  @Roles(UserRole.STUDENT)
+  startQuizAttempt(
+    @Param('quizId') quizId: string,
+    @CurrentUser() user: AuthenticatedUser,
+  ) {
+    return this.attemptsService.startQuizAttempt(quizId, user);
+  }
+
   @Get('attempts/:id')
   @Roles(UserRole.STUDENT, UserRole.ADMIN)
   findAttempt(@Param('id') id: string, @CurrentUser() user: AuthenticatedUser) {
@@ -88,4 +97,11 @@ export class AttemptsController {
   findMyAttempts(@CurrentUser() user: AuthenticatedUser) {
     return this.attemptsService.findMyAttempts(user.id);
   }
+
+  @Get('me/quiz-attempts')
+  @Roles(UserRole.STUDENT)
+  findMyQuizAttempts(@CurrentUser() user: AuthenticatedUser) {
+    return this.attemptsService.findMyQuizAttempts(user.id);
+  }
+
 }

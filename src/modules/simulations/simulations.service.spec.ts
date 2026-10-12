@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
-import { SimulationStatus, UserRole } from '@prisma/client';
+import { ActivityKind, SimulationStatus, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { SimulationsService } from './simulations.service';
@@ -116,7 +116,7 @@ describe('SimulationsService', () => {
       status: SimulationStatus.PUBLISHED,
     });
     expect(prisma.simulation.update).toHaveBeenCalledWith({
-      where: { id: 'simulation-1' },
+      where: { id: 'simulation-1', activityKind: ActivityKind.SIMULATION },
       data: expect.objectContaining({
         status: SimulationStatus.PUBLISHED,
         publishedAt: expect.any(Date),

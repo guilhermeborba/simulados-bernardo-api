@@ -3,7 +3,7 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { Prisma } from '@prisma/client';
+import { ActivityKind, Prisma } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { SimulationsService } from '../simulations/simulations.service';
 import { CreateQuestionDto } from './dto/create-question.dto';
@@ -17,10 +17,12 @@ export class QuestionsService {
     private readonly simulationsService: SimulationsService,
   ) {}
 
-  findBySimulation(simulationId: string) {
+  async findBySimulation(simulationId: string) {
+    await this.simulationsService.findByIdOrThrow(simulationId);
     return this.prisma.question.findMany({
       where: {
         simulationId,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
         isActive: true,
         deletedAt: null,
       },
@@ -38,6 +40,7 @@ export class QuestionsService {
       where: {
         id,
         deletedAt: null,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
       },
       include: {
         options: {

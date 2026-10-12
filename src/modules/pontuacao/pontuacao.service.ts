@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { AttemptStatus, Prisma } from '@prisma/client';
+import { ActivityKind, AttemptStatus, Prisma } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { RequestUser } from '../students/student-access.service';
@@ -32,7 +32,11 @@ export class PontuacaoService {
 
   async getMinhaPontuacao(userId: string) {
     const attempts = await this.prisma.attempt.findMany({
-      where: { studentId: userId, status: AttemptStatus.FINISHED },
+      where: {
+        studentId: userId,
+        status: AttemptStatus.FINISHED,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+      },
       select: {
         simulationId: true,
         percentage: true,
@@ -86,8 +90,15 @@ export class PontuacaoService {
     const attempts = await this.prisma.attempt.findMany({
       where: {
         status: AttemptStatus.FINISHED,
-        simulation: { turmaId },
-        student: { turmaMemberships: { some: { turmaId } } },
+        simulation: {
+          turmaId,
+          activityKind: ActivityKind.SIMULATION,
+          deletedAt: null,
+        },
+        student: {
+          deletedAt: null,
+          turmaMemberships: { some: { turmaId } },
+        },
         ...(turma.rankingCountsFrom
           ? { finishedAt: { gte: turma.rankingCountsFrom } }
           : {}),

@@ -25,7 +25,7 @@
  *      → nunca é tocada
  */
 import 'dotenv/config';
-import { AttemptStatus, PrismaClient } from '@prisma/client';
+import { ActivityKind, AttemptStatus, PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
@@ -42,7 +42,10 @@ async function main() {
   const corte = new Date(Date.now() - JANELA_PROTECAO_MINUTOS * 60_000);
 
   const emAndamento = await prisma.attempt.findMany({
-    where: { status: AttemptStatus.IN_PROGRESS },
+    where: {
+      status: AttemptStatus.IN_PROGRESS,
+      simulation: { activityKind: ActivityKind.SIMULATION },
+    },
     include: {
       _count: { select: { answers: true } },
       student: { select: { name: true, email: true } },

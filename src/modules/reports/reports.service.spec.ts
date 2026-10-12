@@ -1,3 +1,4 @@
+import { NotFoundException } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import { AttemptStatus, Prisma, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
@@ -7,6 +8,9 @@ import { ReportsService } from './reports.service';
 describe('ReportsService', () => {
   let service: ReportsService;
   let prisma: {
+    simulation: {
+      findFirst: jest.Mock;
+    };
     attempt: {
       findMany: jest.Mock;
     };
@@ -20,6 +24,9 @@ describe('ReportsService', () => {
 
   beforeEach(async () => {
     prisma = {
+      simulation: {
+        findFirst: jest.fn().mockResolvedValue({ id: 'simulation-1' }),
+      },
       attempt: {
         findMany: jest.fn(),
       },
@@ -103,6 +110,29 @@ describe('ReportsService', () => {
         bestPercentage: 90,
       },
     ]);
+  });
+
+  it('rejects an inaccessible simulation before querying its attempt data', async () => {
+    prisma.simulation.findFirst.mockResolvedValue(null);
+
+    await expect(
+      service.getSimulationPerformance('inaccessible-activity'),
+    ).rejects.toBeInstanceOf(NotFoundException);
+    expect(prisma.attempt.findMany).not.toHaveBeenCalled();
+  });
+
+  it('keeps zero performance values for a simulation without finished attempts', async () => {
+    prisma.attempt.findMany.mockResolvedValue([]);
+
+    await expect(service.getSimulationPerformance('simulation-1')).resolves.toEqual({
+      simulationId: 'simulation-1',
+      simulation: null,
+      totalFinishedAttempts: 0,
+      averagePercentage: 0,
+      bestPercentage: 0,
+      worstPercentage: 0,
+      averageScore: 0,
+    });
   });
 
   it('calculates question error rates', async () => {

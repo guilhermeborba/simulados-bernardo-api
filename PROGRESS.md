@@ -5,7 +5,7 @@
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI; quizzes e gamificação continuam como entregas seguintes.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; confirmação/feedback, catálogo editorial, jornada web e gamificação continuam como entregas seguintes.
 
 ---
 
@@ -84,7 +84,7 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 
 Plano: [Evolução — quizzes, gamificação e mobile](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
-**Planejamento concluído em 2026-10-12; lotes 01 e 02 implementados e validados localmente.** As demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Meta editorial proposta: 45 quizzes e 213 perguntas, distribuídos por todas as faixas.
+**Planejamento concluído em 2026-10-12; lotes 01, 02 e 03 implementados e validados.** As demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Meta editorial proposta: 45 quizzes e 213 perguntas, distribuídos por todas as faixas.
 
 Sequência: consolidar a base → quizzes na web → missões/XP/avatar/conquistas → revisão e progresso por habilidade → prova e planejamento mobile → app/beta. Entregas, dependências, estimativas condicionais e critérios de aceite estão no plano.
 
@@ -98,9 +98,15 @@ Decisão: [ADR 006 — Rotação atômica e revogação da sessão](docs/decisio
 
 CI adicionada nos dois repositórios: API com lint, unitários, build, validação do acervo e integração; web com tipos, sessão, build normal e regressão HTTP contra API real. As cinco fontes da web são originais locais com licenças OFL, eliminando a falha de download durante o build. A validação do lote 02 supera a limitação de fontes registrada no lote 01.
 
-Validação local do lote 02: 43 testes de integração API/PostgreSQL (35 de fluxos + 8 de refresh), 8 jornadas HTTP web/Next/API/PostgreSQL e 25 testes de sessão web. Também passaram 120 testes unitários da API, lint e os builds normais dos dois projetos. Detalhes no [guia de CI e regressão](docs/guia-ci-regressao.md). Os workflows serão executados pelo GitHub nas PRs; nenhum banco existente, seed em produção ou deploy foi alterado.
+Validação local do lote 02: 43 testes de integração API/PostgreSQL (35 de fluxos + 8 de refresh), 8 jornadas HTTP web/Next/API/PostgreSQL e 25 testes de sessão web. Também passaram 120 testes unitários da API, lint e os builds normais dos dois projetos. Detalhes no [guia de CI e regressão](docs/guia-ci-regressao.md). Os workflows das PRs 205 (API) e 40 (web) passaram no GitHub e as PRs foram integradas à main antes do lote 03. Nenhum banco existente, seed em produção ou deploy foi alterado.
 
-Próxima tarefa técnica do plano: lote 03 — migração aditiva e contratos de quiz. Continuam pendentes na etapa 0 a matriz editorial dos 45 quizzes, responsáveis de revisão, textos da home e métricas.
+**Lote 03 concluído:** migration aditiva distingue `SIMULATION`/`QUIZ`, preserva dados/sentinelas e audita tentativas abertas duplicadas antes de criar unicidade. `QuizzesModule` oferece gestão ADMIN, versões imutáveis após publicação e catálogo da última versão publicada autorizada. Início/retomada cria snapshots privados na mesma transação; leitura recupera conteúdo iniciado e revalida owner/turma/disciplina. Gabarito, explicação, curiosidade e mídia não aparecem nas questões não confirmadas do aluno. Quizzes não entram nos catálogos, históricos, relatórios, ranking, seed ou ferramenta de limpeza de simulados.
+
+Validação do lote 03: 212 testes unitários, 79 de integração PostgreSQL (incluindo migração sobre legado populado, abort/rollback de duplicatas, versões/inícios concorrentes, rollback de snapshots e pool privado de uma conexão), 8 jornadas HTTP web/Next/BFF contra a API desta entrega, lint, build e dry-run de 588 simulados/17.684 questões. A migration só foi aplicada a bancos descartáveis. Contratos e procedimento operacional no [guia de quizzes](docs/guia-quizzes.md); decisão no [ADR 007](docs/decisions/007-quizzes-versionados-e-snapshots-privados.md).
+
+Nesta entrega, quizzes aceitam múltipla escolha e explicação obrigatória; schema de mídia está reservado, sem aceitação até a política do lote 05. Rotas antigas de resposta/finish/result rejeitam quizzes; confirmação, feedback e resultado são o lote 04. Nenhum quiz editorial foi semeado e a interface web não foi alterada.
+
+Próxima tarefa técnica do plano: lote 04 — confirmação de respostas e resultado idempotente de quiz. Continuam pendentes na etapa 0 a matriz editorial dos 45 quizzes, responsáveis de revisão, textos da home e métricas.
 
 ### Integração front-end / API — base existente
 

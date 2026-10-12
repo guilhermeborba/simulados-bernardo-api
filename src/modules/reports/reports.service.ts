@@ -1,5 +1,5 @@
-import { Injectable } from '@nestjs/common';
-import { AttemptStatus, Prisma } from '@prisma/client';
+import { Injectable, NotFoundException } from '@nestjs/common';
+import { ActivityKind, AttemptStatus, Prisma } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { RequestUser, StudentAccessService } from '../students/student-access.service';
 
@@ -87,10 +87,24 @@ export class ReportsService {
   }
 
   async getSimulationPerformance(simulationId: string) {
+    const simulation = await this.prisma.simulation.findFirst({
+      where: {
+        id: simulationId,
+        activityKind: ActivityKind.SIMULATION,
+        deletedAt: null,
+      },
+      select: { id: true },
+    });
+
+    if (!simulation) {
+      throw new NotFoundException('Simulation not found');
+    }
+
     const attempts = await this.prisma.attempt.findMany({
       where: {
         simulationId,
         status: AttemptStatus.FINISHED,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
       },
       include: {
         simulation: {
@@ -122,6 +136,7 @@ export class ReportsService {
     const questions = await this.prisma.question.findMany({
       where: {
         deletedAt: null,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
       },
       include: {
         simulation: {
@@ -133,6 +148,7 @@ export class ReportsService {
           where: {
             attempt: {
               status: AttemptStatus.FINISHED,
+              simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
             },
           },
         },
@@ -170,6 +186,7 @@ export class ReportsService {
       where: {
         studentId,
         status: AttemptStatus.FINISHED,
+        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
       },
       include: {
         simulation: {

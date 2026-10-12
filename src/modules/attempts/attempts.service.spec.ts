@@ -37,6 +37,7 @@ describe('AttemptsService', () => {
       upsert: jest.Mock;
       findMany: jest.Mock;
     };
+    $queryRaw: jest.Mock;
     $transaction: jest.Mock;
   };
   let turmas: { assertCanAccessTurma: jest.Mock };
@@ -66,7 +67,15 @@ describe('AttemptsService', () => {
         upsert: jest.fn(),
         findMany: jest.fn(),
       },
-      $transaction: jest.fn(async (operations: unknown[]) => operations),
+      $queryRaw: jest.fn().mockResolvedValue([{ id: 'simulation-1' }]),
+      $transaction: jest.fn(
+        async (
+          operations:
+            | unknown[]
+            | ((transaction: typeof prisma) => Promise<unknown>),
+        ) =>
+          typeof operations === 'function' ? operations(prisma) : operations,
+      ),
     };
     turmas = { assertCanAccessTurma: jest.fn().mockResolvedValue(undefined) };
 
@@ -148,7 +157,11 @@ describe('AttemptsService', () => {
 
     await service.startAttempt('simulation-1', student);
 
-    expect(turmas.assertCanAccessTurma).toHaveBeenCalledWith('turma-1', student);
+    expect(turmas.assertCanAccessTurma).toHaveBeenCalledWith(
+      'turma-1',
+      student,
+      prisma,
+    );
   });
 
   it('reuses the attempt already in progress instead of creating another', async () => {

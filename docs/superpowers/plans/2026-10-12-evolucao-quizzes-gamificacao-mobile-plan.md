@@ -120,13 +120,14 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 
 ### Etapa 1 — Quizzes na web
 
-- [ ] Criar migração aditiva para distinguir simulado de quiz e manter os dados existentes.
-- [ ] Acrescentar DTOs, catálogo, criação e publicação de quiz; gestão inicial por ADMIN.
-- [ ] Acrescentar explicação pedagógica e mídia opcional às questões.
+- [x] Criar migração aditiva para distinguir simulado de quiz e manter os dados existentes.
+- [x] Acrescentar DTOs, catálogo, criação e publicação de quiz; gestão inicial por ADMIN.
+- [x] Acrescentar explicação pedagógica obrigatória às questões de quiz.
+- [ ] Validar mídia opcional e sua autorização (schema reservado no lote 03; aceitação no lote 05).
 - [ ] Implementar confirmação/correção imediata, leitura de feedback e finalização idempotentes.
 - [ ] Permitir conclusão de quiz somente quando todas as questões da tentativa estiverem confirmadas.
-- [ ] Congelar o conteúdo de cada tentativa de quiz em snapshots privados.
-- [ ] Garantir uma tentativa em andamento por aluno/atividade, inclusive em requisições concorrentes.
+- [x] Congelar o conteúdo de cada tentativa de quiz em snapshots privados.
+- [x] Garantir uma tentativa em andamento por aluno/atividade, inclusive em requisições concorrentes.
 - [ ] Criar importação própria de quizzes, com versão, chaves estáveis, validação e dry-run.
 - [ ] Revisar e publicar o catálogo mínimo de todos os públicos; Infantil tem imagem com descrição e áudio com transcrição.
 - [ ] Criar /quizzes, /quiz/[quizId] e histórico de quiz na web; aproveitar AuthContext, BFF e mapeamento existentes.
@@ -221,7 +222,7 @@ Criar restrição condicional para manter bimester/assessment preenchidos em SIM
 
 Todos os caminhos antigos de catálogo/gestão, histórico, relatórios, students e pontuacao devem tratar SIMULATION explicitamente. Endpoints de quiz têm filtros próprios. Uma rota antiga de início de simulado deve rejeitar IDs de quiz. Proibir mudança de activityKind após publicação.
 
-Na migração de unicidade de tentativa aberta, identificar duplicidades existentes antes de criar índice parcial; preservar o histórico e definir abandono das tentativas excedentes em uma rotina revisada. Não executar limpeza destrutiva como efeito de migração.
+Na migração de unicidade de tentativa aberta, identificar duplicidades existentes antes de criar índice parcial; abortar sem alteração e exigir análise operacional explícita preservando o histórico. O lote 03 não implementa abandono automático. Não executar limpeza destrutiva como efeito de migração.
 
 ### Conteúdo da tentativa e feedback
 
@@ -245,7 +246,7 @@ Etapa 3: LearningSkill, QuestionSkill e TeacherTurma. Progresso inicialmente pod
 
 ## 6. Contratos de API propostos
 
-Todas as rotas abaixo são propostas. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
+O lote 03 implementa autoria, catálogo, versões, início/retomada e leitura de snapshots sem feedback. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis; confirmação, resultado, mídia e demais rotas abaixo continuam planejados. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
 
 | Rota | Uso e controle |
 |---|---|
@@ -253,8 +254,9 @@ Todas as rotas abaixo são propostas. Rotas de aluno usam JwtAuthGuard; restriç
 | POST /quizzes | ADMIN cria rascunho com questões/explicações validadas |
 | GET/PATCH/DELETE /quizzes/:id | Gestão ADMIN; soft delete e versão editorial |
 | PATCH /quizzes/:id/publish ou /archive | ADMIN publica/arquiva com validação de conteúdo |
+| POST /quizzes/:id/versions | ADMIN copia conteúdo para próxima versão DRAFT, preservando a chave lógica |
 | POST /quizzes/:id/attempts | STUDENT inicia/retoma, com checagem de turma e unicidade |
-| GET /attempts/:id/questions | Reutilizado; quiz usa snapshots e feedback já confirmado |
+| GET /attempts/:id/questions | Implementado com snapshots; feedback confirmado será acrescentado no lote 04 |
 | POST /attempts/:id/questions/:questionId/answer | Reutilizado; quiz confirma/corrige/bloqueia, simulado conserva seu fluxo |
 | POST /attempts/:id/finish e GET /attempts/:id/result | Resultado persistido; idempotência no quiz |
 | GET /me/quiz-attempts | Histórico de prática do próprio aluno |
@@ -281,6 +283,8 @@ Criar seed-quizzes.ts e scripts próprios de importação/dry-run; estes ainda n
 | 10 | Acesso docente e recuperação | TeacherTurma, guards/services, auth e e-mail | Relatórios restritos e recuperação operacional |
 | 11 | Prova mobile | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
 | 12 | App/beta | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
+
+Lote 03 implementado: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md) e [contratos/migração](../../guia-quizzes.md). Confirmação, feedback e resultado seguem para o lote 04.
 
 Lotes 03–06 formam a primeira entrega de quizzes; 07–08 formam a entrega de gamificação. Design e curadoria começam no lote 02 e seguem em paralelo ao backend. Planejamento mobile começa quando a experiência da etapa 2 estiver validada.
 
