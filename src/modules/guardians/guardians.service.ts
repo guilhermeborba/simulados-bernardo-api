@@ -1,6 +1,7 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { toSafeUser } from '../users/users.presenter';
 import { LinkGuardianStudentDto } from './dto/link-guardian-student.dto';
 
 @Injectable()
@@ -37,7 +38,7 @@ export class GuardiansService {
       throw new BadRequestException('Guardian and student must be different users');
     }
 
-    return this.prisma.guardianStudent.upsert({
+    const link = await this.prisma.guardianStudent.upsert({
       where: {
         guardianId_studentId: {
           guardianId: dto.guardianId,
@@ -61,11 +62,17 @@ export class GuardiansService {
         guardian: true,
       },
     });
+
+    return {
+      ...link,
+      student: { ...toSafeUser(link.student), studentProfile: link.student.studentProfile },
+      guardian: toSafeUser(link.guardian),
+    };
   }
 
-  findMyStudents(guardianId: string) {
-    return this.prisma.guardianStudent.findMany({
-      where: { guardianId },
+  async findMyStudents(guardianId: string) {
+    const links = await this.prisma.guardianStudent.findMany({
+      where: { guardianId, student: { deletedAt: null } },
       include: {
         student: {
           include: {
@@ -75,6 +82,11 @@ export class GuardiansService {
       },
       orderBy: { createdAt: 'desc' },
     });
+
+    return links.map((link) => ({
+      ...link,
+      student: { ...toSafeUser(link.student), studentProfile: link.student.studentProfile },
+    }));
   }
 
   async unlinkStudent(guardianId: string, studentId: string): Promise<void> {

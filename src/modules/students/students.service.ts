@@ -1,6 +1,7 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { AttemptStatus, Prisma, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { toSafeUser } from '../users/users.presenter';
 import { UpdateStudentProfileDto } from './dto/update-student-profile.dto';
 import { RequestUser, StudentAccessService } from './student-access.service';
 
@@ -45,7 +46,7 @@ export class StudentsService {
       throw new NotFoundException('Student not found');
     }
 
-    return student;
+    return { ...toSafeUser(student), studentProfile: student.studentProfile };
   }
 
   async getAttempts(studentId: string, user: RequestUser) {

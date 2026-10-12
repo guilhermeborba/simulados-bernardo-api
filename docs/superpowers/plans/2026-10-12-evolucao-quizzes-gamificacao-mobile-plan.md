@@ -1,7 +1,7 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
 Data: 2026-10-12
-Status: planejamento concluído; lote 01 implementado e validado localmente; demais entregas pendentes
+Status: planejamento concluído; lotes 01 e 02 implementados e validados localmente; demais entregas pendentes
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -10,7 +10,7 @@ Transformar o Simulados Bernardo em uma plataforma de prática e avaliação. O 
 
 A primeira versão de quizzes deve atender Educação Infantil, Fundamental I, Fundamental II, Ensino Médio e Enfermagem. A mesma API sustenta experiências com linguagem e apresentação adequadas a cada segmento. O catálogo inicial terá cobertura mínima de todas as faixas; a ampliação para todas as disciplinas e temas será contínua.
 
-Este documento define entregas, decisões propostas, dependências e critérios de aceite. Ele não registra features como implementadas e não autoriza deploy ou publicação em lojas.
+Este documento define entregas, decisões propostas, dependências e critérios de aceite. A seção de execução registra os lotes já validados; as demais features permanecem planejadas. Ele não autoriza deploy ou publicação em lojas.
 
 ## 2. Base verificada
 
@@ -30,12 +30,12 @@ Repositórios inspecionados em modo de leitura:
 | Mídia | DTOs e runner atuais são textuais | Incluir imagem, texto alternativo e áudio para Infantil |
 | Preferência de trilha | Guardada no localStorage por navegador | Persistir por usuário, especialmente em aparelhos compartilhados e no mobile |
 | Sessão web | refreshPromise global sem chave por usuário em authenticatedBackendFetch.server.ts | Corrigir isolamento de sessão antes do lançamento |
-| Conteúdo | PROGRESS registra 492 simulados no dry-run de 09/10; a árvore local já tem expansão de Ensino Médio e referências a arquivos ainda ausentes | Validar novamente o inventário; números anteriores são históricos |
+| Conteúdo | Lote 02 valida 584 arquivos, 588 simulados e 17.684 questões; 192 entradas de 2ª/3ª série do Médio estão no backlog editorial | Publicar conteúdo pendente somente após revisão e promoção explícita |
 | Qualidade | Testes unitários na API; configuração e2e sem suíte implementada; sem CI encontrado | Acrescentar integração real e verificações de regressão |
 | Acesso docente | Role TEACHER sem vínculo restritivo completo por turma/aluno | Gestão inicial com ADMIN; liberar relatórios docentes após esse vínculo |
 | Recuperação de senha | Ainda não implementada | Entregar antes do beta mobile e da ampliação de adoção |
 
-A inspeção inicial do planejamento foi estática. A execução do lote 01 está registrada abaixo; dry-run do acervo e validação das demais jornadas continuam pendentes. O plano de integração de agosto contém caminhos macOS e um estado anterior ao código atual; não deve ser usado literalmente.
+A inspeção inicial do planejamento foi estática. A execução dos lotes 01 e 02 está registrada abaixo; dry-run do acervo e regressão HTTP das jornadas foram validados. O plano de integração de agosto contém caminhos macOS e um estado anterior ao código atual; não deve ser usado literalmente.
 
 Fontes locais principais: [schema](../../../prisma/schema.prisma), [tentativas](../../../src/modules/attempts/attempts.service.ts), [correção](../../../src/modules/attempts/attempts-correction.service.ts), [pontuação](../../../src/modules/pontuacao/pontuacao.service.ts), [ADR do BFF](../../decisions/002-frontend-bff-com-cookies-httponly.md), [ADR do gabarito](../../decisions/005-gabarito-protegido-no-backend.md). No frontend: PROGRESS.md, components/SimuladoRunner.tsx, lib/questionMapper.ts, lib/trilha.ts, lib/authenticatedBackendFetch.server.ts e app/api/backend/[...path]/route.ts.
 
@@ -46,6 +46,15 @@ Concluído localmente: isolamento de refresh no BFF por sessão, retenção para
 Validação: 25 testes web, 83 unitários da API e 8 testes reais com PostgreSQL descartável passaram. Smoke HTTP nas rotas Next compiladas confirmou isolamento de contas e coordenação entre bundles. Build da API passou; build web passou com fixture local de fontes, após falha do build comum no loader Google Fonts em código não alterado. Não houve deploy nem alteração de bancos/seed existentes.
 
 O coordenador BFF pertence a um processo. Definir coordenação compartilhada ou recuperação de disputa antes de ampliar réplicas. JWT de acesso já emitido mantém a duração atual. Ver [ADR 006](../../decisions/006-rotacao-atomica-e-revogacao-de-sessao.md).
+
+### Execução do lote 02 — 12/10/2026
+
+- Inventário reprodutível sem Prisma/banco: 584 arquivos, 588 simulados e 17.684 questões, incluindo cinco simulados privados do legado Português. Catálogo publicável é validado integralmente; os 192 planejados conservam metadados e identidade de acompanhamento separados da importação. Produção local de questões em andamento foi preservada.
+- API: regressão HTTP real com migrations e PostgreSQL isolado, cobrindo cadastro/login, convites, turmas, quatro tipos, retomada/edição/conclusão, histórico e autorização. Correção de exposição de hash de senha em perfis e vínculos de responsáveis encontrada pela regressão.
+- Web: oito jornadas HTTP com Next de produção, BFF, API e banco real, além dos 25 testes de sessão. Build normal passa com as cinco famílias de fontes locais originais e licenciadas. A suíte HTTP não automatiza cliques, layout ou acessibilidade.
+- CI nos dois repositórios, com Actions fixadas por SHA, lockfiles e bancos descartáveis. Guia: [CI e regressão](../../guia-ci-regressao.md); acervo: [inventário](../../inventario-acervo.md).
+
+A etapa 0 ainda exige curadoria/matriz e responsáveis, alinhamento de textos da home e métricas. A produção/revisão dos 192 simulados planejados segue como trabalho editorial próprio; esta entrega não cria nem publica quizzes.
 
 ## 3. Experiência e catálogo inicial para todos os públicos
 
@@ -98,11 +107,11 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Corrigir refreshPromise no BFF: compartilhar uma renovação somente entre requisições da mesma sessão; impedir que alunos diferentes recebam os mesmos tokens.
 - [x] Testar dois usuários com access expirado e requisições simultâneas, duas requisições do mesmo usuário, refresh revogado e logout.
 - [x] Tornar a rotação no backend atômica: uma única requisição consome o refresh anterior; definir recuperação do cliente quando outra renovação já ocorreu.
-- [ ] Validar registro/login, convite, início/retomada, envio, conclusão e histórico nos dois projetos.
-- [ ] Conferir consistência do seed de simulados em dry-run e reconciliar os arquivos de conteúdo ainda em produção; coordenar com a expansão em andamento.
-- [ ] Criar CI da API com build, lint e unitários; adicionar integração com PostgreSQL isolado para autorização e ciclo de tentativas.
-- [ ] Criar verificações da web para build, tipos e testes de sessão; acrescentar fluxo e2e crítico com API/banco de teste.
-- [ ] Corrigir documentação divergente: endpoint de questões já pronto, integração web concluída, refresh JWT com jti e correção atual tudo-ou-nada.
+- [x] Validar registro/login, convite, início/retomada, envio, conclusão e histórico nos dois projetos.
+- [x] Conferir consistência do seed de simulados em dry-run e reconciliar os arquivos de conteúdo ainda em produção; coordenar com a expansão em andamento.
+- [x] Criar CI da API com build, lint e unitários; adicionar integração com PostgreSQL isolado para autorização e ciclo de tentativas.
+- [x] Criar verificações da web para build, tipos e testes de sessão; acrescentar fluxo e2e crítico com API/banco de teste.
+- [x] Corrigir documentação divergente: endpoint de questões já pronto, integração web concluída, refresh JWT com jti e correção atual tudo-ou-nada.
 - [ ] Alinhar textos da home: feedback instantâneo e conquistas só devem ser anunciados quando disponíveis.
 - [ ] Definir matriz editorial dos 45 quizzes, dono de revisão por segmento e os formatos de mídia Infantil.
 - [ ] Definir eventos e métricas com campos mínimos; respostas, tokens e dados sensíveis não entram nos logs.
@@ -335,6 +344,6 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-O lote 01 está concluído e validado localmente. A próxima tarefa é o **lote 02: inventário do acervo, regressão e CI**. Em paralelo, fechar a matriz editorial dos 45 quizzes.
+Os lotes 01 e 02 estão concluídos e validados localmente. A próxima tarefa técnica é o **lote 03: migração aditiva e contratos de quiz**. Em paralelo, fechar a matriz editorial dos 45 quizzes, responsáveis e as pendências de produto da etapa 0.
 
-Depois do lote 02, detalhar a migração e os contratos do quiz a partir das decisões deste documento. O ciclo completo dos simulados ainda precisa da regressão da etapa 0.
+Detalhar a migração e os contratos do quiz a partir das decisões deste documento. A regressão atual protege o ciclo de simulados; o lote 03 deve manter esses checks e acrescentar cobertura específica de quiz.

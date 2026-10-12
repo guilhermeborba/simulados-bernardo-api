@@ -1,0 +1,58 @@
+name: API checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: api-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Build, catalog and PostgreSQL regression
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: simulados_regression_test
+          POSTGRES_PASSWORD: synthetic-ci-password
+          POSTGRES_DB: simulados_regression_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U simulados_regression_test -d simulados_regression_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql://simulados_regression_test:synthetic-ci-password@127.0.0.1:5432/simulados_regression_test?schema=public
+      TEST_DATABASE_URL: postgresql://simulados_regression_test:synthetic-ci-password@127.0.0.1:5432/simulados_regression_test?schema=public
+      PRISMA_HIDE_UPDATE_MESSAGE: 'true'
+      CHECKPOINT_DISABLE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run prisma:generate
+      - run: npm run lint
+      - run: npm run test -- --runInBand
+      - run: npm run build
+      - name: Validate publishable content and editorial backlog
+        run: npm run seed:dry-run
+      - name: Export inventory without answer keys
+        run: npm run --silent seed:inventory:json > /tmp/simulados-inventory.json
+      - name: Exercise migrations, authorization and attempt lifecycle
+        run: npm run test:integration -- --external

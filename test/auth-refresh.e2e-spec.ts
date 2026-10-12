@@ -8,15 +8,16 @@ import { AuthService } from '../src/modules/auth/auth.service';
 import { TurmasService } from '../src/modules/turmas/turmas.service';
 import { UsersService } from '../src/modules/users/users.service';
 
-// Opt-in: use only a disposable local PostgreSQL, never the application's URL.
-const databaseUrl = process.env.AUTH_REFRESH_TEST_DATABASE_URL;
-const describeWithDatabase = databaseUrl ? describe : describe.skip;
+import { assertTestDatabaseUrl } from './support/test-database.cjs';
+
+// No skipped suite: the protected runner must supply the disposable database.
+const databaseUrl = assertTestDatabaseUrl(process.env.TEST_DATABASE_URL);
 
 function tokenHash(token: string): string {
   return createHash('sha256').update(token).digest('hex');
 }
 
-describeWithDatabase('Refresh token transactions (PostgreSQL)', () => {
+describe('Refresh token transactions (PostgreSQL)', () => {
   let prisma: PrismaService;
   let jwt: JwtService;
   let service: AuthService;
@@ -27,19 +28,6 @@ describeWithDatabase('Refresh token transactions (PostgreSQL)', () => {
   let bothRead: Promise<void>;
 
   beforeAll(async () => {
-    const url = new URL(databaseUrl!);
-    if (
-      url.hostname !== '127.0.0.1' ||
-      url.pathname !== '/auth_refresh_test' ||
-      url.username !== 'auth_refresh_test' ||
-      !url.port ||
-      url.port === '5432'
-    ) {
-      throw new Error(
-        'Refresh integration tests require a disposable local database',
-      );
-    }
-
     prisma = new PrismaService({ datasources: { db: { url: databaseUrl } } });
     // Force both requests to read the same unused row before either consumes it.
     prisma.$use(async (params, next) => {
