@@ -15,6 +15,7 @@ import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { assertQuizContentReady } from '../quizzes/quiz-content.validation';
 import { AttemptsCorrectionService } from './attempts-correction.service';
+import { QuizAttemptsService } from './quiz-attempts.service';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 
 interface RequestUser {
@@ -28,6 +29,7 @@ export class AttemptsService {
     private readonly prisma: PrismaService,
     private readonly correctionService: AttemptsCorrectionService,
     private readonly turmasService: TurmasService,
+    private readonly quizAttemptsService: QuizAttemptsService,
   ) {}
 
   async startAttempt(
@@ -194,7 +196,7 @@ export class AttemptsService {
     this.assertCanAccessAttempt(attempt.studentId, user);
 
     if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
-      return this.getQuizAttemptQuestions(attempt, user);
+      return this.quizAttemptsService.getQuestions(attemptId, user);
     }
 
     const questions = await this.prisma.question.findMany({
@@ -273,7 +275,14 @@ export class AttemptsService {
   ) {
     const attempt = await this.findAttemptOrThrow(attemptId);
     this.assertCanAccessAttempt(attempt.studentId, user);
-    this.assertSimulationAttempt(attempt.simulation.activityKind);
+    if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
+      return this.quizAttemptsService.confirmAnswer(
+        attemptId,
+        questionId,
+        dto.answer,
+        user,
+      );
+    }
     this.assertAttemptInProgress(attempt.status);
 
     const question = await this.prisma.question.findFirst({
@@ -312,7 +321,9 @@ export class AttemptsService {
   async finishAttempt(attemptId: string, user: RequestUser) {
     const attempt = await this.findAttemptOrThrow(attemptId);
     this.assertCanAccessAttempt(attempt.studentId, user);
-    this.assertSimulationAttempt(attempt.simulation.activityKind);
+    if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
+      return this.quizAttemptsService.finish(attemptId, user);
+    }
     this.assertAttemptInProgress(attempt.status);
 
     const questions = await this.prisma.question.findMany({
@@ -403,7 +414,9 @@ export class AttemptsService {
   async getResult(attemptId: string, user: RequestUser) {
     const attempt = await this.findAttemptOrThrow(attemptId);
     this.assertCanAccessAttempt(attempt.studentId, user);
-    this.assertSimulationAttempt(attempt.simulation.activityKind);
+    if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
+      return this.quizAttemptsService.getResult(attemptId, user);
+    }
 
     if (attempt.status !== AttemptStatus.FINISHED) {
       throw new BadRequestException('Attempt is not finished');
@@ -493,108 +506,6 @@ export class AttemptsService {
     });
     if (!turma) {
       throw new NotFoundException('Published quiz not found');
-    }
-  }
-
-  private async getQuizAttemptQuestions(
-    attempt: Prisma.AttemptGetPayload<{
-      include: { simulation: { include: { discipline: true } } };
-    }>,
-    user: RequestUser,
-  ) {
-    // Read the current visibility again after acquiring the shared activity
-    // lock, so a concurrent archive/delete cannot leave us using stale metadata.
-    return this.prisma.$transaction(async (transaction) => {
-      await this.lockActivity(
-        transaction,
-        attempt.simulationId,
-        ActivityKind.QUIZ,
-        true,
-      );
-      const quiz = await transaction.simulation.findFirst({
-        where: {
-          id: attempt.simulationId,
-          activityKind: ActivityKind.QUIZ,
-          deletedAt: null,
-          publishedAt: { not: null },
-          status: { in: [SimulationStatus.PUBLISHED, SimulationStatus.ARCHIVED] },
-        },
-        include: { discipline: true },
-      });
-      if (!quiz) {
-        throw new NotFoundException('Published quiz not found');
-      }
-      await this.assertQuizAccess(transaction, quiz, user);
-      const [snapshots, submittedAnswers] = await Promise.all([
-        transaction.attemptQuestionSnapshot.findMany({
-          where: { attemptId: attempt.id },
-          select: {
-            questionId: true,
-            originKey: true,
-            type: true,
-            statement: true,
-            tip: true,
-            points: true,
-            sortOrder: true,
-            options: true,
-          },
-          orderBy: { sortOrder: 'asc' },
-        }),
-        transaction.attemptAnswer.findMany({ where: { attemptId: attempt.id } }),
-      ]);
-      if (snapshots.length === 0) {
-        throw new BadRequestException('Quiz attempt has no question snapshots');
-      }
-      const answersByQuestion = new Map(
-        submittedAnswers.map((answer) => [answer.questionId, answer.answer]),
-      );
-      return snapshots.map((snapshot) => ({
-        id: snapshot.questionId,
-        originKey: snapshot.originKey,
-        type: snapshot.type,
-        statement: snapshot.statement,
-        tip: snapshot.tip,
-        points: snapshot.points,
-        order: snapshot.sortOrder,
-        answer: answersByQuestion.get(snapshot.questionId) ?? null,
-        options: this.publicSnapshotOptions(snapshot.options),
-      }));
-    });
-  }
-
-  private publicSnapshotOptions(value: Prisma.JsonValue) {
-    if (!Array.isArray(value)) {
-      throw new BadRequestException('Quiz option snapshot is invalid');
-    }
-    return value.map((option) => {
-      if (
-        !option ||
-        typeof option !== 'object' ||
-        Array.isArray(option) ||
-        typeof option.id !== 'string' ||
-        typeof option.optionKey !== 'string' ||
-        typeof option.text !== 'string' ||
-        (option.groupKey !== null && typeof option.groupKey !== 'string') ||
-        typeof option.order !== 'number'
-      ) {
-        throw new BadRequestException('Quiz option snapshot is invalid');
-      }
-      // Select known fields rather than returning private JSON from storage.
-      return {
-        id: option.id,
-        optionKey: option.optionKey,
-        text: option.text,
-        groupKey: option.groupKey,
-        order: option.order,
-      };
-    });
-  }
-
-  private assertSimulationAttempt(activityKind: ActivityKind): void {
-    if (activityKind === ActivityKind.QUIZ) {
-      throw new BadRequestException(
-        'Quiz answer confirmation and results are not available yet',
-      );
     }
   }
 

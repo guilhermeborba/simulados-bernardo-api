@@ -9,15 +9,17 @@ O sistema anterior ao backend tinha os gabaritos embutidos nos arquivos TypeScri
 
 ## Decisão
 
-O gabarito (`QuestionAnswer`) é armazenado no banco e **nunca retornado** em nenhum endpoint acessível a aluno ou visitante anônimo.
+O gabarito estruturado (`QuestionAnswer` e `AttemptQuestionSnapshot.officialAnswers`) é armazenado no banco e **nunca retornado** em nenhum endpoint acessível a aluno ou visitante anônimo. Campos como `correctAnswer`, `answerKey` e `answerValue` não fazem parte das respostas públicas.
 
 Regras de acesso:
 
 - `GET /simulations/:simulationId/questions` — requer `ADMIN`. Retorna questões com opções mas sem gabarito mesmo para admin (o gabarito não está no DTO de saída).
-- `GET /attempts/:id/questions` — requer `STUDENT` dono da tentativa ou `ADMIN`. Retorna enunciado, opções e respostas salvas do aluno, sem gabarito.
-- `GET /attempts/:id/result` — disponível apenas após `FINISHED`. Retorna `isCorrect` e `pointsEarned` por questão — o aluno sabe se acertou, mas não qual seria a resposta certa de forma direta.
+- `GET /attempts/:id/questions` — requer `STUDENT` dono da tentativa ou `ADMIN`. Retorna enunciado, opções e respostas salvas do aluno, sem gabarito. Em quizzes, questões não confirmadas têm `answer`, `confirmedAt` e `feedback` nulos; somente questões confirmadas incluem seu feedback pedagógico persistido.
+- `GET /attempts/:id/result` — disponível apenas após `FINISHED`. Retorna `isCorrect` e `pointsEarned` por questão. Em quizzes, retorna também o feedback salvo; não acrescenta um campo com a alternativa oficial.
 
-A correção acontece integralmente no servidor em `AttemptsCorrectionService`, que tem acesso ao `QuestionAnswer` diretamente via Prisma sem passar por nenhum serializer público.
+A correção acontece integralmente no servidor em `AttemptsCorrectionService`. Simulados usam `QuestionAnswer`; quizzes usam o gabarito privado copiado no início da tentativa, sem consultar o conteúdo editorial vivo. Nenhum deles passa por um serializer público.
+
+A partir do lote 04, confirmar uma resposta de quiz libera uma explicação pedagógica e a curiosidade daquela questão, tenha o aluno acertado ou errado. Esses textos podem explicar a solução; são feedback de aprendizagem, sem publicação do gabarito estruturado. A resposta confirmada fica imutável e os textos não aparecem antecipadamente para as demais questões. Simulados mantêm seu comportamento existente. O contrato está no [ADR 008](008-confirmacao-e-resultado-idempotente-de-quiz.md).
 
 ## Tipos de correção implementados
 

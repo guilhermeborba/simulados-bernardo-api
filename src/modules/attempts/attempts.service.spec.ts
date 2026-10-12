@@ -15,6 +15,7 @@ import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
+import { QuizAttemptsService } from './quiz-attempts.service';
 
 describe('AttemptsService', () => {
   let service: AttemptsService;
@@ -83,6 +84,7 @@ describe('AttemptsService', () => {
       providers: [
         AttemptsService,
         AttemptsCorrectionService,
+        { provide: QuizAttemptsService, useValue: {} },
         {
           provide: PrismaService,
           useValue: prisma,

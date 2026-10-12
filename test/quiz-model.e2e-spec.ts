@@ -543,7 +543,7 @@ describe("Quiz versions and snapshots over HTTP (real Nest + PostgreSQL)", () =>
     ).toBe(2);
   });
 
-  it("prevents submission, finishing and results through the legacy correction engine until task 4", async () => {
+  it("confirms quiz answers while incomplete finish and unfinished result remain unavailable", async () => {
     const quiz = await createQuiz();
     await publish(quiz.id);
     const attempt = (await start(quiz.id)).body;
@@ -552,13 +552,13 @@ describe("Quiz versions and snapshots over HTTP (real Nest + PostgreSQL)", () =>
       `/attempts/${attempt.id}/questions/${quiz.questions[0].id}/answer`,
     )
       .send({ answer: { optionKey: "B" } })
-      .expect(400);
+      .expect(201);
     await http("post", `/attempts/${attempt.id}/answers`)
       .send({ questionId: quiz.questions[0].id, answer: { optionKey: "B" } })
-      .expect(400);
+      .expect(201);
     await http("post", `/attempts/${attempt.id}/finish`).expect(400);
     await http("get", `/attempts/${attempt.id}/result`).expect(400);
-    expect(await prisma.attemptAnswer.count()).toBe(0);
+    expect(await prisma.attemptAnswer.count()).toBe(1);
     expect(
       (await prisma.attempt.findUniqueOrThrow({ where: { id: attempt.id } }))
         .status,
