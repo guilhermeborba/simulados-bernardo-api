@@ -1,7 +1,7 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
 Data: 2026-10-12
-Status: planejamento concluído; lotes 01 a 04 implementados e validados; demais entregas pendentes
+Status: lotes 01 a 04 concluídos; lote 05 implementado tecnicamente, com revisão/publicação pendentes; jornada web e demais entregas pendentes
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -64,6 +64,14 @@ O lote 04 confirma e corrige cada resposta de quiz usando o snapshot, persiste o
 
 Validação do lote 04: 278 unitários, 117 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, validação Prisma e dry-run de 588 simulados/17.684 questões. Migrations somente em bancos descartáveis. Contratos e migração no [guia de quizzes](../../guia-quizzes.md). Catálogo editorial, mídia, telas de quiz e XP permanecem nas entregas seguintes.
 
+### Execução técnica do lote 05 — 12/10/2026
+
+Catálogo preparado com 45 quizzes/213 perguntas, três quizzes nas 15 faixas, todos `PENDING`. Importador próprio validado, atômico e idempotente; cria DRAFT por padrão e preserva versões, tentativas, arquivados/excluídos e simulados. Publicação pelo importador exige responsável/data/hash da revisão efetivamente realizada. A [matriz editorial](../../matriz-editorial-quizzes.md) apresenta temas, fontes, responsáveis pendentes e prévia das ilustrações.
+
+As 18 questões infantis têm SVGs originais modernizados, narração pt-BR, alt e transcrição. IDs/digests são fixados e copiados para snapshots; assets anteriores permanecem disponíveis. A rota de bytes exige dono/ADMIN e acesso atual, aceita Range e usa no-store. Falha de arquivo preserva texto e não impede confirmar/concluir pela API. Arquivos genéricos empacotados não são armazenamento confidencial de uploads privados.
+
+Validação: 381 unitários, 162 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, Prisma validate e dry-runs. Nenhuma base existente, publicação editorial ou deploy alterado. [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md) e [guia](../../guia-quizzes.md). O aceite editorial do lote 05 continua pendente; o lote 06 pode avançar em paralelo à revisão, com lançamento condicionado a ela.
+
 ## 3. Experiência e catálogo inicial para todos os públicos
 
 | Público | Experiência inicial | Cobertura mínima proposta |
@@ -74,7 +82,7 @@ Validação do lote 04: 278 unitários, 117 testes PostgreSQL e 8 jornadas HTTP 
 | Ensino Médio — 1ª à 3ª série | Treino por assunto, explicação objetiva e metas de estudo | 3 quizzes por série, com 5 perguntas |
 | Enfermagem | Casos e prática por assunto, com apresentação profissional | 3 quizzes iniciais, com 5 perguntas, revisados por responsável pelo conteúdo técnico |
 
-**Primeiro catálogo: 45 quizzes e 213 perguntas**, como meta de produção editorial. São 15 faixas: 2 infantis + 9 anos do Fundamental + 3 séries do Médio + 1 segmento técnico. Essas quantidades são propostas do plano, não conteúdo já existente.
+**Primeiro catálogo preparado: 45 quizzes e 213 perguntas**, com revisão humana e publicação pendentes. São 15 faixas: 2 infantis + 9 anos do Fundamental + 3 séries do Médio + 1 segmento técnico. O conteúdo está versionado em `prisma/quiz-data/`, sem importação em banco existente.
 
 Selecionar temas representativos do acervo atual e revisar adequação, enunciado, alternativas, explicação e mídia. O acervo ajuda a produzir o catálogo, mas as perguntas não devem ser selecionadas aleatoriamente sem revisão. Conteúdo privado de escola/turma conserva a mesma restrição; somente conteúdo permitido pode compor quizzes públicos. Manter as disciplinas controladas pelo seed.
 
@@ -121,7 +129,8 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Criar verificações da web para build, tipos e testes de sessão; acrescentar fluxo e2e crítico com API/banco de teste.
 - [x] Corrigir documentação divergente: endpoint de questões já pronto, integração web concluída, refresh JWT com jti e correção atual tudo-ou-nada.
 - [ ] Alinhar textos da home: feedback instantâneo e conquistas só devem ser anunciados quando disponíveis.
-- [ ] Definir matriz editorial dos 45 quizzes, dono de revisão por segmento e os formatos de mídia Infantil.
+- [x] Preparar matriz editorial dos 45 quizzes e formatos de mídia Infantil.
+- [ ] Definir responsáveis e concluir revisão humana por segmento, incluindo Enfermagem e mídia Infantil.
 - [ ] Definir eventos e métricas com campos mínimos; respostas, tokens e dados sensíveis não entram nos logs.
 
 **Aceite:** sessões de alunos distintos permanecem isoladas; fluxo atual passa em regressão; seed tem inventário validado; bases de testes não apontam para produção; matriz de conteúdo tem responsáveis.
@@ -131,12 +140,13 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Criar migração aditiva para distinguir simulado de quiz e manter os dados existentes.
 - [x] Acrescentar DTOs, catálogo, criação e publicação de quiz; gestão inicial por ADMIN.
 - [x] Acrescentar explicação pedagógica obrigatória às questões de quiz.
-- [ ] Validar mídia opcional e sua autorização (schema reservado no lote 03; aceitação no lote 05).
+- [x] Validar mídia opcional registrada, digest/snapshot e autorização de entrega na API.
+- [ ] Implementar armazenamento privado de uploads caso o catálogo passe a exigir arquivos confidenciais de turma.
 - [x] Implementar confirmação/correção imediata, leitura de feedback e finalização idempotentes.
 - [x] Permitir conclusão de quiz somente quando todas as questões da tentativa estiverem confirmadas.
 - [x] Congelar o conteúdo de cada tentativa de quiz em snapshots privados.
 - [x] Garantir uma tentativa em andamento por aluno/atividade, inclusive em requisições concorrentes.
-- [ ] Criar importação própria de quizzes, com versão, chaves estáveis, validação e dry-run.
+- [x] Criar importação própria de quizzes, com versão, chaves estáveis, validação e dry-run.
 - [ ] Revisar e publicar o catálogo mínimo de todos os públicos; Infantil tem imagem com descrição e áudio com transcrição.
 - [ ] Criar /quizzes, /quiz/[quizId] e histórico de quiz na web; aproveitar AuthContext, BFF e mapeamento existentes.
 - [ ] Acrescentar quizzes à allowlist do proxy e os contratos correspondentes ao apiClient.
@@ -254,7 +264,7 @@ Etapa 3: LearningSkill, QuestionSkill e TeacherTurma. Progresso inicialmente pod
 
 ## 6. Contratos de API implementados e próximos
 
-Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, confirmação, feedback, conclusão e resultado. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis. Mídia e as rotas de missões, recompensas e progresso abaixo continuam planejadas. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
+Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, confirmação, feedback, conclusão e resultado. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis. Mídia está implementada na API no lote 05; as rotas de missões, recompensas e progresso abaixo continuam planejadas. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
 
 | Rota | Uso e controle |
 |---|---|
@@ -264,7 +274,8 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | PATCH /quizzes/:id/publish ou /archive | ADMIN publica/arquiva com validação de conteúdo |
 | POST /quizzes/:id/versions | ADMIN copia conteúdo para próxima versão DRAFT, preservando a chave lógica |
 | POST /quizzes/:id/attempts | STUDENT inicia/retoma, com checagem de turma e unicidade |
-| GET /attempts/:id/questions | Snapshot público e resposta/feedback somente das questões confirmadas |
+| GET /attempts/:id/questions | Snapshot público, mídia de instrução e resposta/feedback somente das questões confirmadas |
+| GET /attempts/:id/questions/:questionId/media/:kind | Imagem/áudio autenticado do snapshot, com Range e autorização atual |
 | POST /attempts/:id/questions/:questionId/answer | Reutilizado; quiz confirma/corrige/bloqueia, simulado conserva seu fluxo |
 | POST /attempts/:id/finish e GET /attempts/:id/result | Resultado persistido; idempotência no quiz |
 | GET /me/quiz-attempts | Histórico de prática do próprio aluno |
@@ -273,7 +284,7 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | GET /me/learning-progress e POST /me/review-attempts | Progresso e revisão autorizada, na etapa 3 |
 | GET /students/:id/learning-progress | Responsável vinculado, ADMIN ou docente com vínculo implementado |
 
-Criar seed-quizzes.ts e scripts próprios de importação/dry-run; estes ainda não existem. A chave lógica e versão tornam a importação idempotente. Acrescentar explicitamente os novos prefixos à allowlist do BFF e manter o backend como fonte das regras.
+`seed-quizzes.ts` e scripts próprios de importação/dry-run/inventário estão implementados. A chave lógica e versão tornam a importação idempotente. Acrescentar explicitamente os novos prefixos à allowlist do BFF e manter o backend como fonte das regras.
 
 ## 7. Backlog dos primeiros lotes
 
@@ -283,7 +294,7 @@ Criar seed-quizzes.ts e scripts próprios de importação/dry-run; estes ainda n
 | 02 | Inventário, regressão e CI | Seed, testes de integração, fluxos web e documentação | Acervo validado e checks automatizados |
 | 03 | Modelo e snapshots de quiz | prisma/schema.prisma, migrations, QuizzesModule e AttemptsService | Simulados conservam contratos e quiz tem conteúdo estável |
 | 04 | Confirmação e resultado de quiz — concluído | QuizAttemptsService, projeções de feedback, migration e testes | Feedback seguro, retomada e concorrência validados |
-| 05 | Catálogo e mídia em todos os segmentos | Seed de quizzes, metadados, revisão e armazenamento de mídia | 45 quizzes revisados e ativos nas 15 faixas |
+| 05 | Catálogo e mídia — implementação técnica concluída, revisão/publicação pendentes | Importador, 45 quizzes/213 perguntas, mídia e matriz | Aceite editorial ainda pendente: 45 quizzes revisados e ativos nas 15 faixas |
 | 06 | Jornada web de quiz | apiClient, BFF, novas páginas, QuizRunner e preferências | Todos os públicos conseguem concluir e retomar |
 | 07 | Missões e XP | Novos módulos, transações, ledger e tela Aprender hoje | Regra de concessão única passa sob concorrência |
 | 08 | Avatar, coleções e conquistas | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
@@ -292,7 +303,7 @@ Criar seed-quizzes.ts e scripts próprios de importação/dry-run; estes ainda n
 | 11 | Prova mobile | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
 | 12 | App/beta | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
 
-Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). Catálogo editorial e mídia seguem para o lote 05; jornada web, para o lote 06.
+Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes; jornada web segue para o lote 06.
 
 Lotes 03–06 formam a primeira entrega de quizzes; 07–08 formam a entrega de gamificação. Design e curadoria começam no lote 02 e seguem em paralelo ao backend. Planejamento mobile começa quando a experiência da etapa 2 estiver validada.
 
@@ -324,7 +335,8 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Dois inícios simultâneos compartilham uma tentativa; dois finishes de quiz compartilham o resultado.
 - [ ] Finalizações concorrentes não duplicam recompensas quando implementadas.
 - [x] Nova versão e alteração da questão fonte não mudam questões, opções ou correção de tentativa iniciada.
-- [ ] Verificar a preservação das tentativas pelo importador próprio de quizzes quando implementado.
+- [x] Verificar a preservação de conteúdo, tentativas e respostas pelo importador de quizzes.
+- [x] Verificar mídia do snapshot, Range, revogação de acesso e falha de bytes sem bloquear confirmação/conclusão na API.
 - [x] Publicação concorrente com início não mistura enunciado, opções e gabarito de versões distintas.
 - [x] Quiz incompleto não finaliza nem altera status/totais.
 - [ ] Quiz incompleto não concede XP quando a recompensa for implementada.
@@ -362,6 +374,6 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-Os lotes 01 a 04 estão concluídos e validados. A próxima tarefa técnica é o **lote 05: importação própria, catálogo editorial e mídia em todos os segmentos**. Fechar a matriz dos 45 quizzes/213 perguntas, responsáveis de revisão e formatos de mídia Infantil; preservar as disciplinas e restrições de turma existentes.
+Os lotes 01 a 04 estão concluídos e o lote 05 está implementado tecnicamente. A próxima tarefa técnica é o **lote 06: jornada web de quiz** — catálogo por faixa/tema, runner com confirmação e feedback, retomada, resultado, histórico, preferências e BFF com entrega binária autorizada de mídia. Validar teclado, leitor de tela, celular e fallback, preservando as jornadas existentes de simulados.
 
-Criar seed de quizzes com chaves/versionamento, validação e dry-run. Definir e validar autorização, acessibilidade e armazenamento de mídia antes de aceitar os campos reservados. Publicar conteúdo somente após a revisão apropriada por segmento. Manter a regressão de simulados e os testes de snapshots, confirmação e resultado.
+A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada.

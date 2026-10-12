@@ -1,0 +1,1457 @@
+[
+  {
+    "activityKey": "fundamental-6-numeros-e-partes",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 6,
+    "topic": "Inteiros e operações com frações",
+    "title": "Números em novas aventuras",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "negativo-temperatura",
+        "statement": "A temperatura passou de −2 °C para 3 °C. De quantos graus foi o aumento?",
+        "explanation": "De −2 até zero são 2 graus; de zero até 3 são mais 3. O aumento foi de 5 °C.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1 °C"
+          },
+          {
+            "optionKey": "B",
+            "text": "5 °C"
+          },
+          {
+            "optionKey": "C",
+            "text": "6 °C"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "ordem-inteiros",
+        "statement": "Qual número é menor?",
+        "explanation": "Na reta numérica, −4 está à esquerda de −1 e de zero. Portanto, é o menor.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "0"
+          },
+          {
+            "optionKey": "B",
+            "text": "−1"
+          },
+          {
+            "optionKey": "C",
+            "text": "−4"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "somar-fracoes",
+        "statement": "Quanto é 1/5 + 2/5?",
+        "explanation": "Com denominadores iguais, somamos os numeradores: (1 + 2)/5 = 3/5.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "3/10"
+          },
+          {
+            "optionKey": "B",
+            "text": "2/25"
+          },
+          {
+            "optionKey": "C",
+            "text": "3/5"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "equivalente-sexto",
+        "statement": "Qual fração equivale a 2/3?",
+        "explanation": "Multiplicando numerador e denominador por 2, 2/3 se torna 4/6.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "3/4"
+          },
+          {
+            "optionKey": "B",
+            "text": "2/6"
+          },
+          {
+            "optionKey": "C",
+            "text": "4/6"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "fracao-quantidade",
+        "statement": "Quanto é 3/4 de 20?",
+        "explanation": "Dividimos 20 por 4 e multiplicamos por 3: 5 × 3 = 15.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "12"
+          },
+          {
+            "optionKey": "B",
+            "text": "15"
+          },
+          {
+            "optionKey": "C",
+            "text": "5"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-6-textos-e-intencoes",
+    "contentVersion": 1,
+    "disciplineSlug": "portugues",
+    "schoolYear": 6,
+    "topic": "Gêneros textuais e finalidade comunicativa",
+    "title": "Qual é a missão deste texto?",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "receita-genero",
+        "statement": "Um texto apresenta ingredientes e um modo de preparo. Qual é o gênero mais provável?",
+        "explanation": "Ingredientes e instruções de preparo são características de uma receita culinária.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Poema"
+          },
+          {
+            "optionKey": "B",
+            "text": "Receita culinária"
+          },
+          {
+            "optionKey": "C",
+            "text": "Notícia"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "noticia-finalidade",
+        "statement": "Qual é a principal finalidade de uma notícia?",
+        "explanation": "A notícia informa sobre acontecimentos e apresenta dados para situar o leitor.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ensinar uma dança"
+          },
+          {
+            "optionKey": "B",
+            "text": "Informar sobre um acontecimento"
+          },
+          {
+            "optionKey": "C",
+            "text": "Organizar uma lista de compras"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "publicidade",
+        "statement": "Uma mensagem anuncia um produto e tenta convencer o público a comprá-lo. Qual é sua finalidade predominante?",
+        "explanation": "A publicidade procura persuadir. Por isso, seus argumentos e promessas devem ser examinados.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Relatar um sonho pessoal"
+          },
+          {
+            "optionKey": "B",
+            "text": "Persuadir o público"
+          },
+          {
+            "optionKey": "C",
+            "text": "Registrar uma ata"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "fato-opiniao",
+        "statement": "Qual frase expressa uma opinião?",
+        "explanation": "Mais divertido expressa uma avaliação subjetiva. Duração e horário podem ser verificados.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "O passeio dura duas horas"
+          },
+          {
+            "optionKey": "B",
+            "text": "O passeio começa às nove horas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Este é o passeio mais divertido da cidade"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "instrucao-verbo",
+        "statement": "Em Misture os ingredientes, a forma verbal misture é usada principalmente para quê?",
+        "explanation": "Misture orienta o leitor a executar uma ação, algo comum em textos de instrução.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Orientar uma ação"
+          },
+          {
+            "optionKey": "B",
+            "text": "Nomear uma personagem"
+          },
+          {
+            "optionKey": "C",
+            "text": "Informar o lugar da ação"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-6-celulas-e-vida",
+    "contentVersion": 1,
+    "disciplineSlug": "ciencias",
+    "schoolYear": 6,
+    "topic": "Células e organização dos seres vivos",
+    "title": "Uma viagem ao mundo microscópico",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "celula-unidade",
+        "statement": "Qual estrutura é considerada a unidade básica dos seres vivos?",
+        "explanation": "A célula é a unidade básica de organização da vida.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A nuvem"
+          },
+          {
+            "optionKey": "B",
+            "text": "A célula"
+          },
+          {
+            "optionKey": "C",
+            "text": "A rocha"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "membrana",
+        "statement": "Qual estrutura delimita a célula e participa do controle de entrada e saída de substâncias?",
+        "explanation": "A membrana plasmática delimita a célula e regula trocas com o ambiente.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Pétala"
+          },
+          {
+            "optionKey": "B",
+            "text": "Membrana plasmática"
+          },
+          {
+            "optionKey": "C",
+            "text": "Casca de árvore"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "nucleo",
+        "statement": "Em uma célula animal típica, onde está a maior parte do material genético?",
+        "explanation": "O núcleo abriga a maior parte do DNA da célula animal típica.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Na parede celular"
+          },
+          {
+            "optionKey": "B",
+            "text": "No núcleo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Fora da célula"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "unicelular",
+        "statement": "Como é chamado um ser vivo formado por uma única célula?",
+        "explanation": "Unicelular significa formado por uma célula, como ocorre em muitas bactérias.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Multicelular"
+          },
+          {
+            "optionKey": "B",
+            "text": "Mineral"
+          },
+          {
+            "optionKey": "C",
+            "text": "Unicelular"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "microscopio",
+        "statement": "Qual instrumento permite observar muitas estruturas celulares pequenas?",
+        "explanation": "O microscópio amplia imagens e ajuda a observar estruturas que não vemos a olho nu.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Termômetro"
+          },
+          {
+            "optionKey": "B",
+            "text": "Microscópio"
+          },
+          {
+            "optionKey": "C",
+            "text": "Bússola"
+          }
+        ],
+        "correctAnswer": "B",
+        "funFact": "Alguns seres vivos são formados por uma única célula; outros têm muitos tipos de células."
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-7-razoes-do-cotidiano",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 7,
+    "topic": "Proporcionalidade e porcentagem",
+    "title": "Desafios de uma receita",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "receita-dobro",
+        "statement": "Uma receita para 4 pessoas usa 2 xícaras de arroz. Mantendo a proporção, quantas xícaras são necessárias para 8 pessoas?",
+        "explanation": "O número de pessoas dobrou; a quantidade de arroz também dobra: 2 × 2 = 4.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "6"
+          },
+          {
+            "optionKey": "B",
+            "text": "3"
+          },
+          {
+            "optionKey": "C",
+            "text": "4"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "porcentagem-cinquenta",
+        "statement": "Quanto é 50% de 80?",
+        "explanation": "50% corresponde à metade. A metade de 80 é 40.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "40"
+          },
+          {
+            "optionKey": "B",
+            "text": "50"
+          },
+          {
+            "optionKey": "C",
+            "text": "30"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "escala",
+        "statement": "Em uma planta na escala 1:100, uma parede mede 3 cm no desenho. Qual é sua medida real?",
+        "explanation": "Cada centímetro representa 100 cm. Assim, 3 cm representam 300 cm, ou 3 metros.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "30 centímetros"
+          },
+          {
+            "optionKey": "B",
+            "text": "300 metros"
+          },
+          {
+            "optionKey": "C",
+            "text": "3 metros"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "preco-unitario",
+        "statement": "Três cadernos iguais custam R$ 18,00. Quanto custa um caderno?",
+        "explanation": "O preço unitário é 18 ÷ 3 = 6 reais.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "R$ 6,00"
+          },
+          {
+            "optionKey": "B",
+            "text": "R$ 3,00"
+          },
+          {
+            "optionKey": "C",
+            "text": "R$ 9,00"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "desconto",
+        "statement": "Um produto de R$ 100,00 recebe desconto de 20%. Qual é o novo preço?",
+        "explanation": "20% de 100 são 20. O preço passa a ser 100 − 20 = 80 reais.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "R$ 20,00"
+          },
+          {
+            "optionKey": "B",
+            "text": "R$ 120,00"
+          },
+          {
+            "optionKey": "C",
+            "text": "R$ 80,00"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-7-cidades-em-rede",
+    "contentVersion": 1,
+    "disciplineSlug": "geografia",
+    "schoolYear": 7,
+    "topic": "Urbanização, mobilidade e redes",
+    "title": "Cidades que se conectam",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "urbanizacao",
+        "statement": "O que significa urbanização?",
+        "explanation": "Urbanização envolve o aumento da população urbana e transformações no espaço das cidades.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Crescimento da participação da população urbana e expansão das cidades"
+          },
+          {
+            "optionKey": "B",
+            "text": "Desaparecimento de todos os rios"
+          },
+          {
+            "optionKey": "C",
+            "text": "Apenas a construção de uma casa isolada"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "mobilidade",
+        "statement": "Qual exemplo está ligado à mobilidade urbana?",
+        "explanation": "Mobilidade urbana diz respeito às condições e formas de deslocamento pela cidade.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A altura de uma montanha"
+          },
+          {
+            "optionKey": "B",
+            "text": "O deslocamento de pessoas por ônibus e ciclovias"
+          },
+          {
+            "optionKey": "C",
+            "text": "A composição das estrelas"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "rede-cidades",
+        "statement": "O que conecta cidades em uma rede urbana?",
+        "explanation": "As cidades se relacionam por fluxos e funções diferentes, formando uma rede urbana.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A ausência de comunicação"
+          },
+          {
+            "optionKey": "B",
+            "text": "Fluxos de pessoas, mercadorias, informações e serviços"
+          },
+          {
+            "optionKey": "C",
+            "text": "Somente a cor dos prédios"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "saneamento",
+        "statement": "Qual infraestrutura está relacionada ao saneamento básico?",
+        "explanation": "Abastecimento de água e serviços de esgoto integram o saneamento básico.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Somente placas de publicidade"
+          },
+          {
+            "optionKey": "B",
+            "text": "Somente pistas de corrida"
+          },
+          {
+            "optionKey": "C",
+            "text": "Abastecimento de água e coleta de esgoto"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "impermeabilizacao",
+        "statement": "Quando muito solo é coberto por asfalto e concreto, o que tende a acontecer com a infiltração da chuva?",
+        "explanation": "Superfícies impermeáveis dificultam a infiltração e aumentam o escoamento superficial.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Deixa de depender do solo"
+          },
+          {
+            "optionKey": "B",
+            "text": "Sempre aumenta"
+          },
+          {
+            "optionKey": "C",
+            "text": "Diminui"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-7-english-daily-life",
+    "contentVersion": 1,
+    "disciplineSlug": "ingles",
+    "schoolYear": 7,
+    "topic": "Vocabulário e presente simples",
+    "title": "A day in English",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "morning-greeting",
+        "statement": "Qual expressão em inglês é usada para cumprimentar alguém pela manhã?",
+        "explanation": "Good morning é uma saudação da manhã. Evening refere-se ao início da noite; night, à noite.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Good morning"
+          },
+          {
+            "optionKey": "B",
+            "text": "Good night"
+          },
+          {
+            "optionKey": "C",
+            "text": "Good evening"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "school-vocabulary",
+        "statement": "Na frase I go to school, o que significa school?",
+        "explanation": "School significa escola. A frase informa que a pessoa vai à escola.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Escola"
+          },
+          {
+            "optionKey": "B",
+            "text": "Mercado"
+          },
+          {
+            "optionKey": "C",
+            "text": "Jardim"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "simple-present",
+        "statement": "Complete: She __ soccer on Saturdays.",
+        "explanation": "No presente simples, com she, o verbo recebe s: She plays.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "plays"
+          },
+          {
+            "optionKey": "B",
+            "text": "playing"
+          },
+          {
+            "optionKey": "C",
+            "text": "play"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "routine-time",
+        "statement": "Leia: I have breakfast at seven. A que atividade breakfast se refere?",
+        "explanation": "Breakfast significa café da manhã. At seven indica o horário: às sete.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Café da manhã"
+          },
+          {
+            "optionKey": "B",
+            "text": "Almoço"
+          },
+          {
+            "optionKey": "C",
+            "text": "Jantar"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "reading-frequency",
+        "statement": "Leia: Tom walks to school every day. Com que frequência Tom vai a pé à escola?",
+        "explanation": "Every day significa todos os dias.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Uma vez por mês"
+          },
+          {
+            "optionKey": "B",
+            "text": "Somente aos domingos"
+          },
+          {
+            "optionKey": "C",
+            "text": "Todos os dias"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-8-equacoes-em-jogo",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 8,
+    "topic": "Equações do primeiro grau e expressões",
+    "title": "Descubra o número escondido",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "equacao-adicao",
+        "statement": "Qual é o valor de x em x + 7 = 19?",
+        "explanation": "Subtraímos 7 dos dois lados: x = 19 − 7 = 12.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "7"
+          },
+          {
+            "optionKey": "B",
+            "text": "26"
+          },
+          {
+            "optionKey": "C",
+            "text": "12"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "equacao-multiplicacao",
+        "statement": "Resolva 3x = 21.",
+        "explanation": "Dividimos os dois lados por 3: x = 21 ÷ 3 = 7.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "x = 18"
+          },
+          {
+            "optionKey": "B",
+            "text": "x = 24"
+          },
+          {
+            "optionKey": "C",
+            "text": "x = 7"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "equacao-duas-etapas",
+        "statement": "Qual valor satisfaz 2x − 4 = 10?",
+        "explanation": "Somando 4, obtemos 2x = 14. Dividindo por 2, x = 7.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "5"
+          },
+          {
+            "optionKey": "B",
+            "text": "7"
+          },
+          {
+            "optionKey": "C",
+            "text": "3"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "distributiva",
+        "statement": "Qual expressão equivale a 2(x + 3)?",
+        "explanation": "A distributiva multiplica cada termo dentro dos parênteses: 2x + 2 × 3 = 2x + 6.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "x + 6"
+          },
+          {
+            "optionKey": "B",
+            "text": "2x + 3"
+          },
+          {
+            "optionKey": "C",
+            "text": "2x + 6"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "verificar-solucao",
+        "statement": "O número 5 é solução de qual equação?",
+        "explanation": "Substituindo x por 5 em x − 1 = 4, temos 5 − 1 = 4.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "2x = 12"
+          },
+          {
+            "optionKey": "B",
+            "text": "x − 1 = 4"
+          },
+          {
+            "optionKey": "C",
+            "text": "x + 2 = 9"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-8-energia-se-transforma",
+    "contentVersion": 1,
+    "disciplineSlug": "ciencias",
+    "schoolYear": 8,
+    "topic": "Formas e transformações de energia",
+    "title": "Energia em ação",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "painel-solar",
+        "statement": "Um painel solar fotovoltaico transforma principalmente qual energia em energia elétrica?",
+        "explanation": "O painel fotovoltaico transforma energia da luz em energia elétrica.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Energia luminosa"
+          },
+          {
+            "optionKey": "B",
+            "text": "Energia sonora"
+          },
+          {
+            "optionKey": "C",
+            "text": "Energia de um alimento"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "ventilador",
+        "statement": "Em um ventilador ligado, qual transformação explica o movimento das pás?",
+        "explanation": "O motor utiliza energia elétrica para produzir movimento, uma forma de energia mecânica.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Elétrica em mecânica"
+          },
+          {
+            "optionKey": "B",
+            "text": "Sonora em nuclear"
+          },
+          {
+            "optionKey": "C",
+            "text": "Térmica em química"
+          }
+        ],
+        "correctAnswer": "A",
+        "funFact": "Parte da energia de um ventilador também se transforma em som e calor."
+      },
+      {
+        "originKey": "chuveiro",
+        "statement": "Um chuveiro elétrico aquece a água. Qual transformação predomina?",
+        "explanation": "A resistência converte energia elétrica em energia térmica, aquecendo a água.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Térmica em elétrica"
+          },
+          {
+            "optionKey": "B",
+            "text": "Luminosa em sonora"
+          },
+          {
+            "optionKey": "C",
+            "text": "Elétrica em térmica"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "conservacao",
+        "statement": "Em transformações físicas, qual afirmação descreve a conservação de energia?",
+        "explanation": "Em um sistema isolado, a energia total é conservada, embora possa mudar de forma.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A energia pode mudar de forma, mantendo o total em um sistema isolado"
+          },
+          {
+            "optionKey": "B",
+            "text": "A energia desaparece sem se transformar"
+          },
+          {
+            "optionKey": "C",
+            "text": "Toda energia sempre se transforma em luz"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "renovavel",
+        "statement": "Qual fonte é considerada renovável?",
+        "explanation": "O vento é continuamente produzido por processos atmosféricos. Carvão e petróleo são fontes não renováveis.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Carvão mineral"
+          },
+          {
+            "optionKey": "B",
+            "text": "Vento"
+          },
+          {
+            "optionKey": "C",
+            "text": "Petróleo"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-8-abolicao-e-cidadania",
+    "contentVersion": 1,
+    "disciplineSlug": "historia",
+    "schoolYear": 8,
+    "topic": "Escravização, abolição e direitos",
+    "title": "Histórias de luta por liberdade",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "resistencia",
+        "statement": "Qual exemplo mostra resistência de pessoas escravizadas no Brasil?",
+        "explanation": "Quilombos integraram diferentes formas de resistência à escravização e de construção de comunidades.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A formação de quilombos"
+          },
+          {
+            "optionKey": "B",
+            "text": "A ausência de qualquer reação"
+          },
+          {
+            "optionKey": "C",
+            "text": "A aceitação obrigatória de toda violência"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "lei-aurea",
+        "statement": "O que a Lei Áurea, assinada em 1888, determinou?",
+        "explanation": "A Lei Áurea extinguiu legalmente a escravidão no Brasil. A independência ocorreu em 1822.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A abolição legal da escravidão no Brasil"
+          },
+          {
+            "optionKey": "B",
+            "text": "A criação da primeira cidade brasileira"
+          },
+          {
+            "optionKey": "C",
+            "text": "A independência do Brasil"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "apos-abolicao",
+        "statement": "Qual afirmação sobre o período após a abolição é correta?",
+        "explanation": "A abolição não garantiu, por si só, acesso igual a terra, educação e trabalho. As lutas por direitos continuaram.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A liberdade legal não eliminou o racismo e a desigualdade"
+          },
+          {
+            "optionKey": "B",
+            "text": "Não houve mais luta por direitos"
+          },
+          {
+            "optionKey": "C",
+            "text": "Todas as desigualdades desapareceram imediatamente"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "abolicionismo",
+        "statement": "O movimento abolicionista era composto por quê?",
+        "explanation": "O abolicionismo reuniu pessoas e grupos diversos, inclusive pessoas negras e anteriormente escravizadas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Diferentes pessoas, grupos e formas de mobilização"
+          },
+          {
+            "optionKey": "B",
+            "text": "Uma única pessoa, sem apoio social"
+          },
+          {
+            "optionKey": "C",
+            "text": "Apenas proprietários contrários à liberdade"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "documento-analise",
+        "statement": "Ao estudar um jornal do século XIX, o que ajuda a interpretar seu conteúdo?",
+        "explanation": "Contexto, autoria e interesses ajudam a analisar o jornal como fonte histórica.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Supor que todo texto é neutro"
+          },
+          {
+            "optionKey": "B",
+            "text": "Ignorar a data e o autor"
+          },
+          {
+            "optionKey": "C",
+            "text": "Conhecer o contexto e a posição de quem escreveu"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-9-dados-e-relacoes",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 9,
+    "topic": "Função afim e estatística básica",
+    "title": "Leia os números com atenção",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "funcao-valor",
+        "statement": "Se f(x) = 2x + 3, qual é f(4)?",
+        "explanation": "Substituindo x por 4: f(4) = 2 × 4 + 3 = 11.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "14"
+          },
+          {
+            "optionKey": "B",
+            "text": "8"
+          },
+          {
+            "optionKey": "C",
+            "text": "11"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "funcao-taxa",
+        "statement": "Uma corrida custa R$ 5,00 fixos mais R$ 2,00 por quilômetro. Qual expressão dá o preço de x quilômetros?",
+        "explanation": "A parte fixa é 5 e a parte variável é 2 vezes o número de quilômetros: 5 + 2x.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "7x"
+          },
+          {
+            "optionKey": "B",
+            "text": "5 + 2x"
+          },
+          {
+            "optionKey": "C",
+            "text": "5x + 2"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "media-notas",
+        "statement": "Qual é a média de 6, 8 e 10?",
+        "explanation": "Somamos 6 + 8 + 10 = 24 e dividimos por 3: a média é 8.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "24"
+          },
+          {
+            "optionKey": "B",
+            "text": "8"
+          },
+          {
+            "optionKey": "C",
+            "text": "9"
+          }
+        ],
+        "correctAnswer": "B",
+        "funFact": "Conjuntos diferentes de valores podem ter a mesma média. Por isso, outras medidas também ajudam a entender os dados."
+      },
+      {
+        "originKey": "mediana",
+        "statement": "Qual é a mediana dos valores 2, 3, 7, 8 e 10?",
+        "explanation": "Os dados já estão ordenados. Com cinco valores, a mediana é o valor central, 7.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "7"
+          },
+          {
+            "optionKey": "B",
+            "text": "8"
+          },
+          {
+            "optionKey": "C",
+            "text": "3"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "probabilidade-dado",
+        "statement": "Um dado comum tem seis faces igualmente prováveis. Qual é a probabilidade de sair um número par?",
+        "explanation": "Há três resultados pares: 2, 4 e 6. A probabilidade é 3/6 = 1/2.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "2/3"
+          },
+          {
+            "optionKey": "B",
+            "text": "1/2"
+          },
+          {
+            "optionKey": "C",
+            "text": "1/6"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-9-argumentos-e-evidencias",
+    "contentVersion": 1,
+    "disciplineSlug": "portugues",
+    "schoolYear": 9,
+    "topic": "Argumentação e leitura crítica",
+    "title": "Ideias que precisam de apoio",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "tese",
+        "statement": "Em um texto argumentativo, o que é a tese?",
+        "explanation": "A tese é a posição que o autor sustenta com argumentos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A posição principal defendida"
+          },
+          {
+            "optionKey": "B",
+            "text": "A lista de personagens"
+          },
+          {
+            "optionKey": "C",
+            "text": "Somente a primeira palavra"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "evidencia",
+        "statement": "Qual informação pode fortalecer um argumento sobre leitura na escola?",
+        "explanation": "Dados verificáveis, com fonte e método, permitem avaliar o apoio dado ao argumento.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Um boato sem origem"
+          },
+          {
+            "optionKey": "B",
+            "text": "Dados de uma pesquisa com método e fonte identificados"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma frase inventada atribuída a alguém"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "conector-oposicao",
+        "statement": "Qual expressão costuma introduzir uma ideia de oposição?",
+        "explanation": "No entanto sinaliza oposição ou ressalva. Portanto indica conclusão; além disso, adição.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Portanto"
+          },
+          {
+            "optionKey": "B",
+            "text": "Além disso"
+          },
+          {
+            "optionKey": "C",
+            "text": "No entanto"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "generalizacao",
+        "statement": "Qual frase apresenta uma generalização sem apoio suficiente?",
+        "explanation": "Concluir algo sobre todas as pessoas a partir de um único caso é uma generalização indevida.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Três participantes chegaram depois do início"
+          },
+          {
+            "optionKey": "B",
+            "text": "Uma pessoa se atrasou; logo, todas as pessoas são irresponsáveis"
+          },
+          {
+            "optionKey": "C",
+            "text": "A reunião começou às nove horas"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "contrargumento",
+        "statement": "Qual é a função de apresentar e analisar um contra-argumento?",
+        "explanation": "O contra-argumento permite examinar objeções e construir uma defesa mais fundamentada.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Evitar qualquer debate"
+          },
+          {
+            "optionKey": "B",
+            "text": "Considerar uma objeção à tese e respondê-la"
+          },
+          {
+            "optionKey": "C",
+            "text": "Substituir todos os dados por insultos"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-9-english-reading-online",
+    "contentVersion": 1,
+    "disciplineSlug": "ingles",
+    "schoolYear": 9,
+    "topic": "Compreensão de mensagens e conectores",
+    "title": "Reading with a critical eye",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "reading-warning",
+        "statement": "Leia: Do not share your password. O que a mensagem orienta?",
+        "explanation": "Do not indica uma orientação negativa: não compartilhe sua senha.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Publicar a senha"
+          },
+          {
+            "optionKey": "B",
+            "text": "Escolher a mesma senha de todos"
+          },
+          {
+            "optionKey": "C",
+            "text": "Não compartilhar a senha"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "because-causa",
+        "statement": "Em I stayed home because it was raining, because apresenta qual relação?",
+        "explanation": "Because significa porque e introduz a causa de a pessoa ter ficado em casa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Comparação"
+          },
+          {
+            "optionKey": "B",
+            "text": "Lugar"
+          },
+          {
+            "optionKey": "C",
+            "text": "Causa"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "however",
+        "statement": "Complete a ideia: The site looks interesting. However, the source is unknown. O que however indica?",
+        "explanation": "However significa porém ou no entanto. O texto contrapõe interesse e falta de fonte conhecida.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Horário exato"
+          },
+          {
+            "optionKey": "B",
+            "text": "Adição sem contraste"
+          },
+          {
+            "optionKey": "C",
+            "text": "Contraste ou ressalva"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "past-simple",
+        "statement": "Em They visited the museum yesterday, quando a visita aconteceu?",
+        "explanation": "Yesterday significa ontem; visited está no passado simples.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Amanhã"
+          },
+          {
+            "optionKey": "B",
+            "text": "Neste momento"
+          },
+          {
+            "optionKey": "C",
+            "text": "Ontem"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "reading-main-idea",
+        "statement": "Leia: Check the author and date before sharing a post. Qual é a ideia principal?",
+        "explanation": "A frase recomenda verificar quem escreveu e quando antes de compartilhar.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Compartilhar tudo rapidamente"
+          },
+          {
+            "optionKey": "B",
+            "text": "Ignorar a origem da mensagem"
+          },
+          {
+            "optionKey": "C",
+            "text": "Conferir autoria e data antes de compartilhar"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  }
+]

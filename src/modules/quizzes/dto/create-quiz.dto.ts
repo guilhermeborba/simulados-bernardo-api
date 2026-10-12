@@ -6,6 +6,7 @@ import {
   IsInt,
   IsNumber,
   IsOptional,
+  IsObject,
   IsString,
   Matches,
   Max,
@@ -31,6 +32,48 @@ export class QuizOptionDto {
   @MinLength(1)
   @MaxLength(1000)
   text!: string;
+}
+
+export class QuizImageMediaDto {
+  @Transform(trimString)
+  @IsString()
+  @Matches(/^[a-z0-9][a-z0-9._-]*$/)
+  @MaxLength(120)
+  assetId!: string;
+
+  @Transform(trimString)
+  @IsString()
+  @MinLength(1)
+  @MaxLength(1000)
+  alt!: string;
+}
+
+export class QuizAudioMediaDto {
+  @Transform(trimString)
+  @IsString()
+  @Matches(/^[a-z0-9][a-z0-9._-]*$/)
+  @MaxLength(120)
+  assetId!: string;
+
+  @Transform(trimString)
+  @IsString()
+  @MinLength(1)
+  @MaxLength(5000)
+  transcript!: string;
+}
+
+export class QuizMediaDto {
+  @IsOptional()
+  @IsObject()
+  @ValidateNested()
+  @Type(() => QuizImageMediaDto)
+  image?: QuizImageMediaDto;
+
+  @IsOptional()
+  @IsObject()
+  @ValidateNested()
+  @Type(() => QuizAudioMediaDto)
+  audio?: QuizAudioMediaDto;
 }
 
 export class QuizQuestionDto {
@@ -63,6 +106,12 @@ export class QuizQuestionDto {
   @IsString()
   @MaxLength(1000)
   funFact?: string;
+
+  @IsOptional()
+  @IsObject()
+  @ValidateNested()
+  @Type(() => QuizMediaDto)
+  media?: QuizMediaDto | null;
 
   @IsNumber({ maxDecimalPlaces: 2 })
   @Min(0.01)

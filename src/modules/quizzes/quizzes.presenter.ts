@@ -38,6 +38,7 @@ export const QUIZ_ADMIN_SELECT = {
       tip: true,
       funFact: true,
       explanation: true,
+      media: true,
       points: true,
       sortOrder: true,
       options: {

@@ -105,7 +105,9 @@ export class AttemptsService {
           activityKind: ActivityKind.QUIZ,
           deletedAt: null,
           publishedAt: { not: null },
-          status: { in: [SimulationStatus.PUBLISHED, SimulationStatus.ARCHIVED] },
+          status: {
+            in: [SimulationStatus.PUBLISHED, SimulationStatus.ARCHIVED],
+          },
         },
         include: {
           discipline: true,
@@ -136,7 +138,9 @@ export class AttemptsService {
           where: { attemptId: openAttempt.id },
         });
         if (snapshotCount === 0) {
-          throw new BadRequestException('Quiz attempt has no question snapshots');
+          throw new BadRequestException(
+            'Quiz attempt has no question snapshots',
+          );
         }
         return openAttempt;
       }
@@ -165,6 +169,10 @@ export class AttemptsService {
           tip: question.tip,
           funFact: question.funFact,
           explanation: question.explanation!,
+          media:
+            question.media === null
+              ? Prisma.DbNull
+              : (question.media as Prisma.InputJsonValue),
           points: question.points,
           sortOrder: question.sortOrder,
           options: question.options.map((option) => ({

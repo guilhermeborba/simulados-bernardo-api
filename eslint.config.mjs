@@ -7,7 +7,14 @@ export default [
     ignores: ['dist/**', 'node_modules/**', 'coverage/**'],
   },
   {
-    files: ['src/**/*.ts', 'test/**/*.ts', 'prisma/seed-inventory*.ts', 'prisma/seed-backlog.ts'],
+    files: [
+      'src/**/*.ts',
+      'test/**/*.ts',
+      'prisma/seed-inventory*.ts',
+      'prisma/seed-backlog.ts',
+      'prisma/quiz-catalog*.ts',
+      'prisma/seed-quizzes.ts',
+    ],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
