@@ -14,7 +14,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "test:e2e": "node test/run-integration.cjs",
     "test:auth:integration": "node test/run-auth-refresh-integration.cjs",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
@@ -22,7 +22,10 @@
     "seed": "ts-node --transpile-only prisma/seed.ts",
     "seed:dry-run": "SEED_DRY_RUN=true ts-node --transpile-only prisma/seed.ts",
     "limpar:tentativas": "ts-node --transpile-only scripts/limpar-tentativas-orfas.ts",
-    "convite": "ts-node --transpile-only scripts/gerar-convite.ts"
+    "convite": "ts-node --transpile-only scripts/gerar-convite.ts",
+    "test:integration": "node test/run-integration.cjs",
+    "seed:inventory": "SEED_INVENTORY=true ts-node --transpile-only prisma/seed.ts",
+    "seed:inventory:json": "SEED_INVENTORY=true SEED_REPORT_FORMAT=json ts-node --transpile-only prisma/seed.ts"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.28",

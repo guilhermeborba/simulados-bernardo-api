@@ -1,6 +1,6 @@
 # Checklist de Desenvolvimento — Simulados Bernardo API
 
-Checklist baseado no plano de desenvolvimento anexado. Use este arquivo como trilha objetiva de implementação e aceite técnico.
+Checklist baseado no plano de desenvolvimento anexado. Use este arquivo como trilha objetiva de implementação e aceite técnico. Cadastro/login, permissões e ciclo de tentativa foram validados em HTTP com PostgreSQL descartável no lote 02 (12/10/2026); veja [guia de CI e regressão](guia-ci-regressao.md).
 
 ## Fase 1 — Fundação do backend
 
@@ -52,13 +52,13 @@ Objetivo: permitir acesso seguro com usuários e perfis.
 - [x] Criar guard de autenticação.
 - [x] Criar guard de autorização por role.
 - [x] Criar testes unitários de autenticação.
-- [ ] Criar testes de integração de cadastro e login.
+- [x] Criar testes de integração de cadastro e login.
 
 Critério de aceite:
 
-- [ ] Usuário consegue autenticar.
-- [ ] Rotas protegidas bloqueiam anônimos.
-- [ ] Rotas administrativas bloqueiam usuários sem permissão.
+- [x] Usuário consegue autenticar.
+- [x] Rotas protegidas bloqueiam anônimos.
+- [x] Rotas administrativas bloqueiam usuários sem permissão.
 
 ## Fase 3 — Disciplinas, simulados e questões
 
@@ -78,13 +78,13 @@ Objetivo: substituir a base local por dados persistidos.
 - [x] Criar seed/importação dos dados atuais do front-end.
 - [x] Garantir importação idempotente.
 - [x] Implementar `GET /simulations/available`.
-- [ ] Criar testes de permissão para rotas administrativas.
+- [x] Criar testes de permissão para rotas administrativas.
 
 Critério de aceite:
 
 - [ ] Administrador cria um simulado completo.
-- [ ] Aluno lista apenas simulados publicados.
-- [ ] Simulados em rascunho não aparecem para alunos.
+- [x] Aluno lista apenas simulados publicados.
+- [x] Simulados em rascunho não aparecem para alunos.
 
 ## Fase 4 — Tentativas e correção
 
@@ -105,14 +105,14 @@ Objetivo: salvar simulados realizados e calcular resultados no backend.
 - [x] Registrar duração da tentativa.
 - [x] Retornar resultado detalhado após finalização.
 - [x] Criar testes unitários da correção.
-- [ ] Criar testes de integração do fluxo de tentativa.
+- [x] Criar testes de integração do fluxo de tentativa.
 
 Critério de aceite:
 
-- [ ] Aluno finaliza um simulado.
-- [ ] Resultado bate com o gabarito.
-- [ ] Histórico fica salvo.
-- [ ] Tentativa finalizada não aceita novas respostas.
+- [x] Aluno finaliza um simulado.
+- [x] Resultado bate com o gabarito.
+- [x] Histórico fica salvo.
+- [x] Tentativa finalizada não aceita novas respostas.
 
 ## Fase 5 — Perfil e relatórios
 

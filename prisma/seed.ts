@@ -1,6 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs';
-import { basename, join, resolve } from 'node:path';
-import { Script, createContext } from 'node:vm';
+import { resolve } from 'node:path';
 import { hash } from 'bcryptjs';
 import {
   Prisma,
@@ -10,42 +8,21 @@ import {
   UserRole,
   UserStatus,
 } from '@prisma/client';
-import * as ts from 'typescript';
-import { slugify } from '../src/common/utils/slugify';
+import {
+  FrontendQuestion,
+  FrontendOption,
+  SimulationSeed,
+  buildSeedInventory,
+  getQuestionOrder,
+  getSimulationSlug,
+} from './seed-inventory';
+import { seedBacklog } from './seed-backlog';
 
-const prisma = new PrismaClient();
+let prisma: PrismaClient;
 
 const frontendDataDir =
   process.env.FRONTEND_DATA_DIR ??
   resolve(process.cwd(), 'prisma/seed-data');
-
-interface FrontendOption {
-  id: string | number;
-  text: string;
-}
-
-interface FrontendPair {
-  left: FrontendOption;
-  right: FrontendOption[];
-}
-
-interface FrontendQuestion {
-  id: string | number;
-  type:
-    | 'multiple_choice'
-    | 'true_false_multiple'
-    | 'matching'
-    | 'classification';
-  text: string;
-  options?: FrontendOption[];
-  items?: FrontendOption[];
-  pairs?: FrontendPair[];
-  correctAnswer: string | Record<string, string>;
-  tip?: string;
-  /** "Você sabia?" — curiosidade mostrada sempre no resultado, acertando ou errando. */
-  funFact?: string;
-  points?: number;
-}
 
 interface DisciplineSeed {
   name: string;
@@ -65,34 +42,6 @@ interface TurmaSeed {
    * Fica fixa no código: recalcular a cada deploy zeraria o ranking sempre.
    */
   rankingCountsFrom?: Date;
-}
-
-interface SimulationSeed {
-  file: string;
-  exportName: string;
-  disciplineSlug: string;
-  schoolYear: number;
-  bimester: number;
-  assessment: string;
-  title: string;
-  subtitle: string;
-  estimatedDurationMinutes: number;
-  slug?: string;
-  /**
-   * Eixo temático, usado só no curso técnico. Na educação básica o simulado é
-   * encontrado por ano/bimestre/avaliação e este campo fica vazio.
-   */
-  topic?: string;
-  /**
-   * Turma dona do simulado. Preenchido, ele sai do catálogo público e só
-   * aparece para quem entrou na turma pelo link de convite.
-   */
-  turmaSlug?: string;
-}
-
-interface NormalizedSimulationSeed
-  extends Omit<SimulationSeed, 'file' | 'exportName'> {
-  questions: FrontendQuestion[];
 }
 
 const disciplines: DisciplineSeed[] = [
@@ -8925,23 +8874,37 @@ const simulations: SimulationSeed[] = [
   },
 ];
 
-async function main() {
-  assertFrontendDataDir();
+export async function main() {
+  const inventory = buildSeedInventory({
+    dataDir: frontendDataDir,
+    simulations,
+    disciplineSlugs: disciplines.map((discipline) => discipline.slug),
+    turmaSlugs: turmas.map((turma) => turma.slug),
+    backlog: seedBacklog,
+  });
+  const { report, simulations: normalizedSimulations } = inventory;
 
-  const normalizedSimulations = loadSimulations();
-
-  if (process.env.SEED_DRY_RUN === 'true') {
-    const totalQuestions = normalizedSimulations.reduce(
-      (total, simulation) => total + simulation.questions.length,
-      0,
-    );
-
+  if (process.env.SEED_INVENTORY === "true") {
     console.log(
-      `Dry run concluído: ${disciplines.length} disciplinas, ${normalizedSimulations.length} simulados e ${totalQuestions} questões carregadas.`,
+      process.env.SEED_REPORT_FORMAT === "json"
+        ? JSON.stringify(report, null, 2)
+        : `Inventário: ${report.totals.dataFiles} arquivos, ${report.totals.importableSimulations} simulados publicáveis, ${report.totals.importableQuestions} questões, ${report.totals.plannedSimulations} planejados.\n${report.errors.join("\n")}`.trim(),
+    );
+    if (report.errors.length) process.exitCode = 1;
+    return;
+  }
+
+  if (report.errors.length)
+    throw new Error(`Inventário inválido:\n${report.errors.join("\n")}`);
+
+  if (process.env.SEED_DRY_RUN === "true") {
+    console.log(
+      `Dry run concluído: ${disciplines.length} disciplinas, ${report.totals.importableSimulations} simulados e ${report.totals.importableQuestions} questões carregadas. Backlog editorial: ${report.totals.plannedSimulations} simulados não importados.`,
     );
     return;
   }
 
+  prisma = new PrismaClient();
   const systemUser = await upsertSeedUser();
   const disciplineBySlug = await upsertDisciplines();
   const turmaBySlug = await upsertTurmas();
@@ -9016,14 +8979,6 @@ async function main() {
   console.log(
     `Participações em turma garantidas para quem já tinha tentativa: ${membershipsBackfilled}.`,
   );
-}
-
-function assertFrontendDataDir() {
-  if (!existsSync(frontendDataDir)) {
-    throw new Error(
-      `Diretório de dados do front-end não encontrado: ${frontendDataDir}. Configure FRONTEND_DATA_DIR.`,
-    );
-  }
 }
 
 async function upsertSeedUser() {
@@ -9136,91 +9091,6 @@ async function backfillMembershipsFromAttempts() {
   return pairs.size;
 }
 
-function loadSimulations(): NormalizedSimulationSeed[] {
-  const flatSimulations = simulations.map((simulation) => {
-    const exports = loadDataModule(simulation.file);
-    const questions = exports[simulation.exportName] as FrontendQuestion[];
-
-    assertQuestions(simulation.file, questions);
-
-    return {
-      ...simulation,
-      questions,
-    };
-  });
-
-  const portugues = loadDataModule('questoes-portugues.ts')
-    .questoesPortugues as Record<
-    string,
-    Record<string, Record<string, FrontendQuestion[]>>
-  >;
-  const portuguesSimulations = Object.entries(portugues.terceiro ?? {}).flatMap(
-    ([bimester, assessments]) =>
-      Object.entries(assessments).map(([assessment, questions]) => {
-        assertQuestions(`questoes-portugues.ts ${bimester}-${assessment}`, questions);
-
-        return {
-          disciplineSlug: 'portugues',
-          schoolYear: 3,
-          turmaSlug: 'turma-bernardo',
-          bimester: Number(bimester),
-          assessment,
-          title: `Simulado de Português - ${bimester}º Bimestre ${assessment}`,
-          subtitle: `${bimester}º Bimestre — 3º Ano`,
-          estimatedDurationMinutes: 45,
-          questions,
-        };
-      }),
-  );
-
-  return [...flatSimulations, ...portuguesSimulations].sort((a, b) =>
-    getSimulationSlug(a).localeCompare(getSimulationSlug(b)),
-  );
-}
-
-function loadDataModule(file: string): Record<string, unknown> {
-  const filePath = join(frontendDataDir, file);
-  const source = readFileSync(filePath, 'utf8').replace(/^import .+;$/gm, '');
-  const transpiled = ts.transpileModule(source, {
-    compilerOptions: {
-      module: ts.ModuleKind.CommonJS,
-      target: ts.ScriptTarget.ES2020,
-      esModuleInterop: true,
-    },
-    fileName: basename(filePath),
-  });
-  const exportsObject: Record<string, unknown> = {};
-  const context = createContext({
-    exports: exportsObject,
-    module: { exports: exportsObject },
-    require,
-  });
-  const script = new Script(transpiled.outputText, {
-    filename: filePath,
-  });
-
-  script.runInContext(context);
-
-  return exportsObject;
-}
-
-function assertQuestions(source: string, questions: unknown): asserts questions is FrontendQuestion[] {
-  if (!Array.isArray(questions) || questions.length === 0) {
-    throw new Error(`Nenhuma questão encontrada em ${source}`);
-  }
-}
-
-function getSimulationSlug(
-  simulation: Pick<
-    NormalizedSimulationSeed,
-    'disciplineSlug' | 'schoolYear' | 'bimester' | 'assessment'
-  >,
-) {
-  return slugify(
-    `${simulation.disciplineSlug}-${simulation.schoolYear}-ano-${simulation.bimester}-bimestre-${simulation.assessment}`,
-  );
-}
-
 function getMaxScore(questions: FrontendQuestion[]) {
   return questions.reduce((total, question) => total + (question.points ?? 1), 0);
 }
@@ -9280,11 +9150,6 @@ async function upsertQuestions(
       deletedAt: new Date(),
     },
   });
-}
-
-function getQuestionOrder(question: FrontendQuestion, index: number) {
-  const id = Number(question.id);
-  return Number.isInteger(id) && id > 0 ? id : index + 1;
 }
 
 function mapQuestionType(type: FrontendQuestion['type']) {
@@ -9413,11 +9278,13 @@ function toQuestionAnswers(
   }));
 }
 
-main()
-  .catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
-  })
-  .finally(async () => {
-    await prisma.$disconnect();
-  });
+if (require.main === module) {
+  void main()
+    .catch((error) => {
+      console.error(error);
+      process.exitCode = 1;
+    })
+    .finally(async () => {
+      await prisma?.$disconnect();
+    });
+}

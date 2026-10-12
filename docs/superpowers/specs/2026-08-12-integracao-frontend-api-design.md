@@ -1,5 +1,6 @@
 # Integração do front-end com a API — Fluxo do aluno
 
+> Registro histórico de agosto. Em 12/10/2026 a integração web/API e `GET /attempts/:id/questions` já estão implementados. O lote 02 acrescenta regressão HTTP real e CI; veja [PROGRESS.md](../../../PROGRESS.md) e o [plano de evolução](../plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md). As pendências descritas abaixo refletem o contexto original.
 Data: 2026-08-12
 Status: aprovado para planejamento
 

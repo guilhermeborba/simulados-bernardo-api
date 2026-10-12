@@ -5,7 +5,7 @@
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. A etapa inicial do novo plano valida a base existente, incluindo o isolamento de renovação de sessão no BFF.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI; quizzes e gamificação continuam como entregas seguintes.
 
 ---
 
@@ -24,25 +24,27 @@ Pendências menores (não bloqueantes para produção):
 
 - `POST /auth/forgot-password` + `POST /auth/reset-password` (recuperação de senha) — especificado, não implementado
 - Restrição de professor a turmas autorizadas — professor existe como role mas sem controle de acesso a alunos específicos
-- Testes de integração e e2e — cobertura unitária existe nos services críticos; integração pendente
+- Testes de interface em navegador/aparelho — a regressão HTTP com API e PostgreSQL está implementada; cliques, layout e acessibilidade ainda exigem validação de interface
 
 ---
 
 ## Conteúdo de simulados
 
-**488 arquivos** em `prisma/seed-data/` — **492 simulados, ~14.760 questões** (último dry-run em 2026-10-09).
+**584 arquivos, 588 simulados publicáveis e 17.684 questões**, validados sem banco no lote 02 sobre a `main` de 12/10/2026. Há **192 simulados planejados** (96 da 2ª série e 96 da 3ª série do Médio) sem publicação, registrados explicitamente em `prisma/seed-backlog.ts`. Arquivo presente não promove uma entrada: é necessária revisão editorial e dry-run.
 
-Esses números registram o último dry-run, não a árvore atual. A inspeção estática de 2026-10-12 encontrou expansão de Ensino Médio em andamento e referências no seed a arquivos ainda ausentes; o inventário será revalidado na etapa 0 do plano de evolução, sem alterar o trabalho de conteúdo em andamento.
+O arquivo legado de Português contém cinco simulados privados da turma Bernardo, preservados no inventário. Os números refletem o conteúdo versionado desta entrega; arquivos locais de Ensino Médio ainda em produção não foram incorporados. O registro anterior (492 simulados em 09/10) é histórico.
+
+Consulte [inventário do acervo](docs/inventario-acervo.md) e execute `npm run seed:inventory` para obter o estado atual. O dry-run falha em conteúdo publicável ausente/inválido e o relatório não inclui gabaritos.
 
 ### Ensino Fundamental I (1º ao 5º ano)
 
-Disciplinas: Ciências, Geografia, História, Matemática, Português — **todos os bimestres AV1+AV2 de todos os anos**.
+Disciplinas: Ciências, Geografia, História, Matemática, Português — **todos os bimestres AV1+AV2 de todos os anos**. Total: 225 simulados, incluindo os cinco do legado.
 
 | Série | Arquivos | Status |
 |---|---|---|
 | 1º ano | 40 | ✅ Completo |
 | 2º ano | 40 | ✅ Completo |
-| 3º ano | 40 | ✅ Completo |
+| 3º ano | 60 (+5 simulados no legado) | ✅ Versionados e validados |
 | 4º ano | 40 | ✅ Completo |
 | 5º ano | 40 | ✅ Completo |
 
@@ -56,6 +58,14 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 | 7º ano | 64 | ✅ Completo |
 | 8º ano | 64 | ✅ Completo |
 | 9º ano | 64 | ✅ Completo |
+
+### Ensino Médio
+
+| Série | Simulados publicáveis | Planejados | Status |
+|---|---|---|---|
+| 1ª série | 96 | 0 | ✅ Versionados e validados |
+| 2ª série | 0 | 96 | Produção/revisão editorial pendente |
+| 3ª série | 0 | 96 | Produção/revisão editorial pendente |
 
 ### Outros
 
@@ -74,7 +84,7 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 
 Plano: [Evolução — quizzes, gamificação e mobile](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
-**Planejamento concluído em 2026-10-12; lote 01 implementado e validado localmente.** As demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Meta editorial proposta: 45 quizzes e 213 perguntas, distribuídos por todas as faixas.
+**Planejamento concluído em 2026-10-12; lotes 01 e 02 implementados e validados localmente.** As demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Meta editorial proposta: 45 quizzes e 213 perguntas, distribuídos por todas as faixas.
 
 Sequência: consolidar a base → quizzes na web → missões/XP/avatar/conquistas → revisão e progresso por habilidade → prova e planejamento mobile → app/beta. Entregas, dependências, estimativas condicionais e critérios de aceite estão no plano.
 
@@ -84,7 +94,13 @@ Validação: 25 testes de sessão web; 83 unitários da API; 8 testes PostgreSQL
 
 Decisão: [ADR 006 — Rotação atômica e revogação da sessão](docs/decisions/006-rotacao-atomica-e-revogacao-de-sessao.md).
 
-Próxima tarefa do plano: lote 02 — inventário do acervo, regressão e CI.
+**Lote 02 concluído:** inventário com backlog editorial explícito e validação de arquivos, exports, tipos, alternativas, mapas de gabarito e metadados. API e web passam pelos fluxos de registro/login, convite, catálogo privado, início/retomada, envio/edição, conclusão e histórico usando PostgreSQL descartável. Perfis e vínculos de responsáveis usam o presenter de usuário seguro, sem `passwordHash`; alunos excluídos não aparecem na lista do responsável.
+
+CI adicionada nos dois repositórios: API com lint, unitários, build, validação do acervo e integração; web com tipos, sessão, build normal e regressão HTTP contra API real. As cinco fontes da web são originais locais com licenças OFL, eliminando a falha de download durante o build. A validação do lote 02 supera a limitação de fontes registrada no lote 01.
+
+Validação local do lote 02: 43 testes de integração API/PostgreSQL (35 de fluxos + 8 de refresh), 8 jornadas HTTP web/Next/API/PostgreSQL e 25 testes de sessão web. Também passaram 120 testes unitários da API, lint e os builds normais dos dois projetos. Detalhes no [guia de CI e regressão](docs/guia-ci-regressao.md). Os workflows serão executados pelo GitHub nas PRs; nenhum banco existente, seed em produção ou deploy foi alterado.
+
+Próxima tarefa técnica do plano: lote 03 — migração aditiva e contratos de quiz. Continuam pendentes na etapa 0 a matriz editorial dos 45 quizzes, responsáveis de revisão, textos da home e métricas.
 
 ### Integração front-end / API — base existente
 
@@ -105,7 +121,7 @@ Endpoints planejados mas não implementados: `POST /auth/forgot-password` e `POS
 
 - **Deploy:** Railway (ver `docs/guia-deploy.md` e `.railway/`)
 - **Banco:** PostgreSQL (Docker localmente, Railway em produção)
-- **CI:** não configurado
+- **CI:** GitHub Actions em `.github/workflows/ci.yml`; detalhes no [guia de CI e regressão](docs/guia-ci-regressao.md)
 - **Swagger:** `GET /docs` (habilitar com `API_DOCS_ENABLED=true`)
 
 ---

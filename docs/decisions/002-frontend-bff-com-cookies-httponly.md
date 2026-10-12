@@ -1,7 +1,7 @@
 # ADR 002 — Frontend como BFF com cookies httpOnly
 
 **Data:** 2026-09-25
-**Status:** vigente (implementação em andamento — ver spec de integração)
+**Status:** vigente; integração implementada e coberta por regressão em 2026-10-12
 
 ## Contexto
 
@@ -9,7 +9,7 @@ O frontend (Next.js 14) precisa autenticar o usuário e enviar os tokens JWT a c
 
 ## Decisão
 
-O frontend age como **BFF (backend-for-frontend)**: as rotas `app/api/*` do Next.js fazem proxy server-side para a API. O navegador nunca vê nem armazena os tokens JWT.
+O frontend age como **BFF (backend-for-frontend)**: as rotas `app/api/*` do Next.js fazem proxy server-side para a API. O navegador armazena os tokens em cookies `httpOnly`; JavaScript da aplicação recebe somente os dados públicos do usuário.
 
 - Após login/registro: a rota `/api/auth/login` do Next recebe os tokens da API, seta cookies `httpOnly` (`sb_access_token`, `sb_refresh_token`) e devolve ao navegador apenas `{ user }`.
 - Para qualquer requisição autenticada: o Next.js lê o cookie no servidor, injeta o token no `Authorization: Bearer` header e faz o fetch para a API — o JS do navegador nunca toca no token.
