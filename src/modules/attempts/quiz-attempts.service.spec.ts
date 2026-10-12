@@ -11,6 +11,7 @@ import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
+import { QuizAttemptsService } from './quiz-attempts.service';
 
 function makeQuiz() {
   return {
@@ -119,6 +120,7 @@ describe('Quiz attempt foundation', () => {
       database as unknown as PrismaService,
       new AttemptsCorrectionService(),
       { assertCanAccessTurma: jest.fn() } as unknown as TurmasService,
+      { getQuestions: jest.fn() } as unknown as QuizAttemptsService,
     );
   });
 
@@ -200,63 +202,12 @@ describe('Quiz attempt foundation', () => {
     expect(database.attemptQuestionSnapshot.createMany).not.toHaveBeenCalled();
   });
 
-  it('reads preserved snapshots and explicitly removes feedback and answer keys', async () => {
-    const result = await service.getAttemptQuestions('attempt-1', student);
-    expect(result).toEqual([
-      {
-        id: 'question-1',
-        originKey: 'count-1',
-        type: QuestionType.MULTIPLE_CHOICE,
-        statement: 'Enunciado preservado na tentativa.',
-        tip: 'Dica preservada.',
-        points: new Prisma.Decimal('1.25'),
-        order: 1,
-        answer: null,
-        options: [{ id: 'option-b', optionKey: 'B', text: '2', groupKey: null, order: 1 }],
-      },
-    ]);
-    expect(database.question.findMany).not.toHaveBeenCalled();
-    expect(JSON.stringify(result)).not.toMatch(/officialAnswers|correctAnswer|explanation|funFact/);
-  });
-
-  it('revalidates turma membership before reading snapshots', async () => {
-    database.simulation.findFirst.mockResolvedValue({ ...makeQuiz(), turmaId: 'turma-1' });
-    database.attempt.findUnique.mockResolvedValue(
-      makeAttempt({ ...makeQuiz(), turmaId: 'turma-1' }),
-    );
-    database.turma.findFirst.mockResolvedValue(null);
-    await expect(service.getAttemptQuestions('attempt-1', student)).rejects.toBeInstanceOf(
-      NotFoundException,
-    );
-    expect(database.attemptQuestionSnapshot.findMany).not.toHaveBeenCalled();
-  });
-
-  it('rechecks quiz visibility instead of trusting attempt metadata loaded before deletion', async () => {
-    database.simulation.findFirst.mockResolvedValue(null);
-    await expect(service.getAttemptQuestions('attempt-1', student)).rejects.toBeInstanceOf(
-      NotFoundException,
-    );
-    expect(database.attemptQuestionSnapshot.findMany).not.toHaveBeenCalled();
-  });
-
   it('checks ownership before fetching private quiz content', async () => {
     await expect(
       service.getAttemptQuestions('attempt-1', { id: 'other-student', role: UserRole.STUDENT }),
     ).rejects.toBeInstanceOf(ForbiddenException);
     expect(database.attemptQuestionSnapshot.findMany).not.toHaveBeenCalled();
   });
-
-  it.each(['submitAnswer', 'finishAttempt', 'getResult'] as const)(
-    'prevents %s from correcting a quiz with the legacy simulation flow',
-    async (operation) => {
-      const call = operation === 'submitAnswer'
-        ? service.submitAnswer('attempt-1', 'question-1', { answer: { answer: 'B' } }, student)
-        : service[operation]('attempt-1', student);
-      await expect(call).rejects.toBeInstanceOf(BadRequestException);
-      expect(database.question.findMany).not.toHaveBeenCalled();
-      expect(database.attemptAnswer.upsert).not.toHaveBeenCalled();
-    },
-  );
 
   it('keeps quiz history separate from the simulation history', async () => {
     await service.findMyAttempts(student.id);

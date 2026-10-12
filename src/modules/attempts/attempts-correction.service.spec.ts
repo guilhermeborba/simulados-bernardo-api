@@ -15,11 +15,8 @@ describe('AttemptsCorrectionService', () => {
         points: new Prisma.Decimal(1),
         officialAnswers: [
           {
-            id: 'answer-1',
-            questionId: 'question-1',
             answerKey: 'correctAnswer',
             answerValue: 'B',
-            metadata: null,
           },
         ],
         submittedAnswer: { answer: 'b' },

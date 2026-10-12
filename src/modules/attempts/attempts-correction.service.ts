@@ -1,10 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma, QuestionAnswer, QuestionType } from '@prisma/client';
 
+type OfficialAnswer = Pick<QuestionAnswer, 'answerKey' | 'answerValue'>;
+
 interface CorrectionInput {
   type: QuestionType;
   points: Prisma.Decimal;
-  officialAnswers: QuestionAnswer[];
+  officialAnswers: OfficialAnswer[];
   submittedAnswer: Prisma.JsonValue | null;
 }
 
@@ -37,7 +39,7 @@ export class AttemptsCorrectionService {
   }
 
   private correctMultipleChoice(
-    officialAnswers: QuestionAnswer[],
+    officialAnswers: OfficialAnswer[],
     submittedAnswer: Prisma.JsonValue,
   ): boolean {
     const officialAnswer = officialAnswers.find(
@@ -54,7 +56,7 @@ export class AttemptsCorrectionService {
   }
 
   private correctAnswerMap(
-    officialAnswers: QuestionAnswer[],
+    officialAnswers: OfficialAnswer[],
     submittedAnswer: Prisma.JsonValue,
   ): boolean {
     const submittedMap = this.extractAnswerMap(submittedAnswer);

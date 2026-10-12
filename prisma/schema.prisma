@@ -273,15 +273,18 @@ model AttemptQuestionSnapshot {
 }
 
 model AttemptAnswer {
-  id           String   @id @default(cuid())
+  id           String    @id @default(cuid())
   attemptId    String
   questionId   String
   answer       Json
   isCorrect    Boolean?
-  pointsEarned Decimal? @db.Decimal(6, 2)
-  createdAt    DateTime @default(now())
-  attempt      Attempt  @relation(fields: [attemptId], references: [id])
-  question     Question @relation(fields: [questionId], references: [id])
+  pointsEarned Decimal?  @db.Decimal(6, 2)
+  confirmedAt  DateTime?
+  /// Private persisted feedback. Public responses use an explicit projection.
+  feedback     Json?
+  createdAt    DateTime  @default(now())
+  attempt      Attempt   @relation(fields: [attemptId], references: [id])
+  question     Question  @relation(fields: [questionId], references: [id])
 
   @@unique([attemptId, questionId])
   @@index([questionId])

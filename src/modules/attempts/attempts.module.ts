@@ -5,10 +5,11 @@ import { TurmasModule } from '../turmas/turmas.module';
 import { AttemptsController } from './attempts.controller';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
+import { QuizAttemptsService } from './quiz-attempts.service';
 
 @Module({
   imports: [DatabaseModule, JwtModule, TurmasModule],
   controllers: [AttemptsController],
-  providers: [AttemptsService, AttemptsCorrectionService],
+  providers: [AttemptsService, AttemptsCorrectionService, QuizAttemptsService],
 })
 export class AttemptsModule {}
