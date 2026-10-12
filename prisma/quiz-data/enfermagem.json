@@ -1,0 +1,395 @@
+[
+  {
+    "activityKey": "enfermagem-etica-e-registros",
+    "contentVersion": 1,
+    "disciplineSlug": "enfermagem",
+    "schoolYear": 0,
+    "topic": "Ética profissional e documentação",
+    "title": "Ética em pequenas decisões",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "sigilo",
+        "statement": "Qual atitude respeita o sigilo profissional?",
+        "explanation": "O sigilo protege a pessoa. Compartilhamentos exigem fundamento ético e legal; não dependem de curiosidade.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Publicar dados porque o caso é interessante"
+          },
+          {
+            "optionKey": "B",
+            "text": "Comentar casos identificáveis em uma conversa social"
+          },
+          {
+            "optionKey": "C",
+            "text": "Proteger informações, observando as hipóteses legais de compartilhamento"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "autonomia",
+        "statement": "Respeitar a autonomia da pessoa envolve qual princípio?",
+        "explanation": "A autonomia envolve participação informada. O Código de Ética reconhece decisões livres e esclarecidas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Omitir informações relevantes"
+          },
+          {
+            "optionKey": "B",
+            "text": "Reconhecer decisões livres e esclarecidas, conforme os limites éticos e legais"
+          },
+          {
+            "optionKey": "C",
+            "text": "Decidir sempre sem ouvi-la"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "nao-discriminacao",
+        "statement": "Qual conduta está alinhada à ética profissional?",
+        "explanation": "O Código de Ética determina assistência sem discriminação.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Diferenciar respeito pela renda da pessoa"
+          },
+          {
+            "optionKey": "B",
+            "text": "Recusar escuta por preconceito"
+          },
+          {
+            "optionKey": "C",
+            "text": "Prestar assistência sem discriminação"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "registro-objetivo",
+        "statement": "Qual característica favorece um registro de enfermagem útil?",
+        "explanation": "Registros claros e objetivos apoiam a comunicação e a continuidade da assistência.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ser claro, objetivo e permitir compreender os fatos documentados"
+          },
+          {
+            "optionKey": "B",
+            "text": "Substituir todos os fatos por opiniões pessoais"
+          },
+          {
+            "optionKey": "C",
+            "text": "Usar apenas expressões vagas"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "autoria-registro",
+        "statement": "Por que identificar a autoria de um registro profissional?",
+        "explanation": "A identificação profissional permite atribuir a autoria e rastrear o registro.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Para permitir anonimato em qualquer documento"
+          },
+          {
+            "optionKey": "B",
+            "text": "Para assegurar rastreabilidade e responsabilidade pelo registro"
+          },
+          {
+            "optionKey": "C",
+            "text": "Para dispensar o conteúdo"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cofen — Código de Ética dos Profissionais de Enfermagem, Resolução nº 564/2017",
+        "url": "https://www.cofen.gov.br/resolucao-cofen-no-5642017/"
+      },
+      {
+        "title": "Cofen — Recomendações para registros de enfermagem",
+        "url": "https://cofen.gov.br/profissional/recomendacoes-para-registros-de-enfermagem-no-exercicio-da-profissao/"
+      }
+    ]
+  },
+  {
+    "activityKey": "enfermagem-sus-e-equidade",
+    "contentVersion": 1,
+    "disciplineSlug": "enfermagem",
+    "schoolYear": 0,
+    "topic": "Princípios e organização do SUS",
+    "title": "Entendendo o cuidado como direito",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "universalidade",
+        "statement": "Qual ideia corresponde à universalidade no SUS?",
+        "explanation": "Universalidade reconhece a saúde como direito de todas as pessoas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Acesso somente para trabalhadores formais"
+          },
+          {
+            "optionKey": "B",
+            "text": "Acesso às ações e aos serviços para todas as pessoas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Acesso apenas para quem contribui com a Previdência"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "equidade",
+        "statement": "No SUS, equidade orienta qual prática?",
+        "explanation": "Equidade considera diferentes necessidades e condições, buscando reduzir desigualdades injustas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ignorar necessidades diferentes"
+          },
+          {
+            "optionKey": "B",
+            "text": "Considerar desigualdades e necessidades para reduzir iniquidades"
+          },
+          {
+            "optionKey": "C",
+            "text": "Oferecer sempre menos a quem mais precisa"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "integralidade",
+        "statement": "Qual exemplo se aproxima da integralidade?",
+        "explanation": "Integralidade considera a pessoa em suas necessidades e articula ações e serviços.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Cuidar apenas de uma queixa, ignorando outras necessidades"
+          },
+          {
+            "optionKey": "B",
+            "text": "Excluir promoção e prevenção"
+          },
+          {
+            "optionKey": "C",
+            "text": "Articular promoção, prevenção e diferentes necessidades de cuidado"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "descentralizacao",
+        "statement": "A descentralização do SUS envolve qual organização?",
+        "explanation": "A gestão do SUS distribui responsabilidades pelas três esferas de governo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Responsabilidade exclusiva de uma única instituição privada"
+          },
+          {
+            "optionKey": "B",
+            "text": "Ausência de responsabilidade municipal"
+          },
+          {
+            "optionKey": "C",
+            "text": "Responsabilidades entre União, estados e municípios"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "regionalizacao",
+        "statement": "Regionalização e hierarquização ajudam a organizar o quê?",
+        "explanation": "Essas diretrizes organizam os serviços no território e articulam diferentes níveis de atenção.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Redes de serviços por território e níveis de complexidade"
+          },
+          {
+            "optionKey": "B",
+            "text": "Apenas a ordem alfabética de nomes"
+          },
+          {
+            "optionKey": "C",
+            "text": "Serviços isolados sem ligação"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministério da Saúde — Sistema Único de Saúde e seus princípios",
+        "url": "https://www.gov.br/saude/pt-br/composicao/saes/sus"
+      },
+      {
+        "title": "Ministério da Saúde — Equidade em Saúde",
+        "url": "https://www.gov.br/saude/pt-br/composicao/saps/equidade-em-saude"
+      }
+    ]
+  },
+  {
+    "activityKey": "enfermagem-identificacao-e-comunicacao",
+    "contentVersion": 1,
+    "disciplineSlug": "enfermagem",
+    "schoolYear": 0,
+    "topic": "Identificação do paciente e comunicação segura",
+    "title": "Informação que protege",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "dois-identificadores",
+        "statement": "Qual par é adequado como exemplo de identificadores do paciente?",
+        "explanation": "O protocolo prevê pelo menos dois identificadores, como nome completo e data de nascimento.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Primeiro nome e roupa usada"
+          },
+          {
+            "optionKey": "B",
+            "text": "Nome completo e data de nascimento"
+          },
+          {
+            "optionKey": "C",
+            "text": "Número do leito e cor da parede"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "leito-identificador",
+        "statement": "Por que o número do leito não deve ser usado como identificador do paciente?",
+        "explanation": "Trocas de leito podem ocorrer. O local não identifica com segurança a pessoa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Porque identifica exclusivamente uma pessoa para sempre"
+          },
+          {
+            "optionKey": "B",
+            "text": "Porque pode mudar durante a permanência no serviço"
+          },
+          {
+            "optionKey": "C",
+            "text": "Porque nunca é registrado"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "paciente-conhecido",
+        "statement": "Conhecer o paciente dispensa a conferência de seus identificadores?",
+        "explanation": "Mesmo um paciente conhecido precisa ter a identificação conferida conforme o protocolo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Sim, se o profissional lembrar o primeiro nome"
+          },
+          {
+            "optionKey": "B",
+            "text": "Sim, em todas as situações"
+          },
+          {
+            "optionKey": "C",
+            "text": "Não; a familiaridade não substitui a conferência"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "continuidade-informacao",
+        "statement": "Na passagem de informações entre profissionais, o que favorece a continuidade da assistência?",
+        "explanation": "Informações pertinentes e fidedignas apoiam a continuidade e a segurança da assistência.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Transmitir apenas impressões vagas"
+          },
+          {
+            "optionKey": "B",
+            "text": "Comunicar informações completas e fidedignas necessárias ao cuidado"
+          },
+          {
+            "optionKey": "C",
+            "text": "Omitir fatos relevantes para abreviar a conversa"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "dados-legiveis",
+        "statement": "Por que a legibilidade é importante nos registros profissionais?",
+        "explanation": "A informação precisa ser compreendida. Legibilidade não substitui exatidão, autoria e completude.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Permite que a informação seja compreendida por quem precisa utilizá-la"
+          },
+          {
+            "optionKey": "B",
+            "text": "Substitui a identificação profissional"
+          },
+          {
+            "optionKey": "C",
+            "text": "Elimina a necessidade de conteúdo correto"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministério da Saúde, Anvisa e Fiocruz — Protocolo de identificação do paciente",
+        "url": "https://www.gov.br/saude/pt-br/composicao/saes/seguranca-do-paciente/publicacoes/protocolos-de-seguranca-do-paciente/protocolo-de-identificacao-do-paciente/view"
+      },
+      {
+        "title": "Cofen — Recomendações para registros de enfermagem",
+        "url": "https://cofen.gov.br/profissional/recomendacoes-para-registros-de-enfermagem-no-exercicio-da-profissao/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1094 @@
+[
+  {
+    "activityKey": "medio-1-celulas-por-dentro",
+    "contentVersion": 1,
+    "disciplineSlug": "biologia",
+    "schoolYear": 10,
+    "topic": "Organelas e organização celular",
+    "title": "Conheça a cidade das células",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "mitocondria",
+        "statement": "Nas células eucarióticas, qual organela participa de etapas da respiração celular e da produção de ATP?",
+        "explanation": "A mitocôndria participa da respiração celular e da produção de ATP. A glicólise, outra etapa, ocorre no citosol.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Complexo golgiense"
+          },
+          {
+            "optionKey": "B",
+            "text": "Lisossomo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Mitocôndria"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "ribossomo",
+        "statement": "Qual estrutura realiza a síntese de proteínas?",
+        "explanation": "Os ribossomos traduzem a informação do RNA mensageiro para formar proteínas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Centríolo"
+          },
+          {
+            "optionKey": "B",
+            "text": "Ribossomo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Vacúolo"
+          }
+        ],
+        "correctAnswer": "B",
+        "funFact": "Ribossomos existem tanto em células procarióticas quanto em eucarióticas."
+      },
+      {
+        "originKey": "cloroplasto",
+        "statement": "Em células vegetais fotossintetizantes, qual organela abriga os processos da fotossíntese?",
+        "explanation": "O cloroplasto contém pigmentos e estruturas envolvidos na fotossíntese.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Mitocôndria"
+          },
+          {
+            "optionKey": "B",
+            "text": "Lisossomo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Cloroplasto"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "procarionte",
+        "statement": "Qual característica distingue células procarióticas das eucarióticas?",
+        "explanation": "As procarióticas possuem DNA, mas não têm núcleo delimitado por membrana.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ausência de membrana plasmática"
+          },
+          {
+            "optionKey": "B",
+            "text": "Ausência de qualquer material genético"
+          },
+          {
+            "optionKey": "C",
+            "text": "Ausência de núcleo delimitado por membrana"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "membrana-seletiva",
+        "statement": "O que significa dizer que a membrana tem permeabilidade seletiva?",
+        "explanation": "A membrana regula a passagem por características da bicamada e por proteínas de transporte.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Todas as substâncias atravessam igualmente"
+          },
+          {
+            "optionKey": "B",
+            "text": "Nada consegue atravessá-la"
+          },
+          {
+            "optionKey": "C",
+            "text": "A passagem de substâncias depende de suas propriedades e de mecanismos de transporte"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-1-movimento-e-medidas",
+    "contentVersion": 1,
+    "disciplineSlug": "fisica",
+    "schoolYear": 10,
+    "topic": "Velocidade média e movimento uniforme",
+    "title": "Uma viagem em números",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "velocidade-media",
+        "statement": "Um veículo percorre 120 km em linha reta e em um único sentido durante 2 h. Qual é sua velocidade média nesse trajeto?",
+        "explanation": "Como o deslocamento foi de 120 km em um único sentido, dividimos pelo tempo: 120 ÷ 2 = 60 km/h.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "120 km/h"
+          },
+          {
+            "optionKey": "B",
+            "text": "240 km/h"
+          },
+          {
+            "optionKey": "C",
+            "text": "60 km/h"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "converter-velocidade",
+        "statement": "Quanto é 72 km/h em m/s?",
+        "explanation": "Para converter de km/h para m/s, dividimos por 3,6: 72 ÷ 3,6 = 20.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "72 m/s"
+          },
+          {
+            "optionKey": "B",
+            "text": "10 m/s"
+          },
+          {
+            "optionKey": "C",
+            "text": "20 m/s"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "distancia-uniforme",
+        "statement": "Em linha reta, um móvel mantém 5 m/s durante 8 s. Que distância percorre?",
+        "explanation": "No movimento uniforme, distância = velocidade × tempo: 5 × 8 = 40 metros.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "40 m"
+          },
+          {
+            "optionKey": "B",
+            "text": "13 m"
+          },
+          {
+            "optionKey": "C",
+            "text": "1,6 m"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "aceleracao",
+        "statement": "A velocidade aumenta de 4 m/s para 10 m/s em 3 s. Qual é a aceleração média?",
+        "explanation": "A aceleração média é Δv/Δt = (10 − 4)/3 = 2 m/s².",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "6 m/s²"
+          },
+          {
+            "optionKey": "B",
+            "text": "18 m/s²"
+          },
+          {
+            "optionKey": "C",
+            "text": "2 m/s²"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "referencial",
+        "statement": "Uma pessoa sentada no ônibus está em repouso em relação ao banco e em movimento em relação à rua. O que isso mostra?",
+        "explanation": "Descrever movimento ou repouso exige escolher um referencial.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Que o ônibus está em repouso em todo referencial"
+          },
+          {
+            "optionKey": "B",
+            "text": "Que movimento nunca pode ser medido"
+          },
+          {
+            "optionKey": "C",
+            "text": "Que movimento e repouso dependem do referencial"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-1-materia-e-misturas",
+    "contentVersion": 1,
+    "disciplineSlug": "quimica",
+    "schoolYear": 10,
+    "topic": "Substâncias, misturas e métodos de separação",
+    "title": "No laboratório das ideias",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "mistura-homogenea",
+        "statement": "Uma amostra de sal totalmente dissolvido em água apresenta quantas fases visíveis?",
+        "explanation": "Com o sal totalmente dissolvido, há uma fase visível: uma mistura homogênea.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Uma"
+          },
+          {
+            "optionKey": "B",
+            "text": "Três"
+          },
+          {
+            "optionKey": "C",
+            "text": "Duas"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "filtracao",
+        "statement": "Qual método pode separar areia insolúvel da água?",
+        "explanation": "Na filtração, a areia fica retida no filtro e a água atravessa seus poros.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Filtração"
+          },
+          {
+            "optionKey": "B",
+            "text": "Fusão"
+          },
+          {
+            "optionKey": "C",
+            "text": "Eletrização"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "agua-oleo",
+        "statement": "Água e óleo formam duas camadas em repouso. Que tipo de mistura é essa?",
+        "explanation": "Há duas fases observáveis, por isso a mistura é heterogênea.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Substância pura"
+          },
+          {
+            "optionKey": "B",
+            "text": "Heterogênea"
+          },
+          {
+            "optionKey": "C",
+            "text": "Sempre homogênea"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "mudanca-fisica",
+        "statement": "Qual transformação é física?",
+        "explanation": "O gelo derrete sem mudar a identidade química da água; a mudança é de estado físico.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ferrugem no ferro"
+          },
+          {
+            "optionKey": "B",
+            "text": "Derretimento do gelo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Combustão do papel"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "evaporacao-sal",
+        "statement": "Para recuperar sal de uma solução aquosa, sem precisar recuperar a água, qual método pode ser utilizado?",
+        "explanation": "Evaporar a água deixa o sal. Filtração comum não retém o sal que está dissolvido.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Evaporação da água"
+          },
+          {
+            "optionKey": "B",
+            "text": "Filtração simples do sal dissolvido"
+          },
+          {
+            "optionKey": "C",
+            "text": "Peneiração da solução"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-2-chances-e-escolhas",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 11,
+    "topic": "Contagem e probabilidade",
+    "title": "Qual é a chance?",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "principio-multiplicativo",
+        "statement": "Há 3 camisetas e 2 calças. Quantas combinações de uma camiseta e uma calça podem ser formadas?",
+        "explanation": "Pelo princípio multiplicativo, 3 × 2 = 6 combinações.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "6"
+          },
+          {
+            "optionKey": "B",
+            "text": "9"
+          },
+          {
+            "optionKey": "C",
+            "text": "5"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "urna-simples",
+        "statement": "Uma urna tem 3 bolas azuis e 2 vermelhas, todas com a mesma chance de retirada. Qual é a probabilidade de tirar uma vermelha?",
+        "explanation": "São dois resultados favoráveis entre cinco bolas: 2/5.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1/2"
+          },
+          {
+            "optionKey": "B",
+            "text": "2/5"
+          },
+          {
+            "optionKey": "C",
+            "text": "3/5"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "moedas-duas",
+        "statement": "Duas moedas honestas são lançadas de modo independente. Qual é a probabilidade de sair cara nas duas?",
+        "explanation": "As probabilidades se multiplicam: 1/2 × 1/2 = 1/4.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "3/4"
+          },
+          {
+            "optionKey": "B",
+            "text": "1/4"
+          },
+          {
+            "optionKey": "C",
+            "text": "1/2"
+          }
+        ],
+        "correctAnswer": "B",
+        "funFact": "Lançamentos anteriores de uma moeda honesta não alteram a chance de cara no próximo lançamento independente."
+      },
+      {
+        "originKey": "combinacao-par",
+        "statement": "Quantos pares diferentes podem ser escolhidos entre 4 pessoas, sem importar a ordem?",
+        "explanation": "São C(4,2) = 4 × 3 ÷ 2 = 6 pares. Dividimos por dois porque a ordem não distingue o par.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "4"
+          },
+          {
+            "optionKey": "B",
+            "text": "6"
+          },
+          {
+            "optionKey": "C",
+            "text": "12"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "complementar",
+        "statement": "A probabilidade de um evento ocorrer é 0,3. Qual é a probabilidade de ele não ocorrer?",
+        "explanation": "Evento e complemento somam 1. Logo, 1 − 0,3 = 0,7.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "0,3"
+          },
+          {
+            "optionKey": "B",
+            "text": "1,3"
+          },
+          {
+            "optionKey": "C",
+            "text": "0,7"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-2-genetica-em-modelos",
+    "contentVersion": 1,
+    "disciplineSlug": "biologia",
+    "schoolYear": 11,
+    "topic": "Conceitos de genética mendeliana",
+    "title": "Lendo os modelos de herança",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "alelo",
+        "statement": "O que são alelos?",
+        "explanation": "Alelos são formas alternativas de um gene localizadas no mesmo locus em cromossomos homólogos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Qualquer molécula de água"
+          },
+          {
+            "optionKey": "B",
+            "text": "Versões de um gene em um mesmo locus"
+          },
+          {
+            "optionKey": "C",
+            "text": "Sempre cromossomos inteiros diferentes"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "heterozigoto",
+        "statement": "Em um modelo com alelos A e a, qual genótipo é heterozigoto?",
+        "explanation": "Aa possui dois alelos diferentes. AA e aa são homozigotos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Aa: uma cópia de cada alelo"
+          },
+          {
+            "optionKey": "B",
+            "text": "aa: alelo a em ambos os cromossomos"
+          },
+          {
+            "optionKey": "C",
+            "text": "AA: duas cópias do alelo A"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "cruzamento-aa",
+        "statement": "No cruzamento Aa × Aa, qual fração esperada dos descendentes tem genótipo aa?",
+        "explanation": "As combinações esperadas são AA, Aa, aA e aa. Uma de quatro corresponde a aa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1/4"
+          },
+          {
+            "optionKey": "B",
+            "text": "1/2"
+          },
+          {
+            "optionKey": "C",
+            "text": "3/4"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "dominancia-modelo",
+        "statement": "Em um modelo de dominância completa de A sobre a, qual genótipo manifesta o fenótipo recessivo?",
+        "explanation": "O fenótipo recessivo aparece no homozigoto aa. Essa conclusão depende do modelo de dominância completa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "aa: alelo a em ambos os cromossomos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Aa: uma cópia de cada alelo"
+          },
+          {
+            "optionKey": "C",
+            "text": "AA: duas cópias do alelo A"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "genotipo-fenotipo",
+        "statement": "Qual afirmação distingue genótipo de fenótipo?",
+        "explanation": "O genótipo descreve a constituição genética; o fenótipo resulta de sua expressão em interação com o ambiente.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Genótipo e fenótipo são obrigatoriamente idênticos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Fenótipo é sempre apenas a sequência de DNA"
+          },
+          {
+            "optionKey": "C",
+            "text": "Genótipo é a constituição genética; fenótipo envolve características observáveis e influência do ambiente"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-2-trabalho-e-energia",
+    "contentVersion": 1,
+    "disciplineSlug": "fisica",
+    "schoolYear": 11,
+    "topic": "Trabalho, energia e potência",
+    "title": "Energia para resolver problemas",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "trabalho-forca",
+        "statement": "Uma força constante de 10 N atua na direção e no sentido de um deslocamento de 3 m. Qual trabalho realiza?",
+        "explanation": "Com força paralela ao deslocamento, W = F × d = 10 × 3 = 30 joules.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "13 J"
+          },
+          {
+            "optionKey": "B",
+            "text": "30 J"
+          },
+          {
+            "optionKey": "C",
+            "text": "3 J"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "energia-cinetica",
+        "statement": "Um corpo de 2 kg move-se a 3 m/s. Qual é sua energia cinética?",
+        "explanation": "Ec = mv²/2 = 2 × 3²/2 = 9 joules.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "9 J"
+          },
+          {
+            "optionKey": "B",
+            "text": "6 J"
+          },
+          {
+            "optionKey": "C",
+            "text": "18 J"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "potencial-gravitacional",
+        "statement": "Um corpo de 2 kg está 5 m acima do nível de referência. Com g = 10 m/s², qual é a energia potencial gravitacional?",
+        "explanation": "Ep = mgh = 2 × 10 × 5 = 100 joules em relação ao nível escolhido.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "10 J"
+          },
+          {
+            "optionKey": "B",
+            "text": "100 J"
+          },
+          {
+            "optionKey": "C",
+            "text": "25 J"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "potencia",
+        "statement": "Uma máquina realiza 600 J de trabalho em 3 s. Qual é sua potência média?",
+        "explanation": "Potência é trabalho por tempo: 600 ÷ 3 = 200 watts.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1.800 W"
+          },
+          {
+            "optionKey": "B",
+            "text": "603 W"
+          },
+          {
+            "optionKey": "C",
+            "text": "200 W"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "energia-mecanica",
+        "statement": "Um corpo cai sem resistência do ar. Durante a queda, o que ocorre com sua energia mecânica?",
+        "explanation": "Sem forças dissipativas, a energia mecânica total se conserva; a potencial diminui e a cinética aumenta.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Aumenta sem fonte de energia"
+          },
+          {
+            "optionKey": "B",
+            "text": "É conservada, com transformação de potencial em cinética"
+          },
+          {
+            "optionKey": "C",
+            "text": "Desaparece totalmente"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-3-dados-sem-armadilhas",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 12,
+    "topic": "Estatística e leitura crítica de dados",
+    "title": "O que os dados realmente dizem?",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "media-outlier",
+        "statement": "Uma amostra de rendas contém um valor muito maior que os demais. Qual medida tende a ser mais afetada por esse valor extremo?",
+        "explanation": "A média usa a soma de todos os valores e é sensível a extremos. A mediana costuma ser menos afetada.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A quantidade de observações"
+          },
+          {
+            "optionKey": "B",
+            "text": "A média aritmética"
+          },
+          {
+            "optionKey": "C",
+            "text": "A mediana em qualquer situação"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "mediana-par",
+        "statement": "Qual é a mediana de 2, 4, 6 e 10?",
+        "explanation": "Com quatro valores ordenados, calculamos a média dos dois centrais: (4 + 6)/2 = 5.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "6"
+          },
+          {
+            "optionKey": "B",
+            "text": "5"
+          },
+          {
+            "optionKey": "C",
+            "text": "4"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "amostra-vies",
+        "statement": "Uma pesquisa sobre a cidade ouve apenas clientes de uma loja de luxo. Qual é a principal limitação?",
+        "explanation": "A seleção restrita pode deixar grupos importantes de fora, limitando a representatividade.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ter muitas perguntas elimina qualquer viés"
+          },
+          {
+            "optionKey": "B",
+            "text": "A amostra pode não representar a diversidade da cidade"
+          },
+          {
+            "optionKey": "C",
+            "text": "Toda pesquisa com pessoas é impossível"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "percentual-pontos",
+        "statement": "Uma taxa passou de 20% para 30%. Qual foi o aumento em pontos percentuais?",
+        "explanation": "A diferença entre as taxas é 30 − 20 = 10 pontos percentuais. O aumento relativo seria 50%.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "10 pontos percentuais"
+          },
+          {
+            "optionKey": "B",
+            "text": "1,5 ponto percentual"
+          },
+          {
+            "optionKey": "C",
+            "text": "50 pontos percentuais"
+          }
+        ],
+        "correctAnswer": "A",
+        "funFact": "Pontos percentuais medem uma diferença entre percentuais; uma variação percentual compara essa diferença com o valor inicial."
+      },
+      {
+        "originKey": "correlacao-causa",
+        "statement": "Dois indicadores variam juntos em um gráfico. O que essa correlação, sozinha, permite concluir?",
+        "explanation": "Associação não demonstra causalidade. Outros fatores ou o desenho do estudo precisam ser examinados.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Há associação, mas a causalidade exige investigação adicional"
+          },
+          {
+            "optionKey": "B",
+            "text": "Um obrigatoriamente causa o outro"
+          },
+          {
+            "optionKey": "C",
+            "text": "Nenhum estudo adicional é necessário"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-3-etica-e-argumentacao",
+    "contentVersion": 1,
+    "disciplineSlug": "filosofia",
+    "schoolYear": 12,
+    "topic": "Ética, justificação e pensamento crítico",
+    "title": "Por que escolhemos assim?",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "reflexao-etica",
+        "statement": "Qual situação representa uma reflexão ética?",
+        "explanation": "A reflexão ética investiga como agir e quais razões justificam decisões e valores.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Examinar razões e consequências de uma decisão que afeta outras pessoas"
+          },
+          {
+            "optionKey": "B",
+            "text": "Memorizar somente uma tabela numérica"
+          },
+          {
+            "optionKey": "C",
+            "text": "Escolher uma cor sem considerar qualquer ação"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "argumento",
+        "statement": "O que distingue um argumento de uma simples afirmação?",
+        "explanation": "Um argumento articula premissas ou razões para apoiar uma conclusão.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Sempre ter muitas palavras"
+          },
+          {
+            "optionKey": "B",
+            "text": "Apresentar razões que sustentam uma conclusão"
+          },
+          {
+            "optionKey": "C",
+            "text": "Usar letras maiúsculas"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "critica-respeitosa",
+        "statement": "Em um debate, qual atitude favorece a análise crítica?",
+        "explanation": "Analisar razões permite discutir ideias. Ataques pessoais não demonstram se a conclusão é válida.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Recusar toda pergunta"
+          },
+          {
+            "optionKey": "B",
+            "text": "Examinar as razões apresentadas e responder a elas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Atacar a aparência do interlocutor"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "dilema-etico",
+        "statement": "Um dilema ético pode envolver o quê?",
+        "explanation": "Dilemas podem exigir ponderar valores e deveres que apontam para ações diferentes.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Valores ou deveres relevantes que entram em conflito"
+          },
+          {
+            "optionKey": "B",
+            "text": "A ausência obrigatória de qualquer decisão"
+          },
+          {
+            "optionKey": "C",
+            "text": "Apenas uma conta de soma"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "consistencia",
+        "statement": "Uma regra vale para todos, mas seu autor pede uma exceção para si sem justificativa. Que problema merece ser examinado?",
+        "explanation": "Aplicar uma regra de maneira desigual, sem razão pertinente, exige questionar sua consistência.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A inconsistência na aplicação da regra"
+          },
+          {
+            "optionKey": "B",
+            "text": "A inexistência de uma cor no texto"
+          },
+          {
+            "optionKey": "C",
+            "text": "A falta de uma rima"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "medio-3-sociedade-e-cidadania",
+    "contentVersion": 1,
+    "disciplineSlug": "sociologia",
+    "schoolYear": 12,
+    "topic": "Socialização, desigualdade e participação",
+    "title": "Viver em sociedade",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "socializacao",
+        "statement": "O que é socialização?",
+        "explanation": "A socialização ocorre ao longo da vida, em relações como família, escola, trabalho e outros grupos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Somente usar redes sociais"
+          },
+          {
+            "optionKey": "B",
+            "text": "Um processo restrito ao nascimento"
+          },
+          {
+            "optionKey": "C",
+            "text": "O processo de aprender e participar de normas, valores e práticas sociais"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "cidadania",
+        "statement": "Qual situação exemplifica participação cidadã?",
+        "explanation": "A participação cidadã inclui discutir problemas comuns e atuar nas decisões coletivas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ignorar permanentemente decisões coletivas"
+          },
+          {
+            "optionKey": "B",
+            "text": "Participar de um debate público sobre melhorias no bairro"
+          },
+          {
+            "optionKey": "C",
+            "text": "Impedir toda manifestação de opinião"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "desigualdade",
+        "statement": "Em uma análise sociológica, desigualdade social se relaciona principalmente a quê?",
+        "explanation": "A desigualdade envolve posições sociais e acesso desigual a recursos, oportunidades e poder.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A existência de dias diferentes na semana"
+          },
+          {
+            "optionKey": "B",
+            "text": "Qualquer diferença de gosto pessoal"
+          },
+          {
+            "optionKey": "C",
+            "text": "Distribuição desigual de recursos, oportunidades e poder"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "estereotipo",
+        "statement": "Qual afirmação exemplifica um estereótipo?",
+        "explanation": "O estereótipo reduz a diversidade de um grupo a características fixas e generalizadas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Todos os membros de um grupo têm exatamente a mesma personalidade"
+          },
+          {
+            "optionKey": "B",
+            "text": "Pessoas de um mesmo grupo podem ter experiências diversas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma pesquisa ouviu cinquenta participantes"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "trabalho-sociedade",
+        "statement": "Por que o trabalho também é estudado como fenômeno social?",
+        "explanation": "O trabalho participa da organização social e envolve relações de poder, condições e diferentes formas de reconhecimento.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Porque ocorre sempre sem relação com outras pessoas"
+          },
+          {
+            "optionKey": "B",
+            "text": "Porque todos os trabalhos têm condições idênticas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Porque envolve relações, organização, direitos e distribuição de recursos"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  }
+]

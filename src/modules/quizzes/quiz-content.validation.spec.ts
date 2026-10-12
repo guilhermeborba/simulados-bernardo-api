@@ -1,5 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { Prisma, QuestionType } from '@prisma/client';
+import * as quizMedia from './media/quiz-media';
 import {
   assertQuizContentReady,
   QuizContentQuestion,
@@ -23,6 +24,25 @@ function question(): QuizContentQuestion {
 }
 
 describe('Quiz content publication validation', () => {
+  afterEach(() => jest.restoreAllMocks());
+
+  it('validates pinned media before publishing or creating snapshots', () => {
+    const media = {
+      image: {
+        assetId: 'counting-image',
+        sha256: 'a'.repeat(64),
+        alt: 'Dois círculos.',
+      },
+    };
+    const ready = jest
+      .spyOn(quizMedia, 'assertQuizMediaReady')
+      .mockImplementation(() => undefined);
+    expect(assertQuizContentReady([{ ...question(), media }]).toString()).toBe(
+      '1.25',
+    );
+    expect(ready).toHaveBeenCalledWith(media);
+  });
+
   it('calculates decimal points without floating point drift', () => {
     const first = { ...question(), points: new Prisma.Decimal('0.1') };
     const second = {
@@ -42,7 +62,7 @@ describe('Quiz content publication validation', () => {
     ['blank statement', { statement: ' ' }],
     ['unsupported question type', { type: QuestionType.MATCHING }],
     [
-      'private media without policy',
+      'unregistered external media',
       { media: { url: 'https://example.test/private.png' } },
     ],
     ['zero points', { points: new Prisma.Decimal(0) }],

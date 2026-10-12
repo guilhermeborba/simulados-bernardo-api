@@ -6,10 +6,11 @@ import { AttemptsController } from './attempts.controller';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
+import { QuizMediaController } from '../quizzes/media/quiz-media.controller';
 
 @Module({
   imports: [DatabaseModule, JwtModule, TurmasModule],
-  controllers: [AttemptsController],
+  controllers: [AttemptsController, QuizMediaController],
   providers: [AttemptsService, AttemptsCorrectionService, QuizAttemptsService],
 })
 export class AttemptsModule {}

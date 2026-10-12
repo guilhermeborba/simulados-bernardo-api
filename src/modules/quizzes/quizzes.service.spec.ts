@@ -1,4 +1,8 @@
-import { ConflictException, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  ConflictException,
+  NotFoundException,
+} from '@nestjs/common';
 import {
   ActivityKind,
   Prisma,
@@ -7,6 +11,7 @@ import {
   UserRole,
 } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import * as quizMedia from './media/quiz-media';
 import { QUIZ_ADMIN_SELECT, QUIZ_METADATA_SELECT } from './quizzes.presenter';
 import { QuizzesService } from './quizzes.service';
 
@@ -32,7 +37,7 @@ function fixture() {
         statement: 'Qual alternativa?',
         explanation: 'A explicação pertence ao conteúdo privado.',
         type: QuestionType.MULTIPLE_CHOICE,
-        media: null,
+        media: null as Prisma.JsonValue | null,
         points: new Prisma.Decimal(1),
         sortOrder: 1,
         options: [
@@ -76,6 +81,103 @@ function setup(quiz = fixture()) {
 }
 
 describe('QuizzesService', () => {
+  afterEach(() => jest.restoreAllMocks());
+
+  it('normalizes registered media before storing a new question', async () => {
+    const media = {
+      image: {
+        assetId: 'counting-image',
+        sha256: 'a'.repeat(64),
+        alt: 'Dois círculos.',
+      },
+    };
+    const normalize = jest
+      .spyOn(quizMedia, 'normalizeQuizMedia')
+      .mockReturnValue(media);
+    const ready = jest
+      .spyOn(quizMedia, 'assertQuizMediaReady')
+      .mockImplementation(() => undefined);
+    const { service, transaction } = setup();
+    const requestMedia = {
+      image: { assetId: 'counting-image', alt: 'Dois círculos.' },
+    };
+    await service.create(
+      {
+        activityKey: 'quiz-counting',
+        disciplineId: 'discipline-1',
+        schoolYear: 1,
+        title: 'Contando formas',
+        topic: 'Contagem',
+        questions: [
+          {
+            originKey: 'counting-q1',
+            statement: 'Quantos círculos?',
+            explanation: 'São dois círculos.',
+            points: 1,
+            options: [
+              { optionKey: 'A', text: 'Um' },
+              { optionKey: 'B', text: 'Dois' },
+            ],
+            correctAnswer: 'B',
+            media: requestMedia,
+          },
+        ],
+      },
+      'admin-1',
+    );
+    expect(normalize).toHaveBeenCalledWith(requestMedia);
+    expect(ready).toHaveBeenCalledWith(media);
+    expect(transaction.simulation.create).toHaveBeenCalledWith(
+      expect.objectContaining({
+        data: expect.objectContaining({
+          questions: { create: [expect.objectContaining({ media })] },
+        }),
+      }),
+    );
+    expect(QUIZ_ADMIN_SELECT.questions.select.media).toBe(true);
+  });
+
+  it('preserves pinned media when creating a new editorial version', async () => {
+    const quiz = fixture();
+    const media = {
+      audio: {
+        assetId: 'counting-audio',
+        sha256: 'b'.repeat(64),
+        transcript: 'Conte as formas.',
+      },
+    };
+    quiz.questions[0].media = media;
+    const ready = jest
+      .spyOn(quizMedia, 'assertQuizMediaReady')
+      .mockImplementation(() => undefined);
+    const { service, transaction } = setup(quiz);
+    await service.createVersion(quiz.id, 'admin-1');
+    expect(ready).toHaveBeenCalledWith(media);
+    expect(transaction.simulation.create).toHaveBeenCalledWith(
+      expect.objectContaining({
+        data: expect.objectContaining({
+          questions: { create: [expect.objectContaining({ media })] },
+        }),
+      }),
+    );
+  });
+
+  it('rejects unavailable registered media before publication without changing the draft', async () => {
+    const quiz = fixture();
+    quiz.status = SimulationStatus.DRAFT;
+    quiz.publishedAt = null;
+    quiz.questions[0].media = {
+      image: {
+        assetId: 'missing-image',
+        sha256: 'a'.repeat(64),
+        alt: 'Imagem indisponível.',
+      },
+    };
+    const { service, transaction } = setup(quiz);
+    await expect(service.publish(quiz.id)).rejects.toThrow(BadRequestException);
+    expect(transaction.simulation.update).not.toHaveBeenCalled();
+  });
+
   it('keeps published content immutable, even if manually moved back to draft', async () => {
     const quiz = fixture();
     quiz.status = SimulationStatus.DRAFT;

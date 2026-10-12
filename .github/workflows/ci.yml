@@ -54,5 +54,9 @@ jobs:
         run: npm run seed:dry-run
       - name: Export inventory without answer keys
         run: npm run --silent seed:inventory:json > /tmp/simulados-inventory.json
+      - name: Validate quiz catalogue and packaged instruction media
+        run: npm run seed:quizzes:dry-run
+      - name: Export quiz inventory without questions or answer keys
+        run: npm run --silent seed:quizzes:inventory:json > /tmp/quizzes-inventory.json
       - name: Exercise migrations, authorization and attempt lifecycle
         run: npm run test:integration -- --external

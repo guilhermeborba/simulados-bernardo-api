@@ -17,6 +17,7 @@ import { CreateQuizDto, QuizQuestionDto } from './dto/create-quiz.dto';
 import { FindAvailableQuizzesDto } from './dto/find-available-quizzes.dto';
 import { UpdateQuizDto } from './dto/update-quiz.dto';
 import { assertQuizContentReady } from './quiz-content.validation';
+import { normalizeQuizMedia } from './media/quiz-media';
 import {
   QUIZ_ADMIN_SELECT,
   QUIZ_METADATA_SELECT,
@@ -376,7 +377,7 @@ export class QuizzesService {
       explanation: question.explanation.trim(),
       tip: question.tip?.trim() ?? null,
       funFact: question.funFact?.trim() ?? null,
-      media: null,
+      media: normalizeQuizMedia(question.media) as Prisma.JsonValue | null,
       points: new Prisma.Decimal(question.points),
       sortOrder: index + 1,
       options: question.options.map((option, optionIndex) => ({
@@ -402,6 +403,10 @@ export class QuizzesService {
       explanation: question.explanation,
       tip: question.tip,
       funFact: question.funFact,
+      media:
+        question.media === null
+          ? Prisma.JsonNull
+          : (question.media as Prisma.InputJsonValue),
       points: question.points,
       sortOrder: question.sortOrder,
       options: {

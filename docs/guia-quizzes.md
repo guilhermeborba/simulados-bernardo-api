@@ -1,6 +1,6 @@
-# Quizzes — contratos, confirmação e migrações
+# Quizzes — contratos, catálogo e mídia
 
-Os lotes 03 e 04 oferecem autoria ADMIN, versões, início/retomada, confirmação de respostas, feedback persistido e resultado idempotente a partir dos snapshots privados. Importação editorial/mídia são do lote 05 e telas/BFF web do lote 06. Não há catálogo de quizzes semeado nem entrega de XP nesta etapa.
+Os lotes 03 a 05 oferecem autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria e mídia de instrução nos snapshots. O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, todos com revisão `PENDING`; nenhum foi importado em banco existente ou publicado. Telas/BFF web continuam no lote 06 e XP nas etapas seguintes.
 
 ## Rotas implementadas
 
@@ -17,7 +17,8 @@ Todas usam JWT; gestão e tentativas acrescentam RolesGuard. Gestão usa ADMIN; 
 | `POST /quizzes/:id/versions` | ADMIN clona a fonte para próxima versão DRAFT |
 | `POST /quizzes/:id/attempts` | STUDENT inicia ou retoma a tentativa aberta; aceita ID ou slug |
 | `GET /attempts/:id` | Dono/ADMIN consulta metadados, sem snapshots privados |
-| `GET /attempts/:id/questions` | Dono/ADMIN recebe conteúdo do snapshot e feedback somente das questões confirmadas |
+| `GET /attempts/:id/questions` | Dono/ADMIN recebe conteúdo do snapshot, mídia de instrução e feedback somente das questões confirmadas |
+| `GET /attempts/:id/questions/:questionId/media/:kind` | Dono/ADMIN recebe imagem ou áudio autenticado do snapshot, com suporte a Range |
 | `POST /attempts/:id/questions/:questionId/answer` | STUDENT confirma resposta de quiz; simulados mantêm envio/edição existentes |
 | `POST /attempts/:id/answers` | Mesmo comportamento, com `questionId` no body |
 | `POST /attempts/:id/finish` | STUDENT conclui depois de confirmar todas as questões; repetição devolve o resultado salvo |
@@ -55,11 +56,100 @@ Use um `disciplineId` existente, sem criar novas disciplinas. Os IDs do exemplo 
 }
 ```
 
-`correctAnswer` é apenas entrada administrativa, nunca resposta de API. A resposta ADMIN contém as questões e explicações sem gabarito; a resposta de catálogo contém apenas metadados. Antes de confirmação, o aluno não recebe explicação, curiosidade, mídia ou respostas oficiais.
+`correctAnswer` é apenas entrada administrativa, nunca resposta de API. A resposta ADMIN contém as questões e explicações sem gabarito; a resposta de catálogo contém apenas metadados. Antes de confirmação, o aluno recebe a mídia de instrução, quando presente, mas não recebe explicação, curiosidade ou respostas oficiais.
 
-São permitidas 1–50 perguntas com 2–8 alternativas, pontos positivos com duas casas decimais e soma até 9999,99. `originKey` deve ser único no quiz e preservado entre versões quando representa a mesma pergunta. Opções com chaves iguais desconsiderando maiúsculas/minúsculas são recusadas. O servidor calcula `totalQuestions`, `maxScore`, ordem, slug e versão. Campos desconhecidos, mídia, bimestre e AV são recusados; números do body JSON devem ser números, sem coerção de booleanos/string. Em PATCH de rascunho, `subtitle`, `turmaId` e `estimatedDurationMinutes` aceitam `null` para limpeza; campos obrigatórios não aceitam `null`. Substituir `questions` substitui o conjunto ativo do rascunho, mantendo os registros anteriores com soft delete.
+São permitidas 1–50 perguntas com 2–8 alternativas, pontos positivos com duas casas decimais e soma até 9999,99. `originKey` deve ser único no quiz e preservado entre versões quando representa a mesma pergunta. Opções com chaves iguais desconsiderando maiúsculas/minúsculas são recusadas. O servidor calcula `totalQuestions`, `maxScore`, ordem, slug e versão. Campos desconhecidos, URLs/caminhos de mídia, bimestre e AV são recusados; números do body JSON devem ser números, sem coerção de booleanos/string. Em PATCH de rascunho, `subtitle`, `turmaId` e `estimatedDurationMinutes` aceitam `null` para limpeza; campos obrigatórios não aceitam `null`. Substituir `questions` substitui o conjunto ativo do rascunho, mantendo os registros anteriores com soft delete.
 
 Criar uma versão mantém a original. Após publicar, editar conteúdo exige `POST /quizzes/:id/versions`, PATCH no novo rascunho e publicação. Arquivar permite retomar uma tentativa aberta autorizada, mas impede criar uma nova naquela versão. Acesso atual à turma e disciplina é revalidado ao iniciar, retomar, confirmar, ler questões, concluir e consultar o resultado. Um quiz arquivado permite essas operações sobre tentativas existentes autorizadas. As rotas antigas de Simulation/Question não gerenciam quizzes.
+
+## Mídia de instrução
+
+O campo opcional `questions[].media` aceita uma imagem e/ou um áudio registrados. `alt` e `transcript` são obrigatórios quando o respectivo tipo existe. Exemplo de entrada administrativa com IDs realmente registrados:
+
+```json
+{
+  "media": {
+    "image": {
+      "assetId": "infantil-4-cores-e-formas.cor-vermelha.image.v3",
+      "alt": "Três balões alinhados: azul à esquerda, vermelho no meio e amarelo à direita."
+    },
+    "audio": {
+      "assetId": "infantil-4-cores-e-formas.cor-vermelha.audio",
+      "transcript": "Veja os balões. Qual é a cor do balão que está no meio? Alternativa A: Amarela. Alternativa B: Vermelha. Alternativa C: Azul."
+    }
+  }
+}
+```
+
+A transcrição corresponde ao texto efetivamente narrado no asset. O servidor fixa também SHA-256, verifica formato/tamanho e recusa ID desconhecido, tipo incorreto, arquivo ausente, link simbólico ou digest divergente. Um ID registrado não pode passar a identificar bytes novos. Revisar um asset exige novo ID; editar conteúdo já publicado exige nova versão do quiz. O pacote conserva os assets anteriores para atender snapshots antigos.
+
+A leitura de questões e o resultado expõem somente a projeção abaixo, nunca `assetId`, SHA-256, nome de arquivo ou gabarito:
+
+```json
+{
+  "media": {
+    "image": {
+      "url": "/attempts/id-da-tentativa/questions/id-da-pergunta/media/image",
+      "alt": "Três balões alinhados: azul à esquerda, vermelho no meio e amarelo à direita."
+    },
+    "audio": {
+      "url": "/attempts/id-da-tentativa/questions/id-da-pergunta/media/audio",
+      "transcript": "Veja os balões. Qual é a cor do balão que está no meio? Alternativa A: Amarela. Alternativa B: Vermelha. Alternativa C: Azul."
+    }
+  }
+}
+```
+
+Sem mídia, a propriedade é omitida. As URLs são relativas à API e exigem `Authorization: Bearer <access-token>` em cada requisição. Só o dono STUDENT ou ADMIN pode ler; professor, responsável e outro aluno não recebem os bytes. Quiz/turma/disciplina e membership atual são revalidados antes de ler o asset. Revogação bloqueia novas leituras, inclusive por uma URL obtida anteriormente. Arquivar conserva acesso à tentativa existente quando a autorização permanece válida.
+
+SVG e WAV usam MIME controlado, `X-Content-Type-Options: nosniff`, CSP restritiva, `Cache-Control: private, no-store` e `Accept-Ranges: bytes`. `Range: bytes=0-99`, intervalo aberto ou sufixo válido retornam 206 com `Content-Range`; intervalo inválido/múltiplo retorna 416 somente depois da autorização.
+
+Alt e transcrição ficam no snapshot e continuam disponíveis quando o arquivo não pode ser entregue. Essa falha retorna 404 para os bytes e não impede confirmar ou concluir pelo texto. Mídia deve conter instrução, sem explicação antecipada ou gabarito; a revisão editorial verifica esse conteúdo. Os arquivos genéricos empacotados não contêm dados pessoais. A autorização da API não torna os arquivos do Git confidenciais; uploads e armazenamento de arquivos privados ainda não existem.
+
+O build copia os assets para `dist/src/modules/quizzes/media/assets`. Geração das ilustrações, narração pt-BR e regras de conservação estão no [README da mídia](../src/modules/quizzes/media/README.md). BFF binário, áudio opcional, fallback visual e uso em celular/leitor de tela devem ser implementados e verificados no lote 06.
+
+## Catálogo e importação própria
+
+A [matriz editorial](matriz-editorial-quizzes.md) apresenta os 45 quizzes: seis de Infantil com 18 perguntas, 27 de Fundamental com 135, nove de Médio com 45 e três de Enfermagem com 15. Todas as 18 perguntas infantis têm imagem, alt, narração e transcrição. Os JSONs de `prisma/quiz-data/` são insumos do servidor e não devem ser incluídos no bundle web ou em endpoints de conteúdo bruto.
+
+Execute primeiro os checks sem banco:
+
+```bash
+npm run seed:quizzes:dry-run
+npm run seed:quizzes:inventory
+npm run --silent seed:quizzes:inventory:json > /tmp/quizzes-inventory.json
+```
+
+O dry-run/inventário não instancia Prisma nem importa dados. Valida a cobertura, metadados, alternativas, explicação, gabarito e mídia. O JSON exportado contém somente contagens, chaves/versões, faixas/disciplinas, status de revisão e `contentHash`, sem questões, respostas ou transcrições.
+
+Para importar no banco explicitamente escolhido pelo operador, configure `DATABASE_URL` e `QUIZ_SEED_AUTHOR_EMAIL` com o e-mail de um ADMIN ativo existente. O importador não cria nem reativa usuários; o autor inativo do seed legado não serve para essa operação. As disciplinas precisam existir e estar ativas. Um `turmaSlug` opcional precisa referenciar turma existente e mantém o quiz privado para seus membros.
+
+```bash
+npm run seed:quizzes
+```
+
+O padrão cria **DRAFT**, invisível ao aluno. A importação é atômica: falha em referência, versão, mídia ou conteúdo reverte o lote inteiro. Repetir a mesma versão exige conteúdo idêntico e conserva IDs, datas e tentativas; divergência exige nova versão consecutiva. Arquivados/excluídos não são reativados. O seed de simulados permanece separado.
+
+Depois da revisão efetivamente realizada, registre em cada entrada:
+
+```json
+{
+  "review": {
+    "status": "APPROVED",
+    "reviewedBy": "Nome de quem realizou a revisão",
+    "reviewedAt": "2026-10-12T12:00:00.000Z",
+    "contentHash": "hash SHA-256 de 64 caracteres obtido no inventário"
+  }
+}
+```
+
+Nome, data e hash são ilustrativos. Use o `entries[].contentHash` da mesma chave/versão no inventário final e a data ISO real. A aprovação precisa corresponder às perguntas e à mídia conferidas; mudanças invalidam o hash. Para Enfermagem, a matriz requer revisão técnica apropriada, incluindo atualização das fontes; no Infantil, conferir compreensão, cor, contagem, áudio e acessibilidade.
+
+```bash
+npm run seed:quizzes:publish-reviewed
+```
+
+Esse comando publica/cria somente depois de validar aprovação correspondente em **todas** as entradas do lote fornecido. O catálogo atual `PENDING` falha antes de qualquer gravação. Rascunhos idênticos podem ser publicados; versões arquivadas/excluídas continuam preservadas. A API `PATCH /quizzes/:id/publish` continua sendo uma ação administrativa explícita com validação de conteúdo; ela não lê o estado de revisão dos JSONs. Não usar essa rota para contornar a revisão editorial.
 
 ## Confirmação e feedback do quiz
 
@@ -106,7 +196,7 @@ A primeira confirmação e suas repetições equivalentes retornam 201. Repetir 
 
 `GET /attempts/:id/questions` devolve cada pergunta do snapshot com `id`, `originKey`, `type`, `statement`, `tip`, `points`, `order`, `options`, `answer`, `confirmedAt` e `feedback`. Opções contêm somente `id`, `optionKey`, `text`, `groupKey` e `order`. Em perguntas ainda não confirmadas, os três últimos campos são nulos; explicação, curiosidade e conteúdo oficial não aparecem. Nas confirmadas, `answer` é a escolha canônica do aluno e `feedback` contém o objeto salvo acima, tanto para acerto quanto para erro. Recarregar ou retomar recupera esse estado.
 
-`correctAnswer`, `officialAnswers`, `answerKey`, `answerValue`, snapshots privados e mídia não são retornados. Explicação pedagógica pode explicar a solução depois da confirmação; isso não publica o gabarito estruturado nem o antecipa para as outras perguntas. Opções/feedback JSON passam por uma allowlist. Dados armazenados malformados produzem erro genérico, sem JSON privado na resposta.
+`correctAnswer`, `officialAnswers`, `answerKey`, `answerValue`, snapshots privados, IDs/digests do registro e caminhos de mídia não são retornados. Explicação pedagógica pode explicar a solução depois da confirmação; isso não publica o gabarito estruturado nem o antecipa para as outras perguntas. Opções/feedback JSON passam por uma allowlist. Dados armazenados malformados produzem erro genérico, sem JSON privado na resposta.
 
 ## Conclusão e resultado
 
@@ -164,6 +254,7 @@ npm run lint
 npm run test -- --runInBand
 npm run build
 npm run seed:dry-run
+npm run seed:quizzes:dry-run
 npm run test:integration
 ```
 
@@ -171,4 +262,6 @@ O runner cria e remove um PostgreSQL próprio. A suíte inclui migração sobre 
 
 Validação do lote 04: 278 testes unitários, 117 de integração PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, Prisma validate e dry-run do acervo de simulados. As jornadas web verificam a compatibilidade dos fluxos existentes; a interface de quizzes continua no lote 06.
 
-Decisões: [ADR 007 — versões e snapshots](decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008 — confirmação e resultado](decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [ADR 005 — gabarito protegido](decisions/005-gabarito-protegido-no-backend.md).
+O lote 05 acrescenta validação editorial/mídia, importação de todos os 45 quizzes duas vezes, preservação de IDs/datas/tentativas, rollback de lote, referências ativas, versões consecutivas, importações concorrentes e corrida com versionamento da API. A suíte de mídia cobre snapshot, bytes SVG/WAV, Range, autorização/revogação e fallback textual com confirmação/conclusão. Validação final: **381 unitários, 162 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API**, além de lint, build e dry-runs. Nenhum banco existente, publicação editorial ou deploy foi alterado.
+
+Decisões: [ADR 007 — versões e snapshots](decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008 — confirmação e resultado](decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md), [ADR 009 — catálogo e mídia](decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md) e [ADR 005 — gabarito protegido](decisions/005-gabarito-protegido-no-backend.md).

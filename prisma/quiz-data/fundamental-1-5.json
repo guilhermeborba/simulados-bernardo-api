@@ -1,0 +1,1820 @@
+[
+  {
+    "activityKey": "fundamental-1-palavras-do-dia",
+    "contentVersion": 1,
+    "disciplineSlug": "portugues",
+    "schoolYear": 1,
+    "topic": "Letras, sílabas e palavras familiares",
+    "title": "Palavras que moram perto da gente",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "letra-inicial",
+        "statement": "Qual palavra começa com a letra M?",
+        "explanation": "Mala começa com M. Bola começa com B e sapo começa com S.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Sapo"
+          },
+          {
+            "optionKey": "B",
+            "text": "Bola"
+          },
+          {
+            "optionKey": "C",
+            "text": "Mala"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "silabas-casa",
+        "statement": "Ao falar ca-sa devagar, quantas sílabas ouvimos?",
+        "explanation": "Ca-sa tem duas sílabas: ca e sa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Uma"
+          },
+          {
+            "optionKey": "B",
+            "text": "Três"
+          },
+          {
+            "optionKey": "C",
+            "text": "Duas"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "vogal-inicial",
+        "statement": "Qual palavra começa com a vogal A?",
+        "explanation": "Abelha começa com A, uma vogal. Pato e mesa começam com consoantes.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Pato"
+          },
+          {
+            "optionKey": "B",
+            "text": "Mesa"
+          },
+          {
+            "optionKey": "C",
+            "text": "Abelha"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "palavra-completa",
+        "statement": "Complete a palavra que nomeia o animal: GA__O.",
+        "explanation": "A letra T completa GATO. Ler a palavra inteira ajuda a conferir.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "M"
+          },
+          {
+            "optionKey": "B",
+            "text": "P"
+          },
+          {
+            "optionKey": "C",
+            "text": "T"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "rima-pao",
+        "statement": "Qual palavra rima com pão?",
+        "explanation": "Pão e mão terminam com o mesmo som: ão.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Pé"
+          },
+          {
+            "optionKey": "B",
+            "text": "Mão"
+          },
+          {
+            "optionKey": "C",
+            "text": "Flor"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-1-numeros-brinquedos",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 1,
+    "topic": "Contagem e operações até dez",
+    "title": "A caixa de brinquedos",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "contar-colecao",
+        "statement": "Eva tem 4 blocos e ganha mais 2. Quantos blocos ela tem agora?",
+        "explanation": "Somamos 4 + 2 = 6. Os dois blocos novos entram na coleção.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "8"
+          },
+          {
+            "optionKey": "B",
+            "text": "6"
+          },
+          {
+            "optionKey": "C",
+            "text": "4"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "tirar-bolas",
+        "statement": "Havia 7 bolas. Três foram guardadas. Quantas ficaram fora da caixa?",
+        "explanation": "Fazemos 7 − 3 = 4. Quatro bolas ficaram fora da caixa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "10"
+          },
+          {
+            "optionKey": "B",
+            "text": "4"
+          },
+          {
+            "optionKey": "C",
+            "text": "3"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "antes-oito",
+        "statement": "Qual número vem imediatamente antes de 8?",
+        "explanation": "A sequência é 6, 7, 8, 9. O número imediatamente antes de 8 é 7.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "9"
+          },
+          {
+            "optionKey": "B",
+            "text": "6"
+          },
+          {
+            "optionKey": "C",
+            "text": "7"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "maior-numero",
+        "statement": "Qual é o maior número deste grupo?",
+        "explanation": "9 é maior que 5 e que 7.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "5"
+          },
+          {
+            "optionKey": "B",
+            "text": "7"
+          },
+          {
+            "optionKey": "C",
+            "text": "9"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "dobrar-colecao",
+        "statement": "Há 3 botões em uma caixa e 3 em outra. Quantos botões há ao todo?",
+        "explanation": "Juntamos as duas caixas: 3 + 3 = 6 botões.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "6"
+          },
+          {
+            "optionKey": "B",
+            "text": "9"
+          },
+          {
+            "optionKey": "C",
+            "text": "3"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-1-seres-e-objetos",
+    "contentVersion": 1,
+    "disciplineSlug": "ciencias",
+    "schoolYear": 1,
+    "topic": "Seres vivos e materiais do cotidiano",
+    "title": "Exploradores do quintal",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "ser-vivo",
+        "statement": "Qual destes é um ser vivo?",
+        "explanation": "A borboleta é um animal e um ser vivo. Pedras e cadeiras não são seres vivos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Pedra"
+          },
+          {
+            "optionKey": "B",
+            "text": "Cadeira"
+          },
+          {
+            "optionKey": "C",
+            "text": "Borboleta"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "planta-necessita",
+        "statement": "O que uma planta usa para crescer?",
+        "explanation": "A água participa da vida da planta. Ela também precisa de condições adequadas de luz e nutrientes.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Brinquedos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Tinta"
+          },
+          {
+            "optionKey": "C",
+            "text": "Água"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "animal-penas",
+        "statement": "Qual animal tem penas?",
+        "explanation": "A galinha é uma ave. As aves têm penas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Galinha"
+          },
+          {
+            "optionKey": "B",
+            "text": "Peixe"
+          },
+          {
+            "optionKey": "C",
+            "text": "Gato"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "objeto-madeira",
+        "statement": "Qual objeto costuma ser feito de madeira?",
+        "explanation": "Mesas podem ser feitas de madeira. A folha é parte da planta, e a gota é água.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Uma mesa"
+          },
+          {
+            "optionKey": "B",
+            "text": "Uma folha de árvore"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma gota de chuva"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "cuidar-ambiente",
+        "statement": "Qual atitude ajuda a cuidar do quintal?",
+        "explanation": "Destinar os resíduos à lixeira adequada ajuda a manter o ambiente limpo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Jogar plástico na terra"
+          },
+          {
+            "optionKey": "B",
+            "text": "Arrancar todas as plantas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Colocar resíduos na lixeira adequada"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-2-frases-e-pistas",
+    "contentVersion": 1,
+    "disciplineSlug": "portugues",
+    "schoolYear": 2,
+    "topic": "Compreensão de frases e pontuação",
+    "title": "Pequenas frases, grandes pistas",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "quem-agiu",
+        "statement": "Leia: Nina abriu a janela. Quem abriu a janela?",
+        "explanation": "Nina realizou a ação de abrir a janela.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A janela"
+          },
+          {
+            "optionKey": "B",
+            "text": "Nina"
+          },
+          {
+            "optionKey": "C",
+            "text": "O vento"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "pergunta-pontuacao",
+        "statement": "Qual sinal termina a pergunta Onde está meu livro?",
+        "explanation": "O ponto de interrogação indica uma pergunta: Onde está meu livro?",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ponto de interrogação"
+          },
+          {
+            "optionKey": "B",
+            "text": "Ponto final"
+          },
+          {
+            "optionKey": "C",
+            "text": "Vírgula"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "plural-gato",
+        "statement": "Qual palavra indica mais de um gato?",
+        "explanation": "Gatos está no plural. A letra s marca, nesse caso, mais de um animal.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Gato"
+          },
+          {
+            "optionKey": "B",
+            "text": "Gata"
+          },
+          {
+            "optionKey": "C",
+            "text": "Gatos"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "acao-verbo",
+        "statement": "Em Leo corre no parque, qual palavra mostra uma ação?",
+        "explanation": "Corre é o verbo e indica a ação de Leo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Parque"
+          },
+          {
+            "optionKey": "B",
+            "text": "Corre"
+          },
+          {
+            "optionKey": "C",
+            "text": "Leo"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "antonomo-claro",
+        "statement": "Qual palavra tem sentido contrário a claro, ao falar da iluminação?",
+        "explanation": "Escuro indica pouca ou nenhuma luz, sentido contrário a claro nesse contexto.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Brilhante"
+          },
+          {
+            "optionKey": "B",
+            "text": "Escuro"
+          },
+          {
+            "optionKey": "C",
+            "text": "Iluminado"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-2-dezenas-e-trocas",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 2,
+    "topic": "Dezenas, unidades e operações simples",
+    "title": "Uma loja de faz de conta",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "dezenas-vinte-tres",
+        "statement": "O número 23 tem quantas dezenas e unidades?",
+        "explanation": "23 = 20 + 3. São duas dezenas e três unidades.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "2 dezenas e 3 unidades"
+          },
+          {
+            "optionKey": "B",
+            "text": "3 dezenas e 2 unidades"
+          },
+          {
+            "optionKey": "C",
+            "text": "2 dezenas e 2 unidades"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "somar-estoque",
+        "statement": "A loja tinha 12 lápis e recebeu 5. Quantos lápis tem agora?",
+        "explanation": "12 + 5 = 17 lápis.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "7"
+          },
+          {
+            "optionKey": "B",
+            "text": "15"
+          },
+          {
+            "optionKey": "C",
+            "text": "17"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "troco-simples",
+        "statement": "Um caderno custa 6 reais. Você paga com 10 reais. Qual é o troco?",
+        "explanation": "O troco é a diferença: 10 − 6 = 4 reais.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "4 reais"
+          },
+          {
+            "optionKey": "B",
+            "text": "6 reais"
+          },
+          {
+            "optionKey": "C",
+            "text": "16 reais"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "repartir-seis",
+        "statement": "Seis figurinhas são repartidas igualmente entre duas crianças. Quantas cada uma recebe?",
+        "explanation": "6 ÷ 2 = 3. Cada criança recebe três figurinhas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "2"
+          },
+          {
+            "optionKey": "B",
+            "text": "4"
+          },
+          {
+            "optionKey": "C",
+            "text": "3"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "sequencia-pares",
+        "statement": "Complete a sequência: 2, 4, 6, __, 10.",
+        "explanation": "A sequência aumenta de dois em dois. Depois de 6 vem 8.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "7"
+          },
+          {
+            "optionKey": "B",
+            "text": "8"
+          },
+          {
+            "optionKey": "C",
+            "text": "9"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-2-lugares-e-caminhos",
+    "contentVersion": 1,
+    "disciplineSlug": "geografia",
+    "schoolYear": 2,
+    "topic": "Referências espaciais e cuidados com espaços",
+    "title": "Meu bairro tem histórias",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "funcao-mapa",
+        "statement": "Para que serve um mapa de um bairro?",
+        "explanation": "O mapa representa o espaço e ajuda a localizar ruas e outros lugares.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Para medir a temperatura"
+          },
+          {
+            "optionKey": "B",
+            "text": "Para ouvir músicas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Para localizar lugares e caminhos"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "endereco",
+        "statement": "Qual informação ajuda a localizar uma casa?",
+        "explanation": "O nome da rua e o número compõem referências de endereço.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Brinquedo preferido"
+          },
+          {
+            "optionKey": "B",
+            "text": "Nome da rua e número"
+          },
+          {
+            "optionKey": "C",
+            "text": "Cor da camiseta do morador"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "praca-publica",
+        "statement": "Uma praça pública é um espaço destinado a quem?",
+        "explanation": "A praça pública é um espaço da comunidade. Seu uso exige cuidado e respeito às outras pessoas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Somente a quem mora ao lado"
+          },
+          {
+            "optionKey": "B",
+            "text": "Somente a uma família"
+          },
+          {
+            "optionKey": "C",
+            "text": "À comunidade"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "referencia-caminho",
+        "statement": "Para explicar um caminho, qual referência é mais útil?",
+        "explanation": "Uma ponte é uma referência que pode ser localizada no espaço.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Um cheiro que já passou"
+          },
+          {
+            "optionKey": "B",
+            "text": "Uma ponte que existe no caminho"
+          },
+          {
+            "optionKey": "C",
+            "text": "Um sonho"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "cuidar-praca",
+        "statement": "Qual atitude ajuda a conservar uma praça?",
+        "explanation": "Usar as lixeiras e cuidar das plantas ajuda a conservar o espaço coletivo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Deixar lixo no chão"
+          },
+          {
+            "optionKey": "B",
+            "text": "Usar as lixeiras e respeitar as plantas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Quebrar bancos"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-3-ler-bilhetes",
+    "contentVersion": 1,
+    "disciplineSlug": "portugues",
+    "schoolYear": 3,
+    "topic": "Bilhetes, informações explícitas e inferência",
+    "title": "Uma mensagem para descobrir",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "destinatario",
+        "statement": "Leia: Ana, deixei seu livro na mesa. Até amanhã! Rui. Para quem foi escrito o bilhete?",
+        "explanation": "Ana aparece no início e é a destinatária. Rui é quem assina o bilhete.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A mesa"
+          },
+          {
+            "optionKey": "B",
+            "text": "Rui"
+          },
+          {
+            "optionKey": "C",
+            "text": "Ana"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "local-livro",
+        "statement": "No bilhete Ana, deixei seu livro na mesa. Até amanhã! Rui., onde está o livro?",
+        "explanation": "A expressão na mesa informa explicitamente o local do livro.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Na mesa"
+          },
+          {
+            "optionKey": "B",
+            "text": "Na mochila"
+          },
+          {
+            "optionKey": "C",
+            "text": "Na estante"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "finalidade-convite",
+        "statement": "Um convite traz dia, hora e local de uma festa. Qual é sua principal finalidade?",
+        "explanation": "O convite apresenta informações para que a pessoa possa participar do evento.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ensinar uma receita"
+          },
+          {
+            "optionKey": "B",
+            "text": "Contar o final de um filme"
+          },
+          {
+            "optionKey": "C",
+            "text": "Chamar alguém para participar"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "inferir-chuva",
+        "statement": "Lara pegou o guarda-chuva porque viu nuvens escuras. O que ela provavelmente esperava?",
+        "explanation": "As nuvens escuras e o guarda-chuva sugerem que Lara esperava chuva. É uma inferência baseada em pistas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Chuva"
+          },
+          {
+            "optionKey": "B",
+            "text": "Um eclipse"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma festa"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "sinonimo-alegre",
+        "statement": "Em O menino ficou alegre, qual palavra pode substituir alegre sem mudar o sentido principal?",
+        "explanation": "Feliz e alegre têm sentidos próximos nesse contexto.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Bravo"
+          },
+          {
+            "optionKey": "B",
+            "text": "Feliz"
+          },
+          {
+            "optionKey": "C",
+            "text": "Cansado"
+          }
+        ],
+        "correctAnswer": "B"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-3-grupos-e-partilhas",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 3,
+    "topic": "Multiplicação e divisão em situações concretas",
+    "title": "O desafio dos grupos",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "grupos-tres",
+        "statement": "Há 4 sacolas com 3 laranjas em cada uma. Quantas laranjas há ao todo?",
+        "explanation": "São quatro grupos de três: 4 × 3 = 12.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "12"
+          },
+          {
+            "optionKey": "B",
+            "text": "7"
+          },
+          {
+            "optionKey": "C",
+            "text": "9"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "repartir-vinte",
+        "statement": "Vinte cartas são divididas igualmente entre 4 jogadores. Quantas cartas cada um recebe?",
+        "explanation": "20 ÷ 4 = 5 cartas para cada jogador.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "5"
+          },
+          {
+            "optionKey": "B",
+            "text": "6"
+          },
+          {
+            "optionKey": "C",
+            "text": "4"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "multiplicar-cinco",
+        "statement": "Quanto é 5 × 6?",
+        "explanation": "Cinco grupos de seis formam 30: 5 × 6 = 30.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "30"
+          },
+          {
+            "optionKey": "B",
+            "text": "11"
+          },
+          {
+            "optionKey": "C",
+            "text": "25"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "metade-dezoito",
+        "statement": "Qual é a metade de 18?",
+        "explanation": "Metade é uma das duas partes iguais: 18 ÷ 2 = 9.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "9"
+          },
+          {
+            "optionKey": "B",
+            "text": "8"
+          },
+          {
+            "optionKey": "C",
+            "text": "12"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "problema-duas-etapas",
+        "statement": "Havia 3 caixas com 4 lápis cada. Foram usados 2 lápis. Quantos sobraram?",
+        "explanation": "Primeiro, 3 × 4 = 12 lápis. Depois, 12 − 2 = 10 sobraram.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "10"
+          },
+          {
+            "optionKey": "B",
+            "text": "8"
+          },
+          {
+            "optionKey": "C",
+            "text": "14"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-3-agua-em-viagem",
+    "contentVersion": 1,
+    "disciplineSlug": "ciencias",
+    "schoolYear": 3,
+    "topic": "Estados físicos e ciclo da água",
+    "title": "A viagem de uma gota",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "gelo-estado",
+        "statement": "Em qual estado físico está um cubo de gelo?",
+        "explanation": "O gelo é água no estado sólido.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Gasoso"
+          },
+          {
+            "optionKey": "B",
+            "text": "Sólido"
+          },
+          {
+            "optionKey": "C",
+            "text": "Líquido"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "derreter",
+        "statement": "Quando o gelo derrete, a água passa do estado sólido para qual estado?",
+        "explanation": "Derreter é a passagem do estado sólido para o líquido.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Sólido"
+          },
+          {
+            "optionKey": "B",
+            "text": "Líquido"
+          },
+          {
+            "optionKey": "C",
+            "text": "Gasoso"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "evaporacao",
+        "statement": "Uma poça diminui num dia quente, sem escorrer. Parte da água passou para o ar. Como se chama essa mudança?",
+        "explanation": "Na evaporação, a água líquida passa para o estado gasoso.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Fusão"
+          },
+          {
+            "optionKey": "B",
+            "text": "Evaporação"
+          },
+          {
+            "optionKey": "C",
+            "text": "Congelamento"
+          }
+        ],
+        "correctAnswer": "B",
+        "funFact": "A água pode evaporar mesmo sem ferver. Isso acontece, por exemplo, com roupas secando no varal."
+      },
+      {
+        "originKey": "nuvens",
+        "statement": "Como se formam muitas das gotinhas de água das nuvens?",
+        "explanation": "Ao esfriar, o vapor pode se condensar em pequenas gotinhas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Pelo derretimento de pedras"
+          },
+          {
+            "optionKey": "B",
+            "text": "Pela condensação do vapor de água"
+          },
+          {
+            "optionKey": "C",
+            "text": "Pelo crescimento de folhas"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "economizar-agua",
+        "statement": "Qual atitude evita desperdício de água?",
+        "explanation": "Fechar a torneira quando a água não está sendo usada reduz desperdício.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Fechar a torneira enquanto escova os dentes"
+          },
+          {
+            "optionKey": "B",
+            "text": "Deixar a torneira aberta sem uso"
+          },
+          {
+            "optionKey": "C",
+            "text": "Lavar a calçada sem necessidade"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-4-contar-historias",
+    "contentVersion": 1,
+    "disciplineSlug": "portugues",
+    "schoolYear": 4,
+    "topic": "Elementos da narrativa e discurso direto",
+    "title": "Por dentro de uma aventura",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "narrador",
+        "statement": "Em uma história, quem apresenta os acontecimentos ao leitor?",
+        "explanation": "O narrador é a voz que conta a história; pode ou não ser uma personagem.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A capa"
+          },
+          {
+            "optionKey": "B",
+            "text": "O narrador"
+          },
+          {
+            "optionKey": "C",
+            "text": "O título"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "personagem",
+        "statement": "Leia: Joana e seu cão exploraram o jardim. Qual alternativa apresenta as personagens citadas?",
+        "explanation": "Joana e seu cão participam dos acontecimentos. O jardim é o espaço da cena.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Joana e seu cão"
+          },
+          {
+            "optionKey": "B",
+            "text": "A chuva e o vento"
+          },
+          {
+            "optionKey": "C",
+            "text": "O jardim e a escola"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "tempo-narrativa",
+        "statement": "Qual expressão indica quando a cena acontece?",
+        "explanation": "Na manhã seguinte indica o tempo do acontecimento.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Perto da ponte"
+          },
+          {
+            "optionKey": "B",
+            "text": "Com muita coragem"
+          },
+          {
+            "optionKey": "C",
+            "text": "Na manhã seguinte"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "fala-personagem",
+        "statement": "Em uma narrativa, qual sinal costuma introduzir diretamente a fala de uma personagem?",
+        "explanation": "O travessão pode introduzir a fala da personagem no discurso direto.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Asterisco"
+          },
+          {
+            "optionKey": "B",
+            "text": "Barra de fração"
+          },
+          {
+            "optionKey": "C",
+            "text": "Travessão"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "conflito",
+        "statement": "Em A ponte caiu, e os amigos precisaram encontrar outro caminho, qual é o problema da história?",
+        "explanation": "A queda da ponte impede a passagem e cria o conflito a resolver.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A ponte ter caído"
+          },
+          {
+            "optionKey": "B",
+            "text": "A existência de um caminho"
+          },
+          {
+            "optionKey": "C",
+            "text": "Os amigos se conhecerem"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-4-partes-do-inteiro",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 4,
+    "topic": "Frações simples e equivalência",
+    "title": "Dividir sem perder a conta",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "metade-pizza",
+        "statement": "Uma pizza foi dividida em 4 partes iguais. Duas foram comidas. Que fração foi comida?",
+        "explanation": "Foram comidas duas das quatro partes iguais: 2/4, equivalente a 1/2.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1/4"
+          },
+          {
+            "optionKey": "B",
+            "text": "4/4"
+          },
+          {
+            "optionKey": "C",
+            "text": "2/4"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "denominador",
+        "statement": "Na fração 3/5, o que o número 5 indica?",
+        "explanation": "O denominador indica o total de partes iguais em que o inteiro foi dividido.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Quantas partes foram escolhidas"
+          },
+          {
+            "optionKey": "B",
+            "text": "O resultado de 3 + 5"
+          },
+          {
+            "optionKey": "C",
+            "text": "Em quantas partes iguais o inteiro foi dividido"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "numerador",
+        "statement": "Em um chocolate dividido em 8 partes iguais, 3 partes foram separadas. Qual fração representa essas partes?",
+        "explanation": "O numerador 3 representa as partes separadas; o denominador 8 representa o total.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "8/3"
+          },
+          {
+            "optionKey": "B",
+            "text": "3/8"
+          },
+          {
+            "optionKey": "C",
+            "text": "5/8"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "equivalencia",
+        "statement": "Qual fração equivale a 1/2?",
+        "explanation": "Multiplicando numerador e denominador de 1/2 por 2, obtemos 2/4.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "2/4"
+          },
+          {
+            "optionKey": "B",
+            "text": "1/4"
+          },
+          {
+            "optionKey": "C",
+            "text": "3/4"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "comparar-fractions",
+        "statement": "Comparando partes do mesmo inteiro, qual é maior?",
+        "explanation": "Dividir o mesmo inteiro em menos partes iguais produz partes maiores. Assim, 1/2 é maior.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1/4"
+          },
+          {
+            "optionKey": "B",
+            "text": "1/8"
+          },
+          {
+            "optionKey": "C",
+            "text": "1/2"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-4-fontes-e-memorias",
+    "contentVersion": 1,
+    "disciplineSlug": "historia",
+    "schoolYear": 4,
+    "topic": "Fontes históricas e memória",
+    "title": "Detetives do passado",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "fonte-fotografia",
+        "statement": "Uma fotografia antiga de uma rua pode ajudar a estudar o quê?",
+        "explanation": "A fotografia registra aspectos visíveis da rua em determinado momento, mas não conta tudo sozinha.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Como a rua era no passado"
+          },
+          {
+            "optionKey": "B",
+            "text": "Todos os pensamentos dos moradores"
+          },
+          {
+            "optionKey": "C",
+            "text": "A temperatura exata de amanhã"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "fonte-oral",
+        "statement": "Uma entrevista gravada com alguém que viveu um acontecimento é qual tipo de fonte?",
+        "explanation": "O relato falado é uma fonte oral. Pode contribuir para compreender experiências e memórias.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Somente mineral"
+          },
+          {
+            "optionKey": "B",
+            "text": "Oral"
+          },
+          {
+            "optionKey": "C",
+            "text": "Somente natural"
+          }
+        ],
+        "correctAnswer": "B",
+        "funFact": "Pessoas que viveram um mesmo acontecimento podem guardar lembranças diferentes dele."
+      },
+      {
+        "originKey": "comparar-fontes",
+        "statement": "Por que comparar diferentes fontes sobre o mesmo acontecimento?",
+        "explanation": "Fontes podem mostrar perspectivas distintas. A comparação ajuda a compreender melhor o acontecimento.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Para escolher sempre a fonte mais bonita"
+          },
+          {
+            "optionKey": "B",
+            "text": "Para conhecer perspectivas e conferir informações"
+          },
+          {
+            "optionKey": "C",
+            "text": "Para apagar relatos diferentes"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "objeto-fonte",
+        "statement": "Qual objeto pode ser uma fonte material para estudar uma escola antiga?",
+        "explanation": "A carteira escolar é um vestígio material e pode revelar características da escola de seu tempo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Um número inventado sem contexto"
+          },
+          {
+            "optionKey": "B",
+            "text": "Uma previsão do futuro"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma carteira escolar preservada"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "museu",
+        "statement": "Qual é uma função de um museu?",
+        "explanation": "Museus preservam, estudam e apresentam bens culturais para a sociedade.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Guardar apenas produtos à venda"
+          },
+          {
+            "optionKey": "B",
+            "text": "Apagar a memória de lugares"
+          },
+          {
+            "optionKey": "C",
+            "text": "Preservar e apresentar bens culturais"
+          }
+        ],
+        "correctAnswer": "C"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-5-decimais-no-dia",
+    "contentVersion": 1,
+    "disciplineSlug": "matematica",
+    "schoolYear": 5,
+    "topic": "Números decimais, medidas e dinheiro",
+    "title": "Contas de uma feira",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "somar-precos",
+        "statement": "Uma fruta custa R$ 2,50 e outra custa R$ 3,25. Qual é o total?",
+        "explanation": "Alinhando as casas decimais, 2,50 + 3,25 = 5,75.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "R$ 5,25"
+          },
+          {
+            "optionKey": "B",
+            "text": "R$ 6,75"
+          },
+          {
+            "optionKey": "C",
+            "text": "R$ 5,75"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "comparar-decimais",
+        "statement": "Qual número é maior?",
+        "explanation": "0,5 = 0,50. Cinquenta centésimos são mais que 45 ou 5 centésimos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "0,5"
+          },
+          {
+            "optionKey": "B",
+            "text": "0,05"
+          },
+          {
+            "optionKey": "C",
+            "text": "0,45"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "metro-centimetro",
+        "statement": "Quantos centímetros há em 1,5 metro?",
+        "explanation": "Um metro tem 100 centímetros. Logo, 1,5 × 100 = 150 centímetros.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "1.500"
+          },
+          {
+            "optionKey": "B",
+            "text": "150"
+          },
+          {
+            "optionKey": "C",
+            "text": "15"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "troco-decimal",
+        "statement": "Você paga R$ 10,00 por um produto de R$ 6,40. Qual é o troco?",
+        "explanation": "10,00 − 6,40 = 3,60.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "R$ 16,40"
+          },
+          {
+            "optionKey": "B",
+            "text": "R$ 3,60"
+          },
+          {
+            "optionKey": "C",
+            "text": "R$ 4,40"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "fracao-decimal",
+        "statement": "Qual decimal representa 25/100?",
+        "explanation": "25/100 significa vinte e cinco centésimos, escritos como 0,25.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "0,25"
+          },
+          {
+            "optionKey": "B",
+            "text": "0,025"
+          },
+          {
+            "optionKey": "C",
+            "text": "2,5"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-5-teia-da-vida",
+    "contentVersion": 1,
+    "disciplineSlug": "ciencias",
+    "schoolYear": 5,
+    "topic": "Cadeias alimentares e ambiente",
+    "title": "Conexões da natureza",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "produtor",
+        "statement": "Em uma cadeia alimentar, qual organismo produz alimento por fotossíntese?",
+        "explanation": "O capim realiza fotossíntese e é produtor. Coelhos e raposas obtêm alimento de outros seres.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Raposa"
+          },
+          {
+            "optionKey": "B",
+            "text": "Capim"
+          },
+          {
+            "optionKey": "C",
+            "text": "Coelho"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "consumidor",
+        "statement": "Na cadeia capim → gafanhoto → sapo, quem se alimenta diretamente do produtor?",
+        "explanation": "O gafanhoto consome o capim e é consumidor primário nessa cadeia.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Gafanhoto"
+          },
+          {
+            "optionKey": "B",
+            "text": "Sapo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Capim"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "decompositor",
+        "statement": "Qual é o papel de muitos fungos e bactérias decompositores?",
+        "explanation": "Decompositores transformam matéria orgânica e devolvem nutrientes ao ambiente.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Impedir todas as plantas de crescer"
+          },
+          {
+            "optionKey": "B",
+            "text": "Criar luz solar"
+          },
+          {
+            "optionKey": "C",
+            "text": "Decompor restos e participar da reciclagem de nutrientes"
+          }
+        ],
+        "correctAnswer": "C",
+        "funFact": "Uma folha que cai no chão pode voltar a fornecer nutrientes ao solo depois de ser decomposta."
+      },
+      {
+        "originKey": "sol-energia",
+        "statement": "Qual é a principal fonte inicial de energia de uma cadeia alimentar baseada em plantas?",
+        "explanation": "As plantas captam energia luminosa do Sol durante a fotossíntese.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "O vento sozinho"
+          },
+          {
+            "optionKey": "B",
+            "text": "O Sol"
+          },
+          {
+            "optionKey": "C",
+            "text": "O solo sozinho"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "biodiversidade",
+        "statement": "O que significa biodiversidade?",
+        "explanation": "Biodiversidade inclui a variedade de seres vivos, de seus genes e dos ambientes que ocupam.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Variedade de formas de vida"
+          },
+          {
+            "optionKey": "B",
+            "text": "Quantidade de prédios"
+          },
+          {
+            "optionKey": "C",
+            "text": "Apenas animais grandes"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  {
+    "activityKey": "fundamental-5-brasil-no-mapa",
+    "contentVersion": 1,
+    "disciplineSlug": "geografia",
+    "schoolYear": 5,
+    "topic": "Representações e diversidade do território brasileiro",
+    "title": "Uma viagem pelo Brasil",
+    "estimatedDurationMinutes": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "continente",
+        "statement": "Em qual continente está o Brasil?",
+        "explanation": "O Brasil está na América do Sul.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Ásia"
+          },
+          {
+            "optionKey": "B",
+            "text": "Europa"
+          },
+          {
+            "optionKey": "C",
+            "text": "América do Sul"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      {
+        "originKey": "capital",
+        "statement": "Qual é a capital federal do Brasil?",
+        "explanation": "Brasília é a capital federal e está no Distrito Federal.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "optionKey": "B",
+            "text": "Brasília"
+          },
+          {
+            "optionKey": "C",
+            "text": "Salvador"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      {
+        "originKey": "legenda-mapa",
+        "statement": "Qual é a função da legenda de um mapa?",
+        "explanation": "A legenda apresenta o significado das convenções usadas no mapa.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Explicar o significado dos símbolos e cores"
+          },
+          {
+            "optionKey": "B",
+            "text": "Mudar o norte de lugar"
+          },
+          {
+            "optionKey": "C",
+            "text": "Indicar sempre apenas o nome do autor"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "paisagem-transformada",
+        "statement": "Qual exemplo mostra uma transformação da paisagem pela ação humana?",
+        "explanation": "A construção de uma estrada modifica a paisagem pela ação humana.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Uma estrada construída"
+          },
+          {
+            "optionKey": "B",
+            "text": "A luz do Sol"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma rocha formada naturalmente"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      {
+        "originKey": "campo-cidade",
+        "statement": "Qual situação mostra uma relação entre campo e cidade?",
+        "explanation": "Campo e cidade se relacionam por fluxos de produtos, pessoas e serviços.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Alimentos produzidos no campo abastecem mercados urbanos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Os dois espaços nunca trocam produtos"
+          },
+          {
+            "optionKey": "C",
+            "text": "Somente a cidade produz alimentos"
+          }
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  }
+]

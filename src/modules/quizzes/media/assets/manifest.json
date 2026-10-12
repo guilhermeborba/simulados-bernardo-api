@@ -1,0 +1,466 @@
+[
+  {
+    "id": "infantil-4-contar-brincando.contar-dois.audio",
+    "kind": "audio",
+    "file": "infantil-4-contar-brincando.contar-dois.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "17bfe4f84ef098c08743cf6e70135d2a82fe156264daf815b4e47c8c1f2f9b4c",
+    "byteLength": 577704
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-dois.image",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-dois.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "d4aa95cc01b4aba3136c586d0664fb098d7daf311708f35b0cf4aaaab510959f",
+    "byteLength": 1184
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-dois.image.v2",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-dois.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "340efb2a0be38d966143950eedad2c0cdf0fc02dfc65453f15817920fa84dcd2",
+    "byteLength": 2579
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-dois.image.v3",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-dois.image.v3.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "2c5ea045d5960d4206d136183ff31f8d320d02a916d4ae1ab397372307bd02f3",
+    "byteLength": 2579
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-tres.audio",
+    "kind": "audio",
+    "file": "infantil-4-contar-brincando.contar-tres.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "a6a8372cb022ad4ace3ade561d11f2802cefcc995d64e7d9975044aec99a3c29",
+    "byteLength": 575970
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-tres.image",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-tres.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "41aad1ca4bc522d8e664c139374b40343334a155da96eabdc5cb7519277669bb",
+    "byteLength": 851
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-tres.image.v2",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-tres.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "168dcffdb87690068a335341635d6fec5ae837c5a74ccbfaf42a7f691c2cc340",
+    "byteLength": 1627
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-tres.image.v3",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-tres.image.v3.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "2907478ad01f9ca4a88a200dbfd58810f7561069fea522c3c1112c0a5ec1b847",
+    "byteLength": 1627
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-um.audio",
+    "kind": "audio",
+    "file": "infantil-4-contar-brincando.contar-um.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "11081ceff36418f2e18b280bb1602d8778e073e933c74f6c8099df01d3f148de",
+    "byteLength": 563358
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-um.image",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-um.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "4da48f54f23dd17b26ee3f996888223323f9dd19bdd4c634e540da036f304941",
+    "byteLength": 402
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-um.image.v2",
+    "kind": "image",
+    "file": "infantil-4-contar-brincando.contar-um.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "2f4a5c016009b565ba167ec8d93df60718e900b03121f6fa0b99904dbda6daf7",
+    "byteLength": 891
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.compartilhar.audio",
+    "kind": "audio",
+    "file": "infantil-4-conviver-e-sentir.compartilhar.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "15cfe78b8144ff8f9e6511af55eda624ddd02df32ef2db87b049461107541f51",
+    "byteLength": 845500
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.compartilhar.image",
+    "kind": "image",
+    "file": "infantil-4-conviver-e-sentir.compartilhar.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "f72cf6893d27a2bf06756eeb4597c96dfd450b3b278afe5083511f993dfbba66",
+    "byteLength": 2622
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.compartilhar.image.v2",
+    "kind": "image",
+    "file": "infantil-4-conviver-e-sentir.compartilhar.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "85c5d04e73fc6f9cf89474ac284553a718144ffd86dbc07d1c2ce1ff982135c0",
+    "byteLength": 6192
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.esperar-a-vez.audio",
+    "kind": "audio",
+    "file": "infantil-4-conviver-e-sentir.esperar-a-vez.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "5d131172a19a38559d023a872e44c4c2a4548d654c8062bd275447145aff0522",
+    "byteLength": 690806
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.esperar-a-vez.image",
+    "kind": "image",
+    "file": "infantil-4-conviver-e-sentir.esperar-a-vez.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "5cb6fb2e3326c2e6250437e83f0c124c5f2c98d5aec6c74bc00cf844d2092e4f",
+    "byteLength": 2880
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.esperar-a-vez.image.v2",
+    "kind": "image",
+    "file": "infantil-4-conviver-e-sentir.esperar-a-vez.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "d254a531cec9b0760fed22edcf4ebeaaf95525d5f7cf2b7700aaa3e142c9ae55",
+    "byteLength": 4734
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.pedir-ajuda.audio",
+    "kind": "audio",
+    "file": "infantil-4-conviver-e-sentir.pedir-ajuda.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "0a39bd42e85840b5ee050a7eb2ded5341a17bed6481b41dd834af5698c147d78",
+    "byteLength": 730034
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.pedir-ajuda.image",
+    "kind": "image",
+    "file": "infantil-4-conviver-e-sentir.pedir-ajuda.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "6e79db89d3b01825e22020de26bff21c4b5c9f993e4e4e22777114f7be304633",
+    "byteLength": 2193
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.pedir-ajuda.image.v2",
+    "kind": "image",
+    "file": "infantil-4-conviver-e-sentir.pedir-ajuda.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "582bb3f5635d5d50981d9fbb43fc5f094cbce3cde89f7f5b6d77165d15e396ab",
+    "byteLength": 4302
+  },
+  {
+    "id": "infantil-4-cores-e-formas.cor-vermelha.audio",
+    "kind": "audio",
+    "file": "infantil-4-cores-e-formas.cor-vermelha.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "333c99bff32d10fbf4cc01ef6b02ee1b96be58a1d014e574fdccfdd170adf5f8",
+    "byteLength": 550096
+  },
+  {
+    "id": "infantil-4-cores-e-formas.cor-vermelha.image",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.cor-vermelha.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "61e2c910c03231e0f1418ed9c6b1a2624a954d6d65cb074b8c210621dabf598c",
+    "byteLength": 835
+  },
+  {
+    "id": "infantil-4-cores-e-formas.cor-vermelha.image.v2",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.cor-vermelha.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "91f370b64c818b4a374afee4f1adc04a33832416f3dd4f0a1c5e1247dbe74cb1",
+    "byteLength": 1939
+  },
+  {
+    "id": "infantil-4-cores-e-formas.cor-vermelha.image.v3",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.cor-vermelha.image.v3.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "40269cd584d859cdc02adaf5d8ff383e797b3183744e2ebb7033f4498b6f731c",
+    "byteLength": 1939
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-circulo.audio",
+    "kind": "audio",
+    "file": "infantil-4-cores-e-formas.forma-circulo.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "fecc2f1de1aec81904af5f85c4c78e3d327af761aeb31f0aeee7b1a18149c839",
+    "byteLength": 624702
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-circulo.image",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.forma-circulo.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "962f2a1209926e6b3428edc9da050471867e9a8a194e79eea334d5f9fa4a6813",
+    "byteLength": 314
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-circulo.image.v2",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.forma-circulo.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "c4217cac4e9d509bf93018e1742dc5c0724772a3ed11ae87c149370385366257",
+    "byteLength": 441
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-quadrado.audio",
+    "kind": "audio",
+    "file": "infantil-4-cores-e-formas.forma-quadrado.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "b2a0d3c3345eb0a7f082c79833988acc7a83be142cd8988a1219075c52223338",
+    "byteLength": 653580
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-quadrado.image",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.forma-quadrado.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "f50087b05b7f51d17a2a131bf5908aa897e599d9a8ac30c8b6d3909d15f36198",
+    "byteLength": 373
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-quadrado.image.v2",
+    "kind": "image",
+    "file": "infantil-4-cores-e-formas.forma-quadrado.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "646ea72303111bc72be6ac01af984254bac59a1679263a0936aa00de90f81ec5",
+    "byteLength": 502
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.antes-depois.audio",
+    "kind": "audio",
+    "file": "infantil-5-comparar-e-ordenar.antes-depois.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "2e4190e13bfb79e2e589a6d8516aa6bcc125df1976c4903206f5f10a26187f30",
+    "byteLength": 833214
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.antes-depois.image",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.antes-depois.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "9192612229da789fce8389e94057f548ac0b489f772c225bffeaa35661af99fa",
+    "byteLength": 3810
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.antes-depois.image.v2",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.antes-depois.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "8210c9bb344f82a4c22e0afa66332c3c8cdcb7a1e20c0737ec9949700ac4a3c7",
+    "byteLength": 7363
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.mais-frutas.audio",
+    "kind": "audio",
+    "file": "infantil-5-comparar-e-ordenar.mais-frutas.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "c39b415a11cb25f70c8b5ce718cb28abac818bfe04ed242d23a09b3b72070f95",
+    "byteLength": 685762
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.mais-frutas.image",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.mais-frutas.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "8042f6a53026fb10548d7355ea6b582e0d03dfaa2cfa41e4da1cf952e80884ec",
+    "byteLength": 2050
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.mais-frutas.image.v2",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.mais-frutas.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "7468c5ff85d8164966e6bbc598a3430a5e2cdbde971bd731b3074914a4698775",
+    "byteLength": 3455
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.mais-frutas.image.v3",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.mais-frutas.image.v3.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "16b94e87c69da024f0ec22534ac9cbbcddbc723e38589cfef49dc2ef3b5339f2",
+    "byteLength": 3455
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.pequeno-grande.audio",
+    "kind": "audio",
+    "file": "infantil-5-comparar-e-ordenar.pequeno-grande.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "ce68e3072dbcfaf6e8f57bf534c484d53fdf8e501ec7d66ac579c011d39eae89",
+    "byteLength": 624872
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.pequeno-grande.image",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.pequeno-grande.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "502119921eeab2264ff56b722be12c73d0c6e2703420a63de789c265f5d41f9e",
+    "byteLength": 677
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.pequeno-grande.image.v2",
+    "kind": "image",
+    "file": "infantil-5-comparar-e-ordenar.pequeno-grande.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "23f610185aa31f49e337db85f6ff43610d3f849d485dcf6483c61483456d682f",
+    "byteLength": 1457
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.alongar.audio",
+    "kind": "audio",
+    "file": "infantil-5-corpo-em-movimento.alongar.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "f07b05000f4cde5dace7846a6fbccd7375802fd72a6ad295a5f06c40d7f8924c",
+    "byteLength": 769836
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.alongar.image",
+    "kind": "image",
+    "file": "infantil-5-corpo-em-movimento.alongar.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "ebd84dd8fc4975f1fe51b816e534702debf494b4c149c4857c5b7059b18e3693",
+    "byteLength": 2893
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.alongar.image.v2",
+    "kind": "image",
+    "file": "infantil-5-corpo-em-movimento.alongar.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "1f789b9dc5465bcffd2f0cb8f5f6353fbe2aa157c62ea3361e33707162c24bc8",
+    "byteLength": 4916
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.equilibrio.audio",
+    "kind": "audio",
+    "file": "infantil-5-corpo-em-movimento.equilibrio.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "0c72afa13d930d60de588b20c0dca24915e9799e71d32477665cd3da5fbaa6cb",
+    "byteLength": 691152
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.equilibrio.image",
+    "kind": "image",
+    "file": "infantil-5-corpo-em-movimento.equilibrio.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "3f20e2cd569322f4c8f4ccfcb7785445edccbcdd4c58fbdf47697982e93585e3",
+    "byteLength": 1275
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.equilibrio.image.v2",
+    "kind": "image",
+    "file": "infantil-5-corpo-em-movimento.equilibrio.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "aba3ef65821225589e5b4bac2e52f757dcd8753854579f311898a98ed387637b",
+    "byteLength": 2324
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.pular.audio",
+    "kind": "audio",
+    "file": "infantil-5-corpo-em-movimento.pular.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "a61d8d4e6544e810dd968b1c4c05538447c11a26d4f7aa21930978b8149fdfac",
+    "byteLength": 611316
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.pular.image",
+    "kind": "image",
+    "file": "infantil-5-corpo-em-movimento.pular.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "089341f0f0f5661de6ea0d15809b12d60a62836a6e5a6aeff16d2042c212a441",
+    "byteLength": 1489
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.pular.image.v2",
+    "kind": "image",
+    "file": "infantil-5-corpo-em-movimento.pular.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "eed5ce76c7d99bb6cdbdbdff16c1cf9d9e8abd70ba701f4ca036949b7c1e2bb3",
+    "byteLength": 2624
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.ordem-historia.audio",
+    "kind": "audio",
+    "file": "infantil-5-rimas-e-historias.ordem-historia.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "765f671b35424b814733011fae89761c207aa6f19dbb8b30d22ba0f409a5676f",
+    "byteLength": 754854
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.ordem-historia.image",
+    "kind": "image",
+    "file": "infantil-5-rimas-e-historias.ordem-historia.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "bd2ae7aec4b699714f33051b5efb4be268fa37a519010dad98c4efdd4bc0d02c",
+    "byteLength": 2998
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.ordem-historia.image.v2",
+    "kind": "image",
+    "file": "infantil-5-rimas-e-historias.ordem-historia.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "7498558b1d9d1b997ccc02aacd569c7e49959625b3285e3721e1edc396830485",
+    "byteLength": 5439
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.personagem-historia.audio",
+    "kind": "audio",
+    "file": "infantil-5-rimas-e-historias.personagem-historia.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "88ca5024c61c62d3a79cab91ab132e794e1f970a1bee8470b406c7ed22b2168f",
+    "byteLength": 664142
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.personagem-historia.image",
+    "kind": "image",
+    "file": "infantil-5-rimas-e-historias.personagem-historia.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "f7ed6f301eb897334c80a920eda9385c61369a8fe03dfa1dbc830beb463ad16f",
+    "byteLength": 1901
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.personagem-historia.image.v2",
+    "kind": "image",
+    "file": "infantil-5-rimas-e-historias.personagem-historia.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "e92ea7e6b5a8585efd2e16ab3a200e0286ffa99e1bec04c050c1412780974e6b",
+    "byteLength": 3115
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.rima-gato.audio",
+    "kind": "audio",
+    "file": "infantil-5-rimas-e-historias.rima-gato.audio.wav",
+    "mimeType": "audio/wav",
+    "sha256": "9b3ebc417a05add76fce0c7d70897600bb10ef669654c98d9c4e92baa6687753",
+    "byteLength": 556368
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.rima-gato.image",
+    "kind": "image",
+    "file": "infantil-5-rimas-e-historias.rima-gato.image.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "cedd685afc4896dc8ff05213af7d52c54f34751ef9cfd9131e8f4559d169cd5e",
+    "byteLength": 1597
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.rima-gato.image.v2",
+    "kind": "image",
+    "file": "infantil-5-rimas-e-historias.rima-gato.image.v2.svg",
+    "mimeType": "image/svg+xml",
+    "sha256": "6004ca2ce22de7c35136f1eedc3e5830410d7098a288da302ad00fad25718a4f",
+    "byteLength": 2906
+  }
+]

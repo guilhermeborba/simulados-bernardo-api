@@ -1,0 +1,662 @@
+[
+  {
+    "activityKey": "infantil-4-contar-brincando",
+    "contentVersion": 1,
+    "disciplineSlug": "infantil-espacos-tempos-quantidades",
+    "schoolYear": -1,
+    "topic": "Contagem de um a três",
+    "title": "Vamos contar os brinquedos?",
+    "estimatedDurationMinutes": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "contar-um",
+        "statement": "Olhe o desenho. Quantas bolas há no tapete?",
+        "explanation": "Há uma bola no tapete. Contar devagar ajuda a perceber cada objeto.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Uma bola"
+          },
+          {
+            "optionKey": "B",
+            "text": "Duas bolas"
+          },
+          {
+            "optionKey": "C",
+            "text": "Três bolas"
+          }
+        ],
+        "correctAnswer": "A",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-contar-brincando.contar-um.image.v2",
+            "alt": "Uma bola azul sobre um tapete retangular."
+          },
+          "audio": {
+            "assetId": "infantil-4-contar-brincando.contar-um.audio",
+            "transcript": "Olhe o desenho. Quantas bolas há no tapete? Alternativa A: Uma bola. Alternativa B: Duas bolas. Alternativa C: Três bolas."
+          }
+        }
+      },
+      {
+        "originKey": "contar-dois",
+        "statement": "Olhe o desenho. Quantos carrinhos estão na pista?",
+        "explanation": "Há dois carrinhos. Podemos apontar para cada um enquanto contamos: um, dois.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Três carrinhos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Um carrinho"
+          },
+          {
+            "optionKey": "C",
+            "text": "Dois carrinhos"
+          }
+        ],
+        "correctAnswer": "C",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-contar-brincando.contar-dois.image.v3",
+            "alt": "Dois carrinhos, um vermelho e outro amarelo, lado a lado numa pista."
+          },
+          "audio": {
+            "assetId": "infantil-4-contar-brincando.contar-dois.audio",
+            "transcript": "Olhe o desenho. Quantos carrinhos estão na pista? Alternativa A: Três carrinhos. Alternativa B: Um carrinho. Alternativa C: Dois carrinhos."
+          }
+        }
+      },
+      {
+        "originKey": "contar-tres",
+        "statement": "Olhe o desenho. Quantos blocos estão na mesa?",
+        "explanation": "Há três blocos separados. A contagem é: um, dois, três.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Dois blocos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Três blocos"
+          },
+          {
+            "optionKey": "C",
+            "text": "Um bloco"
+          }
+        ],
+        "correctAnswer": "B",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-contar-brincando.contar-tres.image.v3",
+            "alt": "Três blocos, azul, vermelho e amarelo, separados sobre uma mesa."
+          },
+          "audio": {
+            "assetId": "infantil-4-contar-brincando.contar-tres.audio",
+            "transcript": "Olhe o desenho. Quantos blocos estão na mesa? Alternativa A: Dois blocos. Alternativa B: Três blocos. Alternativa C: Um bloco."
+          }
+        },
+        "funFact": "Podemos usar a contagem para descobrir quantas peças faltam para terminar uma construção."
+      }
+    ]
+  },
+  {
+    "activityKey": "infantil-4-cores-e-formas",
+    "contentVersion": 1,
+    "disciplineSlug": "infantil-tracos-sons-cores-formas",
+    "schoolYear": -1,
+    "topic": "Cores e formas do cotidiano",
+    "title": "Detetives das cores e formas",
+    "estimatedDurationMinutes": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "cor-vermelha",
+        "statement": "Veja os balões. Qual é a cor do balão que está no meio?",
+        "explanation": "O balão do meio é vermelho. Os outros são azul e amarelo.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Amarela"
+          },
+          {
+            "optionKey": "B",
+            "text": "Vermelha"
+          },
+          {
+            "optionKey": "C",
+            "text": "Azul"
+          }
+        ],
+        "correctAnswer": "B",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-cores-e-formas.cor-vermelha.image.v3",
+            "alt": "Três balões alinhados: azul à esquerda, vermelho no meio e amarelo à direita."
+          },
+          "audio": {
+            "assetId": "infantil-4-cores-e-formas.cor-vermelha.audio",
+            "transcript": "Veja os balões. Qual é a cor do balão que está no meio? Alternativa A: Amarela. Alternativa B: Vermelha. Alternativa C: Azul."
+          }
+        }
+      },
+      {
+        "originKey": "forma-circulo",
+        "statement": "O desenho mostra uma forma redonda, sem pontas. Como ela se chama?",
+        "explanation": "O círculo é redondo e não tem pontas. Ele aparece em muitos desenhos de bolas e rodas.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Quadrado"
+          },
+          {
+            "optionKey": "B",
+            "text": "Triângulo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Círculo"
+          }
+        ],
+        "correctAnswer": "C",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-cores-e-formas.forma-circulo.image.v2",
+            "alt": "Um círculo verde preenchido, isolado sobre fundo claro."
+          },
+          "audio": {
+            "assetId": "infantil-4-cores-e-formas.forma-circulo.audio",
+            "transcript": "O desenho mostra uma forma redonda, sem pontas. Como ela se chama? Alternativa A: Quadrado. Alternativa B: Triângulo. Alternativa C: Círculo."
+          }
+        },
+        "funFact": "As rodas têm forma circular, que ajuda a rolar."
+      },
+      {
+        "originKey": "forma-quadrado",
+        "statement": "O desenho tem quatro lados do mesmo tamanho e quatro cantinhos retos. Qual é a forma?",
+        "explanation": "É um quadrado: seus quatro lados têm o mesmo tamanho e ele tem quatro cantinhos retos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Quadrado"
+          },
+          {
+            "optionKey": "B",
+            "text": "Círculo"
+          },
+          {
+            "optionKey": "C",
+            "text": "Triângulo"
+          }
+        ],
+        "correctAnswer": "A",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-cores-e-formas.forma-quadrado.image.v2",
+            "alt": "Um quadrado roxo preenchido, com lados iguais e quatro cantos retos, isolado sobre fundo claro."
+          },
+          "audio": {
+            "assetId": "infantil-4-cores-e-formas.forma-quadrado.audio",
+            "transcript": "O desenho tem quatro lados do mesmo tamanho e quatro cantinhos retos. Qual é a forma? Alternativa A: Quadrado. Alternativa B: Círculo. Alternativa C: Triângulo."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "activityKey": "infantil-4-conviver-e-sentir",
+    "contentVersion": 1,
+    "disciplineSlug": "infantil-eu-outro-nos",
+    "schoolYear": -1,
+    "topic": "Convivência, ajuda e turnos",
+    "title": "Brincar juntos faz bem",
+    "estimatedDurationMinutes": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "compartilhar",
+        "statement": "Lia tem vários blocos. Nino também quer construir. O que ajuda os dois a brincarem juntos?",
+        "explanation": "Oferecer alguns blocos permite que os dois construam juntos. Podemos combinar como compartilhar.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Esconder todos os blocos"
+          },
+          {
+            "optionKey": "B",
+            "text": "Empurrar Nino para longe"
+          },
+          {
+            "optionKey": "C",
+            "text": "Oferecer alguns blocos a Nino"
+          }
+        ],
+        "correctAnswer": "C",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-conviver-e-sentir.compartilhar.image.v2",
+            "alt": "Duas crianças diante de vários blocos coloridos; uma está ao lado dos blocos e a outra olha para a construção."
+          },
+          "audio": {
+            "assetId": "infantil-4-conviver-e-sentir.compartilhar.audio",
+            "transcript": "Lia tem vários blocos. Nino também quer construir. O que ajuda os dois a brincarem juntos? Alternativa A: Esconder todos os blocos. Alternativa B: Empurrar Nino para longe. Alternativa C: Oferecer alguns blocos a Nino."
+          }
+        },
+        "funFact": "Uma brincadeira pode ganhar novas ideias quando cada pessoa participa de sua criação."
+      },
+      {
+        "originKey": "pedir-ajuda",
+        "statement": "Bia está triste e precisa de ajuda. O que ela pode fazer?",
+        "explanation": "Bia pode contar o que sente a um adulto de confiança. Todos os sentimentos merecem ser ouvidos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Conversar com um adulto de confiança"
+          },
+          {
+            "optionKey": "B",
+            "text": "Machucar um colega"
+          },
+          {
+            "optionKey": "C",
+            "text": "Esconder o que sente sempre"
+          }
+        ],
+        "correctAnswer": "A",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-conviver-e-sentir.pedir-ajuda.image.v2",
+            "alt": "Uma criança com expressão triste ao lado de um adulto atento, em um ambiente acolhedor."
+          },
+          "audio": {
+            "assetId": "infantil-4-conviver-e-sentir.pedir-ajuda.audio",
+            "transcript": "Bia está triste e precisa de ajuda. O que ela pode fazer? Alternativa A: Conversar com um adulto de confiança. Alternativa B: Machucar um colega. Alternativa C: Esconder o que sente sempre."
+          }
+        }
+      },
+      {
+        "originKey": "esperar-a-vez",
+        "statement": "Há uma criança no escorregador e outra esperando. Como brincar com cuidado?",
+        "explanation": "Esperar a vez ajuda a manter a brincadeira segura e respeitosa para todos.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Subir empurrando"
+          },
+          {
+            "optionKey": "B",
+            "text": "Esperar a vez"
+          },
+          {
+            "optionKey": "C",
+            "text": "Puxar quem está brincando"
+          }
+        ],
+        "correctAnswer": "B",
+        "media": {
+          "image": {
+            "assetId": "infantil-4-conviver-e-sentir.esperar-a-vez.image.v2",
+            "alt": "Um escorregador no parquinho com uma criança brincando e outra aguardando ao lado."
+          },
+          "audio": {
+            "assetId": "infantil-4-conviver-e-sentir.esperar-a-vez.audio",
+            "transcript": "Há uma criança no escorregador e outra esperando. Como brincar com cuidado? Alternativa A: Subir empurrando. Alternativa B: Esperar a vez. Alternativa C: Puxar quem está brincando."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "activityKey": "infantil-5-comparar-e-ordenar",
+    "contentVersion": 1,
+    "disciplineSlug": "infantil-espacos-tempos-quantidades",
+    "schoolYear": -2,
+    "topic": "Comparação e sequência temporal",
+    "title": "Qual vem antes? Qual tem mais?",
+    "estimatedDurationMinutes": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "mais-frutas",
+        "statement": "Veja os dois pratos. Qual prato tem mais maçãs?",
+        "explanation": "O prato da esquerda tem três maçãs e o da direita tem duas. Três é mais que dois.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "O prato da esquerda"
+          },
+          {
+            "optionKey": "B",
+            "text": "Os dois têm a mesma quantidade"
+          },
+          {
+            "optionKey": "C",
+            "text": "O prato da direita"
+          }
+        ],
+        "correctAnswer": "A",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-comparar-e-ordenar.mais-frutas.image.v3",
+            "alt": "Dois pratos alinhados: o da esquerda contém três maçãs e o da direita contém duas."
+          },
+          "audio": {
+            "assetId": "infantil-5-comparar-e-ordenar.mais-frutas.audio",
+            "transcript": "Veja os dois pratos. Qual prato tem mais maçãs? Alternativa A: O prato da esquerda. Alternativa B: Os dois têm a mesma quantidade. Alternativa C: O prato da direita."
+          }
+        }
+      },
+      {
+        "originKey": "antes-depois",
+        "statement": "A história diz: primeiro Ana pega o papel; depois desenha; por último mostra o desenho. O que Ana faz depois de pegar o papel?",
+        "explanation": "Depois de pegar o papel, Ana desenha. Mostrar o desenho acontece por último.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Mostra o desenho"
+          },
+          {
+            "optionKey": "B",
+            "text": "Desenha"
+          },
+          {
+            "optionKey": "C",
+            "text": "Guarda um brinquedo"
+          }
+        ],
+        "correctAnswer": "B",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-comparar-e-ordenar.antes-depois.image.v2",
+            "alt": "Três cenas em sequência da esquerda para a direita: Ana pega uma folha, desenha nela e mostra o desenho."
+          },
+          "audio": {
+            "assetId": "infantil-5-comparar-e-ordenar.antes-depois.audio",
+            "transcript": "A história diz: primeiro Ana pega o papel; depois desenha; por último mostra o desenho. O que Ana faz depois de pegar o papel? Alternativa A: Mostra o desenho. Alternativa B: Desenha. Alternativa C: Guarda um brinquedo."
+          }
+        },
+        "funFact": "Organizar cenas em sequência ajuda a contar uma história."
+      },
+      {
+        "originKey": "pequeno-grande",
+        "statement": "Veja as três caixas. Qual é a menor caixa?",
+        "explanation": "A caixa da esquerda é a menor. Podemos comparar os tamanhos colocando as caixas lado a lado.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "A caixa do meio"
+          },
+          {
+            "optionKey": "B",
+            "text": "A caixa da direita"
+          },
+          {
+            "optionKey": "C",
+            "text": "A caixa da esquerda"
+          }
+        ],
+        "correctAnswer": "C",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-comparar-e-ordenar.pequeno-grande.image.v2",
+            "alt": "Três caixas alinhadas na mesma base: pequena à esquerda, média no meio e grande à direita."
+          },
+          "audio": {
+            "assetId": "infantil-5-comparar-e-ordenar.pequeno-grande.audio",
+            "transcript": "Veja as três caixas. Qual é a menor caixa? Alternativa A: A caixa do meio. Alternativa B: A caixa da direita. Alternativa C: A caixa da esquerda."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "activityKey": "infantil-5-rimas-e-historias",
+    "contentVersion": 1,
+    "disciplineSlug": "infantil-escuta-fala-pensamento-imaginacao",
+    "schoolYear": -2,
+    "topic": "Rimas e compreensão de histórias",
+    "title": "Uma história para ouvir e brincar",
+    "estimatedDurationMinutes": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "rima-gato",
+        "statement": "Diga as palavras devagar. Qual palavra rima com gato?",
+        "explanation": "Gato e pato terminam com o som ato. Por isso, essas palavras rimam.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Bola"
+          },
+          {
+            "optionKey": "B",
+            "text": "Pato"
+          },
+          {
+            "optionKey": "C",
+            "text": "Casa"
+          }
+        ],
+        "correctAnswer": "B",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-rimas-e-historias.rima-gato.image.v2",
+            "alt": "Ilustração de um gato e, abaixo, três figuras na mesma ordem das alternativas: bola, pato e casa."
+          },
+          "audio": {
+            "assetId": "infantil-5-rimas-e-historias.rima-gato.audio",
+            "transcript": "Diga as palavras devagar. Qual palavra rima com gato? Alternativa A: Bola. Alternativa B: Pato. Alternativa C: Casa."
+          }
+        },
+        "funFact": "Muitas canções usam rimas para suas partes ficarem fáceis de cantar."
+      },
+      {
+        "originKey": "personagem-historia",
+        "statement": "Ouça: Uma tartaruga encontrou uma folha e a levou para a casinha. Quem levou a folha?",
+        "explanation": "Na história, a tartaruga encontra a folha e a leva para a casinha.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Um coelho"
+          },
+          {
+            "optionKey": "B",
+            "text": "Um gato"
+          },
+          {
+            "optionKey": "C",
+            "text": "Uma tartaruga"
+          }
+        ],
+        "correctAnswer": "C",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-rimas-e-historias.personagem-historia.image.v2",
+            "alt": "Uma tartaruga, um coelho e um gato desenhados lado a lado, sem destaque entre os animais."
+          },
+          "audio": {
+            "assetId": "infantil-5-rimas-e-historias.personagem-historia.audio",
+            "transcript": "Ouça: Uma tartaruga encontrou uma folha e a levou para a casinha. Quem levou a folha? Alternativa A: Um coelho. Alternativa B: Um gato. Alternativa C: Uma tartaruga."
+          }
+        }
+      },
+      {
+        "originKey": "ordem-historia",
+        "statement": "Ouça: Pedro plantou uma semente. Depois, regou a terra. O que Pedro fez primeiro?",
+        "explanation": "Pedro plantou a semente primeiro. Regar a terra aconteceu depois.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Plantou a semente"
+          },
+          {
+            "optionKey": "B",
+            "text": "Regou a terra"
+          },
+          {
+            "optionKey": "C",
+            "text": "Colheu uma fruta"
+          }
+        ],
+        "correctAnswer": "A",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-rimas-e-historias.ordem-historia.image.v2",
+            "alt": "Duas cenas em sequência: uma criança coloca uma semente na terra e, na cena seguinte, rega a terra."
+          },
+          "audio": {
+            "assetId": "infantil-5-rimas-e-historias.ordem-historia.audio",
+            "transcript": "Ouça: Pedro plantou uma semente. Depois, regou a terra. O que Pedro fez primeiro? Alternativa A: Plantou a semente. Alternativa B: Regou a terra. Alternativa C: Colheu uma fruta."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "activityKey": "infantil-5-corpo-em-movimento",
+    "contentVersion": 1,
+    "disciplineSlug": "infantil-corpo-gestos-movimentos",
+    "schoolYear": -2,
+    "topic": "Movimentos e consciência corporal",
+    "title": "Nosso corpo brinca",
+    "estimatedDurationMinutes": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "questions": [
+      {
+        "originKey": "pular",
+        "statement": "Uma criança sai do chão e volta com os dois pés. Que movimento é esse?",
+        "explanation": "É um pulo: a criança sai do chão e volta a apoiar os pés. Brincadeiras de movimento precisam de espaço seguro.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Sentar"
+          },
+          {
+            "optionKey": "B",
+            "text": "Engatinhar"
+          },
+          {
+            "optionKey": "C",
+            "text": "Pular"
+          }
+        ],
+        "correctAnswer": "C",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-corpo-em-movimento.pular.image.v2",
+            "alt": "Uma criança acima de uma linha de chão, com os dois pés sem contato com o chão, durante um pulo."
+          },
+          "audio": {
+            "assetId": "infantil-5-corpo-em-movimento.pular.audio",
+            "transcript": "Uma criança sai do chão e volta com os dois pés. Que movimento é esse? Alternativa A: Sentar. Alternativa B: Engatinhar. Alternativa C: Pular."
+          }
+        },
+        "funFact": "Os animais também se movem de jeitos diferentes: alguns pulam, outros nadam ou voam."
+      },
+      {
+        "originKey": "equilibrio",
+        "statement": "A criança caminha devagar sobre uma linha no chão, com os braços abertos. O que ela está praticando?",
+        "explanation": "Ela está praticando equilíbrio. Abrir os braços pode ajudar a manter o corpo estável.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "Equilíbrio"
+          },
+          {
+            "optionKey": "B",
+            "text": "Sono"
+          },
+          {
+            "optionKey": "C",
+            "text": "Pintura"
+          }
+        ],
+        "correctAnswer": "A",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-corpo-em-movimento.equilibrio.image.v2",
+            "alt": "Uma criança caminha sobre uma linha no chão com os braços abertos, em espaço livre."
+          },
+          "audio": {
+            "assetId": "infantil-5-corpo-em-movimento.equilibrio.audio",
+            "transcript": "A criança caminha devagar sobre uma linha no chão, com os braços abertos. O que ela está praticando? Alternativa A: Equilíbrio. Alternativa B: Sono. Alternativa C: Pintura."
+          }
+        }
+      },
+      {
+        "originKey": "alongar",
+        "statement": "Qual desenho mostra uma criança esticando os braços para o alto?",
+        "explanation": "A criança com os braços para o alto está esticando os braços. Cada corpo pode se movimentar de maneiras diferentes.",
+        "points": 1,
+        "options": [
+          {
+            "optionKey": "A",
+            "text": "O desenho de quem está sentado"
+          },
+          {
+            "optionKey": "B",
+            "text": "O desenho de quem está com os braços para o alto"
+          },
+          {
+            "optionKey": "C",
+            "text": "O desenho de quem está engatinhando"
+          }
+        ],
+        "correctAnswer": "B",
+        "media": {
+          "image": {
+            "assetId": "infantil-5-corpo-em-movimento.alongar.image.v2",
+            "alt": "Três crianças lado a lado: à esquerda uma está sentada, no meio uma estica os braços para o alto e à direita uma engatinha."
+          },
+          "audio": {
+            "assetId": "infantil-5-corpo-em-movimento.alongar.audio",
+            "transcript": "Qual desenho mostra uma criança esticando os braços para o alto? Alternativa A: O desenho de quem está sentado. Alternativa B: O desenho de quem está com os braços para o alto. Alternativa C: O desenho de quem está engatinhando."
+          }
+        }
+      }
+    ]
+  }
+]

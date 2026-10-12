@@ -1,5 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 import { Prisma, QuestionType } from '@prisma/client';
+import { assertQuizMediaReady } from './media/quiz-media';
 
 export interface QuizContentQuestion {
   originKey: string | null;
@@ -42,11 +43,7 @@ export function assertQuizContentReady(
         'Quiz question content or origin key is invalid',
       );
     }
-    if (question.media !== null) {
-      throw new BadRequestException(
-        'Quiz media requires an authorization policy',
-      );
-    }
+    assertQuizMediaReady(question.media);
     origins.add(question.originKey);
     orders.add(question.sortOrder);
 

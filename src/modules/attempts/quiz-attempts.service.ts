@@ -19,6 +19,11 @@ import {
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import {
+  parseStoredQuizMedia,
+  QuizMediaKind,
+} from '../quizzes/media/quiz-media';
+import { publicQuizQuestionMedia } from './quiz-question-media';
+import {
   normalizeQuizAnswer,
   parseSnapshotOfficialAnswers,
   publicQuizOptions,
@@ -39,6 +44,7 @@ const publicSnapshotSelection = {
   points: true,
   sortOrder: true,
   options: true,
+  media: true,
 } satisfies Prisma.AttemptQuestionSnapshotSelect;
 
 type PublicSnapshot = Prisma.AttemptQuestionSnapshotGetPayload<{
@@ -144,8 +150,32 @@ export class QuizAttemptsService {
         this.presentQuestion(
           snapshot,
           answers.get(snapshot.questionId) ?? null,
+          attemptId,
         ),
       );
+    });
+  }
+
+  async getMediaReference(
+    attemptId: string,
+    questionId: string,
+    kind: QuizMediaKind,
+    user: RequestUser,
+  ) {
+    return this.withLockedAttempt(attemptId, user, false, async (database) => {
+      const snapshot = await database.attemptQuestionSnapshot.findUnique({
+        where: { attemptId_questionId: { attemptId, questionId } },
+        select: publicSnapshotSelection,
+      });
+      if (!snapshot) {
+        throw new NotFoundException('Question not found for this quiz attempt');
+      }
+      this.assertSnapshot(snapshot);
+      const reference = parseStoredQuizMedia(snapshot.media)?.[kind];
+      if (!reference) {
+        throw new NotFoundException('Quiz question media not found');
+      }
+      return { assetId: reference.assetId, sha256: reference.sha256 };
     });
   }
 
@@ -409,8 +439,14 @@ export class QuizAttemptsService {
   private presentQuestion(
     snapshot: PublicSnapshot,
     answer: AttemptAnswer | null,
+    attemptId: string,
   ) {
     const confirmed = this.readConfirmedAnswer(answer, snapshot);
+    const media = publicQuizQuestionMedia(
+      snapshot.media,
+      attemptId,
+      snapshot.questionId,
+    );
     return {
       id: snapshot.questionId,
       originKey: snapshot.originKey,
@@ -423,6 +459,7 @@ export class QuizAttemptsService {
       answer: confirmed?.answer ?? null,
       confirmedAt: confirmed?.confirmedAt ?? null,
       feedback: confirmed?.feedback ?? null,
+      ...(media ? { media } : {}),
     };
   }
 
@@ -478,7 +515,7 @@ export class QuizAttemptsService {
           );
         }
         return {
-          ...this.presentQuestion(snapshot, answer),
+          ...this.presentQuestion(snapshot, answer, attempt.id),
           isCorrect: confirmed.isCorrect,
           pointsEarned: confirmed.pointsEarned.toNumber(),
         };
