@@ -161,6 +161,19 @@ describe('TurmasService', () => {
     ).rejects.toBeInstanceOf(NotFoundException);
   });
 
+  it.each([UserRole.STUDENT, UserRole.ADMIN, UserRole.TEACHER])(
+    'hides a deleted turma from role %s before consulting memberships',
+    async (role) => {
+      prisma.turma.findFirst.mockResolvedValue(null);
+      prisma.turmaMembership.findUnique.mockResolvedValue({ id: 'membership-1' });
+
+      await expect(
+        service.assertCanAccessTurma('deleted-turma', { id: 'user-1', role }),
+      ).rejects.toBeInstanceOf(NotFoundException);
+      expect(prisma.turmaMembership.findUnique).not.toHaveBeenCalled();
+    },
+  );
+
   it('lets admin through without a membership', async () => {
     await expect(
       service.assertCanAccessTurma('turma-1', {

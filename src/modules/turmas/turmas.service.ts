@@ -4,7 +4,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { createHash, randomBytes } from 'node:crypto';
-import { UserRole } from '@prisma/client';
+import { ActivityKind, Prisma, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { slugify } from '../../common/utils/slugify';
 import { CreateInviteDto } from './dto/create-invite.dto';
@@ -38,7 +38,14 @@ export class TurmasService {
     return this.prisma.turma.findMany({
       where: { deletedAt: null },
       include: {
-        _count: { select: { memberships: true, simulations: true } },
+        _count: {
+          select: {
+            memberships: true,
+            simulations: {
+              where: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+            },
+          },
+        },
       },
       orderBy: { name: 'asc' },
     });
@@ -189,16 +196,26 @@ export class TurmasService {
   async assertCanAccessTurma(
     turmaId: string | null,
     user: { id: string; role: UserRole },
+    database: Pick<Prisma.TransactionClient, 'turma' | 'turmaMembership'> = this.prisma,
   ): Promise<void> {
     if (turmaId === null) {
       return;
+    }
+
+    const turma = await database.turma.findFirst({
+      where: { id: turmaId, deletedAt: null },
+      select: { id: true },
+    });
+
+    if (!turma) {
+      throw new NotFoundException('Published simulation not found');
     }
 
     if (user.role === UserRole.ADMIN || user.role === UserRole.TEACHER) {
       return;
     }
 
-    const membership = await this.prisma.turmaMembership.findUnique({
+    const membership = await database.turmaMembership.findUnique({
       where: { turmaId_userId: { turmaId, userId: user.id } },
       select: { id: true },
     });

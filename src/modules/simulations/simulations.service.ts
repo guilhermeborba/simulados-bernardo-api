@@ -4,7 +4,7 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { Prisma, SimulationStatus, UserRole } from '@prisma/client';
+import { ActivityKind, Prisma, SimulationStatus, UserRole } from '@prisma/client';
 import { slugify } from '../../common/utils/slugify';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
@@ -21,7 +21,7 @@ export class SimulationsService {
 
   findAll() {
     return this.prisma.simulation.findMany({
-      where: { deletedAt: null },
+      where: { deletedAt: null, activityKind: ActivityKind.SIMULATION },
       include: { discipline: true },
       orderBy: { createdAt: 'desc' },
     });
@@ -42,6 +42,8 @@ export class SimulationsService {
       viewer?.role === UserRole.ADMIN || viewer?.role === UserRole.TEACHER;
 
     const where: Prisma.SimulationWhereInput = {
+      activityKind: ActivityKind.SIMULATION,
+      AND: [{ OR: [{ turmaId: null }, { turma: { deletedAt: null } }] }],
       status: SimulationStatus.PUBLISHED,
       deletedAt: null,
       ...(seesEveryTurma
@@ -78,6 +80,7 @@ export class SimulationsService {
       where: {
         id,
         deletedAt: null,
+        activityKind: ActivityKind.SIMULATION,
       },
       include: { discipline: true },
     });
@@ -100,6 +103,7 @@ export class SimulationsService {
 
     return this.prisma.simulation.create({
       data: {
+        activityKind: ActivityKind.SIMULATION,
         title: dto.title.trim(),
         subtitle: dto.subtitle?.trim(),
         slug,
@@ -152,7 +156,7 @@ export class SimulationsService {
     }
 
     return this.prisma.simulation.update({
-      where: { id },
+      where: { id, activityKind: ActivityKind.SIMULATION },
       data,
       include: { discipline: true },
     });
@@ -181,7 +185,7 @@ export class SimulationsService {
     }
 
     return this.prisma.simulation.update({
-      where: { id },
+      where: { id, activityKind: ActivityKind.SIMULATION },
       data: {
         status: SimulationStatus.PUBLISHED,
         publishedAt: new Date(),
@@ -194,7 +198,7 @@ export class SimulationsService {
     await this.findByIdOrThrow(id);
 
     return this.prisma.simulation.update({
-      where: { id },
+      where: { id, activityKind: ActivityKind.SIMULATION },
       data: {
         status: SimulationStatus.ARCHIVED,
       },
@@ -206,7 +210,7 @@ export class SimulationsService {
     await this.findByIdOrThrow(id);
 
     await this.prisma.simulation.update({
-      where: { id },
+      where: { id, activityKind: ActivityKind.SIMULATION },
       data: {
         status: SimulationStatus.INACTIVE,
         deletedAt: new Date(),
@@ -215,6 +219,7 @@ export class SimulationsService {
   }
 
   async updateQuestionTotals(simulationId: string): Promise<void> {
+    await this.findByIdOrThrow(simulationId);
     const questions = await this.prisma.question.findMany({
       where: {
         simulationId,
@@ -225,7 +230,7 @@ export class SimulationsService {
     });
 
     await this.prisma.simulation.update({
-      where: { id: simulationId },
+      where: { id: simulationId, activityKind: ActivityKind.SIMULATION },
       data: {
         totalQuestions: questions.length,
         maxScore: questions.reduce(

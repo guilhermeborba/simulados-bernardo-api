@@ -16,6 +16,7 @@ import { DisciplinesModule } from './modules/disciplines/disciplines.module';
 import { GuardiansModule } from './modules/guardians/guardians.module';
 import { PontuacaoModule } from './modules/pontuacao/pontuacao.module';
 import { QuestionsModule } from './modules/questions/questions.module';
+import { QuizzesModule } from './modules/quizzes/quizzes.module';
 import { ReportsModule } from './modules/reports/reports.module';
 import { SimulationsModule } from './modules/simulations/simulations.module';
 import { StudentsModule } from './modules/students/students.module';
@@ -45,6 +46,7 @@ import { UsersModule } from './modules/users/users.module';
     DisciplinesModule,
     SimulationsModule,
     QuestionsModule,
+    QuizzesModule,
     AttemptsModule,
     StudentsModule,
     GuardiansModule,
