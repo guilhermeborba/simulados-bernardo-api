@@ -2,7 +2,7 @@ import { createHash, randomUUID } from 'node:crypto';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { JwtService, JwtSignOptions } from '@nestjs/jwt';
-import { User, UserStatus } from '@prisma/client';
+import { Prisma, User, UserStatus } from '@prisma/client';
 import { compare, hash } from 'bcryptjs';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { SafeUser } from '../users/users.presenter';
@@ -79,49 +79,82 @@ export class AuthService {
   async refresh(dto: RefreshTokenDto): Promise<AuthResponse> {
     const payload = await this.verifyRefreshToken(dto.refreshToken);
     const tokenHash = this.hashToken(dto.refreshToken);
-    const storedToken = await this.prisma.refreshToken.findUnique({
-      where: { tokenHash },
-      include: { user: true },
+    return this.prisma.$transaction(async (tx) => {
+      const storedToken = await tx.refreshToken.findUnique({
+        where: { tokenHash },
+        include: { user: true },
+      });
+
+      if (
+        !storedToken ||
+        storedToken.revokedAt ||
+        storedToken.expiresAt <= new Date() ||
+        storedToken.userId !== payload.sub
+      ) {
+        throw new UnauthorizedException('Invalid refresh token');
+      }
+
+      this.assertCanAuthenticate(storedToken.user);
+
+      // O UPDATE condicional bloqueia a linha e só uma transação consome o
+      // token. A revogação e o sucessor são revertidos juntos se algo falhar.
+      const now = new Date();
+      const consumed = await tx.refreshToken.updateMany({
+        where: {
+          id: storedToken.id,
+          userId: payload.sub,
+          revokedAt: null,
+          expiresAt: { gt: now },
+        },
+        data: { revokedAt: now },
+      });
+
+      if (consumed.count !== 1) {
+        throw new UnauthorizedException('Invalid refresh token');
+      }
+
+      const tokens = await this.createTokenPair(storedToken.user, tx);
+
+      await tx.refreshToken.update({
+        where: { id: storedToken.id },
+        data: { replacedByTokenId: tokens.refreshTokenId },
+      });
+
+      return this.toAuthResponse(storedToken.user, tokens);
     });
-
-    if (
-      !storedToken ||
-      storedToken.revokedAt ||
-      storedToken.expiresAt <= new Date() ||
-      storedToken.userId !== payload.sub
-    ) {
-      throw new UnauthorizedException('Invalid refresh token');
-    }
-
-    this.assertCanAuthenticate(storedToken.user);
-
-    const tokens = await this.createTokenPair(storedToken.user);
-
-    await this.prisma.refreshToken.update({
-      where: { id: storedToken.id },
-      data: {
-        revokedAt: new Date(),
-        replacedByTokenId: tokens.refreshTokenId,
-      },
-    });
-
-    return this.toAuthResponse(storedToken.user, tokens);
   }
 
   async logout(dto: RefreshTokenDto): Promise<{ success: true }> {
-    await this.verifyRefreshToken(dto.refreshToken);
-
+    const payload = await this.verifyRefreshToken(dto.refreshToken);
     const tokenHash = this.hashToken(dto.refreshToken);
-    const storedToken = await this.prisma.refreshToken.findUnique({
-      where: { tokenHash },
-    });
 
-    if (storedToken && !storedToken.revokedAt) {
-      await this.prisma.refreshToken.update({
-        where: { id: storedToken.id },
-        data: { revokedAt: new Date() },
+    await this.prisma.$transaction(async (tx) => {
+      const storedToken = await tx.refreshToken.findUnique({
+        where: { tokenHash },
       });
-    }
+      let tokenId = storedToken?.userId === payload.sub ? storedToken.id : null;
+      const visited = new Set<string>();
+
+      while (tokenId && !visited.has(tokenId)) {
+        visited.add(tokenId);
+
+        // Também bloqueia tokens já revogados: uma renovação concorrente pode
+        // estar gravando o sucessor que este logout precisa invalidar.
+        const revoked = await tx.refreshToken.updateMany({
+          where: { id: tokenId, userId: payload.sub },
+          data: { revokedAt: new Date() },
+        });
+
+        if (revoked.count !== 1) {
+          break;
+        }
+
+        const token = await tx.refreshToken.findUnique({
+          where: { id: tokenId },
+        });
+        tokenId = token?.replacedByTokenId ?? null;
+      }
+    });
 
     return { success: true };
   }
@@ -131,7 +164,10 @@ export class AuthService {
     return this.usersService.toSafeUser(user);
   }
 
-  private async createTokenPair(user: User): Promise<TokenPair> {
+  private async createTokenPair(
+    user: User,
+    client: Prisma.TransactionClient = this.prisma,
+  ): Promise<TokenPair> {
     const refreshTokenId = randomUUID();
     const accessToken = await this.jwtService.signAsync(
       this.createTokenPayload(user, 'access'),
@@ -150,7 +186,7 @@ export class AuthService {
         expiresIn: this.getJwtExpiresIn('JWT_REFRESH_EXPIRES_IN'),
       },
     );
-    const storedRefreshToken = await this.prisma.refreshToken.create({
+    const storedRefreshToken = await client.refreshToken.create({
       data: {
         userId: user.id,
         tokenHash: this.hashToken(refreshToken),

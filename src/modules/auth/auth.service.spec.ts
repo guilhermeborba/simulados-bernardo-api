@@ -25,7 +25,9 @@ describe('AuthService', () => {
     toSafeUser: jest.Mock;
   };
   let prisma: {
+    $transaction: jest.Mock;
     refreshToken: {
+      updateMany: jest.Mock;
       create: jest.Mock;
       findUnique: jest.Mock;
       update: jest.Mock;
@@ -68,12 +70,18 @@ describe('AuthService', () => {
       toSafeUser: jest.fn().mockReturnValue(safeUser),
     };
     prisma = {
+      $transaction: jest.fn(),
       refreshToken: {
+        updateMany: jest.fn().mockResolvedValue({ count: 1 }),
         create: jest.fn().mockResolvedValue({ id: 'refresh-record-1' }),
         findUnique: jest.fn(),
         update: jest.fn(),
       },
     };
+    prisma.$transaction.mockImplementation(
+      async (callback: (tx: typeof prisma) => Promise<unknown>) =>
+        callback(prisma),
+    );
     jwtService = {
       signAsync: jest.fn(async (payload: AuthTokenPayload) => {
         return `${payload.type}-token-${payload.sub}`;
@@ -215,11 +223,19 @@ describe('AuthService', () => {
     const response = await service.refresh({ refreshToken });
 
     expect(response.refreshToken).toBe('refresh-token-user-1');
+    expect(prisma.$transaction).toHaveBeenCalledTimes(1);
+    expect(prisma.refreshToken.updateMany).toHaveBeenCalledWith({
+      where: {
+        id: 'stored-refresh-token',
+        userId: activeUser.id,
+        revokedAt: null,
+        expiresAt: { gt: expect.any(Date) },
+      },
+      data: { revokedAt: expect.any(Date) },
+    });
     expect(prisma.refreshToken.update).toHaveBeenCalledWith({
       where: { id: 'stored-refresh-token' },
-      data: expect.objectContaining({
-        replacedByTokenId: 'new-refresh-token',
-      }),
+      data: { replacedByTokenId: 'new-refresh-token' },
     });
   });
 
@@ -233,18 +249,119 @@ describe('AuthService', () => {
     });
     prisma.refreshToken.findUnique.mockResolvedValue({
       id: 'stored-refresh-token',
+      userId: activeUser.id,
       tokenHash: hashToken(refreshToken),
       revokedAt: null,
+      replacedByTokenId: null,
     });
 
     await expect(service.logout({ refreshToken })).resolves.toEqual({
       success: true,
     });
-    expect(prisma.refreshToken.update).toHaveBeenCalledWith({
-      where: { id: 'stored-refresh-token' },
-      data: expect.objectContaining({
-        revokedAt: expect.any(Date),
-      }),
+    expect(prisma.refreshToken.updateMany).toHaveBeenCalledWith({
+      where: { id: 'stored-refresh-token', userId: activeUser.id },
+      data: { revokedAt: expect.any(Date) },
     });
+  });
+
+  describe('refresh validation and consumption', () => {
+    const refreshToken = 'valid-refresh-token-with-enough-length';
+
+    beforeEach(() => {
+      jwtService.verifyAsync.mockResolvedValue({
+        sub: activeUser.id,
+        email: activeUser.email,
+        role: activeUser.role,
+        type: 'refresh',
+      });
+      prisma.refreshToken.findUnique.mockResolvedValue({
+        id: 'stored-refresh-token',
+        userId: activeUser.id,
+        expiresAt: new Date(Date.now() + 60_000),
+        revokedAt: null,
+        user: activeUser,
+      });
+    });
+
+    it.each([
+      ['missing', null],
+      ['revoked', { revokedAt: new Date() }],
+      ['expired', { expiresAt: new Date(Date.now() - 1_000) }],
+      ['another user', { userId: 'another-user' }],
+      [
+        'inactive user',
+        { user: { ...activeUser, status: UserStatus.BLOCKED } },
+      ],
+      ['deleted user', { user: { ...activeUser, deletedAt: new Date() } }],
+    ])(
+      'rejects a %s token without issuing another pair',
+      async (_label, change) => {
+        if (change === null) {
+          prisma.refreshToken.findUnique.mockResolvedValue(null);
+        } else {
+          prisma.refreshToken.findUnique.mockResolvedValue({
+            id: 'stored-refresh-token',
+            userId: activeUser.id,
+            expiresAt: new Date(Date.now() + 60_000),
+            revokedAt: null,
+            user: activeUser,
+            ...change,
+          });
+        }
+
+        await expect(service.refresh({ refreshToken })).rejects.toBeInstanceOf(
+          UnauthorizedException,
+        );
+        expect(prisma.refreshToken.updateMany).not.toHaveBeenCalled();
+        expect(jwtService.signAsync).not.toHaveBeenCalled();
+        expect(prisma.refreshToken.create).not.toHaveBeenCalled();
+      },
+    );
+
+    it('rejects the request that loses conditional token consumption', async () => {
+      prisma.refreshToken.updateMany.mockResolvedValue({ count: 0 });
+
+      await expect(service.refresh({ refreshToken })).rejects.toMatchObject({
+        status: 401,
+        message: 'Invalid refresh token',
+      });
+      expect(jwtService.signAsync).not.toHaveBeenCalled();
+      expect(prisma.refreshToken.create).not.toHaveBeenCalled();
+      expect(prisma.refreshToken.update).not.toHaveBeenCalled();
+    });
+
+    it('rejects an invalid signature before opening a transaction', async () => {
+      jwtService.verifyAsync.mockRejectedValue(new Error('invalid signature'));
+
+      await expect(service.refresh({ refreshToken })).rejects.toBeInstanceOf(
+        UnauthorizedException,
+      );
+      expect(prisma.$transaction).not.toHaveBeenCalled();
+    });
+
+    it('rejects access tokens passed as refresh tokens', async () => {
+      jwtService.verifyAsync.mockResolvedValue({ type: 'access' });
+
+      await expect(service.refresh({ refreshToken })).rejects.toBeInstanceOf(
+        UnauthorizedException,
+      );
+      expect(prisma.$transaction).not.toHaveBeenCalled();
+    });
+  });
+
+  it('does not revoke a token owned by another subject on logout', async () => {
+    jwtService.verifyAsync.mockResolvedValue({
+      sub: activeUser.id,
+      type: 'refresh',
+    });
+    prisma.refreshToken.findUnique.mockResolvedValue({
+      id: 'other-token',
+      userId: 'another-user',
+    });
+
+    await expect(service.logout({ refreshToken: 'token' })).resolves.toEqual({
+      success: true,
+    });
+    expect(prisma.refreshToken.updateMany).not.toHaveBeenCalled();
   });
 });
