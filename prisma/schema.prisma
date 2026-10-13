@@ -21,6 +21,14 @@ enum UserStatus {
   BLOCKED
 }
 
+enum LearningSegment {
+  INFANTIL
+  FUNDAMENTAL_I
+  FUNDAMENTAL_II
+  MEDIO
+  ENFERMAGEM
+}
+
 enum ActivityKind {
   SIMULATION
   QUIZ
@@ -59,6 +67,7 @@ model User {
   lastLoginAt          DateTime?
   deletedAt            DateTime?
   studentProfile       StudentProfile?
+  learningPreferences  LearningPreferences?
   createdSimulations   Simulation[]      @relation("SimulationCreatedBy")
   guardianLinks        GuardianStudent[] @relation("GuardianLinks")
   studentGuardianLinks GuardianStudent[] @relation("StudentGuardianLinks")
@@ -96,6 +105,18 @@ model StudentProfile {
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
   user       User     @relation(fields: [userId], references: [id])
+}
+
+// Personal catalogue/accessibility choices; they never grant classroom access.
+model LearningPreferences {
+  userId        String           @id
+  segment       LearningSegment?
+  schoolYear    Int?
+  audioEnabled  Boolean          @default(false)
+  motionEnabled Boolean          @default(true)
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+  user          User             @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model GuardianStudent {

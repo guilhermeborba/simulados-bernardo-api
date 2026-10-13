@@ -1,10 +1,10 @@
 # Quizzes — contratos, catálogo e mídia
 
-Os lotes 03 a 05 oferecem autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria e mídia de instrução nos snapshots. O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, todos com revisão `PENDING`; nenhum foi importado em banco existente ou publicado. Telas/BFF web continuam no lote 06 e XP nas etapas seguintes.
+Os lotes 03 a 06 oferecem autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria, mídia de instrução, jornada web e preferências por conta. O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, todos com revisão `PENDING`; nenhum foi importado em banco existente ou publicado. Missões e XP seguem no lote 07.
 
 ## Rotas implementadas
 
-Todas usam JWT; gestão e tentativas acrescentam RolesGuard. Gestão usa ADMIN; iniciar, confirmar e concluir exige STUDENT. Leitura de tentativa/questões/resultado permite o dono STUDENT ou ADMIN; os históricos pessoais exigem STUDENT.
+Todas usam JWT; gestão e tentativas acrescentam RolesGuard. Gestão usa ADMIN; iniciar, confirmar e concluir exige STUDENT. Leitura de tentativa/questões/resultado permite o dono STUDENT ou ADMIN; os históricos pessoais exigem STUDENT. Preferências permitem qualquer role, sempre da própria conta ativa.
 
 | Rota | Comportamento |
 |---|---|
@@ -24,8 +24,58 @@ Todas usam JWT; gestão e tentativas acrescentam RolesGuard. Gestão usa ADMIN; 
 | `POST /attempts/:id/finish` | STUDENT conclui depois de confirmar todas as questões; repetição devolve o resultado salvo |
 | `GET /attempts/:id/result` | Dono/ADMIN consulta resultado de quiz `FINISHED`, sem gabarito |
 | `GET /me/quiz-attempts` | STUDENT consulta seu histórico de prática separado de simulados |
+| `GET/PATCH /me/learning-preferences` | Qualquer conta ativa consulta/atualiza somente suas escolhas de faixa, áudio e movimento |
 
 Filtros de catálogo: `discipline` (slug), `schoolYear` (inteiro -2 a 12) e `topic`. Sentinelas atuais: -1 Infantil 4, -2 Infantil 5, 0 Enfermagem, 1–9 Fundamental e 10–12 Médio. Filtro de ano não é autorização de turma. Totais Decimal (`score`, `maxScore`, `percentage`) e `questions[].points` são strings. `feedback.pointsEarned` e os `questions[].pointsEarned` do resultado são números. Datas são strings ISO no JSON.
+
+## Jornada web e BFF
+
+A web oferece catálogo em `/quizzes`, runner em `/quiz/[quizId]` e histórico em `/quizzes/historico`. Segmento/ano são escolhas da conta; disciplina e tema filtram a consulta atual. As 15 faixas conservam os códigos da API. Enquanto o catálogo editorial não for revisado/publicado no ambiente escolhido, a tela pode apresentar o estado vazio; os testes usam quizzes sintéticos publicados apenas em banco descartável.
+
+O runner exige STUDENT. Marcar uma alternativa cria somente uma escolha local editável; o envio acontece ao tocar em “Confirmar resposta”. Depois do feedback, a resposta fica bloqueada. A URL mantém `?attempt=<id>` para recarregar, retomar e abrir resultado pelo histórico. Retomada carrega o snapshot e as confirmações salvas; falha HTTP preserva a escolha para repetir a confirmação e a conclusão idempotentes. O histórico de simulados permanece em `/historico`.
+
+O navegador usa `/api/backend/...`, sem receber JWT. O BFF aceita GET de `/quizzes/available` e POST de `/quizzes/:id/attempts`, além dos contratos existentes de tentativa e `me`; gestão ADMIN de quizzes não foi aberta por esse caminho. URLs de mídia válidas do snapshot viram `/api/backend/attempts/:id/questions/:questionId/media/:kind`. O helper aceita somente essa forma relativa, com `kind` image/audio, sem URL externa ou token na query.
+
+A entrega binária usa a mesma sessão/renovação por cookies httpOnly. O BFF encaminha Range e mantém bytes, status 200/206/416 e headers controlados; valida MIME e tamanho anunciado/recebido, limites de imagem/áudio e Content-Range. Respostas de mídia usam private/no-store, nosniff e CSP restritiva. Cada pedido continua sujeito à autorização atual do backend, inclusive depois de revogar membership.
+
+A interface oferece descrição de imagem e transcrição de áudio quando a entrega falha; áudio não tem autoplay e depende de ação do aluno. Preferência de movimento e `prefers-reduced-motion` reduzem animações. Estado, seleção e feedback têm textos e controles próprios, sem depender somente de cor ou som. A verificação automatizada em navegador não substitui uso com pessoas, leitor de tela e aparelhos reais.
+
+## Preferências de aprendizagem
+
+GET e PATCH retornam diretamente os quatro campos públicos, sem wrapper, IDs, datas ou dados da conta:
+
+```json
+{
+  "segment": null,
+  "schoolYear": null,
+  "audioEnabled": false,
+  "motionEnabled": true
+}
+```
+
+| Segmento | Anos aceitos |
+|---|---|
+| `INFANTIL` | -1 e -2 |
+| `FUNDAMENTAL_I` | 1 a 5 |
+| `FUNDAMENTAL_II` | 6 a 9 |
+| `MEDIO` | 10 a 12 |
+| `ENFERMAGEM` | 0 |
+
+`segment` preenchido aceita `schoolYear: null` para consultar a faixa inteira. Segmento nulo exige ano nulo. PATCH pode enviar somente os campos alterados; o servidor mescla com o último estado e valida o conjunto. Para mudar de faixa com um ano incompatível já salvo, envie ambos os filtros na mesma requisição:
+
+```http
+PATCH /me/learning-preferences
+Authorization: Bearer <access-token>
+Content-Type: application/json
+
+{ "segment": "MEDIO", "schoolYear": 10 }
+```
+
+Para remover os filtros, envie `{ "segment": null, "schoolYear": null }`. Booleanos aceitam apenas true/false; strings, números e null nesses campos retornam 400. Segmento desconhecido e campos extras também retornam 400. Ano não compatível com o segmento também retorna 400, sem gravar os demais campos do PATCH. Dados de identidade não são aceitos: a conta é exclusivamente o subject do JWT. Usuário inexistente, inativo, excluído ou subject inválido retorna 401; não existe rota para consultar preferências de outra conta.
+
+GET sem registro retorna os defaults sem criar linha. PATCH vazio ou sem efeito conserva dados/datas. Atualizações do mesmo usuário usam lock transacional da linha User antes de ler/criar as preferências, preservando campos distintos em pedidos concorrentes, inclusive na primeira gravação. Não há backfill de StudentProfile nem importação do localStorage legado. A preferência não muda a matrícula/ano escolar, não concede acesso a turma e não altera ranking de simulados.
+
+Na web, as escolhas vêm da API por conta. Leitura/gravação são serializadas; troca/logout descarta estado e resultados atrasados da conta anterior. Falha ao salvar mantém a escolha anterior e informa o erro. Esse contrato pode ser reutilizado no app mobile. Decisão: [ADR 010](decisions/010-preferencias-de-aprendizagem-por-conta.md).
 
 ## Exemplo de criação
 
@@ -106,7 +156,7 @@ SVG e WAV usam MIME controlado, `X-Content-Type-Options: nosniff`, CSP restritiv
 
 Alt e transcrição ficam no snapshot e continuam disponíveis quando o arquivo não pode ser entregue. Essa falha retorna 404 para os bytes e não impede confirmar ou concluir pelo texto. Mídia deve conter instrução, sem explicação antecipada ou gabarito; a revisão editorial verifica esse conteúdo. Os arquivos genéricos empacotados não contêm dados pessoais. A autorização da API não torna os arquivos do Git confidenciais; uploads e armazenamento de arquivos privados ainda não existem.
 
-O build copia os assets para `dist/src/modules/quizzes/media/assets`. Geração das ilustrações, narração pt-BR e regras de conservação estão no [README da mídia](../src/modules/quizzes/media/README.md). BFF binário, áudio opcional, fallback visual e uso em celular/leitor de tela devem ser implementados e verificados no lote 06.
+O build copia os assets para `dist/src/modules/quizzes/media/assets`. Geração das ilustrações, narração pt-BR e regras de conservação estão no [README da mídia](../src/modules/quizzes/media/README.md). O lote 06 implementa BFF binário, áudio opcional e fallback visual. Testes automatizados de teclado/mobile emulado/axe não encerram a validação com pessoas, leitor de tela e aparelhos reais.
 
 ## Catálogo e importação própria
 
@@ -247,6 +297,12 @@ A migration `20261012210000_quiz_answer_confirmation` acrescenta `AttemptAnswer.
 
 A constraint permite ambos nulos ou exige ambos preenchidos, feedback JSON objeto, `isCorrect` e `pointsEarned` não nulos e pontos entre 0 e 9999,99. O serviço valida também a forma pública do feedback e sua consistência com a correção salva. Os mesmos comandos de generate/deploy aplicam a cadeia inteira no ambiente autorizado. Nesta implementação, ambas as migrations foram verificadas somente em bases descartáveis; não houve alteração de banco existente, seed em produção ou deploy.
 
+### Lote 06 — preferências por conta
+
+A migration `20261012230000_learning_preferences` acrescenta enum LearningSegment e tabela LearningPreferences, com userId como chave primária/FK. Uma constraint SQL impõe a mesma compatibilidade de segmento/ano da API; booleans têm os defaults acima. FK remove a linha se o usuário for fisicamente removido. Não modifica usuários, StudentProfile, tentativas ou respostas existentes e não cria registros de preferência automaticamente.
+
+Aplique a cadeia com generate/deploy somente no ambiente operacional explicitamente escolhido, conforme o procedimento existente. Nesta implementação, a migration foi aplicada exclusivamente a PostgreSQL descartável, sem banco existente, seed de produção ou deploy.
+
 ## Verificação
 
 ```bash
@@ -260,8 +316,10 @@ npm run test:integration
 
 O runner cria e remove um PostgreSQL próprio. A suíte inclui migração sobre legado populado, rollback/diagnóstico de duplicatas, criação e versão concorrentes, snapshots estáveis, rollback de falha ao gravar snapshots, isolamento de relatórios/ranking, turma/owner e regressão dos simulados. Uma suíte limita o pool a uma conexão para verificar início concorrente de simulado privado sem espera por uma segunda conexão. O lote 04 acrescenta confirmação/recarga, normalização de alternativas, tentativas concorrentes iguais e conflitantes, corrida entre confirmação/conclusão, conclusão repetida, rollback de falhas de gravação/finish, versões estáveis, perda de acesso e projeções sem gabarito. Onze casos PostgreSQL aplicam a migration de confirmação sobre respostas antigas abertas/finalizadas e verificam preservação e constraints, inclusive rejeição de `numeric NaN`. CI executa as mesmas suítes contra o serviço PostgreSQL de teste, com a guarda de URL do [guia de regressão](guia-ci-regressao.md).
 
-Validação do lote 04: 278 testes unitários, 117 de integração PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, Prisma validate e dry-run do acervo de simulados. As jornadas web verificam a compatibilidade dos fluxos existentes; a interface de quizzes continua no lote 06.
+Validação do lote 04: 278 testes unitários, 117 de integração PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, Prisma validate e dry-run do acervo de simulados. Na validação do lote 04, as jornadas web verificavam os fluxos existentes; a interface de quizzes foi implementada no lote 06 abaixo.
 
 O lote 05 acrescenta validação editorial/mídia, importação de todos os 45 quizzes duas vezes, preservação de IDs/datas/tentativas, rollback de lote, referências ativas, versões consecutivas, importações concorrentes e corrida com versionamento da API. A suíte de mídia cobre snapshot, bytes SVG/WAV, Range, autorização/revogação e fallback textual com confirmação/conclusão. Validação final: **381 unitários, 162 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API**, além de lint, build e dry-runs. Nenhum banco existente, publicação editorial ou deploy foi alterado.
 
-Decisões: [ADR 007 — versões e snapshots](decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008 — confirmação e resultado](decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md), [ADR 009 — catálogo e mídia](decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md) e [ADR 005 — gabarito protegido](decisions/005-gabarito-protegido-no-backend.md).
+O lote 06 acrescenta 52 casos PostgreSQL de preferências: defaults sem mutação, todas as faixas/roles, PATCH combinado e concorrente, rollback de validação, token com subject inválido/status alterado, isolamento de contas, proteção de turma e constraints. Fechamento da validação do lote 06: **406 unitários e 214 testes de integração API/PostgreSQL**, **30 testes de sessão e 16 jornadas HTTP web** passaram; builds API/web, lint da API e Prisma validate passaram, além de **24 testes Chromium desktop/mobile emulado** com os cinco segmentos, teclado, axe, fallback, retomada, perda de respostas e isolamento de sessão/preferências. A regressão web usa Next/BFF/API reais e fixtures sintéticas; testes de teclado, viewport mobile e axe são automatizados, com usabilidade humana/leitor de tela/aparelhos reais pendentes. Consulte também o [guia de CI](guia-ci-regressao.md).
+
+Decisões: [ADR 010 — preferências por conta](decisions/010-preferencias-de-aprendizagem-por-conta.md), [ADR 007 — versões e snapshots](decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008 — confirmação e resultado](decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md), [ADR 009 — catálogo e mídia](decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md) e [ADR 005 — gabarito protegido](decisions/005-gabarito-protegido-no-backend.md).

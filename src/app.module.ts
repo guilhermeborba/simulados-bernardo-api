@@ -14,6 +14,7 @@ import { AuditModule } from './modules/audit/audit.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { DisciplinesModule } from './modules/disciplines/disciplines.module';
 import { GuardiansModule } from './modules/guardians/guardians.module';
+import { LearningPreferencesModule } from './modules/learning-preferences/learning-preferences.module';
 import { PontuacaoModule } from './modules/pontuacao/pontuacao.module';
 import { QuestionsModule } from './modules/questions/questions.module';
 import { QuizzesModule } from './modules/quizzes/quizzes.module';
@@ -50,6 +51,7 @@ import { UsersModule } from './modules/users/users.module';
     AttemptsModule,
     StudentsModule,
     GuardiansModule,
+    LearningPreferencesModule,
     ReportsModule,
     TurmasModule,
     PontuacaoModule,
