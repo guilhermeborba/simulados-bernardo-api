@@ -1,10 +1,14 @@
 import { InternalServerErrorException } from '@nestjs/common';
 import { Prisma, QuizRewardReason } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import { CollectionsService } from '../collections/collections.service';
 import { LearningService } from './learning.service';
 
 describe('learning finish receipts', () => {
-  const service = new LearningService({} as PrismaService);
+  const service = new LearningService(
+    {} as PrismaService,
+    {} as CollectionsService,
+  );
 
   function database(receipt: unknown) {
     return {

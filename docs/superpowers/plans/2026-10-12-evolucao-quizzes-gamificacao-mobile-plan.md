@@ -1,7 +1,7 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
 Data: 2026-10-12
-Status: lotes 01 a 04 concluídos; lotes 05 a 07 implementados tecnicamente, com revisão/publicação editorial e validação humana de uso pendentes; próximo lote técnico 08 — avatar, coleções e conquistas
+Status: lotes 01 a 04 concluídos; lotes 05 a 08 implementados tecnicamente, com revisão/publicação editorial e validação humana de uso pendentes; próximo lote técnico 09 — habilidades e revisão
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -175,9 +175,9 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Implementar autoria/publicação e exportador offline de 30 rascunhos de missão, duas posições por cada uma das 15 faixas, com distribuição por ano/turma.
 - [ ] Revisar e publicar as duas missões curadas por semana de cada faixa, após disponibilizar os quizzes correspondentes.
 - [x] Persistir XP por eventos com chave única de concessão e aplicar teto diário no servidor.
-- [ ] Criar conquista de primeira conclusão, variedade de temas e progresso; regras verificadas no backend.
-- [ ] Criar catálogo simples de avatares/itens e o estado dos itens desbloqueados.
-- [ ] Aproveitar Bolinha no Infantil; usar coleções/selo de progresso como opção para Médio e Enfermagem.
+- [x] Criar conquista de primeira conclusão, variedade de temas e progresso; regras verificadas no backend.
+- [x] Criar catálogo simples de avatares/itens e o estado dos itens desbloqueados.
+- [x] Aproveitar Bolinha no Infantil; usar coleções/selo de progresso como opção para Médio e Enfermagem.
 - [x] Mostrar próxima atividade e progresso da missão; permitir encerrar a sessão sem pressão para continuar.
 - [ ] Instrumentar conclusão e retorno para avaliar se as missões ajudam a manter a prática.
 
@@ -391,9 +391,11 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-Os lotes 01 a 04 estão concluídos; lotes 05 a 07 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões e XP. A próxima tarefa técnica é o **lote 08: avatar, coleções e conquistas** — catálogos e ownership persistidos, personalização por segmento e regras de conquistas no servidor. Preservar o ledger idempotente, o teto de XP e as notas/ranking de simulados. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
+Os lotes 01 a 04 estão concluídos; lotes 05 a 08 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões, XP e coleção pessoal. O lote 08 acrescenta cinco conquistas verificadas no servidor, seis itens cosméticos e apresentação persistida AUTO/MASCOT/SEAL, com Bolinha no Infantil e selos nas faixas mais velhas. Concessões são atômicas e preservam notas, ranking e regras de XP; a migration recupera apenas progresso válido do lote 07. A próxima tarefa técnica é o **lote 09: habilidades e revisão** — mapear dificuldades e oferecer revisão orientada sem transformar XP em avaliação. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
 
 A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada com pessoas, leitor de tela e aparelhos reais; automação não encerra esses gates.
 
 
 Fechamento técnico do lote 07: 479 unitários e 267 casos API/PostgreSQL; 30 testes de sessão, 23 jornadas HTTP e 38 Chromium desktop/mobile emulado passaram. Lint/builds/types/Prisma e exportadores offline passaram. A cobertura inclui teto sob concorrência, versões, snapshots de recompensa, rollback, mudança de dia/semana em São Paulo, migração sem backfill, arquivo de uma etapa concorrente e início de outra atividade sem ciclo de locks. Nenhum conteúdo editorial foi publicado. Operação: [guia de missões e XP](../../guia-missoes-xp.md).
+
+Fechamento técnico do lote 08: 513 unitários e 309 casos API/PostgreSQL; 30 testes de sessão, 30 jornadas HTTP e 52 Chromium desktop/mobile emulado passaram. Lint/builds/types/Prisma passaram. A cobertura inclui histórico elegível, ownership durável, temas/versões, rollback de concessões, persistência em outra sessão, todas as faixas, teclado, Axe e troca de conta com GET/PATCH atrasados. Nenhuma publicação editorial ou alteração em banco existente. Operação: [guia de coleções](../../guia-colecoes-conquistas.md).

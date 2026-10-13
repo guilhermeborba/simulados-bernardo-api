@@ -67,6 +67,12 @@ enum AttemptStatus {
   EXPIRED
 }
 
+enum AvatarStyle {
+  AUTO
+  MASCOT
+  SEAL
+}
+
 model User {
   id                   String               @id @default(cuid())
   name                 String
@@ -88,6 +94,9 @@ model User {
   xpEvents             XpEvent[]
   createdMissions      Mission[]            @relation("MissionCreatedBy")
   missionProgresses    MissionProgress[]
+  achievements         UserAchievement[]
+  avatarItems          UserAvatarItem[]
+  avatar               UserAvatar?
   turmaMemberships     TurmaMembership[]
   createdTurmaInvites  TurmaInvite[]        @relation("TurmaInviteCreatedBy")
 
@@ -281,6 +290,8 @@ model Attempt {
   quizCompletionReward QuizCompletionReward?
   xpEvent              XpEvent?
   missionCompletions   MissionActivityCompletion[]
+  earnedAchievements   UserAchievement[]
+  unlockedAvatarItems  UserAvatarItem[]
 
   @@index([studentId])
   @@index([simulationId])
@@ -498,4 +509,37 @@ model MissionActivityCompletion {
 
   @@unique([progressId, missionActivityId])
   @@index([attemptId])
+}
+
+/// Durable cosmetic grants. Removing an attempt never revokes earned ownership.
+model UserAchievement {
+  userId          String
+  achievementId   String
+  earnedAt        DateTime
+  sourceAttemptId String?
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sourceAttempt   Attempt? @relation(fields: [sourceAttemptId], references: [id], onDelete: SetNull)
+
+  @@id([userId, achievementId])
+  @@index([sourceAttemptId])
+}
+
+model UserAvatarItem {
+  userId          String
+  itemId          String
+  unlockedAt      DateTime
+  sourceAttemptId String?
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sourceAttempt   Attempt? @relation(fields: [sourceAttemptId], references: [id], onDelete: SetNull)
+
+  @@id([userId, itemId])
+  @@index([sourceAttemptId])
+}
+
+model UserAvatar {
+  userId    String      @id
+  itemId    String      @default("inicio")
+  style     AvatarStyle @default(AUTO)
+  updatedAt DateTime    @updatedAt
+  user      User        @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
