@@ -29,6 +29,18 @@ enum LearningSegment {
   ENFERMAGEM
 }
 
+enum MissionStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum QuizRewardReason {
+  AWARDED
+  ALREADY_REWARDED
+  DAILY_LIMIT
+}
+
 enum ActivityKind {
   SIMULATION
   QUIZ
@@ -56,25 +68,28 @@ enum AttemptStatus {
 }
 
 model User {
-  id                   String            @id @default(cuid())
+  id                   String               @id @default(cuid())
   name                 String
-  email                String            @unique
+  email                String               @unique
   passwordHash         String
   role                 UserRole
-  status               UserStatus        @default(PENDING)
-  createdAt            DateTime          @default(now())
-  updatedAt            DateTime          @updatedAt
+  status               UserStatus           @default(PENDING)
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
   lastLoginAt          DateTime?
   deletedAt            DateTime?
   studentProfile       StudentProfile?
   learningPreferences  LearningPreferences?
-  createdSimulations   Simulation[]      @relation("SimulationCreatedBy")
-  guardianLinks        GuardianStudent[] @relation("GuardianLinks")
-  studentGuardianLinks GuardianStudent[] @relation("StudentGuardianLinks")
-  attempts             Attempt[]         @relation("StudentAttempts")
+  createdSimulations   Simulation[]         @relation("SimulationCreatedBy")
+  guardianLinks        GuardianStudent[]    @relation("GuardianLinks")
+  studentGuardianLinks GuardianStudent[]    @relation("StudentGuardianLinks")
+  attempts             Attempt[]            @relation("StudentAttempts")
   refreshTokens        RefreshToken[]
+  xpEvents             XpEvent[]
+  createdMissions      Mission[]            @relation("MissionCreatedBy")
+  missionProgresses    MissionProgress[]
   turmaMemberships     TurmaMembership[]
-  createdTurmaInvites  TurmaInvite[]     @relation("TurmaInviteCreatedBy")
+  createdTurmaInvites  TurmaInvite[]        @relation("TurmaInviteCreatedBy")
 
   @@index([role])
   @@index([status])
@@ -243,26 +258,29 @@ model QuestionAnswer {
 }
 
 model Attempt {
-  id                String                    @id @default(cuid())
-  studentId         String
-  simulationId      String
-  activityKey       String?
-  contentVersion    Int?
-  status            AttemptStatus             @default(IN_PROGRESS)
-  startedAt         DateTime                  @default(now())
-  finishedAt        DateTime?
-  score             Decimal?                  @db.Decimal(6, 2)
-  maxScore          Decimal                   @db.Decimal(6, 2)
-  percentage        Decimal?                  @db.Decimal(5, 2)
-  correctCount      Int                       @default(0)
-  wrongCount        Int                       @default(0)
-  durationSeconds   Int?
-  createdAt         DateTime                  @default(now())
-  updatedAt         DateTime                  @updatedAt
-  student           User                      @relation("StudentAttempts", fields: [studentId], references: [id])
-  simulation        Simulation                @relation(fields: [simulationId], references: [id])
-  answers           AttemptAnswer[]
-  questionSnapshots AttemptQuestionSnapshot[]
+  id                   String                      @id @default(cuid())
+  studentId            String
+  simulationId         String
+  activityKey          String?
+  contentVersion       Int?
+  status               AttemptStatus               @default(IN_PROGRESS)
+  startedAt            DateTime                    @default(now())
+  finishedAt           DateTime?
+  score                Decimal?                    @db.Decimal(6, 2)
+  maxScore             Decimal                     @db.Decimal(6, 2)
+  percentage           Decimal?                    @db.Decimal(5, 2)
+  correctCount         Int                         @default(0)
+  wrongCount           Int                         @default(0)
+  durationSeconds      Int?
+  createdAt            DateTime                    @default(now())
+  updatedAt            DateTime                    @updatedAt
+  student              User                        @relation("StudentAttempts", fields: [studentId], references: [id])
+  simulation           Simulation                  @relation(fields: [simulationId], references: [id])
+  answers              AttemptAnswer[]
+  questionSnapshots    AttemptQuestionSnapshot[]
+  quizCompletionReward QuizCompletionReward?
+  xpEvent              XpEvent?
+  missionCompletions   MissionActivityCompletion[]
 
   @@index([studentId])
   @@index([simulationId])
@@ -347,6 +365,7 @@ model Turma {
   invites           TurmaInvite[]
   memberships       TurmaMembership[]
   simulations       Simulation[]
+  missions          Mission[]
 }
 
 /// Convite de entrada na turma. O token viaja no link, mas aqui fica só o seu
@@ -386,4 +405,97 @@ model TurmaMembership {
 
   @@unique([turmaId, userId])
   @@index([userId])
+}
+
+/// Positive grants only. Version changes do not reset logical activity eligibility.
+model XpEvent {
+  id          String   @id @default(cuid())
+  userId      String
+  attemptId   String   @unique
+  activityKey String
+  day         String
+  amount      Int
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempt     Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, activityKey, day])
+  @@index([userId, day])
+}
+
+/// The exact finish receipt, including zero-XP outcomes, survives request retries.
+model QuizCompletionReward {
+  attemptId String           @id
+  xpAwarded Int
+  reason    QuizRewardReason
+  day       String
+  createdAt DateTime         @default(now())
+  attempt   Attempt          @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+}
+
+model Mission {
+  id          String            @id @default(cuid())
+  title       String
+  description String
+  segment     LearningSegment
+  schoolYear  Int
+  turmaId     String?
+  status      MissionStatus     @default(DRAFT)
+  startsAt    DateTime
+  endsAt      DateTime
+  slot        Int
+  publishedAt DateTime?
+  createdById String
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  deletedAt   DateTime?
+  turma       Turma?            @relation(fields: [turmaId], references: [id])
+  createdBy   User              @relation("MissionCreatedBy", fields: [createdById], references: [id])
+  activities  MissionActivity[]
+  progresses  MissionProgress[]
+
+  @@index([status, startsAt, endsAt, schoolYear])
+  @@index([turmaId])
+}
+
+model MissionActivity {
+  id          String                      @id @default(cuid())
+  missionId   String
+  activityKey String
+  sortOrder   Int
+  mission     Mission                     @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  completions MissionActivityCompletion[]
+
+  @@unique([missionId, activityKey])
+  @@unique([missionId, sortOrder])
+  @@index([activityKey])
+}
+
+/// One record per learner and mission; completedAt is set exactly once.
+model MissionProgress {
+  id          String                      @id @default(cuid())
+  userId      String
+  missionId   String
+  completedAt DateTime?
+  createdAt   DateTime                    @default(now())
+  updatedAt   DateTime                    @updatedAt
+  user        User                        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mission     Mission                     @relation(fields: [missionId], references: [id], onDelete: Cascade)
+  activities  MissionActivityCompletion[]
+
+  @@unique([userId, missionId])
+}
+
+model MissionActivityCompletion {
+  id                String          @id @default(cuid())
+  progressId        String
+  missionActivityId String
+  attemptId         String
+  completedAt       DateTime
+  progress          MissionProgress @relation(fields: [progressId], references: [id], onDelete: Cascade)
+  missionActivity   MissionActivity @relation(fields: [missionActivityId], references: [id], onDelete: Cascade)
+  attempt           Attempt         @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+
+  @@unique([progressId, missionActivityId])
+  @@index([attemptId])
 }

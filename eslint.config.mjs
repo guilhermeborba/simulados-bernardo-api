@@ -14,6 +14,8 @@ export default [
       'prisma/seed-backlog.ts',
       'prisma/quiz-catalog*.ts',
       'prisma/seed-quizzes.ts',
+      'prisma/mission-catalog*.ts',
+      'prisma/seed-missions.ts',
     ],
     languageOptions: {
       parser: tsParser,

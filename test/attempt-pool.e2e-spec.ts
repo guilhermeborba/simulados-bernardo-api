@@ -11,6 +11,7 @@ import { PrismaService } from '../src/database/prisma/prisma.service';
 import { AttemptsCorrectionService } from '../src/modules/attempts/attempts-correction.service';
 import { AttemptsService } from '../src/modules/attempts/attempts.service';
 import { QuizAttemptsService } from '../src/modules/attempts/quiz-attempts.service';
+import { LearningService } from '../src/modules/learning/learning.service';
 import { TurmasService } from '../src/modules/turmas/turmas.service';
 import { assertTestDatabaseUrl } from './support/test-database.cjs';
 
@@ -29,7 +30,7 @@ describe('Private simulation start with a single PostgreSQL connection', () => {
       client,
       new AttemptsCorrectionService(),
       new TurmasService(client),
-      new QuizAttemptsService(client, new AttemptsCorrectionService()),
+      new QuizAttemptsService(client, new AttemptsCorrectionService(), new LearningService(client)),
     );
     const fixtureKey = randomUUID();
     const adminId = `pool-admin-${fixtureKey}`;
