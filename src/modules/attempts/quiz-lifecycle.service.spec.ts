@@ -17,6 +17,7 @@ import {
 } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
+import { LearningService } from '../learning/learning.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 
 type QuizAttempt = Prisma.AttemptGetPayload<{
@@ -140,6 +141,7 @@ describe('QuizAttemptsService lifecycle', () => {
   let answers: AttemptAnswer[];
   let service: QuizAttemptsService;
   let correction: AttemptsCorrectionService;
+  let rewards: { rewardFor: jest.Mock; recordCompletion: jest.Mock };
   let database: {
     attempt: { findUnique: jest.Mock; update: jest.Mock };
     attemptQuestionSnapshot: { findMany: jest.Mock; findUnique: jest.Mock };
@@ -215,9 +217,20 @@ describe('QuizAttemptsService lifecycle', () => {
       ),
     };
     correction = new AttemptsCorrectionService();
+    rewards = {
+      rewardFor: jest
+        .fn()
+        .mockResolvedValue({ xpAwarded: 0, reason: 'LEGACY', day: null }),
+      recordCompletion: jest.fn().mockResolvedValue({
+        xpAwarded: 10,
+        reason: 'AWARDED',
+        day: '2026-10-12',
+      }),
+    };
     service = new QuizAttemptsService(
       prisma as unknown as PrismaService,
       correction,
+      rewards as unknown as LearningService,
     );
   });
 
@@ -436,6 +449,12 @@ describe('QuizAttemptsService lifecycle', () => {
       wrongCount: 1,
     });
     expect(database.attempt.update).toHaveBeenCalledTimes(1);
+    expect(result.reward).toEqual({
+      xpAwarded: 10,
+      reason: 'AWARDED',
+      day: '2026-10-12',
+    });
+    expect(rewards.recordCompletion).toHaveBeenCalledTimes(1);
   });
 
   it('replays persisted final totals after archiving without recomputing them', async () => {
@@ -457,6 +476,12 @@ describe('QuizAttemptsService lifecycle', () => {
     expect(database.attempt.update).not.toHaveBeenCalled();
     expect(afterArchive.attempt.simulation).not.toHaveProperty('updatedAt');
     expect(afterArchive.attempt.simulation).not.toHaveProperty('status');
+    expect(afterArchive.reward).toEqual({
+      xpAwarded: 0,
+      reason: 'LEGACY',
+      day: null,
+    });
+    expect(rewards.recordCompletion).not.toHaveBeenCalled();
   });
 
   it('checks current discipline availability before returning feedback', async () => {

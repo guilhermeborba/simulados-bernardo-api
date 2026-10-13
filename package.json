@@ -30,7 +30,9 @@
     "seed:quizzes:dry-run": "SEED_QUIZZES_DRY_RUN=true ts-node --transpile-only prisma/seed-quizzes.ts",
     "seed:quizzes:inventory": "SEED_QUIZZES_INVENTORY=true ts-node --transpile-only prisma/seed-quizzes.ts",
     "seed:quizzes:inventory:json": "SEED_QUIZZES_INVENTORY=true SEED_REPORT_FORMAT=json ts-node --transpile-only prisma/seed-quizzes.ts",
-    "seed:quizzes:publish-reviewed": "SEED_QUIZZES_PUBLISH_REVIEWED=true ts-node --transpile-only prisma/seed-quizzes.ts"
+    "seed:quizzes:publish-reviewed": "SEED_QUIZZES_PUBLISH_REVIEWED=true ts-node --transpile-only prisma/seed-quizzes.ts",
+    "seed:missions:dry-run": "ts-node --transpile-only prisma/seed-missions.ts",
+    "seed:missions:inventory:json": "SEED_REPORT_FORMAT=json ts-node --transpile-only prisma/seed-missions.ts"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.28",

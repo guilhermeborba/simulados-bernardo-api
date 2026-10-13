@@ -1,7 +1,7 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
 Data: 2026-10-12
-Status: lotes 01 a 04 concluídos; lotes 05 e 06 implementados tecnicamente, com revisão/publicação editorial e validação humana de uso pendentes; próximo lote técnico 07 — missões e XP
+Status: lotes 01 a 04 concluídos; lotes 05 a 07 implementados tecnicamente, com revisão/publicação editorial e validação humana de uso pendentes; próximo lote técnico 08 — avatar, coleções e conquistas
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -171,16 +171,17 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 
 ### Etapa 2 — Missões, avatar e conquistas
 
-- [ ] Criar “Aprender hoje”: atividade em andamento, missões disponíveis, quiz sugerido e acesso a simulados.
-- [ ] Criar duas missões curadas por semana para cada segmento; atividades selecionadas pela equipe, com distribuição por ano e turma.
-- [ ] Persistir XP por eventos com chave única de concessão e aplicar teto diário no servidor.
+- [x] Criar “Aprender hoje”: atividade em andamento, missões disponíveis, quiz sugerido e acesso a simulados.
+- [x] Implementar autoria/publicação e exportador offline de 30 rascunhos de missão, duas posições por cada uma das 15 faixas, com distribuição por ano/turma.
+- [ ] Revisar e publicar as duas missões curadas por semana de cada faixa, após disponibilizar os quizzes correspondentes.
+- [x] Persistir XP por eventos com chave única de concessão e aplicar teto diário no servidor.
 - [ ] Criar conquista de primeira conclusão, variedade de temas e progresso; regras verificadas no backend.
 - [ ] Criar catálogo simples de avatares/itens e o estado dos itens desbloqueados.
 - [ ] Aproveitar Bolinha no Infantil; usar coleções/selo de progresso como opção para Médio e Enfermagem.
-- [ ] Mostrar próxima atividade e progresso da missão; permitir encerrar a sessão sem pressão para continuar.
+- [x] Mostrar próxima atividade e progresso da missão; permitir encerrar a sessão sem pressão para continuar.
 - [ ] Instrumentar conclusão e retorno para avaliar se as missões ajudam a manter a prática.
 
-**Regras iniciais propostas:** 10 XP na primeira conclusão elegível de cada quiz lógico por dia, até 50 XP/dia; prática adicional é livre sem novo XP naquele dia. Esses números são parâmetros de piloto, ajustáveis após observação. XP não altera notas nem ranking de simulados. Itens são cosméticos, desbloqueados por progresso, sem compras.
+**Regra inicial implementada no lote 07:** 10 XP na primeira conclusão elegível de cada quiz lógico por dia, até 50 XP/dia; prática adicional é livre sem novo XP naquele dia. Esses números são parâmetros de piloto, ajustáveis após observação. XP não altera notas nem ranking de simulados. Itens são cosméticos, desbloqueados por progresso, sem compras.
 
 A chave de elegibilidade usa aluno + atividade lógica + dia em America/Sao_Paulo, independente da versão publicada. Repetir finish devolve o resultado gravado. Eventos de missão e conquista têm unicidade própria; a transação de conclusão registra o progresso e a concessão elegível. Serializar a concessão por aluno/dia, com trava ou mecanismo equivalente, antes de verificar o teto: quizzes diferentes concluídos ao mesmo tempo também precisam respeitar 50 XP/dia.
 
@@ -310,7 +311,7 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | 04 | Confirmação e resultado de quiz — concluído | QuizAttemptsService, projeções de feedback, migration e testes | Feedback seguro, retomada e concorrência validados |
 | 05 | Catálogo e mídia — implementação técnica concluída, revisão/publicação pendentes | Importador, 45 quizzes/213 perguntas, mídia e matriz | Aceite editorial ainda pendente: 45 quizzes revisados e ativos nas 15 faixas |
 | 06 | Jornada web de quiz — implementação técnica concluída; validação humana pendente | apiClient, BFF binário, catálogo/runner/histórico e LearningPreferences por conta | Automação valida contratos e retomada; uso com pessoas/leitor de tela/aparelhos reais continua pendente |
-| 07 | Missões e XP | Novos módulos, transações, ledger e tela Aprender hoje | Regra de concessão única passa sob concorrência |
+| 07 | Missões e XP — implementação técnica concluída; publicação editorial pendente | Novos módulos, transações, ledger e tela Aprender hoje | Regra de concessão única passa sob concorrência |
 | 08 | Avatar, coleções e conquistas | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
 | 09 | Habilidades e revisão | Conteúdo classificado, serviços e relatórios | Revisão útil e evidências separadas |
 | 10 | Acesso docente e recuperação | TeacherTurma, guards/services, auth e e-mail | Relatórios restritos e recuperação operacional |
@@ -353,10 +354,10 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Verificar mídia do snapshot, Range, revogação de acesso e falha de bytes sem bloquear confirmação/conclusão na API.
 - [x] Publicação concorrente com início não mistura enunciado, opções e gabarito de versões distintas.
 - [x] Quiz incompleto não finaliza nem altera status/totais.
-- [ ] Quiz incompleto não concede XP quando a recompensa for implementada.
+- [x] Quiz incompleto não concede XP.
 - [x] Arquivamento e revogação de membership obedecem à política documentada.
-- [ ] XP respeita unicidade, versão lógica, teto e mudança de dia no fuso definido.
-- [ ] Conclusões simultâneas de quizzes diferentes respeitam o teto diário de XP.
+- [x] XP respeita unicidade, versão lógica, teto e mudança de dia no fuso definido.
+- [x] Conclusões simultâneas de quizzes diferentes respeitam o teto diário de XP.
 - [x] Entrega de mídia pela API exige autorização atual e no-store; o BFF usa a sessão, sem URLs assinadas ou tokens na query.
 - [x] Concluir regressão de mídia/autorização no BFF e navegador; uploads privados continuam fora deste lote.
 - [x] Sessões web de contas distintas permanecem isoladas.
@@ -390,6 +391,9 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-Os lotes 01 a 04 estão concluídos; lotes 05 e 06 implementam tecnicamente catálogo/mídia e jornada web/preferências. A próxima tarefa técnica é o **lote 07: missões e XP** — definir módulos e ledger, concessão única por aluno/atividade lógica/dia, teto diário sob concorrência e tela Aprender hoje. Preservar notas/ranking de simulados e resultado idempotente do quiz; criar fixtures sintéticas para testes enquanto a revisão editorial segue pendente.
+Os lotes 01 a 04 estão concluídos; lotes 05 a 07 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões e XP. A próxima tarefa técnica é o **lote 08: avatar, coleções e conquistas** — catálogos e ownership persistidos, personalização por segmento e regras de conquistas no servidor. Preservar o ledger idempotente, o teto de XP e as notas/ranking de simulados. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
 
 A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada com pessoas, leitor de tela e aparelhos reais; automação não encerra esses gates.
+
+
+Fechamento técnico do lote 07: 479 unitários e 267 casos API/PostgreSQL; 30 testes de sessão, 23 jornadas HTTP e 38 Chromium desktop/mobile emulado passaram. Lint/builds/types/Prisma e exportadores offline passaram. A cobertura inclui teto sob concorrência, versões, snapshots de recompensa, rollback, mudança de dia/semana em São Paulo, migração sem backfill, arquivo de uma etapa concorrente e início de outra atividade sem ciclo de locks. Nenhum conteúdo editorial foi publicado. Operação: [guia de missões e XP](../../guia-missoes-xp.md).

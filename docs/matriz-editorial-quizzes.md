@@ -2,18 +2,18 @@
 
 Data da preparação: 2026-10-12. Escopo do lote 05: **45 quizzes e 213 perguntas**, com três quizzes em cada uma das 15 faixas. Os arquivos JSON de importação ficam em `prisma/quiz-data/`; suas questões, alternativas e gabaritos são insumos do importador executado no servidor.
 
-O conteúdo foi preparado e conferido quanto a contagem, estrutura, alternativas distintas, resposta única e explicação. **Revisão pedagógica humana e revisão técnica de Enfermagem ainda estão pendentes**: todas as entradas têm `review.status: PENDING`, `reviewedBy: null` e `reviewedAt: null`. A importação como rascunho não é aprovação editorial. Esta matriz não atribui a ninguém uma revisão que não realizou.
+O conteúdo foi preparado e conferido quanto a contagem, estrutura, alternativas distintas, resposta única e explicação. **Revisão pedagógica humana e revisão técnica de Enfermagem ainda estão pendentes**: todas as entradas têm `review.status: PENDING`, `reviewedBy: null` e `reviewedAt: null`. A importação como rascunho não é aprovação editorial. Em 2026-10-13, o responsável pelo projeto confirmou no chat: “Eu reviso os quizzes preparados”. Ele fica como responsável pela revisão do catálogo, incluindo Infantil e Enfermagem. A atribuição não registra uma revisão já realizada; os campos `reviewedBy`/`reviewedAt` permanecem nulos até a avaliação do conteúdo.
 
 ## Distribuição e objetivos
 
 | Faixa | `schoolYear` | Quizzes | Perguntas por quiz | Total de perguntas | Responsável pela revisão |
 |---|---:|---:|---:|---:|---|
-| Infantil 4 | -1 | 3 | 3 | 9 | A definir — pedagógico e acessibilidade |
-| Infantil 5 | -2 | 3 | 3 | 9 | A definir — pedagógico e acessibilidade |
-| Fundamental, 1º ao 5º ano | 1–5 | 15 | 5 | 75 | A definir por área/ano |
-| Fundamental, 6º ao 9º ano | 6–9 | 12 | 5 | 60 | A definir por área/ano |
-| Médio, 1ª à 3ª série | 10–12 | 9 | 5 | 45 | A definir por área/série |
-| Enfermagem | 0 | 3 | 5 | 15 | A definir — docente ou profissional habilitado |
+| Infantil 4 | -1 | 3 | 3 | 9 | Responsável pelo projeto — pendente |
+| Infantil 5 | -2 | 3 | 3 | 9 | Responsável pelo projeto — pendente |
+| Fundamental, 1º ao 5º ano | 1–5 | 15 | 5 | 75 | Responsável pelo projeto — pendente |
+| Fundamental, 6º ao 9º ano | 6–9 | 12 | 5 | 60 | Responsável pelo projeto — pendente |
+| Médio, 1ª à 3ª série | 10–12 | 9 | 5 | 45 | Responsável pelo projeto — pendente |
+| Enfermagem | 0 | 3 | 5 | 15 | Responsável pelo projeto — pendente |
 | **Total** | **15 faixas** | **45** | — | **213** | **Pendente** |
 
 Os temas são introdutórios, selecionados por faixa para oferecer pequenas atividades de aprendizagem. Três quizzes por ano constituem o catálogo inicial, não a cobertura completa de disciplinas, habilidades ou currículo. Foram reutilizadas somente disciplinas já existentes no seed, sem criar novos slugs. Todos os quizzes desta matriz começam com `contentVersion: 1`; `activityKey` e `originKey` identificam o conteúdo sem depender do título ou da versão.

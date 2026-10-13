@@ -17,6 +17,10 @@ import {
   UserRole,
 } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
+import {
+  LearningService,
+  QuizRewardReceipt,
+} from '../learning/learning.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import {
   parseStoredQuizMedia,
@@ -56,6 +60,7 @@ export class QuizAttemptsService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly correctionService: AttemptsCorrectionService,
+    private readonly learningService: LearningService,
   ) {}
 
   async confirmAnswer(
@@ -191,7 +196,12 @@ export class QuizAttemptsService {
           attemptId,
         );
         if (attempt.status === AttemptStatus.FINISHED) {
-          return this.presentResult(attempt, snapshots, answers);
+          return this.presentResult(
+            attempt,
+            snapshots,
+            answers,
+            await this.learningService.rewardFor(database, attempt.id),
+          );
         }
 
         let score = new Prisma.Decimal(0);
@@ -219,6 +229,11 @@ export class QuizAttemptsService {
           );
         }
         const finishedAt = new Date();
+        const reward = await this.learningService.recordCompletion(
+          database,
+          attempt,
+          finishedAt,
+        );
         const finishedAttempt = await database.attempt.update({
           where: { id: attemptId },
           data: {
@@ -241,7 +256,7 @@ export class QuizAttemptsService {
           },
           include: { simulation: { include: { discipline: true } } },
         });
-        return this.presentResult(finishedAttempt, snapshots, answers);
+        return this.presentResult(finishedAttempt, snapshots, answers, reward);
       },
     );
   }
@@ -259,7 +274,12 @@ export class QuizAttemptsService {
           database,
           attemptId,
         );
-        return this.presentResult(attempt, snapshots, answers);
+        return this.presentResult(
+          attempt,
+          snapshots,
+          answers,
+          await this.learningService.rewardFor(database, attempt.id),
+        );
       },
     );
   }
@@ -467,9 +487,11 @@ export class QuizAttemptsService {
     attempt: QuizAttempt,
     snapshots: PublicSnapshot[],
     answers: Map<string, AttemptAnswer>,
+    reward: QuizRewardReceipt,
   ) {
     const quiz = attempt.simulation;
     return {
+      reward,
       attempt: {
         id: attempt.id,
         studentId: attempt.studentId,
