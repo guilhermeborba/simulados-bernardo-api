@@ -20,6 +20,7 @@ describe('ReportsService', () => {
   };
   let studentAccessService: {
     assertCanAccessStudent: jest.Mock;
+    simulationScope: jest.Mock;
   };
 
   beforeEach(async () => {
@@ -36,6 +37,7 @@ describe('ReportsService', () => {
     };
     studentAccessService = {
       assertCanAccessStudent: jest.fn(),
+      simulationScope: jest.fn().mockReturnValue({ deletedAt: null }),
     };
 
     const moduleRef = await Test.createTestingModule({
@@ -82,6 +84,49 @@ describe('ReportsService', () => {
     );
   });
 
+  it('restricts teacher summaries to their currently assigned private groups and public activities', async () => {
+    const scope = {
+      deletedAt: null,
+      OR: [
+        { turmaId: null },
+        {
+          turma: {
+            deletedAt: null,
+            teachers: { some: { teacherId: 'teacher-1' } },
+          },
+        },
+      ],
+    };
+    studentAccessService.simulationScope.mockReturnValue(scope);
+    prisma.attempt.findMany.mockResolvedValue([]);
+    await service.getStudentSummary('student-1', {
+      id: 'teacher-1',
+      role: UserRole.TEACHER,
+    });
+    expect(prisma.attempt.findMany).toHaveBeenCalledWith(
+      expect.objectContaining({
+        where: {
+          studentId: 'student-1',
+          status: AttemptStatus.FINISHED,
+          simulation: { activityKind: 'SIMULATION', ...scope },
+        },
+      }),
+    );
+  });
+
+  it('rejects unrelated students before reading any assessment records', async () => {
+    studentAccessService.assertCanAccessStudent.mockRejectedValue(
+      new Error('Forbidden'),
+    );
+    await expect(
+      service.getStudentByDiscipline('student-1', {
+        id: 'teacher-1',
+        role: UserRole.TEACHER,
+      }),
+    ).rejects.toThrow('Forbidden');
+    expect(prisma.attempt.findMany).not.toHaveBeenCalled();
+  });
+
   it('aggregates student performance by discipline', async () => {
     prisma.attempt.findMany.mockResolvedValue([
       createAttempt('attempt-1', 80, 8, 'matematica', 'Matemática'),
@@ -124,7 +169,9 @@ describe('ReportsService', () => {
   it('keeps zero performance values for a simulation without finished attempts', async () => {
     prisma.attempt.findMany.mockResolvedValue([]);
 
-    await expect(service.getSimulationPerformance('simulation-1')).resolves.toEqual({
+    await expect(
+      service.getSimulationPerformance('simulation-1'),
+    ).resolves.toEqual({
       simulationId: 'simulation-1',
       simulation: null,
       totalFinishedAttempts: 0,

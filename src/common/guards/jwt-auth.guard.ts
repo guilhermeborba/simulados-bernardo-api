@@ -7,6 +7,11 @@ import {
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 import { UserRole } from '@prisma/client';
+import { PrismaService } from '../../database/prisma/prisma.service';
+import {
+  AccessTokenPayload,
+  assertCurrentAccessUser,
+} from './access-token-user';
 import { Request } from 'express';
 
 export interface AuthenticatedUser {
@@ -19,18 +24,12 @@ export interface RequestWithUser extends Request {
   user?: AuthenticatedUser;
 }
 
-interface AccessTokenPayload {
-  sub: string;
-  email: string;
-  role: UserRole;
-  type: 'access';
-}
-
 @Injectable()
 export class JwtAuthGuard implements CanActivate {
   constructor(
     private readonly jwtService: JwtService,
     private readonly configService: ConfigService,
+    private readonly prisma: PrismaService,
   ) {}
 
   async canActivate(context: ExecutionContext): Promise<boolean> {
@@ -49,15 +48,7 @@ export class JwtAuthGuard implements CanActivate {
         },
       );
 
-      if (payload.type !== 'access') {
-        throw new UnauthorizedException('Invalid access token');
-      }
-
-      request.user = {
-        id: payload.sub,
-        email: payload.email,
-        role: payload.role,
-      };
+      request.user = await assertCurrentAccessUser(this.prisma, payload);
 
       return true;
     } catch {

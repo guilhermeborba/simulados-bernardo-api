@@ -1,3 +1,4 @@
+import { safeRequestPath } from '../utils/safe-request-path';
 import {
   CallHandler,
   ExecutionContext,
@@ -23,7 +24,7 @@ export class LoggingInterceptor implements NestInterceptor {
             event: 'http_request',
             requestId: request.requestId,
             method: request.method,
-            path: request.originalUrl,
+            path: safeRequestPath(request),
             durationMs: Date.now() - startedAt,
           }),
         );

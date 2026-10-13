@@ -89,6 +89,7 @@ model User {
   name                 String
   email                String               @unique
   passwordHash         String
+  authVersion          Int                  @default(0)
   role                 UserRole
   status               UserStatus           @default(PENDING)
   createdAt            DateTime             @default(now())
@@ -102,6 +103,8 @@ model User {
   studentGuardianLinks GuardianStudent[]    @relation("StudentGuardianLinks")
   attempts             Attempt[]            @relation("StudentAttempts")
   refreshTokens        RefreshToken[]
+  passwordResetTokens  PasswordResetToken[]
+  teacherTurmas        TeacherTurma[]
   xpEvents             XpEvent[]
   createdMissions      Mission[]            @relation("MissionCreatedBy")
   missionProgresses    MissionProgress[]
@@ -396,6 +399,7 @@ model Turma {
   deletedAt         DateTime?
   invites           TurmaInvite[]
   memberships       TurmaMembership[]
+  teachers          TeacherTurma[]
   simulations       Simulation[]
   missions          Mission[]
 }
@@ -595,4 +599,29 @@ model QuestionSkill {
   skill      LearningSkill @relation(fields: [skillId], references: [id], onDelete: Restrict)
 
   @@index([skillId])
+}
+
+model PasswordResetToken {
+  id          String    @id @default(cuid())
+  userId      String
+  tokenHash   String    @unique
+  expiresAt   DateTime
+  usedAt      DateTime?
+  deliveredAt DateTime?
+  createdAt   DateTime  @default(now())
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([expiresAt])
+}
+
+model TeacherTurma {
+  teacherId String
+  turmaId   String
+  createdAt DateTime @default(now())
+  teacher   User     @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  turma     Turma    @relation(fields: [turmaId], references: [id], onDelete: Cascade)
+
+  @@id([teacherId, turmaId])
+  @@index([turmaId])
 }

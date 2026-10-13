@@ -1,8 +1,13 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  NotFoundException,
+} from '@nestjs/common';
 import { ActivityKind, AttemptStatus, Prisma, UserRole } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { toSafeUser } from '../users/users.presenter';
 import { UpdateStudentProfileDto } from './dto/update-student-profile.dto';
+import { LearningSkillsService } from '../learning-skills/learning-skills.service';
 import { RequestUser, StudentAccessService } from './student-access.service';
 
 @Injectable()
@@ -10,6 +15,7 @@ export class StudentsService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly studentAccessService: StudentAccessService,
+    private readonly learningSkillsService: LearningSkillsService,
   ) {}
 
   async getMe(user: RequestUser) {
@@ -25,6 +31,7 @@ export class StudentsService {
       throw new BadRequestException('Current user is not a student');
     }
 
+    await this.studentAccessService.assertCanAccessStudent(user.id, user);
     return this.upsertProfile(user.id, dto);
   }
 
@@ -55,7 +62,10 @@ export class StudentsService {
     return this.prisma.attempt.findMany({
       where: {
         studentId,
-        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+        simulation: {
+          activityKind: ActivityKind.SIMULATION,
+          ...this.studentAccessService.simulationScope(user),
+        },
       },
       include: {
         simulation: {
@@ -75,7 +85,10 @@ export class StudentsService {
       where: {
         studentId,
         status: AttemptStatus.FINISHED,
-        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+        simulation: {
+          activityKind: ActivityKind.SIMULATION,
+          ...this.studentAccessService.simulationScope(user),
+        },
       },
       include: {
         simulation: {
@@ -122,7 +135,9 @@ export class StudentsService {
         });
       }
 
-      const discipline = byDiscipline.get(attempt.simulation.discipline.slug) ?? {
+      const discipline = byDiscipline.get(
+        attempt.simulation.discipline.slug,
+      ) ?? {
         discipline: attempt.simulation.discipline.name,
         attempts: 0,
         totalPercentage: 0,
@@ -130,7 +145,10 @@ export class StudentsService {
       };
       discipline.attempts += 1;
       discipline.totalPercentage += percentage;
-      discipline.bestPercentage = Math.max(discipline.bestPercentage, percentage);
+      discipline.bestPercentage = Math.max(
+        discipline.bestPercentage,
+        percentage,
+      );
       byDiscipline.set(attempt.simulation.discipline.slug, discipline);
     }
 
@@ -139,7 +157,8 @@ export class StudentsService {
         ? Number(
             (
               finishedAttempts.reduce(
-                (total, attempt) => total + this.decimalToNumber(attempt.percentage),
+                (total, attempt) =>
+                  total + this.decimalToNumber(attempt.percentage),
                 0,
               ) / finishedAttempts.length
             ).toFixed(2),
@@ -153,11 +172,36 @@ export class StudentsService {
       byDiscipline: Array.from(byDiscipline.values()).map((item) => ({
         discipline: item.discipline,
         attempts: item.attempts,
-        averagePercentage: Number((item.totalPercentage / item.attempts).toFixed(2)),
+        averagePercentage: Number(
+          (item.totalPercentage / item.attempts).toFixed(2),
+        ),
         bestPercentage: item.bestPercentage,
       })),
       recentAttempts: finishedAttempts.slice(0, 5),
     };
+  }
+
+  async getLearningProgress(
+    studentId: string,
+    user: RequestUser,
+    requestedYear?: number,
+  ) {
+    return this.prisma.$transaction(
+      async (database) => {
+        await this.studentAccessService.assertCanAccessStudent(
+          studentId,
+          user,
+          database,
+        );
+        return this.learningSkillsService.readOnlyProgress(
+          database,
+          studentId,
+          requestedYear,
+          user.role === UserRole.TEACHER ? user.id : undefined,
+        );
+      },
+      { isolationLevel: Prisma.TransactionIsolationLevel.RepeatableRead },
+    );
   }
 
   private async upsertProfile(studentId: string, dto: UpdateStudentProfileDto) {
@@ -186,8 +230,12 @@ export class StudentsService {
       create: profileData,
       update: {
         ...(dto.schoolYear !== undefined ? { schoolYear: dto.schoolYear } : {}),
-        ...(dto.className !== undefined ? { className: dto.className?.trim() } : {}),
-        ...(dto.schoolName !== undefined ? { schoolName: dto.schoolName?.trim() } : {}),
+        ...(dto.className !== undefined
+          ? { className: dto.className?.trim() }
+          : {}),
+        ...(dto.schoolName !== undefined
+          ? { schoolName: dto.schoolName?.trim() }
+          : {}),
         ...(dto.avatarUrl !== undefined ? { avatarUrl: dto.avatarUrl } : {}),
       },
     });

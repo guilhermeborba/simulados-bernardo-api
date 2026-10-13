@@ -595,8 +595,8 @@ describe('Skills, evidence and review (Nest + PostgreSQL)', () => {
     });
     await http('get', `/attempts/${id}`, admin).expect(401);
     await http('get', `/attempts/${id}/questions`, admin).expect(401);
-    // Finish's existing role guard rejects ADMIN before entering the service.
-    await finish(id, admin).expect(403);
+    // The current-account guard invalidates the stale ADMIN role before the service.
+    await finish(id, admin).expect(401);
   });
   it('ignores difficulties older than 30 days while retaining progress', async () => {
     const sk = await skill();

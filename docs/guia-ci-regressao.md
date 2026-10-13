@@ -77,3 +77,12 @@ Fechamento da validação do lote 06: **409 unitários e 214 integração API/Po
 A integração testa classificação editorial explícita, snapshots imutáveis, todas as faixas, primeira resposta/repetição/revisão, versões, perguntas vistas primeiro em revisão, dificuldades recentes/resolvidas, acesso por turma e conta atual, inícios concorrentes por modo e ausência de XP/missão/itens em REVIEW. Testes de migration usam schema próprio populado anterior ao lote 09 e os importadores validam rascunhos e publicação com revisão explícita. Histórico sem classificação permanece sem classificação.
 
 A web acrescenta `tests/e2e/progress-review-regression.test.mjs` e `tests/browser/progress-review.spec.ts`. As jornadas passam por Next/BFF/Nest/PostgreSQL, usando somente fixtures sintéticas. Builds devem terminar antes de iniciar os servidores do harness. Publicação editorial e avaliação com aparelhos/pessoas seguem pendentes.
+
+
+## Lote 10 — vínculos e recuperação com transporte sintético
+
+As suítes de supervisão verificam aluno ativo, responsável vinculado, atribuição docente, revogação, catálogos/convites/ranking restritos e ausência de outra turma privada nos relatórios. A migration é aplicada também sobre legado populado, preservando dados e inicializando authVersion=0. Guards validam claims/papel/status/versão atuais.
+
+A suíte de recuperação inicia Resend local em loopback com credenciais e endereços sintéticos; não envia e-mails externos. Cobre resposta uniforme, cooldown concorrente, hash/expiração/uso único, links simultâneos, refresh concorrente, rollback da transação, falha de entrega/notificação, configuração desativada, limite por IP e senhas Unicode/72 bytes. A suíte de observabilidade passa tokens/senhas canário em query/body e exige que não apareçam em logs, auditoria ou path do erro. O reset precisa invalidar access/refresh tokens anteriores, inclusive quando refresh concorre com o reset.
+
+A produção permanece sem ativação até configurar chave/remetente verificado no ambiente autorizado. Contratos no [guia de acesso e recuperação](guia-acesso-recuperacao.md); decisões no [ADR 014](decisions/014-acesso-docente-e-recuperacao.md).

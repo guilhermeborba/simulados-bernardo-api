@@ -5,7 +5,7 @@
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O próximo trabalho técnico é acesso docente/responsável e recuperação de senha (lote 10); revisão editorial e validação humana de uso continuam pendentes.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O próximo trabalho técnico é a prova e o planejamento mobile (lote 11); ativação de e-mail real, revisão editorial e validação humana de uso continuam pendentes.
 
 ---
 
@@ -22,8 +22,7 @@ As 6 fases do plano original do backend foram implementadas, e a **integração 
 
 Pendências menores (não bloqueantes para produção):
 
-- `POST /auth/forgot-password` + `POST /auth/reset-password` (recuperação de senha) — especificado, não implementado
-- Restrição de professor a turmas autorizadas — professor existe como role mas sem controle de acesso a alunos específicos
+- Ativação do Resend — implementação e transporte local disponíveis no lote 10; configurar chave/remetente verificado e verificar entrega real no ambiente autorizado
 - Validação humana de uso — automação HTTP/navegador não substitui observação por segmento, leitor de tela e aparelhos reais; o fechamento automatizado do lote 06 está registrado abaixo
 
 ---
@@ -84,7 +83,7 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 
 Plano: [Evolução — quizzes, gamificação e mobile](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
-**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lotes 05 a 08 implementados tecnicamente.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
+**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lotes 05 a 10 implementados tecnicamente.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
 
 Sequência: consolidar a base → quizzes na web → missões/XP/avatar/conquistas → revisão e progresso por habilidade → prova e planejamento mobile → app/beta. Entregas, dependências, estimativas condicionais e critérios de aceite estão no plano.
 
@@ -147,7 +146,7 @@ O endpoint `GET /attempts/:id/questions` **já está implementado** em `Attempts
 
 ### 2. Recuperação de senha
 
-Endpoints planejados mas não implementados: `POST /auth/forgot-password` e `POST /auth/reset-password`. Requer envio de e-mail — decidir provider antes de implementar.
+Endpoints implementados no lote 10 com Resend, escolhido pelo usuário. Entrega real exige chave e remetente verificado configurados fora do chat. Contratos e ativação no [guia de acesso e recuperação](docs/guia-acesso-recuperacao.md).
 
 ---
 
@@ -193,4 +192,17 @@ A web oferece /progresso, contadores/evidência, sugestões, revisão em andamen
 
 **Validação técnica:** 571 testes unitários/37 suites e 368 casos Nest/PostgreSQL/17 suites passaram, além de lint/build e dry-runs de quizzes, habilidades e missões. Cobertura inclui histórico antes da migration, constraints, rascunhos/hash/escopo de turma, revisão explícita, rollback de lote, 15 faixas, concorrência por modo, revogação/status/papel atual, versões, histórico sem classificação e ausência de recompensas em REVIEW. Web: typecheck/build, 30 testes de sessão, 39 jornadas HTTP e 64 Chromium desktop/mobile passaram, incluindo teclado, retomada, falhas/retry, contas atrasadas, Axe e overflow. CI fixa o commit compatível da API.
 
-[ADR 013](docs/decisions/013-habilidades-e-revisao.md), [guia de habilidades](docs/guia-habilidades-revisao.md) e plano de evolução registram contratos, limites e curadoria. Os 45 quizzes/213 perguntas, 45 habilidades/classificações e 30 rascunhos de missão continuam pendentes de revisão/publicação. O responsável pelo projeto assumiu a revisão dos quizzes sem aprovar o conteúdo. Não houve seed, migration em banco existente ou deploy. Avaliação com pessoas, leitor de tela e aparelhos reais permanece pendente. Próxima tarefa técnica: **lote 10 — acesso docente/responsável e recuperação de senha**.
+[ADR 013](docs/decisions/013-habilidades-e-revisao.md), [guia de habilidades](docs/guia-habilidades-revisao.md) e plano de evolução registram contratos, limites e curadoria. Os 45 quizzes/213 perguntas, 45 habilidades/classificações e 30 rascunhos de missão continuam pendentes de revisão/publicação. O responsável pelo projeto assumiu a revisão dos quizzes sem aprovar o conteúdo. Não houve seed, migration em banco existente ou deploy. Avaliação com pessoas, leitor de tela e aparelhos reais permanece pendente. Na conclusão do lote 09, a próxima tarefa era o lote 10, entregue abaixo.
+
+
+---
+
+## Acompanhamento e recuperação — lote 10
+
+`TeacherTurma` permite a ADMIN atribuir/remover docentes, sem confundir convite de aluno com permissão de professor. Roster e relatórios exigem contas/alunos ativos e vínculo atual. Responsável consulta somente alunos vinculados; docente consulta alunos de suas turmas e registros públicos/dessas turmas, sem revelar outra turma privada do mesmo aluno. Catálogos privados, ranking e gestão de convites respeitam atribuições. Evidências de habilidade são somente para leitura; médias de simulados continuam separadas de quizzes/revisões.
+
+A recuperação usa Resend escolhido pelo usuário, tokens aleatórios persistidos somente como hash, prazo de 30 minutos, consumo único, cooldown por conta e limite por IP. Pedido tem resposta uniforme e logs sem destinatário/link. Reset troca senha, invalida links irmãos e revoga sessões anteriores numa transação. Guards conferem papel/status/versão atuais no banco; login/refresh/reset concorrentes usam locks compatíveis. Novas senhas têm oito caracteres Unicode e no máximo 72 bytes; login legado foi preservado. A web remove o fragmento do link, conserva o token só em memória e não faz login automático nem altera cookies de outra conta aberta.
+
+**Validação técnica:** 688 testes unitários/39 suites e 395 casos Nest/PostgreSQL/21 suites passaram. Incluem vínculos/revogação, ausência de outra turma privada, migration populada, cooldown/links concorrentes, reset com refresh ou login já verificado, rollback, limite por IP, configuração Resend, Unicode/72 bytes e privacidade de logs/auditoria/erros. Lint/build, Prisma validate e dry-runs de simulados, quizzes, missões e habilidades passaram. A web compatível passou 30 testes de sessão e 48 jornadas HTTP; a regressão de interface e seus totais são registrados no PROGRESS.md da web.
+
+[ADR 014](docs/decisions/014-acesso-docente-e-recuperacao.md) e [guia de operação](docs/guia-acesso-recuperacao.md) documentam contratos e ativação. Resend está desativado por padrão; chave/remetente verificado e entrega real continuam pendentes. Testes usam servidor de e-mail sintético e PostgreSQL descartável. Não houve seed, migration em base existente, e-mail externo ou deploy. Os 45 quizzes/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos de missão mantêm revisão/publicação pendentes. Pessoas, leitor de tela e aparelhos reais continuam necessários. Próxima tarefa técnica: **lote 11 — prova e planejamento mobile**.

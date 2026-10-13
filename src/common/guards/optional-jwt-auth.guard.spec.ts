@@ -2,6 +2,7 @@ import { ExecutionContext, UnauthorizedException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 import { UserRole } from '@prisma/client';
+import { PrismaService } from '../../database/prisma/prisma.service';
 import { OptionalJwtAuthGuard } from './optional-jwt-auth.guard';
 import { RequestWithUser } from './jwt-auth.guard';
 
@@ -20,6 +21,17 @@ describe('OptionalJwtAuthGuard', () => {
     const guard = new OptionalJwtAuthGuard(
       { verifyAsync: jest.fn() } as unknown as JwtService,
       configService,
+      {
+        user: {
+          findFirst: jest
+            .fn()
+            .mockResolvedValue({
+              id: 'user-1',
+              email: 'aluno@example.com',
+              role: UserRole.STUDENT,
+            }),
+        },
+      } as unknown as PrismaService,
     );
     const request = { headers: {} } as RequestWithUser;
 
@@ -38,6 +50,17 @@ describe('OptionalJwtAuthGuard', () => {
         }),
       } as unknown as JwtService,
       configService,
+      {
+        user: {
+          findFirst: jest
+            .fn()
+            .mockResolvedValue({
+              id: 'user-1',
+              email: 'aluno@example.com',
+              role: UserRole.STUDENT,
+            }),
+        },
+      } as unknown as PrismaService,
     );
     const request = {
       headers: { authorization: 'Bearer token' },
@@ -53,6 +76,17 @@ describe('OptionalJwtAuthGuard', () => {
         verifyAsync: jest.fn().mockRejectedValue(new Error('jwt expired')),
       } as unknown as JwtService,
       configService,
+      {
+        user: {
+          findFirst: jest
+            .fn()
+            .mockResolvedValue({
+              id: 'user-1',
+              email: 'aluno@example.com',
+              role: UserRole.STUDENT,
+            }),
+        },
+      } as unknown as PrismaService,
     );
     const request = {
       headers: { authorization: 'Bearer vencido' },

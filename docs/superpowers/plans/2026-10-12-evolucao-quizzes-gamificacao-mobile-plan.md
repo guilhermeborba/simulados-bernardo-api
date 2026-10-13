@@ -1,7 +1,7 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
 Data: 2026-10-12
-Status: lotes 01 a 04 concluídos; lotes 05 a 09 implementados tecnicamente, com revisão/publicação editorial e validação humana de uso pendentes; próximo lote técnico 10 — acesso docente e recuperação
+Status: lotes 01 a 04 concluídos; lotes 05 a 10 implementados tecnicamente; ativação de e-mail real, revisão/publicação editorial e validação humana pendentes; próximo lote técnico 11 — prova e planejamento mobile
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -200,9 +200,10 @@ Missões semanais abrem segunda-feira 00:00 e encerram na segunda seguinte no me
 - [x] Registrar habilidade/versão no snapshot e distinguir primeira resposta, repetição e revisão nas métricas.
 - [x] Mostrar progresso por tema com quantidade de evidências e mensagem de “evidência insuficiente” quando necessário.
 - [x] Exibir histórico de prática separado de avaliação; não declarar domínio só porque o aluno repetiu a mesma questão.
-- [ ] Criar visão do responsável usando GuardianStudent.
-- [ ] Implementar vínculo docente-turma e as verificações de acesso antes de liberar visão do professor.
-- [ ] Entregar recuperação de senha, com provedor de e-mail escolhido, token com hash/expiração/uso único e testes.
+- [x] Criar visão do responsável usando GuardianStudent.
+- [x] Implementar vínculo docente-turma e verificações de acesso por conta/aluno/turma atuais.
+- [x] Implementar recuperação com Resend escolhido, hash/expiração/uso único e testes com transporte sintético.
+- [ ] Ativar chave/remetente verificado do Resend e validar entrega real no ambiente autorizado.
 
 **Aceite:** revisão nunca recomenda conteúdo inacessível; relatório separa prática de avaliação; responsável só vê alunos vinculados; professor só vê turmas/alunos autorizados; progresso informa seus limites; recuperação de senha funciona. Recursos docentes podem ser entregues depois da revisão do aluno, mas antes de serem anunciados.
 
@@ -316,7 +317,7 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | 07 | Missões e XP — implementação técnica concluída; publicação editorial pendente | Novos módulos, transações, ledger e tela Aprender hoje | Regra de concessão única passa sob concorrência |
 | 08 | Avatar, coleções e conquistas | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
 | 09 | Habilidades e revisão | Conteúdo classificado, serviços e relatórios | Revisão útil e evidências separadas |
-| 10 | Acesso docente e recuperação | TeacherTurma, guards/services, auth e e-mail | Relatórios restritos e recuperação operacional |
+| 10 | Acesso docente/responsável e recuperação — implementação técnica concluída | TeacherTurma, guards/services, painel e Resend | Relatórios restritos e recuperação validados localmente; ativação de e-mail real pendente |
 | 11 | Prova mobile | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
 | 12 | App/beta | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
 
@@ -367,7 +368,7 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [ ] Concluir regressão de troca de conta da jornada web; o app deve reproduzir esse isolamento quando implementado.
 - [x] Infantil funciona com mídia indisponível e com áudio/movimento desativados em Chromium desktop/mobile emulado.
 - [ ] Fluxos Android/iOS tratam suspensão, refresh, perda de rede, reinstalação e link de convite.
-- [ ] Relatórios de responsável/docente respeitam os vínculos.
+- [x] Relatórios de responsável/docente respeitam vínculos atuais e recorte de turmas.
 
 Na implementação, usar unitários para regras, integração com PostgreSQL para índices/transações/concorrência e e2e para contratos críticos. Executar build/lint e dry-run apropriados aos arquivos alterados. Dados de teste e migrations devem ser validados em ambiente isolado.
 
@@ -393,7 +394,7 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-Os lotes 01 a 04 estão concluídos; lotes 05 a 08 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões, XP e coleção pessoal. O lote 08 acrescenta cinco conquistas verificadas no servidor, seis itens cosméticos e apresentação persistida AUTO/MASCOT/SEAL, com Bolinha no Infantil e selos nas faixas mais velhas. Concessões são atômicas e preservam notas, ranking e regras de XP; a migration recupera apenas progresso válido do lote 07. O lote 09 entrega progresso por habilidade e revisão orientada, separando primeiras respostas, repetições e revisões; REVIEW não concede XP, missões ou itens. O catálogo propõe 45 habilidades e classifica as 213 perguntas, ainda PENDING. A próxima tarefa técnica é o **lote 10: acesso docente e recuperação**, incluindo visão do responsável com vínculo autorizado. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
+Os lotes 01 a 04 estão concluídos; lotes 05 a 08 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões, XP e coleção pessoal. O lote 08 acrescenta cinco conquistas verificadas no servidor, seis itens cosméticos e apresentação persistida AUTO/MASCOT/SEAL, com Bolinha no Infantil e selos nas faixas mais velhas. Concessões são atômicas e preservam notas, ranking e regras de XP; a migration recupera apenas progresso válido do lote 07. O lote 09 entrega progresso por habilidade e revisão orientada, separando primeiras respostas, repetições e revisões; REVIEW não concede XP, missões ou itens. O catálogo propõe 45 habilidades e classifica as 213 perguntas, ainda PENDING. O lote 10 entrega acompanhamento docente/responsável por vínculos atuais, relatórios restritos e recuperação com Resend/versão de sessão. Ativação real do e-mail segue pendente. A próxima tarefa técnica é o **lote 11: prova e planejamento mobile**, com validação em aparelhos reais antes de reestimar o app. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
 
 A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada com pessoas, leitor de tela e aparelhos reais; automação não encerra esses gates.
 
@@ -404,3 +405,6 @@ Fechamento técnico do lote 08: 513 unitários e 309 casos API/PostgreSQL; 30 te
 
 
 Fechamento técnico do lote 09: catálogo offline e hashes, autoria/revisão explícita de habilidades, snapshots imutáveis e sessões REVIEW de até cinco perguntas estão implementados. A web oferece /progresso, retomada, resultado e filtro de histórico. Uma pergunta vista em REVIEW ou sem classificação não passa a ser primeira resposta ao reaparecer em NORMAL. Nova versão não reinicia a identidade lógica. Perguntas diferentes da mesma habilidade podem vir de outro quiz autorizado; a sessão continua vinculada a um único quiz. As propostas 45/213 permanecem PENDING e não foram importadas/publicadas em base existente. Operação: [guia de habilidades e revisão](../../guia-habilidades-revisao.md) e [ADR 013](../../decisions/013-habilidades-e-revisao.md). Totais finais de regressão estão em PROGRESS.md.
+
+
+Fechamento técnico do lote 10: roster mínimo e /acompanhamento separam simulados de evidências de prática. TeacherTurma é atribuído somente por ADMIN; filtros excluem atividades de outras turmas privadas e convites não conferem papel docente. Recuperação com Resend usa token aleatório/hash, expiração, cooldown, uso único e revogação atômica das sessões, com transporte sintético e sem login automático. Chave/remetente verificado e entrega real permanecem pendentes. Totais finais estão em PROGRESS.md. Operação: [guia de acesso e recuperação](../../guia-acesso-recuperacao.md) e [ADR 014](../../decisions/014-acesso-docente-e-recuperacao.md). Nenhuma base existente, publicação editorial ou deploy foi alterado.

@@ -22,6 +22,7 @@ import { QuizzesModule } from './modules/quizzes/quizzes.module';
 import { ReportsModule } from './modules/reports/reports.module';
 import { SimulationsModule } from './modules/simulations/simulations.module';
 import { StudentsModule } from './modules/students/students.module';
+import { TeachersModule } from './modules/teachers/teachers.module';
 import { TurmasModule } from './modules/turmas/turmas.module';
 import { UsersModule } from './modules/users/users.module';
 
@@ -56,6 +57,7 @@ import { UsersModule } from './modules/users/users.module';
     LearningModule,
     ReportsModule,
     TurmasModule,
+    TeachersModule,
     PontuacaoModule,
   ],
   providers: [

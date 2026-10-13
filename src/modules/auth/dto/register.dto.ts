@@ -1,4 +1,11 @@
-import { IsEmail, IsOptional, IsString, MaxLength, MinLength } from 'class-validator';
+import {
+  IsEmail,
+  IsOptional,
+  IsString,
+  MaxLength,
+  MinLength,
+} from 'class-validator';
+import { MaxPasswordBytes } from './password-recovery.dto';
 
 export class RegisterDto {
   @IsString()
@@ -11,7 +18,8 @@ export class RegisterDto {
 
   @IsString()
   @MinLength(8)
-  @MaxLength(128)
+  @MaxLength(72)
+  @MaxPasswordBytes()
   password!: string;
 
   /** Token do link de convite, quando o cadastro veio por uma turma. */

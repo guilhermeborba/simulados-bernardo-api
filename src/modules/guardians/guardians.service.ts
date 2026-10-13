@@ -1,5 +1,10 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
-import { UserRole } from '@prisma/client';
+import {
+  BadRequestException,
+  Injectable,
+  NotFoundException,
+  UnauthorizedException,
+} from '@nestjs/common';
+import { UserRole, UserStatus } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { toSafeUser } from '../users/users.presenter';
 import { LinkGuardianStudentDto } from './dto/link-guardian-student.dto';
@@ -14,6 +19,7 @@ export class GuardiansService {
         where: {
           id: dto.guardianId,
           role: UserRole.GUARDIAN,
+          status: UserStatus.ACTIVE,
           deletedAt: null,
         },
       }),
@@ -21,6 +27,7 @@ export class GuardiansService {
         where: {
           id: dto.studentId,
           role: UserRole.STUDENT,
+          status: UserStatus.ACTIVE,
           deletedAt: null,
         },
       }),
@@ -35,7 +42,9 @@ export class GuardiansService {
     }
 
     if (guardian.id === student.id) {
-      throw new BadRequestException('Guardian and student must be different users');
+      throw new BadRequestException(
+        'Guardian and student must be different users',
+      );
     }
 
     const link = await this.prisma.guardianStudent.upsert({
@@ -65,14 +74,34 @@ export class GuardiansService {
 
     return {
       ...link,
-      student: { ...toSafeUser(link.student), studentProfile: link.student.studentProfile },
+      student: {
+        ...toSafeUser(link.student),
+        studentProfile: link.student.studentProfile,
+      },
       guardian: toSafeUser(link.guardian),
     };
   }
 
   async findMyStudents(guardianId: string) {
+    const guardian = await this.prisma.user.findFirst({
+      where: {
+        id: guardianId,
+        role: UserRole.GUARDIAN,
+        status: UserStatus.ACTIVE,
+        deletedAt: null,
+      },
+      select: { id: true },
+    });
+    if (!guardian) throw new UnauthorizedException('Active guardian required');
     const links = await this.prisma.guardianStudent.findMany({
-      where: { guardianId, student: { deletedAt: null } },
+      where: {
+        guardianId,
+        student: {
+          deletedAt: null,
+          role: UserRole.STUDENT,
+          status: UserStatus.ACTIVE,
+        },
+      },
       include: {
         student: {
           include: {
@@ -85,7 +114,10 @@ export class GuardiansService {
 
     return links.map((link) => ({
       ...link,
-      student: { ...toSafeUser(link.student), studentProfile: link.student.studentProfile },
+      student: {
+        ...toSafeUser(link.student),
+        studentProfile: link.student.studentProfile,
+      },
     }));
   }
 

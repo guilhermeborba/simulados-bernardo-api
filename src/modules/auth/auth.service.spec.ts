@@ -26,6 +26,8 @@ describe('AuthService', () => {
   };
   let prisma: {
     $transaction: jest.Mock;
+    $queryRaw: jest.Mock;
+    user: { findUnique: jest.Mock };
     refreshToken: {
       updateMany: jest.Mock;
       create: jest.Mock;
@@ -43,6 +45,7 @@ describe('AuthService', () => {
     name: 'Aluno Teste',
     email: 'aluno@example.com',
     passwordHash: 'hashed-password',
+    authVersion: 0,
     role: UserRole.STUDENT,
     status: UserStatus.ACTIVE,
     createdAt: new Date('2026-01-01T00:00:00.000Z'),
@@ -71,6 +74,8 @@ describe('AuthService', () => {
     };
     prisma = {
       $transaction: jest.fn(),
+      $queryRaw: jest.fn().mockResolvedValue([{ id: activeUser.id }]),
+      user: { findUnique: jest.fn().mockResolvedValue(activeUser) },
       refreshToken: {
         updateMany: jest.fn().mockResolvedValue({ count: 1 }),
         create: jest.fn().mockResolvedValue({ id: 'refresh-record-1' }),
@@ -140,10 +145,9 @@ describe('AuthService', () => {
           true,
         );
 
-        return {
-          ...activeUser,
-          passwordHash: input.passwordHash,
-        };
+        const saved = { ...activeUser, passwordHash: input.passwordHash };
+        prisma.user.findUnique.mockResolvedValue(saved);
+        return saved;
       },
     );
 
@@ -176,10 +180,9 @@ describe('AuthService', () => {
   });
 
   it('logs in an active user with valid credentials', async () => {
-    usersService.findByEmail.mockResolvedValue({
-      ...activeUser,
-      passwordHash: await hash('password123', 4),
-    });
+    const saved = { ...activeUser, passwordHash: await hash('password123', 4) };
+    usersService.findByEmail.mockResolvedValue(saved);
+    prisma.user.findUnique.mockResolvedValue(saved);
 
     const response = await service.login({
       email: 'aluno@example.com',
@@ -190,6 +193,25 @@ describe('AuthService', () => {
     expect(response.accessToken).toBe('access-token-user-1');
     expect(response.refreshToken).toBe('refresh-token-user-1');
   });
+
+  it.each([
+    ['password changed', { passwordHash: 'replacement-hash' }],
+    ['session version advanced', { authVersion: 1 }],
+    ['role changed', { role: UserRole.GUARDIAN }],
+  ])(
+    'does not issue tokens when %s after password verification',
+    async (_label, changes) => {
+      const password = 'password123';
+      const user = { ...activeUser, passwordHash: await hash(password, 4) };
+      usersService.findByEmail.mockResolvedValue(user);
+      prisma.user.findUnique.mockResolvedValue({ ...user, ...changes });
+      await expect(
+        service.login({ email: user.email, password }),
+      ).rejects.toBeInstanceOf(UnauthorizedException);
+      expect(jwtService.signAsync).not.toHaveBeenCalled();
+      expect(prisma.refreshToken.create).not.toHaveBeenCalled();
+    },
+  );
 
   it('rejects invalid credentials', async () => {
     usersService.findByEmail.mockResolvedValue(null);
@@ -330,6 +352,32 @@ describe('AuthService', () => {
       expect(prisma.refreshToken.update).not.toHaveBeenCalled();
     });
 
+    it.each([
+      { sub: undefined },
+      { sub: '' },
+      { email: undefined },
+      { role: undefined },
+      { role: 'OWNER' },
+      { authVersion: null },
+      { authVersion: -1 },
+      { authVersion: '0' },
+    ])(
+      'rejects malformed signed refresh claims before a transaction: %p',
+      async (claims) => {
+        jwtService.verifyAsync.mockResolvedValue({
+          sub: activeUser.id,
+          email: activeUser.email,
+          role: activeUser.role,
+          type: 'refresh',
+          ...claims,
+        });
+        await expect(service.refresh({ refreshToken })).rejects.toBeInstanceOf(
+          UnauthorizedException,
+        );
+        expect(prisma.$transaction).not.toHaveBeenCalled();
+      },
+    );
+
     it('rejects an invalid signature before opening a transaction', async () => {
       jwtService.verifyAsync.mockRejectedValue(new Error('invalid signature'));
 
@@ -352,6 +400,8 @@ describe('AuthService', () => {
   it('does not revoke a token owned by another subject on logout', async () => {
     jwtService.verifyAsync.mockResolvedValue({
       sub: activeUser.id,
+      email: activeUser.email,
+      role: activeUser.role,
       type: 'refresh',
     });
     prisma.refreshToken.findUnique.mockResolvedValue({
