@@ -1,441 +1,145 @@
 # Simulados Bernardo API
 
-Backend do **Simulados Bernardo**, uma plataforma educacional para criação, realização e acompanhamento de simulados escolares.
+Backend da plataforma educacional **Simulados Bernardo**, com simulados, quizzes, missões, recompensas, progresso por habilidade e acompanhamento autorizado. A web já consome a API por um BFF com cookies httpOnly; a correção, as permissões e a concessão de recompensas ficam no servidor.
 
-Este repositório inicia a migração do modelo atual, baseado em dados locais no front-end, para uma API persistente, segura e escalável com usuários autenticados, perfis, simulados, questões, tentativas, correção no servidor e relatórios de desempenho.
+## Estado atual — 13/10/2026
 
-## Status
+Os lotes 01 a 10 do [plano de evolução](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md) estão implementados tecnicamente. O lote 10 foi integrado à `main` nas PRs [API #213](https://github.com/guilhermeborba/simulados-bernardo-api/pull/213) e [web #45](https://github.com/guilhermeborba/simulados-bernardo/pull/45), com CI aprovada. Integração do código não comprova implantação em produção.
 
-Fase 6 em desenvolvimento: segurança, hardening e produção.
+| Lotes | Entrega técnica |
+|---|---|
+| 01–02 | Sessões isoladas, rotação atômica de refresh, inventário do acervo e CI com PostgreSQL descartável |
+| 03–04 | Quizzes versionados, snapshots privados, confirmação com feedback e conclusão idempotentes |
+| 05–06 | Catálogo inicial, ilustrações modernas e narração Infantil, jornada web, retomada/histórico e preferências por conta |
+| 07–08 | Aprender hoje, missões semanais, XP transacional, avatar, coleções e conquistas |
+| 09 | Habilidades classificadas, evidências de primeira resposta/repetição/revisão e prática de dificuldades |
+| 10 | Acompanhamento por vínculos de responsável/docente e recuperação de senha com Resend |
 
-Implementado neste repositório:
+Os cinco segmentos estão contemplados: Educação Infantil, Fundamental I, Fundamental II, Ensino Médio e Enfermagem, totalizando 15 faixas. Ainda dependem de execução separada:
 
-- Estrutura inicial NestJS com TypeScript.
-- Configuração de ambiente com validação.
-- Docker Compose para PostgreSQL.
-- Prisma configurado com schema inicial do domínio.
-- Endpoints técnicos `GET /health` e `GET /ready`.
-- Cadastro, login, refresh token, logout e `GET /auth/me`.
-- CRUD administrativo inicial de usuários.
-- Guards de autenticação JWT e autorização por role.
-- CRUD de disciplinas.
-- CRUD de simulados com publicação, arquivamento e listagem pública de simulados disponíveis.
-- CRUD de questões com alternativas, gabarito protegido e reordenação.
-- Início de tentativas, envio de respostas, finalização e resultado detalhado.
-- Correção no servidor para múltipla escolha, verdadeiro/falso, associação e classificação.
-- Perfil do aluno, histórico de tentativas e desempenho agregado.
-- Vínculo responsável-aluno com restrição de acesso.
-- Relatórios básicos por aluno, disciplina, simulado e taxa de erro por questão.
-- Rate limit global configurável.
-- Headers de segurança com Helmet.
-- `requestId` por requisição via `x-request-id`.
-- Respostas de erro padronizadas.
-- Logs estruturados sem payload sensível.
-- Auditoria administrativa para ações mutáveis.
-- Swagger/OpenAPI em `GET /docs`.
-- Teste unitário inicial do health check.
-- Checklist de desenvolvimento em `docs/checklist-desenvolvimento.md`.
+- Revisão humana e publicação dos **45 quizzes/213 perguntas**, **45 propostas de habilidade/213 classificações** e **30 rascunhos de missão**; o estado editorial continua `PENDING`.
+- Configuração de chave/remetente verificado e entrega real de e-mail; Resend permanece desativado por padrão.
+- Aplicação das migrations e implantação das versões compatíveis no ambiente operacional escolhido.
+- Validação com pessoas, leitor de tela e aparelhos Android/iOS reais. Chromium mobile emulado não substitui esses testes.
 
-## Stack
+O próximo lote técnico é **11 — prova e planejamento mobile**, ainda não iniciado. O app e o beta permanecem futuros. Consulte [PROGRESS.md](PROGRESS.md) para o registro consolidado de entregas e pendências.
 
-- Node.js
-- NestJS
-- TypeScript
-- PostgreSQL
-- Prisma ORM
-- JWT com refresh token
-- Zod para validação de ambiente
-- Jest e Supertest
-- Docker Compose
+## Stack e arquitetura
 
-## Arquitetura
-
-Arquitetura em camadas:
-
-```text
-Controller -> Service -> Prisma -> Database
-```
-
-Estrutura inicial:
+Node.js 22, NestJS, TypeScript, PostgreSQL, Prisma, JWT, Zod, Jest/Supertest e Docker. Fluxo de dados: `Controller → Service → PrismaService → PostgreSQL`.
 
 ```text
 src/
-  app.module.ts
-  main.ts
-  config/
-  database/
-    prisma/
-  health/
-prisma/
-  schema.prisma
-docs/
-  checklist-desenvolvimento.md
-```
-
-A estrutura será expandida por módulos conforme as fases:
-
-```text
-src/
+  config/                         validação de ambiente
+  common/                         guards, erros, logs e requestId
+  database/prisma/                 PrismaService
+  health/                         /health e /ready
   modules/
-    auth/
-    users/
-    students/
-    guardians/
-    disciplines/
-    simulations/
-    questions/
-    attempts/
-    reports/
-    admin/
-  common/
+    auth/                         sessão e recuperação de senha
+    users/, students/, guardians/ contas, perfis e vínculos
+    teachers/, turmas/             atribuições docentes e acesso privado
+    disciplines/, simulations/    catálogo e autoria de simulados
+    questions/, attempts/          questões, execução e correção
+    quizzes/                      versões, apresentação e mídia
+    learning-preferences/          faixa, áudio e movimento por conta
+    learning/                     missões e XP
+    learning-skills/               habilidades, evidências e revisão
+    collections/                  avatar e conquistas
+    reports/, pontuacao/, audit/   relatórios, ranking e auditoria
+prisma/
+  schema.prisma                   modelo e relações
+  migrations/                     cadeia de migrations versionadas
+  seed-data/                      acervo de simulados
+  quiz-data/                      catálogo editorial de quizzes
 ```
 
-## Modelo de domínio inicial
+`Simulation` distingue `SIMULATION` e `QUIZ`; versões de quiz e snapshots de tentativa preservam o conteúdo usado na correção. Simulados mantêm os quatro tipos de questão; quizzes usam múltipla escolha. `Attempt.practiceMode` separa `NORMAL` de `REVIEW`. `TeacherTurma`, `GuardianStudent`, `LearningSkill`, `XpEvent`, recibos de conclusão e coleções completam o domínio; a fonte definitiva é o [schema Prisma](prisma/schema.prisma).
 
-O schema inicial do Prisma cobre as entidades previstas no plano:
+## Desenvolvimento local
 
-- `User`
-- `RefreshToken`
-- `StudentProfile`
-- `GuardianStudent`
-- `Discipline`
-- `Simulation`
-- `Question`
-- `QuestionOption`
-- `QuestionAnswer`
-- `Attempt`
-- `AttemptAnswer`
-- `AuditLog`
-
-Enums principais:
-
-- `UserRole`: `STUDENT`, `GUARDIAN`, `TEACHER`, `ADMIN`
-- `UserStatus`: `ACTIVE`, `INACTIVE`, `PENDING`, `BLOCKED`
-- `SimulationStatus`: `DRAFT`, `PUBLISHED`, `ARCHIVED`, `INACTIVE`
-- `QuestionType`: `MULTIPLE_CHOICE`, `TRUE_FALSE_MULTIPLE`, `MATCHING`, `CLASSIFICATION`
-- `AttemptStatus`: `IN_PROGRESS`, `FINISHED`, `ABANDONED`, `EXPIRED`
-
-## Endpoints implementados
-
-### Health checks
-
-```http
-GET /health
-GET /ready
-```
-
-`/health` verifica se a aplicação está respondendo.
-
-`/ready` verifica se a aplicação consegue consultar o banco de dados.
-
-### Autenticação
-
-```http
-POST /auth/register
-POST /auth/login
-POST /auth/logout
-POST /auth/refresh
-GET  /auth/me
-```
-
-### Usuários
-
-```http
-GET    /users
-GET    /users/:id
-PATCH  /users/:id
-PATCH  /users/:id/status
-DELETE /users/:id
-```
-
-As rotas de usuários são administrativas e exigem role `ADMIN`.
-
-### Disciplinas
-
-```http
-GET    /disciplines
-GET    /disciplines/admin
-POST   /disciplines
-GET    /disciplines/:id
-PATCH  /disciplines/:id
-DELETE /disciplines/:id
-```
-
-### Simulados
-
-```http
-GET    /simulations
-POST   /simulations
-GET    /simulations/:id
-PATCH  /simulations/:id
-DELETE /simulations/:id
-PATCH  /simulations/:id/publish
-PATCH  /simulations/:id/archive
-GET    /simulations/available
-```
-
-### Questões
-
-```http
-GET    /simulations/:simulationId/questions
-POST   /simulations/:simulationId/questions
-PATCH  /questions/:id
-DELETE /questions/:id
-PATCH  /questions/:id/reorder
-```
-
-Rotas administrativas de disciplinas, simulados e questões exigem role `ADMIN`.
-`GET /simulations/available` retorna apenas simulados publicados.
-`GET /simulations/:simulationId/questions` exige `ADMIN` nesta fase e não retorna gabaritos.
-
-### Tentativas
-
-```http
-POST  /simulations/:simulationId/attempts
-GET   /attempts/:id
-POST  /attempts/:id/answers
-POST  /attempts/:id/questions/:questionId/answer
-POST  /attempts/:id/finish
-GET   /attempts/:id/result
-GET   /me/attempts
-```
-
-Rotas de tentativa exigem role `STUDENT`, exceto consulta administrativa de tentativa/resultado permitida para `ADMIN`.
-Tentativas finalizadas não aceitam novas respostas.
-Resultados só ficam disponíveis após finalização.
-
-### Alunos
-
-```http
-GET   /students/me
-PATCH /students/me
-GET   /students/:id
-GET   /students/:id/attempts
-GET   /students/:id/performance
-```
-
-Aluno acessa apenas seus próprios dados. Responsável acessa apenas alunos vinculados. `ADMIN` acessa alunos em geral.
-Professores ainda não possuem vínculo/turma modelado, portanto não recebem acesso amplo a alunos.
-
-### Responsáveis
-
-```http
-GET    /guardians/me/students
-POST   /guardians/students
-DELETE /guardians/:guardianId/students/:studentId
-```
-
-`POST` e `DELETE` de vínculos exigem role `ADMIN`.
-
-### Relatórios
-
-```http
-GET /reports/student/:studentId/summary
-GET /reports/student/:studentId/by-discipline
-GET /reports/simulations/:simulationId/performance
-GET /reports/questions/error-rate
-```
-
-Relatórios por aluno seguem a mesma restrição de acesso de estudantes. Relatórios gerais de simulado e taxa de erro exigem role `ADMIN`.
-
-### Documentação técnica
-
-```http
-GET /docs
-```
-
-Disponível quando `API_DOCS_ENABLED=true`.
-
-## Endpoints planejados
-
-### Recuperação de senha
-
-```http
-POST /auth/forgot-password
-POST /auth/reset-password
-```
-
-## Regras importantes
-
-- Apenas `ADMIN` e usuários explicitamente autorizados podem criar ou publicar simulados.
-- Simulados em rascunho não aparecem para alunos.
-- O gabarito oficial fica protegido no backend.
-- A correção das respostas acontece no servidor.
-- Tentativas finalizadas não podem ser alteradas.
-- O histórico de tentativas deve ser preservado.
-- Exclusões administrativas devem usar soft delete quando houver impacto histórico.
-- Responsáveis e professores só podem consultar alunos vinculados ou autorizados.
-- Logs não devem expor dados sensíveis.
-
-## Privacidade e segurança
-
-Como o sistema envolve dados de crianças, o backend deve seguir uma abordagem restritiva:
-
-- Coletar apenas dados necessários.
-- Restringir acesso por perfil.
-- Evitar exposição pública de nomes completos.
-- Não registrar dados sensíveis em logs.
-- Proteger endpoints sensíveis com rate limit.
-- Usar hash forte para senhas.
-- Usar tokens com expiração e rotação de refresh token.
-- Aplicar CORS restrito ao domínio do front-end.
-
-## Variáveis de ambiente
-
-Crie um arquivo `.env` baseado no `.env.example`.
-
-```env
-NODE_ENV=development
-PORT=3333
-POSTGRES_DB=simulados_bernardo
-POSTGRES_USER=REPLACE_WITH_LOCAL_DATABASE_USER
-POSTGRES_PASSWORD=REPLACE_WITH_LOCAL_DATABASE_PASSWORD
-DATABASE_URL=postgresql://REPLACE_WITH_LOCAL_DATABASE_USER:REPLACE_WITH_LOCAL_DATABASE_PASSWORD@localhost:5432/simulados_bernardo?schema=public
-FRONTEND_URL=http://localhost:3000
-JWT_ACCESS_SECRET=REPLACE_WITH_RANDOM_ACCESS_SECRET_MIN_32_CHARS
-JWT_ACCESS_EXPIRES_IN=15m
-JWT_REFRESH_SECRET=REPLACE_WITH_RANDOM_REFRESH_SECRET_MIN_32_CHARS
-JWT_REFRESH_EXPIRES_IN=7d
-FRONTEND_DATA_DIR=../simulados-bernardo/data
-RATE_LIMIT_TTL_MS=60000
-RATE_LIMIT_MAX=100
-API_DOCS_ENABLED=true
-```
-
-## Como rodar localmente
-
-Instale as dependências:
+Crie `.env` a partir de [.env.example](.env.example) e preencha os valores do ambiente local. São obrigatórios `DATABASE_URL`, `FRONTEND_URL`, `JWT_ACCESS_SECRET` e `JWT_REFRESH_SECRET`. Segredos reais não devem ser versionados. A porta padrão é 3333.
 
 ```bash
-npm install
-```
-
-Suba o banco local:
-
-```bash
+npm ci
 docker compose up -d
-```
-
-Execute a primeira migration:
-
-```bash
-npm run prisma:migrate
-```
-
-Depois de alterar o schema localmente, gere o Prisma Client:
-
-```bash
 npm run prisma:generate
-```
-
-Rode a API em desenvolvimento:
-
-```bash
+npm run prisma:migrate
 npm run start:dev
 ```
 
-Teste os endpoints técnicos:
+`prisma:migrate` executa `prisma migrate dev`, destinado ao desenvolvimento. Produção usa `prisma migrate deploy`, conforme o [guia de deploy](docs/guia-deploy.md). Health checks: `GET /health` e `GET /ready`; Swagger: `GET /docs` quando `API_DOCS_ENABLED=true`.
 
-```bash
-curl http://localhost:3333/health
-curl http://localhost:3333/ready
-```
+## Contratos principais
 
-## Seed dos dados do front-end
+| Área | Rotas principais |
+|---|---|
+| Sessão | `POST /auth/register`, `/auth/login`, `/auth/refresh`, `/auth/logout`; `GET /auth/me` |
+| Recuperação | `POST /auth/forgot-password`, `/auth/reset-password` |
+| Simulados | `GET /simulations/available`; autoria ADMIN em `/simulations` e `/simulations/:id/questions` |
+| Quizzes | `GET /quizzes/available`; autoria ADMIN em `/quizzes`; `POST /quizzes/:quizId/attempts` |
+| Tentativas | `POST /simulations/:simulationId/attempts`; `GET /attempts/:id/questions`; envio em `/attempts/:id/questions/:questionId/answer`; conclusão em `/attempts/:id/finish`; `GET /attempts/:id/result` |
+| Histórico | `GET /me/attempts`, `/me/quiz-attempts` |
+| Preferências | `GET/PATCH /me/learning-preferences` |
+| Jornada | `GET /me/learning-home`, `/me/missions`; autoria ADMIN em `/missions` |
+| Coleções | `GET /me/achievements`, `/me/avatar`; `PATCH /me/avatar` |
+| Progresso e revisão | `GET /me/learning-progress`; `POST /me/review-attempts`; autoria ADMIN em `/learning-skills` |
+| Acompanhamento | `GET /me/oversight-students`, `/students/:id/learning-progress`, `/reports/student/:id/summary`, `/reports/student/:id/by-discipline` |
+| Vínculos | Gestão ADMIN em `/guardians/students` e `/turmas/:id/teachers`; participação em `POST /me/turmas/join` |
+| Ranking de simulados | `GET /me/pontuacao`, `/me/turmas/:turmaId/ranking` |
 
-O seed importa os arquivos TypeScript atuais do front-end em `data/` e é idempotente: pode ser executado novamente sem duplicar disciplinas, simulados, questões, alternativas ou gabaritos.
+Os guias abaixo detalham DTOs, verbos e respostas. Preferências não alteram perfil escolar nem concedem acesso a turma. Responsáveis consultam alunos ativos vinculados; professores consultam alunos de turmas ativas atribuídas, com registros públicos e dessas turmas. Somente ADMIN gerencia vínculos docentes. Acompanhamento não permite executar atividades em nome do aluno.
 
-Por padrão, o script procura os dados em `../simulados-bernardo/data`. Para outro caminho, defina `FRONTEND_DATA_DIR`.
+## Conteúdo e importação
 
-Valide a leitura dos arquivos sem gravar no banco:
+O seed de simulados usa **`prisma/seed-data`** por padrão; `FRONTEND_DATA_DIR` permite escolher outra origem. O inventário versionado valida 584 arquivos, 588 simulados publicáveis e 17.684 questões, com 192 simulados planejados no backlog editorial. Publicável no repositório não significa publicado no banco.
 
 ```bash
 npm run seed:dry-run
+npm run seed:inventory
+npm run seed:quizzes:dry-run
+npm run seed:missions:dry-run
+npm run seed:skills:dry-run
 ```
 
-Execute a importação no banco configurado em `DATABASE_URL`:
+Esses comandos validam sem importar dados. `npm run seed` grava simulados no banco explicitamente configurado. Quizzes têm importador separado: `seed:quizzes` cria rascunhos e exige `QUIZ_SEED_AUTHOR_EMAIL` de um ADMIN ativo existente; `seed:quizzes:publish-reviewed` exige revisão correspondente. Habilidades usam `seed:skills:drafts`, com autoria e fontes válidas. Missões são criadas/publicadas pelas rotas administrativas após curadoria. Nenhuma dessas operações decorre automaticamente de merge ou deploy.
+
+## Regras de segurança e aprendizagem
+
+- Rascunhos ficam fora do catálogo do aluno. Gabaritos e snapshots privados não são retornados nos contratos públicos.
+- A correção acontece no servidor. Em quiz, confirmar grava e bloqueia a resposta; reenvios equivalentes e conclusão repetida preservam o resultado.
+- Notas de simulados, evidências de quiz/revisão e XP têm propósitos separados. REVIEW não concede XP, progresso de missão ou novos itens.
+- Uma conclusão NORMAL elegível concede 10 XP por quiz lógico/aluno/dia, até 50 XP/dia em `America/Sao_Paulo`; missões não concedem bônus extra.
+- A API revalida conta, papel, versão da sessão e vínculos atuais. Redefinir a senha revoga os access/refresh tokens anteriores.
+- Recuperação usa token aleatório de uso único, hash persistido e expiração de 30 minutos. Resend real exige ativação explícita.
+- Soft delete preserva entidades com histórico. Logs e auditoria excluem corpo e query com dados sensíveis.
+
+O limite da recuperação é 20 requisições/minuto por endpoint/IP observado pela API. Pelo BFF, os navegadores compartilham esse orçamento; o [guia de recuperação](docs/guia-acesso-recuperacao.md) explica a dependência de proxy/perímetro.
+
+## Testes e CI
 
 ```bash
-npm run seed
-```
-
-O seed cria:
-
-- disciplinas por `slug`;
-- simulados publicados por disciplina, ano, bimestre e avaliação;
-- questões por ordem dentro do simulado;
-- alternativas/itens/opções;
-- gabaritos em `QuestionAnswer`, sem expor respostas nos endpoints públicos;
-- usuário técnico inativo `seed-importer@simulados.local` para preencher `createdById`.
-
-Guia detalhado: `docs/guia-seed-importacao.md`.
-
-## Segurança e operação
-
-- CORS restrito por `FRONTEND_URL`.
-- Rate limit global por `RATE_LIMIT_TTL_MS` e `RATE_LIMIT_MAX`.
-- Headers HTTP de segurança via Helmet.
-- `x-request-id` aceito e retornado em todas as requisições.
-- Erros seguem formato padronizado com `requestId`.
-- Logs estruturados não incluem corpo da requisição.
-- Auditoria administrativa grava método, rota, usuário, status e metadados não sensíveis.
-
-Guias:
-
-- `docs/guia-permissoes.md`
-- `docs/guia-deploy.md`
-
-## Scripts
-
-```bash
-npm run start:dev
-npm run build
-npm run start:prod
 npm run lint
-npm run test
-npm run test:e2e
-npm run prisma:generate
-npm run prisma:migrate
-npm run prisma:studio
-npm run seed
-npm run seed:dry-run
+npm run test -- --runInBand
+npm run build
+npm run test:integration
 ```
 
-## Testes
+`test:integration` e `test:e2e` usam o mesmo runner: API real, migrations e PostgreSQL descartável. Ele não utiliza o banco da `.env`, exige Docker e a imagem `postgres:16-alpine`. Há comando dedicado `test:auth:integration` para refresh. O workflow executa unitários, lint/build, dry-runs de simulados/quizzes/missões/habilidades e integração.
 
-Áreas com cobertura obrigatória nas próximas fases:
+Última validação funcional do lote 10: **688 unitários/39 suítes e 395 testes de integração/21 suítes** na API; **30 testes de sessão, 48 jornadas HTTP e 78 testes Chromium desktop/mobile emulado** na web. Os testes usam fixtures sintéticas, transporte de e-mail local e bancos isolados. Veja escopo, execução e limitações no [guia de CI e regressão](docs/guia-ci-regressao.md).
 
-- Autenticação.
-- Autorização por perfil.
-- Criação e publicação de simulados.
-- Correção de questões.
-- Finalização de tentativas.
-- Bloqueio de acesso não autorizado.
+## Documentação
 
-Meta inicial:
-
-- Services críticos acima de 85% de cobertura.
-- Testes de integração para fluxos principais da API.
-- Testes e2e para o fluxo completo de administrador e aluno.
-
-## Fases de desenvolvimento
-
-1. Fundação do backend: NestJS, TypeScript, Prisma, PostgreSQL, Docker e health check.
-2. Autenticação e usuários: cadastro, login, refresh token, logout, roles e guards.
-3. Disciplinas, simulados e questões: CRUDs, publicação, arquivamento e importação dos dados atuais.
-4. Tentativas e correção: início, respostas, finalização, cálculo de nota e histórico.
-5. Perfil e relatórios: histórico do aluno, melhores notas, desempenho por disciplina e vínculos.
-6. Hardening e produção: rate limit, CORS, logs, auditoria, documentação e deploy.
-
-## Integração com o front-end
-
-O front-end atual deve deixar de importar questões diretamente dos arquivos locais em `data/` e passar a consumir esta API.
-
-Fluxo recomendado de migração:
-
-1. Criar o schema definitivo no banco.
-2. Importar disciplinas, simulados, questões, alternativas, gabaritos e dicas.
-3. Validar os dados importados contra o comportamento atual.
-4. Adaptar o front-end para buscar disciplinas e simulados pela API.
-5. Salvar tentativas e respostas no backend.
-6. Remover a dependência direta dos arquivos locais após a transição.
+| Documento | Uso |
+|---|---|
+| [PROGRESS.md](PROGRESS.md) | Estado atual, evidências e pendências |
+| [Plano de evolução](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md) | Lotes 01–12, dependências e planejamento mobile |
+| [Checklist de desenvolvimento](docs/checklist-desenvolvimento.md) | Implementação e aceite técnico |
+| [Inventário do acervo](docs/inventario-acervo.md) e [seed/importação](docs/guia-seed-importacao.md) | Acervo de simulados e backlog |
+| [Quizzes](docs/guia-quizzes.md) e [matriz editorial](docs/matriz-editorial-quizzes.md) | Contratos, catálogo, mídia e revisão |
+| [Missões e XP](docs/guia-missoes-xp.md) | Curadoria semanal e recompensas |
+| [Coleções e conquistas](docs/guia-colecoes-conquistas.md) | Avatar e itens cosméticos |
+| [Habilidades e revisão](docs/guia-habilidades-revisao.md) | Classificação, evidências e prática |
+| [Permissões](docs/guia-permissoes.md) e [acesso/recuperação](docs/guia-acesso-recuperacao.md) | Vínculos, sessão e Resend |
+| [CI/regressão](docs/guia-ci-regressao.md) e [deploy](docs/guia-deploy.md) | Validação isolada e operação |
+| [ADRs](docs/decisions/) | Decisões arquiteturais e suas consequências |

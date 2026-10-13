@@ -1,6 +1,6 @@
 # Quizzes — contratos, catálogo e mídia
 
-Os lotes 03 a 06 oferecem autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria, mídia de instrução, jornada web e preferências por conta. O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, todos com revisão `PENDING`; nenhum foi importado em banco existente ou publicado. Missões e XP seguem no lote 07.
+Atualizado após a implementação técnica dos lotes 03–10, em **13/10/2026**. Quizzes têm autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria, mídia de instrução, jornada web e preferências por conta. A plataforma também oferece [missões/XP](guia-missoes-xp.md), [avatar/conquistas](guia-colecoes-conquistas.md), [habilidades/REVIEW](guia-habilidades-revisao.md) e [acompanhamento autorizado](guia-acesso-recuperacao.md). O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, todos com revisão `PENDING`; nenhum foi importado em banco existente ou publicado pelas validações das entregas.
 
 ## Rotas implementadas
 
@@ -25,6 +25,8 @@ Todas usam JWT; gestão e tentativas acrescentam RolesGuard. Gestão usa ADMIN; 
 | `GET /attempts/:id/result` | Dono/ADMIN consulta resultado de quiz `FINISHED`, sem gabarito |
 | `GET /me/quiz-attempts` | STUDENT consulta seu histórico de prática separado de simulados |
 | `GET/PATCH /me/learning-preferences` | Qualquer conta ativa consulta/atualiza somente suas escolhas de faixa, áudio e movimento |
+| `GET /me/learning-progress` | STUDENT consulta evidências e sugestões autorizadas de revisão por habilidade |
+| `POST /me/review-attempts` | STUDENT inicia/retoma REVIEW com corpo `{ "quizId": "id" }`; seleção de até cinco perguntas no servidor |
 
 Filtros de catálogo: `discipline` (slug), `schoolYear` (inteiro -2 a 12) e `topic`. Sentinelas atuais: -1 Infantil 4, -2 Infantil 5, 0 Enfermagem, 1–9 Fundamental e 10–12 Médio. Filtro de ano não é autorização de turma. Totais Decimal (`score`, `maxScore`, `percentage`) e `questions[].points` são strings. `feedback.pointsEarned` e os `questions[].pointsEarned` do resultado são números. Datas são strings ISO no JSON.
 
@@ -252,9 +254,9 @@ A primeira confirmação e suas repetições equivalentes retornam 201. Repetir 
 
 `POST /attempts/:id/finish` exige que todas as perguntas do snapshot estejam confirmadas. Se faltar alguma, retorna 400 e preserva a tentativa em andamento; não inventa respostas nem confirma automaticamente. Pontos máximos e pontos ganhos são somados com Decimal, e o percentual tem duas casas, com arredondamento `ROUND_HALF_UP`. Acertos, erros, duração e `finishedAt` são gravados junto com `FINISHED`, numa única transação.
 
-O POST retorna 201 com `{ "attempt": { ... }, "questions": [ ... ] }`. O objeto `attempt` contém IDs, chave lógica/versão, estado, datas, notas, contagens, duração e metadados do quiz/disciplina. Cada pergunta contém a projeção da leitura, seu feedback salvo, `isCorrect` e `pointsEarned`. Repetir finish devolve esse resultado sem alterar notas, datas ou duração. `GET /attempts/:id/result` retorna o mesmo contrato com 200; antes de `FINISHED`, retorna 400.
+O POST retorna 201 com `{ "attempt": { ... }, "reward": { ... }, "questions": [ ... ] }`. `attempt.practiceMode` identifica NORMAL/REVIEW, e `reward` conserva a decisão da recompensa de conclusão. O objeto `attempt` contém IDs, chave lógica/versão, estado, datas, notas, contagens, duração e metadados do quiz/disciplina. Cada pergunta contém a projeção da leitura, seu feedback salvo, `isCorrect` e `pointsEarned`. Repetir finish devolve esse resultado sem alterar notas, datas ou duração. `GET /attempts/:id/result` retorna o mesmo contrato com 200; antes de `FINISHED`, retorna 400.
 
-A correção usa exclusivamente o gabarito, pontos e explicação copiados ao iniciar a tentativa. Publicar outra versão não altera respostas, feedback ou resultado da versão iniciada. Nenhum XP, recompensa ou pontuação de ranking de quiz é criado nessa etapa.
+A correção usa exclusivamente o gabarito, pontos e explicação copiados ao iniciar a tentativa. Publicar outra versão não altera respostas, feedback ou resultado da versão iniciada. Desde o lote 07, conclusão NORMAL também grava a decisão de XP e progresso elegível de missão na transação; o lote 08 acrescenta conquistas/itens elegíveis. Repetir finish não concede novamente. REVIEW devolve `{ "xpAwarded": 0, "reason": "REVIEW", "day": null }` e não concede XP, progresso de missão ou novos itens. Quiz e revisão continuam fora do ranking/notas de simulados; regras completas nos guias de [missões/XP](guia-missoes-xp.md), [coleções](guia-colecoes-conquistas.md) e [habilidades](guia-habilidades-revisao.md).
 
 Leitura de questões/resultado, confirmação e conclusão revalidam owner, estado da atividade, disciplina e turma na mesma transação/conexão. Quiz publicado ou arquivado e disciplina ativa são necessários; soft delete ou perda de membership tornam o conteúdo inacessível (404). Outro aluno recebe 403. ADMIN pode ler sem membership, mas as rotas mutáveis exigem STUDENT. Histórico pessoal e `GET /attempts/:id` continuam fornecendo somente metadados/totais ao dono/ADMIN e não concedem acesso às questões. Locks na atividade precedem locks na tentativa; confirmações e finishes concorrentes observam o estado confirmado da mesma tentativa.
 
@@ -323,3 +325,11 @@ O lote 05 acrescenta validação editorial/mídia, importação de todos os 45 q
 O lote 06 acrescenta 52 casos PostgreSQL de preferências: defaults sem mutação, todas as faixas/roles, PATCH combinado e concorrente, rollback de validação, token com subject inválido/status alterado, isolamento de contas, proteção de turma e constraints. Fechamento da validação do lote 06: **409 unitários e 214 testes de integração API/PostgreSQL**, **30 testes de sessão e 16 jornadas HTTP web** passaram; builds API/web, lint da API e Prisma validate passaram, além de **24 testes Chromium desktop/mobile emulado** com os cinco segmentos, teclado, axe, fallback, retomada, perda de respostas e isolamento de sessão/preferências. A regressão web usa Next/BFF/API reais e fixtures sintéticas; testes de teclado, viewport mobile e axe são automatizados, com usabilidade humana/leitor de tela/aparelhos reais pendentes. Consulte também o [guia de CI](guia-ci-regressao.md).
 
 Decisões: [ADR 010 — preferências por conta](decisions/010-preferencias-de-aprendizagem-por-conta.md), [ADR 007 — versões e snapshots](decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008 — confirmação e resultado](decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md), [ADR 009 — catálogo e mídia](decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md) e [ADR 005 — gabarito protegido](decisions/005-gabarito-protegido-no-backend.md).
+
+## Evolução posterior e estado atual
+
+O lote 09 acrescentou classificação por habilidades revisadas e snapshots privados dessa classificação; publicar um quiz exige definições de habilidade válidas e revisadas. REVIEW tem tentativa aberta separada de NORMAL, seleciona até cinco perguntas autorizadas no servidor e apresenta repetições de forma explícita. Primeiras respostas, repetições e revisão não são agrupadas numa promessa de domínio. Histórico antigo sem classificação continua sem classificação.
+
+O lote 10 restringiu catálogos/relatórios privados docentes às turmas atribuídas e acrescentou acompanhamento somente de leitura por vínculo. A autorização de aluno/turma continua sendo verificada em cada operação.
+
+Os números nas seções de validação dos lotes 03–06 são históricos. Última regressão funcional, no lote 10: **688 unitários e 395 integração na API; 30 testes de sessão, 48 jornadas HTTP e 78 Chromium desktop/mobile emulado na web**, com CI aprovada. Revisão/publicação dos quizzes, habilidades e missões, entrega real Resend, validação humana/aparelhos e implantação operacional continuam pendentes; consulte [PROGRESS](../PROGRESS.md) e [CI/regressão](guia-ci-regressao.md).

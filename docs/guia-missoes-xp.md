@@ -1,10 +1,10 @@
 # Operação de missões e XP
 
-A task 7 implementa missões, saldo de XP por conta e Aprender hoje. Avatar e conquistas ficam no próximo lote. Quizzes e missões preparados não são automaticamente aprovados ou publicados.
+Atualizado em **13/10/2026**. O lote 07 implementou missões, saldo de XP por conta e Aprender hoje; o lote 08 acrescentou [avatar, coleções e conquistas](guia-colecoes-conquistas.md), e o lote 09 separou [prática NORMAL de REVIEW](guia-habilidades-revisao.md). Quizzes, habilidades e missões preparados não são automaticamente aprovados ou publicados. Os 30 rascunhos semanais continuam com revisão `PENDING`.
 
 ## Regra de XP
 
-Uma conclusão completa concede 10 XP na primeira prática de cada activityKey por aluno/dia, até 50 XP/dia. O dia usa America/Sao_Paulo. Uma versão nova do mesmo quiz não concede outro XP no mesmo dia; uma nova prática no dia seguinte é elegível. Acertar ou errar afeta apenas o resultado do quiz. A missão não acrescenta bônus de XP neste piloto.
+Uma conclusão completa de quiz em modo NORMAL concede 10 XP na primeira prática de cada activityKey por aluno/dia, até 50 XP/dia. O dia usa America/Sao_Paulo. Uma versão nova do mesmo quiz não concede outro XP no mesmo dia; uma nova prática no dia seguinte é elegível. Acertar ou errar afeta apenas o resultado do quiz. A missão não acrescenta bônus de XP neste piloto.
 
 O resultado de quiz possui reward:
 
@@ -12,7 +12,7 @@ O resultado de quiz possui reward:
 {"xpAwarded":10,"reason":"AWARDED","day":"2026-10-12"}
 ```
 
-reason pode ser AWARDED, ALREADY_REWARDED, DAILY_LIMIT ou LEGACY. O resultado mantém essa decisão quando finish é reenviado ou o resultado é consultado depois. LEGACY possui day nulo e zero XP para conclusões anteriores à feature. Nenhum saldo é retirado por ficar sem praticar.
+reason pode ser AWARDED, ALREADY_REWARDED, DAILY_LIMIT, LEGACY ou REVIEW. O resultado mantém essa decisão quando finish é reenviado ou o resultado é consultado depois. LEGACY possui day nulo e zero XP para conclusões anteriores à feature. REVIEW também devolve day nulo e zero XP, sem registrar progresso de missão ou novos itens. Nenhum saldo é retirado por ficar sem praticar.
 
 ## Curadoria semanal nas 15 faixas
 
@@ -41,7 +41,7 @@ Segmentos: INFANTIL (-1/-2), FUNDAMENTAL_I (1–5), FUNDAMENTAL_II (6–9), MEDI
 
 GET /missions consulta autoria. PATCH /missions/:id substitui campos de DRAFT, inclusive activityKeys. PATCH /missions/:id/publish verifica conteúdo e ocupa a posição semanal; rascunhos com quizzes indisponíveis falham. Publicar duas missões para a mesma posição retorna conflito, inclusive sob concorrência. PATCH /missions/:id/archive encerra a exposição e permite publicar um substituto. Missões publicadas são imutáveis e o histórico é conservado.
 
-Cada semana abre segunda-feira 00:00 e encerra na seguinte 00:00 em São Paulo, com fim exclusivo. Publicar no meio da semana não contabiliza conclusões anteriores. Só conclusões novas durante a janela e após a publicação registram progresso. Retirar acesso à turma ou tornar um quiz indisponível oculta a missão inteira; substituir conteúdo deve ocorrer antes da publicação ou por uma nova missão.
+Cada semana abre segunda-feira 00:00 e encerra na seguinte 00:00 em São Paulo, com fim exclusivo. Publicar no meio da semana não contabiliza conclusões anteriores. Só conclusões NORMAL novas durante a janela e após a publicação registram progresso; REVIEW não completa etapas. Retirar acesso à turma ou tornar um quiz indisponível oculta a missão inteira; substituir conteúdo deve ocorrer antes da publicação ou por uma nova missão.
 
 ## Contratos do aluno
 
@@ -53,4 +53,4 @@ Aprender hoje na home web consulta esses contratos pelo BFF. Alterações de fai
 
 npm run test:integration valida a cadeia de migrations e os contratos com Nest/PostgreSQL descartável. A regressão inclui concorrência, virada UTC/São Paulo, versões, teto, rollback, autorização e curadoria. Na web, test:e2e e test:browser exercitam Next/BFF/API com fixtures sintéticas e banco isolado. O CI web fixa o commit compatível da API.
 
-Aplicar a migration em ambiente existente e publicar conteúdo são operações de implantação separadas. Nesta task, migrations são executadas somente em bancos descartáveis, sem seed, aprovação editorial ou deploy em produção. Consulte [ADR 011](decisions/011-missoes-semanais-e-xp-transacional.md) e o [plano de evolução](superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
+Aplicar migrations em ambiente existente e publicar conteúdo são operações separadas. As validações dos lotes 01–10 aplicaram migrations somente em bancos descartáveis, sem seed, aprovação editorial ou deploy em produção. Use `prisma migrate deploy` no procedimento operacional, conforme o [guia de deploy](guia-deploy.md). Consulte [ADR 011](decisions/011-missoes-semanais-e-xp-transacional.md) e o [plano de evolução](superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).

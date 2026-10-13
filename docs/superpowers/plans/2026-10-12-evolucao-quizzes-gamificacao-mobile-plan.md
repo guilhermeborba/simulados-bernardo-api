@@ -1,7 +1,8 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
-Data: 2026-10-12
-Status: lotes 01 a 04 concluídos; lotes 05 a 10 implementados tecnicamente; ativação de e-mail real, revisão/publicação editorial e validação humana pendentes; próximo lote técnico 11 — prova e planejamento mobile
+Data do planejamento: 2026-10-12
+Atualização do estado: 2026-10-13
+Status: lotes 01 a 10 implementados e integrados à main; ativação de e-mail real, revisão/publicação editorial e validação humana pendentes; próximo lote técnico 11 — prova e planejamento mobile
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -10,11 +11,13 @@ Transformar o Simulados Bernardo em uma plataforma de prática e avaliação. O 
 
 A primeira versão de quizzes deve atender Educação Infantil, Fundamental I, Fundamental II, Ensino Médio e Enfermagem. A mesma API sustenta experiências com linguagem e apresentação adequadas a cada segmento. O catálogo inicial terá cobertura mínima de todas as faixas; a ampliação para todas as disciplinas e temas será contínua.
 
-Este documento define entregas, decisões propostas, dependências e critérios de aceite. A seção de execução registra os lotes já validados; as demais features permanecem planejadas. Ele não autoriza deploy ou publicação em lojas.
+Este documento define entregas, decisões propostas, dependências e critérios de aceite. Os lotes 01–10 registram a implementação técnica entregue; revisão/publicação editorial, ativação e validação humana ainda são critérios de lançamento. Os lotes 11–12 permanecem planejados. Ele não autoriza deploy ou publicação em lojas.
 
-## 2. Base verificada
+## 2. Diagnóstico inicial e evolução verificada
 
-Repositórios inspecionados em modo de leitura:
+O quadro abaixo preserva o diagnóstico inicial de 12/10/2026, anterior às entregas. Não representa pendências atuais: sessões, testes/CI, mídia, preferências de quizzes, vínculo docente e recuperação foram implementados nos lotes 01–10. O estado consolidado e os totais de regressão estão em [PROGRESS.md](../../../PROGRESS.md).
+
+Repositórios inspecionados no início:
 
 - Backend: /home/guilhermeborba/projects/simulados-bernardo-api.
 - Web: /home/guilhermeborba/projects/simulados-bernardo.
@@ -45,7 +48,7 @@ Concluído localmente: isolamento de refresh no BFF por sessão, retenção para
 
 Validação: 25 testes web, 83 unitários da API e 8 testes reais com PostgreSQL descartável passaram. Smoke HTTP nas rotas Next compiladas confirmou isolamento de contas e coordenação entre bundles. Build da API passou; build web passou com fixture local de fontes, após falha do build comum no loader Google Fonts em código não alterado. Não houve deploy nem alteração de bancos/seed existentes.
 
-O coordenador BFF pertence a um processo. Definir coordenação compartilhada ou recuperação de disputa antes de ampliar réplicas. JWT de acesso já emitido mantém a duração atual. Ver [ADR 006](../../decisions/006-rotacao-atomica-e-revogacao-de-sessao.md).
+O coordenador BFF pertence a um processo. Definir coordenação compartilhada ou recuperação de disputa antes de ampliar réplicas. Esse era o limite do lote 01; o lote 10 acrescenta verificação de status/papel/versão no banco e invalida o access antigo no próximo acesso após reset. Ver [ADR 006](../../decisions/006-rotacao-atomica-e-revogacao-de-sessao.md).
 
 ### Execução do lote 02 — 12/10/2026
 
@@ -54,7 +57,7 @@ O coordenador BFF pertence a um processo. Definir coordenação compartilhada ou
 - Web: oito jornadas HTTP com Next de produção, BFF, API e banco real, além dos 25 testes de sessão. Build normal passa com as cinco famílias de fontes locais originais e licenciadas. A suíte HTTP não automatiza cliques, layout ou acessibilidade.
 - CI nos dois repositórios, com Actions fixadas por SHA, lockfiles e bancos descartáveis. Guia: [CI e regressão](../../guia-ci-regressao.md); acervo: [inventário](../../inventario-acervo.md).
 
-A etapa 0 ainda exige curadoria/matriz e responsáveis, alinhamento de textos da home e métricas. A produção/revisão dos 192 simulados planejados segue como trabalho editorial próprio; esta entrega não cria nem publica quizzes.
+No fechamento do lote 02, a etapa 0 ainda exigia matriz/responsáveis. A matriz foi preparada no lote 05 e o usuário assumiu a revisão no lote 07; aprovação editorial, alinhamento final de textos e métricas permanecem pendentes. A produção/revisão dos 192 simulados planejados segue como trabalho editorial próprio; esta entrega não cria nem publica quizzes.
 
 ### Execução dos lotes 03 e 04 — 12/10/2026
 
@@ -62,7 +65,7 @@ O lote 03 implementa modelos aditivos, autoria ADMIN, versões imutáveis após 
 
 O lote 04 confirma e corrige cada resposta de quiz usando o snapshot, persiste o feedback e bloqueia alterações. Reenvios equivalentes recuperam o feedback gravado e conclusão exige todas as questões confirmadas. Pontos/totais usam Decimal; confirmação, conclusão e leitura coordenam locks e acesso atual dentro da transação. Conclusões concorrentes retornam o mesmo resultado, sem novo cálculo ou gravação. Explicação e curiosidade só aparecem no feedback das questões confirmadas; gabaritos estruturados nunca aparecem nos contratos públicos. Decisão: [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md).
 
-Validação do lote 04: 278 unitários, 117 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, validação Prisma e dry-run de 588 simulados/17.684 questões. Migrations somente em bancos descartáveis. Contratos e migração no [guia de quizzes](../../guia-quizzes.md). Catálogo editorial, mídia, telas de quiz e XP permanecem nas entregas seguintes.
+Validação do lote 04: 278 unitários, 117 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, validação Prisma e dry-run de 588 simulados/17.684 questões. Migrations somente em bancos descartáveis. Contratos e migração no [guia de quizzes](../../guia-quizzes.md). Naquele fechamento, catálogo editorial, mídia, telas de quiz e XP ainda eram entregas futuras; foram implementados nos lotes 05–07.
 
 ### Execução técnica do lote 05 — 12/10/2026
 
@@ -82,7 +85,7 @@ A API acrescenta `GET/PATCH /me/learning-preferences`, por conta ativa, com filt
 
 Fechamento da validação do lote 06: **409 testes unitários e 214 de integração API/PostgreSQL**, **30 testes de sessão web e 16 jornadas HTTP Next/BFF/API/PostgreSQL** passaram. Builds API/web, lint da API e Prisma validate passaram; **24 testes Chromium desktop/mobile emulado** validaram os cinco segmentos, teclado, axe, fallback, retomada, perda de respostas e isolamento de sessão/preferências. Bundles de quiz foram inspecionados sem gabaritos, identificadores privados de mídia ou fixtures sintéticas; simulados e quizzes também passaram em dry-run. Não houve migration em banco existente, seed em produção, publicação editorial ou deploy.
 
-Usabilidade com pessoas, leitor de tela e aparelhos reais, incluindo Infantil com adulto, permanece pendente. O catálogo de 45 quizzes/213 perguntas continua PENDING e não foi publicado. A implementação técnica permite avançar ao lote 07; o lançamento nas 15 faixas continua condicionado à revisão/publicação e validação humana.
+Usabilidade com pessoas, leitor de tela e aparelhos reais, incluindo Infantil com adulto, permanece pendente. O catálogo de 45 quizzes/213 perguntas continua PENDING e não foi publicado. Naquele fechamento, a implementação técnica permitia avançar ao lote 07, entregue posteriormente; o lançamento nas 15 faixas continua condicionado à revisão/publicação e validação humana.
 
 ## 3. Experiência e catálogo inicial para todos os públicos
 
@@ -106,7 +109,7 @@ A seleção do quiz usa segmento, ano e tema; bimestre e AV deixam de ser passos
 2. Escolher “Quiz rápido”, “Simulado” ou uma missão.
 3. Iniciar ou retomar a atividade.
 4. Marcar e confirmar uma resposta.
-5. Ler/ouvir o feedback e a explicação daquela questão.
+5. Ler o feedback e a explicação daquela questão; o áudio atual narra enunciado e alternativas quando disponíveis.
 6. Continuar e concluir.
 7. Ver progresso e, na etapa de gamificação, receber a recompensa elegível.
 8. Escolher a próxima atividade ou revisar uma dificuldade.
@@ -117,7 +120,7 @@ Não usar cronômetro obrigatório em quizzes. Som e animação são opcionais, 
 
 ## 4. Sequência de entregas
 
-Estimativas de esforço técnico para **um desenvolvedor full stack dedicado**, com apoio disponível para design e revisão editorial. Reestimar após a etapa 0. As faixas não são datas prometidas; produção de áudio/imagens, validação editorial, disponibilidade de aparelhos e análise de lojas podem ampliar o calendário.
+Estimativas históricas do planejamento inicial para **um desenvolvedor full stack dedicado**, com apoio para design e revisão editorial. Os lotes técnicos 01–10 já foram entregues; estas faixas não são uma previsão atual de entrega. O lote 11 reestimará o trabalho mobile após a prova. As faixas não são datas prometidas; produção de áudio/imagens, validação editorial, disponibilidade de aparelhos e análise de lojas podem ampliar o calendário.
 
 | Etapa | Entrega utilizável | Estimativa inicial | Dependência |
 |---|---|---|---|
@@ -128,7 +131,7 @@ Estimativas de esforço técnico para **um desenvolvedor full stack dedicado**, 
 | 4 — Plano técnico mobile | Protótipo em aparelhos, arquitetura e backlog do app | 1–2 semanas | Etapa 2 validada; etapa 3 pode seguir em paralelo |
 | 5 — App e beta | App com o núcleo validado da web | 4–6 semanas | Aprovação das decisões técnicas da etapa 4 e gates funcionais |
 
-Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas em **7–11 semanas**, dadas as premissas acima. A execução totalmente sequencial soma cerca de **14–23 semanas**; o planejamento mobile pode acontecer em paralelo à etapa 3. Não esperar a implantação de todas as ideias futuras para começar o mobile.
+No planejamento inicial, a projeção era **5–7 semanas** para quizzes e **7–11 semanas** para missões/recompensas, dadas as premissas acima. A execução totalmente sequencial soma cerca de **14–23 semanas**; o planejamento mobile pode acontecer em paralelo à etapa 3. Não esperar a implantação de todas as ideias futuras para começar o mobile.
 
 ### Etapa 0 — Consolidar e medir a base
 
@@ -142,7 +145,8 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Corrigir documentação divergente: endpoint de questões já pronto, integração web concluída, refresh JWT com jti e correção atual tudo-ou-nada.
 - [ ] Alinhar textos da home: feedback instantâneo e conquistas só devem ser anunciados quando disponíveis.
 - [x] Preparar matriz editorial dos 45 quizzes e formatos de mídia Infantil.
-- [ ] Definir responsáveis e concluir revisão humana por segmento, incluindo Enfermagem e mídia Infantil.
+- [x] Definir responsável pela revisão dos quizzes: o usuário assumiu a revisão em 13/10/2026.
+- [ ] Concluir revisão humana por segmento, incluindo Enfermagem e mídia Infantil.
 - [ ] Definir eventos e métricas com campos mínimos; respostas, tokens e dados sensíveis não entram nos logs.
 
 **Aceite:** sessões de alunos distintos permanecem isoladas; fluxo atual passa em regressão; seed tem inventário validado; bases de testes não apontam para produção; matriz de conteúdo tem responsáveis.
@@ -157,7 +161,7 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Implementar confirmação/correção imediata, leitura de feedback e finalização idempotentes.
 - [x] Permitir conclusão de quiz somente quando todas as questões da tentativa estiverem confirmadas.
 - [x] Congelar o conteúdo de cada tentativa de quiz em snapshots privados.
-- [x] Garantir uma tentativa em andamento por aluno/atividade, inclusive em requisições concorrentes.
+- [x] Garantir uma tentativa em andamento por aluno/versão da atividade/modo, inclusive em requisições concorrentes; NORMAL e REVIEW podem coexistir.
 - [x] Criar importação própria de quizzes, com versão, chaves estáveis, validação e dry-run.
 - [ ] Revisar e publicar o catálogo mínimo de todos os públicos; Infantil tem imagem com descrição e áudio com transcrição.
 - [x] Criar /quizzes, /quiz/[quizId] e /quizzes/historico na web, com AuthContext, BFF e contratos próprios de quiz.
@@ -185,7 +189,7 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 
 A chave de elegibilidade usa aluno + atividade lógica + dia em America/Sao_Paulo, independente da versão publicada. Repetir finish devolve o resultado gravado. Eventos de missão e conquista têm unicidade própria; a transação de conclusão registra o progresso e a concessão elegível. Serializar a concessão por aluno/dia, com trava ou mecanismo equivalente, antes de verificar o teto: quizzes diferentes concluídos ao mesmo tempo também precisam respeitar 50 XP/dia.
 
-Missões semanais abrem segunda-feira 00:00 e encerram na segunda seguinte no mesmo fuso. Quem entra durante a semana recebe as missões atuais. Conteúdo pode continuar disponível para prática após o vencimento; a recompensa da missão encerra no prazo. Missões com conteúdo indisponível devem ser substituídas antes da publicação. Não retirar itens adquiridos por faltar um dia.
+Missões semanais abrem segunda-feira 00:00 e encerram na segunda seguinte no mesmo fuso. Quem entra durante a semana recebe as missões atuais. Conteúdo pode continuar disponível para prática após o vencimento; o registro de progresso da missão encerra na janela; o piloto não concede bônus de XP por missão. Missões com conteúdo indisponível devem ser substituídas antes da publicação. Não retirar itens adquiridos por faltar um dia.
 
 **Aceite:** trocar de navegador/dispositivo preserva progresso e avatar; finalizações concorrentes não duplicam XP; versão nova não reinicia a elegibilidade do dia; teto diário funciona; cada segmento tem missões com linguagem adequada.
 
@@ -235,11 +239,11 @@ Referências verificadas em 12/10/2026: [Expo Router](https://docs.expo.dev/rout
 
 **Aceite:** a mesma conta vê o mesmo progresso na web e no app; suspender/reabrir ou reenviar requisição não perde resposta confirmada nem duplica recompensa; não há bloqueador funcional nos aparelhos previstos; suporte e distribuição do beta estão definidos.
 
-## 5. Arquitetura proposta para quizzes
+## 5. Arquitetura implementada para quizzes
 
 ### Persistência e compatibilidade
 
-Reutilizar Simulation, Question, Attempt, AttemptAnswer e AttemptsCorrectionService. Criar QuizzesModule como fachada de produto; não renomear tabelas nem criar um motor de correção paralelo.
+A implementação reutiliza Simulation, Question, Attempt e AttemptAnswer; QuizzesModule/QuizAttemptsService tratam a prática, enquanto AttemptsCorrectionService conserva a correção dos simulados. Não foi necessário renomear as tabelas existentes.
 
 | Mudança | Regra |
 |---|---|
@@ -253,7 +257,7 @@ Reutilizar Simulation, Question, Attempt, AttemptAnswer e AttemptsCorrectionServ
 | AttemptQuestionSnapshot | Conteúdo, opções, ordem, pontos, explicação e respostas oficiais da versão iniciada |
 | Preferências do aluno | Segmento/ano e preferências de interação persistidos por usuário, com compatibilidade dos sentinelas |
 
-Criar restrição condicional para manter bimester/assessment preenchidos em SIMULATION e validar o contrato de QUIZ. Preservar bimestre 0 e as séries sentinelas já usadas em Técnico/Infantil; essa migração não redefine esses dados.
+A restrição condicional mantém bimester/assessment preenchidos em SIMULATION e valida o contrato de QUIZ. Preservar bimestre 0 e as séries sentinelas já usadas em Técnico/Infantil; essa migração não redefine esses dados.
 
 Todos os caminhos antigos de catálogo/gestão, histórico, relatórios, students e pontuacao devem tratar SIMULATION explicitamente. Endpoints de quiz têm filtros próprios. Uma rota antiga de início de simulado deve rejeitar IDs de quiz. Proibir mudança de activityKind após publicação.
 
@@ -261,27 +265,31 @@ Na migração de unicidade de tentativa aberta, identificar duplicidades existen
 
 ### Conteúdo da tentativa e feedback
 
-Criar snapshots na mesma transação do início do quiz; maxScore deriva dos pontos desse snapshot. Não colocar JSON de gabarito no modelo Attempt: hoje vários endpoints retornam esse modelo diretamente. Somente o serviço de correção lê os campos oficiais; DTOs públicos selecionam campos permitidos. Imagens/áudios privados exigem acesso autorizado ou URL assinada com validade curta, respeitando a participação na turma.
+O início do quiz cria snapshots na mesma transação; maxScore deriva dos pontos desse snapshot. Não colocar JSON de gabarito no modelo Attempt: hoje vários endpoints retornam esse modelo diretamente. Somente o serviço de correção lê os campos oficiais; DTOs públicos selecionam campos permitidos. A entrega de imagens/áudios do snapshot exige a sessão e o acesso atual, com URLs relativas à tentativa e no-store. Uploads confidenciais de turma continuam fora do escopo implementado; não há URLs assinadas neste fluxo.
 
 A resposta confirmada produz somente o feedback daquela questão: isCorrect, pointsEarned, explanation e funFact. A leitura de retomada recupera esse feedback apenas das questões já confirmadas. Antes da confirmação, explicação e gabarito permanecem ausentes. Um reenvio equivalente devolve o feedback persistido; uma resposta diferente depois da confirmação retorna conflito.
 
-A explicação pode ensinar como chegar à solução e permitir inferi-la; isso é intencional depois da confirmação em um quiz de prática. Nenhuma resposta oficial estruturada, correctAnswer ou QuestionAnswer deve ser entregue. Registrar a política em ADR complementar ao 005. O simulado conserva correção no encerramento e a política atual de proteção.
+A explicação pode ensinar como chegar à solução e permitir inferi-la; isso é intencional depois da confirmação em um quiz de prática. Nenhuma resposta oficial estruturada, correctAnswer ou QuestionAnswer deve ser entregue. A política está registrada nos [ADRs 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md) e [008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md), complementando o 005. O simulado conserva correção no encerramento e a política atual de proteção.
 
 Validação por tipo impede alternativas inexistentes e mapas incompletos ou inválidos. A correção atual é tudo-ou-nada; pontuação parcial é uma mudança futura independente.
 
-Confirmar, corrigir e bloquear a resposta é transacional. Finalizar registra status e resultado na mesma transação, com comparação do estado e trava/controle de concorrência. Quiz só finaliza após confirmar todas as questões do snapshot; tentativa incompleta falha sem conceder XP. Simulados conservam a possibilidade atual de concluir com questões em branco. Na etapa 2, acrescentar a atualização do progresso e o evento de XP nessa unidade atômica.
+Confirmar, corrigir e bloquear a resposta é transacional. Finalizar registra status e resultado na mesma transação, com comparação do estado e trava/controle de concorrência. Quiz só finaliza após confirmar todas as questões do snapshot; tentativa incompleta falha sem conceder XP. Simulados conservam a possibilidade atual de concluir com questões em branco. Os lotes 07–09 acrescentam recibo de XP, progresso de missão, conquistas/itens e evidência nessa unidade atômica; REVIEW não concede XP, missão ou itens.
 
 Quiz publicado tem versão editorial estável; alteração de conteúdo gera nova versão. Todos os caminhos de alteração, incluindo gestão de questões e seed, devem respeitar essa imutabilidade. Importação/publicação é atômica, e o início lê uma única versão coerente de enunciados, opções e gabaritos, mediante revisão imutável ou isolamento/trava coordenada. Snapshots preservam tentativas antigas mesmo após nova versão/seed. Arquivar bloqueia novos inícios e permite retomar sessões existentes quando o acesso continua válido. Revogar participação bloqueia a exposição de conteúdo privado; o resumo pessoal pode preservar estatísticas sem enunciados.
 
-### Modelos posteriores
+### Modelos acrescentados nos lotes 06–10
 
-Etapa 2: Mission, MissionActivity, MissionProgress, XpEvent, Achievement, StudentAchievement, AvatarItem e StudentAvatarItem. Preferir catálogo enxuto e regras explícitas a uma plataforma genérica de gamificação.
+- Preferências: `LearningPreferences` por conta.
+- Missões/XP: `Mission`, `MissionActivity`, `MissionProgress`, `MissionActivityCompletion`, `XpEvent` e `QuizCompletionReward`.
+- Coleção: `UserAchievement`, `UserAvatarItem` e `UserAvatar`; regras e itens usam catálogos controlados no código.
+- Habilidades: `LearningSkill`, `QuestionSkill` e metadados imutáveis no snapshot; progresso é agregado das respostas concluídas.
+- Acesso/recuperação: `TeacherTurma`, `PasswordResetToken` e `User.authVersion`.
 
-Etapa 3: LearningSkill, QuestionSkill e TeacherTurma. Progresso inicialmente pode ser agregado a partir dos dados existentes; acrescentar cache/materialização somente se necessário.
+Contratos e limites estão nos guias de [missões/XP](../../guia-missoes-xp.md), [coleções](../../guia-colecoes-conquistas.md), [habilidades/revisão](../../guia-habilidades-revisao.md) e [acesso/recuperação](../../guia-acesso-recuperacao.md).
 
-## 6. Contratos de API implementados e próximos
+## 6. Contratos de API implementados
 
-Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, confirmação, feedback, conclusão e resultado. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis. Mídia está implementada na API no lote 05 e no BFF/jornada web no lote 06, junto com preferências por conta; missões, recompensas e progresso abaixo continuam planejados. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
+Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, confirmação, feedback, conclusão e resultado. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis. Mídia está implementada na API no lote 05 e no BFF/jornada web no lote 06, junto com preferências por conta; missões, recompensas, progresso e acompanhamento abaixo foram entregues nos lotes 07–10. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
 
 | Rota | Uso e controle |
 |---|---|
@@ -297,31 +305,35 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | POST /attempts/:id/finish e GET /attempts/:id/result | Resultado persistido; idempotência no quiz |
 | GET /me/quiz-attempts | Histórico de prática do próprio aluno |
 | GET/PATCH /me/learning-preferences | Escolhas de faixa/ano, áudio e movimento da própria conta ativa, sem conceder acesso |
-| GET /me/learning-home e /me/missions | Próxima atividade e missões, na etapa 2 |
-| GET /me/achievements e GET/PATCH /me/avatar | Conquistas e personalização, na etapa 2 |
-| GET /me/learning-progress e POST /me/review-attempts | Progresso e revisão autorizada, na etapa 3 |
-| GET /students/:id/learning-progress | Responsável vinculado, ADMIN ou docente com vínculo implementado |
+| GET /me/learning-home e /me/missions | Próxima atividade e missões autorizadas — lote 07 |
+| GET /me/achievements e GET/PATCH /me/avatar | Conquistas e personalização persistidas — lote 08 |
+| GET /me/learning-progress e POST /me/review-attempts | Progresso e revisão autorizada — lote 09 |
+| GET /students/:id/learning-progress | Leitura por responsável vinculado, ADMIN ou docente atribuído; recorte de turma — lote 10 |
+| GET /me/oversight-students | Lista mínima dos alunos autorizados para acompanhamento — lote 10 |
+| GET /reports/student/:id/summary ou /by-discipline | Avaliações SIMULATION, com vínculo atual e escopo docente — lote 10 |
+| POST /turmas/:id/teachers e DELETE /turmas/:id/teachers/:teacherId | Somente ADMIN atribui/remove docente — lote 10 |
+| POST /auth/forgot-password e /reset-password | Rotas públicas de recuperação com Resend; transporte real ainda desativado — lote 10 |
 
 `seed-quizzes.ts` e scripts próprios de importação/dry-run/inventário estão implementados. A chave lógica e versão tornam a importação idempotente. O lote 06 acrescenta os contratos de aluno de quiz à allowlist do BFF e conserva o backend como fonte das regras; gestão ADMIN não foi liberada por esse caminho.
 
-## 7. Backlog dos primeiros lotes
+## 7. Lotes e estado da execução
 
 | Lote | Trabalho | Arquivos/áreas principais | Pronto quando |
 |---|---|---|---|
-| 01 | Isolamento e rotação de sessão | Web lib/authenticatedBackendFetch.server.ts; API auth.service.ts e testes | Dois alunos simultâneos não compartilham tokens |
-| 02 | Inventário, regressão e CI | Seed, testes de integração, fluxos web e documentação | Acervo validado e checks automatizados |
-| 03 | Modelo e snapshots de quiz | prisma/schema.prisma, migrations, QuizzesModule e AttemptsService | Simulados conservam contratos e quiz tem conteúdo estável |
+| 01 | Isolamento e rotação de sessão — concluído | Web lib/authenticatedBackendFetch.server.ts; API auth.service.ts e testes | Dois alunos simultâneos não compartilham tokens |
+| 02 | Inventário, regressão e CI — concluído | Seed, testes de integração, fluxos web e documentação | Acervo validado e checks automatizados |
+| 03 | Modelo e snapshots de quiz — concluído | prisma/schema.prisma, migrations, QuizzesModule e AttemptsService | Simulados conservam contratos e quiz tem conteúdo estável |
 | 04 | Confirmação e resultado de quiz — concluído | QuizAttemptsService, projeções de feedback, migration e testes | Feedback seguro, retomada e concorrência validados |
 | 05 | Catálogo e mídia — implementação técnica concluída, revisão/publicação pendentes | Importador, 45 quizzes/213 perguntas, mídia e matriz | Aceite editorial ainda pendente: 45 quizzes revisados e ativos nas 15 faixas |
 | 06 | Jornada web de quiz — implementação técnica concluída; validação humana pendente | apiClient, BFF binário, catálogo/runner/histórico e LearningPreferences por conta | Automação valida contratos e retomada; uso com pessoas/leitor de tela/aparelhos reais continua pendente |
 | 07 | Missões e XP — implementação técnica concluída; publicação editorial pendente | Novos módulos, transações, ledger e tela Aprender hoje | Regra de concessão única passa sob concorrência |
-| 08 | Avatar, coleções e conquistas | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
-| 09 | Habilidades e revisão | Conteúdo classificado, serviços e relatórios | Revisão útil e evidências separadas |
+| 08 | Avatar, coleções e conquistas — implementado | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
+| 09 | Habilidades e revisão — implementado; revisão editorial pendente | Conteúdo classificado, serviços e relatórios | Revisão útil e evidências separadas |
 | 10 | Acesso docente/responsável e recuperação — implementação técnica concluída | TeacherTurma, guards/services, painel e Resend | Relatórios restritos e recuperação validados localmente; ativação de e-mail real pendente |
-| 11 | Prova mobile | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
-| 12 | App/beta | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
+| 11 | Prova mobile — não iniciada | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
+| 12 | App/beta — não iniciado | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
 
-Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes. O lote 06 implementa jornada web e preferências ([ADR 010](../../decisions/010-preferencias-de-aprendizagem-por-conta.md)); o próximo lote técnico é 07, sem dispensar validação humana e editorial.
+Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes. O lote 06 implementa jornada web e preferências ([ADR 010](../../decisions/010-preferencias-de-aprendizagem-por-conta.md)); os lotes 07–10 entregaram missões, XP, coleção, habilidades/revisão e acompanhamento/recuperação. Todas essas implementações estão integradas à main; o próximo lote técnico é 11, sem dispensar validação humana, editorial e ativação operacional.
 
 Lotes 03–06 formam a primeira entrega de quizzes; 07–08 formam a entrega de gamificação. Design e curadoria começam no lote 02 e seguem em paralelo ao backend. Planejamento mobile começa quando a experiência da etapa 2 estiver validada.
 
@@ -346,12 +358,12 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Catálogo antigo, média, ranking e relatórios de simulado excluem quizzes.
 - [x] Quiz DRAFT/privado não aparece nem pode ser iniciado por link sem acesso.
 - [x] Aluno não acessa tentativa ou feedback de outro aluno.
-- [ ] Recompensas respeitam ownership quando implementadas.
+- [x] Recompensas e escolha de item respeitam ownership — lote 08.
 - [x] DTOs da API não expõem gabaritos nem explicações de questões de quiz não confirmadas.
-- [ ] Concluir verificação dos bundles e telas da jornada web de quiz na regressão automatizada.
+- [x] Verificar bundles e telas da jornada web de quiz na regressão automatizada — lotes 06–10.
 - [x] Confirmação repetida é idempotente; resposta diferente depois do feedback falha.
 - [x] Dois inícios simultâneos compartilham uma tentativa; dois finishes de quiz compartilham o resultado.
-- [ ] Finalizações concorrentes não duplicam recompensas quando implementadas.
+- [x] Finalizações concorrentes não duplicam XP, conquistas ou itens — lotes 07/08.
 - [x] Nova versão e alteração da questão fonte não mudam questões, opções ou correção de tentativa iniciada.
 - [x] Verificar a preservação de conteúdo, tentativas e respostas pelo importador de quizzes.
 - [x] Verificar mídia do snapshot, Range, revogação de acesso e falha de bytes sem bloquear confirmação/conclusão na API.
@@ -365,10 +377,13 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Concluir regressão de mídia/autorização no BFF e navegador; uploads privados continuam fora deste lote.
 - [x] Sessões web de contas distintas permanecem isoladas.
 - [x] API mantém preferências isoladas por usuário, com PATCH concorrente e validação de conta ativa.
-- [ ] Concluir regressão de troca de conta da jornada web; o app deve reproduzir esse isolamento quando implementado.
+- [x] Validar troca de conta da jornada web e respostas atrasadas — lotes 06–10.
+- [ ] Reproduzir esse isolamento na prova e implementação mobile.
 - [x] Infantil funciona com mídia indisponível e com áudio/movimento desativados em Chromium desktop/mobile emulado.
 - [ ] Fluxos Android/iOS tratam suspensão, refresh, perda de rede, reinstalação e link de convite.
 - [x] Relatórios de responsável/docente respeitam vínculos atuais e recorte de turmas.
+- [x] Recuperação usa hash/expiração/uso único; reset invalida sessões e links irmãos, inclusive sob concorrência.
+- [ ] Validar entrega real do Resend e definir limite de recuperação no perímetro/BFF antes de ampliar o uso.
 
 Na implementação, usar unitários para regras, integração com PostgreSQL para índices/transações/concorrência e e2e para contratos críticos. Executar build/lint e dry-run apropriados aos arquivos alterados. Dados de teste e migrations devem ser validados em ambiente isolado.
 
@@ -384,7 +399,7 @@ Na implementação, usar unitários para regras, integração com PostgreSQL par
 | Capacidade real | Informar disponibilidade para converter esforço em calendário |
 | Mobile | Confirmar prioridade Android/iOS e meios de teste/distribuição no spike |
 
-Escopo confirmado pelo usuário: todos os públicos desde o início. Quantidades de conteúdo, valores de XP e estimativas são propostas concretas, ajustáveis após a etapa 0. Nenhuma dessas decisões impede concluir este planejamento.
+Escopo confirmado pelo usuário: todos os públicos desde o início. Catálogos e regra inicial de XP foram implementados conforme os lotes descritos; aprovação editorial e avaliação dos parâmetros dependem da revisão e do uso observado. As estimativas iniciais são históricas. Nenhuma dessas decisões impede concluir este planejamento.
 
 ## 11. Ideias posteriores ao primeiro app
 
@@ -404,7 +419,7 @@ Fechamento técnico do lote 07: 479 unitários e 267 casos API/PostgreSQL; 30 te
 Fechamento técnico do lote 08: 513 unitários e 309 casos API/PostgreSQL; 30 testes de sessão, 30 jornadas HTTP e 52 Chromium desktop/mobile emulado passaram. Lint/builds/types/Prisma passaram. A cobertura inclui histórico elegível, ownership durável, temas/versões, rollback de concessões, persistência em outra sessão, todas as faixas, teclado, Axe e troca de conta com GET/PATCH atrasados. Nenhuma publicação editorial ou alteração em banco existente. Operação: [guia de coleções](../../guia-colecoes-conquistas.md).
 
 
-Fechamento técnico do lote 09: catálogo offline e hashes, autoria/revisão explícita de habilidades, snapshots imutáveis e sessões REVIEW de até cinco perguntas estão implementados. A web oferece /progresso, retomada, resultado e filtro de histórico. Uma pergunta vista em REVIEW ou sem classificação não passa a ser primeira resposta ao reaparecer em NORMAL. Nova versão não reinicia a identidade lógica. Perguntas diferentes da mesma habilidade podem vir de outro quiz autorizado; a sessão continua vinculada a um único quiz. As propostas 45/213 permanecem PENDING e não foram importadas/publicadas em base existente. Operação: [guia de habilidades e revisão](../../guia-habilidades-revisao.md) e [ADR 013](../../decisions/013-habilidades-e-revisao.md). Totais finais de regressão estão em PROGRESS.md.
+Fechamento técnico do lote 09: catálogo offline e hashes, autoria/revisão explícita de habilidades, snapshots imutáveis e sessões REVIEW de até cinco perguntas estão implementados. A web oferece /progresso, retomada, resultado e filtro de histórico. Uma pergunta vista em REVIEW ou sem classificação não passa a ser primeira resposta ao reaparecer em NORMAL. Nova versão não reinicia a identidade lógica. Perguntas diferentes da mesma habilidade podem vir de outro quiz autorizado; a sessão continua vinculada a um único quiz. As propostas 45/213 permanecem PENDING e não foram importadas/publicadas em base existente. Operação: [guia de habilidades e revisão](../../guia-habilidades-revisao.md) e [ADR 013](../../decisions/013-habilidades-e-revisao.md). Totais atuais de regressão estão em [PROGRESS.md](../../../PROGRESS.md).
 
 
-Fechamento técnico do lote 10: roster mínimo e /acompanhamento separam simulados de evidências de prática. TeacherTurma é atribuído somente por ADMIN; filtros excluem atividades de outras turmas privadas e convites não conferem papel docente. Recuperação com Resend usa token aleatório/hash, expiração, cooldown, uso único e revogação atômica das sessões, com transporte sintético e sem login automático. Chave/remetente verificado e entrega real permanecem pendentes. Totais finais estão em PROGRESS.md. Operação: [guia de acesso e recuperação](../../guia-acesso-recuperacao.md) e [ADR 014](../../decisions/014-acesso-docente-e-recuperacao.md). Nenhuma base existente, publicação editorial ou deploy foi alterado.
+Fechamento técnico do lote 10: roster mínimo e /acompanhamento separam simulados de evidências de prática. TeacherTurma é atribuído somente por ADMIN; filtros excluem atividades de outras turmas privadas e convites não conferem papel docente. Recuperação com Resend usa token aleatório/hash, expiração, cooldown, uso único e revogação atômica das sessões, com transporte sintético e sem login automático. Chave/remetente verificado e entrega real permanecem pendentes. Totais atuais estão em [PROGRESS.md](../../../PROGRESS.md). Operação: [guia de acesso e recuperação](../../guia-acesso-recuperacao.md) e [ADR 014](../../decisions/014-acesso-docente-e-recuperacao.md). Nenhuma base existente, publicação editorial ou deploy foi alterado.
