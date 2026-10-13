@@ -1,6 +1,6 @@
 # CI e regressão da base
 
-Lote 02 do plano de evolução, em 12/10/2026. O workflow `.github/workflows/ci.yml` executa em PRs, pushes na `main` e por acionamento manual. Usa Node 22, `npm ci`, geração Prisma, lint, unitários, build, dry-run do catálogo, inventário e integração HTTP com PostgreSQL 16.
+Criado no lote 02 e ampliado pelos lotes 03 a 06 do plano de evolução, em 12/10/2026. O workflow `.github/workflows/ci.yml` executa em PRs, pushes na `main` e por acionamento manual. Usa Node 22, `npm ci`, geração Prisma, lint, unitários, build, dry-run/inventário de simulados e quizzes, e integração HTTP com PostgreSQL 16.
 
 ## Rodar localmente
 
@@ -11,6 +11,8 @@ npm run build
 npm run seed:dry-run
 npm run seed:inventory
 npm run --silent seed:inventory:json > /tmp/simulados-inventory.json
+npm run seed:quizzes:dry-run
+npm run --silent seed:quizzes:inventory:json > /tmp/quizzes-inventory.json
 npm run test:integration
 ```
 
@@ -34,12 +36,34 @@ A URL deve ser explícita, local e ter usuário e banco `simulados_regression_te
 - Gabaritos ausentes nas respostas públicas e de aluno; perfis e vínculos de responsáveis não expõem `passwordHash`.
 - Acesso somente ao próprio aluno ou ao aluno vinculado ao responsável, além das permissões administrativas previstas.
 - Rotação concorrente e rollback do refresh, revogação por logout e validação da configuração de banco de testes.
+- Quiz: versões imutáveis/snapshots, criação/início concorrentes, confirmação/feedback e conclusão idempotentes, projeções sem gabarito e isolamento dos relatórios/ranking de simulados.
+- Importação completa e repetida dos 45 quizzes em banco descartável, referências/versões, rollback e concorrência; catálogo real continua PENDING e não foi publicado.
+- Mídia do snapshot: SVG/WAV, Range, autorização/revogação, digest e fallback textual sem bloquear confirmação/conclusão.
+- Preferências da própria conta: defaults sem gravação, 15 faixas, roles, DTOs estritos e compatibilidade combinada, PATCH concorrente, status/subject do JWT, isolamento e constraints SQL.
 
 Validação local em 12/10/2026: 120 testes unitários (incluindo 23 de inventário e 14 da configuração de banco), 43 testes de integração (35 de fluxos HTTP + 8 de refresh), lint, build, dry-run e relatório determinístico passaram.
 
 As fixtures são sintéticas e criadas em PostgreSQL real. Testes passam pelos controllers, guards e validação da aplicação. Não substituem a revisão pedagógica das questões nem uma avaliação manual de acessibilidade em navegador/aparelho.
 
 A web tem seu próprio workflow e regressão HTTP com Next, API e PostgreSQL. O checkout da API nessa CI é fixado em um commit da `main` para reproduzir os contratos; atualize essa referência ao integrar mudanças de contrato.
+
+## Jornada web do lote 06
+
+Execute no repositório web, apontando para um checkout da API com o contrato de preferências e migrations desta entrega:
+
+```bash
+npm run typecheck
+npm run test:auth
+npm run build
+E2E_API_DIR=/caminho/do/checkout/api npm run test:e2e
+E2E_API_DIR=/caminho/do/checkout/api npm run test:browser
+```
+
+Os harnesses iniciam Next de produção, API real e PostgreSQL descartável, com fixtures sintéticas. O catálogo, runner e histórico não importam/publicam o catálogo editorial em ambiente existente. A regressão HTTP cobre as jornadas de simulado e quiz, filtros nas 15 faixas, feedback/retomada/resultado, preferências por conta e bytes/Range/autorização do BFF. Testes de sessão verificam também isolamento/renovação e transporte binário controlado.
+
+`test:browser` exige Chromium instalado para Playwright; a configuração recusa execução sem as URLs/fixtures do harness. Os projetos usam desktop e viewport mobile emulado, com um worker; cenários incluem teclado, mudanças de seleção, bloqueio após confirmar, perda de resposta HTTP, recarga/retomada, mídia com falha, preferências/conta e axe. A emulação não representa um aparelho Android/iOS real, e axe não substitui leitor de tela ou avaliação com pessoas.
+
+Fechamento da validação do lote 06: **409 unitários e 214 integração API/PostgreSQL**, **30 testes de sessão e 16 jornadas HTTP web** passaram. Builds API/web, lint da API e Prisma validate passaram; **24 testes Chromium desktop/mobile emulado** passaram, incluindo os cinco segmentos, teclado, axe, fallback, perdas de resposta e troca de conta. Bundles de quiz foram inspecionados sem campos privados ou fixtures sintéticas. O catálogo 45/213 permanece PENDING; revisão editorial, publicação e sessões humanas/aparelhos/leitor de tela continuam pendentes. Nenhuma migration em banco existente, seed em produção ou deploy foi executado.
 
 ## Referências da CI
 

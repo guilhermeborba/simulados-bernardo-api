@@ -8,11 +8,14 @@ function dec(valor: number) {
   return new Prisma.Decimal(valor);
 }
 
-/** Data a N dias atrás, ao meio-dia, para não esbarrar na virada do fuso. */
+const AGORA_FIXO = new Date('2026-10-12T18:00:00.000Z');
+
+/** Meio-dia em São Paulo, calculado em UTC e independente do TZ do executor. */
 function diasAtras(dias: number): Date {
-  const data = new Date();
-  data.setHours(12, 0, 0, 0);
-  return new Date(data.getTime() - dias * 24 * 60 * 60 * 1000);
+  const data = new Date(AGORA_FIXO);
+  data.setUTCHours(15, 0, 0, 0);
+  data.setUTCDate(data.getUTCDate() - dias);
+  return data;
 }
 
 const simulacao = {
@@ -31,6 +34,7 @@ describe('PontuacaoService', () => {
   const aluno = { id: 'aluno-1', role: UserRole.STUDENT };
 
   beforeEach(async () => {
+    jest.useFakeTimers({ now: AGORA_FIXO });
     prisma = {
       attempt: { findMany: jest.fn().mockResolvedValue([]) },
       turma: {
@@ -48,6 +52,10 @@ describe('PontuacaoService', () => {
     }).compile();
 
     service = moduleRef.get(PontuacaoService);
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
   });
 
   describe('minha pontuação', () => {
@@ -107,6 +115,33 @@ describe('PontuacaoService', () => {
       const resultado = await service.getMinhaPontuacao('aluno-1');
 
       expect(resultado.diasSeguidos).toBe(0);
+    });
+
+    it.each([
+      ['2026-10-12T23:59:00.000Z', 2],
+      ['2026-10-13T00:13:00.000Z', 2],
+      ['2026-10-13T03:00:00.000Z', 0],
+    ])('vira o dia à meia-noite de São Paulo: %s', async (agora, esperado) => {
+      jest.setSystemTime(new Date(agora));
+      prisma.attempt.findMany.mockResolvedValue([
+        {
+          simulationId: 's1',
+          percentage: dec(80),
+          finishedAt: new Date('2026-10-11T15:00:00.000Z'),
+          simulation: simulacao,
+        },
+        {
+          simulationId: 's2',
+          percentage: dec(80),
+          finishedAt: new Date('2026-10-10T15:00:00.000Z'),
+          simulation: simulacao,
+        },
+      ]);
+
+      const resultado = await service.getMinhaPontuacao('aluno-1');
+
+      // 00:13 UTC ainda é dia 12 na escola: o estudo do dia 11 vale como ontem.
+      expect(resultado.diasSeguidos).toBe(esperado);
     });
 
     it('não conta duas vezes o mesmo dia', async () => {

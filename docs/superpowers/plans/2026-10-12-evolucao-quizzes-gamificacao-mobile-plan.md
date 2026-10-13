@@ -1,7 +1,7 @@
 # Plano de evolução — quizzes, aprendizagem lúdica e app mobile
 
 Data: 2026-10-12
-Status: lotes 01 a 04 concluídos; lote 05 implementado tecnicamente, com revisão/publicação pendentes; jornada web e demais entregas pendentes
+Status: lotes 01 a 04 concluídos; lotes 05 e 06 implementados tecnicamente, com revisão/publicação editorial e validação humana de uso pendentes; próximo lote técnico 07 — missões e XP
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -71,6 +71,18 @@ Catálogo preparado com 45 quizzes/213 perguntas, três quizzes nas 15 faixas, t
 As 18 questões infantis têm SVGs originais modernizados, narração pt-BR, alt e transcrição. IDs/digests são fixados e copiados para snapshots; assets anteriores permanecem disponíveis. A rota de bytes exige dono/ADMIN e acesso atual, aceita Range e usa no-store. Falha de arquivo preserva texto e não impede confirmar/concluir pela API. Arquivos genéricos empacotados não são armazenamento confidencial de uploads privados.
 
 Validação: 381 unitários, 162 testes PostgreSQL e 8 jornadas HTTP web/Next/BFF/API, além de lint, build, Prisma validate e dry-runs. Nenhuma base existente, publicação editorial ou deploy alterado. [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md) e [guia](../../guia-quizzes.md). O aceite editorial do lote 05 continua pendente; o lote 06 pode avançar em paralelo à revisão, com lançamento condicionado a ela.
+
+### Execução técnica do lote 06 — 12/10/2026
+
+A web oferece `/quizzes`, `/quiz/[quizId]` e `/quizzes/historico`: filtros nas 15 faixas, disciplina/tema, escolha local antes de confirmar, feedback, resposta bloqueada após confirmação, recarga/retomada e resultado persistido. O runner/histórico exigem STUDENT; os demais perfis podem explorar o catálogo e salvar preferências. Estados vazios/erro permitem recuperar a consulta sem inventar quizzes publicados.
+
+O BFF libera contratos de aluno de quiz e entrega mídia binária pela sessão existente, com cookies httpOnly, Range, MIME/tamanho controlados e no-store. URLs aceitas pertencem à tentativa, sem URL externa ou token na query. Falha de imagem/áudio conserva descrição/transcrição; áudio depende de ação e movimento pode ser reduzido por preferência ou sistema.
+
+A API acrescenta `GET/PATCH /me/learning-preferences`, por conta ativa, com filtros nulos, áudio false e movimento true como defaults. Segmento/ano são compatíveis com os códigos existentes. PATCH trava o usuário, mescla o último estado e preserva alterações de campos distintos sob concorrência. A migration é aditiva, sem backfill; preferência não altera perfil escolar ou autorização de turma. A web invalida estado/respostas atrasadas quando a conta muda. Decisão: [ADR 010](../../decisions/010-preferencias-de-aprendizagem-por-conta.md).
+
+Fechamento da validação do lote 06: **409 testes unitários e 214 de integração API/PostgreSQL**, **30 testes de sessão web e 16 jornadas HTTP Next/BFF/API/PostgreSQL** passaram. Builds API/web, lint da API e Prisma validate passaram; **24 testes Chromium desktop/mobile emulado** validaram os cinco segmentos, teclado, axe, fallback, retomada, perda de respostas e isolamento de sessão/preferências. Bundles de quiz foram inspecionados sem gabaritos, identificadores privados de mídia ou fixtures sintéticas; simulados e quizzes também passaram em dry-run. Não houve migration em banco existente, seed em produção, publicação editorial ou deploy.
+
+Usabilidade com pessoas, leitor de tela e aparelhos reais, incluindo Infantil com adulto, permanece pendente. O catálogo de 45 quizzes/213 perguntas continua PENDING e não foi publicado. A implementação técnica permite avançar ao lote 07; o lançamento nas 15 faixas continua condicionado à revisão/publicação e validação humana.
 
 ## 3. Experiência e catálogo inicial para todos os públicos
 
@@ -148,10 +160,11 @@ Quizzes podem chegar em aproximadamente **5–7 semanas** e missões/recompensas
 - [x] Garantir uma tentativa em andamento por aluno/atividade, inclusive em requisições concorrentes.
 - [x] Criar importação própria de quizzes, com versão, chaves estáveis, validação e dry-run.
 - [ ] Revisar e publicar o catálogo mínimo de todos os públicos; Infantil tem imagem com descrição e áudio com transcrição.
-- [ ] Criar /quizzes, /quiz/[quizId] e histórico de quiz na web; aproveitar AuthContext, BFF e mapeamento existentes.
-- [ ] Acrescentar quizzes à allowlist do proxy e os contratos correspondentes ao apiClient.
-- [ ] Persistir preferência de segmento/ano, áudio e movimento por usuário; a preferência não concede acesso a turmas.
-- [ ] Validar uso em celular, teclado e leitor de tela; imagem ou áudio com falha não deve impedir concluir a atividade.
+- [x] Criar /quizzes, /quiz/[quizId] e /quizzes/historico na web, com AuthContext, BFF e contratos próprios de quiz.
+- [x] Acrescentar contratos de aluno de quiz à allowlist do proxy/apiClient e entrega binária autorizada de mídia.
+- [x] Persistir preferência de segmento/ano, áudio e movimento por conta ativa, sem conceder acesso a turmas.
+- [x] Concluir validação automatizada em navegador: teclado, mobile emulado, axe e fallback com mídia/áudio/movimento indisponíveis ou desativados.
+- [ ] Validar com leitor de tela e aparelhos reais; ausência de mídia não deve impedir concluir.
 - [ ] Observar ao menos uma sessão guiada por segmento, incluindo Infantil com adulto, e ajustar as dificuldades encontradas.
 
 **Aceite:** todos os segmentos têm quizzes publicados e utilizáveis; resposta confirmada fica bloqueada; recarregar recupera resposta e feedback; reenvio não duplica resposta; versão/seed novos não alteram tentativa iniciada; conteúdo privado permanece privado; desempenho de simulados conserva a regra atual.
@@ -264,7 +277,7 @@ Etapa 3: LearningSkill, QuestionSkill e TeacherTurma. Progresso inicialmente pod
 
 ## 6. Contratos de API implementados e próximos
 
-Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, confirmação, feedback, conclusão e resultado. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis. Mídia está implementada na API no lote 05; as rotas de missões, recompensas e progresso abaixo continuam planejadas. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
+Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, confirmação, feedback, conclusão e resultado. O [guia de quizzes](../../guia-quizzes.md) lista os contratos disponíveis. Mídia está implementada na API no lote 05 e no BFF/jornada web no lote 06, junto com preferências por conta; missões, recompensas e progresso abaixo continuam planejados. Rotas de aluno usam JwtAuthGuard; restrições por role acrescentam RolesGuard e a verificação de propriedade/vínculo no service.
 
 | Rota | Uso e controle |
 |---|---|
@@ -279,12 +292,13 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | POST /attempts/:id/questions/:questionId/answer | Reutilizado; quiz confirma/corrige/bloqueia, simulado conserva seu fluxo |
 | POST /attempts/:id/finish e GET /attempts/:id/result | Resultado persistido; idempotência no quiz |
 | GET /me/quiz-attempts | Histórico de prática do próprio aluno |
+| GET/PATCH /me/learning-preferences | Escolhas de faixa/ano, áudio e movimento da própria conta ativa, sem conceder acesso |
 | GET /me/learning-home e /me/missions | Próxima atividade e missões, na etapa 2 |
 | GET /me/achievements e GET/PATCH /me/avatar | Conquistas e personalização, na etapa 2 |
 | GET /me/learning-progress e POST /me/review-attempts | Progresso e revisão autorizada, na etapa 3 |
 | GET /students/:id/learning-progress | Responsável vinculado, ADMIN ou docente com vínculo implementado |
 
-`seed-quizzes.ts` e scripts próprios de importação/dry-run/inventário estão implementados. A chave lógica e versão tornam a importação idempotente. Acrescentar explicitamente os novos prefixos à allowlist do BFF e manter o backend como fonte das regras.
+`seed-quizzes.ts` e scripts próprios de importação/dry-run/inventário estão implementados. A chave lógica e versão tornam a importação idempotente. O lote 06 acrescenta os contratos de aluno de quiz à allowlist do BFF e conserva o backend como fonte das regras; gestão ADMIN não foi liberada por esse caminho.
 
 ## 7. Backlog dos primeiros lotes
 
@@ -295,7 +309,7 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | 03 | Modelo e snapshots de quiz | prisma/schema.prisma, migrations, QuizzesModule e AttemptsService | Simulados conservam contratos e quiz tem conteúdo estável |
 | 04 | Confirmação e resultado de quiz — concluído | QuizAttemptsService, projeções de feedback, migration e testes | Feedback seguro, retomada e concorrência validados |
 | 05 | Catálogo e mídia — implementação técnica concluída, revisão/publicação pendentes | Importador, 45 quizzes/213 perguntas, mídia e matriz | Aceite editorial ainda pendente: 45 quizzes revisados e ativos nas 15 faixas |
-| 06 | Jornada web de quiz | apiClient, BFF, novas páginas, QuizRunner e preferências | Todos os públicos conseguem concluir e retomar |
+| 06 | Jornada web de quiz — implementação técnica concluída; validação humana pendente | apiClient, BFF binário, catálogo/runner/histórico e LearningPreferences por conta | Automação valida contratos e retomada; uso com pessoas/leitor de tela/aparelhos reais continua pendente |
 | 07 | Missões e XP | Novos módulos, transações, ledger e tela Aprender hoje | Regra de concessão única passa sob concorrência |
 | 08 | Avatar, coleções e conquistas | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
 | 09 | Habilidades e revisão | Conteúdo classificado, serviços e relatórios | Revisão útil e evidências separadas |
@@ -303,7 +317,7 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | 11 | Prova mobile | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
 | 12 | App/beta | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
 
-Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes; jornada web segue para o lote 06.
+Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes. O lote 06 implementa jornada web e preferências ([ADR 010](../../decisions/010-preferencias-de-aprendizagem-por-conta.md)); o próximo lote técnico é 07, sem dispensar validação humana e editorial.
 
 Lotes 03–06 formam a primeira entrega de quizzes; 07–08 formam a entrega de gamificação. Design e curadoria começam no lote 02 e seguem em paralelo ao backend. Planejamento mobile começa quando a experiência da etapa 2 estiver validada.
 
@@ -330,7 +344,7 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Aluno não acessa tentativa ou feedback de outro aluno.
 - [ ] Recompensas respeitam ownership quando implementadas.
 - [x] DTOs da API não expõem gabaritos nem explicações de questões de quiz não confirmadas.
-- [ ] Verificar também os bundles e telas da jornada web de quiz quando implementados.
+- [ ] Concluir verificação dos bundles e telas da jornada web de quiz na regressão automatizada.
 - [x] Confirmação repetida é idempotente; resposta diferente depois do feedback falha.
 - [x] Dois inícios simultâneos compartilham uma tentativa; dois finishes de quiz compartilham o resultado.
 - [ ] Finalizações concorrentes não duplicam recompensas quando implementadas.
@@ -343,10 +357,12 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Arquivamento e revogação de membership obedecem à política documentada.
 - [ ] XP respeita unicidade, versão lógica, teto e mudança de dia no fuso definido.
 - [ ] Conclusões simultâneas de quizzes diferentes respeitam o teto diário de XP.
-- [ ] Mídias privadas exigem autorização, expiram quando assinadas e respeitam revogação de acesso.
+- [x] Entrega de mídia pela API exige autorização atual e no-store; o BFF usa a sessão, sem URLs assinadas ou tokens na query.
+- [x] Concluir regressão de mídia/autorização no BFF e navegador; uploads privados continuam fora deste lote.
 - [x] Sessões web de contas distintas permanecem isoladas.
-- [ ] Troca de conta limpa também preferências/estado da nova jornada web e do app quando implementados.
-- [ ] Infantil funciona com mídia indisponível e com áudio/movimento desativados.
+- [x] API mantém preferências isoladas por usuário, com PATCH concorrente e validação de conta ativa.
+- [ ] Concluir regressão de troca de conta da jornada web; o app deve reproduzir esse isolamento quando implementado.
+- [x] Infantil funciona com mídia indisponível e com áudio/movimento desativados em Chromium desktop/mobile emulado.
 - [ ] Fluxos Android/iOS tratam suspensão, refresh, perda de rede, reinstalação e link de convite.
 - [ ] Relatórios de responsável/docente respeitam os vínculos.
 
@@ -374,6 +390,6 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-Os lotes 01 a 04 estão concluídos e o lote 05 está implementado tecnicamente. A próxima tarefa técnica é o **lote 06: jornada web de quiz** — catálogo por faixa/tema, runner com confirmação e feedback, retomada, resultado, histórico, preferências e BFF com entrega binária autorizada de mídia. Validar teclado, leitor de tela, celular e fallback, preservando as jornadas existentes de simulados.
+Os lotes 01 a 04 estão concluídos; lotes 05 e 06 implementam tecnicamente catálogo/mídia e jornada web/preferências. A próxima tarefa técnica é o **lote 07: missões e XP** — definir módulos e ledger, concessão única por aluno/atividade lógica/dia, teto diário sob concorrência e tela Aprender hoje. Preservar notas/ranking de simulados e resultado idempotente do quiz; criar fixtures sintéticas para testes enquanto a revisão editorial segue pendente.
 
-A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada.
+A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada com pessoas, leitor de tela e aparelhos reais; automação não encerra esses gates.

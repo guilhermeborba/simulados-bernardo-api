@@ -5,7 +5,7 @@
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. Jornada web e gamificação seguem como próximas entregas.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O próximo trabalho técnico é missões e XP; revisão editorial e validação humana de uso continuam pendentes.
 
 ---
 
@@ -24,7 +24,7 @@ Pendências menores (não bloqueantes para produção):
 
 - `POST /auth/forgot-password` + `POST /auth/reset-password` (recuperação de senha) — especificado, não implementado
 - Restrição de professor a turmas autorizadas — professor existe como role mas sem controle de acesso a alunos específicos
-- Testes de interface em navegador/aparelho — a regressão HTTP com API e PostgreSQL está implementada; cliques, layout e acessibilidade ainda exigem validação de interface
+- Validação humana de uso — automação HTTP/navegador não substitui observação por segmento, leitor de tela e aparelhos reais; o fechamento automatizado do lote 06 está registrado abaixo
 
 ---
 
@@ -84,7 +84,7 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 
 Plano: [Evolução — quizzes, gamificação e mobile](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
-**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lote 05 implementado tecnicamente.** Revisão/publicação editorial e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
+**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lotes 05/06 implementados tecnicamente.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
 
 Sequência: consolidar a base → quizzes na web → missões/XP/avatar/conquistas → revisão e progresso por habilidade → prova e planejamento mobile → app/beta. Entregas, dependências, estimativas condicionais e critérios de aceite estão no plano.
 
@@ -110,7 +110,7 @@ Nesta entrega, quizzes aceitam múltipla escolha e explicação obrigatória; sc
 
 Conclusão exige todas as questões confirmadas, soma os pontos com Decimal e grava status/totais uma única vez; finishes concorrentes e reenvios retornam o mesmo resultado. Locks coordenam confirmação, leitura, arquivamento e conclusão; owner, turma e disponibilidade são revalidados dentro da transação. A migration aditiva conserva respostas antigas de simulados, sem backfill. Quizzes arquivados permitem continuar tentativas existentes com acesso válido; revogação de acesso bloqueia conteúdo, preservando o resumo pessoal.
 
-Validação do lote 04: **278 testes unitários, 117 testes de integração PostgreSQL e 8 jornadas HTTP web/Next/BFF/API** passaram, além de lint, build, validação Prisma e dry-run do mesmo acervo. A integração cobre confirmação/conclusão concorrentes, perda de resposta seguida de reenvio, pontuação decimal, rollback de gravação, alterações de versão, autorização e ausência de conteúdo privado. Migration somente em bancos descartáveis; nenhuma base existente, seed editorial ou deploy alterado. Contratos no [guia de quizzes](docs/guia-quizzes.md) e decisão no [ADR 008](docs/decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md). XP, mídia e telas de quiz continuam pendentes.
+Validação do lote 04: **278 testes unitários, 117 testes de integração PostgreSQL e 8 jornadas HTTP web/Next/BFF/API** passaram, além de lint, build, validação Prisma e dry-run do mesmo acervo. A integração cobre confirmação/conclusão concorrentes, perda de resposta seguida de reenvio, pontuação decimal, rollback de gravação, alterações de versão, autorização e ausência de conteúdo privado. Migration somente em bancos descartáveis; nenhuma base existente, seed editorial ou deploy alterado. Contratos no [guia de quizzes](docs/guia-quizzes.md) e decisão no [ADR 008](docs/decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md). No fechamento do lote 04, XP, mídia e telas de quiz ainda estavam pendentes; lotes 05/06 abaixo implementam mídia e jornada web.
 
 **Lote 05 implementado tecnicamente; revisão/publicação pendentes:** catálogo próprio com 45 quizzes/213 perguntas, três quizzes por cada uma das 15 faixas, em cinco arquivos JSON. Toda entrada permanece `PENDING`; a matriz apresenta temas e responsáveis a definir. Importação exige ADMIN ativo existente, valida o lote completo e cria DRAFT por padrão. Dry-run/inventário funcionam sem banco e não exportam perguntas/gabaritos. Reimportação preserva conteúdo, IDs, datas e tentativas; divergência exige nova versão consecutiva. Publicação pelo importador exige revisão real com responsável/data/hash correspondente ao conteúdo.
 
@@ -118,7 +118,13 @@ As 18 perguntas infantis têm ilustrações SVG originais modernizadas, narraç�
 
 Validação do lote 05: **381 testes unitários, 162 testes de integração PostgreSQL e 8 jornadas HTTP web/Next/BFF/API**, lint, build, Prisma validate e dry-runs de simulados e quizzes. A integração inclui o catálogo completo importado duas vezes, imutabilidade/rollback/concorrência e mídia autorizada do snapshot com fallback. Nenhum banco existente, seed em produção ou deploy alterado. Operação no [guia de quizzes](docs/guia-quizzes.md), catálogo para revisão na [matriz editorial](docs/matriz-editorial-quizzes.md) e decisão no [ADR 009](docs/decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md).
 
-Próxima tarefa técnica: **lote 06 — jornada web, BFF de mídia, catálogo/runner/histórico e preferências**. A revisão dos 45 quizzes pode seguir em paralelo; publicação e lançamento para todas as faixas dependem dessa aprovação. Continuam pendentes responsáveis de revisão, textos da home e métricas da etapa 0.
+**Lote 06 implementado tecnicamente:** a web oferece `/quizzes`, `/quiz/[quizId]` e `/quizzes/historico`, com filtros para as 15 faixas, disciplina/tema, seleção antes de confirmar, feedback, retomada, resultado e histórico separado de simulados. O runner exige conta STUDENT; os outros perfis podem explorar o catálogo e salvar suas preferências. O BFF libera os contratos de aluno de quiz e entrega SVG/WAV sem converter bytes em JSON, com cookies httpOnly, Range, validação de MIME/tamanho e no-store. A interface conserva texto alternativo/transcrição quando a mídia falha, usa áudio acionado pelo aluno e permite reduzir movimento.
+
+`GET/PATCH /me/learning-preferences` persiste segmento/ano, áudio e movimento por conta ativa. Defaults são filtros nulos, áudio desativado e movimento habilitado. PATCH mescla o estado sob lock do usuário, verifica compatibilidade de ano/segmento e preserva campos em requisições concorrentes. A migration é aditiva, sem backfill; preferências não mudam perfil escolar nem autorização de turma. A web limpa o estado ao trocar de conta e ignora respostas atrasadas da conta anterior. Decisão: [ADR 010 — Preferências de aprendizagem por conta](docs/decisions/010-preferencias-de-aprendizagem-por-conta.md).
+
+Fechamento da validação do lote 06: **409 unitários e 214 testes de integração API/PostgreSQL** passaram, incluindo 25 unitários/52 casos novos de preferências; **30 testes de sessão e 16 jornadas HTTP web** passaram. Builds API/web, lint da API e Prisma validate passaram; **24 testes de navegador Chromium desktop/mobile emulado** passaram, cobrindo os cinco segmentos, teclado, axe, retomada, respostas HTTP perdidas, fallback e sessão/preferências entre contas. Os bundles das páginas de quiz foram inspecionados sem gabaritos, identificadores privados de mídia ou fixtures sintéticas; esses testes não substituem sessões com pessoas, leitor de tela e aparelhos reais. Os testes legados de dias seguidos agora usam relógio fixo e cobrem a virada UTC/São Paulo; 17 casos passaram nos dois fusos e os 409 unitários passaram em UTC. Migrations somente em PostgreSQL descartável; nenhum banco existente, seed em produção, publicação editorial ou deploy alterado.
+
+Próxima tarefa técnica: **lote 07 — missões e XP**. Os 45 quizzes/213 perguntas permanecem `PENDING`; a revisão pode seguir em paralelo e o lançamento nas 15 faixas depende de revisão/publicação e validação humana de uso. Continuam pendentes responsáveis de revisão, observação de uma sessão por segmento, leitor de tela/aparelhos reais, alinhamento final dos textos da home e métricas da etapa 0.
 
 ### Integração front-end / API — base existente
 
