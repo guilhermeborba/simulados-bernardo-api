@@ -1,3 +1,4 @@
+import { safeRequestPath } from '../utils/safe-request-path';
 import {
   ArgumentsHost,
   Catch,
@@ -41,7 +42,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
           event: 'http_exception',
           requestId: request.requestId,
           method: request.method,
-          path: request.originalUrl,
+          path: safeRequestPath(request),
           statusCode: status,
         }),
         exception instanceof Error ? exception.stack : undefined,
@@ -76,7 +77,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
       statusCode: status,
       message: Array.isArray(message) ? message.map(String) : String(message),
       error,
-      path: request.originalUrl,
+      path: safeRequestPath(request),
       method: request.method,
       requestId: (request as RequestWithRequestId).requestId,
       timestamp: new Date().toISOString(),

@@ -6,4 +6,5 @@ export interface AuthTokenPayload {
   role: UserRole;
   type: 'access' | 'refresh';
   jti?: string;
+  authVersion?: number;
 }

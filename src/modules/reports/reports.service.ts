@@ -1,7 +1,10 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { ActivityKind, AttemptStatus, Prisma } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
-import { RequestUser, StudentAccessService } from '../students/student-access.service';
+import {
+  RequestUser,
+  StudentAccessService,
+} from '../students/student-access.service';
 
 @Injectable()
 export class ReportsService {
@@ -13,7 +16,7 @@ export class ReportsService {
   async getStudentSummary(studentId: string, user: RequestUser) {
     await this.studentAccessService.assertCanAccessStudent(studentId, user);
 
-    const attempts = await this.findFinishedAttemptsByStudent(studentId);
+    const attempts = await this.findFinishedAttemptsByStudent(studentId, user);
     const percentages = attempts.map((attempt) =>
       this.decimalToNumber(attempt.percentage),
     );
@@ -46,7 +49,7 @@ export class ReportsService {
   async getStudentByDiscipline(studentId: string, user: RequestUser) {
     await this.studentAccessService.assertCanAccessStudent(studentId, user);
 
-    const attempts = await this.findFinishedAttemptsByStudent(studentId);
+    const attempts = await this.findFinishedAttemptsByStudent(studentId, user);
     const byDiscipline = new Map<
       string,
       {
@@ -148,7 +151,10 @@ export class ReportsService {
           where: {
             attempt: {
               status: AttemptStatus.FINISHED,
-              simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+              simulation: {
+                activityKind: ActivityKind.SIMULATION,
+                deletedAt: null,
+              },
             },
           },
         },
@@ -181,12 +187,15 @@ export class ReportsService {
       .sort((left, right) => right.errorRate - left.errorRate);
   }
 
-  private findFinishedAttemptsByStudent(studentId: string) {
+  private findFinishedAttemptsByStudent(studentId: string, user: RequestUser) {
     return this.prisma.attempt.findMany({
       where: {
         studentId,
         status: AttemptStatus.FINISHED,
-        simulation: { activityKind: ActivityKind.SIMULATION, deletedAt: null },
+        simulation: {
+          activityKind: ActivityKind.SIMULATION,
+          ...this.studentAccessService.simulationScope(user),
+        },
       },
       include: {
         simulation: {
@@ -209,9 +218,9 @@ export class ReportsService {
     }
 
     return Number(
-      (values.reduce((total, value) => total + value, 0) / values.length).toFixed(
-        2,
-      ),
+      (
+        values.reduce((total, value) => total + value, 0) / values.length
+      ).toFixed(2),
     );
   }
 }

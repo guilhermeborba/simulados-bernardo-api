@@ -29,22 +29,20 @@ describe('Refresh token transactions (PostgreSQL)', () => {
 
   beforeAll(async () => {
     prisma = new PrismaService({ datasources: { db: { url: databaseUrl } } });
-    // Force both requests to read the same unused row before either consumes it.
+    // Synchronize before the user lock; post-lock reads are intentionally serialized.
     prisma.$use(async (params, next) => {
-      const result: unknown = await next(params);
       if (
         synchronizeReads &&
-        params.model === 'RefreshToken' &&
-        params.action === 'findUnique' &&
-        params.args?.include?.user === true
+        reads < 2 &&
+        params.action === 'queryRaw' &&
+        JSON.stringify(params.args).includes('User') &&
+        JSON.stringify(params.args).includes('FOR NO KEY UPDATE')
       ) {
         reads += 1;
-        if (reads === 2) {
-          releaseReads();
-        }
+        if (reads === 2) releaseReads();
         await bothRead;
       }
-      return result;
+      return next(params);
     });
     await prisma.$connect();
     jwt = new JwtService();

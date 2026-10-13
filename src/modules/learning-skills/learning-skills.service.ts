@@ -224,6 +224,8 @@ export class LearningSkillsService {
   async readEvidence(
     database: Prisma.TransactionClient,
     userId: string,
+    teacherId?: string,
+    excludeDeleted = false,
   ): Promise<LearningEvidence[]> {
     return database.$queryRaw<LearningEvidence[]>`
       SELECT COALESCE(a."activityKey",a."simulationId") AS "activityKey",COALESCE(s."originKey",aa."questionId") AS "originKey",a."practiceMode",aa."isCorrect",aa."confirmedAt",aa."id" AS "answerId",s."skillCode",s."skillVersion",s."skillTitle",s."skillDisciplineSlug",s."skillSchoolYear"
@@ -231,6 +233,15 @@ export class LearningSkillsService {
       JOIN "Simulation" q ON q."id"=a."simulationId"
       LEFT JOIN "AttemptQuestionSnapshot" s ON s."attemptId"=aa."attemptId" AND s."questionId"=aa."questionId"
       WHERE a."studentId"=${userId} AND a."status"='FINISHED' AND q."activityKind"='QUIZ' AND aa."confirmedAt" IS NOT NULL AND aa."isCorrect" IS NOT NULL
+      ${excludeDeleted ? Prisma.sql`AND q."deletedAt" IS NULL` : Prisma.empty}
+      ${
+        teacherId
+          ? Prisma.sql`AND q."deletedAt" IS NULL AND (q."turmaId" IS NULL OR EXISTS (
+        SELECT 1 FROM "TeacherTurma" tt JOIN "Turma" t ON t."id"=tt."turmaId"
+        WHERE tt."teacherId"=${teacherId} AND tt."turmaId"=q."turmaId" AND t."deletedAt" IS NULL
+      ))`
+          : Prisma.empty
+      }
       ORDER BY aa."confirmedAt",aa."id" COLLATE "C"
     `;
   }
@@ -377,6 +388,38 @@ export class LearningSkillsService {
       );
     return selected;
   }
+  async readOnlyProgress(
+    database: Prisma.TransactionClient,
+    studentId: string,
+    requestedYear?: number,
+    teacherId?: string,
+  ) {
+    const student = await this.assertStudent(database, studentId);
+    const schoolYear =
+      requestedYear ??
+      student.learningPreferences?.schoolYear ??
+      student.studentProfile?.schoolYear ??
+      null;
+    if (schoolYear !== null) segmentForSchoolYear(schoolYear);
+    const evidence = await this.readEvidence(
+      database,
+      studentId,
+      teacherId,
+      true,
+    );
+    const disciplines = await database.discipline.findMany({
+      select: { slug: true, name: true },
+    });
+    return {
+      schoolYear,
+      ...aggregateEvidence(
+        evidence,
+        schoolYear,
+        new Map(disciplines.map((d) => [d.slug, d.name])),
+      ),
+    };
+  }
+
   async progress(userId: string, requestedYear?: number) {
     return this.prisma.$transaction(
       async (database) => {

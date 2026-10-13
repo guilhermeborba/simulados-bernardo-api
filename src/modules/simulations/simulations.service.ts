@@ -4,7 +4,12 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
-import { ActivityKind, Prisma, SimulationStatus, UserRole } from '@prisma/client';
+import {
+  ActivityKind,
+  Prisma,
+  SimulationStatus,
+  UserRole,
+} from '@prisma/client';
 import { slugify } from '../../common/utils/slugify';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
@@ -38,8 +43,7 @@ export class SimulationsService {
     const turmaIds = await this.turmasService.accessibleTurmaIds(
       viewer?.id ?? null,
     );
-    const seesEveryTurma =
-      viewer?.role === UserRole.ADMIN || viewer?.role === UserRole.TEACHER;
+    const seesEveryTurma = viewer?.role === UserRole.ADMIN;
 
     const where: Prisma.SimulationWhereInput = {
       activityKind: ActivityKind.SIMULATION,
@@ -129,9 +133,7 @@ export class SimulationsService {
 
     const data: Prisma.SimulationUpdateInput = {
       ...(dto.title ? { title: dto.title.trim() } : {}),
-      ...(dto.subtitle !== undefined
-        ? { subtitle: dto.subtitle?.trim() }
-        : {}),
+      ...(dto.subtitle !== undefined ? { subtitle: dto.subtitle?.trim() } : {}),
       ...(dto.schoolYear !== undefined ? { schoolYear: dto.schoolYear } : {}),
       ...(dto.bimester !== undefined ? { bimester: dto.bimester } : {}),
       ...(dto.assessment

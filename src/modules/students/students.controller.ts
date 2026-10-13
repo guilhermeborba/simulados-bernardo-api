@@ -1,4 +1,12 @@
-import { Body, Controller, Get, Param, Patch, UseGuards } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Param,
+  Patch,
+  Query,
+  UseGuards,
+} from '@nestjs/common';
 import { UserRole } from '@prisma/client';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { Roles } from '../../common/decorators/roles.decorator';
@@ -7,6 +15,7 @@ import {
   JwtAuthGuard,
 } from '../../common/guards/jwt-auth.guard';
 import { RolesGuard } from '../../common/guards/roles.guard';
+import { LearningQueryDto } from '../learning/dto/learning-query.dto';
 import { UpdateStudentProfileDto } from './dto/update-student-profile.dto';
 import { StudentsService } from './students.service';
 
@@ -42,9 +51,22 @@ export class StudentsController {
     return this.studentsService.getAttempts(id, user);
   }
 
+  @Get(':id/learning-progress')
+  @Roles(UserRole.STUDENT, UserRole.GUARDIAN, UserRole.ADMIN, UserRole.TEACHER)
+  getLearningProgress(
+    @Param('id') id: string,
+    @CurrentUser() user: AuthenticatedUser,
+    @Query() query: LearningQueryDto,
+  ) {
+    return this.studentsService.getLearningProgress(id, user, query.schoolYear);
+  }
+
   @Get(':id/performance')
   @Roles(UserRole.STUDENT, UserRole.GUARDIAN, UserRole.ADMIN, UserRole.TEACHER)
-  getPerformance(@Param('id') id: string, @CurrentUser() user: AuthenticatedUser) {
+  getPerformance(
+    @Param('id') id: string,
+    @CurrentUser() user: AuthenticatedUser,
+  ) {
     return this.studentsService.getPerformance(id, user);
   }
 }

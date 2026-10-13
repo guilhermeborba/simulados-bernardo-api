@@ -75,7 +75,9 @@ export class QuizzesService {
               deletedAt: null,
               ...(unrestricted
                 ? {}
-                : { memberships: { some: { userId: viewer.id } } }),
+                : viewer.role === UserRole.TEACHER
+                  ? { teachers: { some: { teacherId: viewer.id } } }
+                  : { memberships: { some: { userId: viewer.id } } }),
             },
           },
         ],

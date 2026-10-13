@@ -233,7 +233,7 @@ describe('QuizzesService', () => {
     expect(call.select).toBe(QUIZ_ADMIN_SELECT);
   });
 
-  it('uses an explicit metadata-only catalogue and filters membership for teacher', async () => {
+  it('uses an explicit metadata-only catalogue and filters current assignments for teacher', async () => {
     const { service, prisma } = setup();
     await service.findAvailable(
       { schoolYear: 0 },
@@ -249,7 +249,7 @@ describe('QuizzesService', () => {
     expect(call.where.OR).toContainEqual({
       turma: {
         deletedAt: null,
-        memberships: { some: { userId: 'teacher-1' } },
+        teachers: { some: { teacherId: 'teacher-1' } },
       },
     });
     expect(call.distinct).toEqual(['activityKey']);

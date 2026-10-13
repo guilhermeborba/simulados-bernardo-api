@@ -317,7 +317,7 @@ describe('Current simulation flows over HTTP (real Nest + PostgreSQL)', () => {
       statusCode: 400,
       method: 'GET',
       requestId: 'synthetic-request',
-      path: '/simulations/available?schoolYear=13',
+      path: '/simulations/available',
     });
     expect(Array.isArray(invalid.body.message)).toBe(true);
     await authenticated('post', '/auth/login')

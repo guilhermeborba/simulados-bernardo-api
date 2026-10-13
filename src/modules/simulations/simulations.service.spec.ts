@@ -84,13 +84,29 @@ describe('SimulationsService', () => {
     expect(where.turmaId).toBeNull();
   });
 
+  it('does not give teachers a global private catalogue bypass', async () => {
+    turmas.accessibleTurmaIds.mockResolvedValue(['assigned-turma']);
+    await service.findAvailable(
+      {},
+      { id: 'teacher-1', role: UserRole.TEACHER },
+    );
+    const where = prisma.simulation.findMany.mock.calls[0][0].where;
+    expect(where.OR).toEqual([
+      { turmaId: null },
+      { turmaId: { in: ['assigned-turma'] } },
+    ]);
+  });
+
   it('shows public simulations plus the ones of turmas the student belongs to', async () => {
     turmas.accessibleTurmaIds.mockResolvedValue(['turma-1']);
 
     await service.findAvailable({}, { id: 'aluno-1', role: UserRole.STUDENT });
 
     const where = prisma.simulation.findMany.mock.calls[0][0].where;
-    expect(where.OR).toEqual([{ turmaId: null }, { turmaId: { in: ['turma-1'] } }]);
+    expect(where.OR).toEqual([
+      { turmaId: null },
+      { turmaId: { in: ['turma-1'] } },
+    ]);
   });
 
   it('hides nothing from an admin', async () => {

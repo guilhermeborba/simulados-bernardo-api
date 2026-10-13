@@ -2,7 +2,7 @@ import { createHash, randomUUID } from 'node:crypto';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { JwtService, JwtSignOptions } from '@nestjs/jwt';
-import { Prisma, User, UserStatus } from '@prisma/client';
+import { Prisma, User, UserRole, UserStatus } from '@prisma/client';
 import { compare, hash } from 'bcryptjs';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { SafeUser } from '../users/users.presenter';
@@ -56,7 +56,9 @@ export class AuthService {
       await this.turmasService.redeemInvite(dto.inviteToken, user.id);
     }
 
-    const tokens = await this.createTokenPair(user);
+    const tokens = await this.prisma.$transaction((database) =>
+      this.createTokenPair(user, database),
+    );
 
     return this.toAuthResponse(user, tokens);
   }
@@ -71,7 +73,9 @@ export class AuthService {
     this.assertCanAuthenticate(user);
     await this.usersService.updateLastLogin(user.id);
 
-    const tokens = await this.createTokenPair(user);
+    const tokens = await this.prisma.$transaction((database) =>
+      this.createTokenPair(user, database),
+    );
 
     return this.toAuthResponse(user, tokens);
   }
@@ -80,6 +84,7 @@ export class AuthService {
     const payload = await this.verifyRefreshToken(dto.refreshToken);
     const tokenHash = this.hashToken(dto.refreshToken);
     return this.prisma.$transaction(async (tx) => {
+      await this.lockUser(tx, payload.sub);
       const storedToken = await tx.refreshToken.findUnique({
         where: { tokenHash },
         include: { user: true },
@@ -95,6 +100,11 @@ export class AuthService {
       }
 
       this.assertCanAuthenticate(storedToken.user);
+      if (
+        storedToken.user.authVersion !== (payload.authVersion ?? 0) ||
+        storedToken.user.role !== payload.role
+      )
+        throw new UnauthorizedException('Invalid refresh token');
 
       // O UPDATE condicional bloqueia a linha e só uma transação consome o
       // token. A revogação e o sucessor são revertidos juntos se algo falhar.
@@ -129,6 +139,7 @@ export class AuthService {
     const tokenHash = this.hashToken(dto.refreshToken);
 
     await this.prisma.$transaction(async (tx) => {
+      await this.lockUser(tx, payload.sub);
       const storedToken = await tx.refreshToken.findUnique({
         where: { tokenHash },
       });
@@ -166,8 +177,20 @@ export class AuthService {
 
   private async createTokenPair(
     user: User,
-    client: Prisma.TransactionClient = this.prisma,
+    client: Prisma.TransactionClient,
   ): Promise<TokenPair> {
+    await this.lockUser(client, user.id);
+    const current = await client.user.findUnique({ where: { id: user.id } });
+    // Password checking happened before this lock. A reset must win over an
+    // already verified old password, and over a refresh racing the reset.
+    if (
+      !current ||
+      current.passwordHash !== user.passwordHash ||
+      current.authVersion !== user.authVersion ||
+      current.role !== user.role
+    )
+      throw new UnauthorizedException('Invalid credentials');
+    this.assertCanAuthenticate(current);
     const refreshTokenId = randomUUID();
     const accessToken = await this.jwtService.signAsync(
       this.createTokenPayload(user, 'access'),
@@ -206,6 +229,14 @@ export class AuthService {
     };
   }
 
+  private async lockUser(database: Prisma.TransactionClient, userId: string) {
+    const users = await database.$queryRaw<
+      { id: string }[]
+    >`SELECT "id" FROM "User" WHERE "id"=${userId} FOR NO KEY UPDATE`;
+    if (users.length !== 1)
+      throw new UnauthorizedException('Invalid credentials');
+  }
+
   private createTokenPayload(
     user: User,
     type: AuthTokenPayload['type'],
@@ -215,6 +246,7 @@ export class AuthService {
       email: user.email,
       role: user.role,
       type,
+      authVersion: user.authVersion,
     };
   }
 
@@ -227,7 +259,18 @@ export class AuthService {
         },
       );
 
-      if (payload.type !== 'refresh') {
+      const version =
+        payload.authVersion === undefined ? 0 : payload.authVersion;
+      if (
+        payload.type !== 'refresh' ||
+        typeof payload.sub !== 'string' ||
+        !payload.sub ||
+        typeof payload.email !== 'string' ||
+        !payload.email ||
+        !Object.values(UserRole).includes(payload.role) ||
+        !Number.isInteger(version) ||
+        version < 0
+      ) {
         throw new UnauthorizedException('Invalid refresh token');
       }
 

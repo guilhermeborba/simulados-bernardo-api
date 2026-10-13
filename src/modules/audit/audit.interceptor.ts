@@ -1,3 +1,4 @@
+import { safeRequestPath } from '../../common/utils/safe-request-path';
 import {
   CallHandler,
   ExecutionContext,
@@ -31,14 +32,13 @@ export class AuditInterceptor implements NestInterceptor {
           actorId: request.user?.id,
           action: this.getAction(request),
           method: request.method,
-          path: request.originalUrl,
+          path: safeRequestPath(request),
           statusCode: context.switchToHttp().getResponse().statusCode,
           requestId: request.requestId,
           ip: request.ip,
           userAgent: request.header('user-agent'),
           metadata: {
             params: request.params,
-            query: request.query,
           },
         });
       }),
@@ -47,13 +47,12 @@ export class AuditInterceptor implements NestInterceptor {
           actorId: request.user?.id,
           action: `${this.getAction(request)}_failed`,
           method: request.method,
-          path: request.originalUrl,
+          path: safeRequestPath(request),
           requestId: request.requestId,
           ip: request.ip,
           userAgent: request.header('user-agent'),
           metadata: {
             params: request.params,
-            query: request.query,
           },
         });
 
@@ -65,7 +64,7 @@ export class AuditInterceptor implements NestInterceptor {
   private shouldAudit(request: AuditedRequest): boolean {
     return Boolean(
       request.user?.role === UserRole.ADMIN &&
-        this.auditedMethods.has(request.method),
+      this.auditedMethods.has(request.method),
     );
   }
 

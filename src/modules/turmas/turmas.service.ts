@@ -2,9 +2,10 @@ import {
   ForbiddenException,
   Injectable,
   NotFoundException,
+  UnauthorizedException,
 } from '@nestjs/common';
 import { createHash, randomBytes } from 'node:crypto';
-import { ActivityKind, Prisma, UserRole } from '@prisma/client';
+import { ActivityKind, Prisma, UserRole, UserStatus } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { slugify } from '../../common/utils/slugify';
 import { CreateInviteDto } from './dto/create-invite.dto';
@@ -34,9 +35,14 @@ export class TurmasService {
     });
   }
 
-  listTurmas() {
+  listTurmas(user: { id: string; role: UserRole }) {
     return this.prisma.turma.findMany({
-      where: { deletedAt: null },
+      where: {
+        deletedAt: null,
+        ...(user.role === UserRole.TEACHER
+          ? { teachers: { some: { teacherId: user.id } } }
+          : {}),
+      },
       include: {
         _count: {
           select: {
@@ -55,50 +61,53 @@ export class TurmasService {
    * Devolve o token em texto puro uma única vez — no banco fica só o hash, e
    * não há como recuperá-lo depois. Se o professor perder o link, gera outro.
    */
-  async createInvite(turmaId: string, dto: CreateInviteDto, createdById: string) {
-    const turma = await this.prisma.turma.findFirst({
-      where: { id: turmaId, deletedAt: null },
+  async createInvite(
+    turmaId: string,
+    dto: CreateInviteDto,
+    user: { id: string; role: UserRole },
+  ) {
+    return this.prisma.$transaction(async (database) => {
+      await this.assertManagesTurma(turmaId, user, database);
+      const turma = await database.turma.findFirstOrThrow({
+        where: { id: turmaId },
+      });
+      const token = randomBytes(32).toString('base64url');
+      const invite = await database.turmaInvite.create({
+        data: {
+          turmaId: turma.id,
+          tokenHash: hashToken(token),
+          label: dto.label?.trim(),
+          expiresAt: dto.expiresAt ? new Date(dto.expiresAt) : null,
+          maxUses: dto.maxUses ?? null,
+          createdById: user.id,
+        },
+      });
+      return {
+        id: invite.id,
+        turma: { id: turma.id, name: turma.name, slug: turma.slug },
+        label: invite.label,
+        expiresAt: invite.expiresAt,
+        maxUses: invite.maxUses,
+        token,
+      };
     });
-
-    if (!turma) {
-      throw new NotFoundException('Turma not found');
-    }
-
-    const token = randomBytes(32).toString('base64url');
-
-    const invite = await this.prisma.turmaInvite.create({
-      data: {
-        turmaId: turma.id,
-        tokenHash: hashToken(token),
-        label: dto.label?.trim(),
-        expiresAt: dto.expiresAt ? new Date(dto.expiresAt) : null,
-        maxUses: dto.maxUses ?? null,
-        createdById,
-      },
-    });
-
-    return {
-      id: invite.id,
-      turma: { id: turma.id, name: turma.name, slug: turma.slug },
-      label: invite.label,
-      expiresAt: invite.expiresAt,
-      maxUses: invite.maxUses,
-      token,
-    };
   }
 
-  async revokeInvite(inviteId: string) {
-    const invite = await this.prisma.turmaInvite.findUnique({
-      where: { id: inviteId },
-    });
-
-    if (!invite) {
-      throw new NotFoundException('Invite not found');
-    }
-
-    return this.prisma.turmaInvite.update({
-      where: { id: inviteId },
-      data: { revokedAt: invite.revokedAt ?? new Date() },
+  async revokeInvite(inviteId: string, user: { id: string; role: UserRole }) {
+    return this.prisma.$transaction(async (database) => {
+      const invite = await database.turmaInvite.findUnique({
+        where: { id: inviteId },
+      });
+      if (!invite) throw new NotFoundException('Invite not found');
+      await this.assertManagesTurma(invite.turmaId, user, database);
+      await database.$queryRaw`SELECT "id" FROM "TurmaInvite" WHERE "id"=${inviteId} FOR UPDATE`;
+      const current = await database.turmaInvite.findUniqueOrThrow({
+        where: { id: inviteId },
+      });
+      return database.turmaInvite.update({
+        where: { id: inviteId },
+        data: { revokedAt: current.revokedAt ?? new Date() },
+      });
     });
   }
 
@@ -130,6 +139,17 @@ export class TurmasService {
   }
 
   async redeemInvite(token: string, userId: string) {
+    const student = await this.prisma.user.findFirst({
+      where: {
+        id: userId,
+        role: UserRole.STUDENT,
+        status: UserStatus.ACTIVE,
+        deletedAt: null,
+      },
+      select: { id: true },
+    });
+    if (!student)
+      throw new ForbiddenException('Student account required to join a turma');
     const invite = await this.assertInviteUsable(token);
 
     const existing = await this.prisma.turmaMembership.findUnique({
@@ -144,7 +164,9 @@ export class TurmasService {
     }
 
     if (invite.maxUses !== null && invite.usedCount >= invite.maxUses) {
-      throw new ForbiddenException('Convite já foi usado o número máximo de vezes');
+      throw new ForbiddenException(
+        'Convite já foi usado o número máximo de vezes',
+      );
     }
 
     const [membership] = await this.prisma.$transaction([
@@ -161,7 +183,16 @@ export class TurmasService {
     return { turma: membership.turma, alreadyMember: false };
   }
 
-  async listMyTurmas(userId: string) {
+  async listMyTurmas(user: { id: string; role: UserRole }) {
+    if (user.role === UserRole.TEACHER) {
+      const links = await this.prisma.teacherTurma.findMany({
+        where: { teacherId: user.id, turma: { deletedAt: null } },
+        include: { turma: true },
+        orderBy: { createdAt: 'asc' },
+      });
+      return links.map((link) => link.turma);
+    }
+    const userId = user.id;
     const memberships = await this.prisma.turmaMembership.findMany({
       where: { userId, turma: { deletedAt: null } },
       include: { turma: true },
@@ -180,6 +211,18 @@ export class TurmasService {
       return [];
     }
 
+    const user = await this.prisma.user.findFirst({
+      where: { id: userId, status: UserStatus.ACTIVE, deletedAt: null },
+      select: { role: true },
+    });
+    if (!user) return [];
+    if (user.role === UserRole.TEACHER) {
+      const links = await this.prisma.teacherTurma.findMany({
+        where: { teacherId: userId, turma: { deletedAt: null } },
+        select: { turmaId: true },
+      });
+      return links.map((link) => link.turmaId);
+    }
     const memberships = await this.prisma.turmaMembership.findMany({
       where: { userId, turma: { deletedAt: null } },
       select: { turmaId: true },
@@ -196,7 +239,10 @@ export class TurmasService {
   async assertCanAccessTurma(
     turmaId: string | null,
     user: { id: string; role: UserRole },
-    database: Pick<Prisma.TransactionClient, 'turma' | 'turmaMembership'> = this.prisma,
+    database: Pick<
+      Prisma.TransactionClient,
+      'turma' | 'turmaMembership' | 'teacherTurma'
+    > = this.prisma,
   ): Promise<void> {
     if (turmaId === null) {
       return;
@@ -211,8 +257,14 @@ export class TurmasService {
       throw new NotFoundException('Published simulation not found');
     }
 
-    if (user.role === UserRole.ADMIN || user.role === UserRole.TEACHER) {
-      return;
+    if (user.role === UserRole.ADMIN) return;
+    if (user.role === UserRole.TEACHER) {
+      const assignment = await database.teacherTurma.findUnique({
+        where: { teacherId_turmaId: { teacherId: user.id, turmaId } },
+        select: { teacherId: true },
+      });
+      if (assignment) return;
+      throw new NotFoundException('Published simulation not found');
     }
 
     const membership = await database.turmaMembership.findUnique({
@@ -225,5 +277,82 @@ export class TurmasService {
     if (!membership) {
       throw new NotFoundException('Published simulation not found');
     }
+  }
+  private async assertManagesTurma(
+    turmaId: string,
+    user: { id: string; role: UserRole },
+    database: Prisma.TransactionClient = this.prisma,
+  ) {
+    await database.$queryRaw`SELECT "id" FROM "User" WHERE "id"=${user.id} FOR SHARE`;
+    await database.$queryRaw`SELECT "id" FROM "Turma" WHERE "id"=${turmaId} FOR SHARE`;
+    const active = await database.user.findFirst({
+      where: {
+        id: user.id,
+        role: user.role,
+        status: UserStatus.ACTIVE,
+        deletedAt: null,
+      },
+      select: { id: true },
+    });
+    if (!active)
+      throw new UnauthorizedException(
+        'Active account with current role required',
+      );
+    const turma = await database.turma.findFirst({
+      where: { id: turmaId, deletedAt: null },
+      select: { id: true },
+    });
+    if (!turma) throw new NotFoundException('Turma not found');
+    if (user.role === UserRole.ADMIN) return;
+    if (user.role === UserRole.TEACHER) {
+      await database.$queryRaw`SELECT "teacherId" FROM "TeacherTurma" WHERE "teacherId"=${user.id} AND "turmaId"=${turmaId} FOR SHARE`;
+      const assignment = await database.teacherTurma.findUnique({
+        where: { teacherId_turmaId: { teacherId: user.id, turmaId } },
+        select: { teacherId: true },
+      });
+      if (assignment) return;
+    }
+    throw new ForbiddenException('Cannot manage this turma');
+  }
+
+  async assignTeacher(
+    turmaId: string,
+    teacherId: string,
+    user: { id: string; role: UserRole },
+  ) {
+    return this.prisma.$transaction(async (database) => {
+      if (user.role !== UserRole.ADMIN)
+        throw new ForbiddenException('Administrator required');
+      await this.assertManagesTurma(turmaId, user, database);
+      await database.$queryRaw`SELECT "id" FROM "User" WHERE "id"=${teacherId} FOR SHARE`;
+      const teacher = await database.user.findFirst({
+        where: {
+          id: teacherId,
+          role: UserRole.TEACHER,
+          status: UserStatus.ACTIVE,
+          deletedAt: null,
+        },
+        select: { id: true },
+      });
+      if (!teacher) throw new NotFoundException('Active teacher not found');
+      return database.teacherTurma.upsert({
+        where: { teacherId_turmaId: { teacherId, turmaId } },
+        create: { teacherId, turmaId },
+        update: {},
+      });
+    });
+  }
+
+  async unassignTeacher(
+    turmaId: string,
+    teacherId: string,
+    user: { id: string; role: UserRole },
+  ): Promise<void> {
+    await this.prisma.$transaction(async (database) => {
+      if (user.role !== UserRole.ADMIN)
+        throw new ForbiddenException('Administrator required');
+      await this.assertManagesTurma(turmaId, user, database);
+      await database.teacherTurma.deleteMany({ where: { teacherId, turmaId } });
+    });
   }
 }
