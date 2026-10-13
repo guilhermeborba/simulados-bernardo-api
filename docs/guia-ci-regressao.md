@@ -11,7 +11,7 @@ Criado no lote 02 e atualizado após os lotes 03 a 10, em **13/10/2026**. O work
 
 Lint/build da API, build/typecheck da web, validação Prisma e dry-runs de simulados/quizzes/missões/habilidades passaram. As PRs [API #213](https://github.com/guilhermeborba/simulados-bernardo-api/pull/213) e [web #45](https://github.com/guilhermeborba/simulados-bernardo/pull/45) foram integradas em 13/10/2026 com [CI API aprovada](https://github.com/guilhermeborba/simulados-bernardo-api/actions/runs/38438311892) e [CI web aprovada](https://github.com/guilhermeborba/simulados-bernardo/actions/runs/38439597355). Os números das seções por lote abaixo são históricos, sem substituir este fechamento.
 
-Testes não publicam conteúdo editorial, não comprovam deploy e não enviam e-mail externo. Revisão/publicação, ativação Resend, usabilidade humana, leitor de tela e aparelhos reais continuam pendentes. O lote 11 mobile ainda não foi iniciado.
+Testes não publicam conteúdo editorial, não comprovam deploy e não enviam e-mail externo. Revisão/publicação, ativação Resend, usabilidade humana, leitor de tela e aparelhos reais continuam pendentes. O lote 11 tem prova automatizada no repositório web e continua aberto até validação física; veja o [guia mobile](guia-prova-mobile.md).
 
 ## Rodar localmente
 

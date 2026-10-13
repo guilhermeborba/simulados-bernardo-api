@@ -5,7 +5,7 @@
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O próximo trabalho técnico é a prova e o planejamento mobile (lote 11); ativação de e-mail real, revisão editorial e validação humana de uso continuam pendentes.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O lote 11 está em andamento com protótipo Expo e prova automatizada; o aceite em aparelhos reais continua pendente, assim como ativação de e-mail real, revisão editorial e validação humana de uso continuam pendentes.
 
 
 ## Entregas da evolução — posição em 13/10/2026
@@ -24,7 +24,7 @@ Os lotes **01 a 10 estão implementados e integrados à `main`** dos repositóri
 | 08 | Avatar, coleção e conquistas persistidos | [API #211](https://github.com/guilhermeborba/simulados-bernardo-api/pull/211), [web #43](https://github.com/guilhermeborba/simulados-bernardo/pull/43) |
 | 09 | Habilidades, evidências e revisão de dificuldades | [API #212](https://github.com/guilhermeborba/simulados-bernardo-api/pull/212), [web #44](https://github.com/guilhermeborba/simulados-bernardo/pull/44) |
 | 10 | Acompanhamento por vínculo e recuperação de senha com Resend | [API #213](https://github.com/guilhermeborba/simulados-bernardo-api/pull/213), [web #45](https://github.com/guilhermeborba/simulados-bernardo/pull/45) |
-| 11 | Prova e planejamento mobile | Não iniciado |
+| 11 | Prova e planejamento mobile | Protótipo e prova automatizada; aceite físico pendente |
 | 12 | App e beta | Não iniciado |
 
 ### Validação mais recente — fechamento do lote 10
@@ -48,7 +48,7 @@ As CIs de implementação passaram: [API — execução 38438311892](https://git
 | Limite de recuperação | 20 pedidos/minuto por endpoint e IP observado pela API. Navegadores que usam o mesmo BFF compartilham esse orçamento; definir a configuração de proxy/perímetro antes de ampliar o uso |
 | Uso e acessibilidade | Observar sessões nos cinco segmentos, incluindo Infantil com adulto; testar leitor de tela e aparelhos físicos. Chromium mobile emulado não encerra esse aceite |
 | Operação e métricas | Implantar migrations/API/web pelo processo autorizado, alinhar textos finais e definir eventos/linha de base; não houve deploy destas entregas |
-| Mobile | Lote 11 fará prova, ADR e backlog; framework, plataformas e distribuição ainda precisam da validação prevista. Lote 12 permanece futuro |
+| Mobile | Lote 11 com protótipo Expo, ADR provisório e backlog preliminar; prioridade Android/iOS, builds instaláveis e matriz física ainda precisam de validação. Lote 12 permanece futuro |
 
 Migrations foram exercitadas **somente em PostgreSQL descartável**. Não houve importação/publicação editorial em base existente nem envio externo de e-mail. Os arquivos locais de conteúdo em produção continuam fora destas branches.
 
@@ -250,4 +250,21 @@ A recuperação usa Resend escolhido pelo usuário, tokens aleatórios persistid
 
 **Validação técnica:** 688 testes unitários/39 suites e 395 casos Nest/PostgreSQL/21 suites passaram. Incluem vínculos/revogação, ausência de outra turma privada, migration populada, cooldown/links concorrentes, reset com refresh ou login já verificado, rollback, limite por IP, configuração Resend, Unicode/72 bytes e privacidade de logs/auditoria/erros. Lint/build, Prisma validate e dry-runs de simulados, quizzes, missões e habilidades passaram. A web compatível passou 30 testes de sessão, 48 jornadas HTTP/6 suites e 78 testes Chromium desktop/mobile emulado; seu [PROGRESS.md](https://github.com/guilhermeborba/simulados-bernardo/blob/main/PROGRESS.md) registra a cobertura.
 
-[ADR 014](docs/decisions/014-acesso-docente-e-recuperacao.md) e [guia de operação](docs/guia-acesso-recuperacao.md) documentam contratos e ativação. Resend está desativado por padrão; chave/remetente verificado e entrega real continuam pendentes. Testes usam servidor de e-mail sintético e PostgreSQL descartável. Não houve seed, migration em base existente, e-mail externo ou deploy. Os 45 quizzes/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos de missão mantêm revisão/publicação pendentes. Pessoas, leitor de tela e aparelhos reais continuam necessários. Próxima tarefa técnica: **lote 11 — prova e planejamento mobile**.
+[ADR 014](docs/decisions/014-acesso-docente-e-recuperacao.md) e [guia de operação](docs/guia-acesso-recuperacao.md) documentam contratos e ativação. Resend está desativado por padrão; chave/remetente verificado e entrega real continuam pendentes. Testes usam servidor de e-mail sintético e PostgreSQL descartável. Não houve seed, migration em base existente, e-mail externo ou deploy. Os 45 quizzes/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos de missão mantêm revisão/publicação pendentes. Pessoas, leitor de tela e aparelhos reais continuam necessários. Próxima tarefa técnica: **lote 11 — prova e planejamento mobile**, em andamento com aceite físico pendente.
+
+
+---
+
+## Prova e planejamento mobile — lote 11 em andamento
+
+O [protótipo no repositório web](https://github.com/guilhermeborba/simulados-bernardo/tree/main/mobile) usa Expo 57.0.28, React Native 0.86.3, React 19.2.3 e Expo Router. Dependências nativas ficam isoladas do Next/React 18; 39 tipos públicos puros foram extraídos para `packages/api-contracts` e são importados/reexportados pela web e consumidos por tipos no mobile. A API atual atende os contratos Bearer sem novos endpoints, migrations ou mudança na sessão web.
+
+A prova oferece login/restauração, Aprender hoje, catálogo por faixa, quiz NORMAL/REVIEW com confirmação/feedback/mídia/resultado, histórico, progresso, preferências/itens, acompanhamento e recuperação/entrada manual de link. O catálogo de simulados abre sua realização na web sem transferir Bearer; cadastro e runner nativo dos quatro tipos ficam no lote 12.
+
+Sessão própria mantém access em memória e refresh em SecureStore, com marcador em cache, escrita ordenada, renovação única e isolamento de contas. Expo Fetch impede redirects/omite cookies. JSON tem limite de 2 MiB e timeout/cancelamento no corpo; SVG/WAV têm MIME/limites, fallback e cache temporário com limpeza explícita. Perder a resposta de refresh depois do commit pode exigir login; não há promessa de recuperação do sucessor nem fila offline.
+
+**Validação local:** 57 testes (34 núcleo/20 adaptadores/3 links), 7 de telas e 12 integrações reais Nest/PostgreSQL passaram; typecheck, compatibilidade SDK, bundles Hermes Android/iOS e prebuild dos projetos nativos passaram. Auditoria local validou 40 SVGs/18 WAVs; isso não comprova player/renderização física. A web passou tipos/build, 30 testes de sessão e 48 HTTP após compartilhar os tipos. O job mobile separado da CI repete as verificações contra a API compatível fixada.
+
+[ADR 015](docs/decisions/015-prova-mobile-e-contratos-compartilhados.md), [guia da prova](docs/guia-prova-mobile.md) e [plano dedicado](docs/superpowers/plans/2026-10-13-mobile-proof-and-beta-plan.md) registram arquitetura, mapa de telas, matriz física, distribuição e backlog preliminar. A estimativa do lote 12 é preliminar e precisa ser revista depois dos aparelhos, sem substituir as estimativas históricas do planejamento original.
+
+**O lote 11 permanece aberto.** Nenhum APK/IPA foi assinado/distribuído e nenhum Android/iPhone físico foi validado. O AVD Pixel_10a disponível não foi executado. A prioridade de plataformas e os aparelhos disponíveis aguardam resposta do usuário; a decisão Expo continua provisória até a matriz física. Lote 12 não iniciado. Conteúdo editorial permanece PENDING, Resend real desativado; não houve cloud build, compra/registro de loja, deploy ou alteração em banco existente.
