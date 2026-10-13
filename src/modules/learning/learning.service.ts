@@ -6,6 +6,7 @@ import {
 import {
   ActivityKind,
   AttemptStatus,
+  AttemptPracticeMode,
   MissionStatus,
   Prisma,
   QuizRewardReason,
@@ -25,7 +26,7 @@ import {
 
 export interface QuizRewardReceipt {
   xpAwarded: number;
-  reason: QuizRewardReason | 'LEGACY';
+  reason: QuizRewardReason | 'LEGACY' | 'REVIEW';
   day: string | null;
 }
 
@@ -70,6 +71,7 @@ export class LearningService {
           database.attempt.findFirst({
             where: {
               studentId: userId,
+              practiceMode: AttemptPracticeMode.NORMAL,
               status: AttemptStatus.IN_PROGRESS,
               simulation: this.availableQuizWhere(userId, undefined, true),
             },
@@ -79,6 +81,7 @@ export class LearningService {
               simulationId: true,
               activityKey: true,
               contentVersion: true,
+              practiceMode: true,
               status: true,
               startedAt: true,
               finishedAt: true,

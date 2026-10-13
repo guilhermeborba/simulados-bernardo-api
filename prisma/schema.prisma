@@ -60,6 +60,17 @@ enum QuestionType {
   CLASSIFICATION
 }
 
+enum AttemptPracticeMode {
+  NORMAL
+  REVIEW
+}
+
+enum LearningSkillStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
 enum AttemptStatus {
   IN_PROGRESS
   FINISHED
@@ -157,17 +168,18 @@ model GuardianStudent {
 }
 
 model Discipline {
-  id          String       @id @default(cuid())
-  name        String
-  slug        String       @unique
-  description String?
-  icon        String?
-  themeColor  String?
-  isActive    Boolean      @default(true)
-  createdAt   DateTime     @default(now())
-  updatedAt   DateTime     @updatedAt
-  deletedAt   DateTime?
-  simulations Simulation[]
+  id             String          @id @default(cuid())
+  name           String
+  slug           String          @unique
+  description    String?
+  icon           String?
+  themeColor     String?
+  isActive       Boolean         @default(true)
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  deletedAt      DateTime?
+  simulations    Simulation[]
+  learningSkills LearningSkill[]
 }
 
 model Simulation {
@@ -236,6 +248,7 @@ model Question {
   answers        QuestionAnswer[]
   attemptAnswers AttemptAnswer[]
   snapshots      AttemptQuestionSnapshot[]
+  skill          QuestionSkill?
 
   @@unique([simulationId, sortOrder])
   @@index([type])
@@ -272,6 +285,7 @@ model Attempt {
   simulationId         String
   activityKey          String?
   contentVersion       Int?
+  practiceMode         AttemptPracticeMode         @default(NORMAL)
   status               AttemptStatus               @default(IN_PROGRESS)
   startedAt            DateTime                    @default(now())
   finishedAt           DateTime?
@@ -293,29 +307,36 @@ model Attempt {
   earnedAchievements   UserAchievement[]
   unlockedAvatarItems  UserAvatarItem[]
 
+  @@index([studentId, status, practiceMode])
   @@index([studentId])
   @@index([simulationId])
   @@index([status])
 }
 
 model AttemptQuestionSnapshot {
-  id              String       @id @default(cuid())
-  attemptId       String
-  questionId      String
-  originKey       String
-  type            QuestionType
-  statement       String
-  tip             String?
-  funFact         String?
-  explanation     String
-  media           Json?
-  points          Decimal      @db.Decimal(6, 2)
-  sortOrder       Int
-  options         Json
-  officialAnswers Json
-  createdAt       DateTime     @default(now())
-  attempt         Attempt      @relation(fields: [attemptId], references: [id])
-  question        Question     @relation(fields: [questionId], references: [id])
+  id                  String       @id @default(cuid())
+  attemptId           String
+  questionId          String
+  originKey           String
+  type                QuestionType
+  statement           String
+  tip                 String?
+  funFact             String?
+  explanation         String
+  media               Json?
+  points              Decimal      @db.Decimal(6, 2)
+  sortOrder           Int
+  options             Json
+  officialAnswers     Json
+  skillCode           String?
+  skillVersion        Int?
+  skillTitle          String?
+  skillDisciplineSlug String?
+  skillSchoolYear     Int?
+  practicedBefore     Boolean      @default(false)
+  createdAt           DateTime     @default(now())
+  attempt             Attempt      @relation(fields: [attemptId], references: [id])
+  question            Question     @relation(fields: [questionId], references: [id])
 
   @@unique([attemptId, questionId])
   @@unique([attemptId, sortOrder])
@@ -542,4 +563,36 @@ model UserAvatar {
   style     AvatarStyle @default(AUTO)
   updatedAt DateTime    @updatedAt
   user      User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model LearningSkill {
+  id           String              @id @default(cuid())
+  code         String
+  version      Int                 @default(1)
+  title        String
+  description  String
+  disciplineId String
+  schoolYear   Int
+  status       LearningSkillStatus @default(DRAFT)
+  publishedAt  DateTime?
+  reviewedBy   String?
+  reviewedAt   DateTime?
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+  deletedAt    DateTime?
+  discipline   Discipline          @relation(fields: [disciplineId], references: [id], onDelete: Cascade)
+  questions    QuestionSkill[]
+
+  @@unique([code, version])
+  @@index([disciplineId, schoolYear, status])
+}
+
+model QuestionSkill {
+  questionId String        @id
+  skillId    String
+  createdAt  DateTime      @default(now())
+  question   Question      @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  skill      LearningSkill @relation(fields: [skillId], references: [id], onDelete: Restrict)
+
+  @@index([skillId])
 }

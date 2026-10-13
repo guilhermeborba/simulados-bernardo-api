@@ -113,6 +113,21 @@ function stableJson(value: unknown): string {
   }
   return JSON.stringify(value);
 }
+// Shared by the draft skill importer; keep one comparison of immutable content.
+export function quizMatchesCatalog(
+  saved: SavedQuiz,
+  catalog: CatalogQuiz,
+): boolean {
+  return (
+    stableJson(savedProjection(saved)) ===
+    stableJson(
+      contentProjection(catalog, {
+        disciplineId: saved.disciplineId,
+        turmaId: saved.turmaId,
+      }),
+    )
+  );
+}
 class RetryImportError extends Error {}
 function error(message: string): never {
   throw new QuizCatalogError(message);
@@ -328,6 +343,38 @@ export async function importQuizCatalog(
                 saved.publishedAt === null &&
                 saved.deletedAt === null
               ) {
+                const skills = await transaction.$queryRaw<
+                  {
+                    status: string;
+                    reviewedAt: Date | null;
+                    reviewedBy: string | null;
+                    publishedAt: Date | null;
+                    deletedAt: Date | null;
+                    disciplineId: string;
+                    schoolYear: number;
+                  }[]
+                >(Prisma.sql`
+                  SELECT s."status",s."reviewedAt",s."reviewedBy",s."publishedAt",s."deletedAt",s."disciplineId",s."schoolYear"
+                  FROM "LearningSkill" s JOIN "QuestionSkill" qs ON qs."skillId"=s."id"
+                  JOIN "Question" q ON q."id"=qs."questionId"
+                  WHERE q."simulationId"=${saved.id} AND q."isActive"=true AND q."deletedAt" IS NULL
+                  ORDER BY s."id" FOR SHARE OF s
+                `);
+                if (
+                  skills.some(
+                    (skill) =>
+                      skill.status !== 'PUBLISHED' ||
+                      !skill.reviewedAt ||
+                      !skill.reviewedBy ||
+                      !skill.publishedAt ||
+                      skill.deletedAt ||
+                      skill.disciplineId !== saved.disciplineId ||
+                      skill.schoolYear !== saved.schoolYear,
+                  )
+                )
+                  error(
+                    'Publicação bloqueada: classificações precisam de habilidades revisadas e publicadas na mesma disciplina/faixa.',
+                  );
                 await transaction.simulation.update({
                   where: { id: saved.id },
                   data: {

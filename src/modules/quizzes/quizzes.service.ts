@@ -6,6 +6,7 @@ import {
 } from '@nestjs/common';
 import {
   ActivityKind,
+  LearningSkillStatus,
   Prisma,
   QuestionType,
   SimulationStatus,
@@ -95,6 +96,12 @@ export class QuizzesService {
     return this.runTransaction(async (transaction) => {
       await this.lockActivityKey(transaction, dto.activityKey);
       await this.assertReferences(transaction, dto.disciplineId, dto.turmaId);
+      const resolvedQuestions = await this.resolveQuestionSkills(
+        transaction,
+        questions,
+        dto.disciplineId,
+        dto.schoolYear,
+      );
       return transaction.simulation.create({
         data: {
           activityKind: ActivityKind.QUIZ,
@@ -114,7 +121,9 @@ export class QuizzesService {
           estimatedDurationMinutes: dto.estimatedDurationMinutes,
           createdById,
           questions: {
-            create: questions.map((question) => this.nestedQuestion(question)),
+            create: resolvedQuestions.map((question) =>
+              this.nestedQuestion(question),
+            ),
           },
         },
         select: QUIZ_ADMIN_SELECT,
@@ -135,8 +144,22 @@ export class QuizzesService {
         dto.turmaId !== undefined ? dto.turmaId : quiz.turmaId,
       );
       const questionData = dto.questions
-        ? this.createQuestionData(dto.questions)
+        ? await this.resolveQuestionSkills(
+            transaction,
+            this.createQuestionData(dto.questions),
+            dto.disciplineId ?? quiz.disciplineId,
+            dto.schoolYear ?? quiz.schoolYear,
+          )
         : null;
+      if (!questionData) {
+        await this.assertLinkedSkills(
+          transaction,
+          quiz.questions,
+          dto.disciplineId ?? quiz.disciplineId,
+          dto.schoolYear ?? quiz.schoolYear,
+          false,
+        );
+      }
       const maxScore = questionData
         ? assertQuizContentReady(questionData)
         : null;
@@ -205,6 +228,13 @@ export class QuizzesService {
         );
       }
       await this.assertReferences(transaction, quiz.disciplineId, quiz.turmaId);
+      await this.assertLinkedSkills(
+        transaction,
+        quiz.questions,
+        quiz.disciplineId,
+        quiz.schoolYear,
+        true,
+      );
       const maxScore = assertQuizContentReady(quiz.questions);
       if (
         quiz.totalQuestions !== quiz.questions.length ||
@@ -246,6 +276,13 @@ export class QuizzesService {
       const activityKey = quiz.activityKey!;
       await this.lockActivityKey(transaction, activityKey);
       await this.assertReferences(transaction, quiz.disciplineId, quiz.turmaId);
+      await this.assertLinkedSkills(
+        transaction,
+        quiz.questions,
+        quiz.disciplineId,
+        quiz.schoolYear,
+        false,
+      );
       const maxScore = assertQuizContentReady(quiz.questions);
       const latest = await transaction.simulation.aggregate({
         where: { activityKind: ActivityKind.QUIZ, activityKey },
@@ -369,9 +406,106 @@ export class QuizzesService {
     return slugify(`quiz-${activityKey}-v${contentVersion}`);
   }
 
+  private async resolveQuestionSkills(
+    database: Prisma.TransactionClient,
+    questions: ReturnType<QuizzesService['createQuestionData']>,
+    disciplineId: string,
+    schoolYear: number,
+  ) {
+    const resolved = [];
+    for (const question of questions) {
+      const reference = question.skillReference;
+      if (!reference) {
+        resolved.push({ ...question, skillId: undefined });
+        continue;
+      }
+      const rows = await database.$queryRaw<
+        { id: string }[]
+      >`SELECT "id" FROM "LearningSkill" WHERE "code"=${reference.code} AND "version"=${reference.version} FOR SHARE`;
+      if (rows.length !== 1)
+        throw new BadRequestException('Learning skill reference not found');
+      const skill = await database.learningSkill.findUniqueOrThrow({
+        where: { id: rows[0].id },
+      });
+      this.assertCompatibleSkill(skill, disciplineId, schoolYear, false);
+      resolved.push({ ...question, skillId: skill.id });
+    }
+    return resolved;
+  }
+
+  private async assertLinkedSkills(
+    database: Prisma.TransactionClient,
+    questions: PrivateQuiz['questions'],
+    disciplineId: string,
+    schoolYear: number,
+    requirePublished: boolean,
+  ) {
+    const ids = [
+      ...new Set(
+        questions.flatMap((question) =>
+          question.skill ? [question.skill.skill.id] : [],
+        ),
+      ),
+    ].sort();
+    if (!ids.length) return;
+    await database.$queryRaw(
+      Prisma.sql`SELECT "id" FROM "LearningSkill" WHERE "id" IN (${Prisma.join(ids)}) ORDER BY "id" FOR SHARE`,
+    );
+    const skills = await database.learningSkill.findMany({
+      where: { id: { in: ids } },
+    });
+    if (skills.length !== ids.length)
+      throw new BadRequestException('Learning skill reference not found');
+    skills.forEach((skill) =>
+      this.assertCompatibleSkill(
+        skill,
+        disciplineId,
+        schoolYear,
+        requirePublished,
+      ),
+    );
+  }
+
+  private assertCompatibleSkill(
+    skill: {
+      disciplineId: string;
+      schoolYear: number;
+      status: LearningSkillStatus;
+      deletedAt: Date | null;
+      reviewedAt: Date | null;
+      reviewedBy: string | null;
+      publishedAt: Date | null;
+    },
+    disciplineId: string,
+    schoolYear: number,
+    requirePublished: boolean,
+  ) {
+    if (
+      skill.deletedAt !== null ||
+      skill.disciplineId !== disciplineId ||
+      skill.schoolYear !== schoolYear ||
+      (skill.status !== LearningSkillStatus.DRAFT &&
+        skill.status !== LearningSkillStatus.PUBLISHED)
+    )
+      throw new BadRequestException(
+        'Learning skill is unavailable or incompatible with the quiz',
+      );
+    if (
+      requirePublished &&
+      (skill.status !== LearningSkillStatus.PUBLISHED ||
+        !skill.reviewedAt ||
+        !skill.reviewedBy ||
+        !skill.publishedAt)
+    )
+      throw new BadRequestException(
+        'Publish linked skills after editorial review before publishing this quiz',
+      );
+  }
+
   private createQuestionData(questions: QuizQuestionDto[]) {
     return questions.map((question, index) => ({
       originKey: question.originKey,
+      skillReference: question.skill,
       type: QuestionType.MULTIPLE_CHOICE,
       statement: question.statement.trim(),
       explanation: question.explanation.trim(),
@@ -394,9 +528,18 @@ export class QuizzesService {
   private nestedQuestion(
     question:
       | PrivateQuiz['questions'][number]
-      | ReturnType<QuizzesService['createQuestionData']>[number],
+      | (ReturnType<QuizzesService['createQuestionData']>[number] & {
+          skillId?: string;
+        }),
   ): Prisma.QuestionCreateWithoutSimulationInput {
+    const skillId =
+      'skillId' in question
+        ? question.skillId
+        : 'skill' in question
+          ? question.skill?.skill.id
+          : undefined;
     return {
+      ...(skillId ? { skill: { create: { skillId } } } : {}),
       originKey: question.originKey,
       type: question.type,
       statement: question.statement,

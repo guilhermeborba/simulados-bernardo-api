@@ -15,6 +15,7 @@ import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
+import { LearningSkillsService } from '../learning-skills/learning-skills.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 
 describe('AttemptsService', () => {
@@ -72,8 +73,7 @@ describe('AttemptsService', () => {
       $transaction: jest.fn(
         async (
           operations:
-            | unknown[]
-            | ((transaction: typeof prisma) => Promise<unknown>),
+            unknown[] | ((transaction: typeof prisma) => Promise<unknown>),
         ) =>
           typeof operations === 'function' ? operations(prisma) : operations,
       ),
@@ -83,6 +83,7 @@ describe('AttemptsService', () => {
     const moduleRef = await Test.createTestingModule({
       providers: [
         AttemptsService,
+        { provide: LearningSkillsService, useValue: {} },
         AttemptsCorrectionService,
         { provide: QuizAttemptsService, useValue: {} },
         {
@@ -212,9 +213,9 @@ describe('AttemptsService', () => {
       simulation: {},
     });
 
-    await expect(service.findAttempt('attempt-1', student)).rejects.toBeInstanceOf(
-      ForbiddenException,
-    );
+    await expect(
+      service.findAttempt('attempt-1', student),
+    ).rejects.toBeInstanceOf(ForbiddenException);
   });
 
   it('returns questions with options for an attempt, without answer keys', async () => {
@@ -265,8 +266,20 @@ describe('AttemptsService', () => {
         order: 1,
         answer: { answer: 'b' },
         options: [
-          { id: 'option-1', optionKey: 'a', text: '3', groupKey: null, order: 1 },
-          { id: 'option-2', optionKey: 'b', text: '4', groupKey: null, order: 2 },
+          {
+            id: 'option-1',
+            optionKey: 'a',
+            text: '3',
+            groupKey: null,
+            order: 1,
+          },
+          {
+            id: 'option-2',
+            optionKey: 'b',
+            text: '4',
+            groupKey: null,
+            order: 2,
+          },
         ],
       },
     ]);

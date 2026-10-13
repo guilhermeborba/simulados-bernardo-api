@@ -69,3 +69,11 @@ Fechamento da validação do lote 06: **409 unitários e 214 integração API/Po
 
 - [Serviço PostgreSQL no GitHub Actions](https://docs.github.com/en/actions/tutorials/use-containerized-services/create-postgresql-service-containers).
 - [actions/checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1) e [actions/setup-node v7.1.0](https://github.com/actions/setup-node/releases/tag/v7.1.0), fixados por SHA no workflow.
+
+## Habilidades e revisão — lote 09
+
+`seed:skills:dry-run` valida offline as propostas e a cobertura integral das perguntas do catálogo de quizzes; o workflow executa esse gate sem publicar. `seed:skills:inventory:json` exporta somente metadados e contagens.
+
+A integração testa classificação editorial explícita, snapshots imutáveis, todas as faixas, primeira resposta/repetição/revisão, versões, perguntas vistas primeiro em revisão, dificuldades recentes/resolvidas, acesso por turma e conta atual, inícios concorrentes por modo e ausência de XP/missão/itens em REVIEW. Testes de migration usam schema próprio populado anterior ao lote 09 e os importadores validam rascunhos e publicação com revisão explícita. Histórico sem classificação permanece sem classificação.
+
+A web acrescenta `tests/e2e/progress-review-regression.test.mjs` e `tests/browser/progress-review.spec.ts`. As jornadas passam por Next/BFF/Nest/PostgreSQL, usando somente fixtures sintéticas. Builds devem terminar antes de iniciar os servidores do harness. Publicação editorial e avaliação com aparelhos/pessoas seguem pendentes.

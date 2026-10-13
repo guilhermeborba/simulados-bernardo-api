@@ -14,6 +14,7 @@ import {
   Min,
   MinLength,
   ValidateNested,
+  ValidateIf,
 } from 'class-validator';
 
 function trimString({ value }: { value: unknown }): unknown {
@@ -76,7 +77,25 @@ export class QuizMediaDto {
   audio?: QuizAudioMediaDto;
 }
 
+export class QuizSkillReferenceDto {
+  @Transform(trimString)
+  @IsString()
+  @Matches(/^[a-z0-9][a-z0-9._:-]*$/)
+  @MaxLength(120)
+  code!: string;
+  @IsInt()
+  @Min(1)
+  @Max(2147483647)
+  version!: number;
+}
+
 export class QuizQuestionDto {
+  @ValidateIf((_object, value: unknown) => value !== undefined)
+  @IsObject()
+  @ValidateNested()
+  @Type(() => QuizSkillReferenceDto)
+  skill?: QuizSkillReferenceDto;
+
   @Transform(trimString)
   @IsString()
   @Matches(/^[a-zA-Z0-9][a-zA-Z0-9._:-]*$/)

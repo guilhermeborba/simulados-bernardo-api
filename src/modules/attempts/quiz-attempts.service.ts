@@ -5,16 +5,19 @@ import {
   Injectable,
   InternalServerErrorException,
   NotFoundException,
+  UnauthorizedException,
 } from '@nestjs/common';
 import {
   ActivityKind,
   AttemptAnswer,
   AttemptQuestionSnapshot,
   AttemptStatus,
+  AttemptPracticeMode,
   Prisma,
   QuestionType,
   SimulationStatus,
   UserRole,
+  UserStatus,
 } from '@prisma/client';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import {
@@ -49,6 +52,7 @@ const publicSnapshotSelection = {
   sortOrder: true,
   options: true,
   media: true,
+  practicedBefore: true,
 } satisfies Prisma.AttemptQuestionSnapshotSelect;
 
 type PublicSnapshot = Prisma.AttemptQuestionSnapshotGetPayload<{
@@ -145,6 +149,15 @@ export class QuizAttemptsService {
     );
   }
 
+  async getAttempt(attemptId: string, user: RequestUser) {
+    return this.withLockedAttempt(
+      attemptId,
+      user,
+      false,
+      async (_database, attempt) => attempt,
+    );
+  }
+
   async getQuestions(attemptId: string, user: RequestUser) {
     return this.withLockedAttempt(attemptId, user, false, async (database) => {
       const { snapshots, answers } = await this.readAttemptContent(
@@ -200,7 +213,9 @@ export class QuizAttemptsService {
             attempt,
             snapshots,
             answers,
-            await this.learningService.rewardFor(database, attempt.id),
+            attempt.practiceMode === AttemptPracticeMode.REVIEW
+              ? { xpAwarded: 0, reason: 'REVIEW', day: null }
+              : await this.learningService.rewardFor(database, attempt.id),
           );
         }
 
@@ -229,11 +244,14 @@ export class QuizAttemptsService {
           );
         }
         const finishedAt = new Date();
-        const reward = await this.learningService.recordCompletion(
-          database,
-          attempt,
-          finishedAt,
-        );
+        const reward: QuizRewardReceipt =
+          attempt.practiceMode === AttemptPracticeMode.REVIEW
+            ? { xpAwarded: 0, reason: 'REVIEW', day: null }
+            : await this.learningService.recordCompletion(
+                database,
+                attempt,
+                finishedAt,
+              );
         const finishedAttempt = await database.attempt.update({
           where: { id: attemptId },
           data: {
@@ -278,7 +296,9 @@ export class QuizAttemptsService {
           attempt,
           snapshots,
           answers,
-          await this.learningService.rewardFor(database, attempt.id),
+          attempt.practiceMode === AttemptPracticeMode.REVIEW
+            ? { xpAwarded: 0, reason: 'REVIEW', day: null }
+            : await this.learningService.rewardFor(database, attempt.id),
         );
       },
     );
@@ -335,6 +355,24 @@ export class QuizAttemptsService {
           throw new NotFoundException('Attempt not found');
         }
         this.assertOwner(attempt.studentId, user);
+        if (attempt.practiceMode === AttemptPracticeMode.REVIEW) {
+          const activeUser = await database.user.findFirst({
+            where: {
+              id: user.id,
+              role: {
+                in: [UserRole.STUDENT, UserRole.ADMIN],
+                equals: user.role,
+              },
+              status: UserStatus.ACTIVE,
+              deletedAt: null,
+            },
+            select: { id: true },
+          });
+          if (!activeUser)
+            throw new UnauthorizedException(
+              'Active student or administrator required',
+            );
+        }
         await this.assertVisible(database, attempt, user);
         return action(database, attempt);
       },
@@ -470,6 +508,7 @@ export class QuizAttemptsService {
     return {
       id: snapshot.questionId,
       originKey: snapshot.originKey,
+      practicedBefore: snapshot.practicedBefore ?? false,
       type: snapshot.type,
       statement: snapshot.statement,
       tip: snapshot.tip,
@@ -498,6 +537,7 @@ export class QuizAttemptsService {
         simulationId: attempt.simulationId,
         activityKey: attempt.activityKey,
         contentVersion: attempt.contentVersion,
+        practiceMode: attempt.practiceMode,
         status: attempt.status,
         startedAt: attempt.startedAt,
         finishedAt: attempt.finishedAt,

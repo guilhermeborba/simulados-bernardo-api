@@ -10,6 +10,7 @@ import {
   AttemptAnswer,
   AttemptQuestionSnapshot,
   AttemptStatus,
+  AttemptPracticeMode,
   Prisma,
   QuestionType,
   SimulationStatus,
@@ -35,6 +36,12 @@ function snapshot(
     attemptId: 'attempt-1',
     questionId: 'question-1',
     originKey: 'soma-1',
+    skillCode: null,
+    skillVersion: null,
+    skillTitle: null,
+    skillDisciplineSlug: null,
+    skillSchoolYear: null,
+    practicedBefore: false,
     type: QuestionType.MULTIPLE_CHOICE,
     statement: 'Quanto é 2 + 2?',
     tip: 'Some dois pares.',
@@ -85,6 +92,7 @@ function quizAttempt(): QuizAttempt {
     simulationId: 'quiz-1',
     activityKey: 'somando',
     contentVersion: 1,
+    practiceMode: AttemptPracticeMode.NORMAL,
     status: AttemptStatus.IN_PROGRESS,
     startedAt: instant,
     finishedAt: null,
@@ -152,6 +160,7 @@ describe('QuizAttemptsService lifecycle', () => {
       update: jest.Mock;
     };
     turma: { findFirst: jest.Mock };
+    user: { findFirst: jest.Mock };
     $queryRaw: jest.Mock;
   };
 
@@ -208,6 +217,7 @@ describe('QuizAttemptsService lifecycle', () => {
           .mockImplementation(() => confirmedAnswer(snapshots[0])),
       },
       turma: { findFirst: jest.fn().mockResolvedValue({ id: 'turma-1' }) },
+      user: { findFirst: jest.fn().mockResolvedValue({ id: student.id }) },
       $queryRaw: jest.fn().mockResolvedValue([{ id: 'locked-row' }]),
     };
     const prisma = {
@@ -528,5 +538,29 @@ describe('QuizAttemptsService lifecycle', () => {
     );
     expect(database.attemptAnswer.update).not.toHaveBeenCalled();
     expect(database.attemptAnswer.create).not.toHaveBeenCalled();
+  });
+  it('finishes a review without granting XP, mission or collection progress and preserves its receipt on retries', async () => {
+    attempt.practiceMode = AttemptPracticeMode.REVIEW;
+    answers = [confirmedAnswer(snapshots[0])];
+    const first = await service.finish(attempt.id, student);
+    expect(first.reward).toEqual({ xpAwarded: 0, reason: 'REVIEW', day: null });
+    expect(first.attempt.practiceMode).toBe(AttemptPracticeMode.REVIEW);
+    expect(rewards.recordCompletion).not.toHaveBeenCalled();
+    expect(await service.finish(attempt.id, student)).toEqual(first);
+    expect(await service.getResult(attempt.id, student)).toEqual(first);
+    expect(rewards.rewardFor).not.toHaveBeenCalled();
+  });
+
+  it('projects repeated-practice metadata without exposing the skill or official snapshot fields', async () => {
+    snapshots[0].practicedBefore = true;
+    snapshots[0].skillCode = 'math.count';
+    snapshots[0].skillVersion = 1;
+    snapshots[0].skillTitle = 'Contagem';
+    snapshots[0].skillDisciplineSlug = 'matematica';
+    snapshots[0].skillSchoolYear = 3;
+    const questions = await service.getQuestions(attempt.id, student);
+    expect(questions[0].practicedBefore).toBe(true);
+    expect(questions[0]).not.toHaveProperty('officialAnswers');
+    expect(questions[0]).not.toHaveProperty('skillCode');
   });
 });
