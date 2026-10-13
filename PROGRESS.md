@@ -7,6 +7,51 @@
 
 As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O próximo trabalho técnico é a prova e o planejamento mobile (lote 11); ativação de e-mail real, revisão editorial e validação humana de uso continuam pendentes.
 
+
+## Entregas da evolução — posição em 13/10/2026
+
+Os lotes **01 a 10 estão implementados e integrados à `main`** dos repositórios envolvidos. A integração de código não confirma implantação em produção nem publicação editorial. Os detalhes abaixo são registros do fechamento de cada lote; os totais antigos de testes são históricos.
+
+| Lote | Entrega técnica | PRs integradas |
+|---|---|---|
+| 01 | Renovação isolada, rotação atômica e logout concorrente | [API #204](https://github.com/guilhermeborba/simulados-bernardo-api/pull/204), [web #39](https://github.com/guilhermeborba/simulados-bernardo/pull/39) |
+| 02 | Inventário de simulados, regressão real, CI e fontes locais | [API #205](https://github.com/guilhermeborba/simulados-bernardo-api/pull/205), [web #40](https://github.com/guilhermeborba/simulados-bernardo/pull/40) |
+| 03 | Modelo, versões e snapshots privados de quiz | [API #206](https://github.com/guilhermeborba/simulados-bernardo-api/pull/206) |
+| 04 | Confirmação, feedback e resultado idempotente | [API #207](https://github.com/guilhermeborba/simulados-bernardo-api/pull/207) |
+| 05 | Importação editorial, catálogo e mídia Infantil modernizada | [API #208](https://github.com/guilhermeborba/simulados-bernardo-api/pull/208) |
+| 06 | Catálogo/runner/histórico web, mídia no BFF e preferências por conta | [API #209](https://github.com/guilhermeborba/simulados-bernardo-api/pull/209), [web #41](https://github.com/guilhermeborba/simulados-bernardo/pull/41) |
+| 07 | Aprender hoje, missões semanais e XP transacional | [API #210](https://github.com/guilhermeborba/simulados-bernardo-api/pull/210), [web #42](https://github.com/guilhermeborba/simulados-bernardo/pull/42) |
+| 08 | Avatar, coleção e conquistas persistidos | [API #211](https://github.com/guilhermeborba/simulados-bernardo-api/pull/211), [web #43](https://github.com/guilhermeborba/simulados-bernardo/pull/43) |
+| 09 | Habilidades, evidências e revisão de dificuldades | [API #212](https://github.com/guilhermeborba/simulados-bernardo-api/pull/212), [web #44](https://github.com/guilhermeborba/simulados-bernardo/pull/44) |
+| 10 | Acompanhamento por vínculo e recuperação de senha com Resend | [API #213](https://github.com/guilhermeborba/simulados-bernardo-api/pull/213), [web #45](https://github.com/guilhermeborba/simulados-bernardo/pull/45) |
+| 11 | Prova e planejamento mobile | Não iniciado |
+| 12 | App e beta | Não iniciado |
+
+### Validação mais recente — fechamento do lote 10
+
+| Projeto | Resultado automatizado |
+|---|---|
+| API | **688 unitários / 39 suites; 395 casos Nest/PostgreSQL / 21 suites**; lint, build e Prisma validate |
+| Web | **30 testes de sessão; 48 jornadas HTTP / 6 suites; 78 testes Chromium desktop/mobile emulado**; typecheck e build |
+| Conteúdo offline | Dry-runs de simulados, quizzes, missões e habilidades aprovados; sem gravação em banco |
+
+As CIs de implementação passaram: [API — execução 38438311892](https://github.com/guilhermeborba/simulados-bernardo-api/actions/runs/38438311892) e [web — execução 38439597355](https://github.com/guilhermeborba/simulados-bernardo/actions/runs/38439597355). As PRs #213/#45 foram integradas em 13/10/2026. A CI web fixa o commit compatível da API `e0b19669723de7d67c778fcc08a3f300b0003fa1`; o workflow identifica o contrato usado em cada execução.
+
+### Pendências para ativação e lançamento
+
+| Frente | Estado e próxima ação |
+|---|---|
+| Editorial de quizzes | **45 quizzes / 213 perguntas nas 15 faixas, todos PENDING**. O responsável pelo projeto assumiu a revisão; registrar somente avaliações realizadas e publicar depois da aprovação |
+| Habilidades e classificações | **45 habilidades / 213 classificações PENDING**. Revisar objetivos e vínculos antes de publicar quizzes classificados |
+| Missões | **30 rascunhos PENDING**, dois por faixa. Curar as semanas e publicar após disponibilizar os quizzes correspondentes |
+| Recuperação de senha | Resend desativado por padrão. Configurar chave/remetente verificado e validar entrega real em ambiente autorizado |
+| Limite de recuperação | 20 pedidos/minuto por endpoint e IP observado pela API. Navegadores que usam o mesmo BFF compartilham esse orçamento; definir a configuração de proxy/perímetro antes de ampliar o uso |
+| Uso e acessibilidade | Observar sessões nos cinco segmentos, incluindo Infantil com adulto; testar leitor de tela e aparelhos físicos. Chromium mobile emulado não encerra esse aceite |
+| Operação e métricas | Implantar migrations/API/web pelo processo autorizado, alinhar textos finais e definir eventos/linha de base; não houve deploy destas entregas |
+| Mobile | Lote 11 fará prova, ADR e backlog; framework, plataformas e distribuição ainda precisam da validação prevista. Lote 12 permanece futuro |
+
+Migrations foram exercitadas **somente em PostgreSQL descartável**. Não houve importação/publicação editorial em base existente nem envio externo de e-mail. Os arquivos locais de conteúdo em produção continuam fora destas branches.
+
 ---
 
 ## Fases de desenvolvimento
@@ -20,7 +65,7 @@ As 6 fases do plano original do backend foram implementadas, e a **integração 
 | 5 | Perfil e relatórios | ✅ Concluída |
 | 6 | Segurança, hardening e produção | ✅ Concluída |
 
-Pendências menores (não bloqueantes para produção):
+Pendências de ativação e validação (detalhadas no quadro acima):
 
 - Ativação do Resend — implementação e transporte local disponíveis no lote 10; configurar chave/remetente verificado e verificar entrega real no ambiente autorizado
 - Validação humana de uso — automação HTTP/navegador não substitui observação por segmento, leitor de tela e aparelhos reais; o fechamento automatizado do lote 06 está registrado abaixo
@@ -83,13 +128,13 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 
 Plano: [Evolução — quizzes, gamificação e mobile](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
-**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lotes 05 a 10 implementados tecnicamente.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
+**Planejamento criado em 2026-10-12; lotes 01 a 10 já implementados e integrados, posição em 2026-10-13.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
 
 Sequência: consolidar a base → quizzes na web → missões/XP/avatar/conquistas → revisão e progresso por habilidade → prova e planejamento mobile → app/beta. Entregas, dependências, estimativas condicionais e critérios de aceite estão no plano.
 
 **Lote 01 concluído:** BFF isola a renovação por sessão e trata 401 tardio sem cruzar contas; falhas temporárias preservam cookies. Backend consome o refresh e cria seu sucessor numa transação, com rollback em falhas. Logout revoga a cadeia e impede regravar cookies de uma renovação pendente.
 
-Validação: 25 testes de sessão web; 83 unitários da API; 8 testes PostgreSQL descartável; verificações HTTP nas rotas Next reais; build da API e build web com fixture local de fontes. O build web comum falhou no loader Google Fonts em arquivo não alterado; o download real permanece pendente de verificação. Nenhum banco existente ou seed foi alterado. O coordenador BFF é por processo; avaliar coordenação compartilhada antes de ampliar réplicas.
+Validação: 25 testes de sessão web; 83 unitários da API; 8 testes PostgreSQL descartável; verificações HTTP nas rotas Next reais; build da API e build web com fixture local de fontes. Naquele fechamento, o build web comum falhava no loader Google Fonts em arquivo não alterado e o download real não havia sido verificado; o lote 02 resolveu essa limitação com fontes locais originais. Nenhum banco existente ou seed foi alterado. O coordenador BFF é por processo; avaliar coordenação compartilhada antes de ampliar réplicas.
 
 Decisão: [ADR 006 — Rotação atômica e revogação da sessão](docs/decisions/006-rotacao-atomica-e-revogacao-de-sessao.md).
 
@@ -133,14 +178,14 @@ O exportador offline `seed:missions:dry-run`/`seed:missions:inventory:json` prep
 
 Validação final do lote 07: **479 testes unitários, 267 testes de integração API/PostgreSQL, 30 testes de sessão, 23 jornadas HTTP web e 38 testes Chromium desktop/mobile emulado** passaram. Lint/builds API/web, typecheck web, Prisma validate e os dry-runs de 588 simulados/17.684 questões, 45 quizzes/213 perguntas e 30 rascunhos de missão passaram. Os 53 casos novos de integração cobrem também migration sobre histórico, rollback de cada gravação, virada de semana/dia, concorrência com arquivo de uma etapa e início de outra atividade sob locks de FK. Axe verificou a home inteira pública/autenticada e resultados, sem violações detectadas; navegação mobile passou sem overflow, incluindo logout real e resposta atrasada de outra sessão. Isso não substitui avaliação com pessoas/leitor de tela/aparelhos reais. Operação em [missões e XP](docs/guia-missoes-xp.md), decisão no [ADR 011](docs/decisions/011-missoes-semanais-e-xp-transacional.md). Migration somente em PostgreSQL descartável; nenhuma base existente, seed em produção ou publicação editorial alterados.
 
-Próxima tarefa técnica: **lote 08 — avatar, coleções e conquistas**. Os 45 quizzes/213 perguntas e os rascunhos de missão permanecem pendentes de revisão/publicação. O lançamento nas 15 faixas depende dessa revisão e da validação humana de uso. Continuam pendentes observação de uma sessão por segmento, leitor de tela/aparelhos reais, alinhamento final dos textos e métricas da etapa 0.
+No fechamento do lote 07, a próxima tarefa técnica era o lote 08, entregue abaixo. Os 45 quizzes/213 perguntas e os rascunhos de missão permanecem pendentes de revisão/publicação. O lançamento nas 15 faixas depende dessa revisão e da validação humana de uso. Continuam pendentes observação de uma sessão por segmento, leitor de tela/aparelhos reais, alinhamento final dos textos e métricas da etapa 0.
 
 ### Integração front-end / API — base existente
 
 Spec histórica: `docs/superpowers/specs/2026-08-12-integracao-frontend-api-design.md`
 Plano histórico: `docs/superpowers/plans/2026-08-12-integracao-frontend-api-plan.md`
 
-A inspeção do frontend em `/home/guilhermeborba/projects/simulados-bernardo` confirmou login/registro, BFF com cookies httpOnly, catálogo da API, tentativa, retomada, resultado, histórico, convite e ranking no código atual. A validação funcional e os ajustes de sessão fazem parte da etapa 0 do novo plano.
+A inspeção do frontend em `/home/guilhermeborba/projects/simulados-bernardo` confirmou login/registro, BFF com cookies httpOnly, catálogo da API, tentativa, retomada, resultado, histórico, convite e ranking no código atual. A validação funcional e os ajustes de sessão foram entregues nos lotes 01/02; os lotes seguintes acrescentaram quizzes e aprendizagem.
 
 O endpoint `GET /attempts/:id/questions` **já está implementado** em `AttemptsController` e `AttemptsService`, inclusive com recuperação das respostas do aluno, sem gabarito. A pendência da spec/plano de agosto foi superada pelo código atual.
 
@@ -192,7 +237,7 @@ A web oferece /progresso, contadores/evidência, sugestões, revisão em andamen
 
 **Validação técnica:** 571 testes unitários/37 suites e 368 casos Nest/PostgreSQL/17 suites passaram, além de lint/build e dry-runs de quizzes, habilidades e missões. Cobertura inclui histórico antes da migration, constraints, rascunhos/hash/escopo de turma, revisão explícita, rollback de lote, 15 faixas, concorrência por modo, revogação/status/papel atual, versões, histórico sem classificação e ausência de recompensas em REVIEW. Web: typecheck/build, 30 testes de sessão, 39 jornadas HTTP e 64 Chromium desktop/mobile passaram, incluindo teclado, retomada, falhas/retry, contas atrasadas, Axe e overflow. CI fixa o commit compatível da API.
 
-[ADR 013](docs/decisions/013-habilidades-e-revisao.md), [guia de habilidades](docs/guia-habilidades-revisao.md) e plano de evolução registram contratos, limites e curadoria. Os 45 quizzes/213 perguntas, 45 habilidades/classificações e 30 rascunhos de missão continuam pendentes de revisão/publicação. O responsável pelo projeto assumiu a revisão dos quizzes sem aprovar o conteúdo. Não houve seed, migration em banco existente ou deploy. Avaliação com pessoas, leitor de tela e aparelhos reais permanece pendente. Na conclusão do lote 09, a próxima tarefa era o lote 10, entregue abaixo.
+[ADR 013](docs/decisions/013-habilidades-e-revisao.md), [guia de habilidades](docs/guia-habilidades-revisao.md) e plano de evolução registram contratos, limites e curadoria. Os 45 quizzes/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos de missão continuam pendentes de revisão/publicação. O responsável pelo projeto assumiu a revisão dos quizzes sem aprovar o conteúdo. Não houve seed, migration em banco existente ou deploy. Avaliação com pessoas, leitor de tela e aparelhos reais permanece pendente. Na conclusão do lote 09, a próxima tarefa era o lote 10, entregue abaixo.
 
 
 ---
@@ -201,8 +246,8 @@ A web oferece /progresso, contadores/evidência, sugestões, revisão em andamen
 
 `TeacherTurma` permite a ADMIN atribuir/remover docentes, sem confundir convite de aluno com permissão de professor. Roster e relatórios exigem contas/alunos ativos e vínculo atual. Responsável consulta somente alunos vinculados; docente consulta alunos de suas turmas e registros públicos/dessas turmas, sem revelar outra turma privada do mesmo aluno. Catálogos privados, ranking e gestão de convites respeitam atribuições. Evidências de habilidade são somente para leitura; médias de simulados continuam separadas de quizzes/revisões.
 
-A recuperação usa Resend escolhido pelo usuário, tokens aleatórios persistidos somente como hash, prazo de 30 minutos, consumo único, cooldown por conta e limite por IP. Pedido tem resposta uniforme e logs sem destinatário/link. Reset troca senha, invalida links irmãos e revoga sessões anteriores numa transação. Guards conferem papel/status/versão atuais no banco; login/refresh/reset concorrentes usam locks compatíveis. Novas senhas têm oito caracteres Unicode e no máximo 72 bytes; login legado foi preservado. A web remove o fragmento do link, conserva o token só em memória e não faz login automático nem altera cookies de outra conta aberta.
+A recuperação usa Resend escolhido pelo usuário, tokens aleatórios persistidos somente como hash, prazo de 30 minutos, consumo único, cooldown por conta e limite por IP observado pela API (compartilhado entre navegadores que usam o mesmo BFF). Pedido tem resposta uniforme e logs sem destinatário/link. Reset troca senha, invalida links irmãos e revoga sessões anteriores numa transação. Guards conferem papel/status/versão atuais no banco; login/refresh/reset concorrentes usam locks compatíveis. Novas senhas têm oito caracteres Unicode e no máximo 72 bytes; login legado foi preservado. A web remove o fragmento do link, conserva o token só em memória e não faz login automático nem altera cookies de outra conta aberta.
 
-**Validação técnica:** 688 testes unitários/39 suites e 395 casos Nest/PostgreSQL/21 suites passaram. Incluem vínculos/revogação, ausência de outra turma privada, migration populada, cooldown/links concorrentes, reset com refresh ou login já verificado, rollback, limite por IP, configuração Resend, Unicode/72 bytes e privacidade de logs/auditoria/erros. Lint/build, Prisma validate e dry-runs de simulados, quizzes, missões e habilidades passaram. A web compatível passou 30 testes de sessão e 48 jornadas HTTP; a regressão de interface e seus totais são registrados no PROGRESS.md da web.
+**Validação técnica:** 688 testes unitários/39 suites e 395 casos Nest/PostgreSQL/21 suites passaram. Incluem vínculos/revogação, ausência de outra turma privada, migration populada, cooldown/links concorrentes, reset com refresh ou login já verificado, rollback, limite por IP, configuração Resend, Unicode/72 bytes e privacidade de logs/auditoria/erros. Lint/build, Prisma validate e dry-runs de simulados, quizzes, missões e habilidades passaram. A web compatível passou 30 testes de sessão, 48 jornadas HTTP/6 suites e 78 testes Chromium desktop/mobile emulado; seu [PROGRESS.md](https://github.com/guilhermeborba/simulados-bernardo/blob/main/PROGRESS.md) registra a cobertura.
 
 [ADR 014](docs/decisions/014-acesso-docente-e-recuperacao.md) e [guia de operação](docs/guia-acesso-recuperacao.md) documentam contratos e ativação. Resend está desativado por padrão; chave/remetente verificado e entrega real continuam pendentes. Testes usam servidor de e-mail sintético e PostgreSQL descartável. Não houve seed, migration em base existente, e-mail externo ou deploy. Os 45 quizzes/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos de missão mantêm revisão/publicação pendentes. Pessoas, leitor de tela e aparelhos reais continuam necessários. Próxima tarefa técnica: **lote 11 — prova e planejamento mobile**.

@@ -1,6 +1,6 @@
 # Checklist de Desenvolvimento — Simulados Bernardo API
 
-Checklist baseado no plano de desenvolvimento anexado. Use este arquivo como trilha objetiva de implementação e aceite técnico. Cadastro/login, permissões e ciclo de tentativa foram validados em HTTP com PostgreSQL descartável no lote 02 (12/10/2026); veja [guia de CI e regressão](guia-ci-regressao.md).
+Atualizado em **13/10/2026**, após a implementação técnica dos lotes 01–10. As fases abaixo preservam a trilha original do backend; a evolução e os gates operacionais aparecem ao final. Itens técnicos marcados referem-se ao código e à validação com fixtures/serviços descartáveis, sem comprovar deploy, publicação editorial ou entrega de e-mail real. Veja [CI e regressão](guia-ci-regressao.md), [PROGRESS](../PROGRESS.md) e [plano de evolução](superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
 ## Fase 1 — Fundação do backend
 
@@ -21,7 +21,7 @@ Objetivo: preparar a base técnica para desenvolvimento seguro e incremental.
 - [x] Criar teste unitário inicial.
 - [x] Instalar dependências com `npm install`.
 - [x] Gerar Prisma Client com `npm run prisma:generate`.
-- [ ] Executar primeira migration com `npm run prisma:migrate`.
+- [x] Aplicar e validar a cadeia de migrations versionadas em PostgreSQL descartável.
 - [x] Validar `npm run test`.
 - [x] Validar `npm run build`.
 - [x] Validar `npm run lint`.
@@ -29,10 +29,10 @@ Objetivo: preparar a base técnica para desenvolvimento seguro e incremental.
 
 Critério de aceite:
 
-- [ ] API sobe localmente com `npm run start:dev`.
-- [ ] Banco conecta via `GET /ready`.
-- [ ] Migration inicial executa sem erro.
-- [ ] Testes iniciais passam.
+- [x] API inicializa no harness real de integração.
+- [x] Banco descartável conecta via `GET /ready`; `/health` também responde.
+- [x] Migration inicial e migrations posteriores executam no banco isolado.
+- [x] Testes unitários e de integração passam.
 
 ## Fase 2 — Autenticação e usuários
 
@@ -47,7 +47,8 @@ Objetivo: permitir acesso seguro com usuários e perfis.
 - [x] Implementar refresh token com rotação.
 - [x] Implementar logout com invalidação de refresh token.
 - [x] Implementar `GET /auth/me`.
-- [ ] Implementar recuperação de senha sem enumeração de usuários.
+- [x] Implementar recuperação com resposta uniforme, token de uso único e transporte Resend sintético.
+- [x] Invalidar sessões anteriores após reset e bloquear emissão concorrente com senha antiga.
 - [x] Implementar roles `STUDENT`, `GUARDIAN`, `TEACHER`, `ADMIN`.
 - [x] Criar guard de autenticação.
 - [x] Criar guard de autorização por role.
@@ -82,7 +83,7 @@ Objetivo: substituir a base local por dados persistidos.
 
 Critério de aceite:
 
-- [ ] Administrador cria um simulado completo.
+- [ ] Validar manualmente a autoria administrativa de um simulado completo no ambiente escolhido.
 - [x] Aluno lista apenas simulados publicados.
 - [x] Simulados em rascunho não aparecem para alunos.
 
@@ -127,13 +128,16 @@ Objetivo: entregar acompanhamento de desempenho por aluno, responsável, profess
 - [x] Implementar relatório por simulado.
 - [x] Implementar questões com maior taxa de erro.
 - [x] Restringir responsável a alunos vinculados.
-- [ ] Restringir professor a alunos ou turmas autorizadas.
+- [x] Restringir professor a alunos de turmas ativas atribuídas e aos registros públicos/dessas turmas.
+- [x] Revalidar vínculo/status/papel e bloquear acesso após revogação.
+- [x] Oferecer roster mínimo e progresso por habilidade para acompanhamento autorizado.
 - [x] Criar testes de autorização dos relatórios.
 
 Critério de aceite:
 
 - [x] Aluno vê seu próprio histórico.
-- [x] Responsável vê apenas alunos vinculados.
+- [x] Responsável vê apenas alunos ativos vinculados.
+- [x] Professor não recebe registros privados de outras turmas do mesmo aluno.
 - [x] Administrador vê relatórios gerais.
 
 ## Fase 6 — Segurança, hardening e produção
@@ -160,3 +164,33 @@ Critério de aceite:
 - [x] Erros seguem formato padronizado.
 - [x] Logs não expõem dados sensíveis.
 - [x] API está documentada para integração com o front-end.
+
+
+## Evolução — lotes 01 a 10
+
+- [x] Lote 01: isolar refresh por sessão no BFF, rotação atômica e logout com revogação dos sucessores.
+- [x] Lote 02: inventário determinístico, integração HTTP real e CI nos dois repositórios.
+- [x] Lote 03: quizzes versionados, catálogo autorizado e snapshots privados de tentativa.
+- [x] Lote 04: confirmação/feedback persistidos e conclusão idempotente de quiz.
+- [x] Lote 05: preparar 45 quizzes/213 perguntas e mídia acessível para as 18 perguntas infantis; implementar importação própria.
+- [x] Lote 06: catálogo/runner/histórico web e preferências de faixa, áudio e movimento por conta.
+- [x] Lote 07: Aprender hoje, missões semanais e XP transacional separado de notas.
+- [x] Lote 08: avatar, seis itens cosméticos e cinco conquistas calculados pelo servidor.
+- [x] Lote 09: habilidades, snapshots de classificação, evidências separadas e REVIEW sem recompensas.
+- [x] Lote 10: acompanhamento por vínculo, recuperação Resend e revogação imediata de sessões após reset.
+
+Última validação funcional: API **688 unitários/39 suítes e 395 integração/21 suítes**; web **30 testes de sessão, 48 jornadas HTTP e 78 testes Chromium desktop/mobile emulado**. As PRs [API #213](https://github.com/guilhermeborba/simulados-bernardo-api/pull/213) e [web #45](https://github.com/guilhermeborba/simulados-bernardo/pull/45) do lote 10 foram integradas à main em 13/10/2026 com CIs aprovadas. Contagens anteriores nos guias são registros históricos de cada lote.
+
+## Gates pendentes de ativação e lançamento
+
+- [ ] Concluir revisão editorial dos 45 quizzes/213 perguntas, incluindo conteúdo de Enfermagem e mídia Infantil.
+- [ ] Revisar as 45 propostas de habilidade/213 classificações e publicar as definições aprovadas.
+- [ ] Revisar os 30 rascunhos de missão e publicar a curadoria semanal após disponibilizar quizzes revisados.
+- [ ] Aplicar migrations e implantar versões compatíveis no ambiente operacional, segundo o processo autorizado.
+- [ ] Configurar Resend com chave e remetente verificado; validar entrega real de forma controlada.
+- [ ] Definir proxy/perímetro confiável para o limite de recuperação, atualmente compartilhado pelos navegadores via BFF.
+- [ ] Validar usabilidade por segmento, com adulto na Infantil, leitor de tela e aparelhos reais.
+- [ ] Lote 11: executar prova e planejamento mobile; framework e escopo definitivo ainda não escolhidos.
+- [ ] Lote 12: construir app e beta após a decisão técnica e os gates necessários.
+
+Aceite técnico não publica conteúdo automaticamente. Os catálogos preparados permanecem `PENDING`, e nenhuma migration/seed/deploy em banco existente foi executada pelas validações descritas aqui.

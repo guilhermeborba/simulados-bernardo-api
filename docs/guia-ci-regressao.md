@@ -1,6 +1,17 @@
 # CI e regressão da base
 
-Criado no lote 02 e ampliado pelos lotes 03 a 06 do plano de evolução, em 12/10/2026. O workflow `.github/workflows/ci.yml` executa em PRs, pushes na `main` e por acionamento manual. Usa Node 22, `npm ci`, geração Prisma, lint, unitários, build, dry-run/inventário de simulados e quizzes, e integração HTTP com PostgreSQL 16.
+Criado no lote 02 e atualizado após os lotes 03 a 10, em **13/10/2026**. O workflow `.github/workflows/ci.yml` executa em PRs, pushes na `main` e por acionamento manual. Usa Node 22, `npm ci`, geração Prisma, lint, unitários, build, dry-run/inventário de simulados e quizzes, validação de propostas de missões/habilidades e integração HTTP com PostgreSQL 16.
+
+## Evidência atual — fechamento do lote 10
+
+| Projeto | Última validação funcional |
+|---|---|
+| API | 688 unitários em 39 suítes; 395 testes de integração em 21 suítes |
+| Web | 30 testes de sessão; 48 jornadas HTTP em 6 suítes; 78 testes Chromium desktop/mobile emulado |
+
+Lint/build da API, build/typecheck da web, validação Prisma e dry-runs de simulados/quizzes/missões/habilidades passaram. As PRs [API #213](https://github.com/guilhermeborba/simulados-bernardo-api/pull/213) e [web #45](https://github.com/guilhermeborba/simulados-bernardo/pull/45) foram integradas em 13/10/2026 com [CI API aprovada](https://github.com/guilhermeborba/simulados-bernardo-api/actions/runs/38438311892) e [CI web aprovada](https://github.com/guilhermeborba/simulados-bernardo/actions/runs/38439597355). Os números das seções por lote abaixo são históricos, sem substituir este fechamento.
+
+Testes não publicam conteúdo editorial, não comprovam deploy e não enviam e-mail externo. Revisão/publicação, ativação Resend, usabilidade humana, leitor de tela e aparelhos reais continuam pendentes. O lote 11 mobile ainda não foi iniciado.
 
 ## Rodar localmente
 
@@ -13,6 +24,8 @@ npm run seed:inventory
 npm run --silent seed:inventory:json > /tmp/simulados-inventory.json
 npm run seed:quizzes:dry-run
 npm run --silent seed:quizzes:inventory:json > /tmp/quizzes-inventory.json
+npm run seed:missions:dry-run
+npm run seed:skills:dry-run
 npm run test:integration
 ```
 
@@ -34,18 +47,22 @@ A URL deve ser explícita, local e ter usuário e banco `simulados_regression_te
 - Início e retomada da mesma tentativa, persistência e edição de respostas antes da conclusão, resultado e histórico; tentativa concluída rejeita novas respostas.
 - Correção real dos quatro tipos de questão, preservando a regra atual de tudo-ou-nada.
 - Gabaritos ausentes nas respostas públicas e de aluno; perfis e vínculos de responsáveis não expõem `passwordHash`.
-- Acesso somente ao próprio aluno ou ao aluno vinculado ao responsável, além das permissões administrativas previstas.
+- Acesso somente ao próprio aluno, ao aluno ativo vinculado ao responsável ou ao aluno de turma atribuída ao docente, com registros públicos/dessas turmas; ADMIN mantém as consultas previstas.
 - Rotação concorrente e rollback do refresh, revogação por logout e validação da configuração de banco de testes.
 - Quiz: versões imutáveis/snapshots, criação/início concorrentes, confirmação/feedback e conclusão idempotentes, projeções sem gabarito e isolamento dos relatórios/ranking de simulados.
 - Importação completa e repetida dos 45 quizzes em banco descartável, referências/versões, rollback e concorrência; catálogo real continua PENDING e não foi publicado.
 - Mídia do snapshot: SVG/WAV, Range, autorização/revogação, digest e fallback textual sem bloquear confirmação/conclusão.
 - Preferências da própria conta: defaults sem gravação, 15 faixas, roles, DTOs estritos e compatibilidade combinada, PATCH concorrente, status/subject do JWT, isolamento e constraints SQL.
+- Missões/XP: calendário São Paulo, posições semanais, recibos idempotentes, teto diário, acesso atual, concorrência e rollback.
+- Avatar/conquistas: concessões do servidor, propriedade/seleção, backfill com recibos válidos e ausência de bônus retroativo.
+- Habilidades/REVIEW: classificação revisada, snapshots, primeiras respostas/repetições/revisões separadas, dificuldades recentes e ausência de recompensas em revisão.
+- Acompanhamento/recuperação: vínculos atuais, proteção entre turmas, revogação de sessão, tokens de reset de uso único, transporte sintético e logs sem dados sensíveis.
 
-Validação local em 12/10/2026: 120 testes unitários (incluindo 23 de inventário e 14 da configuração de banco), 43 testes de integração (35 de fluxos HTTP + 8 de refresh), lint, build, dry-run e relatório determinístico passaram.
+Registro histórico do lote 02, em 12/10/2026: 120 testes unitários (incluindo 23 de inventário e 14 da configuração de banco), 43 testes de integração (35 de fluxos HTTP + 8 de refresh), lint, build, dry-run e relatório determinístico passaram.
 
 As fixtures são sintéticas e criadas em PostgreSQL real. Testes passam pelos controllers, guards e validação da aplicação. Não substituem a revisão pedagógica das questões nem uma avaliação manual de acessibilidade em navegador/aparelho.
 
-A web tem seu próprio workflow e regressão HTTP com Next, API e PostgreSQL. O checkout da API nessa CI é fixado em um commit da `main` para reproduzir os contratos; atualize essa referência ao integrar mudanças de contrato.
+A web tem seu próprio workflow e regressão HTTP/browser com Next, API e PostgreSQL. O checkout da API nessa CI é fixado em um commit compatível para reproduzir os contratos; atualize essa referência ao integrar mudanças de contrato. No fechamento do lote 10, a referência é `e0b19669723de7d67c778fcc08a3f300b0003fa1`, já integrada à main pela PR #213. Uma alteração exclusivamente documental não exige trocar essa referência.
 
 ## Jornada web do lote 06
 
@@ -85,4 +102,4 @@ As suítes de supervisão verificam aluno ativo, responsável vinculado, atribui
 
 A suíte de recuperação inicia Resend local em loopback com credenciais e endereços sintéticos; não envia e-mails externos. Cobre resposta uniforme, cooldown concorrente, hash/expiração/uso único, links simultâneos, refresh concorrente, rollback da transação, falha de entrega/notificação, configuração desativada, limite por IP e senhas Unicode/72 bytes. A suíte de observabilidade passa tokens/senhas canário em query/body e exige que não apareçam em logs, auditoria ou path do erro. O reset precisa invalidar access/refresh tokens anteriores, inclusive quando refresh concorre com o reset.
 
-A produção permanece sem ativação até configurar chave/remetente verificado no ambiente autorizado. Contratos no [guia de acesso e recuperação](guia-acesso-recuperacao.md); decisões no [ADR 014](decisions/014-acesso-docente-e-recuperacao.md).
+O transporte real permanece desativado por padrão até configurar chave/remetente verificado no ambiente autorizado. O limite de 20/minuto considera o IP imediato observado pela API; navegadores via BFF compartilham o orçamento. Cooldown por conta continua coordenado no banco. Configuração de proxy/perímetro confiável e entrega real permanecem pendentes. Contratos no [guia de acesso e recuperação](guia-acesso-recuperacao.md); decisões no [ADR 014](decisions/014-acesso-docente-e-recuperacao.md).
