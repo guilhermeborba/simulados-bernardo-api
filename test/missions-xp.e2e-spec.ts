@@ -54,6 +54,9 @@ describe("Weekly missions and atomic quiz XP (Nest + PostgreSQL)", () => {
       }),
     );
     await app.init();
+    // Keep a single listening server during concurrent requests; Supertest
+    // otherwise closes an ephemeral listener while another request is opening.
+    await app.listen(0, "127.0.0.1");
     prisma = app.get(PrismaService);
     jest.useFakeTimers({
       now: new Date(fixedTime),

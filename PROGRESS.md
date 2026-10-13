@@ -84,7 +84,7 @@ Disciplinas: Arte, Ciências, Ed. Física, Geografia, História, Inglês, Matem�
 
 Plano: [Evolução — quizzes, gamificação e mobile](docs/superpowers/plans/2026-10-12-evolucao-quizzes-gamificacao-mobile-plan.md).
 
-**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lotes 05/06 implementados tecnicamente.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
+**Planejamento concluído em 2026-10-12; lotes 01 a 04 concluídos e lotes 05 a 08 implementados tecnicamente.** Revisão/publicação editorial, validação humana de uso e as demais entregas continuam pendentes. Público confirmado: Educação Infantil, Fundamental I e II, Ensino Médio e Enfermagem desde o primeiro lançamento. Catálogo preparado: 45 quizzes e 213 perguntas, distribuídos por todas as faixas, ainda sem aprovação editorial.
 
 Sequência: consolidar a base → quizzes na web → missões/XP/avatar/conquistas → revisão e progresso por habilidade → prova e planejamento mobile → app/beta. Entregas, dependências, estimativas condicionais e critérios de aceite estão no plano.
 
@@ -163,3 +163,17 @@ Endpoints planejados mas não implementados: `POST /auth/forgot-password` e `POS
 ## Decisões arquiteturais registradas
 
 Ver `docs/decisions/` para o raciocínio por trás das escolhas não óbvias do projeto.
+
+---
+
+## Avatar, coleções e conquistas — lote 08
+
+Cinco conquistas são verificadas no servidor: primeira conclusão, três temas, cinco quizzes lógicos distintos, primeira missão e 100 XP. Elas liberam cinco itens além do item inicial. Ownership e escolha de apresentação/ item ficam salvos por conta; GET /me/achievements e GET/PATCH /me/avatar exigem aluno ativo. Concessões acontecem na mesma transação de finish, com unicidade e mutex por aluno. Reenvios, versões e conclusões simultâneas não duplicam itens, XP ou resultado. Respostas erradas e conclusões após teto diário contam para o progresso apropriado.
+
+A migration aditiva recupera conquistas/itens sustentados por recibos, missões concluídas e ledger existentes do lote 07, preservando tentativas, notas e saldo. Histórico anterior sem recibo não ganha conclusão ou XP retroativo. Ausência, troca de faixa, arquivamento de conteúdo, revogação de turma e remoção da tentativa de origem não retiram ownership. Agregados de coleção não revelam temas privados ou dados de outra conta.
+
+A web oferece /colecao com prévia, itens liberados/bloqueados, critérios, progresso e salvamento confirmado. AUTO usa Bolinha no Infantil, Capelo no Fundamental I e selos nas faixas mais velhas; qualquer aluno pode escolher MASCOT ou SEAL. Home e resultado dão acesso à coleção.
+
+**Validação:** 513 testes unitários/33 suites e 309 casos Nest/PostgreSQL/14 suites passaram, além de lint/build e Prisma validate. Incluem as 15 faixas, histórico populado antes da migration, falha de gravação com rollback de finish/XP/missão, temas normalizados, versões, turma, concorrência e persistência. A regressão legada de missões recebeu uma porta de escuta durável no servidor de teste para evitar ECONNRESET quando Supertest fechava um listener temporário em chamadas simultâneas. Web: 30 testes de sessão, 30 jornadas HTTP e 52 Chromium desktop/mobile passaram, com persistência em outro navegador, contas/respostas atrasadas, teclado, falhas/retry, Axe e ausência de overflow.
+
+[ADR 012](docs/decisions/012-avatar-colecoes-e-conquistas.md) e [guia da coleção](docs/guia-colecoes-conquistas.md) registram regras e contratos. Revisão dos 45 quizzes e curadoria dos 30 rascunhos de missão continuam pendentes; o responsável pelo projeto assumiu a revisão sem aprovar o conteúdo. Não houve deploy, seed, migration em base existente ou publicação editorial. Validação com pessoas, leitor de tela e aparelhos reais continua pendente. Próxima tarefa técnica: **lote 09 — habilidades e revisão**.

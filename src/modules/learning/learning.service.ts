@@ -13,6 +13,7 @@ import {
   UserRole,
   UserStatus,
 } from '@prisma/client';
+import { CollectionsService } from '../collections/collections.service';
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { QUIZ_METADATA_SELECT } from '../quizzes/quizzes.presenter';
 import {
@@ -40,7 +41,10 @@ type QuizMetadata = Prisma.SimulationGetPayload<{
 
 @Injectable()
 export class LearningService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly collections: CollectionsService,
+  ) {}
 
   async home(userId: string, requestedYear?: number) {
     return this.prisma.$transaction(
@@ -253,6 +257,12 @@ export class LearningService {
     });
     // Grade accuracy and XP eligibility do not change mission progress.
     await this.recordMissionProgress(database, attempt, finishedAt);
+    await this.collections.recordCompletion(
+      database,
+      attempt.studentId,
+      attempt.id,
+      finishedAt,
+    );
     return { xpAwarded, reason, day };
   }
 
