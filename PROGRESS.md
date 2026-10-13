@@ -48,7 +48,7 @@ As CIs de implementação passaram: [API — execução 38438311892](https://git
 | Limite de recuperação | 20 pedidos/minuto por endpoint e IP observado pela API. Navegadores que usam o mesmo BFF compartilham esse orçamento; definir a configuração de proxy/perímetro antes de ampliar o uso |
 | Uso e acessibilidade | Observar sessões nos cinco segmentos, incluindo Infantil com adulto; testar leitor de tela e aparelhos físicos. Chromium mobile emulado não encerra esse aceite |
 | Operação e métricas | Implantar migrations/API/web pelo processo autorizado, alinhar textos finais e definir eventos/linha de base; não houve deploy destas entregas |
-| Mobile | Lote 11 com protótipo Expo, ADR provisório e backlog preliminar; prioridade Android/iOS, builds instaláveis e matriz física ainda precisam de validação. Lote 12 permanece futuro |
+| Mobile | Lote 11 com protótipo Expo, ADR provisório e backlog preliminar; Android primeiro confirmado; builds instaláveis e matriz física Android ainda precisam de validação. iOS será validado antes do seu beta. Lote 12 permanece futuro |
 
 Migrations foram exercitadas **somente em PostgreSQL descartável**. Não houve importação/publicação editorial em base existente nem envio externo de e-mail. Os arquivos locais de conteúdo em produção continuam fora destas branches.
 
@@ -267,4 +267,4 @@ Sessão própria mantém access em memória e refresh em SecureStore, com marcad
 
 [ADR 015](docs/decisions/015-prova-mobile-e-contratos-compartilhados.md), [guia da prova](docs/guia-prova-mobile.md) e [plano dedicado](docs/superpowers/plans/2026-10-13-mobile-proof-and-beta-plan.md) registram arquitetura, mapa de telas, matriz física, distribuição e backlog preliminar. A estimativa do lote 12 é preliminar e precisa ser revista depois dos aparelhos, sem substituir as estimativas históricas do planejamento original.
 
-**O lote 11 permanece aberto.** Nenhum APK/IPA foi assinado/distribuído e nenhum Android/iPhone físico foi validado. O AVD Pixel_10a disponível não foi executado. A prioridade de plataformas e os aparelhos disponíveis aguardam resposta do usuário; a decisão Expo continua provisória até a matriz física. Lote 12 não iniciado. Conteúdo editorial permanece PENDING, Resend real desativado; não houve cloud build, compra/registro de loja, deploy ou alteração em banco existente.
+**O lote 11 permanece aberto.** Nenhum APK/IPA foi assinado/distribuído e nenhum Android/iPhone físico foi validado. O AVD Pixel_10a disponível não foi executado. O usuário confirmou Android primeiro; os aparelhos disponíveis ainda aguardam resposta. O aceite físico Android fecha esta etapa; a matriz iPhone será exigida antes do beta iOS; a decisão Expo continua provisória até a matriz física. Lote 12 não iniciado. Conteúdo editorial permanece PENDING, Resend real desativado; não houve cloud build, compra/registro de loja, deploy ou alteração em banco existente.

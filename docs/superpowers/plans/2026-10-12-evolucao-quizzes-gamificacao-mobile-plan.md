@@ -93,7 +93,7 @@ Protótipo Expo 57.0.28/RN 0.86.3/React 19.2.3 no repositório web, com dependê
 
 A prova automatizada tem 57 testes (34 núcleo, 20 adaptadores, 3 links), 7 de telas e 12 casos reais cliente/Nest/PostgreSQL, typecheck e compatibilidade SDK; bundles Android/iOS e projetos de prebuild foram gerados. Os fluxos de simulados permanecem na web neste protótipo, sem transferência de Bearer. Não foram criados APK/IPA assinados nem testados aparelhos físicos.
 
-A decisão Expo é **provisória** e o lote 11 permanece aberto até a matriz física nas plataformas previstas. Prioridade Android/iOS e disponibilidade dos aparelhos aguardam resposta do usuário. Backlog e estimativas preliminares do beta estão no [plano dedicado](2026-10-13-mobile-proof-and-beta-plan.md); execução/limites no [guia](../../guia-prova-mobile.md) e [ADR 015](../../decisions/015-prova-mobile-e-contratos-compartilhados.md). Não houve cloud build, publicação em loja, seed editorial ou deploy.
+A decisão Expo é **provisória** e o lote 11 permanece aberto até a matriz física nas plataformas previstas. Android primeiro foi confirmado pelo usuário; disponibilidade dos aparelhos ainda aguarda resposta. O aceite físico prioriza Android, com validação iPhone antes do beta iOS. Backlog e estimativas preliminares do beta estão no [plano dedicado](2026-10-13-mobile-proof-and-beta-plan.md); execução/limites no [guia](../../guia-prova-mobile.md) e [ADR 015](../../decisions/015-prova-mobile-e-contratos-compartilhados.md). Não houve cloud build, publicação em loja, seed editorial ou deploy.
 
 ## 3. Experiência e catálogo inicial para todos os públicos
 
@@ -221,7 +221,8 @@ Missões semanais abrem segunda-feira 00:00 e encerram na segunda seguinte no me
 
 ### Etapa 4 — Planejamento e prova técnica mobile
 
-- [ ] Definir prioridade de lançamento Android/iOS conforme aparelhos dos usuários; preparar arquitetura para ambos.
+- [x] Priorizar Android no primeiro beta, conforme resposta do usuário; preparar arquitetura para ambos.
+- [ ] Identificar aparelho Android real disponível e executar a matriz; reservar a validação iPhone antes do beta iOS.
 - [x] Produzir protótipo nativo: login, Aprender hoje, catálogo, quiz/feedback, simulados com abertura na web, progresso, perfil, histórico e acompanhamento.
 - [x] Preparar a candidata Expo/RN, validar tipos, bundles e prebuild; registrar decisão provisória no ADR 015.
 - [ ] Confirmar/rever a decisão depois da prova em aparelhos reais.

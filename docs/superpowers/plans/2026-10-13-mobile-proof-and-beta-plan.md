@@ -6,7 +6,7 @@ Data: **13/10/2026**. Estado: **lote 11 em andamento; lote 12 não iniciado**. E
 
 A prova usa Expo 57.0.28, React Native 0.86.3, React 19.2.3, TypeScript e Expo Router no diretório `mobile/` do repositório web. Consome a mesma API diretamente com Bearer; a web conserva seu BFF e cookies httpOnly.
 
-A prioridade Android/iOS e os aparelhos disponíveis **aguardam resposta do usuário**. A arquitetura prepara ambos. Até haver decisão explícita de escopo, o aceite considera Android e iPhone físicos; disponibilidade de AVD, bundle ou prebuild não encerra essa etapa. Os modelos, sistemas e builds devem ser registrados no [guia da prova](../../guia-prova-mobile.md).
+O usuário confirmou **Android primeiro** para o beta. A arquitetura e os bundles preparam ambas as plataformas. O aceite do lote 11 prioriza aparelho Android real; a matriz iPhone continua exigida antes de um beta iOS. Os aparelhos disponíveis ainda aguardam confirmação; disponibilidade de AVD, bundle ou prebuild não encerra o aceite físico. Os modelos, sistemas e builds devem ser registrados no [guia da prova](../../guia-prova-mobile.md).
 
 Há cliente de sessão, adaptadores, telas de protótipo e testes automatizados. APK/IPA assinado, instalação física, contas de loja, associação de domínio e distribuição ainda não foram comprovados. Não há fila offline de respostas, push, correção local ou migração da web.
 
@@ -55,21 +55,21 @@ As notas Decimal continuam strings; datas são ISO no JSON. Anos são -1 Infanti
 
 | Ordem | Ação | Evidência exigida |
 |---|---|---|
-| 1 | Confirmar prioridade e disponibilidade Android/iPhone | Decisão registrada e modelos/OS, sem presumir dispositivos do usuário |
+| 1 | Android primeiro confirmado; identificar aparelho e preparar build Android | Registrar modelo/OS; iPhone será validado antes do beta iOS |
 | 2 | Finalizar checks da prova | Typecheck, 57 testes de sessão/adaptadores/links, 7 de telas, 12 integrações reais, bundles por plataforma e prebuild registrados |
 | 3 | Preparar ambiente e development builds | API sintética/autorizada acessível pelo aparelho, build próprio assinado conforme plataforma; nenhum segredo em `EXPO_PUBLIC_*` |
-| 4 | Executar a matriz em Android e iPhone reais | Instalação/reabertura/reinstalação, storage, suspensão, áudio/SVG, leitor de tela, troca de conta e retomada/perda de rede |
+| 4 | Executar a matriz em Android real; programar iPhone para a fase iOS | Instalação/reabertura/reinstalação, storage, suspensão, áudio/SVG, leitor de tela, troca de conta e retomada/perda de rede |
 | 5 | Provar convite/reset no mecanismo atual de entrada manual | Origem incorreta, segredo inválido/usado/expirado e resposta atrasada de outro link; abertura automática pelo sistema fica explicitamente pendente para P6 |
 | 6 | Classificar falhas e ajustar a decisão | Limitação reproduzível, correção ou decisão de escopo; ADR atualizado com resultados reais |
 | 7 | Reestimar o lote 12 | Backlog abaixo revisado à luz dos aparelhos e distribuição escolhida |
 
-**O lote 11 só pode ser marcado concluído após fluxos críticos executados em aparelhos reais Android e iOS das plataformas previstas no lançamento, com evidências registradas.** Sem aparelhos ou build adequado, registrar avanço parcial e a pendência. O fechamento deve identificar os limites do protótipo: simulados continuam na web e a associação automática HTTPS é trabalho de P6; testar entrada manual não aprova associação de domínio. Uma mudança de plataformas precisa ser explícita; não inferir Android primeiro por causa do WSL.
+**Com Android primeiro confirmado, o lote 11 só pode ser marcado concluído após os fluxos críticos executados em Android real, com evidências registradas. A matriz iPhone é exigida antes do beta iOS.** Sem aparelhos ou build adequado, registrar avanço parcial e a pendência. O fechamento deve identificar os limites do protótipo: simulados continuam na web e a associação automática HTTPS é trabalho de P6; testar entrada manual não aprova associação de domínio. A prioridade Android foi informada pelo usuário, não inferida do WSL.
 
 No WSL é possível executar Metro e preparar Android com toolchain. iOS local exige macOS/Xcode; EAS é uma alternativa posterior, separada de executar Expo localmente. O comando `expo export` não gera APK/IPA e prebuild não instala nem comprova execução. Rede espelhada/portas/firewall e assinatura são dependências a resolver no ambiente autorizado, sem alterações automáticas. Procedimentos no [guia da prova](../../guia-prova-mobile.md).
 
 ## 5. Backlog preliminar do lote 12
 
-Estimativa de **esforço para uma pessoa full stack**, em dias úteis de dedicação integral. É planejamento preliminar, não reestimativa baseada em teste físico e não compromisso de calendário. Inclui ambas as plataformas e simulados nativos completos; não inclui esperas por aparelhos, contas, domínio, revisão editorial ou análise de loja. O pacote P0 encerra o lote 11 e fica fora da soma do lote 12.
+Estimativa de **esforço para uma pessoa full stack**, em dias úteis de dedicação integral. É planejamento preliminar, não reestimativa baseada em teste físico e não compromisso de calendário. O quadro conserva a referência preliminar para ambas as plataformas e simulados nativos completos; Android será entregue primeiro e a parcela iOS será programada depois. Não apresentar a soma abaixo como calendário do primeiro beta Android; não inclui esperas por aparelhos, contas, domínio, revisão editorial ou análise de loja. O pacote P0 encerra o lote 11 e fica fora da soma do lote 12.
 
 | Pacote | Dependências | Entrega e aceite concreto | Esforço preliminar |
 |---|---|---|---|
@@ -86,7 +86,7 @@ Estimativa de **esforço para uma pessoa full stack**, em dias úteis de dedica�
 
 **Soma preliminar do lote 12: 27–44 dias úteis, aproximadamente 6–9 semanas para uma pessoa.** Os pacotes compartilham código entre plataformas, mas cada uma precisa de build, execução e aceite próprios. O fechamento da prova pode reduzir, ampliar ou mudar essa previsão; ela ainda não foi validada em aparelhos.
 
-Sequência de dependências: P0 → P1 → P2 → P3/P4 → P5/P6 → P7 → P8 → P9. O quadro detalha dependências mínimas; havendo mais pessoas, algumas frentes podem ocorrer em paralelo. Curadoria e configuração operacional seguem com os responsáveis próprios, sem aprovação presumida.
+Sequência Android primeiro: P0 Android → P1 Android → P2 → P3/P4 → P5/P6 Android → P7 Android → P8 → P9 Android. A etapa iOS reaproveita o código e exige assinatura, links, execução e aceite próprios antes do seu beta. O quadro detalha dependências mínimas; havendo mais pessoas, algumas frentes podem ocorrer em paralelo. Curadoria e configuração operacional seguem com os responsáveis próprios, sem aprovação presumida.
 
 ## 6. Opções de distribuição a decidir
 

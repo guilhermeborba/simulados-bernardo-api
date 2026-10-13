@@ -88,7 +88,7 @@ A integração cobre as 15 faixas, Bearer sem cookies, restauração, 401 concor
 
 ## Matriz obrigatória em aparelhos
 
-Preencher **uma coluna por plataforma** com data, responsável, modelo, versão do sistema, versão/commit do app e identificador do build. Usar contas/conteúdo sintéticos no ambiente autorizado; não registrar senha, token, nome/e-mail de criança ou URL secreta em vídeo/log.
+Prioridade confirmada pelo usuário: **Android primeiro**. Preencher a coluna Android para encerrar o lote 11; a coluna iPhone deve ser concluída antes do beta iOS. Registrar **uma coluna por plataforma** com data, responsável, modelo, versão do sistema, versão/commit do app e identificador do build. Usar contas/conteúdo sintéticos no ambiente autorizado; não registrar senha, token, nome/e-mail de criança ou URL secreta em vídeo/log.
 
 | Cenário | Android — modelo/OS/build: a preencher | iPhone — modelo/iOS/build: a preencher |
 |---|---|---|
@@ -112,7 +112,7 @@ Links secretos usam domínio web autorizado, sem esquema personalizado. O parser
 
 ## Para encerrar o lote 11 e planejar o beta
 
-Encerrar somente após juntar comandos/logs dos checks, builds realmente gerados, matriz física dos fluxos implementados preenchida, limitações classificadas e atualização do ADR. Associação automática HTTPS e simulados nativos permanecem entregas específicas do lote 12; entrada manual e abertura de simulado na web não aprovam esses recursos futuros. Se uma plataforma não puder ser validada, registrar a pendência e revisar o escopo com o usuário; não transformar falta de aparelho em teste aprovado.
+Encerrar somente após juntar comandos/logs dos checks, builds realmente gerados, matriz física dos fluxos implementados preenchida, limitações classificadas e atualização do ADR. Associação automática HTTPS e simulados nativos permanecem entregas específicas do lote 12; entrada manual e abertura de simulado na web não aprovam esses recursos futuros. Android real é a prioridade de fechamento confirmada; iOS permanece preparado e depende de sua matriz antes do beta iOS. Se uma plataforma não puder ser validada, registrar a pendência e revisar o escopo com o usuário; não transformar falta de aparelho em teste aprovado.
 
 A seguir, reestimar o lote 12 em função das evidências: telas e acessibilidade finais, observabilidade sem dados sensíveis, ambientes, domínio/links, assinatura, instalação limpa/upgrade, distribuição e suporte. As 45 entradas de quiz/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos de missão continuam PENDING; aprovação editorial e publicação não decorrem da prova técnica.
 

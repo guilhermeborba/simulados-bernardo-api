@@ -14,7 +14,7 @@ Precisamos testar navegação, sessão por instalação, mídia e retomada antes
 
 Construir a prova em `mobile/` do repositório web com **Expo 57.0.28, React Native 0.86.3, React 19.2.3 e TypeScript**, usando Expo Router e módulos compatíveis fixados no lockfile. A escolha aproveita o conhecimento React e os contratos existentes; React Native recomenda um framework para novos projetos. Expo e seus serviços EAS são escolhas separadas. [Orientação oficial do React Native](https://reactnative.dev/docs/environment-setup).
 
-A decisão será revista após a matriz física do [guia da prova](../guia-prova-mobile.md). O scaffold, seus identificadores `com.simuladosbernardo.proof` e o esquema `simuladosbernardoproof` são da prova. Não representam identificadores definitivos de loja, APK/IPA distribuído, app publicado ou aprovação de beta.
+O usuário confirmou **Android primeiro** para o beta. A prova física Android é o critério prioritário de fechamento; iOS fica preparado e exige validação própria antes do beta iOS. A decisão será revista após a matriz física do [guia da prova](../guia-prova-mobile.md). O scaffold, seus identificadores `com.simuladosbernardo.proof` e o esquema `simuladosbernardoproof` são da prova. Não representam identificadores definitivos de loja, APK/IPA distribuído, app publicado ou aprovação de beta.
 
 ### Contratos e separação de plataformas
 
