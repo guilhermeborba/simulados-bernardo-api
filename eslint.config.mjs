@@ -16,6 +16,8 @@ export default [
       'prisma/seed-quizzes.ts',
       'prisma/mission-catalog*.ts',
       'prisma/seed-missions.ts',
+      'prisma/learning-skill*.ts',
+      'prisma/seed-learning-skills.ts',
     ],
     languageOptions: {
       parser: tsParser,

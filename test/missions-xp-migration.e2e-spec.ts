@@ -77,7 +77,7 @@ describe("Additive mission/XP migration over historical attempts", () => {
     await database.$executeRaw`INSERT INTO "Discipline" (id,name,slug,"updatedAt") VALUES ('historical-discipline','Synthetic historical','historical',CURRENT_TIMESTAMP)`;
     await database.$executeRaw`INSERT INTO "Simulation" (id,title,slug,"schoolYear",bimester,assessment,"activityKind","activityKey","contentVersion","disciplineId",status,"totalQuestions","maxScore","createdById","publishedAt","updatedAt") VALUES ('historical-quiz','Synthetic historical quiz','historical-quiz',3,NULL,NULL,'QUIZ','historical-key',1,'historical-discipline','PUBLISHED',1,2.5,'historical-student',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),('historical-sim','Synthetic historical simulation','historical-sim',3,1,'AV1','SIMULATION',NULL,NULL,'historical-discipline','PUBLISHED',1,2.5,'historical-student',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)`;
     await database.$executeRaw`INSERT INTO "Attempt" (id,"simulationId","studentId","activityKey","contentVersion","maxScore",status,score,percentage,"correctCount","wrongCount","finishedAt","updatedAt") VALUES ('historical-quiz-done','historical-quiz','historical-student','historical-key',1,2.5,'FINISHED',2.5,100,1,0,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),('historical-sim-done','historical-sim','historical-student',NULL,NULL,2.5,'FINISHED',2.5,100,1,0,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),('historical-quiz-open','historical-quiz','historical-student','historical-key',1,2.5,'IN_PROGRESS',NULL,NULL,0,0,NULL,CURRENT_TIMESTAMP)`;
-    before = await database.attempt.findMany({ orderBy: { id: "asc" } });
+    before = await database.$queryRaw`SELECT * FROM "Attempt" ORDER BY "id"`;
     cpSync(
       join(migrationsRoot, migrationName),
       join(directory, "migrations", migrationName),
@@ -106,7 +106,7 @@ describe("Additive mission/XP migration over historical attempts", () => {
     }
   });
   it("preserves all completed and open quiz/simulation fields exactly", async () => {
-    expect(await database.attempt.findMany({ orderBy: { id: "asc" } })).toEqual(
+    expect(await database.$queryRaw`SELECT * FROM "Attempt" ORDER BY "id"`).toEqual(
       before,
     );
   });

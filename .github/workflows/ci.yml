@@ -60,5 +60,7 @@ jobs:
         run: npm run --silent seed:quizzes:inventory:json > /tmp/quizzes-inventory.json
       - name: Validate proposed weekly mission curation without publishing
         run: npm run seed:missions:dry-run
+      - name: Validate proposed skills and question classifications without publishing
+        run: npm run seed:skills:dry-run
       - name: Exercise migrations, authorization and attempt lifecycle
         run: npm run test:integration -- --external

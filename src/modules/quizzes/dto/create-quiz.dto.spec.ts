@@ -169,4 +169,39 @@ describe('Quiz authoring DTOs', () => {
       ),
     ).rejects.toThrow(BadRequestException);
   });
+  it('accepts a versioned editorial skill reference without accepting client-owned review metadata', async () => {
+    const body = payload();
+    await expect(
+      create({
+        ...body,
+        questions: [
+          { ...body.questions[0], skill: { code: 'counting', version: 1 } },
+        ],
+      }),
+    ).resolves.toMatchObject({
+      questions: [{ skill: { code: 'counting', version: 1 } }],
+    });
+    await expect(
+      create({
+        ...body,
+        questions: [
+          {
+            ...body.questions[0],
+            skill: { code: 'counting', version: 1, reviewedBy: 'client' },
+          },
+        ],
+      }),
+    ).rejects.toThrow(BadRequestException);
+  });
+  it.each([
+    null,
+    {},
+    { code: 'counting', version: '1' },
+    { code: 'counting', version: 0 },
+  ])('rejects malformed skill reference %p', async (skill) => {
+    const body = payload();
+    await expect(
+      create({ ...body, questions: [{ ...body.questions[0], skill }] }),
+    ).rejects.toThrow(BadRequestException);
+  });
 });

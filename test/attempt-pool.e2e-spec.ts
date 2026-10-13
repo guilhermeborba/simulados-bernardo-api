@@ -12,6 +12,7 @@ import { AttemptsCorrectionService } from '../src/modules/attempts/attempts-corr
 import { AttemptsService } from '../src/modules/attempts/attempts.service';
 import { QuizAttemptsService } from '../src/modules/attempts/quiz-attempts.service';
 import { LearningService } from '../src/modules/learning/learning.service';
+import { LearningSkillsService } from '../src/modules/learning-skills/learning-skills.service';
 import { CollectionsService } from '../src/modules/collections/collections.service';
 import { TurmasService } from '../src/modules/turmas/turmas.service';
 import { assertTestDatabaseUrl } from './support/test-database.cjs';
@@ -32,6 +33,7 @@ describe('Private simulation start with a single PostgreSQL connection', () => {
       new AttemptsCorrectionService(),
       new TurmasService(client),
       new QuizAttemptsService(client, new AttemptsCorrectionService(), new LearningService(client, new CollectionsService(client))),
+      new LearningSkillsService(client),
     );
     const fixtureKey = randomUUID();
     const adminId = `pool-admin-${fixtureKey}`;

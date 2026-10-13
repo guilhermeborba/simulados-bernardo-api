@@ -7,6 +7,7 @@ import {
 import {
   ActivityKind,
   AttemptStatus,
+  AttemptPracticeMode,
   Prisma,
   SimulationStatus,
   UserRole,
@@ -17,6 +18,10 @@ import { assertQuizContentReady } from '../quizzes/quiz-content.validation';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
+import {
+  LearningSkillsService,
+  QUESTION_SKILL_INCLUDE,
+} from '../learning-skills/learning-skills.service';
 
 interface RequestUser {
   id: string;
@@ -30,6 +35,7 @@ export class AttemptsService {
     private readonly correctionService: AttemptsCorrectionService,
     private readonly turmasService: TurmasService,
     private readonly quizAttemptsService: QuizAttemptsService,
+    private readonly learningSkills: LearningSkillsService,
   ) {}
 
   async startAttempt(
@@ -93,6 +99,22 @@ export class AttemptsService {
   }
 
   async startQuizAttempt(quizIdOrSlug: string, student: RequestUser) {
+    return this.startQuizPractice(
+      quizIdOrSlug,
+      student,
+      AttemptPracticeMode.NORMAL,
+    );
+  }
+
+  async startReviewAttempt(quizId: string, student: RequestUser) {
+    return this.startQuizPractice(quizId, student, AttemptPracticeMode.REVIEW);
+  }
+
+  private async startQuizPractice(
+    quizIdOrSlug: string,
+    student: RequestUser,
+    practiceMode: AttemptPracticeMode,
+  ) {
     return this.prisma.$transaction(async (transaction) => {
       const quizId = await this.lockActivity(
         transaction,
@@ -116,6 +138,7 @@ export class AttemptsService {
             include: {
               options: { orderBy: { sortOrder: 'asc' } },
               answers: true,
+              ...QUESTION_SKILL_INCLUDE,
             },
             orderBy: { sortOrder: 'asc' },
           },
@@ -124,11 +147,19 @@ export class AttemptsService {
       if (!quiz) {
         throw new NotFoundException('Published quiz not found');
       }
+      await this.learningSkills.assertStudent(transaction, student.id);
       await this.assertQuizAccess(transaction, quiz, student);
+      if (
+        practiceMode === AttemptPracticeMode.REVIEW &&
+        quiz.status !== SimulationStatus.PUBLISHED
+      ) {
+        throw new NotFoundException('Published quiz not found');
+      }
       const openAttempt = await transaction.attempt.findFirst({
         where: {
           studentId: student.id,
           simulationId: quiz.id,
+          practiceMode,
           status: AttemptStatus.IN_PROGRESS,
         },
         include: { simulation: { include: { discipline: true } } },
@@ -147,20 +178,39 @@ export class AttemptsService {
       if (quiz.status !== SimulationStatus.PUBLISHED) {
         throw new NotFoundException('Published quiz not found');
       }
-      const maxScore = assertQuizContentReady(quiz.questions);
+      if (practiceMode === AttemptPracticeMode.NORMAL) {
+        await this.learningSkills.refreshQuestionSkills(
+          transaction,
+          quiz.questions,
+        );
+      }
+      const selected =
+        practiceMode === AttemptPracticeMode.REVIEW
+          ? await this.learningSkills.reviewQuestions(
+              transaction,
+              student.id,
+              quiz,
+            )
+          : quiz.questions.map((question) => ({
+              question,
+              practicedBefore: false,
+            }));
+      const questions = selected.map((row) => row.question);
+      const maxScore = assertQuizContentReady(questions);
       const attempt = await transaction.attempt.create({
         data: {
           studentId: student.id,
           simulationId: quiz.id,
           activityKey: quiz.activityKey,
           contentVersion: quiz.contentVersion,
+          practiceMode,
           status: AttemptStatus.IN_PROGRESS,
           maxScore,
         },
         include: { simulation: { include: { discipline: true } } },
       });
       await transaction.attemptQuestionSnapshot.createMany({
-        data: quiz.questions.map((question) => ({
+        data: selected.map(({ question, practicedBefore }, index) => ({
           attemptId: attempt.id,
           questionId: question.id,
           originKey: question.originKey!,
@@ -174,7 +224,9 @@ export class AttemptsService {
               ? Prisma.DbNull
               : (question.media as Prisma.InputJsonValue),
           points: question.points,
-          sortOrder: question.sortOrder,
+          sortOrder: index + 1,
+          ...this.learningSkills.snapshotSkill(question, quiz),
+          practicedBefore,
           options: question.options.map((option) => ({
             id: option.id,
             optionKey: option.optionKey,
@@ -195,7 +247,9 @@ export class AttemptsService {
   async findAttempt(id: string, user: RequestUser) {
     const attempt = await this.findAttemptOrThrow(id);
     this.assertCanAccessAttempt(attempt.studentId, user);
-
+    if (attempt.practiceMode === AttemptPracticeMode.REVIEW) {
+      return this.quizAttemptsService.getAttempt(id, user);
+    }
     return attempt;
   }
 

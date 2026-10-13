@@ -1,4 +1,8 @@
-import { BadRequestException, ForbiddenException, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  ForbiddenException,
+  NotFoundException,
+} from '@nestjs/common';
 import {
   ActivityKind,
   AttemptStatus,
@@ -12,6 +16,7 @@ import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
+import { LearningSkillsService } from '../learning-skills/learning-skills.service';
 
 function makeQuiz() {
   return {
@@ -38,8 +43,20 @@ function makeQuiz() {
         points: new Prisma.Decimal('1.25'),
         sortOrder: 1,
         options: [
-          { id: 'option-a', optionKey: 'A', text: '1', groupKey: null, sortOrder: 1 },
-          { id: 'option-b', optionKey: 'B', text: '2', groupKey: null, sortOrder: 2 },
+          {
+            id: 'option-a',
+            optionKey: 'A',
+            text: '1',
+            groupKey: null,
+            sortOrder: 1,
+          },
+          {
+            id: 'option-b',
+            optionKey: 'B',
+            text: '2',
+            groupKey: null,
+            sortOrder: 2,
+          },
         ],
         answers: [{ answerKey: 'correctAnswer', answerValue: 'B' }],
       },
@@ -71,7 +88,10 @@ function makeDatabase() {
       create: jest.fn().mockResolvedValue(makeAttempt()),
     },
     question: { findMany: jest.fn(), findFirst: jest.fn() },
-    attemptAnswer: { findMany: jest.fn().mockResolvedValue([]), upsert: jest.fn() },
+    attemptAnswer: {
+      findMany: jest.fn().mockResolvedValue([]),
+      upsert: jest.fn(),
+    },
     attemptQuestionSnapshot: {
       createMany: jest.fn().mockResolvedValue({ count: 1 }),
       count: jest.fn().mockResolvedValue(1),
@@ -121,6 +141,11 @@ describe('Quiz attempt foundation', () => {
       new AttemptsCorrectionService(),
       { assertCanAccessTurma: jest.fn() } as unknown as TurmasService,
       { getQuestions: jest.fn() } as unknown as QuizAttemptsService,
+      {
+        assertStudent: jest.fn().mockResolvedValue({ id: student.id }),
+        snapshotSkill: jest.fn().mockReturnValue({}),
+        refreshQuestionSkills: jest.fn().mockResolvedValue(undefined),
+      } as unknown as LearningSkillsService,
     );
   });
 
@@ -144,8 +169,20 @@ describe('Quiz attempt foundation', () => {
           explanation: 'Um objeto e mais um formam dois objetos.',
           officialAnswers: [{ answerKey: 'correctAnswer', answerValue: 'B' }],
           options: [
-            { id: 'option-a', optionKey: 'A', text: '1', groupKey: null, order: 1 },
-            { id: 'option-b', optionKey: 'B', text: '2', groupKey: null, order: 2 },
+            {
+              id: 'option-a',
+              optionKey: 'A',
+              text: '1',
+              groupKey: null,
+              order: 1,
+            },
+            {
+              id: 'option-b',
+              optionKey: 'B',
+              text: '2',
+              groupKey: null,
+              order: 2,
+            },
           ],
         }),
       ],
@@ -153,10 +190,16 @@ describe('Quiz attempt foundation', () => {
   });
 
   it('resumes an archived quiz without replacing the stored questions', async () => {
-    const quiz = { ...makeQuiz(), status: SimulationStatus.ARCHIVED, questions: [] };
+    const quiz = {
+      ...makeQuiz(),
+      status: SimulationStatus.ARCHIVED,
+      questions: [],
+    };
     database.simulation.findFirst.mockResolvedValue(quiz);
     database.attempt.findFirst.mockResolvedValue(makeAttempt(quiz));
-    await expect(service.startQuizAttempt('quiz-1', student)).resolves.toMatchObject({
+    await expect(
+      service.startQuizAttempt('quiz-1', student),
+    ).resolves.toMatchObject({
       id: 'attempt-1',
     });
     expect(database.attempt.create).not.toHaveBeenCalled();
@@ -168,18 +211,21 @@ describe('Quiz attempt foundation', () => {
       ...makeQuiz(),
       status: SimulationStatus.ARCHIVED,
     });
-    await expect(service.startQuizAttempt('quiz-1', student)).rejects.toBeInstanceOf(
-      NotFoundException,
-    );
+    await expect(
+      service.startQuizAttempt('quiz-1', student),
+    ).rejects.toBeInstanceOf(NotFoundException);
     expect(database.attempt.create).not.toHaveBeenCalled();
   });
 
   it('refuses to start when private turma membership has been revoked', async () => {
-    database.simulation.findFirst.mockResolvedValue({ ...makeQuiz(), turmaId: 'turma-1' });
+    database.simulation.findFirst.mockResolvedValue({
+      ...makeQuiz(),
+      turmaId: 'turma-1',
+    });
     database.turma.findFirst.mockResolvedValue(null);
-    await expect(service.startQuizAttempt('quiz-1', student)).rejects.toBeInstanceOf(
-      NotFoundException,
-    );
+    await expect(
+      service.startQuizAttempt('quiz-1', student),
+    ).rejects.toBeInstanceOf(NotFoundException);
     expect(database.attempt.create).not.toHaveBeenCalled();
   });
 
@@ -188,23 +234,26 @@ describe('Quiz attempt foundation', () => {
       ...makeQuiz(),
       discipline: { isActive: false, deletedAt: null },
     });
-    await expect(service.startQuizAttempt('quiz-1', student)).rejects.toBeInstanceOf(
-      NotFoundException,
-    );
+    await expect(
+      service.startQuizAttempt('quiz-1', student),
+    ).rejects.toBeInstanceOf(NotFoundException);
   });
 
   it('never falls back to live content if an open quiz attempt lacks snapshots', async () => {
     database.attempt.findFirst.mockResolvedValue(makeAttempt());
     database.attemptQuestionSnapshot.count.mockResolvedValue(0);
-    await expect(service.startQuizAttempt('quiz-1', student)).rejects.toBeInstanceOf(
-      BadRequestException,
-    );
+    await expect(
+      service.startQuizAttempt('quiz-1', student),
+    ).rejects.toBeInstanceOf(BadRequestException);
     expect(database.attemptQuestionSnapshot.createMany).not.toHaveBeenCalled();
   });
 
   it('checks ownership before fetching private quiz content', async () => {
     await expect(
-      service.getAttemptQuestions('attempt-1', { id: 'other-student', role: UserRole.STUDENT }),
+      service.getAttemptQuestions('attempt-1', {
+        id: 'other-student',
+        role: UserRole.STUDENT,
+      }),
     ).rejects.toBeInstanceOf(ForbiddenException);
     expect(database.attemptQuestionSnapshot.findMany).not.toHaveBeenCalled();
   });
@@ -212,9 +261,17 @@ describe('Quiz attempt foundation', () => {
   it('keeps quiz history separate from the simulation history', async () => {
     await service.findMyAttempts(student.id);
     await service.findMyQuizAttempts(student.id);
-    expect(database.attempt.findMany.mock.calls.map(([query]) => query.where)).toEqual([
-      { studentId: student.id, simulation: { activityKind: ActivityKind.SIMULATION } },
-      { studentId: student.id, simulation: { activityKind: ActivityKind.QUIZ } },
+    expect(
+      database.attempt.findMany.mock.calls.map(([query]) => query.where),
+    ).toEqual([
+      {
+        studentId: student.id,
+        simulation: { activityKind: ActivityKind.SIMULATION },
+      },
+      {
+        studentId: student.id,
+        simulation: { activityKind: ActivityKind.QUIZ },
+      },
     ]);
   });
 });

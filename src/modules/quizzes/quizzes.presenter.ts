@@ -41,6 +41,19 @@ export const QUIZ_ADMIN_SELECT = {
       media: true,
       points: true,
       sortOrder: true,
+      skill: {
+        select: {
+          skill: {
+            select: {
+              id: true,
+              code: true,
+              version: true,
+              title: true,
+              status: true,
+            },
+          },
+        },
+      },
       options: {
         orderBy: { sortOrder: 'asc' },
         select: { optionKey: true, text: true, sortOrder: true },
@@ -55,6 +68,7 @@ export const QUIZ_PRIVATE_INCLUDE = {
     orderBy: { sortOrder: 'asc' },
     include: {
       options: { orderBy: { sortOrder: 'asc' } },
+      skill: { include: { skill: { include: { discipline: true } } } },
       answers: { orderBy: { answerKey: 'asc' } },
     },
   },

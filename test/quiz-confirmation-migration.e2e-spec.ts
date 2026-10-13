@@ -130,7 +130,9 @@ describe('Quiz confirmation migration over populated simulation answers', () => 
       createdAt: originalCreatedAt,
     });
     expect(finishedAnswer.pointsEarned?.toNumber()).toBe(2.5);
-    const attempts = await database.attempt.findMany({ orderBy: { id: 'asc' } });
+    const attempts = await database.$queryRaw<
+      { status: AttemptStatus; correctCount: number; wrongCount: number; score: Prisma.Decimal | null; percentage: Prisma.Decimal | null }[]
+    >`SELECT * FROM "Attempt" ORDER BY "id"`;
     expect(attempts).toHaveLength(2);
     expect(attempts[0]).toMatchObject({ status: AttemptStatus.FINISHED, correctCount: 1, wrongCount: 0 });
     expect(attempts[0].score?.toNumber()).toBe(2.5);

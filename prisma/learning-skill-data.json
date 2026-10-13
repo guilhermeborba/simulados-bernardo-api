@@ -1,0 +1,1115 @@
+[
+  {
+    "code": "quiz.enfermagem-etica-e-registros",
+    "version": 1,
+    "title": "Reconhecer princípios de ética e documentação do cuidado",
+    "description": "Classificação inicial do tema Ética profissional e documentação. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "enfermagem",
+    "schoolYear": 0,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "enfermagem-etica-e-registros",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "sigilo",
+        "autonomia",
+        "nao-discriminacao",
+        "registro-objetivo",
+        "autoria-registro"
+      ],
+      "contentHash": "55402bfb9b52d4c56ba2da6624a29788ccfe22ae6dbabb3a7ba97654b127d1b4"
+    }
+  },
+  {
+    "code": "quiz.enfermagem-identificacao-e-comunicacao",
+    "version": 1,
+    "title": "Reconhecer práticas de identificação e comunicação segura",
+    "description": "Classificação inicial do tema Identificação do paciente e comunicação segura. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "enfermagem",
+    "schoolYear": 0,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "enfermagem-identificacao-e-comunicacao",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "dois-identificadores",
+        "leito-identificador",
+        "paciente-conhecido",
+        "continuidade-informacao",
+        "dados-legiveis"
+      ],
+      "contentHash": "0d4638bba71a83f67700acdbba848c8f49143211c37bba14d97c097d0259e711"
+    }
+  },
+  {
+    "code": "quiz.enfermagem-sus-e-equidade",
+    "version": 1,
+    "title": "Relacionar princípios e organização do SUS",
+    "description": "Classificação inicial do tema Princípios e organização do SUS. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "enfermagem",
+    "schoolYear": 0,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "enfermagem-sus-e-equidade",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "universalidade",
+        "equidade",
+        "integralidade",
+        "descentralizacao",
+        "regionalizacao"
+      ],
+      "contentHash": "ac82711e20be2bbd2b9fc28b2822811c2155e973bc0d8827af82947d6f78eafe"
+    }
+  },
+  {
+    "code": "quiz.fundamental-1-numeros-brinquedos",
+    "version": 1,
+    "title": "Resolver situações de contagem e operações até dez",
+    "description": "Classificação inicial do tema Contagem e operações até dez. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 1,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-1-numeros-brinquedos",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "contar-colecao",
+        "tirar-bolas",
+        "antes-oito",
+        "maior-numero",
+        "dobrar-colecao"
+      ],
+      "contentHash": "4441fbaf6bdbc99faccef2dd0d4a98c282466171b41b87c5ae70d54c001187f6"
+    }
+  },
+  {
+    "code": "quiz.fundamental-1-palavras-do-dia",
+    "version": 1,
+    "title": "Reconhecer letras, sílabas e palavras familiares",
+    "description": "Classificação inicial do tema Letras, sílabas e palavras familiares. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "portugues",
+    "schoolYear": 1,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-1-palavras-do-dia",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "letra-inicial",
+        "silabas-casa",
+        "vogal-inicial",
+        "palavra-completa",
+        "rima-pao"
+      ],
+      "contentHash": "2be9bb06958d96eb56948211a5816c9c95eb43502916f7c7702f3cb4f9d94c73"
+    }
+  },
+  {
+    "code": "quiz.fundamental-1-seres-e-objetos",
+    "version": 1,
+    "title": "Reconhecer seres vivos e materiais do cotidiano",
+    "description": "Classificação inicial do tema Seres vivos e materiais do cotidiano. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ciencias",
+    "schoolYear": 1,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-1-seres-e-objetos",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "ser-vivo",
+        "planta-necessita",
+        "animal-penas",
+        "objeto-madeira",
+        "cuidar-ambiente"
+      ],
+      "contentHash": "94aa0269522c1a173f0d9e4ff3ed9265f5264a488a5c6da654b891e273e4a1d8"
+    }
+  },
+  {
+    "code": "quiz.fundamental-2-dezenas-e-trocas",
+    "version": 1,
+    "title": "Relacionar dezenas, unidades e operações simples",
+    "description": "Classificação inicial do tema Dezenas, unidades e operações simples. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 2,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-2-dezenas-e-trocas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "dezenas-vinte-tres",
+        "somar-estoque",
+        "troco-simples",
+        "repartir-seis",
+        "sequencia-pares"
+      ],
+      "contentHash": "01b56327fff43aca873dce01ab2c736c2d69f7d7469ebc8359cc518544b96701"
+    }
+  },
+  {
+    "code": "quiz.fundamental-2-frases-e-pistas",
+    "version": 1,
+    "title": "Compreender frases e convenções da escrita",
+    "description": "Classificação inicial do tema Compreensão de frases e pontuação. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "portugues",
+    "schoolYear": 2,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-2-frases-e-pistas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "quem-agiu",
+        "pergunta-pontuacao",
+        "plural-gato",
+        "acao-verbo",
+        "antonomo-claro"
+      ],
+      "contentHash": "84e058193ab6ec32568ca4f48ecc98d69e4c90f2a1b185865152d69a2eea46b9"
+    }
+  },
+  {
+    "code": "quiz.fundamental-2-lugares-e-caminhos",
+    "version": 1,
+    "title": "Usar referências espaciais e reconhecer espaços coletivos",
+    "description": "Classificação inicial do tema Referências espaciais e cuidados com espaços. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "geografia",
+    "schoolYear": 2,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-2-lugares-e-caminhos",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "funcao-mapa",
+        "endereco",
+        "praca-publica",
+        "referencia-caminho",
+        "cuidar-praca"
+      ],
+      "contentHash": "4e1c7c9619ebb5e817a6fd1c6a79bd5910551d5c6bcc9c8b9e19e892cc5a886f"
+    }
+  },
+  {
+    "code": "quiz.fundamental-3-agua-em-viagem",
+    "version": 1,
+    "title": "Relacionar estados físicos e transformações da água",
+    "description": "Classificação inicial do tema Estados físicos e ciclo da água. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ciencias",
+    "schoolYear": 3,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-3-agua-em-viagem",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "gelo-estado",
+        "derreter",
+        "evaporacao",
+        "nuvens",
+        "economizar-agua"
+      ],
+      "contentHash": "753b8fae4f270cef4f2c22c14c11e921fec1242bcaf9eafadf224274701ab5d2"
+    }
+  },
+  {
+    "code": "quiz.fundamental-3-grupos-e-partilhas",
+    "version": 1,
+    "title": "Resolver situações de agrupamento e partilha",
+    "description": "Classificação inicial do tema Multiplicação e divisão em situações concretas. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 3,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-3-grupos-e-partilhas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "grupos-tres",
+        "repartir-vinte",
+        "multiplicar-cinco",
+        "metade-dezoito",
+        "problema-duas-etapas"
+      ],
+      "contentHash": "51165e46a39f2c5a349582838fcd07c824a303f359cea0f14e903f187fb0cdcf"
+    }
+  },
+  {
+    "code": "quiz.fundamental-3-ler-bilhetes",
+    "version": 1,
+    "title": "Localizar informações e fazer inferências em textos curtos",
+    "description": "Classificação inicial do tema Bilhetes, informações explícitas e inferência. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "portugues",
+    "schoolYear": 3,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-3-ler-bilhetes",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "destinatario",
+        "local-livro",
+        "finalidade-convite",
+        "inferir-chuva",
+        "sinonimo-alegre"
+      ],
+      "contentHash": "c586cb921a72945447b04c0e6c24e286a7ecf64d46b4f44f633443843ba06768"
+    }
+  },
+  {
+    "code": "quiz.fundamental-4-contar-historias",
+    "version": 1,
+    "title": "Identificar elementos da narrativa e falas de personagens",
+    "description": "Classificação inicial do tema Elementos da narrativa e discurso direto. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "portugues",
+    "schoolYear": 4,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-4-contar-historias",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "narrador",
+        "personagem",
+        "tempo-narrativa",
+        "fala-personagem",
+        "conflito"
+      ],
+      "contentHash": "32d5b692421b535b0763fd7b1353778aa633f61bb777aa282d8eae6acbc996a9"
+    }
+  },
+  {
+    "code": "quiz.fundamental-4-fontes-e-memorias",
+    "version": 1,
+    "title": "Interpretar fontes históricas e registros de memória",
+    "description": "Classificação inicial do tema Fontes históricas e memória. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "historia",
+    "schoolYear": 4,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-4-fontes-e-memorias",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "fonte-fotografia",
+        "fonte-oral",
+        "comparar-fontes",
+        "objeto-fonte",
+        "museu"
+      ],
+      "contentHash": "19f4a755576df1a25062d5bd84fe7cef2142f9e3460826f77f3ddc7b07cda21d"
+    }
+  },
+  {
+    "code": "quiz.fundamental-4-partes-do-inteiro",
+    "version": 1,
+    "title": "Representar e comparar frações simples",
+    "description": "Classificação inicial do tema Frações simples e equivalência. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 4,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-4-partes-do-inteiro",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "metade-pizza",
+        "denominador",
+        "numerador",
+        "equivalencia",
+        "comparar-fractions"
+      ],
+      "contentHash": "8607676838e81b388454720741b19f6ddcecc6c66ee9f15d3c86898b8158a031"
+    }
+  },
+  {
+    "code": "quiz.fundamental-5-brasil-no-mapa",
+    "version": 1,
+    "title": "Interpretar representações do território brasileiro",
+    "description": "Classificação inicial do tema Representações e diversidade do território brasileiro. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "geografia",
+    "schoolYear": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-5-brasil-no-mapa",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "continente",
+        "capital",
+        "legenda-mapa",
+        "paisagem-transformada",
+        "campo-cidade"
+      ],
+      "contentHash": "8057b7b7a21911d6b084ba07e3cd2e5284f3471da97bb6577b65fee2503eddfc"
+    }
+  },
+  {
+    "code": "quiz.fundamental-5-decimais-no-dia",
+    "version": 1,
+    "title": "Resolver situações com decimais, medidas e dinheiro",
+    "description": "Classificação inicial do tema Números decimais, medidas e dinheiro. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-5-decimais-no-dia",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "somar-precos",
+        "comparar-decimais",
+        "metro-centimetro",
+        "troco-decimal",
+        "fracao-decimal"
+      ],
+      "contentHash": "15cd3aff9c75fee75839aa0cdf55268abb3b9871f9f81b6b03504d221364577b"
+    }
+  },
+  {
+    "code": "quiz.fundamental-5-teia-da-vida",
+    "version": 1,
+    "title": "Relacionar seres vivos em cadeias alimentares",
+    "description": "Classificação inicial do tema Cadeias alimentares e ambiente. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ciencias",
+    "schoolYear": 5,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-5-teia-da-vida",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "produtor",
+        "consumidor",
+        "decompositor",
+        "sol-energia",
+        "biodiversidade"
+      ],
+      "contentHash": "b8b93c7671a094882183172ce5e6fbfa8977ff430a2c3794fe15b7349336e69e"
+    }
+  },
+  {
+    "code": "quiz.fundamental-6-celulas-e-vida",
+    "version": 1,
+    "title": "Reconhecer células e a organização dos seres vivos",
+    "description": "Classificação inicial do tema Células e organização dos seres vivos. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ciencias",
+    "schoolYear": 6,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-6-celulas-e-vida",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "celula-unidade",
+        "membrana",
+        "nucleo",
+        "unicelular",
+        "microscopio"
+      ],
+      "contentHash": "2fd0077b345ca3c1b62c0380050e53dd5e1c30845c629069f77d838d963f7de9"
+    }
+  },
+  {
+    "code": "quiz.fundamental-6-numeros-e-partes",
+    "version": 1,
+    "title": "Comparar inteiros e operar com frações",
+    "description": "Classificação inicial do tema Inteiros e operações com frações. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 6,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-6-numeros-e-partes",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "negativo-temperatura",
+        "ordem-inteiros",
+        "somar-fracoes",
+        "equivalente-sexto",
+        "fracao-quantidade"
+      ],
+      "contentHash": "9993dc5f2a0c278e8b1d212db0bc8c1e81b9f262241f966e5f72896004c3cbff"
+    }
+  },
+  {
+    "code": "quiz.fundamental-6-textos-e-intencoes",
+    "version": 1,
+    "title": "Relacionar gêneros textuais e finalidades comunicativas",
+    "description": "Classificação inicial do tema Gêneros textuais e finalidade comunicativa. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "portugues",
+    "schoolYear": 6,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-6-textos-e-intencoes",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "receita-genero",
+        "noticia-finalidade",
+        "publicidade",
+        "fato-opiniao",
+        "instrucao-verbo"
+      ],
+      "contentHash": "c690e4f7152ba9f30080afa589dae7fa538c25d654ca842cde2de6a635b01641"
+    }
+  },
+  {
+    "code": "quiz.fundamental-7-cidades-em-rede",
+    "version": 1,
+    "title": "Relacionar urbanização, mobilidade e infraestrutura",
+    "description": "Classificação inicial do tema Urbanização, mobilidade e redes. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "geografia",
+    "schoolYear": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-7-cidades-em-rede",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "urbanizacao",
+        "mobilidade",
+        "rede-cidades",
+        "saneamento",
+        "impermeabilizacao"
+      ],
+      "contentHash": "b14f2f3fab651f6ad8e7228bb69531d058c9a11d3e24b3fa0c432f9b77053615"
+    }
+  },
+  {
+    "code": "quiz.fundamental-7-english-daily-life",
+    "version": 1,
+    "title": "Interpretar vocabulário e frases de rotinas em inglês",
+    "description": "Classificação inicial do tema Vocabulário e presente simples. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ingles",
+    "schoolYear": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-7-english-daily-life",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "morning-greeting",
+        "school-vocabulary",
+        "simple-present",
+        "routine-time",
+        "reading-frequency"
+      ],
+      "contentHash": "8bf9fb33d747bb162f990af7ad275cddc2e6e3d540c1783c970d16fa9fc88f05"
+    }
+  },
+  {
+    "code": "quiz.fundamental-7-razoes-do-cotidiano",
+    "version": 1,
+    "title": "Resolver situações de proporcionalidade e porcentagem",
+    "description": "Classificação inicial do tema Proporcionalidade e porcentagem. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 7,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-7-razoes-do-cotidiano",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "receita-dobro",
+        "porcentagem-cinquenta",
+        "escala",
+        "preco-unitario",
+        "desconto"
+      ],
+      "contentHash": "b095cd7afde51d5b53f55401dcab407a49ec4ee9184500d5644274b01fe567ad"
+    }
+  },
+  {
+    "code": "quiz.fundamental-8-abolicao-e-cidadania",
+    "version": 1,
+    "title": "Relacionar escravização, abolição e direitos",
+    "description": "Classificação inicial do tema Escravização, abolição e direitos. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "historia",
+    "schoolYear": 8,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-8-abolicao-e-cidadania",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "resistencia",
+        "lei-aurea",
+        "apos-abolicao",
+        "abolicionismo",
+        "documento-analise"
+      ],
+      "contentHash": "5b254d544b49e7f22d0ea505365e9fce4f8506f1a9d345be157f0c0654ba5808"
+    }
+  },
+  {
+    "code": "quiz.fundamental-8-energia-se-transforma",
+    "version": 1,
+    "title": "Identificar formas e transformações de energia",
+    "description": "Classificação inicial do tema Formas e transformações de energia. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ciencias",
+    "schoolYear": 8,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-8-energia-se-transforma",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "painel-solar",
+        "ventilador",
+        "chuveiro",
+        "conservacao",
+        "renovavel"
+      ],
+      "contentHash": "da427cdefe4b1ca7e5611b4430b24fe82de7e783299430dd3489165cf82b5ce4"
+    }
+  },
+  {
+    "code": "quiz.fundamental-8-equacoes-em-jogo",
+    "version": 1,
+    "title": "Resolver e verificar equações do primeiro grau",
+    "description": "Classificação inicial do tema Equações do primeiro grau e expressões. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 8,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-8-equacoes-em-jogo",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "equacao-adicao",
+        "equacao-multiplicacao",
+        "equacao-duas-etapas",
+        "distributiva",
+        "verificar-solucao"
+      ],
+      "contentHash": "4afb479880fc89b1dd503a567a029434824ab7830af06f95030b1d4173ac2dbb"
+    }
+  },
+  {
+    "code": "quiz.fundamental-9-argumentos-e-evidencias",
+    "version": 1,
+    "title": "Relacionar argumentos, evidências e contra-argumentos",
+    "description": "Classificação inicial do tema Argumentação e leitura crítica. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "portugues",
+    "schoolYear": 9,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-9-argumentos-e-evidencias",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "tese",
+        "evidencia",
+        "conector-oposicao",
+        "generalizacao",
+        "contrargumento"
+      ],
+      "contentHash": "1c8ba83953e32e552ba59aa0cc1aa2041a4a6bb748f415122ffc27805f4029be"
+    }
+  },
+  {
+    "code": "quiz.fundamental-9-dados-e-relacoes",
+    "version": 1,
+    "title": "Interpretar relações funcionais e dados estatísticos",
+    "description": "Classificação inicial do tema Função afim e estatística básica. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 9,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-9-dados-e-relacoes",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "funcao-valor",
+        "funcao-taxa",
+        "media-notas",
+        "mediana",
+        "probabilidade-dado"
+      ],
+      "contentHash": "b4a0e955d87898ec91adb28398fb51ff8ec9c964e4cfd24d60067fdaca2a70b8"
+    }
+  },
+  {
+    "code": "quiz.fundamental-9-english-reading-online",
+    "version": 1,
+    "title": "Interpretar mensagens e conectores em inglês",
+    "description": "Classificação inicial do tema Compreensão de mensagens e conectores. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "ingles",
+    "schoolYear": 9,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "fundamental-9-english-reading-online",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "reading-warning",
+        "because-causa",
+        "however",
+        "past-simple",
+        "reading-main-idea"
+      ],
+      "contentHash": "02e2a30b8202c8b21b6abc585c8a3a37c183d60e9c8f2ad801815c9df3c64245"
+    }
+  },
+  {
+    "code": "quiz.infantil-4-contar-brincando",
+    "version": 1,
+    "title": "Contar coleções de um a três objetos",
+    "description": "Classificação inicial do tema Contagem de um a três. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "infantil-espacos-tempos-quantidades",
+    "schoolYear": -1,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "infantil-4-contar-brincando",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "contar-um",
+        "contar-dois",
+        "contar-tres"
+      ],
+      "contentHash": "7a436d14d8e232b0791d05739fe03ad8df949284ac6f24a18929f0a36c07d8de"
+    }
+  },
+  {
+    "code": "quiz.infantil-4-conviver-e-sentir",
+    "version": 1,
+    "title": "Reconhecer atitudes de convivência e ajuda",
+    "description": "Classificação inicial do tema Convivência, ajuda e turnos. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "infantil-eu-outro-nos",
+    "schoolYear": -1,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "infantil-4-conviver-e-sentir",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "compartilhar",
+        "pedir-ajuda",
+        "esperar-a-vez"
+      ],
+      "contentHash": "f5b05d9161dff7385a12c8021c45f0024d16b562060c356bd504ed25c36c644e"
+    }
+  },
+  {
+    "code": "quiz.infantil-4-cores-e-formas",
+    "version": 1,
+    "title": "Reconhecer cores e formas em objetos",
+    "description": "Classificação inicial do tema Cores e formas do cotidiano. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "infantil-tracos-sons-cores-formas",
+    "schoolYear": -1,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "infantil-4-cores-e-formas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "cor-vermelha",
+        "forma-circulo",
+        "forma-quadrado"
+      ],
+      "contentHash": "2c8de16f83b790fc15abbb73626b3deefb1e964fef12297289e765bf18872472"
+    }
+  },
+  {
+    "code": "quiz.infantil-5-comparar-e-ordenar",
+    "version": 1,
+    "title": "Comparar quantidades, tamanhos e sequências",
+    "description": "Classificação inicial do tema Comparação e sequência temporal. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "infantil-espacos-tempos-quantidades",
+    "schoolYear": -2,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "infantil-5-comparar-e-ordenar",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "mais-frutas",
+        "antes-depois",
+        "pequeno-grande"
+      ],
+      "contentHash": "e84fc928740671d293815859602f45e7cdcc615ac6eb72d8942213ceb58fe4ad"
+    }
+  },
+  {
+    "code": "quiz.infantil-5-corpo-em-movimento",
+    "version": 1,
+    "title": "Identificar movimentos e possibilidades do corpo",
+    "description": "Classificação inicial do tema Movimentos e consciência corporal. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "infantil-corpo-gestos-movimentos",
+    "schoolYear": -2,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "infantil-5-corpo-em-movimento",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "pular",
+        "equilibrio",
+        "alongar"
+      ],
+      "contentHash": "07fea1d21331ced5cfe5f7c2c7eb6d067952ed84a5ce89bb9f34256bc8ae859d"
+    }
+  },
+  {
+    "code": "quiz.infantil-5-rimas-e-historias",
+    "version": 1,
+    "title": "Reconhecer rimas e elementos de histórias",
+    "description": "Classificação inicial do tema Rimas e compreensão de histórias. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "infantil-escuta-fala-pensamento-imaginacao",
+    "schoolYear": -2,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "infantil-5-rimas-e-historias",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "rima-gato",
+        "personagem-historia",
+        "ordem-historia"
+      ],
+      "contentHash": "c765e68b369cb5f1ba193298ffc515caa5b197fd1327d9ac852342123c4838d5"
+    }
+  },
+  {
+    "code": "quiz.medio-1-celulas-por-dentro",
+    "version": 1,
+    "title": "Relacionar estruturas celulares e suas funções",
+    "description": "Classificação inicial do tema Organelas e organização celular. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "biologia",
+    "schoolYear": 10,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-1-celulas-por-dentro",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "mitocondria",
+        "ribossomo",
+        "cloroplasto",
+        "procarionte",
+        "membrana-seletiva"
+      ],
+      "contentHash": "7b0e25922580a88b339c082e00d3143493e6411bcec3c0502e57df83bd2ab68f"
+    }
+  },
+  {
+    "code": "quiz.medio-1-materia-e-misturas",
+    "version": 1,
+    "title": "Distinguir substâncias, misturas e métodos de separação",
+    "description": "Classificação inicial do tema Substâncias, misturas e métodos de separação. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "quimica",
+    "schoolYear": 10,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-1-materia-e-misturas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "mistura-homogenea",
+        "filtracao",
+        "agua-oleo",
+        "mudanca-fisica",
+        "evaporacao-sal"
+      ],
+      "contentHash": "51c63f4e52fdb2816d4502c23af6ff0a61d30c2f1c219af0ab81f3e382b04bc4"
+    }
+  },
+  {
+    "code": "quiz.medio-1-movimento-e-medidas",
+    "version": 1,
+    "title": "Interpretar medidas e relações do movimento",
+    "description": "Classificação inicial do tema Velocidade média e movimento uniforme. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "fisica",
+    "schoolYear": 10,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-1-movimento-e-medidas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "velocidade-media",
+        "converter-velocidade",
+        "distancia-uniforme",
+        "aceleracao",
+        "referencial"
+      ],
+      "contentHash": "fdc1dbf83b35664201608546d484c7523ac4de6c8d8ab7cc3a8d583d0a30520e"
+    }
+  },
+  {
+    "code": "quiz.medio-2-chances-e-escolhas",
+    "version": 1,
+    "title": "Resolver situações de contagem e probabilidade",
+    "description": "Classificação inicial do tema Contagem e probabilidade. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 11,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-2-chances-e-escolhas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "principio-multiplicativo",
+        "urna-simples",
+        "moedas-duas",
+        "combinacao-par",
+        "complementar"
+      ],
+      "contentHash": "5719711b349625571411585e281690e60d6ad3a901107e3b8ef10af6dda8b148"
+    }
+  },
+  {
+    "code": "quiz.medio-2-genetica-em-modelos",
+    "version": 1,
+    "title": "Interpretar modelos básicos de herança mendeliana",
+    "description": "Classificação inicial do tema Conceitos de genética mendeliana. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "biologia",
+    "schoolYear": 11,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-2-genetica-em-modelos",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "alelo",
+        "heterozigoto",
+        "cruzamento-aa",
+        "dominancia-modelo",
+        "genotipo-fenotipo"
+      ],
+      "contentHash": "064b9a7ace2abfba9fcdb63cf5fe9213800fdc4e052a511f12f6f52f7b2409e6"
+    }
+  },
+  {
+    "code": "quiz.medio-2-trabalho-e-energia",
+    "version": 1,
+    "title": "Relacionar trabalho, energia e potência",
+    "description": "Classificação inicial do tema Trabalho, energia e potência. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "fisica",
+    "schoolYear": 11,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-2-trabalho-e-energia",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "trabalho-forca",
+        "energia-cinetica",
+        "potencial-gravitacional",
+        "potencia",
+        "energia-mecanica"
+      ],
+      "contentHash": "e119e71dbbfb1e365b0e81e9232985ee74b204df2752bdd2d87a4634ed681a58"
+    }
+  },
+  {
+    "code": "quiz.medio-3-dados-sem-armadilhas",
+    "version": 1,
+    "title": "Analisar medidas estatísticas e limites de conclusões",
+    "description": "Classificação inicial do tema Estatística e leitura crítica de dados. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "matematica",
+    "schoolYear": 12,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-3-dados-sem-armadilhas",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "media-outlier",
+        "mediana-par",
+        "amostra-vies",
+        "percentual-pontos",
+        "correlacao-causa"
+      ],
+      "contentHash": "84833d3f73b72f5e8800bb03bb67c676293b0d4f8af4eac848942dc5835170c7"
+    }
+  },
+  {
+    "code": "quiz.medio-3-etica-e-argumentacao",
+    "version": 1,
+    "title": "Examinar justificações e consistência de argumentos",
+    "description": "Classificação inicial do tema Ética, justificação e pensamento crítico. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "filosofia",
+    "schoolYear": 12,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-3-etica-e-argumentacao",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "reflexao-etica",
+        "argumento",
+        "critica-respeitosa",
+        "dilema-etico",
+        "consistencia"
+      ],
+      "contentHash": "5cca30401c818f0632c25b29099a449aeb5249e9997dad27c1d7582374b628e2"
+    }
+  },
+  {
+    "code": "quiz.medio-3-sociedade-e-cidadania",
+    "version": 1,
+    "title": "Relacionar socialização, desigualdade e participação",
+    "description": "Classificação inicial do tema Socialização, desigualdade e participação. O recorte pedagógico e as referências de cada pergunta precisam de revisão editorial.",
+    "disciplineSlug": "sociologia",
+    "schoolYear": 12,
+    "review": {
+      "status": "PENDING",
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    "quiz": {
+      "activityKey": "medio-3-sociedade-e-cidadania",
+      "contentVersion": 1,
+      "questionOriginKeys": [
+        "socializacao",
+        "cidadania",
+        "desigualdade",
+        "estereotipo",
+        "trabalho-sociedade"
+      ],
+      "contentHash": "7822b3820c4af706975156d4e01b55ee8dcfb290fdff7602185b06003216314f"
+    }
+  }
+]

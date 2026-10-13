@@ -96,7 +96,7 @@ describe("Collection migration preserves receipted quiz history", () => {
     await database.$executeRaw`INSERT INTO "MissionActivity" (id,"missionId","activityKey","sortOrder") VALUES ('history-step','history-mission','historical-key-0',1)`;
     await database.$executeRaw`INSERT INTO "MissionProgress" (id,"userId","missionId","completedAt","updatedAt") VALUES ('history-progress','history-owner','history-mission','2026-10-12T12:00:00Z',CURRENT_TIMESTAMP)`;
     await database.$executeRaw`INSERT INTO "MissionActivityCompletion" (id,"progressId","missionActivityId","attemptId","completedAt") VALUES ('history-step-done','history-progress','history-step','historical-quiz-0-day-0','2026-10-12T12:00:00Z')`;
-    before = await database.attempt.findMany({ orderBy: { id: "asc" } });
+    before = await database.$queryRaw`SELECT * FROM "Attempt" ORDER BY "id"`;
     cpSync(
       join(migrationsRoot, migrationName),
       join(directory, "migrations", migrationName),
@@ -125,7 +125,7 @@ describe("Collection migration preserves receipted quiz history", () => {
     }
   });
   it("preserves all completed and open quiz/simulation fields exactly", async () => {
-    expect(await database.attempt.findMany({ orderBy: { id: "asc" } })).toEqual(
+    expect(await database.$queryRaw`SELECT * FROM "Attempt" ORDER BY "id"`).toEqual(
       before,
     );
   });
@@ -167,7 +167,7 @@ describe("Collection migration preserves receipted quiz history", () => {
   });
   it("is safe to deploy again without duplicating cosmetics or changing history", async () => {
     expect(deploy().status).toBe(0);
-    expect(await database.attempt.findMany({ orderBy: { id: "asc" } })).toEqual(
+    expect(await database.$queryRaw`SELECT * FROM "Attempt" ORDER BY "id"`).toEqual(
       before,
     );
     const counts = await database.$queryRaw<

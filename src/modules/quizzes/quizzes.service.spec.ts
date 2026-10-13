@@ -5,6 +5,7 @@ import {
 } from '@nestjs/common';
 import {
   ActivityKind,
+  LearningSkillStatus,
   Prisma,
   QuestionType,
   SimulationStatus,
@@ -59,6 +60,7 @@ function setup(quiz = fixture()) {
       aggregate: jest.fn().mockResolvedValue({ _max: { contentVersion: 4 } }),
       create: jest.fn().mockResolvedValue({ id: 'quiz-5', contentVersion: 5 }),
     },
+    learningSkill: { findUniqueOrThrow: jest.fn(), findMany: jest.fn() },
     discipline: {
       findFirst: jest.fn().mockResolvedValue({ id: 'discipline-1' }),
     },
@@ -262,5 +264,80 @@ describe('QuizzesService', () => {
       NotFoundException,
     );
     expect(transaction.simulation.findUniqueOrThrow).not.toHaveBeenCalled();
+  });
+  it('blocks publication of questions linked to a pending skill review', async () => {
+    const quiz = fixture();
+    quiz.status = SimulationStatus.DRAFT;
+    quiz.publishedAt = null;
+    Object.assign(quiz.questions[0], { skill: { skill: { id: 'skill-1' } } });
+    const { service, transaction } = setup(quiz);
+    transaction.learningSkill.findMany.mockResolvedValue([
+      {
+        id: 'skill-1',
+        disciplineId: quiz.disciplineId,
+        schoolYear: quiz.schoolYear,
+        status: LearningSkillStatus.DRAFT,
+        deletedAt: null,
+        reviewedBy: null,
+        reviewedAt: null,
+        publishedAt: null,
+      },
+    ]);
+    await expect(service.publish(quiz.id)).rejects.toThrow(BadRequestException);
+    expect(transaction.simulation.update).not.toHaveBeenCalled();
+  });
+  it('preserves approved skill links when cloning a published quiz version', async () => {
+    const quiz = fixture();
+    Object.assign(quiz.questions[0], { skill: { skill: { id: 'skill-1' } } });
+    const { service, transaction } = setup(quiz);
+    transaction.learningSkill.findMany.mockResolvedValue([
+      {
+        id: 'skill-1',
+        disciplineId: quiz.disciplineId,
+        schoolYear: quiz.schoolYear,
+        status: LearningSkillStatus.PUBLISHED,
+        deletedAt: null,
+        reviewedBy: 'admin',
+        reviewedAt: new Date(),
+        publishedAt: new Date(),
+      },
+    ]);
+    await service.createVersion(quiz.id, 'admin');
+    expect(transaction.simulation.create).toHaveBeenCalledWith(
+      expect.objectContaining({
+        data: expect.objectContaining({
+          questions: {
+            create: [
+              expect.objectContaining({
+                skill: { create: { skillId: 'skill-1' } },
+              }),
+            ],
+          },
+        }),
+      }),
+    );
+  });
+  it('rejects a draft year change that contradicts its immutable skill audience', async () => {
+    const quiz = fixture();
+    quiz.status = SimulationStatus.DRAFT;
+    quiz.publishedAt = null;
+    Object.assign(quiz.questions[0], { skill: { skill: { id: 'skill-1' } } });
+    const { service, transaction } = setup(quiz);
+    transaction.learningSkill.findMany.mockResolvedValue([
+      {
+        id: 'skill-1',
+        disciplineId: quiz.disciplineId,
+        schoolYear: quiz.schoolYear,
+        status: LearningSkillStatus.DRAFT,
+        deletedAt: null,
+        reviewedBy: null,
+        reviewedAt: null,
+        publishedAt: null,
+      },
+    ]);
+    await expect(service.update(quiz.id, { schoolYear: 1 })).rejects.toThrow(
+      BadRequestException,
+    );
+    expect(transaction.simulation.update).not.toHaveBeenCalled();
   });
 });

@@ -7,6 +7,7 @@ import {
 import {
   ActivityKind,
   AttemptStatus,
+  AttemptPracticeMode,
   AvatarStyle,
   Prisma,
   UserRole,
@@ -186,6 +187,7 @@ export class CollectionsService {
         where: {
           attempt: {
             studentId: userId,
+            practiceMode: AttemptPracticeMode.NORMAL,
             activityKey: { not: null },
             simulation: { activityKind: ActivityKind.QUIZ },
             OR: [

@@ -1,11 +1,4 @@
-import {
-  Body,
-  Controller,
-  Get,
-  Param,
-  Post,
-  UseGuards,
-} from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, UseGuards } from '@nestjs/common';
 import { UserRole } from '@prisma/client';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { Roles } from '../../common/decorators/roles.decorator';
@@ -17,6 +10,7 @@ import { RolesGuard } from '../../common/guards/roles.guard';
 import { AttemptsService } from './attempts.service';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import { SubmitAttemptAnswerDto } from './dto/submit-attempt-answer.dto';
+import { StartReviewDto } from '../learning-skills/dto/learning-skill.dto';
 
 @Controller()
 @UseGuards(JwtAuthGuard, RolesGuard)
@@ -39,6 +33,15 @@ export class AttemptsController {
     @CurrentUser() user: AuthenticatedUser,
   ) {
     return this.attemptsService.startQuizAttempt(quizId, user);
+  }
+
+  @Post('me/review-attempts')
+  @Roles(UserRole.STUDENT)
+  startReview(
+    @Body() dto: StartReviewDto,
+    @CurrentUser() user: AuthenticatedUser,
+  ) {
+    return this.attemptsService.startReviewAttempt(dto.quizId, user);
   }
 
   @Get('attempts/:id')
@@ -103,5 +106,4 @@ export class AttemptsController {
   findMyQuizAttempts(@CurrentUser() user: AuthenticatedUser) {
     return this.attemptsService.findMyQuizAttempts(user.id);
   }
-
 }
