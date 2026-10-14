@@ -295,3 +295,12 @@ limpeza), WAVs/imutabilidade e rejeição de porta inválida passaram. No emulad
 a lista oficial e a primeira questão de um simulado de 30 questões abriram; o
 login da web foi validado separadamente do login nativo. As amostras de voz
 continuam aguardando a preferência do usuário.
+
+
+### Publicação do catálogo aprovado na prévia local — 14/10/2026
+
+O runner agora aceita `--publish-reviewed` explícito e um checkout compilado
+selecionado por `MOBILE_CATALOG_REPOSITORY`, permitindo validar o catálogo aprovado
+e a nova narração sem usar bancos existentes. O padrão continua sendo DRAFT.
+Quizzes pendentes continuam bloqueados pelo importador; a aprovação do responsável
+foi registrada na alteração complementar do catálogo. Não houve deploy.

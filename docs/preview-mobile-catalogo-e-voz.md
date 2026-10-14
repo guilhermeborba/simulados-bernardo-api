@@ -20,8 +20,8 @@ Use outra porta quando uma prévia interativa já estiver rodando.
 Os simulados importados são os arquivos e registros oficiais do repositório, não
 uma consulta ao banco de produção. O seed preserva as regras de publicação e de
 turma. Um aluno local com faixa 3 é vinculado apenas à turma Bernardo desta base.
-Os 45 quizzes editoriais entram como DRAFT, sem aprovação ou publicação presumida.
-Por isso o catálogo de quizzes do aluno permanece vazio até a revisão autorizada.
+Por padrão, os 45 quizzes editoriais entram como DRAFT, mesmo quando a revisão
+está aprovada. O catálogo do aluno fica vazio até a publicação explícita descrita abaixo.
 Habilidades e missões não são publicadas automaticamente.
 
 No mobile, configure EXPO_PUBLIC_API_URL=http://127.0.0.1:3336 e
@@ -32,8 +32,8 @@ protótipo ainda não tem seu runner nativo, e o navegador exige login próprio.
 
 ## Comparar a voz
 
-A narração registrada usa Microsoft Maria Desktop/System.Speech, WAV PCM16 mono
-16 kHz. O player mobile reproduz esse arquivo; mudar apenas o app não troca a voz.
+A narração original usava Microsoft Maria Desktop/System.Speech, WAV PCM16 mono
+16 kHz; o catálogo atualizado adota Dora, descrita ao final. O player mobile reproduz esse arquivo; mudar apenas o app não troca a voz.
 A amostra candidata usa Piper 1.8.0 e o modelo pt_BR-faber-medium, processados
 localmente. O modelo tem taxa nativa 22050 Hz; os WAVs de comparação mantêm essa
 taxa, aceita pelo adaptador mobile. Não são substitutos registrados no manifest.
@@ -56,3 +56,21 @@ incluem versão do motor, hash do modelo, transcrição e parâmetros. As prévi
 fora do Git. Avaliar pronúncia, ritmo e clareza antes de escolher; o script não
 marca a amostra como aprovada. Depois da escolha, criar IDs novos, adequar ao
 formato de entrega e versionar referências preservando snapshots existentes.
+
+## Catálogo aprovado e publicação local explícita
+
+O padrão continua importando rascunhos. Depois da aprovação registrada no catálogo,
+`npm run preview:mobile:catalog -- --publish-reviewed` permite publicar somente
+no PostgreSQL descartável criado pelo runner. A aprovação de todas as entradas
+é conferida pelo importador antes de escrever quizzes; o comando não publica
+conteúdo pendente. `--check` pode ser combinado para verificar visibilidade e
+limpar os recursos ao fim.
+
+`MOBILE_CATALOG_REPOSITORY` permite selecionar outro checkout da API já compilado
+para validar um catálogo em revisão de código. O seed, as mídias e o AppModule
+vêm desse checkout, com suas próprias dependências. Isso não seleciona um banco
+externo: container/credenciais continuam sendo gerados pelo runner.
+
+A voz escolhida pelo responsável passou a ser Dora feminina pt-BR, speed 0.86.
+As amostras Piper anteriores permanecem apenas como comparações históricas.
+A refação completa do design system web/mobile será uma etapa posterior.

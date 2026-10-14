@@ -6,12 +6,21 @@ const { createServer } = require("node:net");
 const { mkdtempSync, writeFileSync, rmSync, existsSync } = require("node:fs");
 const { tmpdir } = require("node:os");
 const { resolve } = require("node:path");
-const { PrismaClient } = require("@prisma/client");
-const { hash } = require("bcryptjs");
+const { createRequire } = require("node:module");
 const checkOnly = process.argv.includes("--check");
-if (process.argv.slice(2).some((argument) => argument !== "--check"))
-  throw new Error("Only --check is supported.");
-const root = resolve(__dirname, "..");
+const publishReviewed = process.argv.includes("--publish-reviewed");
+if (
+  process.argv
+    .slice(2)
+    .some((argument) => !["--check", "--publish-reviewed"].includes(argument))
+)
+  throw new Error("Only --check and --publish-reviewed are supported.");
+const root = resolve(
+  process.env.MOBILE_CATALOG_REPOSITORY || resolve(__dirname, ".."),
+);
+const requireSource = createRequire(resolve(root, "package.json"));
+const { PrismaClient } = requireSource("@prisma/client");
+const { hash } = requireSource("bcryptjs");
 const port = Number(process.env.MOBILE_CATALOG_PORT || 3336);
 if (!Number.isInteger(port) || port < 1024 || port > 65535)
   throw new Error("MOBILE_CATALOG_PORT must be between 1024 and 65535.");
@@ -147,7 +156,7 @@ for (const [signal, code] of [
     SEED_INVENTORY: "false",
     SEED_QUIZZES_DRY_RUN: "false",
     SEED_QUIZZES_INVENTORY: "false",
-    SEED_QUIZZES_PUBLISH_REVIEWED: "false",
+    SEED_QUIZZES_PUBLISH_REVIEWED: String(publishReviewed),
   };
   command(
     process.execPath,
@@ -207,10 +216,12 @@ for (const [signal, code] of [
   const publishedQuizzes = await prisma.simulation.count({
     where: { activityKind: "QUIZ", status: "PUBLISHED" },
   });
-  if (publishedQuizzes !== 0)
+  if (!publishReviewed && publishedQuizzes !== 0)
     throw new Error(
-      "Local preview must preserve unreviewed quizzes as drafts.",
+      "Local preview must preserve unpublished quizzes as drafts.",
     );
+  if (publishReviewed && (publishedQuizzes === 0 || draftQuizzes !== 0))
+    throw new Error("Reviewed catalog publication is incomplete.");
   const apiUrl = `http://127.0.0.1:${port}`;
   const access = resolve(temporary, "access.json");
   writeFileSync(
@@ -299,7 +310,7 @@ for (const [signal, code] of [
       !Array.isArray(activities) ||
       activities.length === 0 ||
       !Array.isArray(quizList) ||
-      quizList.length !== 0
+      (publishReviewed ? quizList.length === 0 : quizList.length !== 0)
     )
       throw new Error("Preview catalog visibility is invalid.");
     await cleanup();
