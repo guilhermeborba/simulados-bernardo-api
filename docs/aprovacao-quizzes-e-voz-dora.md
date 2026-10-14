@@ -62,3 +62,4 @@ O seed instala a versão atual como baseline para atividades sem qualquer versã
 - 45 quizzes/213 questões aprovados no dry-run; textos, alternativas e gabaritos comparados com a base e preservados.
 - 18 novos WAVs PCM16 mono/16 kHz conferidos; os 58 registros anteriores do manifest foram preservados.
 - Banco de integração descartável removido pelo runner; nenhuma publicação em produção.
+- Prévia descartável validada com 588 simulados/17.684 questões e 45 quizzes publicados. Login local, imagem Infantil e botão de narração exercitados no emulador Android; o AudioTrack do processo do app iniciou e encerrou reprodução em 16 kHz sem mensagem de erro de mídia. O WAV servido por HTTP conferiu com o hash de um asset `.dora-v2`. Isso confirma funcionamento técnico, não escuta humana de todos os arquivos nem teste físico.
