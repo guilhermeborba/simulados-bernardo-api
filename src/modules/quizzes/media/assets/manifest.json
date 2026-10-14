@@ -8,6 +8,14 @@
     "byteLength": 577704
   },
   {
+    "id": "infantil-4-contar-brincando.contar-dois.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-contar-brincando.contar-dois.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "724964029fc5c93ce0ebe2528eb04c136e1704f8cd740fa07ca974fdae022c96",
+    "byteLength": 316802
+  },
+  {
     "id": "infantil-4-contar-brincando.contar-dois.image",
     "kind": "image",
     "file": "infantil-4-contar-brincando.contar-dois.image.svg",
@@ -38,6 +46,14 @@
     "mimeType": "audio/wav",
     "sha256": "a6a8372cb022ad4ace3ade561d11f2802cefcc995d64e7d9975044aec99a3c29",
     "byteLength": 575970
+  },
+  {
+    "id": "infantil-4-contar-brincando.contar-tres.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-contar-brincando.contar-tres.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "2e6bf50087bded711f08f271c8b690de8aa3fc771d96286ad18ce51e98594dae",
+    "byteLength": 313026
   },
   {
     "id": "infantil-4-contar-brincando.contar-tres.image",
@@ -72,6 +88,14 @@
     "byteLength": 563358
   },
   {
+    "id": "infantil-4-contar-brincando.contar-um.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-contar-brincando.contar-um.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "3e298897fff90e504b1b664245dea391e94b6813ddf98e18c857e167f5e2eabb",
+    "byteLength": 298904
+  },
+  {
     "id": "infantil-4-contar-brincando.contar-um.image",
     "kind": "image",
     "file": "infantil-4-contar-brincando.contar-um.image.svg",
@@ -94,6 +118,14 @@
     "mimeType": "audio/wav",
     "sha256": "15cfe78b8144ff8f9e6511af55eda624ddd02df32ef2db87b049461107541f51",
     "byteLength": 845500
+  },
+  {
+    "id": "infantil-4-conviver-e-sentir.compartilhar.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-conviver-e-sentir.compartilhar.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "a9cdb7b423e1a955a8b218c69b05b107359d07d14e2b6e24297366887b41ef60",
+    "byteLength": 485122
   },
   {
     "id": "infantil-4-conviver-e-sentir.compartilhar.image",
@@ -120,6 +152,14 @@
     "byteLength": 690806
   },
   {
+    "id": "infantil-4-conviver-e-sentir.esperar-a-vez.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-conviver-e-sentir.esperar-a-vez.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "f82697776b8831bc1c484ad5931f41a2b47f38f3ed6ef726b14733aa9b7a6184",
+    "byteLength": 399704
+  },
+  {
     "id": "infantil-4-conviver-e-sentir.esperar-a-vez.image",
     "kind": "image",
     "file": "infantil-4-conviver-e-sentir.esperar-a-vez.image.svg",
@@ -144,6 +184,14 @@
     "byteLength": 730034
   },
   {
+    "id": "infantil-4-conviver-e-sentir.pedir-ajuda.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-conviver-e-sentir.pedir-ajuda.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "30e553832cfef2a786ffbd57276bde968e88a1de901393045ae7ba04fecf0efe",
+    "byteLength": 434092
+  },
+  {
     "id": "infantil-4-conviver-e-sentir.pedir-ajuda.image",
     "kind": "image",
     "file": "infantil-4-conviver-e-sentir.pedir-ajuda.image.svg",
@@ -166,6 +214,14 @@
     "mimeType": "audio/wav",
     "sha256": "333c99bff32d10fbf4cc01ef6b02ee1b96be58a1d014e574fdccfdd170adf5f8",
     "byteLength": 550096
+  },
+  {
+    "id": "infantil-4-cores-e-formas.cor-vermelha.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-cores-e-formas.cor-vermelha.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "87c85191b526900f6e92c2739be80393258df3d6ef34d68c97b5585755dbd26a",
+    "byteLength": 287938
   },
   {
     "id": "infantil-4-cores-e-formas.cor-vermelha.image",
@@ -200,6 +256,14 @@
     "byteLength": 624702
   },
   {
+    "id": "infantil-4-cores-e-formas.forma-circulo.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-cores-e-formas.forma-circulo.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "5d46159886aeb33c000412207c7401c2fce5e2772a8dd431d3243ff9d9405400",
+    "byteLength": 334808
+  },
+  {
     "id": "infantil-4-cores-e-formas.forma-circulo.image",
     "kind": "image",
     "file": "infantil-4-cores-e-formas.forma-circulo.image.svg",
@@ -222,6 +286,14 @@
     "mimeType": "audio/wav",
     "sha256": "b2a0d3c3345eb0a7f082c79833988acc7a83be142cd8988a1219075c52223338",
     "byteLength": 653580
+  },
+  {
+    "id": "infantil-4-cores-e-formas.forma-quadrado.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-4-cores-e-formas.forma-quadrado.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "a1dd29da21f84d39e87b9bf1b627e94cbef72012f7234caa6085a617aa44a583",
+    "byteLength": 352044
   },
   {
     "id": "infantil-4-cores-e-formas.forma-quadrado.image",
@@ -248,6 +320,14 @@
     "byteLength": 833214
   },
   {
+    "id": "infantil-5-comparar-e-ordenar.antes-depois.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-comparar-e-ordenar.antes-depois.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "5f8831bccfe98940135c1f5c21fe64adc0cd9d6ed776dda5cd0b26365e45038f",
+    "byteLength": 464364
+  },
+  {
     "id": "infantil-5-comparar-e-ordenar.antes-depois.image",
     "kind": "image",
     "file": "infantil-5-comparar-e-ordenar.antes-depois.image.svg",
@@ -270,6 +350,14 @@
     "mimeType": "audio/wav",
     "sha256": "c39b415a11cb25f70c8b5ce718cb28abac818bfe04ed242d23a09b3b72070f95",
     "byteLength": 685762
+  },
+  {
+    "id": "infantil-5-comparar-e-ordenar.mais-frutas.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-comparar-e-ordenar.mais-frutas.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "a4a1f462ea0957cab925b0c21bb8fc8a38d41c318f42b8e8988dd8b03f2c8a16",
+    "byteLength": 375746
   },
   {
     "id": "infantil-5-comparar-e-ordenar.mais-frutas.image",
@@ -304,6 +392,14 @@
     "byteLength": 624872
   },
   {
+    "id": "infantil-5-comparar-e-ordenar.pequeno-grande.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-comparar-e-ordenar.pequeno-grande.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "e0dccfe2c66179bec3e18c459ae68a2fe223c085df2a2d45c953a04126a3a1ec",
+    "byteLength": 338520
+  },
+  {
     "id": "infantil-5-comparar-e-ordenar.pequeno-grande.image",
     "kind": "image",
     "file": "infantil-5-comparar-e-ordenar.pequeno-grande.image.svg",
@@ -326,6 +422,14 @@
     "mimeType": "audio/wav",
     "sha256": "f07b05000f4cde5dace7846a6fbccd7375802fd72a6ad295a5f06c40d7f8924c",
     "byteLength": 769836
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.alongar.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-corpo-em-movimento.alongar.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "3992f5c35d9bf15b4b987492837211ed72ab95c0a1dd0a599bac4a6ae46252fc",
+    "byteLength": 466412
   },
   {
     "id": "infantil-5-corpo-em-movimento.alongar.image",
@@ -352,6 +456,14 @@
     "byteLength": 691152
   },
   {
+    "id": "infantil-5-corpo-em-movimento.equilibrio.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-corpo-em-movimento.equilibrio.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "5c03fd08d452671807dc20e2f1f20ff88fff79874328a25b3a56ed17b8650013",
+    "byteLength": 387842
+  },
+  {
     "id": "infantil-5-corpo-em-movimento.equilibrio.image",
     "kind": "image",
     "file": "infantil-5-corpo-em-movimento.equilibrio.image.svg",
@@ -374,6 +486,14 @@
     "mimeType": "audio/wav",
     "sha256": "a61d8d4e6544e810dd968b1c4c05538447c11a26d4f7aa21930978b8149fdfac",
     "byteLength": 611316
+  },
+  {
+    "id": "infantil-5-corpo-em-movimento.pular.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-corpo-em-movimento.pular.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "3680ea222f8d1c61feb513835c928c7353b8ab8a46ecd6847285c14f9098a171",
+    "byteLength": 330882
   },
   {
     "id": "infantil-5-corpo-em-movimento.pular.image",
@@ -400,6 +520,14 @@
     "byteLength": 754854
   },
   {
+    "id": "infantil-5-rimas-e-historias.ordem-historia.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-rimas-e-historias.ordem-historia.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "2fafdf94b9ef0ec26415cc34aa14bd197c83d3eb26eedf77a6075bf86ff897bd",
+    "byteLength": 398230
+  },
+  {
     "id": "infantil-5-rimas-e-historias.ordem-historia.image",
     "kind": "image",
     "file": "infantil-5-rimas-e-historias.ordem-historia.image.svg",
@@ -424,6 +552,14 @@
     "byteLength": 664142
   },
   {
+    "id": "infantil-5-rimas-e-historias.personagem-historia.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-rimas-e-historias.personagem-historia.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "a2fd1cf1cbb6f21d9310c2a7e68c4b9349dfcb03518abd1333fead3283f728c3",
+    "byteLength": 370840
+  },
+  {
     "id": "infantil-5-rimas-e-historias.personagem-historia.image",
     "kind": "image",
     "file": "infantil-5-rimas-e-historias.personagem-historia.image.svg",
@@ -446,6 +582,14 @@
     "mimeType": "audio/wav",
     "sha256": "9b3ebc417a05add76fce0c7d70897600bb10ef669654c98d9c4e92baa6687753",
     "byteLength": 556368
+  },
+  {
+    "id": "infantil-5-rimas-e-historias.rima-gato.audio.dora-v2",
+    "kind": "audio",
+    "file": "infantil-5-rimas-e-historias.rima-gato.audio.dora-v2.wav",
+    "mimeType": "audio/wav",
+    "sha256": "4a6cba69d344a3dae36fa33c6920a28df839b4aad99e6a8df51649146b02cbee",
+    "byteLength": 290368
   },
   {
     "id": "infantil-5-rimas-e-historias.rima-gato.image",

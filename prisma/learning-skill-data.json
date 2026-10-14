@@ -763,13 +763,13 @@
     },
     "quiz": {
       "activityKey": "infantil-4-contar-brincando",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "questionOriginKeys": [
         "contar-um",
         "contar-dois",
         "contar-tres"
       ],
-      "contentHash": "7a436d14d8e232b0791d05739fe03ad8df949284ac6f24a18929f0a36c07d8de"
+      "contentHash": "7755ce5138203d34469b0256a278a60a0c3348e393f0333c4fab99d7aa1119c8"
     }
   },
   {
@@ -786,13 +786,13 @@
     },
     "quiz": {
       "activityKey": "infantil-4-conviver-e-sentir",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "questionOriginKeys": [
         "compartilhar",
         "pedir-ajuda",
         "esperar-a-vez"
       ],
-      "contentHash": "f5b05d9161dff7385a12c8021c45f0024d16b562060c356bd504ed25c36c644e"
+      "contentHash": "f2c363f796f4132f1ecb779a0dd769d795d534c34ce798ef880fa45fbc7cb0ba"
     }
   },
   {
@@ -809,13 +809,13 @@
     },
     "quiz": {
       "activityKey": "infantil-4-cores-e-formas",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "questionOriginKeys": [
         "cor-vermelha",
         "forma-circulo",
         "forma-quadrado"
       ],
-      "contentHash": "2c8de16f83b790fc15abbb73626b3deefb1e964fef12297289e765bf18872472"
+      "contentHash": "b2453fe287dbc3137a2f861d21f9b5c251ec12d3b185cbd382feb1ca2931f1f3"
     }
   },
   {
@@ -832,13 +832,13 @@
     },
     "quiz": {
       "activityKey": "infantil-5-comparar-e-ordenar",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "questionOriginKeys": [
         "mais-frutas",
         "antes-depois",
         "pequeno-grande"
       ],
-      "contentHash": "e84fc928740671d293815859602f45e7cdcc615ac6eb72d8942213ceb58fe4ad"
+      "contentHash": "ab50bb7062464a9db8b4e66cb3d334d9386c7b7efa1a5db44e3459dec0b653cc"
     }
   },
   {
@@ -855,13 +855,13 @@
     },
     "quiz": {
       "activityKey": "infantil-5-corpo-em-movimento",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "questionOriginKeys": [
         "pular",
         "equilibrio",
         "alongar"
       ],
-      "contentHash": "07fea1d21331ced5cfe5f7c2c7eb6d067952ed84a5ce89bb9f34256bc8ae859d"
+      "contentHash": "0644eca812738cf66f7832029e3c64aa45f0855364a4ac62f534b37af6dccfdd"
     }
   },
   {
@@ -878,13 +878,13 @@
     },
     "quiz": {
       "activityKey": "infantil-5-rimas-e-historias",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "questionOriginKeys": [
         "rima-gato",
         "personagem-historia",
         "ordem-historia"
       ],
-      "contentHash": "c765e68b369cb5f1ba193298ffc515caa5b197fd1327d9ac852342123c4838d5"
+      "contentHash": "24f54c3f4fe5c33f356e959781267eb05e03616c728eed45f1b93bd3c89b0266"
     }
   },
   {

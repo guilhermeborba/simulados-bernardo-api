@@ -8,9 +8,10 @@
     "title": "Ética em pequenas decisões",
     "estimatedDurationMinutes": 7,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "55402bfb9b52d4c56ba2da6624a29788ccfe22ae6dbabb3a7ba97654b127d1b4"
     },
     "questions": [
       {
@@ -139,9 +140,10 @@
     "title": "Entendendo o cuidado como direito",
     "estimatedDurationMinutes": 7,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "ac82711e20be2bbd2b9fc28b2822811c2155e973bc0d8827af82947d6f78eafe"
     },
     "questions": [
       {
@@ -270,9 +272,10 @@
     "title": "Informação que protege",
     "estimatedDurationMinutes": 7,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "0d4638bba71a83f67700acdbba848c8f49143211c37bba14d97c097d0259e711"
     },
     "questions": [
       {

@@ -438,3 +438,15 @@ Fechamento técnico do lote 09: catálogo offline e hashes, autoria/revisão exp
 
 
 Fechamento técnico do lote 10: roster mínimo e /acompanhamento separam simulados de evidências de prática. TeacherTurma é atribuído somente por ADMIN; filtros excluem atividades de outras turmas privadas e convites não conferem papel docente. Recuperação com Resend usa token aleatório/hash, expiração, cooldown, uso único e revogação atômica das sessões, com transporte sintético e sem login automático. Chave/remetente verificado e entrega real permanecem pendentes. Totais atuais estão em [PROGRESS.md](../../../PROGRESS.md). Operação: [guia de acesso e recuperação](../../guia-acesso-recuperacao.md) e [ADR 014](../../decisions/014-acesso-docente-e-recuperacao.md). Nenhuma base existente, publicação editorial ou deploy foi alterado.
+
+
+### Decisões do responsável em 14/10/2026
+
+- Quizzes preparados testados e aprovados pelo responsável: registrar revisão dos
+  45 quizzes/213 perguntas e habilitar a publicação pelo fluxo editorial.
+- Narração escolhida: Dora feminina pt-BR, acolhedora e mais lenta (speed 0.86),
+  com arquivos versionados e preservação das mídias anteriores.
+- Refação completa do design system, **web + mobile**, planejada para a próxima
+  etapa visual; layout atual não é o aceite final. Ver [plano compartilhado](2026-10-14-design-system-web-mobile.md).
+- Aprovação de quizzes não presume revisão de habilidades/missões, deploy,
+  publicação em lojas ou encerramento das validações físicas/acessíveis.

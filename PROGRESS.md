@@ -1,11 +1,11 @@
 # Estado do Projeto — simulados-bernardo-api
 
-> Atualizado em: 2026-10-13
+> Atualizado em: 2026-10-14
 > Atualizar este arquivo ao concluir cada fase ou iniciativa relevante.
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O lote 11 está em andamento com protótipo Expo e prova automatizada; o aceite em aparelhos reais continua pendente, assim como ativação de e-mail real, revisão editorial e validação humana de uso continuam pendentes.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana aprovada em 14/10/2026 e publicação por ambiente ainda necessária. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O lote 11 está em andamento com protótipo Expo e prova automatizada; o aceite em aparelhos reais continua pendente, assim como ativação de e-mail real e validação humana de uso. O responsável aprovou os 45 quizzes em 14/10/2026 e definiu o futuro redesign completo web/mobile.
 
 
 ## Entregas da evolução — posição em 13/10/2026
@@ -41,7 +41,7 @@ As CIs de implementação passaram: [API — execução 38438311892](https://git
 
 | Frente | Estado e próxima ação |
 |---|---|
-| Editorial de quizzes | **45 quizzes / 213 perguntas nas 15 faixas, todos PENDING**. O responsável pelo projeto assumiu a revisão; registrar somente avaliações realizadas e publicar depois da aprovação |
+| Editorial de quizzes | **45 quizzes / 213 perguntas aprovados pelo responsável em 14/10/2026**. Aprovação e hashes registrados; publicação pelo fluxo editorial, sem deploy presumido |
 | Habilidades e classificações | **45 habilidades / 213 classificações PENDING**. Revisar objetivos e vínculos antes de publicar quizzes classificados |
 | Missões | **30 rascunhos PENDING**, dois por faixa. Curar as semanas e publicar após disponibilizar os quizzes correspondentes |
 | Recuperação de senha | Resend desativado por padrão. Configurar chave/remetente verificado e validar entrega real em ambiente autorizado |
@@ -268,3 +268,22 @@ Sessão própria mantém access em memória e refresh em SecureStore, com marcad
 [ADR 015](docs/decisions/015-prova-mobile-e-contratos-compartilhados.md), [guia da prova](docs/guia-prova-mobile.md) e [plano dedicado](docs/superpowers/plans/2026-10-13-mobile-proof-and-beta-plan.md) registram arquitetura, mapa de telas, matriz física, distribuição e backlog preliminar. A estimativa do lote 12 é preliminar e precisa ser revista depois dos aparelhos, sem substituir as estimativas históricas do planejamento original.
 
 **O lote 11 permanece aberto.** Nenhum APK/IPA foi assinado/distribuído e nenhum Android/iPhone físico foi validado. O AVD Pixel_10a disponível não foi executado. O usuário confirmou Android primeiro; os aparelhos disponíveis ainda aguardam resposta. O aceite físico Android fecha esta etapa; a matriz iPhone será exigida antes do beta iOS; a decisão Expo continua provisória até a matriz física. Lote 12 não iniciado. Conteúdo editorial permanece PENDING, Resend real desativado; não houve cloud build, compra/registro de loja, deploy ou alteração em banco existente.
+
+
+## Aprovação dos quizzes, voz Dora e direção visual — 14/10/2026
+
+O responsável declarou que testou e aprovou os quizzes. Os 45 registros/213
+perguntas têm APPROVED, data, responsável e hash. Os 18 áudios do Infantil usam
+Dora pt-BR no ritmo mais lento escolhido (speed 0.86); seus seis quizzes passam
+à v2. Arquivos antigos e transcrições foram preservados. As propostas de
+habilidades/classificações e missões continuam PENDING; só seus vínculos com as
+versões/hashes novos foram ajustados.
+
+O layout atual permanece para validação funcional. Foi definida uma futura
+**refação completa do design system para web + mobile**, incluindo fundações,
+componentes, jornadas e migração. As estimativas anteriores de beta precisam
+ser revistas para incorporar esse escopo; não houve redesign nesta entrega.
+
+Referências: [aprovação e narração](docs/aprovacao-quizzes-e-voz-dora.md) e
+[plano do design system](docs/superpowers/plans/2026-10-14-design-system-web-mobile.md).
+A aprovação não representa publicação em produção, deploy ou aceite físico.
