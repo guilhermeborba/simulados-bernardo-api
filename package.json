@@ -35,7 +35,8 @@
     "seed:missions:inventory:json": "SEED_REPORT_FORMAT=json ts-node --transpile-only prisma/seed-missions.ts",
     "seed:skills:dry-run": "ts-node --transpile-only prisma/seed-learning-skills.ts",
     "seed:skills:inventory:json": "SEED_REPORT_FORMAT=json ts-node --transpile-only prisma/seed-learning-skills.ts",
-    "seed:skills:drafts": "SEED_SKILLS_IMPORT_DRAFTS=true ts-node --transpile-only prisma/seed-learning-skills.ts"
+    "seed:skills:drafts": "SEED_SKILLS_IMPORT_DRAFTS=true ts-node --transpile-only prisma/seed-learning-skills.ts",
+    "preview:mobile:catalog": "node scripts/run-mobile-catalog-preview.cjs"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.28",

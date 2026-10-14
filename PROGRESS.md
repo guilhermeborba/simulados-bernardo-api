@@ -1,6 +1,6 @@
 # Estado do Projeto — simulados-bernardo-api
 
-> Atualizado em: 2026-10-13
+> Atualizado em: 2026-10-14
 > Atualizar este arquivo ao concluir cada fase ou iniciativa relevante.
 
 ## Status geral
@@ -268,3 +268,30 @@ Sessão própria mantém access em memória e refresh em SecureStore, com marcad
 [ADR 015](docs/decisions/015-prova-mobile-e-contratos-compartilhados.md), [guia da prova](docs/guia-prova-mobile.md) e [plano dedicado](docs/superpowers/plans/2026-10-13-mobile-proof-and-beta-plan.md) registram arquitetura, mapa de telas, matriz física, distribuição e backlog preliminar. A estimativa do lote 12 é preliminar e precisa ser revista depois dos aparelhos, sem substituir as estimativas históricas do planejamento original.
 
 **O lote 11 permanece aberto.** Nenhum APK/IPA foi assinado/distribuído e nenhum Android/iPhone físico foi validado. O AVD Pixel_10a disponível não foi executado. O usuário confirmou Android primeiro; os aparelhos disponíveis ainda aguardam resposta. O aceite físico Android fecha esta etapa; a matriz iPhone será exigida antes do beta iOS; a decisão Expo continua provisória até a matriz física. Lote 12 não iniciado. Conteúdo editorial permanece PENDING, Resend real desativado; não houve cloud build, compra/registro de loja, deploy ou alteração em banco existente.
+
+
+## Prévia local de catálogo e narração — 14/10/2026
+
+Criado runner opt-in `npm run preview:mobile:catalog`: PostgreSQL próprio em
+tmpfs/loopback, migrations e seed oficial do checkout, contas locais com senha
+aleatória em arquivo temporário 0600 e API em 127.0.0.1:3336. Não usa DATABASE_URL
+existente nem banco de produção. O acervo validado contém **588 simulados e
+17.684 questões**; **45 quizzes** foram importados como DRAFT e nenhum publicado.
+A realização dos simulados no protótipo mobile continua pela web local.
+
+Criada comparação de voz offline com `scripts/preview-quiz-voice.py`: original
+Microsoft Maria preservada, candidata Piper pt_BR-faber-medium em ritmo normal e
+pausado, com texto idêntico e metadados. Prévia depende da avaliação auditiva do
+usuário; os 18 áudios registrados, seus hashes e referências não foram alterados.
+As amostras não foram marcadas aprovadas nem incorporadas a quiz publicado.
+
+Procedimentos e limites no [guia da prévia](docs/preview-mobile-catalogo-e-voz.md).
+Não houve alteração em base existente, publicação editorial, envio real de e-mail
+ou deploy. Este ambiente não comprova igualdade com o banco de produção.
+
+Validação desta prévia: build da API, dry-run do seed, execução completa de
+`preview:mobile:catalog -- --check` (login, simulados visíveis, quizzes ocultos e
+limpeza), WAVs/imutabilidade e rejeição de porta inválida passaram. No emulador,
+a lista oficial e a primeira questão de um simulado de 30 questões abriram; o
+login da web foi validado separadamente do login nativo. As amostras de voz
+continuam aguardando a preferência do usuário.

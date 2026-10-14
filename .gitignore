@@ -26,3 +26,6 @@ lerna-debug.log*
 # worktrees / agent workspace
 .worktrees
 .superpowers/
+
+# Local narration comparisons and preview artifacts
+.local-preview/
