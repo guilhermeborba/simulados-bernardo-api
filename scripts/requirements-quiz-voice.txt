@@ -1,0 +1,7 @@
+# Authoring environment only; not API/mobile runtime dependencies.
+kokoro-onnx==0.6.1
+numpy==2.5.4
+scipy==1.18.1
+onnxruntime==1.31.0
+phonemizer==3.4.0
+espeakng-loader==0.2.4

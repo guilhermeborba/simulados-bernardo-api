@@ -144,3 +144,5 @@ npm run test:integration
 | [Prova mobile](docs/guia-prova-mobile.md) e [plano mobile/beta](docs/superpowers/plans/2026-10-13-mobile-proof-and-beta-plan.md) | Protótipo, sessão, matriz física e backlog preliminar |
 | [CI/regressão](docs/guia-ci-regressao.md) e [deploy](docs/guia-deploy.md) | Validação isolada e operação |
 | [ADRs](docs/decisions/) | Decisões arquiteturais e suas consequências |
+
+[Aprovação dos quizzes e perfil de voz Dora](docs/aprovacao-quizzes-e-voz-dora.md); [redesign futuro do design system web/mobile](docs/superpowers/plans/2026-10-14-design-system-web-mobile.md).

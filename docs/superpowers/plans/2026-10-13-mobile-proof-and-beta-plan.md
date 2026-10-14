@@ -110,3 +110,13 @@ Os 45 quizzes/213 perguntas, 45 habilidades/213 classificações e 30 rascunhos 
 Resend continua desativado por padrão; chave/remetente verificado, entrega real e limite de recuperação no perímetro/BFF permanecem pendentes. A decisão de distribuição mobile não altera esse estado.
 
 Antes de ampliar o piloto, confirmar cobertura editorial das 15 faixas, gates de uso/acessibilidade, ambiente autorizado, suporte e critérios observáveis de estabilidade. Não houve deploy, migração em banco existente, e-mail externo ou publicação de loja nesta prova. A autorização de publicar é uma etapa final sobre um resultado concreto, depois da implementação e validação necessárias.
+
+
+## Atualização de escopo — 14/10/2026
+
+O responsável aprovou os quizzes preparados e a voz Dora mais lenta. Definiu
+também a refação completa do **design system de web e mobile**, para uma próxima
+etapa. O layout do protótipo não é aceite visual final. O [plano do design system](2026-10-14-design-system-web-mobile.md)
+orienta fundações, componentes, jornadas e migração. P3/P5 e o aceite P7 devem
+incorporar o novo sistema visual. As estimativas anteriores não incluem essa
+refação e precisam ser revistas após o escopo visual ser definido.

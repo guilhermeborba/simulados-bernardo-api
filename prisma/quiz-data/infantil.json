@@ -1,16 +1,17 @@
 [
   {
     "activityKey": "infantil-4-contar-brincando",
-    "contentVersion": 1,
+    "contentVersion": 2,
     "disciplineSlug": "infantil-espacos-tempos-quantidades",
     "schoolYear": -1,
     "topic": "Contagem de um a três",
     "title": "Vamos contar os brinquedos?",
     "estimatedDurationMinutes": 5,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "7755ce5138203d34469b0256a278a60a0c3348e393f0333c4fab99d7aa1119c8"
     },
     "questions": [
       {
@@ -39,7 +40,7 @@
             "alt": "Uma bola azul sobre um tapete retangular."
           },
           "audio": {
-            "assetId": "infantil-4-contar-brincando.contar-um.audio",
+            "assetId": "infantil-4-contar-brincando.contar-um.audio.dora-v2",
             "transcript": "Olhe o desenho. Quantas bolas há no tapete? Alternativa A: Uma bola. Alternativa B: Duas bolas. Alternativa C: Três bolas."
           }
         }
@@ -70,7 +71,7 @@
             "alt": "Dois carrinhos, um vermelho e outro amarelo, lado a lado numa pista."
           },
           "audio": {
-            "assetId": "infantil-4-contar-brincando.contar-dois.audio",
+            "assetId": "infantil-4-contar-brincando.contar-dois.audio.dora-v2",
             "transcript": "Olhe o desenho. Quantos carrinhos estão na pista? Alternativa A: Três carrinhos. Alternativa B: Um carrinho. Alternativa C: Dois carrinhos."
           }
         }
@@ -101,7 +102,7 @@
             "alt": "Três blocos, azul, vermelho e amarelo, separados sobre uma mesa."
           },
           "audio": {
-            "assetId": "infantil-4-contar-brincando.contar-tres.audio",
+            "assetId": "infantil-4-contar-brincando.contar-tres.audio.dora-v2",
             "transcript": "Olhe o desenho. Quantos blocos estão na mesa? Alternativa A: Dois blocos. Alternativa B: Três blocos. Alternativa C: Um bloco."
           }
         },
@@ -111,16 +112,17 @@
   },
   {
     "activityKey": "infantil-4-cores-e-formas",
-    "contentVersion": 1,
+    "contentVersion": 2,
     "disciplineSlug": "infantil-tracos-sons-cores-formas",
     "schoolYear": -1,
     "topic": "Cores e formas do cotidiano",
     "title": "Detetives das cores e formas",
     "estimatedDurationMinutes": 5,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "b2453fe287dbc3137a2f861d21f9b5c251ec12d3b185cbd382feb1ca2931f1f3"
     },
     "questions": [
       {
@@ -149,7 +151,7 @@
             "alt": "Três balões alinhados: azul à esquerda, vermelho no meio e amarelo à direita."
           },
           "audio": {
-            "assetId": "infantil-4-cores-e-formas.cor-vermelha.audio",
+            "assetId": "infantil-4-cores-e-formas.cor-vermelha.audio.dora-v2",
             "transcript": "Veja os balões. Qual é a cor do balão que está no meio? Alternativa A: Amarela. Alternativa B: Vermelha. Alternativa C: Azul."
           }
         }
@@ -180,7 +182,7 @@
             "alt": "Um círculo verde preenchido, isolado sobre fundo claro."
           },
           "audio": {
-            "assetId": "infantil-4-cores-e-formas.forma-circulo.audio",
+            "assetId": "infantil-4-cores-e-formas.forma-circulo.audio.dora-v2",
             "transcript": "O desenho mostra uma forma redonda, sem pontas. Como ela se chama? Alternativa A: Quadrado. Alternativa B: Triângulo. Alternativa C: Círculo."
           }
         },
@@ -212,7 +214,7 @@
             "alt": "Um quadrado roxo preenchido, com lados iguais e quatro cantos retos, isolado sobre fundo claro."
           },
           "audio": {
-            "assetId": "infantil-4-cores-e-formas.forma-quadrado.audio",
+            "assetId": "infantil-4-cores-e-formas.forma-quadrado.audio.dora-v2",
             "transcript": "O desenho tem quatro lados do mesmo tamanho e quatro cantinhos retos. Qual é a forma? Alternativa A: Quadrado. Alternativa B: Círculo. Alternativa C: Triângulo."
           }
         }
@@ -221,16 +223,17 @@
   },
   {
     "activityKey": "infantil-4-conviver-e-sentir",
-    "contentVersion": 1,
+    "contentVersion": 2,
     "disciplineSlug": "infantil-eu-outro-nos",
     "schoolYear": -1,
     "topic": "Convivência, ajuda e turnos",
     "title": "Brincar juntos faz bem",
     "estimatedDurationMinutes": 5,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "f2c363f796f4132f1ecb779a0dd769d795d534c34ce798ef880fa45fbc7cb0ba"
     },
     "questions": [
       {
@@ -259,7 +262,7 @@
             "alt": "Duas crianças diante de vários blocos coloridos; uma está ao lado dos blocos e a outra olha para a construção."
           },
           "audio": {
-            "assetId": "infantil-4-conviver-e-sentir.compartilhar.audio",
+            "assetId": "infantil-4-conviver-e-sentir.compartilhar.audio.dora-v2",
             "transcript": "Lia tem vários blocos. Nino também quer construir. O que ajuda os dois a brincarem juntos? Alternativa A: Esconder todos os blocos. Alternativa B: Empurrar Nino para longe. Alternativa C: Oferecer alguns blocos a Nino."
           }
         },
@@ -291,7 +294,7 @@
             "alt": "Uma criança com expressão triste ao lado de um adulto atento, em um ambiente acolhedor."
           },
           "audio": {
-            "assetId": "infantil-4-conviver-e-sentir.pedir-ajuda.audio",
+            "assetId": "infantil-4-conviver-e-sentir.pedir-ajuda.audio.dora-v2",
             "transcript": "Bia está triste e precisa de ajuda. O que ela pode fazer? Alternativa A: Conversar com um adulto de confiança. Alternativa B: Machucar um colega. Alternativa C: Esconder o que sente sempre."
           }
         }
@@ -322,7 +325,7 @@
             "alt": "Um escorregador no parquinho com uma criança brincando e outra aguardando ao lado."
           },
           "audio": {
-            "assetId": "infantil-4-conviver-e-sentir.esperar-a-vez.audio",
+            "assetId": "infantil-4-conviver-e-sentir.esperar-a-vez.audio.dora-v2",
             "transcript": "Há uma criança no escorregador e outra esperando. Como brincar com cuidado? Alternativa A: Subir empurrando. Alternativa B: Esperar a vez. Alternativa C: Puxar quem está brincando."
           }
         }
@@ -331,16 +334,17 @@
   },
   {
     "activityKey": "infantil-5-comparar-e-ordenar",
-    "contentVersion": 1,
+    "contentVersion": 2,
     "disciplineSlug": "infantil-espacos-tempos-quantidades",
     "schoolYear": -2,
     "topic": "Comparação e sequência temporal",
     "title": "Qual vem antes? Qual tem mais?",
     "estimatedDurationMinutes": 5,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "ab50bb7062464a9db8b4e66cb3d334d9386c7b7efa1a5db44e3459dec0b653cc"
     },
     "questions": [
       {
@@ -369,7 +373,7 @@
             "alt": "Dois pratos alinhados: o da esquerda contém três maçãs e o da direita contém duas."
           },
           "audio": {
-            "assetId": "infantil-5-comparar-e-ordenar.mais-frutas.audio",
+            "assetId": "infantil-5-comparar-e-ordenar.mais-frutas.audio.dora-v2",
             "transcript": "Veja os dois pratos. Qual prato tem mais maçãs? Alternativa A: O prato da esquerda. Alternativa B: Os dois têm a mesma quantidade. Alternativa C: O prato da direita."
           }
         }
@@ -400,7 +404,7 @@
             "alt": "Três cenas em sequência da esquerda para a direita: Ana pega uma folha, desenha nela e mostra o desenho."
           },
           "audio": {
-            "assetId": "infantil-5-comparar-e-ordenar.antes-depois.audio",
+            "assetId": "infantil-5-comparar-e-ordenar.antes-depois.audio.dora-v2",
             "transcript": "A história diz: primeiro Ana pega o papel; depois desenha; por último mostra o desenho. O que Ana faz depois de pegar o papel? Alternativa A: Mostra o desenho. Alternativa B: Desenha. Alternativa C: Guarda um brinquedo."
           }
         },
@@ -432,7 +436,7 @@
             "alt": "Três caixas alinhadas na mesma base: pequena à esquerda, média no meio e grande à direita."
           },
           "audio": {
-            "assetId": "infantil-5-comparar-e-ordenar.pequeno-grande.audio",
+            "assetId": "infantil-5-comparar-e-ordenar.pequeno-grande.audio.dora-v2",
             "transcript": "Veja as três caixas. Qual é a menor caixa? Alternativa A: A caixa do meio. Alternativa B: A caixa da direita. Alternativa C: A caixa da esquerda."
           }
         }
@@ -441,16 +445,17 @@
   },
   {
     "activityKey": "infantil-5-rimas-e-historias",
-    "contentVersion": 1,
+    "contentVersion": 2,
     "disciplineSlug": "infantil-escuta-fala-pensamento-imaginacao",
     "schoolYear": -2,
     "topic": "Rimas e compreensão de histórias",
     "title": "Uma história para ouvir e brincar",
     "estimatedDurationMinutes": 5,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "24f54c3f4fe5c33f356e959781267eb05e03616c728eed45f1b93bd3c89b0266"
     },
     "questions": [
       {
@@ -479,7 +484,7 @@
             "alt": "Ilustração de um gato e, abaixo, três figuras na mesma ordem das alternativas: bola, pato e casa."
           },
           "audio": {
-            "assetId": "infantil-5-rimas-e-historias.rima-gato.audio",
+            "assetId": "infantil-5-rimas-e-historias.rima-gato.audio.dora-v2",
             "transcript": "Diga as palavras devagar. Qual palavra rima com gato? Alternativa A: Bola. Alternativa B: Pato. Alternativa C: Casa."
           }
         },
@@ -511,7 +516,7 @@
             "alt": "Uma tartaruga, um coelho e um gato desenhados lado a lado, sem destaque entre os animais."
           },
           "audio": {
-            "assetId": "infantil-5-rimas-e-historias.personagem-historia.audio",
+            "assetId": "infantil-5-rimas-e-historias.personagem-historia.audio.dora-v2",
             "transcript": "Ouça: Uma tartaruga encontrou uma folha e a levou para a casinha. Quem levou a folha? Alternativa A: Um coelho. Alternativa B: Um gato. Alternativa C: Uma tartaruga."
           }
         }
@@ -542,7 +547,7 @@
             "alt": "Duas cenas em sequência: uma criança coloca uma semente na terra e, na cena seguinte, rega a terra."
           },
           "audio": {
-            "assetId": "infantil-5-rimas-e-historias.ordem-historia.audio",
+            "assetId": "infantil-5-rimas-e-historias.ordem-historia.audio.dora-v2",
             "transcript": "Ouça: Pedro plantou uma semente. Depois, regou a terra. O que Pedro fez primeiro? Alternativa A: Plantou a semente. Alternativa B: Regou a terra. Alternativa C: Colheu uma fruta."
           }
         }
@@ -551,16 +556,17 @@
   },
   {
     "activityKey": "infantil-5-corpo-em-movimento",
-    "contentVersion": 1,
+    "contentVersion": 2,
     "disciplineSlug": "infantil-corpo-gestos-movimentos",
     "schoolYear": -2,
     "topic": "Movimentos e consciência corporal",
     "title": "Nosso corpo brinca",
     "estimatedDurationMinutes": 5,
     "review": {
-      "status": "PENDING",
-      "reviewedBy": null,
-      "reviewedAt": null
+      "status": "APPROVED",
+      "reviewedBy": "Responsável pelo projeto — aprovação no chat Codex",
+      "reviewedAt": "2026-10-14T22:09:26.000Z",
+      "contentHash": "0644eca812738cf66f7832029e3c64aa45f0855364a4ac62f534b37af6dccfdd"
     },
     "questions": [
       {
@@ -589,7 +595,7 @@
             "alt": "Uma criança acima de uma linha de chão, com os dois pés sem contato com o chão, durante um pulo."
           },
           "audio": {
-            "assetId": "infantil-5-corpo-em-movimento.pular.audio",
+            "assetId": "infantil-5-corpo-em-movimento.pular.audio.dora-v2",
             "transcript": "Uma criança sai do chão e volta com os dois pés. Que movimento é esse? Alternativa A: Sentar. Alternativa B: Engatinhar. Alternativa C: Pular."
           }
         },
@@ -621,7 +627,7 @@
             "alt": "Uma criança caminha sobre uma linha no chão com os braços abertos, em espaço livre."
           },
           "audio": {
-            "assetId": "infantil-5-corpo-em-movimento.equilibrio.audio",
+            "assetId": "infantil-5-corpo-em-movimento.equilibrio.audio.dora-v2",
             "transcript": "A criança caminha devagar sobre uma linha no chão, com os braços abertos. O que ela está praticando? Alternativa A: Equilíbrio. Alternativa B: Sono. Alternativa C: Pintura."
           }
         }
@@ -652,7 +658,7 @@
             "alt": "Três crianças lado a lado: à esquerda uma está sentada, no meio uma estica os braços para o alto e à direita uma engatinha."
           },
           "audio": {
-            "assetId": "infantil-5-corpo-em-movimento.alongar.audio",
+            "assetId": "infantil-5-corpo-em-movimento.alongar.audio.dora-v2",
             "transcript": "Qual desenho mostra uma criança esticando os braços para o alto? Alternativa A: O desenho de quem está sentado. Alternativa B: O desenho de quem está com os braços para o alto. Alternativa C: O desenho de quem está engatinhando."
           }
         }

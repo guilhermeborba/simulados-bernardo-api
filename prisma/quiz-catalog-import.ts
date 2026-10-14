@@ -26,6 +26,8 @@ interface References {
 export interface QuizImportOptions {
   authorEmail: string;
   publishReviewed?: boolean;
+  /** Seed-only: install the current baseline when an activity has no stored versions. */
+  bootstrapLatestVersions?: boolean;
 }
 export interface QuizImportResult {
   created: number;
@@ -321,9 +323,13 @@ export async function importQuizCatalog(
                   `Conteúdo de ${quiz.activityKey} v${quiz.contentVersion} diverge do banco; crie uma nova versão.`,
                 );
             } else {
+              const previousVersion = latest.get(quiz.activityKey);
+              const bootstrap =
+                previousVersion === undefined &&
+                options.bootstrapLatestVersions === true;
               if (
-                quiz.contentVersion !==
-                (latest.get(quiz.activityKey) ?? 0) + 1
+                !bootstrap &&
+                quiz.contentVersion !== (previousVersion ?? 0) + 1
               )
                 error(
                   `Versão de ${quiz.activityKey} deve ser consecutiva à última versão existente.`,
