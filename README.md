@@ -22,7 +22,7 @@ Os cinco segmentos estão contemplados: Educação Infantil, Fundamental I, Fund
 - Aplicação das migrations e implantação das versões compatíveis no ambiente operacional escolhido.
 - Validação com pessoas, leitor de tela e aparelhos Android/iOS reais. Chromium mobile emulado não substitui esses testes.
 
-O próximo lote técnico é **11 — prova e planejamento mobile**, ainda não iniciado. O app e o beta permanecem futuros. Consulte [PROGRESS.md](PROGRESS.md) para o registro consolidado de entregas e pendências.
+O **lote 11 está em andamento**, com protótipo Expo, contratos públicos compartilhados, prova automatizada e plano preliminar; a validação física continua pendente. O app e o beta permanecem futuros. Consulte [PROGRESS.md](PROGRESS.md) para o registro consolidado de entregas e pendências.
 
 ## Stack e arquitetura
 
@@ -141,5 +141,6 @@ npm run test:integration
 | [Coleções e conquistas](docs/guia-colecoes-conquistas.md) | Avatar e itens cosméticos |
 | [Habilidades e revisão](docs/guia-habilidades-revisao.md) | Classificação, evidências e prática |
 | [Permissões](docs/guia-permissoes.md) e [acesso/recuperação](docs/guia-acesso-recuperacao.md) | Vínculos, sessão e Resend |
+| [Prova mobile](docs/guia-prova-mobile.md) e [plano mobile/beta](docs/superpowers/plans/2026-10-13-mobile-proof-and-beta-plan.md) | Protótipo, sessão, matriz física e backlog preliminar |
 | [CI/regressão](docs/guia-ci-regressao.md) e [deploy](docs/guia-deploy.md) | Validação isolada e operação |
 | [ADRs](docs/decisions/) | Decisões arquiteturais e suas consequências |

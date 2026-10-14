@@ -190,7 +190,8 @@ Critério de aceite:
 - [ ] Configurar Resend com chave e remetente verificado; validar entrega real de forma controlada.
 - [ ] Definir proxy/perímetro confiável para o limite de recuperação, atualmente compartilhado pelos navegadores via BFF.
 - [ ] Validar usabilidade por segmento, com adulto na Infantil, leitor de tela e aparelhos reais.
-- [ ] Lote 11: executar prova e planejamento mobile; framework e escopo definitivo ainda não escolhidos.
+- [x] Lote 11, parte automatizada: protótipo Expo, tipos públicos compartilhados, sessão/adaptadores/links, integração real, bundles Android/iOS e prebuild.
+- [ ] Lote 11, aceite físico: builds próprios e matriz Android/iPhone reais; decisão Expo provisória e prioridade de plataformas aguardando confirmação.
 - [ ] Lote 12: construir app e beta após a decisão técnica e os gates necessários.
 
 Aceite técnico não publica conteúdo automaticamente. Os catálogos preparados permanecem `PENDING`, e nenhuma migration/seed/deploy em banco existente foi executada pelas validações descritas aqui.

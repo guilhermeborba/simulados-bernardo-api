@@ -2,7 +2,7 @@
 
 Data do planejamento: 2026-10-12
 Atualização do estado: 2026-10-13
-Status: lotes 01 a 10 implementados e integrados à main; ativação de e-mail real, revisão/publicação editorial e validação humana pendentes; próximo lote técnico 11 — prova e planejamento mobile
+Status: lotes 01 a 10 implementados e integrados à main; ativação de e-mail real, revisão/publicação editorial e validação humana pendentes; lote 11 em andamento — protótipo e prova automatizada, aceite físico pendente
 Escopo confirmado: **todos os públicos desde o primeiro lançamento**.
 
 ## 1. Resultado esperado
@@ -11,7 +11,7 @@ Transformar o Simulados Bernardo em uma plataforma de prática e avaliação. O 
 
 A primeira versão de quizzes deve atender Educação Infantil, Fundamental I, Fundamental II, Ensino Médio e Enfermagem. A mesma API sustenta experiências com linguagem e apresentação adequadas a cada segmento. O catálogo inicial terá cobertura mínima de todas as faixas; a ampliação para todas as disciplinas e temas será contínua.
 
-Este documento define entregas, decisões propostas, dependências e critérios de aceite. Os lotes 01–10 registram a implementação técnica entregue; revisão/publicação editorial, ativação e validação humana ainda são critérios de lançamento. Os lotes 11–12 permanecem planejados. Ele não autoriza deploy ou publicação em lojas.
+Este documento define entregas, decisões propostas, dependências e critérios de aceite. Os lotes 01–10 registram a implementação técnica entregue; revisão/publicação editorial, ativação e validação humana ainda são critérios de lançamento. O lote 11 tem protótipo e prova automatizada, com aceite físico pendente; o lote 12 permanece planejado. Ele não autoriza deploy ou publicação em lojas.
 
 ## 2. Diagnóstico inicial e evolução verificada
 
@@ -86,6 +86,14 @@ A API acrescenta `GET/PATCH /me/learning-preferences`, por conta ativa, com filt
 Fechamento da validação do lote 06: **409 testes unitários e 214 de integração API/PostgreSQL**, **30 testes de sessão web e 16 jornadas HTTP Next/BFF/API/PostgreSQL** passaram. Builds API/web, lint da API e Prisma validate passaram; **24 testes Chromium desktop/mobile emulado** validaram os cinco segmentos, teclado, axe, fallback, retomada, perda de respostas e isolamento de sessão/preferências. Bundles de quiz foram inspecionados sem gabaritos, identificadores privados de mídia ou fixtures sintéticas; simulados e quizzes também passaram em dry-run. Não houve migration em banco existente, seed em produção, publicação editorial ou deploy.
 
 Usabilidade com pessoas, leitor de tela e aparelhos reais, incluindo Infantil com adulto, permanece pendente. O catálogo de 45 quizzes/213 perguntas continua PENDING e não foi publicado. Naquele fechamento, a implementação técnica permitia avançar ao lote 07, entregue posteriormente; o lançamento nas 15 faixas continua condicionado à revisão/publicação e validação humana.
+
+### Execução parcial do lote 11 — 13/10/2026
+
+Protótipo Expo 57.0.28/RN 0.86.3/React 19.2.3 no repositório web, com dependências isoladas, sessão Bearer, storage/mídia nativos e telas conectadas. Os 39 tipos públicos agora são compartilhados em `packages/api-contracts`; não há imports de DTOs Nest/Prisma no bundle nem geração a partir do Swagger incompleto.
+
+A prova automatizada tem 57 testes (34 núcleo, 20 adaptadores, 3 links), 7 de telas e 12 casos reais cliente/Nest/PostgreSQL, typecheck e compatibilidade SDK; bundles Android/iOS e projetos de prebuild foram gerados. Os fluxos de simulados permanecem na web neste protótipo, sem transferência de Bearer. Não foram criados APK/IPA assinados nem testados aparelhos físicos.
+
+A decisão Expo é **provisória** e o lote 11 permanece aberto até a matriz física nas plataformas previstas. Android primeiro foi confirmado pelo usuário; disponibilidade dos aparelhos ainda aguarda resposta. O aceite físico prioriza Android, com validação iPhone antes do beta iOS. Backlog e estimativas preliminares do beta estão no [plano dedicado](2026-10-13-mobile-proof-and-beta-plan.md); execução/limites no [guia](../../guia-prova-mobile.md) e [ADR 015](../../decisions/015-prova-mobile-e-contratos-compartilhados.md). Não houve cloud build, publicação em loja, seed editorial ou deploy.
 
 ## 3. Experiência e catálogo inicial para todos os públicos
 
@@ -213,15 +221,21 @@ Missões semanais abrem segunda-feira 00:00 e encerram na segunda seguinte no me
 
 ### Etapa 4 — Planejamento e prova técnica mobile
 
-- [ ] Definir prioridade de lançamento Android/iOS conforme aparelhos dos usuários; preparar arquitetura para ambos.
-- [ ] Produzir protótipo das telas: login, Aprender hoje, catálogo, quiz/feedback, simulados, progresso e perfil.
-- [ ] Testar React Native + Expo como primeira opção, considerando o uso atual de React/TypeScript e a documentação oficial; registrar a decisão em ADR após a prova.
-- [ ] Validar cliente direto da API com Bearer: access em memória e refresh em armazenamento seguro do dispositivo.
-- [ ] Testar renovação serializada por sessão, rotação, logout e ausência de credencial após reinstalação/restauração.
+- [x] Priorizar Android no primeiro beta, conforme resposta do usuário; preparar arquitetura para ambos.
+- [ ] Identificar aparelho Android real disponível e executar a matriz; reservar a validação iPhone antes do beta iOS.
+- [x] Produzir protótipo nativo: login, Aprender hoje, catálogo, quiz/feedback, simulados com abertura na web, progresso, perfil, histórico e acompanhamento.
+- [x] Preparar a candidata Expo/RN, validar tipos, bundles e prebuild; registrar decisão provisória no ADR 015.
+- [ ] Confirmar/rever a decisão depois da prova em aparelhos reais.
+- [x] Validar o cliente direto Bearer com a API real e implementar access em memória/refresh no adaptador SecureStore.
+- [ ] Comprovar SecureStore/Keychain/Keystore e política de reinstalação/restauração nos aparelhos.
+- [x] Testar protocolo de renovação única/rotação/logout, marcador de instalação, JSON/mídia limitados e isolamento com adaptadores controlados.
+- [ ] Executar os cenários de suspensão/reabertura, storage e reinstalação no sistema real.
 - [ ] Validar suspensão/reabertura do app, link de convite, retomada e perda de rede depois de confirmar e antes de receber feedback.
 - [ ] Executar os fluxos críticos em aparelho real Android e iOS para as plataformas previstas no lançamento.
-- [ ] Definir DTOs/OpenAPI e tipos compartilháveis; componentes HTML/CSS da web precisam de implementação nativa.
-- [ ] Definir distribuição de beta, contas de loja, suporte, requisitos de publicação e custos antes da construção completa.
+- [x] Extrair 39 tipos públicos independentes de plataforma e reexportá-los pela web; documentar limites do OpenAPI atual e telas nativas próprias.
+- [ ] Completar especificação OpenAPI/validação de contrato para geração de SDK no beta.
+- [x] Registrar opções de distribuição, requisitos e custos consultados; preparar backlog preliminar.
+- [ ] Confirmar canal, titularidade de contas/assinatura e suporte; reestimar após a matriz física.
 
 **Saída concreta:** ADR mobile, mapa de telas, resultados da prova de sessão/retomada, checklist de publicação e backlog estimado por plataforma. A web mantém seu BFF com cookies httpOnly; o app usa a mesma API e regras.
 
@@ -330,10 +344,10 @@ Os lotes 03 e 04 implementam autoria, catálogo, versões, início/retomada, con
 | 08 | Avatar, coleções e conquistas — implementado | Catálogos, ownership, UI por segmento | Personalização persistida sem afetar notas |
 | 09 | Habilidades e revisão — implementado; revisão editorial pendente | Conteúdo classificado, serviços e relatórios | Revisão útil e evidências separadas |
 | 10 | Acesso docente/responsável e recuperação — implementação técnica concluída | TeacherTurma, guards/services, painel e Resend | Relatórios restritos e recuperação validados localmente; ativação de e-mail real pendente |
-| 11 | Prova mobile — não iniciada | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
+| 11 | Prova mobile — protótipo/prova automatizada; aceite físico pendente | Protótipo, clientes de sessão, Android/iOS e ADR | Backlog mobile reestimado a partir de aparelhos reais |
 | 12 | App/beta — não iniciado | Telas nativas, integração e testes | Paridade de progresso e critérios do beta atendidos |
 
-Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes. O lote 06 implementa jornada web e preferências ([ADR 010](../../decisions/010-preferencias-de-aprendizagem-por-conta.md)); os lotes 07–10 entregaram missões, XP, coleção, habilidades/revisão e acompanhamento/recuperação. Todas essas implementações estão integradas à main; o próximo lote técnico é 11, sem dispensar validação humana, editorial e ativação operacional.
+Lotes 03 e 04 implementados: [ADR 007](../../decisions/007-quizzes-versionados-e-snapshots-privados.md), [ADR 008](../../decisions/008-confirmacao-e-resultado-idempotente-de-quiz.md) e [contratos/migração](../../guia-quizzes.md). A implementação técnica do lote 05 está validada no [ADR 009](../../decisions/009-catalogo-editorial-e-midia-versionada-de-quiz.md), com revisão/publicação pendentes. O lote 06 implementa jornada web e preferências ([ADR 010](../../decisions/010-preferencias-de-aprendizagem-por-conta.md)); os lotes 07–10 entregaram missões, XP, coleção, habilidades/revisão e acompanhamento/recuperação. Todas essas implementações estão integradas à main; o lote 11 está em andamento e mantém os gates físicos, humanos, editoriais e operacionais.
 
 Lotes 03–06 formam a primeira entrega de quizzes; 07–08 formam a entrega de gamificação. Design e curadoria começam no lote 02 e seguem em paralelo ao backend. Planejamento mobile começa quando a experiência da etapa 2 estiver validada.
 
@@ -378,7 +392,8 @@ Coletar uma linha de base antes de definir metas numéricas de engajamento. Para
 - [x] Sessões web de contas distintas permanecem isoladas.
 - [x] API mantém preferências isoladas por usuário, com PATCH concorrente e validação de conta ativa.
 - [x] Validar troca de conta da jornada web e respostas atrasadas — lotes 06–10.
-- [ ] Reproduzir esse isolamento na prova e implementação mobile.
+- [x] Reproduzir isolamento no cliente mobile com testes de sessão, adaptadores e API real.
+- [ ] Comprovar esse isolamento nas instalações Android/iOS reais.
 - [x] Infantil funciona com mídia indisponível e com áudio/movimento desativados em Chromium desktop/mobile emulado.
 - [ ] Fluxos Android/iOS tratam suspensão, refresh, perda de rede, reinstalação e link de convite.
 - [x] Relatórios de responsável/docente respeitam vínculos atuais e recorte de turmas.
@@ -409,7 +424,7 @@ Offline exige estratégia de sincronização de respostas e recompensas com corr
 
 ## 12. Próxima tarefa de implementação
 
-Os lotes 01 a 04 estão concluídos; lotes 05 a 08 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões, XP e coleção pessoal. O lote 08 acrescenta cinco conquistas verificadas no servidor, seis itens cosméticos e apresentação persistida AUTO/MASCOT/SEAL, com Bolinha no Infantil e selos nas faixas mais velhas. Concessões são atômicas e preservam notas, ranking e regras de XP; a migration recupera apenas progresso válido do lote 07. O lote 09 entrega progresso por habilidade e revisão orientada, separando primeiras respostas, repetições e revisões; REVIEW não concede XP, missões ou itens. O catálogo propõe 45 habilidades e classifica as 213 perguntas, ainda PENDING. O lote 10 entrega acompanhamento docente/responsável por vínculos atuais, relatórios restritos e recuperação com Resend/versão de sessão. Ativação real do e-mail segue pendente. A próxima tarefa técnica é o **lote 11: prova e planejamento mobile**, com validação em aparelhos reais antes de reestimar o app. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
+Os lotes 01 a 04 estão concluídos; lotes 05 a 08 implementam tecnicamente catálogo/mídia, jornada web/preferências, missões, XP e coleção pessoal. O lote 08 acrescenta cinco conquistas verificadas no servidor, seis itens cosméticos e apresentação persistida AUTO/MASCOT/SEAL, com Bolinha no Infantil e selos nas faixas mais velhas. Concessões são atômicas e preservam notas, ranking e regras de XP; a migration recupera apenas progresso válido do lote 07. O lote 09 entrega progresso por habilidade e revisão orientada, separando primeiras respostas, repetições e revisões; REVIEW não concede XP, missões ou itens. O catálogo propõe 45 habilidades e classifica as 213 perguntas, ainda PENDING. O lote 10 entrega acompanhamento docente/responsável por vínculos atuais, relatórios restritos e recuperação com Resend/versão de sessão. Ativação real do e-mail segue pendente. O **lote 11: prova e planejamento mobile** está em andamento, com protótipo e prova automatizada. A matriz física ainda é necessária para confirmar a arquitetura e reestimar o beta; o lote 12 não foi iniciado. A revisão editorial segue pendente e tem responsável definido: o usuário assumiu a revisão dos quizzes preparados em 2026-10-13. Os 30 rascunhos de missão também dependem de curadoria/publicação; nenhuma aprovação editorial foi inferida dessa atribuição.
 
 A revisão pedagógica/técnica dos 45 quizzes/213 perguntas e da mídia Infantil pode seguir em paralelo. Definir responsáveis, registrar somente aprovações reais e publicar no ambiente autorizado depois da revisão. O lançamento para todos os públicos continua condicionado a quizzes revisados/publicados e usabilidade validada com pessoas, leitor de tela e aparelhos reais; automação não encerra esses gates.
 
