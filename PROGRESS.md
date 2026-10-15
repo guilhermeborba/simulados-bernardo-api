@@ -270,6 +270,41 @@ Sessão própria mantém access em memória e refresh em SecureStore, com marcad
 **O lote 11 permanece aberto.** Nenhum APK/IPA foi assinado/distribuído e nenhum Android/iPhone físico foi validado. O AVD Pixel_10a disponível não foi executado. O usuário confirmou Android primeiro; os aparelhos disponíveis ainda aguardam resposta. O aceite físico Android fecha esta etapa; a matriz iPhone será exigida antes do beta iOS; a decisão Expo continua provisória até a matriz física. Lote 12 não iniciado. Conteúdo editorial permanece PENDING, Resend real desativado; não houve cloud build, compra/registro de loja, deploy ou alteração em banco existente.
 
 
+## Prévia local de catálogo e narração — 14/10/2026
+
+Criado runner opt-in `npm run preview:mobile:catalog`: PostgreSQL próprio em
+tmpfs/loopback, migrations e seed oficial do checkout, contas locais com senha
+aleatória em arquivo temporário 0600 e API em 127.0.0.1:3336. Não usa DATABASE_URL
+existente nem banco de produção. O acervo validado nessa primeira execução continha **588 simulados e
+17.684 questões**; **45 quizzes** foram importados como DRAFT e nenhum publicado.
+A realização dos simulados no protótipo mobile continua pela web local.
+
+Criada comparação de voz offline com `scripts/preview-quiz-voice.py`: original
+Microsoft Maria preservada, candidata Piper pt_BR-faber-medium em ritmo normal e
+pausado, com texto idêntico e metadados. Prévia depende da avaliação auditiva do
+usuário; os 18 áudios registrados, seus hashes e referências não foram alterados.
+As amostras não foram marcadas aprovadas nem incorporadas a quiz publicado.
+
+Procedimentos e limites no [guia da prévia](docs/preview-mobile-catalogo-e-voz.md).
+Não houve alteração em base existente, publicação editorial, envio real de e-mail
+ou deploy. Este ambiente não comprova igualdade com o banco de produção.
+
+Validação desta prévia: build da API, dry-run do seed, execução completa de
+`preview:mobile:catalog -- --check` (login, simulados visíveis, quizzes ocultos e
+limpeza), WAVs/imutabilidade e rejeição de porta inválida passaram. No emulador,
+a lista oficial e a primeira questão de um simulado de 30 questões abriram; o
+login da web foi validado separadamente do login nativo. As amostras Piper foram
+posteriormente substituídas pela escolha Dora, registrada abaixo.
+
+
+### Publicação do catálogo aprovado na prévia local — 14/10/2026
+
+O runner agora aceita `--publish-reviewed` explícito e um checkout compilado
+selecionado por `MOBILE_CATALOG_REPOSITORY`, permitindo validar o catálogo aprovado
+e a nova narração sem usar bancos existentes. O padrão continua sendo DRAFT.
+Quizzes pendentes continuam bloqueados pelo importador; a aprovação do responsável
+foi registrada na alteração complementar do catálogo. Não houve deploy.
+
 ## Aprovação dos quizzes, voz Dora e direção visual — 14/10/2026
 
 O responsável declarou que testou e aprovou os quizzes. Os 45 registros/213

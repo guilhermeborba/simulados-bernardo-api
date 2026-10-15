@@ -145,4 +145,6 @@ npm run test:integration
 | [CI/regressão](docs/guia-ci-regressao.md) e [deploy](docs/guia-deploy.md) | Validação isolada e operação |
 | [ADRs](docs/decisions/) | Decisões arquiteturais e suas consequências |
 
+Prévia local do [catálogo oficial e comparação de voz](docs/preview-mobile-catalogo-e-voz.md), com banco descartável, rascunhos por padrão e publicação local explícita do catálogo aprovado.
+
 [Aprovação dos quizzes e perfil de voz Dora](docs/aprovacao-quizzes-e-voz-dora.md); [redesign futuro do design system web/mobile](docs/superpowers/plans/2026-10-14-design-system-web-mobile.md).
