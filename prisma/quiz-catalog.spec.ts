@@ -404,8 +404,8 @@ describe('Quiz catalog validation and editorial review', () => {
     expect(inventory).toMatchObject({
       quizzes: 45,
       questions: 213,
-      pending: 45,
-      approved: 0,
+      pending: 0,
+      approved: 45,
     });
     expect(inventory.coverage.every((entry) => entry.quizzes === 3)).toBe(true);
     expect(

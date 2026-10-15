@@ -1,6 +1,6 @@
 # Quizzes — contratos, catálogo e mídia
 
-Atualizado após a implementação técnica dos lotes 03–10, em **13/10/2026**. Quizzes têm autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria, mídia de instrução, jornada web e preferências por conta. A plataforma também oferece [missões/XP](guia-missoes-xp.md), [avatar/conquistas](guia-colecoes-conquistas.md), [habilidades/REVIEW](guia-habilidades-revisao.md) e [acompanhamento autorizado](guia-acesso-recuperacao.md). O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, todos com revisão `PENDING`; nenhum foi importado em banco existente ou publicado pelas validações das entregas.
+Atualizado após a implementação técnica dos lotes 03–10, em **13/10/2026**. Quizzes têm autoria ADMIN, versões, início/retomada, confirmação, feedback persistido, resultado, importação própria, mídia de instrução, jornada web e preferências por conta. A plataforma também oferece [missões/XP](guia-missoes-xp.md), [avatar/conquistas](guia-colecoes-conquistas.md), [habilidades/REVIEW](guia-habilidades-revisao.md) e [acompanhamento autorizado](guia-acesso-recuperacao.md). O catálogo preparado contém 45 quizzes/213 perguntas nas 15 faixas, aprovados pelo responsável em 14/10/2026. O [registro editorial e da voz Dora](aprovacao-quizzes-e-voz-dora.md) vincula aprovação e hash; isso não equivale a deploy ou publicação em produção.
 
 ## Rotas implementadas
 
@@ -201,7 +201,7 @@ Nome, data e hash são ilustrativos. Use o `entries[].contentHash` da mesma chav
 npm run seed:quizzes:publish-reviewed
 ```
 
-Esse comando publica/cria somente depois de validar aprovação correspondente em **todas** as entradas do lote fornecido. O catálogo atual `PENDING` falha antes de qualquer gravação. Rascunhos idênticos podem ser publicados; versões arquivadas/excluídas continuam preservadas. A API `PATCH /quizzes/:id/publish` continua sendo uma ação administrativa explícita com validação de conteúdo; ela não lê o estado de revisão dos JSONs. Não usar essa rota para contornar a revisão editorial.
+Esse comando publica/cria somente depois de validar aprovação correspondente em **todas** as entradas do lote fornecido. Entradas `PENDING` falham antes de qualquer gravação. O catálogo aprovado deve conservar o hash correspondente ao conteúdo revisado. Rascunhos idênticos podem ser publicados; versões arquivadas/excluídas continuam preservadas. A API `PATCH /quizzes/:id/publish` continua sendo uma ação administrativa explícita com validação de conteúdo; ela não lê o estado de revisão dos JSONs. Não usar essa rota para contornar a revisão editorial.
 
 ## Confirmação e feedback do quiz
 

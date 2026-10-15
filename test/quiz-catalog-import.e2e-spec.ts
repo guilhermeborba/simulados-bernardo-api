@@ -196,7 +196,7 @@ describe('Atomic versioned quiz catalog import (real Nest + PostgreSQL)', () => 
           data: { name: `Synthetic ${slug}`, slug },
         });
     }
-    const options = { authorEmail };
+    const options = { authorEmail, bootstrapLatestVersions: true };
     expect(await importQuizCatalog(prisma, catalog, options)).toEqual({
       created: 45,
       unchanged: 0,
@@ -244,6 +244,50 @@ describe('Atomic versioned quiz catalog import (real Nest + PostgreSQL)', () => 
     expect((await http('get', '/quizzes/available').expect(200)).body).toEqual(
       [],
     );
+  });
+  it('requires explicit bootstrap for a current baseline and still rejects gaps afterwards', async () => {
+    const baseline = fixture('baseline', { contentVersion: 2 });
+    const catalog = validateQuizCatalog([baseline]);
+    await expect(
+      importQuizCatalog(prisma, catalog, { authorEmail }),
+    ).rejects.toThrow('consecutiva');
+    expect(await prisma.simulation.count()).toBe(0);
+    const options = { authorEmail, bootstrapLatestVersions: true };
+    expect(await importQuizCatalog(prisma, catalog, options)).toEqual({
+      created: 1,
+      unchanged: 0,
+      published: 0,
+    });
+    const before = await saved('baseline', 2);
+    await expect(
+      importQuizCatalog(
+        prisma,
+        validateQuizCatalog([
+          fixture('a-new'),
+          fixture('baseline', { contentVersion: 4 }),
+        ]),
+        options,
+      ),
+    ).rejects.toThrow('consecutiva');
+    expect(await prisma.simulation.count()).toBe(1);
+    expect(await saved('baseline', 2)).toEqual(before);
+    await expect(
+      importQuizCatalog(
+        prisma,
+        validateQuizCatalog([
+          fixture('baseline', { contentVersion: 2, title: 'Changed' }),
+        ]),
+        options,
+      ),
+    ).rejects.toThrow('nova versão');
+    expect(await saved('baseline', 2)).toEqual(before);
+    expect(
+      await importQuizCatalog(
+        prisma,
+        validateQuizCatalog([fixture('baseline', { contentVersion: 3 })]),
+        options,
+      ),
+    ).toEqual({ created: 1, unchanged: 0, published: 0 });
   });
   it('publishes only a fully reviewed batch with a valid hash', async () => {
     const input = approve(fixture());

@@ -5,7 +5,7 @@
 
 ## Status geral
 
-As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana e publicação continuam pendentes. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O lote 11 está em andamento com protótipo Expo e prova automatizada; o aceite em aparelhos reais continua pendente, assim como ativação de e-mail real, revisão editorial e validação humana de uso continuam pendentes.
+As 6 fases do plano original do backend foram implementadas, e a **integração web/API já existe no código atual**. O foco passa a incluir quizzes, missões, recompensas, revisão de dificuldades e preparação do app mobile, mantendo a expansão de conteúdo. Os lotes 01 e 02 validam sessões, acervo e fluxos existentes com regressão automatizada e CI. O lote 03 acrescenta autoria, versões e snapshots privados de quiz; o lote 04 implementa confirmação, feedback imediato e resultado idempotente. O lote 05 entrega importação e mídia, com 45 quizzes preparados nas 15 faixas; revisão humana aprovada em 14/10/2026 e publicação por ambiente ainda necessária. O lote 06 implementa a jornada web de quiz, o BFF de mídia e preferências por conta. O lote 07 acrescenta missões semanais, XP transacional e Aprender hoje. O lote 08 acrescenta avatar, coleções e conquistas. O lote 09 acrescenta habilidades, evidências separadas e revisão de dificuldades. O lote 10 implementa acompanhamento por vínculos atuais e recuperação de senha com Resend. O lote 11 está em andamento com protótipo Expo e prova automatizada; o aceite em aparelhos reais continua pendente, assim como ativação de e-mail real e validação humana de uso. O responsável aprovou os 45 quizzes em 14/10/2026 e definiu o futuro redesign completo web/mobile.
 
 
 ## Entregas da evolução — posição em 13/10/2026
@@ -41,7 +41,7 @@ As CIs de implementação passaram: [API — execução 38438311892](https://git
 
 | Frente | Estado e próxima ação |
 |---|---|
-| Editorial de quizzes | **45 quizzes / 213 perguntas nas 15 faixas, todos PENDING**. O responsável pelo projeto assumiu a revisão; registrar somente avaliações realizadas e publicar depois da aprovação |
+| Editorial de quizzes | **45 quizzes / 213 perguntas aprovados pelo responsável em 14/10/2026**. Aprovação e hashes registrados; publicação pelo fluxo editorial, sem deploy presumido |
 | Habilidades e classificações | **45 habilidades / 213 classificações PENDING**. Revisar objetivos e vínculos antes de publicar quizzes classificados |
 | Missões | **30 rascunhos PENDING**, dois por faixa. Curar as semanas e publicar após disponibilizar os quizzes correspondentes |
 | Recuperação de senha | Resend desativado por padrão. Configurar chave/remetente verificado e validar entrega real em ambiente autorizado |
@@ -275,7 +275,7 @@ Sessão própria mantém access em memória e refresh em SecureStore, com marcad
 Criado runner opt-in `npm run preview:mobile:catalog`: PostgreSQL próprio em
 tmpfs/loopback, migrations e seed oficial do checkout, contas locais com senha
 aleatória em arquivo temporário 0600 e API em 127.0.0.1:3336. Não usa DATABASE_URL
-existente nem banco de produção. O acervo validado contém **588 simulados e
+existente nem banco de produção. O acervo validado nessa primeira execução continha **588 simulados e
 17.684 questões**; **45 quizzes** foram importados como DRAFT e nenhum publicado.
 A realização dos simulados no protótipo mobile continua pela web local.
 
@@ -293,8 +293,8 @@ Validação desta prévia: build da API, dry-run do seed, execução completa de
 `preview:mobile:catalog -- --check` (login, simulados visíveis, quizzes ocultos e
 limpeza), WAVs/imutabilidade e rejeição de porta inválida passaram. No emulador,
 a lista oficial e a primeira questão de um simulado de 30 questões abriram; o
-login da web foi validado separadamente do login nativo. As amostras de voz
-continuam aguardando a preferência do usuário.
+login da web foi validado separadamente do login nativo. As amostras Piper foram
+posteriormente substituídas pela escolha Dora, registrada abaixo.
 
 
 ### Publicação do catálogo aprovado na prévia local — 14/10/2026
@@ -304,3 +304,21 @@ selecionado por `MOBILE_CATALOG_REPOSITORY`, permitindo validar o catálogo apro
 e a nova narração sem usar bancos existentes. O padrão continua sendo DRAFT.
 Quizzes pendentes continuam bloqueados pelo importador; a aprovação do responsável
 foi registrada na alteração complementar do catálogo. Não houve deploy.
+
+## Aprovação dos quizzes, voz Dora e direção visual — 14/10/2026
+
+O responsável declarou que testou e aprovou os quizzes. Os 45 registros/213
+perguntas têm APPROVED, data, responsável e hash. Os 18 áudios do Infantil usam
+Dora pt-BR no ritmo mais lento escolhido (speed 0.86); seus seis quizzes passam
+à v2. Arquivos antigos e transcrições foram preservados. As propostas de
+habilidades/classificações e missões continuam PENDING; só seus vínculos com as
+versões/hashes novos foram ajustados.
+
+O layout atual permanece para validação funcional. Foi definida uma futura
+**refação completa do design system para web + mobile**, incluindo fundações,
+componentes, jornadas e migração. As estimativas anteriores de beta precisam
+ser revistas para incorporar esse escopo; não houve redesign nesta entrega.
+
+Referências: [aprovação e narração](docs/aprovacao-quizzes-e-voz-dora.md) e
+[plano do design system](docs/superpowers/plans/2026-10-14-design-system-web-mobile.md).
+A aprovação não representa publicação em produção, deploy ou aceite físico.

@@ -42,6 +42,7 @@ async function main() {
   try {
     const result = await importQuizCatalog(prisma, catalog, {
       authorEmail,
+      bootstrapLatestVersions: true,
       publishReviewed: process.env.SEED_QUIZZES_PUBLISH_REVIEWED === 'true',
     });
     console.log(
