@@ -5,7 +5,7 @@ import { JwtService, JwtSignOptions } from '@nestjs/jwt';
 import { Prisma, User, UserRole, UserStatus } from '@prisma/client';
 import { compare, hash } from 'bcryptjs';
 import { PrismaService } from '../../database/prisma/prisma.service';
-import { SafeUser } from '../users/users.presenter';
+import { MeResponse, SafeUser } from '../users/users.presenter';
 import { TurmasService } from '../turmas/turmas.service';
 import { UsersService } from '../users/users.service';
 import { LoginDto } from './dto/login.dto';
@@ -170,9 +170,13 @@ export class AuthService {
     return { success: true };
   }
 
-  async getMe(userId: string): Promise<SafeUser> {
+  async getMe(userId: string): Promise<MeResponse> {
     const user = await this.usersService.findByIdOrThrow(userId);
-    return this.usersService.toSafeUser(user);
+    const turmas = await this.turmasService.listMyTurmas(user);
+    return {
+      ...this.usersService.toSafeUser(user),
+      turmas: turmas.map((t) => ({ id: t.id, slug: t.slug, name: t.name })),
+    };
   }
 
   private async createTokenPair(
