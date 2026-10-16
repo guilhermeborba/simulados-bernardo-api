@@ -11,6 +11,10 @@ export interface SafeUser {
   lastLoginAt: Date | null;
 }
 
+export interface MeResponse extends SafeUser {
+  turmas: { id: string; slug: string; name: string }[];
+}
+
 export function toSafeUser(user: User): SafeUser {
   return {
     id: user.id,
