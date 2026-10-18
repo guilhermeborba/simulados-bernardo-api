@@ -367,7 +367,7 @@ describe('Contrato de questões para importação', () => {
 });
 
 describe('Dry-run do acervo rastreado', () => {
-  it('não instancia Prisma nem usa DATABASE_URL; o backlog mantém 192 referências explícitas', async () => {
+  it('não instancia Prisma nem usa DATABASE_URL; o acervo publicável não tem backlog pendente', async () => {
     const savedEnv = {
       dry: process.env.SEED_DRY_RUN,
       inventory: process.env.SEED_INVENTORY,
@@ -381,10 +381,9 @@ describe('Dry-run do acervo rastreado', () => {
         'postgresql://invalid:invalid@127.0.0.1:1/not-used';
       await main();
       expect(PrismaClient).not.toHaveBeenCalled();
-      expect(seedBacklog).toHaveLength(192);
-      expect(new Set(seedBacklog.map((entry) => entry.file)).size).toBe(192);
+      expect(seedBacklog).toEqual([]);
       expect(log).toHaveBeenCalledWith(
-        expect.stringContaining('simulados não importados'),
+        'Dry run concluído: 19 disciplinas, 780 simulados e 23444 questões carregadas. Backlog editorial: 0 simulados não importados.',
       );
     } finally {
       for (const [key, value] of Object.entries({

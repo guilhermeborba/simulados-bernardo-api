@@ -8,7 +8,7 @@ export default defineRailway(() => {
     source: github("guilhermeborba/simulados-bernardo-api", { checkSuites: false }),
     build: "npm run build",
     start: "npx prisma migrate deploy && npm run start:prod",
-    preDeploy: "npx prisma migrate deploy && npm run seed",
+    preDeploy: "npx prisma migrate deploy",
     replicas: { "sfo": 1 },
     env: { API_DOCS_ENABLED: preserve(), DATABASE_URL: preserve(), FRONTEND_URL: preserve(), JWT_ACCESS_EXPIRES_IN: preserve(), JWT_ACCESS_SECRET: preserve(), JWT_REFRESH_EXPIRES_IN: preserve(), JWT_REFRESH_SECRET: preserve(), NODE_ENV: preserve(), POSTGRES_DB: preserve(), POSTGRES_PASSWORD: preserve(), POSTGRES_USER: preserve(), RATE_LIMIT_MAX: preserve(), RATE_LIMIT_TTL_MS: preserve() },
   });
