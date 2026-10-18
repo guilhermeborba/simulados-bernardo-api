@@ -23,6 +23,7 @@ import {
   equivalentAnswer,
   normalizeSimulationAnswer,
   publicOptions,
+  snapshotClassificationMode,
   type SimulationSnapshot,
 } from './simulation-feedback.contract';
 
@@ -166,6 +167,7 @@ export class SimulationFeedbackService {
           !equivalentAnswer(
             normalizeSimulationAnswer(snapshot, previous.answer),
             answer,
+            snapshotClassificationMode(snapshot),
           )
         )
           throw new ConflictException('This answer has already been confirmed');
@@ -408,6 +410,7 @@ export class SimulationFeedbackService {
     return {
       id: snapshot.questionId,
       type: snapshot.type,
+      classificationMode: snapshotClassificationMode(snapshot),
       statement: snapshot.statement,
       theme: snapshot.theme,
       tip: confirmation?.feedback.tip ?? null,

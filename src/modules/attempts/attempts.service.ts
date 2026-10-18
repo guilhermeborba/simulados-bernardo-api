@@ -18,6 +18,7 @@ import { assertQuizContentReady } from '../quizzes/quiz-content.validation';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 import { SimulationFeedbackService } from './simulation-feedback.service';
+import { classificationMode } from './simulation-feedback.contract';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import {
   LearningSkillsService,
@@ -277,6 +278,7 @@ export class AttemptsService {
         deletedAt: null,
       },
       include: {
+        answers: { select: { answerValue: true } },
         options: {
           orderBy: { sortOrder: 'asc' },
         },
@@ -292,6 +294,7 @@ export class AttemptsService {
     return questions.map((question) => ({
       id: question.id,
       type: question.type,
+      classificationMode: classificationMode(question.type, question.answers),
       statement: question.statement,
       tip: question.tip,
       funFact: question.funFact,
@@ -511,6 +514,7 @@ export class AttemptsService {
         deletedAt: null,
       },
       include: {
+        answers: { select: { answerValue: true } },
         attemptAnswers: {
           where: { attemptId },
         },
@@ -526,6 +530,7 @@ export class AttemptsService {
         return {
           id: question.id,
           type: question.type,
+          classificationMode: classificationMode(question.type, question.answers),
           statement: question.statement,
           tip: question.tip,
           funFact: question.funFact,

@@ -86,6 +86,32 @@ export function officialAnswers(
   });
 }
 
+export type ClassificationMode = 'CP' | 'TEXT';
+
+/** The mode is public; the private values used to derive it remain server-only. */
+export function classificationMode(
+  type: QuestionType,
+  answers: ReadonlyArray<{ answerValue: string }>,
+): ClassificationMode | undefined {
+  if (type !== QuestionType.CLASSIFICATION) return undefined;
+  return answers.length > 0 &&
+    answers.every((answer) =>
+      ['C', 'P'].includes(answer.answerValue.trim().toUpperCase()),
+    )
+    ? 'CP'
+    : 'TEXT';
+}
+
+export function snapshotClassificationMode(
+  snapshot: SimulationSnapshot,
+): ClassificationMode | undefined {
+  if (snapshot.type !== QuestionType.CLASSIFICATION) return undefined;
+  return classificationMode(
+    snapshot.type,
+    officialAnswers(snapshot.officialAnswers),
+  );
+}
+
 /** Canonical forms are identical to the existing simulation correction bodies.
  * Blank is {}. Only a complete selection or an explicit blank is confirmable. */
 export function normalizeSimulationAnswer(
@@ -128,9 +154,17 @@ export function normalizeSimulationAnswer(
     throw new BadRequestException(
       'Answer every item or leave the question blank',
     );
+  const textClassification = snapshotClassificationMode(snapshot) === 'TEXT';
   return Object.fromEntries(
     items.sort().map((id) => {
       const raw = selected[id];
+      if (textClassification) {
+        if (typeof raw !== 'string' || !raw.trim() || raw.length > 2000)
+          throw new BadRequestException(
+            'Text answers must contain 1 to 2000 characters',
+          );
+        return [id, raw.trim()];
+      }
       if (!['string', 'number', 'boolean'].includes(typeof raw))
         throw new BadRequestException('Invalid answer value');
       const value = String(raw).trim();
@@ -199,9 +233,14 @@ export function canonicalOfficialAnswers(
 export function equivalentAnswer(
   a: Record<string, string>,
   b: Record<string, string>,
+  mode?: ClassificationMode,
 ): boolean {
   return (
     Object.keys(a).length === Object.keys(b).length &&
-    Object.entries(a).every(([key, value]) => b[key] === value)
+    Object.entries(a).every(([key, value]) =>
+      mode === 'TEXT'
+        ? typeof b[key] === 'string' && normalized(b[key]) === normalized(value)
+        : b[key] === value,
+    )
   );
 }

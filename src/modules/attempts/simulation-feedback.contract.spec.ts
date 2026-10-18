@@ -2,6 +2,8 @@ import { BadRequestException } from '@nestjs/common';
 import { Prisma, QuestionType } from '@prisma/client';
 import {
   canonicalOfficialAnswers,
+  classificationMode,
+  snapshotClassificationMode,
   correctAnswer,
   equivalentAnswer,
   normalizeSimulationAnswer,
@@ -133,6 +135,57 @@ describe('Simulation confirmation canonical contract', () => {
       );
     },
   );
+  it('derives classification mode without changing private text or its casing', () => {
+    const cp = snapshot(QuestionType.CLASSIFICATION);
+    expect(snapshotClassificationMode(cp)).toBe('CP');
+    expect(
+      classificationMode(QuestionType.MULTIPLE_CHOICE, []),
+    ).toBeUndefined();
+    const text = {
+      ...cp,
+      officialAnswers: [
+        { answerKey: 'x', answerValue: 'Bernardo,Brasil,Florianópolis' },
+        { answerKey: 'y', answerValue: 'cadeira,cachorro,escola' },
+      ],
+    };
+    expect(snapshotClassificationMode(text)).toBe('TEXT');
+    expect(correctAnswer(text)).toEqual({
+      x: 'Bernardo,Brasil,Florianópolis',
+      y: 'cadeira,cachorro,escola',
+    });
+    expect(
+      normalizeSimulationAnswer(text, {
+        answers: {
+          x: ' Bernardo,Brasil,Florianópolis ',
+          y: 'CADEIRA,CACHORRO,ESCOLA',
+        },
+      }),
+    ).toEqual({
+      x: 'Bernardo,Brasil,Florianópolis',
+      y: 'CADEIRA,CACHORRO,ESCOLA',
+    });
+    expect(
+      equivalentAnswer(
+        { x: ' Bernardo,Brasil,Florianópolis ', y: 'CADEIRA,CACHORRO,ESCOLA' },
+        { y: 'cadeira,cachorro,escola', x: 'bernardo,brasil,florianópolis' },
+        'TEXT',
+      ),
+    ).toBe(true);
+    expect(
+      equivalentAnswer({ x: 'Bernardo' }, { x: 'Bernardo extra' }, 'TEXT'),
+    ).toBe(false);
+    for (const answer of [
+      { x: 'one' },
+      { x: ' ', y: 'two' },
+      { x: true, y: 'two' },
+      { x: 'one', y: 'a'.repeat(2001) },
+      { x: 'one', y: 'two', extra: 'three' },
+    ])
+      expect(() => normalizeSimulationAnswer(text, answer)).toThrow(
+        BadRequestException,
+      );
+    expect(normalizeSimulationAnswer(text, {})).toEqual({});
+  });
   it('strips matching prefixes only from item references, without exposing metadata', () => {
     const s = snapshot(QuestionType.MATCHING);
     expect(normalizeSimulationAnswer(s, { x: ' Y ' })).toEqual({ x: 'y' });

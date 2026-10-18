@@ -127,6 +127,7 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
     immediateFeedback = true,
     privateClass = false,
     legacyBooleanAnswers = false,
+    textClassification = false,
   ): Promise<Fixture> {
     const turmaId = privateClass
       ? (
@@ -181,7 +182,12 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
               ? legacyBooleanAnswers
                 ? { x: 'true', y: 'false' }
                 : { x: 'V', y: 'F' }
-              : { x: 'C', y: 'P' };
+              : textClassification
+                ? {
+                    x: 'Bernardo,Brasil,Florianópolis',
+                    y: 'cadeira,cachorro,escola',
+                  }
+                : { x: 'C', y: 'P' };
       const question = await prisma.question.create({
         data: {
           simulationId: simulation.id,
@@ -265,6 +271,7 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
     const f = await fixture();
     const before = await getQuestions(f).expect(200);
     expect(before.body).toHaveLength(4);
+    expect(before.body[3].classificationMode).toBe('CP');
     for (const question of before.body) {
       expect(question).toMatchObject({
         answer: null,
@@ -367,6 +374,92 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
         { answerKey: 'x', answerValue: 'true' },
         { answerKey: 'y', answerValue: 'false' },
       ]);
+    },
+  );
+  it.each([
+    { immediate: true, correct: true },
+    { immediate: true, correct: false },
+    { immediate: false, correct: true },
+    { immediate: false, correct: false },
+  ])(
+    'supports real textual classification without exposing future answers: %p',
+    async ({ immediate, correct }) => {
+      const f = await fixture(immediate, false, false, true);
+      const official = {
+        x: 'Bernardo,Brasil,Florianópolis',
+        y: 'cadeira,cachorro,escola',
+      };
+      const answer = {
+        x: correct ? 'bernardo,brasil,florianópolis' : 'outra resposta',
+        y: 'CADEIRA,CACHORRO,ESCOLA',
+      };
+      const before = await getQuestions(f).expect(200);
+      expect(before.body[3].classificationMode).toBe('TEXT');
+      expect(before.body[0]).not.toHaveProperty('classificationMode');
+      expect(JSON.stringify(before.body)).not.toContain(official.x);
+      expect(JSON.stringify(before.body)).not.toContain(official.y);
+      noPrivate(before.body);
+      if (immediate) {
+        for (const invalid of [
+          { x: 'one' },
+          { x: ' ', y: 'two' },
+          { x: true, y: 'two' },
+          { x: 'one', y: 'a'.repeat(2001) },
+        ])
+          await confirm(f, 3, invalid).expect(400);
+      }
+      const saved = await confirm(f, 3, answer).expect(201);
+      expect(saved.body.answer).toEqual(answer);
+      if (immediate) {
+        expect(saved.body.feedback).toMatchObject({
+          isCorrect: correct,
+          correctAnswer: official,
+          tip: correct ? null : 'Uma pista sem a resposta.',
+          funFact: correct ? 'Uma curiosidade após acertar.' : null,
+        });
+        const replay = await confirm(f, 3, {
+          answers: {
+            x: ' ' + answer.x.toUpperCase() + ' ',
+            y: answer.y.toLowerCase(),
+          },
+        }).expect(201);
+        expect(replay.body).toEqual(saved.body);
+        const restored = await getQuestions(f).expect(200);
+        expect(restored.body[3]).toMatchObject({
+          classificationMode: 'TEXT',
+          feedback: saved.body.feedback,
+        });
+      } else {
+        expect(saved.body.feedback).toBeNull();
+        expect(saved.body.confirmedAt).toBeNull();
+      }
+      const result = await finish(f).expect(201);
+      expect(result.body.attempt).toMatchObject({
+        immediateFeedback: immediate,
+        correctCount: correct ? 1 : 0,
+        score: correct ? '0.4' : '0',
+        percentage: correct ? '40' : '0',
+      });
+      expect(result.body.questions[3]).toMatchObject({
+        classificationMode: 'TEXT',
+        answer,
+        isCorrect: correct,
+      });
+      if (immediate) {
+        expect(result.body.questions[3].correctAnswer).toEqual(official);
+      } else {
+        expect(result.body.questions[3]).not.toHaveProperty('correctAnswer');
+        const raw = await prisma.attemptAnswer.findUniqueOrThrow({
+          where: {
+            attemptId_questionId: {
+              attemptId: f.attemptId,
+              questionId: f.questionIds[3],
+            },
+          },
+        });
+        expect(raw.answer).toEqual(answer);
+      }
+      noPrivate(result.body);
     },
   );
   it('makes equivalent retries and concurrent confirmations idempotent and rejects changed selections', async () => {
