@@ -16,6 +16,7 @@ import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
 import { LearningSkillsService } from '../learning-skills/learning-skills.service';
+import { SimulationFeedbackService } from './simulation-feedback.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 
 describe('AttemptsService', () => {
@@ -86,6 +87,7 @@ describe('AttemptsService', () => {
         { provide: LearningSkillsService, useValue: {} },
         AttemptsCorrectionService,
         { provide: QuizAttemptsService, useValue: {} },
+        { provide: SimulationFeedbackService, useValue: {} },
         {
           provide: PrismaService,
           useValue: prisma,

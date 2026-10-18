@@ -57,6 +57,29 @@ describe('Skills and review migration over populated quiz history', () => {
       },
     );
   }
+  // New Prisma defaults cannot be sent to a schema frozen before Giz.
+  async function createHistoricalAttempt({
+    data,
+  }: {
+    data: {
+      studentId: string;
+      simulationId: string;
+      activityKey?: string;
+      contentVersion?: number;
+      status?: AttemptStatus;
+      practiceMode: AttemptPracticeMode;
+      maxScore: number;
+    };
+  }) {
+    const id = randomUUID();
+    const rows = await database.$queryRaw<
+      { id: string; practiceMode: AttemptPracticeMode }[]
+    >`
+      INSERT INTO "Attempt" (id,"studentId","simulationId","activityKey","contentVersion",status,"practiceMode","maxScore","updatedAt")
+      VALUES (${id},${data.studentId},${data.simulationId},${data.activityKey ?? null},${data.contentVersion ?? null},${data.status ?? AttemptStatus.IN_PROGRESS}::"AttemptStatus",${data.practiceMode}::"AttemptPracticeMode",${data.maxScore},CURRENT_TIMESTAMP)
+      RETURNING id,"practiceMode"`;
+    return rows[0];
+  }
   async function originalAttempts() {
     return database.$queryRaw`SELECT to_jsonb(a)-'practiceMode' AS record FROM "Attempt" a WHERE "id" IN ('old-finished','old-open','old-simulation-attempt') ORDER BY "id"`;
   }
@@ -180,23 +203,23 @@ describe('Skills and review migration over populated quiz history', () => {
       maxScore: 2.5,
     };
     await expect(
-      database.attempt.create({
+      createHistoricalAttempt({
         data: { ...data, practiceMode: AttemptPracticeMode.NORMAL },
       }),
-    ).rejects.toMatchObject({ code: 'P2002' });
-    const review = await database.attempt.create({
+    ).rejects.toMatchObject({ code: 'P2010', meta: { code: '23505' } });
+    const review = await createHistoricalAttempt({
       data: { ...data, practiceMode: AttemptPracticeMode.REVIEW },
     });
     expect(review.practiceMode).toBe('REVIEW');
     await expect(
-      database.attempt.create({
+      createHistoricalAttempt({
         data: { ...data, practiceMode: AttemptPracticeMode.REVIEW },
       }),
-    ).rejects.toMatchObject({ code: 'P2002' });
+    ).rejects.toMatchObject({ code: 'P2010', meta: { code: '23505' } });
   });
   it('rejects review attempts without a quiz identity and partial snapshot skill metadata', async () => {
     await expect(
-      database.attempt.create({
+      createHistoricalAttempt({
         data: {
           studentId: 'old-owner',
           simulationId: 'old-simulation',
@@ -207,12 +230,14 @@ describe('Skills and review migration over populated quiz history', () => {
     ).rejects.toThrow('Attempt_review_identity_check');
     await expect(
       database.attemptQuestionSnapshot.update({
+        select: { id: true },
         where: { id: 'old-snapshot' },
         data: { skillCode: 'math.count' },
       }),
     ).rejects.toThrow('AttemptQuestionSnapshot_skill_complete_check');
     await expect(
       database.attemptQuestionSnapshot.update({
+        select: { id: true },
         where: { id: 'old-snapshot' },
         data: {
           skillCode: 'math.count',
@@ -225,6 +250,7 @@ describe('Skills and review migration over populated quiz history', () => {
     ).rejects.toThrow('AttemptQuestionSnapshot_skill_complete_check');
     await expect(
       database.attemptQuestionSnapshot.update({
+        select: { id: true },
         where: { id: 'old-snapshot' },
         data: {
           skillCode: 'math.count',
@@ -241,7 +267,7 @@ describe('Skills and review migration over populated quiz history', () => {
     await expect(
       database.$executeRaw`UPDATE "Attempt" SET "practiceMode"='OTHER'::"AttemptPracticeMode" WHERE "id"='old-open'`,
     ).rejects.toThrow('AttemptPracticeMode');
-    const attempt = await database.attempt.create({
+    const attempt = await createHistoricalAttempt({
       data: {
         studentId: 'old-owner',
         simulationId: 'old-quiz',
@@ -253,6 +279,12 @@ describe('Skills and review migration over populated quiz history', () => {
       },
     });
     const snapshot = await database.attemptQuestionSnapshot.create({
+      select: {
+        skillCode: true,
+        skillVersion: true,
+        skillSchoolYear: true,
+        practicedBefore: true,
+      },
       data: {
         attemptId: attempt.id,
         questionId: 'old-question',

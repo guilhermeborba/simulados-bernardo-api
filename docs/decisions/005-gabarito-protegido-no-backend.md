@@ -1,7 +1,9 @@
 # ADR 005 — Gabarito protegido no backend, nunca exposto ao cliente
 
 **Data:** 2026-09-25
-**Status:** vigente
+**Status:** vigente para legado/quizzes; exceção de simulado confirmado no ADR 016
+
+A partir de 17/10/2026, o [ADR 016](016-feedback-confirmado-de-simulado-giz.md) autoriza um mapa de resposta correta somente após confirmação ou finalização em tentativas de simulado com `immediateFeedback=true`. As regras abaixo permanecem como política dos demais fluxos.
 
 ## Contexto
 

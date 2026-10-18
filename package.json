@@ -97,6 +97,15 @@
       "src/**/*.(t|j)s"
     ],
     "coverageDirectory": "./coverage",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/.claude/",
+      "<rootDir>/dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/.claude/",
+      "<rootDir>/dist/"
+    ]
   }
 }

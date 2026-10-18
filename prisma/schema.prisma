@@ -237,6 +237,8 @@ model Question {
   /// resultado (acertando ou errando). Diferente do tip: não ajuda a
   /// responder, é conteúdo extra de recompensa.
   funFact        String?
+  /// Optional editorial topic; never inferred from answers or statement text.
+  theme          String?
   explanation    String?
   originKey      String?
   media          Json?
@@ -289,6 +291,8 @@ model Attempt {
   activityKey          String?
   contentVersion       Int?
   practiceMode         AttemptPracticeMode         @default(NORMAL)
+  /// Opt-in Giz confirmation; existing attempts retain deferred correction.
+  immediateFeedback    Boolean                     @default(false)
   status               AttemptStatus               @default(IN_PROGRESS)
   startedAt            DateTime                    @default(now())
   finishedAt           DateTime?
@@ -325,6 +329,7 @@ model AttemptQuestionSnapshot {
   statement           String
   tip                 String?
   funFact             String?
+  theme               String?
   explanation         String
   media               Json?
   points              Decimal      @db.Decimal(6, 2)

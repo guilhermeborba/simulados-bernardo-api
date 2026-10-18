@@ -14,6 +14,7 @@ import {
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { TurmasService } from '../turmas/turmas.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
+import { SimulationFeedbackService } from './simulation-feedback.service';
 import { AttemptsService } from './attempts.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 import { LearningSkillsService } from '../learning-skills/learning-skills.service';
@@ -146,6 +147,7 @@ describe('Quiz attempt foundation', () => {
         snapshotSkill: jest.fn().mockReturnValue({}),
         refreshQuestionSkills: jest.fn().mockResolvedValue(undefined),
       } as unknown as LearningSkillsService,
+      {} as SimulationFeedbackService,
     );
   });
 

@@ -17,6 +17,7 @@ import { TurmasService } from '../turmas/turmas.service';
 import { assertQuizContentReady } from '../quizzes/quiz-content.validation';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
+import { SimulationFeedbackService } from './simulation-feedback.service';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import {
   LearningSkillsService,
@@ -36,12 +37,16 @@ export class AttemptsService {
     private readonly turmasService: TurmasService,
     private readonly quizAttemptsService: QuizAttemptsService,
     private readonly learningSkills: LearningSkillsService,
+    private readonly simulationFeedback: SimulationFeedbackService,
   ) {}
 
   async startAttempt(
     simulationIdOrSlug: string,
     student: { id: string; role: UserRole },
+    immediateFeedback = false,
   ) {
+    if (immediateFeedback)
+      return this.simulationFeedback.start(simulationIdOrSlug, student);
     // The simulation row serializes simultaneous starts. The partial database
     // index remains the last line of protection against duplicate open attempts.
     return this.prisma.$transaction(async (transaction) => {
@@ -247,6 +252,8 @@ export class AttemptsService {
   async findAttempt(id: string, user: RequestUser) {
     const attempt = await this.findAttemptOrThrow(id);
     this.assertCanAccessAttempt(attempt.studentId, user);
+    if (attempt.immediateFeedback)
+      return this.simulationFeedback.getAttempt(id, user);
     if (attempt.practiceMode === AttemptPracticeMode.REVIEW) {
       return this.quizAttemptsService.getAttempt(id, user);
     }
@@ -260,6 +267,8 @@ export class AttemptsService {
     if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
       return this.quizAttemptsService.getQuestions(attemptId, user);
     }
+    if (attempt.immediateFeedback)
+      return this.simulationFeedback.getQuestions(attemptId, user);
 
     const questions = await this.prisma.question.findMany({
       where: {
@@ -345,6 +354,13 @@ export class AttemptsService {
         user,
       );
     }
+    if (attempt.immediateFeedback)
+      return this.simulationFeedback.confirm(
+        attemptId,
+        questionId,
+        dto.answer,
+        user,
+      );
     this.assertAttemptInProgress(attempt.status);
 
     const question = await this.prisma.question.findFirst({
@@ -386,6 +402,8 @@ export class AttemptsService {
     if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
       return this.quizAttemptsService.finish(attemptId, user);
     }
+    if (attempt.immediateFeedback)
+      return this.simulationFeedback.finish(attemptId, user);
     this.assertAttemptInProgress(attempt.status);
 
     const questions = await this.prisma.question.findMany({
@@ -479,6 +497,8 @@ export class AttemptsService {
     if (attempt.simulation.activityKind === ActivityKind.QUIZ) {
       return this.quizAttemptsService.getResult(attemptId, user);
     }
+    if (attempt.immediateFeedback)
+      return this.simulationFeedback.result(attemptId, user);
 
     if (attempt.status !== AttemptStatus.FINISHED) {
       throw new BadRequestException('Attempt is not finished');
