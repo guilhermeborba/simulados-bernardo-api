@@ -1,6 +1,7 @@
 import { BadRequestException } from '@nestjs/common';
 import { Prisma, QuestionType } from '@prisma/client';
 import {
+  canonicalOfficialAnswers,
   correctAnswer,
   equivalentAnswer,
   normalizeSimulationAnswer,
@@ -101,6 +102,37 @@ describe('Simulation confirmation canonical contract', () => {
       }),
     ).toThrow(BadRequestException);
   });
+  it.each([
+    { x: true, y: false },
+    { x: ' true ', y: 'FALSE' },
+  ])(
+    'canonicalizes legacy true/false answers and official maps: %p',
+    (answer) => {
+      const original = snapshot(QuestionType.TRUE_FALSE_MULTIPLE);
+      const legacy = {
+        ...original,
+        officialAnswers: Object.entries(answer).map(
+          ([answerKey, answerValue]) => ({
+            answerKey,
+            answerValue,
+          }),
+        ),
+      };
+      const canonical = { x: 'V', y: 'F' };
+      expect(normalizeSimulationAnswer(legacy, answer)).toEqual(canonical);
+      expect(correctAnswer(legacy)).toEqual(canonical);
+      expect(canonicalOfficialAnswers(legacy)).toEqual([
+        { answerKey: 'x', answerValue: 'V' },
+        { answerKey: 'y', answerValue: 'F' },
+      ]);
+      expect(
+        equivalentAnswer(normalizeSimulationAnswer(legacy, answer), canonical),
+      ).toBe(true);
+      expect(() => normalizeSimulationAnswer(legacy, { x: 1, y: 0 })).toThrow(
+        BadRequestException,
+      );
+    },
+  );
   it('strips matching prefixes only from item references, without exposing metadata', () => {
     const s = snapshot(QuestionType.MATCHING);
     expect(normalizeSimulationAnswer(s, { x: ' Y ' })).toEqual({ x: 'y' });

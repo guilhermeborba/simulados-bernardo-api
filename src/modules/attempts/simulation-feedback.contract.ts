@@ -62,17 +62,27 @@ export function publicOptions(value: Prisma.JsonValue): PublicOption[] {
     throw new BadRequestException('Question options are ambiguous');
   return options;
 }
-export function officialAnswers(value: Prisma.JsonValue): OfficialAnswer[] {
+export function officialAnswers(
+  value: Prisma.JsonValue,
+  type?: QuestionType,
+): OfficialAnswer[] {
   if (!Array.isArray(value) || value.length === 0)
     throw new BadRequestException('Question correction is unavailable');
   return value.map((entry) => {
     if (
       !record(entry) ||
       typeof entry.answerKey !== 'string' ||
-      typeof entry.answerValue !== 'string'
+      !(
+        typeof entry.answerValue === 'string' ||
+        (type === QuestionType.TRUE_FALSE_MULTIPLE &&
+          typeof entry.answerValue === 'boolean')
+      )
     )
       throw new BadRequestException('Question correction is invalid');
-    return { answerKey: entry.answerKey, answerValue: entry.answerValue };
+    return {
+      answerKey: entry.answerKey,
+      answerValue: String(entry.answerValue),
+    };
   });
 }
 
@@ -135,13 +145,21 @@ export function normalizeSimulationAnswer(
         if (!option) throw new BadRequestException('Unknown matching option');
         return [id, option.optionKey.replace(/^right:/, '')];
       }
+      const canonical =
+        snapshot.type === QuestionType.TRUE_FALSE_MULTIPLE
+          ? value.toUpperCase() === 'TRUE'
+            ? 'V'
+            : value.toUpperCase() === 'FALSE'
+              ? 'F'
+              : value.toUpperCase()
+          : value.toUpperCase();
       const allowed =
         snapshot.type === QuestionType.TRUE_FALSE_MULTIPLE
           ? ['V', 'F']
           : ['C', 'P'];
-      if (!allowed.includes(value.toUpperCase()))
+      if (!allowed.includes(canonical))
         throw new BadRequestException('Unknown answer value');
-      return [id, value.toUpperCase()];
+      return [id, canonical];
     }),
   );
 }
@@ -150,7 +168,7 @@ export function normalizeSimulationAnswer(
 export function correctAnswer(
   snapshot: SimulationSnapshot,
 ): Record<string, string> {
-  const answers = officialAnswers(snapshot.officialAnswers);
+  const answers = officialAnswers(snapshot.officialAnswers, snapshot.type);
   if (new Set(answers.map((entry) => entry.answerKey)).size !== answers.length)
     throw new BadRequestException('Question correction is invalid');
   const answer =
@@ -163,6 +181,20 @@ export function correctAnswer(
         );
   if (!answer) throw new BadRequestException('Question correction is invalid');
   return normalizeSimulationAnswer(snapshot, answer);
+}
+/** Keep the existing correction engine on the same canonical form as retries. */
+export function canonicalOfficialAnswers(
+  snapshot: SimulationSnapshot,
+): OfficialAnswer[] {
+  return Object.entries(correctAnswer(snapshot)).map(
+    ([answerKey, answerValue]) => ({
+      answerKey:
+        snapshot.type === QuestionType.MULTIPLE_CHOICE
+          ? 'correctAnswer'
+          : answerKey,
+      answerValue,
+    }),
+  );
 }
 export function equivalentAnswer(
   a: Record<string, string>,

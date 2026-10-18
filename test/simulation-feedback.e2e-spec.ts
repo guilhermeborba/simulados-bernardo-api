@@ -126,6 +126,7 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
   async function fixture(
     immediateFeedback = true,
     privateClass = false,
+    legacyBooleanAnswers = false,
   ): Promise<Fixture> {
     const turmaId = privateClass
       ? (
@@ -177,7 +178,9 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
           : type === QuestionType.MATCHING
             ? { x: 'b', y: 'a' }
             : type === QuestionType.TRUE_FALSE_MULTIPLE
-              ? { x: 'V', y: 'F' }
+              ? legacyBooleanAnswers
+                ? { x: 'true', y: 'false' }
+                : { x: 'V', y: 'F' }
               : { x: 'C', y: 'P' };
       const question = await prisma.question.create({
         data: {
@@ -317,6 +320,55 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
     expect(result.body.questions[0].options).toHaveLength(2);
     noPrivate(result.body);
   });
+  it.each([
+    { x: 'V', y: 'F' },
+    { x: true, y: false },
+  ])(
+    'starts and grades legacy true/false official answers with equivalent replay: %p',
+    async (answer) => {
+      const f = await fixture(true, false, true);
+      const questions = await getQuestions(f).expect(200);
+      expect(questions.body[1].feedback).toBeNull();
+      noPrivate(questions.body);
+      const first = await confirm(f, 1, answer).expect(201);
+      expect(first.body.answer).toEqual({ x: 'V', y: 'F' });
+      expect(first.body.feedback).toMatchObject({
+        isCorrect: true,
+        correctAnswer: { x: 'V', y: 'F' },
+      });
+      for (const equivalent of [
+        { x: true, y: false },
+        { answers: { y: ' false ', x: 'TRUE' } },
+        { x: 'V', y: 'F' },
+      ]) {
+        const replay = await confirm(f, 1, equivalent).expect(201);
+        expect(replay.body).toEqual(first.body);
+      }
+      await confirm(f, 1, { x: false, y: false }).expect(409);
+      const result = await finish(f).expect(201);
+      expect(result.body.attempt).toMatchObject({
+        correctCount: 1,
+        score: '0.2',
+        percentage: '20',
+      });
+      expect(result.body.questions[1].correctAnswer).toEqual({
+        x: 'V',
+        y: 'F',
+      });
+      const saved = await prisma.attemptQuestionSnapshot.findUniqueOrThrow({
+        where: {
+          attemptId_questionId: {
+            attemptId: f.attemptId,
+            questionId: f.questionIds[1],
+          },
+        },
+      });
+      expect(saved.officialAnswers).toEqual([
+        { answerKey: 'x', answerValue: 'true' },
+        { answerKey: 'y', answerValue: 'false' },
+      ]);
+    },
+  );
   it('makes equivalent retries and concurrent confirmations idempotent and rejects changed selections', async () => {
     const f = await fixture();
     const replies = await Promise.all(
@@ -467,6 +519,43 @@ describe('Giz simulation confirmation (real Nest/PostgreSQL)', () => {
     expect(result.body.questions[0].isCorrect).toBe(false);
     expect(result.body.questions[0]).not.toHaveProperty('correctAnswer');
   });
+  it.each([
+    { x: 'V', y: 'F' },
+    { x: true, y: false },
+  ])(
+    'grades legacy attempts with true/false official answers and preserves the raw submission: %p',
+    async (answer) => {
+      const f = await fixture(false, false, true);
+      const saved = await confirm(f, 1, answer).expect(201);
+      expect(saved.body.answer).toEqual(answer);
+      expect(saved.body.feedback).toBeNull();
+      expect(saved.body.confirmedAt).toBeNull();
+      const result = await finish(f).expect(201);
+      expect(result.body.attempt).toMatchObject({
+        immediateFeedback: false,
+        correctCount: 1,
+        score: '0.2',
+        percentage: '20',
+      });
+      expect(result.body.questions[1].isCorrect).toBe(true);
+      expect(result.body.questions[1]).not.toHaveProperty('correctAnswer');
+      const persisted = await prisma.attemptAnswer.findUniqueOrThrow({
+        where: {
+          attemptId_questionId: {
+            attemptId: f.attemptId,
+            questionId: f.questionIds[1],
+          },
+        },
+      });
+      expect(persisted.answer).toEqual(answer);
+      expect(persisted.confirmedAt).toBeNull();
+      expect(
+        await prisma.attemptQuestionSnapshot.count({
+          where: { attemptId: f.attemptId },
+        }),
+      ).toBe(0);
+    },
+  );
   it('serializes starts, rejects invalid answer bodies and validates the opt-in DTO', async () => {
     const f = await fixture();
     const starts = await Promise.all(

@@ -18,10 +18,10 @@ import {
 import { PrismaService } from '../../database/prisma/prisma.service';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import {
+  canonicalOfficialAnswers,
   correctAnswer,
   equivalentAnswer,
   normalizeSimulationAnswer,
-  officialAnswers,
   publicOptions,
   type SimulationSnapshot,
 } from './simulation-feedback.contract';
@@ -370,7 +370,7 @@ export class SimulationFeedbackService {
     const correction = this.correction.correct({
       type: snapshot.type,
       points: snapshot.points,
-      officialAnswers: officialAnswers(snapshot.officialAnswers),
+      officialAnswers: canonicalOfficialAnswers(snapshot),
       submittedAnswer: answer,
     });
     return {
