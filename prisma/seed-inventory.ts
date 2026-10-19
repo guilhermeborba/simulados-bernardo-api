@@ -15,6 +15,9 @@ export interface FrontendPair {
   right: FrontendOption[];
 }
 
+/** Mesmo limite de CreateQuestionDto.theme. */
+export const THEME_MAX_LENGTH = 120;
+
 export interface FrontendQuestion {
   id: string | number;
   type:
@@ -26,6 +29,8 @@ export interface FrontendQuestion {
   correctAnswer: string | Record<string, string>;
   tip?: string;
   funFact?: string;
+  /** Assunto da questão, usado no resultado por tema. Ver docs/temas-editoriais.md. */
+  theme?: string;
   points?: number;
 }
 
@@ -63,6 +68,7 @@ export interface InventoryEntry {
   status: 'IMPORTABLE' | 'PLANNED' | 'INVALID';
   filePresent: boolean;
   questionCount: number | null;
+  themedQuestionCount: number | null;
   trackingId?: string;
   reason?: string;
 }
@@ -75,6 +81,8 @@ export interface InventoryReport {
     importableFiles: number;
     importableSimulations: number;
     importableQuestions: number;
+    importableThemedQuestions: number;
+    fullyThemedSimulations: number;
     plannedSimulations: number;
     plannedFilesPresent: number;
     invalidSimulations: number;
@@ -83,6 +91,7 @@ export interface InventoryReport {
     schoolYear: number;
     importableSimulations: number;
     importableQuestions: number;
+    importableThemedQuestions: number;
     plannedSimulations: number;
   }>;
   entries: InventoryEntry[];
@@ -181,6 +190,15 @@ export function validateQuestions(source: string, value: unknown): string[] {
       if (question[field] !== undefined && typeof question[field] !== 'string')
         errors.push(`${label}: ${field} inválido.`);
     }
+    if (
+      question.theme !== undefined &&
+      (typeof question.theme !== 'string' ||
+        !hasText(question.theme) ||
+        question.theme.trim().length > THEME_MAX_LENGTH)
+    )
+      errors.push(
+        `${label}: tema deve ser um texto de 1 a ${THEME_MAX_LENGTH} caracteres.`,
+      );
     const order = getQuestionOrder(
       question as unknown as FrontendQuestion,
       index,
@@ -383,6 +401,7 @@ export function buildSeedInventory(config: InventoryConfig): {
       status: backlog ? 'PLANNED' : 'IMPORTABLE',
       filePresent: present,
       questionCount: null,
+      themedQuestionCount: null,
       ...(backlog
         ? { trackingId: backlog.trackingId, reason: backlog.reason }
         : {}),
@@ -403,6 +422,9 @@ export function buildSeedInventory(config: InventoryConfig): {
     if (questionErrors.length > 0) entry.status = 'INVALID';
     if (entry.status === 'IMPORTABLE') {
       entry.questionCount = (questions as FrontendQuestion[]).length;
+      entry.themedQuestionCount = (questions as FrontendQuestion[]).filter(
+        (question) => question.theme !== undefined,
+      ).length;
       normalized.push({ ...seed, questions: questions as FrontendQuestion[] });
     }
   };
@@ -512,6 +534,15 @@ export function buildSeedInventory(config: InventoryConfig): {
           (total, entry) => total + (entry.questionCount ?? 0),
           0,
         ),
+        importableThemedQuestions: imported.reduce(
+          (total, entry) => total + (entry.themedQuestionCount ?? 0),
+          0,
+        ),
+        fullyThemedSimulations: imported.filter(
+          (entry) =>
+            (entry.questionCount ?? 0) > 0 &&
+            entry.themedQuestionCount === entry.questionCount,
+        ).length,
         plannedSimulations: planned.length,
         plannedFilesPresent: planned.filter((entry) => entry.filePresent)
           .length,
@@ -531,6 +562,10 @@ export function buildSeedInventory(config: InventoryConfig): {
           ).length,
           importableQuestions: current.reduce(
             (total, entry) => total + (entry.questionCount ?? 0),
+            0,
+          ),
+          importableThemedQuestions: current.reduce(
+            (total, entry) => total + (entry.themedQuestionCount ?? 0),
             0,
           ),
           plannedSimulations: current.filter(
