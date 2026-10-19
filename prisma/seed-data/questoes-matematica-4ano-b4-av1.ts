@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB4Av1 = [
   {
     id: 1,
+    theme: "Geometria",
     type: "multiple_choice",
     text: "Figuras como o quadrado, o triângulo e o retângulo são chamadas de figuras:",
     tip: "Pensa: você consegue desenhar todas elas numa folha de papel, sem precisar de profundidade!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Um TRIÂNGULO tem quantos lados?",
     tip: "Pensa numa fatia de pizza triangular — quantos lados retos ela tem?",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Um QUADRADO tem quantos lados?",
     tip: "Pensa num tabuleiro de xadrez — cada quadradinho tem quantos lados?",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Um PENTÁGONO tem quantos lados?",
     tip: "Pensa na palavra \"penta\", que significa cinco!",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Um HEXÁGONO tem quantos lados?",
     tip: "Pensa na palavra \"hexa\", que significa seis!",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "No quadrado, todos os lados têm:",
     tip: "Pensa num quadrado desenhado no caderno: os lados parecem do mesmo tamanho ou diferentes?",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual é a diferença entre um QUADRADO e um RETÂNGULO?",
     tip: "Pensa numa porta retangular: os lados de cima e baixo são iguais entre si, mas diferentes das laterais!",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "O CÍRCULO é uma figura plana, mas NÃO é um polígono porque:",
     tip: "Pensa: um círculo tem alguma \"quina\" ou ponta? Ele é todo arredondado!",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Os pontos onde dois lados de uma figura plana se encontram são chamados de:",
     tip: "Pensa nas \"pontinhas\" de um triângulo ou quadrado — como se chama cada uma?",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Bernardo desenhou uma figura com 4 lados iguais e 4 ângulos retos. Que figura ele desenhou?",
     tip: "Pensa: 4 lados iguais e 4 cantos certinhos formam qual figura que já estudamos?",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Geometria",
     type: "multiple_choice",
     text: "Figuras como o cubo, a esfera e o cone são chamadas de figuras:",
     tip: "Pensa: cubo, esfera e cone têm profundidade, você pode segurá-los na mão!",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Um CUBO tem quantas faces?",
     tip: "Pensa num dado de jogo, que tem formato de cubo — quantos lados você vê nele?",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Uma ESFERA tem o formato de:",
     tip: "Pensa numa bola de futebol — qual figura espacial tem esse formato redondinho?",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Um objeto com formato de CONE é parecido com:",
     tip: "Pensa num sorvete de casquinha — qual formato geométrico ela tem?",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Um objeto com formato de CILINDRO é parecido com:",
     tip: "Pensa numa lata de refrigerante — ela é redonda nas pontas e reta no meio!",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "As superfícies planas de uma figura espacial, como as do cubo, são chamadas de:",
     tip: "Pensa nas superfícies planas e lisas de um cubo, como as paredes de uma caixa!",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "As linhas onde duas faces de uma figura espacial se encontram são chamadas de:",
     tip: "Pensa nas linhas que aparecem quando duas paredes de uma caixa se encontram!",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Os pontos onde as arestas de uma figura espacial se encontram são chamados de:",
     tip: "Pensa nos \"cantinhos\" de uma caixa, onde várias arestas se encontram!",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Uma PIRÂMIDE tem uma base e:",
     tip: "Pensa numa pirâmide do Egito: ela tem uma base e faces que sobem até formar uma pontinha!",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Bernardo brinca com um dado de jogo, que tem formato de cubo. Quantas faces esse dado tem?",
     tip: "Pensa num dado de jogo — quantas faces ele tem?",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Um ÂNGULO RETO mede exatamente:",
     tip: "Pensa no canto de uma folha de papel — esse ângulo tem uma medida especial!",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Um ângulo MENOR que 90° é chamado de ângulo:",
     tip: "Pensa num ângulo bem \"fechadinho\", menor que o canto de uma folha de papel!",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Um ângulo MAIOR que 90° (mas menor que 180°) é chamado de ângulo:",
     tip: "Pensa num ângulo mais \"abertinho\" que o canto de uma folha de papel, mas que ainda não é uma linha reta!",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "O canto de uma folha de papel retangular forma um ângulo de:",
     tip: "Pensa no canto de uma folha de papel — esse ângulo é bem conhecido!",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Os ponteiros de um relógio, quando marcam 3 horas em ponto, formam um ângulo:",
     tip: "Pensa no relógio às 3 horas: o ponteiro pequeno aponta para o 3 e o grande para o 12!",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Um ângulo de 45° é classificado como:",
     tip: "Pensa: 45° é menor ou maior que 90°?",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Um ângulo de 120° é classificado como:",
     tip: "Pensa: 120° é maior que 90°, mas ainda é menor que 180°!",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Bernardo observa uma ponta de um triângulo que parece bem \"abertinha\", maior que um ângulo reto. Que tipo de ângulo é esse?",
     tip: "Pensa: um ângulo mais \"abertinho\" que o canto de uma folha de papel é chamado de que tipo?",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Bernardo desenhou um quadrado. Quantos ângulos retos essa figura tem?",
     tip: "Pensa em cada cantinho de um quadrado — quantos cantos ele tem, e são todos retos?",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Geometria",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de aprender bem sobre figuras geométricas e ângulos?",
     tip: "Observar caixas, bolas, latas e cantos de objetos ajuda muito mais do que só decorar nomes!",

@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB2Av1 = [
   {
     id: 1,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Os números que multiplicamos numa multiplicação são chamados de:",
     tip: "Pensa nos números que aparecem numa multiplicação, tipo 4 x 3 — eles têm um nome que lembra \"fazer parte\" da conta!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "O resultado de uma multiplicação é chamado de:",
     tip: "Pensa no resultado final de uma multiplicação, tipo o resultado de 4 x 3 — que nome ele recebe?",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "A multiplicação 4 x 3 pode ser pensada como uma adição de parcelas iguais. Qual soma representa 4 x 3?",
     tip: "Pensa: 4 x 3 significa juntar 3 grupos de 4. Quantas vezes o número 4 vai aparecer somado?",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 6 x 7?",
     tip: "Lembra da tabuada do 6: 6, 12, 18, 24, 30, 36, 42... conte até a sétima vez!",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 8 x 9?",
     tip: "Lembra da tabuada do 8: 8, 16, 24, 32, 40, 48, 56, 64, 72... conte até a nona vez!",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Assim como na adição, podemos trocar a ordem dos fatores sem mudar o resultado (ex: 3 x 5 = 5 x 3). Essa é a propriedade:",
     tip: "Pensa: 3 x 5 dá o mesmo resultado que 5 x 3? Essa troca de lugar tem o mesmo nome que vimos na adição!",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o elemento neutro da multiplicação?",
     tip: "Pensa: quanto dá 7 x 1? O resultado muda ou continua o mesmo?",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qualquer número multiplicado por 0 é sempre igual a:",
     tip: "Pensa: se você tem 5 grupos, mas cada grupo tem 0 objetos, quantos objetos você tem no total?",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 5 x 0?",
     tip: "Pensa: 5 grupos com 0 coisas em cada um. Quantas coisas existem ao todo?",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo tem 4 caixas com 6 bombons cada uma. Quantos bombons ele tem ao todo?",
     tip: "São 4 caixas, cada uma com 6 bombons. Multiplique 4 x 6!",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 34 x 10?",
     tip: "Quando multiplicamos por 10, basta colocar mais um zero no final do número!",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 25 x 100?",
     tip: "Quando multiplicamos por 100, colocamos dois zeros no final do número!",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 7 x 1.000?",
     tip: "Quando multiplicamos por 1.000, colocamos três zeros no final do número!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Para multiplicar um número por 10, 100 ou 1.000, basta:",
     tip: "Pensa em tudo que vimos nas últimas questões: o que fizemos com o número toda vez que multiplicamos por 10, 100 ou 1.000?",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 23 x 4?",
     tip: "Pensa como 20 x 4 (80) mais 3 x 4 (12). Depois some as duas partes!",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 145 x 3?",
     tip: "Pensa em 100 x 3 (300), mais 40 x 3 (120), mais 5 x 3 (15). Some tudo!",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 12 x 15?",
     tip: "Pensa como 12 x 10 (120) mais 12 x 5 (60). Depois some!",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 24 x 13?",
     tip: "Pensa como 24 x 10 (240) mais 24 x 3 (72). Depois some!",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Numa multiplicação por 2 algarismos, como 34 x 12, o que fazemos?",
     tip: "Pensa em como armamos a conta: primeiro multiplicamos por um algarismo, depois pelo outro, e no final somamos tudo!",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo comprou 3 pacotes com 24 figurinhas cada um. Quantas figurinhas ele comprou ao todo?",
     tip: "Pensa como 3 x 20 (60) mais 3 x 4 (12). Depois some!",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma van transporta 8 crianças por viagem. Se fizer 5 viagens, quantas crianças serão transportadas ao todo?",
     tip: "Multiplique o número de crianças por viagem pelo número de viagens: 8 x 5!",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma fazenda tem 6 galinheiros com 12 galinhas em cada um. Quantas galinhas há ao todo?",
     tip: "Multiplique o número de galinheiros pela quantidade em cada um: 6 x 12!",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo lê 15 páginas por dia. Quantas páginas ele lerá em 7 dias?",
     tip: "Multiplique as páginas por dia pela quantidade de dias: 15 x 7!",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma loja tem 9 prateleiras com 20 livros em cada uma. Quantos livros há ao todo?",
     tip: "Multiplique o número de prateleiras pela quantidade em cada uma: 9 x 20!",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Num estacionamento, cada carro tem 4 rodas. Se há 35 carros, quantas rodas há ao todo?",
     tip: "Multiplique o número de carros pela quantidade de rodas de cada um: 35 x 4!",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo tem 6 caixas de lápis de cor, cada uma com 24 lápis. Quantos lápis ele tem ao todo?",
     tip: "Multiplique o número de caixas pela quantidade de lápis em cada uma: 6 x 24!",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma escola tem 8 turmas com 25 alunos em cada uma. Quantos alunos há na escola ao todo?",
     tip: "Multiplique o número de turmas pela quantidade de alunos em cada uma: 8 x 25!",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Um cinema tem 18 fileiras com 14 poltronas cada uma. Quantas poltronas há ao todo?",
     tip: "Multiplique o número de fileiras pela quantidade de poltronas em cada uma: 18 x 14!",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Operações combinadas",
     type: "multiple_choice",
     text: "Bernardo quer distribuir 5 balões para cada um dos 32 convidados de sua festa, e já tem 10 balões sobrando de outra festa. Quantos balões ele precisa comprar?",
     tip: "Primeiro multiplique os balões por convidado pelo número de convidados (5 x 32), depois subtraia os que ele já tem (- 10)!",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de ficar craque na multiplicação?",
     tip: "Só decorar não ajuda tanto quanto praticar e entender de verdade o que a multiplicação significa!",

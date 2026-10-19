@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB1Av2 = [
   {
     id: 1,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Na adição 2.340 + 1.520, qual é o resultado?",
     tip: "Arme a conta certinho, unidade embaixo de unidade, dezena embaixo de dezena... e some com calma!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Os números que somamos numa adição são chamados de:",
     tip: "Pensa nas \"partes\" que você vai somar — elas têm um nome parecido com \"parte\"!",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Adição",
     type: "multiple_choice",
     text: "O resultado de uma adição é chamado de:",
     tip: "Pensa no resultado final de somar várias coisas — que nome esse resultado recebe?",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Na adição 4.567 + 2.845, qual é o resultado?",
     tip: "Arme a conta com cuidado e some casa por casa, começando pelas unidades!",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Quando somamos 8 + 7 = 15 numa conta armada, o que fazemos com o \"1\" de 15?",
     tip: "Pensa: quando a soma de uma casa passa de 9, sobra um grupinho de 10 que precisa ir para a casa seguinte!",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Na adição 15.230 + 9.480, qual é o resultado?",
     tip: "Arme a conta com cuidado, alinhando as casas corretamente, e some devagar!",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Bernardo somou 3.250 + 1.750 e encontrou 5.000. Essa conta está:",
     tip: "Refaça a conta com calma: 3.250 + 1.750. O resultado de Bernardo está certinho?",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Na adição, a ORDEM das parcelas pode ser trocada sem mudar o resultado. Isso é a propriedade:",
     tip: "Pensa: 3 + 5 dá o mesmo resultado que 5 + 3? Essa \"troca de lugar\" tem um nome especial!",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Qual é o elemento neutro da adição?",
     tip: "Pensa: quanto dá 5 + 0? O resultado muda ou continua o mesmo?",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Bernardo tem 2.480 figurinhas e ganhou mais 1.635 do primo. Quantas ele tem agora?",
     tip: "Some as figurinhas de Bernardo com as que ele ganhou: 2.480 + 1.635. Arme a conta com cuidado!",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Na subtração 8.500 - 3.200, qual é o resultado?",
     tip: "Arme a conta e subtraia casa por casa, começando pelas unidades!",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Na subtração, o número do qual subtraímos é chamado de:",
     tip: "Pensa no número \"de onde\" tiramos uma parte — ele vem primeiro na conta de subtrair!",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Na subtração, o número que é subtraído é chamado de:",
     tip: "Pensa no número que é retirado do minuendo — ele tem um nome parecido com \"subtrair\"!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "O resultado de uma subtração é chamado de:",
     tip: "Pensa no resultado de tirar uma quantidade de outra — que nome tem esse resultado?",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Na subtração 12.340 - 5.680, qual é o resultado?",
     tip: "Arme a conta com cuidado, lembrando dos \"empréstimos\" quando precisar!",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Quando não é possível subtrair um algarismo porque ele é menor que o de baixo, fazemos:",
     tip: "Pensa em quando você não tem moedas suficientes numa casa e precisa \"pedir emprestado\" da casa vizinha!",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Bernardo fez a subtração 7.000 - 2.350 e encontrou 4.650. Essa conta está:",
     tip: "Refaça a conta com calma: 7.000 - 2.350. O resultado de Bernardo está certinho?",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Para verificar se uma subtração está certa, podemos fazer a PROVA REAL, que é:",
     tip: "Pensa no caminho contrário da subtração: se você tirou uma parte, somar essa parte de volta deveria devolver o número original!",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Na subtração 20.000 - 1, qual é o resultado?",
     tip: "Pensa em contar de trás para frente: o que vem logo antes do 20.000?",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Bernardo tinha 5.420 reais de brincadeira guardados e gastou 1.850. Quanto sobrou?",
     tip: "Subtraia 5.420 - 1.850 com cuidado, lembrando dos empréstimos quando precisar!",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Uma loja vendeu 4.230 produtos em janeiro e 3.180 em fevereiro. Quantos produtos foram vendidos nos dois meses juntos?",
     tip: "Some as vendas dos dois meses: 4.230 + 3.180. Arme a conta com cuidado!",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Uma escola tem 8.540 alunos. Se 3.275 são meninas, quantos são meninos?",
     tip: "Subtraia o total de alunos pelas meninas: 8.540 - 3.275. Isso te dá o número de meninos!",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Adição e subtração",
     type: "multiple_choice",
     text: "Bernardo tinha 6.500 figurinhas. Deu 1.230 para um amigo e ganhou mais 2.100 de outro. Com quantas ele ficou?",
     tip: "Primeiro subtraia as que ele deu (6.500 - 1.230), depois some as que ele ganhou (+ 2.100)!",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Numa maratona, 12.480 pessoas correram a prova de 5 km e 7.650 correram a de 10 km. Quantas correram ao todo?",
     tip: "Some as pessoas das duas provas: 12.480 + 7.650. Arme a conta com cuidado!",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Um estádio tinha 45.000 pessoas. Depois do intervalo, 8.320 foram embora. Quantas ficaram?",
     tip: "Subtraia as pessoas que foram embora do total: 45.000 - 8.320. Cuidado com os empréstimos!",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Bernardo quer um jogo de 3.200 reais de brincadeira e já tem 1.850 guardados. Quanto ainda falta?",
     tip: "Subtraia o valor do jogo pelo que Bernardo já tem: 3.200 - 1.850.",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Uma fábrica produziu 9.600 brinquedos numa semana e 7.850 na semana seguinte. Qual foi a produção total?",
     tip: "Some a produção das duas semanas: 9.600 + 7.850. Arme a conta com cuidado!",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Numa rifa, Bernardo e os amigos arrecadaram 5.480 reais de brincadeira e gastaram 2.395 com os prêmios. Quanto sobrou?",
     tip: "Subtraia o valor gasto do valor arrecadado: 5.480 - 2.395. Cuidado com os empréstimos!",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Adição e subtração",
     type: "multiple_choice",
     text: "Uma biblioteca tinha 14.200 livros, recebeu uma doação de 3.850 e emprestou 2.600 que ainda não voltaram. Quantos livros ela tem agora?",
     tip: "Primeiro some a doação ao total (14.200 + 3.850), depois subtraia os livros emprestados (- 2.600)!",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Adição e subtração",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de não errar nas contas de adição e subtração com números grandes?",
     tip: "Pensa em tudo que aprendemos hoje: alinhar as casas certinho e conferir o resultado evita muitos erros!",
