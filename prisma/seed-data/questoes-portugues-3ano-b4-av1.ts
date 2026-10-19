@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB4Av1 = [
   {
     id: 1,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O ponto final (.) é usado para:",
     tip: "Pensa no sinal que a gente coloca no final de uma frase comum, que só conta algo, sem ser pergunta nem grito.",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O ponto de interrogação (?) é usado para:",
     tip: "Pensa no sinal que aparece quando queremos perguntar algo para alguém, como \"Você quer brincar?\"",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O ponto de exclamação (!) é usado para expressar:",
     tip: "Pensa no sinal usado quando gritamos de alegria ou surpresa, como \"Que legal!\"",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "A vírgula (,) é usada principalmente para:",
     tip: "Pensa em como separamos itens numa lista, como \"maçã, banana, uva\" — o que colocamos entre as palavras?",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual frase usa corretamente o ponto de interrogação?",
     tip: "Procure a frase que está fazendo uma pergunta para alguém.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual frase usa corretamente o ponto de exclamação?",
     tip: "Procure a frase que expressa uma emoção forte, como surpresa ou alegria.",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Complete a frase com a pontuação correta: \"Bernardo, você trouxe o material escolar___\"",
     tip: "Repare que essa frase está perguntando algo para o Bernardo — que sinal usamos para perguntas?",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual frase usa a vírgula corretamente?",
     tip: "Pensa em como separamos cada item de uma lista de compras usando vírgulas entre eles.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual sinal de pontuação combina melhor com a frase: \"Cuidado, o chão está molhado___\"?",
     tip: "Pensa: essa frase é um aviso urgente, cheio de emoção e alerta — qual sinal combina com isso?",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Por que a pontuação é importante em um texto?",
     tip: "Pensa em como ficaria difícil entender um texto sem nenhuma pausa, pergunta ou destaque de emoção.",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Uma frase declarativa (ou afirmativa) é aquela que:",
     tip: "Pensa em uma frase que apenas conta um fato, sem perguntar nem negar nada, como \"O sol está brilhando.\"",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Qual das frases abaixo é declarativa (afirmativa)?",
     tip: "Procure a frase que apenas afirma uma informação, sem ser pergunta, ordem ou negação.",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Uma frase negativa é aquela que:",
     tip: "Pensa em uma frase que usa a palavra \"não\" para negar algo, como \"Eu não gosto de chuva.\"",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Qual das frases abaixo é negativa?",
     tip: "Procure a frase que usa a palavra \"não\" para negar alguma coisa.",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Uma frase interrogativa é aquela que:",
     tip: "Pensa na palavra \"interrogar\" — ela tem a ver com perguntar algo para alguém.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Qual das frases abaixo é interrogativa?",
     tip: "Procure a frase que está fazendo uma pergunta, terminando com o sinal de interrogação.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Uma frase exclamativa é aquela que:",
     tip: "Pensa na palavra \"exclamar\" — ela tem a ver com gritar ou expressar uma emoção forte.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Qual das frases abaixo é exclamativa?",
     tip: "Procure a frase que expressa uma emoção forte, terminando com o ponto de exclamação.",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Uma frase imperativa é aquela que expressa:",
     tip: "Pensa na palavra \"imperativa\" — ela lembra \"imperador\", alguém que dá ordens!",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Qual das frases abaixo é imperativa?",
     tip: "Procure a frase que está dando um pedido ou uma ordem para alguém fazer algo.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Leia: \"Bernardo, você terminou a lição de casa?\" Essa frase é do tipo:",
     tip: "Repare que essa frase está fazendo uma pergunta ao Bernardo, terminando com o ponto de interrogação.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Leia: \"Que dia maravilhoso para brincar no parque!\" Essa frase é do tipo:",
     tip: "Repare que essa frase expressa muita empolgação e termina com o ponto de exclamação.",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Leia: \"Eu não vou esquecer minha mochila hoje.\" Essa frase é do tipo:",
     tip: "Repare na palavra \"não\" na frase — ela está negando algo, que é esquecer a mochila.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Leia: \"Guarde seus brinquedos antes de dormir.\" Essa frase é do tipo:",
     tip: "Repare que essa frase está dando uma ordem ou pedido, e não apenas contando um fato.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Leia: \"O menino brincou no parque durante a tarde.\" Essa frase é do tipo:",
     tip: "Repare que essa frase apenas conta um fato, sem ser pergunta, ordem ou grande emoção.",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Bernardo quer transformar a frase \"Você trouxe o livro\" em uma pergunta. Como ele deve pontuar?",
     tip: "Pensa em qual sinal transforma uma frase comum em uma pergunta.",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Complete corretamente a frase, escolhendo a pontuação adequada: \"Que susto___ Eu nem vi você chegando\"",
     tip: "Pensa: a primeira parte expressa surpresa forte (exclamação), e a segunda apenas conta o que aconteceu (ponto final).",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Construção de frases",
     type: "multiple_choice",
     text: "Marque a alternativa que contém uma frase interrogativa e uma frase imperativa, respectivamente:",
     tip: "Procure primeiro a frase que faz uma pergunta, e depois a frase que dá uma ordem ou pedido.",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Leia a frase sem pontuação: \"Nossa que campeonato emocionante\" Qual pontuação final ela deve receber?",
     tip: "Repare que essa frase expressa bastante emoção e empolgação sobre o campeonato.",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Leitura e escrita",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre pontuação e tipos de frases, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: ponto final, interrogação, exclamação, vírgula, e os tipos de frase (declarativa, negativa, interrogativa, exclamativa, imperativa).",

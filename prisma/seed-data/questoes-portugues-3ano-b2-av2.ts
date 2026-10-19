@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB2Av2 = [
   {
     id: 1,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Sinônimos são palavras que têm:",
     tip: "Pensa em duas palavras que você poderia trocar em uma frase sem mudar o sentido dela, como \"feliz\" e \"alegre\".",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual palavra é sinônimo de \"feliz\"?",
     tip: "Pensa em uma palavra que também descreve alguém sorrindo, se sentindo bem e contente.",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual palavra é sinônimo de \"bonito\"?",
     tip: "Pensa em outra palavra que a gente usa para elogiar a aparência de algo ou alguém.",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Na frase \"O menino é veloz\", a palavra \"veloz\" é sinônimo de:",
     tip: "Pensa em uma palavra que descreve alguém que corre com muita velocidade.",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das opções abaixo é sinônimo de \"grande\"?",
     tip: "Pensa em uma palavra que também indica um tamanho bem maior do que o normal.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Complete a frase usando um sinônimo de \"assustado\": \"O gato ficou muito ___ com o barulho.\"",
     tip: "Pensa em uma palavra que também descreve o sentimento de medo.",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o sinônimo de \"começar\"?",
     tip: "Pensa em outra palavra usada quando algo está dando os primeiros passos, no início.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Na frase \"Bernardo ficou contente com o presente\", a palavra \"contente\" pode ser substituída por qual sinônimo?",
     tip: "Pensa em uma palavra que também mostra que alguém está feliz e gostou de algo.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é sinônimo de \"gritar\"?",
     tip: "Pensa em uma palavra que também indica falar bem alto, levantando a voz.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Por que usar sinônimos é uma boa prática ao escrever um texto?",
     tip: "Pensa em como fica cansativo ler um texto que repete a mesma palavra o tempo todo — os sinônimos ajudam a variar!",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Antônimos são palavras que têm:",
     tip: "Pensa em duas palavras que representam ideias completamente contrárias, como \"quente\" e \"frio\".",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o antônimo de \"feliz\"?",
     tip: "Pensa na palavra que representa o sentimento completamente oposto de estar feliz.",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o antônimo de \"grande\"?",
     tip: "Pensa na palavra que descreve o tamanho oposto de algo grande.",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Na frase \"O elefante é forte\", o antônimo de \"forte\" seria:",
     tip: "Pensa na palavra que representa o oposto de ter muita força.",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o antônimo de \"dia\"?",
     tip: "Pensa em qual palavra representa o período oposto do dia, quando o céu fica escuro.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Complete a frase com o antônimo de \"abrir\": \"Depois de brincar, Bernardo foi ___ a porta do quarto.\"",
     tip: "Pensa na ação oposta de abrir uma porta.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o antônimo de \"rápido\"?",
     tip: "Pensa na palavra que representa o oposto de fazer algo com muita velocidade.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Na frase \"O dia estava claro\", o antônimo de \"claro\" seria:",
     tip: "Pensa na palavra que representa o oposto de um dia bem iluminado e cheio de luz.",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o antônimo de \"subir\"?",
     tip: "Pensa na ação oposta de subir uma escada, por exemplo.",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Por que é importante conhecer antônimos?",
     tip: "Pensa em como é útil saber palavras opostas para comparar tamanhos, sentimentos e situações diferentes.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Bernardo escreveu uma frase e depois trocou a palavra \"veloz\" por \"rápido\", sem mudar o sentido da frase. Isso é um exemplo de uso de:",
     tip: "Pensa: \"veloz\" e \"rápido\" têm o mesmo significado, por isso puderam ser trocadas sem mudar o sentido da frase.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Se a palavra \"quente\" tem como antônimo \"frio\", qual seria um sinônimo de \"quente\"?",
     tip: "Pensa em uma palavra que também descreve algo com temperatura bem alta, parecida com \"quente\".",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Complete corretamente: \"Alto\" é antônimo de \"baixo\", assim como \"cheio\" é antônimo de:",
     tip: "Pensa na palavra que representa o oposto de estar \"cheio\" — algo sem nada dentro.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Na frase \"O caminho estava limpo\", se quisermos usar o antônimo de \"limpo\", a frase ficaria:",
     tip: "Pensa na palavra que representa o oposto de um lugar bem limpinho.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Bernardo quer descrever seu dia usando um sinônimo de \"cansado\". Qual palavra ele poderia usar?",
     tip: "Pensa em uma palavra que também descreve alguém sem energia, precisando descansar.",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual par de palavras forma um exemplo correto de antônimos?",
     tip: "Pensa em qual desses pares representa ideias completamente opostas, e não parecidas.",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual par de palavras forma um exemplo correto de sinônimos?",
     tip: "Pensa em qual desses pares tem palavras com significados parecidos, e não opostos.",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Leia a frase: \"O jardim estava bagunçado, mas depois ficou ___.\" Complete usando um antônimo de \"bagunçado\":",
     tip: "Pensa na palavra que representa o oposto de um lugar bagunçado — algo bem organizado.",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Bernardo escreveu: \"O dia estava muito quente, mas à noite ficou bem frio.\" Nessa frase, \"quente\" e \"frio\" são exemplos de:",
     tip: "Pensa: \"quente\" e \"frio\" representam ideias opostas de temperatura, por isso são antônimos.",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual frase resume melhor a diferença entre sinônimos e antônimos?",
     tip: "Pensa em tudo que vimos: sinônimo é uma palavra parecida, e antônimo é uma palavra oposta.",

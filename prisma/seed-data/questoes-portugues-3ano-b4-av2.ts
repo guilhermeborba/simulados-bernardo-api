@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB4Av2 = [
   {
     id: 1,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Fábula é um tipo de texto que geralmente:",
     tip: "Pensa em histórias como \"A Cigarra e a Formiga\", onde os animais falam e no final vem um ensinamento importante.",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Quem foi um famoso escritor de fábulas na Grécia Antiga?",
     tip: "Pensa no autor de fábulas clássicas, que viveu há mais de 2.500 anos e é considerado o \"pai das fábulas\".",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "A lição de moral, presente no final das fábulas, serve para:",
     tip: "Pensa no motivo pelo qual as fábulas são contadas — elas sempre querem deixar um aprendizado importante no final.",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Na fábula \"A Raposa e as Uvas\", a raposa não conseguiu alcançar as uvas e disse que elas estavam verdes, mesmo sem provar. Essa história ensina sobre:",
     tip: "Pensa: às vezes fingimos não querer algo só porque não conseguimos alcançá-lo — essa é a lição dessa fábula famosa.",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Qual característica é comum na maioria das fábulas?",
     tip: "Pensa em como os animais das fábulas conseguem falar e até têm personalidades, como se fossem pessoas.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Na fábula \"O Leão e o Ratinho\", o pequeno ratinho ajuda o leão, mesmo sendo muito menor que ele. A lição dessa fábula é:",
     tip: "Pensa em como, mesmo sendo pequeno, o ratinho conseguiu fazer algo importante para ajudar o leão.",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Fábulas costumam ser textos:",
     tip: "Pensa em como as fábulas que você já ouviu são rapidinhas de ler, mas sempre deixam uma lição bem clara.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Complete: \"A fábula de 'A Cigarra e a Formiga' ensina sobre a importância de:\"",
     tip: "Pensa: enquanto a formiga trabalhou e guardou comida, a cigarra só cantou — quem se planejou melhor para o inverno?",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Por que as fábulas costumam usar animais como personagens, em vez de pessoas?",
     tip: "Pensa em como fica mais gostoso aprender uma lição através de uma raposa ou um leão, do que sendo apontado diretamente.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Depois de conhecer várias fábulas, qual é a principal função desse gênero textual?",
     tip: "Pensa em tudo que vimos: as fábulas são divertidas, mas sempre terminam ensinando algo valioso.",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Poema é um texto que costuma ter, como característica marcante:",
     tip: "Pensa em como os poemas costumam ter um jeito bonito e musical de organizar as palavras, com rimas.",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Cada linha de um poema é chamada de:",
     tip: "Pensa na palavra usada especificamente para nomear cada linha de um poema, diferente de um texto comum.",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Um conjunto de versos, organizados juntos em um poema, forma uma:",
     tip: "Pensa no nome dado ao \"bloco\" de versos que aparece organizado dentro de um poema.",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Nos versos \"Borboleta, borboleta / De um lugar tão distante / Vem pousar na minha mão / Num instante tão brilhante\", quais palavras rimam?",
     tip: "Repare no final de cada verso — quais palavras terminam com som parecido?",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Quando duas palavras no final dos versos têm sons parecidos, dizemos que elas:",
     tip: "Pensa em palavras como \"flor\" e \"amor\" — repare como o final das duas soa parecido.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Poetas costumam usar rimas e um jeito especial de escrever para:",
     tip: "Pensa em como uma música bonita nos emociona — os poemas usam rimas e ritmo para causar esse mesmo efeito com palavras.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de tema comum em poemas infantis?",
     tip: "Pensa nos temas dos poemas que você já leu ou ouviu — normalmente falam de coisas bonitas da natureza ou de sentimentos.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Além das rimas, o que também pode deixar um poema com um \"ritmo\" gostoso de ler?",
     tip: "Pensa em como algumas palavras, quando repetidas ou combinadas, criam um som gostoso de se ouvir, quase como uma música.",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Uma parlenda, como \"Um, dois, feijão com arroz\", é um tipo de texto parecido com o poema porque também tem:",
     tip: "Pensa em como as parlendas, cantadas em brincadeiras de infância, também têm rimas, como os poemas.",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Por que a leitura de poemas é importante para o aprendizado?",
     tip: "Pensa em como ler poemas nos ajuda a imaginar cenas bonitas e sentir emoções através das palavras.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Relembrando o que aprendemos sobre gêneros textuais, qual deles é usado para dar instruções de como montar algo?",
     tip: "Pensa no texto que explica passo a passo como fazer algo, com uma ordem certa a seguir.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Relembrando substantivos e adjetivos: na frase \"Bernardo é curioso e esperto\", identifique os adjetivos:",
     tip: "Pensa em quais palavras descrevem características do Bernardo, e não o nomeiam.",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Relembrando os tempos verbais: a frase \"Amanhã eu brincarei no parque\" está no tempo:",
     tip: "Pensa na palavra \"amanhã\" — ela mostra que a brincadeira ainda vai acontecer, num dia que ainda vem.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Relembrando sinônimos e antônimos: qual é o antônimo de \"alegre\"?",
     tip: "Pensa na palavra que representa o sentimento completamente oposto de estar alegre.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Letras e sons",
     type: "multiple_choice",
     text: "Relembrando encontros vocálicos, consonantais e dígrafos: a palavra \"chuva\" tem um exemplo de:",
     tip: "Lembra que \"ch\" são duas letras juntas formando um único som — isso é chamado de dígrafo.",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Relembrando ortografia: qual palavra está escrita corretamente, seguindo a regra do M antes de P e B?",
     tip: "Lembra da regrinha: antes de P ou B, usamos sempre M, nunca N.",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Relembrando pontuação: qual sinal usamos para indicar uma pergunta?",
     tip: "Pensa no sinal que aparece quando queremos perguntar algo para alguém.",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Relembrando ordem alfabética: qual é a ordem correta das palavras \"banana\", \"abacaxi\" e \"cereja\"?",
     tip: "Olhe a primeira letra de cada palavra: A de abacaxi vem antes de B de banana, que vem antes de C de cereja.",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Bernardo quer escrever um poema sobre seu animal de estimação, usando rimas e adjetivos para descrevê-lo. Qual verso combina melhor com esse objetivo?",
     tip: "Procure a opção que usa rima e características (adjetivos) para descrever o animal de estimação, como um poema faria.",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Leitura e escrita",
     type: "multiple_choice",
     text: "Depois de um ano inteiro estudando Português, qual é a lição mais importante que aprendemos?",
     tip: "Pensa em tudo que aprendemos esse ano: gêneros textuais, substantivos, adjetivos, verbos, sinônimos, antônimos, ortografia e pontuação — tudo isso nos ajuda a nos comunicar cada vez melhor!",

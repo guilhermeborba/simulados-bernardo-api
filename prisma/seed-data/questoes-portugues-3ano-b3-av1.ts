@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB3Av1 = [
   {
     id: 1,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Encontro vocálico acontece quando:",
     tip: "Pensa na palavra \"vocálico\" — ela lembra \"vogal\"! É quando vogais ficam bem pertinho, uma do lado da outra.",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Em qual palavra encontramos um encontro vocálico?",
     tip: "Procure a palavra em que duas vogais aparecem juntinhas, sem nenhuma consoante entre elas.",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo tem um encontro vocálico?",
     tip: "Procure a palavra em que aparecem duas vogais seguidas, como \"ei\" em \"cadeira\".",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Na palavra \"história\", o encontro vocálico está em qual parte da palavra?",
     tip: "Repare no final da palavra \"história\" — \"i\" e \"a\" aparecem juntinhos ali.",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Qual palavra abaixo NÃO tem encontro vocálico?",
     tip: "Procure a palavra em que as vogais estão separadas por consoantes, e não juntinhas uma da outra.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Na palavra \"cai\" (do verbo cair), quais letras formam o encontro vocálico?",
     tip: "Lembra que encontro vocálico é formado só por vogais — olha quais duas vogais aparecem juntinhas na palavra \"cai\".",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Complete a frase: \"A palavra 'noite' tem um encontro vocálico formado pelas letras ___.\"",
     tip: "Procure as duas vogais que aparecem juntinhas na palavra \"noite\", sem nenhuma consoante entre elas.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Marque a alternativa em que todas as palavras têm encontro vocálico:",
     tip: "Procure o grupo em que todas as palavras têm duas vogais juntinhas, sem consoantes separando-as.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Na palavra \"saúde\", existe um encontro vocálico?",
     tip: "Repare que na palavra \"saúde\" as letras \"a\" e \"ú\" ficam bem juntinhas, formando um encontro vocálico.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Encontros vocálicos",
     type: "multiple_choice",
     text: "Por que é importante reconhecer os encontros vocálicos nas palavras?",
     tip: "Pensa em como reconhecer os sons das vogais juntas ajuda a ler e escrever com mais facilidade.",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Encontro consonantal acontece quando:",
     tip: "Pensa na palavra \"consonantal\" — ela lembra \"consoante\"! É quando duas consoantes ficam bem pertinho, sem vogal no meio.",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Em qual palavra encontramos um encontro consonantal?",
     tip: "Procure a palavra em que duas consoantes aparecem juntinhas, sem vogal separando-as.",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Qual das palavras abaixo tem um encontro consonantal?",
     tip: "Procure a palavra em que duas consoantes aparecem juntinhas, como \"fl\" em \"flor\".",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Na palavra \"brinco\", o encontro consonantal está formado por quais letras?",
     tip: "Repare nas duas primeiras letras da palavra \"brinco\" — elas são consoantes e ficam juntinhas.",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Qual palavra abaixo NÃO tem encontro consonantal?",
     tip: "Procure a palavra em que as consoantes estão separadas por vogais, e não juntinhas uma da outra.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Complete a frase: \"A palavra 'clima' tem um encontro consonantal formado pelas letras ___.\"",
     tip: "Procure as duas primeiras letras da palavra \"clima\" — elas são consoantes e ficam juntinhas.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Marque a alternativa em que todas as palavras têm encontro consonantal:",
     tip: "Procure o grupo em que todas as palavras têm duas consoantes juntinhas, sem vogal separando-as.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Na palavra \"gruta\", existe um encontro consonantal?",
     tip: "Repare nas duas primeiras letras da palavra \"gruta\" — elas são consoantes e ficam juntinhas.",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Qual das frases abaixo tem uma palavra com encontro consonantal?",
     tip: "Procure a frase que tem uma palavra com duas consoantes juntinhas, como \"fl\" em \"flor\".",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Encontros consonantais",
     type: "multiple_choice",
     text: "Por que é importante reconhecer os encontros consonantais?",
     tip: "Pensa em como reconhecer as consoantes juntas ajuda na hora de ler e escrever palavras corretamente.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Dígrafo é quando:",
     tip: "Pensa na palavra \"dígrafo\" — \"di\" significa dois, e \"grafo\" tem a ver com escrita. São duas letras escrevendo, mas formando um só som!",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo tem um dígrafo?",
     tip: "Procure a palavra em que duas letras juntas formam um único som, como o \"ch\" em \"chuva\".",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Na palavra \"carro\", o dígrafo está formado por quais letras?",
     tip: "Repare nas duas letras \"r\" que aparecem juntinhas no meio da palavra \"carro\" — elas formam um som só.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo tem o dígrafo \"nh\"?",
     tip: "Procure a palavra que tem as letras \"n\" e \"h\" juntinhas, formando um som só, parecido com o do espanhol \"ñ\".",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Na palavra \"guerra\", qual dígrafo aparece?",
     tip: "Olha com atenção a palavra \"guerra\": tem duas letras \"r\" juntas E também \"gu\" antes do \"e\" — são dois dígrafos na mesma palavra!",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo NÃO tem nenhum dígrafo?",
     tip: "Procure a palavra em que nenhuma dupla de letras forma um som só, diferente das outras que têm \"ch\", \"rr\" e \"nh\".",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Dígrafos",
     type: "multiple_choice",
     text: "Complete a frase: \"A palavra 'queijo' tem um dígrafo formado pelas letras ___.\"",
     tip: "Repare que, na palavra \"queijo\", as letras \"q\" e \"u\" juntas formam o som do \"k\", sem o \"u\" ser pronunciado separado.",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Letras e sons",
     type: "multiple_choice",
     text: "Classifique a palavra \"prato\" quanto ao que aprendemos: ela tem um(a):",
     tip: "Lembra que \"pr\" são duas consoantes juntas, sem vogal entre elas, e que formam DOIS sons diferentes (não um só, como no dígrafo).",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Letras e sons",
     type: "multiple_choice",
     text: "Classifique a palavra \"chave\" quanto ao que aprendemos: ela tem um(a):",
     tip: "Lembra que \"ch\" são duas letras que juntas formam um único som, e não dois sons separados — isso é um dígrafo.",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Letras e sons",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual frase resume melhor as diferenças entre encontro vocálico, encontro consonantal e dígrafo?",
     tip: "Pensa em tudo que vimos: vogal + vogal (encontro vocálico), consoante + consoante com dois sons (encontro consonantal), e duas letras com um som só (dígrafo).",
