@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB4Av2 = [
   {
     id: 1,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é poluição?",
     tip: "Pensa no que a fumaça de fábricas ou o lixo jogado no rio fazem com o ambiente.",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O desmatamento é:",
     tip: "Pensa na palavra \"desmatar\" — ela tem a ver com o que acontece com as matas quando são destruídas.",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é uma consequência do desmatamento para os animais que vivem na floresta?",
     tip: "Pensa em como seria se sua casa fosse destruída de repente — para onde você iria?",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Jogar lixo em rios e mares pode causar:",
     tip: "Pensa no que acontece com um peixe que confunde um saco plástico com comida.",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que significa \"reduzir\", um dos 3 Rs da sustentabilidade?",
     tip: "Pensa em comprar só o necessário, sem desperdiçar.",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que significa \"reutilizar\", um dos 3 Rs da sustentabilidade?",
     tip: "Pensa em usar um pote de vidro vazio para guardar outra coisa, em vez de jogá-lo fora.",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que significa \"reciclar\", um dos 3 Rs da sustentabilidade?",
     tip: "Pensa no que acontece com uma garrafa plástica que vira outro objeto depois de passar por um processo especial.",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "Para facilitar a reciclagem, o lixo deve ser:",
     tip: "Pensa em como fica mais fácil aproveitar o lixo quando ele já vem separado por tipo.",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "A cor azul é geralmente usada para representar qual tipo de lixo reciclável?",
     tip: "Pensa em qual material vem de árvores, assim como o céu azul faz parte da natureza.",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Qual é uma boa atitude sustentável no dia a dia?",
     tip: "Pensa em como é fácil economizar água só prestando atenção em pequenos hábitos do dia a dia.",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "O que é sustentabilidade?",
     tip: "Pensa em usar a natureza de um jeito que ainda sobre bastante para as próximas gerações também aproveitarem.",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Por que é importante economizar energia elétrica em casa?",
     tip: "Pensa em de onde vem a energia que usamos, muitas vezes de rios (hidrelétricas) ou outros recursos naturais.",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que são áreas protegidas ou unidades de conservação?",
     tip: "Pensa em lugares especiais, como parques e reservas, criados justamente para proteger a natureza.",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A extinção de uma espécie de animal significa que:",
     tip: "Pensa no que acontece quando não sobra mais nenhum representante de um tipo de animal em lugar nenhum do mundo.",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é a compostagem?",
     tip: "Pensa em como cascas de frutas e restos de verduras podem virar algo bom para as plantas, em vez de só virarem lixo.",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual atitude ajuda a preservar as florestas e os animais que vivem nelas?",
     tip: "Pensa no oposto de tudo que prejudica as florestas e seus animais.",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Por que devemos economizar água, mesmo o Brasil tendo muitos rios?",
     tip: "Pensa em cidades que já passaram por falta de água, mesmo tendo rios por perto.",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Qual é um exemplo de atitude sustentável que Bernardo pode ter na escola?",
     tip: "Pensa em como aproveitar melhor um material antes de jogá-lo fora.",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O uso excessivo de agrotóxicos (venenos usados nas plantações) pode:",
     tip: "Pensa em como um veneno usado em excesso pode se espalhar além da plantação, chegando a rios e ao solo.",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância da sustentabilidade?",
     tip: "Pensa em cuidar da natureza pensando não só em hoje, mas também em quem vai viver no planeta depois de nós.",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "Bernardo separou o lixo de casa em reciclável e orgânico antes de jogar fora. Essa atitude é um exemplo de:",
     tip: "Pensa em tudo que aprendemos hoje sobre separar o lixo corretamente.",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre cadeias alimentares, os seres que produzem seu próprio alimento através da fotossíntese são chamados de:",
     tip: "Pensa em quem \"produz\" o próprio alimento, geralmente usando a luz do Sol.",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre o corpo humano, qual sistema é formado pelos ossos e é responsável por sustentar e proteger o corpo?",
     tip: "Pensa no \"esqueleto\" que sustenta seu corpo, escondido dentro da palavra que nomeia esse sistema.",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre pontos cardeais, em qual direção o Sol nasce?",
     tip: "Pensa em qual lado do céu fica claro primeiro, bem cedinho de manhã.",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre astronomia, o movimento da Terra que forma o dia e a noite se chama:",
     tip: "Pensa no movimento que a Terra faz \"girando em torno de si mesma\", como um pião.",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "Bernardo e sua família decidiram plantar uma horta em casa e usar restos de frutas e verduras para fazer adubo. Essa prática se chama:",
     tip: "Lembra o nome do processo que transforma restos de alimentos em adubo natural.",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Se todos ajudassem a cuidar da natureza, evitando poluição e desmatamento, e economizando água e energia, o resultado seria:",
     tip: "Pensa em juntar tudo que aprendemos sobre sustentabilidade: cada atitude boa ajuda o planeta inteiro.",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Ciência no cotidiano",
     type: "multiple_choice",
     text: "Depois de estudar misturas, cadeias alimentares, corpo humano, pontos cardeais, astronomia e sustentabilidade, o que todos esses temas de Ciências têm em comum?",
     tip: "Pensa em como cada assunto que estudamos esse ano te ajudou a entender um pouco mais sobre o mundo à sua volta.",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "Bernardo quer ser uma criança mais sustentável no dia a dia. Qual conjunto de atitudes é o mais adequado?",
     tip: "Pensa em juntar todas as boas atitudes sustentáveis que aprendemos ao longo do bimestre.",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Ciência no cotidiano",
     type: "multiple_choice",
     text: "Depois de um ano inteiro estudando Ciências, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que aprendemos esse ano: misturas, seres vivos, corpo humano, espaço e sustentabilidade, tudo conectado.",

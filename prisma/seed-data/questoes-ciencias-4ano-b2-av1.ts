@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB2Av1 = [
   {
     id: 1,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Uma CADEIA ALIMENTAR mostra:",
     tip: "Pensa: numa cadeia, cada elo está ligado ao próximo. Na natureza, o que liga um ser vivo ao outro?",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Os PRODUTORES de uma cadeia alimentar são geralmente:",
     tip: "Pensa em quem consegue fazer seu próprio alimento usando a luz do sol!",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "As plantas produzem seu próprio alimento através de um processo chamado:",
     tip: "Pensa na palavra que junta \"foto\" (luz) com \"síntese\" (produzir)!",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Os CONSUMIDORES de uma cadeia alimentar são os seres vivos que:",
     tip: "Pensa: diferente das plantas, os animais precisam comer algo para conseguir energia!",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Um animal que se alimenta APENAS de plantas é chamado de:",
     tip: "Pensa numa vaca ou num coelho — eles comem só plantas, ou também comem carne?",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Um animal que se alimenta APENAS de outros animais é chamado de:",
     tip: "Pensa num leão ou numa cobra — eles comem plantas ou outros animais?",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Um animal que se alimenta tanto de plantas quanto de outros animais é chamado de:",
     tip: "Pensa em nós, seres humanos — comemos só plantas, só carne, ou os dois tipos?",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Os DECOMPOSITORES (como fungos e bactérias) têm a função de:",
     tip: "Pensa em fungos que aparecem em frutas ou folhas que caem no chão — o que eles fazem com esses restos?",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Sem os decompositores, o que aconteceria com os restos de plantas e animais mortos?",
     tip: "Pensa: se ninguém decompusesse as folhas e restos, eles ficariam empilhados para sempre!",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Bernardo vê a sequência: capim → gafanhoto → sapo → cobra. Qual é o PRODUTOR?",
     tip: "Pensa: qual desses seres vivos consegue produzir seu próprio alimento através da fotossíntese?",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Na cadeia capim → gafanhoto → sapo → cobra, o gafanhoto é um:",
     tip: "O gafanhoto come o capim, que é uma planta. Que tipo de consumidor é ele?",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Na mesma cadeia, o sapo é um:",
     tip: "O sapo come o gafanhoto, que é um animal. Que tipo de consumidor é ele?",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Na mesma cadeia, a cobra é um:",
     tip: "A cobra come o sapo, que também é um animal. Que tipo de consumidor é a cobra?",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Numa cadeia alimentar, a seta (→) indica:",
     tip: "A seta sempre aponta na direção de quem está comendo quem!",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "De onde vem a energia inicial de quase todas as cadeias alimentares?",
     tip: "De onde as plantas tiram a energia para fazer a fotossíntese?",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Numa cadeia: alface → lagarta → pássaro → gato, qual é o produtor?",
     tip: "Qual desses seres vivos é uma planta, capaz de fazer fotossíntese?",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Na mesma cadeia, a lagarta se alimenta de:",
     tip: "Na cadeia, o que vem logo antes da lagarta?",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Ainda na mesma cadeia, quem come a lagarta?",
     tip: "Na cadeia, o que vem logo depois da lagarta?",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Ao final da cadeia, o gato se alimenta de:",
     tip: "O gato está no final da cadeia. O que vem logo antes dele?",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Bernardo desenhou: milho → rato → coruja. Qual é o consumidor que come o produtor?",
     tip: "Na cadeia, quem vem logo depois do produtor (milho)?",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Se todos os gafanhotos de uma cadeia desaparecessem, o que aconteceria com os sapos?",
     tip: "Se o alimento dos sapos desaparece, o que acontece com a comida disponível para eles?",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Uma TEIA ALIMENTAR é formada por:",
     tip: "Na natureza, os seres vivos participam de mais de uma cadeia ao mesmo tempo!",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Por que é importante preservar todos os seres vivos de uma cadeia alimentar?",
     tip: "Se um elo de uma corrente quebra, o que acontece com o resto dela?",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Bernardo observou formigas carregando restos de uma folha caída. Elas estão ajudando a:",
     tip: "Formigas carregando restos de folhas fazem o mesmo trabalho que fungos e bactérias!",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Na cadeia: fitoplâncton → peixe pequeno → peixe grande → tubarão, quem é o produtor?",
     tip: "Qual desses seres é bem pequenininho e faz fotossíntese na água do mar?",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Ainda na mesma cadeia, o tubarão ocupa a posição de:",
     tip: "O tubarão come outros animais, e ninguém o come nessa cadeia. Que posição ele ocupa?",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que aconteceria se todos os produtores de um ecossistema desaparecessem?",
     tip: "Se a base de uma cadeia desaparece, o que acontece com todos que dependem dela?",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Bernardo montou: rosa → pulgão → joaninha → pássaro. Qual ser vivo é o consumidor carnívoro no topo dessa cadeia?",
     tip: "Quem está no finalzinho da cadeia, sem ninguém para caçá-lo?",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Numa floresta, se os decompositores desaparecessem, o que aconteceria com o solo ao longo do tempo?",
     tip: "Sem os decompositores, os restos de plantas e animais nunca virariam nutrientes para o solo!",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de entender bem as cadeias alimentares?",
     tip: "Observar a natureza ao redor ajuda muito mais do que só decorar nomes!",

@@ -294,3 +294,42 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-mat
 As medidas usam o tema da grandeza trabalhada. Questões sobre frequências, totais e diferenças em pesquisas e registros usam **Gráficos e tabelas**, pois o foco é compreender e comparar os dados apresentados. A síntese sobre prática e revisão usa **Matemática no cotidiano**.
 
 A quantidade de temas acompanha o conteúdo. O B3/AV1 tem um tema (frações); B2/AV1 e B2/AV2 têm dois cada, com uma questão de operações combinadas em cada simulado. B1/AV1, B1/AV2 e B3/AV2 têm três; B4/AV1 tem quatro. O B4/AV2 é uma revisão de quinze temas do ano, sem juntar artificialmente assuntos distintos. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas e curiosidades.
+
+### Ciências — 4º ano
+
+| Tema | Abrange |
+|---|---|
+| Alimentação dos animais | Classificação de hábitos alimentares conforme os alimentos consumidos pelos animais. |
+| Alimentação saudável | Variedade de alimentos, nutrientes, hidratação e escolhas alimentares nos exemplos estudados. |
+| Astronomia | Características e relações entre Sol, Terra, Lua e planetas, tipos de astros, luz e representação do Sistema Solar. |
+| Cadeias alimentares | Produtores, consumidores, decompositores, fluxo de energia, equilíbrio e relações entre cadeias e teias alimentares. |
+| Ciência no cotidiano | Síntese sobre observar, compreender e cuidar da natureza e do próprio corpo e sobre as relações entre os conteúdos do ano. |
+| Corpo humano | Integração entre partes do corpo e reconhecimento de sistemas a partir de suas funções e descrições. |
+| Digestão | Órgãos, funções e percurso dos alimentos no sistema digestório, mastigação e absorção dos nutrientes. |
+| Lua e suas fases | Observação da Lua, iluminação, fases e período de seu movimento ao redor da Terra. |
+| Matéria e materiais | Conceitos gerais sobre materiais, suas combinações e reconhecimento de classificações. |
+| Misturas | Combinação de materiais, suas características e reconhecimento de misturas homogêneas e heterogêneas. |
+| Movimentos da Terra | Rotação e translação, sucessão de dias e noites e duração do ano. |
+| Músculos | Funções e ação dos músculos, contração e relaxamento e músculos voluntários e involuntários. |
+| Orientação e localização | Pontos cardeais e colaterais, mapas, posições relativas e orientação por Sol, estrelas e bússola. |
+| Ossos e articulações | Funções, tipos e identificação de ossos, proteção dos órgãos e articulações. |
+| Preservação ambiental | Poluição, desmatamento, impactos nos seres vivos, extinção e áreas protegidas. |
+| Resíduos e reciclagem | Redução, reutilização, reciclagem, separação de resíduos, cores da coleta e compostagem. |
+| Saúde e bem-estar | Hábitos e cuidados com ossos, músculos, postura e atividade física abordados nas questões. |
+| Separação de misturas | Métodos e instrumentos para separar componentes conforme as características dos materiais. |
+| Sustentabilidade | Uso responsável de recursos, economia de água e energia e escolhas sustentáveis no cotidiano. |
+| Transformações da matéria | Mudanças de estado físico nos exemplos estudados, incluindo a passagem da água para vapor. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-ciencias-4ano-b*-av*.ts`. Não há entradas privadas de Ciências do 4º ano registradas no seed. Todos compartilham este vocabulário de 20 temas, reaproveitando os nomes de Ciências do 3º ano quando o conteúdo corresponde.
+
+**Misturas** cobre suas características e classificação, sem usar “homogênea” ou “heterogênea” como rótulo. Quando reconhecer a própria combinação como uma mistura é a tarefa, usa-se **Matéria e materiais**: questões 4, 6, 8 e 10 do B1/AV1, cujas alternativas corretas são “Mistura” ou “Uma mistura”. **Separação de misturas** reúne métodos e instrumentos, incluindo a questão 22 desse arquivo. A questão 17 do B1/AV2, sobre o que acontece com a água de uma poça, usa **Transformações da matéria**, sem antecipar a evaporação como resposta.
+
+**Cadeias alimentares** inclui relações de alimentação, fluxo de energia, produtores, consumidores, decompositores e teias. As questões focadas nos hábitos alimentares dos animais usam **Alimentação dos animais**. Não se criam temas com o nome do produtor, do consumidor ou do processo que pode ser a resposta.
+
+**Ossos e articulações**, **Músculos** e **Digestão** reúnem os conteúdos anatômicos e funcionais específicos. **Corpo humano** cobre a integração entre partes e a identificação de um sistema a partir da descrição, como na questão 23 do B4/AV2, que pede o nome do sistema formado pelos ossos. Cuidados gerais com o corpo ficam em **Saúde e bem-estar**; nutrientes, hidratação e escolhas de alimentos, em **Alimentação saudável**.
+
+**Orientação e localização** reúne pontos cardeais e colaterais, mapas e orientação por astros e bússola. **Astronomia** fica nas características e relações gerais dos astros, sem usar como tema o tipo de astro ou o nome do Sistema Solar que pode ser a resposta. **Lua e suas fases** concentra observação, iluminação e fases lunares; **Movimentos da Terra** reúne as relações entre movimentos, dias, noites e ano, sem antecipar “rotação” ou “translação”.
+
+**Preservação ambiental** cobre impactos e proteção dos ambientes e seres vivos. **Resíduos e reciclagem** inclui os 3 Rs, separação e aproveitamento de resíduos, sem usar “compostagem” como tema nas questões que pedem esse nome. **Sustentabilidade** cobre o uso responsável de recursos e escolhas do cotidiano. As sínteses que articulam os conteúdos do ano usam **Ciência no cotidiano**.
+
+A quantidade de temas acompanha o conteúdo: B3/AV2 tem um tema; B1/AV2, B2/AV1 e B3/AV1 têm dois; B1/AV1 e B4/AV1 têm três; B2/AV2 tem quatro; B4/AV2 revisa oito. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas e curiosidades.

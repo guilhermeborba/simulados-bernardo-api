@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB2Av2 = [
   {
     id: 1,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Qual é a principal função do esqueleto no nosso corpo?",
     tip: "Pensa assim: o que aconteceria se você não tivesse nenhum osso? Você conseguiria ficar em pé?",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Qual osso protege o nosso cérebro?",
     tip: "Pensa no capacete que você usa de bike: seu corpo já tem um \"capacete\" natural na cabeça.",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Quais ossos protegem o coração e os pulmões?",
     tip: "Eles formam uma espécie de \"gaiola\" protetora ao redor do peito.",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "O que são as articulações (juntas)?",
     tip: "Pensa no seu cotovelo e no seu joelho: eles dobram graças a essas partes especiais.",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "O fêmur, osso da coxa, é considerado um osso:",
     tip: "Compara o tamanho dele com os ossinhos pequenos do seu pulso.",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "As costelas e os ossos do crânio são exemplos de ossos:",
     tip: "Pensa na forma \"achatada\" desses ossos, como um escudo protetor.",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Os ossinhos pequenos do pulso e do tornozelo são chamados de ossos:",
     tip: "Pensa no tamanho pequenininho deles comparado ao fêmur da perna.",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Por que é importante consumir alimentos com cálcio, como leite e queijo?",
     tip: "Pensa em qual \"material de construção\" os ossos precisam para ficar bem resistentes.",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Sem o esqueleto, nosso corpo:",
     tip: "Imagina um boneco de pano, sem nada firme por dentro: ele fica todo murcho.",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "A coluna vertebral é formada por várias peças chamadas:",
     tip: "A resposta já está escondida dentro da palavra \"vertebral\"!",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Qual é a função principal dos músculos?",
     tip: "Pensa no que você usa para chutar uma bola ou levantar o braço.",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Os músculos que controlamos com vontade, como os do braço, são chamados de músculos:",
     tip: "A palavra \"vontade\" está escondida dentro do nome desse tipo de músculo.",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "O coração é um músculo:",
     tip: "Pensa: você precisa \"mandar\" seu coração bater? Ele já sabe fazer isso sozinho!",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "O estômago, que trabalha na digestão, é controlado por músculos:",
     tip: "Você consegue \"mandar\" seu estômago digerir mais rápido? Ele trabalha por conta própria.",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "O que liga os músculos aos ossos?",
     tip: "Pensa numa \"cordinha bem forte\" que prende o músculo pertinho do osso.",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Para dobrar o braço, um músculo se contrai enquanto o outro:",
     tip: "Pensa numa dupla trabalhando: enquanto um puxa com força, o outro precisa ficar mais soltinho.",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Praticar exercícios físicos regularmente ajuda a:",
     tip: "Pensa no que acontece com o músculo de um atleta que treina bastante.",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Antes de fazer exercícios, é importante fazer alongamento para:",
     tip: "Pensa em esticar um elástico devagarinho antes de usá-lo com força, para não machucar.",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Quando você levanta uma mochila pesada, seus músculos do braço:",
     tip: "Pensa no que acontece com o \"bolinha\" do seu braço quando você faz força: ele fica durinho!",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Músculos e ossos trabalham juntos porque:",
     tip: "Pensa em como seu braço dobra: o osso não se move sozinho, ele precisa de ajuda.",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Bernardo quer ficar com ossos e músculos fortes. O que ele deve fazer?",
     tip: "Pensa em tudo que aprendemos hoje sobre cálcio e exercícios.",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Bernardo ficou sentado torto na cadeira da escola o dia todo. Isso pode prejudicar principalmente:",
     tip: "Lembra qual parte do corpo é formada pelas vértebras e sustenta as costas?",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Enquanto joga bola com os amigos, Bernardo usa os músculos das pernas para chutar. Esses músculos são exemplos de músculos:",
     tip: "Pensa: Bernardo decide chutar a bola, ou isso acontece sem ele querer?",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Depois de correr bastante, Bernardo sente o coração batendo mais rápido. Isso acontece porque o coração:",
     tip: "Pensa no que seu corpo precisa quando você corre bastante: mais sangue circulando mais rápido!",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Se Bernardo caísse e machucasse o braço, qual parte do esqueleto poderia se quebrar?",
     tip: "Pensa em qual parte do corpo é dura e pode fraturar com uma pancada forte.",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Qual desses NÃO é um cuidado importante para manter ossos e músculos saudáveis?",
     tip: "Pensa no oposto de tudo que aprendemos sobre exercícios e movimento hoje.",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O esqueleto e os músculos formam, juntos, o sistema que permite:",
     tip: "Pensa em tudo que estudamos sobre essas duas partes do corpo trabalhando em equipe.",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Bernardo quer ser um super-herói e proteger seus \"escudos\" internos. Quais ossos fazem esse papel de proteção?",
     tip: "Lembra quais ossos protegem o cérebro e quais protegem o coração e os pulmões.",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Qual desses exemplos mostra um músculo voluntário em ação?",
     tip: "Pensa em qual dessas ações Bernardo decide fazer, com vontade própria.",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Depois de aprender tanto sobre ossos e músculos, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: alimentação, exercício e postura andam juntos.",

@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB3Av1 = [
   {
     id: 1,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é a função do sistema digestório?",
     tip: "Pensa no que acontece com a comida depois que você engole: ela precisa virar algo que o corpo aproveite.",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Por onde começa a digestão dos alimentos?",
     tip: "Pensa no primeiro lugar que a comida toca quando você dá uma mordida.",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é o tubo que leva o alimento da boca até o estômago?",
     tip: "Pensa num \"tobogã\" que a comida escorrega depois de ser engolida.",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Os dentes que servem para cortar os alimentos, na frente da boca, são chamados de:",
     tip: "Pensa na palavra \"incisão\", que significa cortar.",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Os dentes pontudos, usados para rasgar os alimentos, são os:",
     tip: "Pensa em como são os dentes dos cachorros, bem pontudos — por isso o nome parecido.",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Os dentes largos, no fundo da boca, usados para triturar os alimentos, são os:",
     tip: "Pensa em qual formato de dente é melhor para \"moer\" a comida bem devagar.",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é a função da saliva durante a mastigação?",
     tip: "Pensa no que acontece na sua boca quando você sente o cheiro de uma comida gostosa.",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Depois de passar pelo esôfago, o alimento chega a qual órgão?",
     tip: "Pensa no órgão que fica \"roncando\" quando você está com fome.",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Por que é importante mastigar bem os alimentos antes de engolir?",
     tip: "Pensa em pedaços pequenos de comida: eles são mais fáceis de digerir do que pedaços grandes.",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é o nome do órgão em formato de \"bolsa\" onde o alimento é misturado com sucos digestivos?",
     tip: "Pensa no órgão que fica na altura da sua barriga e \"resmunga\" quando você está com fome.",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Depois do estômago, o alimento (já digerido) segue para qual órgão?",
     tip: "Pensa em qual órgão vem depois do estômago no caminho da digestão.",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é a principal função do intestino delgado?",
     tip: "Pensa em como o corpo \"aproveita\" as vitaminas e a energia da comida que você comeu.",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "O que acontece com os restos de alimentos que o corpo não conseguiu aproveitar?",
     tip: "Pensa no \"último órgão\" do caminho da digestão, antes da comida sair do corpo.",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Por onde os restos de alimentos, que não foram aproveitados, saem do corpo?",
     tip: "Pensa no final do caminho que a comida percorre dentro do corpo.",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Por que beber bastante água é importante para a digestão?",
     tip: "Pensa em como fica mais fácil empurrar a comida por um tubo quando ele está bem molhadinho.",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual órgão produz sucos que ajudam a digerir as gorduras dos alimentos?",
     tip: "Pensa num órgão grande que fica do lado direito da barriga e ajuda na digestão.",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é a ordem correta do caminho do alimento no sistema digestório?",
     tip: "Pensa no primeiro lugar que a comida entra e no caminho que ela precisa percorrer até ser eliminada.",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "O que é o sistema digestório?",
     tip: "Pensa em todos os órgãos que aprendemos hoje trabalhando em equipe, um passando a comida para o outro.",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Se uma pessoa não mastiga bem a comida, o que pode acontecer?",
     tip: "Pensa em como é mais difícil \"processar\" pedaços grandes de comida do que pedacinhos bem mastigados.",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Os nutrientes absorvidos pelo intestino delgado servem para:",
     tip: "Pensa em tudo que seu corpo precisa para crescer forte e ter energia para brincar.",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual grupo de alimentos dá bastante energia para brincar e estudar, como arroz, pão e macarrão?",
     tip: "Pensa nos alimentos que costumam acompanhar o arroz e o feijão no seu prato.",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Frutas e verduras são importantes na alimentação porque:",
     tip: "Pensa em por que os adultos sempre pedem para você comer sua salada e sua fruta.",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Alimentos como carne, ovo, feijão e leite são ricos em:",
     tip: "Pensa no que ajuda seus músculos a crescerem fortes.",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Por que é importante variar os alimentos durante a semana, comendo de todos os grupos alimentares?",
     tip: "Pensa em como cada alimento tem um \"superpoder\" diferente para o seu corpo.",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Comer doces, frituras e refrigerantes em excesso pode:",
     tip: "Pensa por que esses alimentos são chamados de \"só de vez em quando\" e não de todo dia.",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Bernardo estava com muita sede depois de brincar no sol. O que é mais saudável ele beber?",
     tip: "Pensa na bebida mais importante para repor o que o corpo perde quando sua e fica com sede.",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Na hora do lanche, Bernardo escolheu uma fruta em vez de um pacote de bolacha recheada. Essa escolha é um exemplo de:",
     tip: "Pensa em qual das duas opções tem mais vitaminas e menos açúcar.",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual seria um exemplo de prato equilibrado para o almoço de Bernardo?",
     tip: "Pensa em juntar um pouco de cada grupo de alimento que aprendemos hoje: energia, proteína e vitaminas.",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Se Bernardo comer rápido demais, sem mastigar direito, isso pode:",
     tip: "Lembra o que aprendemos sobre mastigar bem antes de engolir? Pedaços grandes dão mais trabalho para o estômago.",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Depois de aprender sobre o sistema digestório e a alimentação saudável, qual é uma boa lição para Bernardo levar para o dia a dia?",
     tip: "Pensa no resumo de tudo que vimos: variedade, mastigação com calma e bastante água.",

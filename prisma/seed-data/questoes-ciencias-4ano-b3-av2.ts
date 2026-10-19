@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB3Av2 = [
   {
     id: 1,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Quantos são os pontos cardeais principais?",
     tip: "Pensa em Norte, Sul, Leste e Oeste — conta quantos são.",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Quais são os quatro pontos cardeais principais?",
     tip: "Pensa nas direções que aparecem na bússola e nos mapas.",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em qual direção o Sol nasce, geralmente?",
     tip: "Pensa em qual lado do céu fica claro primeiro, bem cedinho de manhã.",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em qual direção o Sol se põe, geralmente?",
     tip: "Pensa em qual lado do céu fica alaranjado quando o dia está terminando.",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que é uma bússola?",
     tip: "Pensa num instrumento com uma agulha que sempre aponta para o mesmo lado, não importa para onde você vire.",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "A rosa dos ventos é um desenho usado para:",
     tip: "Pensa numa estrela desenhada em mapas antigos, cheia de pontas apontando para direções diferentes.",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Sabendo que o Sol nasce no Leste, se você ficar de frente para o Leste de manhã, o que fica atrás de você?",
     tip: "Pensa em quais duas direções ficam sempre uma de frente para a outra, em lados opostos.",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se você está de frente para o Norte, o que fica à sua direita?",
     tip: "Imagina-se olhando para o Norte e pensa em qual lado o Sol nasce — ele fica de que lado do seu corpo?",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que é importante saber usar os pontos cardeais?",
     tip: "Pensa em como seria difícil encontrar o caminho de casa numa cidade nova sem saber para que lado ir.",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Nos mapas, qual ponto cardeal geralmente fica voltado para cima?",
     tip: "Pensa em como os mapas costumam ser desenhados, com uma seta apontando para cima indicando uma direção.",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Além dos quatro pontos cardeais, existem os pontos colaterais. Qual das opções é um ponto colateral?",
     tip: "Pensa numa direção que fica \"entre\" duas direções principais, como entre o Norte e o Leste.",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual ponto colateral fica entre o Norte e o Oeste?",
     tip: "Junta o nome das duas direções principais que ficam dos lados: Norte + Oeste.",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual ponto colateral fica entre o Sul e o Leste?",
     tip: "Junta o nome das duas direções principais que ficam dos lados: Sul + Leste.",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual ponto colateral fica entre o Sul e o Oeste?",
     tip: "Junta o nome das duas direções principais que ficam dos lados: Sul + Oeste.",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "À noite, em lugares onde é possível ver bem as estrelas, os povos antigos costumavam se orientar usando:",
     tip: "Pensa no que ilumina o céu à noite, quando não tem Sol para indicar as direções.",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Durante o dia, sem bússola, uma forma simples de se orientar é observando:",
     tip: "Lembra o que aprendemos sobre onde o Sol nasce e onde ele se põe.",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Os navegadores antigos, que exploraram os mares há centenas de anos, usavam a bússola e as estrelas principalmente para:",
     tip: "Pensa em como seria fácil se perder no meio do oceano, sem terra à vista, sem esses instrumentos de orientação.",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em um mapa, se o Norte fica para cima, o Sul geralmente fica:",
     tip: "Pensa em quais duas direções ficam sempre em lados opostos, uma em cima e outra embaixo.",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em um mapa, se o Norte fica para cima, o Leste geralmente fica:",
     tip: "Pensa em qual lado do mapa costuma ficar o Leste quando o Norte está para cima e o Oeste para a esquerda.",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que os pontos cardeais e colaterais são úteis para quem está viajando?",
     tip: "Pensa em como seria complicado explicar para alguém como chegar a um lugar sem usar nenhuma direção.",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo estava em um parque grande e viu o Sol se pondo. Para saber que direção era o Oeste, ele deveria olhar para:",
     tip: "Lembra o que aprendemos sobre em qual direção o Sol se põe no fim do dia.",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se Bernardo sabe que sua escola fica ao Norte de sua casa, para chegar à escola saindo de casa, ele deve caminhar em direção ao:",
     tip: "Pensa em qual direção ele precisa seguir para chegar a um lugar que fica \"ao Norte\" de onde ele está.",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Olhando um mapa do Brasil, a região Sul do país fica localizada:",
     tip: "Lembra que, nos mapas, o Sul geralmente fica na direção oposta ao Norte.",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo quer construir uma bússola simples para uma atividade da escola. O que é fundamental em uma bússola?",
     tip: "Lembra o que faz a agulha da bússola sempre apontar para o mesmo lado, não importa como você vire o instrumento.",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se Bernardo está de frente para o Sul, o que fica atrás dele?",
     tip: "Lembra que Norte e Sul são direções opostas, sempre uma de costas para a outra.",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que, antigamente, sem bússolas ou GPS, os viajantes tinham mais dificuldade para se orientar em longas viagens?",
     tip: "Pensa em como seria viajar sem nenhuma forma de saber para que lado ir, especialmente em lugares desconhecidos.",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir o que aprendemos sobre pontos cardeais e orientação?",
     tip: "Pensa em tudo que vimos: bússolas, mapas, Sol, estrelas — tudo ajudando a mesma coisa.",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se você está de frente para o Leste, o que fica à sua esquerda?",
     tip: "Imagina-se de frente para onde o Sol nasce e pensa em qual lado ficaria o \"topo\" do mapa.",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o Cruzeiro do Sul é uma constelação usada para encontrar uma direção no céu noturno. Qual direção é essa?",
     tip: "Pensa no próprio nome da constelação — ele já dá uma grande pista sobre qual direção ela indica.",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Depois de aprender tanto sobre pontos cardeais e orientação, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: várias formas diferentes de descobrir para que lado ir.",
