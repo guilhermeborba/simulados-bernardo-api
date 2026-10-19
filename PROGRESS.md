@@ -379,3 +379,14 @@ O inventário agora confirma cobertura integral de todos os 65 simulados/1.949 q
 Validação de Português: `npm run seed:dry-run` e inventário JSON aprovados (390/390 questões, 13/13 simulados, nove arquivos, cinco simulados da turma Bernardo); temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. Comparação exata de fonte e dados por export confirma somente a adição de `theme`. Nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes; `npm run test:e2e`: 418 testes/23 suítes, com PostgreSQL descartável removido ao final.
 
 As alternativas corretas duplicadas nas questões 22 e 26 do B2/AV2 privado e os comandos incompletos nas questões 14 e 15 do B1/AV2 privado estão na [issue web #72](https://github.com/guilhermeborba/simulados-bernardo/issues/72), para revisão separada. O conteúdo foi preservado neste lote. Não houve seed em banco existente, deploy ou alteração de contrato.
+
+
+### Português do 4º ano — E04
+
+Português do 3º ano foi integrado em api#229, completando os temas das 65 entradas/1.949 questões do 3º ano no seed. O lote seguinte acrescenta 240 temas de Português do 4º ano em oito arquivos/simulados gerais (`questoes-portugues-4ano-b*-av*.ts`). Não há entradas privadas desse ano/disciplina no seed. O vocabulário de 24 temas e os critérios estão em `docs/temas-editoriais.md`.
+
+O inventário confirma Português do 4º ano com cobertura de 240/240 questões e 8/8 simulados. No acervo total, são 2.189 questões com tema e 73 simulados integralmente classificados, em 780 simulados/23.444 questões. O 4º ano tem 240/1.200 questões classificadas em 8/40 simulados; restam Matemática, Ciências, História e Geografia. Próximo lote sugerido: Matemática do 4º ano, oito arquivos/240 questões.
+
+Validação editorial: dry-run e inventário JSON aprovados; temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. Comparação exata de fonte e dados por export confirma que apenas `theme` foi acrescentado às questões. Nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes aprovados. `npm run test:e2e`: 418 testes/23 suítes aprovados, em PostgreSQL descartável removido ao final.
+
+A inconsistência preexistente de gabarito na questão 13 de Português B4/AV2, sobre coesão textual, está na [issue web #74](https://github.com/guilhermeborba/simulados-bernardo/issues/74), para revisão separada. O gabarito e todos os campos de conteúdo foram preservados neste lote. Não houve seed em base existente, deploy ou alteração do contrato da API.
