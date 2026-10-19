@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB4Av1 = [
   {
     id: 1,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "Como os povos indígenas obtinham o que precisavam para viver?",
     tip: "Pensa em como as pessoas que vivem na natureza conseguem tudo que precisam diretamente dela, sem dinheiro.",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "O trabalho indígena era diferente do trabalho de hoje porque:",
     tip: "Pensa em como pescar ou plantar era necessário para sobreviver, mas também era parte da vida, da celebração, da comunidade.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Durante o período colonial, o Brasil explorava principalmente:",
     tip: "Pensa em qual era o produto mais valioso e rentável na época colonial, que justificava construir cidades inteiras ao seu redor.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "A escravidão foi uma forma criminosa de trabalho porque:",
     tip: "Pensa em como o pior tipo de trabalho possível — ser obrigado, ser tratado como propriedade, sofrer castigos — é exatamente o oposto do trabalho digno.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Após a abolição em 1888, as pessoas liberta precisavam:",
     tip: "Pensa em como conseguir liberdade não era só conseguir não ser mais escravizado — era precisar se sustentar, encontrar emprego, reconstruir uma vida.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Um trabalho muito comum no Brasil colonial e imperial era:",
     tip: "Pensa em um país que era principalmente rural, com poucas cidades, onde a maioria das pessoas vivia do que a terra produzia.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Com a industrialização, o trabalho transformou porque:",
     tip: "Pensa em como fabricar coisas em massa em uma fábrica é completamente diferente de cultivar plantas em uma fazenda.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "No século XX, novas profissões surgiram graças à tecnologia, como:",
     tip: "Pensa em quantos trabalhos existem hoje relacionados a coisas que não existiam 100 anos atrás — como tudo que tem a ver com eletricidade ou computador.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Uma permanência no trabalho é que:",
     tip: "Pensa em como em qualquer tempo, as pessoas precisam fazer algo para conseguir o que comer, onde morar, do que precisam.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "A mudança mais importante no trabalho moderno é que:",
     tip: "Pensa em um catálogo de profissões: antigamente eram poucas (agricultor, comerciante, artesão), hoje são milhares (youtuber, designer, programador, influencer digital...).",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Um trabalho que mudou muito com a tecnologia é o do:",
     tip: "Pensa em como um livro antigamente era escrito à mão por meses, depois digitado em máquina, depois em computador — cada tecnologia acelerou o processo.",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Profissões que eram muito comuns antigamente, como carteiro e datilógrafo:",
     tip: "Pensa em como a tecnologia às vezes torna profissões antigas menos necessárias — não precisa mais de quem digitava à máquina quando você pode digitar no computador.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Uma mudança importante no trabalho feminino é que:",
     tip: "Pensa em como sua avó talvez tivesse que pedir permissão do marido para trabalhar, ou não pudesse trabalhar em certas profissões — hoje uma mulher pode ser o que quiser.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Direitos trabalhistas como férias, descanso semanal e salário mínimo:",
     tip: "Pensa em como antes as pessoas trabalhavam quantas horas quisessem, quantos dias, recebendo o que os patrões ofereciam.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Uma permanência na organização do trabalho é que:",
     tip: "Pensa em como em qualquer grupo de trabalho, sempre há uma hierarquia — alguém que coordena, planeja e toma decisões.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O trabalho infantil era muito comum no Brasil antigamente:",
     tip: "Pensa em uma criança tendo que trabalhar 12 horas por dia em uma fábrica perigosa em vez de ir à escola.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Hoje, muitas profissões permitem trabalhar remotamente (de casa) graças a:",
     tip: "Pensa em como um videoconferência permite você trabalhar com pessoas no outro lado do mundo sem sair de casa.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Uma transformação importante no trabalho é a automação, que significa:",
     tip: "Pensa em como em uma fábrica moderna, robôs fazem muitos trabalhos que pessoas faziam antes — é mais rápido e barato.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "A importância do trabalho na vida das pessoas é que:",
     tip: "Pensa em como trabalhar não é só ganhar dinheiro — é também ter um lugar na sociedade, sensação de contribuição, rotina e propósito.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Uma permanência sobre trabalho que atravessa toda a história é:",
     tip: "Pensa em como desde os tempos antigos até hoje, as pessoas precisam trabalhar para conseguir comida, abrigo, tudo que precisam.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Bernardo está aprendendo que trabalho ontem e hoje é diferente porque:",
     tip: "Pensa em como seu avó pode ter trabalhado em uma fazenda sua vida inteira no mesmo trabalho, enquanto você talvez tenha várias profissões ao longo da vida.",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Uma desigualdade que ainda existe é que:",
     tip: "Pensa em como às vezes duas pessoas fazendo exatamente o mesmo trabalho ganham diferente — isso é injusto.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Profissões novas que surgiram graças à internet incluem:",
     tip: "Pensa em como seu celular permite que você crie conteúdo, ganhe dinheiro com isso e trabalhe para audiências ao redor do mundo.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "A importância de estudar história do trabalho é entender:",
     tip: "Pensa em como se você conhece como as pessoas lutaram por direitos trabalhistas no passado, você fica inspirado a proteger esses direitos hoje.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Uma lição que aprendemos ao comparar trabalho ontem e hoje é que:",
     tip: "Pensa em como alguém que aprendeu uma profissão pode precisar aprender algo completamente novo alguns anos depois — flexibilidade é importante!",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "A valor do trabalho indígena e africano, mesmo sendo explorado injustamente, era:",
     tip: "Pensa em como indígenas e africanos construíram cidades, plantaram, desenvolveram técnicas — toda essa riqueza foi roubada deles.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: 'Quando pensamos em "Trabalho — Ontem e Hoje", devemos lembrar que:',
     tip: "Pensa em como muito do conforto que você tem (fim de semana, férias, escola em vez de trabalho infantil) foi conquistado por outras pessoas lutando.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Uma transformação importante é que antigamente havia muito mais trabalho:",
     tip: "Pensa em um mineiro 100 anos atrás trabalharando sem equipamento de segurança em minas perigosas, comparado a um mineiro hoje com capacete, luzes, e proteção.",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "A diversidade de trabalho hoje significa:",
     tip: "Pensa em como você tem tantas possibilidades de carreira — algo impensável para uma criança 100 anos atrás que provavelmente faria o mesmo trabalho do pai seu vida toda.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Para finalizar: estudar trabalho ontem e hoje nos ensina que:",
     tip: "Pensa em como você, Bernardo, será parte dessa história — suas escolhas de profissão, suas lutas por direitos, continuarão transformando o trabalho para o futuro.",

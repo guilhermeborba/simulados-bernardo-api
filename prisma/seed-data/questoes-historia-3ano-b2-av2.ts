@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB2Av2 = [
   {
     id: 1,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "O que significa a palavra \"imigrante\"?",
     tip: "Pensa no prefixo \"i\" de \"imigrante\" — tem a ver com entrar em um lugar novo, vindo de fora.",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "A partir do final do século XIX, o Brasil recebeu muitos imigrantes, principalmente para trabalhar em:",
     tip: "Pensa em qual era o principal produto que o Brasil exportava naquela época, algo que se planta e se colhe.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Um dos países que mais enviou imigrantes para o Brasil foi:",
     tip: "Pensa em um país da Europa, famoso pela massa e pela pizza, que tem muita ligação com o Brasil até hoje.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Além dos italianos, também vieram muitos imigrantes de outros países, como:",
     tip: "Pensa em países bem diferentes entre si, de continentes distantes como a Europa e a Ásia.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Os imigrantes japoneses começaram a chegar ao Brasil principalmente para trabalhar:",
     tip: "Pensa no mesmo motivo que trouxe outros imigrantes: trabalhar na terra, plantando e colhendo.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Muitos imigrantes vieram ao Brasil em busca de:",
     tip: "Pensa em como as famílias buscam um lugar melhor para viver e criar seus filhos.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "A cidade brasileira conhecida por ter recebido um grande número de imigrantes italianos e hoje é famosa por isso é:",
     tip: "Pensa na maior cidade do Brasil, onde até hoje existem bairros com forte tradição italiana.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "No Sul do Brasil, estados como Rio Grande do Sul e Santa Catarina receberam muitos imigrantes:",
     tip: "Pensa em cidades do Sul que têm festas parecidas com as da Europa, com muita música e comida típica.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "A imigração japonesa para o Brasil é tão importante que o bairro da Liberdade, em São Paulo, é conhecido por sua forte cultura:",
     tip: "Pensa nos lanternas vermelhas e nos restaurantes de comida oriental que enfeitam esse bairro famoso.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Podemos dizer que os imigrantes vieram ao Brasil formando, junto com indígenas e africanos, um dos grupos que compõem:",
     tip: "Pensa em tudo que você já estudou sobre os povos indígenas e africanos — os imigrantes são mais uma peça desse quebra-cabeça.",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Uma contribuição dos imigrantes italianos para a culinária brasileira é:",
     tip: "Pensa numa comida redonda, com molho de tomate e queijo, que muita gente adora comer no fim de semana.",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Uma comida muito famosa no Brasil, de origem japonesa, hoje super popular em restaurantes, é:",
     tip: "Pensa numa comida feita com arroz, peixe cru e alga, enrolada ou em pedacinhos.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Os imigrantes alemães trouxeram para o Brasil uma festa muito famosa, celebrada em Santa Catarina, chamada:",
     tip: "Essa festa tem nome alemão e é celebrada com muita música, comida típica e trajes tradicionais, geralmente em outubro.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A arquitetura de cidades como Blumenau e Pomerode, em Santa Catarina, tem forte influência:",
     tip: "Pense nas casas enfeitadas, de madeira, com desenhos coloridos, parecidas com as que você vê em fotos da Europa.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Muitas palavras que usamos em português vieram de imigrantes, como palavras de origem italiana, por exemplo:",
     tip: "Pensa numa palavra que usamos para se despedir e em uma massinha redonda feita de batata.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Os imigrantes libaneses e sírios, vindos do Oriente Médio, trouxeram pratos como:",
     tip: "Pensa em salgados muito vendidos em padarias, um em formato oval e outro em formato de barquinho.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "A imigração contribuiu para o Brasil também na área do trabalho e das profissões, trazendo novas técnicas de:",
     tip: "Pensa em como os imigrantes vieram trabalhar na terra e depois começaram a montar fábricas e pequenos negócios.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Um esporte muito praticado no Brasil, o futebol, foi trazido por imigrantes e viajantes vindos principalmente da:",
     tip: "Pensa no país onde esse esporte foi inventado, do outro lado do oceano Atlântico.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Assim como os africanos e indígenas, os imigrantes também ajudaram a formar a culinária, as festas e as palavras do português brasileiro. Isso é um exemplo de:",
     tip: "Pensa em como cada povo, ao conviver com outro, acaba compartilhando um pouquinho da sua cultura.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "A imigração continua até os dias de hoje, com pessoas de países como Haiti, Venezuela e Síria chegando ao Brasil. Isso mostra que:",
     tip: "Pensa se a história que estudamos hoje é só coisa do passado ou se continua acontecendo.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o povo brasileiro se formou com a mistura de:",
     tip: "Pensa em tudo que você já estudou nesses últimos simulados de História — quantos povos diferentes ajudaram a formar o Brasil?",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Se Bernardo for a uma festa com comida italiana, música alemã e feijoada, ele estará vivendo um exemplo de:",
     tip: "Pensa em como é bonito quando culturas diferentes se encontram e se misturam em harmonia numa mesma festa.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A palavra que usamos para descrever essa mistura de tantos povos diferentes formando a cultura do Brasil é:",
     tip: "Pensa numa palavra que tem a ver com \"muitas coisas diferentes juntas\" — o oposto de algo tudo igual.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Comparando os três grupos estudados (indígenas, africanos e imigrantes), podemos dizer que cada um deles:",
     tip: "Pensa em tudo que aprendemos: palavras, comidas, músicas, festas — cada povo deu sua parte única.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Se um amigo disser que o Brasil \"não tem cultura própria porque é uma mistura de outras\", Bernardo pode responder que:",
     tip: "Pensa em como um bolo fica delicioso quando junta vários ingredientes diferentes — cada um contribui pra um resultado único.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Hoje, é importante respeitar os imigrantes que chegam ao Brasil, assim como devemos respeitar indígenas e afrodescendentes, porque:",
     tip: "Pensa em como você gostaria de ser tratado se fosse morar num lugar novo, longe da sua família e dos seus amigos.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quiser pesquisar sobre a imigração na sua própria família ou cidade, ele pode:",
     tip: "Pensa em quem, na sua família, pode contar histórias antigas sobre de onde vieram os seus antepassados.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Podemos concluir que a identidade do povo brasileiro é:",
     tip: "Pensa em tudo que estudamos até agora sobre indígenas, africanos e imigrantes — junte tudo isso na sua cabeça!",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "O respeito e a valorização de todos esses povos (indígenas, africanos e imigrantes) nos ajudam a construir uma sociedade:",
     tip: "Pensa em como as coisas ficam melhores quando as pessoas se respeitam e se ajudam, mesmo sendo diferentes.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Para fechar nosso estudo sobre a formação do povo brasileiro, podemos dizer que a diversidade cultural do Brasil é:",
     tip: "Pensa em como cada povo trouxe algo precioso — palavras, comidas, músicas, festas — como se fossem joias diferentes formando um tesouro.",

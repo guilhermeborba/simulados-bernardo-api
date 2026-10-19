@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB3Av2 = [
   {
     id: 1,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Como os povos indígenas do Brasil moravam antes da chegada dos europeus?",
     tip: "Pensa em um tipo de habitação feita com materiais disponíveis na natureza, como troncos de árvores e folhas de palmeira.",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "A moradia indígena era construída de forma a:",
     tip: "Pensa em como um povo que vive na floresta teria que construir algo que aguentasse chuva, umidade e calor.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Quando os portugueses colonizadores chegaram, começaram a construir casarões de:",
     tip: "Pensa em como os portugueses trouxeram seu jeito de construir de Portugal, mas tiveram que adaptar para o calor do Brasil.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Durante o período colonial, a organização social do Brasil era muito diferente de hoje porque:",
     tip: "Pensa em como a escravidão e as diferenças de poder afetavam quem mandava e quem obedecia.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Uma permanência na forma de morar no Brasil é que:",
     tip: "Pensa em como a função da casa é a mesma — local de proteção, de encontro familiar — mesmo que o formato tenha evoluído muito.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Durante a escravidão, os escravizados moravam em:",
     tip: "Pensa em um lugar que não era feito para dignidade, que era apenas funcional para exploração.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Com a abolição da escravidão em 1888 e o passar do tempo, as formas de organização social começaram a:",
     tip: "Pensa em como as sociedades evoluem — lentamente, às vezes com dificuldade, mas evoluem em direção a mais liberdade e igualdade.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "A industrialização do Brasil (século XX) transformou a forma de morar porque:",
     tip: "Pensa em como migrar para trabalhar numa fábrica significa deixar a zona rural e precisar de moradia na cidade.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Ao comparar uma cidade do século XIX com uma cidade do século XXI, uma permanência é:",
     tip: "Pensa em como a função de uma cidade permanece — é um espaço de encontro, trabalho, trocas — mas o formato mudou drasticamente.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Uma transformação na organização social é que antigamente:",
     tip: "Pensa em como sua mãe, avó ou bisavó tinha muito menos liberdade para escolher sua profissão ou fazer suas próprias decisões.",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Mudanças tecnológicas como a eletricidade transformaram:",
     tip: "Pensa em como sua casa hoje seria impossível sem luz elétrica — imagina escovar os dentes, estudar ou cozinhar no escuro!",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "A forma de trabalho também transformou porque antigamente:",
     tip: "Pensa em quantas profissões existem hoje que não existiam 100 anos atrás — programador, jogador de vídeo profissional, youtuber...",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "Uma permanência na organização familiar é:",
     tip: "Pensa em como a essência da família — amor, cuidado, proteção — permanece, mas as formas podem ser diferentes.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "A forma de educação transformou porque antigamente:",
     tip: "Pensa em como seus pais ou avós talvez não tivessem chance de ir à escola, mas você vai todos os dias.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "A permanência em relação à educação é que:",
     tip: "Pensa em como em qualquer época, em qualquer lugar, as pessoas precisam aprender para sobreviver e progredir.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Com a chegada de tecnologias como internet e smartphones, a forma de trabalhar transformou porque:",
     tip: "Pensa em como seu pai ou mãe talvez possa trabalhar de casa alguns dias, usando computador e videoconferência — algo impossível 20 anos atrás.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "A alimentação também transformou porque antigamente:",
     tip: "Pensa em um supermercado hoje, com frutas vindas de outros países, congelados, alimentos importados — seria impossível antigamente.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Uma permanência na alimentação é:",
     tip: "Pensa em como você talvez ainda coma um prato tradicional que sua avó preparava — essas receitas resistem ao tempo.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "O lazer também transformou porque antigamente:",
     tip: "Pensa em quantas formas de diversão existem hoje que não existiam 50 anos atrás.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Uma permanência no lazer é:",
     tip: "Pensa em como em qualquer época, as pessoas precisam de descanso e diversão para viver bem.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Comparando moradias do século XIX com moradias do século XXI, uma grande transformação é:",
     tip: "Pensa em como uma casa colonial tinha apenas luz natural e água de poço, enquanto um apartamento hoje tem eletricidade, água encanada, aquecimento.",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "A permanência em relação à moradia é que:",
     tip: "Pensa em como abrigarse continua sendo uma necessidade básica humana, desde os tempos antigos até hoje.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Se Bernardo comparasse como sua família vivia 100 anos atrás com como vive hoje, ele descobriria transformações em:",
     tip: "Pensa em como a vida mudou completamente em tantos aspectos, mas algumas coisas importantes permanecem iguais.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "A permanência mais importante na organização social ao longo do tempo é:",
     tip: "Pensa em como humanos são seres sociais — sempre vivemos em grupos, comunidades e sociedades organizadas.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Quando estudamos transformações e permanências, estamos aprendendo que:",
     tip: "Pensa em como reconhecer tanto as mudanças quanto aquilo que continua igual nos ajuda a entender a história de verdade.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Observar como moradias transformaram ao longo do tempo nos ajuda a entender:",
     tip: "Pensa em como cada transformação na moradia foi resposta a uma necessidade — eletricidade para ter mais luz, apartamentos para acomodar mais gente nas cidades.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "As diferenças sociais transformaram porque:",
     tip: "Pensa em como a luta de muitas pessoas conseguiu conquistar direitos e leis que protegem mais gente hoje.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Uma permanência fundamental na organização social é que:",
     tip: "Pensa em como em qualquer tempo e lugar, quando há mais de uma pessoa, é preciso haver alguma forma de organização.",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "O respeito às permanências (coisas que não mudam) é importante porque:",
     tip: "Pensa em como manter viva uma tradição familiar enquanto também abraça novidades — é equilibrar passado e futuro.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Para finalizar: estudar transformações e permanências nos ajuda a:",
     tip: "Pensa em como ao entender como as coisas mudaram no passado, você fica melhor preparado para as mudanças que virão no futuro.",

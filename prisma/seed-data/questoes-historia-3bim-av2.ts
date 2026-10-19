@@ -1,6 +1,7 @@
 export const questoesHistoriaAv2Bim3 = [
   {
     id: 1,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "As cidades são lugares onde:",
     tip: "Dica: cidade = espaço urbano, com muitas construções e funções diferentes. Curiosidade: mais de 8 em cada 10 brasileiros moram em cidades.",
@@ -15,6 +16,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 2,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "As ruas das cidades costumam ter muito movimento porque, todos os dias, muitas pessoas:",
     tip: "O movimento das ruas é resultado da rotina de todos: trabalho, escola, compras.",
@@ -29,6 +31,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 3,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Buzinas, motores, música das lojas e sirenes são exemplos de:",
     tip: "Dica: sons artificiais são produzidos por coisas feitas pelo ser humano; sons naturais vêm da natureza (pássaros, chuva, vento).",
@@ -43,6 +46,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 4,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Como muitas pessoas compartilham os mesmos espaços na cidade (calçadas, praças e transporte público), é importante:",
     tip: "Curiosidade: compartilhar espaços exige acordos de convivência — é por isso que existem filas, sinais de trânsito e faixas de pedestres.",
@@ -57,6 +61,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 5,
+    theme: "Mobilidade e acessibilidade",
     type: "multiple_choice",
     text: "Em muitos ônibus existem lugares reservados para idosos e gestantes. Esses assentos servem para:",
     tip: "Dica: acessibilidade significa garantir que todas as pessoas consigam usar os espaços. Curiosidade: no Brasil, os assentos preferenciais são garantidos por lei.",
@@ -71,6 +76,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 6,
+    theme: "Mobilidade e acessibilidade",
     type: "multiple_choice",
     text: "Muitos ônibus têm rampas. Elas servem para:",
     tip: "Curiosidade: além das rampas, muitos ônibus têm elevadores e espaços reservados para a cadeira de rodas.",
@@ -85,6 +91,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 7,
+    theme: "Mobilidade e acessibilidade",
     type: "multiple_choice",
     text: "Assinale a atitude correta ao usar o transporte público:",
     tip: "Dica: pense sempre em \"como eu gostaria de ser tratado\". Outros exemplos: não ocupar o assento preferencial, deixar as pessoas descerem antes de entrar e falar em tom baixo.",
@@ -99,6 +106,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 8,
+    theme: "Trabalho nas cidades",
     type: "multiple_choice",
     text: "Na cidade, os bairros industriais são os lugares onde:",
     tip: "Cuidado com a pegadinha: praças e parques são para brincar e passear; quem tem fábricas é o bairro industrial.",
@@ -113,6 +121,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 9,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "A Estação das Docas, em Belém do Pará, hoje é um centro cultural, onde há apresentações musicais, peças de teatro e exposições. Antes, esse mesmo lugar era:",
     tip: "Curiosidade: esse tipo de transformação tem nome: requalificação urbana — um espaço antigo ganha um uso novo em vez de ser demolido.",
@@ -127,6 +136,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 10,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Sobre a rotina das crianças que moram nas cidades, é correto afirmar que:",
     tip: "Dica: a palavra-chave é \"variar\". Cada criança vive de um jeito, mas todas fazem parte da vida urbana.",
@@ -141,6 +151,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 11,
+    theme: "Trabalho nas cidades",
     type: "multiple_choice",
     text: "O comércio acontece principalmente em:",
     tip: "Dica: comércio = comprar e vender.",
@@ -155,6 +166,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 12,
+    theme: "Trabalho nas cidades",
     type: "multiple_choice",
     text: "São exemplos de trabalhadores do comércio:",
     tip: "Cuidado: médico e professor prestam serviços, não comércio.",
@@ -169,6 +181,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 13,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "No passado, as compras aconteciam principalmente em feiras e armazéns pequenos. Hoje, além desses lugares, também existem:",
     tip: "Curiosidade: o primeiro shopping do Brasil foi inaugurado em São Paulo, em 1966.",
@@ -183,6 +196,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 14,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Nas lojas virtuais, as pessoas fazem compras usando:",
     tip: "Curiosidade: nas lojas virtuais o comércio acontece sem que comprador e vendedor se encontrem pessoalmente.",
@@ -197,6 +211,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 15,
+    theme: "Trabalho nas cidades",
     type: "multiple_choice",
     text: "Médicos, professores, motoristas de ônibus, carteiros e cabeleireiros são profissionais que trabalham com:",
     tip: "Dica de memória: comércio vende produtos; serviço atende pessoas.",
@@ -211,6 +226,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 16,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Hoje existem vários serviços feitos por aplicativo, como entregadores que recebem o pedido pelo celular. Isso é possível por causa:",
     tip: "Curiosidade: essas profissões de aplicativo nem existiam há 20 anos — a tecnologia cria trabalhos novos ao mesmo tempo em que faz outros desaparecerem.",
@@ -225,6 +241,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 17,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Os trabalhos feitos na cidade mudaram com o passar do tempo. Isso aconteceu principalmente por causa:",
     tip: "Dica: tecnologia muda o modo de viver, e o mercado de trabalho se adapta a isso.",
@@ -239,6 +256,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 18,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "No passado, os bondes eram um meio de transporte coletivo muito comum e eram guiados por condutores. Hoje, esse papel é desempenhado pelos:",
     tip: "Curiosidade: os bondes circulavam sobre trilhos. Em Santa Teresa, no Rio de Janeiro, o bonde ainda funciona até hoje como atração turística.",
@@ -253,6 +271,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 19,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "A profissão de datilógrafo — pessoa que escrevia documentos em máquinas de escrever — deixou de ser necessária quando:",
     tip: "Curiosidade: na máquina de escrever não havia tecla \"apagar\" — um erro obrigava a refazer a página inteira.",
@@ -267,6 +286,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 20,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Os acendedores de lampião acendiam as luzes das ruas em uma época em que:",
     tip: "Curiosidade: o acendedor passava de rua em rua, no fim da tarde, com uma vara comprida para acender cada lampião a gás.",
@@ -281,6 +301,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 21,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "O lazer é:",
     tip: "Dica: lazer é tempo livre escolhido por nós, não tarefa obrigatória.",
@@ -295,6 +316,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 22,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "São exemplos de atividades de lazer que podem ser feitas dentro de casa:",
     tip: "Curiosidade: jogos de tabuleiro são antiquíssimos — existem tabuleiros encontrados por arqueólogos com mais de 4.000 anos.",
@@ -309,6 +331,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 23,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Andar de bicicleta, de skate ou de patinete são atividades de lazer que:",
     tip: "Dica: pense no espaço que a atividade exige. Bicicleta e skate pedem rua, praça ou parque.",
@@ -323,6 +346,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 24,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Sobre o lazer, é correto afirmar que ele é importante:",
     tip: "Dica: todo mundo tem tarefas, então todo mundo precisa de descanso.",
@@ -337,6 +361,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 25,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "É correto afirmar que descansar e brincar são jeitos de cuidar da saúde porque:",
     tip: "Curiosidade: brincar também é jeito de usar a imaginação e aprender coisas novas.",
@@ -351,6 +376,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 26,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Assinale a dica correta para que o tempo de lazer não seja reduzido:",
     tip: "Atenção: as cinco dicas do capítulo são — planejar o dia, não deixar os deveres para a última hora, usar as telas com equilíbrio, escolher atividades de que você gosta e separar uma parte do dia para o lazer.",
@@ -365,6 +391,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 27,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "No passado, no campo, o lazer das crianças e das famílias acontecia principalmente:",
     tip: "Curiosidade: muitas famílias se reuniam em festas de colheita e festas juninas, tradições que continuam vivas hoje.",
@@ -379,6 +406,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 28,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Entre as brincadeiras preferidas das crianças que viviam nas cidades no passado, estavam:",
     tip: "Curiosidade: a amarelinha é jogada em vários países do mundo, com nomes e desenhos diferentes.",
@@ -393,6 +421,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 29,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "As crianças usavam as ruas da cidade para brincar porque, naquela época:",
     tip: "Dica: menos carros = ruas mais livres para brincar. Hoje, algumas cidades fecham ruas aos domingos justamente para devolver esse espaço às pessoas.",
@@ -407,6 +436,7 @@ export const questoesHistoriaAv2Bim3 = [
   },
   {
     id: 30,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Entre os povos indígenas, as crianças já brincavam de peteca, palavra que, na língua tupi, significa:",
     tip: "Curiosidade: a peteca é uma das brincadeiras indígenas mais antigas do Brasil e virou até esporte oficial, com campeonatos e regras próprias.",
