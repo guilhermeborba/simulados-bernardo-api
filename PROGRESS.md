@@ -357,3 +357,14 @@ O lote de Ciências acrescenta 390 temas em 13 arquivos: oito gerais (240 quest�
 O inventário desta etapa confirma cobertura integral nas 13 entradas de Ciências do 3º ano. Somado a Geografia e Matemática já integradas (api#225 e api#226), o código passa a ter 1.169 questões com tema e 39 simulados integralmente classificados, em 780 simulados/23.444 questões. Restam História, Português e os demais anos. Não houve seed em banco existente nem publicação de conteúdo em produção.
 
 Validação de Ciências: dry-run e inventário aprovados (390/390 questões e 13/13 simulados); vocabulário fechado, temas com 1–4 palavras e preservação exata de todos os campos anteriores. A conferência editorial também verificou que nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes; `npm run test:e2e`: 418 testes/23 suítes, em PostgreSQL descartável removido ao final. Não houve alteração de contrato.
+
+
+### História do 3º ano — E04
+
+Ciências do 3º ano foi integrada em api#227. O lote de História acrescenta 390 temas em 13 arquivos: oito gerais (240 questões) e cinco privados da turma Bernardo (150). O vocabulário em `docs/temas-editoriais.md` reúne 24 temas e documenta os critérios para fontes históricas, memória, patrimônio, contribuições culturais, transformações sociais e trabalho. A leitura incluiu itens compostos e alternativas de enunciados genéricos.
+
+O inventário confirma cobertura integral das 13 entradas de História do 3º ano. Com Geografia, Matemática e Ciências já integradas (api#225–227), são 1.559 questões com tema e 52 simulados integralmente classificados, em 780 simulados/23.444 questões. A E04 permanece parcial: o próximo lote é Português do 3º ano, seguido dos demais anos.
+
+Validação de História: `npm run seed:dry-run` e inventário JSON aprovados (390/390 questões e 13/13 simulados, cinco da turma Bernardo); vocabulário fechado e temas de 1–4 palavras, com até 120 caracteres. Comparação exata com a base confirma que apenas as linhas `theme` foram acrescentadas às questões, sem alterar enunciados, alternativas, gabaritos, dicas, curiosidades ou outros campos. Nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes; `npm run test:e2e`: 418 testes/23 suítes, com PostgreSQL descartável removido ao final.
+
+A inconsistência preexistente na questão 5 de História B4/AV1 geral e a revisão do restante desse simulado foram registradas na [issue web #70](https://github.com/guilhermeborba/simulados-bernardo/issues/70). O gabarito foi preservado neste lote de temas. Não houve seed em base existente, publicação de conteúdo em produção ou alteração do contrato da API.
