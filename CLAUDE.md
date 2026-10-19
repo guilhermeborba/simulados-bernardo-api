@@ -306,6 +306,7 @@ npm run convite             # gera link de convite para uma turma
 
 ## Documentação adicional
 
+- **Design system Giz** — etapas e protocolo de continuidade entre agentes em `docs/giz/ETAPAS.md` do repositório `simulados-bernardo`; status ao vivo em `gh issue list --repo guilhermeborba/simulados-bernardo --label giz`. As etapas de API também são rastreadas lá.
 - `PROGRESS.md` — **estado atual do projeto**: o que está concluído, o que está em andamento e as próximas iniciativas. Ler antes de começar qualquer task.
 - `docs/decisions/` — **ADRs**: raciocínio por trás das decisões arquiteturais não óbvias (refresh token como hash, BFF com cookies httpOnly, turma com membership table, seed idempotente, gabarito protegido).
 - `docs/checklist-desenvolvimento.md` — checklist das 6 fases do projeto
