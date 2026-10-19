@@ -1,6 +1,6 @@
 # Estado do Projeto — simulados-bernardo-api
 
-> Atualizado em: 2026-10-17
+> Atualizado em: 2026-10-19
 > Atualizar este arquivo ao concluir cada fase ou iniciativa relevante.
 
 ## Status geral
@@ -343,8 +343,17 @@ Não houve deploy, aplicação da migration em base existente, publicação edit
 
 ## Temas editoriais Giz — 19/10/2026 (E04 parcial)
 
-Geografia do 3º ano foi integrada em api#225 (390 questões). O lote de Matemática do 3º ano acrescenta 389 temas: oito arquivos gerais (240 questões) e cinco privados da turma Bernardo (149). O legado `questoes-matematica.ts` permanece com 29 questões e os mesmos IDs; enunciados, alternativas, correção e demais campos foram preservados integralmente.
+Geografia do 3º ano foi integrada em api#225 (390 questões). Matemática do 3º ano foi integrada em api#226, com 389 temas: oito arquivos gerais (240 questões) e cinco privados da turma Bernardo (149). O legado `questoes-matematica.ts` permanece com 29 questões e os mesmos IDs; enunciados, alternativas, correção e demais campos foram preservados integralmente.
 
-O vocabulário por disciplina/ano e seus critérios estão em [temas editoriais](docs/temas-editoriais.md). No dry-run desta branch, o acervo tem 779 questões classificadas e 26 simulados com cobertura integral, em um total de 780 simulados/23.444 questões. Isso mede os arquivos versionados, sem afirmar importação em banco ou alteração de tentativas existentes. A E04 continua aberta para Ciências, História, Português e os demais anos. Seed em produção permanece com o responsável.
+O vocabulário por disciplina/ano e seus critérios estão em [temas editoriais](docs/temas-editoriais.md). No dry-run do lote de Matemática, o acervo tinha 779 questões classificadas e 26 simulados com cobertura integral, em um total de 780 simulados/23.444 questões. Isso mede os arquivos versionados, sem afirmar importação em banco ou alteração de tentativas existentes. A E04 continua aberta para Ciências, História, Português e os demais anos. Seed em produção permanece com o responsável.
 
 Validação do lote de Matemática: `npm run seed:dry-run` e inventário JSON aprovados (389/389 questões, 13/13 simulados); comparação exata confirma que apenas as linhas `theme` foram acrescentadas às questões. `npx jest --runInBand`: 713 testes em 40 suítes; `npm run test:e2e`: 418 testes em 23 suítes, com PostgreSQL descartável removido pelo runner. Não houve seed em base existente, deploy ou alteração de contrato.
+
+
+### Ciências do 3º ano — E04
+
+O lote de Ciências acrescenta 390 temas em 13 arquivos: oito gerais (240 questões) e cinco privados da turma Bernardo (150). Todos os demais campos foram preservados por comparação exata. Os temas incluem os conteúdos de animais e plantas, corpo humano, saúde, materiais, som/luz e solo, compartilhando o vocabulário de `docs/temas-editoriais.md`.
+
+O inventário desta etapa confirma cobertura integral nas 13 entradas de Ciências do 3º ano. Somado a Geografia e Matemática já integradas (api#225 e api#226), o código passa a ter 1.169 questões com tema e 39 simulados integralmente classificados, em 780 simulados/23.444 questões. Restam História, Português e os demais anos. Não houve seed em banco existente nem publicação de conteúdo em produção.
+
+Validação de Ciências: dry-run e inventário aprovados (390/390 questões e 13/13 simulados); vocabulário fechado, temas com 1–4 palavras e preservação exata de todos os campos anteriores. A conferência editorial também verificou que nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes; `npm run test:e2e`: 418 testes/23 suítes, em PostgreSQL descartável removido ao final. Não houve alteração de contrato.
