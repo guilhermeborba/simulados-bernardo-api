@@ -1,6 +1,7 @@
 export const questoesHistoriaAv1 = [
   {
     id: 1,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Nas cidades vivem pessoas com:",
     tip: "Cidades são feitas por gente com origens e histórias diferentes.",
@@ -27,6 +28,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Quando pessoas têm jeitos diferentes de viver, isso é chamado de:",
     tip: "Diversidade é ter muitos jeitos diferentes de viver juntos.",
@@ -53,6 +55,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 3,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As cidades são diversas porque:",
     tip: "Morar na cidade significa encontrar gente de bairros, estados e países diversos.",
@@ -79,6 +82,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 4,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Algumas pessoas chegam às cidades vindas de:",
     tip: "A cidade recebe pessoas de muitos lugares diferentes.",
@@ -105,6 +109,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 5,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Conhecer pessoas com origens diferentes nos ajuda a:",
     tip: "Aprender com as diferenças melhora a convivência na cidade.",
@@ -131,6 +136,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 6,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Muitas pessoas mudam de lugar para:",
     tip: "Buscar melhor qualidade de vida é motivo comum para mudar de casa.",
@@ -157,6 +163,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 7,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Algumas famílias mudam em busca de:",
     tip: "Trabalho é uma razão importante para a mudança de lugar.",
@@ -183,6 +190,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 8,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Outras famílias se mudam pensando nos:",
     tip: "Um bom lugar para estudar é motivo para mudar de casa.",
@@ -209,6 +217,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 9,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Quando alguém vai morar em outro país, pode precisar:",
     tip: "Idiomass diferentes fazem parte da adaptação em outro país.",
@@ -235,6 +244,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 10,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "As mudanças de lugar:",
     tip: "Mudanças podem acontecer de surpresa e nem sempre são planejadas.",
@@ -261,6 +271,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Cultura é:",
     tip: "Cultura mostra costumes, histórias, comidas, música e festas de um povo.",
@@ -287,6 +298,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 12,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A cultura pode aparecer em:",
     tip: "Cultura está em músicas, comidas, festas, brincadeiras e tradições.",
@@ -313,6 +325,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As culturas no mundo são:",
     tip: "Cada lugar tem sua cultura própria, diferente das outras.",
@@ -339,6 +352,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As pessoas aprendem cultura:",
     tip: "A cultura é compartilhada entre pessoas, em casa, na escola e na rua.",
@@ -365,6 +379,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 15,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Respeitar culturas diferentes significa:",
     tip: "Respeito começa ao ouvir e aprender sobre as diferenças dos outros.",
@@ -391,6 +406,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 16,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "Muitas danças brasileiras surgiram das culturas:",
     tip: "O Brasil reúne danças vindas de culturas indígenas, africanas e de migrantes.",
@@ -417,6 +433,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 17,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O samba tem origem:",
     tip: "O samba nasceu com forte influência africana no Brasil.",
@@ -443,6 +460,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 18,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O frevo é uma dança de:",
     tip: "O frevo é uma dança típica do estado de Pernambuco.",
@@ -469,6 +487,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 19,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O frevo é dançado com:",
     tip: "A sombrinha colorida é marca registrada do frevo.",
@@ -495,6 +514,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 20,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O carimbó é uma dança do:",
     tip: "Carimbó é tradicional do Norte do Brasil, especialmente do Pará.",
@@ -521,6 +541,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 21,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O carimbó tem influência:",
     tip: "Carimbó mistura elementos das culturas indígena e africana.",
@@ -547,6 +568,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 22,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O carimbó acontece:",
     tip: "No carimbó, as pessoas dançam em roda e celebram juntas.",
@@ -573,6 +595,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 23,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Receber bem pessoas de lugares diferentes é:",
     tip: "Acolher é tratar quem chega com respeito e carinho.",
@@ -599,6 +622,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 24,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Na escola, podemos acolher colegas novos:",
     tip: "Acolhimento pode incluir várias atitudes: boas-vindas, apresentação e ajuda.",
@@ -625,6 +649,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 25,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Respeitar tradições ajuda a:",
     tip: "Respeito faz as pessoas viverem melhor juntas.",
@@ -651,6 +676,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 26,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "No Brasil, muitas famílias gostam de:",
     tip: "Refeições em família são comuns no Brasil e ajudam a unir as pessoas.",
@@ -677,6 +703,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 27,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "No Japão, muitas famílias costumam:",
     tip: "No Japão, a refeição em família é um momento de união e conversa.",
@@ -703,6 +730,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 28,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Em Uganda, as famílias também:",
     tip: "Em muitos países, a refeição em família é um momento importante de conexão.",
@@ -729,6 +757,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 29,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "As refeições em família ajudam a:",
     tip: "Sentar à mesa juntos fortalece os laços entre as pessoas.",
@@ -755,6 +784,7 @@ export const questoesHistoriaAv1 = [
   },
   {
     id: 30,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A diversidade cultural ajuda uma cidade a ser:",
     tip: "Diversidade torna a cidade mais rica em ideias, comidas e festas.",

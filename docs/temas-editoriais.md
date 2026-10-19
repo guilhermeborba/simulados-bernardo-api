@@ -133,3 +133,42 @@ Os nomes **Classificação dos animais** e **Corpo humano** não antecipam o gru
 Não se subdividem artificialmente unidades concentradas: B2/AV1 geral (classificação dos animais) e B3/AV1 geral (corpo humano) têm um tema cada; B1/AV1, B1/AV2 e B2/AV2 gerais têm dois. B4/AV2 geral revisa dez temas do ano. Enunciados, alternativas, gabaritos, dicas, curiosidades e todos os demais campos foram preservados.
 
 Quando o tema coincidir literalmente com a alternativa correta, usa-se uma categoria mais ampla: a questão 21 de `questoes-ciencias-3bim-av2.ts`, que pede o nome do ciclo de vida, usa **Seres vivos**. O conceito específico continua em **Ciclo de vida** nas questões sobre suas etapas e transformações.
+
+### História — 3º ano
+
+| Tema | Abrange |
+|---|---|
+| Alimentação e costumes | Comidas, ingredientes, hábitos de refeição e contribuições culturais relacionadas à alimentação. |
+| Campo e cidade | Características, rotinas, diferenças e relações entre os espaços rural e urbano. |
+| Cidadania e respeito | Convivência respeitosa, acolhimento, valorização das diferenças e responsabilidade com o lugar onde se vive. |
+| Cultura e identidade | Costumes, línguas, saberes, contribuições culturais, identidades regionais e diversidade cultural. |
+| Direitos e participação | Direitos dos povos, conquistas sociais e trabalhistas, proteção da infância e enfrentamento das desigualdades. |
+| Educação e família | Mudanças e permanências na educação, nos vínculos familiares e nos cuidados entre gerações. |
+| Escravidão e resistência | Escravização, tráfico, formas de resistência, comunidades livres e abolição. |
+| Expressões artísticas | Música e danças, suas características e influências culturais. |
+| Festas e tradições | Comemorações, festas populares e tradições transmitidas entre gerações. |
+| Formação do Brasil | Participação de diferentes populações na formação histórica das comunidades e do povo brasileiro. |
+| História do trabalho | Atividades, profissões, condições e importância do trabalho em diferentes períodos históricos. |
+| História e memória | Estudo da História, memória local, compreensão do passado e relações entre passado e presente. |
+| Lazer e brincadeiras | Brincadeiras, esportes, descanso e atividades de lazer em diferentes lugares e épocas. |
+| Migrações | Deslocamentos de pessoas, motivos das mudanças e imigração para o Brasil. |
+| Mobilidade e acessibilidade | Transporte coletivo, circulação, acessibilidade e cuidado com outros usuários do transporte. |
+| Moradias e cotidiano | Materiais, formas de morar, arquitetura e transformações das habitações ao longo do tempo. |
+| Patrimônio e preservação | Patrimônio material e imaterial, bens culturais, museus, restauração e transmissão de conhecimentos tradicionais. |
+| Registros do passado | Fontes escritas, visuais, orais e materiais, pesquisa histórica, nomes de lugares e registros da memória local. |
+| Serviços e espaços públicos | Uso e funções de espaços coletivos, instituições e serviços públicos. |
+| Trabalho e tecnologia | Industrialização, mecanização, automação e mudanças nas profissões e atividades por novas tecnologias. |
+| Trabalho nas cidades | Atividades e trabalhadores da indústria, comércio e serviços no espaço urbano. |
+| Trabalho no campo | Atividades, profissionais e formas de produção e subsistência no meio rural. |
+| Transformações sociais | Mudanças e permanências na organização social, nos espaços e nas relações entre pessoas. |
+| Vida em comunidade | Convívio, organização e relações entre as pessoas de uma comunidade. |
+
+Lote E04: **390 questões em 13 arquivos**, sendo oito gerais `questoes-historia-3ano-b*-av*.ts` (240 questões) e cinco privados da `turma-bernardo` (150 questões). Os privados são `questoes-historia.ts`, `questoes-historia-av1.ts`, `questoes-historia-av2.ts`, `questoes-historia-3bim-av1.ts` e `questoes-historia-3bim-av2.ts`.
+
+Os temas seguem o conteúdo predominante, incluindo os itens internos de verdadeiro/falso e as alternativas dos enunciados genéricos. **Registros do passado** reúne os suportes usados para conhecer a história; **História e memória**, a função desse conhecimento. **Patrimônio e preservação** reúne tanto bens materiais quanto imateriais, sem antecipar qual tipo é a resposta.
+
+Questões sobre a origem específica de pratos, palavras ou manifestações usam os grupos de conteúdo (como **Alimentação e costumes** e **Expressões artísticas**), sem usar o povo ou país que pode ser a resposta como rótulo. Características gerais das culturas e identidades usam **Cultura e identidade**; deslocamentos de pessoas e seus motivos usam **Migrações**.
+
+**História do trabalho** cobre atividades e condições em diferentes épocas; mudanças ligadas a ferramentas, máquinas, informática ou internet usam **Trabalho e tecnologia**. Questões sobre ocupações no campo ou na cidade usam os respectivos temas. Direitos e desigualdades são tratados separadamente em **Direitos e participação**.
+
+Não se subdivide artificialmente o B3/AV1 geral, concentrado em patrimônio, que tem um tema. O B4/AV2 geral revisa onze temas do ano. Todos os demais campos foram preservados exatamente. A inconsistência preexistente de gabarito na questão 5 do B4/AV1 geral foi registrada na [issue web #70](https://github.com/guilhermeborba/simulados-bernardo/issues/70), sem correção de gabarito neste lote.

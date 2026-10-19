@@ -1,6 +1,7 @@
 export const questoesHistoriaAv2 = [
   {
     id: 1,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os povos indígenas contribuíram para a formação de muitos costumes do Brasil principalmente por meio:",
     tip: "A mandioca era um alimento muito importante para os povos indígenas.",
@@ -27,6 +28,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 2,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "A tapioca é feita a partir da:",
     tip: "A tapioca é um alimento tradicional feito a partir da mandioca.",
@@ -53,6 +55,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 3,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Os portugueses passaram a usar farinha de mandioca porque:",
     tip: "Os portugueses tiveram que adaptar sua alimentação ao novo ambiente.",
@@ -79,6 +82,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 4,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Em qual região do Brasil a tapioca se tornou muito popular?",
     tip: "A tapioca é especialmente popular na culinária do Norte e Nordeste.",
@@ -105,6 +109,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 5,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os gaúchos vivem principalmente em qual estado?",
     tip: "Os gaúchos são pessoas do Rio Grande do Sul, conhecidos por suas tradições.",
@@ -131,6 +136,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 6,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Qual é uma bebida típica da cultura gaúcha?",
     tip: "O chimarrão é uma bebida tradicional gaúcha feita com erva-mate.",
@@ -157,6 +163,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 7,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que são os pampas?",
     tip: "Os pampas são campos abertos característicos do Rio Grande do Sul.",
@@ -183,6 +190,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A bombacha é:",
     tip: "A bombacha é uma peça de roupa tradicional usada pelos gaúchos.",
@@ -209,6 +217,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 9,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "As festas típicas ajudam a:",
     tip: "As festas são momentos importantes para manter vivas as tradições.",
@@ -235,6 +244,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 10,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A cidade de Pomerode fica em:",
     tip: "Pomerode é uma cidade em Santa Catarina conhecida pela herança alemã.",
@@ -261,6 +271,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Em Pomerode, as tradições preservadas vieram principalmente da:",
     tip: "Pomerode tem forte influência alemã em sua arquitetura e cultura.",
@@ -287,6 +298,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 12,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Uma festa importante de Pomerode é:",
     tip: "A Festa Pomerana celebra a herança cultural de Pomerode.",
@@ -313,6 +325,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 13,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "A técnica enxaimel utiliza:",
     tip: "Enxaimel é uma técnica de construção tradicional alemã.",
@@ -339,6 +352,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os Pataxó são:",
     tip: "Os Pataxó são um povo indígena do Brasil.",
@@ -365,6 +379,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A Terra Indígena Coroa Vermelha fica:",
     tip: "Coroa Vermelha é uma Terra Indígena localizada na Bahia.",
@@ -391,6 +406,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 16,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Além do português, as crianças Pataxó aprendem:",
     tip: "Patxohã é a língua tradicional do povo Pataxó.",
@@ -417,6 +433,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 17,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Qual é uma importante festa dos Pataxó?",
     tip: "Arsgwaksã é uma celebração importante da cultura Pataxó.",
@@ -443,6 +460,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 18,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "O estudo das culturas ajuda as pessoas a:",
     tip: "Conhecer outras culturas nos ajuda a ser mais tolerantes e respeitosos.",
@@ -469,6 +487,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 19,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "Os espaços públicos podem ser usados por:",
     tip: "Espaços públicos são para o uso de todos os cidadãos.",
@@ -495,6 +514,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 20,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "Qual destes é um espaço público?",
     tip: "A praça é um espaço público onde todos podem ir.",
@@ -521,6 +541,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 21,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "No Brasil, as praias são:",
     tip: "As praias brasileiras são públicas e pertencem a todos.",
@@ -547,6 +568,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 22,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "O local onde o prefeito trabalha é:",
     tip: "O prefeito trabalha na Prefeitura da cidade.",
@@ -573,6 +595,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 23,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "Os vereadores trabalham na:",
     tip: "Os vereadores trabalham na Câmara dos Vereadores.",
@@ -599,6 +622,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 24,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "As pessoas procuram o hospital quando:",
     tip: "O hospital é um serviço público para cuidados com a saúde.",
@@ -625,6 +649,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 25,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "A Biblioteca Pública é um lugar onde podemos:",
     tip: "A Biblioteca Pública é um espaço para leitura e estudo.",
@@ -651,6 +676,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 26,
+    theme: "Serviços e espaços públicos",
     type: "multiple_choice",
     text: "O Correio é o local onde:",
     tip: "O Correio é o serviço de entrega de correspondências.",
@@ -677,6 +703,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 27,
+    theme: "Trabalho nas cidades",
     type: "multiple_choice",
     text: "O comércio é o lugar onde:",
     tip: "O comércio é onde as pessoas compram e vendem produtos.",
@@ -703,6 +730,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 28,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Espaço urbano é:",
     tip: "Espaço urbano é a área da cidade com infraestrutura e muitos moradores.",
@@ -729,6 +757,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 29,
+    theme: "Trabalho nas cidades",
     type: "multiple_choice",
     text: "Quem ajuda a manter a cidade limpa recolhendo o lixo?",
     tip: "Os garis são responsáveis pela limpeza e coleta de lixo das cidades.",
@@ -755,6 +784,7 @@ export const questoesHistoriaAv2 = [
   },
   {
     id: 30,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual atitude ajuda a cuidar da cidade?",
     tip: "Cuidar da cidade é responsabilidade de todos nós!",

@@ -1,6 +1,7 @@
 export const questoesHistoriaAv1Bim3 = [
   {
     id: 1,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Luísa e Felipe acordam cedo, ajudam a cuidar dos animais e caminham por trilhas de terra cercadas de área verde antes de ir à escola. Considerando essa rotina, podemos perceber que eles provavelmente moram:",
     tip: "Observe a presença de animais, áreas verdes e caminhos de terra. Curiosidade: sítios são propriedades rurais geralmente menores e podem ser usados para moradia e produção de alimentos.",
@@ -27,6 +28,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 2,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Considerando que Luísa e Felipe vivem cercados de animais, área verde e caminhos de terra sem asfalto, qual característica aparece no lugar onde eles vivem?",
     tip: "Nas imagens há árvores, animais e bastante espaço aberto. Curiosidade: no espaço rural normalmente há maior presença de áreas naturais do que nas regiões urbanas.",
@@ -53,6 +55,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 3,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O espaço urbano corresponde principalmente:",
     tip: "Pense em locais onde existem muitos prédios, casas, lojas e serviços. Curiosidade: a palavra urbano está relacionada à cidade.",
@@ -79,6 +82,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 4,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual alternativa apresenta uma característica comum do espaço rural?",
     tip: "Compare uma plantação com o centro de uma grande cidade. Curiosidade: o espaço rural pode apresentar plantações, pastagens, matas, rios e criação de animais.",
@@ -105,6 +109,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 5,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "No espaço urbano, geralmente encontramos:",
     tip: "Pense em hospitais, bancos, lojas, prédios e indústrias. Curiosidade: escolas e hospitais também existem no campo, mas costumam ser menos numerosos e mais distantes entre si.",
@@ -131,6 +136,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 6,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual imagem representaria melhor o espaço rural?",
     tip: "Procure uma atividade diretamente ligada ao campo. Curiosidade: a agricultura é uma das atividades mais características das áreas rurais.",
@@ -157,6 +163,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 7,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma área com muitos prédios, ruas movimentadas, ônibus e comércio pertence principalmente:",
     tip: "Pense no centro de uma cidade. Curiosidade: os municípios normalmente possuem tanto áreas urbanas quanto áreas rurais.",
@@ -183,6 +190,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 8,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Campo e cidade:",
     tip: "Pense de onde vêm muitos alimentos consumidos na cidade e onde são fabricadas muitas máquinas usadas no campo. Curiosidade: muitos produtos percorrem um caminho entre campo e cidade antes de chegarem à nossa casa.",
@@ -209,6 +217,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 9,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Grande parte dos alimentos consumidos nas cidades é:",
     tip: "Pense em arroz, milho, frutas e verduras. Curiosidade: a produção rural é essencial para o abastecimento das cidades.",
@@ -235,6 +244,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 10,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Muitas máquinas e ferramentas usadas nas plantações são:",
     tip: "É um exemplo da relação entre campo e cidade. Curiosidade: tratores e colheitadeiras são exemplos de máquinas que podem ser fabricadas na cidade e utilizadas no campo.",
@@ -261,6 +271,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 11,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Os sítios costumam ser:",
     tip: "Compare sítio, chácara e fazenda. Curiosidade: em sítios, é comum haver pequenas plantações e criação de alguns animais.",
@@ -287,6 +298,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 12,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "As chácaras podem apresentar:",
     tip: "Algumas chácaras também são usadas como casas de campo. Curiosidade: uma chácara pode ter produção rural e ao mesmo tempo ser utilizada para descanso e lazer.",
@@ -313,6 +325,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 13,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "As fazendas geralmente:",
     tip: "Pense em grandes plantações e grandes rebanhos. Curiosidade: muitas fazendas participam da economia local e nacional por meio da produção agrícola e pecuária.",
@@ -339,6 +352,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 14,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A vida no campo pode variar de uma região para outra principalmente por causa:",
     tip: "Diferentes regiões possuem condições naturais e costumes diferentes. Curiosidade: algumas regiões são conhecidas por determinados frutos, enquanto outras se destacam pela criação de gado ou produção de grãos.",
@@ -365,6 +379,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 15,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Em algumas comunidades rurais, a escola pode ficar:",
     tip: "O material mostra que algumas crianças precisam percorrer certa distância para estudar. Curiosidade: em áreas rurais, o transporte escolar pode atender crianças que vivem em locais afastados.",
@@ -391,6 +406,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 16,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma criança que vive no campo pode chegar à escola:",
     tip: "O caminho varia conforme a distância e a comunidade. Curiosidade: a rotina escolar das crianças do campo pode ser bastante diferente de uma região para outra.",
@@ -417,6 +433,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 17,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Depois das aulas, algumas crianças que vivem no campo podem:",
     tip: "Pense em pequenas tarefas do cotidiano rural. Curiosidade: além de ajudar em algumas tarefas familiares, as crianças também estudam e brincam.",
@@ -443,6 +460,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 18,
+    theme: "Lazer e brincadeiras",
     type: "multiple_choice",
     text: "Qual atividade de lazer pode fazer parte da rotina de crianças no campo?",
     tip: "Observe as imagens de Luísa e Felipe com seus amigos. Curiosidade: espaços abertos podem proporcionar brincadeiras próximas à natureza.",
@@ -469,6 +487,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 19,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "O cultivo de grãos, frutas, verduras e legumes é chamado de:",
     tip: "Essa atividade envolve plantar, cuidar e colher. Curiosidade: milho, arroz, soja, alface, cenoura e maçã são exemplos de produtos da agricultura.",
@@ -495,6 +514,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 20,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "Na agricultura familiar:",
     tip: "O próprio nome indica quem participa da produção. Curiosidade: a agricultura familiar é responsável por produzir muitos dos alimentos consumidos diariamente no Brasil.",
@@ -521,6 +541,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 21,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "A criação de animais no campo é chamada de:",
     tip: "Pense em vacas, porcos, galinhas e cavalos. Curiosidade: a pecuária pode fornecer produtos como leite, ovos, carne e couro.",
@@ -547,6 +568,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 22,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "Qual profissional é responsável por conduzir e cuidar do gado?",
     tip: "O nome está relacionado aos bois. Curiosidade: o boiadeiro pode conduzir o rebanho até locais onde existam boas condições de pastagem.",
@@ -573,6 +595,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 23,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "O trabalho de cuidar de abelhas para produzir mel é chamado de:",
     tip: "Observe a imagem do trabalhador com caixas de abelhas. Curiosidade: a pessoa que trabalha com a criação e o cuidado das abelhas é chamada de apicultor.",
@@ -599,6 +622,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 24,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "O turismo rural permite que visitantes:",
     tip: "Pense em pessoas visitando propriedades rurais para conhecer esse modo de vida. Curiosidade: algumas chácaras e fazendas recebem visitantes para passeios, alimentação, contato com animais e outras experiências.",
@@ -625,6 +649,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 25,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "Retirar recursos da natureza, como madeira e pedras, é uma atividade relacionada:",
     tip: "O verbo extrair significa retirar. Curiosidade: recursos retirados do campo podem ser usados na fabricação de móveis e na construção civil.",
@@ -651,6 +676,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 26,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "O trabalho no campo:",
     tip: "Compare as pinturas antigas com as máquinas agrícolas atuais. Curiosidade: algumas ferramentas manuais continuam sendo usadas, mas muitas tarefas também passaram a contar com máquinas.",
@@ -677,6 +703,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 27,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Em uma pintura antiga, os trabalhadores agrícolas aparecem usando enxadas e revolvendo a terra diretamente com ferramentas simples, sem nenhuma máquina à vista. Nessa pintura, as pessoas realizam o trabalho agrícola principalmente:",
     tip: "Observe a enxada e o trabalho feito diretamente sobre a terra. Curiosidade: pinturas e fotografias antigas podem ser fontes históricas para conhecer maneiras de trabalhar no passado.",
@@ -703,6 +730,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 28,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Qual máquina atual pode realizar mais rapidamente um trabalho de colheita que no passado era feito manualmente?",
     tip: "Ela aparece na ficha de atividades ao lado de uma ferramenta manual. Curiosidade: máquinas agrícolas permitem realizar algumas tarefas em áreas muito maiores em menos tempo.",
@@ -729,6 +757,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 29,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Ao comparar uma pintura antiga do trabalho rural com uma fotografia de uma máquina agrícola atual, podemos concluir que:",
     tip: "História também estuda mudanças e permanências. Curiosidade: mesmo com novas tecnologias, algumas práticas e conhecimentos rurais continuam sendo transmitidos de geração em geração.",
@@ -755,6 +784,7 @@ export const questoesHistoriaAv1Bim3 = [
   },
   {
     id: 30,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "Qual alternativa resume melhor a importância dos diferentes trabalhos realizados no campo?",
     tip: "Pense em tudo que comemos, usamos e vestimos diariamente. Curiosidade: agricultura, pecuária, apicultura e outras atividades rurais ajudam a abastecer também as pessoas que vivem nas cidades.",

@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB4Av2 = [
   {
     id: 1,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Cultura popular é:",
     tip: "Pensa em tudo que o povo comum cria, festeja e compartilha — não precisa de museu ou fama para ser importante!",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Uma festa popular brasileira muito famosa é:",
     tip: "Pensa na festa mais colorida, barulhenta e alegre do Brasil, onde pessoas de todas as classes dançam juntas nas ruas.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O frevo é uma dança tradicional brasileira que vem de:",
     tip: "Pensa em uma dança que parece uma brincadeira acrobática com um guarda-chuva, muito alegre e cheia de movimento.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "A festa de São João é uma tradição popular que celebra:",
     tip: "Pensa em uma festa de junho cheia de comidas deliciosas (bolo de milho, pé de moleque), danças quadrilha e muito forró.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Tradições populares são importantes porque:",
     tip: "Pensa em como participar de uma festa tradicional te conecta com seu avó, sua bisavó, toda uma história.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "O bumba-meu-boi é uma manifestação cultural que mistura:",
     tip: "Pensa em uma festa que é ao mesmo tempo dança, teatro, música e história — tudo junto celebrando a vida rural.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Comidas tradicionais brasileiras, como feijoada, acarajé e caldo de cana, são exemplos de:",
     tip: "Pensa em como cada região do Brasil tem seus próprios pratos especiais, criados com criatividade e amor das pessoas.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Festas populares como Festa de Nossa Senhora do Rosário e Festa de Iemanjá são exemplos de:",
     tip: "Pensa em como as pessoas encontram formas criativas de celebrar sua fé, misturando diferentes tradições em harmonia.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A importância de valorizar cultura e tradições populares é reconhecer que:",
     tip: "Pensa em como uma receita de sua avó, uma dança aprendida com amigos, são criações tão valiosas quanto um quadro em museu.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Revisando: o Brasil se formou com contribuição de:",
     tip: "Pensa em tudo que aprendemos nesses simulados — quantas histórias, quantos povos, quantas contribuições!",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Revisando sobre patrimônio: patrimônio material é:",
     tip: "Pensa em um museu cheio de objetos antigos que você consegue ver — isso tudo é patrimônio material que precisa ser protegido.",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Revisando sobre patrimônio imaterial:",
     tip: "Pensa em como a samba, a capoeira, a culinária tradicional não estão em um museu, mas vivas nas pessoas e nas comunidades.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Revisando sobre organização social: uma permanência ao longo da história é:",
     tip: "Pensa em que desde tempos antigos até hoje, humanos vivem em grupos, aldeias, cidades — nunca sozinhos.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Revisando sobre transformações: o trabalho mudou porque:",
     tip: "Pensa em como seus avós talvez trabalhassem na mesma profissão toda vida, enquanto você pode ter várias carreiras.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Revisando sobre direitos: conquistas importantes incluem:",
     tip: "Pensa em como todas essas coisas que você toma como garantidas — não ser escravizado, poder estudar, seu avó poder descansar no fim de semana — foram conquistadas com luta.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Uma grande lição que aprendemos é que história não é apenas passado:",
     tip: "Pensa em como as pessoas que vieram antes fizeram escolhas que te afetam hoje — e você fará escolhas que afetarão o futuro.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Revisando sobre povos indígenas: sua contribuição foi:",
     tip: "Pensa em quantas palavras que você usa vêm do tupi, quantos alimentos que você come vieram de primeiro (mandioca, abacaxi, amendoim).",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Revisando sobre povos africanos: sua contribuição inclui:",
     tip: "Pensa em quantas coisas que você ama no Brasil — musicas, danças, comidas — vieram do legado africano.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Revisando sobre imigrantes: sua contribuição foi:",
     tip: "Pensa em pizza e macarrão italianos, sushi japonês, quibe árabe — tudo fruto da imigração que enriqueceu o Brasil.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A grande conclusão que podemos tirar de toda a história do Brasil é:",
     tip: "Pensa em tudo — indígenas, africanos, imigrantes, mulheres, trabalhadores — cada um lutando, criando, contribuindo.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Bernardo, durante esses simulados de História, aprendeu que:",
     tip: "Pensa em como cada pessoa que viveu antes tinha sonhos, medos, alegrias — eram pessoas reais como você, fazendo escolhas que afetavam suas vidas.",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A importância de estudar a diversidade cultural brasileira é:",
     tip: "Pensa em como quando você conhece e respeita culturas diferentes, você se torna uma pessoa mais sábia, mais gentil, mais aberta.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Se você encontrasse alguém que não valoriza povos indígenas ou negros, o que você poderia dizer?",
     tip: "Pensa em tudo que aprendeu nesses simulados — você tem informação e conhecimento para defender a importância de todos!",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "As tradições populares devem ser preservadas porque:",
     tip: "Pensa em uma festa de família ou comunidade — é ali que as histórias são contadas, as pessoas se encontram, a identidade fica viva.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "A responsabilidade de valorizar cultura, patrimônio e tradições:",
     tip: "Pensa em como você pode ser protagonista — aprender danças de seu povo, fazer receitas tradicionais, contar histórias para amigos.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Quando você respeita um colega que tem uma cultura ou tradição diferente da sua:",
     tip: "Pensa em como a diversidade torna tudo mais rico — conhecer tradições diferentes expande sua mente e coração.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Uma transformação cultural importante é que:",
     tip: "Pensa em como a samba antigamente era tocada apenas em terreiros, agora tem escola de samba, competições, mas continua sendo samba de verdade.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Estudiosos de história e cultura, chamados historiadores e antropólogos:",
     tip: "Pensa em como há pessoas dedicando suas vidas a preservar histórias que poderiam ser perdidas para sempre.",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Para que você, Bernardo, respeite e valorize a cultura brasileira no dia a dia pode:",
     tip: "Pensa em como você tem poder — com cada escolha, cada respeito, cada participação, você valoriza cultura e tradições.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Para finalizar este último simulado de História do 3º ano: você aprendeu que o Brasil é:",
     tip: "Pensa em tudo que vivenciou nesses simulados — indígenas, africanos, imigrantes, mulheres, trabalhadores — cada um deixou sua marca.",

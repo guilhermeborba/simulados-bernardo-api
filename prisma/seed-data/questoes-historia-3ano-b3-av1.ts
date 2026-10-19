@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB3Av1 = [
   {
     id: 1,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: 'O que significa a palavra "patrimônio"?',
     tip: 'Pensa na palavra "pátria" — patrimônio tem a ver com algo que pertence ao nosso povo e à nossa história.',
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Patrimônio histórico e cultural pode ser dividido em dois tipos: material e imaterial. O patrimônio material é:",
     tip: "Pensa em algo concreto, algo que existe fisicamente no mundo real, que você consegue apontar com o dedo.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O patrimônio imaterial é tudo aquilo que não podemos tocar com as mãos, como:",
     tip: "Pensa em coisas que vivem na memória e no coração das pessoas, que passam de geração em geração.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Uma cidade inteira pode ser considerada patrimônio histórico quando:",
     tip: "Pensa em cidades antigas, que guardam as construções e costumes de tempos passados, como um museu a céu aberto.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Um museu é um exemplo de lugar onde preservamos:",
     tip: "Pensa em um lugar onde pessoas guardavam cuidadosamente objetos valiosos e antigos, para que as pessoas pudessem conhecer a história.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Uma festa tradicional, como a festa de São João, é considerada:",
     tip: "Pensa em como essa festa acontece há séculos, com os mesmos costumes e músicas, passada pelos avós, pais e filhos.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Ouro Preto é uma cidade histórica em Minas Gerais que é patrimônio da humanidade, principalmente porque:",
     tip: "Pensa em uma cidade que parece ter parado no tempo, com casarões antigos de cores diferentes e ruas de pedra do século XVIII.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A capoeira, a samba, o frevo e o bumba-meu-boi são exemplos de:",
     tip: "Pensa em como essas manifestações culturais são transmitidas oralmente ou por demonstração, não por um objeto físico.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Um bem material considerado patrimônio precisa ser preservado porque:",
     tip: "Pensa em como um prédio antigo, um quadro de um artista famoso ou um objeto histórico conta uma história que desapareceria se fosse destruído.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Bernardo e sua família visitando um museu de arte onde há quadros feitos há séculos é um exemplo de:",
     tip: "Pensa em como ao visitar um museu você está vendo de perto coisas que fizeram parte da história, aprendendo com elas.",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Cristo Redentor, no Rio de Janeiro, é um exemplo de patrimônio:",
     tip: "Pensa em um monumento gigante que você consegue ver de longe, feito de materiais sólidos que duraram décadas.",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A culinária tradicional brasileira, como a receita de feijoada ou de pão de queijo, é patrimônio:",
     tip: "Pensa em como sua avó ensinou sua mãe a fazer um prato especial, e sua mãe ensinou você — essa transmissão é patrimônio imaterial.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Uma língua indígena que quase desapareceu é um exemplo de patrimônio:",
     tip: "Pensa em como guardar a língua significa guardar toda a sabedoria, histórias e conhecimento daquele povo.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Restauração de patrimônio significa:",
     tip: "Pensa em técnicas especiais que os restauradores usam para trazer de volta a beleza original de algo antigo, sem destruir o que torna especial.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Quando um prédio histórico é demolido (derrubado) sem necessidade, o Brasil perde:",
     tip: "Pensa em como um prédio antigo guarda histórias de pessoas que viveram lá, eventos que aconteceram — quando é derrubado, essas histórias são perdidas para sempre.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O Carnaval brasileiro é patrimônio:",
     tip: "Pensa em como o Carnaval acontece há séculos com as mesmas características — música, dança, fantasias — transmitido culturalmente.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Um livro muito antigo e raro em um arquivo ou biblioteca é exemplo de patrimônio:",
     tip: "Pensa em como um livro antigo é um objeto concreto que você consegue tocar, com informações que ninguém mais sabe porque ele as guardou.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A transmissão oral de histórias, lendas e conhecimentos por povos indígenas é:",
     tip: "Pensa em como guardar uma história na memória e contá-la para seus filhos é tão valioso quanto guardá-la num livro.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Quando Bernardo visita um lugar histórico (como uma ruína, uma cidade antiga ou um museu), ele está:",
     tip: "Pensa em como estar em um lugar histórico e de verdade traz mais aprendizado do que apenas ler em um livro.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O respeito e a valorização do patrimônio histórico e cultural ajudam a:",
     tip: "Pensa em como conhecer onde você vem, que histórias formam seu povo, ajuda você a entender melhor o presente.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Comparando patrimônio material e imaterial, ambos são importantes porque:",
     tip: "Pensa em como uma dança (imaterial) e um quadro (material) contam histórias diferentes, mas ambas igualmente valiosas.",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Se uma aldeia indígena quer preservar sua língua e costumes tradicionais (patrimônio imaterial), ela pode:",
     tip: "Pensa em formas criativas de guardar conhecimento — escrevendo, filmando, ensinando — para que não desapareça.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Uma receita de comida tradicional passada de avó para neta, ensinada na cozinha através dos anos, é um exemplo perfeito de patrimônio:",
     tip: "Pensa em como essa receita vive nas pessoas que a fazem, passando de mãos a mãos, sem estar escrita em nenhum lugar.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Quando um governo protege um prédio histórico através de leis, isso significa que:",
     tip: "Pensa em como as leis existem para proteger coisas valiosas — assim como protegemos crianças com leis, protegemos patrimônio com leis.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A importância de preservar patrimônio cultural está em:",
     tip: "Pensa em como ao preservar você constrói um elo entre passado e presente — você honra quem veio antes e deixa legado para quem vem depois.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Se uma comunidade cria um museu local com objetos e histórias da sua região, ela está:",
     tip: "Pensa em como um museu local guarda o que é único e especial da sua comunidade — histórias que talvez não estejam em lugar nenhum.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Uma dança tradicional que quase desapareceu está sendo ensinada novamente nas escolas. Isso é um exemplo de:",
     tip: "Pensa em como ensinar uma dança tradicional para crianças garante que ela continue viva e importante na comunidade.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Bernardo descobre que sua bisavó era uma artesã famosa, criadora de cerâmica tradicional. Isso significa que sua família tem:",
     tip: "Pensa em como conhecimentos artesanais passados de pessoa para pessoa são tão valiosos quanto uma obra de arte em museu.",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O respeito pelos patrimônios culturais de diferentes povos (indígenas, africanos, imigrantes) nos ajuda a:",
     tip: "Pensa em como cada cultura tem seu próprio patrimônio precioso — danças, festas, línguas, conhecimentos — todos igualmente valiosos.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Para finalizar: preservar patrimônio histórico e cultural significa:",
     tip: "Pensa em patrimônio como uma ponte — ela conecta você ao passado e também ao futuro, porque suas ações de hoje serão patrimônio de amanhã.",

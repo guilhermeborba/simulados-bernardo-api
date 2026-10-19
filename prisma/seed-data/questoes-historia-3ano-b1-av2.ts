@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB1Av2 = [
   {
     id: 1,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Antes da chegada dos europeus, quem já vivia nas terras que hoje formam o Brasil?",
     tip: "Pensa em quem já morava por aqui, com suas próprias culturas e formas de viver, muito antes da chegada de outros povos.",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os povos indígenas que viviam no Brasil eram:",
     tip: "Pensa em como, mesmo antes da chegada dos europeus, já existia uma grande diversidade de povos e culturas diferentes no território brasileiro.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Como os povos indígenas geralmente conseguiam seu alimento?",
     tip: "Pensa em como os povos indígenas usavam os recursos da natureza ao seu redor, como rios e florestas, para conseguir alimento.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "Em que tipo de moradia muitos povos indígenas costumavam viver?",
     tip: "Pensa nas construções feitas com materiais naturais, como madeira e palha, muito usadas pelos povos indígenas.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual língua os diferentes povos indígenas do Brasil falavam?",
     tip: "Pensa em como, com tantos povos diferentes, também existiam várias línguas diferentes entre eles.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Vida em comunidade",
     type: "multiple_choice",
     text: "Como era organizada a vida em comunidade entre muitos povos indígenas?",
     tip: "Pensa em como, nas aldeias, as pessoas trabalhavam juntas, dividindo tarefas como caça, pesca e cuidado com as crianças.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os povos indígenas tinham grande conhecimento sobre:",
     tip: "Pensa em como os povos indígenas viviam em estreita relação com a natureza, aprendendo muito sobre plantas, animais e o ambiente ao redor.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Por que é importante estudar e valorizar a história e a cultura dos povos indígenas?",
     tip: "Pensa em como os povos indígenas foram os primeiros habitantes das terras brasileiras, contribuindo muito para a cultura e a história do nosso país.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Bernardo aprendeu que muitos povos indígenas viviam em harmonia com a natureza, usando apenas o que precisavam. Essa atitude nos ensina sobre a importância de:",
     tip: "Pensa em como usar apenas o necessário, sem desperdício, é uma forma de respeitar e cuidar da natureza.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual das opções abaixo é uma característica comum a muitos povos indígenas do Brasil?",
     tip: "Pensa em tudo que aprendemos: conhecimento sobre a natureza e vida em comunidade são características importantes de muitos povos indígenas.",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual das palavras abaixo tem origem indígena (do tupi)?",
     tip: "Pensa em qual dessas palavras é o nome de uma fruta bem brasileira, com origem na língua tupi.",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Qual desses alimentos, muito consumido no Brasil até hoje, tem origem no cultivo indígena?",
     tip: "Pensa em qual desses alimentos já era cultivado pelos povos indígenas muito antes da chegada dos europeus.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A rede, muito usada para descansar e dormir em algumas regiões do Brasil, é uma invenção de origem:",
     tip: "Pensa: a rede foi uma criação dos povos indígenas, muito prática para descansar em regiões de clima quente.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é o nome de uma cidade brasileira bem conhecida que tem origem indígena?",
     tip: "Pensa em qual dessas opções é um bairro/praia famosa do Rio de Janeiro, com um nome de origem tupi.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Muitas técnicas de pesca e caça usadas até hoje por algumas comunidades brasileiras têm origem:",
     tip: "Pensa em como os povos indígenas desenvolveram, ao longo de muitos anos, técnicas eficientes de pesca e caça, adaptadas ao ambiente onde viviam.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "O artesanato indígena, com cestos, redes e adornos feitos de materiais naturais, é um exemplo de:",
     tip: "Pensa em como o artesanato indígena carrega conhecimentos e tradições passadas de geração em geração.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Por que é importante respeitar as terras e os direitos dos povos indígenas atualmente?",
     tip: "Pensa em como todos os grupos de pessoas, incluindo os povos indígenas, têm direito de viver, preservar sua cultura e ter suas terras respeitadas.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é uma forma respeitosa de aprender sobre a cultura indígena na escola?",
     tip: "Pensa em como aprender com respeito e curiosidade genuína é a melhor forma de conhecer qualquer cultura, incluindo a indígena.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Os povos indígenas ainda existem no Brasil atualmente?",
     tip: "Pensa: mesmo com muitas mudanças ao longo da história, diversos povos indígenas continuam vivendo e preservando sua cultura no Brasil até hoje.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Por que é importante conhecer as contribuições culturais dos povos indígenas para o Brasil?",
     tip: "Pensa em como palavras, alimentos e costumes indígenas fazem parte do dia a dia de todos os brasileiros, mesmo sem percebermos.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Bernardo mora em uma comunidade que foi formada, ao longo do tempo, por povos indígenas, além de outros grupos que chegaram depois. Isso mostra que:",
     tip: "Pensa em como muitas cidades e comunidades brasileiras foram se formando com a chegada de diferentes grupos de pessoas ao longo da história.",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Qual é uma boa forma de conhecer se, na região onde Bernardo mora, havia povos indígenas antes da chegada de outros grupos?",
     tip: "Pensa em todas as fontes históricas que aprendemos: livros, museus e relatos de pessoas mais experientes podem ajudar nessa pesquisa.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se o nome de um rio da cidade de Bernardo tem origem tupi, isso pode indicar que:",
     tip: "Pensa em como nomes de origem indígena em rios, cidades e regiões são pistas históricas importantes sobre a presença desses povos há muito tempo.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é a importância de aprender sobre a diversidade de povos indígenas, e não tratá-los como um único grupo igual?",
     tip: "Pensa em como cada povo indígena tem sua própria identidade, e generalizar todos como iguais não representa a real diversidade que existe.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Ana aprendeu na escola que a cultura brasileira tem influências indígenas, africanas e europeias. Isso mostra que o Brasil é um país:",
     tip: "Pensa em como a cultura brasileira, com suas comidas, músicas, palavras e tradições, é resultado da mistura de diferentes povos ao longo da história.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo visitou um museu e viu artesanatos, roupas e ferramentas usadas por povos indígenas há muitos anos. Isso o ajudou a:",
     tip: "Pensa em como visitar museus e ver objetos históricos de perto ajuda a entender melhor a cultura e a vida de diferentes povos ao longo do tempo.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Por que é importante que as crianças aprendam, desde cedo, sobre a história e a cultura dos povos indígenas?",
     tip: "Pensa em como aprender sobre diferentes culturas, desde pequeno, ajuda a formar pessoas mais respeitosas e conscientes sobre a diversidade do país.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual seria uma atitude respeitosa em relação aos povos indígenas atuais?",
     tip: "Pensa em como o respeito envolve reconhecer os direitos e valorizar a cultura de qualquer grupo de pessoas, incluindo os povos indígenas.",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse aprender mais sobre os povos indígenas que viveram na região onde ele mora, quais recursos ele poderia utilizar?",
     tip: "Pensa em todas as fontes de pesquisa que aprendemos: livros, museus e conversas com pessoas que conhecem bem o assunto são ótimos recursos.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre os povos indígenas e a formação da comunidade local, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: os povos indígenas viviam aqui muito antes da chegada de outros povos, com rica cultura, línguas e conhecimentos que ainda influenciam o Brasil de hoje.",

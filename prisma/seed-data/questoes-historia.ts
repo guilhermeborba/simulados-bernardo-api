@@ -1,6 +1,7 @@
 export const questoesHistoria = [
   {
     id: 1,
+    theme: "Registros do passado",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "História é contada por muitas formas: livros, pessoas, festas, nomes e construções. Não é só o que está escrito!",
@@ -32,6 +33,7 @@ export const questoesHistoria = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "Cada cidade é única! Tem suas próprias tradições, pessoas de vários lugares, e culturas diferentes que se misturam.",
@@ -63,6 +65,7 @@ export const questoesHistoria = [
   },
   {
     id: 3,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "O que ajuda a contar a história de uma cidade?",
     tip: "Não é só uma coisa! A história é contada por TUDO: pessoas, festas, nomes de ruas, construções e tradições.",
@@ -85,6 +88,7 @@ export const questoesHistoria = [
   },
   {
     id: 4,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "O que são comemorações na cidade?",
     tip: "Comemorações podem ser festas, celebrações, aniversários de cidades - são importantes para a cultura local!",
@@ -107,6 +111,7 @@ export const questoesHistoria = [
   },
   {
     id: 5,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "O que significa \"cultura\"?",
     tip: "Cultura é tudo que as pessoas fazem, pensam e compartilham: comida, música, festas, tradições, valores.",
@@ -129,6 +134,7 @@ export const questoesHistoria = [
   },
   {
     id: 6,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As cidades podem ser:",
     tip: "Cada cidade tem sua própria história, tamanho, população e características únicas!",
@@ -151,6 +157,7 @@ export const questoesHistoria = [
   },
   {
     id: 7,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma cidade grande geralmente tem:",
     tip: "Cidades grandes têm muita gente, muitos prédios, ruas cheias, comércio movimentado e muita atividade.",
@@ -173,6 +180,7 @@ export const questoesHistoria = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "O que é identidade de uma cidade?",
     tip: "Identidade é tudo que torna a cidade ÚNICA: história, pessoas, cultura, tradições, características.",
@@ -195,6 +203,7 @@ export const questoesHistoria = [
   },
   {
     id: 9,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As pessoas de uma cidade podem:",
     tip: "Diversidade cultural é normal! Pessoas vêm de vários lugares e trazem suas próprias tradições e costumes.",
@@ -217,6 +226,7 @@ export const questoesHistoria = [
   },
   {
     id: 10,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "As festas ajudam a:",
     tip: "Festas mantêm viva a história! Mostram as tradições, celebram eventos importantes e conectam as pessoas.",
@@ -239,6 +249,7 @@ export const questoesHistoria = [
   },
   {
     id: 11,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Cite 2 coisas que fazem parte da história de uma cidade:",
     tip: "Pessoas, festas, nomes de ruas, construções, tradições - todas contam a história da cidade!",
@@ -261,6 +272,7 @@ export const questoesHistoria = [
   },
   {
     id: 12,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "O que são tradições?",
     tip: "Tradições são costumes que os avós passam para os pais, e os pais para os filhos - repetem sempre!",
@@ -283,6 +295,7 @@ export const questoesHistoria = [
   },
   {
     id: 13,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "Por que as festas são importantes?",
     tip: "Festas mostram a riqueza cultural da cidade, unem as pessoas e mantêm viva a história!",
@@ -305,6 +318,7 @@ export const questoesHistoria = [
   },
   {
     id: 14,
+    theme: "Vida em comunidade",
     type: "multiple_choice",
     text: "Cite 2 lugares onde muitas pessoas se encontram na cidade:",
     tip: "Espaços públicos: praça, mercado, escola, parque, biblioteca - lugares cheios de vida!",
@@ -327,6 +341,7 @@ export const questoesHistoria = [
   },
   {
     id: 15,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "O que pode mudar em uma cidade com o tempo?",
     tip: "Cidades evoluem! Novos prédios, nomes mudam, população cresce, mas a história permanece.",
@@ -349,6 +364,7 @@ export const questoesHistoria = [
   },
   {
     id: 16,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Cite 1 exemplo de cultura:",
     tip: "Cultura é tudo que fazemos: culinária, danças, músicas, celebrações, valores, tradições!",
@@ -371,6 +387,7 @@ export const questoesHistoria = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Por que as cidades são diferentes umas das outras?",
     tip: "Cada cidade nasceu de jeitos diferentes, tem pessoas de vários lugares, tradições únicas!",
@@ -393,6 +410,7 @@ export const questoesHistoria = [
   },
   {
     id: 18,
+    theme: "Vida em comunidade",
     type: "multiple_choice",
     text: "Quem forma uma cidade?",
     tip: "As PESSOAS! São elas que criam a história, a cultura, as tradições e fazem a cidade viva!",
@@ -415,6 +433,7 @@ export const questoesHistoria = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Uma cidade tem muitas festas, comidas típicas e músicas diferentes. O que isso mostra?",
     tip: "Diversidade cultural é riqueza! Mostra que a cidade recebe pessoas de vários lugares com histórias diferentes.",
@@ -437,6 +456,7 @@ export const questoesHistoria = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Em uma cidade há pessoas de vários lugares do Brasil. Isso significa que:",
     tip: "Pessoas de diferentes lugares = diversidade! Cada uma traz sua história e cultura para a cidade.",
@@ -459,6 +479,7 @@ export const questoesHistoria = [
   },
   {
     id: 21,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Uma rua com nome de uma pessoa importante indica:",
     tip: "Nomes de ruas contam história! Homenageiam pessoas importantes que fizeram parte da cidade.",
@@ -481,6 +502,7 @@ export const questoesHistoria = [
   },
   {
     id: 22,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma cidade com prédios altos e muito movimento é:",
     tip: "Muitos prédios altos, ruas cheias, movimento constante = características de cidade grande/metrópole!",
@@ -503,6 +525,7 @@ export const questoesHistoria = [
   },
   {
     id: 23,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma cidade com poucas casas e muita natureza é:",
     tip: "Poucas construções, muito verde, população pequena = cidade pequena ou zona rural!",
@@ -525,6 +548,7 @@ export const questoesHistoria = [
   },
   {
     id: 24,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "O que ajuda a formar a identidade de uma cidade?",
     tip: "Identidade é formada por TUDO junto: história, pessoas, cultura, tradições, características únicas!",
@@ -547,6 +571,7 @@ export const questoesHistoria = [
   },
   {
     id: 25,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "As ruas da cidade contam histórias através de:",
     tip: "Rua \"Floriano Peixoto\" é diferente de \"Rua das Flores\"! Os nomes contam histórias!",
@@ -569,6 +594,7 @@ export const questoesHistoria = [
   },
   {
     id: 26,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "A história de uma cidade pode ser aprendida:",
     tip: "História é viva! Está nos livros, nas festas, nos museus e nas histórias que os avós contam.",
@@ -591,6 +617,7 @@ export const questoesHistoria = [
   },
   {
     id: 27,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é a importância de preservar as tradições?",
     tip: "Tradições preservadas = conexão com o passado e com a identidade da comunidade!",
@@ -613,6 +640,7 @@ export const questoesHistoria = [
   },
   {
     id: 28,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Os monumentos de uma cidade servem para:",
     tip: "Monumentos são memórias vivas! Homenageiam fatos e pessoas importantes para a cidade.",
@@ -635,6 +663,7 @@ export const questoesHistoria = [
   },
   {
     id: 29,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Uma cidade que respeita sua história:",
     tip: "Cidades que preservam história ganham identidade, atraem pessoas e mantêm sua riqueza cultural!",
@@ -657,6 +686,7 @@ export const questoesHistoria = [
   },
   {
     id: 30,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A diversidade de uma cidade a torna:",
     tip: "Diversidade é força! Muitas culturas em um lugar = riqueza de ideias, costumes e histórias!",

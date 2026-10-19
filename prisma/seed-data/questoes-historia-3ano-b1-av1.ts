@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB1Av1 = [
   {
     id: 1,
+    theme: "Vida em comunidade",
     type: "multiple_choice",
     text: "Uma comunidade é formada por:",
     tip: "Pensa no bairro ou na cidade onde você mora — todas as pessoas que vivem por lá, compartilhando ruas, praças e costumes, formam uma comunidade.",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Vida em comunidade",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de comunidade?",
     tip: "Pensa em um lugar onde várias pessoas convivem, compartilhando o mesmo espaço.",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Por que é importante conviver bem com os vizinhos e outras pessoas da comunidade?",
     tip: "Pensa em como é bom viver num lugar onde as pessoas se ajudam e se respeitam.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "A História é a ciência que estuda:",
     tip: "Pensa em como a História nos conta sobre o passado das pessoas, das cidades e do mundo.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Por que é importante estudar a história da nossa comunidade?",
     tip: "Pensa em como conhecer o passado do nosso bairro ou cidade nos ajuda a entender melhor o presente.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Bernardo mora em uma cidade que foi fundada há muitos anos. Isso significa que essa cidade:",
     tip: "Pensa em como as cidades vão se formando e crescendo ao longo do tempo, com a chegada de novos moradores e construções.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é a diferença entre uma comunidade rural e uma comunidade urbana?",
     tip: "Pensa no campo, com plantações e mais espaço aberto, e na cidade, cheia de prédios e movimento intenso.",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Por que as pessoas de uma comunidade costumam ter costumes e tradições em comum?",
     tip: "Pensa em como festas, comidas típicas e costumes vão se formando ao longo do tempo em um lugar, sendo compartilhados por todos que vivem ali.",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Qual é um exemplo de mudança que pode acontecer em uma comunidade ao longo do tempo?",
     tip: "Pensa em como um bairro pode crescer com o tempo, ganhando novas construções e moradores.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Por que é importante valorizar e cuidar da nossa comunidade?",
     tip: "Pensa em como cuidar do lugar onde vivemos (mantendo limpo, respeitando os vizinhos) melhora a vida de todos.",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Fontes históricas são materiais que ajudam a:",
     tip: "Pensa em como fotos antigas, documentos e objetos guardados nos ajudam a saber o que aconteceu há muito tempo.",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Uma fotografia antiga é um exemplo de:",
     tip: "Pensa em como uma foto antiga pode nos mostrar como as pessoas e os lugares eram há muitos anos.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Um documento antigo, como uma carta ou um registro, é considerado:",
     tip: "Pensa em como cartas e registros escritos guardam informações importantes sobre o passado.",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Objetos antigos, como móveis, roupas e utensílios guardados em museus, são exemplos de:",
     tip: "Pensa em como objetos antigos, guardados em museus, ajudam a mostrar como as pessoas viviam há muito tempo.",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Os relatos orais, contados por pessoas mais velhas sobre suas experiências e memórias, também são considerados:",
     tip: "Pensa em como as histórias contadas por avós e avôs guardam memórias importantes sobre o passado.",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo entrevistou sua avó para saber como era a vida quando ela era criança. Essa entrevista é um exemplo de:",
     tip: "Pensa: como a avó está contando suas memórias em voz alta, isso é considerado uma fonte histórica oral.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Monumentos e construções antigas, como igrejas históricas e prédios centenários, também servem como:",
     tip: "Pensa em como prédios antigos, ainda de pé, mostram como eram as construções de épocas passadas.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Qual é a importância de guardar e preservar fontes históricas, como fotos e documentos antigos?",
     tip: "Pensa em como fotos e documentos antigos guardam memórias importantes que poderiam se perder se não fossem preservados.",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse saber como era sua cidade há 100 anos, quais fontes históricas ele poderia consultar?",
     tip: "Pensa em todos os tipos de fontes históricas que aprendemos: fotos, documentos, objetos e relatos orais podem ajudar a descobrir como era o passado.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Por que é importante conhecer as diferentes formas de registro da história?",
     tip: "Pensa em como cada tipo de fonte (fotos, documentos, objetos, relatos) nos ajuda a montar um \"quebra-cabeça\" sobre o passado.",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo encontrou uma foto antiga da sua cidade, mostrando ruas sem asfalto e poucos carros. Essa foto é um exemplo de:",
     tip: "Pensa em como essa fotografia guarda um registro de como a cidade era há muito tempo, antes das mudanças que aconteceram depois.",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se a avó de Bernardo contar como era a escola dela quando criança, sem nenhuma anotação, apenas de memória, essa é uma fonte histórica do tipo:",
     tip: "Pensa: como a avó está contando de memória, através da fala, isso é considerado uma fonte histórica oral.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Ana visitou um museu e viu um vestido usado há mais de 100 anos. Esse objeto é um exemplo de:",
     tip: "Pensa em como esse vestido antigo, guardado no museu, mostra como as pessoas se vestiam há muito tempo.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Vida em comunidade",
     type: "multiple_choice",
     text: "Bernardo mora em uma comunidade onde todos se conhecem e se ajudam nos momentos difíceis. Essa é uma característica de:",
     tip: "Pensa em como a colaboração e o cuidado entre vizinhos são sinais de uma comunidade unida e saudável.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse fazer um trabalho escolar sobre a história do bairro onde mora, qual seria uma boa estratégia?",
     tip: "Pensa em todas as fontes históricas que aprendemos: conversar com pessoas, ver fotos e pesquisar documentos são boas formas de descobrir a história de um lugar.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Qual é a importância de conhecer a história da própria comunidade para os moradores?",
     tip: "Pensa em como conhecer a história do nosso bairro ou cidade nos ajuda a nos sentir mais conectados e orgulhosos do lugar onde vivemos.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo viu, em um documento antigo, o registro da fundação da sua cidade, com a data exata. Esse documento ajuda a:",
     tip: "Pensa em como documentos antigos guardam informações precisas, como datas importantes da história de um lugar.",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Qual das opções abaixo NÃO é considerada uma fonte histórica?",
     tip: "Pensa: fontes históricas precisam ter alguma relação real com o passado — uma invenção sem nenhuma base não é considerada uma fonte confiável.",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse comparar como era a comunicação há 50 anos com a comunicação de hoje, ele poderia usar como fonte histórica:",
     tip: "Pensa em como cartas antigas e relatos de pessoas que viveram naquela época podem mostrar como a comunicação era diferente há décadas.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre comunidades e formas de registro da história, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: comunidades são formadas por pessoas que convivem juntas, e podemos descobrir sua história através de fotos, documentos, objetos e relatos orais.",

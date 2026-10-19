@@ -1,6 +1,7 @@
 export const questoesHistoria3AnoB2Av1 = [
   {
     id: 1,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Antes de chegarem ao Brasil, os povos africanos viviam em reinos e comunidades organizadas em qual continente?",
     tip: "Pensa no nome desse grupo de povos — \"povos africanos\"... de que continente vem essa palavra?",
@@ -16,6 +17,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os povos africanos trazidos ao Brasil vieram de vários lugares diferentes da África, por isso:",
     tip: "Assim como o Brasil é grande e tem gente diferente em cada região, a África também é enorme!",
@@ -31,6 +33,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Muitos povos africanos foram trazidos à força para o Brasil, contra a sua vontade, para trabalhar como:",
     tip: "Lembra que essas pessoas não escolheram vir — foram obrigadas de um jeito muito injusto.",
@@ -46,6 +49,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "A viagem dos povos africanos até o Brasil era feita em navios chamados:",
     tip: "O nome desse navio tem a ver com as pessoas que eram transportadas nele, de forma muito triste e injusta.",
@@ -61,6 +65,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "O Brasil recebeu povos de diferentes regiões da África, entre elas a região onde hoje ficam países como:",
     tip: "Pensa em países que ficam no continente africano, não na Europa nem na Ásia.",
@@ -76,6 +81,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Apesar de serem tratados de forma injusta, os povos africanos trouxeram consigo, mesmo à força:",
     tip: "Nenhuma pessoa consegue tirar de você o que você sabe e aprendeu na vida — pensa nisso.",
@@ -91,6 +97,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "A escravidão no Brasil durou muitos anos e só terminou oficialmente em 1888, com uma lei chamada:",
     tip: "O nome dessa lei tem a ver com uma cor muito brilhante e valiosa... pensa no ouro!",
@@ -106,6 +113,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Antes de serem escravizados, muitos africanos viviam em reinos organizados, com reis, comércio e cidades. Isso mostra que:",
     tip: "Pensa em tudo que uma sociedade precisa ter para funcionar bem: governo, cidades, comércio... a África tinha tudo isso!",
@@ -121,6 +129,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Muitos povos africanos escravizados resistiram à injustiça, fugindo e criando comunidades livres chamadas:",
     tip: "Essas comunidades eram lugares de liberdade e resistência, criados por pessoas muito corajosas.",
@@ -136,6 +145,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Zumbi dos Palmares é lembrado até hoje como um símbolo de:",
     tip: "Pensa em uma pessoa que nunca desiste de lutar pelo que é certo e justo.",
@@ -151,6 +161,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "Uma das grandes contribuições dos povos africanos para o Brasil está na música. Um instrumento de origem africana muito usado no Brasil é:",
     tip: "Esse instrumento tem uma corda só e é feito com uma cabaça (tipo de fruto) — ele também aparece em uma luta-dança muito brasileira!",
@@ -166,6 +177,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "A capoeira, que mistura luta, dança e música, foi criada no Brasil por:",
     tip: "Pensa em quem trouxe o berimbau e a ginga (o jeito de se mexer) para essa arte tão especial.",
@@ -181,6 +193,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Muitas palavras que usamos todos os dias em português têm origem africana, como:",
     tip: "Pensa em palavras carinhosas que você já ouviu, tipo um \"cafuné\" na cabeça...",
@@ -196,6 +209,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "A culinária brasileira recebeu grande influência dos povos africanos. Um prato muito famoso com essa origem é:",
     tip: "É um prato feito com feijão preto e vários tipos de carne, muito saboroso e tradicional!",
@@ -211,6 +225,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Além da feijoada, o azeite de dendê e o quiabo também são exemplos de ingredientes trazidos pelos:",
     tip: "Pensa nos alimentos da pergunta anterior sobre a feijoada... quem trouxe esses sabores?",
@@ -226,6 +241,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As religiões de matriz africana, como o Candomblé, chegaram ao Brasil trazidas pelos povos africanos e são um exemplo de:",
     tip: "Assim como cada pessoa pode escolher sua religião, é importante respeitar todas as crenças diferentes.",
@@ -241,6 +257,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "Muitas danças brasileiras têm raízes africanas, entre elas o maracatu e o:",
     tip: "Essa dança usa muito tambor e é dançada em roda, contando histórias através do corpo e da música.",
@@ -256,6 +273,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O samba, um dos ritmos mais famosos do Brasil, tem forte influência:",
     tip: "Pensa nos tambores e no jeito de tocar que você associa com o Carnaval brasileiro...",
@@ -271,6 +289,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os povos africanos também trouxeram grandes conhecimentos sobre agricultura, metalurgia (trabalhar com metais) e:",
     tip: "Pensa em como usar as plantas da natureza para cuidar da saúde das pessoas.",
@@ -286,6 +305,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Podemos dizer que a cultura brasileira é riquíssima porque:",
     tip: "Pensa em tudo que você já aprendeu: música, comida, palavras... de quantos povos diferentes vêm essas coisas?",
@@ -301,6 +321,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o Brasil tem contribuições de povos indígenas e povos africanos. Isso mostra que a cultura brasileira é:",
     tip: "Lembra de tudo que você estudou sobre os povos indígenas e agora sobre os povos africanos — quantos grupos diferentes ajudaram a formar o Brasil?",
@@ -316,6 +337,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Assim como os povos indígenas, os povos africanos também deixaram palavras no nosso vocabulário. Isso acontece porque:",
     tip: "Pensa em como as pessoas de culturas diferentes, quando convivem, acabam trocando palavras e costumes.",
@@ -331,6 +353,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo quer pesquisar mais sobre a cultura afro-brasileira na sua cidade. Um bom lugar para começar seria:",
     tip: "Pensa em lugares que guardam objetos, fotos e histórias importantes para estudarmos o passado.",
@@ -346,6 +369,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Tanto os povos indígenas quanto os povos africanos sofreram injustiças na história do Brasil. Hoje, é importante:",
     tip: "Pensa em como podemos aprender com o passado para construir um presente mais justo e respeitoso.",
@@ -361,6 +385,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "O Dia da Consciência Negra (20 de novembro) é uma data importante porque:",
     tip: "Lembra do herói corajoso que estudamos, ligado ao Quilombo dos Palmares? Essa data é em homenagem a ele.",
@@ -376,6 +401,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Se Bernardo quiser mostrar respeito pela cultura africana e afro-brasileira no dia a dia, ele pode:",
     tip: "Pensa em como você se sentiria se alguém valorizasse e quisesse aprender sobre a sua própria cultura.",
@@ -391,6 +417,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Numa festa junina da escola, tocou um samba e serviram feijoada. Isso mostra como a cultura afro-brasileira está presente:",
     tip: "Pensa em quantas vezes você já viu ou participou de algo com música, comida ou dança de origem africana sem nem perceber!",
@@ -406,6 +433,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Comparando os povos indígenas e os povos africanos, podemos dizer que os dois grupos:",
     tip: "Pensa em tudo que aprendemos: línguas, comidas, músicas, conhecimentos — os dois povos deram uma contribuição enorme!",
@@ -421,6 +449,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Bernardo aprendeu que estudar história ajuda a entender melhor:",
     tip: "Pensa em como as palavras, comidas e músicas que você usa hoje vêm de histórias muito antigas.",
@@ -436,6 +465,7 @@ export const questoesHistoria3AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Para revisar tudo: a formação do povo e da cultura brasileira contou com a participação de povos indígenas, africanos e, mais tarde, também:",
     tip: "Pensa em pessoas que vieram de longe, de outros países, para morar no Brasil — vamos estudar mais sobre isso na próxima aula!",
