@@ -35,7 +35,11 @@ export class AttemptsCorrectionService {
       return this.correctMultipleChoice(input.officialAnswers, input.submittedAnswer);
     }
 
-    return this.correctAnswerMap(input.officialAnswers, input.submittedAnswer);
+    return this.correctAnswerMap(
+      input.officialAnswers,
+      input.submittedAnswer,
+      input.type,
+    );
   }
 
   private correctMultipleChoice(
@@ -58,6 +62,7 @@ export class AttemptsCorrectionService {
   private correctAnswerMap(
     officialAnswers: OfficialAnswer[],
     submittedAnswer: Prisma.JsonValue,
+    type: QuestionType,
   ): boolean {
     const submittedMap = this.extractAnswerMap(submittedAnswer);
 
@@ -70,8 +75,8 @@ export class AttemptsCorrectionService {
 
       return (
         submittedValue !== undefined &&
-        this.normalizeAnswer(String(submittedValue)) ===
-          this.normalizeAnswer(officialAnswer.answerValue)
+        this.normalizeAnswer(String(submittedValue), type) ===
+          this.normalizeAnswer(officialAnswer.answerValue, type)
       );
     });
   }
@@ -124,8 +129,13 @@ export class AttemptsCorrectionService {
     ) as Record<string, string | number | boolean>;
   }
 
-  private normalizeAnswer(value: string): string {
-    return value.trim().toLowerCase();
+  private normalizeAnswer(value: string, type?: QuestionType): string {
+    const normalized = value.trim().toLowerCase();
+    if (type === QuestionType.TRUE_FALSE_MULTIPLE) {
+      if (normalized === 'true') return 'v';
+      if (normalized === 'false') return 'f';
+    }
+    return normalized;
   }
 
   private isRecord(value: unknown): value is Record<string, unknown> {

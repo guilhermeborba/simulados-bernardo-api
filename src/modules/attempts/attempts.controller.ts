@@ -8,6 +8,7 @@ import {
 } from '../../common/guards/jwt-auth.guard';
 import { RolesGuard } from '../../common/guards/roles.guard';
 import { AttemptsService } from './attempts.service';
+import { StartAttemptDto } from './dto/start-attempt.dto';
 import { SubmitAnswerDto } from './dto/submit-answer.dto';
 import { SubmitAttemptAnswerDto } from './dto/submit-attempt-answer.dto';
 import { StartReviewDto } from '../learning-skills/dto/learning-skill.dto';
@@ -21,9 +22,14 @@ export class AttemptsController {
   @Roles(UserRole.STUDENT)
   startAttempt(
     @Param('simulationId') simulationId: string,
+    @Body() dto: StartAttemptDto,
     @CurrentUser() user: AuthenticatedUser,
   ) {
-    return this.attemptsService.startAttempt(simulationId, user);
+    return this.attemptsService.startAttempt(
+      simulationId,
+      user,
+      dto?.immediateFeedback === true,
+    );
   }
 
   @Post('quizzes/:quizId/attempts')

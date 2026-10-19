@@ -1,6 +1,6 @@
 # Estado do Projeto — simulados-bernardo-api
 
-> Atualizado em: 2026-10-14
+> Atualizado em: 2026-10-17
 > Atualizar este arquivo ao concluir cada fase ou iniciativa relevante.
 
 ## Status geral
@@ -322,3 +322,21 @@ ser revistas para incorporar esse escopo; não houve redesign nesta entrega.
 Referências: [aprovação e narração](docs/aprovacao-quizzes-e-voz-dora.md) e
 [plano do design system](docs/superpowers/plans/2026-10-14-design-system-web-mobile.md).
 A aprovação não representa publicação em produção, deploy ou aceite físico.
+
+---
+
+## Integração Giz: feedback confirmado, gabarito e temas — 17/10/2026
+
+O responsável autorizou fechar os contratos necessários ao redesign Giz na web e no Expo. A API agora oferece feedback imediato de simulado por adesão explícita em `POST /simulations/:id/attempts` com `{ "immediateFeedback": true }`. A política é imutável por tentativa: omissão/`false` mantém o comportamento legado; uma tentativa já aberta conserva seu ID e sua política original. Não há conversão nem recorreção retroativa.
+
+Tentativas novas nesse modo gravam snapshots privados de enunciado, alternativas, gabarito, textos pedagógicos, pontos e tema. A correção continua no servidor. Somente depois de confirmar uma questão são liberados `isCorrect`, `correctAnswer` canônico e explicação, com Dica de Ouro para erro/branco e curiosidade para acerto. Antes disso, a projeção não revela gabarito nem textos pedagógicos da questão futura. A exceção ao ADR 005 fica restrita à projeção autenticada documentada no [ADR 016](docs/decisions/016-feedback-confirmado-de-simulado-giz.md); não expõe o registro privado `QuestionAnswer` nem o snapshot bruto.
+
+A confirmação exige seleção completa ou `{}` para branco. Reenvios canonicamente equivalentes retornam a confirmação original, inclusive depois da finalização; alterar a seleção confirmada retorna `409`. Finalizar é idempotente, confirma as questões restantes como branco e retorna a correção persistida. Bloqueios transacionais serializam início, confirmação e finalização; usuário ativo, disciplina e vínculo atual à turma continuam verificados. Os quatro tipos existentes de questão e os contratos legados são preservados.
+
+`Question.theme` é opcional e editorial, com até 120 caracteres, congelado no snapshot da tentativa. O resultado agrega `topics: [{ theme, correct, total }]` e informa `unclassifiedQuestions`. Conteúdo sem tema permanece sem classificação: não houve inferência automática, seed de temas nem alteração de conteúdo publicado.
+
+**Validação desta etapa:** 702 testes unitários e **410 casos reais Nest/PostgreSQL em 23 suítes** aprovados, incluindo quatro testes da migration sobre histórico sintético populado. Lint sem avisos, TypeScript, build Nest e Prisma validate aprovados. Os 15 passos da cadeia de migrations foram aplicados somente em PostgreSQL 16 descartável, inicializado em `/tmp` a partir de pacotes oficiais do Ubuntu porque o Docker não estava disponível; o runner externo manteve as proteções de URL/base vazia. Uma segunda base temporária isolada validou no navegador a jornada web/BFF/API de login, erro/acerto, retomada, resultado por tema e revisão. Nenhum teste reutilizou a URL de uma base existente. Isso não representa implantação nem aceite de aparelhos físicos.
+
+A migration aditiva `20261017120000_simulation_immediate_feedback` define `immediateFeedback=false` para registros anteriores e adiciona campos de tema nulos. Aplicar migration e disponibilizar a API compatível antes de publicar clientes que enviam a nova opção: uma API antiga pode recusar esse campo. A ordem operacional e os formatos de resposta estão no [guia do feedback Giz](docs/guia-feedback-giz.md).
+
+Não houve deploy, aplicação da migration em base existente, publicação editorial ou distribuição em lojas nesta etapa. Os registros históricos dos lotes anteriores foram preservados; o fechamento físico do mobile, a operação de e-mail e as decisões de marca/domínio continuam separados desta entrega local.

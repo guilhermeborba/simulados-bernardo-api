@@ -7,6 +7,7 @@ import { TurmasModule } from '../turmas/turmas.module';
 import { AttemptsController } from './attempts.controller';
 import { AttemptsCorrectionService } from './attempts-correction.service';
 import { AttemptsService } from './attempts.service';
+import { SimulationFeedbackService } from './simulation-feedback.service';
 import { QuizAttemptsService } from './quiz-attempts.service';
 import { QuizMediaController } from '../quizzes/media/quiz-media.controller';
 
@@ -19,6 +20,11 @@ import { QuizMediaController } from '../quizzes/media/quiz-media.controller';
     LearningSkillsModule,
   ],
   controllers: [AttemptsController, QuizMediaController],
-  providers: [AttemptsService, AttemptsCorrectionService, QuizAttemptsService],
+  providers: [
+    AttemptsService,
+    AttemptsCorrectionService,
+    QuizAttemptsService,
+    SimulationFeedbackService,
+  ],
 })
 export class AttemptsModule {}

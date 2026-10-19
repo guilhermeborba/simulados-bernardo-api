@@ -50,6 +50,10 @@ A etapa de build instala também as dependências de desenvolvimento (`--include
 
 A migration do lote 10, `20261013030000_access_password_recovery`, cria `TeacherTurma` e `PasswordResetToken` e inicializa `User.authVersion` em zero. Não atribui professores nem gera links de recuperação. As migrations anteriores incluem quizzes/snapshots, preferências, missões/XP, avatar/conquistas e habilidades/revisão.
 
+A migration Giz `20261017120000_simulation_immediate_feedback` acrescenta o opt-in de feedback e temas nulos. Tentativas existentes continuam no modo legado. Aplique migration/API antes de web/Expo; detalhes no [guia de feedback](guia-feedback-giz.md).
+
+O predeploy da API executa somente `prisma migrate deploy`. O seed editorial permanece uma operação explícita e separada; publicar código Giz não deve importar ou alterar conteúdo por efeito colateral.
+
 ## Ordem de implantação
 
 1. Aplicar a cadeia de migrations no banco do ambiente escolhido.

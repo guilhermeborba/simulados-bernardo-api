@@ -66,6 +66,45 @@ describe('AttemptsCorrectionService', () => {
     });
   });
 
+  it.each([
+    { official: ['true', 'false'], answer: { x: 'V', y: 'F' } },
+    { official: ['V', 'F'], answer: { x: true, y: false } },
+    { official: ['true', 'false'], answer: { x: ' TRUE ', y: 'false' } },
+    { official: ['F', 'V'], answer: { x: false, y: true } },
+  ])(
+    'compares true/false aliases without mutating stored values: %p',
+    ({ official, answer }) => {
+      const officialAnswers = [
+        createAnswer('x', official[0]),
+        createAnswer('y', official[1]),
+      ];
+      const original = structuredClone({ officialAnswers, answer });
+      expect(
+        service.correct({
+          type: QuestionType.TRUE_FALSE_MULTIPLE,
+          points: new Prisma.Decimal('0.2'),
+          officialAnswers,
+          submittedAnswer: { answers: answer },
+        }),
+      ).toEqual({ isCorrect: true, pointsEarned: 0.2 });
+      expect({ officialAnswers, answer }).toEqual(original);
+    },
+  );
+
+  it.each([QuestionType.MATCHING, QuestionType.CLASSIFICATION])(
+    'does not apply true/false aliases to %s',
+    (type) => {
+      expect(
+        service.correct({
+          type,
+          points: new Prisma.Decimal(1),
+          officialAnswers: [createAnswer('x', 'true')],
+          submittedAnswer: { x: 'V' },
+        }),
+      ).toEqual({ isCorrect: false, pointsEarned: 0 });
+    },
+  );
+
   it('corrects matching answer maps', () => {
     expect(
       service.correct({

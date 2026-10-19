@@ -9,6 +9,7 @@ import {
 } from '@prisma/client';
 import { PrismaService } from '../src/database/prisma/prisma.service';
 import { AttemptsCorrectionService } from '../src/modules/attempts/attempts-correction.service';
+import { SimulationFeedbackService } from '../src/modules/attempts/simulation-feedback.service';
 import { AttemptsService } from '../src/modules/attempts/attempts.service';
 import { QuizAttemptsService } from '../src/modules/attempts/quiz-attempts.service';
 import { LearningService } from '../src/modules/learning/learning.service';
@@ -34,6 +35,7 @@ describe('Private simulation start with a single PostgreSQL connection', () => {
       new TurmasService(client),
       new QuizAttemptsService(client, new AttemptsCorrectionService(), new LearningService(client, new CollectionsService(client))),
       new LearningSkillsService(client),
+      new SimulationFeedbackService(client, new AttemptsCorrectionService()),
     );
     const fixtureKey = randomUUID();
     const adminId = `pool-admin-${fixtureKey}`;

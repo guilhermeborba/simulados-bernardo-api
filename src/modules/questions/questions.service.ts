@@ -67,6 +67,7 @@ export class QuestionsService {
         statement: dto.statement.trim(),
         tip: dto.tip?.trim(),
         funFact: dto.funFact?.trim(),
+        theme: dto.theme?.trim() || null,
         points: dto.points,
         sortOrder: dto.order,
         isActive: dto.isActive ?? true,
@@ -103,7 +104,11 @@ export class QuestionsService {
     const existingQuestion = await this.findByIdOrThrow(id);
 
     if (dto.order && dto.order !== existingQuestion.sortOrder) {
-      await this.assertOrderAvailable(existingQuestion.simulationId, dto.order, id);
+      await this.assertOrderAvailable(
+        existingQuestion.simulationId,
+        dto.order,
+        id,
+      );
     }
 
     const question = await this.prisma.$transaction(async (transaction) => {
@@ -113,7 +118,12 @@ export class QuestionsService {
           ...(dto.type ? { type: dto.type } : {}),
           ...(dto.statement ? { statement: dto.statement.trim() } : {}),
           ...(dto.tip !== undefined ? { tip: dto.tip?.trim() } : {}),
-          ...(dto.funFact !== undefined ? { funFact: dto.funFact?.trim() } : {}),
+          ...(dto.funFact !== undefined
+            ? { funFact: dto.funFact?.trim() }
+            : {}),
+          ...(dto.theme !== undefined
+            ? { theme: dto.theme?.trim() || null }
+            : {}),
           ...(dto.points !== undefined ? { points: dto.points } : {}),
           ...(dto.order !== undefined ? { sortOrder: dto.order } : {}),
           ...(dto.isActive !== undefined ? { isActive: dto.isActive } : {}),
