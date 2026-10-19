@@ -401,3 +401,14 @@ O inventário confirma Matemática do 4º ano com cobertura de 240/240 questões
 Validação editorial: dry-run e inventário JSON aprovados; temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. A comparação byte a byte da fonte e a comparação dos dados por export confirmam somente a adição de `theme`. Nenhum tema coincide literalmente com a alternativa correta. Para não antecipar classificações, a questão 1 de B3/AV2 usa Sistema de numeração, e as questões 1 e 11 de B4/AV1 usam Geometria. `npx jest --runInBand`: 713 testes/40 suítes aprovados. `npm run test:e2e`: 418 testes/23 suítes aprovados, com PostgreSQL descartável removido ao final.
 
 Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura dos simulados foram preservados. Não houve seed em base existente, deploy ou alteração do contrato da API.
+
+
+### Ciências do 4º ano — E04
+
+Matemática do 4º ano foi integrada em api#231. O lote de Ciências acrescenta 240 temas em oito arquivos/simulados gerais (`questoes-ciencias-4ano-b*-av*.ts`). Não há entradas privadas desse ano/disciplina no seed. O vocabulário de 20 temas e os critérios em `docs/temas-editoriais.md` cobrem materiais, relações alimentares, corpo humano, orientação, astronomia e ambiente, reaproveitando os nomes de Ciências do 3º ano quando o conteúdo corresponde.
+
+O inventário confirma Ciências do 4º ano com cobertura de 240/240 questões e 8/8 simulados. No acervo total, são 2.669 questões com tema e 89 simulados integralmente classificados, em 780 simulados/23.444 questões. O 3º ano permanece completo; o 4º ano tem 720/1.200 questões classificadas em 24/40 simulados, com Português, Matemática e Ciências concluídos nos arquivos. Restam História e Geografia do 4º ano e os demais anos. Próximo lote sugerido: História do 4º ano, oito arquivos/240 questões.
+
+Validação editorial: dry-run e inventário JSON aprovados; temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. A comparação byte a byte da fonte e a comparação dos dados por export confirmam somente a adição de `theme`. A conferência do gabarito também desconsidera artigos iniciais e não encontra tema igual à alternativa correta. As questões 4, 6, 8 e 10 de B1/AV1 usam Matéria e materiais, pois reconhecer a mistura é a tarefa. A identificação do Sistema Solar na questão 27 de B4/AV1 usa Astronomia. `npx jest --runInBand`: 713 testes/40 suítes aprovados. `npm run test:e2e`: 418 testes/23 suítes aprovados, com PostgreSQL descartável removido ao final.
+
+Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura dos simulados foram preservados. Não houve seed em base existente, deploy ou alteração do contrato da API.
