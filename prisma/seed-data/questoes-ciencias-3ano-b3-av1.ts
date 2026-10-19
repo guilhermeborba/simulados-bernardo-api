@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB3Av1 = [
   {
     id: 1,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O sistema digestório é responsável por:",
     tip: "Pensa em tudo que acontece com a comida depois que você a coloca na boca — ela é transformada para virar energia para o corpo.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por onde começa o processo de digestão dos alimentos?",
     tip: "Pensa: é na boca que mastigamos a comida e ela começa a ser triturada pelos dentes.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Depois de passar pela boca, o alimento segue por um \"tubo\" até chegar ao estômago. Como se chama esse tubo?",
     tip: "Pensa no \"caminho\" que a comida percorre da garganta até o estômago — esse tubo se chama esôfago.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função do estômago no processo de digestão?",
     tip: "Pensa no estômago como uma espécie de \"liquidificador\", que mistura a comida com sucos especiais para continuar a digestão.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Depois do estômago, o alimento segue para o intestino. Qual é a função principal do intestino?",
     tip: "Pensa: é no intestino que o corpo aproveita os nutrientes da comida, e o que sobra é eliminado depois.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por que é importante mastigar bem os alimentos antes de engolir?",
     tip: "Pensa em como pedaços menores de comida são mais fáceis de serem digeridos pelo corpo.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a importância de uma alimentação saudável e variada para o sistema digestório?",
     tip: "Pensa em como comer frutas, verduras e outros alimentos variados ajuda o corpo a ter energia e se manter saudável.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Bernardo comeu uma maçã. Depois de passar pela boca e pelo esôfago, para onde o alimento vai em seguida?",
     tip: "Pensa na ordem do caminho da comida: boca, esôfago e depois o próximo órgão do sistema digestório.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O que acontece com os nutrientes absorvidos pelo intestino?",
     tip: "Pensa: depois de absorvidos, os nutrientes \"pegam uma carona\" no sangue para chegar a todas as partes do corpo.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por que é importante conhecer o funcionamento do sistema digestório?",
     tip: "Pensa em como entender a digestão nos ajuda a cuidar melhor da nossa própria alimentação e saúde.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O sistema respiratório é responsável por:",
     tip: "Pensa em como, ao respirar, você puxa o ar (com oxigênio) para dentro e solta o ar (com gás carbônico) para fora.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por onde o ar geralmente entra em nosso corpo durante a respiração?",
     tip: "Pensa em como você respira normalmente — o ar entra principalmente pelo nariz, e às vezes também pela boca.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Depois de entrar pelo nariz ou pela boca, o ar passa por um tubo até chegar aos pulmões. Como se chama esse tubo?",
     tip: "Pensa no \"cano\" que liga a garganta aos pulmões, por onde o ar passa — esse é a traqueia.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é o principal órgão responsável por realizar as trocas gasosas (oxigênio e gás carbônico) no nosso corpo?",
     tip: "Pensa nos órgãos que ficam dentro do peito e enchem de ar quando respiramos fundo.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Quando inspiramos (puxamos o ar para dentro), o que acontece com os pulmões?",
     tip: "Pensa em como, ao respirar fundo, sentimos o peito \"inflando\" — isso é o pulmão se enchendo de ar.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O que fazemos ao expirar (soltar o ar dos pulmões)?",
     tip: "Pensa: depois de usar o oxigênio do ar, o corpo solta o ar \"usado\", que contém gás carbônico.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por que é importante manter o ar que respiramos limpo, sem poluição?",
     tip: "Pensa em como respirar um ar cheio de fumaça ou poluição pode ser prejudicial para os pulmões.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Bernardo praticou esportes durante a educação física e percebeu que sua respiração ficou mais rápida. Por que isso acontece?",
     tip: "Pensa em como, ao se exercitar, os músculos trabalham mais e precisam de mais oxigênio, por isso respiramos mais rápido.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a relação entre o sistema respiratório e o sistema circulatório?",
     tip: "Pensa: depois que o oxigênio entra nos pulmões, ele precisa \"pegar uma carona\" no sangue para chegar a todas as partes do corpo.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por que é importante conhecer o funcionamento do sistema respiratório?",
     tip: "Pensa em como entender a respiração nos ajuda a valorizar o ar limpo e a cuidar da nossa saúde.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O sistema circulatório é responsável por:",
     tip: "Pensa no sangue circulando pelo corpo, levando \"mantimentos\" (oxigênio e nutrientes) para todas as partes.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é o órgão principal responsável por bombear o sangue pelo corpo?",
     tip: "Pensa no órgão que você sente \"batendo\" no peito — é ele que bombeia o sangue.",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por onde o sangue circula pelo nosso corpo?",
     tip: "Pensa nos \"canos\" ou \"tubinhos\" por onde o sangue passa dentro do nosso corpo — eles são chamados de vasos sanguíneos.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função do sangue no nosso corpo?",
     tip: "Pensa no sangue como um \"caminhão de entregas\", levando oxigênio e nutrientes para todas as partes do corpo.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Por que sentimos o coração \"bater\" mais rápido depois de correr bastante?",
     tip: "Pensa em como, durante o exercício, os músculos trabalham mais e precisam de mais oxigênio, então o coração bate mais rápido para levar esse oxigênio.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Bernardo se cortou levemente no dedo e viu um pouco de sangue saindo. De onde vem esse sangue?",
     tip: "Pensa: os vasos sanguíneos se espalham por todo o corpo, até nos dedos, por isso pequenos cortes podem sangrar.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a relação entre o sistema digestório e o sistema circulatório?",
     tip: "Pensa: depois que o intestino absorve os nutrientes dos alimentos, é o sangue que os leva para todas as partes do corpo.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Complete a sequência do caminho do alimento: boca → esôfago → estômago → ___.",
     tip: "Pensa na ordem do sistema digestório: depois do estômago, o alimento segue para o próximo órgão, onde os nutrientes são absorvidos.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Complete a sequência do caminho do ar: nariz/boca → traqueia → ___.",
     tip: "Pensa na ordem do sistema respiratório: depois da traqueia, o ar chega ao órgão onde acontecem as trocas gasosas.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre os sistemas digestório, respiratório e circulatório, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: o sistema digestório transforma o alimento, o sistema respiratório traz oxigênio, e o sistema circulatório leva tudo isso para o corpo através do sangue.",

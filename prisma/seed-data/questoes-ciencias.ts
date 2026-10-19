@@ -1,6 +1,7 @@
 export const questoesCiencias = [
   {
     id: 1,
+    theme: "Ciclo de vida",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "Humano = vivíparo (barriga). Galinha = ovíparo (ovos). Sapo = metamorfose. Aedes = água parada!",
@@ -32,6 +33,7 @@ export const questoesCiencias = [
   },
   {
     id: 2,
+    theme: "Ciclo de vida",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "Metamorfose = muda de forma. Jiboia = ovovivíparo (ovo dentro). Pintinho = dentro do ovo.",
@@ -63,6 +65,7 @@ export const questoesCiencias = [
   },
   {
     id: 3,
+    theme: "Ciclo de vida",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "Humano = vivíparo (dentro da mãe). Dengue = transmitida pelo Aedes aegypti = perigosa!",
@@ -84,6 +87,7 @@ export const questoesCiencias = [
   },
   {
     id: 4,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Animais vivíparos são aqueles que:",
     tip: "Vivíparo = \"vivi\" (vida) + \"paro\" (parir) = nasce vivo dentro da mãe!",
@@ -106,6 +110,7 @@ export const questoesCiencias = [
   },
   {
     id: 5,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Qual é um animal ovíparo?",
     tip: "Ovíparo = \"ovi\" (ovo) + \"paro\" (parir) = coloca ovos. Galinha = ovípara!",
@@ -128,6 +133,7 @@ export const questoesCiencias = [
   },
   {
     id: 6,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual animal passa por metamorfose?",
     tip: "Metamorfose = transformação! Sapo muda: ovo → girino → sapo adulto.",
@@ -150,6 +156,7 @@ export const questoesCiencias = [
   },
   {
     id: 7,
+    theme: "Prevenção da dengue",
     type: "multiple_choice",
     text: "Onde o mosquito da dengue coloca seus ovos?",
     tip: "Aedes aegypti = água parada! Por isso evitamos água em vasos, pneus, caixas.",
@@ -172,6 +179,7 @@ export const questoesCiencias = [
   },
   {
     id: 8,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual é a primeira fase do sapo?",
     tip: "Sempre começa no ovo! Ovo → Girino → Girino com patas → Sapo adulto.",
@@ -194,6 +202,7 @@ export const questoesCiencias = [
   },
   {
     id: 9,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "O que é metamorfose?",
     tip: "Metamorfose (\"meta\" = mudança + \"morphe\" = forma) = o animal MUDA de forma!",
@@ -216,6 +225,7 @@ export const questoesCiencias = [
   },
   {
     id: 10,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Qual é um animal vivíparo?",
     tip: "Vivíparo = nasce da barriga da mãe. Humano, gato, cachorro = vivíparos!",
@@ -238,6 +248,7 @@ export const questoesCiencias = [
   },
   {
     id: 11,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "O pintinho nasce:",
     tip: "Galinha = ovípara. Pintinho se desenvolve dentro do ovo!",
@@ -260,6 +271,7 @@ export const questoesCiencias = [
   },
   {
     id: 12,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Qual é um exemplo de ovovivíparo?",
     tip: "Ovovivíparo = ovo E vivíparo! Ovo dentro do corpo. Cobra/jiboia = ovovivípara!",
@@ -282,6 +294,7 @@ export const questoesCiencias = [
   },
   {
     id: 13,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "A fase após bebê é:",
     tip: "Fases: Bebê → Criança → Adolescente → Adulto → Idoso!",
@@ -304,6 +317,7 @@ export const questoesCiencias = [
   },
   {
     id: 14,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual é a ordem CORRETA do ciclo de vida do sapo?",
     tip: "Sempre começa no ovo! Crescimento progressivo: ovo → girino → girino com patas → adulto.",
@@ -326,6 +340,7 @@ export const questoesCiencias = [
   },
   {
     id: 15,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual é a ordem CORRETA das fases da vida humana?",
     tip: "Sequência correta: Bebê (0-2) → Criança (2-11) → Adolescente (12-18) → Adulto (18-60) → Idoso (60+)",
@@ -348,6 +363,7 @@ export const questoesCiencias = [
   },
   {
     id: 16,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "O ciclo da galinha começa com o:",
     tip: "Galinha = ovípara. Ciclo começa com ovo → pintinho → galinha.",
@@ -370,6 +386,7 @@ export const questoesCiencias = [
   },
   {
     id: 17,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "O girino vive na:",
     tip: "Girino é aquático! Vive na água com cauda. Depois muda para sapo terrestre.",
@@ -392,6 +409,7 @@ export const questoesCiencias = [
   },
   {
     id: 18,
+    theme: "Prevenção da dengue",
     type: "multiple_choice",
     text: "O mosquito se desenvolve na água:",
     tip: "Aedes aegypti procura água PARADA: vasos, pneus, caixas. Água que não se mexe!",
@@ -414,6 +432,7 @@ export const questoesCiencias = [
   },
   {
     id: 19,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "O que é um animal vivíparo?",
     tip: "Vivíparo = nasce vivo dentro da mãe. Humano, cachorro, gato = vivíparos!",
@@ -436,6 +455,7 @@ export const questoesCiencias = [
   },
   {
     id: 20,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "O que é um animal ovíparo?",
     tip: "Ovíparo = coloca ovos. Galinha, pato, pinguim = ovíparos!",
@@ -458,6 +478,7 @@ export const questoesCiencias = [
   },
   {
     id: 21,
+    theme: "Prevenção da dengue",
     type: "multiple_choice",
     text: "Por que devemos evitar água parada?",
     tip: "Aedes aegypti coloca ovos em água parada! Evitar água parada = evitar dengue!",
@@ -480,6 +501,7 @@ export const questoesCiencias = [
   },
   {
     id: 22,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "O que acontece na metamorfose?",
     tip: "Metamorfose = transformação completa! Não é só crescer, é MUDAR de forma!",
@@ -502,6 +524,7 @@ export const questoesCiencias = [
   },
   {
     id: 23,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Cite uma fase da vida humana:",
     tip: "Fases: Bebê → Criança → Adolescente → Adulto → Idoso. Todas são válidas!",
@@ -524,6 +547,7 @@ export const questoesCiencias = [
   },
   {
     id: 24,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "A transformação de um girino em sapo é um exemplo de:",
     tip: "Girino em água com cauda → Girino com patas → Sapo adulto em terra = METAMORFOSE!",
@@ -546,6 +570,7 @@ export const questoesCiencias = [
   },
   {
     id: 25,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual animal NÃO passa por metamorfose?",
     tip: "Gato é vivíparo! Nasce pronto (filhote pequeno). Sapo e borboleta = metamorfose.",
@@ -568,6 +593,7 @@ export const questoesCiencias = [
   },
   {
     id: 26,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "O ovo é importante porque:",
     tip: "Ovo = berço natural! Dentro dele, o filhote se protege e se desenvolve.",
@@ -590,6 +616,7 @@ export const questoesCiencias = [
   },
   {
     id: 27,
+    theme: "Prevenção da dengue",
     type: "multiple_choice",
     text: "Um mosquito Aedes aegypti é perigoso porque:",
     tip: "Aedes aegypti = transmissor de dengue, zika e chikungunya! Mosquito perigoso!",
@@ -612,6 +639,7 @@ export const questoesCiencias = [
   },
   {
     id: 28,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "A criança é a fase depois de:",
     tip: "Ordem correta: Bebê → Criança → Adolescente → Adulto → Idoso.",
@@ -634,6 +662,7 @@ export const questoesCiencias = [
   },
   {
     id: 29,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "O jiboia é um animal ovovivíparo porque:",
     tip: "Ovovivíparo = O (ovo) + vivíparo (dentro da mãe). Cobra/jiboia = tem essa característica!",
@@ -656,6 +685,7 @@ export const questoesCiencias = [
   },
   {
     id: 30,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual é a importância de conhecer o ciclo de vida dos animais?",
     tip: "Entender ciclos = respeitar a natureza, cuidar do meio ambiente e dos animais!",

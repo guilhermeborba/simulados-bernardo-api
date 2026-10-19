@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB2Av2 = [
   {
     id: 1,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Habitat é o nome dado a:",
     tip: "Pensa no \"endereço\" de um animal ou planta na natureza — o lugar onde ele vive e encontra comida, água e abrigo.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Qual é o habitat natural de um peixe?",
     tip: "Pensa em onde um peixe consegue respirar e se movimentar melhor — na água ou fora dela?",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Qual é o habitat natural de um urso polar?",
     tip: "Pensa no nome do animal — \"urso polar\" tem a ver com as regiões polares, bem geladas!",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "A Floresta Amazônica é um exemplo de que tipo de ambiente?",
     tip: "Pensa: a floresta fica sobre a terra, com árvores, plantas e animais terrestres — isso é um ambiente terrestre.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Um oceano é um exemplo de que tipo de ambiente?",
     tip: "Pensa: o oceano é formado principalmente por água — isso é um ambiente aquático.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Bernardo visitou um deserto durante as férias. Qual característica ele provavelmente observou nesse ambiente?",
     tip: "Pensa nas características de um deserto: geralmente é bem seco, com pouca água disponível.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Qual é o habitat natural de um macaco que vive em florestas tropicais?",
     tip: "Pensa em onde os macacos costumam se movimentar, pulando de galho em galho.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Por que os animais precisam de um habitat adequado para viver?",
     tip: "Pensa em como cada animal precisa de condições específicas (comida, água, temperatura) para viver bem.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Qual desses animais tem como habitat natural a savana africana, com clima quente e vegetação de gramíneas?",
     tip: "Pensa em qual desses animais vive naturalmente em regiões quentes da África, com muitos campos abertos.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Por que é importante preservar os habitats naturais dos animais?",
     tip: "Pensa em como cada animal depende do seu habitat para encontrar comida, água e abrigo.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Adaptação é a capacidade que os seres vivos têm de:",
     tip: "Pensa em como cada ser vivo desenvolve características especiais para viver melhor no seu ambiente.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que os ursos polares têm uma pelagem branca e grossa?",
     tip: "Pensa em como a cor branca ajuda o urso a se misturar com a neve, e o pelo grosso protege do frio intenso.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Os camelos possuem corcovas nas costas, que servem para:",
     tip: "Pensa em como, no deserto, é difícil encontrar comida e água — a corcova ajuda o camelo a guardar energia para os momentos difíceis.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que os peixes têm nadadeiras?",
     tip: "Pensa em como as nadadeiras ajudam o peixe a nadar, virar e se equilibrar dentro da água.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "As folhas de cactos são transformadas em espinhos. Qual é a vantagem dessa adaptação para a planta, que geralmente vive em ambientes secos?",
     tip: "Pensa: folhas grandes perdem mais água. Os espinhos, sendo menores, ajudam o cacto a economizar água em ambientes secos.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que as girafas têm pescoços tão longos?",
     tip: "Pensa em como um pescoço comprido ajuda a girafa a comer folhas de árvores altas, sem competir tanto por comida com outros animais.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que alguns animais, como o camaleão, conseguem mudar de cor?",
     tip: "Pensa em como mudar de cor ajuda o camaleão a \"desaparecer\" no ambiente, ficando parecido com folhas ou galhos ao redor.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Os pinguins têm um corpo hidrodinâmico (em formato que corta bem a água) e camadas de gordura. Essas adaptações ajudam esses animais a:",
     tip: "Pensa em como o formato do corpo ajuda o pinguim a nadar rapidamente, e a gordura o protege do frio da água.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que muitas plantas do deserto têm raízes bem longas e espalhadas?",
     tip: "Pensa em como, num ambiente com pouca água, raízes longas ajudam a planta a buscar água em lugares mais distantes ou profundos.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que é importante estudar as adaptações dos seres vivos?",
     tip: "Pensa em como entender as adaptações nos ajuda a compreender a incrível diversidade da vida na Terra.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Bernardo estudou sobre o polvo, que consegue mudar de cor rapidamente. Essa é uma adaptação que ajuda o animal a:",
     tip: "Pensa em como mudar de cor ajuda o polvo a se esconder dos predadores, se misturando com o ambiente ao redor.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Se um animal do deserto, como o camelo, fosse levado para viver em uma região muito fria e gelada, o que provavelmente aconteceria?",
     tip: "Pensa: as adaptações do camelo (como a corcova) são específicas para ambientes quentes e secos, não para o frio extremo.",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Ana observou um cacto no deserto e uma vitória-régia (planta aquática) em um lago. Qual adaptação é específica da vitória-régia, e não do cacto?",
     tip: "Pensa: a vitória-régia vive na água, então suas folhas grandes e achatadas ajudam a flutuar na superfície.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que os pássaros migratórios voam para regiões mais quentes durante o inverno?",
     tip: "Pensa em como, durante o inverno, pode ficar mais difícil encontrar comida e clima ameno em algumas regiões — por isso as aves migram.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Bernardo visitou um aquário e viu um peixe com cores bem parecidas com o fundo do aquário, quase \"desaparecendo\" na paisagem. Essa adaptação é chamada de:",
     tip: "Pensa na palavra \"camuflagem\" — ela tem a ver com se misturar ao ambiente, ficando quase invisível.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Qual seria o habitat mais adequado para um pinguim viver?",
     tip: "Pensa nas características do corpo do pinguim, adaptado para regiões frias e para nadar em águas geladas.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Se uma planta do Cerrado tem uma casca grossa no caule, essa é uma adaptação que ajuda a planta a se proteger de:",
     tip: "Pensa: o Cerrado é uma região onde acontecem queimadas naturais — uma casca grossa ajuda a proteger o interior da planta do calor do fogo.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Por que os morcegos, que geralmente vivem em cavernas escuras, desenvolveram uma capacidade especial chamada ecolocalização (usar sons para \"enxergar\")?",
     tip: "Pensa: em ambientes escuros como cavernas, os morcegos usam sons (que fazem eco) para \"enxergar\" o caminho e encontrar insetos para comer.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Bernardo aprendeu que algumas espécies de sapos têm a pele bem colorida e chamativa. O que essa característica pode indicar para outros animais?",
     tip: "Pensa: na natureza, cores bem chamativas em alguns animais funcionam como um \"aviso\" de perigo para quem pensa em atacá-los.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Adaptações dos seres vivos",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre habitats e adaptações, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: cada ambiente (aquático, terrestre, gelado, desértico) tem desafios diferentes, e os seres vivos desenvolvem características especiais para sobreviver neles.",

@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB2Av1 = [
   {
     id: 1,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Animais vertebrados são aqueles que possuem:",
     tip: "Pensa na palavra \"vertebrado\" — ela tem a ver com \"vértebra\", os ossinhos que formam a coluna nas nossas costas!",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual dos grupos abaixo é um exemplo de animal vertebrado?",
     tip: "Pensa em qual desses animais tem uma coluna vertebral (espinha dorsal) por dentro do corpo.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os mamíferos são um grupo de animais vertebrados que têm como característica principal:",
     tip: "Pensa em como cachorros, gatos e até nós, seres humanos, alimentamos nossos filhotes com leite materno.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de mamífero?",
     tip: "Pensa em qual desses animais amamenta seus filhotes e geralmente tem pelos pelo corpo.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "As aves são um grupo de animais vertebrados que têm como características principais:",
     tip: "Pensa em um passarinho: ele tem penas pelo corpo todo e um bico, diferente dos outros grupos de vertebrados.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de ave?",
     tip: "Pensa em qual desses animais tem penas, bico e geralmente consegue voar.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os répteis são um grupo de animais vertebrados que geralmente têm como característica:",
     tip: "Pensa em uma cobra ou um jacaré — repare como a pele deles é coberta de escamas.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de réptil?",
     tip: "Pensa em qual desses animais tem o corpo coberto de escamas e costuma botar ovos.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os anfíbios são animais vertebrados que geralmente passam por uma transformação especial ao longo da vida, vivendo primeiro na água e depois podendo viver também na terra. Qual é um exemplo desse grupo?",
     tip: "Pensa em um animal que nasce como girino, vivendo na água, e depois se transforma, podendo viver também fora dela.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Por que os peixes são considerados animais vertebrados?",
     tip: "Pensa: apesar de viverem na água, os peixes têm ossos e uma coluna vertebral, assim como outros vertebrados.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Animais invertebrados são aqueles que:",
     tip: "Pensa na palavra \"invertebrado\" — o prefixo \"in\" quer dizer \"não\"! Ou seja, são animais que não têm coluna vertebral.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de animal invertebrado?",
     tip: "Pensa em qual desses animais não tem coluna vertebral, sendo um inseto com corpo bem diferente dos vertebrados.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os insetos são um grande grupo de animais invertebrados que geralmente têm:",
     tip: "Pensa em uma formiga ou uma abelha — conte quantas patas elas têm e observe as partes do corpo delas.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de inseto?",
     tip: "Pensa em qual desses animais tem seis patas e o corpo dividido em três partes — características dos insetos.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "As aranhas são animais invertebrados que, diferente dos insetos, possuem:",
     tip: "Pensa em uma aranha e conte quantas patas ela tem — repare que é diferente do número de patas dos insetos.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "A minhoca é um animal invertebrado que se caracteriza por ter:",
     tip: "Pensa em como a minhoca tem um corpo comprido, mole, dividido em pequenos aneizinhos, sem nenhuma pata.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O caramujo é um exemplo de animal invertebrado que geralmente possui:",
     tip: "Pensa na \"casquinha\" redonda que o caramujo carrega nas costas, protegendo seu corpo mole.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de animal invertebrado que vive no mar e possui muitos tentáculos?",
     tip: "Pensa em um animal marinho que não tem coluna vertebral e possui vários \"braços\" (tentáculos) cheios de ventosas.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "A abelha é um exemplo de qual grupo de animais invertebrados?",
     tip: "Pensa: a abelha tem seis patas e o corpo dividido em três partes, características dos insetos.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Por que é importante conhecer a diferença entre vertebrados e invertebrados?",
     tip: "Pensa em como classificar os animais em grupos ajuda a organizar e entender melhor as diferenças entre eles.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Bernardo viu um cachorro, uma borboleta e um peixe no mesmo dia. Quais desses animais são vertebrados?",
     tip: "Pensa: cachorro e peixe têm coluna vertebral; a borboleta, sendo um inseto, não tem.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Classifique corretamente: \"aranha\" e \"gato\" são, respectivamente:",
     tip: "Pensa: a aranha não tem coluna vertebral (é invertebrada), e o gato tem coluna vertebral (é vertebrado).",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Ana fez uma lista de animais observados no parque: formiga, pombo, minhoca e cavalo. Quantos são vertebrados?",
     tip: "Pensa: pombo (ave) e cavalo (mamífero) são vertebrados; formiga e minhoca são invertebrados.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre um mamífero e uma ave?",
     tip: "Pensa nas características de cada grupo: pelos e amamentação são dos mamíferos; penas e bico são das aves.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Bernardo encontrou um caramujo no jardim depois da chuva. Esse animal é classificado como:",
     tip: "Pensa: o caramujo não tem coluna vertebral e carrega uma concha — ele pertence ao grupo dos moluscos.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual é a diferença principal entre um inseto e um aracnídeo (como a aranha)?",
     tip: "Pensa em contar as patas de uma formiga (inseto) e de uma aranha (aracnídeo) — repare na diferença.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Se Bernardo encontrar um animal com escamas, que bota ovos e vive tanto na água quanto em terra firme, como um jacaré, ele deve classificá-lo como:",
     tip: "Pensa nas características do jacaré: corpo coberto de escamas, bota ovos — essas são típicas dos répteis.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual conjunto de animais abaixo é formado apenas por invertebrados?",
     tip: "Pensa: formiga, aranha e minhoca não têm coluna vertebral, sendo todos invertebrados.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual conjunto de animais abaixo é formado apenas por vertebrados?",
     tip: "Pensa: cachorro (mamífero), peixe e papagaio (ave) têm coluna vertebral, sendo todos vertebrados.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre vertebrados e invertebrados, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: vertebrados têm coluna vertebral (mamíferos, aves, répteis, anfíbios, peixes), e invertebrados não têm (insetos, aracnídeos, moluscos, anelídeos).",

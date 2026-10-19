@@ -1,6 +1,7 @@
 export const questoesCienciasAv1 = [
   {
     id: 1,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Classificar animais significa:",
     tip: "Classificação organiza animais por semelhanças e diferenças.",
@@ -27,6 +28,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 2,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os cientistas classificam os animais usando o critério de:",
     tip: "Semelhança nas características físicas e comportamentais.",
@@ -53,6 +55,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 3,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os animais são divididos em dois grandes grupos:",
     tip: "Vertebrados têm coluna vertebral, invertebrados não.",
@@ -79,6 +82,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 4,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os vertebrados possuem:",
     tip: "\"Tem coluna = vertebrado.\"",
@@ -105,6 +109,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 5,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os invertebrados:",
     tip: "Invertebrados não têm coluna.",
@@ -131,6 +136,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 6,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual animal abaixo é invertebrado?",
     tip: "Formiga é inseto, invertebrado.",
@@ -157,6 +163,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 7,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual animal abaixo é vertebrado?",
     tip: "Peixe tem coluna vertebral.",
@@ -183,6 +190,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 8,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "A estrela-do-mar é:",
     tip: "Estrela-do-mar é equinodermo, invertebrado.",
@@ -209,6 +217,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 9,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "A minhoca pertence ao grupo dos:",
     tip: "Minhoca é anelídeo, invertebrado.",
@@ -235,6 +244,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 10,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O jacaré é um animal:",
     tip: "Jacaré é réptil, vertebrado.",
@@ -261,6 +271,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 11,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Os peixes vivem:",
     tip: "Peixes são aquáticos.",
@@ -287,6 +298,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 12,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os peixes possuem:",
     tip: "Nadadeiras para nadar, escamas para proteção.",
@@ -313,6 +325,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 13,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O tubarão pertence ao grupo dos:",
     tip: "Tubarão é peixe cartilaginoso.",
@@ -339,6 +352,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 14,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os anfíbios possuem:",
     tip: "Pele úmida para respiração.",
@@ -365,6 +379,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 15,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O sapo é:",
     tip: "Sapo é anfíbio, vive na água e terra.",
@@ -391,6 +406,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 16,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Os anfíbios podem viver:",
     tip: "Anfíbios têm fase aquática e terrestre.",
@@ -417,6 +433,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 17,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os répteis possuem:",
     tip: "Escamas secas para proteção.",
@@ -443,6 +460,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 18,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O jacaré pertence ao grupo dos:",
     tip: "Jacaré é réptil.",
@@ -469,6 +487,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 19,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "As aves possuem o corpo coberto de:",
     tip: "Penas para voar e isolamento.",
@@ -495,6 +514,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 20,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O tuiuiú é:",
     tip: "Tuiuiú é uma ave.",
@@ -521,6 +541,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 21,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "As aves colocam:",
     tip: "Aves são ovíparas.",
@@ -547,6 +568,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 22,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Os mamíferos possuem:",
     tip: "Pelos para proteção e regulação térmica.",
@@ -573,6 +595,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 23,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Os filhotes dos mamíferos alimentam-se:",
     tip: "Mamíferos amamentam os filhotes.",
@@ -599,6 +622,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 24,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O mico-leão-dourado é:",
     tip: "Mico-leão-dourado é um primata, mamífero.",
@@ -625,6 +649,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 25,
+    theme: "Formação do solo",
     type: "multiple_choice",
     text: "O solo tem origem em:",
     tip: "Solo vem da decomposição de rochas.",
@@ -651,6 +676,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 26,
+    theme: "Formação do solo",
     type: "multiple_choice",
     text: "A rocha original é chamada de:",
     tip: "Rocha-mãe é a original.",
@@ -677,6 +703,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 27,
+    theme: "Formação do solo",
     type: "multiple_choice",
     text: "A transformação da rocha em solo pode levar:",
     tip: "Processo lento de intemperismo.",
@@ -703,6 +730,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 28,
+    theme: "Composição do solo",
     type: "multiple_choice",
     text: "Qual componente do solo vem de restos de seres vivos?",
     tip: "Húmus é matéria orgânica.",
@@ -729,6 +757,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 29,
+    theme: "Composição do solo",
     type: "multiple_choice",
     text: "Qual componente possui grãos maiores?",
     tip: "Areia tem grãos maiores.",
@@ -755,6 +784,7 @@ export const questoesCienciasAv1 = [
   },
   {
     id: 30,
+    theme: "Composição do solo",
     type: "multiple_choice",
     text: "Entre as partículas do solo podemos encontrar:",
     tip: "Solo tem poros com ar e água.",

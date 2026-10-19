@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB4Av1 = [
   {
     id: 1,
+    theme: "Matéria e materiais",
     type: "multiple_choice",
     text: "Matéria é tudo aquilo que:",
     tip: "Pensa em como uma pedra, uma xícara de água e até o ar que respiramos ocupam espaço e têm peso — isso é matéria.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Quais são os três estados físicos principais da matéria?",
     tip: "Pensa em uma pedra (sólida), a água de um copo (líquida) e o ar que respiramos (gasoso) — esses são os três estados.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Uma pedra é um exemplo de matéria em qual estado físico?",
     tip: "Pensa: a pedra tem forma bem definida e não muda facilmente, sendo dura ao toque — isso é característica do estado sólido.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "A água de um copo é um exemplo de matéria em qual estado físico?",
     tip: "Pensa: a água do copo não tem forma própria, ela assume o formato do recipiente onde está — isso é característica do estado líquido.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "O ar que respiramos é um exemplo de matéria em qual estado físico?",
     tip: "Pensa: o ar não tem forma nem volume definido, se espalhando por todo o espaço disponível — isso é característica do estado gasoso.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Qual é a principal característica do estado sólido da matéria?",
     tip: "Pensa em objetos sólidos, como uma pedra ou um lápis — eles mantêm sua forma, sem se espalhar ou mudar de formato sozinhos.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Qual é a principal característica do estado líquido da matéria?",
     tip: "Pensa em como a água muda de formato dependendo do copo ou balde onde está, mas mantém a mesma quantidade (volume).",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Qual é a principal característica do estado gasoso da matéria?",
     tip: "Pensa em como o ar se espalha por toda uma sala, sem forma nem volume fixos, ao contrário de sólidos e líquidos.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Bernardo colocou água líquida no congelador. Depois de algumas horas, o que aconteceu com a água?",
     tip: "Pensa em como o frio intenso do congelador transforma a água líquida em gelo, um sólido.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Por que é importante entender os estados físicos da matéria?",
     tip: "Pensa em como entender os estados físicos nos ajuda a explicar fenômenos do dia a dia, como o derretimento do gelo ou a evaporação da água.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Quando um sólido, como o gelo, se transforma em líquido por causa do calor, esse processo é chamado de:",
     tip: "Pensa na palavra \"fusão\", que também aparece na expressão \"derreter\" — é quando o sólido vira líquido por causa do calor.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Quando um líquido, como a água, se transforma em gás por causa do calor, esse processo é chamado de:",
     tip: "Pensa em como, ao ferver água ou deixá-la ao sol, ela vai desaparecendo aos poucos, virando vapor — isso é evaporação.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Quando um gás, como o vapor de água, se transforma em líquido por causa do resfriamento, esse processo é chamado de:",
     tip: "Pensa em como, num dia frio, o vidro de uma janela pode ficar embaçado com gotinhas de água — isso é o vapor da água virando líquido, ou seja, condensação.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Quando um líquido, como a água, se transforma em sólido por causa do frio, esse processo é chamado de:",
     tip: "Pensa em como a água do congelador vira gelo — esse processo de líquido virando sólido se chama solidificação.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Bernardo observou que, ao ferver água numa panela, saía uma \"fumacinha branca\". O que é essa \"fumacinha\"?",
     tip: "Pensa: o calor da panela faz a água evaporar, formando o vapor que vemos subindo.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Uma propriedade importante dos materiais é a dureza, que indica:",
     tip: "Pensa em como um diamante é muito difícil de riscar, enquanto uma esponja é bem mais fácil de amassar — isso tem a ver com a dureza.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Um material transparente é aquele que:",
     tip: "Pensa em um vidro de janela — conseguimos enxergar através dele porque ele é transparente.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Um material flexível é aquele que:",
     tip: "Pensa em uma borracha ou um elástico — eles conseguem se dobrar e voltar ao formato original, sem quebrar.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Qual material você usaria para fazer uma janela, aproveitando sua transparência?",
     tip: "Pensa em qual desses materiais permite que a luz passe e podemos enxergar através dele — ideal para uma janela.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Por que é importante conhecer as propriedades dos materiais, como dureza, transparência e flexibilidade?",
     tip: "Pensa em como escolher o material certo (vidro para janelas, borracha para pneus) depende de conhecer suas propriedades.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Bernardo derreteu um cubo de gelo dentro de um copo, no calor do dia. Que mudança de estado aconteceu?",
     tip: "Pensa: o gelo (sólido) virou água (líquido) por causa do calor — esse processo se chama fusão.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Ana notou gotinhas de água na parte externa de um copo com suco bem gelado, num dia quente. De onde vieram essas gotinhas?",
     tip: "Pensa: o ar tem vapor de água invisível, que, ao encostar numa superfície bem fria (o copo), se transforma em gotinhas de água — isso é condensação.",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Se Bernardo colocasse uma poça de água ao sol por um dia inteiro, o que provavelmente aconteceria com essa água?",
     tip: "Pensa: o calor do sol faz a água evaporar, transformando-se em vapor e \"desaparecendo\" aos poucos da poça.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Qual material você escolheria para fazer um brinquedo de borracha, que precisa dobrar sem quebrar?",
     tip: "Pensa em qual desses materiais consegue se dobrar e voltar ao formato original, sem quebrar — a borracha é ideal para isso.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Bernardo bateu com um martelo de brinquedo em uma pedra e em uma esponja. O que ele provavelmente observou?",
     tip: "Pensa: a pedra é dura e resistente, enquanto a esponja é mole e fácil de amassar — essa é a diferença de dureza entre os materiais.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Se colocarmos um copo de suco no congelador por várias horas, o que provavelmente vai acontecer?",
     tip: "Pensa: assim como a água, o suco também é composto principalmente por água, que pode congelar (solidificar) com o frio intenso.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Qual das opções abaixo representa corretamente a sequência: sólido → líquido → gasoso, através do aumento de calor?",
     tip: "Pensa: primeiro o sólido derrete (fusão) virando líquido, e depois o líquido evapora (evaporação) virando gás.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Bernardo quer guardar água gelada para levar numa excursão da escola. Ele decide congelar a água num recipiente resistente antes de sair. Isso é um exemplo de utilizar o conhecimento sobre:",
     tip: "Pensa: ao congelar a água (transformando-a de líquido em sólido), Bernardo está usando o conhecimento sobre mudanças de estado da matéria.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de propriedade de um material?",
     tip: "Pensa em qual dessas opções descreve uma característica física de um material, como sua resistência ou textura.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Matéria e materiais",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre matéria, estados físicos e propriedades dos materiais, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: sólido, líquido e gasoso, as mudanças entre eles (fusão, evaporação, condensação, solidificação) e propriedades como dureza, transparência e flexibilidade.",

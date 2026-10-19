@@ -1,6 +1,7 @@
 export const questoesCienciasAv1Bim3 = [
   {
     id: 1,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "O que faz o som ser produzido, segundo o que aprendemos sobre a \"onda\" do som?",
     tip: "Pensa no que acontece quando você belisca a corda de um violão... ela fica tremendo, né? Esse tremor tem um nome especial! Curiosidade: quando você fala, suas cordas vocais vibram tão rápido que nem dá pra ver — mas se você colocar a mão na garganta enquanto fala, sente o tremor!",
@@ -27,6 +28,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 2,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Ao tocar as cordas de um violão, o que faz o som ser produzido?",
     tip: "Lembra da menina soprando a flauta? O que ela sentia com as mãos ao segurar o instrumento? Curiosidade: existem violões com cordas de nylon e outros com cordas de aço — e elas vibram de formas diferentes, dando sons diferentes!",
@@ -53,6 +55,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 3,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Sobre como as pessoas percebem os sons, é correto afirmar que:",
     tip: "Pense em um cachorro que se assusta com um trovão enquanto uma pessoa nem percebe tanto o barulho. Será que todo mundo (e todo bicho) ouve igual? Curiosidade: os cachorros conseguem ouvir sons muito mais agudos do que nós, humanos! Por isso eles reagem a apitos que a gente nem escuta.",
@@ -79,6 +82,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 4,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Quando batemos com força em um tambor, o que acontece com o som?",
     tip: "Pense na força que você usa pra bater — quanto mais força, mais o tambor vibra. Isso deixa o som fraquinho ou bem forte? Curiosidade: os tambores gigantes usados em desfiles fazem um som tão forte que você sente ele vibrando no seu peito!",
@@ -105,6 +109,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 5,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "O que define se um objeto vai produzir um som mais grave (mais grosso) ou mais agudo (mais fininho)?",
     tip: "Pense numa tuba, bem grandona, e numa flauta transversal, bem fininha. Qual delas você acha que faz um som mais grosso? Curiosidade: o contrabaixo é um dos maiores instrumentos de corda do mundo e por isso faz sons bem graves — às vezes o músico precisa ficar em pé para tocar!",
@@ -131,6 +136,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 6,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Um copo de vidro e um copo de plástico são batidos com um lápis. Por que eles não fazem o mesmo som?",
     tip: "Pense nas baquetas de madeira e num instrumento de metal. Cada material vibra e \"canta\" à sua própria maneira! Curiosidade: os sinos de igreja são feitos de uma liga de metal especial (bronze) escolhida bem certinho para fazer aquele som marcante que ouvimos de longe!",
@@ -157,6 +163,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 7,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "O som que produzimos com o nosso corpo, como bater palmas ou estalar os dedos, acontece por causa de:",
     tip: "Experimente bater palmas agora e sinta bem as suas mãos. O que elas fazem no momento do \"tec\"? Curiosidade: estalar os dedos produz som por causa de uma bolhinha de gás que \"estoura\" dentro da nossa articulação — cientistas ainda estudam esse fenômeno curioso!",
@@ -183,6 +190,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 8,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Por que conseguimos ouvir melhor um som quando estamos perto da fonte sonora?",
     tip: "Pense em uma pessoa falando bem baixinho numa palestra grande — quem está na primeira fileira escuta melhor que quem está lá atrás, não é? Curiosidade: é por isso que em shows e palestras grandes usamos microfones e caixas de som — eles ajudam o som a \"viajar\" mais longe até nossos ouvidos!",
@@ -209,6 +217,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 9,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Em uma sala vazia, sem móveis e sem pessoas, o som costuma parecer:",
     tip: "Pense em quando você grita dentro de um quarto vazio, sem cama nem armário. O som \"bate\" nas paredes e volta bem forte, ou ele simplesmente some? Curiosidade: estúdios de gravação de música às vezes fazem o oposto: colocam espumas nas paredes para \"segurar\" o som e evitar o eco!",
@@ -235,6 +244,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 10,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "O som pode se espalhar por:",
     tip: "Lembra do texto que fala sobre bater na mesa e sentir o som, ou nadar e escutar sons debaixo d'água? O som usa vários \"caminhos\" para se espalhar! Curiosidade: as baleias usam o som na água para se comunicar por centenas de quilômetros de distância — a água ajuda o som a viajar bem longe!",
@@ -261,6 +271,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 11,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Por que, segundo o texto \"Para saber mais\", uma explosão no espaço não faria barulho nenhum?",
     tip: "Pense no que o som precisa para se espalhar até chegar aos nossos ouvidos. Será que existe isso no espaço? Curiosidade: no espaço, os astronautas só conseguem se comunicar usando rádios especiais, porque gritar lá não adiantaria nada — ninguém ouviria!",
@@ -287,6 +298,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 12,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "João bateu com força em um tambor de brinquedo e depois deu batidas bem leves. O que aconteceu com o som?",
     tip: "Lembra do fator \"força usada para gerar o som\"? Quanto mais força, o que acontece com o som? Curiosidade: os bateristas de banda controlam a força das baquetas para deixar a música ora mais suave, ora bem enérgica!",
@@ -313,6 +325,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 13,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Laura e Gui bateram com um lápis em uma lata de metal, uma caixa de papelão e um pandeiro de plástico. Os sons foram diferentes porque:",
     tip: "Pense de novo no copo de vidro e no copo de plástico. O que faz cada objeto \"cantar\" diferente quando é batido do mesmo jeito? Curiosidade: muitos instrumentos musicais do mundo são feitos com materiais bem diferentes — tambores de couro, xilofones de madeira e pratos de metal — cada um com seu som único!",
@@ -339,6 +352,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 14,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Complete: \"Todo som é produzido por algum tipo de ___.\"",
     tip: "Essa é a palavra mais importante do capítulo dos sons! Ela aparece bem destacada logo no começo do texto. Curiosidade: até os elefantes se comunicam usando vibrações tão baixas que passam pelo chão — e outros elefantes \"sentem\" essas vibrações com os pés, a quilômetros de distância!",
@@ -365,6 +379,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 15,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "É correto afirmar que o corpo humano:",
     tip: "Pense em tudo que você mesmo já fez hoje: bateu palma, pisou no chão, estalou o dedo... será que nada disso faz barulho? Curiosidade: um espirro pode viajar rapidinho e é considerado um dos sons mais \"explosivos\" que o nosso corpo produz!",
@@ -391,6 +406,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 16,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Quando a luz passa facilmente por um objeto, dizemos que ele é:",
     tip: "Pense num copo de vidro liso e sem cor — dá pra ver perfeitamente o que tem dentro dele, não dá? Isso tem um nome especial. Curiosidade: o vidro das janelas de casas e prédios é transparente justamente para deixar a luz do sol entrar e iluminar os ambientes!",
@@ -417,6 +433,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 17,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Uma cortina de tecido fino ou um vitral colorido são exemplos de objetos:",
     tip: "Será que dá pra ver tudo bem nítido através desses objetos, ou só uma parte da luz consegue passar? Curiosidade: os vitrais coloridos são muito usados em igrejas antigas e castelos — quando o sol bate neles, formam desenhos coloridos lindos no chão!",
@@ -443,6 +460,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 18,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Um objeto é opaco quando:",
     tip: "Pense na porta do seu quarto ou no seu caderno. Dá pra enxergar o que tem do outro lado deles? Curiosidade: o nosso próprio corpo é opaco — é por isso que, quando a médica precisa ver nossos ossos, ela usa o raio-X, um tipo especial de luz que consegue atravessar a pele!",
@@ -469,6 +487,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 19,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "O que é a sombra?",
     tip: "Pense em um dia de sol, quando você fica embaixo de uma árvore. Aquela área escura no chão, do lado oposto de onde vem a luz, é o que estamos procurando! Curiosidade: no meio-dia, quando o sol está bem no alto do céu, nossa sombra fica bem curtinha — quase debaixo dos nossos pés!",
@@ -495,6 +514,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 20,
+    theme: "Fenômenos sonoros",
     type: "multiple_choice",
     text: "Sobre um copo de iogurte vazio e um recipiente grande de plástico, qual tem maior chance de produzir um som mais grave ao ser batido?",
     tip: "Essa pergunta é sobre o capítulo dos sons — lembra do fator \"tamanho do objeto\"? Qual dos dois é maior? Curiosidade: instrumentos grandes como o contrabaixo e a tuba fazem sons graves justamente por causa do tamanho deles!",
@@ -521,6 +541,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 21,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Por que conseguimos ver nossa imagem refletida em um espelho?",
     tip: "Pense na diferença entre olhar seu reflexo numa piscina calma (bem lisinha) e numa piscina toda agitada. Onde você se vê melhor? Curiosidade: os primeiros espelhos da história eram feitos de pedras polidas, como a obsidiana, há mais de 6 mil anos — bem antes de existir o vidro que usamos hoje!",
@@ -547,6 +568,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 22,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Quando a luz bate em uma superfície áspera, como uma parede ou um caderno, o que acontece?",
     tip: "Pense num papel-alumínio bem amassado — será que ele reflete a luz igualzinho a um espelho liso, ou de um jeito bem bagunçado? Curiosidade: é por causa desse espalhamento da luz que conseguimos ver quase tudo ao nosso redor — sem ele, só enxergaríamos espelhos e superfícies lisas!",
@@ -573,6 +595,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 23,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Para que nossos olhos consigam enxergar um objeto, é necessário que:",
     tip: "Pense bem: os objetos ao seu redor \"brilham sozinhos\" ou eles precisam de uma luz batendo neles primeiro? Curiosidade: é por isso que no escuro total não conseguimos enxergar nada — sem luz nenhuma para ser refletida, nossos olhos não têm o que captar!",
@@ -599,6 +622,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 24,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Uma poça de água parada, depois da chuva, pode formar um reflexo. Isso acontece porque:",
     tip: "Pense em como fica a superfície de uma poça bem paradinha, sem ondas. Ela está lisa ou toda bagunçada? Curiosidade: fotógrafos adoram fotografar reflexos em poças e lagos calmos — quando a água está bem parada, o reflexo fica quase idêntico a um espelho!",
@@ -625,6 +649,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 25,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Marque a alternativa que apresenta corretamente a ordem: Transparente, Translúcido e Opaco.",
     tip: "Pense em qual desses deixa passar toda a luz, qual deixa passar só uma parte, e qual não deixa passar nada. Curiosidade: os óculos de sol usam lentes especiais que deixam passar só uma parte da luz — assim protegem nossos olhos da claridade forte!",
@@ -651,6 +676,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 26,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Para que um espelho consiga refletir a luz e formar um reflexo nítido, ele precisa ser:",
     tip: "Será que a luz atravessa o espelho, ou ela \"bate e volta\"? E a superfície dele é lisinha ou áspera? Curiosidade: os espelhos são feitos de vidro com uma camada de metal (geralmente prata ou alumínio) atrás — é essa camada de metal que faz toda a mágica da reflexão acontecer!",
@@ -677,6 +703,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 27,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Quando olhamos para um caderno, conseguimos ver o objeto, mas não vemos nossa imagem refletida nele. Isso acontece porque:",
     tip: "Compare a superfície de um espelho (bem lisa) com a superfície de um caderno (com fibrinhas de papel). Elas são iguais? Curiosidade: se você olhar de perto com uma lupa, vai ver que até o papel mais liso tem uma superfície cheia de pequenos \"morrinhos\" — é por isso que ele não forma reflexo como um espelho!",
@@ -703,6 +730,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 28,
+    theme: "Luz e visão",
     type: "multiple_choice",
     text: "Complete: \"A luz é fundamental para a percepção dos objetos, pois eles não brilham sozinhos, eles ___ a luz do ambiente.\"",
     tip: "Pense em como você enxerga uma bola no escuro total — dá pra ver? E se acender uma lanterna nela? Curiosidade: a Lua não tem luz própria — o brilho que vemos à noite é, na verdade, a luz do Sol sendo refletida pela superfície dela!",
@@ -729,6 +757,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 29,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Leia: \"Objetos opacos deixam a luz passar totalmente.\" Essa afirmação é:",
     tip: "Lembra da definição de opaco? Ela explica bem clarinho o que acontece com a luz nesses objetos. Curiosidade: roupas escuras costumam ser mais opacas à luz do sol e por isso esquentam mais em dias quentes — já roupas claras refletem mais luz e deixam a gente mais fresquinho!",
@@ -755,6 +784,7 @@ export const questoesCienciasAv1Bim3 = [
   },
   {
     id: 30,
+    theme: "Propriedades dos materiais",
     type: "multiple_choice",
     text: "Um copo de vidro liso e incolor, uma lupa e as lentes de óculos têm algo em comum: são exemplos de objetos",
     tip: "Pense bem: você consegue enxergar claramente através de todos esses objetos, como se eles quase \"sumissem\" no caminho da luz? Curiosidade: as lentes dos óculos e das lupas são moldadas de um jeito especial (curvas) para dobrar a luz e nos ajudar a enxergar melhor — isso se chama refração!",

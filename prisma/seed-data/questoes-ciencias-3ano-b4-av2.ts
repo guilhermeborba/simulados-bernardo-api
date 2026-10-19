@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB4Av2 = [
   {
     id: 1,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma mistura acontece quando:",
     tip: "Pensa em quando juntamos água e areia, ou arroz e feijão no prato — isso é uma mistura.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma mistura homogênea é aquela em que:",
     tip: "Pensa em água com sal bem dissolvido — não conseguimos ver o sal separado, tudo parece uma coisa só.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma mistura heterogênea é aquela em que:",
     tip: "Pensa em água com areia — conseguimos ver claramente a areia separada da água, mesmo estando misturadas.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de mistura homogênea?",
     tip: "Pensa em qual dessas misturas fica com aparência uniforme, sem conseguirmos distinguir as partes separadas.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de mistura heterogênea?",
     tip: "Pensa: água e óleo não se misturam completamente, formando camadas separadas e visíveis — isso é heterogêneo.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma salada de frutas, com pedaços variados de maçã, banana e mamão, é um exemplo de mistura:",
     tip: "Pensa: conseguimos ver claramente cada pedaço de fruta separado na salada — isso é uma mistura heterogênea.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "O ar que respiramos, formado por diferentes gases misturados (como oxigênio e nitrogênio) de forma uniforme, é um exemplo de mistura:",
     tip: "Pensa: os gases do ar estão tão bem misturados que não conseguimos distinguir um do outro a olho nu — isso é uma mistura homogênea.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Bernardo misturou arroz e feijão em um pote para guardar. Essa é uma mistura:",
     tip: "Pensa: conseguimos ver claramente os grãos de arroz separados dos grãos de feijão — isso é uma mistura heterogênea.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Qual das opções abaixo representa uma mistura?",
     tip: "Pensa em qual dessas opções é formada por mais de um material combinado.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Por que é importante entender o que são misturas?",
     tip: "Pensa em como muitas coisas que usamos e comemos são, na verdade, misturas de diferentes materiais.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A peneiração é um método de separação de misturas usado quando:",
     tip: "Pensa numa peneira de cozinha, com furinhos — ela deixa passar os grãos menores e retém os maiores.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Qual exemplo mostra bem o uso da peneiração?",
     tip: "Pensa em como uma peneira consegue separar materiais de tamanhos diferentes, deixando passar um e retendo o outro.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A filtração é um método de separação usado geralmente para separar:",
     tip: "Pensa num coador de café — ele retém o pó do café (sólido) e deixa passar apenas o líquido.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Qual exemplo mostra bem o uso da filtração?",
     tip: "Pensa em como, ao coar o suco, o líquido passa e o bagaço (sólido) fica retido — isso é filtração.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A decantação é um método de separação usado quando:",
     tip: "Pensa em como, ao deixar água com areia em repouso, a areia (mais pesada) vai para o fundo, e depois a água pode ser retirada com cuidado.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Qual exemplo mostra bem o uso da decantação?",
     tip: "Pensa: com o tempo, a terra (mais pesada) vai se depositando no fundo do recipiente, separando-se naturalmente da água.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A evaporação também pode ser usada como método de separação, principalmente para:",
     tip: "Pensa em como, ao deixar água salgada evaporar, a água vira vapor e o sal fica depositado no fundo do recipiente.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo quer separar pedrinhas grandes de areia fina. Qual método ele deve usar?",
     tip: "Pensa: como as pedrinhas são maiores que os grãos de areia, uma peneira pode separá-las facilmente pelo tamanho.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Ana quer separar o sal que ficou dissolvido na água do mar. Qual método seria mais indicado?",
     tip: "Pensa: como o sal está dissolvido (misturado de forma homogênea) na água, a peneira ou o filtro não conseguiriam separá-lo — a evaporação é o método ideal.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Por que é importante conhecer os métodos de separação de misturas?",
     tip: "Pensa em como métodos como peneiração, filtração e decantação são usados até em casa, na cozinha e no tratamento de água.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Relembrando seres vivos: qual é uma característica comum a todos os seres vivos?",
     tip: "Pensa no ciclo de vida que todos os seres vivos compartilham, das plantas aos animais.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Relembrando plantas: qual é a função principal da raiz?",
     tip: "Pensa em como a raiz fica embaixo da terra, segurando a planta e \"bebendo\" água do solo.",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Relembrando animais: qual é a diferença entre vertebrados e invertebrados?",
     tip: "Pensa na palavra \"vertebrado\" — tem a ver com \"vértebra\", os ossinhos da coluna.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Relembrando habitats: o que é um habitat?",
     tip: "Pensa no \"endereço\" de um animal ou planta na natureza.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Relembrando o corpo humano: qual sistema é responsável por transformar os alimentos em nutrientes?",
     tip: "Pensa em tudo que acontece com a comida desde a boca até o intestino.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Relembrando saúde e higiene: por que é importante lavar as mãos antes das refeições?",
     tip: "Pensa em como nossas mãos tocam em muitas coisas ao longo do dia, podendo carregar germes.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Estados físicos",
     type: "multiple_choice",
     text: "Relembrando estados físicos: em qual estado físico a água assume o formato do recipiente, mas mantém o mesmo volume?",
     tip: "Pensa em como a água de um copo muda de formato ao ser despejada em outro recipiente, mas continua sendo a mesma quantidade.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Relembrando misturas: uma mistura de água e óleo é um exemplo de mistura:",
     tip: "Pensa: água e óleo não se misturam completamente, formando camadas separadas e visíveis.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Relembrando métodos de separação: qual método usamos para separar a areia da água, deixando a água evaporar?",
     tip: "Pensa: se a areia não está dissolvida, ela ficaria no fundo do recipiente conforme a água evapora, mas o método clássico para retirar o sólido dissolvido é a evaporação.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Ciência no cotidiano",
     type: "multiple_choice",
     text: "Depois de um ano inteiro estudando Ciências, qual é a lição mais importante que aprendemos?",
     tip: "Pensa em tudo que aprendemos esse ano: seres vivos, plantas, animais, habitats, corpo humano, saúde, matéria e misturas — tudo isso faz parte da Ciência que explica o mundo ao nosso redor!",

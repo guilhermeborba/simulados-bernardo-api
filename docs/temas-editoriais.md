@@ -87,3 +87,49 @@ Arquivos privados do lote: `questoes-matematica.ts`, `questoes-matematica-av1.ts
 A classificação segue o conteúdo predominante. Sequências que treinam uma tabuada ficam em **Multiplicação**; sequências gerais, em **Sequências numéricas**. Questões com diferentes grandezas usam **Grandezas e medidas**, enquanto as específicas usam o respectivo tema. O grupo **Igualdades** trata equivalência entre expressões, não apenas a operação usada nelas.
 
 Não se subdividem artificialmente simulados concentrados em um assunto: os dois de tabuada, o de divisão e o de frações gerais têm um tema cada; o AV1 de geometria da turma tem dois. O B4/AV2 geral revisa onze temas do ano. Todos os temas têm de uma a quatro palavras e não incluem resultados numéricos ou respostas literais.
+
+### Ciências — 3º ano
+
+| Tema | Abrange |
+|---|---|
+| Adaptações dos seres vivos | Características e comportamentos relacionados à sobrevivência no ambiente, como camuflagem, migração e proteção. |
+| Alimentação dos animais | Hábitos alimentares, tipos de alimento e relações entre animais e sua alimentação. |
+| Alimentação saudável | Variedade alimentar, nutrientes, hidratação e escolhas alimentares abordadas nas questões. |
+| Ciclo de vida | Nascimento, crescimento, reprodução, desenvolvimento, metamorfose e fases da vida de plantas, animais e seres humanos. |
+| Ciência no cotidiano | Síntese dos usos de Ciências para compreender seres vivos, ambientes, corpo humano e materiais. |
+| Classificação dos animais | Critérios e características usados para comparar grupos de animais, incluindo vertebrados e invertebrados. |
+| Composição do solo | Componentes, partículas e camadas do solo, incluindo matéria orgânica, ar, areia e argila. |
+| Conservação do solo | Importância, fertilidade, adubação, compostagem, preservação e impactos da poluição do solo. |
+| Corpo humano | Órgãos, funções e integração dos sistemas digestório, respiratório e circulatório. |
+| Estados físicos | Características e exemplos dos estados sólido, líquido e gasoso. |
+| Fenômenos sonoros | Produção, propagação e percepção de sons, intensidade, altura, materiais e tamanho das fontes sonoras. |
+| Formação do solo | Origem do solo a partir das rochas, agentes e tempo de formação. |
+| Habitat | Ambientes em que os seres vivos vivem, suas condições e importância da preservação desses ambientes. |
+| Hábitos de higiene | Limpeza pessoal, dos alimentos e dos ambientes e cuidados para evitar contaminação. |
+| Locomoção dos animais | Modos de deslocamento, como nadar, voar e rastejar. |
+| Luz e visão | Passagem e reflexão da luz, formação de sombras e imagens e percepção visual dos objetos. |
+| Matéria e materiais | Conceito de matéria e questões que articulam estados físicos e propriedades dos materiais. |
+| Misturas | Combinação de materiais e distinção entre misturas homogêneas e heterogêneas. |
+| Partes das plantas | Raiz, caule, folhas, flores, frutos e sementes: funções, relações e necessidades da planta. |
+| Prevenção da dengue | Questões sobre o mosquito Aedes aegypti, seus criadouros e sua relação com a transmissão de doenças. |
+| Propriedades dos materiais | Dureza, flexibilidade, transparência, translucidez, opacidade e escolha de materiais para diferentes usos. |
+| Recursos minerais | Minerais presentes no solo, seus usos e formas de extração. |
+| Reprodução dos animais | Formas de nascimento e desenvolvimento dos filhotes: oviparidade, viviparidade, ovoviviparidade e cuidados parentais. |
+| Saúde e bem-estar | Cuidados gerais com a saúde, sono, atividades físicas, vacinação e acompanhamento de saúde. |
+| Separação de misturas | Métodos e situações de separação, incluindo peneiração, filtração, decantação e evaporação. |
+| Seres vivos | Distinção entre seres vivos e não vivos e características gerais dos seres vivos. |
+| Tipos de solo | Comparação entre solos arenosos, argilosos e humíferos e suas características para o plantio. |
+| Transformações da matéria | Mudanças de estado relacionadas ao aquecimento e ao resfriamento, com exemplos do cotidiano. |
+| Vida no solo | Microrganismos e outros seres vivos presentes no solo e suas funções. |
+
+Lote E04: **390 questões em 13 arquivos**, sendo oito gerais `questoes-ciencias-3ano-b*-av*.ts` (240 questões) e cinco privados da `turma-bernardo` (150 questões). Os privados são `questoes-ciencias.ts`, `questoes-ciencias-av1.ts`, `questoes-ciencias-av2.ts`, `questoes-ciencias-3bim-av1.ts` e `questoes-ciencias-3bim-av2.ts`.
+
+Os temas seguem o conteúdo predominante de cada questão, incluindo os itens internos de verdadeiro/falso. **Ciclo de vida** vale para plantas, animais e seres humanos; **Reprodução dos animais** diferencia as formas de nascimento e os cuidados com filhotes. Questões compostas que misturam nascimento, metamorfose e o mosquito permanecem no agrupamento de ciclo de vida; as focadas nos criadouros ou na transmissão da dengue usam **Prevenção da dengue**.
+
+As mesmas propriedades de transparência, translucidez e opacidade usam **Propriedades dos materiais** nos diferentes arquivos. Reflexos, sombras e percepção visual usam **Luz e visão**. Questões sobre o ambiente em que um animal vive usam **Habitat**; as que perguntam como ele se desloca ou se alimenta usam os respectivos temas.
+
+Os nomes **Classificação dos animais** e **Corpo humano** não antecipam o grupo taxonômico, órgão ou sistema que pode ser a resposta da questão. Não se criam rótulos com nomes de alternativas corretas, métodos específicos ou substâncias para entregar o gabarito.
+
+Não se subdividem artificialmente unidades concentradas: B2/AV1 geral (classificação dos animais) e B3/AV1 geral (corpo humano) têm um tema cada; B1/AV1, B1/AV2 e B2/AV2 gerais têm dois. B4/AV2 geral revisa dez temas do ano. Enunciados, alternativas, gabaritos, dicas, curiosidades e todos os demais campos foram preservados.
+
+Quando o tema coincidir literalmente com a alternativa correta, usa-se uma categoria mais ampla: a questão 21 de `questoes-ciencias-3bim-av2.ts`, que pede o nome do ciclo de vida, usa **Seres vivos**. O conceito específico continua em **Ciclo de vida** nas questões sobre suas etapas e transformações.

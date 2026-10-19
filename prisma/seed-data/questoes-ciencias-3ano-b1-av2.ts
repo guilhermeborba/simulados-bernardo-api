@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB1Av2 = [
   {
     id: 1,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a função principal da raiz de uma planta?",
     tip: "Pensa em como a raiz fica embaixo da terra, segurando a planta firme e \"bebendo\" água do solo.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Onde geralmente fica a raiz de uma planta?",
     tip: "Pensa em como, ao arrancarmos uma planta pequena, vemos a parte \"cabeluda\" cheia de terra — essa é a raiz.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a função principal do caule de uma planta?",
     tip: "Pensa no caule como um \"cano\" que sustenta a planta em pé e leva a água da raiz até as folhas.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é o nome da parte da planta que sustenta as folhas, flores e frutos, além de transportar água e nutrientes?",
     tip: "Pensa na \"haste\" da planta, que segura tudo em cima dela e conduz a água e os nutrientes.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Bernardo observou que, ao regar uma planta, a água desaparecia rapidamente do solo. Isso acontece porque:",
     tip: "Pensa: é a raiz que fica em contato com o solo molhado e \"bebe\" a água para levar até o resto da planta.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a diferença principal entre a raiz e o caule de uma planta?",
     tip: "Pensa em como a raiz e o caule têm funções e posições bem diferentes na planta.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "A batata que comemos é, na verdade, um exemplo de:",
     tip: "Pensa: apesar de crescer embaixo da terra como as raízes, a batata é considerada um tipo especial de caule chamado tubérculo.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Sem raízes, o que provavelmente aconteceria com uma planta?",
     tip: "Pensa em como a raiz é essencial para segurar a planta firme e alimentá-la com água e nutrientes do solo.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Bernardo notou que uma árvore no parque tinha um tronco bem grosso e resistente. Esse tronco é um tipo de:",
     tip: "Pensa: o tronco é a parte da árvore que sustenta os galhos e as folhas — isso é uma característica do caule.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Por que é importante entender as funções da raiz e do caule das plantas?",
     tip: "Pensa em como entender essas partes nos ajuda a cuidar melhor de plantas em casa, na escola ou em uma horta.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a função principal da folha de uma planta?",
     tip: "Pensa: as folhas usam a luz do sol, a água e o ar para fabricar o alimento da planta — esse processo se chama fotossíntese.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual cor é mais comum nas folhas das plantas, por causa de uma substância chamada clorofila?",
     tip: "Pensa na cor das folhas que você vê nas árvores e plantas ao seu redor — qual é a cor mais comum?",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a função principal da flor em uma planta?",
     tip: "Pensa: é através da flor que muitas plantas se reproduzem, formando depois os frutos e as sementes.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "O que é a polinização?",
     tip: "Pensa em como as abelhas voam de flor em flor, levando o pólen — isso ajuda as plantas a se reproduzirem.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "O fruto de uma planta geralmente se desenvolve a partir de:",
     tip: "Pensa: depois que a flor é polinizada e fecundada, ela se transforma no fruto.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a função principal do fruto de uma planta?",
     tip: "Pensa em como o fruto \"embrulha\" a semente, protegendo-a, e ajuda a espalhá-la, muitas vezes através dos animais que comem a fruta.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "O que está dentro da maioria dos frutos e é responsável por dar origem a uma nova planta?",
     tip: "Pensa nas sementinhas que encontramos dentro de frutas como maçã, laranja e melancia — são elas que podem virar novas plantas.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Bernardo plantou uma semente de feijão em um copinho com algodão molhado. O que ele espera que aconteça?",
     tip: "Pensa: com água, ar e um pouco de tempo, a semente começa a germinar, ou seja, a se transformar em uma plantinha.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual é a ordem correta do desenvolvimento de uma planta com flor?",
     tip: "Pensa na ordem natural: primeiro a semente é plantada, cresce até virar uma planta, depois a planta produz flores, e das flores nascem os frutos.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Por que é importante conhecer as funções da folha, flor, fruto e semente das plantas?",
     tip: "Pensa em como cada parte da planta tem um papel importante para ela viver, crescer e continuar existindo através de novas plantas.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Bernardo desenhou uma planta completa para um trabalho da escola. Ele precisa desenhar a parte que fica embaixo da terra e absorve água. Qual parte ele deve desenhar primeiro?",
     tip: "Pensa na parte da planta que fica embaixo da terra, absorvendo água e sais minerais.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Se uma planta não tivesse folhas, o que ficaria comprometido?",
     tip: "Pensa: é nas folhas que acontece a fotossíntese, o processo que produz o alimento da planta.",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Ana comeu uma laranja e guardou as sementes para plantar. O que ela espera que aconteça com as sementes, se plantadas corretamente?",
     tip: "Pensa: com terra, água e luz do sol, as sementes de laranja podem germinar e crescer até virarem novas plantas de laranjeira.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual das partes da planta é responsável por atrair abelhas e outros insetos com suas cores e perfumes?",
     tip: "Pensa nas flores coloridas e perfumadas que atraem abelhas e borboletas no jardim.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Bernardo notou que uma planta no jardim estava com as folhas murchas e amareladas. O que provavelmente está faltando para essa planta?",
     tip: "Pensa: quando falta água ou nutrientes, a planta não consegue se manter saudável, e as folhas podem murchar e amarelar.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Uma macieira produz maçãs. Dentro de cada maçã, encontramos:",
     tip: "Pensa nas sementinhas que ficam no centro da maçã, que poderiam dar origem a novas macieiras.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Complete a frase: \"As plantas produzem seu próprio alimento através de um processo chamado ___, que acontece principalmente nas folhas.\"",
     tip: "Pensa no nome do processo que usa luz do sol, água e ar para produzir o alimento da planta.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Se Bernardo quiser plantar uma nova árvore de manga, o que ele deve fazer primeiro?",
     tip: "Pensa: é dentro do caroço da manga que está a semente, capaz de dar origem a uma nova mangueira.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Qual é a relação entre a flor e o fruto de uma planta?",
     tip: "Pensa na ordem natural: primeiro vem a flor, e depois que ela é polinizada, ela se transforma no fruto.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Partes das plantas",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre as partes das plantas, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: raiz (fixação e absorção), caule (sustentação e transporte), folha (fotossíntese), flor (reprodução), fruto (proteção da semente) e semente (nova planta).",
