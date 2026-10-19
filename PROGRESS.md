@@ -368,3 +368,14 @@ O inventário confirma cobertura integral das 13 entradas de História do 3º an
 Validação de História: `npm run seed:dry-run` e inventário JSON aprovados (390/390 questões e 13/13 simulados, cinco da turma Bernardo); vocabulário fechado e temas de 1–4 palavras, com até 120 caracteres. Comparação exata com a base confirma que apenas as linhas `theme` foram acrescentadas às questões, sem alterar enunciados, alternativas, gabaritos, dicas, curiosidades ou outros campos. Nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes; `npm run test:e2e`: 418 testes/23 suítes, com PostgreSQL descartável removido ao final.
 
 A inconsistência preexistente na questão 5 de História B4/AV1 geral e a revisão do restante desse simulado foram registradas na [issue web #70](https://github.com/guilhermeborba/simulados-bernardo/issues/70). O gabarito foi preservado neste lote de temas. Não houve seed em base existente, publicação de conteúdo em produção ou alteração do contrato da API.
+
+
+### Português do 3º ano — E04
+
+História do 3º ano foi integrada em api#228. O lote de Português acrescenta 390 temas em 13 simulados distribuídos em nove arquivos: oito gerais (240 questões) e o legado `questoes-portugues.ts`, que reúne os cinco privados da turma Bernardo (150). Os exports aninhados, os IDs e todos os demais campos foram preservados exatamente. O vocabulário de 26 temas e os critérios de classificação estão em `docs/temas-editoriais.md`.
+
+O inventário agora confirma cobertura integral de todos os 65 simulados/1.949 questões do 3º ano registrados no seed, incluindo as cinco disciplinas e seus simulados privados. Esse é também o total de questões com tema no acervo de 780 simulados/23.444 questões; os demais anos continuam pendentes na E04. A próxima prioridade editorial é o 4º ano, começando pelos oito simulados de Português (240 questões).
+
+Validação de Português: `npm run seed:dry-run` e inventário JSON aprovados (390/390 questões, 13/13 simulados, nove arquivos, cinco simulados da turma Bernardo); temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. Comparação exata de fonte e dados por export confirma somente a adição de `theme`. Nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes; `npm run test:e2e`: 418 testes/23 suítes, com PostgreSQL descartável removido ao final.
+
+As alternativas corretas duplicadas nas questões 22 e 26 do B2/AV2 privado e os comandos incompletos nas questões 14 e 15 do B1/AV2 privado estão na [issue web #72](https://github.com/guilhermeborba/simulados-bernardo/issues/72), para revisão separada. O conteúdo foi preservado neste lote. Não houve seed em banco existente, deploy ou alteração de contrato.
