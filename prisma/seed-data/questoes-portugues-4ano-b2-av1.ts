@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB2Av1 = [
   {
     id: 1,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual sinal de pontuação é usado no final de uma PERGUNTA?",
     tip: "Cada sinal de pontuação tem uma função específica. Um deles é usado especialmente para indicar que o leitor deve fazer uma entonação de pergunta ao ler a frase.",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um SUBSTANTIVO PRÓPRIO?",
     tip: "Substantivos próprios são nomes específicos de pessoas, lugares, marcas ou eventos particulares — eles são escritos com letra maiúscula!",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Qual é uma característica do TEXTO NARRATIVO?",
     tip: "Texto narrativo é aquele que conta uma história. Pense em contos, fábulas, romances — o que eles têm em comum?",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Em qual frase a VÍRGULA foi usada corretamente para separar itens de uma lista?",
     tip: "A vírgula separa itens de uma enumeração. Mas atenção: antes do último item de uma lista, usamos 'e' — e geralmente não colocamos vírgula antes do 'e' em listas simples.",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Leia: \"A menina de cabelos longos e olhos azuis correu pelo jardim.\"\n\nQual palavra é um ADJETIVO que descreve a menina?",
     tip: "Adjetivos são palavras que descrevem ou caracterizam os substantivos. Na frase, qual palavra está dizendo como são as características físicas da menina?",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Substantivos coletivos",
     type: "multiple_choice",
     text: "Como se chama o SUBSTANTIVO COLETIVO de pássaros que voam juntos?",
     tip: "Substantivos coletivos nomeiam um conjunto de seres ou coisas da mesma espécie com uma única palavra. Qual é a palavra para um grupo de pássaros em voo?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual é uma característica do TEXTO DESCRITIVO?",
     tip: "Texto descritivo é aquele que pinta um quadro em palavras. Ao lê-lo, você consegue visualizar claramente o que está sendo descrito. O que ele faz principalmente?",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Em qual situação usamos o PONTO DE EXCLAMAÇÃO (!)?",
     tip: "O ponto de exclamação indica uma entonação específica da voz. Quando você está animado, com raiva, com medo ou dando uma ordem, qual sinal de pontuação usa?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras é um SUBSTANTIVO ABSTRATO?",
     tip: "Substantivos abstratos nomeiam sentimentos, qualidades, estados e ações — coisas que não podemos tocar, ver ou pegar com as mãos. Qual das opções é assim?",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Os DOIS-PONTOS (:) são usados para:",
     tip: "Os dois-pontos têm um papel específico de 'apresentar' algo. Eles aparecem antes de uma fala direta, de uma lista ou de uma explicação.",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Leia: \"A menina inteligente resolveu todos os problemas.\"\n\nQual é o ADJETIVO desta frase?",
     tip: "Adjetivos descrevem ou qualificam substantivos. Qual das palavras está descrevendo uma característica da menina?",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "O que é uma LOCUÇÃO ADJETIVA?",
     tip: "Locução adjetiva é um grupo de palavras que juntas funcionam como um adjetivo. Geralmente é formada por preposição + substantivo. Por exemplo: 'casaco de lã' = casaco lanoso.",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das opções é um SUBSTANTIVO COMUM?",
     tip: "Substantivos comuns nomeiam qualquer ser de uma classe geral (qualquer menino, qualquer cidade, qualquer escola). Substantivos próprios nomeiam seres específicos e únicos (este menino, esta cidade).",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual é uma característica do TEXTO INFORMATIVO?",
     tip: "Texto informativo tem como objetivo principal transmitir conhecimento, fatos e dados de forma clara e objetiva. Pense em textos de enciclopédia ou notícias explicativas.",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O PONTO FINAL (.) é usado para:",
     tip: "O ponto final tem uma função bem específica: ele indica que a frase acabou e a informação está completa. Quando usamos o ponto final?",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras é um SUBSTANTIVO CONCRETO?",
     tip: "Substantivos concretos nomeiam coisas que existem concretamente — podemos ver, tocar ou perceber pelos sentidos. Qual das opções você pode pegar nas mãos?",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das opções é um ADJETIVO PÁTRIO (que indica a origem ou nacionalidade)?",
     tip: "Adjetivos pátrios indicam de onde alguém vem ou a qual país/lugar algo pertence. São adjetivos que respondem à pergunta: 'De onde é?'",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"A cidade de Curitiba fica no estado do Paraná. É conhecida por seus parques, sua arquitetura moderna e pelo clima frio. A população da cidade é de aproximadamente dois milhões de habitantes.\"\n\nEste texto é:",
     tip: "Observe o objetivo do texto: ele conta uma história? Descreve sentimentos? Dá instruções? Ou apresenta dados e informações sobre um lugar?",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual das opções apresenta a pontuação CORRETA para indicar uma pergunta?",
     tip: "Para indicar que uma frase é uma pergunta, precisamos do sinal de pontuação correto no final da frase. Observe cada opção.",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Substantivos coletivos",
     type: "multiple_choice",
     text: "Qual é o SUBSTANTIVO COLETIVO que nomeia um grupo de lobos?",
     tip: "Assim como 'cardume' nomeia grupo de peixes e 'revoada' nomeia grupo de pássaros, há uma palavra específica para um grupo de lobos.",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Em qual frase os ADJETIVOS concordam CORRETAMENTE com o substantivo?",
     tip: "Em português, os adjetivos precisam concordar em gênero (masculino/feminino) e número (singular/plural) com o substantivo que descrevem. Verifique a concordância em cada frase.",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual dos textos abaixo pertence ao gênero DESCRITIVO?",
     tip: "Texto descritivo 'pinta' com palavras. Ele apresenta detalhes sensoriais (como algo parece, cheira, soa) de uma pessoa, lugar ou objeto. Qual opção faz isso?",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Leia: \"João gritou: — Cuidado com o buraco!\"\n\nO sinal que introduz a fala direta de João é:",
     tip: "Quando reproduzimos a fala de alguém diretamente em um texto, usamos dois sinais: os dois-pontos para introduzir e o travessão para marcar quem está falando.",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Substantivos coletivos",
     type: "multiple_choice",
     text: "Qual é o SUBSTANTIVO COLETIVO de peixes?",
     tip: "Assim como 'alcateia' é o coletivo de lobos e 'revoada' é o coletivo de pássaros, qual é a palavra que designa um grupo de peixes?",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um SUBSTANTIVO ABSTRATO?",
     tip: "Substantivos abstratos nomeiam o que não podemos ver nem tocar, mas que sentimos ou percebemos — sentimentos, qualidades, estados. Qual das opções é assim?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual opção apresenta uma LOCUÇÃO ADJETIVA?",
     tip: "Locução adjetiva é uma expressão (geralmente preposição + substantivo) que funciona como adjetivo, ou seja, caracteriza um substantivo. Por exemplo: 'anel de prata' = anel prateado.",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Em qual frase os adjetivos CONCORDAM CORRETAMENTE com os substantivos?",
     tip: "Os adjetivos precisam concordar em gênero e número com os substantivos. Verifique: o substantivo é masculino ou feminino? Singular ou plural?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Leia: \"O leão, animal majestoso, corajoso e poderoso, é o rei da selva.\"\n\nQuantos ADJETIVOS há nessa frase?",
     tip: "Adjetivos são palavras que caracterizam os substantivos. Na frase, quais palavras estão descrevendo o leão?",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual é o uso CORRETO dos DOIS-PONTOS (:) num diálogo?",
     tip: "Nos diálogos escritos, os dois-pontos aparecem antes de uma fala introduzida por um verbo de locução (disse, falou, perguntou, respondeu). Como isso funciona na escrita?",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Os ELEMENTOS BÁSICOS de um texto narrativo incluem:",
     tip: "Textos narrativos têm componentes específicos que os distinguem de outros tipos de texto. Quais são os elementos essenciais de toda narrativa?",

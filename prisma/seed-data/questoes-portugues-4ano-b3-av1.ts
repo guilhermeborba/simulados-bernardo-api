@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB3Av1 = [
   {
     id: 1,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual é o VERBO de ação na frase: \"O aluno estuda muito para a prova.\"?",
     tip: "Verbos expressam ações, estados ou fenômenos. Na frase, qual palavra indica o que o aluno está fazendo?",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal da frase: \"Ela cantou uma música bonita ontem.\"?",
     tip: "O tempo verbal indica quando a ação aconteceu. A palavra 'ontem' é uma pista importante — ela indica que a ação ocorreu num momento específico e completo no passado.",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome pessoal do caso reto deve substituir \"A professora\" na frase: \"A professora chegou cedo.\"?",
     tip: "Pronomes pessoais do caso reto substituem o sujeito da frase (quem faz a ação). 'A professora' é uma pessoa feminina singular — qual pronome corresponde?",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras é SINÔNIMO de \"alegre\"?",
     tip: "Sinônimos são palavras com significado igual ou muito parecido. Qual das opções tem o mesmo sentido que 'alegre'?",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia a água que cai do céu?",
     tip: "Esta palavra começa com 'ch'. Atenção com a ortografia — esse som pode ser escrito de formas diferentes, mas há uma forma convencional correta.",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal da frase: \"Eu estudava todos os dias quando era criança.\"?",
     tip: "O tempo verbal indica quando e como a ação ocorreu. A frase descreve algo que era HABITUAL no passado (acontecia repetidamente). Qual tempo verbal indica isso?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome pessoal do caso reto deve substituir \"João e Maria\" numa frase?",
     tip: "João e Maria são duas pessoas. Quando temos mais de uma pessoa sendo substituída por um pronome, qual pronome do plural masculino usamos? (João é masculino, então o pronome vai para o masculino.)",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras é ANTÔNIMO de \"largo\"?",
     tip: "Antônimos são palavras com significado oposto. Qual das opções tem o significado contrário ao de 'largo' (que tem muita largura)?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia o aparelho para tomar banho?",
     tip: "Esta palavra tem o som 'ch' na primeira sílaba. Qual é a forma correta de escrevê-la?",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal da frase: \"Amanhã, ele viajará para o Rio de Janeiro.\"?",
     tip: "A palavra 'amanhã' é uma pista importante — ela indica que a ação ainda não aconteceu. Qual tempo verbal indica ações que ainda vão acontecer?",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual das frases usa o pronome pessoal CORRETAMENTE?",
     tip: "Os pronomes do caso reto (eu, tu, ele, ela, nós, vós, eles, elas) são usados como SUJEITO. Verifique a concordância entre pronome e verbo em cada opção.",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das palavras tem grafia CORRETA com a letra 'z'?",
     tip: "Em português, alguns sufixos como '-eza' e '-eza' formam substantivos abstratos. Qual das opções é escrita corretamente com 'z'?",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual é o MODO verbal da frase: \"Ele canta bem.\"?",
     tip: "O modo verbal indica como o falante apresenta a ação. O modo Indicativo apresenta a ação como um fato real e certo. O modo Subjuntivo expressa dúvida ou suposição. O Imperativo expressa ordem ou pedido.",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o SINÔNIMO de \"rápido\"?",
     tip: "Sinônimos têm o mesmo significado ou muito parecido. Qual das opções significa a mesma coisa que 'rápido'?",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das frases usa a palavra na grafia CORRETA?",
     tip: "Algumas palavras têm sons parecidos mas grafias diferentes. Observe qual frase escreve a palavra de forma correta.",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome OBLÍQUO pode completar a frase: \"Ele _____ deu um presente.\" (deu para mim)?",
     tip: "Os pronomes oblíquos são usados como objeto na frase (recebem a ação). 'Me', 'te', 'lhe', 'nos', 'vos', 'lhes' são pronomes oblíquos. Qual deles representa 'para mim'?",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal na frase: \"Hoje, eu leio o jornal.\"?",
     tip: "A palavra 'hoje' indica o momento atual. Qual tempo verbal expressa ações que acontecem no momento da fala ou habitualmente?",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"rico\"?",
     tip: "Antônimos têm significado oposto. Qual das opções é o contrário de 'rico' (que tem muito dinheiro ou bens)?",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das palavras é escrita CORRETAMENTE com 'ch'?",
     tip: "Atenção com o som 'ch' versus 'x' em português. Qual das opções usa 'ch' na palavra correta?",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"longe\"?",
     tip: "Qual das opções tem o significado oposto ao de 'longe' (que está a uma grande distância)?",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome pessoal do caso reto deve substituir \"eu e minha amiga\" numa frase?",
     tip: "Quando a primeira pessoa do singular (eu) aparece junto com outra pessoa, o pronome resultante é o da primeira pessoa do plural. Qual é ele?",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia um pássaro pequeno e bonito?",
     tip: "Esta palavra tem som de 'ss' (dois 's') no meio. Como se escreve o nome do pequeno pássaro corretamente?",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual é o MODO verbal da frase: \"Venha aqui agora!\"?",
     tip: "Essa frase expressa uma ordem direta. Qual modo verbal é usado para dar ordens, pedidos ou conselhos?",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras é SINÔNIMO de \"casa\"?",
     tip: "Sinônimos têm significado igual ou muito parecido. Qual das opções pode substituir 'casa' sem mudar o sentido essencial?",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual das frases usa o PRETÉRITO IMPERFEITO corretamente?",
     tip: "O Pretérito Imperfeito indica ações passadas que eram habituais, contínuas ou que estavam em andamento. Qual das frases descreve esse tipo de ação no passado?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que significa \"com exceção de\", \"tirando\"?",
     tip: "Esta palavra começa com 'ex-' e tem um 'c' no meio. Cuidado com as confusões ortográficas entre 'x', 's' e 'c'.",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"antigo\"?",
     tip: "Antônimos têm significado oposto. Qual das opções é o contrário de 'antigo' (que existe há muito tempo, velho)?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia as atividades físicas que praticamos?",
     tip: "Esta palavra começa com 'ex-' e tem 'ci' no meio. Cuidado com a ortografia — existe confusão comum entre 'x', 's' e 'c' nessa palavra.",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Leia: \"Eu gosto de você.\"\n\nO pronome \"Eu\" nessa frase é:",
     tip: "Pronomes pessoais se dividem em pronomes do caso reto (sujeito da frase: eu, tu, ele, ela, nós, vocês, eles, elas) e do caso oblíquo (objeto: me, te, lhe, nos, vos, lhes). O 'Eu' está fazendo o quê na frase?",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o SINÔNIMO de \"bonito\"?",
     tip: "Sinônimos têm o mesmo significado ou muito parecido. Qual das opções pode substituir 'bonito' sem mudar o sentido?",

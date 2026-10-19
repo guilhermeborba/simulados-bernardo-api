@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB1Av2 = [
   {
     id: 1,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Leia a fábula:\n\n\"A Lebre e a Tartaruga\"\n\nA lebre, muito orgulhosa de sua velocidade, desafiou a tartaruga para uma corrida. Durante a corrida, a lebre foi tão rápida que resolveu descansar no meio do caminho. Dormiu por muito tempo. A tartaruga, devagar mas sem parar, chegou primeiro à linha de chegada.\n\nQual é a MORAL desta fábula?",
     tip: "A moral de uma fábula é a lição que o autor quer nos ensinar. Observe o comportamento de cada personagem: quem foi responsável e quem foi descuidado?",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Leia o trecho:\n\n\"A chuva caiu mansinha,\nMolhou a terra sequinha,\nAs flores abriram sorridentes,\nAlegres, lindas, reluzentes.\"\n\nEste texto é um:",
     tip: "Observe a estrutura do texto: as linhas têm ritmo parecido, terminam com sons semelhantes (sequinha/mansinha) e são curtas. Isso é característico de qual gênero textual?",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "A palavra \"feliz\" é primitiva. Qual das opções é uma palavra DERIVADA de \"feliz\"?",
     tip: "Palavras derivadas são formadas a partir de uma palavra primitiva, adicionando prefixos (antes da palavra) ou sufixos (depois da palavra). De qual palavra primitiva vem cada opção?",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual prefixo transforma uma palavra em seu OPOSTO (sentido contrário)?",
     tip: "Prefixos mudam o significado das palavras. Alguns prefixos indicam negação ou oposição. Teste cada opção: qual delas, quando adicionada a uma palavra, cria o sentido contrário?",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Leia o trecho de um conto:\n\n\"Era uma vez um menino chamado Pedro que morava em uma pequena cidade à beira do rio. Certo dia, ao sair para pescar, ele encontrou uma pedra brilhante no fundo da água.\"\n\nNesta história, o narrador conta os fatos em:",
     tip: "O narrador pode contar a história de dentro (usando 'eu') ou de fora (usando 'ele/ela'). Releia o trecho e observe: o narrador usa qual tipo de pronome para contar a história?",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Leia os eventos da história e ordene-os:\n\n( ) Pedro encontrou a pedra brilhante.\n( ) Pedro saiu para pescar.\n( ) Pedro morava numa cidade à beira do rio.\n( ) Pedro levou a pedra para casa.\n\nQual é a ordem CRONOLÓGICA correta?",
     tip: "Ordem cronológica significa a ordem em que os fatos aconteceram no tempo — do primeiro ao último. Qual evento precisou acontecer antes dos outros?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "Qual das alternativas apresenta características de uma NOTÍCIA?",
     tip: "Notícia é um texto que informa sobre algo que aconteceu no mundo real. Tem título, responde às perguntas: quem? o quê? quando? onde? por quê? Qual opção descreve melhor esse gênero?",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "A palavra \"pedreiro\" é formada por \"pedra\" + o sufixo \"-eiro\". O sufixo \"-eiro\" indica:",
     tip: "Sufixos adicionam significados às palavras. O sufixo '-eiro' aparece em: padeiro (trabalha com pão), sapateiro (trabalha com sapato), pedreiro (trabalha com pedra). O que essas palavras têm em comum?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Leia a fábula:\n\n\"O Lobo e o Cordeiro\"\n\nUm cordeiro bebia água no rio quando um lobo chegou e disse: 'Você está sujando minha água!' O cordeiro respondeu: 'Mas senhor, você está acima de mim no rio — é impossível eu sujar sua água.' O lobo então disse: 'Não importa, sua família me fez mal!' E comeu o cordeiro.\n\nEsta fábula critica:",
     tip: "Qual é o comportamento do lobo nesta fábula? Ele usa argumentos justos ou age de forma injusta para conseguir o que quer?",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Os elementos básicos de uma narrativa são: personagens, enredo, tempo, espaço e narrador. O ENREDO de uma história é:",
     tip: "Cada elemento da narrativa tem uma função específica. Personagens são quem. Espaço é onde. Tempo é quando. Narrador é quem conta. O que sobra para o enredo?",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Leia o poema:\n\n\"Borboleta colorida,\nVoando pela manhã,\nEla dança, alegre e querida,\nNa brisa da paisagem rã.\"\n\nO poema tem um verso que não rima com 'manhã'. Qual seria uma substituição MELHOR para o verso final?",
     tip: "Para que o poema fique harmônico, o último verso precisa rimar com 'manhã'. Qual das opções termina com um som parecido com '-ã'?",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é formada pelo prefixo \"sub-\", que significa \"abaixo\" ou \"inferior\"?",
     tip: "O prefixo 'sub-' aparece em várias palavras. Tente encontrar uma palavra com 'sub-' em que o significado de 'abaixo' faça sentido no contexto.",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"O João foi à padaria comprar pão. Lá, ele encontrou sua professora. Eles conversaram por alguns minutos. Depois, cada um foi para sua casa.\"\n\nO pronome \"Eles\" (terceira frase) se refere a:",
     tip: "Pronomes substituem ou acompanham substantivos para evitar repetição. A quem 'eles' está se referindo na frase? Quem estava presente na cena descrita?",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual das alternativas apresenta uma palavra formada por AGLUTINAÇÃO (duas palavras se juntam com perda de letras/sons)?",
     tip: "Na aglutinação, duas palavras se fundem perdendo letras ou sons. Na justaposição, as palavras se juntam sem perder nada. Qual opção parece ter vindo de duas palavras que perderam alguma parte ao se unir?",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"O menino olhou para a janela. Lá fora, o céu estava coberto de nuvens escuras. O vento soprava forte e as árvores balançavam. Ele pegou o guarda-chuva e saiu de casa.\"\n\nO que o menino observou que o fez pegar o guarda-chuva?",
     tip: "Para responder, observe o que o menino viu antes de tomar a decisão. Quais pistas no texto indicam que ia chover?",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de palavra com PREFIXO que indica \"repetição\"?",
     tip: "Alguns prefixos indicam que algo acontece de novo. Pense: qual das palavras abaixo significa fazer algo 'de novo' ou 'outra vez'?",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Leia o trecho de uma fábula:\n\n\"A Cigarra e a Formiga\"\n\nDurante todo o verão, a cigarra cantou e dançou enquanto as formigas trabalhavam duro, guardando comida para o inverno. Quando o inverno chegou, a cigarra ficou com fome e pediu comida às formigas.\n\nO personagem da FORMIGA representa:",
     tip: "Na fábula, cada personagem tem um valor simbólico. A formiga trabalhou durante o verão. Que qualidade isso representa?",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual das alternativas apresenta palavras que são da MESMA FAMÍLIA (formadas da mesma raiz)?",
     tip: "Família de palavras: todas as palavras que compartilham a mesma raiz (palavra primitiva). Verifique qual grupo tem TODAS as palavras derivadas da mesma raiz.",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Leia o trecho:\n\n\"João e Maria viviam com seus pais numa casa à beira da floresta. Um dia, os pais decidiram levá-los para dentro da mata e os abandonaram lá.\"\n\nEste trecho é o INÍCIO de um conto. O que caracteriza o INÍCIO (introdução) de uma narrativa?",
     tip: "A introdução de uma narrativa tem uma função específica: ela prepara o leitor para a história que vai acontecer. O que costuma aparecer nessa parte?",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "A palavra \"infelizmente\" é formada por prefixo + palavra primitiva + sufixo. Qual é a decomposição CORRETA?",
     tip: "Decomponha a palavra passo a passo: 'infelizmente'. Há um prefixo no início que indica negação? Há um sufixo no final que forma advérbios? O que sobra é a raiz.",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Leia o poema:\n\n\"O vento uiva na noite escura,\nA chuva bate na janela dura,\nO trovão ruge, o relâmpago brilha,\nA criança dorme em sua maravilha.\"\n\nQual sentimento as três primeiras linhas criam no leitor?",
     tip: "As palavras 'noite escura', 'bate', 'ruge', 'relâmpago' criam que tipo de atmosfera emocional?",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual das palavras abaixo usa o sufixo \"-inha\" com sentido DIMINUTIVO?",
     tip: "O sufixo diminutivo faz a palavra parecer menor ou mais afetiva. Verifique qual das opções tem esse sufixo com esse significado.",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"Querida Avó,\nEstou te escrevendo para contar sobre meu primeiro dia de aula. Fiz novos amigos e a professora é muito legal. Espero que você possa vir nos visitar em breve.\nCom carinho, Maria\"\n\nEste texto é:",
     tip: "Observe a estrutura: tem 'Querida Avó' no início, uma mensagem pessoal no meio, e 'Com carinho, Maria' no final. Qual gênero textual tem essa estrutura?",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Formação de palavras",
     type: "multiple_choice",
     text: "Qual das opções apresenta uma palavra com o prefixo \"bi-\", que significa \"dois\"?",
     tip: "O prefixo 'bi-' significa dois. Qual das palavras abaixo tem claramente dois de alguma coisa?",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"A raposa viu um cacho de uvas pendurado em uma videira. Ela saltou muitas vezes, mas não conseguiu alcançá-las. Então foi embora dizendo: 'De qualquer forma, essas uvas estavam verdes!'\"\n\nO comportamento da raposa ao dizer que as uvas estavam verdes mostra que ela:",
     tip: "A raposa não conseguiu o que queria. Como ela reagiu? Ela aceita a derrota de forma honesta ou inventa uma justificativa para se sentir melhor?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das alternativas apresenta um par de palavras ANTÔNIMAS (com significado oposto)?",
     tip: "Antônimos são palavras com significados opostos. Verifique cada par: as duas palavras têm significados contrários?",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Leia o trecho:\n\n\"Era uma vez uma princesa que vivia num castelo encantado. Certa noite, uma bruxa malvada lançou um feitiço sobre ela, transformando-a em sapo. Somente o beijo de um príncipe corajoso poderia quebrar o encanto.\"\n\nEste texto pertence ao gênero:",
     tip: "Observe as características: 'Era uma vez', castelo encantado, bruxa, feitiço, príncipe — esses elementos são típicos de qual gênero?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"Luísa foi ao mercado. Ela comprou frutas, verduras e pão. Depois, ela voltou para casa feliz.\"\n\nO pronome \"ela\" no texto substitui:",
     tip: "Pronomes substituem substantivos (nomes) para evitar repetição. No texto, 'ela' aparece duas vezes. O que 'ela' está substituindo?",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "O que é a MORAL de uma fábula?",
     tip: "Toda fábula termina com uma lição. Como chamamos essa lição final que resume o ensinamento da fábula?",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual das opções apresenta um TEXTO INSTRUCIONAL (que ensina a fazer algo)?",
     tip: "Textos instrucionais têm estrutura específica: geralmente têm título, lista de materiais/ingredientes e passos numerados com verbos no imperativo (faça, misture, adicione). Qual opção segue esse modelo?",

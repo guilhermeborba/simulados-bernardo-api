@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB3Av2 = [
   {
     id: 1,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é a conjugação CORRETA do verbo \"correr\" no Presente do Indicativo para \"eu\"?",
     tip: "Conjugar um verbo significa adaptá-lo para uma pessoa específica. No presente, 'eu' + 'correr' = qual forma?",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"fácil\"?",
     tip: "Antônimos têm significado oposto. Qual das opções é o contrário de 'fácil' (que não exige muito esforço)?",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal da frase: \"Ela chegará amanhã.\"?",
     tip: "A palavra 'amanhã' indica que a ação ainda não aconteceu. Qual tempo verbal indica ações que acontecerão no futuro?",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome pessoal do caso reto deve substituir \"os meninos\" numa frase?",
     tip: "O pronome deve combinar em gênero (masculino/feminino) e número (singular/plural) com o substantivo que substitui. 'Os meninos' é masculino e plural.",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA?",
     tip: "Esta palavra tem o som 'j' no meio. Cuidado — algumas palavras usam 'j' e outras usam 'g' antes de 'e'. Qual é a ortografia correta?",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o SINÔNIMO de \"chateado\" (triste, irritado com algo)?",
     tip: "Sinônimos têm o mesmo significado ou muito parecido. Qual das opções expressa o mesmo estado emocional que 'chateado'?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal da frase: \"Nós brincávamos muito quando éramos pequenos.\"?",
     tip: "A frase descreve algo que era HABITUAL no passado — acontecia repetidamente. Qual tempo verbal indica ação passada habitual ou contínua?",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome pessoal do caso reto deve substituir \"eu e você\" numa frase?",
     tip: "Quando 'eu' (1ª pessoa) se junta com 'você/tu' (2ª pessoa), qual pronome do plural usamos? Pense: quem está incluído?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia um grande fogo fora de controle?",
     tip: "Esta palavra vem do latim 'incendium'. Atenção com a ortografia — há confusões entre 'en', 'in' e 'en' no início da palavra.",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"alto\"?",
     tip: "Antônimos têm significado oposto. 'Alto' pode se referir à altura física ou ao volume do som. Qual das opções é o contrário de 'alto' (em relação à estatura)?",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é a conjugação CORRETA do verbo \"falar\" no Pretérito Perfeito para \"ela\"?",
     tip: "O Pretérito Perfeito indica uma ação passada e completa. Para 'ela', qual é a terminação correta do verbo 'falar' nesse tempo?",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das palavras tem grafia CORRETA?",
     tip: "Atenção com o som inicial desta palavra — ela começa com 'me-' e tem um 'x' no meio. Qual é a ortografia correta?",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Pronomes",
     type: "multiple_choice",
     text: "Qual pronome pessoal substitui \"a minha professora\" na frase: \"Vi a minha professora ontem.\"?",
     tip: "O pronome substitui o substantivo (a professora) para evitar repetição. A professora é uma pessoa feminina singular — qual pronome usar?",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o SINÔNIMO de \"enorme\"?",
     tip: "Sinônimos têm significado igual ou muito parecido. Qual das opções pode substituir 'enorme' sem mudar o sentido da frase?",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual das frases usa o verbo no modo IMPERATIVO corretamente?",
     tip: "O modo Imperativo expressa ordem, pedido ou conselho. Ele é dirigido diretamente a alguém (você/tu). Qual das frases dá uma ordem?",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia o animal que late?",
     tip: "Esta palavra tem um som parecido com 'ch' no meio ('lh'). Cuidado com as variações ortográficas incorretas.",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"chegada\"?",
     tip: "Antônimos têm significado oposto. O que é o contrário de 'chegada' (o momento em que alguém chega a um lugar)?",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia o inseto que faz mel?",
     tip: "Esta palavra tem 'lh' no meio. Atenção com a ortografia — qual é a forma correta?",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o SINÔNIMO de \"terminar\"?",
     tip: "Sinônimos têm o mesmo significado ou muito parecido. Qual das opções pode substituir 'terminar'?",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é o tempo verbal da frase: \"Eu comerei uma maçã depois da aula.\"?",
     tip: "A expressão 'depois da aula' indica que a ação ainda não aconteceu. Qual tempo verbal indica ações futuras?",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das palavras tem grafia CORRETA com a letra 'g' antes de 'e'?",
     tip: "O som 'j' pode ser escrito com 'j' ou com 'g' antes de 'e' e 'i'. Qual das opções escreve corretamente essa palavra?",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"seco\"?",
     tip: "Antônimos têm significado oposto. 'Seco' descreve algo sem umidade. Qual das opções é o contrário?",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é a conjugação CORRETA do verbo \"ser\" no Presente do Indicativo para \"eles\"?",
     tip: "'Ser' é um verbo altamente irregular — suas conjugações mudam muito de uma pessoa para outra. Para 'eles', qual é a forma correta?",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras é SINÔNIMO de \"amigo\"?",
     tip: "Sinônimos têm significado igual ou muito parecido. Qual das opções tem sentido similar ao de 'amigo'?",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual é a grafia CORRETA da palavra que nomeia a flor que gira em direção ao sol?",
     tip: "Esta flor tem nome composto — é uma combinação de dois elementos com 'ss' no meio. Qual é a forma correta?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"pesado\"?",
     tip: "Antônimos têm significado oposto. 'Pesado' descreve algo com muito peso. Qual das opções é o contrário?",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é a conjugação CORRETA do verbo \"ter\" no Pretérito Imperfeito para \"eu\"?",
     tip: "O Pretérito Imperfeito indica ação contínua ou habitual no passado. Para 'eu', qual é a forma correta de 'ter' nesse tempo?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o SINÔNIMO de \"perigo\"?",
     tip: "Sinônimos têm significado igual ou muito parecido. Qual das opções pode substituir 'perigo'?",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das opções escreve CORRETAMENTE a palavra que significa \"treinar, praticar\"?",
     tip: "Esta palavra começa com 'ex-' e tem 'ci' no meio. Cuidado com as confusões entre 'x', 's' e 'c'.",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o ANTÔNIMO de \"verdadeiro\"?",
     tip: "Antônimos têm significado oposto. 'Verdadeiro' significa que algo é real e correto. Qual das opções é o contrário?",

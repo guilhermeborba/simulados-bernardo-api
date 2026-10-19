@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB4Av1 = [
   {
     id: 1,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual das frases usa o artigo DEFINIDO corretamente?",
     tip: "Artigos definidos ('o', 'a', 'os', 'as') indicam uma pessoa ou coisa específica, já conhecida. Artigos indefinidos ('um', 'uma', 'uns', 'umas') indicam algo inespecífico. Qual frase usa os artigos definidos corretamente?",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem CONCORDÂNCIA VERBAL correta?",
     tip: "O verbo deve concordar em número (singular/plural) e pessoa com o sujeito. Verifique o sujeito de cada frase e o verbo correspondente.",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Estrutura textual",
     type: "multiple_choice",
     text: "O que é um PARÁGRAFO em um texto?",
     tip: "Um parágrafo é uma unidade de organização do texto. Quando você começa uma ideia nova, abre um novo parágrafo com recuo na primeira linha.",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição indica LUGAR, completando: \"Ela mora _____ uma cidade pequena.\"?",
     tip: "Preposições são palavras que relacionam dois termos. Para indicar localização ('dentro de', 'no lugar de'), qual preposição usamos?",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem CONCORDÂNCIA NOMINAL correta?",
     tip: "Na concordância nominal, os adjetivos, artigos e pronomes devem concordar em gênero e número com o substantivo que acompanham.",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "O artigo INDEFINIDO indica:",
     tip: "Artigos indefinidos ('um', 'uma', 'uns', 'umas') têm uma função diferente dos artigos definidos ('o', 'a', 'os', 'as'). O que os artigos indefinidos expressam?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa corretamente: \"Eu penso _____ você todo dia.\"?",
     tip: "A preposição correta depende do verbo. 'Pensar' exige uma preposição específica para indicar em quem ou no quê se pensa.",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância VERBAL e NOMINAL correta?",
     tip: "Verifique dois aspectos: o verbo concorda com o sujeito? E os adjetivos concordam com os substantivos?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "O que é COESÃO em um texto?",
     tip: "Coesão está relacionada à 'cola' que mantém o texto unido. Pense em como as frases se conectam umas às outras dentro do texto.",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual artigo DEFINIDO é usado com substantivos FEMININOS PLURAIS?",
     tip: "Os artigos definidos variam em gênero (masculino/feminino) e número (singular/plural). Qual forma vai com 'flores', 'meninas', 'aulas'?",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa: \"Ele veio _____ bicicleta para a escola.\"?",
     tip: "Para indicar o meio de transporte usado, qual preposição usamos em português? Pense em 'vir de ônibus', 'vir de carro', 'vir de avião'...",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Coerência textual",
     type: "multiple_choice",
     text: "Qual das frases apresenta um texto COERENTE (com lógica e sentido)?",
     tip: "Coerência é a relação lógica entre as ideias de um texto. Uma frase coerente tem uma relação de causa e efeito, ou de explicação, que faz sentido.",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "O artigo INDEFINIDO em português é:",
     tip: "Há dois tipos de artigos em português. Os indefinidos indicam algo inespecífico. Quais são as quatro formas dos artigos indefinidos?",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases apresenta concordância VERBAL correta?",
     tip: "Quando o sujeito é 'nós', o verbo deve ser conjugado na primeira pessoa do plural. Qual das opções está correta?",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa: \"O livro é _____ João.\" (indica posse)?",
     tip: "Para indicar posse ou pertencimento ('o livro pertence a João'), qual preposição usamos em português?",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Estrutura textual",
     type: "multiple_choice",
     text: "Qual é a função principal de um PARÁGRAFO?",
     tip: "Um parágrafo é uma unidade de sentido dentro do texto. Qual é seu objetivo principal?",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual das frases usa corretamente a preposição \"para\" indicando DESTINO?",
     tip: "A preposição 'para' tem vários usos: indicar destino ('ir para'), finalidade ('feito para') ou destinatário ('presente para'). Qual frase usa 'para' indicando destino?",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das opções apresenta concordância NOMINAL correta?",
     tip: "Os adjetivos devem concordar com os substantivos em gênero (masculino/feminino) e número (singular/plural). Qual opção está completamente correta?",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "O que são ELEMENTOS DE COESÃO num texto?",
     tip: "Elementos de coesão são as 'pontes' entre as partes do texto. Eles evitam repetições desnecessárias e conectam as ideias de forma fluida.",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"O sol brilhava forte. As crianças brincavam no parque. Elas riam e corriam. O dia era perfeito.\"\n\nO pronome \"Elas\" na terceira frase se refere a:",
     tip: "Pronomes substituem substantivos para evitar repetição. O pronome 'Elas' (feminino plural) retoma qual elemento mencionado antes no texto?",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual das frases usa o artigo DEFINIDO corretamente com um nome de país?",
     tip: "Em português, alguns nomes de países usam artigo definido, outros não. 'O Brasil', 'a França', 'os Estados Unidos' usam artigo; 'Portugal', 'Cuba', 'Israel' geralmente não usam. Qual frase está correta?",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa: \"Ela saiu _____ guarda-chuva na chuva.\" (indica ausência)?",
     tip: "Há uma preposição em português que indica a falta ou ausência de algo — o contrário de 'com'. Qual é ela?",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Estrutura textual",
     type: "multiple_choice",
     text: "Qual das frases apresenta um texto BEM ESTRUTURADO (com introdução, desenvolvimento e desfecho)?",
     tip: "Um texto bem estruturado apresenta as personagens e a situação, desenvolve uma sequência de acontecimentos e termina com uma conclusão ou desfecho. Qual opção segue essa estrutura?",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Coerência textual",
     type: "multiple_choice",
     text: "O que é COERÊNCIA num texto?",
     tip: "Coerência é diferente de coesão! Coesão é a 'cola' formal (os conectivos). Coerência é a lógica das ideias — o sentido que elas fazem juntas.",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual das frases usa a preposição \"sobre\" corretamente?",
     tip: "A preposição 'sobre' pode indicar posição (em cima de) ou assunto (a respeito de). Qual das frases a usa adequadamente?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância verbal e nominal CORRETA?",
     tip: "Verifique duas coisas: o verbo concorda com o sujeito em número? E o adjetivo concorda com o substantivo em gênero e número?",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Estrutura textual",
     type: "multiple_choice",
     text: "Qual dos textos é um bom parágrafo de CONCLUSÃO para uma redação sobre \"A importância da leitura\"?",
     tip: "Um parágrafo de conclusão deve retomar a ideia principal e finalizar o texto de forma coerente — não apresentar informações novas. Qual opção cumpre esse papel?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"Pedro acordou cedo. Tomou café. Foi para a escola. Chegou pontualmente.\"\n\nO que tornaria este texto MAIS COESO?",
     tip: "O texto tem frases curtas e sem conectivos. O que poderíamos fazer para conectar melhor as ideias?",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual artigo INDEFINIDO é usado com substantivo FEMININO PLURAL?",
     tip: "Os artigos indefinidos têm quatro formas: um (masc. sing.), uma (fem. sing.), uns (masc. pl.), umas (fem. pl.). Qual vai com 'meninas', 'flores', 'ideias'?",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases apresenta concordância verbal E nominal completamente corretas?",
     tip: "Verifique se o verbo concorda com o sujeito e se os adjetivos concordam com os substantivos em gênero e número.",

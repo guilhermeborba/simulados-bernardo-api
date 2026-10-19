@@ -215,3 +215,44 @@ Questões que pedem reconhecer um encontro vocálico, consonantal ou um dígrafo
 **Flexão das palavras** reúne gênero, número e grau sem antecipar a forma correta. **Construção de frases** reúne ordem das palavras, participantes da ação e tipos de frase; **Pontuação** concentra o emprego dos sinais. **Coesão textual** cobre retomadas e repetições, sem usar como tema o pronome ou o recurso específico que pode ser a resposta. **Leitura e escrita** fica nas sínteses que articulam diferentes conteúdos e sua função na comunicação.
 
 Não se subdividem artificialmente os simulados concentrados: B2/AV2 geral tem um tema (sinônimos e antônimos), B3/AV2 geral tem um (ortografia), e B2/AV1 geral tem dois (verbos e tempos verbais). O B4/AV2 geral revisa onze temas. Todos os demais campos foram preservados exatamente. As alternativas duplicadas de B2/AV2 privado e os comandos incompletos de B1/AV2 privado foram registrados na [issue web #72](https://github.com/guilhermeborba/simulados-bernardo/issues/72), sem correção de conteúdo neste lote.
+
+### Português — 4º ano
+
+| Tema | Abrange |
+|---|---|
+| Adjetivos | Características, adjetivos pátrios ou gentílicos, adjetivos compostos e locuções adjetivas. |
+| Artigos | Reconhecimento e emprego de artigos definidos e indefinidos, conforme gênero e número dos substantivos. |
+| Coerência textual | Relações lógicas entre as ideias e construção de sentidos compatíveis no texto. |
+| Coesão textual | Retomadas por pronomes e expressões, conectivos e recursos que ligam as partes de um texto. |
+| Concordância | Relações de gênero e número entre nomes, artigos e adjetivos e concordância do verbo com o sujeito, incluindo questões que articulam ambas. |
+| Estrutura textual | Organização de parágrafos e encadeamento de introdução, desenvolvimento e conclusão ou desfecho. |
+| Fábulas | Características, interpretação de personagens, crítica e ensinamentos das fábulas. |
+| Flexão das palavras | Formas de singular e plural dos substantivos, incluindo terminações e formas invariáveis. |
+| Formação de palavras | Palavras primitivas e derivadas, prefixos, sufixos, composição e famílias de palavras. |
+| Gêneros e tipos textuais | Finalidades, características e reconhecimento de gêneros e tipos de texto, incluindo cartas, bilhetes, receitas, quadrinhos, anúncios e textos descritivos, informativos e dissertativos. |
+| Leitura e compreensão | Localização de informações, inferências, intenção do autor e identificação da ideia principal nos textos estudados. |
+| Leitura e escrita | Síntese sobre o papel da leitura e dos recursos da língua na comunicação e na compreensão do mundo. |
+| Narrativas | Personagens, enredo, tempo, espaço, narrador, sequência cronológica e introdução das histórias. |
+| Notícias | Função informativa, características e objetivos das notícias. |
+| Ortografia | Escolha da grafia correta das palavras e emprego das letras nos exemplos estudados. |
+| Poesia | Versos, rimas, escolhas de palavras e efeitos de sentido em poemas. |
+| Pontuação | Usos de ponto final, interrogação, exclamação, vírgula, dois-pontos, travessão e reticências. |
+| Preposições | Emprego de preposições e suas contrações com artigos em relações como lugar, destino, posse, material, companhia, assunto e causa. |
+| Pronomes | Reconhecimento e emprego de pronomes pessoais dos casos reto e oblíquo em frases. |
+| Sinônimos e antônimos | Reconhecimento de palavras com sentidos semelhantes ou opostos. |
+| Substantivos | Reconhecimento de substantivos próprios, comuns, concretos e abstratos. |
+| Substantivos coletivos | Palavras que nomeiam conjuntos de seres ou objetos. |
+| Tempos verbais | Reconhecimento e conjugação no presente, passado e futuro, incluindo pretéritos perfeito e imperfeito. |
+| Verbos | Identificação de verbos de ação e reconhecimento e emprego de modos verbais. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-portugues-4ano-b*-av*.ts`. Não há entradas privadas de Português do 4º ano registradas no seed. Todos compartilham este vocabulário de 24 temas, reaproveitando nomes do 3º ano quando representam o mesmo conteúdo.
+
+**Gêneros e tipos textuais** reúne finalidades e identificação de formas de texto, sem antecipar o gênero ou tipo que o aluno deve descobrir. Quando o gênero já é dado e a questão trabalha seus recursos específicos, usam-se **Notícias**, **Poesia** ou **Fábulas**. **Narrativas** reúne elementos e organização das histórias, incluindo narrador, enredo e ordem dos acontecimentos. **Leitura e compreensão** cobre informações, inferências e ideia principal; textos sobre hortas, receitas ou florestas não recebem temas de outras disciplinas.
+
+**Formação de palavras** reúne prefixos, sufixos, composição e famílias, sem indicar o prefixo, sufixo ou processo específico que pode ser a resposta. **Substantivos coletivos** fica nas palavras que nomeiam conjuntos; os outros tipos estudados ficam em **Substantivos**. **Flexão das palavras** cobre singular e plural. **Adjetivos** inclui locuções adjetivas, origem e adjetivos compostos.
+
+A escolha de formas que concordam usa **Concordância**, tanto nominal quanto verbal, incluindo as questões que articulam as duas. A identificação e o emprego de pronomes em frases usam **Pronomes**; a retomada de referentes entre frases e os conectivos usam **Coesão textual**. Reconhecimento de modos e verbos de ação usa **Verbos**; reconhecimento e conjugação de presente, passado e futuro usam **Tempos verbais**.
+
+**Estrutura textual** cobre parágrafos e a organização das partes do texto; **Coesão textual**, as ligações e retomadas; **Coerência textual**, as relações lógicas entre ideias. **Artigos**, **Preposições**, **Pontuação**, **Ortografia** e **Sinônimos e antônimos** mantêm os mesmos nomes nos diferentes simulados. A síntese sobre a função da leitura e da comunicação usa **Leitura e escrita**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV2 reúne nove temas em uma revisão que alterna leitura e formação de palavras; os demais têm de cinco a oito temas. Todos os campos anteriores foram preservados exatamente. A inconsistência preexistente de gabarito na questão 13 de B4/AV2 foi registrada na [issue web #74](https://github.com/guilhermeborba/simulados-bernardo/issues/74), sem correção do conteúdo neste lote.
