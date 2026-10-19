@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB3Av1 = [
   {
     id: 1,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Dividir significa:",
     tip: "Pensa em repartir balas igualmente entre amigos — isso é uma divisão!",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 8 balas e quer dividir igualmente entre 2 amigos. Quantas balas cada amigo receberá?",
     tip: "Pensa: 8 balas divididas por 2 amigos é o mesmo que calcular 8 ÷ 2.",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 10 ÷ 2?",
     tip: "Pensa: quantas vezes o número 2 cabe dentro do número 10? Ou use a tabuada: 2 x 5 = 10.",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 14 ÷ 2?",
     tip: "Pensa: qual número multiplicado por 2 dá 14? Lembra da tabuada do 2!",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 16 ÷ 2?",
     tip: "Pensa: qual número multiplicado por 2 dá 16? Lembra da tabuada do 2!",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Ana tem 18 figurinhas e quer dividir igualmente entre ela e sua irmã. Quantas figurinhas cada uma receberá?",
     tip: "Pensa: 18 figurinhas divididas por 2 pessoas é o mesmo que calcular 18 ÷ 2.",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Na divisão, o número que será repartido é chamado de:",
     tip: "Pensa: é o número \"de onde tudo começa\", o total que será repartido.",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Na divisão, o número de partes em que vamos dividir é chamado de:",
     tip: "Pensa: é o número que \"divide\" o total em grupos, como o número de amigos que vão receber as balas.",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Na divisão, o resultado final é chamado de:",
     tip: "Pensa: é a resposta da divisão, o que cada parte recebeu no final.",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Por que é importante saber dividir?",
     tip: "Pensa em situações do dia a dia, como repartir pizza entre amigos — a divisão ajuda a fazer isso de forma justa!",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 12 ÷ 3?",
     tip: "Pensa: qual número multiplicado por 3 dá 12? Lembra da tabuada do 3!",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 15 ÷ 3?",
     tip: "Pensa: qual número multiplicado por 3 dá 15? Lembra da tabuada do 3!",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 21 ÷ 3?",
     tip: "Pensa: qual número multiplicado por 3 dá 21? Lembra da tabuada do 3!",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 24 lápis e quer dividir igualmente em 3 estojos. Quantos lápis vão em cada estojo?",
     tip: "Pensa: 24 lápis divididos em 3 estojos é o mesmo que calcular 24 ÷ 3.",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 16 ÷ 4?",
     tip: "Pensa: qual número multiplicado por 4 dá 16? Lembra da tabuada do 4!",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 20 ÷ 4?",
     tip: "Pensa: qual número multiplicado por 4 dá 20? Lembra da tabuada do 4!",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 28 ÷ 4?",
     tip: "Pensa: qual número multiplicado por 4 dá 28? Lembra da tabuada do 4!",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma professora tem 32 balas e quer dividir igualmente entre 4 grupos de alunos. Quantas balas cada grupo receberá?",
     tip: "Pensa: 32 balas divididas em 4 grupos é o mesmo que calcular 32 ÷ 4.",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 25 ÷ 5?",
     tip: "Pensa: qual número multiplicado por 5 dá 25? Lembra da tabuada do 5!",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quanto é 40 ÷ 5?",
     tip: "Pensa: qual número multiplicado por 5 dá 40? Lembra da tabuada do 5!",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Ana tem 35 figurinhas e quer dividir igualmente em 5 álbuns. Quantas figurinhas vão em cada álbum?",
     tip: "Pensa: 35 figurinhas divididas em 5 álbuns é o mesmo que calcular 35 ÷ 5.",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma turma de 24 alunos será dividida em grupos de 4 alunos para um trabalho. Quantos grupos serão formados?",
     tip: "Pensa: 24 alunos divididos em grupos de 4 é o mesmo que calcular 24 ÷ 4.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 21 carrinhos de brinquedo e quer guardá-los igualmente em 3 caixas. Quantos carrinhos vão em cada caixa?",
     tip: "Pensa: 21 carrinhos divididos em 3 caixas é o mesmo que calcular 21 ÷ 3.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma padaria fez 30 pães e quer colocá-los em sacolas com 5 pães cada. Quantas sacolas serão necessárias?",
     tip: "Pensa: 30 pães divididos em sacolas de 5 é o mesmo que calcular 30 ÷ 5.",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma horta tem 28 mudas de plantas para serem distribuídas igualmente em 4 canteiros. Quantas mudas irão em cada canteiro?",
     tip: "Pensa: 28 mudas divididas em 4 canteiros é o mesmo que calcular 28 ÷ 4.",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo e mais 2 amigos (totalizando 3 pessoas) ganharam 18 balões para uma festa e querem dividir igualmente. Quantos balões cada um vai receber?",
     tip: "Pensa: 18 balões divididos entre 3 pessoas é o mesmo que calcular 18 ÷ 3.",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é a relação entre a divisão e a multiplicação?",
     tip: "Pensa: se 4 x 5 = 20, então 20 ÷ 5 = 4 e 20 ÷ 4 = 5 — elas estão sempre ligadas!",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Se 6 x 7 = 42, quanto é 42 ÷ 7?",
     tip: "Lembra que a divisão desfaz a multiplicação — se 6 x 7 = 42, então 42 ÷ 7 volta para o 6!",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma escola tem 36 alunos que serão organizados em fileiras com 9 alunos cada, para uma foto. Quantas fileiras serão formadas?",
     tip: "Pensa: 36 alunos divididos em fileiras de 9 é o mesmo que calcular 36 ÷ 9.",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre divisão, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: dividir é repartir igualmente, e a tabuada de multiplicação nos ajuda muito a calcular divisões.",

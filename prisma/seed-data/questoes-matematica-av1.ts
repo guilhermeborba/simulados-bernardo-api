@@ -1,6 +1,7 @@
 export const questoesMatematicaAv1 = [
   {
     id: 1,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual figura geométrica espacial é redonda e rola facilmente?",
     tip: "Esferas são redondas em todas as direções e rolam fácil.",
@@ -27,6 +28,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 2,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Um dado comum lembra qual figura?",
     tip: "Um dado tem 6 faces quadradas, por isso seu formato é de cubo.",
@@ -53,6 +55,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 3,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Uma caixa de sapato lembra:",
     tip: "Caixas de sapato têm faces planas e ângulos retos, muito parecidas com blocos retangulares.",
@@ -79,6 +82,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 4,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Um chapéu de festa lembra:",
     tip: "Chapéus de festa têm base circular e uma ponta, igual ao formato de um cone.",
@@ -105,6 +109,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 5,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Uma lata de refrigerante lembra:",
     tip: "Latas têm duas bases circulares e uma superfície lateral curva: é um cilindro.",
@@ -131,6 +136,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 6,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Uma bola de futebol lembra:",
     tip: "Bolas têm superfície curva por todo lado, por isso são esferas.",
@@ -157,6 +163,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 7,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual figura é um corpo redondo?",
     tip: "Corpos redondos têm superfícies curvas, como o cilindro.",
@@ -183,6 +190,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 8,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual figura possui apenas superfícies planas?",
     tip: "O cubo é um poliedro e só tem faces planas.",
@@ -209,6 +217,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 9,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Os poliedros possuem:",
     tip: "Poliedros são sólidos formados por faces planas.",
@@ -235,6 +244,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 10,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual grupo rola com mais facilidade?",
     tip: "Corpos redondos rolam melhor porque têm superfícies curvas.",
@@ -261,6 +271,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 11,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "As superfícies planas de um sólido são chamadas de:",
     tip: "Faces são as superfícies planas que formam um sólido.",
@@ -287,6 +298,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 12,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "O encontro entre duas faces forma:",
     tip: "Aresta é a linha formada pelo encontro de duas faces.",
@@ -313,6 +325,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 13,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "O encontro de três ou mais arestas forma:",
     tip: "Vértice é o ponto onde três ou mais arestas se encontram.",
@@ -339,6 +352,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 14,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "O cubo possui:",
     tip: "O cubo tem 6 faces quadradas de mesmo tamanho.",
@@ -365,6 +379,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 15,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "A pirâmide possui:",
     tip: "Pirâmides têm faces planas e pontos chamados vértices.",
@@ -391,6 +406,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 16,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "As figuras planas são desenhadas em:",
     tip: "Figuras planas têm apenas altura e largura, por isso são 2D.",
@@ -417,6 +433,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 17,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura tem 4 lados iguais?",
     tip: "Quadrado tem quatro lados iguais e quatro ângulos retos.",
@@ -443,6 +460,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 18,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura tem 3 lados?",
     tip: "Triângulos são figuras com exatamente três lados.",
@@ -469,6 +487,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 19,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "O retângulo possui:",
     tip: "Retângulo é um quadrilátero com quatro lados e quatro ângulos retos.",
@@ -495,6 +514,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 20,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "O trapézio é um:",
     tip: "Trapézio é um quadrilátero, pois tem quatro lados.",
@@ -521,6 +541,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 21,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Polígonos são figuras formadas por:",
     tip: "Polígonos são formados por segmentos retos que se conectam e fecham o desenho.",
@@ -547,6 +568,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 22,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "O círculo é:",
     tip: "Círculo tem linha curva, por isso não é polígono.",
@@ -573,6 +595,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 23,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Todo quadrado é:",
     tip: "Quadrado é um polígono com quatro lados retos.",
@@ -599,6 +622,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 24,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Quadriláteros possuem:",
     tip: "Quadriláteros têm quatro lados.",
@@ -625,6 +649,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 25,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual é um quadrilátero?",
     tip: "Quadrado é uma figura plana com quatro lados, logo é um quadrilátero.",
@@ -651,6 +676,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 26,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "O paralelogramo possui:",
     tip: "Paralelogramo tem lados opostos paralelos e iguais.",
@@ -677,6 +703,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 27,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura tem lados opostos iguais?",
     tip: "Retângulos têm lados opostos de mesmo tamanho.",
@@ -703,6 +730,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 28,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual figura possui pelo menos uma superfície arredondada?",
     tip: "Cone tem uma superfície curva que vai da base até a ponta.",
@@ -729,6 +757,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 29,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual figura possui todas as faces quadradas?",
     tip: "Cubo tem seis faces quadradas iguais.",
@@ -755,6 +784,7 @@ export const questoesMatematicaAv1 = [
   },
   {
     id: 30,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual figura pode ter base triangular?",
     tip: "Pirâmides podem ter base triangular, quadrada ou outros polígonos.",

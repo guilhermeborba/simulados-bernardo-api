@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB4Av1 = [
   {
     id: 1,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Qual instrumento usamos para medir o comprimento de um objeto?",
     tip: "Pensa no objeto usado para medir quanto uma mesa ou um lápis mede de comprimento.",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Qual é a unidade de medida mais usada para medir o comprimento de objetos pequenos, como um lápis?",
     tip: "Pensa: para objetos pequenos, usamos uma unidade menor de comprimento — não faria sentido medir um lápis em quilômetros!",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Qual é a unidade de medida mais usada para medir distâncias grandes, como entre duas cidades?",
     tip: "Pensa: para distâncias bem grandes, como entre cidades, usamos uma unidade bem maior de comprimento.",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Um metro tem quantos centímetros?",
     tip: "Pensa na régua de 1 metro que você já viu — quantos \"risquinhos\" de centímetro cabem nela?",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Qual instrumento usamos para medir a massa (o \"peso\") de um objeto?",
     tip: "Pensa no instrumento usado para saber quantos quilos uma pessoa ou um alimento tem.",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Qual é a unidade de medida mais usada para medir a massa de objetos grandes ou pessoas?",
     tip: "Pensa na unidade que aparece quando você se pesa em uma balança — geralmente falamos \"tantos quilos\".",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Um quilograma tem quantos gramas?",
     tip: "Pensa: assim como o quilômetro tem 1000 metros, o quilograma também segue essa mesma lógica com o grama.",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Bernardo comprou 2 quilogramas de arroz. Quantos gramas isso representa?",
     tip: "Pensa: se 1 quilograma tem 1000 gramas, quanto teriam 2 quilogramas?",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Qual objeto provavelmente é medido em metros, e não em centímetros ou quilômetros?",
     tip: "Pensa em qual desses objetos não é nem muito pequeno (centímetro) nem muito grande (quilômetro) — o metro é ideal para espaços de tamanho médio.",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Grandezas e medidas",
     type: "multiple_choice",
     text: "Por que é importante saber medir comprimento e massa corretamente?",
     tip: "Pensa em quantas vezes usamos medidas no dia a dia, como ao cozinhar uma receita ou ao construir algo.",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Qual instrumento usamos para medir a capacidade de líquidos, como a água?",
     tip: "Pensa no objeto usado na cozinha para saber quantos mililitros ou litros de líquido cabem em um recipiente.",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Qual é a unidade de medida mais usada para medir a capacidade de líquidos?",
     tip: "Pensa na unidade que aparece nas embalagens de suco ou refrigerante, como \"1 litro\" ou \"2 litros\".",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Um litro tem quantos mililitros?",
     tip: "Pensa: assim como o quilograma tem 1000 gramas, o litro também segue essa mesma lógica com o mililitro.",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Bernardo bebeu 500 mililitros de suco. Isso representa quantos litros?",
     tip: "Pensa: se 1 litro tem 1000 mililitros, 500 mililitros é a metade disso.",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Qual das unidades abaixo é usada para medir o tempo?",
     tip: "Pensa na unidade que aparece no relógio, mostrando quanto tempo passou.",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Uma hora tem quantos minutos?",
     tip: "Pensa no relógio: quantos \"risquinhos\" de minuto o ponteiro grande percorre para completar uma volta inteira?",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Um dia tem quantas horas?",
     tip: "Pensa em contar desde a meia-noite até a meia-noite do dia seguinte — quantas horas se passam?",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Uma semana tem quantos dias?",
     tip: "Pensa nos dias da semana: domingo, segunda, terça, quarta, quinta, sexta e sábado — quantos são ao todo?",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Bernardo tem aula das 8h às 12h. Quantas horas de aula ele tem nesse período?",
     tip: "Pensa em contar de 8 até 12: 8h, 9h, 10h, 11h, 12h — quantas horas se passam nesse intervalo?",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Um mês tem, em média, quantas semanas?",
     tip: "Pensa: se um mês tem cerca de 30 dias, e uma semana tem 7 dias, quantas semanas cabem aproximadamente em um mês?",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Qual é a moeda oficial usada no Brasil?",
     tip: "Pensa no nome do dinheiro que usamos aqui no Brasil para fazer compras.",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Um real tem quantos centavos?",
     tip: "Pensa: assim como o metro tem 100 centímetros, o real também tem 100 partes menores, os centavos.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tem 2 moedas de 1 real e 3 moedas de 50 centavos. Quanto dinheiro ele tem ao todo?",
     tip: "Pensa: 2 moedas de 1 real dão R$ 2,00. Depois some as 3 moedas de 50 centavos, que juntas dão R$ 1,50.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Ana comprou um brinquedo de R$ 15,00 e pagou com uma nota de R$ 20,00. Quanto de troco ela deve receber?",
     tip: "Pensa: quanto falta para completar de R$ 15,00 até R$ 20,00? Você pode calcular como uma subtração: 20 - 15.",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo quer comprar um lápis de R$ 2,00 e uma borracha de R$ 1,50. Quanto ele vai gastar no total?",
     tip: "Pensa em somar o preço do lápis com o preço da borracha: 2,00 + 1,50.",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo quer comprar uma bola de R$ 25,00, mas só tem R$ 18,00. Quanto ainda falta para ele conseguir comprar a bola?",
     tip: "Pensa: quanto falta para completar de R$ 18,00 até R$ 25,00? Calcule 25 - 18.",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Uma corrida de rua vai começar às 8h e vai durar 2 horas. A que horas ela vai terminar?",
     tip: "Pensa em somar as horas: se começa às 8h e dura 2 horas, calcule 8 + 2.",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Um pacote de biscoitos pesa 250 gramas. Se Bernardo comprar 4 pacotes iguais, quantos gramas ele vai levar ao todo?",
     tip: "Pensa: 4 pacotes de 250 gramas cada é o mesmo que calcular 4 x 250.",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Uma jarra tem capacidade para 2 litros de suco. Se Bernardo já colocou 1500 mililitros, quantos mililitros ainda cabem na jarra?",
     tip: "Pensa: 2 litros equivalem a 2000 mililitros. Quanto falta para completar de 1500 até 2000?",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Grandezas e medidas",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre medidas neste bimestre, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: comprimento, massa, capacidade, tempo e dinheiro — cada um com suas próprias unidades, usadas para organizar e entender melhor o mundo.",
