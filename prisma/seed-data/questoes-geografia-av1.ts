@@ -1,6 +1,7 @@
 export const questoesGeografiaAv1 = [
   {
     id: 1,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "A agricultura é:",
     tip: "Agricultura é o cultivo de plantas para alimentação e outros produtos.",
@@ -27,6 +28,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 2,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Onde a agricultura é realizada?",
     tip: "Agricultura acontece no campo, onde há terras para plantar.",
@@ -53,6 +55,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 3,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "O que pode ser cultivado na agricultura?",
     tip: "Agricultura cultiva plantas e alimentos vegetais.",
@@ -79,6 +82,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 4,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Qual destas máquinas ajuda no trabalho agrícola?",
     tip: "A colheitadeira é usada para colher grandes plantações.",
@@ -105,6 +109,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 5,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "A primeira etapa da produção agrícola é:",
     tip: "Antes de plantar, o solo deve ser preparado.",
@@ -131,6 +136,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 6,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Depois do preparo do solo vem:",
     tip: "A sequência começa com preparo e segue para o plantio.",
@@ -157,6 +163,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 7,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "A água é importante porque:",
     tip: "Plantas precisam de água para crescer.",
@@ -183,6 +190,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 8,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Quando os alimentos estão prontos, acontece:",
     tip: "Colheita é o momento de colher os alimentos prontos.",
@@ -209,6 +217,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 9,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Qual sequência está correta?",
     tip: "A ordem correta é preparar, plantar, cuidar, regar e colher.",
@@ -235,6 +244,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 10,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "A agricultura familiar acontece geralmente:",
     tip: "Agricultura familiar é feita em pequenas propriedades rurais.",
@@ -261,6 +271,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 11,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Na agricultura familiar, normalmente trabalham:",
     tip: "A família costuma ser a principal força de trabalho na agricultura familiar.",
@@ -287,6 +298,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 12,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Na agricultura familiar é comum:",
     tip: "Agricultura familiar costuma plantar muitos produtos diferentes no mesmo lugar.",
@@ -313,6 +325,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 13,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Policultura significa:",
     tip: "Na policultura há vários cultivos juntos.",
@@ -339,6 +352,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 14,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "A agricultura comercial acontece geralmente:",
     tip: "Agricultura comercial costuma usar grandes áreas e produzir em grande escala.",
@@ -365,6 +379,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 15,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Na agricultura comercial é comum:",
     tip: "A agricultura comercial geralmente planta um só tipo de cultura em grande quantidade.",
@@ -391,6 +406,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 16,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Monocultura significa:",
     tip: "Monocultura é quando se planta só um tipo de alimento.",
@@ -417,6 +433,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 17,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Na agricultura comercial é comum o uso de:",
     tip: "Agricultura comercial usa máquinas e tecnologia para produzir mais.",
@@ -443,6 +460,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 18,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Quem pode trabalhar na agricultura?",
     tip: "Muitas pessoas e comunidades participam do trabalho agrícola.",
@@ -469,6 +487,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 19,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Nas grandes propriedades rurais, muitas pessoas trabalham:",
     tip: "Grandes propriedades contratam trabalhadores para o cultivo e a colheita.",
@@ -495,6 +514,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 20,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Comunidades indígenas, quilombolas e ribeirinhas:",
     tip: "Essas comunidades têm tradições agrícolas próprias.",
@@ -521,6 +541,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 21,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "Pecuária é:",
     tip: "Pecuária é cuidar de animais para obter carne, leite ou lã.",
@@ -547,6 +568,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 22,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "Na pecuária extensiva, os animais:",
     tip: "Pecuária extensiva usa grandes áreas abertas para os animais pastarem.",
@@ -573,6 +595,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 23,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "Na pecuária intensiva, os animais:",
     tip: "Pecuária intensiva mantém animais em espaços menores e controlados.",
@@ -599,6 +622,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 24,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "Na pecuária intensiva, é comum usar:",
     tip: "A pecuária intensiva usa máquinas e tecnologia para cuidar dos animais.",
@@ -625,6 +649,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 25,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A criação de abelhas chama-se:",
     tip: "Apicultura é cuidar de abelhas e produzir mel.",
@@ -651,6 +676,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 26,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A criação de peixes chama-se:",
     tip: "Piscicultura é a criação de peixes em tanques ou viveiros.",
@@ -677,6 +703,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 27,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A criação de porcos é um exemplo de:",
     tip: "Porcos são criados na pecuária.",
@@ -703,6 +730,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 28,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A criação de ovelhas é um exemplo de:",
     tip: "Ovelhas são animais criados na pecuária.",
@@ -729,6 +757,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 29,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Uma plantação grande com colheitadeiras e máquinas representa:",
     tip: "Agricultura comercial usa máquinas e grande escala.",
@@ -755,6 +784,7 @@ export const questoesGeografiaAv1 = [
   },
   {
     id: 30,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Uma pequena propriedade onde a família planta vários produtos representa:",
     tip: "Agricultura familiar costuma ser em pequena escala e com vários produtos.",

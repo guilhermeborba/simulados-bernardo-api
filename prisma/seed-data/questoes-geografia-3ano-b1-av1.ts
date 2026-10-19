@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB1Av1 = [
   {
     id: 1,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que é um ponto de referência?",
     tip: "Pense em como você explica para alguém como chegar até sua casa, usando algo conhecido como referência, como uma praça ou um mercado!",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual desses poderia ser um bom ponto de referência para explicar como chegar à sua escola?",
     tip: "Pense em algo fixo e conhecido, que sempre está no mesmo lugar, para servir de referência!",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que usamos pontos de referência para nos localizar?",
     tip: "Pense em como seria difícil explicar onde fica sua casa sem mencionar nenhum lugar conhecido por perto!",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se alguém te pergunta como chegar à padaria e você responde \"é ao lado do banco\", o banco está funcionando como:",
     tip: "Pense em como o banco, sendo um lugar conhecido, ajuda a pessoa a entender onde fica a padaria!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que é um trajeto?",
     tip: "Pense no caminho que você faz de casa até a escola todos os dias!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual desses instrumentos ajuda as pessoas a se orientarem e encontrar caminhos, principalmente nos dias de hoje?",
     tip: "Pense no aparelho ou aplicativo de celular usado para encontrar o caminho até um endereço!",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Antes da invenção do GPS, como as pessoas costumavam encontrar seu caminho em viagens?",
     tip: "Pense em como os exploradores antigos conseguiam se localizar sem nenhuma tecnologia moderna!",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que significa dizer que um lugar fica \"à direita\" de outro?",
     tip: "Pense em levantar sua mão direita — o lado que ela está indicando é a direita!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que significa dizer que um lugar fica \"atrás\" de outro?",
     tip: "Pense em como fica a parede que você não vê quando está de frente para outra parede!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Complete: os pontos de referência e o conhecimento de trajetos nos ajudam a...",
     tip: "Pense em tudo que aprendemos hoje sobre referências e trajetos — para que eles servem no nosso dia a dia?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que é lateralidade?",
     tip: "Pense em como você sabe diferenciar sua mão direita da esquerda!",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se você está de frente para uma pessoa, o lado direito dela corresponde a qual lado seu?",
     tip: "Pense em ficar de frente para um espelho — o lado direito da imagem parece estar onde, em relação a você?",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo está caminhando e vê uma praça à sua frente. Se ele virar totalmente para trás, o que estava na frente dele agora fica:",
     tip: "Pense em como, ao virar completamente de costas, tudo que estava na frente passa a ficar do lado oposto!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que significa seguir um trajeto \"em linha reta\"?",
     tip: "Pense no caminho mais direto possível entre dois pontos, sem curvas ou desvios!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual é a importância de saber dar boas instruções de como chegar a um lugar (usando referências e lateralidade)?",
     tip: "Pense em como seria complicado se alguém te desse informações confusas de como chegar a um lugar!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo mora numa casa que fica entre a padaria e a farmácia. Isso significa que:",
     tip: "Pense em como usar dois lugares conhecidos ajuda a explicar exatamente onde fica a casa de Bernardo!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que significa \"estar perto\" de um lugar, em termos de localização?",
     tip: "Pense em como sua casa pode estar \"perto\" da escola, ou seja, a uma distância pequena!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que significa \"estar longe\" de um lugar?",
     tip: "Pense em uma viagem para uma cidade que fica muito distante da sua!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo precisa ir da sala de aula até o banheiro da escola. O caminho que ele percorre é chamado de:",
     tip: "Pense no nome que damos ao caminho percorrido de um lugar até outro!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Complete: entender lateralidade (direita, esquerda, frente, atrás) e distâncias (perto, longe) nos ajuda a...",
     tip: "Pense em tudo que aprendemos hoje: direita, esquerda, perto, longe... para que servem essas noções no dia a dia?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "Qual é a diferença entre olhar um objeto de cima (visão vertical) e olhar de lado (visão lateral)?",
     tip: "Pense em olhar uma caixa de cima (você vê um quadrado ou retângulo) e depois de lado (você vê a altura dela)!",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "Um mapa é geralmente desenhado usando qual tipo de visão?",
     tip: "Pense em como um mapa mostra ruas e casas como se estivéssemos olhando do céu, de cima para baixo!",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "Se você olhar sua escola de um avião (visão de cima), o que você conseguiria ver?",
     tip: "Pense em como um telhado parece de cima, bem diferente de como vemos a fachada da escola andando na rua!",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O que é uma maquete?",
     tip: "Pense em uma versão pequenininha de uma cidade ou de uma casa, feita para representar como ela realmente é!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Por que construir uma maquete da sala de aula pode ajudar a entender melhor sobre mapas?",
     tip: "Pense em como olhar uma maquete de cima é parecido com olhar um mapa da sala!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O que é uma planta simples de uma casa ou de uma sala?",
     tip: "Pense em um desenho que mostra onde ficam a porta, as janelas e os móveis de um cômodo, visto de cima!",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Bernardo desenhou sua sala de aula vista de cima, mostrando onde ficam as mesas e a lousa. Ele fez o que é chamado de:",
     tip: "Pense em como esse desenho, feito de cima, ajuda a mostrar a organização da sala de aula!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é a vantagem de usar mapas e plantas para representar um lugar?",
     tip: "Pense em como é mais fácil planejar uma viagem olhando um mapa do que sem nenhuma representação visual!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo usou um aplicativo de celular para descobrir o caminho mais rápido até a casa de um amigo. Esse aplicativo utiliza qual tecnologia de orientação?",
     tip: "Pense na tecnologia que ajuda os aplicativos modernos a calcular caminhos e distâncias!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Complete: aprender sobre pontos de referência, lateralidade e representações como mapas e plantas nos ajuda a...",
     tip: "Pense em tudo que aprendemos hoje: referências, trajetos, visão de cima, mapas... para que serve todo esse conhecimento?",
