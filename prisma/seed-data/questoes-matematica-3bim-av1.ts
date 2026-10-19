@@ -1,6 +1,7 @@
 export const questoesMatematica3BimAv1 = [
   {
     id: 1,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Dizemos que existe uma igualdade quando:",
     tip: "💡 Dica: Pense em uma balança perfeitamente equilibrada. 🌟 Curiosidade: O sinal = é chamado de sinal de igual e indica que os dois lados têm o mesmo valor.",
@@ -15,6 +16,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 2,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual sinal usamos para representar uma igualdade?",
     tip: "💡 Dica: É o sinal usado em contas como 5 + 5 ___ 10. 🌟 Curiosidade: O sinal de igual possui duas linhas paralelas do mesmo tamanho, reforçando a ideia de igualdade.",
@@ -29,6 +31,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 3,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual adição tem o mesmo resultado de 4 + 6?",
     tip: "💡 Dica: Primeiro descubra quanto é 4 + 6 e procure outra adição com o mesmo resultado. 🌟 Curiosidade: Podemos formar um mesmo número usando diferentes parcelas.",
@@ -43,6 +46,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 4,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual igualdade está correta?",
     tip: "💡 Dica: Calcule os dois lados do sinal de igual. 🌟 Curiosidade: Em uma igualdade, as parcelas podem ser diferentes, mas os resultados precisam ser iguais.",
@@ -57,6 +61,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 5,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "A adição 40 + 30 tem o mesmo resultado de:",
     tip: "💡 Dica: 40 + 30 forma uma dezena exata. Descubra qual alternativa também chega a esse número. 🌟 Curiosidade: Trabalhar primeiro com dezenas completas pode facilitar muito o cálculo mental.",
@@ -71,6 +76,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 6,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual adição tem o mesmo resultado de 37 + 43?",
     tip: "💡 Dica: Some as dezenas e depois as unidades: 37 + 43. 🌟 Curiosidade: 37 + 43 forma uma dezena completa porque 7 + 3 = 10.",
@@ -85,6 +91,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 7,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual subtração tem o mesmo resultado de 70 − 30?",
     tip: "💡 Dica: Primeiro calcule 70 − 30. 🌟 Curiosidade: Assim como nas adições, diferentes subtrações também podem chegar ao mesmo resultado.",
@@ -99,6 +106,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 8,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual subtração apresenta o mesmo resultado de 95 − 45?",
     tip: "💡 Dica: Descubra quanto sobra ao retirar 45 de 95. 🌟 Curiosidade: Adicionar a mesma quantidade aos dois números de uma subtração mantém a diferença entre eles.",
@@ -113,6 +121,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 9,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Complete corretamente: 75 − 40 = _____",
     tip: "💡 Dica: 75 − 40 = 35. Agora procure outra conta que também resulte em 35. 🌟 Curiosidade: Comparar resultados é uma maneira de verificar se duas operações formam uma igualdade.",
@@ -127,6 +136,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 10,
+    theme: "Igualdades",
     type: "multiple_choice",
     text: "Qual das igualdades abaixo é verdadeira?",
     tip: "💡 Dica: Calcule separadamente o lado esquerdo e o lado direito. 🌟 Curiosidade: Uma igualdade pode ter uma adição de um lado e uma subtração do outro.",
@@ -141,6 +151,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 11,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "A capacidade indica:",
     tip: "💡 Dica: Pense em garrafas, copos, caixas de leite e baldes. 🌟 Curiosidade: Capacidade é uma grandeza, pois é algo que podemos medir.",
@@ -155,6 +166,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 12,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Quais são unidades padronizadas utilizadas para medir capacidade?",
     tip: "💡 Dica: São representadas pelas abreviações L e mL. 🌟 Curiosidade: O litro é usado em muitos produtos que encontramos no mercado, como leite, água e sucos.",
@@ -169,6 +181,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 13,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Quantos mililitros correspondem a 1 litro?",
     tip: "💡 Dica: No material, uma garrafa de 1 L foi preenchida com dez copos de 100 mL. 🌟 Curiosidade: 1 L = 1.000 mL é uma equivalência muito importante para resolver problemas de capacidade.",
@@ -183,6 +196,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 14,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Uma garrafa comporta 1 L. Quantos copos de 100 mL são necessários para enchê-la completamente?",
     tip: "💡 Dica: Você precisa chegar a 1.000 mL. 🌟 Curiosidade: Dez grupos de 100 formam 1.000: 10 × 100 = 1.000.",
@@ -197,6 +211,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 15,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Observe as capacidades: suco de laranja: 200 mL; iogurte: 170 mL; suco de uva: 2 L; leite: 1 L. Qual embalagem possui mais de 1 L?",
     tip: "💡 Dica: 2 L é maior que 1 L. 🌟 Curiosidade: Uma embalagem de 2 L comporta o mesmo que 2.000 mL.",
@@ -211,6 +226,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 16,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Quais embalagens têm capacidade menor que 250 mL?",
     tip: "💡 Dica: Compare 200 e 170 com 250. 🌟 Curiosidade: Recipientes pequenos costumam ter sua capacidade indicada em mililitros.",
@@ -225,6 +241,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 17,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Qual unidade é mais adequada para indicar a capacidade de uma colher?",
     tip: "💡 Dica: Uma colher comporta uma quantidade bem pequena de líquido. 🌟 Curiosidade: Em receitas, colheres e xícaras também podem funcionar como medidas de capacidade não padronizadas.",
@@ -239,6 +256,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 18,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Qual unidade seria mais adequada para indicar a capacidade de um balde grande?",
     tip: "💡 Dica: O balde comporta uma quantidade relativamente grande de líquido. 🌟 Curiosidade: Para recipientes maiores, normalmente é mais prático usar litros em vez de milhares de mililitros.",
@@ -253,6 +271,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 19,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Uma receita pede 1 xícara e meia de leite. Sabendo que cada xícara tem 120 mL, quantos mililitros serão necessários?",
     tip: "💡 Dica: Uma xícara vale 120 mL e meia xícara vale a metade de 120 mL. 🌟 Curiosidade: A metade de 120 é 60. Portanto, uma xícara e meia corresponde a 120 + 60.",
@@ -267,6 +286,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 20,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Um frasco possui 150 mL de xarope. Uma criança toma 10 mL por dia. Depois de 5 dias, quanto ainda resta no frasco?",
     tip: "💡 Dica: Descubra primeiro quanto foi usado em 5 dias: 5 × 10. 🌟 Curiosidade: Problemas de capacidade podem envolver mais de uma operação: primeiro multiplicamos e depois subtraímos.",
@@ -281,6 +301,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 21,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Quantos meses há em 1 ano?",
     tip: "💡 Dica: Comece em janeiro e conte até dezembro. 🌟 Curiosidade: Os 12 meses podem ser agrupados em bimestres, trimestres e semestres.",
@@ -295,6 +316,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 22,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Agosto ocupa qual posição entre os meses do ano?",
     tip: "💡 Dica: Conte: janeiro é o primeiro, fevereiro é o segundo... 🌟 Curiosidade: Agosto é o oitavo mês do ano e possui 31 dias.",
@@ -309,6 +331,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 23,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Um bimestre corresponde a:",
     tip: "💡 Dica: O prefixo bi- costuma indicar dois. 🌟 Curiosidade: Como o ano possui 12 meses, existem 6 bimestres em um ano.",
@@ -323,6 +346,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 24,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Um trimestre corresponde a:",
     tip: "💡 Dica: Pense no significado de \"tri\". 🌟 Curiosidade: Um ano possui 4 trimestres, pois 4 × 3 = 12 meses.",
@@ -337,6 +361,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 25,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Um semestre corresponde a:",
     tip: "💡 Dica: Um semestre representa metade de um ano. 🌟 Curiosidade: Um ano é formado por 2 semestres.",
@@ -351,6 +376,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 26,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Qual afirmação está correta?",
     tip: "💡 Dica: Divida os 12 meses do ano em grupos de 2. 🌟 Curiosidade: O mesmo ano pode ser dividido de diferentes maneiras: 6 bimestres, 4 trimestres ou 2 semestres.",
@@ -365,6 +391,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 27,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "A festa de Artur começará às 16 horas. O bolo será entregue meia hora antes. A que horas o bolo chegará?",
     tip: "💡 Dica: Meia hora corresponde a 30 minutos. Volte 30 minutos a partir das 16h. 🌟 Curiosidade: Uma hora possui 60 minutos; por isso, meia hora possui 30 minutos.",
@@ -379,6 +406,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 28,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Artur e Helena querem medir com precisão quanto tempo levam para completar uma corrida. Qual instrumento é o mais adequado?",
     tip: "💡 Dica: Esse instrumento é muito usado em corridas e competições esportivas. 🌟 Curiosidade: O cronômetro é usado para medir a duração de uma atividade.",
@@ -393,6 +421,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 29,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Qual instrumento antigo utiliza a posição do Sol e a sombra para indicar as horas?",
     tip: "💡 Dica: O próprio nome do instrumento dá uma pista importante. 🌟 Curiosidade: No relógio de sol, a sombra muda de posição conforme o Sol parece se deslocar pelo céu.",
@@ -407,6 +436,7 @@ export const questoesMatematica3BimAv1 = [
   },
   {
     id: 30,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "A clepsidra é um antigo instrumento que mede a passagem do tempo utilizando:",
     tip: "💡 Dica: Não confunda com a ampulheta, que utiliza areia. 🌟 Curiosidade: A clepsidra também é conhecida como relógio de água. A passagem da água de um recipiente para outro ajuda a marcar o tempo.",

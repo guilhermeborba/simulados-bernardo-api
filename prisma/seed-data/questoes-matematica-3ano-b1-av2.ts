@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB1Av2 = [
   {
     id: 1,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 48 + 27 = ?",
     tip: "Some primeiro as unidades: 8 + 7 = 15. Escreva o 5 e \"leve 1\" para a dezena! Depois some as dezenas com esse 1 a mais.",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 36 + 49 = ?",
     tip: "Some as unidades primeiro: 6 + 9 = 15. Escreva o 5 e leve 1 para a dezena!",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 58 + 34 = ?",
     tip: "Some as unidades: 8 + 4 = 12. Escreva o 2 e leve 1 para a dezena!",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 267 + 158 = ?",
     tip: "Comece pelas unidades: 7 + 8 = 15 (escreva 5, leve 1). Depois as dezenas: 6 + 5 + 1 = 12 (escreva 2, leve 1). Por fim, as centenas: 2 + 1 + 1 = 4.",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 375 + 286 = ?",
     tip: "Unidades: 5 + 6 = 11 (escreva 1, leve 1). Dezenas: 7 + 8 + 1 = 16 (escreva 6, leve 1). Centenas: 3 + 2 + 1 = 6.",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 145 + 168 = ?",
     tip: "Unidades: 5 + 8 = 13 (escreva 3, leve 1). Dezenas: 4 + 6 + 1 = 11 (escreva 1, leve 1). Centenas: 1 + 1 + 1 = 3.",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 219 + 374 = ?",
     tip: "Unidades: 9 + 4 = 13 (escreva 3, leve 1). Dezenas: 1 + 7 + 1 = 9. Centenas: 2 + 3 = 5.",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 456 + 367 = ?",
     tip: "Unidades: 6 + 7 = 13 (escreva 3, leve 1). Dezenas: 5 + 6 + 1 = 12 (escreva 2, leve 1). Centenas: 4 + 3 + 1 = 8.",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Bernardo tinha 235 figurinhas e ganhou mais 148 do seu tio. Quantas figurinhas ele tem agora?",
     tip: "Some 235 + 148 com cuidado: unidades 5+8=13 (escreva 3, leve 1); dezenas 3+4+1=8; centenas 2+1=3.",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Por que precisamos \"levar 1\" (reagrupar) quando somamos números?",
     tip: "Pensa: se juntarmos 10 unidades, elas formam uma nova dezena! É por isso que \"levamos 1\" para a coluna seguinte.",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 52 - 27 = ?",
     tip: "Como 2 é menor que 7, \"empreste\" 1 dezena: 12 - 7 = 5. Depois, na dezena, calcule 4 - 2 = 2 (pois emprestou 1).",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 83 - 46 = ?",
     tip: "Como 3 é menor que 6, empreste 1 dezena: 13 - 6 = 7. Depois: 7 (já com o empréstimo) - 4 = 3.",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 91 - 58 = ?",
     tip: "Como 1 é menor que 8, empreste 1 dezena: 11 - 8 = 3. Depois: 8 (já com o empréstimo) - 5 = 3.",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 342 - 176 = ?",
     tip: "Unidades: 2 é menor que 6, empreste da dezena: 12 - 6 = 6. Dezenas: 3 (já emprestada) é menor que 7, empreste da centena: 13 - 7 = 6. Centenas: 2 (já emprestada) - 1 = 1.",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 600 - 275 = ?",
     tip: "Como as unidades e dezenas de 600 são zero, é preciso emprestar da centena para conseguir subtrair. Vá com calma, passo a passo!",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 234 - 89 = ?",
     tip: "Unidades: 4 é menor que 9, empreste da dezena: 14 - 9 = 5. Dezenas: 2 (já emprestada) é menor que 8, empreste da centena: 12 - 8 = 4. Centenas: 1 (já emprestada) - 0 = 1.",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 621 - 357 = ?",
     tip: "Unidades: 1 é menor que 7, empreste da dezena: 11 - 7 = 4. Dezenas: 1 (já emprestada) é menor que 5, empreste da centena: 11 - 5 = 6. Centenas: 5 (já emprestada) - 3 = 2.",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 450 - 268 = ?",
     tip: "Unidades: 0 é menor que 8, empreste da dezena: 10 - 8 = 2. Dezenas: 4 (já emprestada) é menor que 6, empreste da centena: 14 - 6 = 8. Centenas: 3 (já emprestada) - 2 = 1.",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Bernardo tinha 500 figurinhas e deu 235 para seu amigo. Quantas figurinhas restaram com Bernardo?",
     tip: "Calcule 500 - 235 com calma, emprestando das casas vizinhas quando precisar, começando pelas unidades.",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Por que às vezes precisamos \"emprestar\" quando fazemos uma subtração?",
     tip: "Pensa: se não temos unidades suficientes para subtrair, pegamos \"emprestado\" 10 da dezena vizinha para conseguir completar a conta.",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Bernardo tinha 175 figurinhas e comprou mais 89. Quantas figurinhas ele tem agora?",
     tip: "Some 175 + 89, começando pelas unidades: 5 + 9 = 14 (escreva 4, leve 1).",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Uma loja tinha 320 brinquedos em estoque e vendeu 145 durante a semana. Quantos brinquedos restaram?",
     tip: "Calcule 320 - 145, emprestando das casas vizinhas quando precisar, começando pelas unidades.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Calcule: 156 + 278 = ?",
     tip: "Unidades: 6 + 8 = 14 (escreva 4, leve 1). Dezenas: 5 + 7 + 1 = 13 (escreva 3, leve 1). Centenas: 1 + 2 + 1 = 4.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Calcule: 500 - 123 = ?",
     tip: "Como 500 tem zeros nas unidades e dezenas, será preciso emprestar da centena para conseguir subtrair. Vá com calma!",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Ana tinha 248 adesivos e ganhou mais 165 no seu aniversário. Quantos adesivos ela tem agora?",
     tip: "Some 248 + 165, começando pelas unidades: 8 + 5 = 13 (escreva 3, leve 1).",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Uma escola tinha 615 alunos, e 278 deles se formaram e saíram no final do ano. Quantos alunos restaram na escola?",
     tip: "Calcule 615 - 278, emprestando das casas vizinhas quando precisar, começando pelas unidades.",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Ao fazer uma subtração, quando o algarismo de cima é menor que o de baixo em uma coluna, o que devemos fazer?",
     tip: "Lembra das contas que fizemos: sempre que faltava para subtrair, pegávamos emprestado da dezena ou centena vizinha.",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Ao fazer uma adição, quando a soma de uma coluna passa de 9, o que devemos fazer?",
     tip: "Lembra das contas que fizemos: quando a soma passava de 9, escrevíamos só a unidade e levávamos 1 para a dezena (ou centena).",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Adição e subtração",
     type: "multiple_choice",
     text: "Bernardo tinha 400 figurinhas, comprou mais 125 e depois deu 89 para seu amigo. Com quantas figurinhas Bernardo ficou no final?",
     tip: "Primeiro some 400 + 125 = 525. Depois subtraia 525 - 89, emprestando quando precisar.",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Adição e subtração",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual é a lição mais importante sobre adição e subtração com reagrupamento?",
     tip: "Pensa em tudo que vimos: \"levar 1\" na soma e \"emprestar\" na subtração são ferramentas para resolver contas com números grandes, passo a passo.",

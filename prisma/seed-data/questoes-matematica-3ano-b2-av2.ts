@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB2Av2 = [
   {
     id: 1,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 6 x 3?",
     tip: "Pensa em somar 6 + 6 + 6, que é o mesmo que 3 vezes o número 6.",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 6 x 5?",
     tip: "Pensa em somar 6 + 6 + 6 + 6 + 6, que é o mesmo que 5 vezes o número 6.",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 6 x 7?",
     tip: "Pensa em somar 6 sete vezes, ou usar a tabuada do 7: 7 x 6 também dá o mesmo resultado!",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 6 x 9?",
     tip: "Pensa em somar 6 nove vezes, com calma, ou use o que já sabe da tabuada do 9: 9 x 6 também dá o mesmo resultado!",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo comprou 6 caixas de lápis de cor, cada uma com 8 lápis. Quantos lápis ele comprou ao todo?",
     tip: "Pensa: 6 caixas com 8 lápis cada é o mesmo que calcular 6 x 8.",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 7 x 4?",
     tip: "Pensa em somar 7 + 7 + 7 + 7, que é o mesmo que 4 vezes o número 7.",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 7 x 6?",
     tip: "Pensa em somar 7 seis vezes, com calma, contando de 7 em 7: 7, 14, 21, 28, 35, 42.",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 7 x 8?",
     tip: "Pensa em somar 7 oito vezes, contando de 7 em 7: 7, 14, 21, 28, 35, 42, 49, 56.",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 7 x 9?",
     tip: "Pensa em somar 7 nove vezes, ou usar a tabuada do 9: 9 x 7 também dá o mesmo resultado.",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma van transporta 7 crianças por viagem e faz 5 viagens ao longo do dia. Quantas crianças foram transportadas ao todo?",
     tip: "Pensa: 5 viagens com 7 crianças cada é o mesmo que calcular 5 x 7 (ou 7 x 5, dá na mesma!).",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 8 x 3?",
     tip: "Pensa em somar 8 + 8 + 8, que é o mesmo que 3 vezes o número 8.",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 8 x 5?",
     tip: "Pensa em somar 8 + 8 + 8 + 8 + 8, que é o mesmo que 5 vezes o número 8.",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 8 x 7?",
     tip: "Pensa em usar a tabuada do 7: 7 x 8 também dá o mesmo resultado. Some 7 oito vezes com calma!",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 8 x 8?",
     tip: "Pensa em somar 8 oito vezes, com calma, contando de 8 em 8.",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 8 x 9?",
     tip: "Pensa em usar a tabuada do 9: 9 x 8 também dá o mesmo resultado. Some 9 oito vezes com calma!",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 9 x 4?",
     tip: "Pensa em somar 9 + 9 + 9 + 9, que é o mesmo que 4 vezes o número 9.",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 9 x 6?",
     tip: "Pensa em somar 9 seis vezes, ou use a tabuada do 6: 6 x 9 também dá o mesmo resultado.",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 9 x 9?",
     tip: "Pensa em somar 9 nove vezes, com calma, contando de 9 em 9.",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 10 x 7?",
     tip: "Pensa: multiplicar por 10 é só colocar um zero no final do número!",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Quanto é 10 x 9?",
     tip: "Pensa: multiplicar por 10 é só colocar um zero no final do número 9.",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo tem 8 caixas de bombons, cada uma com 6 bombons. Quantos bombons ele tem ao todo?",
     tip: "Pensa: 8 caixas com 6 bombons cada é o mesmo que calcular 8 x 6.",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma quadra de esportes tem 9 fileiras de arquibancada, com 10 lugares em cada fileira. Quantas pessoas podem sentar ao todo?",
     tip: "Pensa: 9 fileiras com 10 lugares cada é o mesmo que calcular 9 x 10.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma fábrica de brinquedos produz 7 caixas por hora, cada uma com 9 bonecos. Quantos bonecos são produzidos em uma hora?",
     tip: "Pensa: 7 caixas com 9 bonecos cada é o mesmo que calcular 7 x 9.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Ana tem 6 potes de bolinhas de gude, cada um com 9 bolinhas. Quantas bolinhas ela tem ao todo?",
     tip: "Pensa: 6 potes com 9 bolinhas cada é o mesmo que calcular 6 x 9.",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma sala de aula tem 8 fileiras de carteiras, com 4 carteiras em cada fileira. Quantas carteiras há na sala?",
     tip: "Pensa: 8 fileiras com 4 carteiras cada é o mesmo que calcular 8 x 4.",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Bernardo participa de um campeonato de pipas, com 10 rodadas, e em cada rodada ele pode ganhar até 8 pontos. Se ele ganhar o máximo de pontos em todas as rodadas, quantos pontos ele terá?",
     tip: "Pensa: 10 rodadas com no máximo 8 pontos cada é o mesmo que calcular 10 x 8.",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma padaria vende pães em sacolas com 9 pães cada. Se forem vendidas 7 sacolas em um dia, quantos pães foram vendidos?",
     tip: "Pensa: 7 sacolas com 9 pães cada é o mesmo que calcular 7 x 9.",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete a sequência da tabuada do 6: 6, 12, 18, ___, 30.",
     tip: "Repare que os números aumentam de 6 em 6 — qual número vem entre 18 e 30?",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete a sequência da tabuada do 9: 9, 18, 27, ___, 45.",
     tip: "Repare que os números aumentam de 9 em 9 — qual número vem entre 27 e 45?",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre as tabuadas do 6 ao 10, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: cada tabuada tem seus truques, e conhecê-las bem ajuda a resolver contas e problemas rapidinho.",

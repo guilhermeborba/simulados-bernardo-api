@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB4Av2 = [
   {
     id: 1,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Figuras geométricas planas são aquelas que:",
     tip: "Pensa em desenhos feitos numa folha de papel, como um quadrado ou um círculo — eles são \"achatados\", sem grossura.",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Quantos lados tem um quadrado?",
     tip: "Pensa em um objeto quadrado que você conhece, como um azulejo — conte quantos lados ele tem.",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Quantos lados tem um triângulo?",
     tip: "Pensa na palavra \"triângulo\" — \"tri\" quer dizer três! Conte os lados dessa figura.",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura geométrica plana não tem nenhum lado reto, sendo totalmente arredondada?",
     tip: "Pensa em uma roda de bicicleta ou em uma bolacha redonda — qual figura tem esse formato?",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Quantos lados tem um retângulo?",
     tip: "Pensa em uma porta ou uma folha de caderno — quantos lados essas figuras retangulares têm?",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual é a diferença principal entre um quadrado e um retângulo?",
     tip: "Pensa em medir os lados de um quadrado e de um retângulo — no quadrado, todos são do mesmo tamanho; no retângulo, só os lados opostos são iguais.",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "O ponto onde dois lados de uma figura geométrica se encontram é chamado de:",
     tip: "Pensa nas \"pontinhas\" de um triângulo ou de um quadrado — esses pontos de encontro são chamados de vértices.",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Quantos vértices tem um triângulo?",
     tip: "Pensa nas \"pontinhas\" de um triângulo — quantas ele tem ao todo?",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Bernardo desenhou uma figura com 4 lados iguais e 4 vértices. Que figura ele provavelmente desenhou?",
     tip: "Pensa na figura que tem exatamente 4 lados do mesmo tamanho e 4 \"pontinhas\".",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Por que é importante conhecer as figuras geométricas planas?",
     tip: "Pensa em quantos objetos ao seu redor têm formas de quadrado, retângulo, triângulo ou círculo!",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Figuras geométricas espaciais são aquelas que:",
     tip: "Pensa em objetos que você pode segurar com as mãos, como uma bola ou uma caixa de sapato — eles têm volume, diferente de um desenho no papel.",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual é o nome do sólido geométrico que tem o formato de uma bola?",
     tip: "Pensa em uma bola de futebol — qual sólido geométrico tem exatamente esse formato redondo?",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual é o nome do sólido geométrico que tem o formato de uma caixa de sapato, com todas as faces quadradas e iguais?",
     tip: "Pensa em um dado de jogar — ele tem o formato desse sólido geométrico, com faces quadradas.",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual é o nome do sólido geométrico que tem o formato de uma lata de refrigerante?",
     tip: "Pensa numa lata redonda, com o corpo reto e as duas pontas (tampas) redondas — esse é o formato desse sólido.",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual é o nome do sólido geométrico que tem o formato de uma casquinha de sorvete?",
     tip: "Pensa na casquinha de sorvete, com uma ponta fina embaixo e uma base redonda em cima — esse é o formato desse sólido.",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual é o nome do sólido geométrico que tem o formato de uma pirâmide, como as do Egito?",
     tip: "Pensa nas construções antigas do Egito, com uma base e lados triangulares que se encontram em uma ponta no topo.",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "As superfícies planas de um sólido geométrico são chamadas de:",
     tip: "Pensa nas partes \"achatadas\" de um dado ou de uma caixa — cada uma dessas superfícies é chamada de face.",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "As linhas onde duas faces de um sólido geométrico se encontram são chamadas de:",
     tip: "Pensa nas \"bordas\" de uma caixa, onde duas faces se encontram, formando uma linha reta.",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de objeto com formato de esfera?",
     tip: "Pensa em qual desses objetos é totalmente redondo, sem nenhuma parte reta.",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Sólidos geométricos",
     type: "multiple_choice",
     text: "Por que é importante reconhecer os sólidos geométricos ao nosso redor?",
     tip: "Pensa em como reconhecer formas espaciais ajuda a entender melhor embalagens, brinquedos e construções ao nosso redor.",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Relembrando números até 1000: qual é o valor do algarismo 4 no número 462?",
     tip: "Pensa em qual posição o algarismo 4 está no número 462 — é a primeira da esquerda, a centena.",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Relembrando adição com reagrupamento: quanto é 275 + 148?",
     tip: "Unidades: 5+8=13 (escreva 3, leve 1). Dezenas: 7+4+1=12 (escreva 2, leve 1). Centenas: 2+1+1=4.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Relembrando subtração com reagrupamento: quanto é 500 - 235?",
     tip: "Lembra que, quando faltam unidades ou dezenas para subtrair, \"emprestamos\" da casa vizinha.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Relembrando a tabuada: quanto é 7 x 8?",
     tip: "Pensa em somar 7 oito vezes, contando de 7 em 7: 7, 14, 21, 28, 35, 42, 49, 56.",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Relembrando divisão: quanto é 32 ÷ 4?",
     tip: "Pensa: qual número multiplicado por 4 dá 32? Lembra da tabuada do 4!",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Relembrando frações: se uma pizza foi dividida em 4 pedaços iguais e Bernardo comeu 1 pedaço, que fração ele comeu?",
     tip: "Pensa: a pizza foi dividida em 4 pedaços, e ele comeu 1 deles — isso é representado por 1/4.",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Relembrando medidas: um quilograma tem quantos gramas?",
     tip: "Pensa: assim como o quilômetro tem 1000 metros, o quilograma também tem 1000 gramas.",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Relembrando figuras geométricas: quantos lados tem um triângulo?",
     tip: "Pensa na palavra \"triângulo\" — \"tri\" quer dizer três!",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo quer comprar um brinquedo de R$ 32,00. Se ele já tem R$ 18,00 guardados, quanto ainda falta para ele completar o valor?",
     tip: "Pensa: quanto falta para completar de R$ 18,00 até R$ 32,00? Calcule 32 - 18.",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Matemática no cotidiano",
     type: "multiple_choice",
     text: "Depois de um ano inteiro estudando Matemática, qual é a lição mais importante que aprendemos?",
     tip: "Pensa em tudo que aprendemos esse ano: números até 1000, adição, subtração, multiplicação, divisão, frações, medidas e figuras geométricas — tudo isso faz parte da matemática que usamos todos os dias!",

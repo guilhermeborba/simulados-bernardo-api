@@ -1,6 +1,7 @@
 export const questoesMathematica = [
   {
     id: 1,
+    theme: "Sequências numéricas",
     type: "multiple_choice",
     text: "Complete a sequência: 2 – 4 – 6 – ___ – ___",
     tip: "Está aumentando de 2 em 2. Depois do 6 vem 8, depois 10",
@@ -27,6 +28,7 @@ export const questoesMathematica = [
   },
   {
     id: 2,
+    theme: "Sequências numéricas",
     type: "multiple_choice",
     text: "Complete a sequência: 20 – 15 – 10 – ___ – ___",
     tip: "Está diminuindo de 5 em 5. 20 - 5 = 15, 15 - 5 = 10, 10 - 5 = 5, 5 - 5 = 0",
@@ -53,6 +55,7 @@ export const questoesMathematica = [
   },
   {
     id: 3,
+    theme: "Sequências numéricas",
     type: "true_false_multiple",
     text: "Observe a sequência e descubra o padrão: 5 – 11 – 17 – 23 – ___",
     tip: "Sempre veja a diferença entre os números. 11 - 5 = 6, 17 - 11 = 6, 23 - 17 = 6. Aumenta de 6 em 6!",
@@ -84,6 +87,7 @@ export const questoesMathematica = [
   },
   {
     id: 4,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Resolva: 35 + 12 = ?",
     tip: "Soma unidade com unidade (5 + 2 = 7) e dezena com dezena (30 + 10 = 40). 40 + 7 = 47",
@@ -110,6 +114,7 @@ export const questoesMathematica = [
   },
   {
     id: 5,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Resolva: 52 – 38 = ?",
     tip: "Se não dá pra tirar, \"empresta\" da dezena. 52 - 38: não dá 2 - 8, então empresta 10 do 50. Fica 12 - 8 = 4 (unidade) e 40 - 30 = 10 (dezena). Total: 14",
@@ -136,6 +141,7 @@ export const questoesMathematica = [
   },
   {
     id: 6,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Luana tinha 68 figurinhas e ganhou mais 47. Quantas figurinhas ela tem agora?",
     tip: "Palavras como \"ganhou\" = SOMA. 68 + 47 = 115",
@@ -162,6 +168,7 @@ export const questoesMathematica = [
   },
   {
     id: 7,
+    theme: "Subtração",
     type: "true_false_multiple",
     text: "Vera tinha 100 doces. Colocou 20 em cada caixa. Marque verdadeiro ou falso:",
     tip: "Cada caixa tira 20 → vai diminuindo. 100 - 20 = 80, 80 - 20 = 60, 60 - 20 = 40, 40 - 20 = 20 (depois de 4 caixas)",
@@ -193,6 +200,7 @@ export const questoesMathematica = [
   },
   {
     id: 8,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Qual instrumento é correto para medir a massa de uma mochila?",
     tip: "Massa = peso → usa balança. Régua mede comprimento, relógio mede tempo, copo mede volume",
@@ -219,6 +227,7 @@ export const questoesMathematica = [
   },
   {
     id: 9,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "1 metro equivale a quantos centímetros?",
     tip: "1 metro = 100 centímetros. Isso cai direto em prova! Memorize!",
@@ -245,6 +254,7 @@ export const questoesMathematica = [
   },
   {
     id: 10,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Um ônibus tem 45 passageiros. Saíram 16 passageiros. Quantos ficaram?",
     tip: "\"Saíram\" = SUBTRAÇÃO. 45 - 16 = 29",
@@ -271,6 +281,7 @@ export const questoesMathematica = [
   },
   {
     id: 11,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Observe os números: 14 – 8 – 20 – 4 – 18 – 10. Organize em ordem crescente.",
     tip: "Organize os números do menor para o maior.",
@@ -297,6 +308,7 @@ export const questoesMathematica = [
   },
   {
     id: 12,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Observe os números: 35 – 50 – 15 – 25 – 40. Organize em ordem decrescente.",
     tip: "Organize os números do maior para o menor.",
@@ -323,6 +335,7 @@ export const questoesMathematica = [
   },
   {
     id: 13,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Qual objeto usamos para medir o tempo?",
     tip: "Relógio é usado para medir o tempo.",
@@ -349,6 +362,7 @@ export const questoesMathematica = [
   },
   {
     id: 14,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Qual instrumento mede massa?",
     tip: "Balança é usada para medir massa.",
@@ -375,6 +389,7 @@ export const questoesMathematica = [
   },
   {
     id: 15,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Complete: 1 quilograma equivale a ______ gramas.",
     tip: "1 quilograma é igual a 1000 gramas.",
@@ -401,6 +416,7 @@ export const questoesMathematica = [
   },
   {
     id: 16,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Complete: 1 grama equivale a ______ miligramas.",
     tip: "1 grama é igual a 1000 miligramas.",
@@ -427,6 +443,7 @@ export const questoesMathematica = [
   },
   {
     id: 17,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Complete: 500 gramas equivalem a meio __________.",
     tip: "500 gramas é igual a meio quilograma.",
@@ -453,6 +470,7 @@ export const questoesMathematica = [
   },
   {
     id: 18,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Resolva: 324 + 145 =",
     tip: "Soma unidade com unidade, dezena com dezena e centena com centena.",
@@ -479,6 +497,7 @@ export const questoesMathematica = [
   },
   {
     id: 19,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Resolva: 587 − 243 =",
     tip: "Subtraia unidade com unidade, dezena com dezena e centena com centena.",
@@ -505,6 +524,7 @@ export const questoesMathematica = [
   },
   {
     id: 20,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Resolva: 456 + 222 =",
     tip: "Soma unidade com unidade, dezena com dezena e centena com centena.",
@@ -531,6 +551,7 @@ export const questoesMathematica = [
   },
   {
     id: 21,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Resolva: 900 − 375 =",
     tip: "Subtraia unidade com unidade, dezena com dezena e centena com centena.",
@@ -557,6 +578,7 @@ export const questoesMathematica = [
   },
   {
     id: 23,
+    theme: "Sequências numéricas",
     type: "multiple_choice",
     text: "Complete a sequência: 5 – 10 – 15 – ____ – ____ – 30",
     tip: "A sequência aumenta de 5 em 5.",
@@ -583,6 +605,7 @@ export const questoesMathematica = [
   },
   {
     id: 24,
+    theme: "Sequências numéricas",
     type: "multiple_choice",
     text: "Complete a sequência: 50 – 45 – 40 – ____ – ____ – 25",
     tip: "A sequência diminui de 5 em 5.",
@@ -609,6 +632,7 @@ export const questoesMathematica = [
   },
   {
     id: 25,
+    theme: "Sequências numéricas",
     type: "multiple_choice",
     text: "Complete: 200, 300, 400, ____, ____",
     tip: "A sequência aumenta de 100 em 100.",
@@ -635,6 +659,7 @@ export const questoesMathematica = [
   },
   {
     id: 26,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Caio tinha 120 figurinhas. Ganhou mais 35. Com quantas ficou?",
     tip: "Soma as figurinhas que ele já tinha com as que ele ganhou.",
@@ -661,6 +686,7 @@ export const questoesMathematica = [
   },
   {
     id: 27,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Ana tinha 250 lápis. Deu 80. Com quantos ficou?",
     tip: "Subtraia os lápis que ela deu dos que ela tinha.",
@@ -687,6 +713,7 @@ export const questoesMathematica = [
   },
   {
     id: 28,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Uma caixa pesa 2 quilogramas. Isso equivale a quantos gramas?",
     tip: "1 quilograma equivale a 1000 gramas.",
@@ -713,6 +740,7 @@ export const questoesMathematica = [
   },
   {
     id: 29,
+    theme: "Grandezas e medidas",
     type: "true_false_multiple",
     text: "Marque V ou F: Relógio mede tempo. Régua mede comprimento. Balança mede temperatura. Termômetro mede temperatura.",
     tip: "Relógio mede tempo, régua mede comprimento, balança mede massa e termômetro mede temperatura.",
@@ -744,6 +772,7 @@ export const questoesMathematica = [
   },
   {
     id: 30,
+    theme: "Grandezas e medidas",
     type: "matching",
     text: "Ligue corretamente: Relógio → __________, Balança → __________, Régua → __________, Termômetro → __________",
     tip: "Relógio mede tempo, balança mede massa, régua mede comprimento e termômetro mede temperatura.",

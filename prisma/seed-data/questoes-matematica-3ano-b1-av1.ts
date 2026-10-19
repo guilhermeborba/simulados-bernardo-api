@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB1Av1 = [
   {
     id: 1,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o número que vem depois do 99?",
     tip: "Pensa em contar de 1 em 1: 97, 98, 99... qual é o próximo?",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Quantas centenas cabem no número 300?",
     tip: "Pensa: cada centena vale 100. Quantas vezes 100 cabe dentro de 300?",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "O número 456 é formado por quantas centenas, dezenas e unidades?",
     tip: "Pensa na ordem das casas: a primeira casa da esquerda é a centena, depois a dezena, depois a unidade.",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Como se escreve por extenso o número 235?",
     tip: "Separe o número em partes: 200 (duzentos) + 30 (trinta) + 5 (cinco).",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual número representa \"setecentos e oito\"?",
     tip: "Pensa: \"setecentos\" é 700, e \"oito\" é a unidade — cuidado com a dezena, que nesse caso é zero!",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Bernardo contou 10 dezenas de figurinhas. Quantas figurinhas ele tem no total?",
     tip: "Pensa: cada dezena vale 10. Se ele tem 10 dezenas, quanto é 10 vezes 10?",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o antecessor (número que vem antes) do 500?",
     tip: "Pensa em contar de trás para frente a partir do 500: 500, 499... qual vem logo antes?",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o sucessor (número que vem depois) do 999?",
     tip: "Pensa em contar de 1 em 1 a partir de 999: qual número completa uma nova centena e forma o próximo milhar?",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Sequências numéricas",
     type: "multiple_choice",
     text: "Complete a sequência: 210, 220, 230, ___, 250.",
     tip: "Repare que os números estão aumentando de 10 em 10 — qual número vem entre 230 e 250?",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Por que é importante saber ler e escrever números até 1000?",
     tip: "Pensa em quantas vezes usamos números grandes no dia a dia, como para contar dinheiro ou saber a distância de um lugar.",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 372, qual algarismo está na casa da centena?",
     tip: "Lembra que a casa da centena é a primeira, contando da esquerda para a direita, em um número de três algarismos.",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 372, qual algarismo está na casa da dezena?",
     tip: "A casa da dezena fica no meio, entre a centena e a unidade — repare bem na posição de cada número.",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 372, qual algarismo está na casa da unidade?",
     tip: "A casa da unidade é sempre a última, mais à direita, no número.",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 605, qual algarismo está na casa da dezena?",
     tip: "Repare com cuidado: quando não há dezenas em um número, colocamos o zero nessa posição.",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o valor da centena no número 481?",
     tip: "Pensa: o algarismo 4 está na casa da centena, então seu valor real é 4 vezes 100.",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o valor da dezena no número 481?",
     tip: "Pensa: o algarismo 8 está na casa da dezena, então seu valor real é 8 vezes 10.",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Complete: \"No número 527, o algarismo 5 vale ___.\"",
     tip: "Pensa em qual posição o algarismo 5 está no número 527 — é a primeira da esquerda, a centena.",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Decomponha o número 638 em centena, dezena e unidade:",
     tip: "Pensa em separar o número pelas casas: 6 na centena (600), 3 na dezena (30) e 8 na unidade (8).",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual número é formado por 2 centenas, 4 dezenas e 7 unidades?",
     tip: "Pensa na ordem certa: primeiro a centena, depois a dezena, depois a unidade.",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual número é formado por 5 centenas, 0 dezenas e 9 unidades?",
     tip: "Cuidado com a dezena zero! Ela precisa ficar no meio, mesmo sem valor: 5 (centena), 0 (dezena), 9 (unidade).",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Bernardo tem 350 figurinhas e seu amigo tem 305. Quem tem mais figurinhas?",
     tip: "Compare centena por centena, depois dezena por dezena: 350 tem 5 dezenas, e 305 tem 0 dezenas — qual é maior?",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Coloque em ordem crescente os números 145, 154 e 415:",
     tip: "Ordem crescente significa do menor para o maior — compare primeiro a centena de cada número.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Coloque em ordem decrescente os números 620, 602 e 260:",
     tip: "Ordem decrescente significa do maior para o menor — compare primeiro a centena de cada número.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual sinal (>, < ou =) completa corretamente: 483 ___ 438?",
     tip: "Compare a dezena de cada número: 483 tem 8 dezenas, e 438 tem 3 dezenas — qual é maior?",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Bernardo tem uma caixa com 2 centenas de blocos de montar, mais 3 dezenas e mais 5 unidades soltas. Quantos blocos ele tem ao todo?",
     tip: "Pensa: 2 centenas são 200, 3 dezenas são 30, e 5 unidades são 5. Junte tudo na ordem certa.",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Numa competição de pipas, Ana fez 178 pontos, e Pedro fez 187 pontos. Quem ganhou a competição?",
     tip: "Compare a dezena de cada número: 178 tem 7 dezenas, e 187 tem 8 dezenas — qual é maior?",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Um número tem 3 centenas e é menor que 350, mas maior que 320. Qual desses números pode ser esse?",
     tip: "Pense em um número que comece com 3 (centena) e que fique entre 320 e 350.",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo quer guardar 400 figurinhas em álbuns que cabem 100 figurinhas cada um. De quantos álbuns ele vai precisar?",
     tip: "Pensa: quantas vezes 100 cabe dentro de 400?",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Em uma escola, há 3 turmas com 100 alunos cada e mais uma turma com 45 alunos. Quantos alunos há ao todo?",
     tip: "Pensa: 3 turmas de 100 formam 300 alunos, e depois soma mais 45 da última turma.",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual é a lição mais importante sobre números até 1000 e valor posicional?",
     tip: "Pensa em tudo que vimos: um mesmo algarismo pode valer unidade, dezena ou centena, dependendo de onde ele está no número.",

@@ -1,6 +1,7 @@
 export const questoesMatematicaAv2 = [
   {
     id: 1,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura é um círculo?",
     tip: "Círculo, Quadrado, Triângulo, Retângulo são as principais figuras.",
@@ -27,6 +28,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 2,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura possui 3 lados?",
     tip: "Triângulo tem o prefixo \"tri\" = 3 lados.",
@@ -53,6 +55,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 3,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Qual figura não possui lados?",
     tip: "O círculo é redondo e não tem lados retos.",
@@ -79,6 +82,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 4,
+    theme: "Figuras planas",
     type: "true_false_multiple",
     text: "Marque V (Verdadeiro) ou F (Falso):",
     tip: "Quadrado e retângulo têm 4 lados. Triângulo tem 3 lados. Círculo não tem vértices (cantos).",
@@ -110,6 +114,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 5,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Figuras congruentes são aquelas que:",
     tip: "Congruentes = exatamente iguais em tamanho e forma.",
@@ -136,6 +141,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 6,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Quantos lados possui um retângulo?",
     tip: "Retângulo = figura de 4 lados.",
@@ -162,6 +168,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 7,
+    theme: "Área",
     type: "multiple_choice",
     text: "Observe a figura com 3 colunas e 2 linhas de quadrados. Qual é a área?",
     tip: "Área = quantidade de quadrados. 3 × 2 = 6.",
@@ -188,6 +195,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 8,
+    theme: "Área",
     type: "multiple_choice",
     text: "Observe a figura com 4 colunas e 3 linhas de quadrados. Qual é a área?",
     tip: "Área = 4 × 3 = 12 quadrados.",
@@ -214,6 +222,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 9,
+    theme: "Área",
     type: "multiple_choice",
     text: "Um desenho ocupa 9 quadradinhos da malha. Qual é sua área?",
     tip: "Área = número de quadradinhos = 9.",
@@ -240,6 +249,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 10,
+    theme: "Área",
     type: "multiple_choice",
     text: "Uma figura ocupa 15 quadradinhos. Qual é sua área?",
     tip: "Área = 15 quadradinhos.",
@@ -266,6 +276,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 11,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 2 × 3 = ?, 2 × 5 = ?, 2 × 8 = ?",
     tip: "Tabuada do 2: 2 × 3 = 6, 2 × 5 = 10, 2 × 8 = 16.",
@@ -292,6 +303,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 12,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 7 × 2 = ?, 9 × 2 = ?, 10 × 2 = ?",
     tip: "Tabuada do 2: 7 × 2 = 14, 9 × 2 = 18, 10 × 2 = 20.",
@@ -318,6 +330,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 13,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 6 × 2 = ?, 4 × 2 = ?, 3 × 2 = ?",
     tip: "Tabuada do 2: 6 × 2 = 12, 4 × 2 = 8, 3 × 2 = 6.",
@@ -344,6 +357,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 14,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 3 × 2 = ?, 3 × 4 = ?, 3 × 6 = ?",
     tip: "Tabuada do 3: 3 × 2 = 6, 3 × 4 = 12, 3 × 6 = 18.",
@@ -370,6 +384,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 15,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 5 × 3 = ?, 7 × 3 = ?, 10 × 3 = ?",
     tip: "Tabuada do 3: 5 × 3 = 15, 7 × 3 = 21, 10 × 3 = 30.",
@@ -396,6 +411,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 16,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 8 × 3 = ?, 9 × 3 = ?, 4 × 3 = ?",
     tip: "Tabuada do 3: 8 × 3 = 24, 9 × 3 = 27, 4 × 3 = 12.",
@@ -422,6 +438,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 17,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 2 × 4 = ?, 5 × 4 = ?, 8 × 4 = ?",
     tip: "Tabuada do 4: 2 × 4 = 8, 5 × 4 = 20, 8 × 4 = 32.",
@@ -448,6 +465,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 18,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 7 × 4 = ?, 9 × 4 = ?, 10 × 4 = ?",
     tip: "Tabuada do 4: 7 × 4 = 28, 9 × 4 = 36, 10 × 4 = 40.",
@@ -474,6 +492,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 19,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 3 × 4 = ?, 6 × 4 = ?, 4 × 4 = ?",
     tip: "Tabuada do 4: 3 × 4 = 12, 6 × 4 = 24, 4 × 4 = 16.",
@@ -500,6 +519,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 20,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 2 × 5 = ?, 4 × 5 = ?, 6 × 5 = ?",
     tip: "Tabuada do 5: 2 × 5 = 10, 4 × 5 = 20, 6 × 5 = 30.",
@@ -526,6 +546,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 21,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Complete: 7 × 5 = ?, 8 × 5 = ?, 10 × 5 = ?",
     tip: "Tabuada do 5: 7 × 5 = 35, 8 × 5 = 40, 10 × 5 = 50.",
@@ -552,6 +573,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 22,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "O que podemos observar nos resultados da tabuada do 5?",
     tip: "Na tabuada do 5: 5, 10, 15, 20, 25, 30... todos terminam em 0 ou 5.",
@@ -578,6 +600,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 23,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o dobro de 8? E qual é o dobro de 11?",
     tip: "Dobro = multiplicar por 2. 8 × 2 = 16, 11 × 2 = 22.",
@@ -604,6 +627,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 24,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o triplo de 6? E qual é o triplo de 9?",
     tip: "Triplo = multiplicar por 3. 6 × 3 = 18, 9 × 3 = 27.",
@@ -630,6 +654,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 25,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma professora organizou 4 filas com 5 alunos em cada fila. Quantos alunos há ao todo?",
     tip: "4 filas × 5 alunos = 20 alunos.",
@@ -656,6 +681,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 26,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "João possui 3 caixas com 8 carrinhos em cada caixa. Quantos carrinhos ele possui?",
     tip: "3 caixas × 8 carrinhos = 24 carrinhos.",
@@ -682,6 +708,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 27,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Uma papelaria vendeu 5 pacotes com 4 lápis em cada pacote. Quantos lápis foram vendidos?",
     tip: "5 pacotes × 4 lápis = 20 lápis.",
@@ -708,6 +735,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 28,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Em um teatro existem 6 filas com 5 cadeiras em cada fila. Quantas cadeiras existem ao todo?",
     tip: "6 filas × 5 cadeiras = 30 cadeiras.",
@@ -734,6 +762,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 29,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Resolva usando decomposição: 2 × 43. Decompor 43 = 40 + 3. Qual é o resultado?",
     tip: "2 × 43 = 2 × (40 + 3) = 80 + 6 = 86.",
@@ -760,6 +789,7 @@ export const questoesMatematicaAv2 = [
   },
   {
     id: 30,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Resolva usando decomposição: 3 × 32. Decompor 32 = 30 + 2. Qual é o resultado?",
     tip: "3 × 32 = 3 × (30 + 2) = 90 + 6 = 96.",

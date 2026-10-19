@@ -1,6 +1,7 @@
 export const questoesMatematica3AnoB3Av2 = [
   {
     id: 1,
+    theme: "Frações",
     type: "multiple_choice",
     text: "A metade de um todo representa:",
     tip: "Pensa em dividir uma pizza em duas partes iguais — cada pedaço é a metade da pizza inteira.",
@@ -16,6 +17,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se Bernardo tem 10 balas e quer dar a metade para seu amigo, quantas balas ele vai dar?",
     tip: "Pensa: a metade de um número é o mesmo que dividir esse número por 2.",
@@ -31,6 +33,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual fração representa a metade de um todo?",
     tip: "Pensa: a fração 1/2 significa \"1 parte de um total de 2 partes iguais\" — isso é a metade!",
@@ -46,6 +49,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se um bolo foi dividido em 2 partes iguais e Bernardo comeu 1 parte, que fração do bolo ele comeu?",
     tip: "Pensa: o bolo foi dividido em 2 partes, e ele comeu 1 delas — isso é representado por 1/2.",
@@ -61,6 +65,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a metade de 20?",
     tip: "Pensa: a metade de um número é o mesmo que dividi-lo por 2. Quanto é 20 ÷ 2?",
@@ -76,6 +81,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se uma figura tem 8 partes iguais e 4 delas estão pintadas, que fração da figura está pintada?",
     tip: "Pensa: 4 partes pintadas de um total de 8 partes é a mesma coisa que a metade da figura!",
@@ -91,6 +97,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Ana tem 16 figurinhas repetidas e quer dar a metade para uma amiga. Quantas figurinhas ela vai dar?",
     tip: "Pensa: a metade de um número é o mesmo que dividi-lo por 2. Quanto é 16 ÷ 2?",
@@ -106,6 +113,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo comeu meia maçã. Que fração da maçã ele comeu?",
     tip: "Pensa: \"meia maçã\" é o mesmo que dizer \"metade da maçã\", representado pela fração 1/2.",
@@ -121,6 +129,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se um grupo de 12 crianças foi dividido em duas equipes iguais, quantas crianças ficaram em cada equipe?",
     tip: "Pensa: dividir 12 crianças em duas equipes iguais é o mesmo que calcular a metade de 12.",
@@ -136,6 +145,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Por que é importante entender o conceito de \"metade\"?",
     tip: "Pensa em quantas vezes usamos a ideia de metade no dia a dia, como repartir um lanche com um amigo.",
@@ -151,6 +161,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Frações",
     type: "multiple_choice",
     text: "A terça parte de um todo representa:",
     tip: "Pensa na palavra \"terça\" — ela tem a ver com o número 3! É quando dividimos algo em 3 partes iguais.",
@@ -166,6 +177,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual fração representa a terça parte de um todo?",
     tip: "Pensa: a fração 1/3 significa \"1 parte de um total de 3 partes iguais\" — isso é a terça parte!",
@@ -181,6 +193,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a terça parte de 9?",
     tip: "Pensa: a terça parte de um número é o mesmo que dividi-lo por 3. Quanto é 9 ÷ 3?",
@@ -196,6 +209,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se Bernardo tem 12 bombons e quer dar a terça parte para seu amigo, quantos bombons ele vai dar?",
     tip: "Pensa: a terça parte de um número é o mesmo que dividi-lo por 3. Quanto é 12 ÷ 3?",
@@ -211,6 +225,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Frações",
     type: "multiple_choice",
     text: "A quarta parte de um todo representa:",
     tip: "Pensa na palavra \"quarta\" — ela tem a ver com o número 4! É quando dividimos algo em 4 partes iguais.",
@@ -226,6 +241,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual fração representa a quarta parte de um todo?",
     tip: "Pensa: a fração 1/4 significa \"1 parte de um total de 4 partes iguais\" — isso é a quarta parte!",
@@ -241,6 +257,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a quarta parte de 20?",
     tip: "Pensa: a quarta parte de um número é o mesmo que dividi-lo por 4. Quanto é 20 ÷ 4?",
@@ -256,6 +273,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se uma pizza foi dividida em 4 pedaços iguais e Bernardo comeu 1 pedaço, que fração da pizza ele comeu?",
     tip: "Pensa: a pizza foi dividida em 4 pedaços, e ele comeu 1 deles — isso é representado por 1/4.",
@@ -271,6 +289,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Ana tem 16 adesivos e quer dar a quarta parte para uma colega. Quantos adesivos ela vai dar?",
     tip: "Pensa: a quarta parte de um número é o mesmo que dividi-lo por 4. Quanto é 16 ÷ 4?",
@@ -286,6 +305,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Complete: se dividirmos uma barra de chocolate em 4 pedaços iguais, cada pedaço representa a fração ___ do todo.",
     tip: "Pensa: se são 4 pedaços iguais, cada um representa \"1 de 4 partes\", ou seja, 1/4.",
@@ -301,6 +321,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo tem 24 figurinhas. Ele deu a metade para seu irmão e depois deu a terça parte do que sobrou para um amigo. Quantas figurinhas Bernardo tem agora?",
     tip: "Primeiro calcule a metade de 24 (que ele deu ao irmão): 24 ÷ 2 = 12, restando 12. Depois calcule a terça parte de 12 (que ele deu ao amigo): 12 ÷ 3 = 4, restando 8.",
@@ -316,6 +337,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma turma tem 12 alunos. A metade prefere futebol e a quarta parte prefere natação. Quantos alunos preferem futebol?",
     tip: "Pensa: a metade de 12 é o mesmo que calcular 12 ÷ 2.",
@@ -331,6 +353,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Na mesma turma de 12 alunos, quantos preferem natação (a quarta parte)?",
     tip: "Pensa: a quarta parte de 12 é o mesmo que calcular 12 ÷ 4.",
@@ -346,6 +369,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma caixa tem 18 chocolates. Se Bernardo comer a terça parte, quantos chocolates ele vai comer?",
     tip: "Pensa: a terça parte de 18 é o mesmo que calcular 18 ÷ 3.",
@@ -361,6 +385,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se uma pipa de papel foi cortada em 3 partes iguais, e Bernardo ficou com 1 parte, qual fração da pipa ele tem?",
     tip: "Pensa: a pipa foi dividida em 3 partes, e ele ficou com 1 delas — isso é representado por 1/3.",
@@ -376,6 +401,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma horta tem 20 mudas de tomate. Se a metade delas já floresceu, quantas mudas floresceram?",
     tip: "Pensa: a metade de 20 é o mesmo que calcular 20 ÷ 2.",
@@ -391,6 +417,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se um grupo de 9 amigos vai dividir igualmente uma caixa de 27 biscoitos, quantos biscoitos (a terça parte de 27, dividida entre 3 grupos de 3 amigos) cada grupo de 3 amigos receberá?",
     tip: "Pensa: a terça parte de 27 é o mesmo que calcular 27 ÷ 3.",
@@ -406,6 +433,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Complete: a fração 1/2 é MAIOR, MENOR ou IGUAL à fração 1/4?",
     tip: "Pensa: se dividirmos um bolo em 2 partes, cada pedaço é maior do que se dividíssemos o mesmo bolo em 4 partes.",
@@ -421,6 +449,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo, sua irmã e seu primo (3 pessoas) vão dividir igualmente uma pizza cortada em 3 pedaços. Que fração da pizza cada um vai comer?",
     tip: "Pensa: a pizza foi dividida em 3 pedaços iguais, entre 3 pessoas — cada uma recebe 1 pedaço, ou seja, 1/3.",
@@ -436,6 +465,7 @@ export const questoesMatematica3AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre frações, qual é a lição mais importante sobre metade, terça parte e quarta parte?",
     tip: "Pensa em tudo que vimos: metade (1/2), terça parte (1/3) e quarta parte (1/4) são formas de dividir algo em partes iguais, cada uma com uma quantidade diferente de partes.",
