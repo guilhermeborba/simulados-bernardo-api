@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB3Av2 = [
   {
     id: 1,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Higiene é o conjunto de hábitos que ajudam a:",
     tip: "Pensa em atitudes como tomar banho e lavar as mãos — elas ajudam a manter tudo limpinho e livre de germes.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Por que é importante lavar as mãos antes das refeições?",
     tip: "Pensa em tudo que tocamos ao longo do dia — nossas mãos podem carregar germes que, sem lavar, poderiam ir parar na comida.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Qual é a importância de escovar os dentes regularmente?",
     tip: "Pensa em como restos de comida, se não removidos, podem causar problemas nos dentes ao longo do tempo.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Qual é a importância de tomar banho regularmente?",
     tip: "Pensa em como, ao longo do dia, nosso corpo suja com suor e poeira — o banho ajuda a limpar tudo isso.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Por que devemos cortar as unhas regularmente e mantê-las limpas?",
     tip: "Pensa em como, debaixo de unhas compridas e sujas, podem se acumular germes que depois entram em contato com a boca e outros alimentos.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Qual é a importância de lavar bem as frutas e verduras antes de comê-las?",
     tip: "Pensa em como frutas e verduras vêm direto da terra ou de plantações, podendo ter resíduos que precisam ser removidos antes de comer.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Por que é importante manter o ambiente em que vivemos limpo e organizado?",
     tip: "Pensa em como um ambiente sujo pode atrair insetos e acumular germes, o que pode prejudicar nossa saúde.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Bernardo espirrou e cobriu a boca com o braço, em vez de usar as mãos. Por que essa é uma boa prática de higiene?",
     tip: "Pensa: se cobrirmos a boca com a mão ao espirrar, os germes ficam nela e podem se espalhar para tudo que tocamos depois.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Qual é a importância de trocar de roupa regularmente, especialmente depois de atividades físicas?",
     tip: "Pensa em como roupas suadas, se usadas por muito tempo, podem acumular germes e causar mau cheiro ou irritações na pele.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Por que é importante ter bons hábitos de higiene desde criança?",
     tip: "Pensa em como aprender bons hábitos desde pequeno ajuda a mantê-los por toda a vida, cuidando sempre da saúde.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Uma alimentação saudável deve ser:",
     tip: "Pensa em como o corpo precisa de diferentes tipos de nutrientes, que vêm de alimentos variados.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual grupo de alimentos é rico em vitaminas e ajuda a fortalecer o sistema imunológico (defesa do corpo)?",
     tip: "Pensa nos alimentos coloridos e naturais, como laranja, cenoura e couve, que são ricos em vitaminas.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Por que é importante comer proteínas, como carnes, ovos, feijão e outros grãos?",
     tip: "Pensa em como o corpo precisa de \"materiais de construção\" para crescer forte — as proteínas ajudam nisso.",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Por que devemos evitar o consumo excessivo de doces, frituras e refrigerantes?",
     tip: "Pensa: comer doces de vez em quando não tem problema, mas exagerar pode não ser bom para a saúde ao longo do tempo.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual é a importância de beber bastante água ao longo do dia?",
     tip: "Pensa em como o nosso corpo é formado, em grande parte, por água — por isso é tão importante repor esse líquido.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Bernardo tomou café da manhã com pão, leite e uma fruta. Isso é um exemplo de:",
     tip: "Pensa: essa refeição tem grãos (pão), laticínios (leite) e frutas — uma boa variedade de nutrientes.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual grupo de alimentos fornece energia rápida para o corpo, sendo muito consumido em refeições como o café da manhã?",
     tip: "Pensa em alimentos como pão, arroz e aveia — eles fornecem energia importante para o nosso corpo funcionar bem.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Por que é importante variar os alimentos que comemos ao longo da semana?",
     tip: "Pensa em como cada alimento tem nutrientes diferentes — variar ajuda o corpo a receber tudo que precisa.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual é a importância dos laticínios, como leite, queijo e iogurte, para o corpo?",
     tip: "Pensa em como o cálcio, presente nos laticínios, ajuda a deixar os ossos e dentes mais fortes.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Por que é importante ter uma alimentação saudável desde criança?",
     tip: "Pensa em como uma boa alimentação na infância ajuda o corpo a crescer forte e saudável, além de criar bons hábitos para o futuro.",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Bernardo dorme cedo todos os dias e acorda descansado para ir à escola. Por que dormir bem é importante para a saúde?",
     tip: "Pensa em como você se sente depois de uma boa noite de sono, cheio de energia para as atividades do dia.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Por que é importante praticar atividades físicas regularmente, como brincar ao ar livre ou praticar esportes?",
     tip: "Pensa em como brincar e se exercitar deixam o corpo mais forte e saudável, além de serem divertidos!",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Qual é a importância das vacinas para a nossa saúde?",
     tip: "Pensa em como as vacinas ajudam nosso corpo a \"aprender\" a se defender de doenças, mesmo antes de entrarmos em contato com elas.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Bernardo lavou bem as mãos antes de comer, escovou os dentes depois das refeições e comeu frutas variadas ao longo do dia. Isso mostra que ele está cuidando de:",
     tip: "Pensa em como todos esses hábitos (lavar as mãos, escovar os dentes, comer frutas) ajudam a manter a saúde em dia.",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Qual das opções abaixo representa um conjunto de bons hábitos para a saúde?",
     tip: "Pensa em tudo que aprendemos: alimentação variada, sono adequado, atividade física e higiene são pilares importantes da saúde.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Por que devemos evitar compartilhar objetos de higiene pessoal, como escova de dente e toalha?",
     tip: "Pensa em como objetos de uso pessoal, como escova de dente, podem carregar germes que não devem ser compartilhados entre pessoas diferentes.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Ana sentiu fome no meio da tarde e escolheu comer uma fruta, ao invés de um pacote de salgadinhos. Essa escolha é um exemplo de:",
     tip: "Pensa em como frutas são mais nutritivas do que salgadinhos industrializados, sendo uma escolha mais saudável para o lanche.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Por que é importante ir ao médico e ao dentista regularmente, mesmo quando não estamos doentes?",
     tip: "Pensa em como visitas regulares ao médico e ao dentista ajudam a cuidar da saúde antes que surjam problemas maiores.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Qual conjunto de atitudes mostra um bom cuidado com a saúde no dia a dia?",
     tip: "Pensa em tudo que aprendemos sobre higiene, alimentação, sono e atividade física — todos esses hábitos juntos ajudam a cuidar bem da saúde.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre saúde, higiene e alimentação, qual é a lição mais importante?",
     tip: "Pensa em tudo que vimos: higiene, alimentação saudável, sono e atividade física trabalham juntos para manter nosso corpo e mente saudáveis.",

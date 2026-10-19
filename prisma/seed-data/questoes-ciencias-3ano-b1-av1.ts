@@ -1,6 +1,7 @@
 export const questoesCiencias3AnoB1Av1 = [
   {
     id: 1,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Um ser vivo é aquele que:",
     tip: "Pensa em um cachorro ou uma planta — eles nascem, crescem, comem, podem ter filhotes ou sementes, e um dia morrem.",
@@ -16,6 +17,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de ser vivo?",
     tip: "Pensa em qual dessas opções nasce, cresce, se alimenta e se reproduz — as outras são objetos sem vida.",
@@ -31,6 +33,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de ser não vivo?",
     tip: "Pensa em qual dessas opções não nasce, não cresce, não se alimenta e não se reproduz.",
@@ -46,6 +49,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Plantas são consideradas seres vivos porque:",
     tip: "Pensa em como uma sementinha nasce, cresce até virar uma planta grande, produz flores e sementes, e um dia também morre.",
@@ -61,6 +65,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Um brinquedo de pelúcia em formato de urso é um exemplo de:",
     tip: "Pensa: mesmo parecendo um animal, o brinquedo não nasce, não cresce nem se alimenta de verdade.",
@@ -76,6 +81,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual é uma característica comum a todos os seres vivos?",
     tip: "Pensa em como todo ser vivo, seja animal ou planta, precisa de algum tipo de \"combustível\" (comida ou luz solar) para viver.",
@@ -91,6 +97,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "O Sol é um exemplo de:",
     tip: "Pensa: mesmo sendo muito importante para a vida na Terra, o Sol não nasce, não cresce nem se reproduz como os seres vivos.",
@@ -106,6 +113,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de ser vivo?",
     tip: "Pensa em qual dessas opções nasce, cresce, se alimenta e se reproduz — as outras são elementos da natureza sem vida própria.",
@@ -121,6 +129,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Bernardo observou uma árvore no quintal e uma bicicleta ao lado dela. Qual das duas é um ser vivo?",
     tip: "Pensa: a árvore nasce, cresce e produz frutos ou sementes; a bicicleta é um objeto fabricado, sem vida própria.",
@@ -136,6 +145,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Por que é importante saber diferenciar seres vivos de seres não vivos?",
     tip: "Pensa em como entender a diferença entre vivo e não vivo ajuda a cuidar melhor de plantas, animais e do ambiente.",
@@ -151,6 +161,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Todos os seres vivos passam pelo processo de nascer. Isso significa que:",
     tip: "Pensa em como um filhote de cachorro vem de uma cadela, ou como uma planta nasce de uma semente.",
@@ -166,6 +177,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Depois de nascer, todo ser vivo passa por qual processo natural?",
     tip: "Pensa em como um filhote de cachorro vai ficando maior com o tempo, até se tornar adulto.",
@@ -181,6 +193,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Todos os seres vivos precisam se alimentar para:",
     tip: "Pensa em como você se sente com fome — comer nos dá energia para brincar, estudar e crescer!",
@@ -196,6 +209,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "A capacidade de gerar filhotes ou sementes, dando origem a novos seres da mesma espécie, é chamada de:",
     tip: "Pensa na palavra \"reprodução\" — ela tem a ver com \"produzir de novo\", ou seja, gerar novos seres vivos.",
@@ -211,6 +225,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Todos os seres vivos, em algum momento, também:",
     tip: "Pensa: assim como nascem e crescem, todos os seres vivos também têm um ciclo de vida que termina com a morte.",
@@ -226,6 +241,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual das opções abaixo NÃO é uma característica dos seres vivos?",
     tip: "Pensa: seres vivos são feitos de células, e não de plástico — isso é característica de objetos fabricados.",
@@ -241,6 +257,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Bernardo plantou uma sementinha de feijão e, depois de alguns dias, ela virou uma plantinha. Isso é um exemplo de:",
     tip: "Pensa: a sementinha foi ficando maior, virando uma plantinha — isso é o processo de crescimento.",
@@ -256,6 +273,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Um filhote de gato que nasce da mãe gata é um exemplo de qual característica dos seres vivos?",
     tip: "Pensa: a gata deu à luz o filhote, gerando um novo ser vivo — isso é reprodução.",
@@ -271,6 +289,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual das opções mostra corretamente a sequência do ciclo de vida de um ser vivo?",
     tip: "Pensa na ordem natural da vida: primeiro nascemos, depois crescemos, podemos nos reproduzir, e por fim, morremos.",
@@ -286,6 +305,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Por que estudar as características dos seres vivos é importante?",
     tip: "Pensa em como entender como a vida funciona nos ajuda a cuidar melhor de plantas, animais e até de nós mesmos!",
@@ -301,6 +321,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Bernardo fez uma lista de objetos e seres observados no seu quintal: pedra, formiga, árvore, bicicleta e gato. Quantos são seres vivos?",
     tip: "Pensa em quais desses itens nascem, crescem, se alimentam e se reproduzem: formiga, árvore e gato são seres vivos; pedra e bicicleta não são.",
@@ -316,6 +337,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Classifique corretamente: \"cadeira\" e \"cachorro\" são, respectivamente:",
     tip: "Pensa: a cadeira é um objeto fabricado, sem vida; o cachorro nasce, cresce, se alimenta e se reproduz.",
@@ -331,6 +353,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Ana encontrou uma pena de pássaro no chão. A pena, sozinha, sem estar mais ligada ao pássaro vivo, é considerada:",
     tip: "Pensa: a pena veio de um ser vivo (o pássaro), mas sozinha ela não nasce, cresce ou se reproduz por conta própria.",
@@ -346,6 +369,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Bernardo quer saber se um cogumelo encontrado no jardim é um ser vivo. O que ele pode observar para descobrir isso?",
     tip: "Pensa nas características que definem um ser vivo: nascer, crescer, se alimentar e se reproduzir — os cogumelos também têm essas características!",
@@ -361,6 +385,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual característica diferencia claramente um ser vivo (como um cachorro) de um ser não vivo (como um carrinho de brinquedo)?",
     tip: "Pensa em tudo que aprendemos: nascer, crescer, se alimentar e se reproduzir são características exclusivas dos seres vivos.",
@@ -376,6 +401,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Uma pedra pode ficar no mesmo lugar por centenas de anos sem mudar muito. Isso acontece porque:",
     tip: "Pensa: como a pedra não nasce, não cresce nem se reproduz, ela não segue o ciclo de vida dos seres vivos.",
@@ -391,6 +417,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Bernardo observou uma minhoca se movendo no jardim depois da chuva. Isso mostra que a minhoca é:",
     tip: "Pensa: a minhoca se movimenta sozinha, procurando um ambiente adequado para viver — isso é característica de ser vivo.",
@@ -406,6 +433,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Qual dos itens abaixo, encontrados em uma casa, é um ser vivo?",
     tip: "Pensa em qual desses itens precisa de água e luz para crescer, ao contrário dos outros, que são objetos fabricados.",
@@ -421,6 +449,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Se Bernardo encontrar um objeto na natureza e quiser saber se é um ser vivo, qual pergunta ele poderia fazer para ajudá-lo a descobrir?",
     tip: "Pensa nas características que definem os seres vivos — são essas perguntas que ajudam a identificar se algo é ou não um ser vivo.",
@@ -436,6 +465,7 @@ export const questoesCiencias3AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual é a lição mais importante sobre seres vivos e não vivos?",
     tip: "Pensa em tudo que vimos: as características do ciclo de vida (nascer, crescer, se alimentar, se reproduzir, morrer) são exclusivas dos seres vivos.",

@@ -1,6 +1,7 @@
 export const questoesCienciasAv2Bim3 = [
   {
     id: 1,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "Em qual ambiente o peixe vive?",
     tip: "Dica: pense em onde o peixe consegue respirar — só embaixo d'água. Curiosidade: os peixes respiram pelas guelras, tirando oxigênio da própria água.",
@@ -15,6 +16,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 2,
+    theme: "Habitat",
     type: "multiple_choice",
     text: "O pato vive em qual ambiente?",
     tip: "Dica: patos nadam e também andam na terra. Curiosidade: os pés do pato têm \"membranas\" entre os dedos, como se fossem nadadeiras.",
@@ -29,6 +31,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 3,
+    theme: "Locomoção dos animais",
     type: "multiple_choice",
     text: "Qual modo de locomoção é usado pela serpente?",
     tip: "Dica: imagine uma cobra se movendo sem pernas. Curiosidade: a serpente usa suas escamas e músculos para se empurrar contra o chão.",
@@ -43,6 +46,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 4,
+    theme: "Locomoção dos animais",
     type: "multiple_choice",
     text: "A borboleta se locomove principalmente:",
     tip: "Dica: lembre-se das asas coloridas da borboleta. Curiosidade: antes de virar borboleta, ela é uma lagarta que rasteja!",
@@ -57,6 +61,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 5,
+    theme: "Locomoção dos animais",
     type: "multiple_choice",
     text: "O golfinho se locomove:",
     tip: "Dica: golfinhos vivem sempre na água. Curiosidade: apesar de nadarem como peixes, os golfinhos são mamíferos e precisam subir para respirar ar.",
@@ -71,6 +76,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 6,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Animais onívoros são aqueles que:",
     tip: "Dica: onívoro tem \"oni\" de \"tudo\" — come de tudo um pouco. Curiosidade: o ser humano também é onívoro.",
@@ -85,6 +91,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 7,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Qual alternativa apresenta apenas animais onívoros?",
     tip: "Dica: pense em quais desses animais comem tanto plantas quanto restos de comida. Curiosidade: porcos e ratos conseguem se alimentar de quase qualquer coisa, por isso se adaptam bem a diferentes ambientes.",
@@ -99,6 +106,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 8,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "A vaca é um animal herbívoro porque:",
     tip: "Dica: herbívoro vem de \"herva/erva\" — planta. Curiosidade: a vaca tem um estômago com várias partes para digerir bem o capim.",
@@ -113,6 +121,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 9,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "A águia se alimenta de:",
     tip: "Dica: águias são aves de rapina, ou seja, caçadoras. Curiosidade: a águia enxerga muito melhor que o ser humano, conseguindo ver uma presa a grande distância.",
@@ -127,6 +136,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 10,
+    theme: "Locomoção dos animais",
     type: "multiple_choice",
     text: "Como a águia se locomove?",
     tip: "Dica: pense nas asas grandes da águia. Curiosidade: a águia pode planar no céu por longos períodos sem bater as asas, aproveitando as correntes de ar.",
@@ -141,6 +151,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 11,
+    theme: "Prevenção da dengue",
     type: "multiple_choice",
     text: "O mosquito Aedes aegypti se desenvolve em:",
     tip: "Dica: água parada é o \"berçário\" do mosquito. Curiosidade: por isso é tão importante não deixar água acumulada em vasos, pneus e garrafas.",
@@ -155,6 +166,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 12,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "A vaca é um animal vivíparo porque:",
     tip: "Dica: vivíparo é quando o filhote nasce \"vivo\", já formado. Curiosidade: a gestação da vaca dura cerca de 9 meses, parecida com a dos seres humanos.",
@@ -169,6 +181,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 13,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "As borboletas costumam colocar seus ovos:",
     tip: "Dica: pense na lagarta que nasce em cima da folha e já tem o que comer. Curiosidade: cada espécie de borboleta costuma escolher um tipo específico de planta para pôr seus ovos.",
@@ -183,6 +196,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 14,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Sobre o cuidado com os filhotes, é correto afirmar que:",
     tip: "Dica: alguns animais cuidam por meses, outros nem cuidam. Curiosidade: os cágados, por exemplo, não cuidam dos filhotes depois que nascem.",
@@ -197,6 +211,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 15,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Um animal ovíparo é aquele que:",
     tip: "Dica: \"ovíparo\" tem \"ovo\" na palavra — fácil de lembrar. Curiosidade: as galinhas põem ovos praticamente todos os dias.",
@@ -211,6 +226,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 16,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Um animal ovovivíparo é aquele cujos filhotes se desenvolvem:",
     tip: "Dica: ovovivíparo mistura as duas coisas: tem ovo, mas ele fica dentro da mãe. Curiosidade: algumas jiboias e tubarões também são ovovivíparos.",
@@ -225,6 +241,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 17,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "O gato é um animal:",
     tip: "Dica: o gato nasce prontinho, sem casca de ovo. Curiosidade: os filhotes de gato nascem cegos e só abrem os olhos depois de alguns dias.",
@@ -239,6 +256,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 18,
+    theme: "Reprodução dos animais",
     type: "multiple_choice",
     text: "Assinale a alternativa que apresenta apenas animais ovíparos:",
     tip: "Dica: pense em quais desses animais têm casca de ovo. Curiosidade: os ovos de tartaruga são enterrados na areia até chocarem.",
@@ -253,6 +271,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 19,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "No ciclo de vida do mosquito Aedes aegypti, depois da fase de ovo, nasce:",
     tip: "Dica: siga a ordem do ciclo: ovo → larva → pupa → adulto. Curiosidade: a larva do mosquito é conhecida popularmente como \"carrapato d'água\" ou \"peixinho\".",
@@ -267,6 +286,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 20,
+    theme: "Prevenção da dengue",
     type: "multiple_choice",
     text: "A água parada é importante para o mosquito Aedes aegypti porque:",
     tip: "Dica: sem água parada, o mosquito não completa seu ciclo. Curiosidade: por isso as campanhas de saúde pedem para eliminar água parada em casa.",
@@ -281,6 +301,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 21,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "O caminho que todos os seres vivos percorrem — nascer, crescer, reproduzir-se e morrer — é chamado de:",
     tip: "Dica: pense nas quatro etapas: nascer, crescer, reproduzir, morrer. Curiosidade: todo ser vivo passa por um ciclo de vida, dos menores insetos até as árvores gigantes.",
@@ -295,6 +316,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 22,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "As grandes transformações pelas quais alguns animais passam até chegar à fase adulta são chamadas de:",
     tip: "Dica: metamorfose = mudança grande na forma do corpo. Curiosidade: borboletas, sapos e mosquitos são exemplos de animais que passam por metamorfose.",
@@ -309,6 +331,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 23,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "No ciclo de vida do sapo-cururu, o que nasce dos ovos são os:",
     tip: "Dica: siga a sequência do sapo: ovo → girino. Curiosidade: os girinos têm cauda e brânquias, parecendo pequenos peixinhos no início.",
@@ -323,6 +346,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 24,
+    theme: "Alimentação dos animais",
     type: "multiple_choice",
     text: "Os girinos se alimentam principalmente de:",
     tip: "Dica: pense no que existe dentro da água onde o girino vive. Curiosidade: com o tempo, o girino muda sua alimentação conforme seu corpo se transforma.",
@@ -337,6 +361,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 25,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Na fase de \"girino com patas\", esse animal:",
     tip: "Dica: \"com patas\" não significa que já pode viver na terra. Curiosidade: primeiro aparecem as patas traseiras, só depois as dianteiras.",
@@ -351,6 +376,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 26,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Quando o sapo se torna jovem, ele:",
     tip: "Dica: pense no que muda quando o sapo sai da água de vez. Curiosidade: os pulmões substituem as brânquias, permitindo que o sapo respire fora da água.",
@@ -365,6 +391,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 27,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "No ciclo de vida das galinhas, a etapa em que a galinha fica sentada sobre os ovos para mantê-los aquecidos é chamada de:",
     tip: "Dica: \"chocar\" é ficar sentada esquentando os ovos. Curiosidade: durante o chocamento, a galinha vira os ovos várias vezes ao dia com o bico.",
@@ -379,6 +406,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 28,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "O período de chocamento dos ovos da galinha dura, aproximadamente:",
     tip: "Dica: pense em quase 3 semanas. Curiosidade: 21 dias é o tempo médio para o pintinho se formar completamente dentro do ovo.",
@@ -393,6 +421,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 29,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Qual é a primeira fase da vida humana, que dura em média nove meses?",
     tip: "Dica: antes de nascer, o bebê já está se desenvolvendo. Curiosidade: essa fase é chamada de gestação e dura, em média, nove meses.",
@@ -407,6 +436,7 @@ export const questoesCienciasAv2Bim3 = [
   },
   {
     id: 30,
+    theme: "Ciclo de vida",
     type: "multiple_choice",
     text: "Na fase da adolescência, o ser humano:",
     tip: "Dica: pense na fase entre ser criança e ser adulto. Curiosidade: na adolescência, é comum o corpo crescer muito rápido em pouco tempo.",
