@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB2Av2 = [
   {
     id: 1,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Na divisão, o número que será dividido é chamado de:",
     tip: "Pensa no número que está \"sendo repartido\" — ele é o primeiro número da conta, tipo em 12 ÷ 3, o 12!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Na divisão, o número que divide é chamado de:",
     tip: "Pensa no número que \"faz a divisão acontecer\" — ele mostra em quantas partes vamos repartir!",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "O resultado de uma divisão é chamado de:",
     tip: "Pensa no resultado final de uma divisão — quantas partes cada grupo recebeu?",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Quando a divisão não é exata, o que sobra é chamado de:",
     tip: "Pensa em quando a divisão não é exatinha e sobra um pouquinho no final!",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Na divisão EXATA, o resto é sempre igual a:",
     tip: "Pensa: quando a divisão dá certinho, sem sobrar nada, quanto vale o resto?",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 20 ÷ 4?",
     tip: "Pensa na tabuada do 4: quantas vezes o 4 cabe dentro do 20?",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 36 ÷ 6?",
     tip: "Pensa na tabuada do 6: quantas vezes o 6 cabe dentro do 36?",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 12 balas e quer dividir igualmente entre 3 amigos. Quantas cada um recebe?",
     tip: "Pensa: 12 balas divididas entre 3 amigos. Quantas cada um recebe?",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "A divisão é a operação INVERSA de qual outra operação?",
     tip: "Pensa: se 3 x 4 = 12, então 12 ÷ 4 = 3. Repare como as duas operações se completam!",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 15 figurinhas e quer guardar 5 por página. Quantas páginas ele vai usar?",
     tip: "Pensa: 15 figurinhas, 5 em cada página. Quantas páginas ao todo?",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 45 ÷ 9?",
     tip: "Pensa na tabuada do 9: quantas vezes o 9 cabe dentro do 45?",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 63 ÷ 7?",
     tip: "Pensa na tabuada do 7: quantas vezes o 7 cabe dentro do 63?",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 100 ÷ 10?",
     tip: "Quando dividimos por 10, um número que termina em zero perde justamente esse zero final!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 500 ÷ 100?",
     tip: "Quando dividimos por 100, um número que termina em dois zeros perde justamente esses dois zeros!",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Para dividir um número por 10, quando ele termina em zero, basta:",
     tip: "Pensa em tudo que vimos nas últimas questões: o que fizemos com o número toda vez que dividimos por 10?",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 84 ÷ 4?",
     tip: "Pensa na tabuada do 4: quantas vezes o 4 cabe dentro do 84?",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 96 ÷ 8?",
     tip: "Pensa na tabuada do 8: quantas vezes o 8 cabe dentro do 96?",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Se o dividendo é 17 e o divisor é 5, qual é o quociente e o resto?",
     tip: "Pensa: quantas vezes o 5 cabe dentro do 17 sem passar? E quanto sobra depois disso?",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Se o dividendo é 23 e o divisor é 4, qual é o quociente e o resto?",
     tip: "Pensa: quantas vezes o 4 cabe dentro do 23 sem passar? E quanto sobra depois disso?",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 50 reais de brincadeira e quer dividir igualmente entre 5 cofrinhos. Quanto vai em cada um?",
     tip: "Pensa: 50 reais divididos entre 5 cofrinhos. Quanto vai em cada um?",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma turma de 28 alunos será dividida em grupos de 4. Quantos grupos serão formados?",
     tip: "Pensa: 28 alunos, grupos de 4. Quantos grupos ao todo?",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 72 figurinhas e quer dividir igualmente entre 8 álbuns. Quantas vão em cada um?",
     tip: "Pensa: 72 figurinhas divididas em 8 álbuns. Quantas em cada um?",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma padaria fez 96 pães e quer colocar em sacos com 6 pães cada. Quantos sacos serão necessários?",
     tip: "Pensa: 96 pães, sacos de 6. Quantos sacos serão necessários?",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Um ônibus escolar leva 45 crianças, sentadas em bancos de 3 lugares cada. Quantos bancos são ocupados?",
     tip: "Pensa: 45 crianças, bancos de 3 lugares. Quantos bancos serão ocupados?",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo tem 34 balas para dividir igualmente entre 5 amigos. Quantas cada um recebe, e quantas sobram?",
     tip: "Pensa: quantas vezes o 5 cabe dentro do 34 sem passar? E quanto sobra depois?",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma horta tem 63 mudas de plantas para distribuir igualmente em 7 canteiros. Quantas mudas vão em cada canteiro?",
     tip: "Pensa: 63 mudas, 7 canteiros. Quantas mudas em cada canteiro?",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Bernardo quer separar seus 100 reais de brincadeira em notas de 10 reais. Quantas notas ele terá?",
     tip: "Pensa: 100 reais de brincadeira, notas de 10. Quantas notas serão necessárias?",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Uma caixa tem 144 lápis para dividir igualmente entre 12 alunos. Quantos cada um recebe?",
     tip: "Pensa: 144 lápis, 12 alunos. Quantos lápis cada um recebe?",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Operações combinadas",
     type: "multiple_choice",
     text: "Bernardo e seus 3 amigos (4 pessoas) vão dividir igualmente 52 chocolates. Depois, cada um compra mais 2 chocolates. Com quantos cada um fica?",
     tip: "Primeiro divida os chocolates entre as 4 pessoas (52 ÷ 4), depois some os 2 que cada um vai comprar!",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de aprender bem a divisão?",
     tip: "Pensa em tudo que aprendemos hoje: entender a ligação entre divisão e multiplicação ajuda muito mais do que só decorar!",

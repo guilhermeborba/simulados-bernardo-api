@@ -390,3 +390,14 @@ O inventário confirma Português do 4º ano com cobertura de 240/240 questões 
 Validação editorial: dry-run e inventário JSON aprovados; temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. Comparação exata de fonte e dados por export confirma que apenas `theme` foi acrescentado às questões. Nenhum tema coincide literalmente com a alternativa correta. `npx jest --runInBand`: 713 testes/40 suítes aprovados. `npm run test:e2e`: 418 testes/23 suítes aprovados, em PostgreSQL descartável removido ao final.
 
 A inconsistência preexistente de gabarito na questão 13 de Português B4/AV2, sobre coesão textual, está na [issue web #74](https://github.com/guilhermeborba/simulados-bernardo/issues/74), para revisão separada. O gabarito e todos os campos de conteúdo foram preservados neste lote. Não houve seed em base existente, deploy ou alteração do contrato da API.
+
+
+### Matemática do 4º ano — E04
+
+Português do 4º ano foi integrado em api#230. O lote de Matemática acrescenta 240 temas em oito arquivos/simulados gerais (`questoes-matematica-4ano-b*-av*.ts`). Não há entradas privadas desse ano/disciplina no seed. O vocabulário de 21 temas e os critérios em `docs/temas-editoriais.md` reaproveitam os nomes de Matemática do 3º ano quando o conteúdo corresponde e incluem arredondamento, números decimais, ângulos, gráficos/tabelas e operações combinadas.
+
+O inventário confirma Matemática do 4º ano com cobertura de 240/240 questões e 8/8 simulados. No acervo total, são 2.429 questões com tema e 81 simulados integralmente classificados, em 780 simulados/23.444 questões. O 3º ano permanece completo; o 4º ano tem 480/1.200 questões classificadas em 16/40 simulados, com Português e Matemática concluídos nos arquivos. Restam Ciências, História e Geografia do 4º ano e os demais anos. Próximo lote sugerido: Ciências do 4º ano, oito arquivos/240 questões.
+
+Validação editorial: dry-run e inventário JSON aprovados; temas de 1–4 palavras, até 120 caracteres, todos no vocabulário documentado. A comparação byte a byte da fonte e a comparação dos dados por export confirmam somente a adição de `theme`. Nenhum tema coincide literalmente com a alternativa correta. Para não antecipar classificações, a questão 1 de B3/AV2 usa Sistema de numeração, e as questões 1 e 11 de B4/AV1 usam Geometria. `npx jest --runInBand`: 713 testes/40 suítes aprovados. `npm run test:e2e`: 418 testes/23 suítes aprovados, com PostgreSQL descartável removido ao final.
+
+Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura dos simulados foram preservados. Não houve seed em base existente, deploy ou alteração do contrato da API.

@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB3Av2 = [
   {
     id: 1,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "O número 3,5 é chamado de:",
     tip: "Pensa: esse número tem uma vírgula separando duas partes — isso é uma pista importante!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "Na escrita de números decimais, usamos qual sinal para separar a parte inteira da parte decimal?",
     tip: "Pensa em como escrevemos preços, tipo R$ 3,50 — qual sinalzinho separa os reais dos centavos?",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "No número 4,25, o \"4\" representa:",
     tip: "No número 4,25, pensa em qual parte vem ANTES da vírgula!",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "No número 4,25, o que vem depois da vírgula representa:",
     tip: "No número 4,25, pensa em qual parte vem DEPOIS da vírgula!",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "A primeira casa depois da vírgula (como o \"2\" em 4,25) é chamada de casa dos:",
     tip: "Essa casa tem um nome que lembra a palavra \"dez\" — pensa em frações como 1/10!",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "A segunda casa depois da vírgula (como o \"5\" em 4,25) é chamada de casa dos:",
     tip: "Essa casa tem um nome que lembra a palavra \"cem\" — pensa em frações como 1/100!",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "No sistema monetário brasileiro, 1 real é dividido em quantos centavos?",
     tip: "Pensa em quantas moedinhas de 1 centavo formam 1 real inteiro!",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Como se escreve \"1 real e 50 centavos\" usando número decimal?",
     tip: "1 real inteiro e mais 50 centavos formam um número com vírgula. Como fica escrito?",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Como se lê o número decimal 2,75, pensando em dinheiro?",
     tip: "No número 2,75, o \"2\" são os reais inteiros e o \"75\" são os centavos!",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tem uma nota de R$ 5,00 e uma moeda de R$ 0,50. Quanto ele tem ao todo?",
     tip: "Some a nota de R$ 5,00 com a moeda de R$ 0,50, prestando atenção na vírgula!",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "Qual número decimal é MAIOR: 3,40 ou 3,04?",
     tip: "Compare a parte depois da vírgula: 40 centésimos ou 4 centésimos, qual é mais?",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "Para comparar números decimais, primeiro comparamos:",
     tip: "Pensa: antes de olhar os números depois da vírgula, o que a gente confere primeiro?",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "Se as partes inteiras de dois números decimais são iguais, para saber qual é maior, comparamos:",
     tip: "Se a parte inteira é igual, olhe para trás da vírgula para descobrir qual é maior!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "Qual é o resultado de 2,50 + 1,25?",
     tip: "Some com cuidado, alinhando a vírgula de cada número!",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Números decimais",
     type: "multiple_choice",
     text: "Qual é o resultado de 5,00 - 2,30?",
     tip: "Subtraia com cuidado, alinhando a vírgula de cada número!",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "No sistema monetário brasileiro, quais são as cédulas (notas) de real que existem atualmente?",
     tip: "Pensa nas notas de dinheiro que você já viu — elas vão das menores até as maiores!",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Quais são as moedas de real que existem atualmente no Brasil?",
     tip: "Pensa nas moedinhas que você já usou — tem desde as bem pequenas até a moeda de 1 real!",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tem duas moedas de R$ 0,25. Quanto ele tem ao todo?",
     tip: "Some as duas moedas de R$ 0,25. Quanto dá 25 + 25 centavos?",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Se Bernardo paga R$ 10,00 por um brinquedo de R$ 7,50, quanto de troco ele recebe?",
     tip: "Subtraia o valor do brinquedo do valor pago: R$ 10,00 - R$ 7,50!",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tem R$ 3,25 e ganhou mais R$ 2,50 de mesada. Quanto ele tem agora?",
     tip: "Some R$ 3,25 com R$ 2,50, alinhando bem a vírgula!",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo comprou um suco por R$ 3,75 e um salgado por R$ 4,25. Quanto ele gastou ao todo?",
     tip: "Some o preço do suco com o do salgado: R$ 3,75 + R$ 4,25!",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tinha R$ 20,00 e gastou R$ 12,40 numa loja. Quanto sobrou?",
     tip: "Subtraia o valor gasto do valor que Bernardo tinha: R$ 20,00 - R$ 12,40!",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Qual é MAIOR: R$ 15,90 ou R$ 15,09?",
     tip: "Compare a parte depois da vírgula: 90 centésimos ou 9 centésimos, qual é mais?",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo quer comprar um livro de R$ 25,00. Ele tem uma nota de R$ 20,00 e uma moeda de R$ 5,00. Ele tem dinheiro suficiente?",
     tip: "Some a nota de R$ 20,00 com a moeda de R$ 5,00 e compare com o preço do livro!",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo pagou R$ 50,00 por uma camiseta de R$ 38,50. Quanto de troco ele recebe?",
     tip: "Subtraia o preço da camiseta do valor pago: R$ 50,00 - R$ 38,50!",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo juntou 3 moedas de R$ 1,00 e 4 moedas de R$ 0,50. Quanto ele tem ao todo?",
     tip: "Some o valor das moedas de R$ 1,00 (3 x R$ 1,00) com o das moedas de R$ 0,50 (4 x R$ 0,50)!",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Numa lanchonete, um suco custa R$ 4,50 e um sanduíche custa R$ 6,80. Qual é a diferença de preço entre eles?",
     tip: "Subtraia o preço do suco do preço do sanduíche: R$ 6,80 - R$ 4,50!",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tem 2 notas de R$ 10,00 e quer comprar um brinquedo de R$ 18,90. Ele tem dinheiro suficiente?",
     tip: "Some as duas notas de R$ 10,00 e compare com o preço do brinquedo: R$ 18,90!",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Bernardo tem R$ 30,00. Comprou um jogo por R$ 18,75 e depois ganhou mais R$ 5,50 de presente. Com quanto ele ficou?",
     tip: "Primeiro subtraia o preço do jogo do total (R$ 30,00 - R$ 18,75), depois some o presente (+ R$ 5,50)!",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de aprender a lidar bem com números decimais e dinheiro?",
     tip: "Praticar com compras e trocos de verdade ajuda muito mais do que só decorar números!",

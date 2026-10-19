@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB3Av1 = [
   {
     id: 1,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma fração é usada para representar:",
     tip: "Pensa em dividir uma pizza em pedaços iguais — cada pedaço é uma parte do todo. É disso que a fração fala!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Na fração 3/4, o número de baixo (4) é chamado de:",
     tip: "Pensa na fração 3/4: o número de baixo mostra em quantas partes a pizza inteira foi cortada!",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Na fração 3/4, o número de cima (3) é chamado de:",
     tip: "Pensa na fração 3/4: o número de cima mostra quantos pedaços você realmente pegou!",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Frações",
     type: "multiple_choice",
     text: "O denominador de uma fração indica:",
     tip: "Pensa: se uma pizza foi cortada em 8 pedaços, qual número da fração mostra isso?",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Frações",
     type: "multiple_choice",
     text: "O numerador de uma fração indica:",
     tip: "Pensa: se você comeu 3 pedaços de uma pizza, qual número da fração mostra isso?",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Se uma pizza foi dividida em 8 pedaços iguais e Bernardo comeu 3, qual fração representa o que ele comeu?",
     tip: "A pizza foi dividida em 8 pedaços (denominador) e Bernardo comeu 3 (numerador). Monte a fração!",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Como se lê a fração 1/2?",
     tip: "Pensa: se você divide algo em 2 partes iguais e pega 1, como se chama essa parte?",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Como se lê a fração 1/3?",
     tip: "Pensa: se você divide algo em 3 partes iguais e pega 1, como se chama essa parte?",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Como se lê a fração 1/4?",
     tip: "Pensa: se você divide algo em 4 partes iguais e pega 1, como se chama essa parte?",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo dividiu uma barra de chocolate em 6 pedaços iguais e comeu 2. Qual fração representa isso?",
     tip: "A barra foi dividida em 6 pedaços (denominador) e Bernardo comeu 2 (numerador). Monte a fração certa!",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual fração é MAIOR: 3/8 ou 5/8?",
     tip: "Como as duas frações têm o mesmo denominador (8), compare só os numeradores: 3 ou 5?",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Quando duas frações têm o MESMO denominador, para saber qual é maior, comparamos:",
     tip: "Pensa: se os pedaços são do mesmo tamanho, o que importa é a quantidade de pedaços!",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Frações",
     type: "multiple_choice",
     text: "A fração 1/2 é equivalente a qual destas frações?",
     tip: "Pensa: 1/2 de uma pizza é o mesmo que pegar 2 pedaços de uma pizza cortada em 4!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Frações",
     type: "multiple_choice",
     text: "A fração 2/4, quando simplificada, é igual a:",
     tip: "Pensa: 2 pedaços de uma pizza cortada em 4 é o mesmo que quantos pedaços de uma pizza cortada em 2?",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a METADE de 20?",
     tip: "Pensa: dividir 20 em 2 partes iguais. Quanto fica cada parte?",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a TERÇA PARTE (1/3) de 30?",
     tip: "Pensa: dividir 30 em 3 partes iguais. Quanto fica cada parte?",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a QUARTA PARTE (1/4) de 40?",
     tip: "Pensa: dividir 40 em 4 partes iguais. Quanto fica cada parte?",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual fração é MENOR: 2/5 ou 4/5?",
     tip: "Como as duas frações têm o mesmo denominador (5), compare os numeradores: 2 ou 4, qual é menor?",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma fração é considerada uma fração PRÓPRIA quando:",
     tip: "Pensa: numa fração própria, a parte que você tem é sempre menor que o todo!",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo tem 24 figurinhas e quer dar a metade (1/2) para seu irmão. Quantas ele vai dar?",
     tip: "Pensa: dividir 24 em 2 partes iguais. Quanto fica cada parte?",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma turma tem 30 alunos. Se 1/3 são meninas, quantas meninas há na turma?",
     tip: "Pensa: dividir 30 alunos em 3 partes iguais. Quanto é 1 dessas partes?",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo comeu 2/6 de uma pizza e seu irmão comeu 3/6. Quem comeu MAIS?",
     tip: "Como as duas frações têm o mesmo denominador (6), compare os numeradores: 2 ou 3, qual é maior?",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma caixa tem 40 bombons. Se 1/4 são de chocolate branco, quantos são de chocolate branco?",
     tip: "Pensa: dividir 40 bombons em 4 partes iguais. Quanto é 1 dessas partes?",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo tem uma corda de 18 metros e cortou 1/3 dela. Quantos metros ele cortou?",
     tip: "Pensa: dividir 18 metros em 3 partes iguais. Quanto é 1 dessas partes?",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Numa festa com 50 convidados, 1/2 são crianças. Quantas crianças há na festa?",
     tip: "Pensa: dividir 50 convidados em 2 partes iguais. Quanto é a metade?",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Das frações 2/10 e 7/10, qual representa a MAIOR quantidade?",
     tip: "Como as duas frações têm o mesmo denominador (10), compare os numeradores: 2 ou 7, qual é maior?",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo dividiu seu dinheiro de brincadeira em 5 partes iguais e gastou 2 partes (2/5) num brinquedo. Se ele tinha 100 reais, quanto gastou?",
     tip: "Primeiro descubra quanto vale 1/5 de 100 (100 ÷ 5), depois multiplique por 2!",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Uma horta tem 24 plantas. 1/4 delas são tomateiros. Quantos tomateiros há?",
     tip: "Pensa: dividir 24 plantas em 4 partes iguais. Quanto é 1 dessas partes?",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Bernardo tem 36 figurinhas. Deu 1/3 delas para um amigo e depois deu mais 1/4 do que sobrou para outro amigo. Quantas figurinhas sobraram?",
     tip: "Primeiro descubra 1/3 de 36 e veja quanto sobrou. Depois calcule 1/4 do que sobrou e subtraia de novo!",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de entender bem as frações?",
     tip: "Desenhar e usar exemplos do dia a dia ajuda muito mais do que só decorar números!",

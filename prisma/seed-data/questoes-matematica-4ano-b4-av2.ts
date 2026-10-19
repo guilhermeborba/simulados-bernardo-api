@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB4Av2 = [
   {
     id: 1,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Qual unidade usamos para medir o COMPRIMENTO de uma mesa?",
     tip: "Pensa: você usaria uma régua ou fita métrica para medir uma mesa, ou uma balança?",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Qual unidade usamos para medir a MASSA (peso) de uma pessoa?",
     tip: "Pensa: para saber o peso de uma pessoa, usamos uma balança, e o resultado aparece em qual unidade?",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Qual unidade usamos para medir a CAPACIDADE de uma garrafa de água?",
     tip: "Pensa: a quantidade de água dentro de uma garrafa é medida em qual unidade?",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Quantos centímetros (cm) tem 1 metro (m)?",
     tip: "Pensa: quantos passinhos pequenos cabem dentro de um metro inteiro?",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Quantos metros (m) tem 1 quilômetro (km)?",
     tip: "Pensa: quantos metros formam um quilômetro, usado para distâncias grandes?",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Medidas de massa",
     type: "multiple_choice",
     text: "Quantos gramas (g) tem 1 quilograma (kg)?",
     tip: "Pensa: quantos gramas formam um quilograma inteiro?",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Medidas de capacidade",
     type: "multiple_choice",
     text: "Quantos mililitros (mL) tem 1 litro (L)?",
     tip: "Pensa: quantos mililitros formam um litro inteiro de refrigerante?",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Quantos minutos tem 1 hora?",
     tip: "Pensa no relógio: quantos minutinhos o ponteiro grande precisa andar para completar 1 hora?",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Medidas de tempo",
     type: "multiple_choice",
     text: "Quantas horas tem 1 dia?",
     tip: "Pensa: quantas horas se passam entre uma meia-noite e a meia-noite seguinte?",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Medidas de comprimento",
     type: "multiple_choice",
     text: "Bernardo mediu sua altura: 1 metro e 35 centímetros. Escrevendo tudo em centímetros, quanto ele mede?",
     tip: "Lembra que 1 metro tem 100 centímetros. Some 100 com os 35 que sobraram!",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Numa pesquisa da turma: Maçã - 8 votos, Banana - 5, Uva - 10, Manga - 7. Qual fruta foi a MAIS votada?",
     tip: "Compare os números de votos: 8, 5, 10 e 7. Qual é o maior?",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Na mesma pesquisa, qual fruta foi a MENOS votada?",
     tip: "Compare os votos novamente: qual é o menor deles?",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Quantos alunos ao todo votaram nessa pesquisa de frutas?",
     tip: "Some todos os votos: 8 + 5 + 10 + 7!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Qual é a diferença entre a fruta mais votada (Uva) e a menos votada (Banana)?",
     tip: "Subtraia os votos da mais votada (10) pelos da menos votada (5)!",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Um GRÁFICO DE BARRAS é usado para:",
     tip: "Pensa em como um gráfico de barras usa tamanhos diferentes para mostrar quantidades de um jeito fácil de entender!",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Numa TABELA, as informações costumam ser organizadas em:",
     tip: "Pensa em um calendário — como as informações costumam ser organizadas nele?",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Bernardo fez uma tabela de livros lidos por mês: Janeiro - 3, Fevereiro - 5, Março - 4, Abril - 6. Em qual mês ele leu MAIS?",
     tip: "Compare os números de cada mês: 3, 5, 4 e 6. Qual é o maior?",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Na tabela de livros de Bernardo, quantos livros ele leu ao todo nos 4 meses?",
     tip: "Some os livros de todos os meses: 3 + 5 + 4 + 6!",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Qual é a diferença entre os livros lidos em Abril (6) e em Janeiro (3)?",
     tip: "Subtraia os livros de abril (6) pelos de janeiro (3)!",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Gráficos e tabelas",
     type: "multiple_choice",
     text: "Bernardo viu num gráfico que a barra de \"dias ensolarados\" era bem mais alta que a de \"dias chuvosos\". O que isso significa?",
     tip: "Pensa: se uma barra é mais alta que a outra, ela representa uma quantidade maior ou menor?",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Adição",
     type: "multiple_choice",
     text: "Qual é o resultado de 4.500 + 2.750?",
     tip: "Some com cuidado, alinhando as casas certinho!",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Qual é o resultado de 8.000 - 3.450?",
     tip: "Subtraia com cuidado, lembrando dos empréstimos quando precisar!",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Multiplicação",
     type: "multiple_choice",
     text: "Qual é o resultado de 15 x 6?",
     tip: "Lembra da tabuada do 6: quanto dá 15 vezes 6?",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Divisão",
     type: "multiple_choice",
     text: "Qual é o resultado de 72 ÷ 8?",
     tip: "Lembra da tabuada do 8: quantas vezes o 8 cabe dentro do 72?",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Frações",
     type: "multiple_choice",
     text: "Qual fração representa \"metade\"?",
     tip: "Pensa: qual fração representa dividir algo em 2 partes iguais e pegar 1?",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Sistema monetário",
     type: "multiple_choice",
     text: "Como se escreve \"3 reais e 25 centavos\" em número decimal?",
     tip: "3 reais inteiros e mais 25 centavos formam um número com vírgula. Como fica escrito?",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Figuras planas",
     type: "multiple_choice",
     text: "Uma figura com 4 lados iguais e 4 ângulos retos é chamada de:",
     tip: "Pensa: 4 lados iguais e 4 cantos certinhos formam qual figura geométrica?",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Ângulos",
     type: "multiple_choice",
     text: "Um ângulo de 90° é chamado de ângulo:",
     tip: "Pensa no canto de uma folha de papel — esse ângulo de 90° tem um nome especial!",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Operações combinadas",
     type: "multiple_choice",
     text: "Bernardo tem 45 figurinhas. Deu 1/3 delas para um amigo e comprou mais 2 pacotes com 6 figurinhas cada. Com quantas ele ficou?",
     tip: "Primeiro descubra 1/3 de 45 e veja quanto sobrou. Depois some as figurinhas dos 2 pacotes novos (2 x 6)!",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Matemática no cotidiano",
     type: "multiple_choice",
     text: "Qual é a MELHOR atitude para continuar evoluindo em matemática?",
     tip: "Continuar praticando é sempre o melhor caminho para ficar cada vez melhor!",

@@ -256,3 +256,41 @@ A escolha de formas que concordam usa **Concordância**, tanto nominal quanto ve
 **Estrutura textual** cobre parágrafos e a organização das partes do texto; **Coesão textual**, as ligações e retomadas; **Coerência textual**, as relações lógicas entre ideias. **Artigos**, **Preposições**, **Pontuação**, **Ortografia** e **Sinônimos e antônimos** mantêm os mesmos nomes nos diferentes simulados. A síntese sobre a função da leitura e da comunicação usa **Leitura e escrita**.
 
 A quantidade de temas acompanha o conteúdo: B1/AV2 reúne nove temas em uma revisão que alterna leitura e formação de palavras; os demais têm de cinco a oito temas. Todos os campos anteriores foram preservados exatamente. A inconsistência preexistente de gabarito na questão 13 de B4/AV2 foi registrada na [issue web #74](https://github.com/guilhermeborba/simulados-bernardo/issues/74), sem correção do conteúdo neste lote.
+
+### Matemática — 4º ano
+
+| Tema | Abrange |
+|---|---|
+| Adição | Somas, termos, propriedades, reagrupamento e problemas de juntar ou acrescentar quantidades. |
+| Adição e subtração | Problemas e sínteses que articulam adição e subtração na mesma questão. |
+| Arredondamento | Aproximação de números naturais para a centena ou o milhar mais próximo. |
+| Ângulos | Ângulo reto, agudo e obtuso, medidas em graus e identificação em figuras e objetos. |
+| Divisão | Partilha, formação de grupos, termos, quociente e resto, divisões exatas e não exatas e relação inversa com a multiplicação. |
+| Figuras planas | Polígonos, círculos, lados, vértices e propriedades de triângulos, quadriláteros e outros polígonos. |
+| Frações | Partes iguais de um todo ou quantidade, numerador e denominador, leitura, comparação, equivalência, simplificação e frações de quantidades sucessivas. |
+| Geometria | Comparação e classificação geral de figuras e síntese sobre formas e ângulos, sem antecipar se a figura é plana ou espacial. |
+| Gráficos e tabelas | Organização, leitura e comparação de dados de pesquisas e registros, somas de frequências e diferenças entre quantidades. |
+| Matemática no cotidiano | Síntese sobre prática, revisão e uso de problemas do dia a dia para aprender Matemática. |
+| Medidas de capacidade | Escolha de unidades e equivalência entre litro e mililitro. |
+| Medidas de comprimento | Escolha de unidades e equivalências entre quilômetro, metro e centímetro. |
+| Medidas de massa | Escolha de unidades e equivalência entre quilograma e grama. |
+| Medidas de tempo | Equivalências entre horas, minutos e dias. |
+| Multiplicação | Parcelas iguais, fatores, produto, propriedades, tabuadas, multiplicação por 10, 100 e 1.000 e cálculo com um ou dois algarismos. |
+| Números decimais | Parte inteira e decimal, décimos e centésimos, escrita, comparação, adição e subtração de números com vírgula. |
+| Operações combinadas | Problemas que articulam diferentes grupos de operações, como multiplicar e descontar, dividir e acrescentar ou calcular uma fração e somar novas quantidades. |
+| Sistema de numeração | Leitura, escrita, composição, decomposição, valor posicional, comparação e ordenação de números; antecessor, sucessor e reconhecimento de representações numéricas. |
+| Sistema monetário | Reais e centavos, cédulas, moedas, escrita decimal de preços, compras, troco, comparação e cálculo com valores em dinheiro. |
+| Sólidos geométricos | Cubos, esferas, cones, cilindros e pirâmides; faces, arestas, vértices e relações com objetos do cotidiano. |
+| Subtração | Diferenças, termos, reagrupamento, prova real e problemas de retirar, comparar ou completar quantidades. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-matematica-4ano-b*-av*.ts`. Não há entradas privadas de Matemática do 4º ano registradas no seed. Todos usam este vocabulário de 21 temas, reaproveitando os nomes de Matemática do 3º ano quando o conteúdo corresponde.
+
+**Sistema de numeração** cobre valor posicional, leitura, composição e comparação; **Arredondamento** fica nas aproximações. Problemas que pedem a diferença ou quanto falta usam **Subtração**, mesmo quando aparecem no simulado de numeração. **Adição e subtração** reúne as questões que articulam essas duas operações; **Operações combinadas** fica nas que misturam outros grupos, como multiplicar e descontar o estoque ou dividir e acrescentar uma quantidade.
+
+**Frações** inclui o cálculo de partes de quantidades e frações sucessivas do restante, como na questão 29 do B3/AV1. Cálculos e comparações de números com vírgula, sem contexto monetário, usam **Números decimais**. Preços, cédulas, moedas, compras e trocos usam **Sistema monetário**, incluindo a escrita decimal dos valores. A questão 1 do B3/AV2 usa **Sistema de numeração**, pois descobrir que “3,5” é um número decimal é a tarefa; o tema não antecipa essa classificação.
+
+**Figuras planas**, **Sólidos geométricos** e **Ângulos** reúnem as propriedades e relações específicas. Quando a tarefa é descobrir a própria classificação plana ou espacial, usa-se **Geometria**: questões 1 e 11 do B4/AV1. Esse tema também cobre a síntese que articula figuras e ângulos na questão 30. Os temas não recebem nomes de figuras, elementos geométricos ou tipos de ângulo que possam ser a resposta.
+
+As medidas usam o tema da grandeza trabalhada. Questões sobre frequências, totais e diferenças em pesquisas e registros usam **Gráficos e tabelas**, pois o foco é compreender e comparar os dados apresentados. A síntese sobre prática e revisão usa **Matemática no cotidiano**.
+
+A quantidade de temas acompanha o conteúdo. O B3/AV1 tem um tema (frações); B2/AV1 e B2/AV2 têm dois cada, com uma questão de operações combinadas em cada simulado. B1/AV1, B1/AV2 e B3/AV2 têm três; B4/AV1 tem quatro. O B4/AV2 é uma revisão de quinze temas do ano, sem juntar artificialmente assuntos distintos. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas e curiosidades.

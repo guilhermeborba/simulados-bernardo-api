@@ -1,6 +1,7 @@
 export const questoesMatematica4AnoB1Av1 = [
   {
     id: 1,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 3.457, qual algarismo está na posição das CENTENAS?",
     tip: "Lembra da ordem das casas num número: unidade, dezena, centena, milhar — da direita para a esquerda!",
@@ -16,6 +17,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 8.921, qual algarismo está na posição das UNIDADES?",
     tip: "A casa das unidades é sempre a última, bem na pontinha direita do número!",
@@ -31,6 +33,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 6.284, qual algarismo está na posição das DEZENAS?",
     tip: "A casa das dezenas fica logo antes da casa das unidades, contando da direita para a esquerda!",
@@ -46,6 +49,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 45.732, qual algarismo está na posição das DEZENAS DE MILHAR?",
     tip: "Conte as casas da direita para a esquerda: unidade, dezena, centena, milhar, e por último, dezena de milhar!",
@@ -61,6 +65,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Como se lê o número 12.500?",
     tip: "Separe o número em duas partes: \"12\" (doze mil) e \"500\" (quinhentos). Junte as duas!",
@@ -76,6 +81,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Como se lê o número 100.000?",
     tip: "Pensa: 10 vezes 10.000 formam esse número redondo e grande!",
@@ -91,6 +97,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o valor do algarismo 5 no número 5.310?",
     tip: "Veja em qual posição está o algarismo 5 — ele está bem no início, na casa mais valiosa desse número!",
@@ -106,6 +113,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o valor do algarismo 7 no número 2.750?",
     tip: "Conte as casas a partir da direita até chegar no algarismo 7 — qual casa ele ocupa?",
@@ -121,6 +129,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "O número 40.000 é composto por quantas dezenas de milhar?",
     tip: "Pensa: quantas vezes 10.000 cabe dentro de 40.000?",
@@ -136,6 +145,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Bernardo tem um cofrinho com 1.245 moedas. Qual algarismo representa a quantidade de CENTENAS?",
     tip: "Conte as casas a partir da direita: unidade, dezena, centena... qual algarismo está na casa das centenas?",
@@ -151,6 +161,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "O número 3.542 decomposto é:",
     tip: "Separe o número em suas partes: milhares, centenas, dezenas e unidades!",
@@ -166,6 +177,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "A decomposição 6.000 + 200 + 30 + 1 forma o número:",
     tip: "Some as partes na ordem certa: 6.000 + 200 + 30 + 1. Qual número aparece?",
@@ -181,6 +193,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o SUCESSOR do número 7.999?",
     tip: "Pensa em contar: depois do 7.999 vem um número novo, cheio de zeros!",
@@ -196,6 +209,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é o ANTECESSOR do número 10.000?",
     tip: "Pensa em contar de trás para frente: o que vem logo antes do 10.000?",
@@ -211,6 +225,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual desses números é o MAIOR?",
     tip: "Compare os algarismos da esquerda para a direita — quem tem o maior algarismo bem no início geralmente é o maior!",
@@ -226,6 +241,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual desses números é o MENOR?",
     tip: "Compare os números casa por casa, começando pela esquerda!",
@@ -241,6 +257,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Coloque em ORDEM CRESCENTE: 2.500, 2.050, 2.550.",
     tip: "Compare as centenas de cada número (050, 500, 550) para descobrir a ordem certa!",
@@ -256,6 +273,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Coloque em ORDEM DECRESCENTE: 9.100, 9.010, 9.900.",
     tip: "Qual desses números tem o maior valor na casa das centenas: 100, 010 ou 900?",
@@ -271,6 +289,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "O símbolo \">\" significa:",
     tip: "Pensa na \"boca do jacaré\": ela sempre abre para o lado do número maior!",
@@ -286,6 +305,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Bernardo tem 3.450 figurinhas e seu amigo tem 3.540. Quem tem MAIS figurinhas?",
     tip: "Compare os dois números, casa por casa, começando pela esquerda!",
@@ -301,6 +321,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Arredondamento",
     type: "multiple_choice",
     text: "Bernardo quer arredondar 3.478 para a centena mais próxima. Qual é o resultado?",
     tip: "3.478 está entre 3.400 e 3.500. Ele está mais perto de qual dos dois?",
@@ -316,6 +337,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Arredondamento",
     type: "multiple_choice",
     text: "Arredonde o número 6.220 para a centena mais próxima.",
     tip: "6.220 está entre 6.200 e 6.300. Ele está mais perto de qual dos dois?",
@@ -331,6 +353,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Arredondamento",
     type: "multiple_choice",
     text: "Arredonde o número 15.600 para o milhar mais próximo.",
     tip: "15.600 está entre 15.000 e 16.000. Ele está mais perto de qual dos dois milhares?",
@@ -346,6 +369,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Arredondamento",
     type: "multiple_choice",
     text: "Bernardo economizou 2.350 moedinhas em um ano. Arredondando para o milhar mais próximo, quantas seriam?",
     tip: "2.350 está entre 2.000 e 3.000. Ele está mais perto de qual dos dois?",
@@ -361,6 +385,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Ana leu 4.230 páginas e Bernardo leu 4.320 páginas. Quem leu MAIS páginas?",
     tip: "Compare 4.230 e 4.320, casa por casa, começando pela esquerda!",
@@ -376,6 +401,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "No número 78.945, o algarismo 8 representa quantas unidades de milhar?",
     tip: "Encontre a posição do algarismo 8 e pense em quanto ele realmente vale ali!",
@@ -391,6 +417,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual destes números corresponde a \"vinte e três mil, quatrocentos e dez\"?",
     tip: "Separe a frase em partes: \"vinte e três mil\" e \"quatrocentos e dez\". Junte tudo!",
@@ -406,6 +433,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Bernardo colecionou cartas até o número 6.789, numa coleção que vai até 10.000. Quantas cartas ainda faltam?",
     tip: "Faça uma subtração: 10.000 menos 6.789. Capricha na conta!",
@@ -421,6 +449,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Subtração",
     type: "multiple_choice",
     text: "Uma biblioteca principal tem 12.450 livros e a infantil tem 9.870. Qual tem MAIS livros, e qual a diferença?",
     tip: "Compare os dois números primeiro, depois faça a subtração: 12.450 menos 9.870.",
@@ -436,6 +465,7 @@ export const questoesMatematica4AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Sistema de numeração",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de entender bem o sistema de numeração decimal?",
     tip: "Só decorar números não ajuda tanto quanto entender o valor de cada posição e praticar bastante!",
