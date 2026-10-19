@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB1Av1 = [
   {
     id: 1,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Bernardo escreveu um recado rapidinho para a mãe, avisando que foi brincar na casa do amigo. Esse tipo de texto se chama:",
     tip: "Pensa num texto curtinho, informal, que a gente deixa para alguém ler depois, avisando algo rápido.",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Qual desses textos serve para convidar alguém para uma festa de aniversário?",
     tip: "Pensa no texto que costuma ter data, horário e local de uma festa, e que a gente entrega ou manda para os amigos.",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Uma receita de bolo geralmente traz:",
     tip: "Pensa no que sua família consulta na cozinha para saber o que precisa comprar e como fazer o prato passo a passo.",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Uma lista de compras serve para:",
     tip: "Pensa no papelzinho (ou anotação no celular) que a mamãe ou o papai levam ao mercado para não esquecer nada.",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "Uma notícia de jornal tem como objetivo principal:",
     tip: "Pensa em um texto que fala sobre algo que realmente aconteceu, como um jogo de futebol ou uma novidade da cidade.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Uma história em quadrinhos se diferencia de outros textos porque ela usa, principalmente:",
     tip: "Pensa nas revistinhas com personagens desenhados, onde a fala deles aparece dentro de um \"balãozinho\".",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Qual desses é um exemplo de gênero textual usado para dar instruções de como montar um brinquedo?",
     tip: "Pensa no papel que vem dentro da caixa de um brinquedo novo, explicando passo a passo como montar as peças.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Um poema costuma ter uma característica bem especial, que é:",
     tip: "Pensa em uma música ou parlenda que você já ouviu, onde as palavras do final das frases combinam, formando rimas.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Bernardo recebeu um texto que contava a história de uma raposa e um corvo, com uma lição de moral no final. Esse tipo de texto é chamado de:",
     tip: "Pensa numa historinha curta, geralmente com animais que falam, e que sempre termina ensinando uma lição importante.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Por que é importante conhecer os diferentes gêneros textuais?",
     tip: "Pensa: você não escreveria um convite de festa do mesmo jeito que escreve uma receita de bolo, né? Cada texto tem um objetivo diferente!",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Em um bilhete, geralmente aparecem:",
     tip: "Pensa em como você começaria um recado (tipo \"Oi, mãe!\"), o que você contaria, e como terminaria, assinando seu nome.",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Um convite de aniversário costuma trazer informações como:",
     tip: "Pensa no que você precisa saber para ir a uma festa: quando é, que horas começa e onde vai ser, certo?",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Em uma receita, a parte que explica \"como fazer\", passo a passo, é chamada de:",
     tip: "Pensa na parte da receita que vem depois dos ingredientes, contando a ordem certa das ações, tipo \"misture\", \"asse\", \"espere esfriar\".",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre uma lista de compras e uma carta?",
     tip: "Pensa: numa lista você escreve só palavras soltas, tipo \"arroz, feijão, leite\". Já numa carta, você escreve frases contando algo para alguém.",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "Uma notícia de jornal costuma responder a perguntas importantes, como \"o quê?\", \"quando?\" e:",
     tip: "Pensa nas informações mais importantes para entender um fato: o que aconteceu, quando e onde ele ocorreu.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Nas histórias em quadrinhos, quando um balão de fala tem uma \"pontinha\" apontando para cima, isso geralmente indica que o personagem está:",
     tip: "Pensa no formato do balão: quando o personagem está falando de verdade (não só pensando), o balão costuma ter uma pontinha reta apontando para a boca dele.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Um manual de instruções é muito útil porque ele:",
     tip: "Pensa em quando você ou seus pais montam um brinquedo ou móvel novo — o que vocês consultam para não errar a montagem?",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Em um poema, quando duas palavras no final dos versos têm sons parecidos, dizemos que elas:",
     tip: "Pensa em \"gato\" e \"sapato\" — repare como o final das duas palavras soa parecido. Isso é chamado de rima!",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "A lição de moral, presente no final de uma fábula, serve para:",
     tip: "Pensa no motivo de a fábula existir: ela não é só uma historinha de animais, ela sempre quer ensinar algo importante no final!",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Gêneros textuais",
     type: "multiple_choice",
     text: "Qual gênero textual seria mais adequado para Bernardo usar se quisesse contar, de forma criativa e com rimas, sobre a chegada da primavera?",
     tip: "Pensa em qual desses textos combina mais com rimas e sentimentos bonitos sobre a natureza.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Colocar palavras em ordem alfabética significa organizá-las:",
     tip: "Pensa no alfabeto: A, B, C, D... Organizar em ordem alfabética é colocar as palavras seguindo essa sequência de letras.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Qual das opções está corretamente organizada em ordem alfabética?",
     tip: "Olhe a primeira letra de cada palavra: A de Abacaxi vem antes de B de Banana, que vem antes de C de Cereja.",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Ao organizar em ordem alfabética as palavras \"gato\", \"elefante\" e \"cavalo\", a ordem correta é:",
     tip: "Olhe a primeira letra: C de cavalo vem antes de E de elefante, que vem antes de G de gato.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Entre \"sapo\" e \"sapato\", qual vem primeiro na ordem alfabética?",
     tip: "Repare que \"sapo\" e \"sapato\" começam exatamente iguais até \"sap-\". Quando isso acontece, a palavra menor geralmente vem primeiro.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Se Bernardo quiser encontrar a palavra \"elefante\" em um dicionário, ele deve procurar na parte onde ficam as palavras que começam com a letra:",
     tip: "Pensa na primeira letrinha da palavra \"elefante\" — é ela que indica em qual parte do dicionário a palavra vai estar.",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Coloque em ordem alfabética: \"urso\", \"macaco\", \"zebra\".",
     tip: "Olhe a primeira letra de cada animal: M de macaco, U de urso, Z de zebra. Qual delas vem primeiro no alfabeto?",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Bernardo quer fazer um convite de aniversário organizado com uma lista de amigos convidados em ordem alfabética. Se os nomes são Pedro, Ana e Lucas, a ordem correta é:",
     tip: "Olhe a primeira letra de cada nome: A de Ana, L de Lucas, P de Pedro. Qual vem primeiro no alfabeto?",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Ao escrever uma receita, uma lista de ingredientes organizada em ordem alfabética ajudaria a:",
     tip: "Pensa em como fica mais fácil achar algo numa lista quando ela está organizada de um jeito lógico, como em ordem alfabética.",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Ordem alfabética",
     type: "multiple_choice",
     text: "Se Bernardo for escrever um bilhete e quiser guardar, junto com outros bilhetes antigos, numa pasta organizada por ordem alfabética dos nomes das pessoas para quem escreveu, qual bilhete viria primeiro: um para \"Carla\" ou um para \"Beatriz\"?",
     tip: "Compare as primeiras letras: B de Beatriz e C de Carla. Qual delas vem antes no alfabeto?",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Leitura e escrita",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual é a melhor forma de resumir o que são os gêneros textuais e a ordem alfabética?",
     tip: "Pensa em tudo que vimos: bilhete, convite, receita, notícia, HQ, poema, fábula — cada um com um objetivo — e a ordem alfabética, que organiza tudo direitinho seguindo o alfabeto.",

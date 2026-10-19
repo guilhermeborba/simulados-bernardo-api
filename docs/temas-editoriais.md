@@ -172,3 +172,46 @@ Questões sobre a origem específica de pratos, palavras ou manifestações usam
 **História do trabalho** cobre atividades e condições em diferentes épocas; mudanças ligadas a ferramentas, máquinas, informática ou internet usam **Trabalho e tecnologia**. Questões sobre ocupações no campo ou na cidade usam os respectivos temas. Direitos e desigualdades são tratados separadamente em **Direitos e participação**.
 
 Não se subdivide artificialmente o B3/AV1 geral, concentrado em patrimônio, que tem um tema. O B4/AV2 geral revisa onze temas do ano. Todos os demais campos foram preservados exatamente. A inconsistência preexistente de gabarito na questão 5 do B4/AV1 geral foi registrada na [issue web #70](https://github.com/guilhermeborba/simulados-bernardo/issues/70), sem correção de gabarito neste lote.
+
+### Português — 3º ano
+
+| Tema | Abrange |
+|---|---|
+| Adjetivos | Palavras que caracterizam os substantivos e seu uso na descrição de seres, objetos e lugares. |
+| Artigos | Identificação dos artigos que acompanham substantivos nas frases. |
+| Classes de palavras | Comparação e identificação de classes gramaticais, incluindo questões que articulam substantivos, adjetivos e verbos. |
+| Coesão textual | Retomadas e formas de evitar repetições usando pronomes, expressões mais gerais e omissão de termos recuperáveis. |
+| Construção de frases | Organização das palavras, identificação de quem realiza a ação e reconhecimento de afirmações, negações, perguntas, exclamações e ordens. |
+| Dígrafos | Reconhecimento de grupos de duas letras que representam um só som e identificação dessas letras nas palavras. |
+| Encontros consonantais | Reconhecimento de consoantes vizinhas e das letras que compõem seus encontros nas palavras. |
+| Encontros vocálicos | Reconhecimento de vogais vizinhas e das letras que compõem seus encontros nas palavras. |
+| Fábulas | Características, personagens, autores, interpretação e ensinamentos das fábulas. |
+| Flexão das palavras | Masculino e feminino, singular e plural e graus aumentativo e diminutivo nas palavras e expressões. |
+| Gêneros textuais | Finalidades, características e escolha de bilhetes, convites, receitas, listas, cartas, manuais, quadrinhos, diários, campanhas e infográficos. |
+| Leitura e compreensão | Localização de informações, identificação de participantes e ações e compreensão de mensagens nos textos estudados. |
+| Leitura e escrita | Síntese dos recursos da língua e sua importância para organizar e comunicar ideias em textos. |
+| Letras e sons | Comparação e classificação de encontros vocálicos, encontros consonantais e dígrafos sem antecipar qual grupo é a resposta. |
+| Notícias | Função e estrutura da notícia, manchete, linha fina, lide, fonte, foto-legenda e critérios de noticiabilidade. |
+| Ordem alfabética | Ordenação de palavras e nomes, consulta ao dicionário e organização de listas. |
+| Ortografia | Grafia e relações entre letras e sons: C/QU, G/GU, M/N, nasalidade e til, SS, X/CH e escrita correta de palavras. |
+| Poesia | Versos, estrofes, rimas, ritmo, parlendas e recursos de expressão em poemas. |
+| Pontuação | Uso de ponto final, interrogação, exclamação e vírgula para expressar sentidos e organizar o texto. |
+| Pronúncia das palavras | Relação entre fala e escrita e pronúncia das vogais finais, com e sem acento gráfico. |
+| Separação silábica | Divisão das palavras em sílabas, incluindo palavras com encontros consonantais e dígrafos. |
+| Sinônimos e antônimos | Palavras de sentido semelhante ou contrário e substituição de palavras em frases e textos. |
+| Sílabas e acentuação | Monossílabos, sílaba tônica, oxítonas e regras de acentuação nos exemplos estudados. |
+| Substantivos | Nomes de seres, objetos e lugares, substantivos comuns e próprios e uso de maiúscula em nomes próprios. |
+| Tempos verbais | Presente, passado e futuro: reconhecimento, usos e transformação das formas verbais. |
+| Verbos | Identificação de verbos, ações, estados e fenômenos da natureza; emprego do imperativo em ordens e instruções. |
+
+Lote E04: **390 questões em 13 simulados, distribuídos em nove arquivos**. Os oito gerais `questoes-portugues-3ano-b*-av*.ts` têm 240 questões. Os cinco privados da `turma-bernardo` compartilham o arquivo `questoes-portugues.ts`, com 150 questões nos exports `questoesPortugues.terceiro.1.AV2`, `.2.AV1`, `.2.AV2`, `.3.AV1` e `.3.AV2`. A estrutura aninhada e os IDs repetidos entre simulados foram preservados.
+
+A classificação considera o objetivo da questão, incluindo todos os itens de verdadeiro/falso, associação e classificação. Os textos sobre aranhas, campanhas, Pilar e animais de assistência usam **Leitura e compreensão** nas perguntas de conteúdo; não recebem temas de Ciências ou História. Finalidade e escolha de um tipo de texto usam **Gêneros textuais**. Questões sobre estrutura e critérios jornalísticos usam **Notícias**; as focadas em versos e rimas ou em ensinamentos de fábulas usam **Poesia** e **Fábulas**, respectivamente.
+
+**Substantivos**, **Adjetivos** e **Verbos** agrupam seus usos específicos; **Classes de palavras** reúne comparações entre classes e as perguntas em que o nome da própria classe seria a resposta. Por exemplo, a questão 24 do B2/AV1 privado pede a classe de “limpa” e usa **Classes de palavras**, sem antecipar “adjetivo”. Formas de passado, presente e futuro usam **Tempos verbais**; ordens e instruções verbais permanecem em **Verbos**.
+
+Questões que pedem reconhecer um encontro vocálico, consonantal ou um dígrafo usam o tema correspondente quando o grupo já está nomeado no enunciado. Quando descobrir o nome do grupo é a tarefa, usa-se **Letras e sons**: questões 28 e 29 do B3/AV1 geral e 25 do B4/AV2 geral. Esse tema também cobre a síntese comparativa da questão 30 do B3/AV1. **Ortografia** reúne as escolhas de grafia e suas relações com os sons; **Pronúncia das palavras** trata a diferença entre vogais finais na fala e na escrita.
+
+**Flexão das palavras** reúne gênero, número e grau sem antecipar a forma correta. **Construção de frases** reúne ordem das palavras, participantes da ação e tipos de frase; **Pontuação** concentra o emprego dos sinais. **Coesão textual** cobre retomadas e repetições, sem usar como tema o pronome ou o recurso específico que pode ser a resposta. **Leitura e escrita** fica nas sínteses que articulam diferentes conteúdos e sua função na comunicação.
+
+Não se subdividem artificialmente os simulados concentrados: B2/AV2 geral tem um tema (sinônimos e antônimos), B3/AV2 geral tem um (ortografia), e B2/AV1 geral tem dois (verbos e tempos verbais). O B4/AV2 geral revisa onze temas. Todos os demais campos foram preservados exatamente. As alternativas duplicadas de B2/AV2 privado e os comandos incompletos de B1/AV2 privado foram registrados na [issue web #72](https://github.com/guilhermeborba/simulados-bernardo/issues/72), sem correção de conteúdo neste lote.

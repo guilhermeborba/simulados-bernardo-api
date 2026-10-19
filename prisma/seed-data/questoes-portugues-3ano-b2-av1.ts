@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB2Av1 = [
   {
     id: 1,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Verbo é a classe de palavras que usamos para indicar:",
     tip: "Pensa em palavras como \"correr\", \"pular\" e \"comer\" — elas mostram o que alguém está fazendo.",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um verbo?",
     tip: "Pensa em qual dessas palavras indica uma ação, algo que alguém faz — as outras descrevem características ou nomeiam algo.",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Na frase \"Bernardo brinca no parque\", qual é o verbo?",
     tip: "Pensa em qual palavra da frase mostra o que o Bernardo está fazendo.",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Identifique o verbo na frase \"A menina canta muito bem\":",
     tip: "Pensa em qual palavra mostra a ação que a menina está fazendo.",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual frase tem um verbo que indica uma ação de comer?",
     tip: "Pensa em qual frase mostra alguém realizando a ação de comer, e não apenas descrevendo o bolo.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Na frase \"As crianças pulam corda no recreio\", o verbo é:",
     tip: "Pensa em qual palavra mostra a ação que as crianças estão fazendo durante o recreio.",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Qual das frases abaixo NÃO tem um verbo de ação física, mas sim um verbo de estado?",
     tip: "Pensa em qual frase não mostra um movimento do corpo, mas sim como alguém está se sentindo.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Complete a frase com um verbo adequado: \"O sol ___ muito forte hoje.\"",
     tip: "Pensa em uma palavra que mostra o que o sol está fazendo no céu.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Na frase \"Os pássaros voam alto no céu\", o verbo indica a ação de:",
     tip: "Pensa no que os pássaros fazem usando suas asas para se movimentar pelo céu.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Por que os verbos são importantes nas frases?",
     tip: "Pensa em como ficaria estranho contar uma história sem nenhuma palavra que mostrasse o que está acontecendo.",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "O tempo verbal que indica uma ação acontecendo agora, neste momento, é chamado de:",
     tip: "Pensa na palavra \"presente\" — ela lembra o \"agora\", o momento em que estamos vivendo.",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase está no tempo presente?",
     tip: "Pensa em qual frase mostra uma ação acontecendo no momento exato em que falamos.",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "O tempo verbal que indica uma ação que já aconteceu é chamado de:",
     tip: "Pensa em ações que já terminaram, que já aconteceram antes de agora — isso é o tempo passado.",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase está no tempo passado?",
     tip: "Pensa em qual frase mostra que a ação de comer já aconteceu e terminou.",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "O tempo verbal que indica uma ação que ainda vai acontecer é chamado de:",
     tip: "Pensa na palavra \"futuro\" — ela lembra algo que ainda vai acontecer, que está por vir.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase está no tempo futuro?",
     tip: "Pensa em qual frase mostra uma ação que ainda vai acontecer, que ainda não ocorreu.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Transforme a frase \"Eu brinco no parque\" para o tempo passado:",
     tip: "Pensa em como você diria que já brincou no parque ontem, e não que está brincando agora.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Transforme a frase \"Ela estuda matemática\" para o tempo futuro:",
     tip: "Pensa em como você diria que ela ainda vai estudar matemática, numa próxima ocasião.",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual dessas frases está no tempo presente?",
     tip: "Pensa em qual frase mostra a ação de voar acontecendo agora, no momento em que falamos.",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Complete corretamente, usando o tempo verbal indicado entre parênteses: \"Amanhã, nós ___ (futuro do verbo viajar) para a praia.\"",
     tip: "Pensa em como você diria que a viagem ainda vai acontecer, no dia de amanhã.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Bernardo escreveu em seu diário: \"Ontem eu joguei bola com meus amigos.\" O verbo dessa frase está no tempo:",
     tip: "Pensa na palavra \"ontem\" — ela já indica que a ação aconteceu antes de hoje, no passado.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Leia a frase: \"Hoje eu brinco com meu cachorro.\" Essa frase está no tempo:",
     tip: "Pensa na palavra \"hoje\" — ela mostra que a ação está acontecendo no momento atual.",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Leia a frase: \"Amanhã eu visitarei minha avó.\" Essa frase está no tempo:",
     tip: "Pensa na palavra \"amanhã\" — ela mostra que a visita ainda vai acontecer, num dia que ainda vem.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Complete a frase corretamente, no tempo presente: \"Todos os dias, Bernardo ___ para a escola.\"",
     tip: "Pensa em como você diria que essa é uma ação de rotina, que acontece sempre, no presente.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase mostra corretamente uma ação no tempo passado?",
     tip: "Pensa em qual frase mostra que a ação de comer já aconteceu e já terminou.",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Observe: \"No próximo ano, eu ___ para o 4º ano.\" Qual verbo completa corretamente essa frase no tempo futuro?",
     tip: "Pensa em como você diria que essa mudança de ano escolar ainda vai acontecer, no futuro.",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Leia as três frases: \"Eu estudei\", \"Eu estudo\", \"Eu estudarei\". Elas mostram, respectivamente, os tempos verbais:",
     tip: "Pensa na ordem natural do tempo: primeiro o que já aconteceu, depois o que está acontecendo agora, e por fim o que ainda vai acontecer.",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Bernardo quer contar para o amigo o que fará no fim de semana. Qual tempo verbal ele deve usar?",
     tip: "Pensa: o fim de semana ainda não chegou, então a ação ainda vai acontecer — isso pede o tempo futuro.",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Leia: \"Há muito tempo, os dinossauros habitavam a Terra.\" O verbo \"habitavam\" está no tempo:",
     tip: "Pensa na expressão \"há muito tempo\" — ela já indica que essa é uma ação de um tempo que já passou, há milhões de anos.",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual frase resume melhor o que são os verbos e seus tempos?",
     tip: "Pensa em tudo que vimos: os verbos mostram ações, e os tempos (presente, passado, futuro) mostram quando essa ação acontece.",

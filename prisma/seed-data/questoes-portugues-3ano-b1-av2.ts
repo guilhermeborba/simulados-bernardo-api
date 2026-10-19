@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB1Av2 = [
   {
     id: 1,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Substantivo é a classe de palavras que usamos para nomear:",
     tip: "Pensa em palavras que dão nome às coisas ao seu redor: \"cachorro\", \"escola\", \"lápis\" — todas nomeiam algo.",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um substantivo?",
     tip: "Pensa em qual dessas palavras dá nome a um ser vivo — as outras descrevem uma ação, uma característica ou um jeito de fazer algo.",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Substantivo comum é aquele que nomeia:",
     tip: "Pensa na palavra \"menino\" — ela pode ser qualquer menino do mundo, não um específico. Isso é um substantivo comum!",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Substantivo próprio é aquele que nomeia:",
     tip: "Pensa no nome \"Bernardo\" — ele não se refere a qualquer menino, mas sim a uma pessoa específica. Isso é um substantivo próprio!",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras a seguir é um substantivo próprio?",
     tip: "Pensa em qual dessas palavras é o nome específico de um lugar — as outras são nomes gerais, que servem para qualquer cidade, escola ou menino.",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Na frase \"O gato de Bernardo se chama Miau\", qual palavra é um substantivo próprio?",
     tip: "Pensa em qual palavra da frase é um nome específico de uma pessoa, começando com letra maiúscula.",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Complete: \"Ana mora na cidade de ___.\" A palavra que completa essa frase, sendo um substantivo próprio, poderia ser:",
     tip: "Pensa em qual dessas opções é o nome específico de uma cidade, e não uma palavra geral.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Quais das palavras a seguir são todas substantivos comuns?",
     tip: "Pensa em quais palavras nomeiam objetos de forma geral, sem serem nomes específicos de pessoas ou lugares.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Na frase \"O rio Amazonas é muito grande\", a palavra \"Amazonas\" é um substantivo:",
     tip: "Pensa: \"Amazonas\" é o nome específico de um rio, não qualquer rio. Isso o torna um substantivo próprio.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Escreva mentalmente o nome do seu melhor amigo ou amiga. Esse nome é um exemplo de substantivo:",
     tip: "Pensa: o nome de uma pessoa específica, como o do seu amigo, é sempre escrito com letra maiúscula, porque é um substantivo próprio.",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Adjetivo é a classe de palavras que usamos para:",
     tip: "Pensa em palavras como \"bonito\", \"grande\" e \"alegre\" — elas descrevem como algo ou alguém é.",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na frase \"O cachorro é fofo\", qual palavra é o adjetivo?",
     tip: "Pensa em qual palavra da frase descreve uma característica do cachorro.",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um adjetivo?",
     tip: "Pensa em qual dessas palavras descreve um sentimento ou uma característica, e não nomeia algo nem indica uma ação.",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na frase \"A flor amarela é linda\", quantos adjetivos aparecem?",
     tip: "Procure as palavras que descrevem características da flor: uma fala da cor, e outra fala da beleza dela.",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Complete a frase com um adjetivo adequado: \"O elefante é muito ___.\"",
     tip: "Pensa em uma característica física do elefante — algo que descreve o tamanho dele.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na frase \"Bernardo é um menino esperto e curioso\", os adjetivos são:",
     tip: "Pensa em quais palavras descrevem características do Bernardo, e não o nomeiam.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual frase usa um adjetivo para descrever o céu?",
     tip: "Pensa em qual frase descreve uma característica (uma cor, por exemplo) do céu, e não uma ação ou posição.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Escolha o adjetivo que combina melhor com a palavra \"sopa\": \"A sopa está ___.\"",
     tip: "Pensa em uma característica que descreve como a sopa está, relacionada à temperatura dela.",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Na frase \"A casa amarela tem um jardim bonito\", quais são os substantivos?",
     tip: "Pensa em quais palavras nomeiam coisas na frase, e não descrevem características.",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Por que os adjetivos são importantes em um texto?",
     tip: "Pensa em como fica mais fácil imaginar uma cena quando sabemos as características das coisas, como cor, tamanho e jeito.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Na frase \"Bernardo tem um cachorro peludo chamado Bidu\", identifique o substantivo próprio:",
     tip: "Pensa em qual palavra é o nome específico do cachorro, e não uma característica ou o nome geral do animal.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na mesma frase \"Bernardo tem um cachorro peludo chamado Bidu\", qual é o adjetivo?",
     tip: "Pensa em qual palavra descreve uma característica do cachorro, relacionada ao pelo dele.",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Leia: \"A professora simpática ensinou uma história interessante para os alunos.\" Quais são os substantivos comuns nessa frase?",
     tip: "Pensa em quais palavras nomeiam pessoas ou coisas na frase, sem descrever características.",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Marque a frase que tem um substantivo próprio e um adjetivo:",
     tip: "Pensa em qual frase tem um nome específico de pessoa (com letra maiúscula) junto com uma palavra que descreve uma característica dela.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Bernardo escreveu esta frase sobre seu animal de estimação: \"Meu gato Frajola é preguiçoso.\" Quais palavras são, respectivamente, o substantivo próprio e o adjetivo?",
     tip: "Pensa: \"Frajola\" é o nome específico do gato (substantivo próprio) e \"preguiçoso\" descreve uma característica dele (adjetivo).",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Qual frase usa corretamente um substantivo comum, um substantivo próprio e um adjetivo juntos?",
     tip: "Procure a frase que tem uma palavra geral (substantivo comum), um nome específico (substantivo próprio) e uma característica (adjetivo).",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Transforme em um substantivo próprio: \"A capital de Santa Catarina é uma cidade linda.\" Qual seria o nome dessa cidade?",
     tip: "Pensa no nome específico da capital de Santa Catarina, que é diferente da palavra geral \"cidade\".",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Leia: \"O forte leão rugiu na savana.\" Classifique as palavras destacadas: \"forte\" é um ___ e \"savana\" é um ___.",
     tip: "Pensa: \"forte\" descreve uma característica do leão (adjetivo), e \"savana\" nomeia um lugar de forma geral (substantivo comum).",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Bernardo quer descrever seu melhor amigo em uma frase, usando um substantivo próprio e dois adjetivos. Qual frase está correta?",
     tip: "Procure a frase que tem o nome específico de uma pessoa (substantivo próprio) junto com duas características dela (adjetivos).",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos, qual frase resume melhor a diferença entre substantivo e adjetivo?",
     tip: "Pensa em tudo que vimos: substantivo dá nome (comum ou próprio) e adjetivo descreve uma característica desse nome.",

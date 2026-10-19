@@ -4,6 +4,7 @@ export const questoesPortugues = {
       AV2: [
         {
           id: 1,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Leia o texto abaixo e responda: Antes de começar o jogo, todos dizem \"stop\" e mostram uma quantidade de dedos. Essa orientação indica:",
           tip: "Sempre pense: o \"stop\" com dedos serve pra definir algo antes do jogo começar → isso é a letra.",
@@ -30,6 +31,7 @@ export const questoesPortugues = {
         },
         {
           id: 2,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Observe as palavras: quarto – queijo. Em qual palavra o U é pronunciado?",
           tip: "Em QU + A (qua) → o U aparece no som (quar-to). Em QUE / QUI → geralmente o U \"some\" (quei-jo)",
@@ -48,6 +50,7 @@ export const questoesPortugues = {
         },
         {
           id: 3,
+          theme: "Ortografia",
           type: "true_false_multiple",
           text: "Marque V para verdadeiro e F para falso:",
           tip: "Guarda isso como regra rápida: CE, CI → S | CA, CO, CU → K | GE, GI → J",
@@ -79,6 +82,7 @@ export const questoesPortugues = {
         },
         {
           id: 4,
+          theme: "Ortografia",
           type: "matching",
           text: "Ligue corretamente as palavras com o mesmo som do C:",
           tip: "casa / copo → som de K | certo / cidade → som de S. Compare o som, não só a letra!",
@@ -124,6 +128,7 @@ export const questoesPortugues = {
         },
         {
           id: 5,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Qual das palavras tem som de J?",
           tip: "Se tiver GE ou GI, o som é de J. ge-lo = \"jelo\"",
@@ -150,6 +155,7 @@ export const questoesPortugues = {
         },
         {
           id: 6,
+          theme: "Substantivos",
           type: "classification",
           text: "Classifique em (C) comum ou (P) próprio:",
           tip: "Nome de pessoa ou lugar específico → próprio (maiúscula). O resto → comum",
@@ -181,6 +187,7 @@ export const questoesPortugues = {
         },
         {
           id: 7,
+          theme: "Substantivos",
           type: "multiple_choice",
           text: "Qual palavra deve começar com letra maiúscula?",
           tip: "Nome de pessoa sempre começa com letra maiúscula. Se estiver minúsculo → já desconfia que está errado.",
@@ -207,6 +214,7 @@ export const questoesPortugues = {
         },
         {
           id: 8,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "\"O menino correu no parque.\" A palavra correu indica:",
           tip: "Pergunta mágica: \"O que está acontecendo?\" → correu = ação",
@@ -233,6 +241,7 @@ export const questoesPortugues = {
         },
         {
           id: 9,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Marque a alternativa que está no modo imperativo:",
           tip: "Imperativo = ordem, pedido ou conselho. Palavras comuns: faça, coma, estude, vá",
@@ -259,6 +268,7 @@ export const questoesPortugues = {
         },
         {
           id: 10,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Complete com C ou QU: (escolha a alternativa correta)",
           tip: "Antes de E e I → usa QU (que, qui). Antes de A, O, U → usa C (ca, co, cu)",
@@ -285,6 +295,7 @@ export const questoesPortugues = {
         },
         {
           id: 11,
+          theme: "Substantivos",
           type: "multiple_choice",
           text: "Marque a alternativa em que todas as palavras são substantivos próprios:",
           tip: "Substantivos próprios são nomes específicos de pessoas, países ou cidades (com iniciais maiúsculas).",
@@ -311,6 +322,7 @@ export const questoesPortugues = {
         },
         {
           id: 12,
+          theme: "Substantivos",
           type: "multiple_choice",
           text: "Marque a alternativa em que todas as palavras são substantivos comuns:",
           tip: "Substantivos comuns são nomes genéricos de coisas, sem necessidade de maiúscula.",
@@ -337,6 +349,7 @@ export const questoesPortugues = {
         },
         {
           id: 13,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Leia a frase: \"Carlos estudou e depois brincou com seus amigos.\" Os verbos da frase são:",
           tip: "Verbos são palavras que indicam ações. \"estudou\" e \"brincou\" são ações!",
@@ -363,6 +376,7 @@ export const questoesPortugues = {
         },
         {
           id: 14,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Complete com GU ou G:",
           tip: "GU usa-se antes de E (guerr...). G usa-se antes de E quando tem som de J (gel-o).",
@@ -389,6 +403,7 @@ export const questoesPortugues = {
         },
         {
           id: 15,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Complete com C ou QU:",
           tip: "Antes de A, O, U → usa C. Antes de E, I → usa QU.",
@@ -415,6 +430,7 @@ export const questoesPortugues = {
         },
         {
           id: 16,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Assinale a alternativa correta: O QU é usado antes das vogais:",
           tip: "Regra: QU + E ou I = som de \"k\". Ex: quero, quero.",
@@ -441,6 +457,7 @@ export const questoesPortugues = {
         },
         {
           id: 17,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Leia: \"Feche a porta e apague a luz.\" Os verbos estão no modo:",
           tip: "Imperativo é quando você dá uma ordem ou pedido: \"feche\", \"apague\".",
@@ -467,6 +484,7 @@ export const questoesPortugues = {
         },
         {
           id: 18,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Marque três verbos no imperativo:",
           tip: "Verbos no imperativo são ordens: corra! pule! sente!",
@@ -493,6 +511,7 @@ export const questoesPortugues = {
         },
         {
           id: 19,
+          theme: "Classes de palavras",
           type: "true_false_multiple",
           text: "Marque V para verdadeiro e F para falso:",
           tip: "Verbos = ação | Substantivos = nomear | Adjetivos = qualidade",
@@ -524,6 +543,7 @@ export const questoesPortugues = {
         },
         {
           id: 20,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Leia: \"A menina abriu a mochila e pegou o caderno.\" O que a menina fez?",
           tip: "A frase mostra duas ações: abriu e pegou.",
@@ -550,6 +570,7 @@ export const questoesPortugues = {
         },
         {
           id: 21,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Escreva os verbos da frase: \"Pedro correu, caiu e levantou.\"",
           tip: "Os verbos são as ações: correu, caiu, levantou.",
@@ -576,6 +597,7 @@ export const questoesPortugues = {
         },
         {
           id: 22,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Assinale a alternativa correta: A palavra escrita corretamente é:",
           tip: "QUEIJO = QU + E + I + J + O. Regra: antes de E e I usa QU.",
@@ -602,6 +624,7 @@ export const questoesPortugues = {
         },
         {
           id: 23,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Complete: A professora ________ o quadro.",
           tip: "A frase precisa de um verbo. \"apagou\" é a ação que a professora faz.",
@@ -628,6 +651,7 @@ export const questoesPortugues = {
         },
         {
           id: 24,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Marque a alternativa que possui apenas palavras com GU:",
           tip: "GU aparece em: guerra, guitarra, guia.",
@@ -654,6 +678,7 @@ export const questoesPortugues = {
         },
         {
           id: 25,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Marque a alternativa que possui apenas palavras com QU:",
           tip: "QU aparece em: quarto, queijo, quintal.",
@@ -680,6 +705,7 @@ export const questoesPortugues = {
         },
         {
           id: 26,
+          theme: "Construção de frases",
           type: "multiple_choice",
           text: "Organize a frase corretamente: Lucas / para / escola / foi / cedo",
           tip: "Ordem correta: Quem fez → ação → para onde → quando.",
@@ -706,6 +732,7 @@ export const questoesPortugues = {
         },
         {
           id: 27,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Leia a receita: \"Misture os ingredientes. Coloque na forma. Leve ao forno.\" Os verbos sublinhados indicam:",
           tip: "Receitas usam verbos para dar instruções de como fazer algo.",
@@ -732,6 +759,7 @@ export const questoesPortugues = {
         },
         {
           id: 28,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "No cartaz apareceu a palavra: \"QERIDO\". Escreva a palavra corretamente:",
           tip: "A palavra correta é QUERIDO (com QU antes de E).",
@@ -758,6 +786,7 @@ export const questoesPortugues = {
         },
         {
           id: 29,
+          theme: "Substantivos",
           type: "classification",
           text: "Escreva 3 substantivos próprios e 3 substantivos comuns:",
           tip: "Próprio = nome específico (maiúscula). Comum = nome genérico (minúscula).",
@@ -779,6 +808,7 @@ export const questoesPortugues = {
         },
         {
           id: 30,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Leia o texto: \"João acordou cedo. Escovou os dentes. Tomou café e foi para a escola.\" Responda: Quem aparece no texto?",
           tip: "O texto fala sobre João: ele acordou, escovou, tomou café e foi para a escola.",
@@ -809,6 +839,7 @@ export const questoesPortugues = {
       AV1: [
         {
           id: 1,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "Uma campanha de conscientização serve para:",
           tip: "Campanhas de conscientização visam educar e alertar sobre temas importantes.",
@@ -835,6 +866,7 @@ export const questoesPortugues = {
         },
         {
           id: 2,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No cartaz sobre a dengue, o tema principal é:",
           tip: "Cartazes sobre dengue focam na prevenção da doença transmitida pelo mosquito.",
@@ -861,6 +893,7 @@ export const questoesPortugues = {
         },
         {
           id: 3,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "O mosquito Aedes aegypti transmite:",
           tip: "O Aedes aegypti é o mosquito transmissor da dengue.",
@@ -887,6 +920,7 @@ export const questoesPortugues = {
         },
         {
           id: 4,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "O slogan \"Não crie seu maior inimigo em casa\" chama atenção para:",
           tip: "O slogan refere-se ao combate ao mosquito Aedes, evitando água parada.",
@@ -913,6 +947,7 @@ export const questoesPortugues = {
         },
         {
           id: 5,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "O público-alvo dessa campanha é:",
           tip: "Campanhas de saúde pública visam toda a população.",
@@ -939,6 +974,7 @@ export const questoesPortugues = {
         },
         {
           id: 6,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No cartaz sobre economia de água, a mensagem principal é:",
           tip: "Cartazes sobre água promovem o uso consciente e economia.",
@@ -965,6 +1001,7 @@ export const questoesPortugues = {
         },
         {
           id: 7,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "O objetivo de um cartaz de conscientização é:",
           tip: "Cartazes conscientizam sobre comportamentos positivos.",
@@ -991,6 +1028,7 @@ export const questoesPortugues = {
         },
         {
           id: 8,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "As imagens em um cartaz ajudam:",
           tip: "Imagens tornam o cartaz mais atrativo e compreensível.",
@@ -1017,6 +1055,7 @@ export const questoesPortugues = {
         },
         {
           id: 9,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "A linguagem usada nesses cartazes costuma ser:",
           tip: "Cartazes usam linguagem clara para serem entendidos por todos.",
@@ -1043,6 +1082,7 @@ export const questoesPortugues = {
         },
         {
           id: 10,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "Uma campanha deve atingir:",
           tip: "Campanhas são eficazes quando alcançam muitas pessoas.",
@@ -1069,6 +1109,7 @@ export const questoesPortugues = {
         },
         {
           id: 11,
+          theme: "Encontros consonantais",
           type: "multiple_choice",
           text: "Qual palavra apresenta encontro consonantal?",
           tip: "Encontro consonantal ocorre quando duas consoantes se encontram, como em \"prato\".",
@@ -1095,6 +1136,7 @@ export const questoesPortugues = {
         },
         {
           id: 12,
+          theme: "Encontros consonantais",
           type: "multiple_choice",
           text: "Na palavra \"prato\", o encontro consonantal é:",
           tip: "Em \"prato\", as consoantes \"p\" e \"r\" formam encontro consonantal.",
@@ -1121,6 +1163,7 @@ export const questoesPortugues = {
         },
         {
           id: 13,
+          theme: "Encontros consonantais",
           type: "multiple_choice",
           text: "Qual palavra possui encontro consonantal?",
           tip: "\"Branco\" tem encontro consonantal \"br\".",
@@ -1147,6 +1190,7 @@ export const questoesPortugues = {
         },
         {
           id: 14,
+          theme: "Encontros consonantais",
           type: "multiple_choice",
           text: "Em \"trator\", o encontro consonantal é:",
           tip: "\"Trator\" começa com encontro consonantal \"tr\".",
@@ -1173,6 +1217,7 @@ export const questoesPortugues = {
         },
         {
           id: 15,
+          theme: "Encontros consonantais",
           type: "multiple_choice",
           text: "Qual opção apresenta apenas encontros consonantais?",
           tip: "Prato (pr), branco (br), trem (tr) têm encontros consonantais.",
@@ -1199,6 +1244,7 @@ export const questoesPortugues = {
         },
         {
           id: 16,
+          theme: "Dígrafos",
           type: "multiple_choice",
           text: "Qual palavra possui dígrafo?",
           tip: "\"Chuva\" tem o dígrafo \"ch\".",
@@ -1225,6 +1271,7 @@ export const questoesPortugues = {
         },
         {
           id: 17,
+          theme: "Dígrafos",
           type: "multiple_choice",
           text: "Na palavra \"chuveiro\", o dígrafo é:",
           tip: "\"Chuveiro\" tem dígrafo \"ch\" no início.",
@@ -1251,6 +1298,7 @@ export const questoesPortugues = {
         },
         {
           id: 18,
+          theme: "Dígrafos",
           type: "multiple_choice",
           text: "Qual palavra possui dígrafo?",
           tip: "\"Banho\" tem dígrafo \"nh\".",
@@ -1277,6 +1325,7 @@ export const questoesPortugues = {
         },
         {
           id: 19,
+          theme: "Dígrafos",
           type: "multiple_choice",
           text: "Na palavra \"ninho\", o dígrafo é:",
           tip: "\"Ninho\" tem dígrafo \"nh\".",
@@ -1303,6 +1352,7 @@ export const questoesPortugues = {
         },
         {
           id: 20,
+          theme: "Dígrafos",
           type: "multiple_choice",
           text: "Qual alternativa apresenta apenas dígrafos?",
           tip: "Chuva (ch), banho (nh), ninho (nh) têm dígrafos.",
@@ -1329,6 +1379,7 @@ export const questoesPortugues = {
         },
         {
           id: 21,
+          theme: "Separação silábica",
           type: "multiple_choice",
           text: "A separação correta de \"chuveiro\" é:",
           tip: "Separação silábica: chu-vei-ro.",
@@ -1355,6 +1406,7 @@ export const questoesPortugues = {
         },
         {
           id: 22,
+          theme: "Separação silábica",
           type: "multiple_choice",
           text: "A palavra \"banhos\" separa-se:",
           tip: "Separação: ba-nhos.",
@@ -1381,6 +1433,7 @@ export const questoesPortugues = {
         },
         {
           id: 23,
+          theme: "Separação silábica",
           type: "multiple_choice",
           text: "A separação correta de \"desperdício\" é:",
           tip: "Separação: des-per-dí-cio.",
@@ -1407,6 +1460,7 @@ export const questoesPortugues = {
         },
         {
           id: 24,
+          theme: "Classes de palavras",
           type: "multiple_choice",
           text: "Na frase \"água limpa\", a palavra \"limpa\" é:",
           tip: "\"Limpa\" descreve a qualidade da água, é adjetivo.",
@@ -1433,6 +1487,7 @@ export const questoesPortugues = {
         },
         {
           id: 25,
+          theme: "Adjetivos",
           type: "multiple_choice",
           text: "Adjetivos servem para:",
           tip: "Adjetivos qualificam substantivos.",
@@ -1459,6 +1514,7 @@ export const questoesPortugues = {
         },
         {
           id: 26,
+          theme: "Adjetivos",
           type: "multiple_choice",
           text: "Qual palavra é adjetivo?",
           tip: "\"Bonita\" descreve aparência, é adjetivo.",
@@ -1485,6 +1541,7 @@ export const questoesPortugues = {
         },
         {
           id: 27,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O plural de \"água limpa\" é:",
           tip: "Plural: águas limpas.",
@@ -1511,6 +1568,7 @@ export const questoesPortugues = {
         },
         {
           id: 28,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O feminino de \"organizado\" é:",
           tip: "Feminino de organizado é organizada.",
@@ -1537,6 +1595,7 @@ export const questoesPortugues = {
         },
         {
           id: 29,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O plural de \"consumo consciente\" é:",
           tip: "Plural: consumos conscientes.",
@@ -1563,6 +1622,7 @@ export const questoesPortugues = {
         },
         {
           id: 30,
+          theme: "Adjetivos",
           type: "multiple_choice",
           text: "Na frase \"campanha educativa\", \"educativa\" caracteriza:",
           tip: "\"Educativa\" descreve campanha.",
@@ -1591,6 +1651,7 @@ export const questoesPortugues = {
       AV2: [
         {
           id: 1,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "O texto sobre a Dona Aranha foi escrito principalmente para:",
           tip: "Textos de curiosidade científica servem para ensinar fatos reais.",
@@ -1617,6 +1678,7 @@ export const questoesPortugues = {
         },
         {
           id: 2,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Segundo o texto, qual é uma das funções das aranhas na natureza?",
           tip: "Algumas aranhas ajudam a diminuir a quantidade de mosquitos.",
@@ -1643,6 +1705,7 @@ export const questoesPortugues = {
         },
         {
           id: 3,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "O que significa biodiversidade?",
           tip: "Pense em quantos tipos diferentes de plantas e animais existem.",
@@ -1669,6 +1732,7 @@ export const questoesPortugues = {
         },
         {
           id: 4,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "As aranhas conseguem subir paredes?",
           tip: "Muitas aranhas sobem paredes para procurar alimento ou abrigo.",
@@ -1695,6 +1759,7 @@ export const questoesPortugues = {
         },
         {
           id: 5,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Por que algumas aranhas fazem teias em lugares altos?",
           tip: "Onde há mais insetos, há mais comida para elas.",
@@ -1721,6 +1786,7 @@ export const questoesPortugues = {
         },
         {
           id: 6,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "A chuva forte pode prejudicar as aranhas?",
           tip: "Muitas aranhas constroem abrigos para se proteger da chuva.",
@@ -1747,6 +1813,7 @@ export const questoesPortugues = {
         },
         {
           id: 7,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Quando a teia é destruída, a aranha:",
           tip: "O texto mostra que as aranhas são persistentes.",
@@ -1773,6 +1840,7 @@ export const questoesPortugues = {
         },
         {
           id: 8,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "O texto conta que, mesmo quando sua teia é destruída, a aranha não desiste e logo tece uma nova. Diante disso, o texto considera as aranhas animais:",
           tip: "Persistência significa não desistir facilmente.",
@@ -1799,6 +1867,7 @@ export const questoesPortugues = {
         },
         {
           id: 9,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "Qual é o objetivo principal de um infográfico?",
           tip: "O infográfico mistura imagens e informações.",
@@ -1825,6 +1894,7 @@ export const questoesPortugues = {
         },
         {
           id: 10,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No infográfico, a Dona Aranha sobe paredes para:",
           tip: "Muitas aranhas sobem paredes usando estruturas especiais nas patas.",
@@ -1851,6 +1921,7 @@ export const questoesPortugues = {
         },
         {
           id: 11,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Qual informação aparece no infográfico?",
           tip: "Observe as informações resumidas do infográfico.",
@@ -1877,6 +1948,7 @@ export const questoesPortugues = {
         },
         {
           id: 12,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Segundo o infográfico, a aranha ajuda a:",
           tip: "As aranhas fazem parte da cadeia alimentar.",
@@ -1903,6 +1975,7 @@ export const questoesPortugues = {
         },
         {
           id: 13,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Marque a palavra que possui til (~):",
           tip: "O til indica nasalização.",
@@ -1929,6 +2002,7 @@ export const questoesPortugues = {
         },
         {
           id: 14,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "O til (~) é usado para indicar:",
           tip: "O til não é um acento.",
@@ -1955,6 +2029,7 @@ export const questoesPortugues = {
         },
         {
           id: 15,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Qual palavra apresenta a letra M indicando nasalidade?",
           tip: "Antes de P e B usamos M.",
@@ -1981,6 +2056,7 @@ export const questoesPortugues = {
         },
         {
           id: 16,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Complete: Antes de P e B usamos a letra:",
           tip: "Exemplo: campo, bomba.",
@@ -2007,6 +2083,7 @@ export const questoesPortugues = {
         },
         {
           id: 17,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Qual palavra apresenta a letra N indicando nasalidade?",
           tip: "Antes de várias consoantes usamos N.",
@@ -2033,6 +2110,7 @@ export const questoesPortugues = {
         },
         {
           id: 18,
+          theme: "Ortografia",
           type: "multiple_choice",
           text: "Qual palavra possui nasalização?",
           tip: "Procure o som nasal.",
@@ -2059,6 +2137,7 @@ export const questoesPortugues = {
         },
         {
           id: 19,
+          theme: "Substantivos",
           type: "multiple_choice",
           text: "Substantivos são palavras usadas para:",
           tip: "Pessoas, animais e objetos possuem substantivos.",
@@ -2085,6 +2164,7 @@ export const questoesPortugues = {
         },
         {
           id: 20,
+          theme: "Substantivos",
           type: "multiple_choice",
           text: "Na frase \"A chuva pode derrubar uma aranha\", os substantivos são:",
           tip: "Substantivos dão nome.",
@@ -2111,6 +2191,7 @@ export const questoesPortugues = {
         },
         {
           id: 21,
+          theme: "Substantivos",
           type: "multiple_choice",
           text: "Qual palavra é um substantivo?",
           tip: "Escola é o nome de um lugar.",
@@ -2137,6 +2218,7 @@ export const questoesPortugues = {
         },
         {
           id: 22,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O plural de \"aranha\" é:",
           tip: "Basta acrescentar S.",
@@ -2163,6 +2245,7 @@ export const questoesPortugues = {
         },
         {
           id: 23,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O plural de \"chuva\" é:",
           tip: "Muitas palavras terminadas em A formam plural com S.",
@@ -2189,6 +2272,7 @@ export const questoesPortugues = {
         },
         {
           id: 24,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "Qual palavra está no plural?",
           tip: "Observe a terminação da palavra.",
@@ -2215,6 +2299,7 @@ export const questoesPortugues = {
         },
         {
           id: 25,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O feminino de \"menino\" é:",
           tip: "O final da palavra muda.",
@@ -2241,6 +2326,7 @@ export const questoesPortugues = {
         },
         {
           id: 26,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O feminino de \"professor\" é:",
           tip: "Algumas palavras mudam a terminação para formar o feminino.",
@@ -2267,6 +2353,7 @@ export const questoesPortugues = {
         },
         {
           id: 27,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "Na expressão \"aranha fêmea\", a palavra \"fêmea\" indica:",
           tip: "Algumas palavras usam macho e fêmea.",
@@ -2293,6 +2380,7 @@ export const questoesPortugues = {
         },
         {
           id: 28,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O diminutivo de \"aranha\" é:",
           tip: "O diminutivo indica algo menor.",
@@ -2319,6 +2407,7 @@ export const questoesPortugues = {
         },
         {
           id: 29,
+          theme: "Flexão das palavras",
           type: "multiple_choice",
           text: "O aumentativo de \"chuva\" é:",
           tip: "O aumentativo indica algo maior.",
@@ -2345,6 +2434,7 @@ export const questoesPortugues = {
         },
         {
           id: 30,
+          theme: "Artigos",
           type: "multiple_choice",
           text: "Na frase \"As meninas estudam na escola\", qual é o artigo?",
           tip: "Os artigos acompanham os substantivos.",
@@ -2375,6 +2465,7 @@ export const questoesPortugues = {
       AV1: [
         {
           id: 1,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "O diário é um texto usado principalmente para:",
           tip: "Pense no que uma pessoa costuma guardar em um diário sobre sua própria vida. Curiosidade: reler um diário depois de alguns anos pode ajudar a pessoa a perceber quanto ela mudou e cresceu.",
@@ -2401,6 +2492,7 @@ export const questoesPortugues = {
         },
         {
           id: 2,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "Qual alternativa apresenta uma característica comum do diário?",
           tip: "Imagine que você está escrevendo apenas para você mesmo. Curiosidade: muitos diários parecem uma conversa entre quem escreve e a própria folha de papel.",
@@ -2427,6 +2519,7 @@ export const questoesPortugues = {
         },
         {
           id: 3,
+          theme: "Gêneros textuais",
           type: "multiple_choice",
           text: "Em um diário, é comum aparecer:",
           tip: "O diário pode ter uma organização parecida com a de uma carta. Curiosidade: algumas pessoas começam seus textos escrevendo expressões como \"Querido diário\".",
@@ -2453,6 +2546,7 @@ export const questoesPortugues = {
         },
         {
           id: 4,
+          theme: "Tempos verbais",
           type: "multiple_choice",
           text: "No diário, os verbos costumam aparecer muitas vezes no passado porque:",
           tip: "Pense em alguém escrevendo à noite sobre o que fez durante o dia. Curiosidade: o passado também pode ser chamado de pretérito.",
@@ -2479,6 +2573,7 @@ export const questoesPortugues = {
         },
         {
           id: 5,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No trecho, Pilar sonhava em aprender a tocar um instrumento muito ligado às rodas de capoeira brasileira. Ela queria aprender a tocar:",
           tip: "Esse instrumento também aparece em rodas de capoeira. Curiosidade: o berimbau é um instrumento muito ligado à capoeira brasileira.",
@@ -2505,6 +2600,7 @@ export const questoesPortugues = {
         },
         {
           id: 6,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No trecho, a diretora sugeriu que Pilar aprendesse piano ou violão — os instrumentos que \"todo mundo\" costumava escolher. Mas Pilar queria mesmo era aprender berimbau. Por que Pilar ficou incomodada com a pergunta da diretora?",
           tip: "Pilar não queria simplesmente fazer aquilo que \"todo mundo\" fazia. Curiosidade: o texto também mostra a importância de respeitar os diferentes interesses das pessoas.",
@@ -2531,6 +2627,7 @@ export const questoesPortugues = {
         },
         {
           id: 7,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No trecho, o amigo Breno acompanhava Pilar em sua aventura e a ajudou a tentar construir o instrumento. Quem ajudou Pilar a tentar construir um berimbau?",
           tip: "É o amigo que acompanha Pilar em sua aventura. Curiosidade: Breno também aparece conversando com Pilar sobre instrumentos musicais.",
@@ -2557,6 +2654,7 @@ export const questoesPortugues = {
         },
         {
           id: 8,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "No trecho, Pilar e Breno tentaram construir um berimbau usando um cabo de vassoura, arame e uma lata, objetos que encontraram em casa. Para tentar fazer o berimbau, Pilar e Breno usaram materiais como:",
           tip: "Eles improvisaram o instrumento com objetos encontrados em casa. Curiosidade: instrumentos podem ser construídos com diferentes materiais e formatos.",
@@ -2583,6 +2681,7 @@ export const questoesPortugues = {
         },
         {
           id: 9,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Quando Pilar e Breno ouviram o som de um agogô, eles:",
           tip: "O som deixou os personagens curiosos. Curiosidade: o agogô é um instrumento de percussão formado geralmente por campânulas de metal.",
@@ -2609,6 +2708,7 @@ export const questoesPortugues = {
         },
         {
           id: 10,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Depois de entrarem na rede mágica, Pilar e os outros chegaram a um lugar com:",
           tip: "Relembre a descrição feita no final do trecho. Curiosidade: a descrição de um lugar ajuda o leitor a imaginar onde a história está acontecendo.",
@@ -2635,6 +2735,7 @@ export const questoesPortugues = {
         },
         {
           id: 11,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "A palavra já é:",
           tip: "Fale a palavra devagar e conte quantas sílabas ela possui. Curiosidade: palavras formadas por apenas uma sílaba são chamadas de monossílabos.",
@@ -2661,6 +2762,7 @@ export const questoesPortugues = {
         },
         {
           id: 12,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Qual das palavras abaixo é um monossílabo tônico acentuado?",
           tip: "Procure a palavra que possui somente uma sílaba. Curiosidade: monossílabos tônicos são pronunciados com força e podem receber acento dependendo de sua terminação.",
@@ -2687,6 +2789,7 @@ export const questoesPortugues = {
         },
         {
           id: 13,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Qual grupo apresenta somente monossílabos tônicos acentuados?",
           tip: "Todas as palavras escolhidas precisam ter apenas uma sílaba. Curiosidade: \"pé\", \"pó\" e \"nós\" seguem a regra de acentuação dos monossílabos tônicos.",
@@ -2713,6 +2816,7 @@ export const questoesPortugues = {
         },
         {
           id: 14,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Os monossílabos tônicos podem ser acentuados quando terminam em:",
           tip: "Lembre-se dos exemplos: já, chás, pé, mês, pó, nós. Curiosidade: a mesma lista de terminações estudada no capítulo também aparece na regra das oxítonas.",
@@ -2739,6 +2843,7 @@ export const questoesPortugues = {
         },
         {
           id: 15,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Qual palavra está escrita corretamente?",
           tip: "Procure o monossílabo tônico terminado em -o. Curiosidade: o acento gráfico ajuda a representar corretamente a pronúncia de muitas palavras.",
@@ -2765,6 +2870,7 @@ export const questoesPortugues = {
         },
         {
           id: 16,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Na palavra paraná, a sílaba pronunciada com mais força é:",
           tip: "Leia a palavra em voz alta: pa-ra-___. Curiosidade: quando a sílaba mais forte é a última, a palavra é chamada de oxítona.",
@@ -2791,6 +2897,7 @@ export const questoesPortugues = {
         },
         {
           id: 17,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "As palavras paraná e agogô são:",
           tip: "Observe onde está a sílaba tônica nas duas palavras. Curiosidade: \"paraná\" termina em -a, enquanto \"agogô\" termina em -o.",
@@ -2817,6 +2924,7 @@ export const questoesPortugues = {
         },
         {
           id: 18,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Qual alternativa apresenta apenas palavras oxítonas acentuadas?",
           tip: "Nas oxítonas, a sílaba mais forte aparece no final da palavra. Curiosidade: \"café\", \"sofá\" e \"avó\" possuem mais de uma sílaba, diferentemente dos monossílabos.",
@@ -2843,6 +2951,7 @@ export const questoesPortugues = {
         },
         {
           id: 19,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Qual palavra deve receber acento para ficar correta?",
           tip: "Leia as palavras em voz alta e procure a oxítona terminada em -a. Curiosidade: a escrita correta é sofá, com acento agudo.",
@@ -2869,6 +2978,7 @@ export const questoesPortugues = {
         },
         {
           id: 20,
+          theme: "Sílabas e acentuação",
           type: "multiple_choice",
           text: "Qual palavra NÃO precisa de acento?",
           tip: "Nem toda palavra oxítona recebe acento. Curiosidade: a palavra \"papel\" é oxítona, mas sua terminação não pertence à regra de acentuação estudada neste capítulo.",
@@ -2895,6 +3005,7 @@ export const questoesPortugues = {
         },
         {
           id: 21,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Na frase \"Pilar e Breno martelaram um prego\", qual é o verbo?",
           tip: "Procure a palavra que indica aquilo que os personagens fizeram. Curiosidade: os verbos podem indicar ações realizadas por uma ou mais pessoas.",
@@ -2921,6 +3032,7 @@ export const questoesPortugues = {
         },
         {
           id: 22,
+          theme: "Construção de frases",
           type: "multiple_choice",
           text: "Na frase \"Pilar e Breno martelaram um prego\", quem realiza a ação?",
           tip: "Pergunte: \"Quem martelou?\". Curiosidade: em muitas frases, podemos descobrir quem pratica uma ação observando o verbo.",
@@ -2947,6 +3059,7 @@ export const questoesPortugues = {
         },
         {
           id: 23,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Qual das palavras abaixo indica uma ação?",
           tip: "Veja qual palavra mostra algo que alguém fez. Curiosidade: palavras como procuramos, pegamos, achamos e embarcamos são verbos de ação.",
@@ -2973,6 +3086,7 @@ export const questoesPortugues = {
         },
         {
           id: 24,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Na frase \"A professora estava animada\", o verbo estava indica:",
           tip: "A professora não está realizando uma ação; a frase conta como ela se encontrava. Curiosidade: verbos como estar e ficar podem indicar estados.",
@@ -2999,6 +3113,7 @@ export const questoesPortugues = {
         },
         {
           id: 25,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Em qual frase o verbo indica um fenômeno da natureza?",
           tip: "Procure algo que acontece naturalmente no ambiente. Curiosidade: chover, nevar e ventar são exemplos de verbos que podem indicar fenômenos da natureza.",
@@ -3025,6 +3140,7 @@ export const questoesPortugues = {
         },
         {
           id: 26,
+          theme: "Verbos",
           type: "multiple_choice",
           text: "Na frase \"Hoje ventou forte na praia\", a palavra ventou indica:",
           tip: "Ninguém precisa realizar essa ação para que ela aconteça. Curiosidade: o vento é provocado pelo movimento do ar na atmosfera.",
@@ -3051,6 +3167,7 @@ export const questoesPortugues = {
         },
         {
           id: 27,
+          theme: "Tempos verbais",
           type: "multiple_choice",
           text: "Na frase \"Ontem nós procuramos a vassoura\", o verbo está no:",
           tip: "A palavra ontem mostra quando o fato aconteceu. Curiosidade: no diário, encontramos muitos verbos no passado porque ele costuma registrar acontecimentos já vividos.",
@@ -3077,6 +3194,7 @@ export const questoesPortugues = {
         },
         {
           id: 28,
+          theme: "Tempos verbais",
           type: "multiple_choice",
           text: "Na frase \"Eu adoro o meu violão\", o verbo adoro indica algo que acontece:",
           tip: "A pessoa está dizendo como se sente agora. Curiosidade: o presente é usado para falar de algo que acontece no momento da fala ou que é verdadeiro atualmente.",
@@ -3103,6 +3221,7 @@ export const questoesPortugues = {
         },
         {
           id: 29,
+          theme: "Tempos verbais",
           type: "multiple_choice",
           text: "Qual frase apresenta uma ação no futuro?",
           tip: "Procure a frase que fala de algo que ainda vai acontecer. Curiosidade: palavras como amanhã, depois e em breve podem ajudar a identificar ideias de futuro.",
@@ -3129,6 +3248,7 @@ export const questoesPortugues = {
         },
         {
           id: 30,
+          theme: "Tempos verbais",
           type: "multiple_choice",
           text: "Leia: \"Ontem fomos ao parque. Agora estamos brincando em casa. Amanhã iremos à escola.\" Qual é a ordem dos tempos indicados?",
           tip: "Observe os verbos fomos, estamos brincando e iremos — cada um marca um tempo diferente. Curiosidade: os verbos podem mudar de forma para indicar se algo já aconteceu, está acontecendo ou ainda acontecerá.",
@@ -3157,6 +3277,7 @@ export const questoesPortugues = {
       AV2: [
         {
           id: 1,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "A notícia é um texto jornalístico que:",
           tip: "A notícia trata de fatos reais; o conto e a fábula tratam de fatos inventados. Curiosidade: a palavra \"notícia\" vem do latim notitia, que significa \"conhecimento\".",
@@ -3171,6 +3292,7 @@ export const questoesPortugues = {
         },
         {
           id: 2,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "A notícia costuma aparecer em:",
           tip: "Hoje a maior parte das notícias é lida na internet. Curiosidade: o Jornal Joca, citado no capítulo, é um jornal brasileiro feito especialmente para crianças e jovens.",
@@ -3185,6 +3307,7 @@ export const questoesPortugues = {
         },
         {
           id: 3,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "O título, também chamado de manchete, é:",
           tip: "A manchete precisa ser curta e chamar a atenção. Curiosidade: \"manchete\" vem de \"mancha\" — os títulos grandes formavam uma mancha escura na página do jornal.",
@@ -3199,6 +3322,7 @@ export const questoesPortugues = {
         },
         {
           id: 4,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "O subtítulo, também chamado de linha fina, serve para:",
           tip: "A linha fina complementa o título. Curiosidade: o nome vem do fato de ela ser escrita com letras menores e mais finas que as do título.",
@@ -3213,6 +3337,7 @@ export const questoesPortugues = {
         },
         {
           id: 5,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "O lide é o primeiro parágrafo da notícia e responde a perguntas como:",
           tip: "São as 6 perguntas do lide. Curiosidade: \"lide\" vem do inglês lead, que significa \"conduzir\" — é o parágrafo que conduz o leitor.",
@@ -3227,6 +3352,7 @@ export const questoesPortugues = {
         },
         {
           id: 6,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "A parte da notícia que conta mais detalhes sobre o assunto é:",
           tip: "O corpo traz os detalhes que não cabem no lide. Dica: jornalistas escrevem em \"pirâmide invertida\" — o mais importante vem primeiro, para quem lê só o começo já entender o essencial.",
@@ -3241,6 +3367,7 @@ export const questoesPortugues = {
         },
         {
           id: 7,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "A foto-legenda é o elemento que:",
           tip: "Cuidado para não confundir imagem (a foto em si) com foto-legenda (o textinho que explica a foto).",
@@ -3255,6 +3382,7 @@ export const questoesPortugues = {
         },
         {
           id: 8,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "Em uma notícia, a fonte mostra:",
           tip: "Atenção: aqui \"fonte\" não é o tipo de letra do computador! É a indicação de onde o texto foi publicado — como o endereço do site e a data de acesso.",
@@ -3269,6 +3397,7 @@ export const questoesPortugues = {
         },
         {
           id: 9,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "Os critérios de noticiabilidade indicam:",
           tip: "São as \"perguntas-filtro\" que o jornalista faz antes de decidir se um fato vira notícia. Curiosidade: uma mesma notícia costuma atender a vários critérios ao mesmo tempo.",
@@ -3283,6 +3412,7 @@ export const questoesPortugues = {
         },
         {
           id: 10,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "O critério da atualidade faz a pergunta:",
           tip: "Atualidade = recente. Dica: pense \"aconteceu agora ou faz pouco tempo?\".",
@@ -3297,6 +3427,7 @@ export const questoesPortugues = {
         },
         {
           id: 11,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "\"É a primeira vez que esse acontecimento ocorre?\" Essa pergunta corresponde ao critério de:",
           tip: "\"Inédito\" significa \"nunca visto antes\". Curiosidade: por isso as primeiras vezes viram manchete — primeiro voo, primeira vacina, primeiro título.",
@@ -3311,6 +3442,7 @@ export const questoesPortugues = {
         },
         {
           id: 12,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "O critério da proximidade está presente quando:",
           tip: "Proximidade = perto de quem lê. Dica: uma chuva forte em Florianópolis interessa mais a quem mora aqui do que a quem mora em outro país.",
@@ -3325,6 +3457,7 @@ export const questoesPortugues = {
         },
         {
           id: 13,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "Quando um acontecimento é importante para a vida ou o dia a dia das pessoas, dizemos que ele tem:",
           tip: "Relevância = importa para a vida das pessoas. Dica: pense \"isso muda ou afeta o meu dia a dia?\".",
@@ -3339,6 +3472,7 @@ export const questoesPortugues = {
         },
         {
           id: 14,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "Uma notícia que emociona, inspira ou diverte, mostrando ações de solidariedade e histórias de superação, atende ao critério de:",
           tip: "Interesse humano é o critério das histórias que emocionam. Curiosidade: a notícia do cão Teddy atende bem a esse critério, por mostrar superação e vínculo.",
@@ -3353,6 +3487,7 @@ export const questoesPortugues = {
         },
         {
           id: 15,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "O critério do conflito aparece quando o acontecimento:",
           tip: "Conflito não é só briga: também é debate de ideias ou um desafio a ser resolvido.",
@@ -3367,6 +3502,7 @@ export const questoesPortugues = {
         },
         {
           id: 16,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "A notícia sobre o cão Teddy foi escrita e publicada em 2025, no mesmo período em que o caso aconteceu. Isso mostra que ela atende principalmente ao critério de:",
           tip: "A notícia foi publicada logo após o fato — isso é atualidade. Dica: na questão 4 da atividade do livro, \"Sim. Ela foi escrita em 2025\" responde justamente à pergunta sobre atualidade.",
@@ -3381,6 +3517,7 @@ export const questoesPortugues = {
         },
         {
           id: 17,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Os cães-guia são treinados especialmente para:",
           tip: "Cães-guia = olhos emprestados. Curiosidade: no Brasil, a lei garante que o cão-guia entre com seu dono em ônibus, lojas, escolas e hospitais.",
@@ -3395,6 +3532,7 @@ export const questoesPortugues = {
         },
         {
           id: 18,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Os cães ouvintes colaboram com pessoas com deficiência auditiva:",
           tip: "Cães ouvintes = ouvidos emprestados. Eles tocam a pessoa com a patinha para avisar sobre um som importante.",
@@ -3409,6 +3547,7 @@ export const questoesPortugues = {
         },
         {
           id: 19,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Cães de serviço são treinados para trabalhar com pessoas que vivem com autismo, epilepsia, diabetes ou outras condições. Entre suas tarefas, eles podem:",
           tip: "Cães de serviço fazem várias tarefas. Curiosidade: alguns conseguem perceber mudanças no cheiro do corpo e alertar antes de uma crise acontecer.",
@@ -3423,6 +3562,7 @@ export const questoesPortugues = {
         },
         {
           id: 20,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Na Terapia Assistida por Animais (TAA), os cavalos são usados:",
           tip: "Equoterapia é a terapia feita com cavalos. Curiosidade: \"equo\" vem do latim equus, que significa cavalo.",
@@ -3437,6 +3577,7 @@ export const questoesPortugues = {
         },
         {
           id: 21,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "Ainda sobre a TAA, os gatos e os coelhos podem:",
           tip: "Gatos e coelhos são pequenos e calmos, ideais para hospitais infantis. Atenção: quem reduz a solidão em asilos e clínicas são os cães.",
@@ -3451,6 +3592,7 @@ export const questoesPortugues = {
         },
         {
           id: 22,
+          theme: "Leitura e compreensão",
           type: "multiple_choice",
           text: "A base do treinamento dos cães de assistência está, principalmente:",
           tip: "O treinamento é importante, mas a base é o vínculo. Curiosidade: esse treinamento é longo — pode durar cerca de dois anos.",
@@ -3465,6 +3607,7 @@ export const questoesPortugues = {
         },
         {
           id: 23,
+          theme: "Notícias",
           type: "multiple_choice",
           text: "Uma notícia sobre um evento nacional de robótica em Santo André destacou os projetos de três estudantes da cidade. Esse tipo de notícia tem como função principal:",
           tip: "A notícia relata o destaque de três estudantes. Curiosidade: Arthur (11 anos) criou um \"robô de garimpo\" para evitar riscos na mineração; Antônio (13) fez uma prótese de mão robótica com inteligência artificial e peças impressas em 3D; e Davi (13) desenvolveu entregas com drones autônomos.",
@@ -3479,6 +3622,7 @@ export const questoesPortugues = {
         },
         {
           id: 24,
+          theme: "Pronúncia das palavras",
           type: "multiple_choice",
           text: "Nas palavras depende, tratamento e como, as vogais e e o do final muitas vezes são pronunciadas como:",
           tip: "Falamos \"dependi\", \"tratamentu\", \"comu\" — mas escrevemos com e e o.",
@@ -3493,6 +3637,7 @@ export const questoesPortugues = {
         },
         {
           id: 25,
+          theme: "Pronúncia das palavras",
           type: "multiple_choice",
           text: "Sobre essa mudança na pronúncia das vogais e e o no final das palavras, é correto afirmar que ela:",
           tip: "Dica de ouro para o ditado: a fala pode mudar, a escrita não. Por isso não se escreve \"bolu\" nem \"genti\".",
@@ -3507,6 +3652,7 @@ export const questoesPortugues = {
         },
         {
           id: 26,
+          theme: "Pronúncia das palavras",
           type: "multiple_choice",
           text: "As palavras avô, até e você são oxítonas ou monossílabos acentuados. Nelas, as vogais e e o do final:",
           tip: "O acento \"segura\" o som original: avô, até, você.",
@@ -3521,6 +3667,7 @@ export const questoesPortugues = {
         },
         {
           id: 27,
+          theme: "Coesão textual",
           type: "multiple_choice",
           text: "Leia: \"O cachorro latiu muito. Ele estava feliz.\" Nesse exemplo, a repetição foi evitada com o uso de:",
           tip: "Pronomes como ele, ela, isso e aquilo substituem palavras já ditas.",
@@ -3535,6 +3682,7 @@ export const questoesPortugues = {
         },
         {
           id: 28,
+          theme: "Coesão textual",
           type: "multiple_choice",
           text: "Leia: \"O gato subiu na árvore. O animal estava fugindo de um cachorro.\" Nesse caso, a repetição foi evitada com o uso de:",
           tip: "\"Animal\" é uma palavra mais geral que \"gato\". Curiosidade: na gramática, essa palavra mais ampla é chamada de hiperônimo.",
@@ -3549,6 +3697,7 @@ export const questoesPortugues = {
         },
         {
           id: 29,
+          theme: "Coesão textual",
           type: "multiple_choice",
           text: "Leia: \"Eu gosto de cachorros e você de gatos.\" Nessa frase, a repetição de \"gostar de\" foi evitada porque essa parte foi:",
           tip: "Quando a parte omitida é facilmente entendida, o texto fica mais leve. Curiosidade: esse recurso tem nome: elipse.",
@@ -3563,6 +3712,7 @@ export const questoesPortugues = {
         },
         {
           id: 30,
+          theme: "Coesão textual",
           type: "multiple_choice",
           text: "Leia: \"Teddy é um cão de assistência. Teddy ajuda a garota a se desenvolver.\" Qual palavra ou expressão pode substituir o trecho destacado para evitar a repetição?",
           tip: "\"O cão\" e \"O cachorro\" servem; \"O menino\" não, porque Teddy é um cachorro, e \"A garota\" é outra personagem.",

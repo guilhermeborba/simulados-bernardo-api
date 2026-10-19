@@ -1,6 +1,7 @@
 export const questoesPortugues3AnoB3Av2 = [
   {
     id: 1,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Antes das letras P e B, usamos sempre a letra:",
     tip: "Pensa em palavras como \"campo\" e \"também\" — qual letra aparece sempre antes do P e do B?",
@@ -16,6 +17,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Lembra da regra: antes de P, sempre usamos M, e não N.",
@@ -31,6 +33,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Repare que antes do \"b\" em \"também\", a letra certa é o M, seguindo a regrinha do M antes de P e B.",
@@ -46,6 +49,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente: \"O menino gosta de brincar no ___po.\"",
     tip: "Antes do P, a letra certa é sempre M — pensa na regrinha que aprendemos.",
@@ -61,6 +65,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das palavras abaixo está escrita ERRADA?",
     tip: "Procure a palavra que usa \"N\" antes do \"B\", quando o certo seria usar \"M\".",
@@ -76,6 +81,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente: \"Bernardo mora com sua família num apartamento bem ___plo.\"",
     tip: "Antes do P, usamos sempre M, então pensa em qual dessas opções termina com a letra certa.",
@@ -91,6 +97,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Antes do \"b\", a letra correta é sempre M, e não N.",
@@ -106,6 +113,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Marque a alternativa em que todas as palavras estão escritas corretamente:",
     tip: "Lembra da regra do M antes de P e B — procure o grupo em que todas as palavras seguem essa regrinha certinha.",
@@ -121,6 +129,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete a frase corretamente: \"O ___beiro apagou o fogo rapidamente.\"",
     tip: "Antes do \"b\", usamos sempre M — pensa na palavra \"bombeiro\" e complete direitinho.",
@@ -136,6 +145,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Por que é importante seguir a regra do M antes de P e B?",
     tip: "Pensa em como fica mais fácil todo mundo se entender quando escrevemos as palavras do jeito certo.",
@@ -151,6 +161,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "A letra dupla \"SS\" é usada, entre vogais, para fazer o som:",
     tip: "Pensa na palavra \"assado\" — repare que o som do \"SS\" ali é igual ao som do S em \"sapo\", e não o som de Z.",
@@ -166,6 +177,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Pensa no som da palavra: para manter o som de S (e não de Z) entre vogais, usamos duas letras \"S\".",
@@ -181,6 +193,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Pensa no som forte de S na palavra \"assado\" — para manter esse som entre vogais, usamos \"SS\".",
@@ -196,6 +209,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente: \"Bernardo foi ao ___sunto da reunião de pais.\"",
     tip: "Pensa no som forte de S na palavra \"assunto\" — para manter esse som entre vogais, usamos \"SS\".",
@@ -211,6 +225,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das palavras abaixo está escrita ERRADA?",
     tip: "Pensa no som forte de S na palavra \"passeio\" — ela precisa de duas letras \"S\" para manter esse som.",
@@ -226,6 +241,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente: \"A ___ da massa de pizza precisa descansar antes de assar.\"",
     tip: "Pensa no som forte de S na palavra \"massa\" — usamos \"SS\" para manter esse som entre as vogais.",
@@ -241,6 +257,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Pensa no som forte de S na palavra \"osso\" — usamos \"SS\" para manter esse som entre as vogais.",
@@ -256,6 +273,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente a frase: \"O pássaro construiu seu ninho na ___vore.\"",
     tip: "Essa palavra não tem \"SS\", mas precisa de um acento — lembra da forma certinha de escrever \"árvore\".",
@@ -271,6 +289,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Marque a alternativa em que todas as palavras estão escritas corretamente:",
     tip: "Lembra da regra do \"SS\" entre vogais para manter o som forte de S — procure o grupo certinho.",
@@ -286,6 +305,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Por que usamos \"SS\" e não apenas um \"S\" em palavras como \"assado\" e \"passado\"?",
     tip: "Pensa em como soaria a palavra \"casa\" se trocássemos o som do S — é esse cuidado que o \"SS\" resolve entre vogais.",
@@ -301,6 +321,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "A letra X pode ter vários sons, mas em muitas palavras, junto com CH, representa o som:",
     tip: "Pensa em palavras como \"xícara\" e \"chuva\" — repare que o som inicial das duas é bem parecido.",
@@ -316,6 +337,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra usa a letra X com som de CH?",
     tip: "Pensa em como se pronuncia \"xícara\" — o som do X ali é igual ao som do CH em \"chuva\".",
@@ -331,6 +353,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente com CH?",
     tip: "Pensa na palavra que representa a água caindo do céu — ela é escrita com \"CH\", não com \"X\".",
@@ -346,6 +369,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente: \"Bernardo tomou banho de ___uva no parquinho.\"",
     tip: "Lembra da forma certinha de escrever a palavra que indica a água caindo do céu.",
@@ -361,6 +385,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Pensa na palavra usada para abrir e fechar portas — ela é escrita com \"CH\".",
@@ -376,6 +401,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Marque a alternativa em que todas as palavras usam corretamente X ou CH:",
     tip: "Lembra que \"xícara\" usa X (som de CH) e \"chuva\" e \"chave\" usam CH — procure o grupo certinho.",
@@ -391,6 +417,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual palavra está escrita corretamente?",
     tip: "Pensa na palavra usada para dizer que algo está se movendo ou sendo tocado — ela é escrita com X.",
@@ -406,6 +433,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Complete corretamente a frase: \"Ele comprou uma ___ícara nova para tomar chá.\"",
     tip: "Lembra da palavra \"xícara\" — ela é uma das exceções que usam X com som de CH.",
@@ -421,6 +449,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Qual das frases abaixo está toda escrita corretamente?",
     tip: "Revise cada palavra da frase: \"chuva\" com CH, \"campo\" com M antes do P, \"chá\" com CH e \"xícara\" com X.",
@@ -436,6 +465,7 @@ export const questoesPortugues3AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Ortografia",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos sobre ortografia neste bimestre, qual é a lição mais importante para levarmos?",
     tip: "Pensa em tudo que vimos: M antes de P/B, SS para manter o som forte de S, e as palavras com X e CH.",
