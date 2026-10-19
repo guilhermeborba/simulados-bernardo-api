@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB4Av1 = [
   {
     id: 1,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é o Sol?",
     tip: "Pensa em algo que \"brilha com luz própria\", diferente da Lua.",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a Terra?",
     tip: "Pensa no nome do planeta em que vivemos, com montanhas, oceanos e florestas.",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a Lua?",
     tip: "Pensa no que fica girando ao redor do nosso planeta, iluminando o céu à noite.",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O movimento de rotação da Terra é responsável por:",
     tip: "Pensa no movimento que a Terra faz \"girando em torno de si mesma\", como um pião.",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O movimento de translação da Terra é responsável por:",
     tip: "Pensa na palavra \"translação\", que lembra a Terra se deslocando por um caminho longo ao redor de outro astro.",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Enquanto é dia em um lado da Terra, do outro lado é:",
     tip: "Pensa em como a Terra gira e só um lado fica voltado para o Sol de cada vez.",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "A luz que vemos vindo da Lua durante a noite é, na verdade:",
     tip: "Pensa em como a Lua não brilha sozinha — ela é como um \"espelho\" no céu.",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Quantos planetas fazem parte do Sistema Solar, girando ao redor do Sol?",
     tip: "Conta os planetas que você já deve ter ouvido falar: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno.",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o planeta mais próximo do Sol?",
     tip: "Pensa no planeta que, por estar tão perto do Sol, é também um dos mais quentes.",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "A Terra é o planeta do Sistema Solar que fica:",
     tip: "Pensa no que torna nosso planeta especial e diferente dos outros que conhecemos.",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Quanto tempo, aproximadamente, a Lua leva para dar uma volta completa ao redor da Terra?",
     tip: "Pensa em quantos dias existem, mais ou menos, em um mês do calendário.",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Como se chama a fase da Lua em que ela fica totalmente iluminada e visível, parecendo um círculo completo no céu?",
     tip: "Pensa em qual fase a Lua está \"completamente cheia\" de luz.",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Como se chama a fase da Lua em que ela praticamente não é visível no céu, porque está toda escura?",
     tip: "Pensa no \"começo\" do ciclo da Lua, quando o show de luz ainda não apareceu.",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Qual é a ordem correta das fases da Lua em um ciclo completo?",
     tip: "Pensa em como a luz vai \"aparecendo\" pouco a pouco até ficar cheia, e depois vai \"diminuindo\" até sumir de novo.",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "As fases da Lua acontecem por causa:",
     tip: "Pensa em como a Lua sempre tem uma metade iluminada pelo Sol, mas nós vemos partes diferentes dela dependendo de onde ela está.",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O Sol é importante para a vida na Terra principalmente porque:",
     tip: "Pensa no que as plantas precisam para fazer fotossíntese e no que nos aquece nos dias frios.",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O Sol está localizado, em relação à Terra e aos outros planetas, no:",
     tip: "Pensa em qual astro fica \"no meio\" enquanto todos os planetas giram ao seu redor.",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Diferente das estrelas, os planetas:",
     tip: "Pensa em como enxergamos os planetas à noite: eles brilham porque refletem luz, assim como a Lua.",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O tempo que a Terra leva para dar uma volta completa ao redor do Sol é usado para definir:",
     tip: "Lembra quantos dias, mais ou menos, tem essa volta completa da Terra ao redor do Sol.",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que a Lua e os planetas têm em comum, em relação à luz?",
     tip: "Pensa em tudo que aprendemos hoje sobre de onde vem o brilho que vemos no céu à noite.",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Uma noite, Bernardo olhou para o céu e viu a Lua bem redondinha e brilhante, parecendo um círculo completo. Que fase da Lua ele estava vendo?",
     tip: "Lembra qual fase da Lua deixa ela parecendo um círculo bem iluminado no céu.",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Bernardo perguntou ao pai por que ele via o Sol nascer todos os dias sempre no mesmo lugar do céu, mais ou menos. O pai explicou que isso acontece por causa:",
     tip: "Lembra qual movimento da Terra é responsável por formar o dia e a noite, fazendo o Sol \"aparecer\" e \"desaparecer\" no céu.",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Bernardo quer saber por que, à noite, algumas pessoas em outro país estão dormindo enquanto ele está acordado de dia. Isso acontece porque:",
     tip: "Pensa em como a Terra gira e só uma parte dela fica iluminada pelo Sol de cada vez.",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Se Bernardo observar a Lua todas as noites durante um mês, ele vai perceber que:",
     tip: "Lembra o ciclo completo de fases que a Lua passa, mês após mês.",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Bernardo aprendeu que a Terra faz dois movimentos importantes: um em torno de si mesma e outro em torno do Sol. Esses movimentos se chamam, respectivamente:",
     tip: "Lembra qual movimento forma o dia e a noite (o primeiro) e qual forma o ano (o segundo).",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Se não existisse o movimento de rotação da Terra, o que provavelmente aconteceria?",
     tip: "Pensa em como a rotação faz cada parte da Terra \"se revezar\" recebendo a luz do Sol.",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Bernardo desenhou o Sol bem no centro de um desenho, com os planetas girando ao redor dele. Esse desenho representa:",
     tip: "Pensa em qual conjunto reúne o Sol e todos os planetas que giram ao seu redor.",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre por que a Lua muda de formato no céu ao longo do mês, mesmo sem mudar de tamanho de verdade. A explicação correta é que:",
     tip: "Lembra que a Lua tem sempre uma metade iluminada pelo Sol, mas a parte que enxergamos da Terra muda de posição.",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Depois de estudar sobre o Sol, a Terra e a Lua, Bernardo resumiu para o pai o que aprendeu. Qual resumo está correto?",
     tip: "Pensa em tudo que aprendemos hoje sobre o que é cada um desses três astros.",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é a melhor lição que Bernardo pode levar depois de estudar sobre a Terra, o Sol e a Lua?",
     tip: "Pensa no quanto é interessante aprender sobre o espaço só observando o céu à nossa volta.",

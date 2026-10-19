@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB1Av1 = [
   {
     id: 1,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma MISTURA acontece quando:",
     tip: "Pensa: quando você junta suco em pó com água, você está fazendo o quê com esses dois materiais?",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Qual destes exemplos é uma mistura do dia a dia?",
     tip: "Pensa numa bebida doce que você já tomou, feita de água e um ingrediente doce!",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Quando misturamos água e óleo, eles:",
     tip: "Pensa: já viu um molho de salada com água e óleo? Eles ficam juntos ou se separam?",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Matéria e materiais",
     type: "multiple_choice",
     text: "Areia e pedrinhas misturadas formam:",
     tip: "Pensa: areia e pedrinhas são dois materiais diferentes colocados juntos!",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "O ar que respiramos é uma mistura de:",
     tip: "Pensa: o ar é feito de uma coisa só, ou de várias coisas juntas?",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Matéria e materiais",
     type: "multiple_choice",
     text: "Ao fazer um suco de frutas com água e açúcar, estamos criando:",
     tip: "Pensa: quando você junta água, fruta e açúcar, você está criando o quê?",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Quando dois materiais são misturados, eles SEMPRE:",
     tip: "Pensa: quando você mistura arroz com feijão no prato, o arroz vira feijão?",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Matéria e materiais",
     type: "multiple_choice",
     text: "Uma salada de frutas, com várias frutas cortadas juntas, é um exemplo de:",
     tip: "Pensa numa salada de frutas com vários tipos diferentes, cortadas e colocadas juntas num pote!",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "O sal de cozinha dissolvido na água forma uma mistura chamada de:",
     tip: "Pensa: quando o sal \"some\" na água, essa mistura especial tem um nome próprio!",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Matéria e materiais",
     type: "multiple_choice",
     text: "Bernardo misturou farinha, ovos e leite para fazer uma massa de bolo. O que ele fez foi criar:",
     tip: "Pensa: farinha, ovos e leite juntos formam o quê, antes de irem ao forno?",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma mistura HOMOGÊNEA é aquela em que:",
     tip: "Pensa numa mistura em que você não consegue ver os pedacinhos separados!",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma mistura HETEROGÊNEA é aquela em que:",
     tip: "Pensa numa mistura em que você consegue ver claramente os diferentes materiais!",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Água e sal dissolvido formam uma mistura:",
     tip: "Pensa: depois que o sal se dissolve, você consegue ver os grãozinhos separados?",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Água e areia formam uma mistura:",
     tip: "Pensa: dá para ver os grãozinhos de areia no fundo do copo?",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma salada com alface, tomate e cenoura é uma mistura:",
     tip: "Pensa numa salada: dá para distinguir a alface, o tomate e a cenoura?",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "O ar, mesmo formado por vários gases, é considerado uma mistura:",
     tip: "Pensa: os gases do ar ficam todos bem espalhados, sem formar \"bolinhas\" separadas!",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Suco de laranja bem coado (sem pedacinhos) é uma mistura:",
     tip: "Pensa: um suco bem coado parece uma coisa só ou dá para ver partes diferentes?",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Arroz com feijão (crus, separados no prato) é uma mistura:",
     tip: "Pensa: dá para distinguir o arroz do feijão no prato?",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Óleo e vinagre, usados para temperar salada, formam uma mistura:",
     tip: "Pensa: óleo e vinagre ficam bem misturados ou dá para ver as duas camadas separadas?",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Bernardo bateu água, morango e açúcar no liquidificador, sem pedacinhos visíveis. Que tipo de mistura ele fez?",
     tip: "Pensa: sem pedacinhos visíveis, o suco parece uma coisa só ou várias partes diferentes?",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Bernardo colocou pedrinhas, areia e água num pote e misturou tudo. Depois de um tempo parado, o que provavelmente aconteceu?",
     tip: "Pedrinhas e areia são mais pesadas que a água — o que costuma acontecer com materiais mais pesados dentro de um líquido?",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Se Bernardo misturar limalha de ferro com areia, ele poderá separar o ferro usando:",
     tip: "Pensa: o que consegue atrair pedacinhos de metal, sem precisar tocar neles?",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Misturar água e vinagre forma uma mistura:",
     tip: "Pensa: dá para ver a água separada do vinagre, ou eles ficam bem juntinhos?",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Misturar arroz cru com pedrinhas (que às vezes aparecem no pacote) forma uma mistura:",
     tip: "Pensa: dá para ver as pedrinhas separadas dos grãos de arroz?",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "O leite do mercado é formado por água, gorduras e outros nutrientes, todos bem misturados. Essa mistura é:",
     tip: "Quando você olha um copo de leite, consegue ver partes separadas, ou parece tudo uma coisa só?",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Bernardo derramou um pouco de óleo dentro de um copo com água. O que ele deve observar?",
     tip: "Lembra da Questão 3? Água e óleo têm o mesmo comportamento aqui também!",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Uma mistura de metal (moedas) com papel (notas) dentro de uma carteira é um exemplo de mistura:",
     tip: "Pensa: dá para distinguir as moedas das notas dentro da carteira?",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Por que é importante estudar as misturas de materiais?",
     tip: "Pensa em quantas coisas ao seu redor são feitas de mais de um material misturado!",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Bernardo tem um copo com areia, pedrinhas e água misturadas. Como ele pode saber se essa mistura é homogênea ou heterogênea?",
     tip: "Pensa: para saber se uma mistura é homogênea ou heterogênea, o que a gente sempre observa com os olhos?",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Misturas",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de aprender sobre misturas de materiais?",
     tip: "Observar e testar coisas da cozinha ajuda muito mais do que só decorar nomes!",

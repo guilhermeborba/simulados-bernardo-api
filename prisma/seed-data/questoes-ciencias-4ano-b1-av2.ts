@@ -1,6 +1,7 @@
 export const questoesCiencias4AnoB1Av2 = [
   {
     id: 1,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Separar misturas serve para:",
     tip: "Pensa: quando você separa o lixo reciclável do lixo comum, você quer juntar mais coisas ou conseguir cada material de volta?",
@@ -16,6 +17,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A CATAÇÃO é um método de separação em que:",
     tip: "Pensa em como você tiraria as pedrinhas de dentro de um saquinho de feijão, usando só as mãos!",
@@ -31,6 +33,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo separou as pedrinhas do feijão, pegando uma por uma com a mão. Esse método se chama:",
     tip: "Pensa: Bernardo pegou as pedrinhas com a própria mão, uma de cada vez. Que método é esse?",
@@ -46,6 +49,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A PENEIRAÇÃO é usada para separar materiais de tamanhos:",
     tip: "Pensa numa peneira de cozinha: ela tem furinhos que deixam passar coisas pequenas e seguram as grandes!",
@@ -61,6 +65,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar a farinha (bem fina) de pedacinhos maiores que caíram nela, qual método é mais indicado?",
     tip: "Pensa: a farinha é bem fininha e os pedacinhos são maiores. Qual instrumento tem furinhos que deixam passar só o fininho?",
@@ -76,6 +81,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A peneira deixa passar os materiais:",
     tip: "Pensa numa peneira: os grãozinhos pequenos conseguem passar pelos furos, mas os pedaços grandes ficam presos!",
@@ -91,6 +97,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar metal de outros materiais, qual instrumento é muito útil?",
     tip: "Pensa: qual objeto consegue atrair pedacinhos de metal, sem precisar tocar neles?",
@@ -106,6 +113,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo quer separar moedas de metal misturadas com pedaços de isopor. Qual seria a forma mais fácil?",
     tip: "Lembra da Questão 7? O mesmo instrumento funciona aqui, já que as moedas são de metal!",
@@ -121,6 +129,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Escolher o método certo de separação depende de:",
     tip: "Pensa em tudo que vimos hoje: escolhemos catação, peneiração ou ímã dependendo de quê, exatamente?",
@@ -136,6 +145,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo tem uma mistura de arroz com pedrinhas grandes. Qual é o método mais indicado?",
     tip: "Pensa: arroz e pedrinhas grandes podem ser separados só com a mão, como fizemos com o feijão!",
@@ -151,6 +161,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A FILTRAÇÃO é usada para separar:",
     tip: "Pensa num coador de café: ele separa o pó do café (sólido) do líquido pronto para beber!",
@@ -166,6 +177,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Ao coar um suco com pedacinhos de fruta usando um coador, estamos fazendo uma:",
     tip: "Você está usando um coador para separar pedacinhos sólidos do suco líquido — igual ao coador de café!",
@@ -181,6 +193,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A DECANTAÇÃO é usada para separar:",
     tip: "Pensa: quando deixamos uma mistura parada e os materiais se separam sozinhos em camadas!",
@@ -196,6 +209,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Quando misturamos água com areia e deixamos em repouso, a areia vai para o fundo. Esse processo se chama:",
     tip: "A areia foi para o fundo sozinha, só esperando um tempinho parada — isso tem um nome específico!",
@@ -211,6 +225,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "A EVAPORAÇÃO é usada para separar:",
     tip: "Pensa: quando a água \"some\" no ar, o que sobra no fundo, se tinha algo dissolvido nela?",
@@ -226,6 +241,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar o sal da água do mar, os produtores de sal usam principalmente qual método?",
     tip: "Pensa em como fazemos a água do mar \"sumir\", deixando só o sal para trás!",
@@ -241,6 +257,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Transformações da matéria",
     type: "multiple_choice",
     text: "Quando a água de uma poça seca num dia de sol, o que acontece com a água?",
     tip: "A água não desaparece de verdade, ela só muda de estado, virando algo invisível no ar!",
@@ -256,6 +273,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Óleo e água, deixados em repouso, se separam em camadas. Esse é um exemplo de:",
     tip: "Lembra da Questão 14? Quando líquidos se separam em camadas, sem filtro, é o mesmo processo!",
@@ -271,6 +289,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Coar café usando um filtro de papel é um exemplo de:",
     tip: "O filtro de papel do coador retém o pó, e o líquido passa — que método é esse?",
@@ -286,6 +305,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo fez um suco e quer retirar as sementes antes de beber. Qual método ele deve usar?",
     tip: "Para tirar sementes e pedacinhos do suco, Bernardo precisa de um instrumento com furinhos bem pequenos!",
@@ -301,6 +321,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo tem uma mistura de água com pedrinhas grandes. Qual método é mais indicado?",
     tip: "Pedrinhas grandes dentro d'água podem ser retiradas facilmente só com a mão!",
@@ -316,6 +337,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar limalha de ferro misturada com areia, o melhor método é:",
     tip: "Pensa: o ferro é atraído por qual instrumento, mesmo sem precisar tocar nele?",
@@ -331,6 +353,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar água e óleo, deixados em repouso, usamos:",
     tip: "Água e óleo se separam sozinhos em camadas, só esperando um tempinho parados!",
@@ -346,6 +369,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar o sal dissolvido na água, usamos:",
     tip: "Para separar o sal, precisamos fazer a água sumir no ar, deixando o sal para trás!",
@@ -361,6 +385,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para coar um chá e retirar as folhinhas usadas, usamos:",
     tip: "O coador retém as folhinhas usadas e deixa passar só o líquido do chá!",
@@ -376,6 +401,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar arroz de pedrinhas grandes misturadas, usamos:",
     tip: "Pedrinhas grandes dentro do arroz podem ser retiradas com a mão, uma por uma!",
@@ -391,6 +417,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Para separar grãos de feijão (grandes) de terrinha (bem fina), usamos:",
     tip: "Os grãos de feijão são grandes e a terrinha é bem fina — que instrumento com furinhos ajuda aqui?",
@@ -406,6 +433,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo colocou água e giz de cera ralado num copo. Depois de um tempo, o giz de cera ficou separado da água, sem se dissolver. Esse processo se chama:",
     tip: "O giz de cera não se dissolveu e ficou separado da água sozinho, só esperando um tempinho!",
@@ -421,6 +449,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Bernardo tem uma mistura de água, sal e pedrinhas. Depois de usar a catação para tirar as pedrinhas, para separar o sal da água ele deve usar:",
     tip: "Para separar o sal que está dissolvido na água, qual método faz a água sumir e deixa o sal para trás?",
@@ -436,6 +465,7 @@ export const questoesCiencias4AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Separação de misturas",
     type: "multiple_choice",
     text: "Qual é a MELHOR forma de escolher o método certo para separar uma mistura?",
     tip: "Pensa em tudo que aprendemos hoje: cada método funciona melhor para um tipo diferente de mistura!",
