@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB1Av1 = [
   {
     id: 1,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Um gênero textual é:",
     tip: "Pensa em como uma receita, uma carta e uma notícia são 'formatos' diferentes de texto, cada um com sua função.",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "Uma notícia tem como objetivo principal:",
     tip: "Pensa em como jornais e telejornais contam o que aconteceu de importante, com fatos reais.",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Uma receita culinária é organizada geralmente em:",
     tip: "Pensa em como uma receita sempre lista o que você precisa (ingredientes) e depois explica o passo a passo (modo de preparo).",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Uma carta pessoal é um gênero textual usado para:",
     tip: "Pensa em como escrever para um amigo ou parente distante, contando como você está.",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Uma história em quadrinhos (HQ) se caracteriza por:",
     tip: "Pensa nos gibis e tirinhas que você já leu, com desenhos e falas dentro de balõezinhos.",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Um bilhete é um gênero textual usado para:",
     tip: "Pensa em um recado curto que você deixa para alguém, como 'Volto às 18h, um beijo, mamãe'.",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Um poema geralmente se caracteriza por:",
     tip: "Pensa em como os poemas costumam ter um ritmo especial e palavras que rimam.",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Uma fábula é um tipo de texto que:",
     tip: "Pensa em histórias como 'A Cigarra e a Formiga', com animais que representam comportamentos humanos e deixam uma lição.",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Identificar o gênero de um texto ajuda o leitor a:",
     tip: "Pensa em como saber que vai ler uma receita te prepara para procurar ingredientes e passos, diferente de uma notícia.",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Um anúncio publicitário tem como principal objetivo:",
     tip: "Pensa em comerciais de TV ou anúncios que você vê, tentando te convencer a comprar algo.",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "De acordo com a notícia abaixo, onde fica a Escola Municipal Girassol?\n\n[Texto 1 — Notícia] Escola de Florianópolis planta horta comunitária: Os alunos da Escola Municipal Girassol, em Florianópolis, plantaram uma horta comunitária no pátio da escola. O projeto começou em março e já produziu alface, tomate e cenoura. As crianças participam do plantio, da rega e da colheita, aprendendo sobre alimentação saudável e cuidado com o meio ambiente. Os vegetais colhidos são usados na merenda escolar.",
     tip: "Releia o primeiro parágrafo da notícia com atenção.",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "Segundo a notícia, o que os alunos plantaram na horta comunitária?",
     tip: "Releia a notícia procurando os nomes dos vegetais mencionados.",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "O que os vegetais colhidos na horta da escola são usados para fazer, segundo a notícia?",
     tip: "Releia a última frase da notícia.",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "A notícia sobre a horta escolar tem como objetivo principal:",
     tip: "Pensa no gênero textual que estudamos no início — o que caracteriza uma notícia.",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "Quantas laranjas são necessárias para fazer o suco da receita abaixo?\n\n[Texto 2 — Receita] Suco de Laranja Simples: Ingredientes: 4 laranjas, 500ml de água, açúcar a gosto. Modo de preparo: Corte as laranjas ao meio e esprema o suco. Misture o suco com a água. Adoce a gosto. Bata no liquidificador se quiser um suco mais espumoso. Sirva gelado.",
     tip: "Releia a lista de ingredientes da receita.",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "Segundo a receita, o que deve ser feito depois de espremer o suco das laranjas?",
     tip: "Releia o modo de preparo, seguindo a ordem dos passos.",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "A receita sugere bater o suco no liquidificador para:",
     tip: "Releia a última parte do modo de preparo da receita.",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "A receita de suco de laranja tem como objetivo principal:",
     tip: "Pensa no gênero textual 'receita' que estudamos e sua função principal.",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Comparando os dois textos (a notícia e a receita), podemos perceber que:",
     tip: "Pensa em como a notícia conta um fato, enquanto a receita ensina um passo a passo.",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Ler diferentes gêneros textuais, como notícias e receitas, ajuda Bernardo a:",
     tip: "Pensa em como quanto mais tipos de texto você lê, melhor você fica em entender qualquer coisa que aparecer pela frente.",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Se Bernardo encontrar um texto que começa com 'Era uma vez...' e tem animais que falam, ele provavelmente está lendo:",
     tip: "Pensa no início típico de histórias tradicionais, muito usado em fábulas e contos.",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Se Bernardo precisar informar sua mãe rapidamente que saiu para brincar na casa de um amigo, o gênero textual mais adequado seria:",
     tip: "Pensa em qual gênero é rápido, curto e serve para avisos do dia a dia.",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Se Bernardo quiser saber os ingredientes e o passo a passo para fazer um bolo, ele deve procurar:",
     tip: "Pensa no gênero textual específico para ensinar a preparar pratos.",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "Bernardo leu uma notícia sobre um novo parque sendo construído em sua cidade. O objetivo desse texto foi:",
     tip: "Pensa na função principal de uma notícia, que estudamos no início do simulado.",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Se um texto tem rimas, versos e fala sobre sentimentos de forma criativa, ele provavelmente é:",
     tip: "Pensa no gênero textual que explora a musicalidade das palavras e as rimas.",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Reconhecer o gênero de um texto antes de lê-lo ajuda o leitor a:",
     tip: "Pensa em como saber que vai ler uma fábula já te prepara para esperar animais falantes e uma moral no final.",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Se Bernardo escrever uma carta para o avô contando as novidades da escola, esse texto é um exemplo de:",
     tip: "Pensa no gênero que estudamos usado para se comunicar com pessoas distantes, contando novidades.",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "A diversidade de gêneros textuais que existe (notícias, receitas, poemas, fábulas, cartas, HQs) mostra que:",
     tip: "Pensa em como cada gênero que estudamos tem uma estrutura própria, feita sob medida para seu objetivo específico.",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "Bernardo aprendeu que interpretar bem um texto significa:",
     tip: "Pensa em tudo que fizemos ao ler a notícia e a receita — procurando informações específicas e entendendo o propósito de cada texto.",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Leitura e escrita",
     type: "multiple_choice",
     text: "Para concluir este simulado: conhecer diferentes gêneros textuais e saber interpretá-los ajuda Bernardo a:",
     tip: "Pensa em como tudo que aprendemos sobre gêneros e interpretação vai te acompanhar durante toda a vida escolar e além.",

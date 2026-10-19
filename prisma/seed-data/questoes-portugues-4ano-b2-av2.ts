@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB2Av2 = [
   {
     id: 1,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o PLURAL correto de \"pão\"?",
     tip: "Palavras terminadas em '-ão' têm plurais irregulares em português. Há três possibilidades: '-ãos', '-ães' ou '-ões'. Qual delas é a forma correta para 'pão'?",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Substantivos coletivos",
     type: "multiple_choice",
     text: "Qual das palavras é um SUBSTANTIVO COLETIVO?",
     tip: "Substantivos coletivos nomeiam um conjunto de seres ou coisas da mesma espécie com uma única palavra. 'Um cardume' é um grupo de peixes. Qual opção é um coletivo?",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual é uma característica do TEXTO DESCRITIVO?",
     tip: "Texto descritivo é aquele que apresenta as características de algo ou alguém, como se fosse uma fotografia em palavras. O que ele principalmente faz?",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Em qual frase a VÍRGULA foi usada corretamente para separar o VOCATIVO (chamamento)?",
     tip: "O vocativo é quando você chama diretamente alguém pelo nome ou título no início de uma frase. Ele sempre deve ser separado por vírgula do resto da frase.",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das palavras é um ADJETIVO?",
     tip: "Adjetivos caracterizam ou qualificam substantivos. Eles dizem como alguém é, como algo parece, qual é a qualidade de uma coisa. Qual das opções faz isso?",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o PLURAL correto de \"cidadão\"?",
     tip: "Palavras terminadas em '-ão' têm plurais variados. 'Cidadão' segue qual padrão — '-ãos', '-ães' ou '-ões'?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Qual é uma característica do TEXTO NARRATIVO?",
     tip: "O texto narrativo conta uma história — uma sequência de eventos com personagens que passam por situações. O que o diferencia dos outros tipos de texto?",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual é o uso correto do PONTO DE EXCLAMAÇÃO (!)?",
     tip: "O ponto de exclamação indica emoção intensa. Em qual situação faz mais sentido usá-lo?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras é um SUBSTANTIVO PRÓPRIO?",
     tip: "Substantivos próprios são nomes específicos e únicos — de pessoas, lugares, rios, empresas. Eles são sempre escritos com letra maiúscula.",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Leia: \"O gato preguiçoso dormia na cadeira velha.\"\n\nOs ADJETIVOS desta frase são:",
     tip: "Adjetivos são palavras que caracterizam os substantivos. Na frase, quais palavras estão descrevendo o gato e a cadeira?",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras é um SUBSTANTIVO ABSTRATO?",
     tip: "Substantivos abstratos nomeiam sentimentos, estados ou qualidades que não podemos perceber pelos sentidos. Qual das opções você NÃO pode ver, tocar, cheirar ou ouvir?",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o PLURAL correto de \"mal\"?",
     tip: "Palavras terminadas em '-l' no singular geralmente fazem seu plural substituindo o '-l' por '-is'. Como fica 'mal' no plural?",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"Para fazer uma pipa: você vai precisar de papel, vareta de bambu, linha e cola. 1. Faça um losango com as varetas. 2. Cubra com papel. 3. Adicione a cauda.\"\n\nEste texto é:",
     tip: "Observe o objetivo do texto: ele conta uma história? Descreve a aparência da pipa? Informa sobre a origem da pipa? Ou ensina, passo a passo, como construir uma pipa?",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual é a LOCUÇÃO ADJETIVA equivalente ao adjetivo \"áureo\" (que significa 'de ouro' ou 'dourado')?",
     tip: "Locução adjetiva é uma expressão que funciona como adjetivo. O adjetivo 'áureo' (da raiz latina 'aurum' = ouro) equivale a qual locução adjetiva?",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "As RETICÊNCIAS (...) são usadas para:",
     tip: "As reticências indicam uma pausa especial na frase — uma ideia que ficou incompleta, suspense, hesitação ou algo que o leitor deve completar com a imaginação.",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o PLURAL correto de \"lápis\"?",
     tip: "Algumas palavras no plural ficam iguais ao singular! Palavras terminadas em '-s' na sílaba tônica final não mudam no plural. Como fica 'lápis' no plural?",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Leia: \"A cidade de São Paulo é grande, movimentada e moderna.\"\n\nQuantos ADJETIVOS há nessa frase?",
     tip: "Adjetivos são palavras que caracterizam substantivos. Na frase, quais palavras descrevem São Paulo?",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das palavras é um ADJETIVO GENTÍLICO (que indica origem ou nacionalidade)?",
     tip: "Adjetivos gentílicos indicam de onde alguém ou algo é. 'Brasileiro' indica que alguém é do Brasil. Qual das opções indica a origem de alguém?",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Em qual frase a pontuação está CORRETA para expressar admiração?",
     tip: "Para expressar admiração ou entusiasmo, usamos o ponto de exclamação. Observe as frases e identifique qual usa a pontuação corretamente.",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"O leão é o maior felino da África. Vive em grupos chamados matilha, caça em grupo e pode alcançar velocidades de até 80 km/h em corridas curtas.\"\n\nEste texto é:",
     tip: "Observe o objetivo do texto: ele conta uma história sobre leões? Descreve como o leão é bonito? Ensina a caçar? Ou apresenta dados e informações sobre o animal?",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Substantivos coletivos",
     type: "multiple_choice",
     text: "Qual é o SUBSTANTIVO COLETIVO de navios?",
     tip: "Assim como 'cardume' (peixes) e 'alcateia' (lobos), existe uma palavra específica para designar um conjunto de navios. Qual é ela?",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o SINGULAR de \"cidadãos\"?",
     tip: "Se 'cidadãos' é o plural, qual é a forma singular? Lembre-se dos padrões de plural para palavras terminadas em '-ão'.",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das opções é um exemplo de ADJETIVO COMPOSTO (formado por dois elementos unidos)?",
     tip: "Adjetivos compostos são formados pela união de dois adjetivos ou elementos que juntos criam um novo significado. Eles geralmente são escritos com hífen.",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das opções apresenta uma LOCUÇÃO ADJETIVA?",
     tip: "Locução adjetiva é uma expressão (geralmente preposição + substantivo) que funciona como adjetivo. 'Olhos de mel' = olhos dourados/melados. Qual opção segue esse padrão?",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Substantivos coletivos",
     type: "multiple_choice",
     text: "Qual das palavras é um SUBSTANTIVO COLETIVO?",
     tip: "Substantivos coletivos são palavras no singular que indicam um conjunto de seres da mesma espécie. 'Floresta' é um conjunto de quê?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Em qual frase o ADJETIVO concorda corretamente com o substantivo?",
     tip: "Os adjetivos precisam concordar em gênero (masculino/feminino) e número (singular/plural) com os substantivos que acompanham. Analise cada frase.",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o PLURAL correto de \"animal\"?",
     tip: "Palavras terminadas em '-al' geralmente formam o plural substituindo o '-al' por '-ais'. Como fica 'animal' no plural?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Qual das opções apresenta uma LOCUÇÃO ADJETIVA (expressão que funciona como adjetivo)?",
     tip: "Locução adjetiva é uma expressão com preposição + substantivo que caracteriza outro substantivo. 'Olhos de mel' é um exemplo — 'de mel' funciona como adjetivo de 'olhos'.",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Leia: \"Quando era pequeno, meu avô pescava no rio todos os dias.\"\n\nQual é o ADJETIVO nessa frase?",
     tip: "Adjetivos descrevem ou qualificam substantivos. Na frase, qual palavra está descrevendo uma característica de alguém ou algo?",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Flexão das palavras",
     type: "multiple_choice",
     text: "Qual é o PLURAL correto de \"papel\"?",
     tip: "Palavras terminadas em '-el' formam o plural substituindo o '-el' por '-éis' (com acento). Como fica 'papel' no plural?",

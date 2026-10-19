@@ -1,6 +1,7 @@
 export const questoesPortugues4AnoB4Av2 = [
   {
     id: 1,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual artigo DEFINIDO é usado com substantivo MASCULINO SINGULAR?",
     tip: "Os artigos definidos variam em gênero (masculino/feminino) e número (singular/plural). Qual forma vai com 'livro', 'menino', 'professor'?",
@@ -16,6 +17,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância VERBAL correta quando o sujeito é composto?",
     tip: "Quando o sujeito é formado por mais de uma pessoa ou coisa, o verbo vai para o plural. Verifique cada opção.",
@@ -31,6 +33,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Coerência textual",
     type: "multiple_choice",
     text: "O que é COERÊNCIA em um texto?",
     tip: "Coerência é diferente de coesão. A coesão é sobre a forma (os conectivos e pronomes). A coerência é sobre o conteúdo — as ideias fazem sentido juntas?",
@@ -46,6 +49,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa corretamente: \"Ela vai _____ escola todos os dias.\"?",
     tip: "O verbo 'ir' pede a preposição 'a' para indicar destino ('ir a algum lugar'). Quando o artigo feminino 'a' se junta à preposição 'a', forma-se a contração 'à'. Como ficaria 'ir + a + a escola'?",
@@ -61,6 +65,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual das frases usa o artigo DEFINIDO corretamente para indicar algo específico e conhecido?",
     tip: "Artigos definidos ('o', 'a', 'os', 'as') são usados quando falamos de algo específico — que o leitor já conhece ou que é único. Qual das frases faz esse uso adequadamente?",
@@ -76,6 +81,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância NOMINAL correta?",
     tip: "Os adjetivos devem concordar em gênero e número com o substantivo que acompanham. Qual das frases não tem erros de concordância?",
@@ -91,6 +97,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "O que é um CONECTIVO (palavra de ligação) num texto?",
     tip: "Conectivos são palavras que 'conectam' partes do texto, indicando relações como causa, conclusão, adição, contraste ou tempo. Qual definição está correta?",
@@ -106,6 +113,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa: \"O presente é _____ você.\" (indica destinatário)?",
     tip: "Há uma preposição em português que indica 'destinado a', 'em direção a', 'com o objetivo de'. Qual é ela?",
@@ -121,6 +129,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual das frases usa os artigos CORRETAMENTE (acordo com o gênero e número dos substantivos)?",
     tip: "Verifique se os artigos usados nas frases concordam em gênero (masculino/feminino) e número (singular/plural) com os substantivos que acompanham.",
@@ -136,6 +145,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância VERBAL correta com sujeito composto?",
     tip: "Quando o sujeito é formado por mais de um elemento ('X e Y'), normalmente o verbo vai para o plural. Qual das frases está correta?",
@@ -151,6 +161,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "O que é um texto DISSERTATIVO?",
     tip: "Há vários tipos de texto: narrativo (conta uma história), descritivo (descreve algo), dissertativo (discute um tema), instrucional (ensina a fazer algo). Qual desses textos apresenta e defende ideias?",
@@ -166,6 +177,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição indica MATERIAL ou ORIGEM (como em \"copo _____ vidro\")?",
     tip: "Para indicar do que uma coisa é feita ('feito de material X') ou de onde algo veio, usamos uma preposição específica em português.",
@@ -181,6 +193,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Qual dos textos apresenta boa COESÃO (uso de conectivos e recursos de ligação)?",
     tip: "Um texto com boa coesão usa pronomes, conectivos e sinônimos para ligar as frases, evitando repetições e deixando o texto fluido.",
@@ -196,6 +209,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância verbal CORRETA com sujeito no plural?",
     tip: "O verbo deve concordar com o sujeito. Se o sujeito está no plural, o verbo também deve estar. Qual das frases está correta?",
@@ -211,6 +225,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "A preposição \"a\" pode se contrair com o artigo \"a\" formando \"à\" (crase). Quando a preposição \"de\" se junta ao artigo feminino \"a\", forma-se:",
     tip: "Quando preposições e artigos se juntam, formam contrações. 'de + o' = 'do', 'de + a' = ? Qual é a contração de 'de' com o artigo feminino 'a'?",
@@ -226,6 +241,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição indica COMPANHIA (estar junto com alguém ou algo)?",
     tip: "Há uma preposição em português usada especificamente para indicar companhia ou acompanhamento — 'estar ____ alguém', 'ir ____ amigos'.",
@@ -241,6 +257,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Estrutura textual",
     type: "multiple_choice",
     text: "Qual das frases é um bom PARÁGRAFO DE INTRODUÇÃO para uma redação sobre \"A importância do esporte\"?",
     tip: "Um parágrafo de introdução deve apresentar o tema e, geralmente, anunciar qual será a posição defendida ou o aspecto a ser desenvolvido. Não começa com 'portanto' ou 'em conclusão' — esses são marcadores de conclusão.",
@@ -256,6 +273,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância NOMINAL e VERBAL correta?",
     tip: "Verifique se os adjetivos concordam com os substantivos (concordância nominal) E se o verbo concorda com o sujeito (concordância verbal).",
@@ -271,6 +289,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição pode indicar ASSUNTO (\"falar _____ algo\")?",
     tip: "Para indicar que estamos falando 'a respeito de' algo, usamos uma preposição específica. Pense em 'falar ____ o tema', 'escrever ____ a natureza'.",
@@ -286,6 +305,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"A professora entrou na sala. Ela sorriu para os alunos. Eles a cumprimentaram. A aula começou.\"\n\nO pronome \"Eles\" refere-se a:",
     tip: "O pronome 'Eles' (masculino plural) retoma qual elemento mencionado anteriormente no texto? Observe o gênero e o número do pronome para identificar o referente.",
@@ -301,6 +321,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Qual das frases usa corretamente um conectivo de CONCLUSÃO?",
     tip: "Conectivos de conclusão ('portanto', 'logo', 'assim', 'por isso', 'em suma') introduzem uma conclusão a partir do que foi dito antes. Qual das frases os usa corretamente?",
@@ -316,6 +337,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual artigo INDEFINIDO é usado com substantivo MASCULINO SINGULAR?",
     tip: "Os artigos indefinidos têm quatro formas. Qual forma vai com substantivos masculinos singulares como 'livro', 'menino', 'carro'?",
@@ -331,6 +353,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases tem concordância verbal CORRETA?",
     tip: "Quando o sujeito é composto (mais de um elemento), o verbo geralmente vai para o plural. Qual das frases aplica essa regra corretamente?",
@@ -346,6 +369,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Estrutura textual",
     type: "multiple_choice",
     text: "O que é um texto bem ESTRUTURADO?",
     tip: "Um texto bem estruturado segue uma organização lógica que facilita a compreensão do leitor. Qual das opções descreve essa estrutura corretamente?",
@@ -361,6 +385,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual das frases usa a preposição \"por\" corretamente?",
     tip: "A preposição 'por' pode indicar causa ('fez isso por amor'), meio ('enviou por e-mail'), espaço percorrido ('passou por aqui') ou a favor de alguém. Qual das frases a usa adequadamente?",
@@ -376,6 +401,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Artigos",
     type: "multiple_choice",
     text: "Qual das frases usa artigos CORRETAMENTE, combinando artigo definido e indefinido de forma adequada?",
     tip: "Artigo definido indica algo específico (já conhecido), artigo indefinido indica algo inespecífico (ainda não identificado). Qual das frases combina os dois tipos corretamente?",
@@ -391,6 +417,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Coesão textual",
     type: "multiple_choice",
     text: "Qual dos conectivos indica ADIÇÃO (acrescenta mais uma informação ao que já foi dito)?",
     tip: "Conectivos de adição somam informações: indicam que você vai dizer algo a mais. Conectivos de conclusão ('portanto'), contraste ('no entanto') e causa ('porque') têm funções diferentes. Qual indica adição?",
@@ -406,6 +433,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Preposições",
     type: "multiple_choice",
     text: "Qual preposição completa: \"O cachorro latiu _____ medo.\" (indica a causa ou o estado)?",
     tip: "Pense em expressões fixas: 'estar com fome', 'estar com sede', 'agir com raiva'. Qual preposição indica que algo acontece em decorrência de um estado emocional?",
@@ -421,6 +449,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases apresenta todos os elementos com concordância correta?",
     tip: "Revise concordância verbal (verbo com sujeito) e nominal (adjetivo com substantivo). Qual das frases não tem nenhum erro?",
@@ -436,6 +465,7 @@ export const questoesPortugues4AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Leitura e compreensão",
     type: "multiple_choice",
     text: "Leia o texto:\n\n\"A floresta amazônica é o maior bioma do Brasil. Ela abriga milhares de espécies animais e vegetais. Por isso, sua preservação é fundamental para todo o planeta.\"\n\nQual é a IDEIA PRINCIPAL deste texto?",
     tip: "A ideia principal é o que o texto mais quer dizer — o tema central em torno do qual todas as outras informações se organizam. Qual opção expressa isso?",
