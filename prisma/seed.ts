@@ -12,6 +12,7 @@ import {
 import {
   FrontendQuestion,
   FrontendOption,
+  InventoryReport,
   SimulationSeed,
   buildSeedInventory,
   getQuestionOrder,
@@ -8889,7 +8890,7 @@ export async function main() {
     console.log(
       process.env.SEED_REPORT_FORMAT === "json"
         ? JSON.stringify(report, null, 2)
-        : `Inventário: ${report.totals.dataFiles} arquivos, ${report.totals.importableSimulations} simulados publicáveis, ${report.totals.importableQuestions} questões, ${report.totals.plannedSimulations} planejados.\n${report.errors.join("\n")}`.trim(),
+        : `Inventário: ${report.totals.dataFiles} arquivos, ${report.totals.importableSimulations} simulados publicáveis, ${report.totals.importableQuestions} questões, ${report.totals.plannedSimulations} planejados. ${themeCoverage(report)}\n${report.errors.join("\n")}`.trim(),
     );
     if (report.errors.length) process.exitCode = 1;
     return;
@@ -8900,7 +8901,7 @@ export async function main() {
 
   if (process.env.SEED_DRY_RUN === "true") {
     console.log(
-      `Dry run concluído: ${disciplines.length} disciplinas, ${report.totals.importableSimulations} simulados e ${report.totals.importableQuestions} questões carregadas. Backlog editorial: ${report.totals.plannedSimulations} simulados não importados.`,
+      `Dry run concluído: ${disciplines.length} disciplinas, ${report.totals.importableSimulations} simulados e ${report.totals.importableQuestions} questões carregadas. Backlog editorial: ${report.totals.plannedSimulations} simulados não importados. ${themeCoverage(report)}`,
     );
     return;
   }
@@ -9115,6 +9116,11 @@ async function backfillMembershipsFromAttempts() {
   return pairs.size;
 }
 
+function themeCoverage(report: InventoryReport) {
+  const { importableQuestions, importableThemedQuestions, fullyThemedSimulations, importableSimulations } = report.totals;
+  return `Temas: ${importableThemedQuestions} de ${importableQuestions} questões; ${fullyThemedSimulations} de ${importableSimulations} simulados com todas as questões classificadas.`;
+}
+
 function getMaxScore(questions: FrontendQuestion[]) {
   return questions.reduce((total, question) => total + (question.points ?? 1), 0);
 }
@@ -9142,6 +9148,7 @@ async function upsertQuestions(
         statement: question.text,
         tip: question.tip,
         funFact: question.funFact,
+        theme: question.theme?.trim(),
         points: question.points ?? 1,
         sortOrder,
         isActive: true,
@@ -9151,6 +9158,7 @@ async function upsertQuestions(
         statement: question.text,
         tip: question.tip,
         funFact: question.funFact,
+        theme: question.theme?.trim(),
         points: question.points ?? 1,
         isActive: true,
         deletedAt: null,

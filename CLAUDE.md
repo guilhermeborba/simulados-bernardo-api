@@ -138,6 +138,7 @@ export const questoes<Disciplina><Ano>AnoB<Bimestre>Av<Avaliacao> = [
     text: "Enunciado da questão?",
     tip: "Dica para o aluno (opcional).",
     funFact: "\"Você sabia?\" — curiosidade exibida sempre no resultado.",
+    theme: "Assunto da questão (opcional; vocabulário em docs/temas-editoriais.md).",
     points: 1,
     options: [
       { id: "A", text: "Alternativa A" },

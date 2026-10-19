@@ -91,6 +91,25 @@ describe('Inventário do seed', () => {
     expect(JSON.stringify(report)).not.toContain('Pergunta de teste');
   });
 
+  it('mede a cobertura de temas por simulado, no total e por ano', () => {
+    const second = { ...validQuestion, id: 2 };
+    writeModule(dataDir, validSeed.file, validSeed.exportName, [
+      { ...validQuestion, theme: 'Frações' },
+      second,
+    ]);
+    let { report } = build();
+    expect(report.entries[0]).toMatchObject({ questionCount: 2, themedQuestionCount: 1 });
+    expect(report.totals).toMatchObject({ importableThemedQuestions: 1, fullyThemedSimulations: 0 });
+    expect(report.bySchoolYear[0]).toMatchObject({ importableQuestions: 2, importableThemedQuestions: 1 });
+    writeModule(dataDir, validSeed.file, validSeed.exportName, [
+      { ...validQuestion, theme: 'Frações' },
+      { ...second, theme: 'Geometria' },
+    ]);
+    ({ report } = build());
+    expect(report.totals).toMatchObject({ importableThemedQuestions: 2, fullyThemedSimulations: 1 });
+    expect(JSON.stringify(report)).not.toContain('Frações');
+  });
+
   it('bloqueia arquivo publicável ausente em vez de ignorá-lo', () => {
     const { report, simulations } = build();
     expect(report.errors).toContain(
@@ -357,6 +376,18 @@ describe('Contrato de questões para importação', () => {
     },
   );
 
+  it('aceita tema opcional de 1 a 120 caracteres e bloqueia o resto', () => {
+    expect(validateQuestions('fixture', [{ ...validQuestion, theme: 'Ciclo da água' }])).toEqual([]);
+    expect(validateQuestions('fixture', [{ ...validQuestion, theme: 'x'.repeat(120) }])).toEqual([]);
+    for (const theme of ['', '   ', 'x'.repeat(121), 7, null]) {
+      expect(
+        validateQuestions('fixture', [{ ...validQuestion, theme } as unknown as FrontendQuestion]).some(
+          (error) => error.includes('tema deve ser um texto'),
+        ),
+      ).toBe(true);
+    }
+  });
+
   it('bloqueia ordens que colidiriam no upsert do banco', () => {
     expect(
       validateQuestions('fixture', [validQuestion, validQuestion]).some(
@@ -383,7 +414,9 @@ describe('Dry-run do acervo rastreado', () => {
       expect(PrismaClient).not.toHaveBeenCalled();
       expect(seedBacklog).toEqual([]);
       expect(log).toHaveBeenCalledWith(
-        'Dry run concluído: 19 disciplinas, 780 simulados e 23444 questões carregadas. Backlog editorial: 0 simulados não importados.',
+        expect.stringMatching(
+          /^Dry run concluído: 19 disciplinas, 780 simulados e 23444 questões carregadas\. Backlog editorial: 0 simulados não importados\. Temas: \d+ de 23444 questões; \d+ de 780 simulados com todas as questões classificadas\.$/,
+        ),
       );
     } finally {
       for (const [key, value] of Object.entries({
