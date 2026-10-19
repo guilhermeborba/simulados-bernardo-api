@@ -1,6 +1,7 @@
 export const questoesGeografiaAv2Bim3 = [
   {
     id: 1,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "O comércio é a atividade econômica que acontece quando:",
     tip: "Dica: comércio = comprar e vender. Quem transforma matéria-prima é a indústria; quem tira recursos da natureza é o extrativismo.",
@@ -15,6 +16,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 2,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "A pessoa que compra os produtos é chamada de:",
     tip: "Curiosidade: a palavra \"consumidor\" vem de \"consumir\", ou seja, usar aquilo que se comprou.",
@@ -29,6 +31,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 3,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Ana e o pai dela estavam no parque quando compraram um picolé de um vendedor que tinha um carrinho de sorvetes. Esse é um exemplo de:",
     tip: "Dica: comércio ambulante é o que se move — carrinhos, bancas e vendedores que circulam pelas ruas e praças.",
@@ -43,6 +46,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 4,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Felipe e Gabriel foram com a avó até uma loja em um shopping para comprar tênis. Esse é um exemplo de:",
     tip: "Dica: estabelecimento comercial é um ponto fixo — loja, mercado, padaria. Curiosidade: o primeiro shopping do Brasil foi inaugurado em São Paulo, em 1966.",
@@ -57,6 +61,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 5,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "A mãe de Luiza comprou um livro usando o celular com acesso à internet, e a compra foi entregue em casa depois de cinco dias. Esse é um exemplo de:",
     tip: "Curiosidade: no comércio virtual, comprador e vendedor nunca se encontram pessoalmente — e a compra pode vir de outro estado ou até de outro país.",
@@ -71,6 +76,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 6,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "As atividades comerciais geralmente estão mais concentradas nas cidades porque nelas:",
     tip: "Dica: mais pessoas = mais consumidores = mais lojas. É por isso que o comércio se concentra nas cidades.",
@@ -85,6 +91,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 7,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Observando uma rua comercial movimentada, como a de São Luís, no Maranhão, é possível identificar:",
     tip: "Cuidado com a pegadinha: as alternativas que dizem \"poucas pessoas\" ou \"não influencia\" contrariam o que o capítulo explica.",
@@ -99,6 +106,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 8,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Sobre a importância do comércio para a cidade, é correto afirmar que ele:",
     tip: "O comércio ajuda as pessoas a conseguir o que precisam e ainda gera trabalho para vendedores, caixas e atendentes.",
@@ -113,6 +121,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 9,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Assinale a alternativa que apresenta apenas exemplos de estabelecimentos comerciais:",
     tip: "Dica: se é lugar onde se compra alguma coisa, é comércio. Se é lugar onde se recebe atendimento, é serviço.",
@@ -127,6 +136,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 10,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "A prestação de serviços é a atividade econômica que:",
     tip: "Dica de memória: comércio entrega um produto; serviço entrega um atendimento.",
@@ -141,6 +151,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 11,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "São exemplos de profissionais que prestam serviços:",
     tip: "Cuidado: feirante e balconista trabalham no comércio, não em serviços.",
@@ -155,6 +166,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 12,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "O cabeleireiro que corta e arruma os cabelos das pessoas em um salão de beleza é um exemplo de profissional que:",
     tip: "Curiosidade: a foto do capítulo mostra um salão no município de Breves, no Pará — serviços existem em cidades grandes e pequenas.",
@@ -169,6 +181,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 13,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Observe o gráfico \"Empregados por setor econômico em 2024 (a cada 100 pessoas)\": Serviços 40 – Comércio 32 – Indústria 23 – Agricultura 5. O setor que mais emprega pessoas no Brasil é:",
     tip: "Curiosidade: de cada 100 pessoas empregadas, 40 trabalham em serviços — quase metade do total.",
@@ -183,6 +196,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 14,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Ainda de acordo com esse gráfico, o setor que menos emprega pessoas é:",
     tip: "Dica: basta procurar o menor número do gráfico (5). Curiosidade: mesmo empregando poucas pessoas, a agricultura produz boa parte dos alimentos do país, porque hoje usa muitas máquinas.",
@@ -197,6 +211,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 15,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "As atividades de prestação de serviços são muito importantes para a sociedade porque contribuem para:",
     tip: "Dica: pense no dia a dia — escola (educação), posto de saúde (saúde), ônibus (mobilidade), polícia (segurança).",
@@ -211,6 +226,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 16,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Os serviços privados são aqueles que:",
     tip: "Dica: privado = de uma empresa ou profissional, e costuma ser pago.",
@@ -225,6 +241,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 17,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Os serviços públicos são:",
     tip: "Dica: público = do governo, gratuito e para todos.",
@@ -239,6 +256,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 18,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Muitos serviços públicos são mantidos com o dinheiro dos impostos pagos pelos cidadãos e são um direito de toda a população. São exemplos desses serviços:",
     tip: "Curiosidade: impostos são valores que as pessoas pagam ao governo; é com esse dinheiro que os serviços públicos funcionam.",
@@ -253,6 +271,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 19,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "No Brasil, o atendimento médico gratuito para toda a população é oferecido pelo:",
     tip: "Curiosidade: o SUS é um dos maiores sistemas públicos de saúde do mundo e atende gratuitamente toda a população brasileira.",
@@ -267,6 +286,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 20,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "As cidades estão sempre mudando. Com o tempo, novas ruas, prédios e espaços públicos são construídos, e isso:",
     tip: "Dica: paisagem urbana é tudo o que vemos na cidade — e ela muda o tempo todo.",
@@ -281,6 +301,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 21,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "As transformações das paisagens urbanas acontecem por causa:",
     tip: "Curiosidade: profissionais como arquitetos, engenheiros e urbanistas são os que planejam essas mudanças.",
@@ -295,6 +316,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 22,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "Uma obra que constrói novas avenidas e rotatórias em uma área da cidade tem como objetivo, principalmente:",
     tip: "Curiosidade: a imagem de satélite do capítulo mostra uma obra em Londrina, no Paraná, já concluída em 2025, com rotatórias e novos acessos.",
@@ -309,6 +331,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 23,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "As obras e construções fazem parte da organização do espaço urbano porque:",
     tip: "Dica: obra bem planejada resolve problemas; obra sem planejamento pode criar outros.",
@@ -323,6 +346,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 24,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Quando uma cidade cresce rápido demais ou sem organização, podem surgir:",
     tip: "Atenção: os problemas urbanos citados no capítulo são trânsito, poucos espaços de lazer, poucas áreas verdes e falta de estrutura para cuidar dos resíduos.",
@@ -337,6 +361,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A atividade industrial, quando não são tomados os cuidados necessários, pode causar:",
     tip: "Curiosidade: o Polo Industrial de Camaçari, na Bahia, citado no livro, é um dos maiores complexos industriais da América Latina.",
@@ -351,6 +376,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 26,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "O trânsito muito intenso, chamado de congestionamento, acontece geralmente:",
     tip: "Dica: quanto mais gente indo para o mesmo lugar ao mesmo tempo, maior o congestionamento.",
@@ -365,6 +391,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 27,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "Além de deixar o trânsito lento, o congestionamento também pode:",
     tip: "Curiosidade: por isso muitas cidades criam ciclovias e faixas exclusivas de ônibus — menos carros, menos poluição e menos barulho.",
@@ -379,6 +406,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 28,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "O tratamento da água e do esgoto, junto com a coleta de resíduos sólidos, faz parte do que chamamos de:",
     tip: "Curiosidade: \"saneamento\" vem de \"sanar\", que significa curar. Saneamento básico é uma das formas mais eficazes de evitar doenças.",
@@ -393,6 +421,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 29,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Quando não há limpeza urbana, os resíduos se acumulam nas calçadas e nos rios. Isso causa:",
     tip: "Dica: lixo acumulado atrai insetos e ratos, que transmitem doenças. Por isso a coleta regular é um serviço público essencial.",
@@ -407,6 +436,7 @@ export const questoesGeografiaAv2Bim3 = [
   },
   {
     id: 30,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Quando o esgoto não é tratado, a água suja é jogada diretamente no ambiente. Isso causa problemas:",
     tip: "Curiosidade: o esgoto tratado passa por estações que separam a sujeira antes de a água voltar para os rios.",

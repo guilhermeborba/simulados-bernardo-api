@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB4Av2 = [
   {
     id: 1,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O clima é o tempo que geralmente faz em um lugar, durante muitos anos. Qual dessas palavras descreve um tipo de clima?",
     tip: "Pensa bem: \"segunda-feira\" é um dia da semana, e \"Rio Amazonas\" e \"planalto\" são lugares! Clima tem a ver com calor, frio, chuva ou seca.",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "No Nordeste do Brasil, principalmente no sertão, o clima é conhecido por ser:",
     tip: "Lembra da Caatinga, aquela vegetação com plantas cheias de espinhos? Ela vive numa região onde chove pouquinho e faz muito calor.",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "A região Sul do Brasil é a única que pode ter um fenômeno bem gelado em algumas cidades no inverno. Qual é esse fenômeno?",
     tip: "Pensa no que cai do céu quando faz muito, muito frio, formando flocos brancos e fofinhos.",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "A Floresta Amazônica, na região Norte, tem um clima:",
     tip: "Lembra que a Amazônia é a maior floresta tropical do mundo? Florestas assim precisam de muito calor e muita água para as árvores crescerem enormes.",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Quando o clima de um lugar é úmido, isso quer dizer que:",
     tip: "\"Úmido\" tem a ver com água no ar! Pensa numa esponja molhada — ela está \"úmida\", cheia de água.",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Qual dessas é uma estação do ano ligada ao clima mais frio no Brasil?",
     tip: "Pensa em quando você usa mais casaco e cobertor — em qual dessas opções isso combina mais?",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Bernardo notou que, na cidade dele, faz muito calor em janeiro e um pouco mais fresco em julho. Isso mostra que:",
     tip: "Pensa nas quatro estações do ano — verão, outono, inverno e primavera. Cada uma tem um jeito diferente de clima, né?",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Um clima seco é aquele em que:",
     tip: "Pensa no contrário de \"molhado\" — \"seco\" quer dizer que falta água, que chove bem pouquinho.",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Por que é importante conhecer o clima de uma região?",
     tip: "Pensa em como você se veste num dia de muito calor e num dia de muito frio — o clima influencia até a roupa que a gente escolhe!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "A região Centro-Oeste do Brasil tem, durante boa parte do ano, um clima:",
     tip: "Pensa no Cerrado, aquela vegetação de árvores tortas e retorcidas — ela é adaptada a ficar um tempo sem chuva e depois pegar bastante água.",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Em lugares de clima muito quente, as pessoas costumam usar roupas:",
     tip: "Pensa no que você veste num dia de praia bem quente — é roupa grossa ou levinha?",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Em cidades onde neva no inverno, como algumas do Sul do Brasil, as pessoas costumam usar:",
     tip: "Pensa em como você se protegeria do frio se estivesse num lugar gelado — precisaria de roupas bem quentinhas!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O clima quente e úmido da Amazônia ajuda a explicar por que lá existe:",
     tip: "Lembra que calor e água em grande quantidade ajudam as plantas a crescer bem fortes e altas? Isso favorece uma floresta enorme!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Numa região de clima seco, como o sertão nordestino, uma atividade comum e importante para guardar água é:",
     tip: "Pensa: se chove pouco, o que as pessoas precisam fazer para não faltar água depois?",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "A vegetação de um lugar tem relação direta com o clima porque:",
     tip: "Pensa no cacto (lugar seco) e nas árvores gigantes da Amazônia (lugar chuvoso) — cada planta é adaptada ao clima onde vive!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Em regiões muito quentes, uma atividade de lazer bastante comum é:",
     tip: "Pensa no que as pessoas fazem para se refrescar quando está muito quente lá fora.",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "As casas construídas em regiões muito quentes costumam ter, muitas vezes:",
     tip: "Pensa em como deixar uma casa mais fresquinha quando faz muito calor lá fora — o que ajuda a entrar vento e luz sem esquentar demais?",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Já em regiões de clima frio, as casas costumam ter:",
     tip: "Pensa no que uma casa precisa ter para as pessoas não sentirem tanto frio lá dentro durante o inverno.",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O tipo de trabalho de muitas pessoas também pode ter relação com o clima da região. Um exemplo é:",
     tip: "Pensa num agricultor: ele precisa saber quando geralmente chove ou faz seca para escolher a melhor época de plantar, certo?",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Qual frase resume melhor a relação entre clima e o dia a dia das pessoas?",
     tip: "Lembra de tudo que vimos: roupas, casas, brincadeiras e até o trabalho do agricultor — tudo isso pode mudar de acordo com o clima!",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo está usando uma bússola e observa que a agulha aponta sempre para o mesmo ponto cardeal. Qual é esse ponto?",
     tip: "Lembra dos quatro pontos cardeais principais: Norte, Sul, Leste e Oeste. A bússola sempre aponta para um deles, o mais importante para se orientar.",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Em um mapa, a legenda serve para:",
     tip: "Pensa: quando você vê um símbolo estranho no mapa, onde você vai olhar para descobrir o que ele significa?",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma paisagem natural é aquela que:",
     tip: "Pensa no contrário de \"construído pelo homem\" — uma paisagem natural é aquela que a natureza fez sozinha, sem ajuda das pessoas.",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A zona rural se diferencia da zona urbana principalmente porque:",
     tip: "Pensa no campo, com plantações e animais, versus a cidade, cheia de prédios e carros — qual delas tem mais espaço aberto e verde?",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O relevo conhecido como planalto se caracteriza por ser:",
     tip: "Pensa na palavra \"planalto\" — ela lembra \"plano\" e \"alto\"! É como uma mesa gigante elevada na paisagem.",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O lugar onde um rio nasce é chamado de:",
     tip: "Pensa na palavra \"nascente\" — ela lembra \"nascer\"! É o local onde a água do rio começa a surgir.",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Um cuidado importante que ajuda a proteger o meio ambiente é:",
     tip: "Pensa em atitudes que ajudam a natureza, e não que a destroem. Separar o lixo certinho é uma delas!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Uma unidade de conservação é um espaço criado para:",
     tip: "Pensa na palavra \"conservação\" — ela lembra \"conservar\", ou seja, cuidar e preservar algo importante, como a natureza.",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo está estudando o Brasil e percebe que ele tem regiões com relevo, clima, vegetação e paisagens bem diferentes entre si. Isso mostra que o Brasil é um país:",
     tip: "Lembra de tudo que estudamos: Amazônia quente e úmida, sertão seco, Sul com neve, planaltos, planícies... o Brasil é enorme e bem variado!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Depois de tudo que aprendemos neste ano sobre orientação, paisagens, zona rural e urbana, relevo, hidrografia, vegetação, meio ambiente e clima, qual é a melhor lição para levarmos daqui?",
     tip: "Pensa em tudo que vimos esse ano: orientação, mapas, relevo, rios, clima... tudo isso ajuda a gente a entender e cuidar melhor do lugar onde mora!",

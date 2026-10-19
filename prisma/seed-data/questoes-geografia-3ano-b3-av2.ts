@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB3Av2 = [
   {
     id: 1,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que é um bairro?",
     tip: "Pense na região da cidade onde você mora, com sua própria vizinhança e comércio local!",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que as cidades são divididas em bairros?",
     tip: "Pense em como seria complicado se uma cidade grande não tivesse nenhuma divisão organizada!",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que costuma existir dentro de um bairro residencial?",
     tip: "Pense no tipo de bairro onde a maioria das construções são moradias, como casas e prédios!",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que é o centro de uma cidade?",
     tip: "Pense na área da cidade onde geralmente ficam concentradas lojas, bancos e prédios públicos importantes!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que é a periferia de uma cidade?",
     tip: "Pense nas áreas da cidade que ficam mais afastadas do centro, muitas vezes com menos serviços disponíveis!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "O que é infraestrutura urbana?",
     tip: "Pense em tudo que uma cidade precisa ter para funcionar bem: água, luz, ruas, esgoto...",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Qual desses é um exemplo de infraestrutura urbana?",
     tip: "Pense em serviços básicos que uma casa na cidade precisa ter para funcionar bem!",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Por que algumas áreas da periferia enfrentam mais dificuldades de infraestrutura, como falta de saneamento básico?",
     tip: "Pense em como um crescimento muito rápido e sem planejamento pode dificultar a chegada de serviços básicos a todos os moradores!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "O que é uma avenida principal em uma cidade?",
     tip: "Pense em uma rua bem larga, com bastante trânsito, que conecta diferentes partes importantes da cidade!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Complete: a organização do espaço urbano em bairros, centro e periferia ajuda a...",
     tip: "Pense em tudo que aprendemos hoje sobre bairros, centro e periferia — para que serve entender essa organização?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que costuma acontecer com uma cidade quando sua população cresce muito rapidamente?",
     tip: "Pense em como um crescimento muito rápido pode ser difícil de acompanhar com escolas, hospitais e ruas suficientes!",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que são \"áreas de risco\" em uma cidade?",
     tip: "Pense em morros muito íngremes ou beiras de rios, onde construções podem correr risco em épocas de muita chuva!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "Por que é importante ter transporte público de qualidade nas cidades grandes?",
     tip: "Pense em como muitos ônibus e trens conseguem transportar muito mais pessoas do que se cada uma usasse seu próprio carro!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "O que é um metrô?",
     tip: "Pense em um trem que circula por baixo da cidade, ajudando as pessoas a se locomoverem mais rápido!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "Por que algumas cidades investem em ciclovias (caminhos exclusivos para bicicletas)?",
     tip: "Pense em como pedalar pode ser uma forma saudável e sem poluição de se locomover pela cidade!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que é uma cidade planejada?",
     tip: "Pense em cidades que foram desenhadas cuidadosamente antes mesmo de serem construídas!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Por que é importante que uma cidade tenha áreas verdes, como parques, distribuídas por diferentes bairros?",
     tip: "Pense em como é bom ter um parque perto de casa para caminhar, brincar ou simplesmente relaxar!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "O que é saneamento básico?",
     tip: "Pense em serviços essenciais, como água limpa e coleta de esgoto, que ajudam a evitar doenças!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Bernardo notou que seu bairro tem ruas asfaltadas, iluminação pública e coleta de lixo regular. Isso mostra que seu bairro tem:",
     tip: "Pense em como esses serviços fazem parte do que chamamos de infraestrutura de uma cidade!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Complete: um bom planejamento urbano busca garantir que todos os bairros de uma cidade tenham acesso a...",
     tip: "Pense em tudo que aprendemos hoje sobre infraestrutura, transporte e áreas verdes — qual é o objetivo de um bom planejamento?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que aconteceu com muitas cidades brasileiras ao longo do século XX, em relação ao seu crescimento?",
     tip: "Pense em como o êxodo rural (que aprendemos no bimestre passado) fez muitas cidades crescerem rapidamente!",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que são favelas?",
     tip: "Pense em áreas que cresceram rapidamente, muitas vezes sem planejamento do poder público, enfrentando mais desafios de infraestrutura!",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que o planejamento urbano é importante para evitar problemas como enchentes em algumas áreas das cidades?",
     tip: "Pense em como construir sem cuidado perto de rios ou em áreas baixas pode aumentar o risco de enchentes!",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que é a verticalização de uma cidade?",
     tip: "Pense na palavra \"vertical\" — construções que crescem para cima, ao invés de se espalharem apenas pelos lados!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que muitas cidades grandes investem em prédios altos (verticalização) ao invés de espalhar as construções horizontalmente?",
     tip: "Pense em como um prédio de 20 andares consegue abrigar muito mais famílias do que a mesma área com casas térreas!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Bernardo notou que, no centro antigo de sua cidade, existem prédios históricos preservados, enquanto em bairros mais novos existem construções modernas. Isso mostra:",
     tip: "Pense em como diferentes épocas de construção deixam marcas diferentes na paisagem urbana de uma cidade!",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é uma cidade sustentável?",
     tip: "Pense em cidades que se preocupam em ter áreas verdes, bom transporte público e cuidado com o lixo e a poluição!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que é importante que moradores de diferentes bairros participem das decisões sobre o planejamento de sua cidade?",
     tip: "Pense em como cada bairro pode ter necessidades diferentes, e ouvir os moradores ajuda a atender melhor a todos!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Bernardo participou de uma reunião no bairro para discutir a construção de uma nova praça. Isso é um exemplo de:",
     tip: "Pense em como a opinião dos moradores pode ajudar a decidir como será o espaço público da própria comunidade!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Complete: entender como as cidades crescem e se organizam nos ajuda a...",
     tip: "Pense em tudo que aprendemos hoje: bairros, centro, periferia, infraestrutura, crescimento urbano... para que serve entender tudo isso?",

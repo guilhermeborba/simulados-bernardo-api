@@ -1,6 +1,7 @@
 export const questoesGeografiaAv2 = [
   {
     id: 1,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O extrativismo é:",
     tip: "Extrativismo significa retirar ou extrair recursos que já existem na natureza.",
@@ -27,6 +28,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 2,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "Qual alternativa apresenta um exemplo de extrativismo vegetal?",
     tip: "Extrativismo vegetal é a coleta de plantas, frutas, sementes e outros produtos da natureza.",
@@ -53,6 +55,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 3,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O extrativismo animal inclui:",
     tip: "Extrativismo animal é a coleta de produtos de animais silvestres, como mel, e a captura de peixes.",
@@ -79,6 +82,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 4,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "São exemplos de recursos minerais:",
     tip: "Recursos minerais são extraídos do solo e das rochas, como ouro, petróleo, carvão e metais.",
@@ -105,6 +109,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 5,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As agroindústrias são:",
     tip: "Agroindústrias são fábricas localizadas perto de áreas agrícolas que transformam matérias-primas em produtos.",
@@ -131,6 +136,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 6,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "O leite pode ser transformado em:",
     tip: "O leite é processado em agroindústrias para produzir queijo, iogurte, manteiga e outros laticínios.",
@@ -157,6 +163,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 7,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "A principal função das agroindústrias é:",
     tip: "As agroindústrias agregam valor aos produtos, transformando matérias-primas em alimentos processados.",
@@ -183,6 +190,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 8,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A pecuária é:",
     tip: "Pecuária é a atividade agrária de criação de animais domésticos como gado, porcos, galinhas e ovinos.",
@@ -209,6 +217,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 9,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "Qual animal faz parte da pecuária?",
     tip: "A vaca é um animal doméstico criado em fazendas para produção de leite e carne.",
@@ -235,6 +244,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 10,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "O Brasil possui o maior rebanho de galináceos (galinhas) do mundo, criados para produção de carne e ovos. Considerando essa informação, o maior rebanho do Brasil é de:",
     tip: "O Brasil tem o maior rebanho de galináceos (galinhas), usado para carne e ovos.",
@@ -261,6 +271,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 11,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Paisagem cultural é:",
     tip: "Paisagem cultural é aquela que foi transformada pela ação humana, como cidades, estradas e plantações.",
@@ -287,6 +298,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 12,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Qual elemento é natural?",
     tip: "Rios, montanhas, florestas e oceanos são elementos naturais que existem na natureza.",
@@ -313,6 +325,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 13,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Qual elemento é cultural?",
     tip: "Plantações, cidades, estradas e prédios são elementos culturais criados pelos seres humanos.",
@@ -339,6 +352,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 14,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "As paisagens do campo mudam porque:",
     tip: "As pessoas modificam o campo através de agricultura, construções, estradas e outras atividades.",
@@ -365,6 +379,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 15,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O desmatamento é:",
     tip: "Desmatamento é a retirada de árvores de uma floresta, causando perda de habitat e biodiversidade.",
@@ -391,6 +406,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 16,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "As queimadas causam:",
     tip: "As queimadas liberam fumaça e poluentes que prejudicam a qualidade do ar e afetam a saúde.",
@@ -417,6 +433,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 17,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Erosão é:",
     tip: "Erosão é o desgaste do solo causado pela ação da chuva e vento, especialmente em áreas desmatadas.",
@@ -443,6 +460,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 18,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "A mineração é a atividade de:",
     tip: "Mineração é a extração de minérios e outros recursos do solo e das rochas.",
@@ -469,6 +487,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 19,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "A coleta de castanha-do-pará é um exemplo de:",
     tip: "A castanha-do-pará é um fruto coletado de árvores silvestres, caracterizando extrativismo vegetal.",
@@ -495,6 +514,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 20,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O ouro pertence ao extrativismo:",
     tip: "O ouro é um mineral precioso extraído do solo através da mineração.",
@@ -521,6 +541,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 21,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O extrativismo é uma atividade que:",
     tip: "Extrativismo significa retirar ou extrair recursos que já existem na natureza, como madeira, peixes e minérios.",
@@ -547,6 +568,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 22,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As agroindústrias têm como principal função:",
     tip: "As agroindústrias processam matérias-primas vindas da agricultura, da pecuária e do extrativismo, transformando-as em produtos.",
@@ -573,6 +595,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 23,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A pecuária é a atividade econômica que consiste em:",
     tip: "Pecuária é a atividade de criar e reproduzir animais domésticos, como gado, porcos e galinhas.",
@@ -599,6 +622,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 24,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "Qual das alternativas apresenta um exemplo de extrativismo animal?",
     tip: "A pesca é extrativismo animal, pois retira peixes diretamente da natureza.",
@@ -625,6 +649,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual atividade pode causar impactos ambientais quando não é realizada corretamente?",
     tip: "O desmatamento causa erosão, perda de biodiversidade e mudanças climáticas quando realizado sem controle.",
@@ -651,6 +676,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 26,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As __________________ transformam matérias-primas vindas da agricultura, da pecuária e do extrativismo.",
     tip: "Complete com: Agroindústrias. Elas processam e transformam matérias-primas em produtos industrializados.",
@@ -677,6 +703,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 27,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A __________________ é a atividade econômica responsável pela criação de animais.",
     tip: "Complete com: Pecuária. A pecuária é a atividade de criar animais domésticos para produção de carne, leite, ovos e outros.",
@@ -703,6 +730,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 28,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O extrativismo consiste na retirada de recursos da:",
     tip: "O extrativismo retira recursos que já existem na natureza, como plantas, animais e minerais.",
@@ -729,6 +757,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 29,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O ouro e o petróleo pertencem ao extrativismo:",
     tip: "Ouro e petróleo são recursos minerais extraídos do solo e das rochas através da mineração.",
@@ -755,6 +784,7 @@ export const questoesGeografiaAv2 = [
   },
   {
     id: 30,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A principal finalidade da pecuária é produzir:",
     tip: "A pecuária produz alimentos como carne, leite e ovos, além de matérias-primas como couro e lã.",

@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB2Av2 = [
   {
     id: 1,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "O que são elementos naturais de uma paisagem?",
     tip: "Pense em coisas que já existiam antes mesmo dos seres humanos aparecerem na Terra!",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "O que são elementos construídos (ou humanos) de uma paisagem?",
     tip: "Pense em coisas que precisaram ser planejadas e construídas por pessoas, como prédios e pontes!",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um rio é um exemplo de qual tipo de elemento?",
     tip: "Pense em como um rio se forma naturalmente, sem a necessidade de ser construído por pessoas!",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma montanha é um exemplo de qual tipo de elemento?",
     tip: "Pense em como as montanhas se formam ao longo de milhões de anos, através de processos da natureza!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma ponte é um exemplo de qual tipo de elemento?",
     tip: "Pense em como uma ponte precisa ser projetada e construída por engenheiros para conectar dois lugares!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma floresta é um exemplo de qual tipo de elemento?",
     tip: "Pense em como uma floresta cresce naturalmente, com árvores e plantas se desenvolvendo sozinhas!",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma praça, com bancos e árvores plantadas pelas pessoas, é um exemplo de:",
     tip: "Pense em como uma praça tem árvores (elemento natural) e também bancos e calçadas (elementos construídos)!",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma estrada de asfalto é um exemplo de qual tipo de elemento?",
     tip: "Pense em como o asfalto é um material fabricado, usado para facilitar o transporte de pessoas e veículos!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um vale (área baixa entre montanhas) é um exemplo de qual tipo de elemento?",
     tip: "Pense em como o formato do terreno, com áreas mais baixas entre montanhas, se forma naturalmente ao longo do tempo!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Complete: os elementos naturais e os elementos construídos, juntos, formam...",
     tip: "Pense em tudo que aprendemos hoje: rios, montanhas, casas, pontes... como tudo isso se junta para formar o que vemos ao nosso redor?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma casa é um exemplo de qual tipo de elemento em uma paisagem?",
     tip: "Pense em como uma casa precisa ser projetada e construída, usando materiais como tijolo e cimento!",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um prédio de apartamentos é um exemplo de qual tipo de elemento?",
     tip: "Pense em como um prédio precisa ser projetado por engenheiros e arquitetos antes de ser construído!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma rua asfaltada, com carros passando, é um exemplo de:",
     tip: "Pense em como as ruas precisam ser planejadas e construídas para permitir o trânsito de pessoas e veículos!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O que é uma usina hidrelétrica?",
     tip: "Pense em como a força da água que passa por uma represa pode ser usada para gerar eletricidade!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um estádio de futebol é um exemplo de qual tipo de elemento?",
     tip: "Pense em como um estádio precisa ser planejado e construído para receber muitas pessoas assistindo a jogos!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um shopping center é um exemplo de qual tipo de elemento?",
     tip: "Pense em como um shopping precisa ser totalmente projetado e construído para abrigar várias lojas!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo observou, na paisagem de sua cidade, um rio passando por baixo de uma ponte movimentada. Isso mostra:",
     tip: "Pense em como o rio já existia naturalmente, mas a ponte precisou ser construída para as pessoas atravessarem!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que é importante planejar com cuidado onde construir casas e prédios perto de rios?",
     tip: "Pense em como um rio pode transbordar em épocas de chuva forte, alagando áreas próximas mal planejadas!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um farol, construído para orientar navios próximos à costa, é um exemplo de:",
     tip: "Pense em como um farol precisa ser construído estrategicamente para ajudar os navios a evitarem perigos na costa!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Complete: os elementos construídos pelo ser humano mostram como as pessoas...",
     tip: "Pense em tudo que aprendemos hoje: casas, pontes, estradas, estádios... por que os seres humanos constroem tanto?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo está observando uma paisagem com montanhas ao fundo, um rio passando no meio e uma pequena cidade ao lado. Quantos tipos diferentes de elementos ele consegue identificar?",
     tip: "Pense em separar o que é natural (montanhas, rio) do que foi construído pelas pessoas (a cidade)!",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Por que muitas cidades antigas foram construídas perto de rios?",
     tip: "Pense em como a água de um rio é essencial para beber, para plantar e até para transportar mercadorias em barcos!",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que aconteceria se uma cidade fosse construída sem nenhum planejamento em relação aos elementos naturais ao redor, como rios e morros?",
     tip: "Pense em como construir em lugares de risco, sem cuidado com a natureza ao redor, pode causar acidentes graves!",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma trilha ecológica, criada dentro de uma floresta para caminhadas, é um exemplo de:",
     tip: "Pense em como uma trilha é uma intervenção pequena, que ainda preserva a maior parte da floresta natural ao redor!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo aprendeu que sua cidade foi construída em um vale, cercada por morros. Isso é um exemplo de como:",
     tip: "Pense em como o formato natural do terreno pode influenciar o planejamento e o crescimento de uma cidade!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é a importância de preservar áreas verdes mesmo dentro de cidades cheias de elementos construídos?",
     tip: "Pense em como um parque dentro da cidade oferece um respiro de natureza no meio de tantos prédios e ruas!",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo notou que, ao lado de um grande rio em sua cidade, foi construída uma ciclovia (caminho para bicicletas). Isso é um exemplo de:",
     tip: "Pense em como a ciclovia foi planejada justamente para aproveitar a bela paisagem do rio, incentivando um transporte mais saudável!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que é importante que engenheiros e arquitetos estudem os elementos naturais de um lugar antes de planejar novas construções?",
     tip: "Pense em como conhecer bem o terreno, o clima e os rios de um lugar ajuda a planejar construções mais seguras!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo desenhou um mapa de sua cidade, mostrando tanto o rio (elemento natural) quanto as ruas e prédios (elementos construídos). Isso mostra que ele entendeu:",
     tip: "Pense em como o desenho de Bernardo representa fielmente a mistura de elementos que formam a paisagem real de sua cidade!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Complete: entender a diferença entre elementos naturais e elementos construídos nos ajuda a...",
     tip: "Pense em tudo que aprendemos hoje: rios, montanhas, casas, pontes, praças... para que serve entender essa diferença?",

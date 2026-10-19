@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB3Av1 = [
   {
     id: 1,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que é a zona urbana?",
     tip: "Pense em como uma cidade grande é cheia de prédios, ruas movimentadas e muitas pessoas!",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que é a zona rural?",
     tip: "Pense em uma fazenda, com plantações e animais, longe da agitação da cidade!",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual dessas características é mais comum na zona urbana?",
     tip: "Pense em como uma cidade grande costuma ter muitos carros e construções próximas umas das outras!",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual dessas características é mais comum na zona rural?",
     tip: "Pense em como uma fazenda tem bastante espaço aberto, diferente da cidade cheia de construções!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Qual é a principal atividade econômica praticada na zona rural?",
     tip: "Pense no que se produz principalmente no campo: plantações e criação de animais!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual dessas atividades é mais comum encontrar na zona urbana?",
     tip: "Pense em tudo que existe em uma cidade grande: lojas, escolas, hospitais, fábricas...",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Migração",
     type: "multiple_choice",
     text: "O que significa \"êxodo rural\"?",
     tip: "Pense na palavra \"êxodo\", que significa \"saída em massa\" — de onde essas pessoas estão saindo?",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Por que muitas pessoas migram do campo para as cidades?",
     tip: "Pense em como as cidades costumam oferecer mais oportunidades de trabalho e estudo do que áreas rurais!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual dessas moradias é mais comum encontrar na zona rural?",
     tip: "Pense em como as casas de fazenda costumam ter bastante espaço ao redor, diferente de apartamentos!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Complete: as zonas rural e urbana se diferenciam principalmente pela quantidade de...",
     tip: "Pense em tudo que aprendemos hoje sobre campo e cidade — o que realmente diferencia essas duas áreas?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que é uma fazenda?",
     tip: "Pense no lugar onde se cultivam plantações e se criam animais, como vacas e galinhas!",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "O que os agricultores fazem em suas propriedades rurais?",
     tip: "Pense no trabalho de quem planta arroz, feijão, milho e outros alimentos no campo!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "O que significa pecuária?",
     tip: "Pense em fazendas que criam vacas para produzir leite ou carne — essa atividade tem um nome específico!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Por que as cidades costumam ter mais opções de escolas, hospitais e lojas do que o campo?",
     tip: "Pense em como um lugar com mais pessoas morando geralmente precisa de mais escolas e hospitais para atender a todos!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que é uma cidade grande, com muitos habitantes e infraestrutura desenvolvida, chamada?",
     tip: "Pense em cidades enormes, como São Paulo, cheias de gente e prédios altos!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que é um sítio (propriedade rural menor que uma fazenda)?",
     tip: "Pense em uma propriedade menor no campo, muitas vezes usada por famílias para plantar ou passar o fim de semana!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Bernardo visitou a fazenda de seus avós e viu galinhas, vacas e uma grande plantação de milho. Isso mostra características típicas de:",
     tip: "Pense em como animais e plantações são características bem comuns do campo!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é a importância dos alimentos produzidos na zona rural para as pessoas que vivem na zona urbana?",
     tip: "Pense em de onde vêm as frutas, verduras e carnes que chegam ao mercado da sua cidade!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "O que é a agroindústria?",
     tip: "Pense em como o leite de uma fazenda pode ser transformado em queijo ou iogurte em uma fábrica!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Complete: a zona rural é fundamental para a economia porque é onde se produz grande parte...",
     tip: "Pense em tudo que aprendemos hoje sobre fazendas, agricultura e pecuária — o que o campo produz principalmente?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é uma vantagem de morar na zona rural?",
     tip: "Pense em como é mais silencioso e espaçoso morar no campo, longe da agitação das grandes cidades!",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é uma vantagem de morar na zona urbana?",
     tip: "Pense em como as cidades grandes costumam concentrar mais oportunidades de emprego e estudo!",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é um desafio comum enfrentado pelas grandes cidades (zona urbana)?",
     tip: "Pense em problemas comuns de cidades grandes, como engarrafamentos e ar poluído!",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é um desafio comum enfrentado por quem vive na zona rural?",
     tip: "Pense em como pode ser mais difícil chegar rapidamente a um hospital grande morando bem longe da cidade!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Por que existe uma relação de interdependência (dependência mútua) entre o campo e a cidade?",
     tip: "Pense em como a comida que você come vem do campo, mas a fábrica que embala essa comida geralmente fica na cidade!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Bernardo notou que o leite comprado no mercado de sua cidade vem de fazendas de outra região do estado. Isso mostra:",
     tip: "Pense em como o leite precisa viajar da fazenda até chegar ao mercado da cidade de Bernardo!",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que é uma cidade pequena, com características que ainda lembram um pouco a vida rural, geralmente chamada de:",
     tip: "Pense em cidades menores, mais tranquilas, que ficam mais afastadas das grandes capitais!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Por que é importante valorizar tanto quem trabalha no campo quanto quem trabalha na cidade?",
     tip: "Pense em como precisamos tanto de quem planta os alimentos quanto de quem trabalha nas indústrias e serviços das cidades!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Bernardo, que mora na cidade, foi passar as férias na fazenda dos avós, no campo. O que ele provavelmente vai notar de diferente em relação à sua rotina na cidade?",
     tip: "Pense em tudo que aprendemos hoje sobre as características do campo, bem diferentes da cidade!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Complete: conhecer as diferenças e semelhanças entre zona rural e zona urbana nos ajuda a entender melhor...",
     tip: "Pense em tudo que aprendemos hoje: fazendas, cidades, agricultura, indústrias... para que serve entender essas diferenças?",

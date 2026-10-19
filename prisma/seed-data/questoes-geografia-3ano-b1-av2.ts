@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB1Av2 = [
   {
     id: 1,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O que é uma legenda em um mapa?",
     tip: "Pense em como, sem uma explicação, seria difícil entender o que cada desenho pequeno em um mapa representa!",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Por que os mapas usam símbolos ao invés de escrever tudo por extenso?",
     tip: "Pense em como seria complicado escrever \"hospital\" toda vez, ao invés de usar um símbolo simples de cruz!",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual desses símbolos poderia representar um hospital em um mapa?",
     tip: "Pense no símbolo usado em ambulâncias e placas para indicar serviços de saúde!",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O que é a \"escala\" de um mapa, de forma simples?",
     tip: "Pense em como um mapa do mundo inteiro precisa ser bem menor do que o mundo de verdade — a escala ajuda a entender essa redução!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é a função do título de um mapa?",
     tip: "Pense em como o título de um livro te diz do que se trata a história — o título do mapa funciona parecido!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Um mapa da sua cidade poderia ter qual desses títulos?",
     tip: "Pense em um título que realmente descreva o que está sendo mostrado no mapa!",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Se um mapa mostra um símbolo de árvore, o que ele provavelmente está indicando?",
     tip: "Pense no que uma árvore representa na natureza — que tipo de área ela indicaria em um mapa?",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Por que é importante saber ler a legenda antes de interpretar um mapa completo?",
     tip: "Pense em como você não conseguiria entender um mapa cheio de símbolos sem saber o que cada um significa!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual desses é um exemplo de símbolo comum usado em mapas de trânsito?",
     tip: "Pense em placas de trânsito que você já viu na rua, usando setas para indicar direção!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: a legenda de um mapa é importante porque ajuda a...",
     tip: "Pense em tudo que aprendemos hoje sobre legendas e símbolos — para que eles servem em um mapa?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Quais são os quatro pontos cardeais principais?",
     tip: "Pense nas direções usadas em bússolas e mapas para indicar posições gerais!",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em qual direção o Sol geralmente nasce?",
     tip: "Pense em como o Sol sempre aparece pela manhã de um lado específico do céu!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em qual direção o Sol geralmente se põe?",
     tip: "Pense em como o Sol desaparece no horizonte no final da tarde, sempre do lado oposto de onde nasceu!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que é uma bússola?",
     tip: "Pense no instrumento com uma agulha que sempre aponta para uma direção específica!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "A agulha de uma bússola aponta sempre para qual direção?",
     tip: "Pense na direção que a bússola usa como referência principal para se orientar!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se você está de frente para o Norte, qual direção fica atrás de você?",
     tip: "Pense em como o Sul é sempre o ponto cardeal oposto ao Norte!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se você está de frente para o Norte, qual direção fica à sua direita?",
     tip: "Pense em uma bússola desenhada: com o Norte para cima, o Leste geralmente fica do lado direito!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em mapas, qual ponto cardeal costuma ser representado na parte de cima?",
     tip: "Pense na convenção usada pela maioria dos mapas ao redor do mundo!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que é importante saber usar os pontos cardeais para se orientar?",
     tip: "Pense em como saber para onde fica o Norte pode te ajudar a entender melhor um mapa ou até uma trilha na natureza!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Complete: os pontos cardeais (Norte, Sul, Leste e Oeste) são usados para...",
     tip: "Pense em tudo que aprendemos hoje sobre bússolas, Sol e pontos cardeais — para que eles servem no final das contas?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se a escola de Bernardo fica ao Norte de sua casa, em qual direção ele deve caminhar para ir da escola até sua casa?",
     tip: "Pense em como o caminho de volta é sempre na direção oposta ao caminho de ida!",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo está olhando para o Sol nascer. Em qual direção ele está olhando?",
     tip: "Lembre-se: o Sol nasce sempre na mesma direção cardeal, todos os dias!",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em um mapa, se um rio está desenhado na parte de baixo, ele está localizado em qual ponto cardeal, considerando o Norte para cima?",
     tip: "Lembre-se: o Sul é representado na parte de baixo dos mapas, seguindo a convenção do Norte para cima!",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual desses símbolos de mapa poderia representar uma escola?",
     tip: "Pense em objetos relacionados ao estudo que poderiam simbolizar facilmente uma escola em um mapa!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Bernardo está fazendo um mapa do seu bairro e decidiu usar um símbolo de bola para representar uma quadra esportiva. Isso é um exemplo de:",
     tip: "Pense em como Bernardo escolheu um símbolo fácil de entender para representar aquele lugar específico!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que uma bússola é útil em trilhas na natureza, onde não há muitas placas de rua?",
     tip: "Pense em como seria fácil se perder em uma floresta sem nenhuma referência visual — a bússola ajuda a saber ao menos a direção geral!",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual é a relação entre o Sol e os pontos cardeais Leste e Oeste?",
     tip: "Pense em tudo que aprendemos hoje sobre o movimento do Sol ao longo do dia!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Bernardo está criando um mapa do tesouro para uma brincadeira e usou uma legenda explicando que um \"X\" representa onde o tesouro está escondido. Isso mostra a importância de:",
     tip: "Pense em como seria impossível encontrar o tesouro se ninguém soubesse o que o \"X\" representa!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Por que os mapas geralmente seguem o padrão de colocar o Norte para cima?",
     tip: "Pense em como seria confuso se cada mapa tivesse o Norte apontando para um lado diferente!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: aprender sobre legendas, símbolos e pontos cardeais nos ajuda a...",
     tip: "Pense em tudo que aprendemos hoje: legendas, símbolos, Norte, Sul, Leste, Oeste... para que serve tudo isso junto?",

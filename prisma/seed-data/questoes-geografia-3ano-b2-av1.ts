@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB2Av1 = [
   {
     id: 1,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "O que é uma paisagem, em Geografia?",
     tip: "Pense em tudo que você enxerga quando olha ao redor: árvores, casas, montanhas, ruas... isso tudo forma uma paisagem!",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "O que é uma paisagem natural?",
     tip: "Pense em uma floresta, uma montanha ou uma praia sem nenhuma construção — o que predomina nesses lugares?",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "O que é uma paisagem transformada (ou humanizada)?",
     tip: "Pense em uma cidade grande, cheia de prédios, ruas e carros — isso é natural ou foi transformado pelas pessoas?",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Qual desses é um exemplo de paisagem natural?",
     tip: "Pense em qual desses lugares não tem nenhuma construção feita pelo ser humano!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Qual desses é um exemplo de paisagem transformada pelo ser humano?",
     tip: "Pense em qual desses lugares foi claramente construído e modificado pelas pessoas!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma praia com quiosques, calçadão e prédios ao redor é um exemplo de:",
     tip: "Pense em como a areia e o mar são naturais, mas os quiosques e prédios foram construídos pelas pessoas!",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma plantação de milho, organizada em fileiras, é um exemplo de:",
     tip: "Pense em como as plantas foram organizadas de um jeito específico pelos agricultores, diferente de como cresceriam sozinhas na natureza!",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma cachoeira em uma floresta, sem nenhuma construção ao redor, é um exemplo de:",
     tip: "Pense em como esse lugar não tem nenhuma interferência humana visível, apenas elementos da natureza!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Por que é importante saber diferenciar paisagens naturais de paisagens transformadas?",
     tip: "Pense em como entender essa diferença nos ajuda a perceber o impacto das nossas ações no meio ambiente!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Complete: as paisagens podem ser classificadas em naturais e transformadas, dependendo do quanto...",
     tip: "Pense em tudo que aprendemos hoje sobre paisagens naturais e transformadas — o que determina essa diferença?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Como uma paisagem natural pode se transformar ao longo do tempo, com a ação humana?",
     tip: "Pense em como uma área de floresta pode virar uma cidade depois de muitos anos de construções!",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo viu fotos antigas de sua cidade e percebeu que, há 50 anos, havia muito mais áreas verdes e menos prédios. Isso mostra que:",
     tip: "Pense em como o crescimento das cidades costuma substituir áreas naturais por construções!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "O desmatamento é um exemplo de:",
     tip: "Pense em como a retirada de árvores de uma floresta muda completamente aquela paisagem!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "A construção de uma represa (grande reservatório de água) é um exemplo de:",
     tip: "Pense em como uma represa muda completamente o curso natural de um rio, criando um grande lago artificial!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Como a construção de estradas transforma uma paisagem?",
     tip: "Pense em como uma estrada atravessa florestas e campos, mudando a paisagem original daquele lugar!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Uma cidade construída ao redor de um rio, aproveitando a água para diversas atividades, é um exemplo de:",
     tip: "Pense em como muitas cidades do mundo cresceram justamente perto de rios, aproveitando a água disponível!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Um parque urbano, criado dentro de uma cidade grande, com árvores e trilhas, é um exemplo de:",
     tip: "Pense em como um parque, mesmo dentro da cidade, tenta imitar e preservar elementos da natureza!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que é importante planejar bem o crescimento das cidades, pensando na preservação de áreas naturais?",
     tip: "Pense em como um bom planejamento pode evitar problemas como enchentes e falta de áreas verdes nas cidades!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo notou que, perto de sua casa, uma área que antes era um terreno vazio com plantas agora tem um prédio novo. Isso é um exemplo de:",
     tip: "Pense em como as paisagens ao nosso redor estão sempre mudando, às vezes bem rapidamente!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Complete: as paisagens transformadas pelo ser humano mostram como as pessoas...",
     tip: "Pense em tudo que aprendemos hoje: cidades, estradas, represas, plantações... por que os seres humanos transformam tanto o ambiente?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é o impacto do desmatamento para os animais que vivem em uma floresta?",
     tip: "Pense em como os animais precisam de um lugar para viver — o que acontece se esse lugar for destruído?",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é reflorestamento?",
     tip: "Pense na palavra \"re\" (de novo) junto com \"florestamento\" — o que isso sugere sobre plantar árvores?",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Por que é importante preservar paisagens naturais, mesmo em meio ao crescimento das cidades?",
     tip: "Pense em como as árvores ajudam a purificar o ar e como os rios fornecem água — por que isso é importante preservar?",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Uma área de mangue, que fica na transição entre o mar e a terra, é considerada uma paisagem natural muito importante porque:",
     tip: "Pense em como os mangues funcionam como um \"berçário\" para muitas espécies de peixes e crustáceos!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo participou de um mutirão de plantio de árvores em uma área desmatada perto de sua cidade. Essa ação é um exemplo de:",
     tip: "Pense em como plantar árvores pode ajudar a devolver parte da natureza que foi perdida!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que acontece com o solo quando uma área de floresta é desmatada sem nenhum cuidado?",
     tip: "Pense em como as raízes das árvores ajudam a \"segurar\" o solo no lugar — o que acontece quando elas são retiradas?",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é a importância das áreas de proteção ambiental, como parques nacionais?",
     tip: "Pense em como um parque nacional protege espécies de plantas e animais que poderiam desaparecer sem esse cuidado!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Como as cidades podem se desenvolver de forma mais sustentável, equilibrando crescimento e preservação ambiental?",
     tip: "Pense em como um bom planejamento urbano pode incluir parques e cuidado com o meio ambiente, mesmo em cidades grandes!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Bernardo aprendeu que, antes de sua cidade ser construída, aquele lugar era todo coberto por floresta. O que isso mostra sobre a paisagem?",
     tip: "Pense em como é interessante imaginar como era o lugar onde você mora antes de existir a cidade!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Complete: entender as transformações das paisagens ao longo do tempo nos ajuda a...",
     tip: "Pense em tudo que aprendemos hoje: desmatamento, reflorestamento, preservação... para que serve entender essas transformações?",

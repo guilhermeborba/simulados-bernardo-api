@@ -1,6 +1,7 @@
 export const questoesGeografia3AnoB4Av1 = [
   {
     id: 1,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O que é o relevo?",
     tip: "Pense em como a superfície da Terra não é totalmente lisa: tem lugares altos, baixos, planos...",
@@ -16,6 +17,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O que é uma montanha?",
     tip: "Pense em um terreno que sobe bem alto, formando picos — como esse tipo de relevo se chama?",
@@ -31,6 +33,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O que é uma planície?",
     tip: "Pense em um terreno bem \"liso\", sem subidas nem descidas importantes!",
@@ -46,6 +49,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O que é um planalto?",
     tip: "Pense em uma \"mesa\" gigante de terra, elevada, mas com o topo mais plano do que uma montanha!",
@@ -61,6 +65,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O que é uma depressão, em termos de relevo?",
     tip: "Pense em uma área \"afundada\", mais baixa que os terrenos ao redor dela!",
@@ -76,6 +81,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Qual desses tipos de relevo costuma ser mais usado para a agricultura, por ser mais plano?",
     tip: "Pense em qual tipo de terreno facilita mais o plantio e a colheita, sem subidas e descidas!",
@@ -91,6 +97,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Por que é mais difícil construir estradas em regiões montanhosas?",
     tip: "Pense em como seria complicado construir uma estrada reta em um terreno cheio de subidas e descidas!",
@@ -106,6 +113,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O que é uma serra, em termos de relevo?",
     tip: "Pense em várias montanhas seguidas, formando uma linha no horizonte!",
@@ -121,6 +129,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Bernardo visitou uma região cheia de morros e montanhas, com estradas cheias de curvas. Que tipo de relevo ele provavelmente estava observando?",
     tip: "Pense em como estradas cheias de curvas costumam aparecer em terrenos com muitas subidas e descidas!",
@@ -136,6 +145,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Complete: conhecer os diferentes tipos de relevo nos ajuda a entender melhor...",
     tip: "Pense em tudo que aprendemos hoje: montanhas, planícies, planaltos... para que serve entender essas formas?",
@@ -151,6 +161,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O que é a hidrografia?",
     tip: "Pense na palavra \"hidro\", que tem relação com água — o que essa área da Geografia estuda?",
@@ -166,6 +177,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Qual é o maior rio do Brasil?",
     tip: "Pense no rio gigantesco que atravessa a Floresta Amazônica!",
@@ -181,6 +193,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O que é um afluente de um rio?",
     tip: "Pense em pequenos rios que se juntam a um rio principal, tornando-o ainda maior!",
@@ -196,6 +209,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O que é a nascente de um rio?",
     tip: "Pense em onde um rio \"nasce\", geralmente em uma região mais alta, como uma nascente de água na montanha!",
@@ -211,6 +225,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O que é a foz de um rio?",
     tip: "Pense no \"final da viagem\" de um rio, quando ele finalmente chega ao mar!",
@@ -226,6 +241,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Por que os rios são tão importantes para a vida das pessoas?",
     tip: "Pense em tudo que já aprendemos sobre a importância da água — os rios são uma das principais fontes desse recurso!",
@@ -241,6 +257,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O que é a vegetação de uma região?",
     tip: "Pense em como cada região do mundo tem tipos diferentes de plantas, adaptadas ao clima local!",
@@ -256,6 +273,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O que é a Floresta Amazônica?",
     tip: "Pense na floresta mais famosa do Brasil, cheia de árvores altas e uma biodiversidade incrível!",
@@ -271,6 +289,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O que é o Cerrado?",
     tip: "Pense em uma vegetação diferente da floresta amazônica, com árvores mais espalhadas e retorcidas!",
@@ -286,6 +305,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Complete: rios, florestas e outros elementos naturais são fundamentais para...",
     tip: "Pense em tudo que aprendemos hoje sobre hidrografia e vegetação — por que esses elementos são tão importantes?",
@@ -301,6 +321,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Por que é importante não jogar lixo em rios e lagos?",
     tip: "Pense em como um rio cheio de lixo pode ficar impróprio para consumo e prejudicar os animais que vivem nele!",
@@ -316,6 +337,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é o desmatamento?",
     tip: "Pense em como retirar muitas árvores de uma floresta pode prejudicar bastante aquele ambiente!",
@@ -331,6 +353,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Por que é importante preservar a vegetação nativa de uma região?",
     tip: "Pense em como as raízes das árvores ajudam a segurar o solo e como elas servem de casa para muitos animais!",
@@ -346,6 +369,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que podemos fazer no nosso dia a dia para ajudar a cuidar dos rios e da água?",
     tip: "Pense em pequenas atitudes, como fechar bem a torneira e não jogar lixo na rua, que ajudam a proteger a água!",
@@ -361,6 +385,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que são unidades de conservação, como parques nacionais?",
     tip: "Pense em lugares especiais, protegidos por lei, criados justamente para cuidar da natureza!",
@@ -376,6 +401,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo participou de uma campanha de limpeza em um rio perto de sua cidade, retirando lixo das margens. Isso é um exemplo de:",
     tip: "Pense em como retirar lixo de um rio ajuda a melhorar a qualidade daquele ambiente!",
@@ -391,6 +417,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Por que a reciclagem ajuda a proteger recursos naturais, como florestas e água?",
     tip: "Pense em como reciclar papel evita que mais árvores precisem ser cortadas para fabricar papel novo!",
@@ -406,6 +433,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é a importância dos animais para o equilíbrio de um ecossistema, como uma floresta?",
     tip: "Pense em como abelhas polinizam flores e pássaros espalham sementes — cada animal tem seu papel na natureza!",
@@ -421,6 +449,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo aprendeu que sua cidade fica perto de uma área de proteção ambiental, onde a caça e o desmatamento são proibidos. Isso mostra:",
     tip: "Pense em como leis específicas ajudam a garantir que aquele ambiente natural seja preservado por muito mais tempo!",
@@ -436,6 +465,7 @@ export const questoesGeografia3AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Complete: cuidar do relevo, dos rios, da vegetação e dos animais é uma responsabilidade...",
     tip: "Pense em tudo que aprendemos hoje: relevo, rios, florestas, preservação... de quem é a responsabilidade de cuidar de tudo isso?",

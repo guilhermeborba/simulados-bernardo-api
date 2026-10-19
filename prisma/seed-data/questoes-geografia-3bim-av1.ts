@@ -1,6 +1,7 @@
 export const questoesGeografiaAv1Bim3 = [
   {
     id: 1,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Roupas, calçados, mochilas e materiais escolares são fabricados com o uso de ferramentas e máquinas em locais chamados de:",
     points: 1,
@@ -26,6 +27,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 2,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Matéria-prima é:",
     points: 1,
@@ -51,6 +53,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 3,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As matérias-primas podem ser de origem:",
     points: 1,
@@ -76,6 +79,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 4,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As matérias-primas de origem mineral vêm:",
     points: 1,
@@ -101,6 +105,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 5,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Assinale a alternativa em que todas as matérias-primas são de origem mineral:",
     points: 1,
@@ -126,6 +131,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 6,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Assinale a alternativa em que todas as matérias-primas são de origem vegetal:",
     points: 1,
@@ -151,6 +157,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 7,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "São exemplos de matérias-primas de origem animal:",
     points: 1,
@@ -176,6 +183,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 8,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Em uma fábrica de suco de laranja, a laranja é a principal matéria-prima. Ela é de origem:",
     points: 1,
@@ -201,6 +209,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 9,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As latas de alumínio são feitas a partir da bauxita, um tipo de mineral extraído de rochas. Isso significa que a matéria-prima dessa produção é de origem:",
     points: 1,
@@ -226,6 +235,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 10,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Na produção industrial de leite em pó, a principal matéria-prima usada é:",
     points: 1,
@@ -251,6 +261,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 11,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "Grande parte das matérias-primas chega até as indústrias por meio de caminhões. Esse tipo de transporte é chamado de:",
     points: 1,
@@ -276,6 +287,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 12,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Dentro das fábricas, trabalham juntos vários profissionais, como:",
     points: 1,
@@ -301,6 +313,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 13,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Depois de fabricados e embalados, os produtos são:",
     points: 1,
@@ -326,6 +339,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 14,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "É mais comum que as indústrias fiquem em áreas urbanas porque nas cidades:",
     points: 1,
@@ -351,6 +365,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 15,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Muitas indústrias ficam longe do centro das cidades porque precisam de grandes áreas, podem produzir ruídos e aumentam o trânsito. Por isso, costumam ser instaladas em:",
     points: 1,
@@ -376,6 +391,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 16,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "O comércio é uma atividade econômica que acontece quando:",
     points: 1,
@@ -401,6 +417,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 17,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "A pessoa que compra os produtos é chamada de:",
     points: 1,
@@ -426,6 +443,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 18,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "São exemplos de profissões ligadas ao comércio:",
     points: 1,
@@ -451,6 +469,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 19,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Padarias, mercados e lojas são exemplos de:",
     points: 1,
@@ -476,6 +495,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 20,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Além dos mercados e lojas, o comércio também pode acontecer em:",
     points: 1,
@@ -501,6 +521,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 21,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "A compra e a venda feitas pela internet são:",
     points: 1,
@@ -526,6 +547,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 22,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "As atividades comerciais são mais comuns nas cidades porque nelas:",
     points: 1,
@@ -551,6 +573,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 23,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Na cidade, os estabelecimentos comerciais costumam ficar em áreas:",
     points: 1,
@@ -576,6 +599,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 24,
+    theme: "Transportes e circulação",
     type: "multiple_choice",
     text: "Para que os produtos circulem pela cidade, é preciso que exista uma estrutura, como:",
     points: 1,
@@ -601,6 +625,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 25,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "A prestação de serviços é a atividade econômica que:",
     points: 1,
@@ -626,6 +651,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 26,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "São exemplos de profissionais que prestam serviços:",
     points: 1,
@@ -651,6 +677,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 27,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Os serviços privados são aqueles que:",
     points: 1,
@@ -676,6 +703,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 28,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Os serviços públicos são:",
     points: 1,
@@ -701,6 +729,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 29,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Muitos serviços públicos são mantidos com o dinheiro dos impostos pagos pelos cidadãos. São exemplos desses serviços:",
     points: 1,
@@ -726,6 +755,7 @@ export const questoesGeografiaAv1Bim3 = [
   },
   {
     id: 30,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "Observe os dados do gráfico \"Empregados por setor econômico em 2024 (a cada 100 pessoas)\": Serviços 40 – Comércio 32 – Indústria 23 – Agricultura 5. O setor que mais emprega pessoas no Brasil é:",
     points: 1,

@@ -1,6 +1,7 @@
 export const questoesGeografia = [
   {
     id: 1,
+    theme: "Representações cartográficas",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Mapas mostram lugares.",
@@ -17,6 +18,7 @@ export const questoesGeografia = [
   },
   {
     id: 2,
+    theme: "Representações cartográficas",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Croqui = desenho simples.",
@@ -33,6 +35,7 @@ export const questoesGeografia = [
   },
   {
     id: 3,
+    theme: "Representações cartográficas",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Planta é mais detalhada.",
@@ -49,6 +52,7 @@ export const questoesGeografia = [
   },
   {
     id: 4,
+    theme: "Representações cartográficas",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Planta tem medidas e proporção.",
@@ -65,6 +69,7 @@ export const questoesGeografia = [
   },
   {
     id: 5,
+    theme: "Pontos de vista",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Feitas por aviões.",
@@ -81,6 +86,7 @@ export const questoesGeografia = [
   },
   {
     id: 6,
+    theme: "Pontos de vista",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Pode ser vertical ou oblíqua.",
@@ -97,6 +103,7 @@ export const questoesGeografia = [
   },
   {
     id: 7,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: Os recursos cartográficos servem para __________ os lugares.",
     tip: "💡 Palavra-chave da matéria.",
@@ -119,6 +126,7 @@ export const questoesGeografia = [
   },
   {
     id: 8,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: Os mapas são representações mais __________ dos lugares.",
     tip: "💡 Mapas são mais completos.",
@@ -141,6 +149,7 @@ export const questoesGeografia = [
   },
   {
     id: 9,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: O croqui é um desenho feito geralmente à __________.",
     tip: "💡 Croqui = desenho à mão.",
@@ -163,6 +172,7 @@ export const questoesGeografia = [
   },
   {
     id: 10,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: A planta apresenta mais __________ e detalhes.",
     tip: "💡 Planta = mais precisão.",
@@ -185,6 +195,7 @@ export const questoesGeografia = [
   },
   {
     id: 11,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é um recurso cartográfico?",
     tip: "💡 Mapa é recurso cartográfico.",
@@ -207,6 +218,7 @@ export const questoesGeografia = [
   },
   {
     id: 12,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é mais simples?",
     tip: "💡 Croqui é o mais simples.",
@@ -229,6 +241,7 @@ export const questoesGeografia = [
   },
   {
     id: 13,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "A visão \"de cima para baixo\" é chamada de:",
     tip: "💡 Vertical = de cima.",
@@ -251,6 +264,7 @@ export const questoesGeografia = [
   },
   {
     id: 14,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "A visão \"de frente\" é:",
     tip: "💡 Frontal = de frente.",
@@ -273,6 +287,7 @@ export const questoesGeografia = [
   },
   {
     id: 15,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "A visão inclinada é chamada de:",
     tip: "💡 Oblíqua = inclinada.",
@@ -295,6 +310,7 @@ export const questoesGeografia = [
   },
   {
     id: 16,
+    theme: "Pontos de vista",
     type: "multiple_choice",
     text: "Complete: As fotografias aéreas podem ter visão __________ ou oblíqua.",
     tip: "💡 Sempre aparece isso.",
@@ -317,6 +333,7 @@ export const questoesGeografia = [
   },
   {
     id: 17,
+    theme: "Campo e cidade",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Muitos trabalhos na cidade.",
@@ -333,6 +350,7 @@ export const questoesGeografia = [
   },
   {
     id: 18,
+    theme: "Campo e cidade",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 No campo tem máquinas sim.",
@@ -349,6 +367,7 @@ export const questoesGeografia = [
   },
   {
     id: 19,
+    theme: "Campo e cidade",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Trabalho mantém a cidade.",
@@ -365,6 +384,7 @@ export const questoesGeografia = [
   },
   {
     id: 20,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A feira de rua acontece no espaço:",
     tip: "💡 Feira = cidade.",
@@ -383,6 +403,7 @@ export const questoesGeografia = [
   },
   {
     id: 21,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Plantação de soja acontece no:",
     tip: "💡 Plantação = campo.",
@@ -401,6 +422,7 @@ export const questoesGeografia = [
   },
   {
     id: 22,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Rua com lojas é:",
     tip: "💡 Comércio = urbano.",
@@ -419,6 +441,7 @@ export const questoesGeografia = [
   },
   {
     id: 23,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Complete: O campo está relacionado ao espaço __________.",
     tip: "💡 Campo = rural.",
@@ -441,6 +464,7 @@ export const questoesGeografia = [
   },
   {
     id: 24,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Complete: A cidade está relacionada ao espaço __________.",
     tip: "💡 Cidade = urbano.",
@@ -463,6 +487,7 @@ export const questoesGeografia = [
   },
   {
     id: 25,
+    theme: "Campo e cidade",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Cultura própria.",
@@ -479,6 +504,7 @@ export const questoesGeografia = [
   },
   {
     id: 26,
+    theme: "Campo e cidade",
     type: "true_false_multiple",
     text: "Marque V para verdadeiro e F para falso:",
     tip: "💡 Cada lugar tem trabalhos diferentes.",
@@ -495,6 +521,7 @@ export const questoesGeografia = [
   },
   {
     id: 27,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Complete: Os pescadores trabalham principalmente perto da __________.",
     tip: "💡 Pesca = água.",
@@ -517,6 +544,7 @@ export const questoesGeografia = [
   },
   {
     id: 28,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Complete: Os mapas ajudam a __________ lugares.",
     tip: "💡 Função do mapa.",
@@ -539,6 +567,7 @@ export const questoesGeografia = [
   },
   {
     id: 29,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual representa melhor um lugar com detalhes?",
     tip: "💡 Planta = mais detalhada.",
@@ -557,6 +586,7 @@ export const questoesGeografia = [
   },
   {
     id: 30,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é mais completo?",
     tip: "💡 Mapa = mais completo.",
