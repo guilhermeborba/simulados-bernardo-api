@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB2Av2 = [
   {
     id: 1,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Antes de serem trazidos à força para o Brasil, os povos africanos:",
     tip: "Pensa em como a África é um continente enorme, com muitos países e povos diferentes, cada um com sua própria história.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Durante o período colonial, muitos povos africanos foram trazidos ao Brasil:",
     tip: "Pensa em um período muito triste da história, em que pessoas foram obrigadas a deixar sua terra contra a própria vontade.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "O tráfico negreiro foi:",
     tip: "Pensa no nome que lembra o transporte forçado de pessoas, feito de forma muito cruel, durante esse período da história.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "As pessoas africanas escravizadas no Brasil eram forçadas a trabalhar, principalmente:",
     tip: "Pensa em como esse trabalho era feito de forma injusta, sem que as pessoas tivessem escolha ou liberdade.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Mesmo em uma situação tão injusta, os povos africanos escravizados no Brasil conseguiram:",
     tip: "Pensa em como a força e a resistência de um povo podem manter viva sua cultura, mesmo em situações muito difíceis.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "A escravidão no Brasil foi oficialmente proibida por uma lei em:",
     tip: "Pensa em uma data conhecida da história do Brasil, quando a escravidão foi finalmente proibida por lei.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Um quilombo era:",
     tip: "Pensa em um lugar onde pessoas que buscavam liberdade se organizavam para viver livres, longe da escravidão.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Zumbi dos Palmares é lembrado na história do Brasil por:",
     tip: "Pensa em uma pessoa que se tornou um símbolo de luta e resistência do povo negro no Brasil.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "O Quilombo dos Palmares, um dos maiores quilombos da história do Brasil, ficava localizado principalmente na região que hoje corresponde ao estado de:",
     tip: "Pensa em uma região do Nordeste do Brasil, onde ficava esse importante quilombo histórico.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Por que é importante estudar a história dos povos africanos e sua presença no Brasil?",
     tip: "Pensa em como a cultura brasileira tem uma enorme influência africana, presente até hoje na música, na comida e nas tradições.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "A capoeira, uma expressão cultural brasileira que mistura luta, dança e música, tem origem:",
     tip: "Pensa em uma manifestação cultural criada pelos povos africanos escravizados, que misturava luta e dança, muitas vezes disfarçada.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "Qual desses ritmos musicais brasileiros tem forte influência africana?",
     tip: "Pensa em um ritmo muito famoso no Brasil, ligado ao Carnaval, que tem raízes na cultura africana.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "A feijoada, um prato muito conhecido da culinária brasileira, tem forte influência:",
     tip: "Pensa em como esse prato, feito com feijão preto e carnes, tem uma história ligada à culinária dos povos africanos no Brasil.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Muitas palavras usadas no português brasileiro, como \"moleque\", \"cafuné\" e \"quitute\", têm origem:",
     tip: "Pensa em como a língua portuguesa falada no Brasil recebeu influências de vários povos, incluindo os africanos.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As religiões de matriz africana, como o candomblé, são exemplos de:",
     tip: "Pensa em como os povos africanos trouxeram, junto com sua cultura, também suas crenças e religiões, que resistem até hoje.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "O dia 20 de novembro é celebrado no Brasil como:",
     tip: "Lembra a data da morte de Zumbi dos Palmares, símbolo de luta e resistência.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "O Dia da Consciência Negra tem como objetivo:",
     tip: "Pensa em como essa data serve para refletir sobre a importância da cultura e da luta do povo negro na formação do Brasil.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Apesar de toda a injustiça vivida durante a escravidão, o povo negro no Brasil:",
     tip: "Pensa em tudo que aprendemos hoje sobre música, comida e palavras que vêm da cultura africana.",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Depois da abolição da escravidão em 1888, as pessoas negras libertas:",
     tip: "Pensa em como uma lei sozinha nem sempre resolve todas as injustiças de uma vez, e a luta por igualdade pode continuar por muito tempo.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância da cultura africana e afro-brasileira para o Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre música, comida, palavras e resistência que fazem parte da cultura brasileira até hoje.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "Na escola, Bernardo assistiu a uma apresentação de capoeira no Dia da Consciência Negra. Essa manifestação cultural tem origem:",
     tip: "Lembra a origem dessa manifestação que mistura luta, dança e música, criada pelos povos africanos escravizados no Brasil.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Bernardo aprendeu que Zumbi dos Palmares é lembrado até hoje porque:",
     tip: "Lembra o que aprendemos sobre a liderança de Zumbi no Quilombo dos Palmares.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Na hora do almoço, a família de Bernardo preparou uma feijoada, prato de origem afro-brasileira. Isso mostra como a cultura africana:",
     tip: "Pensa em tudo que aprendemos sobre pratos, ritmos e palavras que vêm da cultura africana e ainda fazem parte da vida das pessoas hoje.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Bernardo quer ser mais respeitoso com a cultura afro-brasileira no dia a dia. Uma boa atitude seria:",
     tip: "Pensa em como todas as culturas e religiões merecem respeito, sem preconceito.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse aprender mais sobre a história dos povos africanos e sua presença no Brasil, uma boa atitude seria:",
     tip: "Pensa em como podemos aprender de verdade sobre um assunto tão importante: pesquisando com cuidado e respeito.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Qual foi uma forma de resistência criada pelos povos africanos escravizados no Brasil?",
     tip: "Lembra o nome das comunidades formadas por pessoas que fugiam da escravidão em busca de liberdade.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Depois de estudar sobre os povos africanos e sua história no Brasil, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje: história, resistência, cultura e contribuição dos povos africanos para o Brasil.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é uma atitude importante para combater o preconceito racial no dia a dia?",
     tip: "Pensa em como cada pessoa merece ser tratada com respeito e igualdade, não importa a cor da pele.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância do Dia da Consciência Negra?",
     tip: "Pensa em tudo que aprendemos sobre Zumbi dos Palmares e a importância de valorizar essa história.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Depois de estudar sobre os povos africanos e sua história no Brasil, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: história, cultura, resistência e contribuição dos povos africanos para o Brasil.",

@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB1Av2 = [
   {
     id: 1,
+    theme: "Organização social",
     type: "multiple_choice",
     text: "O que é uma comunidade?",
     tip: "Pensa nas pessoas que moram perto de você, no seu bairro, e que compartilham o mesmo lugar.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma comunidade urbana é aquela localizada:",
     tip: "Pensa na palavra \"urbano\", que tem relação com as cidades.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma comunidade rural é aquela localizada:",
     tip: "Pensa em lugares com fazendas, plantações e bastante natureza ao redor.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é a importância de seguir regras de convivência dentro de uma comunidade, como na escola ou no bairro?",
     tip: "Pensa em como seria complicado conviver bem se ninguém respeitasse ninguém, sem nenhuma regra.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Organização social",
     type: "multiple_choice",
     text: "A família é um exemplo de:",
     tip: "Pensa nas pessoas com quem você mora e convive todos os dias, cuidando umas das outras.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Organização social",
     type: "multiple_choice",
     text: "A escola é um exemplo de:",
     tip: "Pensa no lugar onde você estuda, faz amigos e aprende coisas novas todos os dias.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Cada comunidade pode ter costumes, comidas típicas e festas diferentes. Isso mostra que:",
     tip: "Pensa em como uma festa junina, por exemplo, pode ser comemorada de formas diferentes em cada região do Brasil.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Respeitar as diferenças entre as pessoas de uma comunidade, como costumes e formas de vida diferentes, é importante porque:",
     tip: "Pensa em como todo mundo gosta de ser tratado com respeito, mesmo sendo diferente dos outros.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Organização social",
     type: "multiple_choice",
     text: "O bairro onde Bernardo mora, com vizinhos, praças e comércios próximos, é um exemplo de:",
     tip: "Lembra a definição de grupo de pessoas que vivem próximas e compartilham o mesmo espaço.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é um exemplo de atitude que fortalece a convivência em uma comunidade?",
     tip: "Pensa em atitudes que fazem bem para todo mundo que compartilha o mesmo espaço.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A formação de um povo acontece, entre outras coisas, através da:",
     tip: "Pensa em como diferentes grupos de pessoas, com suas próprias histórias, podem se encontrar e formar um povo novo, com uma cultura própria.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "O que é migração?",
     tip: "Pensa em famílias que se mudam de uma cidade ou país para outro, em busca de trabalho ou uma vida melhor.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Quando pessoas de diferentes lugares se encontram e passam a conviver na mesma comunidade, geralmente acontece:",
     tip: "Pensa em como novos sabores, palavras e festas podem surgir quando culturas diferentes se encontram.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os costumes de um povo podem incluir:",
     tip: "Pensa em tudo que faz parte do jeito de viver de um grupo de pessoas: comida, festas, jeito de falar.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O patrimônio cultural de um povo pode incluir:",
     tip: "Pensa em coisas que passam de geração em geração, como uma dança típica ou uma receita de família.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Por que é importante respeitar as diferentes línguas, religiões e tradições dos povos que formam uma comunidade?",
     tip: "Pensa em como cada pessoa e cada grupo têm o direito de manter aquilo que faz parte da sua identidade.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Uma festa típica, como uma festa junina ou uma festa de fim de ano, é um exemplo de:",
     tip: "Pensa em como essas festas são comemoradas ano após ano, sendo passadas dos pais para os filhos.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Quando diferentes povos se encontram, a culinária (os tipos de comida) de uma comunidade pode:",
     tip: "Pensa em pratos que misturam ingredientes e temperos de culturas diferentes, criando sabores novos.",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é uma atitude importante para conviver bem em uma comunidade formada por pessoas de origens diferentes?",
     tip: "Pensa em como cada cultura tem algo interessante para compartilhar e ensinar aos outros.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "O encontro de diferentes povos, com suas línguas, comidas e tradições, ao longo da história, ajudou a formar:",
     tip: "Pensa em como o Brasil tem tantas culturas diferentes, vindas de encontros de povos ao longo da história.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo mora em um bairro onde há vizinhos de diferentes origens, com costumes e comidas variadas. Essa realidade mostra que o bairro dele é:",
     tip: "Pensa em tudo que aprendemos sobre como diferentes povos formam uma comunidade cheia de diversidade.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Na escola de Bernardo, alguns colegas têm famílias que vieram de outras cidades ou até de outros países. A melhor atitude de Bernardo com esses colegas é:",
     tip: "Lembra a importância de respeitar e valorizar as diferenças entre as pessoas de uma comunidade.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo participou de uma festa típica organizada pela comunidade do seu bairro, com comidas e danças tradicionais. Essa festa é um exemplo de:",
     tip: "Lembra o que aprendemos sobre músicas, danças e festas passadas de geração em geração.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Se a família de Bernardo se mudasse para outra cidade, em busca de um novo trabalho, esse deslocamento seria um exemplo de:",
     tip: "Lembra o nome do deslocamento de pessoas de um lugar para outro, geralmente em busca de melhores condições de vida.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Bernardo notou que, no cardápio de sua cidade, existem pratos com influências de diferentes culturas, como comidas italianas, africanas e indígenas. Isso é um exemplo de:",
     tip: "Pensa em como diferentes culturas, ao se encontrarem, trocam receitas e criam sabores novos.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é a melhor atitude para se ter em uma comunidade formada por pessoas com costumes diferentes dos seus?",
     tip: "Pensa em como cada cultura tem algo bonito e interessante para ensinar às outras pessoas.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Depois de estudar sobre comunidades e formação dos povos, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos sobre comunidades, migração e diversidade cultural.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse conhecer mais sobre a formação da comunidade onde vive, ele poderia:",
     tip: "Lembra como entrevistar pessoas mais velhas nos ajuda a conhecer a história oral de um lugar.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância de conviver bem em uma comunidade diversa?",
     tip: "Pensa em tudo que aprendemos hoje sobre respeito e convivência entre pessoas de origens diferentes.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Depois de aprender sobre comunidades e a formação dos povos, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos: comunidades, migração, diversidade e respeito às diferenças.",

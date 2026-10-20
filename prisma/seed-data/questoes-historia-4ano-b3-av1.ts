@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB3Av1 = [
   {
     id: 1,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "O que é imigração?",
     tip: "Pensa em pessoas que vêm de fora para morar em um novo país, como o Brasil.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Em 1500, chegaram ao território que hoje é o Brasil, principalmente, imigrantes vindos de:",
     tip: "Pensa em qual país europeu colonizou o Brasil, dando origem, inclusive, à língua que falamos hoje.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "O povo brasileiro se formou, principalmente, a partir do encontro entre:",
     tip: "Pensa em tudo que já aprendemos sobre os diferentes povos que formaram a cultura brasileira: indígenas, africanos e europeus.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "A colonização portuguesa no Brasil, a partir de 1500, foi marcada por:",
     tip: "Pensa em como a chegada dos colonizadores portugueses trouxe grandes mudanças, muitas vezes difíceis, para os povos que já viviam no Brasil.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Depois da chegada dos portugueses, o território brasileiro também recebeu, à força, muitos povos vindos:",
     tip: "Lembra o que aprendemos no bimestre passado sobre a chegada forçada dos povos africanos ao Brasil.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Qual é a melhor forma de descrever a formação do povo brasileiro?",
     tip: "Pensa em tudo que aprendemos sobre indígenas, africanos, portugueses e outros imigrantes formando a cultura brasileira.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A língua portuguesa, falada no Brasil, chegou ao país através:",
     tip: "Pensa em qual povo trouxe sua língua ao colonizar o território brasileiro.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Um exemplo de palavra do português brasileiro que vem de uma língua indígena é:",
     tip: "Pensa em uma fruta bem brasileira, cujo nome tem origem em uma língua indígena.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Um exemplo de palavra do português brasileiro que vem de uma língua africana é:",
     tip: "Pensa em um gesto carinhoso, como fazer festinha na cabeça de alguém, cujo nome vem de uma língua africana.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Por que é importante conhecer a formação do povo brasileiro, com todas as suas influências culturais?",
     tip: "Pensa em como cada cultura que ajudou a formar o povo brasileiro deixou marcas até hoje na comida, na música e nos costumes.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Além dos portugueses, africanos e indígenas, o Brasil também recebeu, principalmente a partir do século XIX, imigrantes de:",
     tip: "Pensa em como o Brasil recebeu muitas famílias vindas de diferentes partes do mundo, buscando uma vida melhor.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Um dos principais motivos que levaram muitos imigrantes europeus a virem para o Brasil, no século XIX, foi:",
     tip: "Pensa em como muitas famílias migram em busca de trabalho e melhores condições de vida.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "Os imigrantes japoneses, que começaram a chegar ao Brasil no início do século XX, contribuíram bastante para:",
     tip: "Pensa em como os imigrantes japoneses trouxeram conhecimentos agrícolas importantes para o Brasil.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Os imigrantes alemães e italianos se estabeleceram, principalmente, em qual região do Brasil?",
     tip: "Pensa em uma região do Brasil conhecida por festas como a Oktoberfest, de origem alemã.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Festas e tradições",
     type: "multiple_choice",
     text: "A festa Oktoberfest, muito celebrada em algumas cidades do Sul do Brasil, tem origem:",
     tip: "Pensa em qual imigração trouxe essa tradicional festa para o Brasil.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Os imigrantes italianos trouxeram para o Brasil, entre outras contribuições, influências na:",
     tip: "Pensa em pratos muito comuns no Brasil, como macarrão e pizza, que têm origem italiana.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os imigrantes árabes, que também vieram para o Brasil, contribuíram bastante para:",
     tip: "Pensa em comidas árabes conhecidas e muito consumidas no Brasil hoje em dia.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Por que muitas famílias imigrantes decidiram vir para o Brasil ao longo da história?",
     tip: "Pensa em como muitas famílias migram em busca de melhores oportunidades e por causa de dificuldades enfrentadas em seus países.",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A diversidade de imigrantes que vieram para o Brasil ao longo da história contribuiu para:",
     tip: "Pensa em tudo que aprendemos hoje sobre comidas, festas e costumes trazidos por diferentes imigrantes.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a formação do povo brasileiro?",
     tip: "Pensa em tudo que aprendemos sobre os diferentes povos que, juntos, formaram a cultura e a população do Brasil.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Bernardo descobriu que seu bisavô era imigrante italiano e veio para o Brasil trabalhar em uma fazenda de café. Essa história de sua família é um exemplo de:",
     tip: "Lembra o nome do processo de vir de outro país para viver no Brasil.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Na festa da escola de Bernardo, havia comidas de diferentes origens, como pizza (italiana), esfirra (árabe) e feijoada (afro-brasileira). Isso mostra:",
     tip: "Pensa em tudo que aprendemos sobre a mistura de culturas na formação do povo brasileiro.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o Brasil recebeu, ao longo da história, indígenas que já viviam aqui, africanos trazidos à força, portugueses colonizadores e depois imigrantes de vários outros países. Isso ajuda a explicar por que o Brasil é conhecido por sua:",
     tip: "Pensa no resumo de tudo que vimos sobre a formação do povo brasileiro a partir de vários povos diferentes.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quisesse pesquisar sobre a origem de sua própria família, ele poderia:",
     tip: "Lembra as fontes históricas que aprendemos no início do ano: relatos orais, fotos e documentos.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual atitude é mais respeitosa em relação às diferentes origens culturais das famílias brasileiras?",
     tip: "Pensa em como cada família brasileira pode ter uma história diferente, e todas merecem ser respeitadas.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Bernardo percebeu que, no Brasil, existem sobrenomes de origem italiana, alemã, japonesa, árabe, portuguesa e indígena, entre outras. Isso mostra que:",
     tip: "Pensa em tudo que aprendemos sobre os diferentes povos que vieram formar o Brasil ao longo da história.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Depois de estudar sobre imigração e a formação do povo brasileiro, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje sobre a formação do povo brasileiro.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "Qual é um exemplo de contribuição cultural trazida por imigrantes para o Brasil?",
     tip: "Pensa em pratos como pizza, esfirra e comida japonesa, muito populares no Brasil hoje em dia.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância da imigração para a formação do Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre as diferentes ondas de imigração e suas contribuições culturais.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Depois de estudar sobre imigração e a formação do povo brasileiro, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos: indígenas, africanos, portugueses e imigrantes de muitos países formando o povo brasileiro.",

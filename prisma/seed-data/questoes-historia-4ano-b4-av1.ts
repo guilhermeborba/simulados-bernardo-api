@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB4Av1 = [
   {
     id: 1,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O que é patrimônio histórico e cultural?",
     tip: "Pensa em coisas importantes do passado que ainda representam a história e a cultura de um lugar.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O patrimônio material inclui:",
     tip: "Pensa na palavra \"material\", que tem a ver com coisas concretas, que podemos tocar.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O patrimônio imaterial inclui:",
     tip: "Pensa em coisas que não podemos tocar, mas que fazem parte da cultura de um povo, como uma dança ou uma receita.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O Cristo Redentor, localizado no Rio de Janeiro, é um exemplo de:",
     tip: "Pensa em um monumento muito famoso, que pode ser visitado e tocado, representando a cultura brasileira.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A cidade de Ouro Preto, em Minas Gerais, é famosa por:",
     tip: "Pensa em uma cidade histórica brasileira conhecida por suas construções antigas, do tempo da mineração de ouro.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Por que é importante preservar o patrimônio histórico e cultural de um lugar?",
     tip: "Pensa em como seria triste perder para sempre um prédio ou uma tradição importante da história de um povo.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Um museu é um exemplo de lugar que ajuda a:",
     tip: "Pensa em onde você pode ver de perto objetos antigos, cuidadosamente guardados e protegidos.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Um exemplo de patrimônio cultural imaterial brasileiro é:",
     tip: "Pensa em uma festa cheia de tradições, comidas típicas e danças, comemorada em várias regiões do Brasil.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O patrimônio histórico e cultural de um país ajuda a:",
     tip: "Pensa em como prédios antigos, festas e tradições contam histórias importantes sobre quem somos.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é uma atitude importante para ajudar a preservar o patrimônio histórico e cultural?",
     tip: "Pensa em como cuidar bem de algo importante ajuda a garantir que ele dure por muito mais tempo.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A capoeira, reconhecida como patrimônio cultural do Brasil, é um exemplo de:",
     tip: "Lembra que essa manifestação cultural não pode ser tocada como um objeto, mas faz parte da cultura de um povo.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O \"tombamento\" de um patrimônio histórico significa:",
     tip: "Pensa em como uma lei pode proteger um prédio ou monumento importante, impedindo que ele seja destruído.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "A UNESCO é uma organização internacional que, entre outras coisas, reconhece:",
     tip: "Pensa em uma organização que ajuda a identificar e proteger locais e tradições muito importantes para toda a humanidade.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Danificar ou pichar um monumento histórico é uma atitude que:",
     tip: "Pensa em como um monumento danificado pode perder parte de sua importância histórica e beleza.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Uma forma de valorizar o patrimônio cultural imaterial, como uma dança tradicional, é:",
     tip: "Pensa em como uma tradição só continua viva se for ensinada e praticada pelas próximas gerações.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O Pelourinho, no centro histórico de Salvador, é conhecido por:",
     tip: "Pensa em um bairro histórico brasileiro famoso por suas casas coloridas e sua forte ligação com a cultura afro-brasileira.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Por que é importante que crianças e jovens conheçam o patrimônio histórico e cultural de seu país?",
     tip: "Pensa em como conhecer a própria história ajuda a valorizar e cuidar melhor dela no futuro.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual das opções é um exemplo de patrimônio cultural material?",
     tip: "Pensa em qual dessas opções é uma construção que pode ser tocada e vista, diferente das tradições e festas.",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é a melhor atitude de uma comunidade para preservar seu patrimônio histórico e cultural?",
     tip: "Pensa em como cuidar bem de algo importante envolve manutenção e também ensinar seu valor para outras pessoas.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância do patrimônio histórico e cultural?",
     tip: "Pensa em tudo que aprendemos hoje sobre monumentos, tradições e museus que contam a história de um povo.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Bernardo visitou um museu com sua família e viu objetos antigos muito bem cuidados e protegidos. Isso mostra a importância de:",
     tip: "Lembra tudo que aprendemos hoje sobre a importância de cuidar dos bens históricos e culturais.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Durante uma viagem, Bernardo visitou uma cidade histórica com igrejas e casarões antigos muito bem preservados. Essa cidade provavelmente é reconhecida por seu:",
     tip: "Pensa em como prédios e construções antigas fazem parte do patrimônio que pode ser visto e tocado.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Bernardo aprendeu uma dança tradicional com sua avó e quer ensiná-la para seus amigos da escola. Essa atitude ajuda a:",
     tip: "Lembra como uma tradição, como uma dança, continua viva quando é ensinada para outras pessoas.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Se Bernardo visse alguém pichando um monumento histórico, a atitude mais correta seria:",
     tip: "Pensa em como podemos ajudar a proteger o patrimônio quando vemos uma atitude que pode prejudicá-lo.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Bernardo descobriu que uma festa tradicional de sua cidade é reconhecida como patrimônio cultural imaterial. Isso significa que essa festa:",
     tip: "Lembra o que aprendemos sobre a importância de valorizar tradições reconhecidas como patrimônio cultural.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é uma boa atitude de Bernardo para valorizar o patrimônio histórico e cultural do seu país?",
     tip: "Pensa em tudo que aprendemos hoje sobre respeito e cuidado com o patrimônio.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Depois de estudar sobre patrimônio histórico e cultural, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje: patrimônio material e imaterial, museus e preservação.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a diferença entre patrimônio material e imaterial?",
     tip: "Pensa em tudo que aprendemos hoje sobre a diferença entre um monumento e uma tradição cultural.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Qual é a melhor atitude para garantir que o patrimônio cultural continue existindo no futuro?",
     tip: "Pensa em tudo que aprendemos hoje sobre cuidado e transmissão de conhecimentos entre gerações.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Depois de estudar sobre patrimônio histórico e cultural, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos: patrimônio material, imaterial, preservação e respeito.",

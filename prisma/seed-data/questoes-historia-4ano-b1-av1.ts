@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB1Av1 = [
   {
     id: 1,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "O que a disciplina de História estuda?",
     tip: "Pensa em tudo que aconteceu antes de você nascer e que ainda influencia sua vida hoje.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "O que são fontes históricas?",
     tip: "Pensa em tudo que pode contar uma \"pista\" sobre como as pessoas viviam antigamente.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Uma carta antiga, escrita há muitos anos, é um exemplo de fonte histórica do tipo:",
     tip: "Pensa no que forma uma carta: palavras escritas no papel.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Quando um avô conta para o neto uma história que viveu quando era jovem, essa é uma fonte histórica do tipo:",
     tip: "Pensa em como essa história é passada de \"boca em boca\", através da fala.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Uma foto antiga da família, mostrando como as pessoas se vestiam há muitos anos, é um exemplo de fonte histórica do tipo:",
     tip: "Pensa na palavra \"ícone\", que tem a ver com imagens e representações visuais.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Um objeto antigo, como uma panela de barro usada há centenas de anos, é um exemplo de fonte histórica do tipo:",
     tip: "Pensa em algo que você pode tocar e que foi realmente usado por pessoas do passado.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Os museus são importantes porque:",
     tip: "Pensa em onde você pode ver de perto objetos, roupas e ferramentas usados há muito tempo.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Os historiadores usam as fontes históricas para:",
     tip: "Pensa em como um detetive usa pistas para descobrir o que aconteceu — os historiadores fazem algo parecido com o passado.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Um jornal antigo, guardado há muitos anos, é um exemplo de fonte histórica do tipo:",
     tip: "Pensa no que forma as notícias de um jornal: palavras escritas.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Por que é importante estudar diferentes tipos de fontes históricas (escritas, orais, materiais e iconográficas)?",
     tip: "Pensa em como juntar várias pistas diferentes ajuda a entender melhor uma história completa.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "O que é uma linha do tempo?",
     tip: "Pensa em uma reta desenhada com marcações, mostrando o que aconteceu primeiro e o que aconteceu depois.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Em uma linha do tempo, os fatos mais antigos geralmente ficam:",
     tip: "Pensa em como organizamos os acontecimentos \"do mais antigo para o mais recente\".",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "O tempo presente é:",
     tip: "Pensa no que está acontecendo exatamente enquanto você lê esta pergunta.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Um século corresponde a quantos anos?",
     tip: "Pensa em \"cem\", que está escondido na palavra \"século\" (de \"centum\", em latim).",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Uma década corresponde a quantos anos?",
     tip: "Pensa no prefixo \"deca\", que tem relação com o número dez.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "A geração de uma família geralmente é representada por:",
     tip: "Pensa em como avós, pais e filhos formam grupos diferentes dentro de uma mesma família, cada um vivendo uma época.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "Uma árvore genealógica é um desenho que mostra:",
     tip: "Pensa em como esse desenho se parece com uma árvore, com \"galhos\" representando avós, pais, filhos e netos.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Por que é importante organizar os fatos históricos em ordem cronológica (do mais antigo para o mais recente)?",
     tip: "Pensa em como entender \"o que veio antes\" ajuda a explicar \"o que veio depois\".",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Entrevistar os avós ou pessoas mais velhas da família sobre como era a vida no passado é uma forma de:",
     tip: "Lembra o tipo de fonte histórica que vem da fala e das lembranças das pessoas.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "O tempo futuro é:",
     tip: "Pensa no que ainda está por vir, depois de hoje.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo encontrou uma foto antiga de seus avós na infância deles. Essa foto é um exemplo de fonte histórica:",
     tip: "Lembra o tipo de fonte relacionada a imagens e fotografias.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Bernardo quer montar uma linha do tempo da sua própria vida, desde que nasceu até hoje. O primeiro fato que ele deve colocar, mais à esquerda da linha, é:",
     tip: "Pensa em qual foi o fato mais antigo da vida dele, o que aconteceu primeiro de todos.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Bernardo entrevistou sua avó sobre como era a escola quando ela era criança. Essa atividade é um exemplo de uso de qual tipo de fonte histórica?",
     tip: "Lembra que essa fonte vem da fala e das lembranças de uma pessoa mais velha.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Se Bernardo quiser saber como as pessoas se vestiam há 50 anos, ele pode consultar:",
     tip: "Pensa em quais fontes históricas poderiam mostrar como era a moda de outra época.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Bernardo aprendeu que 1 século tem 100 anos. Se estamos no século XXI (21), isso significa que estamos vivendo, aproximadamente:",
     tip: "Pensa: se cada século tem 100 anos, o século 21 vem depois do século 20 (anos 1901 a 2000).",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "Bernardo quer construir uma árvore genealógica da sua família. Quem ele deve colocar como a geração mais antiga, lá no topo do desenho?",
     tip: "Pensa em quem nasceu primeiro, antes de todo mundo na família: os avós e bisavós.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Por que as fontes históricas são tão importantes para conhecermos o passado?",
     tip: "Pensa em como seria complicado conhecer o passado sem nenhum registro, foto, objeto ou relato.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Transformações sociais",
     type: "multiple_choice",
     text: "Bernardo percebeu que seu pai e sua mãe viveram experiências diferentes das dele quando eram crianças, como brincadeiras sem celular. Isso mostra que:",
     tip: "Pensa em como a vida das pessoas foi se transformando de uma geração para outra.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir o que é a linha do tempo?",
     tip: "Pensa em tudo que aprendemos hoje sobre organizar acontecimentos em ordem de tempo.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Depois de aprender sobre fontes históricas e linha do tempo, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: fontes, linha do tempo, gerações, tudo conectado para entender a história.",

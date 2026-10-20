@@ -333,3 +333,45 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-cie
 **Preservação ambiental** cobre impactos e proteção dos ambientes e seres vivos. **Resíduos e reciclagem** inclui os 3 Rs, separação e aproveitamento de resíduos, sem usar “compostagem” como tema nas questões que pedem esse nome. **Sustentabilidade** cobre o uso responsável de recursos e escolhas do cotidiano. As sínteses que articulam os conteúdos do ano usam **Ciência no cotidiano**.
 
 A quantidade de temas acompanha o conteúdo: B3/AV2 tem um tema; B1/AV2, B2/AV1 e B3/AV1 têm dois; B1/AV1 e B4/AV1 têm três; B2/AV2 tem quatro; B4/AV2 revisa oito. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas e curiosidades.
+
+### História — 4º ano
+
+| Tema | Abrange |
+|---|---|
+| Alimentação e costumes | Comidas, ingredientes e contribuições culturais relacionadas à alimentação. |
+| Campo e cidade | Características e localização de comunidades urbanas e rurais. |
+| Cidadania e respeito | Convivência, regras, acolhimento, valorização das diferenças e combate ao preconceito. |
+| Comunicação e tecnologia | Cartas, correio, telegramas, telefone e internet e mudanças na comunicação a distância. |
+| Cultura e identidade | Costumes, línguas, saberes, expressões culturais e diversidade dos povos e comunidades. |
+| Direitos e participação | Direitos e proteção das crianças, direitos territoriais e enfrentamento das desigualdades. |
+| Educação e família | Relações familiares, gerações, árvores genealógicas e valorização da aprendizagem. |
+| Escravidão e resistência | Escravização, tráfico, trabalho forçado, quilombos, resistência e abolição. |
+| Expressões artísticas | Origem e influências culturais da música, dança e capoeira. |
+| Festas e tradições | Origem e influências culturais das festas populares. |
+| Formação do Brasil | Participação de diferentes populações na formação histórica e cultural do Brasil. |
+| História do trabalho | Atividades, profissões e formas de trabalhar no passado e importância de conhecer essa história. |
+| História e memória | Estudo da História, compreensão do passado, memória coletiva e relações com o presente. |
+| Migrações | Deslocamentos de pessoas, imigração para o Brasil, destinos e motivos das mudanças. |
+| Moradias e cotidiano | Habitações tradicionais e organização dos espaços de moradia. |
+| Organização social | Grupos sociais, comunidades, famílias e escolas na vida em sociedade. |
+| Patrimônio e preservação | Bens materiais e imateriais, museus, proteção, restauração e transmissão de conhecimentos tradicionais. |
+| Registros do passado | Fontes escritas, visuais, orais e materiais e uso de documentos, relatos e objetos em pesquisas. |
+| Tempo histórico | Cronologia, linha do tempo, passado, presente, futuro, décadas e séculos. |
+| Trabalho e tecnologia | Ferramentas, máquinas, informática e eletrodomésticos e seus efeitos no trabalho e nas tarefas domésticas. |
+| Trabalho no campo | Agricultura, técnicas de cultivo e ferramentas usadas no meio rural. |
+| Transformações sociais | Mudanças nas experiências e nos modos de vida entre passado e presente. |
+| Transportes e viagens | Meios de transporte e mudanças na duração e nas condições das viagens ao longo do tempo. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-historia-4ano-b*-av*.ts`. Não há entradas privadas de História do 4º ano registradas no seed. Todos compartilham este vocabulário de 23 temas, reaproveitando os nomes de História do 3º ano quando o conteúdo corresponde.
+
+A classificação considera o conteúdo predominante e as alternativas dos enunciados genéricos. **Registros do passado** reúne os suportes e as atividades de pesquisa; **História e memória**, a função desse conhecimento. **Tempo histórico** cobre cronologia e unidades de tempo. Relações familiares e gerações ficam em **Educação e família**; mudanças nos modos de viver, em **Transformações sociais**.
+
+**Organização social** reúne os grupos sociais e as comunidades. É um rótulo amplo para a questão 9 do B1/AV2, que pede reconhecer uma comunidade. A questão 24 desse arquivo, que pede o nome do deslocamento de uma família, usa **Transformações sociais**. **Migrações** cobre os deslocamentos quando o nome não é a resposta. A questão 21 do B3/AV1, que pede reconhecer a imigração na história de uma família, usa **Formação do Brasil**. Assim, não se antecipa a classificação solicitada.
+
+Questões sobre a origem específica de palavras, pratos, festas ou manifestações usam os grupos de conteúdo (**Cultura e identidade**, **Alimentação e costumes**, **Festas e tradições** e **Expressões artísticas**), sem usar como rótulo o povo ou país que pode ser a resposta. As questões 17 e 23 do B1/AV2 usam **Cultura e identidade**, pois pedem reconhecer uma tradição ou um patrimônio cultural. **Patrimônio e preservação** cobre bens materiais e imateriais sem antecipar qual tipo é a resposta.
+
+**Formação do Brasil** reúne a participação histórica dos diferentes povos; **Escravidão e resistência** concentra escravização, trabalho forçado, quilombos e abolição. **Cidadania e respeito** inclui convivência, valorização das diferenças e combate ao preconceito; **Direitos e participação** cobre direitos e proteção das crianças, direitos territoriais e desigualdades após a abolição.
+
+**História do trabalho** reúne atividades e condições no passado; mudanças ligadas às ferramentas, máquinas e eletrodomésticos usam **Trabalho e tecnologia**. Questões específicas sobre agricultura usam **Trabalho no campo**. **Comunicação e tecnologia** cobre as mudanças nos meios de comunicação; **Transportes e viagens**, as mudanças nos deslocamentos e na duração das viagens.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 tem seis; B2/AV1 e B3/AV2, sete; B1/AV2, B2/AV2 e B3/AV1, nove. Não se subdivide artificialmente o B4/AV1, concentrado em patrimônio, que tem um tema. O B4/AV2 revisa doze temas. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
