@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB3Av1 = [
   {
     id: 1,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Quantos habitantes tem, aproximadamente, o Brasil hoje?",
     tip: "Pensa em um número bem grande — o Brasil é o sétimo país mais populoso do mundo!",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A distribuição da população pelo território brasileiro é:",
     tip: "Pensa em como algumas áreas do Brasil, como o litoral, têm muito mais gente do que outras, como o interior da Amazônia.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A densidade demográfica é:",
     tip: "Pensa em como calcular 'quantas pessoas cabem' em cada km² de um lugar.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A Região com maior densidade demográfica do Brasil é:",
     tip: "Pensa na região com as maiores cidades, como São Paulo e Rio de Janeiro.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "O IBGE (Instituto Brasileiro de Geografia e Estatística) é responsável por:",
     tip: "Pensa em uma instituição que 'conta' quantas pessoas moram no Brasil e onde elas vivem.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A maioria da população brasileira vive hoje:",
     tip: "Pensa em como, ao longo do tempo, mais e mais pessoas foram morar em cidades, buscando trabalho e serviços.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Uma característica da população brasileira é:",
     tip: "Pensa em tudo que você já estudou sobre indígenas, africanos e imigrantes formando o povo brasileiro.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A pirâmide etária é um gráfico que mostra:",
     tip: "Pensa em um gráfico em forma de triângulo que mostra quantas crianças, adultos e idosos existem numa população.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "O envelhecimento da população brasileira significa que:",
     tip: "Pensa em como, com mais saúde e cuidados, as pessoas estão vivendo mais tempo.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Estudar a população de um país ajuda o governo a:",
     tip: "Pensa em como saber quantas crianças existem ajuda a planejar quantas escolas são necessárias.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A miscigenação é:",
     tip: "Pensa em como indígenas, africanos, europeus e outros povos se misturaram ao longo da história do Brasil.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Migração",
     type: "multiple_choice",
     text: "O êxodo rural é o movimento de:",
     tip: "Pensa em famílias que deixam a fazenda ou o sítio em busca de emprego e melhores condições nas cidades.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Migração",
     type: "multiple_choice",
     text: "As migrações internas no Brasil acontecem quando:",
     tip: "Pensa em uma família que sai do Nordeste para tentar a vida em São Paulo, por exemplo — sem sair do Brasil.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Uma das razões para as migrações internas no Brasil é:",
     tip: "Pensa em como as pessoas geralmente se mudam procurando emprego, estudo ou uma vida melhor.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A população indígena atual do Brasil:",
     tip: "Pensa em como os povos indígenas continuam vivendo, lutando por seus direitos e mantendo suas culturas até hoje.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A população afrodescendente no Brasil é:",
     tip: "Pensa em tudo que você já estudou sobre a contribuição dos povos africanos para a cultura brasileira.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Descendentes de imigrantes, como italianos, alemães e japoneses, fazem parte:",
     tip: "Pensa em como esses descendentes de imigrantes são brasileiros também, contribuindo para a riqueza cultural do país.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A distribuição desigual da população no Brasil está ligada a:",
     tip: "Pensa em como a colonização começou no litoral, e depois a industrialização atraiu ainda mais gente para o Sudeste.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A valorização da diversidade da população brasileira é importante porque:",
     tip: "Pensa em como respeitar as diferenças torna a convivência mais harmoniosa e justa para todos.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Ao estudar a população brasileira, Bernardo aprende que:",
     tip: "Pensa em tudo que você já estudou sobre indígenas, africanos, imigrantes — cada um formando parte da população de hoje.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Se Bernardo comparar a população da Região Norte com a do Sudeste, ele vai perceber que:",
     tip: "Pensa em como o Sudeste é menor em área, mas tem muito mais gente vivendo lá.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Bernardo quer entender por que muitas famílias nordestinas migraram para São Paulo no século XX. A principal razão foi:",
     tip: "Pensa em como São Paulo cresceu muito com fábricas e empregos, atraindo gente de outras regiões.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Se Bernardo perguntar por que a Amazônia tem tão poucos habitantes por km², ele descobrirá que:",
     tip: "Pensa em como é difícil construir estradas e cidades no meio de uma floresta tão densa e com rios tão grandes.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A pirâmide etária do Brasil está mudando — hoje há proporcionalmente menos crianças e mais idosos do que há 50 anos. Isso significa que o Brasil está:",
     tip: "Pensa em como as famílias hoje têm menos filhos, e as pessoas vivem mais tempo graças à saúde melhor.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Se Bernardo quiser saber quantas pessoas moram na sua cidade, ele pode consultar:",
     tip: "Pensa na instituição responsável por contar a população brasileira que estudamos antes.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A diversidade étnica do Brasil, formada por indígenas, africanos, europeus e outros povos, é um exemplo de:",
     tip: "Pensa em tudo que você já aprendeu sobre como cada povo contribuiu para formar a cultura brasileira.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Comparando o Brasil de 100 anos atrás com o de hoje, uma mudança importante na população é:",
     tip: "Pensa em como o Brasil era mais rural antigamente, e hoje a maior parte das pessoas mora em cidades.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Conhecer a população do Brasil (quantidade, idade, onde moram, origem) é importante para:",
     tip: "Pensa em como esses dados ajudam desde o governo até você mesmo a entender melhor o Brasil onde vivemos.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o Brasil, apesar de sua grande diversidade, ainda enfrenta desafios como:",
     tip: "Pensa em como, apesar de toda a riqueza cultural, ainda existem diferenças grandes entre quem vive em áreas urbanas ricas e outras mais pobres.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Para finalizar o estudo sobre a população brasileira: conhecer o próprio povo nos ajuda a:",
     tip: "Pensa em como tudo que aprendemos sobre a população do Brasil nos ajuda a entender melhor quem somos como povo.",

@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB1Av1 = [
   {
     id: 1,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil está localizado em qual continente?",
     tip: "Pensa no nome do nosso país — ele fica no mesmo continente de países como Argentina, Peru e Colômbia.",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil faz fronteira (divisa) com quase todos os países da América do Sul, exceto:",
     tip: "Pensa em quais países sul-americanos têm litoral voltado para o Oceano Pacífico — esses são os que não fazem fronteira com o Brasil.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil é banhado por qual oceano?",
     tip: "Pensa nas praias brasileiras — elas ficam em um lado do continente, banhadas por um oceano que separa a América da Europa e da África.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil é dividido em quantos estados, mais o Distrito Federal?",
     tip: "Pensa em um número próximo de 27 — somando todos os estados mais o lugar especial onde fica a capital federal.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital federal do Brasil, onde fica o governo central, é:",
     tip: "Pensa em uma cidade planejada e construída especialmente para ser capital, inaugurada em 1960.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é o maior estado do Brasil em extensão territorial?",
     tip: "Pensa no estado que tem mais floresta amazônica, maior região verde, na parte norte do Brasil.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O estado mais populoso do Brasil (com mais pessoas) é:",
     tip: "Pensa na maior cidade do Brasil, que dá nome ao seu estado, e que tem uma das maiores economias do país.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital do estado do Rio de Janeiro é:",
     tip: "Pensa em uma capital que tem o mesmo nome do estado — é famosa por suas praias e pelo Cristo Redentor.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Para localizar um lugar no mapa, usamos coordenadas chamadas:",
     tip: "Pensa em dois tipos de linhas imaginárias que cruzam o globo — uma horizontal e outra vertical — que juntas indicam qualquer ponto no planeta.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O Equador é uma linha imaginária que divide a Terra em:",
     tip: "Pensa em uma linha que corta a Terra ao meio horizontalmente, dividindo em dois 'meios globos'.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O estado do Mato Grosso do Sul tem como capital:",
     tip: "Pensa em um estado do Centro-Oeste famoso pelo Pantanal e por um campo verde e grande.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital do estado do Pará, importante cidade da Região Norte, é:",
     tip: "Pensa em uma cidade histórica às margens do rio Pará, perto da foz do Rio Amazonas, famosa pelo Ver-o-Peso.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O estado do Rio Grande do Sul, o mais ao sul do Brasil, tem como capital:",
     tip: "Pensa em uma capital gaúcha às margens do Guaíba, famosa pelo chimarrão e pela influência de imigrantes europeus.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Tocantins, estado mais novo do Brasil (criado em 1988), tem como capital:",
     tip: "Pensa em uma capital nova, planejada para ser capital de um estado novo, no Centro-Norte do Brasil.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "O Amazonas, Pará, Roraima, Amapá, Acre, Rondônia, Tocantins e Mato Grosso pertencem, em sua maioria, a qual grande região do Brasil?",
     tip: "Pensa nos estados que ficam na parte mais alta do mapa do Brasil, onde está a maior parte da floresta amazônica.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital do Ceará, estado famoso pelas suas praias e pelo artesanato de renda, é:",
     tip: "Pensa em uma cidade no litoral nordestino, famosa por suas dunas e pela bela orla com praias de água quente.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Observe: 'É um estado do Nordeste, faz fronteira com a Bahia e Pernambuco, e sua capital chama-se Maceió.' Esse estado é:",
     tip: "Pensa em um dos menores estados do Brasil em território, localizado na 'ponta' do Nordeste, exatamente entre Bahia e Pernambuco.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Para entender onde um estado fica no Brasil, usamos principalmente:",
     tip: "Pensa em qual ferramenta mostra as divisas entre estados, capitais e suas posições relativas.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Bernardo quer descobrir qual é a capital do estado de Goiás. A resposta é:",
     tip: "Pensa em uma cidade planejada no Centro-Oeste, que cresceu muito e hoje é uma das maiores cidades do Brasil.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital do estado do Paraná, estado famoso pelas araucárias e pelo frio rigoroso no inverno, é:",
     tip: "Pensa em uma capital no Sul do Brasil, famosa por suas praças e parques, conhecida como uma das cidades mais arborizadas do Brasil.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Bernardo está estudando para uma prova e precisa saber: o estado de Pernambuco tem como capital:",
     tip: "Pensa em uma cidade nordestina banhada pelo Rio Capibaribe, famosa pelo seu frevo e pelo Carnaval colorido.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Qual desses estados pertence à Região Sudeste?",
     tip: "Pensa na região com maior PIB e população do Brasil, no centro-leste do país.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital do estado do Maranhão, estado que fica na 'junção' entre Nordeste e Norte do Brasil, é:",
     tip: "Pensa em uma cidade histórica, construída no período colonial, com muitos azulejos portugueses, localizada em uma ilha.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O estado de Santa Catarina, no Sul do Brasil, tem como capital:",
     tip: "Pensa em uma capital que fica em uma ilha, com muitas praias, famosa pelo turismo de verão.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Para memorizar as capitais dos estados do Brasil, Bernardo pode usar:",
     tip: "Pensa em como aprender pode ser mais divertido quando você associa a capital com algo curioso do estado — como Natal no Rio Grande do Norte (tem praia bonita!).",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital do estado do Mato Grosso é:",
     tip: "Pensa em uma cidade no coração do Brasil, famosa pelo calor intenso e por ser ponto de partida para o Pantanal.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Ao observar um mapa do Brasil, o estado mais ao norte é:",
     tip: "Pensa no estado que faz fronteira com Venezuela e Guiana, na ponta mais ao norte do Brasil.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Nordeste tem 9 estados. Um deles é:",
     tip: "Pensa em um estado do Nordeste que faz fronteira com o Maranhão, o Ceará e a Bahia, famoso pelo seu calor e litoral.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Distrito Federal, onde fica Brasília, está localizado dentro de qual estado?",
     tip: "Pensa em como a capital federal precisava ser em um lugar neutro, não pertencente a nenhum estado, mas foi construída em uma área que antes pertencia a Goiás.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Para concluir: o Brasil é um país com dimensões continentais, o que significa que:",
     tip: "Pensa em como um brasileiro do Amazonas e um brasileiro do Rio Grande do Sul podem ter estilos de vida, comidas e costumes completamente diferentes.",

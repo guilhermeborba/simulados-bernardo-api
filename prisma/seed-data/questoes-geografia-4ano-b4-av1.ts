@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB4Av1 = [
   {
     id: 1,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A economia estuda:",
     tip: "Pensa em tudo que envolve produzir coisas, vender, comprar e trabalhar.",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O setor primário da economia envolve:",
     tip: "Pensa em atividades que retiram recursos diretamente da natureza, como plantar, criar animais ou pescar.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O setor secundário da economia envolve:",
     tip: "Pensa em fábricas que transformam algodão em roupas, ou minério em aço.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O setor terciário da economia envolve:",
     tip: "Pensa em atividades que não produzem um objeto físico, mas oferecem um serviço, como um professor ou um médico.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Um exemplo de atividade do setor primário é:",
     tip: "Pensa em uma atividade que acontece diretamente na terra, com plantas.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Um exemplo de atividade do setor secundário é:",
     tip: "Pensa em uma fábrica que monta peças para criar um produto final, como um carro.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Um exemplo de atividade do setor terciário é:",
     tip: "Pensa em uma profissão que oferece um serviço importante, sem produzir um objeto físico.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O agronegócio brasileiro é importante porque:",
     tip: "Pensa em como a produção agrícola do Brasil é tão grande que o país exporta alimentos para o mundo todo.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "A indústria brasileira está mais concentrada em qual região?",
     tip: "Pensa na região onde ficam São Paulo, Rio de Janeiro e Minas Gerais, com muitas fábricas e empresas.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Entender a economia de um país ajuda a compreender:",
     tip: "Pensa em como saber sobre economia ajuda a entender o dia a dia das pessoas, seus empregos e a produção de bens e serviços.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O Brasil é um dos maiores produtores mundiais de:",
     tip: "Pensa em produtos agrícolas que o Brasil exporta para o mundo inteiro, sendo um dos líderes globais nessa produção.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A pecuária no Brasil é uma atividade importante porque:",
     tip: "Pensa em como o Brasil tem um dos maiores rebanhos de gado do planeta.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "As indústrias automobilísticas no Brasil estão localizadas principalmente:",
     tip: "Pensa na região com maior concentração industrial do Brasil, onde ficam grandes cidades como São Paulo.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "O comércio é uma atividade econômica que envolve:",
     tip: "Pensa em lojas, mercados, shopping centers — lugares onde produtos são comprados e vendidos.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Os serviços de saúde, educação e transporte fazem parte do:",
     tip: "Pensa no setor que já estudamos, relacionado a serviços em vez de produção de objetos.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Prestação de serviços",
     type: "multiple_choice",
     text: "O turismo é uma atividade econômica importante porque:",
     tip: "Pensa em como turistas visitando praias, cidades históricas e a Amazônia geram renda para hotéis, restaurantes e guias.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A extração de minérios, como o minério de ferro, faz parte do:",
     tip: "Pensa em como retirar minérios diretamente da natureza é uma atividade parecida com a agricultura e a pesca.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "A exportação de produtos brasileiros para outros países é importante porque:",
     tip: "Pensa em como vender produtos brasileiros para outros países traz dinheiro de volta para o Brasil.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A tecnologia tem transformado a economia brasileira porque:",
     tip: "Pensa em como comprar pela internet ou pedir comida por aplicativo são novidades que a tecnologia trouxe para a economia.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Compreender os setores da economia (primário, secundário e terciário) ajuda Bernardo a:",
     tip: "Pensa em como, desde a plantação até a loja, vários setores trabalham juntos para que um produto chegue até você.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Bernardo comprou um brinquedo de plástico em uma loja. Esse processo envolveu:",
     tip: "Pensa em toda a jornada de um produto, desde a matéria-prima até chegar às suas mãos na loja.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Se o Brasil exporta muita soja, café e carne para outros países, isso mostra a força:",
     tip: "Pensa em quais produtos vêm diretamente da terra e dos animais — são eles que o Brasil mais exporta.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Se Bernardo for a um médico, essa consulta é um exemplo de atividade do setor:",
     tip: "Pensa em como um médico não produz um objeto, mas oferece um serviço de saúde.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A relação entre os três setores da economia (primário, secundário e terciário) é:",
     tip: "Pensa em como a matéria-prima precisa ser produzida, depois transformada e finalmente vendida — os três setores trabalham em conjunto.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Se Bernardo quiser entender melhor a economia da sua cidade, ele pode observar:",
     tip: "Pensa em observar o que as pessoas da sua cidade fazem para trabalhar e gerar renda.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A diversificação da economia brasileira, com forte agronegócio, indústria e serviços, é importante porque:",
     tip: "Pensa em como ter vários setores fortes ajuda o país a não depender de uma única fonte de renda.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Bernardo aprendeu que trabalhar em qualquer um dos três setores da economia é:",
     tip: "Pensa em como o agricultor, o operário da fábrica e o professor são todos essenciais, cada um à sua maneira.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Compreender a economia do Brasil ajuda os cidadãos a:",
     tip: "Pensa em como entender a economia te ajuda a pensar sobre seu próprio futuro profissional e sobre o mundo do trabalho.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Para concluir sobre economia: o crescimento equilibrado dos três setores é importante para:",
     tip: "Pensa em como uma economia forte e equilibrada gera mais oportunidades de trabalho para todos.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Para finalizar este simulado sobre economia: Bernardo entendeu que o Brasil é um país com:",
     tip: "Pensa em tudo que aprendemos — desde a soja plantada no campo até os serviços oferecidos nas grandes cidades.",
