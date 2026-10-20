@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB2Av2 = [
   {
     id: 1,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Para que servem os sinais de pontuação em um texto?",
     tip: "Pensa em como seria ler um texto sem nenhuma pausa ou pergunta marcada...",
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O ponto final (.) é usado para:",
     tip: "Pensa em uma frase comum, que só conta um fato, sem pergunta nem exclamação...",
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O ponto de interrogação (?) é usado para:",
     tip: "Pensa em quando você quer perguntar alguma coisa pra alguém...",
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "O ponto de exclamação (!) é usado para:",
     tip: "Pensa em quando você grita \"Que legal!\" ou \"Cuidado!\"...",
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "A vírgula (,) pode ser usada para:",
     tip: "Pensa em como separamos os itens quando fazemos uma lista de compras...",
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Os dois pontos (:) são usados, por exemplo, para:",
     tip: "Pensa em quando alguém vai \"apresentar\" uma lista ou uma fala logo em seguida...",
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual pontuação devemos usar no final da frase \"Você já terminou a lição de casa\"?",
     tip: "Pensa: essa frase está perguntando alguma coisa!",
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual pontuação devemos usar no final da frase \"Que surpresa incrível\"?",
     tip: "Pensa: essa frase expressa uma emoção forte de surpresa!",
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Na frase \"Bernardo comprou maçã, banana e uva no mercado\", as vírgulas foram usadas para:",
     tip: "Pensa em como as frutas foram organizadas, uma depois da outra, nessa frase...",
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "De forma geral, a pontuação serve para:",
     tip: "Lembra de tudo que vimos nesse bloco sobre a função da pontuação...",
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "O que é um sinônimo?",
     tip: "Pensa em duas palavras diferentes que \"querem dizer quase a mesma coisa\"...",
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é sinônimo de \"feliz\"?",
     tip: "Pensa em outra palavra que também signifique estar \"alegre\"...",
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "O que é um antônimo?",
     tip: "Pensa em duas palavras que \"significam coisas contrárias\"...",
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é antônimo de \"grande\"?",
     tip: "Pensa numa palavra que signifique o contrário de \"grande\"...",
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é um sinônimo de \"rápido\"?",
     tip: "Pensa em outra palavra que também descreva algo que se move com muita velocidade...",
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é um antônimo de \"começar\"?",
     tip: "Pensa numa palavra que signifique o oposto de \"começar\"...",
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Usar sinônimos em um texto ajuda a:",
     tip: "Pensa em como fica estranho um texto que repete a mesma palavra o tempo todo...",
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é sinônimo de \"bonito\"?",
     tip: "Pensa em outra palavra que também elogie a aparência de algo ou alguém...",
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é antônimo de \"dia\"?",
     tip: "Pensa no período em que o sol se põe e fica escuro...",
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre sinônimo e antônimo?",
     tip: "Lembra: um \"se parece\", o outro \"é o contrário\"...",
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Bernardo escreveu uma frase para perguntar ao amigo se ele quer jogar bola: \"Você quer jogar bola comigo\". Qual pontuação está faltando no final?",
     tip: "Pensa: essa frase de Bernardo está fazendo uma pergunta!",
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Bernardo ficou super animado ao ganhar um presente e escreveu: \"Que presente incrível\". Qual pontuação deve ser usada no final dessa frase?",
     tip: "Pensa: Bernardo está expressando uma emoção forte de alegria e surpresa!",
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Bernardo fez uma lista dos animais que viu no zoológico: \"leão, girafa, elefante e macaco\". As vírgulas nessa frase foram usadas para:",
     tip: "Pensa em como os animais foram organizados, um depois do outro, na lista de Bernardo...",
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "No texto que escreveu, Bernardo trocou a palavra \"alegre\" por \"feliz\", para não repetir a mesma palavra. Isso é um exemplo do uso de:",
     tip: "Pensa: \"alegre\" e \"feliz\" têm significados parecidos ou opostos?",
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Bernardo descreveu seu cachorro Bidu como \"pequeno\" e, depois, comparou com um cachorro do vizinho, que era \"grande\". As palavras \"pequeno\" e \"grande\" são um exemplo de:",
     tip: "Pensa: \"pequeno\" e \"grande\" têm o mesmo significado ou significados opostos?",
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Qual pontuação devemos usar no final da frase \"Bernardo mora em Florianópolis\", que apenas afirma um fato?",
     tip: "Pensa: essa frase não é uma pergunta, nem expressa uma emoção forte, ela só afirma algo...",
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é um sinônimo da palavra \"veloz\"?",
     tip: "Já vimos essa relação antes... pensa em outra palavra que também signifique \"com muita velocidade\"...",
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Qual é o antônimo da palavra \"dia\"?",
     tip: "Já vimos essa palavra antes... pensa no período em que fica escuro lá fora...",
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Pontuação",
     type: "multiple_choice",
     text: "Revisão: por que é importante usar a pontuação corretamente ao escrever um texto?",
     tip: "Pensa em como um texto sem pontuação pode ficar difícil de entender ou até mudar de sentido...",
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Sinônimos e antônimos",
     type: "multiple_choice",
     text: "Revisão geral: qual é a função de sinônimos e antônimos em um texto?",
     tip: "Pensa em tudo que aprendemos: um tipo de palavra \"parece\" com outra, e o outro tipo é \"o contrário\"...",

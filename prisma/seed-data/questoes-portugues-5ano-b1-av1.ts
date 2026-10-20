@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB1Av1 = [
   {
     id: 1,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Uma história curta, com poucos personagens, que geralmente traz uma lição de moral no final, é chamada de:",
     tip: "Pensa numa história com animais que falam e que sempre termina ensinando algo...",
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "O texto narrativo é aquele que:",
     tip: "Pensa em quando você conta pra alguém o que aconteceu no seu final de semana: você está \"narrando\" um fato!",
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Em uma narrativa, os personagens que têm mais destaque e participam da maior parte da história são chamados de:",
     tip: "Pensa em quem é o \"protagonista\", aquele de quem a história mais fala...",
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "O \"enredo\" de uma história é:",
     tip: "Pensa em tudo que acontece, na ordem certa, desde o começo até o final da história...",
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "O local onde a história acontece é chamado de:",
     tip: "Pensa: se a história acontece numa floresta, num castelo ou numa escola, isso é justamente o...",
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Quem conta a história, apresentando os fatos ao leitor, é chamado de:",
     tip: "Pensa em quem está \"falando\" a história pra você, mesmo que não seja um personagem dela...",
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Um texto que informa fatos reais e recentes, geralmente publicado em jornais ou sites, é chamado de:",
     tip: "Pensa no tipo de texto que você vê quando liga a TV ou abre um site para saber o que está acontecendo no mundo...",
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual das opções abaixo é um exemplo de gênero textual usado para dar instruções de como preparar um alimento?",
     tip: "Pensa no texto que sua família usa na cozinha para saber os ingredientes e o passo a passo...",
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "O \"conto\" é um gênero textual que se caracteriza por:",
     tip: "Pensa numa história \"rapidinha\", que dá pra ler em pouco tempo, mas que já tem começo, meio e fim...",
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre um texto narrativo (como um conto) e um texto informativo (como uma notícia)?",
     tip: "Pensa: um deles quer te contar uma história pra te divertir, e o outro quer te informar sobre algo que realmente aconteceu...",
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Em uma fábula, os personagens costumam ser:",
     tip: "Pensa em histórias como \"A Lebre e a Tartaruga\"... quem são os personagens principais?",
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "A \"lição de moral\" de uma fábula é:",
     tip: "Pensa no que você aprende depois de terminar de ler a história, tipo um \"conselho\" escondido nela...",
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual das alternativas apresenta apenas gêneros textuais narrativos?",
     tip: "Pensa em quais desses textos contam uma história, com personagens e enredo...",
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "O momento em que a história se passa (por exemplo, \"há muito tempo\" ou \"hoje em dia\") é chamado de:",
     tip: "Pensa: se a história acontece de manhã, à noite, há cem anos ou nos dias de hoje, isso tem a ver com o...",
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Em uma história, o \"conflito\" é:",
     tip: "Pensa no que faz a história ficar interessante: geralmente é um problema que precisa ser resolvido!",
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual é a função principal de um texto de gênero \"anúncio publicitário\"?",
     tip: "Pensa em quando você vê uma propaganda de um brinquedo na TV... qual é a intenção dela?",
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "O desfecho (ou final) de uma narrativa é:",
     tip: "Pensa em como as histórias costumam terminar, depois que o problema principal é resolvido...",
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual gênero textual costuma ter estrofes e versos, muitas vezes com rimas?",
     tip: "Pensa em um texto que costuma \"brincar\" com as palavras e os sons, formando rimas...",
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Em uma fábula bem conhecida, a formiga trabalha durante o verão enquanto a cigarra apenas canta. Essa fábula ensina, principalmente, sobre a importância de:",
     tip: "Pensa no que acontece com a cigarra quando o inverno chega e ela não tem comida guardada...",
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Qual das opções reúne elementos que sempre aparecem em uma narrativa?",
     tip: "Lembra de tudo que vimos nesse bloco: quem participa, o que acontece, quando e onde...",
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Bernardo leu uma fábula na escola sobre um leão e um ratinho, em que o ratinho ajuda o leão preso numa rede. Essa história tem como personagens principais:",
     tip: "Releia o comecinho da situação: quais dois animais aparecem na história de Bernardo?",
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Fábulas",
     type: "multiple_choice",
     text: "Depois de ler a fábula, Bernardo escreveu no caderno: \"A lição dessa história é que não devemos julgar alguém pelo tamanho.\" Isso que Bernardo escreveu representa:",
     tip: "Pensa: Bernardo está escrevendo um \"ensinamento\" que a história deixou pra ele...",
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Bernardo está escrevendo um conto para a aula de português e precisa decidir onde e quando a história vai acontecer. Ele está pensando sobre quais dois elementos da narrativa?",
     tip: "Lembra: \"onde\" tem a ver com um desses elementos, e \"quando\" tem a ver com o outro...",
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Notícias",
     type: "multiple_choice",
     text: "Na notícia que Bernardo leu no jornalzinho da escola, o texto contava um fato real que aconteceu na sua cidade. Isso mostra que a notícia é um gênero textual:",
     tip: "Pensa na diferença entre uma história inventada e um fato que realmente aconteceu...",
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Bernardo escreveu um pequeno conto em que ele mesmo é o personagem principal, enfrentando o desafio de vencer o medo de nadar no mar. Esse desafio, dentro da história, representa:",
     tip: "Lembra: o \"problema\" que o personagem precisa enfrentar e superar é justamente esse elemento...",
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "No conto de Bernardo, quem conta a história é o próprio Bernardo, participando dela como personagem. Isso faz dele, na narrativa:",
     tip: "Pensa: se Bernardo participa da história E também conta ela, que tipo de narrador ele é?",
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Bernardo quer escrever uma receita de bolo de cenoura para o jornalzinho da escola. Esse gênero textual deve conter, principalmente:",
     tip: "Pensa no que não pode faltar pra alguém conseguir fazer o bolo direitinho, seguindo o texto...",
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Bernardo comparou dois textos: um conto de fadas e uma notícia de jornal. Qual é a principal diferença entre eles?",
     tip: "Lembra da diferença entre uma história inventada, pra divertir, e um texto que informa fatos reais...",
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Narrativas",
     type: "multiple_choice",
     text: "Revisão: qual é a sequência de acontecimentos de uma história, do começo ao fim, chamada?",
     tip: "Já vimos esse elemento antes... pensa em \"tudo que acontece, em ordem\"!",
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Revisão geral: por que é importante conhecer diferentes gêneros textuais, como conto, fábula, notícia e receita?",
     tip: "Pensa em tudo que aprendemos: cada tipo de texto serve pra uma coisa diferente, com um jeito próprio de ser escrito...",

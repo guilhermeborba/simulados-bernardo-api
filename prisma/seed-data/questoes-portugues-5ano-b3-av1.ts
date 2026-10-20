@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB3Av1 = [
   {
     id: 1,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "O que é concordância nominal?",
     tip: "Pensa em como o artigo e o adjetivo precisam \"combinar\" com o substantivo da frase...",
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual frase está com a concordância nominal CORRETA?",
     tip: "Pensa: \"menina\" é uma palavra feminina, então o adjetivo também precisa ser feminino!",
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"Os meninos são estudiosos\", a palavra \"estudiosos\" está no plural porque:",
     tip: "Pensa: se fosse \"o menino\", o adjetivo seria \"estudioso\", no singular!",
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual frase está com a concordância nominal CORRETA?",
     tip: "Pensa: se \"casas\" está no plural, o artigo e o adjetivo também precisam estar!",
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"___ menina estudiosa\", qual artigo devemos usar?",
     tip: "Pensa: \"menina\" é uma palavra feminina, então o artigo também precisa ser feminino!",
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual frase apresenta um ERRO de concordância nominal?",
     tip: "Pensa em qual frase mistura um artigo feminino com um substantivo masculino...",
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Como podemos corrigir a frase \"As livro são interessante\"?",
     tip: "Pensa em ajustar o artigo, o substantivo e o adjetivo para que todos concordem em número e gênero...",
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"A menina alta e simpática chegou\", os adjetivos \"alta\" e \"simpática\" concordam com:",
     tip: "Pensa em qual palavra da frase está sendo caracterizada pelos dois adjetivos...",
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"Que bonita casa!\", o adjetivo \"bonita\" concorda com:",
     tip: "Mesmo vindo antes do substantivo, o adjetivo continua concordando com ele!",
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "De forma geral, na concordância nominal, o artigo e o adjetivo devem combinar com o substantivo em:",
     tip: "Lembra de tudo que vimos nesse bloco sobre concordância...",
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "O que é concordância verbal?",
     tip: "Pensa em como o verbo precisa \"combinar\" com quem pratica a ação na frase...",
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual frase está com a concordância verbal CORRETA?",
     tip: "Pensa em qual forma do verbo \"brincar\" combina com o pronome \"nós\"...",
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Se o sujeito da frase está no singular (como \"o menino\"), o verbo geralmente deve estar:",
     tip: "Pensa: \"o menino brinca\" ou \"o menino brincam\"? Qual delas soa certo?",
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Se o sujeito da frase está no plural (como \"os meninos\"), o verbo geralmente deve estar:",
     tip: "Pensa: \"os meninos brincam\" ou \"os meninos brinca\"? Qual delas soa certo?",
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual frase apresenta um ERRO de concordância verbal?",
     tip: "Pensa em qual frase tem um sujeito no plural, mas um verbo no singular...",
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Como podemos corrigir a frase \"Os alunos estuda para a prova\"?",
     tip: "Pensa em ajustar o verbo para que ele concorde com o sujeito, que está no plural...",
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Quando o sujeito da frase é composto (formado por duas ou mais pessoas ou coisas, como \"Bernardo e Maria\"), o verbo geralmente fica:",
     tip: "Pensa: se são duas pessoas fazendo a ação juntas, o verbo precisa concordar com as duas!",
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"Bernardo e Maria estudam juntos\", o verbo \"estudam\" está no plural porque:",
     tip: "Pensa em quantas pessoas estão praticando a ação de estudar nessa frase...",
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"Você estuda todos os dias\", o verbo \"estuda\" concorda com o pronome \"você\" porque:",
     tip: "Apesar de \"você\" parecer que fala diretamente com alguém, ele é tratado como uma 3ª pessoa na gramática...",
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "De forma geral, na concordância verbal, o verbo deve combinar com o sujeito em:",
     tip: "Lembra de tudo que vimos nesse bloco sobre concordância verbal...",
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Bernardo escreveu no caderno: \"A menino é esperto.\" Qual é a forma CORRETA dessa frase?",
     tip: "Pensa: \"menino\" é uma palavra masculina, então o artigo também precisa ser masculino!",
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Os cachorros late muito à noite.\" Qual é a forma CORRETA dessa frase?",
     tip: "Pensa em ajustar o verbo \"latir\" para concordar com \"os cachorros\", que está no plural...",
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"Bernardo e seu amigo jogam bola no parque\", o verbo \"jogam\" está no plural porque:",
     tip: "Pensa em quantas pessoas estão jogando bola juntas nessa frase...",
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Bernardo descreveu seu cachorro Bidu assim: \"Bidu é peludo e brincalhão.\" As palavras \"peludo\" e \"brincalhão\" concordam com \"Bidu\" porque:",
     tip: "Pensa: se Bidu fosse uma cachorra, os adjetivos mudariam para \"peluda e brincalhona\"!",
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual das frases abaixo está com a concordância (nominal e verbal) CORRETA?",
     tip: "Confira se o artigo, o substantivo, o adjetivo e o verbo estão todos combinando em gênero e número...",
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Complete corretamente: \"___ menina inteligente resolveu o problema sozinha.\"",
     tip: "Pensa: \"menina\" é uma palavra feminina, o artigo precisa combinar com ela!",
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Complete corretamente: \"Os alunos ___ muito atentos durante a explicação.\"",
     tip: "Pensa: \"os alunos\" está no plural, então o verbo também precisa estar!",
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Qual frase apresenta um ERRO de concordância (nominal ou verbal)?",
     tip: "Pensa em qual frase mistura um artigo no plural com um substantivo no singular...",
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Revisão geral: por que é importante fazer a concordância correta (nominal e verbal) ao escrever ou falar?",
     tip: "Pensa em como pode ficar confuso ou estranho ler uma frase com erro de concordância...",
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Parabéns por aprender sobre concordância nominal e verbal! O que é mais importante lembrar desse conteúdo?",
     tip: "Pensa em tudo que vimos: cada palavra da frase \"conversa\" com as outras, concordando em gênero, número e pessoa...",

@@ -419,3 +419,46 @@ A classificação considera o conteúdo predominante e as alternativas dos enunc
 As sínteses que articulam vários conteúdos do ano usam **Geografia do Brasil**. A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1, B2/AV2 e B3/AV2 têm quatro; B1/AV2 e B4/AV1, cinco; B3/AV1, três; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 As inconsistências preexistentes na alternativa sobre o Distrito Federal (B1/AV1, questão 29) e na associação entre animais e regiões do litoral (B1/AV2, questão 29) foram registradas na [issue web #78](https://github.com/guilhermeborba/simulados-bernardo/issues/78), com evidências para revisão separada. Enunciados, alternativas, gabaritos, dicas e curiosidades foram preservados neste lote de temas.
+
+### Português — 5º ano
+
+| Tema | Abrange |
+|---|---|
+| Adjetivos | Identificação, características, função e grau comparativo dos adjetivos nas frases. |
+| Cartas | Finalidade, estrutura, local e data, saudação, corpo do texto, despedida e assinatura de cartas. |
+| Classes de palavras | Comparação entre substantivos e adjetivos e identificação da classe gramatical sem antecipar seu nome. |
+| Concordância | Concordância nominal de artigos e adjetivos com substantivos e concordância verbal com o sujeito. |
+| Dígrafos | Grupos de duas letras que representam um som e reconhecimento das letras desses grupos nas palavras. |
+| Encontros consonantais | Consoantes vizinhas com sons próprios e identificação desses encontros nas palavras. |
+| Encontros vocálicos | Ditongos, hiatos, tritongos e relações entre vogais e divisão silábica. |
+| Fábulas | Características, personagens, interpretação e ensinamentos das fábulas. |
+| Figuras de linguagem | Comparação, metáfora, personificação e onomatopeia e seus efeitos expressivos. |
+| Gêneros e tipos textuais | Finalidades, características, reconhecimento e comparação de gêneros e tipos, incluindo narrativas, notícias, receitas, poemas, anúncios e cartas. |
+| Leitura e compreensão | Localização de informações, personagens, acontecimentos, relações de causa e interpretação das mensagens dos textos. |
+| Leitura e escrita | Síntese sobre recursos da língua e o papel de ler, escrever e expressar ideias e sentimentos. |
+| Letras e sons | Nasalidade indicada pelo til, comparação de encontros e dígrafos e sínteses sobre escrita e pronúncia. |
+| Narrativas | Personagens, narrador, enredo, conflito, desfecho, tempo, espaço e organização dos acontecimentos. |
+| Notícias | Caráter informativo e relação das notícias com os fatos reais. |
+| Poesia | Poemas, versos, estrofes, rimas e reconhecimento desses recursos nos exemplos estudados. |
+| Pontuação | Funções e emprego de ponto final, interrogação, exclamação, vírgula e dois-pontos. |
+| Sinônimos e antônimos | Palavras de significado semelhante ou oposto e seu uso para variar a escrita e construir contrastes. |
+| Sílabas e acentuação | Sílaba tônica, oxítonas, paroxítonas, proparoxítonas, sinais gráficos e acentuação nos exemplos estudados. |
+| Substantivos | Nomes de seres, lugares, objetos e sentimentos e substantivos próprios, comuns, simples, compostos e coletivos. |
+| Tempos verbais | Reconhecimento, emprego e transformação de formas no presente, passado e futuro. |
+| Verbos | Identificação, ações, estados, fenômenos da natureza, infinitivo e grupos de conjugação. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-portugues-5ano-b*-av*.ts`. Não há entradas privadas de Português do 5º ano registradas no seed. Todos compartilham este vocabulário de 22 temas, reaproveitando os nomes dos anos anteriores quando o conteúdo corresponde.
+
+**Gêneros e tipos textuais** reúne a identificação, finalidade e comparação das formas de texto. Não se usa como tema o nome do gênero ou tipo que o aluno deve descobrir: questões 1, 7, 8 e 18 do B1/AV1 e 11 e 21 do B4/AV2, por exemplo. Quando o gênero já é dado e a questão trabalha recursos específicos, usam-se **Fábulas**, **Notícias**, **Poesia** ou **Cartas**. **Cartas** concentra as seis questões de estrutura desse gênero em B4/AV1 e sua retomada em B4/AV2. Elementos e organização das histórias ficam em **Narrativas**.
+
+**Substantivos** reúne os tipos estudados, incluindo coletivos, sem antecipar a classificação solicitada. **Adjetivos** cobre identificação, características e graus; **Classes de palavras** reúne comparações entre substantivos e adjetivos e as perguntas em que o nome da classe é a resposta, como a questão 19 do B1/AV2. O ajuste entre artigo, substantivo e adjetivo e entre sujeito e verbo usa **Concordância**, incluindo as lacunas de artigo e verbo em B3/AV1.
+
+**Verbos** reúne identificação, funções, infinitivo e conjugação; **Tempos verbais**, reconhecimento e transformação de presente, passado e futuro. **Pontuação** cobre sinais e seus usos; **Sinônimos e antônimos**, as relações de significado e a variação das palavras nos textos, sem escolher no rótulo qual das duas relações é a resposta.
+
+**Sílabas e acentuação** reúne tonicidade, classificação e sinais gráficos. A nasalidade indicada pelo til fica em **Letras e sons**, que também cobre a comparação entre encontros e dígrafos e as sínteses sobre escrita e pronúncia. **Encontros vocálicos** inclui ditongo, hiato e tritongo sem antecipar qual tipo é a resposta; **Encontros consonantais** e **Dígrafos** concentram seus conteúdos específicos quando o grupo já está nomeado na pergunta. A questão 22 do B3/AV2 pede reconhecer um dígrafo e usa **Letras e sons**, preservando a classificação como tarefa do aluno.
+
+**Figuras de linguagem** reúne comparação, metáfora, personificação e onomatopeia, sem usar o nome da figura como tema. **Leitura e compreensão** cobre as perguntas de interpretação da história em B4/AV2; elas não recebem temas de Ciências sobre vento ou materiais da pipa. **Leitura e escrita** fica nas sínteses sobre recursos da língua e sua importância para a comunicação.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 e B1/AV2 têm quatro; B2/AV1 e B2/AV2, dois; B3/AV1 concentra um; B3/AV2 e B4/AV1 têm cinco; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+A falta do texto-base da história nas questões 1–10 do B4/AV2 foi registrada na [issue web #80](https://github.com/guilhermeborba/simulados-bernardo/issues/80), com evidências do conteúdo exportado e do seed. O tema **Leitura e compreensão** descreve o objetivo das perguntas; a recuperação do contexto fica para revisão editorial separada. Os enunciados e os gabaritos foram preservados neste lote.

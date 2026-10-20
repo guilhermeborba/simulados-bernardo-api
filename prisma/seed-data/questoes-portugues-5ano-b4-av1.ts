@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB4Av1 = [
   {
     id: 1,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "O que é uma figura de linguagem?",
     tip: "Pensa em formas diferentes e criativas de dizer as coisas, em vez do jeito mais comum...",
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"Bernardo é forte como um leão\", qual figura de linguagem foi usada?",
     tip: "Pensa na palavra \"como\", que liga Bernardo e o leão...",
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"Bernardo é um leão em campo\", qual figura de linguagem foi usada?",
     tip: "Pensa: dessa vez não tem a palavra \"como\" ligando as duas coisas, é uma comparação mais direta!",
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"O vento sussurrava entre as árvores\", qual figura de linguagem foi usada?",
     tip: "Pensa: \"sussurrar\" é uma ação de pessoas... o vento está sendo tratado como se fosse gente!",
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "A palavra \"au au\", usada para representar o latido de um cachorro, é um exemplo de:",
     tip: "Pensa em palavras que \"imitam\" um som, como o barulho de um cachorro latindo...",
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"Bernardo corre como um foguete\", qual figura de linguagem foi usada?",
     tip: "Pensa na palavra \"como\", que compara a velocidade de Bernardo com a de um foguete...",
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"Meu coração é um oceano de sentimentos\", qual figura de linguagem foi usada?",
     tip: "Pensa: não tem a palavra \"como\" aqui, é uma comparação mais direta e poética...",
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"As estrelas piscavam no céu, sorrindo para as crianças\", qual figura de linguagem foi usada?",
     tip: "Pensa: \"piscar\" e \"sorrir\" são ações de pessoas... as estrelas estão sendo tratadas como se fossem gente!",
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "A palavra \"plim\", usada para representar um som de queda ou de uma ideia surgindo, é um exemplo de:",
     tip: "Pensa em como essa palavra imita um som...",
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Para que servem as figuras de linguagem em um texto?",
     tip: "Lembra de tudo que vimos nesse bloco sobre criatividade na linguagem...",
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "O que é um poema?",
     tip: "Pensa em um texto que costuma \"brincar\" com as palavras e os sons...",
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Cada linha de um poema é chamada de:",
     tip: "Pensa no nome que damos a cada \"linhazinha\" de um poema...",
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Um conjunto de versos, que forma uma espécie de \"bloco\" dentro do poema, é chamado de:",
     tip: "Pensa em como os versos de um poema costumam ser organizados em \"blocos\" separados...",
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "A semelhança de som entre as palavras no final de versos diferentes é chamada de:",
     tip: "Pensa em palavras que terminam com sons parecidos, como \"flor\" e \"amor\"...",
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Nos versos \"O sol brilha lá no céu, / e ilumina o meu chapéu\", qual é a rima?",
     tip: "Pensa em quais palavras, no final de cada verso, têm sons parecidos...",
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Cartas",
     type: "multiple_choice",
     text: "O que é uma carta?",
     tip: "Pensa em como as pessoas se comunicavam antes de existir o celular e a internet...",
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Cartas",
     type: "multiple_choice",
     text: "Quais são as partes principais de uma carta?",
     tip: "Pensa em como uma carta costuma começar, se desenvolver e terminar...",
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Cartas",
     type: "multiple_choice",
     text: "Em uma carta que começa com \"Florianópolis, 10 de outubro de 2026\", essa parte representa:",
     tip: "Pensa em que informações aparecem logo no início dessa frase...",
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Cartas",
     type: "multiple_choice",
     text: "Em uma carta que termina com \"Um abraço, Bernardo\", essa parte representa:",
     tip: "Pensa em como as cartas costumam se encerrar, com um cumprimento final e o nome de quem escreveu...",
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Gêneros e tipos textuais",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre um poema e uma carta?",
     tip: "Lembra da estrutura de cada um desses gêneros textuais...",
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Bernardo escreveu os versos: \"Meu cachorro Bidu / é feliz e é ruivo.\" Qual é a rima presente nesses versos?",
     tip: "Pensa em quais palavras, no final de cada verso, têm sons parecidos...",
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Cartas",
     type: "multiple_choice",
     text: "Bernardo escreveu uma carta para sua avó, começando com \"Querida vovó,\". Essa parte da carta é chamada de:",
     tip: "Pensa em como as cartas costumam começar, cumprimentando a pessoa para quem estão sendo escritas...",
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"Bernardo é rápido como um raio\", qual figura de linguagem foi usada?",
     tip: "Pensa na palavra \"como\", que compara a velocidade de Bernardo com a de um raio...",
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Na frase \"A lua sorria no céu escuro\", qual figura de linguagem foi usada?",
     tip: "Pensa: \"sorrir\" é uma ação de pessoas... a lua está sendo tratada como se fosse gente!",
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Bernardo aprendeu que cada linha de um poema tem um nome especial. Como se chama essa linha?",
     tip: "Já vimos esse nome antes... pensa em cada \"linhazinha\" de um poema!",
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Poesia",
     type: "multiple_choice",
     text: "Bernardo separou o poema que escreveu em dois blocos de versos. Cada um desses blocos é chamado de:",
     tip: "Já vimos esse nome antes... pensa no \"bloco\" que reúne vários versos!",
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Figuras de linguagem",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um exemplo de onomatopeia?",
     tip: "Pensa em qual dessas palavras imita um som...",
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Cartas",
     type: "multiple_choice",
     text: "Quais são as partes principais de uma carta, na ordem em que costumam aparecer?",
     tip: "Pensa em como uma carta começa, se desenvolve e termina...",
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Leitura e escrita",
     type: "multiple_choice",
     text: "Revisão geral: por que figuras de linguagem, poemas e cartas são importantes na nossa comunicação?",
     tip: "Pensa em como cada um desses recursos e gêneros ajuda a comunicar algo de um jeito diferente e especial...",
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Leitura e escrita",
     type: "multiple_choice",
     text: "Parabéns por aprender sobre figuras de linguagem, poemas e cartas! O que é mais importante lembrar desse conteúdo?",
     tip: "Pensa em tudo que aprendemos: comparações, metáforas, personificações, poemas e cartas, cada um com sua função...",
