@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB1Av2 = [
   {
     id: 1,
+    theme: "Adição",
     type: 'multiple_choice',
     text: 'Na adição 4 + 3 = 7, os números 4 e 3 são chamados de:',
     tip: 'Pensa nos números que são "somados" para chegar ao resultado...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Subtração",
     type: 'multiple_choice',
     text: 'Na subtração 9 - 4 = 5, o número 9 é chamado de:',
     tip: 'Pensa no número "de onde tiramos" a quantidade...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Adição",
     type: 'multiple_choice',
     text: 'Quanto é 8 + 5?',
     tip: 'Pensa em juntar 8 com mais 5 unidades...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Subtração",
     type: 'multiple_choice',
     text: 'Quanto é 15 - 7?',
     tip: 'Pensa em quanto sobra depois de tirar 7 de 15...',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Adição",
     type: 'multiple_choice',
     text: 'A propriedade comutativa da adição diz que:',
     tip: 'Pensa: 3 + 5 dá o mesmo resultado que 5 + 3?',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Adição",
     type: 'multiple_choice',
     text: 'Uma escola tem 245 alunos no turno da manhã e 198 alunos no turno da tarde. Quantos alunos a escola tem ao todo?',
     tip: 'Some os alunos dos dois turnos: 245 + 198...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Subtração",
     type: 'multiple_choice',
     text: 'Uma loja tinha 520 brinquedos em estoque e vendeu 275. Quantos brinquedos restaram?',
     tip: 'Subtraia a quantidade vendida do total: 520 - 275...',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Subtração",
     type: 'multiple_choice',
     text: 'Para verificar se a subtração 10 - 4 = 6 está correta, podemos fazer a chamada "prova real", que consiste em:',
     tip: 'Pensa: se 10 - 4 = 6, então 6 + 4 deveria dar de volta o número 10!',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Adição e subtração",
     type: 'multiple_choice',
     text: 'Bernardo tinha 150 figurinhas, ganhou mais 80 de um amigo e depois deu 60 para outro amigo. Com quantas figurinhas ele ficou?',
     tip: 'Primeiro some as figurinhas ganhas (150 + 80) e depois subtraia as que ele deu (- 60)...',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Adição",
     type: 'multiple_choice',
     text: 'De forma geral, usamos a adição para:',
     tip: 'Lembra de tudo que vimos sobre juntar quantidades nesse bloco...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'Na multiplicação 4 x 3 = 12, os números 4 e 3 são chamados de:',
     tip: 'Pensa nos números que são "multiplicados" para chegar ao resultado...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'Na divisão 20 ÷ 4 = 5, o número 20 é chamado de:',
     tip: 'Pensa no número que está "sendo dividido"...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'Quanto é 7 x 6?',
     tip: 'Pensa na tabuada do 7 ou do 6...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'Quanto é 48 ÷ 8?',
     tip: 'Pensa quantas vezes o número 8 cabe dentro de 48...',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'A propriedade comutativa da multiplicação diz que:',
     tip: 'Pensa: 4 x 3 dá o mesmo resultado que 3 x 4?',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'A multiplicação 5 x 3 pode ser entendida como:',
     tip: 'Pensa na multiplicação como uma "soma de parcelas iguais"...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'Uma caixa tem 12 pacotes de biscoito, e cada pacote tem 8 biscoitos. Quantos biscoitos há ao todo na caixa?',
     tip: 'Multiplique a quantidade de pacotes pela quantidade de biscoitos em cada um: 12 x 8...',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'Ao dividir 17 por 5, o resultado é 3, e sobra:',
     tip: 'Pensa: 5 x 3 = 15, e quanto falta para chegar a 17?',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'Uma divisão é chamada de EXATA quando:',
     tip: 'Pensa: se não sobra nada depois de dividir, a divisão é...',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'De forma geral, usamos a divisão para:',
     tip: 'Lembra de tudo que vimos sobre repartir quantidades nesse bloco...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'Bernardo comprou 3 livros que custam R$ 25 cada um. Quanto ele gastou ao todo?',
     tip: 'Multiplique o preço de um livro pela quantidade comprada: 25 x 3...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'Bernardo tinha R$ 100 e gastou R$ 35 em um brinquedo. Quanto sobrou?',
     tip: 'Subtraia o valor gasto do valor que Bernardo tinha: 100 - 35...',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'Bernardo comprou 6 pacotes de figurinhas, e cada pacote tem 5 figurinhas. Quantas figurinhas ele comprou ao todo?',
     tip: 'Multiplique a quantidade de pacotes pela quantidade de figurinhas em cada um: 6 x 5...',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'Bernardo quer dividir suas 24 figurinhas igualmente entre ele e mais 3 amigos (4 pessoas no total). Quantas figurinhas cada um vai receber?',
     tip: 'Divida o total de figurinhas pela quantidade de pessoas: 24 ÷ 4...',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Operações combinadas",
     type: 'multiple_choice',
     text: 'Bernardo tinha 40 figurinhas, ganhou mais 2 pacotes com 5 figurinhas cada e depois dividiu 10 figurinhas entre 2 amigos. Com quantas figurinhas Bernardo ficou?',
     tip: 'Primeiro calcule quantas figurinhas ele ganhou (2 x 5 = 10), some ao total (40 + 10 = 50) e depois subtraia as que ele deu (50 - 10)...',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Adição",
     type: 'multiple_choice',
     text: 'Revisão: na adição 6 + 9 = 15, os números 6 e 9 são chamados de:',
     tip: 'Lembra do nome que damos aos números que são somados...',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Multiplicação",
     type: 'multiple_choice',
     text: 'Revisão: na multiplicação 5 x 4 = 20, os números 5 e 4 são chamados de:',
     tip: 'Lembra do nome que damos aos números que são multiplicados...',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Divisão",
     type: 'multiple_choice',
     text: 'Revisão: para verificar (fazer a prova real de) uma divisão exata, como 20 ÷ 4 = 5, podemos:',
     tip: 'Pensa: se 20 ÷ 4 = 5, então 5 x 4 deveria dar de volta o número 20!',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Operações combinadas",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante saber usar as quatro operações (adição, subtração, multiplicação e divisão)?',
     tip: 'Pensa em quantas vezes você soma, subtrai, multiplica ou divide algo durante o seu dia...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Operações combinadas",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre as quatro operações! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: adição, subtração, multiplicação e divisão, cada uma com sua função...',

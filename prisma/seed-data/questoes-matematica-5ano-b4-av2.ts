@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB4Av2 = [
   {
     id: 1,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'O que é uma tabela?',
     tip: 'Pensa em como organizamos uma lista de nomes e notas de forma bem arrumada...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'O que é um gráfico?',
     tip: 'Pensa em como fica mais fácil entender números quando eles são representados com desenhos, barras ou linhas...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Um gráfico que usa barras para comparar quantidades diferentes é chamado de gráfico de:',
     tip: 'Pensa em um gráfico formado por retângulos de alturas diferentes, um para cada categoria...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Em um gráfico de colunas, quanto MAIOR for a altura de uma barra, isso indica que:',
     tip: 'Pensa: barras mais altas representam quantidades maiores ou menores?',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Em um gráfico que mostra as frutas preferidas de uma turma, a barra da "banana" é a mais alta de todas. Isso significa que:',
     tip: 'Lembra: quanto maior a barra, maior é a quantidade representada...',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'O título de um gráfico serve para:',
     tip: 'Pensa: quando você lê o título de um gráfico, o que ele te conta logo de cara?',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'A legenda de um gráfico serve para:',
     tip: 'Pensa em um "dicionário" que explica o que cada cor representa no gráfico...',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Em um gráfico de colunas que mostra 5 alunos com cachorro, 3 com gato e 2 com peixe, quantos alunos ao todo foram entrevistados sobre seus animais de estimação?',
     tip: 'Some os valores de todas as barras: 5 + 3 + 2...',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Qual é a principal vantagem de usar gráficos e tabelas para apresentar informações?',
     tip: 'Pensa em como é mais fácil entender uma informação quando ela está bem organizada...',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Para que servem, de forma geral, as tabelas e os gráficos?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre organizar e visualizar dados...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'O que é probabilidade?',
     tip: 'Pensa em como usamos a palavra "chance" no dia a dia, tipo "tem chance de chover hoje"...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Um evento é chamado de CERTO quando:',
     tip: 'Pensa em algo que "com certeza" vai acontecer, sem nenhuma dúvida...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Um evento é chamado de IMPOSSÍVEL quando:',
     tip: 'Pensa em algo que definitivamente não pode acontecer, como "tirar o número 7 em um dado comum de 6 faces"...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Um evento é chamado de POSSÍVEL quando:',
     tip: 'Pensa em algo que "pode ou não" acontecer, dependendo da sorte ou das circunstâncias...',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Ao jogar um dado comum, de 6 faces numeradas de 1 a 6, qual é a chance de tirar um número entre 1 e 6?',
     tip: 'Pensa: todas as faces do dado têm números entre 1 e 6, então qualquer resultado vai satisfazer essa condição!',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Ao jogar uma moeda para o alto, quais são os possíveis resultados?',
     tip: 'Pensa nos dois lados de uma moeda...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Em uma caixa há 8 bolas vermelhas e 2 bolas azuis. Ao tirar uma bola sem olhar, qual cor é MAIS PROVÁVEL de sair?',
     tip: 'Pensa: qual cor tem mais bolas dentro da caixa?',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Média aritmética",
     type: 'multiple_choice',
     text: 'O que é a média aritmética de um conjunto de números?',
     tip: 'Pensa em somar todos os valores e depois "repartir" esse total igualmente entre eles...',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Média aritmética",
     type: 'multiple_choice',
     text: 'Qual é a média aritmética entre os números 4 e 6?',
     tip: 'Some os dois números (4 + 6 = 10) e divida pela quantidade de números (2)...',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre um evento certo, um possível e um impossível?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre chances de 0%, 100% e valores entre esses dois extremos...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Bernardo olhou um gráfico de colunas com suas notas nas últimas 4 provas de matemática: 7, 8, 9 e 8. Qual foi a nota mais alta que ele tirou?',
     tip: 'Compare os quatro valores e veja qual é o maior...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Média aritmética",
     type: 'multiple_choice',
     text: 'Bernardo quer saber a média das notas 7, 8, 9 e 8 que tirou em matemática. Qual é essa média?',
     tip: 'Some as quatro notas (7+8+9+8=32) e divida pela quantidade de notas (4)...',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Probabilidade",
     type: 'multiple_choice',
     text: 'Bernardo vai jogar um dado comum. Qual é a chance de ele tirar o número 7?',
     tip: 'Pensa: um dado comum tem números de 1 a 6, existe o número 7 nele?',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Gráficos e tabelas",
     type: 'multiple_choice',
     text: 'Bernardo fez uma pesquisa com seus colegas de turma sobre o esporte favorito de cada um e organizou os resultados em linhas e colunas, com o nome de cada esporte e a quantidade de votos. Isso é um exemplo de:',
     tip: 'Pensa em como Bernardo organizou as informações: em linhas e colunas...',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Revisão: no número 3.542, qual é o valor posicional do algarismo 5?',
     tip: 'Pensa em qual "casinha" o algarismo 5 ocupa nesse número...',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Revisão: a fração 3/6 é equivalente a qual fração mais simples?',
     tip: 'Pensa: se dividirmos o numerador e o denominador de 3/6 por 3, o que encontramos?',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Revisão: um hexágono é um polígono que tem quantos lados?',
     tip: 'Lembra da palavra "hexa", que tem a ver com o número 6...',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Revisão: qual é o perímetro de um quadrado com lados de 7 cm?',
     tip: 'Multiplique a medida do lado (7) por 4...',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Matemática no cotidiano",
     type: 'multiple_choice',
     text: 'Revisão geral: por que a matemática é importante no nosso dia a dia?',
     tip: 'Pensa em tudo que aprendemos esse ano: números, frações, decimais, geometria, medidas, porcentagem e estatística...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Matemática no cotidiano",
     type: 'multiple_choice',
     text: 'Parabéns, Bernardo! Você completou todos os estudos de Matemática do 5º ano! O que é mais importante levar desse aprendizado?',
     tip: 'Pensa em tudo que você aprendeu esse ano: números, operações, frações, decimais, geometria, medidas, porcentagem e estatística...',

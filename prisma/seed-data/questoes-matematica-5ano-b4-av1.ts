@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB4Av1 = [
   {
     id: 1,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'O que é o perímetro de uma figura?',
     tip: 'Pensa em "dar a volta completa" em uma figura, somando cada lado...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Como calculamos o perímetro de um quadrado?',
     tip: 'Pensa: se todos os 4 lados de um quadrado são iguais, como podemos somá-los mais rápido?',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Um quadrado tem lados de 5 cm cada. Qual é o perímetro desse quadrado?',
     tip: 'Multiplique a medida do lado (5 cm) por 4...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Como calculamos o perímetro de um retângulo?',
     tip: 'Pensa: um retângulo tem dois lados maiores (comprimento) e dois lados menores (largura), todos precisam ser somados!',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Um retângulo tem 6 cm de comprimento e 4 cm de largura. Qual é o perímetro desse retângulo?',
     tip: 'Some os dois comprimentos (6 + 6) com as duas larguras (4 + 4)...',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'A unidade de medida do perímetro é a mesma unidade usada para medir:',
     tip: 'Pensa: se os lados são medidos em centímetros, o perímetro também será medido em...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Como calculamos o perímetro de um triângulo?',
     tip: 'Pensa: um triângulo tem 3 lados, e para saber o perímetro, precisamos somar todos eles...',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Um triângulo tem lados que medem 3 cm, 4 cm e 5 cm. Qual é o perímetro desse triângulo?',
     tip: 'Some os três lados: 3 + 4 + 5...',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Se o pai de Bernardo quer cercar um terreno retangular com uma cerca, ele precisa calcular:',
     tip: 'Pensa: a cerca vai ficar ao redor do terreno, cercando todo o contorno dele...',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'De forma geral, o perímetro de uma figura representa:',
     tip: 'Lembra de tudo que vimos nesse bloco sobre somar os lados de uma figura...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'O que é a área de uma figura?',
     tip: 'Pensa em quanto "espaço" uma figura ocupa numa folha de papel...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Uma forma simples de calcular a área de uma figura é:',
     tip: 'Pensa em desenhar a figura sobre um papel quadriculado e contar os quadradinhos dentro dela...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Se uma figura ocupa exatamente 12 quadradinhos de uma malha quadriculada, sua área é de:',
     tip: 'Pensa: a área é justamente a quantidade de quadradinhos ocupados pela figura...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Como calculamos a área de um retângulo?',
     tip: 'Pensa: a área de um retângulo é encontrada multiplicando dois de seus lados...',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Um retângulo tem 5 cm de comprimento e 3 cm de largura. Qual é a área desse retângulo?',
     tip: 'Multiplique o comprimento (5) pela largura (3)...',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Como calculamos a área de um quadrado?',
     tip: 'Pensa: em um quadrado, todos os lados são iguais, então a área é o lado multiplicado por ele mesmo...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Um quadrado tem lados de 4 cm cada. Qual é a área desse quadrado?',
     tip: 'Multiplique a medida do lado (4) por ela mesma (4 x 4)...',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'A unidade de medida usada para expressar área, como cm² ou m², é chamada de:',
     tip: 'Pensa: por que a área usa um "quadradinho" (²) ao lado da unidade?',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre perímetro e área?',
     tip: 'Lembra: um mede a "volta" da figura, e o outro mede o "espaço" dentro dela...',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'De forma geral, a área de uma figura representa:',
     tip: 'Lembra de tudo que vimos nesse bloco sobre medir o espaço interno de uma figura...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Porcentagem",
     type: 'multiple_choice',
     text: 'O que é uma porcentagem?',
     tip: 'Pensa na palavra "porcento", que tem a ver com "por cada 100"...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Porcentagem",
     type: 'multiple_choice',
     text: 'O que representa 50%?',
     tip: 'Pensa: 50 em cada 100 partes representa que fração do todo?',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Porcentagem",
     type: 'multiple_choice',
     text: 'O que representa 100%?',
     tip: 'Pensa: se algo está "por cento" completo, ele representa o todo inteiro!',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Porcentagem",
     type: 'multiple_choice',
     text: 'O que representa 25%?',
     tip: 'Pensa: 25 em cada 100 partes é equivalente a que fração simples?',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Porcentagem",
     type: 'multiple_choice',
     text: 'Bernardo fez uma prova com 10 questões e acertou 50% delas. Quantas questões ele acertou?',
     tip: 'Pensa: 50% significa a metade. Qual é a metade de 10?',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Perímetro",
     type: 'multiple_choice',
     text: 'Revisão: como calculamos o perímetro de um quadrado com lados de 6 cm?',
     tip: 'Multiplique a medida do lado (6) por 4...',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Área",
     type: 'multiple_choice',
     text: 'Revisão: qual é a área de um retângulo com 7 cm de comprimento e 2 cm de largura?',
     tip: 'Multiplique o comprimento (7) pela largura (2)...',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Porcentagem",
     type: 'multiple_choice',
     text: 'Revisão: o que representa 100% de uma quantidade?',
     tip: 'Lembra: 100% é sempre o "todo"...',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Matemática no cotidiano",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante entender perímetro, área e porcentagem?',
     tip: 'Pensa em situações reais em que essas ideias podem ser úteis, como uma promoção com desconto...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Matemática no cotidiano",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre perímetro, área e porcentagem! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: perímetro, área e as primeiras noções de porcentagem...',

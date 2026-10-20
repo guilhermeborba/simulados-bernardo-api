@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB2Av1 = [
   {
     id: 1,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'O que é uma fração?',
     tip: 'Pensa em quando você divide uma pizza ou um chocolate em pedaços iguais...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Na fração 3/8, o número 3 (que fica em cima) é chamado de:',
     tip: 'Pensa no número que indica "quantas partes" foram tomadas...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Na fração 3/8, o número 8 (que fica embaixo) é chamado de:',
     tip: 'Pensa no número que indica "em quantas partes" o todo foi dividido...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Uma pizza foi dividida em 8 pedaços iguais, e Bernardo comeu 3 pedaços. Qual fração representa a parte que ele comeu?',
     tip: 'Pensa: quantas partes ele comeu, do total de 8?',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Como se lê a fração 1/4?',
     tip: 'Pensa em como chamamos cada uma das quatro partes iguais de um todo...',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Como se lê a fração 2/5?',
     tip: 'Pensa em como se lê o denominador 5: "quinto"...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Se uma figura foi dividida em 4 partes iguais e 2 delas estão pintadas, qual fração representa a parte pintada?',
     tip: 'Pensa: quantas partes estão pintadas, do total de 4?',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Se Bernardo comeu metade de um chocolate, isso pode ser representado pela fração:',
     tip: 'Pensa: "metade" significa uma parte de um todo dividido em quantas partes iguais?',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Na fração 5/6, qual é o numerador e qual é o denominador?',
     tip: 'Lembra: o numerador fica em cima, e o denominador fica embaixo...',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'De forma geral, o numerador e o denominador de uma fração indicam, respectivamente:',
     tip: 'Lembra de tudo que vimos nesse bloco sobre as partes de uma fração...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Uma fração PRÓPRIA é aquela em que:',
     tip: 'Pensa em uma fração que representa "menos que um inteiro todo", como 1/2 ou 3/4...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Uma fração IMPRÓPRIA é aquela em que:',
     tip: 'Pensa em uma fração que representa "um inteiro ou mais", como 5/4 ou 8/8...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Uma fração é chamada de APARENTE quando:',
     tip: 'Pensa em uma fração como 8/4, que dá exatamente um número inteiro (2)...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'As frações 1/2 e 2/4 são chamadas de frações:',
     tip: 'Pensa: 1/2 e 2/4 representam a mesma quantidade, mesmo escritas de formas diferentes!',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Qual das frações abaixo é equivalente a 1/3?',
     tip: 'Pensa: se multiplicarmos o numerador e o denominador de 1/3 pelo mesmo número, o que acontece?',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Entre as frações 3/5 e 4/5, que têm o mesmo denominador, qual é a MAIOR?',
     tip: 'Quando o denominador é igual, a fração maior é a que tem o numerador maior...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Entre as frações 1/3 e 1/5, que têm o mesmo numerador, qual é a MAIOR?',
     tip: 'Pensa: se um bolo for dividido em 3 partes ou em 5 partes, em qual divisão cada pedaço fica maior?',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Comparando as frações 3/4 e 1/4, é correto afirmar que:',
     tip: 'Como o denominador é igual, compare apenas os numeradores...',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Comparando as frações 1/2 e 1/3, é correto afirmar que:',
     tip: 'Pensa: metade de algo é uma parte maior ou menor do que um terço desse mesmo algo?',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre uma fração própria e uma fração imprópria?',
     tip: 'Lembra: uma é "menor que o todo", e a outra é "igual ou maior que o todo"...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Bernardo e mais 3 amigos (4 pessoas no total) dividiram uma pizza em partes iguais, e cada um comeu 1 pedaço. Qual fração representa a parte que cada um comeu?',
     tip: 'Pensa: a pizza foi dividida em quantas partes iguais, e cada um comeu quantas partes?',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Bernardo comeu 5 pedaços de pizza, quando cada pizza inteira tinha 4 pedaços (ou seja, ele comeu mais do que uma pizza inteira). Qual tipo de fração representa 5/4?',
     tip: 'Pensa: o numerador (5) é maior que o denominador (4), então essa fração representa mais que um inteiro!',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Bernardo e sua irmã dividiram um bolo. Bernardo comeu 2/6 do bolo, e sua irmã comeu 3/6. Quem comeu a maior parte do bolo?',
     tip: 'Como o denominador é igual (6), compare apenas os numeradores: 2 ou 3?',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Bernardo viu em uma receita que precisava de 1/2 xícara de açúcar, mas só tinha um copinho que media em quartos. Qual fração, em quartos, é equivalente a 1/2?',
     tip: 'Pensa: se multiplicarmos o numerador e o denominador de 1/2 por 2, o que acontece?',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Revisão: na fração 4/9, qual número é o numerador?',
     tip: 'Lembra: o numerador é o número que fica em cima da fração...',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Revisão: a fração 7/3 é classificada como:',
     tip: 'Pensa: o numerador (7) é maior que o denominador (3)...',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Revisão: entre as frações 2/7 e 5/7, qual é a MAIOR?',
     tip: 'Como o denominador é igual, compare apenas os numeradores...',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Revisão: entre as frações 1/4 e 1/8, qual é a MAIOR?',
     tip: 'Pensa: se um bolo for dividido em 4 partes ou em 8 partes, em qual divisão cada pedaço fica maior?',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante entender frações?',
     tip: 'Pensa em quantas vezes você já dividiu algo em partes iguais no seu dia a dia...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Frações",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre frações! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: numerador, denominador, tipos de frações e comparação...',

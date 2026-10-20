@@ -462,3 +462,50 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-por
 A quantidade de temas acompanha o conteúdo: B1/AV1 e B1/AV2 têm quatro; B2/AV1 e B2/AV2, dois; B3/AV1 concentra um; B3/AV2 e B4/AV1 têm cinco; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 A falta do texto-base da história nas questões 1–10 do B4/AV2 foi registrada na [issue web #80](https://github.com/guilhermeborba/simulados-bernardo/issues/80), com evidências do conteúdo exportado e do seed. O tema **Leitura e compreensão** descreve o objetivo das perguntas; a recuperação do contexto fica para revisão editorial separada. Os enunciados e os gabaritos foram preservados neste lote.
+
+### Matemática — 5º ano
+
+| Tema | Abrange |
+|---|---|
+| Adição | Somas, parcelas, propriedade comutativa e problemas de juntar ou acrescentar quantidades. |
+| Adição e subtração | Problemas que articulam juntar e retirar quantidades na mesma situação. |
+| Arredondamento | Aproximação de números naturais para a dezena ou a centena mais próxima, incluindo valores em dinheiro. |
+| Área | Medida de superfícies, contagem de unidades quadradas e cálculo de áreas de quadrados e retângulos. |
+| Divisão | Partilha, termos, quociente, resto, divisões exatas e relação inversa com a multiplicação. |
+| Figuras planas | Polígonos, círculos, lados, triângulos, quadriláteros e reconhecimento de formas planas. |
+| Frações | Partes de um todo, numerador, denominador, leitura, tipos, equivalência, simplificação e comparação. |
+| Geometria | Sínteses que articulam figuras planas e sólidos e seu reconhecimento nos objetos do cotidiano. |
+| Gráficos e tabelas | Organização, leitura e comparação de dados, linhas, colunas, barras, títulos, legendas e quantidades. |
+| Grandezas e medidas | Comparação e identificação de grandezas, relações entre perímetro e área e sínteses que articulam diferentes medidas. |
+| Matemática no cotidiano | Sínteses sobre o uso de diferentes conceitos para contar, medir, comparar e resolver problemas do dia a dia. |
+| Medidas de capacidade | Litro, mililitro, instrumentos de medição de líquidos e equivalências entre unidades. |
+| Medidas de comprimento | Metro, centímetro, quilômetro, instrumentos de medição e conversão entre unidades. |
+| Medidas de massa | Quilograma, grama, balança e equivalências entre unidades de massa. |
+| Medidas de tempo | Horas, minutos, segundos, calendário, dias, semanas, meses e anos. |
+| Média aritmética | Conceito e cálculo da média de números e notas pela soma dividida pela quantidade de valores. |
+| Multiplicação | Fatores, produto, propriedade comutativa, parcelas iguais e cálculo de quantidades em grupos. |
+| Números decimais | Parte inteira e decimal, décimos e centésimos, leitura, escrita, equivalência com frações, comparação, adição e subtração. |
+| Operações combinadas | Problemas que articulam diferentes operações e sínteses sobre as funções e os usos das quatro operações. |
+| Perímetro | Medida do contorno, unidades e soma dos lados de quadrados, retângulos e triângulos. |
+| Porcentagem | Partes por cem, símbolo %, relação com metade e quarta parte e porcentagens de quantidades. |
+| Probabilidade | Eventos certos, possíveis e impossíveis, chances em dados e moedas e comparação de resultados mais prováveis. |
+| Sistema de numeração | Valor posicional, ordens, leitura, escrita, decomposição, comparação, ordenação, símbolos, antecessor, sucessor e paridade. |
+| Sistema monetário | Preços, reais e centavos, compras, gastos, troco e comparação de valores em dinheiro. |
+| Sólidos geométricos | Poliedros e corpos redondos, faces, arestas, vértices e relações com objetos do cotidiano. |
+| Subtração | Diferenças, minuendo, subtraendo, prova real e problemas de retirar ou completar quantidades. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-matematica-5ano-b*-av*.ts`. Não há entradas privadas de Matemática do 5º ano registradas no seed. Todos compartilham este vocabulário de 26 temas, reaproveitando os nomes dos anos anteriores quando o conteúdo corresponde.
+
+A classificação considera o objetivo da questão e as alternativas dos enunciados genéricos. **Sistema de numeração** cobre valor posicional, comparação, ordenação e paridade; **Arredondamento**, as aproximações, inclusive a questão 23 do B1/AV1 com dinheiro. Comparações de preços, compras e trocos usam **Sistema monetário**. A ordenação das distâncias na questão 24 do B1/AV1 usa **Sistema de numeração**, pois o objetivo é ordenar números.
+
+**Adição**, **Subtração**, **Multiplicação** e **Divisão** reúnem seus termos, propriedades, cálculos e aplicações. **Adição e subtração** reúne a situação de juntar e retirar da questão 9 do B1/AV2. **Operações combinadas** cobre o problema com várias operações da questão 25 e as sínteses sobre as funções e os usos das quatro operações no fim desse simulado.
+
+**Frações** reúne os tipos, equivalências e comparações sem antecipar qual tipo ou resultado é a resposta. **Números decimais** cobre leitura, comparação, equivalência com frações e operações com vírgula. O reconhecimento de R$ 3,50 como número decimal na questão 19 do B2/AV2 usa **Sistema monetário**, sem antecipar a classificação; a conversão de 1,45 m em metros e centímetros na questão 23 usa **Medidas de comprimento**.
+
+**Figuras planas** e **Sólidos geométricos** reúnem formas, propriedades e elementos sem usar como rótulo a figura, a face, a aresta ou o vértice que pode ser a resposta. **Geometria** fica nas sínteses que articulam figuras planas e espaciais. Os temas das medidas seguem a grandeza específica quando ela já está identificada. As questões 21–23 do B3/AV2, que pedem reconhecer a própria grandeza, usam **Grandezas e medidas**. Esse tema também cobre comparações e sínteses de medidas e a identificação do perímetro como cálculo necessário na questão 9 do B4/AV1.
+
+**Perímetro** concentra contorno e soma dos lados; **Área**, superfícies, unidades quadradas e cálculo de quadrados e retângulos. A comparação entre os dois conceitos na questão 19 do B4/AV1 usa **Grandezas e medidas**. **Porcentagem** reúne partes por cem, metade, quarta parte e cálculo de quantidades. **Gráficos e tabelas** cobre a apresentação e leitura de dados; **Média aritmética**, seu cálculo; **Probabilidade**, eventos e chances. As sínteses que articulam vários conteúdos usam **Matemática no cotidiano**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV2 e B3/AV1 têm três; B1/AV2, sete; B2/AV1 concentra um; B3/AV2 e B4/AV1 têm cinco; B4/AV2 revisa oito. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+O gabarito preexistente da questão 16 do B1/AV1 classifica 4.578 como ímpar, embora o número seja par. A inconsistência foi registrada na [issue web #82](https://github.com/guilhermeborba/simulados-bernardo/issues/82), sem alteração do gabarito neste lote de temas.

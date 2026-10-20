@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB2Av2 = [
   {
     id: 1,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'O que é um número decimal?',
     tip: 'Pensa em números como 3,5 ou 2,75, que têm uma vírgula separando duas partes...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'No número decimal 0,1, a primeira casa depois da vírgula representa:',
     tip: 'Pensa: essa casa representa a fração 1/10...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'No número decimal 0,01, a segunda casa depois da vírgula representa:',
     tip: 'Pensa: essa casa representa a fração 1/100...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Como se lê o número 3,5?',
     tip: 'Pensa na parte antes da vírgula (inteiros) e depois da vírgula (décimos)...',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Como se lê o número 2,75?',
     tip: 'Pensa: depois da vírgula, esse número tem duas casas, então são centésimos...',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Como se escreve, em algarismos, "um inteiro e dois décimos"?',
     tip: 'Pensa em separar a parte inteira (1) da parte decimal (2 décimos)...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'A fração 1/2 é equivalente a qual número decimal?',
     tip: 'Pensa: dividindo 1 por 2, qual é o resultado?',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'A fração 1/4 é equivalente a qual número decimal?',
     tip: 'Pensa: dividindo 1 por 4, qual é o resultado?',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'No número 4,75, qual é a parte inteira e qual é a parte decimal?',
     tip: 'Lembra: a parte inteira fica antes da vírgula, e a parte decimal fica depois...',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Para que serve a vírgula em um número decimal?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre a função da vírgula...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Para comparar dois números decimais, o primeiro passo é:',
     tip: 'Pensa: assim como em números naturais, começamos comparando pela parte "maior" do número...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Quando dois números decimais têm a mesma parte inteira, para saber qual é o maior, devemos:',
     tip: 'Pensa: se a parte inteira é igual, a diferença vai estar na parte depois da vírgula...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Qual número é MAIOR: 3,4 ou 3,6?',
     tip: 'Como a parte inteira é igual (3), compare os décimos: 4 ou 6?',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Qual número é MAIOR: 2,45 ou 2,5?',
     tip: 'Pensa: 2,5 é o mesmo que 2,50... comparando com 2,45, qual tem os décimos maiores?',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Para somar dois números decimais corretamente, é importante:',
     tip: 'Pensa em como organizamos as contas de adição: unidade embaixo de unidade, dezena embaixo de dezena...',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Quanto é 2,5 + 1,3?',
     tip: 'Alinhe as vírgulas e some as partes inteiras e decimais separadamente...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Assim como na adição, para subtrair dois números decimais corretamente, é importante:',
     tip: 'Pensa em como organizamos as contas de subtração, alinhando as casas correspondentes...',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Quanto é 5,7 - 2,4?',
     tip: 'Alinhe as vírgulas e subtraia as partes inteiras e decimais separadamente...',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'O valor R$ 3,50 (três reais e cinquenta centavos) é um exemplo de:',
     tip: 'Pensa em como os preços costumam ser escritos, com reais e centavos separados por vírgula...',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Por que é importante alinhar as vírgulas ao somar ou subtrair números decimais?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre organizar as contas com decimais...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'Bernardo comprou um suco por R$ 2,50 e um salgado por R$ 3,25. Quanto ele gastou ao todo?',
     tip: 'Alinhe as vírgulas e some os dois valores: 2,50 + 3,25...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'Bernardo pagou com uma nota de R$ 10,00 uma compra de R$ 7,35. Quanto de troco ele deve receber?',
     tip: 'Subtraia o valor da compra do valor pago: 10,00 - 7,35...',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Bernardo mediu sua altura e anotou 1,45 metro. Isso significa que ele tem:',
     tip: 'Pensa: a parte inteira (1) representa metros, e a parte decimal (45) representa centímetros...',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'Bernardo comparou o preço de dois lápis: um custa R$ 1,90 e o outro custa R$ 1,75. Qual é o mais barato?',
     tip: 'Como a parte inteira é igual (1), compare os décimos: 9 ou 7?',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Revisão: como se lê o número 6,25?',
     tip: 'Pensa: depois da vírgula, esse número tem duas casas, então são centésimos...',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Revisão: a fração 3/4 é equivalente a qual número decimal?',
     tip: 'Pensa: dividindo 3 por 4, qual é o resultado?',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Revisão: qual número é MAIOR: 7,2 ou 7,8?',
     tip: 'Como a parte inteira é igual (7), compare os décimos: 2 ou 8?',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Revisão: quanto é 4,6 + 2,3?',
     tip: 'Alinhe as vírgulas e some as partes inteiras e decimais separadamente...',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante saber ler, escrever e operar com números decimais?',
     tip: 'Pensa em quantas vezes você vê números com vírgula no seu dia a dia, como em preços...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Números decimais",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre números decimais! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: leitura, escrita, comparação e operações com números decimais...',
