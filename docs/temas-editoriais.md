@@ -375,3 +375,5 @@ Questões sobre a origem específica de palavras, pratos, festas ou manifestaç�
 **História do trabalho** reúne atividades e condições no passado; mudanças ligadas às ferramentas, máquinas e eletrodomésticos usam **Trabalho e tecnologia**. Questões específicas sobre agricultura usam **Trabalho no campo**. **Comunicação e tecnologia** cobre as mudanças nos meios de comunicação; **Transportes e viagens**, as mudanças nos deslocamentos e na duração das viagens.
 
 A quantidade de temas acompanha o conteúdo: B1/AV1 tem seis; B2/AV1 e B3/AV2, sete; B1/AV2, B2/AV2 e B3/AV1, nove. Não se subdivide artificialmente o B4/AV1, concentrado em patrimônio, que tem um tema. O B4/AV2 revisa doze temas. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+A inclusão indevida de “Brasil” entre as palavras de origem indígena na questão 9 do B2/AV1 foi registrada na [issue web #76](https://github.com/guilhermeborba/simulados-bernardo/issues/76), com fontes para a revisão editorial. Enunciado e gabarito foram preservados no lote de temas.
