@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB1Av2 = [
   {
     id: 1,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'O que são vacinas?',
     tip: 'Pensa bem: vacina não é para deixar você mais alto nem para curar dor de cabeça! Ela tem a ver com o corpo aprendendo a se proteger. O que ela ensina o corpo a fazer?',
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Como as vacinas ajudam nosso corpo?',
     tip: 'Lembra da pergunta 1? A vacina tem a ver com o corpo aprendendo algo importante. O que ele aprende a fazer com vírus e bactérias?',
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'O que é a Carteira de Vacinação?',
     tip: 'Pensa no nome: "Carteira de Vacinação". O que normalmente guardamos numa carteira? Documentos importantes, certo?',
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Por que é importante tomar todas as vacinas do calendário na idade certa?',
     tip: 'Pensa assim: seria bom colocar um capacete DEPOIS de cair da bicicleta? A vacina é como esse "capacete" que precisa vir ANTES do perigo.',
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'O que é uma campanha de vacinação em massa?',
     tip: 'A palavra "massa" aqui quer dizer "muita gente". Pensa: o que acontece quando muitas pessoas se vacinam ao mesmo tempo?',
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Qual doença grave foi praticamente eliminada no Brasil graças à vacinação em massa?',
     tip: 'Essa doença já foi bem perigosa no Brasil e causava dificuldade para andar. Hoje ela quase não existe mais graças às campanhas com a famosa "gotinha"!',
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Saúde e bem-estar",
     type: 'multiple_choice',
     text: 'O que é imunidade?',
     tip: 'Pensa numa palavra parecida: "imune" é quando você está protegido de algo. Imunidade é a capacidade de fazer o quê?',
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Quem geralmente aplica as vacinas?',
     tip: 'Pensa em quem trabalha em postos de saúde e hospitais, cuidando das pessoas e aplicando injeções com cuidado.',
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Além da poliomielite, qual doença pode ser evitada com vacina?',
     tip: 'Essa é uma doença que causa manchas vermelhas pelo corpo e febre alta, mas pode ser evitada com uma vacina tomada na infância.',
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Por que vacinar bebês e crianças é tão importante?',
     tip: 'Pensa: bebês acabaram de nascer. As defesas do corpo deles ainda estão começando a se formar. Eles precisam de mais ou menos proteção?',
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Qual é a forma correta e mais eficaz de lavar as mãos?',
     tip: 'Pensa no tempo: cantar os "parabéns pra você" duas vezes dá mais ou menos 20 segundos! Isso ajuda a lembrar quanto tempo lavar as mãos.',
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Por que devemos lavar as mãos antes de comer?',
     tip: 'Pensa: as mãos tocam em muitas coisas no dia (mesa, brinquedos, corrimão). O que pode estar grudado nelas sem a gente ver?',
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Quantas vezes ao dia é recomendado escovar os dentes?',
     tip: 'Pensa em quantas vezes você come por dia: café da manhã, almoço, jantar... Os dentistas recomendam escovar depois de quantas refeições, mais ou menos?',
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Por que é importante manter as unhas cortadas e limpas?',
     tip: 'Pensa onde a sujeira gosta de se esconder: embaixo de unhas compridas é um ótimo esconderijo para germes!',
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'O que devemos fazer quando nos machucamos e temos um ferimento?',
     tip: 'Pensa: se colocarmos terra ou deixarmos sujo, os germes fazem uma festa no ferimento! O que devemos fazer para evitar isso?',
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'O banho diário ajuda a:',
     tip: 'Pensa no que acontece com a nossa pele depois de um dia de brincadeiras: ela fica com suor e poeira. O banho serve para tirar o quê?',
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Qual desses é um hábito de higiene que ajuda a prevenir doenças?',
     tip: 'Pensa: quando alguém tosse ou espirra sem cuidado, gotinhas podem viajar pelo ar. O que podemos fazer para segurar essas gotinhas?',
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'O que pode acontecer se a gente não cuidar da higiene do corpo?',
     tip: 'Pensa: germes adoram lugares sujos. Se a gente não cuida da higiene, fica mais fácil ou mais difícil para os germes entrarem no corpo?',
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Por que devemos ter cuidado com feridas e curativos?',
     tip: 'Pensa na pele: ela é como uma barreira que protege o corpo. Quando há um corte, essa barreira fica aberta. O que pode entrar por ali se não cuidarmos?',
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Saúde e bem-estar",
     type: 'multiple_choice',
     text: 'Vacinação e higiene têm em comum o fato de que ambas ajudam a:',
     tip: 'Pensa em tudo que você aprendeu: vacina protege de doenças, higiene também. Qual é o objetivo comum das duas?',
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Bernardo vai ao posto de saúde e a enfermeira confere sua Carteira de Vacinação. Para que serve esse documento?',
     tip: 'Pensa no que a enfermeira está conferindo: um documento com o histórico de vacinas de Bernardo. Para que serve guardar esse histórico?',
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Antes de almoçar, Bernardo sempre lava bem as mãos com água e sabão. Essa atitude ajuda a:',
     tip: 'Lembra da pergunta 12? Lavar as mãos antes de comer evita que germes entrem no corpo junto com a comida.',
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Bernardo caiu de bicicleta e se machucou no joelho. O que ele deve fazer primeiro?',
     tip: 'Pensa: o que é mais seguro fazer com um machucado — cuidar dele com ajuda ou fingir que não aconteceu nada?',
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Na campanha de vacinação da escola, Bernardo tomou uma vacina contra o sarampo. Isso é um exemplo de:',
     tip: 'Pensa em tudo que aprendemos sobre vacinas: elas ajudam o corpo a se defender ANTES de pegar a doença. O que Bernardo fez ao tomar a vacina?',
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Todas as manhãs, Bernardo escova os dentes depois do café. Esse hábito de higiene ajuda a:',
     tip: 'Pensa no que pode acontecer com dentes que nunca são escovados: eles podem furar! Escovar ajuda a evitar isso.',
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Hábitos de higiene",
     type: 'multiple_choice',
     text: 'Qual das opções abaixo é um hábito de higiene que Bernardo pode praticar todos os dias?',
     tip: 'Pensa em quais dessas opções realmente ajudam a manter o corpo limpo e saudável, e quais fazem o contrário.',
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'As vacinas ensinam o corpo a:',
     tip: 'Lembra: a vacina não deixa ninguém mais alto nem ajuda a dormir. Ela treina uma parte muito importante do corpo. Qual?',
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Saúde e bem-estar",
     type: 'multiple_choice',
     text: 'Lavar as mãos, escovar os dentes e tomar banho são exemplos de:',
     tip: 'Pensa: essas três atitudes têm a ver com limpeza e cuidado com o corpo. Como chamamos esse conjunto de cuidados?',
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Vacinação",
     type: 'multiple_choice',
     text: 'Por que é importante seguir o calendário de vacinação na idade certa?',
     tip: 'Pensa: se a vacina chega tarde demais, depois que a pessoa já pegou a doença, ela ainda ajuda da mesma forma? Por isso a idade certa é tão importante.',
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Saúde e bem-estar",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que vacinação e higiene são aliadas na saúde. Isso quer dizer que:',
     tip: 'Pensa em tudo que vimos: vacina protege de um jeito, higiene protege de outro. Elas competem ou trabalham juntas?',

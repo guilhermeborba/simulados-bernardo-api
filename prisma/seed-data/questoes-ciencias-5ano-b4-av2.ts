@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB4Av2 = [
   {
     id: 1,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é poluição?",
     tip: "A poluição ocorre quando algo é introduzido no ambiente em quantidade ou de forma que cause dano. O que define a poluição e quais são suas consequências?",
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é o efeito estufa?",
     tip: "O efeito estufa é um fenômeno natural essencial para a vida na Terra, mas que está sendo intensificado pela ação humana. O que ele é?",
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é a reciclagem?",
     tip: "A reciclagem é diferente da reutilização. Na reciclagem, o material passa por um processo de transformação. O que a define?",
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Fontes de energia",
     type: "multiple_choice",
     text: "O que é energia renovável?",
     tip: "Energias renováveis diferem dos combustíveis fósseis por uma característica fundamental. O que as define?",
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a poluição do ar?",
     tip: "A poluição do ar afeta a saúde humana e o clima. O que a define e quais são suas principais fontes?",
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é a compostagem?",
     tip: "A compostagem é uma das formas mais antigas e eficientes de gerenciar resíduos orgânicos. O que ela é e o que produz?",
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a camada de ozônio?",
     tip: "A camada de ozônio fica na estratosfera e tem um papel vital para a vida na Terra. O que ela é e o que protege?",
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é o desmatamento?",
     tip: "O desmatamento tem múltiplas causas e consequências. O que ele é e quais são seus impactos?",
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Fontes de energia",
     type: "multiple_choice",
     text: "O que é a energia solar?",
     tip: "A energia solar é uma das fontes de energia renovável que mais cresce no mundo. O que ela é e como é captada?",
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Ecossistemas",
     type: "multiple_choice",
     text: "O que é uma relação de MUTUALISMO no ecossistema?",
     tip: "O mutualismo é um tipo de relação ecológica entre duas espécies. O que a caracteriza?",
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a poluição da água?",
     tip: "A poluição da água é uma das crises ambientais mais graves do mundo. O que a define e quais são suas principais fontes?",
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é a biodegradação?",
     tip: "A biodegradação é o processo natural que ocorre com os materiais orgânicos após serem descartados. O que ela é?",
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Fontes de energia",
     type: "multiple_choice",
     text: "O que é a energia eólica?",
     tip: "A energia eólica aproveita um recurso natural renovável e abundante. O que é e como funciona?",
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Ecossistemas",
     type: "multiple_choice",
     text: "O que é o parasitismo?",
     tip: "O parasitismo é uma relação entre dois seres vivos em que um se beneficia e o outro é prejudicado. Como ela funciona?",
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é o lixo eletrônico (e-lixo)?",
     tip: "O lixo eletrônico é uma categoria especial de resíduo que requer tratamento diferenciado. O que o define?",
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a poluição sonora?",
     tip: "A poluição não é apenas química — pode ser física também. A poluição sonora é um exemplo. O que a define e a quem afeta?",
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é o tráfico de animais silvestres?",
     tip: "O tráfico de animais é um crime ambiental grave que ameaça a biodiversidade. O que é e quais são suas consequências?",
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "O que é o consumo consciente?",
     tip: "O consumo consciente vai além de simplesmente gastar menos. O que ele implica?",
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a preservação ambiental?",
     tip: "Preservação ambiental é diferente de conservação — a conservação permite algum uso sustentável, enquanto a preservação protege mais estritamente. O que a preservação ambiental é?",
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é o aquecimento global?",
     tip: "O aquecimento global é diferente do efeito estufa natural. O que ele é e quais são suas causas principais?",
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a seca?",
     tip: "A seca é um fenômeno climático que afeta tanto regiões áridas quanto regiões normalmente úmidas. O que a define?",
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Fontes de energia",
     type: "multiple_choice",
     text: "O que é o biogás?",
     tip: "O biogás é uma fonte de energia renovável produzida de forma natural. O que é e como é produzido?",
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a defaunação?",
     tip: "Você conhece o desmatamento (perda de vegetação). A defaunação é o fenômeno análogo, mas para os animais. O que é?",
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é a coleta seletiva?",
     tip: "A coleta seletiva é a etapa fundamental para que a reciclagem aconteça. O que ela é?",
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é uma espécie invasora?",
     tip: "Uma espécie invasora não é simplesmente estrangeira — é aquela que causa danos ao ecossistema onde foi introduzida. O que a define?",
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "O que é o manejo sustentável?",
     tip: "O manejo sustentável busca um equilíbrio entre o uso dos recursos naturais e a preservação. O que o define?",
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é a fragmentação de habitats?",
     tip: "A fragmentação de habitats é uma das principais causas de extinção de espécies. O que ela é e por que é tão prejudicial?",
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Fontes de energia",
     type: "multiple_choice",
     text: "O que são as energias fósseis (combustíveis fósseis)?",
     tip: "Os combustíveis fósseis são chamados assim por uma razão relacionada à sua origem. O que são e de onde vêm?",
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Sustentabilidade",
     type: "multiple_choice",
     text: "O que é a Agenda 2030 da ONU?",
     tip: "A Agenda 2030 é um acordo global importante para o desenvolvimento sustentável. O que ela é e o que propõe?",
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Resíduos e reciclagem",
     type: "multiple_choice",
     text: "O que é o princípio dos 3 Rs (Reduzir, Reutilizar, Reciclar)?",
     tip: "Os 3 Rs formam uma estratégia de gestão de resíduos com uma ordem de prioridade. Qual é a ordem correta e o que cada R significa?",

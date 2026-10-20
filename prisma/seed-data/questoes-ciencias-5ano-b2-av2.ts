@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB2Av2 = [
   {
     id: 1,
+    theme: "Estados físicos",
     type: 'multiple_choice',
     text: 'Quais são os três estados físicos da matéria?',
     tip: 'Pensa em gelo, água e vapor: são três formas bem diferentes da mesma substância! Como chamamos essas três formas?',
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Estados físicos",
     type: 'multiple_choice',
     text: 'O que caracteriza o estado sólido da matéria?',
     tip: 'Pensa numa pedra ou num cubo de gelo: eles mudam de forma sozinhos ou mantêm sempre o mesmo formato?',
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Estados físicos",
     type: 'multiple_choice',
     text: 'O que caracteriza o estado líquido da matéria?',
     tip: 'Pensa: se você coloca água em um copo, ela fica redonda; se coloca numa garrafa quadrada, ela fica quadrada. O que isso mostra sobre a forma do líquido?',
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Estados físicos",
     type: 'multiple_choice',
     text: 'O que caracteriza o estado gasoso da matéria?',
     tip: 'Pensa no ar dentro de uma bexiga: ele fica só de um lado ou se espalha por todo o espaço interno?',
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Como se chama a mudança do estado sólido para o líquido, como o gelo derretendo?',
     tip: 'Pensa: quando o gelo derrete, ele está saindo do estado sólido para qual outro estado?',
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Como se chama a mudança do estado líquido para o sólido, como a água virando gelo no congelador?',
     tip: 'Pensa no contrário da fusão: ao invés de derreter, a água está endurecendo, virando gelo. Isso vai do líquido para o sólido!',
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Como se chama a passagem do estado líquido para o gasoso?',
     tip: 'Pensa: quando a água ferve e vira vapor, ela está saindo do estado líquido e indo para qual outro estado?',
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Como se chama a passagem do estado gasoso para o líquido, como o vapor formando gotinhas de água no espelho do banheiro?',
     tip: 'Pensa: o vapor de água do seu banho quente vira gotinhas no espelho frio. O vapor (gás) está virando líquido, certo?',
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'O que é sublimação?',
     tip: 'Pensa: essa mudança é diferente das outras porque pula uma etapa! Ao invés de virar líquido primeiro, o sólido vai direto para outro estado. Qual?',
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Estados físicos",
     type: 'multiple_choice',
     text: 'A água pode existir naturalmente em quais estados físicos na Terra?',
     tip: 'Pensa em tudo que vimos: gelo, água da torneira e vapor da panela são todos a mesma substância em estados diferentes!',
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que é o ciclo da água?',
     tip: 'Pensa no nome "ciclo": significa algo que se repete sem parar. O que a água faz repetidamente entre o céu e a terra?',
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que é evaporação, dentro do ciclo da água?',
     tip: 'Pensa: o Sol esquenta a água dos rios e mares. O que acontece com essa água quando ela esquenta muito?',
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que acontece na condensação, durante o ciclo da água?',
     tip: 'Pensa: depois que o vapor de água sobe bem alto no céu, onde faz mais frio, o que acontece com ele para formar as nuvens?',
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que é precipitação, no ciclo da água?',
     tip: 'Pensa: quando as nuvens ficam "pesadas" de tanta água, o que cai lá de cima em direção ao chão?',
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que é infiltração, no ciclo da água?',
     tip: 'Pensa: depois que a chuva cai no chão, parte da água desce para dentro da terra. Como se chama esse processo?',
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que é escoamento superficial?',
     tip: 'Pensa: nem toda a água da chuva entra na terra — parte dela escorre por cima do solo, formando riachos. Como se chama esse movimento?',
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'Por que o Sol é tão importante para o ciclo da água?',
     tip: 'Pensa: sem calor, a água consegue virar vapor sozinha? O que dá início a todo o ciclo da água?',
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'Por que o ciclo da água é importante para a vida na Terra?',
     tip: 'Pensa: se a água não circulasse e se renovasse, será que teríamos água limpa disponível para sempre?',
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'O que forma as nuvens no céu?',
     tip: 'Lembra da pergunta 13: o vapor de água esfria lá em cima e forma o quê?',
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'Qual é a ordem correta e básica das etapas do ciclo da água?',
     tip: 'Pensa na ordem lógica: primeiro a água precisa virar vapor, depois formar nuvens, depois cair, e depois ir para o solo ou os rios. Qual é essa sequência?',
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Em um dia quente em Florianópolis, Bernardo viu poças d\'água na rua sumindo aos poucos. Isso acontece por causa da:',
     tip: 'Pensa lá na pergunta 12: o calor do Sol transforma a água líquida em vapor. É isso que acontece com as poças d\'água!',
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Bernardo colocou uma forma com água no congelador e, depois de um tempo, a água virou gelo. Esse processo se chama:',
     tip: 'Lembra da pergunta 6: quando a água líquida vira sólida no congelador, chamamos esse processo de quê?',
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'No banho quente, Bernardo notou que o espelho do banheiro ficou embaçado com gotinhas de água. Isso acontece por causa da:',
     tip: 'Pensa lá na pergunta 8: o vapor de água esfria ao tocar uma superfície fria (o espelho) e vira gotinhas líquidas. Como se chama isso?',
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'Bernardo viu o céu ficar nublado e, pouco depois, começou a chover. Esse fenômeno da água caindo das nuvens é chamado de:',
     tip: 'Lembra da pergunta 14: quando a água cai das nuvens em forma de chuva, granizo ou neve, chamamos isso de quê?',
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'Depois da chuva, Bernardo percebeu que parte da água do jardim desapareceu no solo. Isso é um exemplo de:',
     tip: 'Pensa lá na pergunta 15: quando a água da chuva penetra no solo, como se chama esse processo?',
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Bernardo tirou um picolé do congelador e, depois de alguns minutos ao sol, ele derreteu. Esse processo é chamado de:',
     tip: 'Lembra da pergunta 5: quando um sólido (como o picolé congelado) vira líquido com o calor, chamamos isso de quê?',
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Se Bernardo colocar uma panela de água para ferver no fogão, a água vai:',
     tip: 'Pensa: ao ferver, a água forma aquelas bolhinhas e sai como fumacinha (vapor) da panela. Ela está mudando de estado líquido para qual outro?',
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Sustentabilidade",
     type: 'multiple_choice',
     text: 'Por que é importante economizar água, mesmo sabendo que ela está sempre em ciclo na natureza?',
     tip: 'Pensa: mesmo que a água sempre volte no ciclo, ela precisa ser tratada e chegar limpa até a sua torneira. Isso acontece instantaneamente ou exige trabalho e recursos?',
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Transformações da matéria",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a água dos oceanos, rios e lagos nunca desaparece de verdade, ela apenas muda de:',
     tip: 'Pensa em tudo que aprendemos: a água vira gelo, líquido ou vapor, mas continua sendo água. O que muda nela?',
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Ciclo da água",
     type: 'multiple_choice',
     text: 'Depois de estudar o ciclo da água, Bernardo entendeu que evaporação, condensação, precipitação e infiltração formam:',
     tip: 'Pensa na palavra "ciclo": ela indica algo que tem fim ou que se repete sem parar?',
