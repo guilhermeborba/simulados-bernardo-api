@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB3Av2 = [
   {
     id: 1,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'O que é um acento gráfico?',
     tip: 'Pensa em palavras como "café" ou "você"... o que aquele sinalzinho em cima da letra indica?',
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Qual é o nome do acento usado em palavras como "café" e "sofá"?',
     tip: 'Pensa no sinal inclinado (´) que aparece em cima da letra dessas palavras...',
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Qual é o nome do acento usado em palavras como "você" e "câmera"?',
     tip: 'Pensa no sinal em formato de "chapeuzinho" (^) que aparece em cima da letra...',
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Letras e sons",
     type: 'multiple_choice',
     text: 'O til (~), usado em palavras como "irmã" e "coração", indica principalmente:',
     tip: 'Pensa em como soa diferente falar "ma" e "mã"...',
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'A sílaba pronunciada com mais força em uma palavra é chamada de:',
     tip: 'Pensa em qual "pedacinho" da palavra você fala com mais intensidade...',
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Uma palavra OXÍTONA é aquela cuja sílaba tônica está:',
     tip: 'Pensa em "café" ou "jacaré"... onde fica a força da pronúncia?',
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Uma palavra PAROXÍTONA é aquela cuja sílaba tônica está:',
     tip: 'Pensa em "mesa" ou "lápis"... onde fica a força da pronúncia?',
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Uma palavra PROPAROXÍTONA é aquela cuja sílaba tônica está:',
     tip: 'Pensa em "médico" ou "ônibus"... a força da pronúncia fica bem lá atrás na palavra!',
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'A palavra "ônibus" é classificada como:',
     tip: 'Pensa em onde fica a força da pronúncia dessa palavra: "Ô-ni-bus"...',
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Para que serve, de forma geral, o acento gráfico nas palavras?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre a força da pronúncia...',
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'O que é um encontro vocálico?',
     tip: 'Pensa em palavras como "pai" ou "saída", que têm vogais "coladas"...',
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'O DITONGO é um encontro vocálico em que:',
     tip: 'Pensa na palavra "pai"... as vogais "a" e "i" ficam juntas na mesma sílaba!',
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'O HIATO é um encontro vocálico em que:',
     tip: 'Pensa na palavra "saída" (sa-í-da)... o "a" e o "í" ficam em sílabas diferentes!',
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'O TRITONGO é um encontro vocálico em que:',
     tip: 'Pensa em uma palavra como "Paraguai", que tem três vogais bem juntinhas numa sílaba só...',
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'Na palavra "pai", o encontro vocálico "ai" é classificado como:',
     tip: 'Pensa: as vogais "a" e "i" ficam juntas na mesma sílaba dessa palavra...',
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'Na palavra "saída" (sa-í-da), o encontro vocálico é classificado como:',
     tip: 'Pensa: o "a" e o "í" dessa palavra ficam em sílabas separadas!',
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Encontros consonantais",
     type: 'multiple_choice',
     text: 'Um encontro consonantal acontece quando:',
     tip: 'Pensa na palavra "prato"... o "p" e o "r" ficam juntinhos, sem nenhuma vogal entre eles!',
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Dígrafos",
     type: 'multiple_choice',
     text: 'Um DÍGRAFO é formado por duas letras que representam:',
     tip: 'Pensa na palavra "chuva"... as letras "c" e "h" juntas fazem um som só!',
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Dígrafos",
     type: 'multiple_choice',
     text: 'Na palavra "ninho", qual é o dígrafo presente?',
     tip: 'Pensa em quais duas letras juntas formam um som só nessa palavra...',
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Letras e sons",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre um encontro consonantal e um dígrafo?',
     tip: 'Pensa em "prato" (cada letra com seu próprio som) e "chuva" (duas letras, um som só)...',
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu a palavra "café" na escola. Quanto à posição da sílaba tônica, essa palavra é classificada como:',
     tip: 'Pensa: em "ca-FÉ", onde fica a força da pronúncia?',
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Letras e sons",
     type: 'multiple_choice',
     text: 'Bernardo notou que a palavra "chuva" tem duas letras que, juntas, formam um som só. Esse é um exemplo de:',
     tip: 'Pensa nas letras "c" e "h" juntas nessa palavra...',
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, na palavra "pai", as vogais "a" e "i" ficam juntas na mesma sílaba. Esse é um exemplo de:',
     tip: 'Pensa: as duas vogais dessa palavra ficam "coladinhas" numa sílaba só...',
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'Bernardo separou a palavra "saída" em sílabas (sa-í-da) e percebeu que o "a" e o "í" ficam em sílabas diferentes. Esse é um exemplo de:',
     tip: 'Pensa: as duas vogais dessa palavra ficam separadas, cada uma na sua sílaba...',
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a palavra "médico" é proparoxítona. Sobre esse tipo de palavra, é correto afirmar que:',
     tip: 'Lembra: todas as palavras proparoxítonas seguem essa regra especial!',
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Encontros consonantais",
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo apresenta um encontro consonantal?',
     tip: 'Pensa em qual dessas palavras tem duas consoantes juntas, sem vogal entre elas...',
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Encontros vocálicos",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre ditongo e hiato?',
     tip: 'Lembra dos exemplos "pai" (ditongo) e "saída" (hiato)...',
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'A palavra "você" leva qual tipo de acento?',
     tip: 'Pensa no sinal em formato de "chapeuzinho" (^) que aparece nessa palavra...',
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Letras e sons",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante saber sobre acentuação e encontros vocálicos/consonantais?',
     tip: 'Pensa em como essas regras ajudam a entender melhor como as palavras se formam e soam...',
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Letras e sons",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre acentuação e encontros vocálicos/consonantais! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: acentos, sílaba tônica, ditongos, hiatos e dígrafos, cada um com sua função...',

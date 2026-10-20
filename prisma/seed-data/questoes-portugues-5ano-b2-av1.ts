@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB2Av1 = [
   {
     id: 1,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "O que é um verbo?",
     tip: "Pensa em palavras que mostram o que alguém está fazendo, ou como alguém está...",
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Na frase \"Bernardo brinca no quintal\", qual é o verbo?",
     tip: "Pensa em qual palavra mostra a ação que Bernardo está fazendo...",
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Um verbo no tempo PRESENTE indica uma ação que:",
     tip: "Pensa em algo que está acontecendo neste exato momento, ou que você faz todo dia...",
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase está no tempo PRESENTE?",
     tip: "Pensa em qual frase fala de algo que acontece \"sempre\" ou \"agora\"...",
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Os verbos \"ser\" e \"estar\" geralmente indicam:",
     tip: "Pensa em frases como \"Bernardo é alegre\" ou \"Bernardo está cansado\"...",
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "A forma \"base\" de um verbo, sem indicar tempo ou pessoa (como \"brincar\", \"correr\", \"partir\"), é chamada de:",
     tip: "Pensa na forma que você encontraria esse verbo se fosse procurar num dicionário...",
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "O verbo \"brincar\" pertence a qual conjugação?",
     tip: "Pensa na terminação da palavra \"brincar\"...",
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "O verbo \"correr\" pertence a qual conjugação?",
     tip: "Pensa na terminação da palavra \"correr\"...",
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "O verbo \"partir\" pertence a qual conjugação?",
     tip: "Pensa na terminação da palavra \"partir\"...",
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Na frase \"As crianças cantam na festa\", qual é o verbo?",
     tip: "Pensa em qual palavra mostra a ação que as crianças estão fazendo...",
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Um verbo no tempo PRETÉRITO (passado) indica uma ação que:",
     tip: "Pensa em algo que já terminou, que aconteceu antes deste momento...",
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase está no tempo PASSADO?",
     tip: "Pensa em qual frase indica algo que já aconteceu...",
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Um verbo no tempo FUTURO indica uma ação que:",
     tip: "Pensa em algo que ainda não aconteceu, mas vai acontecer mais pra frente...",
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual frase está no tempo FUTURO?",
     tip: "Pensa em qual frase fala de algo que ainda está por vir...",
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Na frase \"Ontem, Bernardo visitou seus avós\", o verbo \"visitou\" está no tempo:",
     tip: "Pensa na palavra \"ontem\"... ela indica algo que já aconteceu ou que ainda vai acontecer?",
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Uma forma comum de indicar o futuro em português é usando:",
     tip: "Pensa em frases como \"Bernardo vai viajar\" ou \"nós vamos estudar\"...",
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Na frase \"Bernardo fez a lição de casa ontem à noite\", o verbo \"fez\" está no tempo:",
     tip: "Pensa na expressão \"ontem à noite\"... isso já aconteceu ou ainda vai acontecer?",
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Na frase \"Todos os dias, Bernardo estuda português\", o verbo \"estuda\" está no tempo:",
     tip: "Pensa na expressão \"todos os dias\"... isso indica um hábito de agora, no presente!",
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Na frase \"No próximo ano, Bernardo estudará no 6º ano\", o verbo \"estudará\" está no tempo:",
     tip: "Pensa na expressão \"no próximo ano\"... isso é algo que ainda vai acontecer!",
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre os tempos verbais presente, passado e futuro?",
     tip: "Lembra de tudo que vimos nesse bloco sobre \"quando\" cada ação acontece...",
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Bernardo escreveu em seu diário: \"Todos os dias eu escovo os dentes depois do almoço.\" O verbo \"escovo\" está no tempo:",
     tip: "Pensa: essa é uma ação que Bernardo faz todos os dias, no presente!",
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "No mesmo diário, Bernardo escreveu: \"Ontem eu joguei bola com meus amigos.\" O verbo \"joguei\" está no tempo:",
     tip: "Pensa na palavra \"ontem\"... ela indica que essa ação já aconteceu!",
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Bernardo também escreveu: \"No sábado, eu vou viajar com minha família para a praia.\" O verbo \"vou viajar\" está no tempo:",
     tip: "Pensa: essa viagem ainda não aconteceu, ela vai acontecer no sábado!",
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Na frase de Bernardo \"Eu estudo geografia todas as terças-feiras\", qual palavra é o verbo?",
     tip: "Pensa em qual palavra mostra a ação que Bernardo faz...",
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Bernardo quer transformar a frase \"Eu brinco no parque\" para o passado. Qual seria a forma correta?",
     tip: "Pensa em como fica o verbo \"brincar\" quando a ação já aconteceu...",
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "A forma \"base\" de um verbo, encontrada no dicionário, terminada em -ar, -er ou -ir, se chama:",
     tip: "Já vimos isso antes... pensa na forma \"sem tempo\" do verbo!",
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "O verbo \"sorrir\" pertence a qual conjugação?",
     tip: "Pensa na terminação da palavra \"sorrir\"...",
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Verbos",
     type: "multiple_choice",
     text: "Os verbos \"correr\" e \"pular\" indicam:",
     tip: "Pensa: essas palavras mostram algo que o corpo faz, um movimento!",
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Revisão: qual frase está no tempo futuro?",
     tip: "Pensa em qual frase fala de algo que ainda vai acontecer...",
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Tempos verbais",
     type: "multiple_choice",
     text: "Por que é importante saber identificar os tempos verbais (presente, passado e futuro)?",
     tip: "Pensa em como seria confuso contar uma história sem saber diferenciar o que já aconteceu do que ainda vai acontecer...",

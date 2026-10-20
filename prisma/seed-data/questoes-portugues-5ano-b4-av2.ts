@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB4Av2 = [
   {
     id: 1,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Quem são os personagens principais da história "A Pipa de Bernardo"?',
     tip: 'Releia o início do texto e veja quem vai à praça soltar pipa...',
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Onde a história se passa?',
     tip: 'Releia o começo do texto para descobrir o lugar onde os amigos se encontraram...',
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Em que dia a história acontece?',
     tip: 'Releia a primeira frase do texto...',
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Por que Bernardo e os amigos foram à praça?',
     tip: 'Releia o início do texto para descobrir a atividade que eles foram fazer...',
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Do que era feita a pipa de Bernardo?',
     tip: 'Releia o primeiro parágrafo, onde o texto descreve como Bernardo construiu a pipa...',
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Por que o vento forte era importante para a brincadeira dos amigos?',
     tip: 'Pensa em como o vento ajuda uma pipa a se manter no ar...',
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'O que aconteceu com a pipa de Lucas?',
     tip: 'Releia a parte do texto que fala sobre um problema que aconteceu durante a brincadeira...',
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Como Bernardo ajudou Lucas a resolver o problema?',
     tip: 'Releia a parte em que Bernardo tem uma ideia para ajudar o amigo...',
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Como Lucas se sentiu depois de recuperar sua pipa?',
     tip: 'Releia a parte do texto logo depois que a pipa foi solta da árvore...',
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Qual é uma boa lição que podemos tirar dessa história?',
     tip: 'Pensa em como a atitude de Bernardo mudou o final do dia para o amigo...',
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Gêneros e tipos textuais",
     type: 'multiple_choice',
     text: 'Um texto narrativo curto, com poucos personagens, que costuma trazer uma lição de moral, é chamado de:',
     tip: 'Lembra do gênero textual que estudamos lá no primeiro bimestre...',
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Adjetivos",
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo é um ADJETIVO?',
     tip: 'Pensa em qual dessas palavras caracteriza como alguém ou algo é...',
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Tempos verbais",
     type: 'multiple_choice',
     text: 'Na frase "Bernardo brincou ontem no parque", o verbo "brincou" está no tempo:',
     tip: 'Pensa na palavra "ontem"... isso já aconteceu ou ainda vai acontecer?',
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Pontuação",
     type: 'multiple_choice',
     text: 'Qual pontuação devemos usar no final de uma pergunta?',
     tip: 'Lembra do sinal que usamos quando queremos perguntar algo a alguém...',
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Sinônimos e antônimos",
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo é sinônimo de "feliz"?',
     tip: 'Pensa em outra palavra que também signifique estar alegre...',
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Concordância",
     type: 'multiple_choice',
     text: 'Na frase "As meninas são estudiosas", o adjetivo "estudiosas" concorda em número e gênero com:',
     tip: 'Lembra da regra de concordância nominal que estudamos...',
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'A palavra "ônibus" é classificada, quanto à sílaba tônica, como:',
     tip: 'Pensa em onde fica a força da pronúncia dessa palavra: "Ô-ni-bus"...',
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Figuras de linguagem",
     type: 'multiple_choice',
     text: 'Na frase "Bernardo é forte como um leão", qual figura de linguagem foi usada?',
     tip: 'Pensa na palavra "como", que liga Bernardo e o leão...',
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Cartas",
     type: 'multiple_choice',
     text: 'Quais são as partes principais de uma carta?',
     tip: 'Lembra da estrutura que estudamos sobre esse gênero textual...',
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Leitura e escrita",
     type: 'multiple_choice',
     text: 'De forma geral, por que estudamos a língua portuguesa (gramática, textos, interpretação)?',
     tip: 'Pensa em como usamos a língua portuguesa em quase tudo que fazemos, todos os dias...',
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Gêneros e tipos textuais",
     type: 'multiple_choice',
     text: 'Bernardo quer escrever uma carta contando pro seu primo sobre o dia em que ajudou Lucas com a pipa. Esse tipo de texto, contando uma história real, se parece mais com um gênero:',
     tip: 'Pensa: Bernardo está contando uma sequência de fatos que aconteceram de verdade...',
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Tempos verbais",
     type: 'multiple_choice',
     text: 'Se Bernardo quisesse transformar a frase "Bernardo ajuda o amigo" para o tempo passado, a forma correta seria:',
     tip: 'Pensa em como fica o verbo "ajudar" quando a ação já aconteceu...',
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Figuras de linguagem",
     type: 'multiple_choice',
     text: 'Bernardo descreveu a cena da pipa presa na árvore usando a frase "A árvore parecia segurar a pipa com força, como se não quisesse deixá-la ir". Essa frase é um exemplo de:',
     tip: 'Pensa: a árvore está sendo tratada como se tivesse uma "vontade própria", como uma pessoa!',
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Concordância",
     type: 'multiple_choice',
     text: 'Bernardo escreveu no caderno: "Meus amigos e eu soltamos pipa no sábado." O verbo "soltamos" está no plural porque:',
     tip: 'Pensa em quantas pessoas praticaram a ação de soltar pipa nessa frase...',
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Classes de palavras",
     type: 'multiple_choice',
     text: 'Revisão: qual é a diferença entre substantivo e adjetivo?',
     tip: 'Lembra: um "dá nome" a alguma coisa, e o outro "diz como" essa coisa é...',
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Sinônimos e antônimos",
     type: 'multiple_choice',
     text: 'Revisão: qual é o antônimo da palavra "triste"?',
     tip: 'Pensa numa palavra que signifique o contrário de "triste"...',
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Dígrafos",
     type: 'multiple_choice',
     text: 'Revisão: na palavra "chuva", qual é o dígrafo presente?',
     tip: 'Pensa em quais duas letras juntas formam um som só nessa palavra...',
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Sílabas e acentuação",
     type: 'multiple_choice',
     text: 'Revisão: o que é a sílaba tônica de uma palavra?',
     tip: 'Lembra: é o "pedacinho" da palavra que falamos com mais intensidade...',
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Leitura e compreensão",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante saber interpretar bem um texto?',
     tip: 'Pensa em como entender bem um texto ajuda em quase todas as matérias e situações da vida...',
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Leitura e escrita",
     type: 'multiple_choice',
     text: 'Parabéns, Bernardo! Você completou todos os estudos de Português do 5º ano! O que é mais importante levar desse aprendizado?',
     tip: 'Pensa em tudo que você aprendeu esse ano: gêneros textuais, gramática, pontuação, interpretação...',

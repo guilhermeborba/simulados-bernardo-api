@@ -1,6 +1,7 @@
 export const questoesPortugues5AnoB1Av2 = [
   {
     id: 1,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "O que é um substantivo?",
     tip: "Pensa em palavras que \"dão nome\" às coisas ao seu redor...",
@@ -16,6 +17,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um substantivo PRÓPRIO?",
     tip: "Pensa em qual dessas palavras é um nome específico, escrito com letra maiúscula...",
@@ -31,6 +33,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um substantivo COMUM?",
     tip: "Pensa em qual dessas palavras dá nome de forma genérica, sem ser um nome específico...",
@@ -46,6 +49,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Um substantivo SIMPLES é formado por:",
     tip: "Pensa: a palavra \"flor\" tem quantas palavras juntas?",
@@ -61,6 +65,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Um substantivo COMPOSTO é formado por:",
     tip: "Pensa em \"guarda-chuva\"... quantas palavras diferentes formam essa palavra?",
@@ -76,6 +81,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Um substantivo COLETIVO nomeia:",
     tip: "Pensa em uma palavra que representa um \"grupo\" de uma coisa só...",
@@ -91,6 +97,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Na frase \"O cachorro de Bernardo se chama Bidu\", qual é o substantivo próprio que nomeia o cachorro?",
     tip: "Pensa em qual palavra é o nome específico do cachorro, e não apenas o tipo de animal que ele é...",
@@ -106,6 +113,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Em \"O menino brincou no parque\", qual palavra é um substantivo COMUM?",
     tip: "Pensa em qual palavra dá nome, de forma genérica, a uma pessoa...",
@@ -121,6 +129,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um substantivo COMPOSTO?",
     tip: "Pensa em qual dessas palavras é formada pela junção de duas outras palavras...",
@@ -136,6 +145,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "De forma geral, o substantivo é a classe de palavras que serve para:",
     tip: "Lembra da definição que vimos logo no começo desse bloco...",
@@ -151,6 +161,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "O que é um adjetivo?",
     tip: "Pensa em palavras que \"dizem como é\" alguém ou alguma coisa...",
@@ -166,6 +177,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na frase \"O céu está azul\", qual palavra é o adjetivo?",
     tip: "Pensa em qual palavra descreve como o céu está nesse momento...",
@@ -181,6 +193,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre substantivo e adjetivo?",
     tip: "Pensa: um \"dá nome\" a alguma coisa, e o outro \"diz como\" essa coisa é...",
@@ -196,6 +209,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Um adjetivo pode indicar, por exemplo:",
     tip: "Pensa em palavras como \"grande\", \"redondo\" ou \"feliz\"...",
@@ -211,6 +225,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"A menina é estudiosa\", o adjetivo \"estudiosa\" concorda em gênero com:",
     tip: "Pensa: se fosse \"o menino\", o adjetivo mudaria para \"estudioso\"! Isso se chama concordância.",
@@ -226,6 +241,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na frase \"Bernardo tem um cachorro peludo e brincalhão\", quais palavras são adjetivos?",
     tip: "Pensa em quais palavras dizem \"como é\" o cachorro de Bernardo...",
@@ -241,6 +257,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Qual das opções forma corretamente um par de substantivo + adjetivo?",
     tip: "Pensa em qual par tem uma palavra que \"nomeia\" algo e outra que \"caracteriza\" essa coisa...",
@@ -256,6 +273,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na frase \"Este bolo é mais gostoso do que aquele\", a expressão \"mais gostoso\" indica que o adjetivo está no grau:",
     tip: "Pensa: a frase está comparando dois bolos diferentes...",
@@ -271,6 +289,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "A palavra \"brasileiro\", quando usada para caracterizar algo (como em \"um prato brasileiro\"), é um exemplo de:",
     tip: "Pensa: essa palavra está descrevendo de onde vem o prato, ou seja, está caracterizando algo...",
@@ -286,6 +305,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "De forma geral, a função do adjetivo na frase é:",
     tip: "Lembra da definição que vimos no começo desse bloco...",
@@ -301,6 +321,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Meu cachorro Bidu é peludo e brincalhão.\" Qual palavra dessa frase é um substantivo PRÓPRIO?",
     tip: "Pensa em qual palavra é o nome específico do cachorro de Bernardo...",
@@ -316,6 +337,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Na mesma frase de Bernardo (\"Meu cachorro Bidu é peludo e brincalhão\"), quais palavras são adjetivos?",
     tip: "Pensa em quais palavras descrevem como o Bidu é...",
@@ -331,6 +353,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Bernardo classificou a palavra \"escola\" em seu caderno. Essa palavra é um substantivo:",
     tip: "Pensa: \"escola\" é um nome genérico, ou é o nome específico de UMA escola só?",
@@ -346,6 +369,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Bernardo aprendeu a palavra \"beija-flor\" na aula de ciências. Esse substantivo é classificado como:",
     tip: "Pensa em quantas palavras formam o nome desse passarinho...",
@@ -361,6 +385,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "No caminho da escola, Bernardo viu um bando de pássaros voando juntos. A palavra \"bando\" é um substantivo:",
     tip: "Pensa: essa palavra representa um grupo inteiro de pássaros, e não só um...",
@@ -376,6 +401,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Qual é a diferença entre substantivo e adjetivo, de forma resumida?",
     tip: "Lembra: um \"dá nome\", o outro \"diz como é\"...",
@@ -391,6 +417,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Concordância",
     type: "multiple_choice",
     text: "Na frase \"As meninas são estudiosas\", o adjetivo \"estudiosas\" está no plural porque:",
     tip: "Pensa: se fosse \"a menina\", o adjetivo seria \"estudiosa\", no singular!",
@@ -406,6 +433,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Substantivos",
     type: "multiple_choice",
     text: "Qual das palavras abaixo é um substantivo PRÓPRIO?",
     tip: "Pensa em qual dessas opções é o nome específico de um lugar...",
@@ -421,6 +449,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Adjetivos",
     type: "multiple_choice",
     text: "Revisão: qual das frases usa corretamente um adjetivo para caracterizar um substantivo?",
     tip: "Pensa em qual frase tem palavras que descrevem \"como está\" alguma coisa...",
@@ -436,6 +465,7 @@ export const questoesPortugues5AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Classes de palavras",
     type: "multiple_choice",
     text: "Por que é importante saber diferenciar substantivos e adjetivos?",
     tip: "Pensa em como usar bons adjetivos deixa uma história ou descrição bem mais interessante...",
