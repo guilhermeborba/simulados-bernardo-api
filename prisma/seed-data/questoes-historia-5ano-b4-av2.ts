@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB4Av2 = [
   {
     id: 1,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A Consolidação das Leis do Trabalho (CLT) foi criada em 1943 durante o governo de:",
     tip: "Esse presidente ficou conhecido como 'pai dos pobres' pelas conquistas trabalhistas de seu governo.",
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Qual foi o principal produto exportado pelo Brasil durante a República Velha (1889–1930)?",
     tip: "Era um produto que crescia bem no solo de São Paulo e Minas Gerais e era muito apreciado na Europa e nos Estados Unidos.",
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A Revolução Constitucionalista de 1932 foi um conflito armado que ocorreu em:",
     tip: "O estado que mais sofreu com o centralismo de Getúlio Vargas e exigia uma Constituição e eleições livres.",
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A política de 'industrialização por substituição de importações', adotada durante o governo Vargas, significava:",
     tip: "Se o Brasil fabricasse aqui o que antes comprava de fora, o que aconteceria com o dinheiro e os empregos?",
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Durante a Segunda Guerra Mundial (1939–1945), o Brasil decidiu:",
     tip: "O Brasil entrou na guerra depois que navios brasileiros foram afundados por submarinos inimigos.",
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O Dia do Trabalhador, comemorado em 1º de maio, está relacionado a:",
     tip: "Essa data surgiu de um trágico evento nos Estados Unidos, em 1886, quando trabalhadores lutavam por melhores condições.",
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Qual foi a principal contribuição dos imigrantes japoneses que chegaram ao Brasil a partir de 1908?",
     tip: "Eles se estabeleceram principalmente no interior de São Paulo e trouxeram técnicas agrícolas novas.",
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "O que foi a Semana de Arte Moderna de 1922?",
     tip: "Foi um evento cultural que rompeu com os estilos antigos e criou algo completamente novo na arte brasileira.",
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Durante o Estado Novo (1937–1945), como era tratada a imprensa no Brasil?",
     tip: "Em governos autoritários, controlar as informações é uma estratégia comum. O que você acha que acontecia com os jornais?",
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Os imigrantes alemães que chegaram ao Brasil no século XIX se concentraram principalmente em qual região?",
     tip: "O clima frio e as terras disponíveis dessa região lembravam muito o ambiente da Alemanha.",
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A criação da Petrobras, em 1953, foi importante para o Brasil porque:",
     tip: "Petrobras = petróleo + Brasil. O nome já diz muito sobre o que a empresa representa.",
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A campanha 'O petróleo é nosso!' foi um movimento popular que defendia:",
     tip: "Era uma campanha que colocava o interesse nacional acima de interesses estrangeiros — quem deveria explorar o petróleo brasileiro?",
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "JK (Juscelino Kubitschek) governou com o slogan '50 anos em 5'. O que isso significava?",
     tip: "JK queria mostrar que faria muito em pouco tempo — qual seria o resultado esperado em termos de desenvolvimento?",
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Em que ano Brasília foi inaugurada como nova capital do Brasil?",
     tip: "A cidade foi construída em tempo recorde durante o governo de JK.",
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O que foi a Constituição de 1988, também chamada de 'Constituição Cidadã'?",
     tip: "Ela foi criada logo após um longo período sem democracia no Brasil.",
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que foi o 'Milagre Econômico' brasileiro, que ocorreu entre 1969 e 1973?",
     tip: "O país cresceu muito economicamente nesse período, mas ao mesmo tempo havia muito pouca liberdade política.",
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Em que período ocorreu o regime militar no Brasil?",
     tip: "O regime começou com um golpe e terminou com a posse de um presidente civil.",
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Quem foi Tancredo Neves e qual foi sua importância histórica?",
     tip: "Ele foi eleito num momento muito importante para a democracia brasileira, mas algo trágico aconteceu antes de tomar posse.",
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O que foi o movimento 'Diretas Já!' em 1983 e 1984?",
     tip: "O nome do movimento já explica o que as pessoas queriam: poder votar 'diretamente' para escolher o presidente.",
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "A Constituição de 1988 trouxe importantes avanços para as mulheres brasileiras. Qual foi uma dessas conquistas?",
     tip: "A constituição garantiu que homens e mulheres tivessem os mesmos direitos — e também protegeu especialmente a trabalhadora grávida.",
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A criação da Companhia Vale do Rio Doce, em 1942, representou para o Brasil:",
     tip: "Pense no minério de ferro — matéria-prima essencial para fazer aço e construir máquinas e estruturas metálicas.",
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A reforma agrária proposta pelo presidente João Goulart (Jango) pretendia:",
     tip: "Havia muita terra concentrada nas mãos de poucos proprietários, enquanto milhões de brasileiros não tinham onde plantar.",
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O que são Direitos Humanos?",
     tip: "São direitos que não dependem de onde você nasceu ou de que nacionalidade você tem — todo ser humano os possui.",
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Qual presidente do Brasil recebeu o apelido de 'pai dos pobres' por suas políticas sociais?",
     tip: "Ele criou o salário mínimo, a CLT e os direitos trabalhistas — medidas que beneficiaram os trabalhadores brasileiros.",
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que foi o golpe militar de 1964 no Brasil?",
     tip: "Foi um golpe que tirou um presidente democraticamente eleito do poder.",
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O Estatuto da Criança e do Adolescente (ECA) foi criado em qual ano?",
     tip: "Foi criado logo após a Constituição de 1988, que já garantia proteção especial a crianças e adolescentes.",
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O ECA (Estatuto da Criança e do Adolescente) foi criado para:",
     tip: "O ECA garante proteção especial para quem ainda está em desenvolvimento — físico, mental e emocional.",
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A primeira mulher eleita presidente do Brasil foi:",
     tip: "Ela foi eleita em 2010 e reeleita em 2014 — foi a 36ª presidente do Brasil.",
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O que é a democracia, sistema de governo adotado pelo Brasil?",
     tip: "A palavra vem do grego: 'demos' = povo e 'kratos' = poder. Quem tem o poder numa democracia?",
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Qual foi o impacto da Constituição de 1988 para os povos indígenas do Brasil?",
     tip: "Pela primeira vez, os indígenas tiveram seus direitos reconhecidos em lei — não como 'incapazes' que precisavam ser 'integrados', mas como povos com identidade própria.",

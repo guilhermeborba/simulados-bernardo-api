@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB2Av1 = [
   {
     id: 1,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'O que é imigração?',
     tip: 'Pensa: quando uma família decide sair do seu país e ir morar em outro país, esse movimento tem um nome especial.',
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'A partir do final do século 19, o Brasil recebeu um grande número de imigrantes de diferentes países. Isso aconteceu, entre outros motivos, porque:',
     tip: 'Pensa: depois que a escravidão acabou em 1888, quem passou a trabalhar nas grandes lavouras, como as de café?',
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Quais foram alguns dos principais povos que imigraram para o Brasil a partir do final do século 19?',
     tip: 'Pensa em vários países diferentes, de continentes como Europa e Ásia, que mandaram famílias para o Brasil nessa época.',
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Muitos imigrantes italianos vieram trabalhar, principalmente, em:',
     tip: 'Pensa: qual era a principal atividade agrícola em São Paulo na época, que precisava de muitos trabalhadores?',
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Os imigrantes alemães e italianos se estabeleceram, em grande número, em quais regiões do Brasil?',
     tip: 'Pensa em estados brasileiros do Sul, conhecidos até hoje por terem forte influência de colonização europeia.',
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Os imigrantes japoneses começaram a chegar ao Brasil, em grande número, a partir de:',
     tip: 'Pensa: essa imigração começou bem depois da chegada dos portugueses, já em um século mais recente, o século 20.',
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'O Brasil tem hoje a maior população de origem japonesa fora do:',
     tip: 'Pensa: será que existe, fora do próprio Japão, algum outro país com mais descendentes japoneses do que o Brasil?',
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Por que muitas famílias europeias e asiáticas decidiram deixar seus países de origem para viver no Brasil?',
     tip: 'Pensa: as famílias imigrantes vieram ao Brasil por obrigação ou em busca de uma vida melhor?',
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Os imigrantes que vieram ao Brasil trouxeram consigo:',
     tip: 'Pensa: quando uma pessoa muda de país, ela deixa sua cultura completamente para trás, ou leva um pouco dela consigo?',
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'O processo de imigração para o Brasil contribuiu para:',
     tip: 'Pensa: quando vários povos diferentes se somam à cultura de um país, isso deixa a cultura mais parecida ou mais diversa?',
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Uma contribuição cultural dos imigrantes italianos para o Brasil é:',
     tip: 'Pensa em pratos bem conhecidos no Brasil, feitos com massa e molho de tomate, que vieram de um país europeu famoso pela culinária.',
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Festas e tradições",
     type: 'multiple_choice',
     text: 'Uma contribuição cultural dos imigrantes alemães para o Brasil é:',
     tip: 'Pensa numa festa bem conhecida, celebrada com muita música, dança e cerveja, típica da cultura alemã e muito festejada no Sul do Brasil.',
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Uma contribuição cultural dos imigrantes japoneses para o Brasil é:',
     tip: 'Pensa em pratos feitos com arroz, peixe cru ou macarrão frito, muito populares hoje em restaurantes japoneses no Brasil.',
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Em muitas cidades do Sul do Brasil colonizadas por alemães e italianos, é comum encontrar:',
     tip: 'Pensa: em cidades como Blumenau, as casas e construções lembram qual estilo de arquitetura, vindo de qual continente?',
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'A imigração japonesa teve grande importância para o desenvolvimento de qual setor no Brasil?',
     tip: 'Pensa: os imigrantes japoneses trouxeram conhecimentos que ajudaram a melhorar o cultivo de alimentos no Brasil. Qual área foi mais beneficiada?',
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Por que é importante valorizar a contribuição dos imigrantes na formação do Brasil?',
     tip: 'Pensa: será que a diversidade cultural do Brasil ficou mais pobre ou mais rica com a chegada de tantos povos diferentes, somados aos indígenas e africanos?',
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'O bairro da Liberdade, em São Paulo, é conhecido por:',
     tip: 'Pensa em um bairro famoso, em uma grande cidade brasileira, conhecido pelas lanternas vermelhas e pela forte presença de uma cultura asiática.',
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Festas e tradições",
     type: 'multiple_choice',
     text: 'A festa de Oktoberfest, muito celebrada em cidades como Blumenau (SC), tem origem:',
     tip: 'Pensa na festa que aprendemos na pergunta 12: ela é celebrada com muita música e cerveja, e tem origem em qual país europeu?',
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Muitos sobrenomes de família no Brasil hoje têm origem:',
     tip: 'Pensa: será que só existem sobrenomes de origem portuguesa no Brasil, ou também encontramos sobrenomes de outros países que mandaram imigrantes para cá?',
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'O que torna a cultura brasileira tão diversa e rica?',
     tip: 'Pensa em tudo que vimos: indígenas, africanos e imigrantes de vários países trouxeram cada um sua própria cultura. Isso deixa o Brasil mais parecido ou mais diverso?',
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Festas e tradições",
     type: 'multiple_choice',
     text: 'Bernardo mora em Santa Catarina, estado que recebeu grande número de imigrantes alemães e italianos. Isso explica por que, em cidades como Blumenau, é comum ver:',
     tip: 'Lembra das perguntas 12 e 18: essa festa tem origem alemã e é muito celebrada em cidades de Santa Catarina com forte colonização europeia.',
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Se Bernardo visitar o bairro da Liberdade, em São Paulo, ele vai encontrar uma forte presença da cultura:',
     tip: 'Lembra da pergunta 17: esse bairro de São Paulo é conhecido pela forte presença de qual cultura asiática?',
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que muitos imigrantes vieram trabalhar nas lavouras de café em São Paulo, principalmente depois de:',
     tip: 'Lembra da pergunta 2: os imigrantes vieram trabalhar nas lavouras de café depois de um acontecimento histórico muito importante, relacionado à liberdade dos trabalhadores.',
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Bernardo comeu uma pizza com a família no fim de semana. Esse prato, hoje muito popular no Brasil, tem origem:',
     tip: 'Lembra da pergunta 11: esse prato feito com massa, molho de tomate e queijo é uma contribuição de qual cultura europeia?',
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Bernardo descobriu que seu sobrenome tem origem em um país europeu, trazido por um antepassado imigrante. Isso mostra que:',
     tip: 'Pensa: se o sobrenome de uma família veio de um país europeu, isso significa que algum antepassado dessa família chegou ao Brasil através de qual processo histórico?',
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Bernardo entendeu que a diversidade cultural do Brasil é resultado:',
     tip: 'Pensa em tudo que vimos: a diversidade cultural do Brasil vem de um povo só, ou da mistura de vários povos diferentes?',
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Se Bernardo comparar as tradições de uma festa alemã, como a Oktoberfest, com as de um festival de cultura japonesa, ele vai perceber que:',
     tip: 'Pensa: as tradições de uma festa alemã e de um festival japonês são exatamente iguais, ou cada uma tem suas próprias características?',
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Depois de estudar sobre imigração, Bernardo concluiu que os imigrantes europeus e asiáticos vieram ao Brasil, principalmente, em busca de:',
     tip: 'Pensa em tudo que aprendemos hoje: os imigrantes vieram ao Brasil só para passear, ou em busca de algo mais importante, como trabalho e uma vida melhor?',
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Qual é uma atitude respeitosa em relação à diversidade de origens que formam a população brasileira?',
     tip: 'Pensa: tratar a cultura de um povo como superior à de outro, ou fazer piadas sobre costumes diferentes, é uma atitude respeitosa?',
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Depois de tudo que aprendeu sobre a formação do povo brasileiro, Bernardo pode concluir que o Brasil é um país:',
     tip: 'Pensa em tudo que aprendemos ao longo do bimestre: povos indígenas, africanos e imigrantes de vários países. O Brasil é formado por um povo só, ou por uma grande diversidade?',

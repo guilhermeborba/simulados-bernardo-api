@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB1Av2 = [
   {
     id: 1,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'De onde vieram os povos africanos que chegaram ao Brasil a partir do século 16?',
     tip: 'Pensa: os povos africanos trazidos ao Brasil vieram de um continente inteiro, com muitos países e culturas diferentes dentro dele. Qual continente é esse?',
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Os povos africanos trazidos ao Brasil eram:',
     tip: 'Pensa: será que todos os africanos trazidos ao Brasil eram do mesmo lugar, com a mesma cultura, ou vinham de regiões bem diferentes da África?',
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Como os africanos chegaram ao Brasil durante o período colonial?',
     tip: 'Pensa: essas pessoas vieram ao Brasil por escolha própria, como turistas, ou foram trazidas contra a vontade delas, de forma forçada?',
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'O que era o trabalho escravo, imposto às pessoas africanas e afrodescendentes no Brasil colonial?',
     tip: 'Pensa: um sistema em que pessoas não podiam escolher onde trabalhar, eram tratadas como objetos e não recebiam nada em troca é um sistema justo ou muito injusto?',
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Apesar do sofrimento imposto pela escravidão, os povos africanos e seus descendentes:',
     tip: 'Pensa: mesmo diante de tanto sofrimento, será que os povos africanos e seus descendentes conseguiram manter e passar adiante partes importantes de sua cultura?',
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'O que significa "resistência", no contexto da história dos povos africanos escravizados no Brasil?',
     tip: 'Pensa: "resistir" significa aceitar tudo calado ou lutar e se posicionar contra uma injustiça?',
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'O Brasil foi o último país das Américas a abolir oficialmente a escravidão, em 1888, por meio de uma lei chamada:',
     tip: 'Pensa no nome dessa lei: ela tem a ver com algo precioso e valioso, como o ouro (aurum, em latim).',
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Por que é importante estudar a história da escravidão no Brasil com seriedade e respeito?',
     tip: 'Pensa: entender um período difícil da história ajuda a evitar repetir erros e valorizar quem lutou contra as injustiças, ou é melhor esquecer tudo?',
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'A escravidão no Brasil durou aproximadamente:',
     tip: 'Pensa: a escravidão no Brasil durou pouquíssimo tempo ou foi um período bem longo, de vários séculos?',
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que a Lei 10.639/2003 determina sobre o ensino nas escolas brasileiras?',
     tip: 'Pensa: existe uma lei brasileira, parecida com a que vimos sobre os povos indígenas, mas voltada para a história africana e afro-brasileira. Ela obriga ou proíbe esse ensino?',
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'O que eram os quilombos?',
     tip: 'Pensa: esse era o nome dado às comunidades formadas por pessoas que conseguiam fugir da escravidão e viver livremente, organizando sua própria vida.',
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Qual foi o quilombo mais famoso da história do Brasil, localizado na região que hoje é o estado de Alagoas?',
     tip: 'Pensa: esse foi um dos quilombos mais famosos e duradouros da história do Brasil, ficando conhecido em todo o país.',
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Quem foi Zumbi dos Palmares?',
     tip: 'Pensa: essa pessoa é lembrada até hoje como um símbolo de coragem e luta pela liberdade, tendo liderado um dos quilombos mais importantes do Brasil.',
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Festas e tradições",
     type: 'multiple_choice',
     text: 'Por que a data 20 de novembro é conhecida como Dia da Consciência Negra?',
     tip: 'Pensa: essa data está relacionada a um acontecimento importante na vida de Zumbi dos Palmares, um símbolo de resistência.',
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Qual é uma importante contribuição cultural africana presente na culinária brasileira?',
     tip: 'Pensa em pratos brasileiros bem conhecidos, com temperos e ingredientes que vieram da culinária africana.',
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Expressões artísticas",
     type: 'multiple_choice',
     text: 'A capoeira é uma manifestação cultural brasileira que:',
     tip: 'Pensa: essa arte que mistura luta, dança e música ao som do berimbau tem sua origem ligada a qual cultura trazida ao Brasil?',
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Muitas religiões praticadas no Brasil hoje, como o candomblé e a umbanda, têm forte influência:',
     tip: 'Pensa: essas religiões têm rituais, cantos e tradições que vieram de qual continente, trazidas pelos povos escravizados?',
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Expressões artísticas",
     type: 'multiple_choice',
     text: 'Além da capoeira e da culinária, outra contribuição africana importante para a cultura brasileira é:',
     tip: 'Pensa em um instrumento musical usado na capoeira, e em um ritmo brasileiro super famoso no mundo todo, que também tem raízes africanas.',
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Muitas palavras usadas no português falado no Brasil têm origem africana. Qual dessas é um exemplo?',
     tip: 'Pensa em uma palavra usada para se referir, de forma carinhosa, a um menino ou garoto, muito comum no vocabulário brasileiro.',
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Por que é importante reconhecer e valorizar as contribuições dos povos africanos na formação da cultura brasileira?',
     tip: 'Pensa: se a cultura brasileira tem tantas raízes na cultura africana, faz sentido ignorar ou desvalorizar essa contribuição, ou é importante reconhecê-la?',
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Na escola, Bernardo aprendeu que pratos como a feijoada têm influência:',
     tip: 'Lembra da pergunta 15: esse prato brasileiro tem raízes bem fortes em qual cultura?',
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Expressões artísticas",
     type: 'multiple_choice',
     text: 'Bernardo assistiu a uma roda de capoeira na sua cidade e ficou encantado com os movimentos e a música. Ele aprendeu que a capoeira:',
     tip: 'Lembra da pergunta 16: essa arte, que mistura dança, luta e música, tem origem em qual cultura trazida ao Brasil?',
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Festas e tradições",
     type: 'multiple_choice',
     text: 'No dia 20 de novembro, a escola de Bernardo promoveu atividades sobre a Consciência Negra. Essa data é importante porque:',
     tip: 'Lembra da pergunta 14: essa data homenageia um grande líder de resistência contra a escravidão. Qual é o nome dele?',
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que os quilombos eram importantes porque:',
     tip: 'Lembra da pergunta 11: os quilombos representavam um lugar de que tipo de vida para quem conseguia fugir da escravidão?',
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Se Bernardo perguntar por que a escravidão foi injusta, a resposta correta é:',
     tip: 'Pensa: tratar uma pessoa como se fosse um objeto, sem liberdade nem direitos, respeita ou fere a dignidade dela?',
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Bernardo entendeu que, apesar do sofrimento da escravidão, os povos africanos e seus descendentes:',
     tip: 'Pensa em tudo que vimos hoje: comida, música, religião, palavras... Isso mostra que a cultura africana desapareceu ou deixou marcas riquíssimas no Brasil?',
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a Lei Áurea, assinada em 1888, foi importante porque:',
     tip: 'Lembra da pergunta 7: essa lei tem um nome relacionado a algo valioso, e foi ela que encerrou oficialmente um período muito longo e injusto da história do Brasil.',
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Qual atitude mostra respeito à história e cultura afro-brasileira?',
     tip: 'Pensa: aprender com seriedade e valorizar as contribuições culturais é uma atitude respeitosa, ou ignorar e fazer piadas seria mais respeitoso?',
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Depois de estudar sobre a presença africana na formação do Brasil, Bernardo concluiu que a cultura brasileira:',
     tip: 'Pensa em tudo que aprendemos hoje sobre comida, música, religião e palavras. Isso mostra que a cultura brasileira tem pouca ou muita influência africana?',
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Escravidão e resistência",
     type: 'multiple_choice',
     text: 'Qual conclusão importante Bernardo pode tirar sobre a história da escravidão e a luta dos povos africanos no Brasil?',
     tip: 'Pensa em tudo que estudamos: a escravidão foi um período fácil ou muito difícil e injusto? E, apesar disso, os povos africanos apenas sofreram ou também resistiram e deixaram uma herança importante?',

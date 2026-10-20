@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB1Av1 = [
   {
     id: 1,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Quem já vivia no território que hoje é o Brasil antes da chegada dos europeus, em 1500?',
     tip: 'Pensa: será que o Brasil estava mesmo vazio quando os portugueses chegaram em 1500, ou já existiam pessoas morando aqui?',
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Os povos indígenas que viviam no Brasil antes de 1500 eram:',
     tip: 'Pensa: será que todos os povos indígenas eram exatamente iguais, com a mesma língua e cultura, ou existia muita diversidade entre eles?',
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Aproximadamente há quanto tempo os povos indígenas vivem no território que hoje chamamos de Brasil?',
     tip: 'Pensa: os povos indígenas chegaram bem antes ou bem depois dos europeus, em 1500?',
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Como os povos indígenas geralmente se relacionavam com a natureza?',
     tip: 'Pensa: os povos indígenas costumavam retirar da natureza mais do que precisavam, ou apenas o necessário para viver bem?',
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'O que significa dizer que existiam (e existem) muitos povos indígenas diferentes no Brasil?',
     tip: 'Pensa: quando falamos "povos indígenas", no plural, estamos falando de um grupo só ou de muitos grupos diferentes, cada um com sua identidade?',
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Organização social",
     type: 'multiple_choice',
     text: 'Como era organizada, geralmente, a vida em muitas aldeias indígenas?',
     tip: 'Pensa: em uma aldeia, as tarefas do dia a dia eram feitas por uma pessoa só ou compartilhadas entre a comunidade?',
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Muitos povos indígenas praticavam a agricultura, cultivando alimentos como:',
     tip: 'Pensa em alimentos que já existiam aqui no Brasil antes dos europeus chegarem, diferentes do trigo europeu.',
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Antes da chegada dos europeus, os povos indígenas já tinham desenvolvido conhecimentos sobre:',
     tip: 'Pensa: os povos indígenas conheciam bem as plantas da região, sabiam caçar, pescar e construir suas casas. Isso mostra falta de conhecimento ou muito conhecimento sobre o ambiente?',
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Por que é importante estudar a história dos povos indígenas do Brasil?',
     tip: 'Pensa: a história do Brasil começou com a chegada dos europeus, ou já existia gente vivendo aqui muito antes disso?',
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que a lei brasileira determina sobre o ensino da história e cultura indígena nas escolas?',
     tip: 'Pensa: existe uma lei brasileira que fala sobre a importância de todas as escolas ensinarem sobre a história indígena. Ela torna isso obrigatório ou opcional?',
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Muitas palavras da língua portuguesa falada no Brasil têm origem indígena. Qual dessas palavras vem de uma língua indígena?',
     tip: 'Pensa em uma fruta bem brasileira, com nome de origem indígena, que tem uma coroa de folhas em cima.',
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Além de "abacaxi", outras palavras de origem indígena usadas no dia a dia são:',
     tip: 'Pensa em palavras usadas para descrever plantas, animais ou lugares no Brasil, bem diferentes de palavras vindas de outras línguas.',
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'Os povos indígenas contribuíram significativamente para a alimentação brasileira atual, especialmente com:',
     tip: 'Pensa: qual alimento, muito usado até hoje em pratos como farinha e tapioca, já era cultivado pelos povos indígenas antes de 1500?',
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Hoje em dia, os povos indígenas do Brasil:',
     tip: 'Pensa: os povos indígenas desapareceram completamente, ou ainda existem comunidades vivendo e mantendo suas culturas até hoje?',
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que é uma terra indígena?',
     tip: 'Pensa: essa palavra descreve um território que é reconhecido oficialmente e protegido, garantindo o direito das comunidades indígenas de viverem ali.',
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Por que é importante proteger e demarcar as terras indígenas?',
     tip: 'Pensa: proteger as terras indígenas ajuda os povos a manterem sua cultura e seu modo de vida, ou atrapalha isso?',
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Os povos indígenas do Brasil têm direitos garantidos pela Constituição Federal, como:',
     tip: 'Pensa: a Constituição Federal brasileira garante ou nega direitos aos povos indígenas sobre sua cultura e suas terras?',
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Além do Tupi, quais outras famílias linguísticas indígenas existem no Brasil?',
     tip: 'Pensa: além do Tupi, que muita gente já ouviu falar, existem outras famílias de línguas indígenas no Brasil, ou o Tupi é a única?',
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'O que significa respeitar a diversidade dos povos indígenas brasileiros?',
     tip: 'Pensa: respeitar a diversidade indígena significa tratar todos os povos como iguais, sem diferenças, ou reconhecer que cada povo tem sua própria identidade?',
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Qual atitude demonstra respeito à cultura indígena?',
     tip: 'Pensa: qual das opções mostra uma atitude de respeito e interesse genuíno pela cultura indígena, ao invés de preconceito ou desinformação?',
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Na escola, Bernardo aprendeu que muitas palavras que ele usa no dia a dia, como "abacaxi" e "mandioca", têm origem:',
     tip: 'Lembra da pergunta 11: essas palavras do dia a dia têm origem em línguas faladas pelos primeiros habitantes do Brasil.',
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Bernardo visitou um museu em Florianópolis e viu artefatos indígenas antigos, como cestos e utensílios de pesca. Isso mostra que os povos indígenas:',
     tip: 'Pensa: cestos e utensílios de pesca bem feitos mostram falta de conhecimento técnico ou habilidades desenvolvidas pelos povos indígenas?',
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Bernardo descobriu que existem comunidades indígenas vivendo até hoje em Santa Catarina, seu estado. Isso mostra que os povos indígenas:',
     tip: 'Pensa: será que os povos indígenas só existiram no passado, ou continuam vivendo em comunidades até hoje, inclusive perto de onde Bernardo mora?',
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Se Bernardo quiser aprender mais sobre um povo indígena específico, ele deve lembrar que:',
     tip: 'Lembra da pergunta 5: cada povo indígena tem sua própria língua e cultura. Isso significa que estudar um povo é o mesmo que estudar todos?',
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a demarcação de terras indígenas serve para:',
     tip: 'Lembra da pergunta 16: a demarcação de terras protege o quê para os povos indígenas?',
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Bernardo entendeu que os povos indígenas contribuíram para a cultura brasileira em vários aspectos, EXCETO:',
     tip: 'Pensa: qual das opções não tem relação com a contribuição indígena, mas sim com a chegada dos portugueses ao Brasil?',
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Bernardo concluiu que respeitar os povos indígenas significa:',
     tip: 'Pensa: respeitar um povo significa diminuir sua importância, fingir que não existe, ou valorizar sua história e cultura?',
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'A Lei 11.645/2008 tornou obrigatório o ensino, nas escolas brasileiras, sobre:',
     tip: 'Lembra da pergunta 10: essa lei fala sobre o ensino obrigatório de duas culturas muito importantes na formação do Brasil. Quais são elas?',
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Depois de estudar sobre os povos indígenas, Bernardo entendeu que a formação do povo brasileiro começou:',
     tip: 'Pensa: a formação do povo brasileiro começou quando os portugueses chegaram, ou já havia gente formando comunidades muito antes disso?',
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Qual é uma conclusão importante que Bernardo pode tirar sobre os povos indígenas do Brasil?',
     tip: 'Pensa em tudo que aprendemos hoje: os povos indígenas são parte do passado apenas, ou também do presente do Brasil, com culturas vivas e importantes?',

@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB4Av1 = [
   {
     id: 1,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "A Lei Áurea, que aboliu a escravidão no Brasil, foi assinada em 13 de maio de 1888 por:",
     tip: "Pense em quem estava exercendo o poder no Brasil naquela data, enquanto D. Pedro II estava viajando.",
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Em qual data ocorreu a Proclamação da República do Brasil?",
     tip: "É uma das datas mais importantes da história brasileira — pense em novembro de 1889.",
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Quem foi o primeiro presidente da República do Brasil?",
     tip: "Foi um militar que liderou o golpe que derrubou D. Pedro II.",
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Brasil Império",
     type: "multiple_choice",
     text: "Durante o Segundo Reinado, D. Pedro II incentivou a modernização do Brasil. Qual das obras abaixo marcou esse período?",
     tip: "Pense em qual invenção revolucionou o transporte no século XIX, ligando cidades e fazendas.",
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Brasil Império",
     type: "multiple_choice",
     text: "O Período Regencial foi uma fase em que o Brasil foi governado por regentes porque:",
     tip: "Lembre-se do que aconteceu em 1831 quando D. Pedro I abdicou — quem era D. Pedro II naquele momento?",
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "No final do século XIX, famílias de imigrantes vieram da Itália para o Brasil. O que melhor explica essa migração?",
     tip: "Com o fim da escravidão, as fazendas precisavam de trabalhadores. De onde viriam esses trabalhadores?",
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Qual foi a principal razão para a Proclamação da República no Brasil em 1889?",
     tip: "Pense em quem estava insatisfeito após a abolição da escravidão — os fazendeiros perderam sua mão de obra sem indenização.",
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que era a 'política do café com leite' durante a República Velha?",
     tip: "O nome vem dos dois principais produtos: o café de São Paulo e o leite de Minas Gerais.",
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "O que eram os quilombos no Brasil colonial e imperial?",
     tip: "Pense em pessoas que fugiam das fazendas e precisavam de um lugar seguro para viver em liberdade.",
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Brasil Império",
     type: "multiple_choice",
     text: "Durante o Segundo Reinado, o Brasil lutou na Guerra do Paraguai (1864–1870) ao lado de quais países?",
     tip: "Os três países formavam a Tríplice Aliança contra o Paraguai de Solano López.",
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O coronelismo foi uma prática política comum na República Velha. O que era um 'coronel' nesse contexto?",
     tip: "Não era necessariamente um militar — pense em quem tinha poder econômico e político nas cidades do interior.",
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A bandeira do Brasil traz a frase 'Ordem e Progresso'. De onde vem essa ideia?",
     tip: "Essa frase foi inspirada em um filósofo francês que acreditava que a ciência era o caminho para o progresso.",
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "O que foi o movimento abolicionista brasileiro?",
     tip: "Foi uma luta organizada por diferentes grupos da sociedade — não apenas por escravizados.",
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Qual importante jornalista e escritor foi um dos líderes do movimento abolicionista no Brasil?",
     tip: "Ele era filho de mãe escravizada e tornou-se um dos maiores defensores da abolição, escrevendo em jornais do Rio de Janeiro.",
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que caracteriza uma república presidencialista, forma de governo adotada pelo Brasil?",
     tip: "No presidencialismo, o presidente acumula duas funções. Quais são elas?",
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Expressões artísticas",
     type: "multiple_choice",
     text: "A Semana de Arte Moderna de 1922, que revolucionou a cultura brasileira, aconteceu em qual cidade?",
     tip: "Foi a cidade que se tornava o centro industrial e cultural do Brasil no início do século XX.",
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que aconteceu no Brasil em 15 de novembro de 1889?",
     tip: "É a data da proclamação que transformou o Brasil de monarquia em república.",
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Durante a República Velha (1889–1930), como eram feitas as eleições presidenciais no Brasil?",
     tip: "Lembre-se do voto aberto e do papel dos coronéis na política da época.",
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Brasil Império",
     type: "multiple_choice",
     text: "Após a Proclamação da República, D. Pedro II foi exilado. Para onde ele foi?",
     tip: "Ele viajou para a Europa — para o país que deu origem à família imperial brasileira.",
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "O que foi a Lei do Ventre Livre, aprovada em 1871?",
     tip: "A palavra 'ventre' significa 'barriga' — isso dá uma pista sobre quem essa lei libertava.",
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Brasil Império",
     type: "multiple_choice",
     text: "Quem proclamou a Independência do Brasil e em qual ano?",
     tip: "A cena aconteceu às margens de um rio em São Paulo, com um grito famoso.",
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Brasil Império",
     type: "multiple_choice",
     text: "O que marcou o fim do Período Regencial no Brasil?",
     tip: "O jovem herdeiro do trono teve sua maioridade antecipada para resolver a crise política.",
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Qual foi o quilombo mais famoso da história do Brasil, liderado por Zumbi?",
     tip: "Ele ficava no Nordeste do Brasil e resistiu às investidas portuguesas por quase um século.",
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "A Revolução de 1930 encerrou a República Velha e levou ao poder:",
     tip: "Esse líder gaúcho governou o Brasil por 15 anos e criou os direitos trabalhistas.",
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que foi o Estado Novo, período que durou de 1937 a 1945?",
     tip: "Nesse período, o Congresso foi fechado e a Constituição suspensa — isso caracteriza um governo de que tipo?",
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Migrações",
     type: "multiple_choice",
     text: "Qual foi a principal contribuição dos imigrantes italianos para a economia brasileira no final do século XIX?",
     tip: "Pense no produto mais exportado pelo Brasil naquela época e em quem precisava trabalhar nas lavouras.",
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "O que significava a expressão 'voto de cabresto' na República Velha?",
     tip: "Um cabresto é uma rédea usada para controlar animais. Pense em quem controlava os votos dos trabalhadores.",
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Brasil República",
     type: "multiple_choice",
     text: "Em que ano a capital do Brasil foi transferida do Rio de Janeiro para Brasília?",
     tip: "A mudança ocorreu durante o governo de Juscelino Kubitschek, que prometeu '50 anos em 5'.",
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Qual líder de quilombo é hoje considerado um herói nacional e símbolo da resistência negra no Brasil?",
     tip: "Ele liderou o maior quilombo da história do Brasil e lutou pela liberdade de seu povo.",
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "A Era Vargas ficou marcada por importantes conquistas trabalhistas. Qual medida abaixo foi adotada nesse período?",
     tip: "Pense nas leis que protegem os trabalhadores brasileiros ainda hoje — férias, salário mínimo, carteira assinada.",
