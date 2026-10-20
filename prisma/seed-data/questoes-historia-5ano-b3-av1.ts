@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB3Av1 = [
   {
     id: 1,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'O que é o trabalho rural?',
     tip: 'Pensa: esse tipo de trabalho acontece nas fazendas e no campo, longe dos prédios das cidades.',
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'O que é agricultura?',
     tip: 'Pensa: plantar e colher alimentos como arroz, feijão e milho é uma atividade ligada a quê?',
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'O que é pecuária?',
     tip: 'Pensa: cuidar de vacas, porcos e galinhas para produzir leite, carne e ovos é uma atividade chamada de quê?',
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Trabalho e tecnologia",
     type: 'multiple_choice',
     text: 'Como era o trabalho no campo antigamente, antes da chegada de máquinas modernas?',
     tip: 'Pensa: antes de existirem tratores, como as pessoas plantavam e colhiam?',
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Trabalho e tecnologia",
     type: 'multiple_choice',
     text: 'Como as máquinas agrícolas modernas, como tratores e colheitadeiras, mudaram o trabalho no campo?',
     tip: 'Pensa: um trator consegue plantar uma área muito maior em muito menos tempo do que uma pessoa sozinha.',
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'O que significa dizer que o Brasil é um grande produtor agrícola?',
     tip: 'Pensa: se o Brasil vende alimentos para outros países, isso significa que produz pouco ou muito alimento?',
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'Quem trabalha no campo, cultivando a terra ou cuidando de animais, é chamado de:',
     tip: 'Pensa no nome dado a quem trabalha diretamente com a terra, plantando ou cuidando de animais no campo.',
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'Por que o trabalho no campo é importante para toda a sociedade?',
     tip: 'Pensa: de onde vêm os alimentos que chegam ao supermercado e, depois, à sua mesa?',
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Trabalho no campo",
     type: 'multiple_choice',
     text: 'Além da agricultura e da pecuária, outra atividade importante realizada no campo é:',
     tip: 'Pensa em uma atividade que envolve coletar recursos da natureza, como frutas ou madeira, de forma cuidadosa.',
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Trabalho e tecnologia",
     type: 'multiple_choice',
     text: 'O trabalho no campo, hoje em dia, combina:',
     tip: 'Pensa: o trabalho no campo hoje usa só métodos antigos, só tecnologia, ou uma combinação dos dois?',
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'O que é êxodo rural?',
     tip: 'Pensa: "êxodo" significa saída em grande número. Esse movimento é do campo para a cidade, ou da cidade para o campo?',
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Por que muitas pessoas saíram do campo para viver nas cidades ao longo da história do Brasil?',
     tip: 'Pensa: por que as pessoas deixariam o campo para viver nas cidades? Que oportunidades as cidades ofereciam?',
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Trabalho e tecnologia",
     type: 'multiple_choice',
     text: 'O que é industrialização?',
     tip: 'Pensa: quando muitas fábricas e indústrias começam a crescer em um país, esse processo tem um nome especial.',
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Trabalho nas cidades",
     type: 'multiple_choice',
     text: 'Com o crescimento das cidades e das indústrias, que tipos de trabalho se tornaram mais comuns nas áreas urbanas?',
     tip: 'Pensa: com o crescimento das cidades, que tipos de trabalho passaram a existir além do trabalho na lavoura?',
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Trabalho nas cidades",
     type: 'multiple_choice',
     text: 'O que é trabalho urbano?',
     tip: 'Pensa: esse tipo de trabalho acontece dentro das cidades, diferente do trabalho realizado no campo.',
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Trabalho nas cidades",
     type: 'multiple_choice',
     text: 'Quais são exemplos de profissões urbanas?',
     tip: 'Pensa em profissões que você encontra normalmente dentro de uma cidade, como escolas, hospitais e lojas.',
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Tanto o trabalho no campo quanto o trabalho na cidade são importantes porque:',
     tip: 'Pensa: será que a sociedade funcionaria bem se só existisse trabalho no campo, ou só na cidade?',
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Trabalho nas cidades",
     type: 'multiple_choice',
     text: 'O que uma pessoa que trabalha em uma fábrica de roupas, por exemplo, contribui para a sociedade?',
     tip: 'Pensa: as roupas que compramos e vestimos vêm de algum lugar. Quem produz essas roupas?',
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Por que é importante valorizar e respeitar todos os tipos de trabalho, tanto do campo quanto da cidade?',
     tip: 'Pensa: será que um trabalho é mais valioso que outro, ou cada um tem sua própria importância na sociedade?',
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'O que mudou na forma como as pessoas trabalham ao longo da história, do campo às cidades?',
     tip: 'Pensa em tudo que vimos hoje: o trabalho ficou igual ao longo da história, ou surgiram novas formas de trabalhar?',
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'A família de um colega de Bernardo trabalha em uma fazenda, cultivando arroz. Esse é um exemplo de:',
     tip: 'Lembra da pergunta 2: cultivar arroz é uma atividade ligada a qual tipo de trabalho?',
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'O pai de Bernardo trabalha em um escritório, na cidade. Esse é um exemplo de:',
     tip: 'Lembra da pergunta 15: um trabalho realizado dentro de um escritório, na cidade, é chamado de quê?',
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, antigamente, muitas famílias que viviam no campo se mudaram para as cidades em busca de emprego nas fábricas. Esse movimento é chamado de:',
     tip: 'Lembra da pergunta 11: esse movimento de saída do campo para a cidade tem um nome especial.',
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Trabalho e tecnologia",
     type: 'multiple_choice',
     text: 'Bernardo visitou uma fazenda e viu tratores sendo usados para plantar e colher. Isso mostra que o trabalho no campo hoje:',
     tip: 'Lembra da pergunta 10: o uso de tratores junto com o conhecimento tradicional do campo mostra uma combinação de quê?',
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Se Bernardo perguntar por que os alimentos que ele come chegam até sua mesa, uma resposta correta seria:',
     tip: 'Lembra da pergunta 8: de onde vêm, originalmente, os alimentos antes de chegarem ao supermercado e à nossa mesa?',
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Bernardo entendeu que tanto o motorista que entrega mercadorias na cidade quanto o agricultor que planta no campo:',
     tip: 'Lembra da pergunta 19: será que só um tipo de trabalho merece respeito, ou todos os trabalhos, cada um à sua maneira, são importantes?',
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Depois de estudar sobre o mundo do trabalho, Bernardo concluiu que a sociedade depende:',
     tip: 'Pensa em tudo que aprendemos hoje: a sociedade depende só do campo, só da cidade, ou dos dois juntos?',
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Trabalho e tecnologia",
     type: 'multiple_choice',
     text: 'Se Bernardo quiser explicar o que é industrialização para um amigo mais novo, ele pode dizer que é:',
     tip: 'Lembra da pergunta 13: esse processo é o crescimento das fábricas e indústrias, mudando a forma de produção de bens.',
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Qual atitude mostra respeito pelos diferentes tipos de trabalho que sustentam a sociedade?',
     tip: 'Pensa: reconhecer a importância de cada profissão, seja no campo ou na cidade, é uma atitude de respeito ou de desvalorização?',
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "História do trabalho",
     type: 'multiple_choice',
     text: 'Qual conclusão Bernardo pode tirar sobre o mundo do trabalho no Brasil?',
     tip: 'Pensa em tudo que estudamos hoje: campo e cidade têm trabalhos diferentes, mas ambos são fundamentais para quê?',

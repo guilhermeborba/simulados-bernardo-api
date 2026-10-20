@@ -557,3 +557,42 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-cie
 A quantidade de temas acompanha o conteúdo: B1/AV1 revisa nove; B1/AV2, B2/AV1 e B3/AV1 têm três; B2/AV2 e B3/AV2, quatro; B4/AV1, seis; B4/AV2, cinco. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 A confusão preexistente entre o período orbital da Lua e o ciclo de fases, na alternativa A e na curiosidade da questão 2 do B3/AV2, foi registrada na [issue web #84](https://github.com/guilhermeborba/simulados-bernardo/issues/84), com fonte primária para revisão separada. O conteúdo original foi preservado neste lote de temas.
+
+### História — 5º ano
+
+| Tema | Abrange |
+|---|---|
+| Alimentação e costumes | Alimentos cultivados e contribuições indígenas, africanas e de imigrantes para a culinária brasileira e regional. |
+| Brasil Império | Independência, regências, Segundo Reinado, modernização, Guerra do Paraguai e exílio de D. Pedro II. |
+| Brasil República | Proclamação, governos, organização política, eleições, economia, industrialização e acontecimentos do Brasil republicano. |
+| Cidadania e respeito | Convivência, deveres, valorização das diferenças, atitudes cidadãs e respeito aos povos e às culturas. |
+| Cultura e identidade | Línguas, conhecimentos, costumes, religiões, identidades e diversidade cultural dos povos e das regiões brasileiras. |
+| Direitos e participação | Direitos territoriais, ensino das culturas, proteção da infância, Constituição, ECA, direitos humanos e trabalhistas e participação democrática. |
+| Escravidão e resistência | Escravização, tráfico, condições de trabalho, quilombos, líderes, resistência, movimento abolicionista e abolição. |
+| Expressões artísticas | Capoeira, música, instrumentos e Semana de Arte Moderna. |
+| Festas e tradições | Comemorações, Consciência Negra, festas populares e suas origens e influências culturais. |
+| Formação do Brasil | Primeiros habitantes, presença africana, imigração, composição da população e participação dos povos na formação do país. |
+| História do trabalho | Importância e valorização das profissões, relações entre trabalhos rurais e urbanos e reconhecimento dessas atividades. |
+| Migrações | Imigração, deslocamentos internos, êxodo rural, origens, destinos e motivos das mudanças de população. |
+| Organização social | Organização coletiva das aldeias e compartilhamento de tarefas na vida em comunidade. |
+| Regiões do Brasil | Divisão regional e identificação das cinco regiões brasileiras. |
+| Trabalho e tecnologia | Ferramentas, máquinas agrícolas, industrialização e mudanças nas formas de trabalhar. |
+| Trabalho nas cidades | Profissões e atividades da indústria, do comércio e dos serviços no meio urbano. |
+| Trabalho no campo | Agricultura, pecuária, extrativismo, trabalhadores rurais e importância da produção de alimentos. |
+| Transformações sociais | Mudanças de lugar e seus efeitos nas famílias e na sociedade, incluindo reconhecimento de deslocamentos no contexto apresentado. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-historia-5ano-b*-av*.ts`. Não há entradas privadas de História do 5º ano registradas no seed. Todos compartilham este vocabulário de 18 temas, reaproveitando os nomes dos anos anteriores quando o conteúdo corresponde. **Brasil Império** e **Brasil República** agrupam os períodos políticos abordados neste ano; **Regiões do Brasil** reaproveita o nome usado em Geografia para o mesmo conteúdo.
+
+A classificação considera o objetivo das questões e as alternativas dos enunciados genéricos. **Formação do Brasil** reúne os primeiros habitantes, a presença africana e as contribuições dos diferentes povos para a composição da população. **Cultura e identidade** concentra línguas, saberes, costumes, religiões e diversidade. A organização coletiva das tarefas na questão 6 do B1/AV1 usa **Organização social**. Contribuições culinárias usam **Alimentação e costumes**; música, capoeira e modernismo, **Expressões artísticas**; comemorações e festas, **Festas e tradições**. Não se usa como rótulo o povo ou o país de origem que o aluno deve identificar.
+
+**Escravidão e resistência** reúne tráfico, trabalho forçado, quilombos, lideranças, abolicionismo e leis de abolição, sem antecipar a lei ou o líder solicitado. **Direitos e participação** cobre direitos territoriais, ensino da história e cultura dos povos, proteção da infância, ECA, Constituição, direitos humanos e trabalhistas e conquistas democráticas. A identificação do ECA na questão 27 do B3/AV2 permanece nesse tema amplo, sem usar a sigla ou o nome da lei como rótulo. **Cidadania e respeito** cobre deveres, convivência e atitudes de valorização da diversidade.
+
+**Migrações** concentra origens, destinos, motivos e condições dos deslocamentos. A questão 22 do B2/AV2 pede reconhecer uma migração interna e usa **Transformações sociais**, seguindo o critério do 4º ano para não antecipar a própria classificação como resposta. **Regiões do Brasil** fica na divisão regional; as diferenças históricas, linguísticas e culturais entre regiões ficam em **Cultura e identidade**. A mistura de origens familiares na questão 24 do B2/AV2 usa **Formação do Brasil**, sem antecipar “miscigenação”.
+
+**Trabalho no campo** e **Trabalho nas cidades** reúnem as atividades específicas quando o espaço já é dado. **Trabalho e tecnologia** cobre mudanças ligadas às máquinas e à industrialização. **História do trabalho** concentra valorização, interdependência e reconhecimento dos tipos de atividade: as questões 21 e 22 do B3/AV1 usam esse tema amplo, sem entregar “trabalho rural” ou “trabalho urbano”.
+
+**Brasil Império** reúne independência, regências, Segundo Reinado e exílio; **Brasil República**, acontecimentos, governos e transformações políticas e econômicas desde a proclamação. Esses temas não usam o nome do governante, da capital ou do movimento que pode ser a resposta. Questões que pedem identificar Getúlio Vargas em B4/AV2, por exemplo, usam **Brasil República**, preservando a identificação como tarefa do aluno. Direitos trabalhistas, direitos das mulheres, redemocratização e Constituição usam **Direitos e participação** quando esse é o conteúdo predominante; imigração, escravidão e manifestações artísticas mantêm seus temas específicos nas revisões históricas.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1 e B4/AV1 têm seis; B1/AV2 e B2/AV2, oito; B3/AV1, cinco; B3/AV2, dois; B4/AV2, quatro. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+A apresentação do limite de idade para trabalho e aprendizagem no B3/AV2 (IDs 12 e 25) e a contradição entre alternativa e curiosidade sobre o exílio de D. Pedro II no B4/AV1 (ID 19) foram registradas na [issue web #86](https://github.com/guilhermeborba/simulados-bernardo/issues/86), com fontes oficiais para revisão separada. Nenhum conteúdo anterior foi corrigido no lote de temas.

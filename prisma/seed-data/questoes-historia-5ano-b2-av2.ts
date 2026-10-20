@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB2Av2 = [
   {
     id: 1,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'A população brasileira se formou, principalmente, a partir da união de quais povos?',
     tip: 'Pensa em tudo que estudamos nas últimas aulas: quais povos vimos que formaram, ao longo da história, a população do Brasil?',
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'O que é miscigenação?',
     tip: 'Pensa: quando pessoas de origens diferentes se casam e têm filhos, misturando suas características, isso tem um nome especial.',
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'A miscigenação é uma característica marcante do povo brasileiro porque:',
     tip: 'Pensa: será que a mistura de tantos povos diferentes tornou a população brasileira mais uniforme ou mais diversa?',
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Quais três grandes grupos são considerados a base da formação do povo brasileiro?',
     tip: 'Pensa nos três grupos que estudamos nos últimos bimestres: quem já morava aqui, quem foi trazido à força e quem colonizou o território.',
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Além dessas três bases principais, quais outros povos também vieram a contribuir para a formação da população brasileira?',
     tip: 'Pensa nas aulas mais recentes: quais outros povos, além dos três grupos principais, também vieram para o Brasil, especialmente a partir do final do século 19?',
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Por que se diz que a cultura brasileira é resultado de uma "mistura de culturas"?',
     tip: 'Pensa: se cada povo trouxe um pedacinho da sua cultura (comida, língua, religião), o que acontece quando tudo isso se junta?',
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'O que forma a identidade de um povo, segundo o que aprendemos sobre a formação do Brasil?',
     tip: 'Pensa: a identidade de um povo é feita só de um elemento, como o local de nascimento, ou de vários fatores juntos, como história, cultura e as diferentes origens das pessoas?',
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Qual é uma característica importante da população brasileira, resultado dessa mistura de povos?',
     tip: 'Pensa: com tantos povos diferentes se misturando ao longo da história, a população brasileira ficou mais parecida ou mais diversa?',
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Por que é importante conhecer a formação histórica do povo brasileiro?',
     tip: 'Pensa: entender de onde viemos ajuda a valorizar quem somos hoje, ou não tem nenhuma relação com isso?',
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'O que significa dizer que o Brasil é um país "multiétnico" e "pluricultural"?',
     tip: 'Pensa nas palavras "multi" (muitos) e "étnico" (relacionado a povos), e "pluri" (vários) e "cultural". O que essas palavras juntas querem dizer sobre o Brasil?',
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Regiões do Brasil",
     type: 'multiple_choice',
     text: 'O Brasil é dividido oficialmente em quantas regiões?',
     tip: 'Pensa: você já deve ter visto um mapa do Brasil dividido em partes coloridas, cada uma representando uma dessas divisões. Quantas partes são?',
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Regiões do Brasil",
     type: 'multiple_choice',
     text: 'Quais são as cinco regiões do Brasil?',
     tip: 'Pensa nos pontos cardeais (Norte, Sul) e em nomes compostos com eles (Nordeste, Sudeste), mais uma região no meio do mapa (Centro-Oeste).',
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Cada região do Brasil tem características culturais próprias, como:',
     tip: 'Pensa: será que todas as regiões do Brasil comem a mesma comida, falam do mesmo jeito e têm as mesmas festas, ou cada uma tem seu próprio jeitinho?',
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'O que são migrações internas?',
     tip: 'Pensa: "interna" quer dizer "dentro de". Então, esse tipo de migração acontece entre países diferentes, ou dentro do próprio Brasil?',
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Um exemplo histórico de migração interna no Brasil foi:',
     tip: 'Pensa em um movimento histórico muito conhecido, em que pessoas de uma região saíram em busca de trabalho nas fábricas e indústrias de outra região do país.',
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Migrações",
     type: 'multiple_choice',
     text: 'Por que muitas pessoas migram de uma região para outra dentro do Brasil?',
     tip: 'Pensa: as pessoas migram de um lugar para outro só por acaso, ou geralmente estão em busca de algo melhor, como trabalho e qualidade de vida?',
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Alimentação e costumes",
     type: 'multiple_choice',
     text: 'A diversidade cultural brasileira também aparece na culinária regional. Um exemplo é:',
     tip: 'Pensa em pratos bem conhecidos, cada um associado a uma região diferente do Brasil, mostrando essa riqueza culinária regional.',
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'A diversidade também está presente nos sotaques do português falado no Brasil. Isso acontece porque:',
     tip: 'Pensa: será que todas as pessoas do Brasil falam português exatamente da mesma forma, ou existem jeitinhos diferentes de falar em cada região?',
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Festas e tradições",
     type: 'multiple_choice',
     text: 'Festas populares como o Boi-Bumbá (Norte), o São João (Nordeste) e a Festa da Uva (Sul) mostram que:',
     tip: 'Pensa: cada uma dessas festas está ligada a uma região específica do Brasil. Isso mostra que todas as regiões têm a mesma festa, ou cada uma tem suas próprias tradições?',
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Reconhecer a diversidade regional do Brasil ajuda a entender que:',
     tip: 'Pensa: conhecer e respeitar as diferenças regionais do Brasil ajuda a enxergar o país como mais rico culturalmente, ou como dividido e menos unido?',
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Bernardo mora na região Sul do Brasil, em Santa Catarina, e notou que os costumes e a comida de sua região são diferentes dos de um colega que mora no Nordeste. Isso acontece porque:',
     tip: 'Pensa em tudo que aprendemos sobre as regiões: cada uma teve uma formação histórica diferente, o que explica as diferenças culturais entre elas.',
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Transformações sociais",
     type: 'multiple_choice',
     text: 'Bernardo tem um colega de escola cuja família migrou do Nordeste para Santa Catarina em busca de trabalho. Esse é um exemplo de:',
     tip: 'Lembra da pergunta 14: esse tipo de deslocamento acontece dentro do próprio Brasil, e não entre países diferentes.',
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Cultura e identidade",
     type: 'multiple_choice',
     text: 'Se Bernardo comparar o sotaque de um amigo do Rio Grande do Sul com o de um amigo da Bahia, ele vai perceber que:',
     tip: 'Lembra da pergunta 18: cada região tem seu próprio jeito de falar, resultado de diferentes influências históricas e culturais.',
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a família dele, como a de muitos brasileiros, pode ter descendência de mais de um povo (por exemplo, indígena, africano e europeu). Isso é um exemplo de:',
     tip: 'Lembra da pergunta 2: quando diferentes povos se misturam e geram descendentes com características de várias origens, isso tem um nome especial. Qual é?',
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Bernardo concluiu que a diversidade cultural do Brasil deve ser:',
     tip: 'Pensa: será que a diversidade cultural do Brasil deveria ser escondida ou ignorada, ou é algo que vale a pena valorizar e respeitar?',
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Se alguém disser que uma região do Brasil é "mais brasileira" do que outra, Bernardo pode responder que:',
     tip: 'Pensa: será que uma região específica representa o Brasil inteiro sozinha, ou todas as regiões fazem parte igualmente do país?',
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que povos indígenas, africanos, europeus e outros imigrantes contribuíram, juntos, para formar:',
     tip: 'Pensa em tudo que estudamos ao longo do bimestre: indígenas, africanos, europeus e outros imigrantes contribuíram juntos para formar o quê?',
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Qual atitude Bernardo pode ter para respeitar a diversidade cultural do Brasil?',
     tip: 'Pensa: aprender sobre culturas diferentes e valorizar cada uma delas é uma atitude respeitosa, ou seria melhor achar que uma cultura é superior às outras?',
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Depois de estudar a formação da população brasileira, Bernardo entendeu que ser brasileiro é:',
     tip: 'Pensa em tudo que aprendemos: ser brasileiro está ligado a um único grupo, uma única forma de falar, ou a uma grande diversidade de povos e culturas?',
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Formação do Brasil",
     type: 'multiple_choice',
     text: 'Qual conclusão resume bem tudo o que Bernardo aprendeu sobre a formação do povo brasileiro?',
     tip: 'Pensa em tudo que estudamos nos últimos bimestres sobre indígenas, africanos, europeus e imigrantes: o Brasil foi formado por um povo só, ou pela união de muitos povos diferentes?',

@@ -1,6 +1,7 @@
 export const questoesHistoria5AnoB3Av2 = [
   {
     id: 1,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que é cidadania?',
     tip: 'Pensa: essa palavra tem a ver com ser um "cidadão", alguém que faz parte de uma sociedade com direitos e responsabilidades.',
@@ -16,6 +17,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que são direitos?',
     tip: 'Pensa: coisas que toda pessoa deve ter garantidas, como ir à escola e ser cuidada quando fica doente, são chamadas de quê?',
@@ -31,6 +33,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que são deveres?',
     tip: 'Pensa no contrário de "direitos": são as obrigações que cada pessoa tem, como respeitar as regras e os outros.',
@@ -46,6 +49,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Qual é o documento mais importante que organiza os direitos e deveres dos cidadãos brasileiros?',
     tip: 'Pensa no documento mais importante do Brasil, que organiza as leis e os direitos de todos os cidadãos.',
@@ -61,6 +65,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que é o ECA (Estatuto da Criança e do Adolescente)?',
     tip: 'Pensa: existe uma lei especial, só para proteger crianças e adolescentes. Qual é a sigla dela?',
@@ -76,6 +81,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Em que ano o Estatuto da Criança e do Adolescente (ECA) foi criado no Brasil?',
     tip: 'Pensa: essa lei é mais recente, do século 20, criada pouco tempo depois de uma Constituição importante.',
@@ -91,6 +97,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Por que é importante que crianças e adolescentes tenham uma lei específica para proteger seus direitos?',
     tip: 'Pensa: crianças e adultos têm as mesmas necessidades, ou crianças precisam de cuidados especiais por estarem em desenvolvimento?',
@@ -106,6 +113,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que significa dizer que uma criança é "sujeito de direitos"?',
     tip: 'Pensa: se uma criança é "sujeito de direitos", isso quer dizer que ela tem ou não tem direitos garantidos?',
@@ -121,6 +129,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Quem é responsável por garantir os direitos das crianças, segundo o ECA?',
     tip: 'Pensa: quem deve cuidar para que os direitos das crianças sejam respeitados? Apenas uma pessoa, ou várias partes da sociedade juntas?',
@@ -136,6 +145,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Exercer a cidadania significa:',
     tip: 'Pensa: ser cidadão é só ter direitos, ou também participar da vida em sociedade, cumprindo deveres?',
@@ -151,6 +161,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Qual é um direito garantido às crianças pelo ECA?',
     tip: 'Pensa em tudo que uma criança precisa para crescer bem: estudar, ser cuidada, se alimentar, brincar e viver junto à família.',
@@ -166,6 +177,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que o ECA determina sobre o trabalho infantil?',
     tip: 'Pensa: o ECA protege as crianças ou incentiva que elas trabalhem muito cedo?',
@@ -181,6 +193,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Por que o direito à educação é tão importante para crianças e adolescentes?',
     tip: 'Pensa: estudar ajuda a criança a aprender, se desenvolver e se preparar para o futuro, ou não tem nenhuma utilidade?',
@@ -196,6 +209,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O direito ao lazer, garantido pelo ECA, inclui:',
     tip: 'Pensa: o direito ao lazer envolve só uma atividade específica, ou várias formas de diversão e cultura?',
@@ -211,6 +225,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O que significa o direito à convivência familiar e comunitária?',
     tip: 'Pensa: esse direito garante que a criança cresça sozinha e isolada, ou junto à família e à comunidade, com afeto?',
@@ -226,6 +241,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'O ECA também protege as crianças contra:',
     tip: 'Pensa: o ECA protege as crianças de coisas boas, como educação e lazer, ou de coisas ruins, como violência?',
@@ -241,6 +257,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Além de terem direitos, as crianças também têm alguns deveres, como:',
     tip: 'Pensa: será que só os adultos têm responsabilidades, ou as crianças também têm pequenos deveres, como respeitar as pessoas?',
@@ -256,6 +273,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Por que é importante que as crianças conheçam seus próprios direitos?',
     tip: 'Pensa: conhecer os próprios direitos ajuda uma criança a se proteger, ou não faz nenhuma diferença?',
@@ -271,6 +289,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Se uma criança perceber que algum de seus direitos não está sendo respeitado, o que ela pode fazer?',
     tip: 'Pensa: se algo estiver errado, é melhor guardar segredo sozinho, ou contar para um adulto de confiança?',
@@ -286,6 +305,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Qual é uma forma de exercer a cidadania mesmo sendo criança?',
     tip: 'Pensa: respeitar colegas, participar da escola e conhecer direitos e deveres é uma forma de exercer a cidadania?',
@@ -301,6 +321,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Bernardo estuda em uma escola pública, o que é garantido pelo direito à:',
     tip: 'Lembra da pergunta 13: estudar em uma escola está ligado a qual direito garantido a todas as crianças?',
@@ -316,6 +337,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Se Bernardo brinca no parque com seus amigos no fim de semana, ele está exercendo o direito ao(à):',
     tip: 'Lembra da pergunta 14: brincar no parque com os amigos está relacionado a qual direito das crianças?',
@@ -331,6 +353,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Bernardo mora com sua família, que cuida dele com carinho e atenção. Isso representa o direito à:',
     tip: 'Lembra da pergunta 15: crescer junto à família, com carinho e cuidado, representa qual direito garantido pelo ECA?',
@@ -346,6 +369,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Se Bernardo perceber que um colega de escola está sendo tratado de forma injusta ou violenta, uma atitude cidadã seria:',
     tip: 'Lembra da pergunta 19: se algo parece errado com um colega, a atitude mais correta é ficar calado ou contar para um adulto de confiança?',
@@ -361,6 +385,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que crianças menores de 14 anos não podem trabalhar, segundo o ECA, porque:',
     tip: 'Lembra da pergunta 12: por que o ECA proíbe o trabalho para menores de 14 anos, com exceção da condição de aprendiz?',
@@ -376,6 +401,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Bernardo entendeu que, além de ter direitos, ele também tem deveres, como:',
     tip: 'Lembra da pergunta 17: além de direitos, as crianças também têm pequenas responsabilidades no dia a dia. Quais são elas?',
@@ -391,6 +417,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Qual é o nome da lei brasileira que garante e protege os direitos das crianças e adolescentes, como Bernardo?',
     tip: 'Lembra da pergunta 5: qual é o nome (e a sigla) da lei brasileira que protege os direitos das crianças e adolescentes?',
@@ -406,6 +433,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Depois de estudar sobre cidadania e direitos das crianças, Bernardo concluiu que:',
     tip: 'Pensa em tudo que aprendemos hoje: as crianças só têm direitos, ou também têm deveres a cumprir?',
@@ -421,6 +449,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Cidadania e respeito",
     type: 'multiple_choice',
     text: 'Qual é uma atitude cidadã que Bernardo pode ter no seu dia a dia na escola?',
     tip: 'Pensa: qual das opções mostra uma atitude de respeito e participação na vida escolar, ao invés de desrespeito?',
@@ -436,6 +465,7 @@ export const questoesHistoria5AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Direitos e participação",
     type: 'multiple_choice',
     text: 'Qual conclusão importante Bernardo pode tirar sobre cidadania e direitos das crianças?',
     tip: 'Pensa em tudo que estudamos: direitos são só para adultos, ou toda criança também tem direitos e deveres?',
