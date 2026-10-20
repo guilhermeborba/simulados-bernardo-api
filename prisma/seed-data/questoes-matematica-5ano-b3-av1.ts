@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB3Av1 = [
   {
     id: 1,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'O que é uma figura plana?',
     tip: 'Pensa em uma figura "achatada", como um desenho no papel...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Um polígono é uma figura plana fechada formada por:',
     tip: 'Pensa em figuras como o triângulo e o quadrado, que só têm "cantinhos" e lados retos...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Um triângulo é um polígono que tem quantos lados?',
     tip: 'Pensa na palavra "tri", que tem a ver com o número 3...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Um quadrado é um polígono que tem 4 lados, todos:',
     tip: 'Pensa em como são os lados de um quadrado, se comparados uns com os outros...',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Um retângulo é um polígono de 4 lados em que:',
     tip: 'Pensa em uma porta ou uma folha de caderno: os lados de cima e de baixo são iguais entre si, e os da esquerda e direita também...',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Um pentágono é um polígono que tem quantos lados?',
     tip: 'Pensa na palavra "penta", que tem a ver com o número 5...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Um hexágono é um polígono que tem quantos lados?',
     tip: 'Pensa na palavra "hexa", que tem a ver com o número 6...',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'O círculo é considerado uma figura plana, mas NÃO é um polígono porque:',
     tip: 'Pensa: o círculo tem "cantinhos" e lados retos, como o quadrado, ou é todo curvo?',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Uma figura com 8 lados retos é chamada de:',
     tip: 'Pensa na palavra "octo", que tem a ver com o número 8...',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'O que diferencia um polígono de uma figura não-poligonal, como o círculo?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre lados retos e curvas...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'O que é um sólido geométrico?',
     tip: 'Pensa em objetos que você pode segurar com as mãos, como uma bola ou uma caixa...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Os poliedros são sólidos geométricos que têm:',
     tip: 'Pensa em sólidos como o cubo, que têm faces "lisas e retas"...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Os corpos redondos são sólidos geométricos que têm:',
     tip: 'Pensa em sólidos como a bola, o sorvete de casquinha e a lata de refrigerante...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'A superfície plana de um sólido geométrico é chamada de:',
     tip: 'Pensa em cada "lado achatado" de uma caixa...',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'O ponto onde as arestas de um sólido se encontram, formando um "bico", é chamado de:',
     tip: 'Pensa nas "pontinhas" de um cubo, como as quinas de uma caixa...',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'A linha onde duas faces de um sólido se encontram é chamada de:',
     tip: 'Pensa nas "bordas" de uma caixa, onde dois lados se encontram...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Um cubo é um poliedro formado por quantas faces quadradas?',
     tip: 'Pensa em um dado de jogo: quantos lados ele tem?',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Uma esfera é um sólido geométrico em que:',
     tip: 'Pensa em uma bola perfeitamente redonda...',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Um sólido com uma base circular e que termina em uma ponta é chamado de:',
     tip: 'Pensa no formato de uma casquinha de sorvete...',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre um poliedro e um corpo redondo?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre faces planas e superfícies curvas...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Bernardo está jogando bola com os amigos. Qual sólido geométrico tem o formato de uma bola?',
     tip: 'Pensa em como é o formato de uma bola: totalmente redonda, sem faces planas...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Bernardo guardou seus brinquedos em uma caixa com 6 faces retangulares. Esse formato é chamado de:',
     tip: 'Pensa no formato de uma caixa de sapato, com faces retangulares...',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Bernardo desenhou uma figura plana com 3 lados na aula de matemática. Que figura ele desenhou?',
     tip: 'Pensa na figura que tem exatamente 3 lados...',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Bernardo contou as faces de um dado de jogo e encontrou 6 faces quadradas. Esse sólido geométrico é chamado de:',
     tip: 'Pensa no sólido geométrico formado por 6 faces quadradas iguais...',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Revisão: qual é a principal característica de um polígono?',
     tip: 'Lembra: polígonos não têm curvas, apenas linhas retas!',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Figuras planas",
     type: 'multiple_choice',
     text: 'Revisão: quantos lados tem um quadrado?',
     tip: 'Pensa na figura com quatro lados iguais...',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Revisão: como se chama a "ponta" onde as arestas de um sólido se encontram?',
     tip: 'Já vimos esse nome antes... pensa nas "quinas" de uma caixa!',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Sólidos geométricos",
     type: 'multiple_choice',
     text: 'Revisão: qual desses sólidos é um exemplo de corpo redondo?',
     tip: 'Pensa em qual desses sólidos tem uma superfície curva, como uma lata de refrigerante...',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Geometria",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante conhecer as figuras planas e os sólidos geométricos?',
     tip: 'Pensa em quantos objetos ao seu redor têm formato de cubo, esfera, cilindro ou outras figuras geométricas...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Geometria",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre figuras planas e sólidos geométricos! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: polígonos, círculo, poliedros, corpos redondos e seus elementos...',

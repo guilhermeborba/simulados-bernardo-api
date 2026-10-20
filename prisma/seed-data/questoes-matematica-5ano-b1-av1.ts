@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB1Av1 = [
   {
     id: 1,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'No número 5.432, qual é o valor posicional do algarismo 5?',
     tip: 'Pensa em qual "casinha" o algarismo 5 ocupa: unidade, dezena, centena ou milhar?',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'A decomposição correta do número 3.245 é:',
     tip: 'Pensa em separar o número em milhares, centenas, dezenas e unidades...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Um número de 4 algarismos, como 3.245, é formado por quantas ordens (unidade, dezena, centena e milhar)?',
     tip: 'Pensa em quantos algarismos formam esse número...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Como se lê por extenso o número 12.345?',
     tip: 'Pensa em separar o número em "doze mil" e depois "trezentos e quarenta e cinco"...',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Qual é a forma correta, em algarismos, de escrever "vinte e três mil e dez"?',
     tip: 'Pensa em como "vinte e três mil" e "dez" se juntam, prestando atenção nas casas vazias...',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'No número 5.032, o algarismo 0 está na casa das:',
     tip: 'Pensa em quais casas o número 5.032 tem: milhar, centena, dezena e unidade...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Qual desses números é MAIOR: 45.678 ou 45.687?',
     tip: 'Compare algarismo por algarismo, da esquerda para a direita, até encontrar uma diferença...',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Qual decomposição corresponde ao número 7.802?',
     tip: 'Pensa em cada casa do número: milhar, centena, dezena e unidade...',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Quantas centenas cabem exatamente em 1.000?',
     tip: 'Pensa: uma centena vale 100, então quantas vezes 100 cabe em 1.000?',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'O sistema de numeração que usamos, baseado em agrupamentos de 10 em 10, é chamado de:',
     tip: 'Pensa na palavra "deci", que tem a ver com o número 10...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Qual é o sinal usado para indicar que um número é MAIOR que outro?',
     tip: 'Pensa no sinal que "abre a boca" para o lado do número maior...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Coloque em ordem crescente (do menor para o maior): 234, 198, 305.',
     tip: 'Compare os números e comece pelo menor deles...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Arredondamento",
     type: 'multiple_choice',
     text: 'Ao arredondar o número 47 para a dezena mais próxima, obtemos:',
     tip: 'Pensa se 47 está mais perto de 40 ou de 50...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Arredondamento",
     type: 'multiple_choice',
     text: 'Ao arredondar o número 342 para a centena mais próxima, obtemos:',
     tip: 'Pensa se 342 está mais perto de 300 ou de 400...',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Qual é o sucessor do número 999?',
     tip: 'Pensa no número que vem logo depois de 999, na sequência dos números...',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'O número 4.578 é classificado como:',
     tip: 'Pensa no último algarismo do número: ele é par ou ímpar?',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Qual símbolo devemos usar para completar corretamente "325 ___ 325"?',
     tip: 'Pensa: os dois números são iguais, diferentes, ou um é maior que o outro?',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'A decomposição 4.000 + 500 + 60 + 3 corresponde a qual número?',
     tip: 'Pensa em juntar cada parte: milhar, centena, dezena e unidade...',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Quantos algarismos tem o número 10.256?',
     tip: 'Conte um por um os algarismos desse número...',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Por que é importante saber comparar e ordenar números?',
     tip: 'Pensa em situações do dia a dia em que você precisa saber qual número é maior ou menor...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Bernardo está contando sua coleção de figurinhas e chegou a 2.345 figurinhas. Qual é o valor posicional do algarismo 3 nesse número?',
     tip: 'Pensa em qual "casinha" o algarismo 3 ocupa no número 2.345...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Sistema monetário",
     type: 'multiple_choice',
     text: 'Bernardo comparou o preço de dois brinquedos: um custa R$ 45 e o outro custa R$ 54. Qual é o mais caro?',
     tip: 'Compare os dois números, algarismo por algarismo, começando pela esquerda...',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Arredondamento",
     type: 'multiple_choice',
     text: 'Bernardo economizou R$ 48 e quer saber, arredondando para a dezena mais próxima, quanto isso representa. Qual é o valor arredondado?',
     tip: 'Pensa se 48 está mais perto de 40 ou de 50...',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Bernardo anotou as distâncias de três cidades até sua casa: 120 km, 85 km e 200 km. Colocando em ordem crescente, a sequência correta é:',
     tip: 'Comece pela menor distância e vá aumentando...',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Revisão: qual é a decomposição correta do número 6.129?',
     tip: 'Pensa em cada casa do número: milhar, centena, dezena e unidade...',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Revisão: como se lê por extenso o número 8.050?',
     tip: 'Pensa em separar o número em "oito mil" e depois "cinquenta"...',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Revisão: qual é o antecessor do número 1.000?',
     tip: 'Pensa no número que vem logo antes de 1.000, na sequência dos números...',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Revisão: o número 3.246 é classificado como:',
     tip: 'Pensa no último algarismo do número: ele é par ou ímpar?',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante entender o sistema de numeração decimal?',
     tip: 'Pensa em quantas vezes você usa números, grandes ou pequenos, ao longo do dia...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Sistema de numeração",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre o sistema de numeração decimal! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: valor posicional, decomposição, comparação e ordenação de números...',

@@ -1,6 +1,7 @@
 export const questoesMatematica5AnoB3Av2 = [
   {
     id: 1,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Qual é a unidade padrão usada para medir comprimento?',
     tip: 'Pensa na unidade que usamos para medir a altura de uma pessoa ou o comprimento de uma sala...',
@@ -16,6 +17,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Um quilômetro (km) equivale a quantos metros?',
     tip: 'Pensa na palavra "quilo", que indica "mil"...',
@@ -31,6 +33,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Um metro (m) equivale a quantos centímetros?',
     tip: 'Pensa em quantos "centavos" de metro cabem em 1 metro...',
@@ -46,6 +49,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Qual instrumento é geralmente usado para medir o comprimento de um objeto pequeno, como um lápis?',
     tip: 'Pensa no instrumento que costuma ficar no estojo escolar, com números marcados...',
@@ -61,6 +65,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Se um corredor tem 3 metros de comprimento, isso equivale a quantos centímetros?',
     tip: 'Pensa: se 1 metro tem 100 centímetros, quantos centímetros têm 3 metros?',
@@ -76,6 +81,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Medidas de massa",
     type: 'multiple_choice',
     text: 'Qual é a unidade padrão usada para medir massa (o quanto algo "pesa")?',
     tip: 'Pensa na unidade que aparece nas embalagens de alimentos, indicando o peso do produto...',
@@ -91,6 +97,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Medidas de massa",
     type: 'multiple_choice',
     text: 'Um quilograma (kg) equivale a quantos gramas?',
     tip: 'Pensa na palavra "quilo", que indica "mil"...',
@@ -106,6 +113,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Medidas de massa",
     type: 'multiple_choice',
     text: 'Qual instrumento é usado para medir a massa de um objeto ou de uma pessoa?',
     tip: 'Pensa no instrumento que usamos para saber quanto algo "pesa"...',
@@ -121,6 +129,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Medidas de massa",
     type: 'multiple_choice',
     text: 'Um pacote de arroz tem 2 quilogramas. Isso equivale a quantos gramas?',
     tip: 'Pensa: se 1 quilograma tem 1.000 gramas, quantos gramas têm 2 quilogramas?',
@@ -136,6 +145,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre comprimento e massa?',
     tip: 'Lembra de tudo que vimos nesse bloco sobre essas duas grandezas...',
@@ -151,6 +161,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Medidas de capacidade",
     type: 'multiple_choice',
     text: 'Qual é a unidade padrão usada para medir a capacidade de líquidos?',
     tip: 'Pensa na unidade usada para medir a quantidade de suco em uma garrafa...',
@@ -166,6 +177,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Medidas de capacidade",
     type: 'multiple_choice',
     text: 'Um litro (L) equivale a quantos mililitros (mL)?',
     tip: 'Pensa na relação entre litro e mililitro, parecida com a de metro e centímetro...',
@@ -181,6 +193,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Medidas de capacidade",
     type: 'multiple_choice',
     text: 'Qual instrumento pode ser usado para medir a quantidade exata de um líquido?',
     tip: 'Pensa em um recipiente com marcações de mililitros, usado na cozinha...',
@@ -196,6 +209,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Medidas de capacidade",
     type: 'multiple_choice',
     text: 'Uma garrafa tem 2 litros de suco. Isso equivale a quantos mililitros?',
     tip: 'Pensa: se 1 litro tem 1.000 mililitros, quantos mililitros têm 2 litros?',
@@ -211,6 +225,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'As unidades de tempo mais comuns que usamos no dia a dia são:',
     tip: 'Pensa nas unidades que aparecem em um relógio...',
@@ -226,6 +241,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'Uma hora equivale a quantos minutos?',
     tip: 'Pensa em como o ponteiro grande do relógio dá uma volta completa...',
@@ -241,6 +257,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'Um calendário organiza o tempo em dias, semanas, meses e:',
     tip: 'Pensa na maior unidade de tempo usada em um calendário comum...',
@@ -256,6 +273,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'Quantos dias tem uma semana, e quantos meses tem um ano?',
     tip: 'Pensa nos dias da semana (de domingo a sábado) e nos meses do calendário (de janeiro a dezembro)...',
@@ -271,6 +289,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'Quantos minutos há em 2 horas?',
     tip: 'Pensa: se 1 hora tem 60 minutos, quantos minutos têm 2 horas?',
@@ -286,6 +305,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Por que é importante saber medir capacidade e tempo corretamente?',
     tip: 'Pensa em quantas vezes você usa essas medidas ao longo do dia, mesmo sem perceber...',
@@ -301,6 +321,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Bernardo usou uma régua para medir o comprimento de sua mesa de estudos e encontrou 80 centímetros. Ele usou a régua para medir:',
     tip: 'Pensa em qual grandeza a régua costuma medir...',
@@ -316,6 +337,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Bernardo colocou sua mochila em uma balança e descobriu que ela tem 4 quilogramas. A balança foi usada para medir:',
     tip: 'Pensa em qual grandeza a balança costuma medir...',
@@ -331,6 +353,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Bernardo encheu uma garrafa com 500 mililitros de suco. Qual grandeza ele estava medindo?',
     tip: 'Pensa em qual grandeza medimos quando enchemos uma garrafa de líquido...',
@@ -346,6 +369,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'Bernardo brincou por 30 minutos de manhã e mais 30 minutos à tarde. Quanto tempo, ao todo, ele brincou naquele dia?',
     tip: 'Pensa: 30 minutos mais 30 minutos formam quantos minutos? E quantos minutos formam 1 hora?',
@@ -361,6 +385,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Medidas de comprimento",
     type: 'multiple_choice',
     text: 'Revisão: quantos metros tem 1 quilômetro?',
     tip: 'Lembra da relação entre quilômetro e metro que vimos nesse bimestre...',
@@ -376,6 +401,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Medidas de massa",
     type: 'multiple_choice',
     text: 'Revisão: quantos gramas tem 1 quilograma?',
     tip: 'Lembra da relação entre quilograma e grama que vimos nesse bimestre...',
@@ -391,6 +417,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Medidas de capacidade",
     type: 'multiple_choice',
     text: 'Revisão: quantos mililitros tem 1 litro?',
     tip: 'Lembra da relação entre litro e mililitro que vimos nesse bimestre...',
@@ -406,6 +433,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Medidas de tempo",
     type: 'multiple_choice',
     text: 'Revisão: quantos minutos tem 1 hora?',
     tip: 'Lembra da relação entre hora e minuto que vimos nesse bimestre...',
@@ -421,6 +449,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Revisão geral: por que é importante saber usar as unidades de medida (comprimento, massa, capacidade e tempo)?',
     tip: 'Pensa em quantas vezes você mede algo, mesmo sem perceber, ao longo do seu dia...',
@@ -436,6 +465,7 @@ export const questoesMatematica5AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Grandezas e medidas",
     type: 'multiple_choice',
     text: 'Parabéns por aprender sobre medidas de comprimento, massa, capacidade e tempo! O que é mais importante lembrar desse conteúdo?',
     tip: 'Pensa em tudo que aprendemos: metro, quilograma, litro, hora e suas conversões...',
