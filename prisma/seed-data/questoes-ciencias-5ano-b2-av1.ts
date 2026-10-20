@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB2Av1 = [
   {
     id: 1,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'O que é um ecossistema?',
     tip: 'Pensa: um ecossistema não é só os animais, nem só o lugar. É os dois juntos, interagindo! O que forma esse "conjunto"?',
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'O que são fatores bióticos de um ecossistema?',
     tip: 'A palavra "biótico" tem a ver com "vida" (bio = vida). Pensa em quais elementos de um ecossistema estão vivos.',
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'O que são fatores abióticos de um ecossistema?',
     tip: 'Se "biótico" é vida, "abiótico" é o contrário: sem vida! Pensa em elementos do ambiente que não estão vivos.',
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Quem são os produtores em uma cadeia alimentar?',
     tip: 'Pensa em quem consegue "fabricar" seu próprio alimento usando a luz do sol. Esse processo se chama fotossíntese!',
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Quem são os consumidores em uma cadeia alimentar?',
     tip: 'Se os produtores fazem seu próprio alimento, os consumidores precisam fazer o quê para conseguir energia?',
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Qual é a função dos decompositores, como fungos e bactérias, no ecossistema?',
     tip: 'Pensa no que acontece com uma folha ou um animal depois que morre. Quem "limpa" a natureza e recicla esses restos?',
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'O que é uma cadeia alimentar?',
     tip: 'Pensa na expressão "quem come quem". Uma cadeia alimentar mostra justamente essa sequência.',
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Em uma cadeia alimentar como "capim → gafanhoto → sapo → cobra", quem é o produtor?',
     tip: 'Lembra: o produtor é sempre quem faz fotossíntese, geralmente uma planta. Qual dos elementos da cadeia é uma planta?',
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Na mesma cadeia "capim → gafanhoto → sapo → cobra", o gafanhoto é classificado como:',
     tip: 'O gafanhoto come o capim (uma planta). Quem come plantas diretamente é chamado de consumidor de que nível?',
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Por que a energia do Sol é tão importante para as cadeias alimentares?',
     tip: 'Pensa lá na pergunta 4: quem usa a luz do Sol para produzir alimento? A energia começa ali e vai passando adiante.',
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'O que é uma teia alimentar?',
     tip: 'Pensa: se várias cadeias alimentares se conectam e se cruzam, formando uma rede, como podemos chamar isso?',
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Por que a teia alimentar é mais complexa do que uma simples cadeia alimentar?',
     tip: 'Pensa: na natureza, um sapo não come só um tipo de inseto, e também pode ser comido por mais de um predador. Isso é mais simples ou mais complexo que uma única cadeia?',
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Alimentação dos animais",
     type: 'multiple_choice',
     text: 'Animais que se alimentam somente de plantas são chamados de:',
     tip: 'A palavra "herbívoro" lembra "erva", que é planta! Pensa em quem come só plantas.',
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Alimentação dos animais",
     type: 'multiple_choice',
     text: 'Animais que se alimentam de outros animais são chamados de:',
     tip: 'A palavra "carne" está escondida em "carnívoro"! Pensa em quem se alimenta de carne, ou seja, de outros animais.',
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Alimentação dos animais",
     type: 'multiple_choice',
     text: 'Animais que comem tanto plantas quanto outros animais são chamados de:',
     tip: '"Onívoro" vem de "tudo"! Pensa em quem come de tudo: plantas e animais.',
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Na relação entre predador e presa, o que acontece?',
     tip: 'Pensa: quem caça é o predador, e quem é caçado é a presa. O que o predador faz com a presa?',
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'O que pode acontecer se um predador de um ecossistema for retirado (por exemplo, por caça)?',
     tip: 'Pensa: se o predador desaparece, quem ele costumava caçar vai diminuir ou aumentar em número?',
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'O que é desequilíbrio ecológico?',
     tip: 'Pensa em algo que "bagunça" o equilíbrio natural, como poluir um rio ou derrubar uma floresta. O que isso causa no ecossistema?',
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Como a energia se movimenta em uma teia alimentar?',
     tip: 'Pensa na ordem: primeiro quem produz o alimento, depois quem consome, e por fim quem decompõe os restos. Nessa ordem, para onde vai a energia?',
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Por que é importante preservar todos os elos de uma teia alimentar, mesmo os menores, como insetos?',
     tip: 'Pensa: mesmo os seres pequenos, como os insetos, servem de alimento para outros animais. O que aconteceria se eles sumissem de repente?',
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Bernardo visitou a Lagoa da Conceição, em Florianópolis, e viu peixes pequenos sendo comidos por peixes maiores. Isso é um exemplo de:',
     tip: 'Pensa: um peixe grande caçando um peixe pequeno é exatamente a relação que vimos na pergunta 16, entre quem caça e quem é caçado.',
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Na horta da escola de Bernardo, as minhocas ajudam a decompor folhas secas no solo. As minhocas, nesse caso, atuam como:',
     tip: 'Lembra: quem decompõe restos orgânicos e devolve nutrientes ao solo? As minhocas fazem um trabalho parecido com o dos fungos!',
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'Bernardo observou que, em seu jardim, as plantas crescem com a ajuda da luz do sol, da água e do solo. Água, luz e solo são exemplos de fatores:',
     tip: 'Água, luz e solo têm vida ou não têm vida? Lembra da diferença entre biótico e abiótico.',
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Se Bernardo monta a cadeia alimentar "alface → lagarta → pássaro → gavião", quem representa o consumidor de maior nível (topo da cadeia)?',
     tip: 'Pensa: quem está no final da cadeia, comendo os outros e não sendo comido por mais ninguém nessa sequência?',
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que retirar todas as abelhas de um jardim pode prejudicar as plantas que precisam ser polinizadas. Isso mostra que:',
     tip: 'Pensa: se as abelhas ajudam as plantas a se reproduzir (polinização) e elas somem, o que acontece com as plantas? Isso mostra que tudo está conectado ou separado?',
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Qual das opções abaixo representa corretamente o início de uma cadeia alimentar?',
     tip: 'Lembra: toda cadeia alimentar começa com quem produz seu próprio alimento através da fotossíntese.',
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Bernardo é considerado, na cadeia alimentar humana, um:',
     tip: 'Pensa: Bernardo consegue produzir seu próprio alimento como as plantas fazem? Ou ele precisa comer outros seres vivos?',
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre cadeia alimentar e teia alimentar?',
     tip: 'Pensa: uma cadeia é uma linha só, e uma teia junta várias linhas. Qual delas é mais parecida com uma rede?',
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Cadeias alimentares",
     type: 'multiple_choice',
     text: 'Por que os decompositores são essenciais para o equilíbrio dos ecossistemas?',
     tip: 'Lembra da pergunta 6: os decompositores reciclam algo muito importante para as plantas crescerem. O que é?',
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Ecossistemas",
     type: 'multiple_choice',
     text: 'Depois de estudar ecossistemas, Bernardo concluiu que todos os seres vivos de um ambiente:',
     tip: 'Pensa em tudo que aprendemos hoje: cadeias, teias, produtores, consumidores, decompositores... Eles funcionam sozinhos ou em conjunto?',

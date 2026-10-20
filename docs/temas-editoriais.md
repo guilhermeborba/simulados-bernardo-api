@@ -509,3 +509,51 @@ A classificação considera o objetivo da questão e as alternativas dos enuncia
 A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV2 e B3/AV1 têm três; B1/AV2, sete; B2/AV1 concentra um; B3/AV2 e B4/AV1 têm cinco; B4/AV2 revisa oito. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 O gabarito preexistente da questão 16 do B1/AV1 classifica 4.578 como ímpar, embora o número seja par. A inconsistência foi registrada na [issue web #82](https://github.com/guilhermeborba/simulados-bernardo/issues/82), sem alteração do gabarito neste lote de temas.
+
+### Ciências — 5º ano
+
+| Tema | Abrange |
+|---|---|
+| Alimentação dos animais | Hábitos alimentares e reconhecimento de herbívoros, carnívoros e onívoros conforme os alimentos consumidos. |
+| Alimentação saudável | Nutrientes, proteínas, carboidratos, vitaminas, variedade e equilíbrio da alimentação. |
+| Astronomia | Sistema Solar, estrelas, planetas, satélites, galáxias, universo, gravidade, eclipses, observação e exploração espacial. |
+| Biomas | Características, vegetação, fauna, clima e localização dos biomas brasileiros. |
+| Cadeias alimentares | Produtores, consumidores, decompositores, predadores, presas, cadeias, teias e transferência de energia. |
+| Ciclo da água | Circulação da água, formação de nuvens, etapas do ciclo, ação do Sol e renovação da água doce. |
+| Classificação dos animais | Características e comparação de vertebrados, invertebrados e grupos de vertebrados, incluindo regulação da temperatura corporal. |
+| Corpo humano | Órgãos e funções dos sistemas respiratório, circulatório, nervoso, imunológico, urinário e locomotor. |
+| Digestão | Órgãos, dentes, funções e processos do sistema digestório, incluindo absorção de nutrientes e formação das fezes. |
+| Ecossistemas | Interações entre seres vivos e ambiente, fatores bióticos e abióticos, biodiversidade, equilíbrio e relações ecológicas. |
+| Estados físicos | Características e exemplos dos estados sólido, líquido e gasoso. |
+| Fontes de energia | Energias renováveis e não renováveis, fontes solar e eólica, biogás e combustíveis fósseis. |
+| Hábitos de higiene | Lavagem das mãos, banho, escovação, limpeza das unhas, cuidados com ferimentos e prevenção da transmissão de germes. |
+| Lua e suas fases | Fases, iluminação, órbita, rotação, proximidade da Lua e observação de sua aparência. |
+| Movimentos da Terra | Rotação, translação, eixo terrestre, dias, noites, estações, solstícios, equinócios e posição na órbita. |
+| Músculos | Contrações e ação conjunta de músculos e ossos na produção de movimentos. |
+| Orientação e localização | Linha do Equador e localização do Brasil nos hemisférios. |
+| Ossos e articulações | Sustentação, proteção de órgãos e outras funções dos ossos no corpo humano. |
+| Preservação ambiental | Poluição, clima, desmatamento, ameaças à biodiversidade, proteção dos ambientes e reflorestamento. |
+| Resíduos e reciclagem | Reciclagem, compostagem, biodegradação, lixo eletrônico, coleta seletiva e os 3 Rs. |
+| Saúde e bem-estar | Defesas do organismo, doenças, epidemias, saneamento e sínteses sobre higiene, vacinação e prevenção. |
+| Seres vivos | Microrganismos e processos de obtenção de alimento pelas plantas, incluindo fotossíntese. |
+| Sustentabilidade | Economia de água, consumo consciente, manejo dos recursos e objetivos de desenvolvimento sustentável. |
+| Transformações da matéria | Mudanças de estado físico, aquecimento, resfriamento e reconhecimento desses processos no cotidiano. |
+| Vacinação | Finalidade das vacinas, prevenção de doenças, campanhas, carteira, calendário e profissionais de vacinação. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-ciencias-5ano-b*-av*.ts`. Não há entradas privadas de Ciências do 5º ano registradas no seed. Todos compartilham este vocabulário de 25 temas, reaproveitando os nomes dos anos anteriores quando o conteúdo corresponde.
+
+**Corpo humano** reúne os sistemas e suas funções, sem usar como tema o órgão ou sistema que o aluno deve identificar. Os conteúdos específicos de alimentação, digestão, ossos e músculos usam **Alimentação saudável**, **Digestão**, **Ossos e articulações** e **Músculos**. **Seres vivos** cobre microrganismos e a produção de alimento pelas plantas; não se usa “Fotossíntese” como rótulo da questão 27 do B4/AV1.
+
+**Vacinação** concentra vacinas, campanhas, carteira e calendário. **Hábitos de higiene** cobre os cuidados específicos, incluindo ferimentos; **Saúde e bem-estar**, as defesas do organismo e as sínteses sobre prevenção. A questão 28 do B1/AV2 pede reconhecer os próprios hábitos de higiene e usa **Saúde e bem-estar**, preservando a classificação como tarefa do aluno. Doenças, saneamento e epidemias também ficam nesse tema amplo.
+
+**Ecossistemas** cobre as relações entre seres vivos e ambiente, fatores bióticos e abióticos, biodiversidade e equilíbrio, incluindo mutualismo e parasitismo. **Cadeias alimentares** reúne produtores, consumidores, decompositores, predadores, presas e teias, sem antecipar o ser vivo ou o nível trófico da resposta. **Alimentação dos animais** diferencia hábitos alimentares; **Classificação dos animais** reúne critérios e grupos sem antecipar o grupo solicitado. **Biomas** cobre as formações brasileiras, sem usar o nome do bioma que pode ser a resposta.
+
+**Estados físicos** reúne características e exemplos; **Transformações da matéria**, as mudanças e sua identificação nos exemplos, sem usar “Fusão”, “Solidificação” ou outro processo como tema. **Ciclo da água** concentra as etapas e suas relações no ambiente. A poça que evapora, o espelho embaçado, o congelamento e o derretimento ficam em **Transformações da matéria**; chuva e infiltração no jardim ficam em **Ciclo da água**. A questão 29 do B2/AV2 pede reconhecer a mudança de estado físico e usa **Transformações da matéria**. A economia de água usa **Sustentabilidade**.
+
+**Astronomia** reúne tipos e características dos astros, eclipses, gravidade e exploração, sem antecipar o planeta, astro ou conceito que pode ser a resposta. **Lua e suas fases** concentra a observação e os movimentos lunares, incluindo perigeu e apogeu. **Movimentos da Terra** abrange dias, noites, estações, eixo e órbita sem antecipar “rotação”, “translação” ou o nome da estação solicitada. Equador e hemisférios usam **Orientação e localização**.
+
+**Preservação ambiental** reúne impactos, clima, proteção e conservação; **Resíduos e reciclagem**, destinação e aproveitamento dos resíduos. **Fontes de energia** compara fontes renováveis e não renováveis sem usar o nome da fonte específica como resposta no rótulo. **Sustentabilidade** também cobre consumo, manejo de recursos e Agenda 2030.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 revisa nove; B1/AV2, B2/AV1 e B3/AV1 têm três; B2/AV2 e B3/AV2, quatro; B4/AV1, seis; B4/AV2, cinco. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+A confusão preexistente entre o período orbital da Lua e o ciclo de fases, na alternativa A e na curiosidade da questão 2 do B3/AV2, foi registrada na [issue web #84](https://github.com/guilhermeborba/simulados-bernardo/issues/84), com fonte primária para revisão separada. O conteúdo original foi preservado neste lote de temas.

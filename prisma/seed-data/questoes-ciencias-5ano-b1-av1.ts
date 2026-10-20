@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB1Av1 = [
   {
     id: 1,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual órgão inicia o processo de digestão dos alimentos?",
     tip: "A digestão começa antes mesmo de engolirmos o alimento. Pense em qual órgão entra em contato com o alimento primeiro e já começa a quebrá-lo mecanicamente e quimicamente.",
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função principal do sistema respiratório?",
     tip: "O sistema respiratório é composto por nariz, faringe, laringe, traqueia, brônquios e pulmões. Qual é a troca que esses órgãos realizam para manter o organismo vivo?",
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é o órgão central do sistema circulatório?",
     tip: "O sistema circulatório é o sistema que distribui sangue, nutrientes e oxigênio para todos os tecidos do corpo. Qual órgão é o motor que bombeia o sangue por todo esse sistema?",
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O que é o sistema locomotor?",
     tip: "O sistema locomotor é o responsável pelo movimento do corpo. Pense em quais estruturas permitem que você caminhe, salte, dance ou escreva.",
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual dos seguintes alimentos é uma boa fonte de PROTEÍNAS?",
     tip: "As proteínas são nutrientes construtores — usados para formar e reparar músculos, pele, cabelos e outros tecidos. Quais alimentos são ricos nesse nutriente?",
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função dos pulmões?",
     tip: "Os pulmões ficam na caixa torácica e se enchem de ar a cada respiração. Qual é o processo que ocorre dentro deles quando o ar entra?",
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Vacinação",
     type: "multiple_choice",
     text: "Para que serve a vacinação?",
     tip: "As vacinas contêm versões enfraquecidas ou partes de agentes causadores de doenças. Como o organismo reage a elas e qual é o benefício dessa reação?",
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual parte do sistema digestório absorve a maior parte dos nutrientes dos alimentos?",
     tip: "Após o estômago, os alimentos passam para a próxima parte do tubo digestivo, onde acontece a maior parte da absorção de nutrientes para o sangue. Qual é essa parte?",
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "O que é saneamento básico?",
     tip: "O saneamento básico é fundamental para a saúde pública. Pense nos serviços essenciais que uma cidade precisa ter para evitar doenças e manter a qualidade de vida da população.",
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função do sistema nervoso?",
     tip: "O sistema nervoso é composto pelo encéfalo (cérebro, cerebelo, tronco encefálico), medula espinhal e nervos. Qual é o papel geral desse sistema no organismo?",
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "O que são microrganismos?",
     tip: "A palavra 'micro' significa pequeno, e 'organismo' significa ser vivo. Que tipo de ser vivo seria um microrganismo?",
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Hábitos de higiene",
     type: "multiple_choice",
     text: "Qual hábito de higiene é fundamental para prevenir doenças transmitidas pelo contato?",
     tip: "Muitas doenças são transmitidas pelas mãos — que tocam superfícies contaminadas e depois tocam os olhos, nariz e boca. Qual hábito simples interrompe essa cadeia de transmissão?",
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "O que é uma dieta equilibrada?",
     tip: "Uma dieta equilibrada não é a que exclui nenhum grupo de alimentos, nem a que come de tudo sem limites. Qual das opções define corretamente o que é uma dieta equilibrada?",
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Ossos e articulações",
     type: "multiple_choice",
     text: "Qual é a função dos ossos no corpo humano?",
     tip: "Os ossos fazem parte do sistema locomotor junto com os músculos. Mas eles têm mais de uma função — não apenas para se mover. Quais são elas?",
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O que é o sistema imunológico?",
     tip: "Nosso corpo está constantemente exposto a microrganismos que podem causar doenças. Qual sistema do organismo é responsável por combatê-los?",
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "Qual nutriente é a principal fonte de energia para o organismo?",
     tip: "Existem três macronutrientes que fornecem energia: carboidratos, proteínas e gorduras. Qual deles é o primeiro a ser usado como combustível pelo organismo na maioria das situações?",
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Como se chamam os dentes que ficam na frente da boca e são responsáveis por CORTAR os alimentos?",
     tip: "Os dentes têm formas diferentes de acordo com a função: os dentes da frente têm bordas cortantes para cortar; os caninos têm ponta para rasgar; os molares têm superfície larga para triturar. Qual é o nome dos dentes que cortam?",
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O que é o coração?",
     tip: "O coração é o órgão central do sistema circulatório. O que é ele, como é feito e qual é sua função principal?",
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "O que são vitaminas?",
     tip: "As vitaminas não fornecem energia, mas são essenciais para o funcionamento do organismo. Elas agem como 'facilitadoras' de reações químicas no corpo. O que são exatamente?",
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é o papel do fígado no sistema digestório?",
     tip: "O fígado é o maior órgão interno do corpo humano. Ele tem muitas funções, mas qual é sua participação específica no processo da digestão?",
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "Qual alternativa apresenta uma doença causada por VÍRUS?",
     tip: "Doenças podem ser causadas por bactérias, vírus, fungos ou parasitas. Pense nas doenças listadas — qual delas você sabe que é causada especificamente por um vírus?",
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "O que acontece no estômago durante a digestão?",
     tip: "O estômago recebe o alimento já parcialmente quebrado pela mastigação. O que ele faz com esse alimento — qual é o processo que ocorre dentro dele?",
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função dos rins?",
     tip: "Os rins fazem parte do sistema urinário. Eles funcionam como filtros do organismo. O que eles filtram e o que produzem?",
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "O que é a pressão arterial?",
     tip: "O coração bombeia o sangue com força para que ele circule por todo o corpo. Esse bombeamento cria uma pressão nas paredes das artérias. O que é exatamente essa pressão?",
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Corpo humano",
     type: "multiple_choice",
     text: "Qual é a função dos glóbulos vermelhos (hemácias)?",
     tip: "O sangue é composto por plasma, glóbulos vermelhos, glóbulos brancos e plaquetas. Cada um tem uma função diferente. Qual é a função específica dos glóbulos vermelhos?",
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "O que é o intestino grosso?",
     tip: "O intestino grosso fica após o intestino delgado no tubo digestivo. Se o intestino delgado absorve os nutrientes, qual é o papel do intestino grosso?",
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Músculos",
     type: "multiple_choice",
     text: "Qual é a função dos músculos?",
     tip: "Os músculos são tecidos com a capacidade de se contrair (encurtar) e relaxar. Qual é o resultado dessas contrações para o organismo?",
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Saúde e bem-estar",
     type: "multiple_choice",
     text: "O que é uma epidemia?",
     tip: "Quando uma doença afeta muitas pessoas ao mesmo tempo em uma região, recebe um nome específico. O que é uma epidemia exatamente?",
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Digestão",
     type: "multiple_choice",
     text: "Qual é a função dos dentes MOLARES?",
     tip: "Os molares ficam nos fundos da boca, têm superfície larga e são os maiores dentes. Qual é o trabalho deles na mastigação?",
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Alimentação saudável",
     type: "multiple_choice",
     text: "O que é um nutriente?",
     tip: "Os nutrientes são as substâncias que nosso corpo precisa para funcionar. O que exatamente define um nutriente e para que o organismo os usa?",

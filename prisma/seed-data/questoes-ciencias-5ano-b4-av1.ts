@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB4Av1 = [
   {
     id: 1,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "O que é um bioma?",
     tip: "Um bioma é uma categoria geográfica muito ampla. O que o define e o diferencia de um simples ecossistema ou habitat?",
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "Qual é o MAIOR bioma do Brasil?",
     tip: "O Brasil tem 6 biomas terrestres. Qual deles ocupa a maior área — cobrindo mais de 40% do território nacional?",
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que é a cadeia alimentar?",
     tip: "A cadeia alimentar descreve as relações de alimentação entre os seres vivos de um ecossistema de forma organizada. Como ela funciona?",
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que são os PRODUTORES em uma cadeia alimentar?",
     tip: "Os produtores estão na base de quase todas as cadeias alimentares. O que os define — o que eles 'produzem' e como?",
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "Qual bioma brasileiro é caracterizado pela vegetação seca e espinhosa, típico do Nordeste?",
     tip: "Esse bioma tem clima árido, chuvas escassas e irregulares, e plantas adaptadas para sobreviver à seca — como xique-xiques, mandacarus e umbuzeiros. Qual é?",
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que são CONSUMIDORES PRIMÁRIOS em uma cadeia alimentar?",
     tip: "Na cadeia alimentar, após os produtores (plantas), vêm os consumidores de primeiro nível. Quem são eles e do que se alimentam?",
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "O que é a Mata Atlântica?",
     tip: "A Mata Atlântica é o bioma costeiro do Brasil, que já cobriu uma área muito maior do que cobre hoje. O que aconteceu com ela?",
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que são DECOMPOSITORES na cadeia alimentar?",
     tip: "Os decompositores são frequentemente esquecidos nas representações simplificadas da cadeia alimentar, mas são essenciais. Qual é o papel deles?",
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O que são os animais VERTEBRADOS?",
     tip: "Os vertebrados formam um dos grandes grupos do reino animal. O que os caracteriza anatomicamente?",
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "Qual bioma brasileiro é caracterizado pelas savanas com árvores retorcidas e é o SEGUNDO maior bioma do Brasil?",
     tip: "Esse bioma fica no Brasil Central, tem árvores com troncos retorcidos e adaptadas a solos pobres e estação seca. Qual é?",
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que é a teia alimentar?",
     tip: "A teia alimentar é uma representação mais realista das relações de alimentação em um ecossistema do que a cadeia alimentar simples. O que a diferencia?",
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual dos grupos seguintes é formado por animais INVERTEBRADOS?",
     tip: "Invertebrados são animais sem coluna vertebral. São o grupo mais diverso do reino animal. Qual das opções contém apenas invertebrados?",
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "O que é o Pantanal?",
     tip: "O Pantanal é um bioma único no mundo, localizado principalmente em Mato Grosso do Sul. O que o caracteriza?",
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que são os CONSUMIDORES SECUNDÁRIOS?",
     tip: "Na cadeia alimentar: produtores → consumidores primários → consumidores secundários. Quem são os consumidores secundários e o que eles comem?",
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual característica define os MAMÍFEROS?",
     tip: "Os mamíferos são o grupo de vertebrados ao qual os humanos pertencem. Quais são as características que definem todos os mamíferos?",
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Biomas",
     type: "multiple_choice",
     text: "O que é o Pampa?",
     tip: "O Pampa é um bioma exclusivo do Sul do Brasil. O que o caracteriza?",
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O que são AVES?",
     tip: "As aves são um grupo muito diversificado de vertebrados. Quais são suas características definidoras?",
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que é um PREDADOR no ecossistema?",
     tip: "Na cadeia alimentar, há uma relação entre quem come e quem é comido. Como se chama o animal que caça e come outros animais?",
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O que são RÉPTEIS?",
     tip: "Répteis incluem cobras, lagartos, jacarés e tartarugas. O que eles têm em comum?",
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "O que são ANFÍBIOS?",
     tip: "O nome 'anfíbio' vem do grego 'amphi' (dois) + 'bios' (vida) — indicando que vivem em dois mundos. Quais são?",
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Ecossistemas",
     type: "multiple_choice",
     text: "O que é biodiversidade?",
     tip: "Biodiversidade é um conceito amplo que vai além de apenas contar espécies. O que ela engloba?",
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual é a característica dos PEIXES entre os vertebrados?",
     tip: "Os peixes são o grupo mais antigo de vertebrados e o mais diversificado. O que os define?",
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Ecossistemas",
     type: "multiple_choice",
     text: "O que é um ecossistema?",
     tip: "Um ecossistema é diferente de um bioma — é uma escala menor e mais específica. O que constitui um ecossistema?",
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Cadeias alimentares",
     type: "multiple_choice",
     text: "O que são os PREDADORES DE TOPO?",
     tip: "Na pirâmide alimentar, existem animais que estão no ponto mais alto — sem nenhum predador natural acima deles. Como eles são chamados e quais são exemplos?",
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual ação humana representa uma ameaça direta à biodiversidade dos biomas brasileiros?",
     tip: "A biodiversidade brasileira enfrenta diversas ameaças de origem humana. Qual das ações listadas causa impacto direto negativo?",
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Classificação dos animais",
     type: "multiple_choice",
     text: "Qual é a diferença entre animais de sangue quente (homeotérmicos) e de sangue frio (ectotérmicos)?",
     tip: "Essa diferença está relacionada à capacidade de regular a temperatura do corpo. Qual é a diferença fundamental?",
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Seres vivos",
     type: "multiple_choice",
     text: "O que é a fotossíntese?",
     tip: "A fotossíntese é o processo mais fundamental para a vida na Terra. O que as plantas fazem durante esse processo e o que produzem?",
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Ecossistemas",
     type: "multiple_choice",
     text: "O que é o equilíbrio ecológico?",
     tip: "O equilíbrio ecológico não significa que nada muda nos ecossistemas — a vida está em constante movimento. O que esse equilíbrio representa?",
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Ecossistemas",
     type: "multiple_choice",
     text: "O que é uma espécie endêmica?",
     tip: "Endêmica é uma espécie que só existe em um lugar específico do mundo. O que isso significa e por que essas espécies são especialmente vulneráveis?",
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é o reflorestamento?",
     tip: "O prefixo 're-' indica repetição — 'reflorestar' é refazer uma floresta onde ela foi destruída. O que é o reflorestamento?",

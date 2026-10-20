@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB3Av1 = [
   {
     id: 1,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é o Sistema Solar?",
     tip: "O Sistema Solar é muito maior do que apenas os planetas. Pense em tudo que orbita ao redor da nossa estrela.",
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é a estrela do Sistema Solar?",
     tip: "Estrelas produzem luz e calor próprios por reações nucleares. No Sistema Solar, qual é o astro que produz luz e calor por si mesmo?",
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que é a ROTAÇÃO da Terra?",
     tip: "A Terra tem dois movimentos principais: um ao redor de si mesma e outro ao redor do Sol. O movimento ao redor de si mesma tem um nome específico — qual é ele e o que causa?",
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Quantos planetas existem no Sistema Solar atualmente?",
     tip: "Preste atenção: Plutão foi rebaixado de planeta a 'planeta anão' em 2006. Contando os planetas oficialmente reconhecidos hoje, quantos são?",
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que é a TRANSLAÇÃO da Terra?",
     tip: "A translação é o segundo movimento principal da Terra. Qual é a trajetória que a Terra percorre e o que esse movimento origina?",
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o MAIOR planeta do Sistema Solar?",
     tip: "Os planetas do Sistema Solar variam enormemente de tamanho. Qual dos gigantes gasosos é o maior de todos?",
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "O que são as fases da Lua?",
     tip: "A Lua não produz luz própria — ela reflete a luz do Sol. O que muda é a parte iluminada visível da Terra, dependendo da posição relativa dos três astros.",
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é a característica que diferencia PLANETAS de ESTRELAS?",
     tip: "Estrelas como o Sol produzem luz por reações nucleares. Os planetas, como a Terra, não produzem luz dessa forma. Qual é a principal diferença entre eles?",
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que são cometas?",
     tip: "Cometas são corpos do Sistema Solar com uma característica visual marcante: desenvolvem uma cauda brilhante quando se aproximam do Sol. De que são feitos e como se movem?",
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que causa o dia e a noite na Terra?",
     tip: "Pense: durante o dia, o Sol ilumina a Terra. Durante a noite, não há Sol visível. O que faz com que metade da Terra esteja iluminada e a outra metade escura, alternando-se ao longo das 24 horas?",
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o planeta mais próximo do Sol?",
     tip: "Os planetas estão ordenados do mais próximo ao mais distante do Sol: imagine a sequência dos oito planetas começando pelo menor e mais próximo.",
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é um satélite natural?",
     tip: "O prefixo 'natural' distingue esses astros dos satélites artificiais lançados pelo ser humano. O que é um satélite natural e qual é o exemplo mais famoso para nós?",
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o planeta famoso pelos seus anéis visíveis?",
     tip: "Embora outros planetas também tenham anéis, há um planeta cujos anéis são tão espetaculares que podem ser vistos com um telescópio simples. Qual é ele?",
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que causa as estações do ano (verão, outono, inverno, primavera)?",
     tip: "Muitas pessoas acham que as estações ocorrem porque a Terra fica mais perto ou mais longe do Sol — mas isso não está correto. A verdadeira causa tem a ver com como a luz solar chega à superfície. Qual é o fator determinante?",
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual planeta é conhecido como o 'planeta vermelho'?",
     tip: "Um dos planetas tem uma coloração avermelhada característica que o tornou famoso nas culturas humanas ao longo da história. Qual é ele?",
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é um asteroide?",
     tip: "Asteroides são corpos rochosos que orbitam o Sol. Onde a maioria deles se concentra no Sistema Solar?",
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é uma galáxia?",
     tip: "O universo tem uma hierarquia de tamanho: asteroides, planetas, sistemas solares, galáxias, aglomerados de galáxias, universo observável. O que é uma galáxia nessa hierarquia?",
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Qual é a fase da Lua em que NÃO vemos nenhuma parte iluminada dela?",
     tip: "As quatro fases principais da Lua são: Lua Nova, Lua Crescente, Lua Cheia e Lua Minguante. Em qual fase a Lua está posicionada entre a Terra e o Sol, de modo que sua face iluminada está voltada para o Sol e não para nós?",
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o planeta mais distante do Sol dentre os planetas oficialmente reconhecidos?",
     tip: "Dos oito planetas, qual fica na extremidade mais afastada do Sistema Solar?",
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é um eclipse SOLAR?",
     tip: "Um eclipse solar ocorre quando um astro bloqueia a luz do Sol chegando à Terra. Qual astro se posiciona entre o Sol e a Terra nesse fenômeno?",
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Quanto tempo a luz do Sol leva para chegar à Terra?",
     tip: "A luz percorre cerca de 300.000 km por segundo. A Terra está a aproximadamente 150 milhões de km do Sol. Faça o cálculo: quanto tempo a luz leva para percorrer essa distância?",
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Qual é a fase da Lua em que vemos o disco lunar COMPLETAMENTE iluminado?",
     tip: "Nas fases da Lua, a quantidade de área iluminada visível da Terra muda. Qual fase mostra o máximo de iluminação — o disco completo?",
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é o universo?",
     tip: "O universo é a maior escala de tudo que existe. O que ele engloba?",
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é um eclipse LUNAR?",
     tip: "No eclipse lunar, o que fica na sombra é a Lua — não a Terra. Qual astro precisa estar entre o Sol e a Lua para isso acontecer?",
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que mantém os planetas em órbita ao redor do Sol?",
     tip: "Os planetas não 'voam em linha reta' para longe do Sol, nem caem diretamente nele. O que mantém cada planeta em sua trajetória curva ao redor do Sol?",
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Qual das afirmações sobre a Lua está CORRETA?",
     tip: "Analise cada afirmação sobre a Lua e verifique qual está de acordo com os fatos científicos.",
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que é o solstício?",
     tip: "O solstício marca um momento especial do ano relacionado à quantidade de horas de luz solar. O que exatamente acontece nesse dia?",
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o planeta com a atmosfera mais DENSA do Sistema Solar?",
     tip: "A atmosfera é a camada de gases ao redor de um planeta. Qual planeta tem uma atmosfera tão densa que a pressão em sua superfície seria esmagadora para os seres humanos?",
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a Via Láctea?",
     tip: "A Via Láctea é o 'endereço galáctico' do Sistema Solar. O que é ela exatamente?",
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual dos astros a seguir NÃO é considerado um planeta oficial do Sistema Solar?",
     tip: "Em 2006, a União Astronômica Internacional redefiniu o conceito de planeta. Um desses astros foi rebaixado a 'planeta anão'. Qual?",

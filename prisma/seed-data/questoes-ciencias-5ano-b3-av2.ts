@@ -1,6 +1,7 @@
 export const questoesCiencias5AnoB3Av2 = [
   {
     id: 1,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é uma estrela?",
     tip: "As estrelas são os astros mais abundantes e luminosos do universo. O que as caracteriza e as diferencia dos planetas?",
@@ -16,6 +17,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "Qual é o movimento que a Lua faz ao redor da Terra?",
     tip: "O mesmo movimento que a Terra faz ao redor do Sol, a Lua faz ao redor da Terra. Como esse movimento se chama e quanto tempo leva?",
@@ -31,6 +33,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que é o equinócio?",
     tip: "O equinócio ocorre duas vezes por ano e está relacionado ao equilíbrio entre dia e noite. O que exatamente acontece nesse momento?",
@@ -46,6 +49,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Qual das seguintes estações do ano ocorre no hemisfério sul do Brasil durante os meses de dezembro a março?",
     tip: "O Brasil fica no hemisfério sul. As estações do hemisfério sul são opostas às do hemisfério norte — quando é verão no Brasil, é inverno na Europa. Qual estação vai de dezembro a março no Brasil?",
@@ -61,6 +65,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é uma nebulosa?",
     tip: "Nebulosas são estruturas observáveis no espaço com formas variadas e muitas vezes coloridas. O que são e por que são importantes para a formação de estrelas?",
@@ -76,6 +81,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Qual é a estação do ano que se segue ao inverno no hemisfério sul?",
     tip: "As estações do ano se sucedem em uma ordem específica: primavera, verão, outono, inverno — e depois recomeça. Qual vem logo depois do inverno?",
@@ -91,6 +97,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a força gravitacional?",
     tip: "A força gravitacional é fundamental para manter o universo organizado — mantém planetas em órbita, estrelas em galáxias, e nos mantém no chão. O que é exatamente essa força?",
@@ -106,6 +113,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual foi o primeiro ser humano a pisar na Lua?",
     tip: "A missão Apollo 11, em julho de 1969, marcou a história da humanidade. Qual astronauta deu o primeiro passo na superfície lunar?",
@@ -121,6 +129,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a luz-ano?",
     tip: "Apesar de ter 'ano' no nome, a luz-ano não é uma medida de tempo — é uma medida de distância. O que ela representa?",
@@ -136,6 +145,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Em qual hemisfério fica a maior parte do Brasil?",
     tip: "O Brasil é um país grande que cruza o equador. Mas a maior parte de seu território fica em qual hemisfério?",
@@ -151,6 +161,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é uma constelação?",
     tip: "Desde a antiguidade, as pessoas agruparam as estrelas em figuras imaginárias no céu. Como se chama esse agrupamento e para que serviu historicamente?",
@@ -166,6 +177,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Por que sentimos mais calor no VERÃO do que no inverno?",
     tip: "A causa das estações não é a distância da Terra ao Sol (que varia pouco). A causa real tem a ver com como a luz solar chega à superfície em diferentes épocas do ano.",
@@ -181,6 +193,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é um buraco negro?",
     tip: "Um buraco negro é uma das estruturas mais extremas do universo. O que o define e o que o torna tão especial?",
@@ -196,6 +209,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que é o eixo terrestre?",
     tip: "O eixo terrestre é imaginário — não existe fisicamente — mas é fundamental para entender os movimentos da Terra. O que é esse eixo?",
@@ -211,6 +225,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual foi o primeiro satélite artificial lançado ao espaço?",
     tip: "A corrida espacial entre os EUA e a União Soviética marcou a segunda metade do século XX. Qual foi o primeiro satélite artificial enviado ao espaço?",
@@ -226,6 +241,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a Zona Habitável de uma estrela?",
     tip: "A busca por vida extraterrestre considera uma região específica ao redor de estrelas como candidata a abrigar planetas com vida. O que é essa zona?",
@@ -241,6 +257,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O que é o equador terrestre?",
     tip: "O equador é uma linha imaginária fundamental da geografia terrestre. O que ele representa e onde fica?",
@@ -256,6 +273,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "O que é a rotação LUNAR?",
     tip: "A Lua, como a Terra, também gira ao redor do próprio eixo. Qual é uma consequência interessante desse fato?",
@@ -271,6 +289,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é um telescópio?",
     tip: "O telescópio é o instrumento mais importante da astronomia observacional. O que ele faz e como permite observar o que não pode ser visto a olho nu?",
@@ -286,6 +305,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Por que o Brasil tem estações do ano MENOS extremas do que países como a Rússia ou o Canadá?",
     tip: "A intensidade das estações do ano está diretamente relacionada à localização geográfica de um país. O que faz as estações do Brasil serem menos extremas?",
@@ -301,6 +321,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "Em que estação do ano o hemisfério sul está inclinado EM DIREÇÃO ao Sol?",
     tip: "As estações ocorrem porque o eixo terrestre está inclinado. Quando o hemisfério sul aponta em direção ao Sol, qual estação está acontecendo no Brasil?",
@@ -316,6 +337,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "O que é a superlua?",
     tip: "A superlua é um fenômeno em que a Lua aparece maior e mais brilhante que o normal. Por que isso acontece?",
@@ -331,6 +353,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é o nome da galáxia em que vivemos?",
     tip: "Nossa galáxia tem um nome poético que vem da mitologia grega e da aparência que ela tem no céu noturno. Qual é?",
@@ -346,6 +369,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual das afirmações sobre o Sol está CORRETA?",
     tip: "O Sol é frequentemente descrito de formas exageradas — 'maior estrela', 'centro do universo'. Qual das afirmações é cientificamente precisa?",
@@ -361,6 +385,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "O que é o perigeu?",
     tip: "A Lua não orbita a Terra em círculo perfeito — sua órbita é elíptica, com pontos mais próximos e mais distantes. Como se chama o ponto mais próximo?",
@@ -376,6 +401,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Movimentos da Terra",
     type: "multiple_choice",
     text: "O que é o afélio?",
     tip: "A Terra não orbita o Sol em círculo perfeito — a órbita é elíptica. O afélio é um dos dois pontos extremos dessa órbita. Qual é ele?",
@@ -391,6 +417,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Por que as estrelas PISCAM quando observadas a olho nu à noite?",
     tip: "As estrelas não piscam de verdade — são elas que emitem luz constante. O que acontece com essa luz antes de chegar até nossos olhos?",
@@ -406,6 +433,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Lua e suas fases",
     type: "multiple_choice",
     text: "O que é o apogeu?",
     tip: "O apogeu é o ponto oposto ao perigeu na órbita da Lua. Se o perigeu é o ponto mais próximo, o apogeu é...?",
@@ -421,6 +449,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "Qual é a diferença entre um PLANETA e um PLANETA ANÃO?",
     tip: "Em 2006, a UAI (União Astronômica Internacional) estabeleceu três critérios para ser planeta. Planeta anão cumpre dois, mas não o terceiro. Qual é essa diferença?",
@@ -436,6 +465,7 @@ export const questoesCiencias5AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Astronomia",
     type: "multiple_choice",
     text: "O que é a astronomia?",
     tip: "A astronomia é uma das ciências mais antigas da humanidade. O que ela estuda?",
