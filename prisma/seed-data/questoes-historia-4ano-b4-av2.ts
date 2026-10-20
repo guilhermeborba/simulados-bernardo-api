@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB4Av2 = [
   {
     id: 1,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O que são direitos das crianças?",
     tip: "Pensa em coisas que toda criança precisa para crescer bem e feliz, como poder estudar e ser cuidada.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O Estatuto da Criança e do Adolescente (ECA) é uma lei brasileira que:",
     tip: "Pensa no nome dessa lei, que já diz que ela é sobre crianças e adolescentes.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Qual desses é um direito garantido às crianças?",
     tip: "Pensa em coisas essenciais para o bom desenvolvimento de qualquer criança.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Além de direitos, as crianças também têm deveres, como:",
     tip: "Pensa em atitudes importantes que ajudam a criança a conviver bem em casa, na escola e na sociedade.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O direito à convivência familiar significa que toda criança tem o direito de:",
     tip: "Pensa em como é importante para uma criança crescer perto de pessoas que cuidam e protegem dela.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O direito ao lazer garante que as crianças tenham:",
     tip: "Pensa em como brincar e se divertir também é muito importante para o desenvolvimento de uma criança.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "O trabalho infantil, ou seja, obrigar crianças a trabalharem em vez de estudar e brincar, é:",
     tip: "Pensa em como o trabalho infantil vai contra os direitos de educação, saúde e lazer que toda criança deve ter.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Por que é importante que as crianças conheçam seus próprios direitos?",
     tip: "Pensa em como conhecer seus direitos ajuda uma criança a perceber quando algo não está certo e buscar ajuda.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Qual é o papel dos adultos (pais, professores, comunidade) em relação aos direitos das crianças?",
     tip: "Pensa em como cabe aos adultos cuidar para que as crianças tenham seus direitos respeitados.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância dos direitos das crianças?",
     tip: "Pensa em tudo que aprendemos hoje sobre saúde, educação, lazer e proteção que toda criança merece ter.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Lembrando o início do nosso ano de estudos, o que são fontes históricas?",
     tip: "Pensa em tudo que aprendemos no início do ano sobre pistas que contam sobre o passado.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Tempo histórico",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre linha do tempo, os fatos mais antigos geralmente são colocados:",
     tip: "Pensa em como organizamos os fatos \"do mais antigo para o mais recente\" em uma linha do tempo.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Organização social",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre comunidades, o que forma uma comunidade?",
     tip: "Pensa nas pessoas que moram perto de você e compartilham o mesmo bairro ou cidade.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre os povos indígenas, quantos povos indígenas diferentes existem atualmente no Brasil?",
     tip: "Pensa em como o Brasil tem uma grande diversidade de povos indígenas, cada um com costumes próprios.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre a história dos povos africanos no Brasil, um símbolo de resistência à escravidão foi:",
     tip: "Pensa em uma comunidade formada por pessoas que fugiam da escravidão em busca de liberdade.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre imigração, o povo brasileiro se formou, principalmente, a partir do encontro entre:",
     tip: "Pensa em tudo que aprendemos sobre a mistura de culturas que formou o Brasil.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre trabalho e tecnologia, como as ferramentas de trabalho mudaram ao longo do tempo?",
     tip: "Pensa em como uma máquina de lavar roupa é bem diferente de lavar roupa à mão, como era feito antigamente.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Lembrando o que aprendemos sobre patrimônio histórico e cultural, qual é a diferença entre patrimônio material e imaterial?",
     tip: "Pensa em tudo que aprendemos sobre monumentos (material) e tradições, como danças e músicas (imaterial).",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Lembrando tudo que estudamos esse ano em História, qual é a importância de conhecer o passado?",
     tip: "Pensa em tudo que aprendemos esse ano: fontes históricas, povos, imigração, tecnologia e patrimônio, tudo conectado para entender melhor o presente.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Depois de um ano inteiro estudando História, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que aprendemos esse ano sobre fontes históricas, povos, culturas e patrimônio.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Bernardo sabe que tem direito à educação, à saúde e ao lazer. Mas ele também aprendeu que tem deveres, como:",
     tip: "Lembra que direitos e deveres andam sempre juntos na vida em sociedade.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Se Bernardo perceber que um colega está tendo seus direitos desrespeitados, como o direito à proteção, a atitude mais correta seria:",
     tip: "Pensa em como buscar ajuda de um adulto responsável é sempre uma atitude importante em situações assim.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Bernardo aprendeu, ao longo do ano, sobre fontes históricas, povos indígenas, povos africanos, imigração, trabalho, tecnologia e patrimônio. Isso mostra que a História:",
     tip: "Pensa em como cada tema que estudamos esse ano nos ajudou a entender uma parte diferente da história das pessoas.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Depois de aprender sobre os direitos das crianças, Bernardo quer ajudar a divulgar essas informações para outros colegas. Essa atitude mostra que ele:",
     tip: "Pensa em como compartilhar conhecimentos importantes pode ajudar outras pessoas a também conhecerem seus direitos.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Qual foi um dos povos que ajudou a formar a cultura brasileira, estudado logo no início do nosso ano de História, sendo os primeiros habitantes do Brasil?",
     tip: "Pensa em quem já vivia no Brasil muito antes da chegada dos europeus, em 1500.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Escravidão e resistência",
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre um símbolo de resistência à escravidão que liderou o Quilombo dos Palmares. O nome desse símbolo é:",
     tip: "Lembra o nome do líder que se tornou um símbolo de luta e resistência contra a escravidão no Brasil.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "História e memória",
     type: "multiple_choice",
     text: "Se Bernardo quisesse resumir tudo que aprendeu no 4º ano sobre História, ele poderia dizer que:",
     tip: "Pensa no resumo de tudo que vimos esse ano: fontes, povos, imigração, trabalho, tecnologia, patrimônio e direitos.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é uma boa atitude de Bernardo para respeitar os direitos de outras crianças no dia a dia?",
     tip: "Pensa em como cada criança merece ser tratada com respeito, assim como Bernardo também gostaria de ser tratado.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância de conhecer os direitos e deveres das crianças?",
     tip: "Pensa em tudo que aprendemos hoje sobre saúde, educação, lazer, proteção e deveres.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Educação e família",
     type: "multiple_choice",
     text: "Depois de um ano inteiro de estudos, com muito aprendizado em Geografia, Português, Matemática, Ciências e História, qual é a melhor mensagem final para Bernardo?",
     tip: "Pensa em todo o caminho percorrido esse ano, em todas as matérias, e no quanto você cresceu e aprendeu.",

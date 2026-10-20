@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB2Av1 = [
   {
     id: 1,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Quem foram os primeiros habitantes do território que hoje chamamos de Brasil?",
     tip: "Pensa em quem já vivia nessas terras muito antes da chegada dos navios portugueses, em 1500.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "No Brasil de hoje, existem:",
     tip: "Pensa em como o Brasil é um país grande, com muitos povos diferentes vivendo nele, inclusive povos indígenas.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "As casas tradicionais de muitos povos indígenas, feitas de materiais naturais como madeira e palha, onde várias famílias podem morar juntas, são chamadas de:",
     tip: "Pensa no nome dado às moradias tradicionais indígenas, feitas com materiais da natureza.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Moradias e cotidiano",
     type: "multiple_choice",
     text: "O conjunto de casas onde vive uma comunidade indígena é chamado de:",
     tip: "Pensa no nome usado para o lugar onde uma comunidade indígena vive e se organiza.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Muitos povos indígenas têm uma relação de grande respeito com:",
     tip: "Pensa em como muitos povos indígenas retiram da natureza o que precisam para viver, cuidando dela com respeito.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Antes da chegada dos europeus, os povos indígenas que viviam no Brasil já tinham:",
     tip: "Pensa em como os povos indígenas já viviam de forma organizada muito antes de 1500.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Por que é importante estudar e respeitar a história e a cultura dos povos indígenas?",
     tip: "Pensa em como a cultura brasileira tem muitas influências que vêm dos povos indígenas, até hoje.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Os povos indígenas do Brasil falam:",
     tip: "Pensa em como cada povo indígena pode ter sua própria língua, diferente da de outros povos.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A palavra \"Brasil\" e muitos nomes de lugares, plantas e animais brasileiros têm origem em línguas:",
     tip: "Pensa em palavras como \"abacaxi\", \"jacaré\" e \"mandioca\" — de onde será que elas vieram?",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é uma forma respeitosa de se referir aos povos originários do Brasil?",
     tip: "Pensa em como cada povo indígena tem um nome próprio e uma cultura única, que merece ser respeitada.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Alimentação e costumes",
     type: "multiple_choice",
     text: "A mandioca é um alimento muito importante na cultura de muitos povos indígenas porque:",
     tip: "Pensa em um alimento usado para fazer farinha, muito presente na culinária brasileira até hoje.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O artesanato indígena, como cestos, cerâmicas e adornos feitos à mão, é importante porque:",
     tip: "Pensa em como cada peça de artesanato carrega um pouco da história e da cultura de um povo.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A pintura corporal, muito usada por diversos povos indígenas, pode ter a função de:",
     tip: "Pensa em como os desenhos no corpo podem contar algo sobre quem é aquela pessoa e a que grupo ela pertence.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Muitos povos indígenas têm um profundo conhecimento sobre:",
     tip: "Pensa em como muitos remédios naturais que conhecemos hoje têm origem em conhecimentos indígenas sobre plantas.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é um exemplo de povo indígena que vive no Brasil?",
     tip: "Pensa em qual desses povos realmente vive no território brasileiro, com sua própria cultura e língua.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "As rodas de conversa e os rituais em comunidades indígenas costumam servir para:",
     tip: "Pensa em como os mais velhos de uma comunidade podem ensinar histórias e saberes importantes para os mais jovens.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Hoje em dia, os povos indígenas do Brasil:",
     tip: "Pensa em como as culturas, incluindo a indígena, podem se transformar com o tempo sem deixar de existir.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "As terras indígenas no Brasil são importantes porque:",
     tip: "Pensa em como é importante que cada povo tenha um lugar garantido para viver e manter viva sua cultura.",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é uma contribuição dos povos indígenas para a cultura brasileira atual?",
     tip: "Pensa em tudo que aprendemos hoje sobre palavras, comidas e conhecimentos que vêm da cultura indígena.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Qual é a atitude mais respeitosa em relação aos povos indígenas e sua cultura?",
     tip: "Pensa em como cada povo indígena merece ser conhecido e respeitado em sua própria identidade.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Bernardo aprendeu na escola sobre um povo indígena que vive em aldeias, fala sua própria língua e tem tradições culturais próprias. A melhor forma de Bernardo se referir a esse povo é:",
     tip: "Lembra que cada povo indígena tem seu próprio nome e identidade, que merecem ser respeitados.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "Bernardo visitou uma exposição sobre cultura indígena e viu cestos, cerâmicas e adornos feitos à mão. Esses objetos representam:",
     tip: "Lembra o que aprendemos sobre o significado cultural do artesanato indígena.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Se Bernardo quisesse aprender mais sobre os povos indígenas que vivem hoje no Brasil, uma boa atitude seria:",
     tip: "Pensa em como podemos aprender de verdade sobre um assunto: pesquisando e ouvindo quem vive aquela realidade.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo descobriu que a palavra \"Curitiba\" tem origem em uma língua indígena. Isso mostra que:",
     tip: "Lembra que muitas palavras do português brasileiro, incluindo nomes de cidades, vêm de línguas indígenas.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Formação do Brasil",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância dos povos indígenas para a história e a cultura do Brasil?",
     tip: "Pensa no resumo de tudo que aprendemos hoje sobre a presença indígena, desde antes de 1500 até os dias atuais.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Direitos e participação",
     type: "multiple_choice",
     text: "Bernardo ficou sabendo que muitos povos indígenas lutam para proteger suas terras e sua cultura até hoje. Essa luta é importante porque:",
     tip: "Pensa em como é importante que cada povo tenha seus direitos e seu território garantidos para continuar existindo.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Depois de estudar sobre os povos indígenas, Bernardo quer ser mais respeitoso no dia a dia. Uma boa atitude seria:",
     tip: "Pensa em como cada cultura merece respeito, sem piadas ou preconceitos.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual das opções apresenta corretamente uma característica dos povos indígenas do Brasil?",
     tip: "Pensa em tudo que aprendemos sobre a variedade de povos indígenas existentes no Brasil.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo aprendeu que muitas palavras que ele usa no dia a dia, como \"pipoca\" e \"tatu\", vêm de línguas indígenas. Isso mostra que:",
     tip: "Pensa em como a língua que falamos todos os dias carrega heranças de diferentes culturas, inclusive a indígena.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Cidadania e respeito",
     type: "multiple_choice",
     text: "Depois de estudar sobre os povos indígenas do Brasil, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: história, diversidade, cultura e respeito aos povos indígenas.",

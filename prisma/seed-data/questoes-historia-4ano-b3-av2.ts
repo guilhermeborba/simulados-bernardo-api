@@ -1,6 +1,7 @@
 export const questoesHistoria4AnoB3Av2 = [
   {
     id: 1,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Antigamente, muitas roupas eram feitas:",
     tip: "Pensa em como, antes das máquinas modernas, as roupas precisavam ser feitas com muito trabalho manual.",
@@ -16,6 +17,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Antigamente, para lavar roupas, muitas famílias:",
     tip: "Pensa em como era trabalhoso lavar roupa antes da invenção da máquina de lavar.",
@@ -31,6 +33,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Uma profissão que era muito comum no passado e hoje é mais rara é a de:",
     tip: "Pensa em uma profissão relacionada a uma máquina antiga, usada antes dos computadores, para escrever textos.",
@@ -46,6 +49,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Trabalho no campo",
     type: "multiple_choice",
     text: "O trabalho na agricultura, antigamente, era realizado principalmente:",
     tip: "Pensa em como, antes dos tratores modernos, o trabalho no campo dependia muito da força humana e animal.",
@@ -61,6 +65,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "História do trabalho",
     type: "multiple_choice",
     text: "Por que é importante conhecer como era o trabalho no passado?",
     tip: "Pensa em como comparar o passado com o presente ajuda a perceber grandes mudanças na forma de trabalhar.",
@@ -76,6 +81,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Patrimônio e preservação",
     type: "multiple_choice",
     text: "O trabalho artesanal, feito à mão por artesãos, é importante porque:",
     tip: "Pensa em como uma técnica de fazer cestos ou cerâmicas pode ser ensinada de pais para filhos, ao longo de gerações.",
@@ -91,6 +97,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Comunicação e tecnologia",
     type: "multiple_choice",
     text: "Antigamente, muitas cartas eram escritas à mão e entregues:",
     tip: "Pensa em como era mais demorado se comunicar com alguém distante antes da internet e do telefone.",
@@ -106,6 +113,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Como as ferramentas de trabalho mudaram ao longo do tempo?",
     tip: "Pensa em como uma máquina de lavar roupa moderna é bem diferente de lavar roupa à mão.",
@@ -121,6 +129,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "O trabalho doméstico, como lavar, cozinhar e limpar a casa, mudou ao longo do tempo principalmente por causa:",
     tip: "Pensa em como aparelhos modernos facilitaram bastante as tarefas de casa que antes eram feitas de forma totalmente manual.",
@@ -136,6 +145,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir como o trabalho mudou ao longo da história?",
     tip: "Pensa em tudo que aprendemos hoje sobre roupas, lavagem de roupa, agricultura e comunicação ao longo do tempo.",
@@ -151,6 +161,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Comunicação e tecnologia",
     type: "multiple_choice",
     text: "Antes da invenção do telefone, as pessoas se comunicavam à distância principalmente através de:",
     tip: "Pensa em como era a comunicação antes dos aparelhos eletrônicos modernos.",
@@ -166,6 +177,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Comunicação e tecnologia",
     type: "multiple_choice",
     text: "A internet mudou a forma como as pessoas se comunicam porque:",
     tip: "Pensa em como hoje é possível conversar em tempo real com alguém do outro lado do mundo, algo impossível há poucas décadas.",
@@ -181,6 +193,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Transportes e viagens",
     type: "multiple_choice",
     text: "Antigamente, para viajar longas distâncias, muitas pessoas utilizavam:",
     tip: "Pensa em meios de transporte mais antigos, usados antes da popularização dos carros e aviões.",
@@ -196,6 +209,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Transportes e viagens",
     type: "multiple_choice",
     text: "A invenção do automóvel trouxe qual mudança para o transporte das pessoas?",
     tip: "Pensa em como um carro é bem mais rápido do que uma carroça puxada por cavalos.",
@@ -211,6 +225,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Transportes e viagens",
     type: "multiple_choice",
     text: "A invenção do avião permitiu que as pessoas:",
     tip: "Pensa em como uma viagem que levava semanas de navio pode ser feita em poucas horas de avião.",
@@ -226,6 +241,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Como os eletrodomésticos, como geladeira, fogão e máquina de lavar, mudaram a vida das famílias?",
     tip: "Pensa em como seria mais difícil conservar alimentos ou lavar roupas sem esses aparelhos modernos.",
@@ -241,6 +257,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "O computador e a internet mudaram muitas profissões porque:",
     tip: "Pensa em profissões que só existem hoje por causa da tecnologia, como programador ou criador de conteúdo digital.",
@@ -256,6 +273,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Antigamente, sem máquinas de calcular ou computadores, muitos cálculos eram feitos:",
     tip: "Pensa em como as pessoas resolviam contas matemáticas antes da invenção das calculadoras eletrônicas.",
@@ -271,6 +289,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Qual é uma vantagem da evolução da tecnologia ao longo do tempo?",
     tip: "Pensa em tudo que aprendemos hoje sobre como a tecnologia facilitou a vida das pessoas ao longo da história.",
@@ -286,6 +305,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir como a tecnologia mudou o trabalho e a comunicação ao longo do tempo?",
     tip: "Pensa em tudo que vimos hoje sobre transporte, comunicação e ferramentas de trabalho ao longo da história.",
@@ -301,6 +321,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "A avó de Bernardo contou que, quando era criança, lavava roupa à mão no rio, sem máquina de lavar. Isso mostra que:",
     tip: "Pensa em tudo que aprendemos hoje sobre como os eletrodomésticos facilitaram as tarefas de casa.",
@@ -316,6 +337,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Comunicação e tecnologia",
     type: "multiple_choice",
     text: "Bernardo perguntou ao avô como ele se comunicava com amigos distantes quando era jovem, antes da internet. A resposta mais provável seria:",
     tip: "Lembra as formas de comunicação usadas antes da popularização da internet e dos celulares modernos.",
@@ -331,6 +353,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Bernardo visitou um museu e viu uma antiga máquina de escrever, muito usada no passado para digitar textos. Hoje, essa função é feita principalmente por:",
     tip: "Pensa em qual aparelho moderno substituiu a função de digitar textos que antes era feita pela máquina de escrever.",
@@ -346,6 +369,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Transportes e viagens",
     type: "multiple_choice",
     text: "Se Bernardo comparasse uma viagem de carroça, no passado, com uma viagem de avião, hoje, ele perceberia que:",
     tip: "Pensa em como uma viagem que antes levava dias ou semanas pode ser feita em poucas horas hoje em dia.",
@@ -361,6 +385,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Bernardo ajudou seu avô a guardar alimentos na geladeira, e o avô contou que, quando era criança, usava um bloco de gelo para conservar comida. Isso é um exemplo de como:",
     tip: "Pensa em tudo que aprendemos hoje sobre a evolução dos eletrodomésticos, como a geladeira.",
@@ -376,6 +401,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Qual é uma boa forma de aprender sobre como o trabalho e a tecnologia mudaram ao longo do tempo?",
     tip: "Lembra a importância da história oral e dos museus para aprender sobre o passado.",
@@ -391,6 +417,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Depois de conversar com seus avós, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje sobre a evolução do trabalho, da comunicação e do transporte.",
@@ -406,6 +433,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Registros do passado",
     type: "multiple_choice",
     text: "Qual é uma atitude respeitosa em relação às histórias contadas pelos avós sobre o passado?",
     tip: "Lembra como a história oral, contada pelos mais velhos, é uma fonte histórica muito valiosa.",
@@ -421,6 +449,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir as mudanças no trabalho e na tecnologia ao longo do tempo?",
     tip: "Pensa em tudo que vimos hoje sobre roupas, comunicação, transporte e eletrodomésticos ao longo da história.",
@@ -436,6 +465,7 @@ export const questoesHistoria4AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Trabalho e tecnologia",
     type: "multiple_choice",
     text: "Depois de estudar sobre trabalho e tecnologia ao longo do tempo, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos: trabalho, comunicação, transporte e tecnologia mudando ao longo do tempo.",
