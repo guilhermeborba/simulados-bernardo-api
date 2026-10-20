@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB2Av1 = [
   {
     id: 1,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "O que é população?",
     tip: "Pensa em todas as pessoas que moram em um lugar, formando o total de habitantes dali.",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Qual instituto brasileiro é responsável por realizar o Censo Demográfico e contar quantas pessoas vivem no Brasil?",
     tip: "Pensa na sigla de um instituto que trabalha justamente com dados sobre geografia e a população brasileira.",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "O que é o Censo Demográfico?",
     tip: "Pensa em uma grande pesquisa feita de tempos em tempos para saber quantas pessoas moram no Brasil e como elas vivem.",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A densidade demográfica de um lugar indica:",
     tip: "Pensa em como podemos medir se um lugar tem muitas ou poucas pessoas vivendo em um espaço determinado.",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A população brasileira está distribuída pelo território de forma:",
     tip: "Pensa em como algumas regiões do Brasil têm muito mais gente vivendo do que outras, mesmo sendo grandes em território.",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "As áreas com poucos habitantes, mesmo tendo grande extensão territorial, como partes da Floresta Amazônica, são chamadas de:",
     tip: "Pensa em uma expressão usada para áreas muito grandes, mas com poucas pessoas morando nelas.",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Qual região brasileira concentra a maior parte da população do país?",
     tip: "Pensa na região onde ficam grandes cidades, como São Paulo e Rio de Janeiro, com muitos habitantes.",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Por que muitas pessoas se concentram em áreas próximas ao litoral brasileiro?",
     tip: "Pensa em como a colonização portuguesa, que aprendemos no ano passado, começou justamente na costa do Brasil.",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Por que é importante para o governo conhecer a distribuição da população pelo território?",
     tip: "Pensa em como é importante saber onde vivem mais pessoas para planejar escolas, hospitais e outros serviços necessários.",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a distribuição da população no território brasileiro?",
     tip: "Pensa em tudo que aprendemos hoje sobre concentração populacional e vazios demográficos.",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A população brasileira é formada, principalmente, pela mistura de povos:",
     tip: "Lembra tudo que aprendemos no ano passado sobre a formação do povo brasileiro.",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A miscigenação, muito presente na população brasileira, significa:",
     tip: "Pensa em como diferentes povos, ao longo do tempo, se misturaram para formar a diversidade da população brasileira atual.",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Além do português, língua oficial do Brasil, também são faladas no país:",
     tip: "Pensa em tudo que aprendemos sobre os diferentes povos que formaram e continuam vivendo no Brasil, cada um com sua própria língua.",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A diversidade religiosa no Brasil inclui, entre outras, pessoas que praticam:",
     tip: "Pensa em como o Brasil tem uma grande diversidade de crenças e religiões, refletindo a diversidade de sua população.",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Por que é importante respeitar a diversidade étnica, cultural e religiosa da população brasileira?",
     tip: "Pensa em como cada pessoa tem o direito de manter sua cultura, língua e religião, sendo respeitada por isso.",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "O Censo Demográfico, além de contar a população, também coleta informações sobre:",
     tip: "Pensa em como o Censo ajuda a conhecer melhor quem são as pessoas que vivem no Brasil e como elas vivem.",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Migração",
     type: "multiple_choice",
     text: "A imigração japonesa, que aprendemos no ano passado, contribuiu para a diversidade étnica do Brasil, especialmente na região:",
     tip: "Lembra qual estado tem a maior comunidade de descendentes de japoneses fora do Japão.",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é uma atitude importante diante da diversidade étnica e cultural da população brasileira?",
     tip: "Pensa em como cada pessoa merece ser tratada com respeito e igualdade, independentemente de sua origem.",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a diversidade da população brasileira?",
     tip: "Pensa em tudo que aprendemos hoje sobre etnias, línguas e religiões que fazem parte da população brasileira.",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é a importância de estudar sobre a população e a diversidade brasileira?",
     tip: "Pensa em como conhecer a população e sua diversidade nos ajuda a entender melhor o próprio Brasil.",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o IBGE realiza o Censo para contar a população do Brasil. Essa pesquisa é importante porque:",
     tip: "Lembra o que aprendemos sobre a importância de conhecer a distribuição e as características da população.",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo notou que, na escola, seus colegas têm diferentes origens étnicas, línguas e religiões. Isso é um reflexo de:",
     tip: "Lembra tudo que aprendemos sobre a mistura de povos que forma a população brasileira.",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Se Bernardo comparasse a quantidade de pessoas vivendo no litoral com a quantidade vivendo em áreas mais isoladas da Amazônia, ele perceberia que:",
     tip: "Lembra o que aprendemos sobre a concentração da população no litoral e os vazios demográficos na Amazônia.",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo quer respeitar a diversidade de seus colegas de escola, que têm diferentes origens e culturas. Uma boa atitude seria:",
     tip: "Lembra a importância de respeitar a diversidade étnica e cultural da população brasileira.",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Qual é a melhor forma de Bernardo explicar o que é densidade demográfica para um amigo?",
     tip: "Pensa no conceito que aprendemos hoje sobre a relação entre número de pessoas e o tamanho de uma área.",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo descobriu que sua família tem antepassados indígenas, europeus e africanos. Isso é um exemplo de:",
     tip: "Lembra o nome dado à mistura de diferentes povos na formação do povo brasileiro.",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "Depois de estudar sobre a população brasileira, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje sobre quantidade, diversidade e distribuição da população.",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é uma boa forma de Bernardo aprender mais sobre a diversidade da população brasileira?",
     tip: "Pensa em como podemos aprender de verdade sobre um assunto tão rico: pesquisando e conhecendo pessoas diferentes.",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância de conhecer a população e a diversidade do Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre quantidade, distribuição e diversidade da população brasileira.",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Depois de estudar sobre a população brasileira, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos: população, distribuição, densidade demográfica e diversidade étnica e cultural.",

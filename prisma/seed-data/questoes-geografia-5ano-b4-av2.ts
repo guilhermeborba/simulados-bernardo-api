@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB4Av2 = [
   {
     id: 1,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "O que é um fuso horário?",
     tip: "Pensa em como o mundo é dividido em \"fatias\" para que cada área tenha seu próprio horário...",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Por que existem fusos horários diferentes ao redor do mundo?",
     tip: "Pensa no movimento que a Terra faz, que dura mais ou menos 24 horas...",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Quantos fusos horários existem no mundo todo?",
     tip: "Pensa: esse número tem a ver com quantas horas tem um dia...",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Atualmente, quantos fusos horários diferentes existem no território brasileiro?",
     tip: "Pensa: o Brasil é enorme, então não é só um horário que serve para o país inteiro!",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Qual é o fuso horário de referência do Brasil, usado em Brasília e na maior parte do país, incluindo Santa Catarina?",
     tip: "Pensa no nome que usamos até hoje para nos referir ao horário \"oficial\" do Brasil...",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "A ilha de Fernando de Noronha tem um fuso horário:",
     tip: "Pensa: se esse lugar fica mais para o Leste do Brasil, o horário tende a estar mais adiantado ou mais atrasado?",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "O Acre e parte do Amazonas têm um fuso horário:",
     tip: "Pensa: como esses estados ficam mais para o Oeste do Brasil, o horário tende a estar mais atrasado ou mais adiantado?",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "O Meridiano de Greenwich, na Inglaterra, é usado no mundo todo como:",
     tip: "Pensa numa linha imaginária que serve de \"ponto zero\" para contar as horas ao redor do mundo...",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Enquanto é dia em um lado da Terra, do outro lado geralmente é:",
     tip: "Pensa: enquanto o Sol ilumina um lado do planeta, o que acontece no lado de lá, que fica de \"costas\" para o Sol?",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "A principal causa da existência dos fusos horários é:",
     tip: "Lembra do movimento que a Terra faz em torno do seu próprio eixo, dando uma volta completa a cada 24 horas...",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Em relação ao tamanho, o Brasil é:",
     tip: "Lembra do que estudamos sobre o território brasileiro no começo do ano...",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil faz fronteira com vários países da América do Sul. Quais são os ÚNICOS dois países da América do Sul que NÃO fazem fronteira com o Brasil?",
     tip: "Lembra dos dois países que ficam mais \"isolados\" do Brasil, sem nenhuma fronteira direta...",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O território brasileiro é dividido oficialmente em:",
     tip: "Lembra do número de \"bandeirinhas\" de estados que aprendemos no início do ano...",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "No Brasil, o órgão responsável por fazer o Censo (contagem da população) é:",
     tip: "Lembra da sigla que aprendemos quando falamos sobre contar quantas pessoas moram no Brasil...",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "Migração",
     type: "multiple_choice",
     text: "A saída de muitas pessoas do campo para viver nas cidades é chamada de:",
     tip: "Lembra da palavra que aprendemos para esse movimento das pessoas do campo para a cidade...",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A agricultura e a pecuária fazem parte de qual setor da economia?",
     tip: "Lembra qual setor está mais ligado às atividades feitas diretamente com a natureza, como plantar e criar animais...",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "A água e o vento são exemplos de recursos naturais:",
     tip: "Lembra dos recursos que a natureza consegue repor, sem demorar milhões de anos...",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O corte ou a derrubada de grandes áreas de floresta é chamado de:",
     tip: "Pensa na palavra \"mata\"... o que o prefixo \"des\" faz com ela?",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Em um mapa, o elemento que explica o significado dos símbolos e cores usados é:",
     tip: "Lembra do \"dicionário\" de símbolos que todo mapa costuma ter...",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Os quatro pontos cardeais são:",
     tip: "Lembra das quatro direções principais que usamos para nos orientar...",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Bernardo liga em vídeo para um primo que mora no Acre e percebe que, no relógio do primo, é uma hora mais cedo do que em Santa Catarina. Isso acontece porque:",
     tip: "Lembra do que aprendemos sobre o fuso horário do Acre em relação ao de Brasília...",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Santa Catarina, onde Bernardo mora, segue qual fuso horário?",
     tip: "Lembra qual é o fuso horário usado na maior parte do território brasileiro, inclusive onde Bernardo mora...",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Se em Brasília são 12h (meio-dia), que horas são, aproximadamente, em Fernando de Noronha?",
     tip: "Lembra que Fernando de Noronha está uma hora ADIANTADA em relação a Brasília...",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Fusos horários",
     type: "multiple_choice",
     text: "Se em Brasília são 12h (meio-dia), que horas são, aproximadamente, no Acre?",
     tip: "Lembra que o Acre está uma hora ATRASADO em relação a Brasília...",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "A família de Bernardo está planejando uma viagem para conhecer outras regiões do Brasil e usa um mapa político para escolher o caminho. Isso mostra que os mapas são úteis para:",
     tip: "Lembra de tudo que aprendemos sobre a utilidade dos mapas no nosso dia a dia...",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Bernardo está estudando sobre as regiões do Brasil e descobre que Santa Catarina fica em qual região?",
     tip: "Lembra que Santa Catarina fica na parte mais ao sul do país, ao lado do Paraná e do Rio Grande do Sul...",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "A casa de Bernardo usa energia solar, captada pelo sol através de painéis no telhado. Esse é um exemplo do uso de um recurso natural:",
     tip: "Lembra que o sol \"nunca para\" de brilhar, por isso é considerado um recurso que se renova...",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O pai de Bernardo trabalha em uma loja, atendendo clientes e vendendo produtos. Esse tipo de trabalho faz parte do setor:",
     tip: "Lembra que esse setor está ligado à prestação de serviços e ao comércio, como vender e atender pessoas...",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Por que é importante estudar Geografia?",
     tip: "Pensa em tudo que você aprendeu esse ano: território, população, mapas, recursos naturais...",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Parabéns! Bernardo estudou e aprendeu bastante sobre Geografia neste ano. O que é mais importante levar desse aprendizado?",
     tip: "Pensa em como tudo que aprendemos sobre o Brasil e a natureza pode ajudar a cuidar melhor do nosso planeta...",

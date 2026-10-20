@@ -596,3 +596,45 @@ A classificação considera o objetivo das questões e as alternativas dos enunc
 A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1 e B4/AV1 têm seis; B1/AV2 e B2/AV2, oito; B3/AV1, cinco; B3/AV2, dois; B4/AV2, quatro. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 A apresentação do limite de idade para trabalho e aprendizagem no B3/AV2 (IDs 12 e 25) e a contradição entre alternativa e curiosidade sobre o exílio de D. Pedro II no B4/AV1 (ID 19) foram registradas na [issue web #86](https://github.com/guilhermeborba/simulados-bernardo/issues/86), com fontes oficiais para revisão separada. Nenhum conteúdo anterior foi corrigido no lote de temas.
+
+### Geografia — 5º ano
+
+| Tema | Abrange |
+|---|---|
+| Agricultura | Cultivos, produtos agrícolas, café, cana-de-açúcar e produção de alimentos. |
+| Atividades econômicas | Agropecuária, produção, setores da economia, reconhecimento de atividades e relações entre os setores. |
+| Campo e cidade | Características e identificação dos espaços rural e urbano e sua interdependência. |
+| Comércio | Exportações brasileiras e produtos vendidos a outros países. |
+| Cultura e identidade | Línguas, colonização, origens dos povos, miscigenação, diversidade étnica e religiosa e respeito às diferenças. |
+| Extrativismo | Retirada de recursos vegetais e minerais, exemplos, produtos e áreas de extração. |
+| Fusos horários | Divisão dos horários, referência de Greenwich, rotação, dia e noite e comparações de horários entre localidades. |
+| Geografia do Brasil | Sínteses que articulam território, organização regional, população, cultura e importância de estudar Geografia. |
+| Globalização | Relações entre países vizinhos, cooperação e integração pelo Mercosul. |
+| Indústria e matérias-primas | Transformação de matérias-primas, importância e concentração regional das indústrias. |
+| Migração | Imigração, movimentos internos, êxodo rural, motivos, destinos e oportunidades de trabalho. |
+| Organização das cidades | Urbanização, metrópoles, conurbação, moradia, planejamento e desafios do crescimento urbano. |
+| Orientação e localização | Hemisférios, localização no globo, pontos cardeais e colaterais, rosa dos ventos, bússola e GPS. |
+| Pecuária | Criação de animais e produtos dessa atividade. |
+| População brasileira | Censo, IBGE, densidade, quantidade e distribuição da população e planejamento de serviços. |
+| Preservação ambiental | Desmatamento, queimadas, poluição, erosão, extinção, conservação dos recursos, economia de água e reciclagem. |
+| Recursos naturais | Água, solo, florestas, atmosfera, minerais e reconhecimento de recursos renováveis e não renováveis. |
+| Regiões do Brasil | Divisão regional, composição, localização, comparação das regiões e localização de seus ambientes naturais. |
+| Representações cartográficas | Mapas, globos, tipos de mapas, título, legenda, escala, símbolos, cores e leitura de representações. |
+| Saneamento e infraestrutura | Água tratada, esgoto, resíduos e sua importância para a saúde e a qualidade de vida. |
+| Território brasileiro | Dimensões, localização, fronteiras, países vizinhos, litoral, estados, capitais e Distrito Federal. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-geografia-5ano-b*-av*.ts`. Não há entradas privadas de Geografia do 5º ano registradas no seed. Todos compartilham este vocabulário de 21 temas, reaproveitando os nomes de Geografia dos anos anteriores quando o conteúdo corresponde. **Recursos naturais** e **Fusos horários** agrupam as unidades específicas deste lote.
+
+A classificação considera o objetivo das questões e as alternativas dos enunciados genéricos. **Território brasileiro** reúne dimensões, fronteiras, litoral, estados e capitais, sem usar como rótulo o país, estado, capital ou tipo de fronteira que pode ser a resposta. **Regiões do Brasil** cobre divisão, composição e comparações regionais. A localização da Amazônia e do Pantanal em regiões, no B1/AV2, permanece nesse tema porque o objetivo é identificar a região. Hemisférios e posição no globo usam **Orientação e localização**. **Globalização** reúne cooperação e Mercosul; idioma, colonização e origens culturais ficam em **Cultura e identidade**.
+
+**População brasileira** cobre censos, densidade e distribuição territorial, incluindo planejamento de serviços com base nesses dados. **Cultura e identidade** cobre etnias, línguas, religiões, miscigenação e valorização das diferenças, sem usar como rótulo o nome da origem ou da classificação solicitada. **Migração** concentra deslocamentos internos e internacionais, êxodo rural e seus motivos. **Campo e cidade** reúne características e identificação dos espaços; **Organização das cidades**, urbanização, metrópoles, conurbação e planejamento, sem antecipar qual processo é a resposta. A questão 17 do B2/AV2 usa **Saneamento e infraestrutura**, por tratar dos serviços de água, esgoto e resíduos.
+
+**Atividades econômicas** reúne os setores e suas relações. As questões 21–23 do B3/AV1, que pedem reconhecer pecuária, setor secundário e extrativismo mineral, usam esse tema amplo. Não se usa o nome da atividade ou setor que o aluno deve descobrir como tema. Conteúdos específicos já identificados no enunciado usam **Agricultura**, **Pecuária**, **Indústria e matérias-primas** ou **Extrativismo**; as exportações de carne e soja usam **Comércio**. Impactos e cuidados com a produção ficam em **Preservação ambiental**.
+
+**Recursos naturais** cobre tipos, exemplos, renovabilidade e usos de água, solo, florestas, atmosfera e minerais, sem antecipar “renovável”, “não renovável” ou o recurso que pode ser a resposta. **Preservação ambiental** reúne desmatamento, queimadas, poluição, erosão, conservação, economia de água e resíduos. Reconhecer a coleta seletiva na questão 24 do B3/AV2 usa esse tema amplo, sem antecipar o nome da prática.
+
+**Representações cartográficas** concentra leitura e elementos dos mapas, sem usar “Legenda” ou “Escala” como tema nas questões que pedem identificar o elemento. **Orientação e localização** cobre direções, rosa dos ventos, bússola e GPS. **Fusos horários** reúne a unidade sobre diferenças de horário, incluindo a relação com rotação, dia e noite; não se usa o nome do horário ou a diferença numérica que pode ser a resposta. As sínteses que articulam diferentes conteúdos e a importância de estudar a disciplina usam **Geografia do Brasil**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 e B2/AV2 têm seis; B1/AV2 e B2/AV1, quatro; B3/AV1, sete; B3/AV2 e B4/AV1, dois; B4/AV2 revisa onze. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+As inconsistências preexistentes sobre quantidade de fusos e diferença Acre/Brasília (B4/AV2, IDs 4, 7, 21 e 24), além da precisão do enunciado sobre água doce e disponibilidade para consumo (B3/AV2, ID 4), foram registradas na [issue web #88](https://github.com/guilhermeborba/simulados-bernardo/issues/88), com fontes oficiais para revisão separada. Nenhum conteúdo anterior foi corrigido no lote de temas.

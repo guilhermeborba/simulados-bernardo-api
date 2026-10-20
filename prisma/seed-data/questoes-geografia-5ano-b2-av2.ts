@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB2Av2 = [
   {
     id: 1,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A zona urbana de uma cidade é caracterizada por:",
     tip: "Pensa no centro de uma cidade, cheio de prédios, lojas e muita gente andando pelas ruas.",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A zona rural é caracterizada por:",
     tip: "Pensa no campo, com plantações, animais e casas mais espalhadas.",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Qual é uma atividade econômica muito comum na zona rural?",
     tip: "Pensa nas atividades relacionadas ao plantio e à criação de animais, muito comuns no campo.",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O que é urbanização?",
     tip: "Pensa em como, ao longo do tempo, mais e mais pessoas passaram a morar em cidades, fazendo elas crescerem.",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Migração",
     type: "multiple_choice",
     text: "O êxodo rural é o nome dado ao processo de:",
     tip: "Pensa em famílias que deixam o campo para tentar uma vida melhor nas cidades.",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Um dos motivos que levam muitas famílias a saírem do campo para viver nas cidades é:",
     tip: "Pensa em como as cidades costumam oferecer mais opções de trabalho, escolas e hospitais.",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O crescimento acelerado e desorganizado das cidades pode causar problemas como:",
     tip: "Pensa em como uma cidade que cresce muito rápido, sem planejamento, pode enfrentar dificuldades para atender toda a população.",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "As favelas, presentes em muitas cidades brasileiras, geralmente surgem por causa:",
     tip: "Pensa em como o crescimento rápido das cidades, sem planejamento suficiente, pode deixar algumas famílias sem opções de moradia adequada.",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Qual é a importância do planejamento urbano para uma cidade?",
     tip: "Pensa em como um bom planejamento pode evitar problemas causados pelo crescimento desordenado das cidades.",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a diferença entre zona urbana e zona rural?",
     tip: "Pensa em tudo que aprendemos hoje sobre as características de cada uma dessas áreas.",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Migração",
     type: "multiple_choice",
     text: "A migração interna no Brasil acontece quando:",
     tip: "Pensa em famílias que se mudam, por exemplo, do Nordeste para o Sudeste, mas continuam morando no Brasil.",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Historicamente, um dos principais movimentos de migração interna no Brasil aconteceu de qual região para qual região?",
     tip: "Pensa em como muitas famílias nordestinas migraram para trabalhar nas fábricas de cidades como São Paulo.",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Um dos motivos que, historicamente, levaram famílias nordestinas a migrar para outras regiões foi:",
     tip: "Pensa em como a falta de chuva pode dificultar a vida no campo, levando famílias a buscar oportunidades em outras regiões.",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Uma área metropolitana é formada por:",
     tip: "Pensa em uma cidade grande, como São Paulo, cercada por várias outras cidades menores, mas muito conectadas a ela.",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "A conurbação acontece quando:",
     tip: "Pensa em cidades que cresceram tanto que já não se sabe direito onde uma termina e a outra começa.",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Por que é importante planejar o crescimento das cidades?",
     tip: "Pensa em como um bom planejamento pode garantir melhores condições de vida para todos os moradores de uma cidade.",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "O saneamento básico, que inclui água tratada, coleta de esgoto e lixo, é importante porque:",
     tip: "Pensa em como a falta de água tratada e coleta de esgoto pode causar diversas doenças na população.",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Qual é uma consequência positiva de um bom planejamento urbano?",
     tip: "Pensa em como uma cidade bem planejada pode oferecer melhores condições para todos os seus moradores.",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir o processo de urbanização no Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre o crescimento das cidades e a migração do campo para elas.",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Qual é a importância de conhecer os processos de migração e urbanização no Brasil?",
     tip: "Pensa em como entender o passado nos ajuda a compreender melhor os desafios das cidades atuais.",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Bernardo mora em Florianópolis, uma cidade com muitos prédios, ruas movimentadas e grande concentração de pessoas. Isso mostra que ele mora em uma:",
     tip: "Lembra as características que definem uma área como urbana, como prédios e concentração de pessoas.",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Se Bernardo visitasse uma fazenda no interior de Santa Catarina, com plantações e poucas casas espalhadas, ele estaria visitando uma:",
     tip: "Lembra as características do campo, com plantações e menor concentração de pessoas.",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Migração",
     type: "multiple_choice",
     text: "Bernardo aprendeu que muitas famílias migraram do campo para as cidades ao longo da história brasileira. Esse processo é chamado de:",
     tip: "Lembra o nome desse movimento de saída do campo em direção às cidades.",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Bernardo percebeu que, em algumas partes da cidade, há problemas de trânsito e moradia. Isso pode ser resultado de:",
     tip: "Lembra os problemas que podem surgir quando uma cidade cresce rápido demais, sem planejamento adequado.",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Qual é a melhor forma de Bernardo explicar o que é uma área metropolitana?",
     tip: "Pensa no conceito que aprendemos hoje sobre cidades grandes cercadas por outras cidades conectadas.",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Bernardo descobriu que a Grande Florianópolis é formada por várias cidades próximas e conectadas. Isso é um exemplo de:",
     tip: "Lembra o conceito de cidades próximas e conectadas que formam uma grande área urbana.",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Depois de estudar sobre zona urbana, zona rural e urbanização, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje sobre urbanização, migração e planejamento urbano.",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Qual é uma boa atitude de Bernardo diante dos desafios das cidades, como trânsito e moradia?",
     tip: "Pensa em como entender os desafios urbanos ajuda a valorizar soluções e políticas que melhoram a vida nas cidades.",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a relação entre zona rural e zona urbana no Brasil?",
     tip: "Pensa em como o campo e a cidade dependem um do outro de diferentes formas.",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Depois de estudar sobre zona urbana, zona rural, migração e urbanização, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: zona urbana, zona rural, migração, urbanização e planejamento.",
