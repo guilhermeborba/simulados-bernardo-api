@@ -377,3 +377,45 @@ Questões sobre a origem específica de palavras, pratos, festas ou manifestaç�
 A quantidade de temas acompanha o conteúdo: B1/AV1 tem seis; B2/AV1 e B3/AV2, sete; B1/AV2, B2/AV2 e B3/AV1, nove. Não se subdivide artificialmente o B4/AV1, concentrado em patrimônio, que tem um tema. O B4/AV2 revisa doze temas. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 A inclusão indevida de “Brasil” entre as palavras de origem indígena na questão 9 do B2/AV1 foi registrada na [issue web #76](https://github.com/guilhermeborba/simulados-bernardo/issues/76), com fontes para a revisão editorial. Enunciado e gabarito foram preservados no lote de temas.
+
+### Geografia — 4º ano
+
+| Tema | Abrange |
+|---|---|
+| Atividades econômicas | Produção, distribuição e consumo, setores primário, secundário e terciário, agronegócio, trabalho e relações entre atividades. |
+| Campo e cidade | Características, diferenças e interdependência dos espaços rural e urbano, origem dos alimentos e qualidade de vida. |
+| Clima e cotidiano | Tipos de clima do Brasil, temperaturas, chuvas, estações, secas e fatores da diversidade climática. |
+| Comércio | Compra e venda, exportação, importação, produtos brasileiros e relações comerciais com outros países. |
+| Cultura e identidade | Origens dos povos, manifestações culturais, diversidade étnica, história regional e valorização das diferenças. |
+| Geografia do Brasil | Sínteses que articulam território, natureza, população, cultura e economia e a importância de estudar o país. |
+| Globalização | Conexões entre países, blocos econômicos, intercâmbio cultural e econômico, comunicação e tecnologia no cenário internacional. |
+| Hidrografia | Rios, bacias, escoamento, cheias, recursos hídricos, usos da água e geração de energia. |
+| Indústria e matérias-primas | Localização e concentração industrial, fábricas, produtos e importância dos polos industriais. |
+| Migração | Êxodo rural, deslocamentos internos, motivos das mudanças e oportunidades nas cidades. |
+| Organização das cidades | Urbanização, metrópoles, crescimento, moradia, planejamento, desafios e participação na vida urbana. |
+| Orientação e localização | Coordenadas geográficas, linhas imaginárias e localização nos hemisférios. |
+| Paisagens | Integração de elementos naturais, relações entre relevo e água, diversidade natural e condições para a ocupação humana. |
+| Pecuária | Criação de animais e importância da produção e exportação de carne. |
+| População brasileira | Quantidade e distribuição de habitantes, densidade, censos, faixas etárias, envelhecimento e planejamento de serviços. |
+| Preservação ambiental | Poluição dos rios, desmatamento, impactos no clima e na biodiversidade, conservação da água e proteção dos ambientes. |
+| Prestação de serviços | Turismo, geração de empregos e valorização de atrações naturais e culturais. |
+| Regiões do Brasil | Divisão regional, estados, localização, características, diferenças e potencialidades das cinco regiões. |
+| Relevo | Planaltos, planícies, depressões, serras, altitudes, formação e usos das formas do terreno. |
+| Representações cartográficas | Mapas políticos e recursos cartográficos usados para estudar estados e capitais. |
+| Saneamento e infraestrutura | Redes de água, esgoto, energia e transporte e desigualdades de acesso à infraestrutura e às áreas verdes. |
+| Território brasileiro | Localização do Brasil, fronteiras, oceano, estados, capitais, Distrito Federal e dimensões do território. |
+| Vegetação | Formações vegetais, biomas brasileiros, biodiversidade, características dos ambientes e relações com clima e água. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-geografia-4ano-b*-av*.ts`. Não há entradas privadas de Geografia do 4º ano registradas no seed. Todos compartilham este vocabulário de 23 temas, reaproveitando os nomes de Geografia do 3º ano quando o conteúdo corresponde.
+
+A classificação considera o conteúdo predominante e as alternativas dos enunciados genéricos. **Território brasileiro** reúne a localização do país, estados, capitais e Distrito Federal; **Regiões do Brasil**, a divisão regional e as comparações entre regiões. Não se usa como tema o nome do estado, da capital ou da região que pode ser a resposta. **Orientação e localização** cobre coordenadas e hemisférios; **Representações cartográficas**, os mapas e os recursos usados para estudar o território.
+
+**Relevo** cobre as formas do terreno; **Hidrografia**, os rios, suas dinâmicas, usos e relações com o relevo. **Paisagens** reúne as sínteses sobre a integração de elementos naturais, como na questão 30 do B2/AV1 e na questão 26 do B4/AV2. **Clima e cotidiano** concentra temperaturas, chuvas, estações e tipos de clima. **Vegetação** inclui as características e a biodiversidade dos biomas, sem antecipar qual bioma é a resposta. Poluição, desmatamento, impactos e ações de conservação ficam em **Preservação ambiental**.
+
+**População brasileira** reúne censos, quantidade e distribuição de habitantes, densidade, faixas etárias e envelhecimento. **Cultura e identidade** trata das origens, contribuições culturais, diversidade e valorização das diferenças; **Migração**, dos deslocamentos e seus motivos. **Campo e cidade** cobre características e interdependência; **Organização das cidades**, urbanização e planejamento. Redes de serviços e desigualdade no acesso à infraestrutura usam **Saneamento e infraestrutura**.
+
+**Atividades econômicas** reúne os setores e suas relações. É o rótulo amplo nas questões que pedem reconhecer atividades ou o setor correspondente, sem antecipar “primário”, “secundário”, “terciário” ou a atividade que é a resposta. Questões específicas sobre localização industrial, criação de animais, compra e venda e turismo usam **Indústria e matérias-primas**, **Pecuária**, **Comércio** e **Prestação de serviços**, respectivamente. **Comércio** também cobre exportações e importações; **Globalização**, as conexões internacionais mais amplas, os blocos econômicos e a aproximação por comunicação e tecnologia.
+
+As sínteses que articulam vários conteúdos do ano usam **Geografia do Brasil**. A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1, B2/AV2 e B3/AV2 têm quatro; B1/AV2 e B4/AV1, cinco; B3/AV1, três; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
+
+As inconsistências preexistentes na alternativa sobre o Distrito Federal (B1/AV1, questão 29) e na associação entre animais e regiões do litoral (B1/AV2, questão 29) foram registradas na [issue web #78](https://github.com/guilhermeborba/simulados-bernardo/issues/78), com evidências para revisão separada. Enunciados, alternativas, gabaritos, dicas e curiosidades foram preservados neste lote de temas.

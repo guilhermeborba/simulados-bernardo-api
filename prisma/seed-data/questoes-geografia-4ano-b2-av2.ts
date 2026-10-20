@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB2Av2 = [
   {
     id: 1,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O Brasil é um país tropical, o que significa que:",
     tip: "Pensa em como o Brasil fica perto da linha do Equador, recebendo bastante sol o ano todo.",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O clima Equatorial, presente na Região Norte, é caracterizado por:",
     tip: "Pensa na Floresta Amazônica — ela precisa de muito calor e muita chuva para ser tão verde e densa.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O clima Semiárido, presente no interior do Nordeste, é marcado por:",
     tip: "Pensa no sertão nordestino, onde às vezes passa muito tempo sem chover.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O clima Subtropical, presente na Região Sul, é conhecido por:",
     tip: "Pensa na região onde neva às vezes, bem diferente do calor do Nordeste e Norte.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O clima Tropical, presente em grande parte do Centro-Oeste e Sudeste, tem como característica:",
     tip: "Pensa em como, em boa parte do Brasil, existe uma época do ano com mais chuva e outra mais seca.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "A vegetação de um lugar depende muito:",
     tip: "Pensa em como uma planta precisa de água, luz e solo adequados para crescer — cada região oferece condições diferentes.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "A Floresta Amazônica é o maior exemplo de vegetação:",
     tip: "Pensa em árvores altíssimas, muito próximas umas das outras, formando um teto verde chamado dossel.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O Cerrado é conhecido por ter vegetação:",
     tip: "Pensa em plantas que sobrevivem bem mesmo com pouca chuva durante meses, tendo raízes profundas.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "A Caatinga, vegetação típica do semiárido nordestino, é adaptada para:",
     tip: "Pensa em plantas que 'se preparam' para longos períodos sem chuva, guardando água ou perdendo folhas.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A Mata Atlântica é um bioma importante porque:",
     tip: "Pensa em uma floresta que ficava perto do mar, onde os portugueses primeiro chegaram e começaram a desmatar.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O Pampa, bioma típico do Rio Grande do Sul, é caracterizado por:",
     tip: "Pensa nos campos verdes do Sul, onde o gado pasta livremente, criando a tradição gaúcha da pecuária.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O Pantanal é uma vegetação que se adapta a:",
     tip: "Pensa em uma planície que vira um 'mar' de água na época de chuva e depois seca bastante.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "Os biomas brasileiros são importantes porque:",
     tip: "Pensa em como cada bioma é uma 'casa' especial para plantas e animais que não vivem em nenhum outro lugar.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O desmatamento de florestas como a Amazônia e a Mata Atlântica causa:",
     tip: "Pensa em como tirar as árvores afeta os animais que vivem nelas, o solo e até a quantidade de chuva.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "A relação entre clima e vegetação é:",
     tip: "Pensa em como um cacto não cresceria numa floresta muito úmida, e uma árvore de floresta tropical não sobreviveria no deserto.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o clima do lugar onde ele mora, em Santa Catarina, é:",
     tip: "Pensa na região Sul do Brasil, onde as quatro estações do ano são bem marcadas.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "Se uma planta perde as folhas na época seca para economizar água, ela provavelmente vive:",
     tip: "Pensa na vegetação adaptada aos longos períodos sem chuva do interior do Nordeste.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "A biodiversidade brasileira é tão grande porque:",
     tip: "Pensa em como a diversidade de climas — do calor da Amazônia ao frio do Sul — cria diferentes 'casas' para diferentes espécies.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A preservação dos biomas brasileiros é importante para:",
     tip: "Pensa em como cuidar da natureza hoje garante que as próximas gerações também tenham florestas, rios e animais para conhecer.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "Bernardo, ao estudar clima e vegetação, entendeu que essas duas coisas:",
     tip: "Pensa em como tudo que aprendemos mostra que clima e vegetação caminham juntos, formando as paisagens naturais.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "Se Bernardo visitar o Pantanal na época de cheias, ele vai encontrar:",
     tip: "Pensa em como os rios da região transbordam na época de chuva, formando um verdadeiro 'mar' de água doce.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Comparando a Floresta Amazônica com a Caatinga, a principal diferença está:",
     tip: "Pensa em como uma floresta verde e densa precisa de muito mais água do que uma vegetação de espinhos e cactos.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "Se um cientista quiser estudar plantas adaptadas a longos períodos de seca, ele deve visitar principalmente:",
     tip: "Pensa no bioma mais adaptado à falta de água entre todos que estudamos.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A relação entre desmatamento e mudanças climáticas mostra que:",
     tip: "Pensa em como as árvores ajudam a regular a temperatura, a umidade e até a formação de chuvas.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "Para concluir sobre clima brasileiro: o Brasil tem uma grande variedade climática porque:",
     tip: "Pensa em como um país tão grande, esticado do Equador quase até a Antártida, naturalmente vai ter climas bem diferentes.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "Para concluir sobre vegetação: cada bioma brasileiro tem sua importância porque:",
     tip: "Pensa em como cada bioma faz um trabalho importante para manter o planeta equilibrado, além de guardar espécies que só existem ali.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Se Bernardo quiser ajudar a proteger os biomas brasileiros no seu dia a dia, ele pode:",
     tip: "Pensa em pequenas atitudes do dia a dia que, somadas, fazem uma grande diferença para o planeta.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "A diversidade climática e de vegetação do Brasil é considerada:",
     tip: "Pensa em como poucos países no mundo têm tanta variedade de climas e paisagens quanto o Brasil.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo entendeu que, para cuidar do planeta, é importante:",
     tip: "Pensa em como conhecimento é o primeiro passo para cuidar bem de algo — você não protege o que não conhece.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Para finalizar este simulado: clima e vegetação são temas importantes porque:",
     tip: "Pensa em como tudo que estudamos — florestas, chuvas, animais, plantas — faz parte da nossa vida e do nosso futuro.",

@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB1Av2 = [
   {
     id: 1,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "O Brasil é dividido em quantas grandes regiões geográficas?",
     tip: "Pensa nos dedos de uma mão — cada dedo representa uma região diferente do Brasil!",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Qual é a maior região do Brasil em extensão territorial?",
     tip: "Pensa na região coberta principalmente pela Floresta Amazônica, cheia de rios e florestas imensas.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Nordeste é conhecida por:",
     tip: "Pensa em praias bonitas, festas de São João, forró, cordel — tudo isso é parte da identidade nordestina.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Centro-Oeste é famosa principalmente por:",
     tip: "Pensa em campos imensos de plantação, fazendas enormes e o maior pantanal do mundo.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Sudeste é a mais importante economicamente porque:",
     tip: "Pensa na região onde ficam São Paulo, Rio de Janeiro e Belo Horizonte — cidades gigantes, cheias de fábricas, empresas e serviços.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Sul do Brasil é diferente das outras porque:",
     tip: "Pensa nos estados que ficam no 'pé' do mapa do Brasil, onde até neva em cidades como Gramado e Urubici.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Quais estados fazem parte da Região Norte do Brasil?",
     tip: "Pensa nos estados da Amazônia, que ficam na parte de cima do mapa do Brasil, quase todos com muita floresta.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Nordeste é composta por 9 estados. Eles são:",
     tip: "Pensa nos estados que ficam na parte direita superior do mapa, que geralmente têm praias voltadas para leste e semiárido no interior.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O bioma predominante na Região Norte do Brasil é:",
     tip: "Pensa na maior floresta tropical do mundo, cheia de biodiversidade, rios imensos e povos indígenas.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "O Pantanal, uma das maiores planícies alagadas do mundo, fica principalmente na Região:",
     tip: "Pensa no Mato Grosso e Mato Grosso do Sul — estados do interior do Brasil com grandes áreas alagadas no período de chuvas.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "A capital da Região Norte que é o maior polo industrial da Amazônia é:",
     tip: "Pensa em uma cidade no meio da floresta que virou polo industrial graças à Zona Franca — um mercado especial que atrai fábricas.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O Sertão Nordestino é uma área que sofre com:",
     tip: "Pensa em uma região com chuvas irregulares, calor intenso e longos períodos sem chuva que dificultam a vida das pessoas.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A cultura gaúcha, típica da Região Sul, inclui:",
     tip: "Pensa nos pampas gaúchos, nos peões de estância e nas tradições que vêm da mistura de imigrantes europeus com a cultura local.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Sudeste tem quais estados?",
     tip: "Pensa nos quatro estados que ficam na parte centro-leste do Brasil, ao longo da costa atlântica.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O bioma predominante no Centro-Oeste é o Cerrado, que é:",
     tip: "Pensa em árvores baixinhas e retorcidas, campos abertos, e muita diversidade de animais e plantas, com uma estação seca pronunciada.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Sul tem apenas 3 estados, mas é muito importante porque:",
     tip: "Pensa nos campos do Rio Grande do Sul, nas maçãs de Santa Catarina e nas indústrias do Paraná.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A Região Nordeste tem grande importância histórica porque:",
     tip: "Pensa em qual região foi ocupada primeiro pelos portugueses, ainda no início da colonização do Brasil.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Bernardo precisa identificar a região onde fica o Pantanal, a Amazônia e as grandes plantações de soja. Ela é:",
     tip: "Pensa em quais regiões têm floresta amazônica e campos de soja — elas ficam no interior e na parte norte do Brasil.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Ao comparar as regiões do Brasil, uma diferença importante é:",
     tip: "Pensa em como o Brasil 'cabe' tantas diferenças dentro de si — praias quentes no Norte e neve no Sul, tudo no mesmo país!",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Uma semelhança entre todas as regiões do Brasil é que:",
     tip: "Pensa no que une pessoas tão diferentes — a língua, as leis, os símbolos nacionais e o sentimento de ser brasileiro.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Bernardo está viajando com a família. Eles foram ao Rio Grande do Sul e encontraram neve, chimarrão e churrasco. Isso é característico da Região:",
     tip: "Pensa na região mais ao sul do Brasil, com clima frio e forte cultura gaúcha.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Se Bernardo quiser visitar a Floresta Amazônica e ver o encontro das águas (rios de cores diferentes se encontrando), ele deve ir para a Região:",
     tip: "Pensa na região com mais florestas e rios caudalosos, onde fica a maior bacia hidrográfica do mundo.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Qual região do Brasil tem a maior concentração de terras indígenas demarcadas?",
     tip: "Pensa na região com mais floresta preservada, onde vivem muitos povos indígenas que dependem das florestas para sobreviver.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Região Nordeste é famosa por exportar para todo o Brasil e para o mundo:",
     tip: "Pensa em frutas deliciosas que precisam de calor e sol para crescer, muito plantadas em áreas irrigadas do sertão.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Ao estudar as regiões do Brasil, aprendemos que cada uma tem:",
     tip: "Pensa em como a Amazônia tem o desafio de preservar a floresta, e o Nordeste enfrenta a seca — são desafios completamente diferentes.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Qual região do Brasil não tem litoral (não tem acesso ao mar)?",
     tip: "Pensa na região que fica no interior do Brasil, longe da costa — é cercada por outros estados e países, mas não pelo oceano.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "A Zona Franca de Manaus, na Região Norte, é importante porque:",
     tip: "Pensa em como é difícil ter indústria em uma região tão remota e isolada pela floresta — a Zona Franca foi criada para resolver isso.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Para resumir as regiões: Norte (floresta e rios), Nordeste (praias e sertão), Centro-Oeste (cerrado e agronegócio), Sudeste (indústria e metrópoles) e Sul (frio e agricultura). Isso mostra que o Brasil é:",
     tip: "Pensa em quantas realidades completamente diferentes cabem num único país — isso é muito raro no mundo!",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Se Bernardo precisasse escolher uma região para ver pinguins e baleias jubarte perto do litoral, ele iria para a Região:",
     tip: "Pensa em animais de água fria, que vivem em oceanos mais ao sul — eles se aproximam do litoral sul-brasileiro.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Para concluir o estudo das 5 regiões: conhecer a divisão regional do Brasil nos ajuda a:",
     tip: "Pensa em como conhecer a realidade de cada região te ajuda a compreender o Brasil como um todo — suas riquezas, desafios e oportunidades.",

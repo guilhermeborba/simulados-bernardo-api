@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB3Av2 = [
   {
     id: 1,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que caracteriza a zona rural (campo)?",
     tip: "Pensa em fazendas, sítios, plantações — lugares com mais espaço e natureza ao redor.",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "O que caracteriza a zona urbana (cidade)?",
     tip: "Pensa em prédios, ruas movimentadas, lojas e muita gente vivendo próxima uma da outra.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Urbanização é o processo de:",
     tip: "Pensa em como, ao longo do tempo, cada vez mais pessoas foram morar nas cidades.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "No campo, as principais atividades econômicas geralmente são:",
     tip: "Pensa em atividades que dependem diretamente da terra, dos animais e dos recursos naturais.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Na cidade, as principais atividades econômicas geralmente envolvem:",
     tip: "Pensa em fábricas, lojas, escritórios, bancos — tudo que você vê funcionando em uma cidade grande.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma vantagem de viver no campo pode ser:",
     tip: "Pensa em como, no campo, geralmente há mais espaço, ar puro e proximidade com plantas e animais.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Um desafio comum enfrentado por quem vive no campo é:",
     tip: "Pensa em como, às vezes, é preciso viajar muitos quilômetros para chegar a um hospital ou uma escola quando se mora longe da cidade.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Um desafio comum enfrentado nas grandes cidades é:",
     tip: "Pensa em como cidades muito grandes e populosas enfrentam problemas como engarrafamentos e falta de moradia digna para todos.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A relação entre campo e cidade é de:",
     tip: "Pensa em como a comida que você come na cidade muitas vezes vem do campo, e como o campo também precisa de produtos fabricados nas cidades.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Estudar a relação entre campo e cidade ajuda a entender:",
     tip: "Pensa em como entender essa relação ajuda a perceber de onde vêm as coisas que usamos no dia a dia.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O processo de urbanização no Brasil se intensificou principalmente a partir de:",
     tip: "Pensa em como, com o crescimento das fábricas, muita gente começou a se mudar do campo para as cidades em busca de emprego.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Uma das principais causas da urbanização acelerada no Brasil foi:",
     tip: "Pensa no movimento que aprendemos no simulado anterior, de pessoas saindo do campo para as cidades.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Quando as cidades crescem muito rápido, sem planejamento adequado, pode ocorrer:",
     tip: "Pensa em como um crescimento muito rápido pode não dar tempo para o governo construir toda a infraestrutura necessária.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Infraestrutura urbana inclui:",
     tip: "Pensa em tudo que uma cidade precisa 'por baixo dos panos' para funcionar bem — água chegando nas casas, luz, transporte.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Uma metrópole é:",
     tip: "Pensa em cidades gigantes como São Paulo e Rio de Janeiro, que têm outras cidades ao redor formando uma grande área urbana.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "A qualidade de vida nas cidades pode ser melhorada através de:",
     tip: "Pensa em como cidades bem planejadas, com parques e bom transporte, oferecem uma vida melhor para seus moradores.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Migração",
     type: "multiple_choice",
     text: "A migração para as cidades trouxe desafios, mas também oportunidades como:",
     tip: "Pensa em como as cidades, apesar dos desafios, também oferecem escolas, hospitais, universidades e empregos diversos.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "As cidades brasileiras enfrentam desigualdades porque:",
     tip: "Pensa em como bairros mais ricos costumam ter mais parques e melhor infraestrutura do que bairros mais pobres.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "O planejamento urbano é importante porque:",
     tip: "Pensa em como uma cidade bem planejada consegue oferecer transporte, moradia e serviços de forma mais justa para todos.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Compreender urbanização e seus desafios ajuda os cidadãos a:",
     tip: "Pensa em como conhecer os desafios da sua cidade te ajuda a entender e até participar de mudanças positivas.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Se Bernardo mora em uma cidade e come uma banana no café da manhã, essa fruta provavelmente veio:",
     tip: "Pensa em como frutas, verduras e legumes são cultivados no campo antes de chegar até a mesa das cidades.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Comparando campo e cidade, uma diferença importante é:",
     tip: "Pensa em tudo que já vimos sobre as características específicas de cada um desses ambientes.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Se uma cidade cresce muito rápido sem planejamento, um problema comum que pode surgir é:",
     tip: "Pensa em como um crescimento desorganizado pode deixar a infraestrutura da cidade despreparada para tanta gente.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "A urbanização brasileira aconteceu de forma muito rápida no século XX. Isso trouxe:",
     tip: "Pensa em como toda grande mudança na sociedade traz coisas boas e desafios ao mesmo tempo.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Saneamento e infraestrutura",
     type: "multiple_choice",
     text: "Bernardo percebeu que sua cidade tem um bairro com parques bonitos e outro sem nenhuma área verde. Isso mostra:",
     tip: "Pensa em como nem todos os bairros de uma cidade recebem os mesmos investimentos e cuidados.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Uma solução para melhorar a qualidade de vida tanto no campo quanto na cidade é:",
     tip: "Pensa em como tanto o campo quanto a cidade merecem atenção e investimento para que todos tenham boa qualidade de vida.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Organização das cidades",
     type: "multiple_choice",
     text: "Se Bernardo quiser ser um cidadão consciente sobre os desafios urbanos, ele pode:",
     tip: "Pensa em pequenas atitudes que uma criança pode ter para contribuir com uma cidade melhor.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A relação de interdependência entre campo e cidade nos ensina que:",
     tip: "Pensa em como tudo que consumimos na cidade muitas vezes depende do trabalho de quem vive no campo, e vice-versa.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Para concluir: entender a diferença e a conexão entre campo e cidade ajuda Bernardo a:",
     tip: "Pensa em como esse conhecimento te ajuda a apreciar mais o trabalho de quem produz os alimentos e bens que você usa.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "Para finalizar este simulado: o Brasil de hoje, majoritariamente urbano, ainda depende profundamente:",
     tip: "Pensa em como, mesmo com a maioria das pessoas vivendo em cidades, a comida que chega à nossa mesa ainda vem do trabalho no campo.",

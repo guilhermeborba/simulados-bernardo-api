@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB4Av2 = [
   {
     id: 1,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "Globalização é o processo de:",
     tip: "Pensa em como hoje é possível se comunicar e comprar produtos de qualquer parte do mundo rapidamente.",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "O Brasil participa da economia mundial principalmente através:",
     tip: "Pensa em como o Brasil vende (exporta) produtos como soja e café, e compra (importa) produtos de outros países.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "O Mercosul é um bloco econômico que reúne:",
     tip: "Pensa em países vizinhos do Brasil que se uniram para facilitar o comércio entre eles.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "A tecnologia e a internet aproximaram o Brasil do resto do mundo porque:",
     tip: "Pensa em como você pode assistir vídeos, conversar e comprar produtos de outros países com apenas um clique.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Um exemplo de produto brasileiro conhecido internacionalmente é:",
     tip: "Pensa em uma bebida muito consumida no mundo todo, que o Brasil produz e exporta em grande quantidade.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "A cultura brasileira também é exportada para o mundo através de:",
     tip: "Pensa em manifestações culturais brasileiras conhecidas e admiradas em outros países.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Uma vantagem das relações comerciais internacionais para o Brasil é:",
     tip: "Pensa em como vender produtos brasileiros para outros países traz dinheiro, e comprar produtos de fora nos dá acesso a coisas que não produzimos aqui.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "Um desafio da globalização é:",
     tip: "Pensa em como é importante aproveitar as vantagens de se conectar com o mundo sem perder a própria identidade cultural.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O Brasil é reconhecido mundialmente por sua:",
     tip: "Pensa na maior floresta tropical do mundo, que fica em território brasileiro e é conhecida internacionalmente.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "Entender a posição do Brasil no mundo ajuda Bernardo a:",
     tip: "Pensa em como conhecer as relações do Brasil com outros países te ajuda a entender melhor seu lugar no mundo.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "O Brasil está dividido em quantas regiões?",
     tip: "Pensa em tudo que estudamos sobre Norte, Nordeste, Centro-Oeste, Sudeste e Sul.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O maior rio do Brasil e do mundo em volume de água é o:",
     tip: "Pensa no rio que corta a maior floresta tropical do mundo, na Região Norte.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: "Vegetação",
     type: "multiple_choice",
     text: "O bioma predominante na Região Norte é a:",
     tip: "Pensa na maior floresta tropical do mundo, cheia de biodiversidade.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A maior parte da população brasileira vive:",
     tip: "Pensa em como, ao longo do tempo, mais pessoas foram morar em cidades.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: "População brasileira",
     type: "multiple_choice",
     text: "A Região com maior densidade demográfica do Brasil é:",
     tip: "Pensa na região onde ficam São Paulo e Rio de Janeiro, com muitas pessoas vivendo em pouco espaço.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O setor da economia responsável pela agricultura e pecuária é o:",
     tip: "Pensa nas atividades que retiram recursos diretamente da natureza.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: "Clima e cotidiano",
     type: "multiple_choice",
     text: "O clima Equatorial, presente na Região Norte, é caracterizado por:",
     tip: "Pensa na Floresta Amazônica, que precisa de muito calor e chuva para ser tão exuberante.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A capital federal do Brasil é:",
     tip: "Pensa na cidade planejada, no Centro-Oeste, onde fica o governo federal.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: "Campo e cidade",
     type: "multiple_choice",
     text: "A relação entre campo e cidade é de:",
     tip: "Pensa em como o campo produz alimentos para a cidade, e a cidade oferece produtos e serviços para o campo.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Revisando tudo que aprendemos no 4º ano de Geografia, podemos concluir que o Brasil é:",
     tip: "Pensa em tudo que estudamos esse ano — regiões, relevo, rios, clima, população, economia — cada tema mostra uma riqueza diferente do Brasil.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "Se Bernardo comprar um produto importado do Japão em uma loja brasileira, isso mostra:",
     tip: "Pensa em como produtos de outros países chegam até nós através do comércio internacional.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre relevo, hidrografia, clima, vegetação, população e economia do Brasil. Isso mostra que a Geografia:",
     tip: "Pensa em como cada tema que estudamos (relevo, clima, população, economia) se conecta com os outros para formar um entendimento completo do Brasil.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Comparando a Região Norte com a Região Sudeste, podemos concluir que:",
     tip: "Pensa em tudo que aprendemos sobre as diferenças entre as regiões brasileiras, mas lembrando que todas formam um só país.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "Bernardo, ao final deste ano de estudos de Geografia, entendeu que o Brasil é conectado ao mundo através de:",
     tip: "Pensa em tudo que estudamos sobre globalização, exportação, cultura brasileira reconhecida mundialmente.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Se Bernardo quiser ajudar a valorizar o Brasil no mundo, ele pode:",
     tip: "Pensa em como conhecer bem seu país te ajuda a valorizá-lo e representá-lo com orgulho onde quer que você vá.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "Revisando relevo e hidrografia: o Brasil tem um relevo relativamente suave e uma das maiores reservas de água doce do mundo. Isso é importante porque:",
     tip: "Pensa em como um relevo mais plano facilita construir cidades, e ter muita água doce é essencial para a vida e a agricultura.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Revisando população e economia: o Brasil tem uma população diversa e uma economia baseada em agronegócio, indústria e serviços. Isso mostra que o país:",
     tip: "Pensa em como a diversidade de pessoas e de setores econômicos são forças que ajudam o Brasil a crescer.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Para concluir o 4º ano de Geografia: estudar o Brasil (suas regiões, relevo, clima, população e economia) ajuda Bernardo a:",
     tip: "Pensa em tudo que você aprendeu esse ano e como isso te ajuda a entender melhor o lugar onde você vive.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "A diversidade do Brasil — de regiões, climas, população e economia — é considerada:",
     tip: "Pensa em tudo que torna o Brasil um país tão especial e único no mundo.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Para finalizar este simulado e o ano de Geografia do 4º ano: Bernardo agora entende que o Brasil é:",
     tip: "Pensa em tudo que você aprendeu esse ano — desde as 5 regiões até a economia e a posição do Brasil no mundo.",

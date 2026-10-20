@@ -1,6 +1,7 @@
 export const questoesGeografia4AnoB2Av1 = [
   {
     id: 1,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O relevo é:",
     tip: "Pensa na 'forma' da paisagem que você vê ao redor — se é plana, se tem morros, se é alta ou baixa.",
@@ -16,6 +17,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "A maior parte do relevo brasileiro é formada por:",
     tip: "Pensa em como o Brasil não tem montanhas gigantes como outros países do mundo.",
@@ -31,6 +33,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Planalto é uma área de relevo:",
     tip: "Pensa em uma 'mesa' natural, elevada, formada há milhões de anos pelo desgaste das rochas.",
@@ -46,6 +49,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Planície é uma área de relevo:",
     tip: "Pensa em terrenos baixinhos, perto da água, muito usados para agricultura e para construir cidades.",
@@ -61,6 +65,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Depressão é uma área de relevo:",
     tip: "Pensa em uma área 'afundada', como se tivesse sido desgastada pela chuva e pelo tempo ao longo de muitos anos.",
@@ -76,6 +81,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O ponto mais alto do Brasil é o:",
     tip: "Fica no meio da Floresta Amazônica, no estado do Amazonas, quase na fronteira com a Venezuela.",
@@ -91,6 +97,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "A Serra do Mar e a Serra da Mantiqueira ficam principalmente na Região:",
     tip: "Pensa na região onde ficam São Paulo, Rio de Janeiro e Minas Gerais.",
@@ -106,6 +113,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "O relevo brasileiro é considerado, em geral:",
     tip: "Pensa em como o Brasil quase não sofre terremotos fortes nem tem vulcões ativos, diferente de outros países.",
@@ -121,6 +129,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Um exemplo de planalto brasileiro é o:",
     tip: "Pensa na região onde foi construída a capital federal, numa área elevada no centro do país.",
@@ -136,6 +145,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Compreender o relevo de um lugar ajuda a entender:",
     tip: "Pensa em como um terreno plano é mais fácil para construir e plantar do que um terreno muito íngreme.",
@@ -151,6 +161,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Hidrografia é o estudo:",
     tip: "Pensa na palavra 'hidro', que tem a ver com água.",
@@ -166,6 +177,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O maior rio do Brasil e do mundo em volume de água é o:",
     tip: "Pensa no rio que corta a maior floresta tropical do mundo.",
@@ -181,6 +193,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O Rio São Francisco é conhecido como o:",
     tip: "Pensa em um apelido carinhoso, quase como se fosse um 'avô' das águas, muito importante para o Nordeste.",
@@ -196,6 +209,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Uma bacia hidrográfica é:",
     tip: "Pensa em como a chuva que cai em várias partes de uma região vai escorrendo até chegar a um rio maior.",
@@ -211,6 +225,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O Rio Paraná é muito importante porque:",
     tip: "Pensa em uma das maiores usinas hidrelétricas do mundo, na fronteira entre Brasil e Paraguai.",
@@ -226,6 +241,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Os rios podem ser usados para:",
     tip: "Pensa em quantas coisas diferentes um rio pode oferecer para as pessoas que vivem ao seu redor.",
@@ -241,6 +257,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A poluição dos rios é um problema porque:",
     tip: "Pensa em como todos — pessoas, bichos e plantas — precisam de água limpa para viver bem.",
@@ -256,6 +273,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O Pantanal é uma área com muita água porque:",
     tip: "Pensa em como os rios da região sobem tanto na época de chuva que 'inundam' naturalmente a planície.",
@@ -271,6 +289,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "O encontro das águas em Manaus é um fenômeno onde:",
     tip: "Pensa em duas cores de água diferentes correndo lado a lado sem se misturar, por causa da temperatura e velocidade diferentes.",
@@ -286,6 +305,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Cuidar dos rios e da água é importante porque:",
     tip: "Pensa em como, sem água limpa, nenhum ser vivo consegue sobreviver — por isso ela é tão preciosa.",
@@ -301,6 +321,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o relevo e a hidrografia estão conectados porque:",
     tip: "Pensa em como a água sempre escorre para baixo, seguindo a inclinação do terreno.",
@@ -316,6 +337,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Se Bernardo quiser visitar o maior rio do mundo em volume de água, ele deve ir para a Região:",
     tip: "Pensa na região onde fica o Rio Amazonas.",
@@ -331,6 +353,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Comparando planalto e planície, a principal diferença é:",
     tip: "Pensa na altura de cada um — um fica mais 'para cima', o outro mais 'para baixo'.",
@@ -346,6 +369,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "A importância do Rio São Francisco para o Nordeste é:",
     tip: "Pensa em como esse rio 'salva' áreas secas do Nordeste, levando água para plantações e cidades.",
@@ -361,6 +385,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Bernardo observa no mapa que os rios da Bacia Amazônica desembocam no:",
     tip: "Pensa no oceano que banha o litoral brasileiro, para onde toda a água da Amazônia finalmente chega.",
@@ -376,6 +401,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Se uma cidade for construída em uma planície próxima a um rio, ela pode sofrer com:",
     tip: "Pensa no que acontece quando chove muito e o nível de um rio sobe além da sua margem normal.",
@@ -391,6 +417,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Uma usina hidrelétrica funciona aproveitando:",
     tip: "Pensa em como a água em movimento, ao passar por turbinas, pode gerar eletricidade.",
@@ -406,6 +433,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: "Relevo",
     type: "multiple_choice",
     text: "Para concluir sobre relevo: o Brasil tem um relevo relativamente suave porque:",
     tip: "Pensa em como o Brasil não sofre com os mesmos riscos naturais de países como Japão ou Chile, que têm vulcões e terremotos fortes.",
@@ -421,6 +449,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: "Hidrografia",
     type: "multiple_choice",
     text: "Para concluir sobre hidrografia: o Brasil é privilegiado porque:",
     tip: "Pensa em como o Brasil guarda uma porcentagem enorme de toda a água doce disponível no planeta.",
@@ -436,6 +465,7 @@ export const questoesGeografia4AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: "Paisagens",
     type: "multiple_choice",
     text: "A lição mais importante sobre relevo e hidrografia é que:",
     tip: "Pensa em como as cidades, a agricultura e até o clima de um lugar dependem do relevo e da água disponível.",
