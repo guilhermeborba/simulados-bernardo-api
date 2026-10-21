@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB3Av1 = [
   {
     id: 1,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A agropecuária é o setor da economia que reúne:",
     tip: "Pensa na junção de duas palavras: \"agro\" (agricultura) e \"pecuária\" (criação de animais).",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Qual desses é um importante produto agrícola cultivado em larga escala no Brasil?",
     tip: "Pensa em um grão muito plantado no Brasil, usado para fazer óleo e ração animal, e muito exportado para outros países.",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "O café é um produto agrícola que, historicamente, teve grande importância para a economia brasileira, sendo cultivado principalmente em estados como:",
     tip: "Lembra dos estados que aprendemos no ano passado, relacionados à economia do café e à imigração para as fazendas.",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "A cana-de-açúcar é usada, entre outras coisas, para produzir:",
     tip: "Pensa em um dos alimentos mais usados nas casas brasileiras, feito a partir dessa planta, além de um combustível usado em carros.",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: "Pecuária",
     type: "multiple_choice",
     text: "A pecuária é a atividade econômica relacionada à:",
     tip: "Pensa nas fazendas onde são criados animais para produção de carne, leite e outros produtos.",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: "Comércio",
     type: "multiple_choice",
     text: "O Brasil é um dos maiores exportadores mundiais de:",
     tip: "Pensa nos produtos agropecuários que aprendemos hoje, muito produzidos e exportados pelo Brasil.",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "A economia pode ser dividida em setores. O setor primário reúne atividades como:",
     tip: "Pensa nas atividades que retiram diretamente recursos da natureza, como plantar e criar animais.",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O setor secundário da economia é formado principalmente pela:",
     tip: "Pensa nas fábricas que transformam, por exemplo, a soja em óleo, ou o algodão em roupas.",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "O setor terciário da economia é formado por:",
     tip: "Pensa em atividades que oferecem serviços para as pessoas, sem produzir diretamente um produto físico.",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância da agropecuária para o Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre os produtos agropecuários exportados pelo Brasil.",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "A indústria é a atividade econômica responsável por:",
     tip: "Pensa em fábricas que transformam, por exemplo, o algodão em tecido e depois em roupas.",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Qual região do Brasil é conhecida por concentrar a maior parte da produção industrial do país?",
     tip: "Pensa na região onde ficam grandes cidades como São Paulo, conhecida por suas fábricas e indústrias.",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O que é extrativismo?",
     tip: "Pensa em atividades que \"extraem\" (retiram) recursos que já existem na natureza, sem plantá-los.",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O extrativismo vegetal inclui atividades como:",
     tip: "Pensa em recursos que vêm diretamente das plantas e árvores da floresta, sem serem plantados.",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "O extrativismo mineral inclui a extração de recursos como:",
     tip: "Pensa em recursos retirados do solo, como metais e pedras usados na indústria.",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "Um importante estado brasileiro conhecido pela extração de minério de ferro é:",
     tip: "Pensa no nome desse estado, que já indica sua relação histórica com a mineração.",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: "Extrativismo",
     type: "multiple_choice",
     text: "A extração de minério de ferro na região amazônica é muito importante em qual estado?",
     tip: "Pensa em um estado da região Norte, conhecido por uma das maiores minas de ferro do mundo.",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: "Indústria e matérias-primas",
     type: "multiple_choice",
     text: "Por que a indústria é importante para a economia de um país?",
     tip: "Pensa em como fábricas empregam muitas pessoas e transformam recursos em produtos que usamos.",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é uma preocupação importante relacionada ao extrativismo, especialmente na Floresta Amazônica?",
     tip: "Pensa em como retirar recursos da natureza sem cuidado pode prejudicar florestas e rios.",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância da indústria e do extrativismo para o Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre a importância econômica e os cuidados necessários com esses setores.",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Bernardo visitou uma fazenda de gado em Santa Catarina. Essa atividade econômica é um exemplo de:",
     tip: "Lembra o nome da atividade relacionada à criação de animais, como o gado.",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Bernardo aprendeu que muitos produtos que ele usa em casa, como roupas e eletrônicos, passam por fábricas antes de chegar até ele. Isso é um exemplo do setor:",
     tip: "Lembra qual setor da economia é responsável por transformar matérias-primas em produtos.",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Se Bernardo comprasse um produto feito com minério de ferro extraído de Minas Gerais ou do Pará, essa matéria-prima teria vindo de qual atividade econômica?",
     tip: "Lembra a atividade que extrai minerais, como o ferro, diretamente do solo.",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: "Agricultura",
     type: "multiple_choice",
     text: "Bernardo descobriu que seu suco de laranja e seu pão vêm de produtos agrícolas plantados no Brasil. Isso mostra a importância:",
     tip: "Lembra como a agricultura é responsável por produzir muitos alimentos que fazem parte da nossa alimentação diária.",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Qual é a melhor forma de Bernardo explicar a diferença entre agropecuária e extrativismo para um amigo?",
     tip: "Pensa em como plantar uma soja é diferente de extrair madeira de uma árvore que já existe na floresta.",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo quer entender por que é importante fazer o extrativismo de forma sustentável. A explicação mais adequada é:",
     tip: "Lembra o que aprendemos sobre os cuidados necessários ao retirar recursos da natureza.",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Depois de estudar sobre trabalho e produção, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje sobre os diferentes setores da economia brasileira.",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é uma boa atitude de Bernardo diante da importância da produção sustentável no Brasil?",
     tip: "Pensa em como equilibrar produção econômica e cuidado com o meio ambiente é fundamental para o futuro.",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a importância dos setores primário, secundário e terciário para a economia?",
     tip: "Pensa em como a soja plantada (setor primário) pode virar óleo em uma fábrica (setor secundário) e ser vendida em um mercado (setor terciário).",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: "Atividades econômicas",
     type: "multiple_choice",
     text: "Depois de estudar sobre trabalho e produção no Brasil, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: agropecuária, indústria, extrativismo e a importância da sustentabilidade.",

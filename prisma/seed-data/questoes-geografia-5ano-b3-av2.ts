@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB3Av2 = [
   {
     id: 1,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "O que são recursos naturais?",
     tip: "Pensa em tudo que a Terra nos dá de graça, sem a gente precisar fabricar: água, terra, plantas!",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Qual dos recursos abaixo é considerado RENOVÁVEL, ou seja, a natureza consegue repor?",
     tip: "Pensa num recurso que \"nunca acaba de verdade\", porque ele volta pra gente em forma de chuva!",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Qual desses recursos é NÃO RENOVÁVEL, isto é, demora milhões de anos para se formar de novo?",
     tip: "Pensa em algo que vem lá do fundo da Terra e que não dá pra \"fazer de novo\" rapidinho...",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Da água que existe no planeta, que parte é água doce, própria para o nosso consumo?",
     tip: "Lembra que a maior parte da água da Terra é salgada, dos oceanos! Pensa em quão pouquinho sobra de doce...",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Por que o solo é tão importante para nós?",
     tip: "Pensa de onde vêm as frutas, verduras e grãos que você come todos os dias...",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Qual é uma das funções importantes das florestas?",
     tip: "Pensa no que as árvores soltam no ar quando fazem fotossíntese...",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "O ar que respiramos faz parte de qual camada que envolve a Terra?",
     tip: "Pensa na camada de gases que fica ao redor do nosso planeta...",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "O ferro e o ouro são exemplos de que tipo de recurso natural?",
     tip: "Pensa em onde esses materiais são encontrados: nas rochas, lá no subsolo!",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual atitude ajuda a evitar o desperdício de água?",
     tip: "Pensa no que você pode fazer bem rapidinho, todos os dias, para economizar...",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Marque a alternativa que reúne SOMENTE recursos renováveis:",
     tip: "Pensa nos recursos que a natureza consegue repor bem rapidinho, quase sem parar...",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que é desmatamento?",
     tip: "Pensa na palavra \"mata\"... o que o prefixo \"des\" faz com ela?",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é uma consequência do desmatamento?",
     tip: "Pensa: sem as árvores, o ciclo da água da região fica prejudicado...",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que são queimadas?",
     tip: "Pensa em fogo sendo usado de propósito na terra ou na floresta...",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Jogar lixo e esgoto sem tratamento nos rios causa:",
     tip: "Pensa no que acontece com os peixes quando a água onde eles vivem fica suja...",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A fumaça liberada por fábricas e carros é um exemplo de:",
     tip: "Pensa em como fica o céu perto de muitas fábricas ou em um trânsito bem grande...",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O uso exagerado de agrotóxicos e o lixo jogado no chão causam:",
     tip: "Pensa no que acontece com a terra quando produtos químicos em excesso se acumulam nela...",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O aquecimento global está relacionado a:",
     tip: "Pensa na palavra \"aquecimento\"... a temperatura sobe ou desce?",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O desgaste do solo causado pela chuva e pelo vento, que piora quando não há árvores, se chama:",
     tip: "Pensa numa palavra que lembra algo sendo \"arrastado\" ou \"gasto\" aos poucos...",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A destruição de florestas, que são a casa de muitos animais, pode causar:",
     tip: "Pensa: se a casa de um animal desaparece, o que pode acontecer com ele?",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "A coleta seletiva e a reciclagem ajudam a:",
     tip: "Pensa no que acontece quando a gente separa o lixo reciclável do lixo orgânico...",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo, em Santa Catarina, viu um rio cheio de lixo e água suja perto de sua casa. Isso é um exemplo de:",
     tip: "Pensa no que a gente aprendeu sobre jogar lixo e esgoto nos rios...",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo fecha a torneira enquanto escova os dentes. Essa atitude é importante porque:",
     tip: "Pensa em quantos litros de água escapam pelo ralo quando a torneira fica aberta à toa...",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Na escola, Bernardo participou de um projeto e plantou uma muda de árvore. Essa atitude ajuda a:",
     tip: "Pensa no oposto de \"derrubar árvores\"... o que significa \"plantar\"?",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Em casa, Bernardo separa o lixo em reciclável (papel, plástico, vidro) e orgânico (restos de comida). Essa prática se chama:",
     tip: "Pensa no nome que damos quando \"selecionamos\" e separamos o lixo por tipo...",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Bernardo viu na televisão uma notícia sobre uma grande queimada destruindo parte de uma floresta. Essa situação é preocupante porque:",
     tip: "Lembra do que aprendemos sobre o fogo usado sem controle na natureza...",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "A casa de Bernardo tem um painel solar no telhado, que usa a luz do sol para gerar energia. Esse é um exemplo de uso de um recurso:",
     tip: "Pensa: o sol vai deixar de brilhar amanhã? Ele se \"repõe\" o tempo todo!",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: "Recursos naturais",
     type: "multiple_choice",
     text: "Qual desses recursos é considerado NÃO RENOVÁVEL?",
     tip: "A gente já viu esse antes... pensa em algo que vem do subsolo e demora milhões de anos para se formar!",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Qual é uma consequência direta do desmatamento de uma floresta?",
     tip: "Lembra que as árvores seguram o solo com as raízes e ajudam a formar chuva na região...",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "O que CADA pessoa pode fazer no dia a dia para ajudar o meio ambiente?",
     tip: "Pensa em pequenas atitudes, como as de Bernardo, que fazem diferença no dia a dia...",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: "Preservação ambiental",
     type: "multiple_choice",
     text: "Por que é importante cuidar dos recursos naturais do nosso planeta?",
     tip: "Pensa no futuro... quem vai viver aqui daqui a muitos anos?",

@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB1Av2 = [
   {
     id: 1,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil é dividido, política e administrativamente, em:",
     tip: "Pensa em como o mapa do Brasil é dividido em várias partes menores, cada uma com seu próprio governo.",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Quantos estados brasileiros existem, sem contar o Distrito Federal?",
     tip: "Pensa em como o Brasil é dividido em bastante estados, cada um com sua própria capital.",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a capital federal do Brasil, onde funciona o governo do país?",
     tip: "Pensa na cidade planejada, no Centro-Oeste do país, criada especialmente para ser a capital do Brasil.",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Brasília está localizada em qual unidade federativa?",
     tip: "Pensa no nome da unidade federativa especial, que não é chamada de \"estado\", onde fica a capital do Brasil.",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Cada estado brasileiro tem sua própria:",
     tip: "Pensa em como cada estado tem uma cidade principal, onde geralmente fica o governo estadual.",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Em quantas regiões o Brasil é dividido?",
     tip: "Pensa nas regiões Norte, Nordeste, Centro-Oeste, Sudeste e Sul — conta quantas são.",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Quais são as cinco regiões do Brasil?",
     tip: "Pensa nos nomes das regiões que aprendemos em geografia, usados para organizar o território brasileiro.",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A região brasileira com a maior extensão territorial é a:",
     tip: "Pensa na região onde fica a maior parte da Floresta Amazônica, ocupando uma área enorme do Brasil.",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A região brasileira com o maior número de estados é a:",
     tip: "Pensa na região que tem nove estados diferentes, incluindo Bahia, Ceará e Pernambuco.",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A região brasileira com o menor número de estados é a:",
     tip: "Pensa na região que tem apenas três estados: Paraná, Santa Catarina e Rio Grande do Sul.",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Quantos estados fazem parte da região Sul do Brasil?",
     tip: "Pensa nos nomes Paraná, Santa Catarina e Rio Grande do Sul — conta quantos são.",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Quais são os três estados que formam a região Sul do Brasil?",
     tip: "Pensa nos estados localizados na parte mais ao sul do mapa do Brasil.",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a capital do estado de Santa Catarina?",
     tip: "Pensa na cidade que fica em uma ilha, conhecida por suas praias e pontes.",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a capital do estado de São Paulo?",
     tip: "Pensa em como, nesse caso, a capital tem o mesmo nome do estado.",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a capital do estado da Bahia?",
     tip: "Pensa em uma cidade histórica muito importante, com o famoso bairro do Pelourinho.",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Qual é a região brasileira que reúne os estados de São Paulo, Rio de Janeiro, Minas Gerais e Espírito Santo?",
     tip: "Pensa na região mais populosa do Brasil, onde ficam grandes cidades como São Paulo e Rio de Janeiro.",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A região Centro-Oeste do Brasil é formada pelos estados de Goiás, Mato Grosso, Mato Grosso do Sul e também pelo(a):",
     tip: "Pensa em qual unidade federativa especial, onde fica a capital do Brasil, também faz parte dessa região.",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "O Pantanal, uma das maiores áreas úmidas do mundo, está localizado principalmente na região:",
     tip: "Pensa na região onde ficam os estados de Mato Grosso e Mato Grosso do Sul, conhecidos por essa importante área natural.",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "A Floresta Amazônica está localizada principalmente na região:",
     tip: "Pensa na região que ocupa a maior parte do território brasileiro, onde fica a maior floresta tropical do mundo.",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a divisão política e regional do Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre estados, capitais e regiões do Brasil.",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Bernardo mora em Santa Catarina, um estado localizado na região:",
     tip: "Lembra quais três estados formam essa região, incluindo o estado onde Bernardo mora.",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a capital do estado onde Bernardo mora, Santa Catarina?",
     tip: "Lembra a cidade conhecida como \"Ilha da Magia\", que é a capital catarinense.",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Se Bernardo quisesse visitar a capital federal do Brasil, ele deveria ir a qual cidade?",
     tip: "Lembra qual cidade foi construída especialmente para ser a capital do país.",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Bernardo está estudando um mapa do Brasil e precisa identificar os estados da região Sudeste. Quais são eles?",
     tip: "Lembra os quatro estados que formam a região mais populosa do Brasil.",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Bernardo aprendeu que, além dos estados, existe uma unidade federativa especial, onde fica a capital do país. O nome dela é:",
     tip: "Lembra o nome dessa unidade especial, que não é chamada de \"estado\".",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Se Bernardo comparasse o tamanho da região Norte com o da região Sul, ele perceberia que:",
     tip: "Lembra qual região ocupa a maior parte do território brasileiro, e qual tem o menor número de estados.",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Qual é a melhor forma de Bernardo explicar para um amigo a divisão política do Brasil?",
     tip: "Pensa no resumo de tudo que aprendemos hoje sobre estados, capitais e regiões.",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Bernardo quer saber por que é importante conhecer os estados, capitais e regiões do Brasil. A resposta mais adequada é:",
     tip: "Pensa em como conhecer a divisão política ajuda a entender melhor o Brasil como um todo, incluindo suas diferenças regionais.",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é uma boa forma de estudar e memorizar os estados, capitais e regiões do Brasil?",
     tip: "Pensa em como aprender de forma visual e prática, como brincando com mapas, pode ajudar a fixar melhor as informações.",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Depois de estudar sobre a divisão política do Brasil, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje sobre estados, capitais e regiões brasileiras.",

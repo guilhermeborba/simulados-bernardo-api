@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB1Av1 = [
   {
     id: 1,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O Brasil está localizado em qual continente?",
     tip: "Pensa no continente onde ficam também países como Argentina, Chile e Paraguai, vizinhos do Brasil.",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Em relação ao tamanho, o Brasil é considerado:",
     tip: "Pensa em como o Brasil é um país bem grande, ficando atrás apenas de Rússia, Canadá, China e Estados Unidos em tamanho.",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "O Brasil está localizado, principalmente, em quais hemisférios?",
     tip: "Pensa em como o Brasil fica abaixo da Linha do Equador (na maior parte) e do lado oeste do planeta, junto com as Américas.",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual oceano banha o litoral (costa) do Brasil?",
     tip: "Pensa no oceano que fica entre o Brasil e o continente africano.",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "O território de um país é delimitado por:",
     tip: "Pensa nas linhas que marcam onde um país termina e outro começa.",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Quantos países fazem fronteira terrestre com o Brasil?",
     tip: "Pensa em como o Brasil é um país grande, cercado por vários vizinhos na América do Sul.",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Quais são os únicos dois países da América do Sul que NÃO fazem fronteira com o Brasil?",
     tip: "Pensa em países localizados mais para o lado oeste do continente, junto ao Oceano Pacífico.",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A Guiana Francesa, que faz fronteira com o Brasil, é um território que pertence a:",
     tip: "Pensa em um país europeu que ainda tem um território na América do Sul.",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a importância de conhecer as fronteiras de um país como o Brasil?",
     tip: "Pensa em como as fronteiras ajudam a organizar o território e as relações entre os países.",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "O Brasil é o único país da América do Sul cujo idioma oficial é:",
     tip: "Pensa em qual língua você fala todos os dias, diferente da maioria dos países vizinhos, que falam espanhol.",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Ao norte do Brasil, o país faz fronteira, entre outros, com:",
     tip: "Pensa em países localizados na parte de cima do mapa da América do Sul, próximos à linha do Equador.",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Ao sul do Brasil, o país faz fronteira com:",
     tip: "Pensa em países localizados na parte de baixo do mapa da América do Sul.",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A fronteira entre dois países, quando não é definida por um rio ou uma montanha, mas apenas por uma linha no mapa, é chamada de:",
     tip: "Pensa em uma fronteira que passa por terra firme, sem nenhum rio ou obstáculo natural dividindo os países.",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A extensão do litoral (costa) brasileiro é de aproximadamente:",
     tip: "Pensa em como o Brasil tem uma costa bem extensa, com praias em vários estados diferentes.",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Cidades localizadas bem próximas à linha de fronteira entre dois países, muitas vezes com forte troca cultural e comercial, são chamadas de:",
     tip: "Pensa em cidades de países diferentes que ficam tão próximas que parecem \"gêmeas\", uma de cada lado da fronteira.",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "A \"tríplice fronteira\" entre Brasil, Argentina e Paraguai é conhecida por:",
     tip: "Pensa em uma região onde três países ficam bem pertinho um do outro, perto de uma famosa queda d'água.",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "Por que é importante para o Brasil ter boas relações com os países que fazem fronteira com ele?",
     tip: "Pensa em como países vizinhos podem trabalhar juntos para facilitar viagens, comércio e segurança.",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "O Mercosul é um bloco que reúne, entre outros, o Brasil e países vizinhos como:",
     tip: "Pensa em países da América do Sul, vizinhos do Brasil, que fazem parte desse bloco econômico.",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: "Regiões do Brasil",
     type: "multiple_choice",
     text: "Qual é a região brasileira que faz fronteira com a maior quantidade de países vizinhos?",
     tip: "Pensa na região onde fica a Floresta Amazônica, perto de muitos países da América do Sul.",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a localização e as fronteiras do Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre o tamanho do Brasil, seus vizinhos e sua costa.",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Bernardo estava olhando um mapa do Brasil e viu que o país faz fronteira com muitos vizinhos, exceto dois países da América do Sul. Esses dois países são:",
     tip: "Lembra quais países ficam mais voltados para o Oceano Pacífico, do outro lado do continente.",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Bernardo descobriu que a cidade onde mora fica bem próxima da fronteira com outro país, com bastante troca comercial e cultural. Esse tipo de cidade é chamado de:",
     tip: "Lembra o nome dado às cidades de países diferentes que ficam bem próximas umas das outras, na fronteira.",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Se Bernardo quisesse visitar as Cataratas do Iguaçu, ele estaria visitando uma região conhecida por:",
     tip: "Lembra a região onde ficam essas famosas quedas d'água, perto de três países diferentes.",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Bernardo aprendeu que o Brasil tem uma costa muito extensa, banhada pelo Oceano Atlântico. Isso significa que:",
     tip: "Lembra a extensão aproximada do litoral brasileiro que aprendemos hoje.",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: "Cultura e identidade",
     type: "multiple_choice",
     text: "Bernardo quer entender melhor por que o Brasil fala português, diferente da maioria dos países vizinhos, que falam espanhol. Isso tem relação com:",
     tip: "Lembra o que aprendemos no ano passado sobre a colonização do Brasil, feita pelos portugueses.",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: "Globalização",
     type: "multiple_choice",
     text: "Qual é a importância do Mercosul para o Brasil e seus países vizinhos?",
     tip: "Lembra o que aprendemos sobre esse bloco econômico formado por países da América do Sul.",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: "Território brasileiro",
     type: "multiple_choice",
     text: "Depois de estudar sobre o território e as fronteiras do Brasil, Bernardo entendeu que:",
     tip: "Pensa no resumo de tudo que vimos hoje sobre o tamanho, os vizinhos e a costa do Brasil.",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Se Bernardo quisesse localizar o Brasil em um globo terrestre, ele encontraria o país principalmente:",
     tip: "Lembra em qual hemisfério e continente fica a maior parte do território brasileiro.",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Qual é a melhor forma de resumir a localização geográfica do Brasil?",
     tip: "Pensa em tudo que aprendemos hoje sobre continente, hemisférios e oceano relacionados ao Brasil.",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: "Geografia do Brasil",
     type: "multiple_choice",
     text: "Depois de estudar sobre o território brasileiro e suas fronteiras, qual é a melhor lição que Bernardo pode levar para a vida?",
     tip: "Pensa no resumo de tudo que vimos hoje: extensão territorial, fronteiras, vizinhos e costa do Brasil.",

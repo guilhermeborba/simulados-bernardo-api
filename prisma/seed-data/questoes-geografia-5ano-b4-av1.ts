@@ -1,6 +1,7 @@
 export const questoesGeografia5AnoB4Av1 = [
   {
     id: 1,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O que é um mapa?",
     tip: "Pensa em algo \"menorzinho\" que representa um lugar bem maior, como se você estivesse voando por cima dele...",
@@ -16,6 +17,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Para que servem os mapas?",
     tip: "Pensa em quando alguém está perdido e precisa saber para onde ir...",
@@ -31,6 +33,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O título de um mapa serve para:",
     tip: "Pensa: quando você lê o título de um livro, o que ele te conta logo de cara?",
@@ -46,6 +49,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "A legenda de um mapa serve para:",
     tip: "Pensa em um \"dicionário\" que explica os desenhinhos e as cores usadas no mapa...",
@@ -61,6 +65,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "A escala de um mapa indica:",
     tip: "Pensa em como uma cidade enorme consegue \"caber\" dentro de uma folha de papel pequena...",
@@ -76,6 +81,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "A rosa dos ventos em um mapa serve para indicar:",
     tip: "Pensa naquele desenho com setas apontando para vários lados diferentes...",
@@ -91,6 +97,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Quais são os pontos cardeais?",
     tip: "Pensa nas quatro direções principais que a gente aprende desde pequeno...",
@@ -106,6 +113,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Quais são os pontos colaterais?",
     tip: "Pensa nos pontos que ficam \"entre\" os quatro pontos cardeais principais...",
@@ -121,6 +129,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é a principal diferença entre um globo terrestre e um mapa?",
     tip: "Pensa no formato da Terra: ela é redondinha ou achatada feito uma folha de papel?",
@@ -136,6 +145,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual elemento NÃO pode faltar para entendermos bem um mapa?",
     tip: "Pensa em qual desses elementos explica o significado dos símbolos usados no mapa...",
@@ -151,6 +161,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O mapa político mostra principalmente:",
     tip: "Pensa na palavra \"política\"... ela tem a ver com governo e fronteiras!",
@@ -166,6 +177,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O mapa físico mostra principalmente:",
     tip: "Pensa na palavra \"físico\"... ela tem a ver com a paisagem natural do lugar!",
@@ -181,6 +193,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Um mapa temático é aquele que:",
     tip: "Pensa na palavra \"tema\"... esse tipo de mapa foca em um assunto só!",
@@ -196,6 +209,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Em um mapa com escala 1:100.000, cada 1 centímetro no mapa representa, na realidade:",
     tip: "Pensa: se 1 cm no mapa vale 100.000 cm de verdade, quantos metros isso dá? (100.000 cm = 1.000 m = 1 km!)",
@@ -211,6 +225,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Um mapa de escala GRANDE (como de um bairro) geralmente mostra:",
     tip: "Pensa: para ver bem os detalhes de uma rua, você precisa de um mapa \"de perto\" ou \"de longe\"?",
@@ -226,6 +241,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Nos mapas, a cor azul geralmente representa:",
     tip: "Pensa em qual elemento da natureza costuma ter essa cor...",
@@ -241,6 +257,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Nos mapas, a cor verde geralmente representa:",
     tip: "Pensa na cor das florestas e das matas...",
@@ -256,6 +273,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Nos mapas de relevo, tons de marrom geralmente indicam:",
     tip: "Pensa: quanto mais escuro o marrom em um mapa de relevo, mais alto costuma ser o terreno!",
@@ -271,6 +289,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Um símbolo com o desenho de um avião em um mapa geralmente indica:",
     tip: "Pensa: o que voa no céu e costuma usar esse tipo de símbolo nos mapas?",
@@ -286,6 +305,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Se você não sabe o que um símbolo do mapa significa, onde deve procurar a explicação?",
     tip: "Lembra qual elemento funciona como um \"dicionário\" de símbolos do mapa...",
@@ -301,6 +321,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Bernardo está procurando o estado de Santa Catarina em um mapa político do Brasil. O que mais vai ajudá-lo a encontrar rapidamente?",
     tip: "Pensa em como a gente identifica cada estado num mapa político: pelos nomes escritos e pelas cores da legenda!",
@@ -316,6 +337,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "A família de Bernardo usa um aplicativo de GPS no celular para chegar a um lugar novo. Esse aplicativo funciona com base em:",
     tip: "Pensa em como o aplicativo \"sabe\" onde o carro está e qual caminho seguir até o destino...",
@@ -331,6 +353,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "No mapa da cidade, Bernardo vê um símbolo com uma cruz. Consultando a legenda, ele descobre que esse símbolo representa:",
     tip: "Pensa em qual símbolo costuma ser usado para representar atendimento de saúde...",
@@ -346,6 +369,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Bernardo quer saber a distância real entre duas cidades usando um mapa. Ele deve usar:",
     tip: "Pensa em qual elemento ajuda a \"traduzir\" o tamanho desenhado no papel para o tamanho real...",
@@ -361,6 +385,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Observando a rosa dos ventos em um mapa, Bernardo descobre que sua casa fica ao norte de um parque. Isso significa que, no mapa, a casa está:",
     tip: "Pensa em qual direção a rosa dos ventos costuma apontar para cima, na maioria dos mapas...",
@@ -376,6 +401,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Qual é a diferença entre um mapa político e um mapa físico?",
     tip: "Lembra o que cada um desses mapas costuma destacar... um foca nas divisões, o outro na paisagem natural!",
@@ -391,6 +417,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "O que significa a escala de um mapa?",
     tip: "Lembra da continha que fizemos com o 1:100.000... isso é a escala!",
@@ -406,6 +433,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Nos mapas, a cor azul geralmente representa:",
     tip: "A gente já viu isso antes... pensa na cor do mar!",
@@ -421,6 +449,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: "Orientação e localização",
     type: "multiple_choice",
     text: "Bernardo se distraiu em uma trilha e não sabia para onde ir. Para se orientar, ele pode usar uma bússola e observar:",
     tip: "Pensa no instrumento que sempre aponta para uma direção fixa: o Norte!",
@@ -436,6 +465,7 @@ export const questoesGeografia5AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: "Representações cartográficas",
     type: "multiple_choice",
     text: "Por que é importante aprender a ler mapas?",
     tip: "Pensa em quantas vezes um mapa pode te ajudar a não se perder e a conhecer lugares novos...",
