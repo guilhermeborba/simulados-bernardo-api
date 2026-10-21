@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'O que é uma célula?',
     tip: 'Pensa em algo bem pequenininho, invisível a olho nu, que forma tudo que é vivo — desde uma bactéria até uma pessoa.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Todos os seres vivos são formados por:',
     tip: 'Pensa numa bactéria (que tem só uma célula) e num elefante (que tem trilhões de células) — os dois são feitos da mesma "peça básica".',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Um ser vivo formado por apenas uma célula é chamado de:',
     tip: '"Uni" lembra "um" — pensa em "uniforme", uma coisa só.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Um ser vivo formado por muitas células é chamado de:',
     tip: '"Multi" lembra "muitos" — pensa em "multicolorido", que tem muitas cores.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'O ser humano é um exemplo de ser vivo:',
     tip: 'Pensa em quantas partes diferentes formam o corpo humano: pele, músculos, ossos... isso indica muitas células diferentes.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Uma bactéria é um exemplo de ser vivo:',
     tip: 'Bactérias são organismos bem simples, formados por uma única célula.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Instrumentos científicos',
     type: 'multiple_choice',
     text: 'Qual instrumento é usado para observar células, já que elas são muito pequenas?',
     tip: 'Pensa no instrumento que amplia coisas muito pequenas para que possamos enxergar detalhes.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'A parte da célula que controla suas atividades e guarda as informações genéticas é chamada de:',
     tip: 'Pensa no "centro de comando" da célula, onde ficam guardadas as instruções importantes.',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'A parte da célula que envolve e protege seu conteúdo é chamada de:',
     tip: 'Pensa numa espécie de "envelope" que envolve toda a célula, controlando o que entra e sai.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'O material gelatinoso dentro da célula, onde ficam as estruturas internas, é chamado de:',
     tip: 'Pensa num líquido gelatinoso que preenche o espaço dentro da célula, envolvendo as outras estruturas.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre uma célula animal e uma célula vegetal?',
     tip: 'Pensa numa planta bem firme e rígida — algo na célula dela ajuda a manter essa estrutura mais forte que a célula animal.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'A parede celular, presente nas células vegetais, serve para:',
     tip: 'Pensa na palavra "parede" — ela lembra algo firme e resistente, que serve de proteção.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Os cloroplastos, presentes nas células vegetais, são responsáveis por:',
     tip: 'Pensa na cor verde das folhas — ela vem de uma estrutura dentro da célula que ajuda a planta a produzir seu próprio alimento usando a luz do sol.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'As mitocôndrias são estruturas presentes nas células responsáveis por:',
     tip: 'Pensa nas mitocôndrias como pequenas "usinas de energia" dentro da célula.',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Por que as células são consideradas a "unidade da vida"?',
     tip: 'Pensa em "unidade" como a menor peça que ainda consegue fazer tudo o que a vida precisa: se alimentar, crescer, se reproduzir.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Um organismo unicelular, como uma ameba, precisa realizar todas as suas funções vitais:',
     tip: 'Lembre que "unicelular" significa que o organismo tem só uma célula — então tudo precisa acontecer dentro dela mesma.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Em um organismo multicelular, como o ser humano, diferentes tipos de células se especializam em:',
     tip: 'Pensa nas células musculares, nervosas e da pele — cada uma faz um trabalho bem diferente dentro do corpo.',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Um grupo de células semelhantes que trabalham juntas forma um:',
     tip: 'Pensa em um grupo de células parecidas, como as musculares, unidas para fazer um trabalho em conjunto.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Vários tecidos diferentes trabalhando juntos formam um:',
     tip: 'Pensa no coração — ele é formado por vários tecidos diferentes (muscular, nervoso, etc.) trabalhando juntos para bombear o sangue.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'A sequência correta de organização dos seres vivos, da menor para a maior estrutura, é:',
     tip: 'Pensa em construir algo por partes: primeiro a peça menor (célula), depois um grupo delas (tecido), depois uma estrutura maior (órgão), até formar um conjunto completo (sistema).',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Bernardo observou uma célula vegetal no microscópio da escola e notou uma estrutura rígida ao redor dela. Essa estrutura é chamada de:',
     tip: 'Lembre que essa estrutura rígida e firme é específica das células vegetais, e não das animais.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que essa estrutura rígida só existe em células:',
     tip: 'Lembre da diferença entre célula animal e célula vegetal que Bernardo estudou no microscópio.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Na aula de ciências, a professora explicou que o corpo de Bernardo é formado por trilhões de células trabalhando juntas. Isso significa que o ser humano é um organismo:',
     tip: 'Lembre que "multi" significa "muitos" — e trilhões de células é bastante gente trabalhando junta!',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que ele precisa comer para ter energia. A resposta está relacionada a uma estrutura das células chamada:',
     tip: 'Lembre da estrutura chamada de "usina de energia" da célula.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Bernardo observou, no microscópio, uma única célula se movendo sozinha em uma gota de água. Esse organismo provavelmente é:',
     tip: 'Pensa em qual desses seres vivos poderia ser formado por uma única célula, pequena o suficiente para caber numa gota de água.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que seu corpo tem células musculares, células nervosas e células da pele, cada uma com uma função diferente. Isso mostra que as células podem ser:',
     tip: 'Lembre que, em organismos multicelulares, diferentes tipos de células realizam trabalhos diferentes.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que várias células musculares parecidas, trabalhando juntas, formam o que se chama de:',
     tip: 'Lembre que um grupo de células semelhantes, trabalhando juntas, forma um tecido.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'O coração de Bernardo é formado por diferentes tecidos trabalhando juntos. Isso faz do coração um exemplo de:',
     tip: 'Lembre que vários tecidos diferentes, trabalhando juntos, formam um órgão.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que o coração, os vasos sanguíneos e o sangue trabalham juntos formando o:',
     tip: 'Pensa em vários órgãos e estruturas trabalhando juntos para uma mesma função importante: fazer o sangue circular pelo corpo.',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Organização dos seres vivos',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo entendeu que o corpo humano é organizado, do menor para o maior, assim:',
     tip: 'Pensa em construir algo por partes: primeiro a peça menor (célula), depois um grupo delas (tecido), depois uma estrutura maior (órgão), até formar um conjunto completo (sistema).',

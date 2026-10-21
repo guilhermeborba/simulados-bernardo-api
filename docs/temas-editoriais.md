@@ -708,3 +708,49 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-mat
 A quantidade de temas acompanha o conteúdo: B1/AV1 concentra numeração; B1/AV2 tem cinco; B2/AV1, dois; B2/AV2 concentra frações; B3/AV1 tem dois; B3/AV2, quatro; B4/AV1 concentra porcentagem; B4/AV2 revisa treze. Não se subdividem artificialmente os simulados concentrados em um assunto.
 
 As inconsistências anteriores de gabarito/contagem de zeros e contradição na votação (B1/AV1, IDs 28 e 29), comando sobre divisores (B2/AV1, ID 21), inclusão de zero na definição/listagem de múltiplos (B2/AV1, IDs 1, 3 e 13; B4/AV2, ID 3) e distinção entre círculo e circunferência (B3/AV2, IDs 16 e 29) estão na [issue web #94](https://github.com/guilhermeborba/simulados-bernardo/issues/94), para revisão separada. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados neste lote.
+
+### Ciências — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Água na natureza | Importância da água para a vida, cobertura da superfície terrestre, oceanos e distribuição de água doce e salgada. |
+| Astronomia | Astros, órbita da Lua e alinhamentos do Sol, Terra e Lua nos eclipses. |
+| Células | Unidade celular, estruturas, funções, membrana, citoplasma, núcleo, parede celular, cloroplastos e mitocôndrias. |
+| Ciência no cotidiano | Síntese da aprendizagem de investigação científica, matéria, células, misturas, solo, água e movimentos da Terra. |
+| Ciclo da água | Circulação entre superfície, solo e atmosfera, evaporação, condensação, precipitação e águas subterrâneas. |
+| Conservação do solo | Erosão, raízes, desmatamento, contaminação, rotação de culturas e manutenção da fertilidade. |
+| Estados físicos | Características, partículas e reconhecimento dos estados sólido, líquido e gasoso nos exemplos estudados. |
+| Instrumentos científicos | Identificação e funções de microscópio e termômetro e observação de estruturas muito pequenas. |
+| Investigação científica | Observação, perguntas, hipóteses, variáveis, grupos, experimentos, coleta e registro de dados, evidências, repetição e comunicação. |
+| Lua e suas fases | Mudanças da aparência da Lua conforme a posição relativa entre Sol, Terra e Lua. |
+| Misturas | Composição, classificação e comparação de misturas homogêneas e heterogêneas, incluindo materiais dissolvidos e misturas gasosas. |
+| Movimentos da Terra | Rotação, translação, eixo, dias, noites, duração do ano, estações e variação da iluminação. |
+| Organização dos seres vivos | Organismos unicelulares e multicelulares, especialização das células e organização em tecidos, órgãos e sistemas. |
+| Orientação e localização | Direções gerais do nascer e do pôr do Sol e pontos cardeais. |
+| Práticas de laboratório | Procedimentos e equipamentos de proteção nos experimentos descritos. |
+| Preservação ambiental | Poluição das águas, descarte de lixo e esgoto e efeitos sobre os seres vivos. |
+| Resíduos e reciclagem | Separação de recicláveis, reaproveitamento e compostagem de matéria orgânica para produzir adubo. |
+| Saúde e bem-estar | Tratamento de água e esgoto, prevenção de doenças e riscos da água contaminada. |
+| Separação de misturas | Filtração, decantação, evaporação, destilação, catação, peneiramento, imantação e aplicações cotidianas. |
+| Solo | Formação, intemperismo, horizontes, composição, húmus, texturas, retenção de água e suporte à vida. |
+| Sustentabilidade | Economia, reutilização, consumo consciente e responsabilidade pelo cuidado da água. |
+| Temperatura e calor | Aquecimento, resfriamento, energia e comportamento das partículas, incluindo a discussão de ebulição. |
+| Transformações da matéria | Mudanças de estado físico, reconhecimento dos processos e influência de temperatura e pressão. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-ciencias-6ano-b*-av*.ts`. Não há entradas privadas desse ano/disciplina no seed. Os 23 temas reaproveitam os nomes dos anos anteriores quando o conteúdo corresponde; investigação, instrumentos, práticas, células, organização dos seres vivos, solo, sua conservação, disponibilidade de água e relações entre calor e temperatura explicitam os novos conteúdos deste ano.
+
+**Investigação científica** reúne o raciocínio, as etapas e as evidências das pesquisas, sem dar como tema o nome da etapa ou do grupo solicitado. **Instrumentos científicos** concentra identificação e função de microscópio e termômetro, inclusive B2/AV1, ID 7. **Práticas de laboratório** reúne os itens de proteção do B1/AV1, IDs 10 e 26; o rótulo não antecipa a finalidade pedida na alternativa.
+
+**Estados físicos** cobre as características e o reconhecimento dos estados, inclusive o estado final após congelamento em B1/AV2, ID 18. **Transformações da matéria** reúne nomes e condições dos processos de mudança de estado; não se usam Fusão, Condensação ou Sublimação como rótulos da resposta. Aquecer/resfriar partículas usa **Temperatura e calor** em B1/AV2, IDs 16, 17 e 29. Os IDs 20 e 28 desse simulado perguntam as condições de uma transformação e permanecem em **Transformações da matéria**, sem antecipar temperatura como resposta.
+
+**Células** concentra estruturas e funções; **Organização dos seres vivos** reúne quantidade de células, especialização e níveis célula–tecido–órgão–sistema. Os temas não usam o nome da organela ou a classificação unicelular/multicelular que deve ser identificada. O reconhecimento do sistema circulatório em B2/AV1, ID 29, permanece na organização dos sistemas, sem antecipar seu nome.
+
+**Misturas** reúne composição e tipos. **Separação de misturas** cobre os métodos, suas propriedades e seus usos; os rótulos não usam o método específico procurado. O B2/AV2, ID 20, pede identificar a separação como parte da reciclagem e usa **Resíduos e reciclagem**, que também cobre a finalidade da separação de recicláveis e a compostagem no B3/AV1. **Solo** reúne formação, textura e húmus; **Conservação do solo** cobre erosão, contaminação, raízes e rotação de culturas sem antecipar qual fenômeno ou prática é a resposta.
+
+**Água na natureza** reúne importância e distribuição; **Ciclo da água**, as etapas e relações entre os reservatórios; **Saúde e bem-estar**, contaminação, tratamento de água e esgoto. Reconhecer o tratamento de esgoto em B3/AV2, ID 21, e B4/AV2, ID 26, usa esse tema amplo. **Preservação ambiental** cobre a poluição e seus efeitos; **Sustentabilidade**, economia, reuso e responsabilidade no consumo. A chuva no B1/AV2, ID 26, trabalha o nome de uma mudança de estado e fica em **Transformações da matéria**; no B3/AV2, as mudanças integram expressamente o ciclo e usam **Ciclo da água**.
+
+**Movimentos da Terra** reúne rotação e translação, sem usar como tema o movimento ou a estação que deve ser identificado. **Orientação e localização** cobre as direções gerais do nascer e pôr do Sol; **Lua e suas fases**, a aparência lunar; **Astronomia**, astro e eclipses. A síntese que reúne conteúdos de todo o ano em B4/AV2, ID 30, usa **Ciência no cotidiano**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1, B1/AV2, B2/AV1, B2/AV2 e B3/AV1 têm três cada; B3/AV2 tem cinco; B4/AV1, quatro; B4/AV2 revisa treze. Os campos anteriores foram preservados exatamente.
+
+Os problemas anteriores de ebulição, exclusividade da parede celular, hipótese de ausência de rotação, vapor visível, exemplo infantil com naftalina, água doce/potabilidade e redação de hipótese estão na [issue web #97](https://github.com/guilhermeborba/simulados-bernardo/issues/97), com referências para revisão editorial separada. Este lote de temas não corrige nem valida cientificamente essas afirmações: apenas as classifica e preserva o conteúdo anterior.

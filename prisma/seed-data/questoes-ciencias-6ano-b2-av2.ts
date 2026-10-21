@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'O que é uma mistura?',
     tip: 'Pensa em juntar sal e areia num mesmo pote — isso é exatamente uma mistura.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'Uma mistura em que não é possível distinguir os componentes a olho nu é chamada de:',
     tip: '"Homo" lembra "igual" ou "uniforme" — pensa numa mistura que parece uma coisa só, sem partes visíveis diferentes.',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'Uma mistura em que é possível distinguir os componentes a olho nu é chamada de:',
     tip: '"Hetero" lembra "diferente" — pensa numa mistura em que dá para ver as partes diferentes separadamente.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'A água com sal dissolvido é um exemplo de mistura:',
     tip: 'Depois que o sal se dissolve completamente na água, dá para ver os grãos de sal separadamente?',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'A água com areia é um exemplo de mistura:',
     tip: 'Dá para ver os grãozinhos de areia dentro da água? Se sim, isso indica um tipo específico de mistura.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'O ar que respiramos é uma mistura de:',
     tip: 'Pensa no que você respira — não é só um único gás, mas uma combinação de vários.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'A filtração é um processo de separação usado para separar:',
     tip: 'Pensa num coador de café — ele retém o pó do café e deixa passar o líquido.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'A decantação é um processo usado para separar materiais que:',
     tip: 'Pensa em deixar um copo de água com areia parado por um tempo — o que acontece com a areia?',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'A evaporação é usada para separar:',
     tip: 'Pensa em como se obtém o sal a partir da água do mar — o que acontece com a água enquanto o sal fica para trás?',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'A destilação é usada principalmente para separar:',
     tip: 'Pensa em separar dois líquidos que se misturam completamente, como álcool e água — como fazer isso sem conseguir "filtrar"?',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Para separar arroz de feijão misturados, qual processo de separação seria mais indicado?',
     tip: 'Pensa em como você separaria grãos diferentes misturados — geralmente é feito escolhendo um a um ou usando uma peneira.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Para separar a areia da água em um balde, deixando a areia se depositar no fundo antes de retirar a água, usamos:',
     tip: 'Lembre do processo em que um material mais pesado se deposita no fundo, separando-se do líquido.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Para obter o sal a partir da água do mar, um processo usado é:',
     tip: 'Lembre do processo em que o líquido "some" no ar, deixando o sólido dissolvido para trás.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Para separar limalha de ferro misturada com areia, um bom método é usar:',
     tip: 'Pensa em qual dos dois materiais, ferro ou areia, é atraído por um ímã.',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Para separar café em pó da água, depois de coar o café, usamos o processo de:',
     tip: 'Pensa no coador de papel usado para fazer café — ele retém o pó e deixa passar apenas o líquido.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Uma peneira é usada para separar materiais de acordo com:',
     tip: 'Pensa em como uma peneira de cozinha deixa passar os grãos pequenos, mas retém os maiores.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Ao separar o óleo da água (que não se misturam), qual processo pode ser usado, já que o óleo fica por cima?',
     tip: 'Pensa em como o óleo e a água se separam naturalmente em camadas — isso é parecido com o processo usado para separar areia da água.',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Para separar álcool e água, que têm pontos de ebulição diferentes, o processo mais indicado é:',
     tip: 'Lembre do processo específico usado para separar dois líquidos misturados que não podem ser filtrados ou decantados.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Por que é importante saber separar materiais de misturas?',
     tip: 'Pensa em quantas aplicações reais você já viu: tratamento de água, reciclagem, produção de sal... tudo isso usa processos de separação!',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'A reciclagem de lixo depende bastante de processos de:',
     tip: 'Pensa em como o lixo reciclável precisa ser separado por tipo (papel, plástico, vidro, metal) antes de ser reaproveitado.',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'Bernardo derramou sal e pimenta-do-reino em pó, sem querer, na mesma tigela. Como esses dois materiais estão misturados e são bem diferentes, essa é uma mistura:',
     tip: 'Dá para distinguir os grãozinhos de sal e os pontinhos de pimenta a olho nu? Se sim, isso indica um tipo específico de mistura.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'Bernardo dissolveu açúcar em um copo de água, e não conseguiu mais ver os grãos de açúcar separados. Essa mistura é:',
     tip: 'Lembre que, quando não dá mais para distinguir os componentes a olho nu, a mistura é chamada de um tipo específico.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Bernardo quis separar a areia da água de um aquário que estava sendo limpo. Ele deixou o balde parado até a areia se depositar no fundo. Esse processo se chama:',
     tip: 'Lembre do processo em que um material mais pesado se deposita no fundo, sem precisar de nenhum filtro.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Bernardo ajudou a mãe a coar o suco de laranja, retirando as sementes e a polpa grossa com uma peneira. Esse processo de separação é chamado de:',
     tip: 'Lembre do processo em que um filtro (ou peneira) retém partes sólidas e deixa passar o líquido.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Bernardo brincou de aproximar um ímã de uma mistura de areia com pequenos pedaços de ferro. O ferro grudou no ímã, mas a areia não. Esse processo se chama:',
     tip: 'Lembre do processo específico que usa um ímã para atrair materiais de ferro.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Na aula de ciências, Bernardo fez um experimento colocando água salgada em um prato ao sol, esperando a água evaporar e sobrar só o sal. Esse processo se chama:',
     tip: 'Lembre do processo em que o líquido "some" no ar, deixando o sólido dissolvido para trás.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Bernardo separou as balas verdes das balas vermelhas de um pacote misturado, escolhendo uma por uma com a mão. Esse processo de separação é chamado de:',
     tip: 'Lembre do processo mais simples de separação, feito escolhendo os itens um a um com a mão.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a água do mar é uma mistura de água e sal, e que é possível separar os dois. Isso mostra que:',
     tip: 'Pensa em tudo que Bernardo aprendeu nesse simulado: filtração, decantação, evaporação, imantação, destilação... todos são jeitos de separar misturas.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'Bernardo ajudou seus pais a separar o lixo reciclável (papel, plástico, vidro e metal) em casa. Essa separação é importante para:',
     tip: 'Pensa em por que é importante separar o lixo antes de jogar fora — isso ajuda em qual processo importante para o meio ambiente?',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que aprender sobre misturas e separação de materiais ajuda a entender:',
     tip: 'Pensa em tudo que Bernardo fez nesse simulado: coar suco, separar lixo, fazer sal... tudo isso acontece no dia a dia!',

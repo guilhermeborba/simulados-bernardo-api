@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O que é o solo?',
     tip: 'Pensa em tudo que compõe o chão de um jardim: pedacinhos de rocha, restos de folhas, água e ar — tudo junto forma o solo.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo se forma principalmente através de:',
     tip: 'Pensa em como uma pedra grande, exposta ao sol, chuva e vento por muitos e muitos anos, vai se quebrando aos poucos.',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O intemperismo é causado, entre outros fatores, por:',
     tip: 'Pensa em vários fatores da natureza que podem "desgastar" uma rocha aos poucos, ao longo de muito tempo.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A camada de solo mais próxima da superfície, geralmente mais escura e rica em matéria orgânica, é chamada de:',
     tip: 'Pensa na camada mais de cima do solo, onde crescem as raízes das plantas e onde encontramos folhas em decomposição.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A matéria orgânica presente no solo vem principalmente de:',
     tip: 'Pensa em folhas caídas, galhos secos e restos de animais que, com o tempo, se decompõem e se misturam ao solo.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O húmus é:',
     tip: 'Pensa na cor escura de um solo de jardim bem cuidado — essa cor costuma vir dessa substância especial.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Um solo rico em húmus é geralmente:',
     tip: 'Lembre que o húmus é rico em nutrientes — isso ajuda ou atrapalha o crescimento das plantas?',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo arenoso é caracterizado por:',
     tip: 'Pensa na areia da praia — a água que cai nela escorre rapidamente entre os grãos maiores.',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo argiloso é caracterizado por:',
     tip: 'Pensa numa massa de argila usada para modelar — ela é bem fina e retém bastante água, ficando molhada e moldável.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo é importante para os seres vivos principalmente porque:',
     tip: 'Pensa em como as plantas conseguem ficar em pé e de onde elas tiram parte de seus nutrientes para crescer.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Se um solo é bom para reter água, mas também para deixar o ar circular, ele é considerado ideal para:',
     tip: 'Pensa no que as plantas precisam para crescer bem: um pouco de água retida, mas também ar circulando nas raízes.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A erosão do solo é causada principalmente por:',
     tip: 'Pensa em como a chuva forte ou o vento intenso podem "levar embora" partes do solo de um terreno.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A presença de raízes de plantas no solo ajuda a:',
     tip: 'Pensa nas raízes como uma espécie de "rede" que segura o solo, evitando que ele seja facilmente carregado.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O desmatamento pode aumentar a erosão do solo porque:',
     tip: 'Lembre da questão anterior: as raízes ajudam a segurar o solo. O que acontece quando as árvores (e suas raízes) são removidas?',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O plantio de diferentes culturas, alternando-as ao longo do tempo em um mesmo terreno, é chamado de:',
     tip: 'Pensa num agricultor que planta feijão em uma temporada e milho na temporada seguinte, no mesmo terreno.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A rotação de culturas ajuda a:',
     tip: 'Pensa em por que os agricultores usam essa técnica há tanto tempo — ela deve trazer algum benefício importante ao solo.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O uso excessivo de agrotóxicos no solo pode causar:',
     tip: 'Pensa nos produtos químicos usados para combater pragas — em excesso, eles podem afetar mais do que só as pragas.',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'A compostagem é um processo em que:',
     tip: 'Pensa em cascas de frutas e restos de comida que, ao invés de irem para o lixo, viram um adubo natural.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'O adubo produzido pela compostagem ajuda a:',
     tip: 'Lembre que a compostagem produz um material rico, parecido com o húmus, cheio de nutrientes.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Cuidar do solo é importante porque ele é essencial para:',
     tip: 'Pensa em de onde vêm os alimentos que chegam à sua mesa — a maioria depende diretamente de um solo saudável.',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Bernardo plantou uma muda de feijão em um vaso com solo escuro e rico em restos de folhas decompostas. Esse tipo de solo é rico em:',
     tip: 'Lembre da substância escura formada pela decomposição de matéria orgânica, que enriquece o solo.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Bernardo notou que, em um dos vasos, a água passava muito rápido pelo solo, sem ficar retida. Esse solo provavelmente é:',
     tip: 'Lembre do tipo de solo com grãos maiores, que deixa a água escoar rapidamente.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Em outro vaso, Bernardo percebeu que a água demorava muito para escoar, deixando o solo encharcado por mais tempo. Esse solo provavelmente é:',
     tip: 'Lembre do tipo de solo com partículas bem pequenas, que retém a água por mais tempo.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu na escola que, em terrenos sem árvores e com chuva forte, o solo pode ser facilmente carregado pela água. Esse fenômeno é chamado de:',
     tip: 'Lembre do nome do processo em que o vento e a água desgastam e carregam partículas do solo.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'Bernardo ajudou a montar uma composteira na escola, juntando cascas de frutas e restos de vegetais. Com o tempo, esse material vira:',
     tip: 'Lembre do que acontece com restos de alimentos numa composteira, ao longo do tempo.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Bernardo observou que, na horta da escola, os professores plantam vegetais diferentes em épocas diferentes no mesmo canteiro. Essa prática se chama:',
     tip: 'Lembre do nome da técnica agrícola de alternar diferentes plantios num mesmo terreno.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que essa prática de rotação de culturas ajuda a:',
     tip: 'Lembre do benefício principal dessa técnica para a saúde do solo ao longo do tempo.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Na aula de ciências, Bernardo descobriu que as raízes das árvores da praça perto de sua casa ajudam a:',
     tip: 'Lembre do papel das raízes das árvores na prevenção da erosão do solo.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, depois de um desmatamento em uma área próxima, o solo ficou mais exposto e começou a ser carregado com mais facilidade pela chuva. Isso mostra que:',
     tip: 'Lembre da relação entre a presença de árvores (e suas raízes) e a proteção contra a erosão.',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo entendeu que cuidar do solo é importante porque:',
     tip: 'Pensa em tudo que Bernardo aprendeu nesse simulado: tipos de solo, erosão, compostagem, rotação de culturas... tudo relacionado à importância do solo.',

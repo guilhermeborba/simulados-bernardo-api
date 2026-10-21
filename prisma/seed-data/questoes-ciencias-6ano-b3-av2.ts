@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Qual é a importância da água para os seres vivos?',
     tip: 'Pensa em como qualquer ser vivo, de uma bactéria a um elefante, precisa de água para sobreviver.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Qual é a porcentagem aproximada de água que cobre a superfície da Terra?',
     tip: 'Pensa em imagens da Terra vista do espaço — ela é conhecida como o "planeta azul" por um bom motivo.',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'A maior parte da água do planeta está localizada:',
     tip: 'Pensa em qual é o maior "reservatório" de água que existe na Terra.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'A água doce, própria para consumo humano, representa:',
     tip: 'Lembre que a maior parte da água da Terra é salgada, nos oceanos — a água doce é bem mais rara.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O ciclo da água é o processo natural em que a água:',
     tip: 'Pensa em como a água "viaja" entre o mar, o céu (nuvens) e a terra, mudando de sólido, líquido e gasoso ao longo do caminho.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'A evaporação, no ciclo da água, é o processo em que:',
     tip: 'Pensa no calor do sol fazendo a água "subir" para o céu em forma de vapor.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'A condensação, no ciclo da água, é o processo em que:',
     tip: 'Pensa em como as nuvens se formam no céu — o vapor de água esfria e vira pequenas gotículas.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'A precipitação, no ciclo da água, é conhecida popularmente como:',
     tip: 'Pensa em como as gotículas das nuvens ficam tão pesadas que caem na forma que todos conhecemos.',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Depois da chuva, parte da água pode infiltrar no solo, formando:',
     tip: 'Pensa na água da chuva penetrando no solo e se acumulando embaixo da terra.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O ciclo da água é importante porque:',
     tip: 'Pensa em como esse processo contínuo mantém a água circulando e disponível para todos os seres vivos.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Por que é importante tratar a água antes de consumi-la?',
     tip: 'Pensa em riscos à saúde que a água pode ter se não passar por um cuidado especial antes de chegar à torneira.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual é um dos processos usados no tratamento de água para consumo?',
     tip: 'Pensa nos processos de separação de materiais que você já estudou — algum deles é usado também no tratamento de água.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Beber água contaminada pode causar:',
     tip: 'Pensa nos riscos de consumir água que não passou por nenhum tratamento adequado.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Uma forma simples de economizar água em casa é:',
     tip: 'Pensa em pequenos hábitos do dia a dia que evitam que a água escoe sem necessidade.',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'O desperdício de água pode causar, no futuro, problemas como:',
     tip: 'Lembre que, apesar de parecer abundante, a água doce disponível para consumo é limitada.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Reutilizar a água da chuva para regar plantas é um exemplo de:',
     tip: 'Pensa em como aproveitar a água da chuva, em vez de deixá-la escoar, é uma atitude positiva para o meio ambiente.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A poluição de rios e lagos pode ser causada por:',
     tip: 'Pensa em atitudes humanas que podem sujar e contaminar a água de rios e lagos.',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Água poluída pode prejudicar:',
     tip: 'Pensa em todos os seres vivos que vivem dentro ou perto da água, e como a poluição pode afetá-los.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Estações de tratamento de esgoto ajudam a:',
     tip: 'Pensa no que acontece com a água que usamos no banho e na privada antes de ela voltar para os rios.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Cuidar da água é responsabilidade de:',
     tip: 'Pensa em como pequenas atitudes, como fechar a torneira, podem ser feitas por qualquer pessoa, inclusive crianças.',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a água do banho, depois de usada, passa por um processo antes de voltar para os rios. Esse processo é chamado de:',
     tip: 'Lembre do processo que limpa a água usada nas casas antes de devolvê-la à natureza.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, ao deixar a torneira aberta escovando os dentes, estava desperdiçando água. Ele decidiu fechar a torneira nesse momento. Essa atitude é um exemplo de:',
     tip: 'Pensa se essa atitude de Bernardo ajuda a economizar ou a desperdiçar água.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Bernardo observou uma poça de água secando aos poucos, ao longo do dia, por causa do calor do sol. Esse processo faz parte do ciclo da água e é chamado de:',
     tip: 'Lembre do processo em que a água vira vapor por causa do calor.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Depois de observar nuvens carregadas no céu, Bernardo viu que começou a chover. Esse processo do ciclo da água é chamado de:',
     tip: 'Lembre do nome popular dado à queda de água das nuvens.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, antes da chuva se formar, o vapor de água se transforma em gotículas, formando as nuvens. Esse processo é chamado de:',
     tip: 'Lembre do processo em que o vapor de água se transforma em gotículas, formando nuvens.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Bernardo notou que parte da água da chuva penetrava no solo do jardim de sua casa. Essa água infiltrada pode formar:',
     tip: 'Lembre do que acontece com a água da chuva que se infiltra no solo, indo para baixo da terra.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu na escola que jogar lixo em rios pode causar:',
     tip: 'Pensa em como o lixo jogado em rios pode afetar a água e os animais que vivem nela.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Bernardo decidiu usar um balde para lavar seu skate, em vez de deixar a mangueira aberta o tempo todo. Essa atitude ajuda a:',
     tip: 'Pensa em qual das duas formas de lavar (balde ou mangueira aberta) usa menos água.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que beber água não tratada, direto de um rio, pode ser perigoso porque:',
     tip: 'Lembre da importância do tratamento de água antes do consumo, evitando doenças.',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que cuidar da água é importante porque:',
     tip: 'Pensa em tudo que Bernardo aprendeu e praticou nesse simulado: fechar a torneira, usar balde, entender o ciclo da água...',

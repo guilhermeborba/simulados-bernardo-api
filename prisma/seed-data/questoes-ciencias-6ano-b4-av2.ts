@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'O que é uma hipótese, no método científico?',
     tip: 'A hipótese é como um "palpite bem pensado" — ainda não é certeza, precisa ser testada.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'Quais são os três estados físicos mais comuns da matéria?',
     tip: 'Pensa no gelo, na água e no vapor — cada um representa um desses três estados.',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'O que é uma célula?',
     tip: 'Pensa em algo bem pequenininho que forma tudo que é vivo, de bactérias a pessoas.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Misturas',
     type: 'multiple_choice',
     text: 'Uma mistura em que não é possível distinguir os componentes a olho nu é chamada de:',
     tip: '"Homo" lembra "igual" — pensa numa mistura que parece uma coisa só, como água com sal dissolvido.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O húmus é uma substância que deixa o solo:',
     tip: 'Pensa na substância escura formada pela decomposição de matéria orgânica, cheia de nutrientes.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'A maior parte da água do planeta está localizada:',
     tip: 'Pensa no maior "reservatório" de água que existe na Terra.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O movimento que a Terra faz girando em torno de si mesma é chamado de:',
     tip: 'Pensa num pião girando no próprio eixo — esse movimento tem um nome específico.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A passagem do estado sólido para o líquido é chamada de:',
     tip: 'Pensa no gelo derretendo — esse processo específico tem um nome próprio.',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'As mitocôndrias são estruturas das células responsáveis por:',
     tip: 'Pensa nas mitocôndrias como pequenas "usinas de energia" dentro da célula.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'A filtração é usada para separar:',
     tip: 'Pensa num coador de café — ele retém o pó e deixa passar o líquido.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O movimento de translação da Terra está relacionado principalmente com:',
     tip: 'Pensa no movimento mais longo da Terra, que dura cerca de um ano.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo arenoso é caracterizado por:',
     tip: 'Pensa na areia da praia — a água escorre rapidamente entre os grãos maiores.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O ciclo da água é o processo natural em que a água:',
     tip: 'Pensa em como a água "viaja" entre o mar, o céu e a terra, mudando de estado ao longo do caminho.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Um experimento controlado é aquele em que:',
     tip: 'Se várias coisas mudam ao mesmo tempo, fica difícil saber qual causou o resultado — por isso muda-se só uma de cada vez.',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'A parede celular está presente em células:',
     tip: 'Pensa na estrutura rígida que dá firmeza às plantas, mas que não existe nas células animais.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'A evaporação, no ciclo da água, é o processo em que:',
     tip: 'Pensa no calor do sol fazendo a água "subir" para o céu em forma de vapor.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'A decantação é usada para separar materiais que:',
     tip: 'Pensa em deixar um copo de água com areia parado por um tempo — o que acontece com a areia?',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'As estações do ano ocorrem principalmente por causa:',
     tip: 'Pensa em como a Terra fica "inclinada" enquanto gira ao redor do Sol, mudando a quantidade de luz recebida.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'No estado gasoso, as partículas da matéria estão:',
     tip: 'Pensa no ar que respiramos, se espalhando por todo o ambiente.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A erosão do solo é causada principalmente por:',
     tip: 'Pensa em como a chuva forte ou o vento intenso podem "levar embora" partes do solo.',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Bernardo fez um experimento com plantas, comparando um grupo com luz solar e outro sem luz. O grupo sem luz é chamado de:',
     tip: 'Lembre do nome do grupo que fica sem a mudança que está sendo testada, servindo de comparação.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo observou um cubo de gelo derretendo em cima da mesa. Essa mudança de sólido para líquido é chamada de:',
     tip: 'Lembre do nome específico dado à passagem do sólido para o líquido.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Células',
     type: 'multiple_choice',
     text: 'Bernardo observou uma célula vegetal no microscópio e notou uma estrutura rígida ao redor dela, chamada de:',
     tip: 'Lembre da estrutura firme e resistente presente apenas em células vegetais.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Separação de misturas',
     type: 'multiple_choice',
     text: 'Bernardo separou a areia da água de um aquário deixando a areia se depositar no fundo. Esse processo se chama:',
     tip: 'Lembre do processo em que um material mais pesado se deposita no fundo, sem precisar de filtro.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Bernardo plantou feijão em um solo escuro e rico em restos de folhas decompostas. Esse solo é rico em:',
     tip: 'Lembre da substância escura formada pela decomposição de matéria orgânica, que enriquece o solo.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a água do banho, depois de usada, passa por um processo antes de voltar aos rios, chamado de:',
     tip: 'Lembre do processo que limpa a água usada nas casas antes de devolvê-la à natureza.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, ao anoitecer, o Sol "some" no horizonte por causa do movimento de:',
     tip: 'Lembre do movimento responsável pela alternância entre dia e noite.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo notou que os dias ficam mais quentes em dezembro e mais frios em julho, no Brasil, por causa da:',
     tip: 'Lembre do movimento mais longo da Terra, relacionado às estações do ano.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Ao repetir seu experimento das plantas com um amigo, em outra casa, Bernardo obteve o mesmo resultado. Isso é importante porque:',
     tip: 'Lembre que, quando um experimento é repetido em condições parecidas e dá o mesmo resultado, isso aumenta a confiança na descoberta.',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Ciência no cotidiano',
     type: 'multiple_choice',
     text: 'Ao final do simulado de revisão, Bernardo percebeu que, ao longo do ano, aprendeu sobre método científico, estados físicos, células, misturas, solo, água e os movimentos da Terra. Isso mostra que ele:',
     tip: 'Pensa em tudo que Bernardo praticou ao longo do ano — foram vários conteúdos diferentes trabalhados juntos, não só um.',

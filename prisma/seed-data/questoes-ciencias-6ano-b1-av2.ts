@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'Quais são os três estados físicos mais comuns da matéria?',
     tip: 'Pensa no gelo, na água e no vapor — cada um representa um desses três estados.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'No estado sólido, as partículas da matéria estão:',
     tip: 'Pensa num cubo de gelo — ele mantém sua forma porque as partículas estão bem "presas" no lugar.',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'No estado líquido, a matéria:',
     tip: 'Pensa na água dentro de um copo e depois dentro de uma garrafa — ela muda de formato dependendo do recipiente.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'No estado gasoso, as partículas da matéria estão:',
     tip: 'Pensa no ar que respiramos — ele se espalha por todo o ambiente porque suas partículas estão bem afastadas e livres.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'A água em forma de gelo está no estado:',
     tip: 'Pensa em como o gelo mantém sua forma, mesmo fora do congelador por um tempinho — isso é característico do estado sólido.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'A água que sai da torneira está no estado:',
     tip: 'Pensa em como a água escorre e se molda ao formato de qualquer recipiente — isso é típico do estado líquido.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'O vapor de água que sai de uma chaleira fervendo está no estado:',
     tip: 'Pensa na "nuvem" branca que sai da chaleira e se espalha pelo ar — isso é um sinal do estado gasoso.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A passagem do estado sólido para o líquido é chamada de:',
     tip: 'Pensa no gelo derretendo — esse processo específico tem um nome próprio, diferente de "evaporação" ou "condensação".',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A passagem do estado líquido para o sólido é chamada de:',
     tip: 'Pensa na água virando gelo no congelador — esse processo é o contrário da fusão.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A passagem do estado líquido para o gasoso é chamada de:',
     tip: 'Pensa na água de uma poça secando ao sol — ela está passando do líquido para o gasoso.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A passagem do estado gasoso para o líquido é chamada de:',
     tip: 'Pensa nas gotinhas de água que se formam no espelho do banheiro depois de um banho quente — isso é o vapor virando líquido de novo.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A passagem do estado sólido diretamente para o gasoso (sem passar pelo líquido) é chamada de:',
     tip: 'Esse processo é mais raro — pensa em algo que "some" no ar sem nunca virar líquido primeiro.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'O gelo seco (dióxido de carbono sólido) é um exemplo comum de:',
     tip: 'Lembre da questão anterior: o gelo seco passa direto do sólido para o gasoso, sem virar líquido.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Quando a água do mar evapora com o calor do sol, ocorre a passagem:',
     tip: 'Pensa na água do mar "subindo" para o céu em forma de vapor por causa do calor — de qual estado para qual estado isso vai?',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Quando o vapor de água encontra uma superfície fria e forma gotinhas (como no espelho do banheiro), ocorre a passagem:',
     tip: 'Lembre que o vapor (gás) se transforma em gotinhas de água (líquido) — esse processo tem nome próprio.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Temperatura e calor',
     type: 'multiple_choice',
     text: 'O que acontece com as partículas da matéria quando ela é aquecida?',
     tip: 'Pensa em como o calor dá mais "energia" para as partículas se moverem — isso faz elas se afastarem mais umas das outras.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Temperatura e calor',
     type: 'multiple_choice',
     text: 'O que acontece com as partículas da matéria quando ela é resfriada?',
     tip: 'O resfriamento é o contrário do aquecimento — se o calor faz as partículas se afastarem, o frio faz o quê?',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'Colocar água no congelador faz com que ela passe do estado líquido para o:',
     tip: 'Pensa no que acontece com a água depois de algumas horas no congelador — ela vira o quê?',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Deixar um copo de água aberto por vários dias faz com que a água, pouco a pouco:',
     tip: 'Pensa em como o nível da água num copo aberto diminui com o tempo, mesmo sem fervura — isso é evaporação.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A matéria pode mudar de estado físico principalmente por causa de mudanças em:',
     tip: 'Pensa em tudo que vimos nesse simulado: gelo derretendo com calor, água congelando com frio — o que estava mudando em todos esses exemplos?',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo colocou um cubo de gelo em um copo e observou que, depois de um tempo em cima da mesa, ele derreteu. Essa mudança de sólido para líquido é chamada de:',
     tip: 'Lembre do nome específico dado à passagem do sólido para o líquido.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo colocou água no congelador para fazer gelo para a limonada. Essa mudança de líquido para sólido é chamada de:',
     tip: 'Lembre do nome específico dado à passagem do líquido para o sólido.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo notou gotinhas de água na parte externa de um copo bem gelado num dia quente. Isso aconteceu porque:',
     tip: 'Lembre que o ar sempre tem um pouco de vapor de água invisível — quando ele toca algo frio, ele se transforma em gotinhas de líquido.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'Bernardo colocou uma panela de água para ferver no fogão. O vapor que saiu da panela está no estado:',
     tip: 'Pensa na "fumacinha" que sobe da água fervendo — ela se espalha pelo ar, um comportamento típico de qual estado?',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo observou que, ao deixar sua garrafa de água aberta no sol por muitas horas, o nível da água foi diminuindo com o tempo. Isso acontece por causa da:',
     tip: 'Lembre que a água some pouco a pouco de um recipiente aberto, mesmo sem ferver — isso é a evaporação, um tipo de vaporização.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, na chuva, as gotas de água caem porque o vapor de água nas nuvens se transforma em líquido. Esse processo é chamado de:',
     tip: 'Lembre que a passagem do gasoso (vapor) para o líquido (gotas de chuva) tem um nome específico.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo experimentou colocar naftalina (que sublima) num armário e notar, depois de um tempo, que ela ficou menor sem virar líquido. Isso é um exemplo de:',
     tip: 'Lembre que a sublimação é a passagem direta do sólido para o gasoso, sem passar pelo estado líquido.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo concluiu, depois desses experimentos com água e gelo, que a mudança de estado físico da matéria depende principalmente de:',
     tip: 'Pensa em tudo que Bernardo observou: calor derretendo gelo, frio congelando água... o que estava mudando em todos os casos?',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Temperatura e calor',
     type: 'multiple_choice',
     text: 'Se Bernardo esquentar ainda mais a água que já está fervendo, o que acontece com as partículas de água?',
     tip: 'Lembre que o calor sempre dá mais energia às partículas, fazendo elas se moverem mais rápido.',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que a água é um exemplo perfeito para estudar os três estados físicos porque:',
     tip: 'Pensa em tudo que Bernardo observou nesse simulado: gelo, água da torneira, vapor da panela... a água aparece em quais estados?',
