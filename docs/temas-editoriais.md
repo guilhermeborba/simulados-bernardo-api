@@ -899,3 +899,35 @@ Ginástica não antecipa o tipo ou aparelho solicitado; Preparação e seguranç
 B1/AV1, B2/AV2 e B3/AV1 têm três temas; B1/AV2, dois; B2/AV1, quatro; B3/AV2 e B4/AV1, cinco. B4/AV2 retoma quinze temas das unidades, incluindo as quatro modalidades, preservando os nomes na revisão.
 
 As formulações anteriores sobre toques do voleibol e alongamento/recuperação estão na [issue web #105](https://github.com/guilhermeborba/simulados-bernardo/issues/105), para revisão separada. Os conteúdos e gabaritos foram preservados; os temas não validam essas formulações.
+
+### Inglês — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Adjetivos possessivos | Uso de my, your, his, her, our e their em frases que indicam posse. |
+| Alimentos e bebidas | Nomes de comidas e bebidas, pedidos e vocabulário das refeições. |
+| Animais | Nomes de animais e identificação por características ou contexto. |
+| Classes de palavras | Reconhecimento de categorias gramaticais sem indicar no tema a classe solicitada. |
+| Cores | Nomes de cores e seu uso na descrição de objetos e situações. |
+| Descrições em inglês | Vocabulário de tamanho, velocidade, força e aparência, incluindo opostos. |
+| Dias da semana | Nomes, sequência e uso dos dias em calendários e agendas. |
+| Existência e quantidade | Uso de there is/there are com singular, plural e substantivos incontáveis. |
+| Família | Nomes de parentes, apresentações da família e árvore genealógica. |
+| Materiais escolares | Nomes e funções dos objetos usados na escola. |
+| Números | Contagem, sequência, quantidades e operações simples com números em inglês. |
+| Presente simples | Concordância, formas verbais e perguntas sobre hábitos e rotina. |
+| Pronomes pessoais | Escolha de pronomes e referências a pessoas em frases e apresentações. |
+| Rotina diária | Significado de verbos e expressões das atividades do dia a dia. |
+| Saudações e apresentações | Cumprimentos, despedidas, apresentação pessoal e perguntas iniciais de uma conversa. |
+| Uso do inglês | Reflexão sobre os conteúdos aprendidos e suas aplicações na comunicação cotidiana. |
+| Verbo to be | Escolha de am/is/are e composição de frases no presente. |
+
+Lote E04: 240 questões em oito arquivos gerais `questoes-ingles-6ano-b*-av*.ts`, sem entradas privadas adicionais. Primeiro lote de Inglês da E04, com vocabulário fechado de 17 nomes. Só `theme` foi acrescentado; enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.
+
+A tarefa determina o agrupamento: escolher um pronome usa Pronomes pessoais; completar am/is/are usa Verbo to be; completar uma forma verbal para concordar com o sujeito usa Presente simples. Quando as alternativas são verbos de significados distintos e a tarefa pede a atividade, usa Rotina diária. Substantivos de contexto, como animais e alimentos, não substituem o tema gramatical quando o foco é concordância.
+
+B1/AV2, ID 30, e B3/AV2, ID 29, pedem reconhecer uma classe gramatical. Usam Classes de palavras para não antecipar as respostas Adjetivos possessivos/Adjetivos. Descrições em inglês mantém juntas as palavras que descrevem tamanho, velocidade, força e aparência, sem rotular valores específicos que sejam o gabarito. Existência e quantidade não antecipa a escolha entre is e are.
+
+As questões que resumem a aprendizagem usam Uso do inglês, sem destacar no tema a combinação correta de conteúdos entre as alternativas: B1/AV1, ID 30; B2/AV1, IDs 29–30; B2/AV2, ID 30; B3/AV1, ID 30; B3/AV2, ID 30; B4/AV1, ID 30; B4/AV2, ID 29. Os sete primeiros simulados agrupam três ou quatro temas cada; B4/AV2 revisa dezesseis temas do ano, mantendo os mesmos nomes das unidades.
+
+As formulações anteriores sobre uso singular de their, branco/preto na roda de cores e convenção do primeiro dia da semana estão na [issue web #107](https://github.com/guilhermeborba/simulados-bernardo/issues/107), com fontes e critérios para revisão separada. A classificação temática não valida essas explicações; o conteúdo foi preservado neste lote.
