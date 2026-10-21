@@ -825,3 +825,43 @@ A classificação segue o objetivo de cada questão. **Orientação e localizaç
 A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1 e B3/AV2 têm dois; B1/AV2 e B2/AV2, quatro; B3/AV1 concentra clima; B4/AV1 tem três; B4/AV2 revisa onze. Não se subdividem artificialmente as avaliações concentradas em uma unidade. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura dos simulados.
 
 As formulações anteriores sobre bacia/rede hidrográfica (B2/AV2, IDs 5 e 24; B4/AV2, ID 9), tempo e clima (B3/AV1, ID 29), intemperismo/erosão (B2/AV1, ID 4) e orientação por sombras sem Sol (B1/AV1, ID 18) estão na [issue web #101](https://github.com/guilhermeborba/simulados-bernardo/issues/101), com referências oficiais e critérios para revisão separada. O lote de temas preserva o conteúdo e não declara essas definições cientificamente validadas.
+
+### Arte — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Arquitetura | Templos, colunas, arcos, espaços de apresentação, aquedutos, pontes e seus usos, estrutura e influência. |
+| Arte e história | Relações entre arte e períodos históricos, comparações entre culturas e identificação de civilizações e formas de arte do passado. |
+| Arte egípcia | Características da representação, hieróglifos e estética, arte funerária, crenças, obras e legados do Egito Antigo. |
+| Arte grega | Características, cerâmica, temas representados, legados e relações entre formas artísticas na Grécia Antiga. |
+| Arte romana | Influências culturais, obras, mosaicos e seus registros, legados e relações entre arte, arquitetura e engenharia romana. |
+| Arte rupestre | Suportes, temas, sítios arqueológicos, possíveis funções, crenças e expressão dos primeiros grupos humanos. |
+| Artes indígenas | Grafismos, cestaria, arte plumária, materiais, técnicas, saberes e continuidade das criações dos diferentes povos indígenas. |
+| Artes visuais | Volume, diferenças entre pintura e escultura, percepção e reconhecimento de formas visuais sem antecipar seu nome. |
+| Cores | Cores primárias e secundárias, misturas de tintas, escala de cinza e sensações associadas às cores. |
+| Cultura e identidade | Diversidade, origens e contribuições culturais, crenças, rituais e sentidos das expressões artísticas dos diferentes povos. |
+| Dança | Corpo e expressão na linguagem da dança, quando essa linguagem já está indicada no enunciado. |
+| Escultura | Representação do corpo e do rosto, proporção, naturalismo, idealização, retratos e usos das estátuas. |
+| Expressões artísticas | Arte como expressão, reconhecimento e articulação das linguagens visuais, musicais, da dança e do teatro. |
+| Linguagem visual | Ponto, linha, forma, textura, contorno, composição e combinação de elementos visuais. |
+| Materiais e técnicas | Ferramentas, pigmentos, suportes, conservação de materiais, modos de produção e mosaicos. |
+| Música | Percepção e audição na linguagem musical, quando essa linguagem já está indicada no enunciado. |
+| Patrimônio e preservação | Valor da arte rupestre como patrimônio e memória da humanidade. |
+| Registros do passado | Obras como fontes para estudar costumes, modos de vida, imagens, escrita e personagens históricos. |
+| Teatro | Elementos cênicos, atores e apresentação ao público, quando a linguagem teatral já está indicada. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-arte-6ano-b*-av*.ts`. Não há entradas privadas adicionais desse ano/disciplina no seed. Este é o primeiro lote de Arte da E04. O vocabulário fechado de 19 nomes reaproveita **Cultura e identidade**, **Expressões artísticas**, **Patrimônio e preservação** e **Registros do passado**, já usados em História para conteúdos correspondentes, e acrescenta os grupos próprios da disciplina.
+
+A classificação considera o objetivo e as alternativas de cada questão. **Linguagem visual** reúne ponto, linha, forma, textura e composição, sem usar como rótulo o elemento que precisa ser identificado. **Cores** reúne classificação, misturas e sensações. Reconhecer o conjunto de elementos em B1/AV1, ID 19, e sua presença em diferentes culturas em B4/AV2, ID 28, usa **Artes visuais**, sem antecipar a expressão “linguagem visual” da alternativa correta. **Materiais e técnicas** cobre ferramentas, pigmentos, suportes e processos; reconhecer a técnica do mosaico, por exemplo, mantém esse tema amplo.
+
+**Expressões artísticas** agrupa o reconhecimento das linguagens e as sínteses sobre expressão e criatividade. Perguntas cuja resposta é música, dança, teatro, artes visuais ou escultura não recebem esse nome como rótulo. **Dança**, **Música** e **Teatro** são usados quando a linguagem já está dada e o objetivo é sua forma de expressão, percepção ou seus elementos. **Artes visuais** cobre volume e a comparação entre pintura e escultura e também o reconhecimento da escultura monumental da Esfinge, sem antecipar o nome da modalidade. Os itens de B1/AV2, ID 25, e B4/AV2, ID 16, cuja resposta inclui escultura/artes visuais, usam **Expressões artísticas**. Identificar a linguagem “visual” em B4/AV2, ID 11, também usa esse tema amplo.
+
+**Arte rupestre** reúne características e contextos quando a manifestação já é dada. Identificá-la em B2/AV1, IDs 1 e 21, ou reconhecer o período em B4/AV2, IDs 3 e 21, usa **Arte e história**. O estudo das pinturas como fonte usa **Registros do passado**; seu valor como patrimônio, **Patrimônio e preservação**. Comparações entre épocas e sínteses históricas usam **Arte e história**, sem validar as generalizações anteriores sobre evolução ou desenvolvimento das artes.
+
+**Arte egípcia**, **Arte grega** e **Arte romana** cobrem características e contextos quando a civilização já está indicada. Perguntas que pedem identificar a civilização, como B4/AV2, IDs 4, 22, 24 e 29, usam **Arte e história**. A influência grega na arte romana em B3/AV2, IDs 1 e 27, mantém **Arte romana**, preservando a identificação da origem como tarefa do aluno. **Escultura** cobre representação, estilos e retratos; **Arquitetura**, estruturas e funções quando o tipo já é dado. Identificar arquitetura como resposta em B3/AV1, ID 8, e B3/AV2, IDs 3, 13 e 21, mantém o tema da respectiva civilização. B4/AV2, ID 19, usa **Arte e história**.
+
+**Artes indígenas** reúne criações, materiais, técnicas e continuidade dos saberes sem reduzir os diferentes povos a uma única tradição. **Cultura e identidade** cobre diversidade, origens e significados culturais, incluindo as manifestações afro-brasileiras e a identificação da arte indígena em B4/AV2, ID 25. As perguntas sobre os significados da pintura corporal em B4/AV1, ID 4, e B4/AV2, ID 18, mantêm **Artes indígenas**, sem antecipar identidade e cultura na resposta. A origem do maracatu e do jongo não aparece como rótulo da resposta. As comparações de materiais entre culturas em B4/AV1, IDs 17 e 28, usam **Materiais e técnicas**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 tem quatro; B4/AV1, três; B1/AV2 e B2/AV2, seis; B2/AV1 e B3/AV1, cinco; B3/AV2, sete; B4/AV2 revisa dez. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura dos simulados.
+
+As generalizações e a terminologia anteriores sobre espaços do teatro grego, realismo dos retratos romanos, comparação de materiais entre culturas e desenvolvimento rupestre/egípcio estão na [issue web #103](https://github.com/guilhermeborba/simulados-bernardo/issues/103), com referências e critérios para revisão separada. Os conteúdos e gabaritos foram preservados; a classificação não valida essas formulações de história da arte.

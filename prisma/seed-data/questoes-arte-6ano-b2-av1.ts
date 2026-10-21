@@ -1,6 +1,7 @@
 export const questoesArte6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Como são chamadas as pinturas feitas pelos primeiros seres humanos nas paredes de cavernas?',
     tip: '"Rupestre" vem de uma palavra latina que significa "rocha" — pensa em onde essas pinturas eram feitas.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Onde geralmente eram feitas as pinturas rupestres?',
     tip: 'Pensa em onde os primeiros seres humanos moravam e se abrigavam.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Quais eram os temas mais comuns retratados nas pinturas rupestres?',
     tip: 'Pensa no que fazia parte da vida das pessoas na Pré-História: caça, animais e o próprio corpo.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Como os primeiros seres humanos provavelmente faziam as tintas para pintar nas cavernas?',
     tip: 'Pensa em materiais que existiam na natureza, sem fábricas ou lojas.',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Uma das formas mais comuns de arte rupestre é o desenho de mãos na parede. Como os artistas antigos costumavam fazer isso?',
     tip: 'Pensa em uma técnica sem pincel, feita soprando a tinta com a boca ou um tubo.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Uma das cavernas mais famosas do mundo, com pinturas rupestres impressionantes, é a caverna de:',
     tip: 'As outras opções são construções feitas por seres humanos, não cavernas com pinturas antigas.',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'No Brasil, um importante sítio arqueológico com pinturas rupestres muito antigas fica localizado em qual estado?',
     tip: 'É um estado do Nordeste brasileiro, com um parque nacional famoso por esse tipo de arte.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Por que as pinturas rupestres são consideradas uma das primeiras formas de arte da humanidade?',
     tip: 'Pensa em qual veio primeiro: a arte rupestre ou a escrita.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'O que os historiadores acreditam que as pinturas de caça, feitas nas cavernas, podiam representar?',
     tip: 'Pensa em como a caça era importante para a sobrevivência das pessoas naquela época.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'As pinturas rupestres são um exemplo de como a arte:',
     tip: 'Pensa em quão antigas são as pinturas rupestres, muito antes da Grécia ou de qualquer tecnologia.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Se um povo pré-histórico pintasse uma cena de caça na parede de uma caverna, isso poderia servir para:',
     tip: 'Volta na questão 9 sobre o possível significado das pinturas de caça.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Por que os pigmentos usados nas pinturas rupestres, feitos de terra e carvão, resistiram tanto tempo?',
     tip: 'Pensa em como o ambiente fechado e protegido de uma caverna pode ajudar a preservar algo por muito tempo.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Comparando a arte rupestre com a arte digital de hoje, qual é uma diferença importante?',
     tip: 'Pensa nas ferramentas usadas em cada época: pigmentos naturais versus computadores e tablets.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Se um artista pré-histórico soprava pigmento ao redor da própria mão apoiada na rocha, o resultado final era:',
     tip: 'É a mesma técnica da questão 5.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que estudar as pinturas rupestres é importante para entendermos a Pré-História?',
     tip: 'Lembra que, na Pré-História, ainda não existia escrita — como mais poderíamos aprender sobre aquela época?',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Imagine um grupo de pessoas pré-históricas reunido, olhando para pinturas de animais na parede de uma caverna. Isso pode mostrar que a arte, desde muito cedo, também servia para:',
     tip: 'Pensa em como a arte pode reunir pessoas em torno de uma mesma história ou crença, até hoje.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Se hoje encontrássemos uma pintura rupestre nova, intacta, isso ajudaria os pesquisadores a:',
     tip: 'Pensa em como cada nova descoberta pode trazer mais informações sobre o passado.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre a pintura rupestre e uma pintura feita hoje em uma tela com tinta acrílica?',
     tip: 'Pensa nos materiais usados em cada época: pigmentos naturais versus tinta industrializada.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Ao ver desenhos de mãos e animais nas paredes de uma caverna, um pesquisador pode concluir que aquele lugar:',
     tip: 'Pensa em quem poderia ter feito esses desenhos.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Patrimônio e preservação',
     type: 'multiple_choice',
     text: 'Por que a arte rupestre é considerada um importante patrimônio da humanidade?',
     tip: 'Pensa em tudo que aprendemos sobre a Pré-História graças a essas pinturas.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Na aula de Arte, Bernardo desenha a silhueta da própria mão na folha e depois borrifa tinta ao redor, imitando uma técnica antiga. Que tipo de arte ele está reproduzindo?',
     tip: 'É a mesma técnica das questões 5 e 14.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre um sítio arqueológico brasileiro famoso por suas pinturas rupestres muito antigas. Em qual estado ele descobre que esse local fica?',
     tip: 'É o mesmo estado da questão 7.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Na atividade, Bernardo tenta imaginar como os povos pré-históricos faziam tinta, sem lojas ou fábricas. Quais materiais ele descobre que eram usados?',
     tip: 'É a mesma resposta da questão 4.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Bernardo desenha uma cena de caça, inspirada nas pinturas rupestres, e explica à turma o motivo pelo qual esse tema era tão comum entre os povos antigos. Qual é essa explicação?',
     tip: 'Pensa em como a caça se relacionava com a vida diária das pessoas na Pré-História.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Ao final da pesquisa, Bernardo explica que a arte rupestre é uma das primeiras formas de expressão da humanidade. Isso mostra que a arte:',
     tip: 'É a mesma conclusão da questão 10.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora por que as pinturas rupestres duraram tantos milhares de anos. Ela explica que:',
     tip: 'É a mesma explicação da questão 12.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Na apresentação, Bernardo mostra a imagem de uma famosa caverna na França, cheia de pinturas de animais antigos. Qual é o nome dessa caverna?',
     tip: 'É a mesma caverna da questão 6.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Arte rupestre',
     type: 'multiple_choice',
     text: 'Bernardo explica que, além de decorar, as pinturas rupestres podiam ter outros significados. Qual dessas opções é uma possível função dessas pinturas?',
     tip: 'É a mesma ideia das questões 9 e 11.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume: "As pinturas rupestres são importantes porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre a importância dessas pinturas.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo termina sua atividade artística inspirada na Pré-História e mostra o desenho para a turma. Isso mostra que ele aprendeu que a arte:',
     tip: 'Pensa em tudo que você aprendeu sobre a origem da arte neste simulado.',

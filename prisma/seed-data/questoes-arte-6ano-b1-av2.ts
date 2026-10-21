@@ -1,6 +1,7 @@
 export const questoesArte6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Quais são consideradas as quatro principais linguagens artísticas estudadas na escola?',
     tip: 'Pensa nas formas de expressão que envolvem imagens, sons, movimentos e atuação.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Pintura, desenho, escultura e fotografia fazem parte de qual linguagem artística?',
     tip: 'Pensa no que essas quatro atividades têm em comum: todas podem ser vistas com os olhos.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Uma apresentação em que atores representam personagens e contam uma história ao vivo é chamada de:',
     tip: 'Pensa em uma peça apresentada em um palco, com atores e cenário.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'A linguagem artística que usa sons, ritmo e melodia é chamada de:',
     tip: 'Pensa em instrumentos musicais e canções — a qual linguagem eles pertencem?',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'A dança é uma linguagem artística que se expressa principalmente através:',
     tip: 'Pensa em como um bailarino se expressa em cima do palco — usando o quê?',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'Uma escultura é uma obra de arte que geralmente é:',
     tip: 'Pensa em uma estátua — você pode andar ao redor dela e ver de vários lados?',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Teatro',
     type: 'multiple_choice',
     text: 'O teatro costuma envolver, além dos atores, elementos como:',
     tip: 'Pensa em tudo que você vê em uma peça de teatro, além dos atores: o lugar, as roupas, a história.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Instrumentos musicais, como violão e tambor, são usados na linguagem artística da:',
     tip: 'É a mesma linguagem da questão 4.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Um bailarino ou uma bailarina é um artista que se expressa principalmente através da:',
     tip: 'É a mesma linguagem da questão 5.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Um pintor é um artista que trabalha principalmente com:',
     tip: 'Pensa nos materiais usados para fazer uma pintura.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se uma pessoa está pintando um quadro com tintas e pincéis, ela está praticando qual linguagem artística?',
     tip: 'É a mesma linguagem da questão 2.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se um grupo de pessoas está se apresentando ao som de uma música, fazendo movimentos coreografados, elas estão praticando:',
     tip: 'É a mesma linguagem das questões 5 e 9.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se um grupo de atores está representando uma peça em cima de um palco, contando uma história para o público, essa é uma apresentação de:',
     tip: 'É a mesma linguagem das questões 3 e 7.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se alguém está tocando um instrumento e cantando uma canção, essa pessoa está praticando a linguagem da:',
     tip: 'É a mesma linguagem das questões 4 e 8.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'Por que a escultura é considerada diferente de uma pintura?',
     tip: 'Volta na questão 6 sobre a característica principal de uma escultura.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Um espetáculo que combina música, movimento e, às vezes, até atuação, pode unir quais linguagens artísticas?',
     tip: 'Pensa em um musical ou uma ópera, que juntam várias dessas linguagens ao mesmo tempo.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se Bernardo assiste a uma peça de teatro na escola, com cenário e figurinos, ele está em contato com qual linguagem artística?',
     tip: 'É a mesma linguagem das questões 3, 7 e 13.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'As artes visuais, como pintura e escultura, são percebidas principalmente através de qual sentido?',
     tip: 'Pensa em como você aprecia um quadro ou uma estátua — usando qual sentido?',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Música',
     type: 'multiple_choice',
     text: 'A música é percebida principalmente através de qual sentido?',
     tip: 'Pensa em como você aprecia uma canção — usando qual sentido?',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Por que estudar diferentes linguagens artísticas (visuais, música, dança, teatro) é importante?',
     tip: 'Pensa em como cada linguagem artística é diferente e especial à sua maneira.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Na Semana de Arte da escola, Bernardo participa pintando um quadro. Em qual linguagem artística ele está trabalhando?',
     tip: 'É a mesma linguagem das questões 2 e 11.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Depois, Bernardo assiste a um grupo de colegas se apresentando com movimentos coreografados ao som de uma música. Que linguagem artística é essa?',
     tip: 'É a mesma linguagem das questões 5, 9 e 12.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Mais tarde, Bernardo assiste a uma peça encenada por outra turma, com cenário e figurinos, contando uma história. Que linguagem artística é essa?',
     tip: 'É a mesma linguagem das questões 3, 7, 13 e 17.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Para fechar o evento, uma banda da escola toca instrumentos e canta para todos. Que linguagem artística está sendo apresentada?',
     tip: 'É a mesma linguagem das questões 4, 8 e 14.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Bernardo também vê, no pátio, uma escultura feita de argila representando um animal. Ele percebe que pode andar ao redor dela e vê-la de vários ângulos. Isso é uma característica de qual linguagem?',
     tip: 'É a mesma característica das questões 6 e 15.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Ao descrever o evento para a família, Bernardo explica que a Semana de Arte reuniu pintura, escultura, dança, teatro e música. Isso mostra que a escola valorizou:',
     tip: 'Pensa em quantas linguagens diferentes Bernardo viu no evento.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora qual sentido usamos principalmente para apreciar uma pintura. Ela responde que é a:',
     tip: 'É a mesma resposta da questão 18.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'A professora também explica que usamos principalmente a audição para apreciar qual linguagem artística?',
     tip: 'É a mesma resposta da questão 19.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Teatro',
     type: 'multiple_choice',
     text: 'No fim da apresentação, Bernardo resume para a turma que teatro, diferente da pintura, é uma linguagem artística que acontece:',
     tip: 'Pensa na diferença entre uma pintura, que fica parada, e uma peça de teatro, que acontece na hora.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Para encerrar sua apresentação sobre as linguagens artísticas, Bernardo resume: "A Arte pode se manifestar de várias formas, como..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre as diferentes linguagens artísticas.',

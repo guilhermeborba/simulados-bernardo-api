@@ -1,6 +1,7 @@
 export const questoesArte6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Além de servirem como túmulos, as pirâmides egípcias também são consideradas:',
     tip: 'Pensa no esforço, no planejamento e na beleza envolvidos na construção dessas obras.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Os desenhos e símbolos usados na escrita egípcia, os hieróglifos, também eram valorizados por sua:',
     tip: 'Pensa em como os hieróglifos são cheios de desenhos de pássaros, olhos e outras figuras.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'As pinturas encontradas dentro de túmulos egípcios geralmente representavam:',
     tip: 'Pensa no que era importante para os egípcios: a vida diária e suas crenças religiosas.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'As máscaras funerárias, como a famosa máscara de Tutancâmon, eram feitas para:',
     tip: 'Pensa em onde essa máscara era colocada e por quê.',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Muitas esculturas egípcias representavam:',
     tip: 'Pensa em quem os egípcios mais queriam homenagear com suas esculturas.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'As pinturas egípcias antigas costumavam representar o corpo humano de um jeito bem específico. Qual era essa característica marcante?',
     tip: 'Pensa em imagens egípcias que você já viu: o rosto normalmente aparece de lado, mas o olho aparece de frente.',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'As cores usadas na arte egípcia eram feitas a partir de:',
     tip: 'Pensa em materiais que existiam na natureza, disponíveis para os egípcios usarem.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Um material muito usado pelos egípcios para escrever e também desenhar era o:',
     tip: 'É o material feito de uma planta que crescia às margens do rio Nilo.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'A famosa Esfinge de Gizé é um exemplo de qual tipo de arte egípcia?',
     tip: 'Pensa no tamanho gigantesco dessa estátua com corpo de leão e rosto humano.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Por que a arte egípcia é considerada muito importante para a história da arte?',
     tip: 'Pensa em como uma civilização tão antiga ainda é estudada e admirada até hoje.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Se um arqueólogo encontra hieróglifos bem desenhados em uma parede de templo, isso mostra que os egípcios se importavam com:',
     tip: 'Volta na questão 2 sobre a dupla função dos hieróglifos.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Por que a máscara de Tutancâmon é considerada uma obra de arte, e não apenas um objeto funerário comum?',
     tip: 'Volta na questão 4 sobre os materiais usados nessa máscara.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Comparando a arte egípcia com a arte rupestre da Pré-História, o que mudou principalmente?',
     tip: 'Pensa na diferença entre pigmentos simples em uma caverna e pinturas detalhadas dentro de túmulos.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Se você vir uma pintura egípcia com um faraó de perfil, mas com os olhos e ombros de frente, isso mostra uma técnica típica da arte egípcia, que buscava:',
     tip: 'É a mesma técnica da questão 6.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Por que os egípcios se davam tanto trabalho para decorar túmulos com pinturas e esculturas?',
     tip: 'Lembra da crença egípcia na vida após a morte, estudada também em História.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'O uso do papiro, tanto para escrever quanto para desenhar, mostra que os egípcios:',
     tip: 'Pensa em como o papiro servia tanto para textos quanto para desenhos.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Por que a Esfinge de Gizé é considerada uma obra-prima da escultura egípcia?',
     tip: 'Volta na questão 9 sobre as características dessa escultura.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Se compararmos a arte egípcia com a arte grega, estudada em História, podemos perceber que cada civilização:',
     tip: 'Pensa em como cada civilização antiga tinha jeitos diferentes de representar figuras humanas e deuses.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Por que estudar a arte do Egito Antigo ajuda a entender melhor a cultura egípcia como um todo?',
     tip: 'Pensa em tudo que as pinturas e esculturas egípcias revelam sobre religião, sociedade e crenças.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'O uso de ouro e pedras preciosas em objetos funerários, como a máscara de Tutancâmon, mostra que os egípcios:',
     tip: 'Volta na questão 15 sobre a crença egípcia na vida após a morte.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Na aula de Arte, Bernardo desenha uma figura egípcia com o rosto de perfil, mas com o olho e os ombros de frente, imitando o estilo da arte egípcia antiga. Essa técnica buscava:',
     tip: 'É a mesma técnica das questões 6 e 14.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre uma famosa máscara funerária egípcia, cheia de ouro e detalhes, feita para um jovem faraó. De quem é essa máscara?',
     tip: 'É o mesmo faraó das questões 4 e 12.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Bernardo descobre que os egípcios escreviam e também desenhavam em um material feito de uma planta do rio Nilo. Qual é esse material?',
     tip: 'É o mesmo material das questões 8 e 16.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Na atividade, Bernardo explica por que os egípcios decoravam tanto os túmulos com pinturas e esculturas. Qual é a explicação correta?',
     tip: 'É a mesma explicação da questão 15.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'Bernardo monta uma maquete da Esfinge de Gizé para a aula de Arte, destacando seu tamanho monumental. Que tipo de arte ele está representando?',
     tip: 'É o mesmo tipo de arte das questões 9 e 17.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Ao pesquisar sobre os hieróglifos, Bernardo percebe que eles não serviam apenas para comunicar informações, mas também eram desenhados com muito cuidado estético. Isso mostra que, para os egípcios, a escrita também era uma forma de:',
     tip: 'É a mesma ideia das questões 2 e 11.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo compara a arte egípcia com a arte rupestre estudada no simulado anterior e percebe uma diferença importante. Qual é ela?',
     tip: 'É a mesma conclusão da questão 13.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora de onde vinham as cores usadas nas pinturas egípcias antigas. Ela explica que os egípcios usavam:',
     tip: 'É a mesma resposta da questão 7.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume: "A arte do Egito Antigo é importante porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre pirâmides, hieróglifos, máscaras e esculturas.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Ao encerrar o bimestre de Arte, Bernardo resume o que aprendeu: da arte rupestre da Pré-História até a arte do Egito Antigo. Isso mostra que a arte:',
     tip: 'Pensa em tudo que você estudou neste bimestre, desde as cavernas até o Egito Antigo.',

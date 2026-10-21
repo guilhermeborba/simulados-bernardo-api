@@ -1,6 +1,7 @@
 export const questoesArte6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Arte é uma forma de:',
     tip: 'Pensa em tudo que você já viu de arte: pinturas, músicas, danças — o que elas costumam transmitir?',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'O ponto, na linguagem visual, é considerado:',
     tip: 'Pensa na menor marca que você pode fazer com um lápis, ao apenas tocar o papel.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'A linha, na arte, pode ser usada para:',
     tip: 'Pensa em como você desenha o contorno de uma casa ou de um sol no papel.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'O que é "forma", na linguagem visual?',
     tip: 'Pensa em figuras como círculo, quadrado e triângulo — o que elas representam?',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'A cor é um elemento visual que:',
     tip: 'Pensa em como uma pintura colorida pode parecer mais alegre do que uma pintura em preto e branco.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'O que é "textura", na arte?',
     tip: 'Pensa em quando você toca uma pedra e depois toca um tecido macio — o que muda entre eles?',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Quais são as chamadas "cores primárias"?',
     tip: 'São as três cores que não podem ser formadas misturando outras cores.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'As "cores secundárias" são formadas por:',
     tip: 'Pensa em como o verde é formado, misturando azul e amarelo — duas cores primárias juntas.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Misturando a cor azul com a amarela, obtemos a cor:',
     tip: 'Pensa na cor da grama e das folhas das árvores.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Misturando a cor vermelha com a azul, obtemos a cor:',
     tip: 'Pensa na cor de uma uva madura ou de uma berinjela.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Se um artista quer criar a sensação de movimento em um desenho, ele pode usar principalmente:',
     tip: 'Pensa em como linhas curvas ou diagonais podem dar a sensação de que algo está se movendo.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Ao observar uma pintura cheia de pontinhos coloridos formando uma imagem, você está vendo o uso de qual elemento visual como destaque?',
     tip: 'Volta na questão 2 e na técnica de pintura que usa só pontinhos.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Se você toca uma pedra e sente que ela é áspera, e depois toca uma seda macia, você está percebendo a diferença de:',
     tip: 'É a mesma explicação da questão 6.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Uma obra de arte feita só com tons de cinza, preto e branco, sem outras cores, é chamada de obra em:',
     tip: 'Pensa em fotografias antigas, que muitas vezes não tinham cor nenhuma.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Se um artista usa muitas linhas retas e formas geométricas (como quadrados e triângulos) em sua obra, isso mostra o uso de qual elemento visual?',
     tip: 'Volta na questão 4 sobre o significado de "forma" na arte.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Cores como vermelho, laranja e amarelo costumam transmitir sensação de:',
     tip: 'Pensa no sol e no fogo — que cores eles têm, e que sensação transmitem?',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Cores como azul e verde costumam transmitir sensação de:',
     tip: 'Pensa no mar, no céu e nas plantas — que sensação essas cores costumam passar?',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Se uma escultura tem uma superfície bem lisa e outra tem uma superfície cheia de sulcos e relevos, a diferença entre elas está na:',
     tip: 'É a mesma ideia das questões 6 e 13, sobre a sensação de uma superfície.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'Ao combinar pontos, linhas, formas, cores e texturas em uma única obra, um artista está usando:',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre os diferentes elementos visuais.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Por que aprender sobre os elementos da linguagem visual (ponto, linha, forma, cor, textura) é importante?',
     tip: 'Pensa em como conhecer esses elementos pode ajudar você mesmo a desenhar ou pintar melhor.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Na aula de Arte, Bernardo desenha vários pontinhos coloridos até formar a imagem de um sol. Que elemento visual ele está usando como destaque?',
     tip: 'É a mesma técnica das questões 2 e 12.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Bernardo traça várias linhas para desenhar o contorno de uma casa. Isso mostra o uso de qual elemento visual?',
     tip: 'É o mesmo elemento da questão 3.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Ao misturar tinta azul com tinta amarela na aula de Arte, Bernardo descobre uma nova cor. Qual cor ele obtém?',
     tip: 'É a mesma mistura da questão 9.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Bernardo passa a mão em uma pedra áspera e depois em um pedaço de tecido macio, percebendo a diferença entre as duas superfícies. Isso é um exemplo de:',
     tip: 'É a mesma explicação das questões 6, 13 e 18.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Na atividade de colagem, Bernardo usa apenas tons de vermelho, laranja e amarelo. Que tipo de sensação essas cores costumam passar?',
     tip: 'É a mesma explicação da questão 16.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Bernardo cria um desenho usando somente formas geométricas, como quadrados e triângulos, para representar um robô. Que elemento visual ele está destacando?',
     tip: 'É o mesmo elemento das questões 4 e 15.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Ao final da aula, Bernardo explica à turma que arte pode ser usada para expressar sentimentos e contar histórias, além de ser bonita de se ver. Essa explicação mostra que a Arte é:',
     tip: 'É a mesma ideia da questão 1.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Bernardo pinta um quadro usando apenas tons de azul e verde, para representar o mar calmo. Que sensação essas cores costumam transmitir?',
     tip: 'É a mesma explicação da questão 17.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Na atividade de revisão, Bernardo cita cinco elementos importantes da linguagem visual. Quais são eles?',
     tip: 'Pensa em tudo que você estudou neste simulado inteiro.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Para fechar a aula, Bernardo resume: "Aprendi que arte usa elementos como ponto, linha, forma, cor e textura para..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu sobre o propósito da arte neste simulado.',
