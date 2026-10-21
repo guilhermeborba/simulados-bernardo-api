@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O que são múltiplos de um número?',
     tip: 'Pensa na tabuada! Os múltiplos de 5 são justamente os resultados de 5×1, 5×2, 5×3...',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O que são divisores de um número?',
     tip: 'Pensa em quais números "cabem" perfeitamente dentro de outro, sem sobrar nada na divisão.',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Quais são os quatro primeiros múltiplos de 5?',
     tip: 'Multiplique 5 por 1, depois por 2, por 3 e por 4, na ordem certa.',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Quais são todos os divisores de 12?',
     tip: 'Teste, um por um, quais números dividem o 12 sem deixar resto: 1, 2, 3, 4, 5, 6... até chegar no próprio 12.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 15 é múltiplo de qual número abaixo?',
     tip: 'Pensa na tabuada do 5: 5, 10, 15, 20... o 15 aparece nessa lista?',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Todo número é múltiplo de:',
     tip: 'Pensa: qualquer número multiplicado por 1 dá ele mesmo, e ele mesmo multiplicado por 1 também dá ele mesmo!',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 7 é divisor de qual número abaixo?',
     tip: 'Teste dividir cada opção por 7 e veja em qual delas não sobra resto nenhum.',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Quantos múltiplos de 3 existem entre 1 e 20?',
     tip: 'Liste os múltiplos de 3 até chegar perto de 20: 3, 6, 9, 12, 15, 18... conte quantos você escreveu.',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Um número é considerado par quando:',
     tip: 'Pensa nos números pares que você conhece: 2, 4, 6, 8, 10... todos eles aparecem na tabuada de qual número?',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 1 é divisor de:',
     tip: 'Pensa: qualquer número dividido por 1 dá ele mesmo, sem deixar resto. Isso vale para todo número que existe!',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Quais são os divisores comuns de 8 e 12?',
     tip: 'Liste os divisores de 8 (1,2,4,8) e os de 12 (1,2,3,4,6,12), depois veja quais números aparecem nas duas listas.',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MDC (máximo divisor comum) entre 8 e 12?',
     tip: 'Entre os divisores comuns de 8 e 12 que você encontrou (1, 2 e 4), qual é o maior?',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Quais são os três primeiros múltiplos comuns de 4 e 6?',
     tip: 'Liste os múltiplos de 4 (4,8,12,16,20,24...) e os de 6 (6,12,18,24...), depois veja quais números aparecem nas duas listas.',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MMC (mínimo múltiplo comum) entre 4 e 6?',
     tip: 'Entre os múltiplos comuns de 4 e 6 (12, 24, 36...), qual é o menor deles?',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 18 é múltiplo de quais números abaixo ao mesmo tempo?',
     tip: 'Teste dividir 18 por cada número das opções e veja em qual dupla não sobra resto em nenhuma das divisões.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Quantos divisores tem o número 10?',
     tip: 'Teste, um por um, quais números de 1 até 10 dividem o 10 sem deixar resto.',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Um número que só tem dois divisores (1 e ele mesmo) é chamado de:',
     tip: 'Pensa em números como 2, 3, 5 e 7 — eles só podem ser divididos exatamente por 1 e por eles mesmos.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 9 é considerado:',
     tip: 'Liste os divisores de 9: são só 1 e 9, ou tem mais algum? Lembre que 3 também divide o 9!',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Quais números são primos entre as opções abaixo?',
     tip: 'Verifique cada número: ele só tem dois divisores (1 e ele mesmo)? Teste um a um.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 20 é divisível por quais números ao mesmo tempo?',
     tip: 'Teste dividir 20 por cada número das opções e veja em qual grupo nenhuma divisão deixa resto.',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo está organizando suas figurinhas em grupos iguais. Se ele tem 24 figurinhas, quais são alguns dos divisores de 24 que ele pode usar para formar grupos iguais?',
     tip: 'Teste, um por um, quais números dividem 24 sem deixar resto nenhum.',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo quer saber se pode dividir 30 figurinhas igualmente entre 6 amigos, sem sobrar nenhuma. Isso é possível porque:',
     tip: 'Faça a divisão 30 ÷ 6 e veja se sobra algum resto.',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo e sua turma organizam um evento a cada múltiplo de 4 semanas. Quais são as três primeiras semanas em que o evento vai acontecer?',
     tip: 'Multiplique 4 por 1, depois por 2 e depois por 3, na ordem certa.',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo quer saber o maior número que divide, ao mesmo tempo, 16 e 24 exatamente. Esse número é chamado de:',
     tip: 'Lembre que "máximo divisor comum" é exatamente isso: o maior número que divide dois números ao mesmo tempo.',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MDC entre 16 e 24?',
     tip: 'Liste os divisores de 16 (1,2,4,8,16) e os de 24 (1,2,3,4,6,8,12,24), depois veja qual é o maior número que aparece nas duas listas.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Bernardo e um amigo compram lanches em dias diferentes: Bernardo a cada 3 dias e o amigo a cada 4 dias. Depois de quantos dias eles vão comprar lanche no mesmo dia novamente?',
     tip: 'Liste os múltiplos de 3 (3,6,9,12...) e os de 4 (4,8,12...) e veja qual é o primeiro número que aparece nas duas listas.',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que o número 2 é o único número par que também é:',
     tip: 'Lembre que todos os outros números pares (4, 6, 8, 10...) podem ser divididos por 2 e por mais algum outro número além de 1 e ele mesmo — menos o 2!',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo listou os divisores do número 36 para um trabalho de matemática. Quantos divisores o número 36 tem?',
     tip: 'Liste com calma todos os números que dividem 36 sem deixar resto: 1, 2, 3, 4, 6, 9, 12, 18 e 36. Agora conte quantos são.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que 100 é múltiplo de 1, 2, 4, 5, 10, 20, 25, 50 e 100. Esses números, em relação a 100, são chamados de:',
     tip: 'Repare que todos esses números "cabem" exatamente dentro de 100, sem deixar resto — essa é a definição de divisor.',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre múltiplos e divisores, Bernardo concluiu que esses conceitos ajudam a:',
     tip: 'Pensa em tudo que você aprendeu: dividir figurinhas em grupos, encontrar o MDC e o MMC — para que serve tudo isso no fim das contas?',

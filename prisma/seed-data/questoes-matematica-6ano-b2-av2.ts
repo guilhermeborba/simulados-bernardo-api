@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'O que é uma fração?',
     tip: 'Pensa numa pizza cortada em pedaços iguais — cada pedaço é uma parte do todo, e é exatamente isso que uma fração representa.',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Na fração 3/4, qual é o numerador?',
     tip: 'O numerador é sempre o número que fica em cima, na fração.',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Na fração 3/4, qual é o denominador?',
     tip: 'O denominador é sempre o número que fica embaixo, na fração.',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'O denominador de uma fração indica:',
     tip: 'Pensa numa pizza: o denominador é o total de pedaços em que ela foi cortada, não quantos você comeu.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'O numerador de uma fração indica:',
     tip: 'Pensa numa pizza: o numerador é quantos pedaços você realmente pegou para comer.',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Se uma pizza foi dividida em 8 pedaços iguais e Bernardo comeu 3, que fração representa o que ele comeu?',
     tip: 'O numerador é quantos pedaços foram comidos (3) e o denominador é o total de pedaços (8).',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração representa "metade" de um todo?',
     tip: '"Metade" significa que o todo foi dividido em 2 partes iguais, e você pegou 1 delas.',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração representa "um terço" de um todo?',
     tip: '"Terço" vem de "três" — o todo foi dividido em 3 partes iguais, e você pegou 1 delas.',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'A fração 5/5 representa:',
     tip: 'Quando o numerador é igual ao denominador, significa que todas as partes foram tomadas — ou seja, o todo completo!',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual das frações abaixo representa "um quarto" de um todo?',
     tip: '"Quarto" vem de "quatro" — o todo foi dividido em 4 partes iguais, e você pegou 1 delas.',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração é maior: 1/2 ou 1/4?',
     tip: 'Imagine a mesma pizza dividida de duas formas: em 2 pedaços ou em 4 pedaços. Qual pedaço fica maior?',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Por que 1/2 é maior que 1/4?',
     tip: 'Pensa numa pizza cortada em só 2 pedaços versus a mesma pizza cortada em 4 pedaços — em qual corte os pedaços ficam maiores?',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Quais das frações abaixo são equivalentes (representam a mesma quantidade)?',
     tip: 'Pensa numa pizza dividida em 2 partes (você pega 1) e a mesma pizza dividida em 4 partes (você pega 2) — a quantidade de pizza é a mesma nos dois casos?',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração é equivalente a 2/4?',
     tip: 'Simplifique 2/4 dividindo o numerador e o denominador pelo mesmo número (nesse caso, por 2).',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Uma fração é chamada de "própria" quando:',
     tip: 'Pensa em frações como 1/2 ou 3/4 — nelas, o número de cima é sempre menor que o número de baixo.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'A fração 5/3 é chamada de:',
     tip: 'Compare o número de cima (5) com o de baixo (3) — qual deles é maior?',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Some as frações: 1/5 + 2/5',
     tip: 'Como os denominadores são iguais, some só os numeradores e mantenha o denominador.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Subtraia as frações: 4/7 − 1/7',
     tip: 'Como os denominadores são iguais, subtraia só os numeradores e mantenha o denominador.',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Para somar ou subtrair frações com o mesmo denominador, basta:',
     tip: 'Lembre dos exemplos anteriores: o denominador nunca muda quando ele já é igual nas duas frações.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração é maior: 3/5 ou 2/5?',
     tip: 'Como os denominadores são iguais, basta comparar os numeradores — qual deles é maior?',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo dividiu uma barra de chocolate em 6 pedaços iguais e comeu 2. Que fração representa o que ele comeu?',
     tip: 'O numerador é quantos pedaços Bernardo comeu (2) e o denominador é o total de pedaços (6).',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo comeu 2/6 do chocolate. Simplificando essa fração, ela é equivalente a:',
     tip: 'Divida o numerador e o denominador de 2/6 pelo mesmo número (nesse caso, por 2).',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo e sua irmã dividiram uma pizza em 8 pedaços. Bernardo comeu 3 pedaços e a irmã comeu 4. Que fração da pizza sobrou?',
     tip: 'Some quantos pedaços já foram comidos (3+4=7) e veja quanto sobra dos 8 pedaços totais.',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Na aula de educação física, 3/4 da turma de Bernardo participou de um jogo de queimada. Isso significa que:',
     tip: 'Pensa na turma dividida em 4 grupos iguais — quantos desses grupos participaram do jogo?',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo tinha 1/2 de um saco de bolinhas de gude e ganhou mais 1/2 de outro saco igual. Quanto ele tem agora, somando as frações?',
     tip: 'Some os numeradores (1+1) e mantenha o denominador (2), já que as frações têm o mesmo denominador.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo comparou duas fatias de bolo: uma de 1/3 do bolo e outra de 1/6 do bolo. Qual fatia é maior?',
     tip: 'Pensa num bolo dividido em 3 pedaços versus o mesmo bolo dividido em 6 pedaços — em qual divisão os pedaços ficam maiores?',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, ao repartir uma pizza inteira entre ele e 3 amigos em partes iguais, cada um recebe a fração:',
     tip: 'Conte quantas pessoas vão dividir a pizza ao todo: Bernardo mais 3 amigos são quantas pessoas?',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Se Bernardo comer 2 dessas 4 partes da pizza, que fração ele comeu, já simplificada?',
     tip: 'Primeiro escreva a fração (2/4), depois simplifique dividindo o numerador e o denominador pelo mesmo número.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo fez um desenho e pintou 3/5 dele de azul. Que fração do desenho ainda não foi pintada?',
     tip: 'O desenho inteiro é 5/5. Se 3/5 já foram pintados, quanto sobra para completar o desenho inteiro?',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que as frações aparecem em muitas situações do dia a dia, como dividir pizza, chocolate e até tempo. Isso mostra que estudar frações é importante porque:',
     tip: 'Pensa em quantas vezes você já dividiu algo com alguém, como um lanche ou um tempo de brincadeira — frações estão em toda parte!',
