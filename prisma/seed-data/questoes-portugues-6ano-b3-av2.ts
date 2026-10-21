@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual sinal de pontuação é usado para indicar uma pergunta?',
     tip: 'Pensa numa pergunta que você faz em voz alta — a "curvinha com um pontinho embaixo" é a marca registrada dela!',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'O ponto final é usado para:',
     tip: 'Pense no sinal mais simples de todos — só uma bolinha. Ele marca que a ideia da frase terminou, sem pergunta e sem susto.',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual sinal indica surpresa, alegria ou espanto?',
     tip: 'Imagine alguém gritando "Que incrível!" — qual sinal combina com essa emoção forte?',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'A vírgula é usada principalmente para:',
     tip: 'Pensa numa lista de compras: "pão, leite, ovos" — o que separa cada item?',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Os dois-pontos podem ser usados antes de:',
     tip: 'Pensa em uma frase como "Faltam três coisas: lápis, borracha e caderno" — o que vem logo depois dos dois-pontos?',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'As reticências (...) indicam:',
     tip: 'Repare que as reticências são feitas de três pontinhos seguidos — como se a frase fosse "sumindo" aos poucos, sem terminar de vez.',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Em "Maria, venha aqui!", a vírgula é usada para:',
     tip: 'Repare que "Maria" é o nome da pessoa sendo chamada — a vírgula separa esse "chamado" do resto da frase.',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual sinal aparece no final de uma frase que expressa uma ordem forte ou emoção?',
     tip: 'Pensa em alguém gritando "Corra!" — esse sinal combina com força e emoção na voz.',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'As aspas são usadas para:',
     tip: 'Pensa em quando alguém repete exatamente o que outra pessoa disse — que sinal "abraça" essas palavras?',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual frase termina corretamente com ponto de interrogação?',
     tip: 'Procure a frase que está perguntando algo, esperando uma resposta de sim ou não.',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Na frase "Comprei maçã, banana e uva", a vírgula separa:',
     tip: 'Repare que "maçã", "banana" e "uva" são frutas diferentes numa mesma lista — o que costuma separar itens de uma lista?',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Complete com o sinal correto: "Que dia maravilhoso___"',
     tip: 'A palavra "maravilhoso" já mostra uma emoção forte de alegria — que sinal combina com isso?',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual frase está pontuada corretamente?',
     tip: 'Repare qual frase usa os dois-pontos antes da fala de alguém e as aspas ao redor do que foi dito — esse é o jeito certo de mostrar uma fala.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'A frase "João, traga o livro, por favor" usa a vírgula para:',
     tip: '"João" é o nome de quem está sendo chamado para fazer algo — a vírgula separa esse chamado do pedido.',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual pontuação falta em "Nossa___ que susto"?',
     tip: '"Nossa" é uma interjeição, uma palavrinha que mostra emoção forte, como espanto. Que sinal combina com emoção forte?',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Escolha a frase corretamente pontuada:',
     tip: 'É uma pergunta com uma lista de itens dentro dela — precisa de vírgulas separando a lista e do sinal certo de pergunta no final.',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Os dois-pontos na frase "Faltam três coisas: caderno, lápis e borracha" servem para:',
     tip: 'Repare que logo depois dos dois-pontos vem justamente a lista das três coisas que faltam — eles "anunciam" o que vem a seguir.',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Em uma história, quando um personagem fala, geralmente usamos:',
     tip: 'Pensa em como os livros de histórias mostram quando alguém está falando — geralmente tem um tracinho ou aspas antes da fala.',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual das frases pede uma resposta?',
     tip: 'Procure a frase que está perguntando alguma coisa para outra pessoa, esperando que ela responda.',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: '"Eu não sei... talvez ele volte" — as reticências mostram:',
     tip: 'Repare na palavra "talvez" logo depois das reticências — ela já dá uma pista de que a pessoa não tem certeza de nada.',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo escreveu no quadro: "Você trouxe caderno, lápis e borracha?" Que sinais de pontuação ele usou corretamente?',
     tip: 'Repare que a frase tem uma lista de materiais E é uma pergunta ao mesmo tempo — quais dois sinais Bernardo precisou usar juntos?',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo ficou muito feliz ao ganhar uma medalha na gincana e gritou: "Eu ganhei___" Que sinal ele deve usar?',
     tip: 'Pensa na emoção de Bernardo nesse momento — ele está gritando de alegria! Que sinal combina com esse sentimento forte?',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo escreveu um bilhete para a mãe: "Mãe, ele disse: \'Vou chegar mais tarde.\'" O uso dos dois-pontos e das aspas serve para:',
     tip: 'Repare que Bernardo está repetindo exatamente o que "ele" disse — os dois-pontos e as aspas mostram que essa é a fala de outra pessoa, não a de Bernardo.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo estava fazendo a lista de material escolar: "Preciso de régua, caderno e apontador." As vírgulas nessa frase servem para:',
     tip: 'Repare que "régua", "caderno" e "apontador" são itens diferentes de uma mesma lista de material — o que costuma separar os itens?',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'No fim do dia, Bernardo escreveu em seu diário: "Hoje foi um dia incrível___" Qual pontuação combina melhor com o sentimento dele?',
     tip: 'A palavra "incrível" já mostra que Bernardo está empolgado com o dia. Que sinal combina com empolgação?',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo ficou em dúvida sobre ir ou não à festa e escreveu: "Não sei se vou___ talvez sim, talvez não." Qual pontuação mostra essa hesitação?',
     tip: 'Repare que logo depois vem "talvez sim, talvez não" — isso mostra que Bernardo está bem indeciso. Qual sinal combina com essa sensação de "ainda pensando"?',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo perguntou à professora sobre a lista de compras da feira de ciências: "Precisamos de três coisas: cartolina, cola e tesoura." Os dois-pontos aqui indicam:',
     tip: 'Repare que logo depois dos dois-pontos vêm justamente as três coisas citadas — eles "avisam" que a lista vai começar.',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo quis saber se o amigo tinha entendido a tarefa e perguntou: "Você entendeu o exercício___" Que sinal falta?',
     tip: 'Bernardo está fazendo uma pergunta para o amigo, esperando uma resposta. Qual sinal sempre aparece no final de perguntas?',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Chamando o colega no pátio, Bernardo disse: "Pedro, espera por mim!" A vírgula depois de "Pedro" serve para:',
     tip: '"Pedro" é o nome de quem Bernardo está chamando — assim como em "Maria, venha aqui!", essa vírgula separa o chamado do resto da frase.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo terminou de escrever uma cena de sua historinha e um personagem disse: "Corra, o dragão está vindo!" Qual conjunto de sinais aparece nessa fala?',
     tip: 'Repare que tem uma vírgula separando "Corra" do resto da frase, e a frase toda termina com um sinal de emoção forte por causa do perigo do dragão.',

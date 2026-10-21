@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'O que é concordância verbal?',
     tip: 'Pensa na palavra "verbal" — ela lembra "verbo"! A concordância verbal é sempre entre o verbo e quem pratica a ação (o sujeito).',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "Os alunos estudam muito", o verbo "estudam" está concordando com:',
     tip: 'Conte quantos alunos aparecem na frase — é só um ou vários? O verbo precisa combinar com essa quantidade.',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'O que é concordância nominal?',
     tip: '"Nominal" vem de "nome" — pensa em substantivo e adjetivo combinando em gênero (masculino/feminino) e número (singular/plural).',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase com concordância nominal correta:',
     tip: 'Verifique se o artigo (as/os), o substantivo (menina/meninos) e o adjetivo (esperta/espertos) estão todos combinando em gênero e número.',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "Bernardo e Ana ___ para a escola juntos." (verbo "ir")',
     tip: 'Bernardo E Ana são duas pessoas — isso forma um sujeito plural, mesmo que cada nome apareça sozinho.',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Por que usamos "vão" e não "vai" na frase anterior?',
     tip: '"Vai" não está errado sempre — ele funciona bem quando o sujeito é uma pessoa só. Pense em quantas pessoas vão para a escola na frase.',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase com erro de concordância:',
     tip: 'Repare que "as meninas" é plural, mas o verbo "está" está no singular — eles precisam combinar!',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual é a forma correta de concordância na frase "As meninas ___ brincando"?',
     tip: '"As meninas" indica mais de uma pessoa — o verbo precisa estar no plural para combinar.',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase com concordância nominal correta:',
     tip: '"Caderno" é uma palavra masculina e singular — o artigo e o adjetivo precisam combinar com isso.',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "Os pássaros ___ no céu." (verbo "voar")',
     tip: '"Os pássaros" é plural — o verbo "voar" precisa ficar na forma que combina com várias aves voando juntas.',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual frase está com a concordância verbal correta?',
     tip: 'Repare que tanto o substantivo quanto o verbo precisam estar no plural juntos — "cachorros" e "latem" combinando.',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Corrija a frase: "As flor são bonita."',
     tip: 'Toda a frase precisa ficar no plural: o artigo, o substantivo, o verbo e o adjetivo — todos combinando juntos.',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "Eu ___ muito feliz hoje." (verbo "estar")',
     tip: '"Eu" é a 1ª pessoa do singular — que forma do verbo "estar" combina só com uma pessoa falando de si mesma?',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Na frase "A professora explicou a lição com calma", o adjetivo (se houver) concorda com:',
     tip: 'Releia a frase com calma e procure uma palavra que qualifique um substantivo (como "bonita" qualifica "flor"). Você vai ver que "calma" aqui funciona como advérbio, não como adjetivo!',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase com erro de concordância nominal:',
     tip: 'Repare que "os" está no masculino plural, mas "menina" e "bonito" não combinam nem entre si nem com "os" — tudo está bagunçado nessa frase!',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Como fica certa a frase "Os menina bonito"?',
     tip: 'Já que a frase começa com "os" (masculino plural), todas as outras palavras precisam seguir esse mesmo padrão.',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "Nós ___ o dever de casa ontem." (verbo "fazer")',
     tip: '"Nós" é a 1ª pessoa do plural — qual forma do verbo "fazer" no passado combina com "nós"?',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase corretamente concordada:',
     tip: '"Ela e eu" formam um sujeito composto que equivale a "nós" — qual verbo combina com "nós"?',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Por que usamos "fomos" e não "foi" na frase anterior?',
     tip: 'Pensa em juntar as duas pessoas da frase (ela + eu) — isso forma um grupo, que equivale ao pronome "nós".',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "As crianças ___ animadas para o passeio." (verbo "estar")',
     tip: '"As crianças" é plural — qual forma de "estar" combina com um grupo de crianças?',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Os alunos da minha turma ___ muito animados." Qual verbo completa corretamente?',
     tip: '"Os alunos" é plural — repare qual forma do verbo "estar" combina com um grupo de alunos.',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'A professora corrigiu o texto de Bernardo, que tinha escrito "As menina estudou". Qual é a forma correta?',
     tip: 'Corrija uma palavra de cada vez: primeiro o substantivo, depois o verbo. Ambos precisam ficar no plural, combinando com "as".',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo e seu amigo Lucas foram ao mesmo passeio. No caderno, Bernardo escreveu: "Eu e Lucas ___ muito no parque." Qual verbo completa certo?',
     tip: '"Eu e Lucas" formam um grupo de duas pessoas, que equivale a "nós" — qual forma do verbo "brincar" combina com "nós"?',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo quis elogiar o trabalho da colega e escreveu: "O desenho dela é muito ___." Qual adjetivo concorda certo com "desenho" (masculino singular)?',
     tip: '"Desenho" é uma palavra masculina e singular — o adjetivo precisa "vestir a mesma roupa" que o substantivo.',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Se Bernardo fosse elogiar a pintura (palavra feminina) da colega, qual seria a forma certa do adjetivo "bonito"?',
     tip: '"Pintura" é uma palavra feminina e singular — o adjetivo "bonito" precisa mudar de forma para combinar.',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo percebeu um erro no cartaz da sala: "As regras da turma deve ser respeitada." Qual é a correção certa?',
     tip: 'Corrija a frase inteira, garantindo que "as regras", "devem" e "respeitadas" fiquem todos no plural juntos.',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo e sua irmã organizaram os brinquedos. Ele escreveu: "Os brinquedos ___ guardados na caixa." Qual verbo completa?',
     tip: '"Os brinquedos" é plural — qual forma do verbo "ser/ir" no passado combina com vários brinquedos?',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo descreveu seus dois cachorros: "Meus cachorros são muito ___." (adjetivo no masculino plural, com o sentido de "cheios de energia")',
     tip: '"Cachorros" está no masculino plural — o adjetivo precisa combinar exatamente com essa forma.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na redação sobre a família, Bernardo escreveu: "Minha mãe e meu pai ___ para o trabalho cedo." Qual verbo completa corretamente?',
     tip: '"Minha mãe e meu pai" formam um sujeito composto de duas pessoas — o verbo precisa ficar no plural.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo revisou seu texto e corrigiu: "Os livro da estante está organizado" para a forma certa. Qual é ela?',
     tip: 'Corrija palavra por palavra: substantivo, verbo e adjetivo precisam todos ficar no plural, combinando entre si.',

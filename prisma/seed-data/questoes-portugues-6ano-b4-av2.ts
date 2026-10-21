@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo?',
     tip: 'Pensa em palavras como "escola", "Bernardo" e "alegria" — todas elas "dão nome" a alguma coisa.',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'O que é um pronome demonstrativo?',
     tip: 'Pensa em "este", "esse" e "aquele" — eles ajudam a "apontar" para onde ou quando algo está.',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual sinal de pontuação indica uma pergunta?',
     tip: 'Pensa numa pergunta em voz alta — qual sinal tem aquele formato de "gancho" no final da frase?',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'O que são verbos?',
     tip: 'Pensa em palavras como "correr", "estar" e "chover" — todas mostram o que está acontecendo.',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo é um adjetivo?',
     tip: 'Pergunte: essa palavra dá uma característica a alguma coisa? "Bonita" descreve como algo é.',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Todas as palavras devem ser acentuadas seguindo:',
     tip: 'A acentuação não é escolha — existem regras que dizem quando e onde colocar o acento, olhando para a sílaba mais forte da palavra.',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Um conto de fadas é um exemplo de:',
     tip: 'Contos de fadas têm começo, meio e fim, com personagens e aventuras — isso é típico das narrativas.',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "Nós ___ estudando para a prova." (verbo "estar")',
     tip: '"Nós" é a 1ª pessoa do plural — qual forma do verbo "estar" combina com esse pronome?',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: '"Meu" e "teu" são exemplos de pronomes:',
     tip: 'Essas palavras mostram de quem é alguma coisa — "meu" é o que pertence a mim, "teu" é o que pertence a você.',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase com concordância correta:',
     tip: 'Confira se o artigo, o substantivo e o adjetivo estão todos no mesmo gênero e número.',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Qual é o adjetivo na frase "O céu azul estava lindo hoje"?',
     tip: 'Procure as palavras que descrevem características do céu — como ele é (a cor) e como ele estava (a aparência).',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Complete com acentuação correta: qual palavra está certa?',
     tip: 'Pense em como você fala essa palavra — a sílaba mais forte é a primeira ("sá"), e por isso ela recebe acento.',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Uma notícia de jornal é um exemplo de gênero textual:',
     tip: 'Notícias contam fatos reais que aconteceram, sem inventar personagens — isso é bem diferente de uma história de ficção.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Complete: "Eles ___ para casa depois da aula." (verbo "ir")',
     tip: '"Eles" é plural — qual forma do verbo "ir" combina com um grupo de pessoas?',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Qual sinal de pontuação usamos ao final de uma frase de espanto ou alegria?',
     tip: 'Pensa numa frase como "Que legal!" — que sinal combina com essa emoção forte?',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: '"Alguém" e "nenhum" são exemplos de pronomes:',
     tip: 'Essas palavras não dizem exatamente quem ou quanto — por isso são chamadas de "indefinidas".',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Assinale a frase com concordância verbal correta:',
     tip: 'Confira se o artigo, o substantivo e o verbo estão todos no mesmo número (singular ou plural).',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Qual das palavras é um substantivo?',
     tip: 'Pergunte: essa palavra dá nome a um lugar, pessoa, objeto ou sentimento? "Escola" nomeia um lugar!',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Nos dois-pontos antes de uma lista, como em "Precisamos de três coisas: lápis, borracha e caderno", a função é:',
     tip: 'Repare que logo depois dos dois-pontos vem justamente a lista dos itens — eles "avisam" que algo vai ser explicado.',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Uma receita culinária, com ingredientes e modo de preparo, é um exemplo de gênero textual:',
     tip: 'Receitas ensinam passo a passo como fazer algo — textos que "ensinam a fazer" são chamados de instrucionais.',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo escreveu uma história para a aula de português com começo, meio e fim, com personagens e aventuras. Que gênero textual ele produziu?',
     tip: 'Pense nas características do texto de Bernardo: personagens, aventura, começo, meio e fim — isso é bem típico de qual gênero?',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'No texto de Bernardo, havia a frase: "Este é o meu herói favorito." Qual é a classificação de "este"?',
     tip: '"Este" está apontando para algo perto de quem fala — essa é a função clássica dos pronomes demonstrativos.',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Bernardo descreveu seu herói: "Ele era corajoso e gentil." As palavras destacadas são:',
     tip: 'Pergunte: essas palavras dão características ao herói? "Corajoso" e "gentil" descrevem como ele é.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'No fim da história, Bernardo escreveu: "Eles venceram o vilão___" Qual sinal de pontuação combina com essa emoção de vitória?',
     tip: 'Pense na emoção de uma vitória contra o vilão — isso pede um sinal de pontuação forte, cheio de energia.',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'A professora pediu para Bernardo revisar a concordância da frase: "As criança correu no parque." Qual é a forma correta?',
     tip: 'Corrija todas as palavras para o plural: artigo, substantivo e verbo precisam combinar juntos.',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo leu no jornal da escola: "A gincana acontecerá na sexta-feira." Esse texto é um exemplo de gênero:',
     tip: 'Esse texto avisa sobre um fato real que vai acontecer na escola — isso é bem típico de notícias e avisos.',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'No caderno de Bernardo estava escrito: "Meu lápis e minha borracha ___ na mochila." (verbo "estar")',
     tip: '"Meu lápis e minha borracha" são dois objetos diferentes juntos — isso forma um sujeito composto, que pede o verbo no plural.',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Bernardo escreveu um bilhete e ficou em dúvida na acentuação da palavra "árvore". Qual é a forma correta?',
     tip: 'Pense em como você fala essa palavra — a sílaba mais forte é a primeira ("ár"), e por isso ela recebe o acento logo no início.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Pontuação',
     type: 'multiple_choice',
     text: 'Bernardo terminou sua redação e a professora disse: "Muito bem, Bernardo___" Qual pontuação combina com o elogio?',
     tip: 'Pensa na emoção de receber um elogio animado — que sinal combina com esse tom de comemoração?',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo revisou tudo o que aprendeu: gêneros textuais, substantivos, adjetivos, verbos, acentuação, pronomes, pontuação e concordância. Isso mostra que ele:',
     tip: 'Pense em tudo que Bernardo praticou ao longo do bimestre — foram vários conteúdos diferentes trabalhados juntos, não só um.',

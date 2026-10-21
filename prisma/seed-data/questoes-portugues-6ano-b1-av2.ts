@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo?',
     tip: 'Pense na palavra que dá "nome" às coisas: pessoa, animal, objeto, lugar...',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo próprio?',
     tip: 'Pense em nomes específicos, como "Bernardo" ou "Brasil", que começam com letra maiúscula.',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo comum?',
     tip: 'Pense em palavras que nomeiam coisas de forma "geral", sem especificar qual exatamente.',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo concreto?',
     tip: 'Pense em algo que você pode ver, tocar ou ouvir, como "mesa", "cachorro" ou "chuva".',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo abstrato?',
     tip: 'Pense em palavras como "alegria", "coragem" ou "amizade", que você sente, mas não pode segurar.',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'O que é um substantivo coletivo?',
     tip: 'Pense em palavras como "cardume" (conjunto de peixes) ou "matilha" (conjunto de cães).',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Qual das opções é um exemplo de substantivo coletivo?',
     tip: 'Pense na palavra que representa um "grupo de seres da mesma espécie".',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Qual das opções é um exemplo de substantivo abstrato?',
     tip: 'Pense em um sentimento ou qualidade que não pode ser tocado.',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Qual das opções é um exemplo de substantivo próprio?',
     tip: 'Pense em um nome específico, escrito com letra maiúscula.',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Por que é importante saber diferenciar os tipos de substantivos?',
     tip: 'Pense em como reconhecer os tipos de palavras ajuda a construir frases mais claras.',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'O que é um adjetivo?',
     tip: 'Pense em palavras que descrevem "como é" alguém ou alguma coisa.',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Na frase "O gato preto dormiu o dia todo", qual é o adjetivo?',
     tip: 'Pense na palavra que descreve uma característica do gato.',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'O que significa dizer que um adjetivo "concorda" com o substantivo?',
     tip: 'Pense em como dizemos "menino alto" e "menina alta", mudando a terminação do adjetivo.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Qual das opções abaixo é um adjetivo?',
     tip: 'Pense na palavra que descreve uma característica, como "algo divertido".',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Na frase "A menina inteligente resolveu o problema rapidamente", qual palavra funciona como adjetivo?',
     tip: 'Pense na palavra que descreve uma característica da menina.',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'O que é uma "locução adjetiva"?',
     tip: 'Pense em expressões como "de ferro" ou "sem coragem", que funcionam como um adjetivo.',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Na frase "Bernardo comprou uma camisa de algodão", qual expressão funciona como locução adjetiva?',
     tip: 'Pense na expressão que descreve o material da camisa, funcionando como um adjetivo.',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Por que os adjetivos são importantes em um texto?',
     tip: 'Pense em como uma descrição fica mais interessante com boas palavras para caracterizar algo.',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Na frase "O livro antigo estava em cima da mesa de madeira", quantos adjetivos (incluindo locuções adjetivas) podemos identificar?',
     tip: 'Pense em todas as características descritas na frase: uma sobre o livro, outra sobre a mesa.',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre um substantivo e um adjetivo?',
     tip: 'Pense em como o substantivo "diz o quê" é a coisa, e o adjetivo "diz como" ela é.',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Na redação sobre seu animal de estimação, Bernardo escreveu a palavra "cachorro". Essa palavra é um substantivo do tipo:',
     tip: 'Pense em uma palavra que nomeia um animal de forma genérica, sem especificar o nome dele.',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Ao descrever seus sentimentos no diário, Bernardo escreveu a palavra "felicidade". Esse substantivo é classificado como:',
     tip: 'Pense em algo que você sente, mas não pode tocar com as mãos.',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Na aula de ciências, Bernardo aprendeu que um grupo de peixes nadando junto é chamado de "cardume". Esse tipo de substantivo, que nomeia um conjunto de seres da mesma espécie, é chamado de:',
     tip: 'Pense na palavra que representa um "grupo" de seres, mesmo estando no singular.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Bernardo escreveu, na sua redação, o nome da cidade onde mora, começando a palavra com letra maiúscula. Esse tipo de substantivo é chamado de:',
     tip: 'Pense em nomes específicos, sempre escritos com letra maiúscula.',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Ao descrever seu melhor amigo, Bernardo usou a palavra "engraçado". Essa palavra, que descreve uma característica de uma pessoa, é classificada como:',
     tip: 'Pense na palavra que descreve "como é" o amigo de Bernardo.',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Ganhei um relógio de ouro do meu avô." A expressão "de ouro" funciona, nessa frase, como uma:',
     tip: 'Pense em como "de ouro" descreve o material do relógio, funcionando como um adjetivo.',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Substantivos',
     type: 'multiple_choice',
     text: 'Na frase que Bernardo escreveu, "A menina corajosa enfrentou o desafio", o substantivo da frase é:',
     tip: 'Pense na palavra que nomeia a pessoa da frase.',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo precisou concordar corretamente o adjetivo com o substantivo na frase "As flores ___ (bonito) enfeitavam o jardim". Qual seria a forma correta?',
     tip: 'Pense em como "flores" está no feminino e no plural — o adjetivo precisa concordar com isso.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Adjetivos',
     type: 'multiple_choice',
     text: 'Na sua redação, Bernardo quis descrever uma casa feita de madeira, sem usar uma única palavra para isso, mas sim uma expressão de duas palavras. Ele escreveu corretamente:',
     tip: 'Pense na expressão que representa o material da casa, funcionando como uma locução adjetiva.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora pediu para Bernardo explicar a diferença entre substantivo e adjetivo, usando exemplos. Ele respondeu corretamente que:',
     tip: 'Pense em tudo que aprendemos sobre a função de cada uma dessas classes de palavras.',
