@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Como se diz "um" em inglês?',
     tip: 'É o primeiro número que aprendemos ao contar!',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Números',
     type: 'multiple_choice',
     text: '"Five" significa:',
     tip: 'Pensa nos dedos de uma mão — quantos são?',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Como se diz "dez" em inglês?',
     tip: 'Pensa no total de dedos das duas mãos juntas.',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Números',
     type: 'multiple_choice',
     text: '"Seven" significa:',
     tip: 'Pensa nos dias da semana — quantos são?',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Como se diz "vermelho" em inglês?',
     tip: 'Pensa na cor de um morango ou de uma maçã madura.',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: '"Blue" significa:',
     tip: 'Pensa na cor do céu em um dia sem nuvens.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Como se diz "amarelo" em inglês?',
     tip: 'Pensa na cor do sol ou de uma banana madura.',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: '"Green" significa:',
     tip: 'Pensa na cor das folhas das árvores e da grama.',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Como se diz "preto" em inglês?',
     tip: 'Pensa na cor da noite sem nenhuma luz.',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: '"White" significa:',
     tip: 'Pensa na cor de uma nuvem bem clarinha ou da neve.',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Se Bernardo tem 3 lápis vermelhos e 2 lápis azuis, quantos lápis ele tem no total? Escreva o número por extenso em inglês.',
     tip: 'Primeiro some 3 + 2 em português, depois pense em como esse número se escreve em inglês.',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Se você quer dizer que o céu está azul, você diz: "The sky is ___."',
     tip: 'Volta na questão 6 sobre a cor do céu.',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Ao descrever uma maçã vermelha em inglês, você diz: "The apple is ___."',
     tip: 'Volta na questão 5 sobre a cor de uma maçã madura.',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Se alguém pergunta "How many apples?" e a resposta é 6, como você escreve o número em inglês?',
     tip: 'Pensa em qual número, em inglês, representa a quantidade 6.',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Ao contar de 1 a 5 em inglês, a sequência correta é:',
     tip: 'Pensa na ordem certa de contar, começando do número 1.',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Se a grama é verde e o céu é azul, como você diria "a grama é verde" em inglês?',
     tip: 'Volta na questão 8 sobre a cor da grama.',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Se Bernardo tem 8 figurinhas e ganha mais 2, quantas ele passa a ter, em inglês?',
     tip: 'Primeiro some 8 + 2 em português, depois pense em como se escreve esse número em inglês.',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Ao misturar a cor azul com a amarela, geralmente se forma a cor:',
     tip: 'Pensa em uma aula de artes: que cor nasce da mistura de azul com amarelo?',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Se você quer descrever o sol como "amarelo" em inglês, você diz: "The sun is ___."',
     tip: 'Volta na questão 7 sobre a cor do sol.',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Se um número vem logo depois do "nine" (nove), ao contar em ordem, esse número é:',
     tip: 'Pensa na sequência de números: eight, nine, ___?',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Na aula de inglês, a professora pede para Bernardo contar seus lápis de cor em voz alta, começando do um. O que ele deve dizer primeiro?',
     tip: 'É o mesmo número da questão 1, o primeiro da contagem.',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Bernardo pega um lápis vermelho e diz à turma: "This pencil is ___." Qual palavra ele deve usar?',
     tip: 'É a mesma cor da questão 5 e 13.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Bernardo conta seus livros: 1, 2, 3, 4, 5, 6, 7. Qual é o próximo número, em inglês, depois de "seven"?',
     tip: 'Pensa na sequência: six, seven, ___?',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Na atividade de cores, Bernardo pinta o céu de azul e escreve embaixo do desenho: "The sky is ___."',
     tip: 'É a mesma cor das questões 6 e 12.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Bernardo está brincando de adivinhação com a irmã: ele pega 1 bolinha vermelha e 4 bolinhas azuis. Quantas bolinhas ele tem no total, em inglês?',
     tip: 'Primeiro some 1 + 4 em português, depois pense em como se escreve esse número em inglês.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Bernardo pinta uma folha de árvore e diz para a turma: "The leaf is ___." Qual cor combina mais com uma folha?',
     tip: 'É a mesma cor das questões 8 e 16, usada para grama e folhas.',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'No jogo de contar até dez, Bernardo erra e fala "eight" no lugar de "nine". Qual é o número certo que vem depois do "eight"?',
     tip: 'Pensa na sequência: seven, eight, ___?',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Bernardo aponta para o próprio uniforme escolar e diz: "My shirt is ___." (referindo-se à cor amarela). Qual palavra ele deve usar?',
     tip: 'É a mesma cor das questões 7 e 19.',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'No fim da atividade, Bernardo conta em voz alta de 1 a 10 sem errar nenhum número. Isso mostra que ele já sabe:',
     tip: 'Pensa em tudo que você praticou neste simulado sobre números.',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Para fechar a atividade, Bernardo desenha um arco-íris e escreve os nomes das cores em inglês. Isso ajuda ele a praticar:',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre as cores.',

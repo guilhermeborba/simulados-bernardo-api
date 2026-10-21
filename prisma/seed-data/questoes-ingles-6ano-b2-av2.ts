@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Como se diz "segunda-feira" em inglês?',
     tip: 'É o primeiro dia da semana em muitos calendários e agendas escolares.',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: '"Friday" significa:',
     tip: 'É o dia mais esperado antes do fim de semana chegar!',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Como se diz "domingo" em inglês?',
     tip: 'Essa palavra tem uma parte parecida com "sun" (sol) — o dia do Sol!',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: '"Wednesday" significa:',
     tip: 'É o dia bem no meio da semana de trabalho e escola.',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Como se diz "livro" em inglês?',
     tip: 'Pensa em "Facebook" — a segunda parte da palavra significa "livro"!',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: '"Pencil" significa:',
     tip: 'É o objeto usado para escrever ou desenhar, que pode ser apagado.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Como se diz "mochila" em inglês?',
     tip: 'É o objeto usado para carregar os materiais escolares nas costas.',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: '"Eraser" significa:',
     tip: 'Pensa no objeto usado para apagar o que foi escrito a lápis.',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Como se diz "caderno" em inglês?',
     tip: 'A palavra tem "note" (anotação) e "book" (livro) juntas.',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: '"Ruler" significa:',
     tip: 'Pensa no objeto usado para traçar linhas retas e medir.',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Se as aulas de Bernardo acontecem no dia seguinte a "Monday", esse dia é:',
     tip: 'Pensa na ordem dos dias: Monday, ___?',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Se hoje é "Wednesday", o dia seguinte será:',
     tip: 'Pensa na ordem: Wednesday, ___?',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Os dois dias do fim de semana, quando geralmente não há aula, são:',
     tip: 'Pensa nos dois últimos dias da semana, antes de recomeçar tudo na segunda-feira.',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Se Bernardo precisa escrever um texto na escola, qual objeto ele usará para escrever?',
     tip: 'Pensa em qual objeto serve especificamente para escrever.',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Se Bernardo errou algo escrito a lápis e quer apagar, qual objeto ele deve usar?',
     tip: 'É a mesma palavra e função da questão 8.',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Para medir o comprimento de uma linha no caderno, Bernardo usa uma:',
     tip: 'É o mesmo objeto e função da questão 10.',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Se Bernardo guarda seus materiais escolares para levar para casa, ele os coloca dentro da(o):',
     tip: 'É o mesmo objeto e função da questão 7.',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Qual destes é o primeiro dia da semana escolar, geralmente, em muitos calendários?',
     tip: 'É o mesmo dia da questão 1.',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Se Bernardo quer anotar a lição de casa, ele escreve no seu:',
     tip: 'É o mesmo objeto e função da questão 9.',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Contando os dias da semana a partir de "Monday", o quinto dia é:',
     tip: 'Conta assim: Monday (1), Tuesday (2), Wednesday (3), Thursday (4), ___ (5)?',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Bernardo organiza a agenda da semana e escreve "Monday" no primeiro quadradinho. Que dia da semana ele está representando?',
     tip: 'É o mesmo dia das questões 1 e 18.',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Na mochila de Bernardo tem um objeto usado para escrever com tinta. Como se chama esse objeto em inglês?',
     tip: 'É diferente do lápis — esse objeto usa tinta.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Bernardo esqueceu o material e pede emprestado ao colega: "Can I borrow your ___?" (apontando para o lápis dele). Qual palavra ele usa?',
     tip: 'É o mesmo objeto da questão 6.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Bernardo verifica o calendário e percebe que amanhã é fim de semana. Hoje deve ser:',
     tip: 'Pensa em qual dia vem logo antes do fim de semana (Saturday e Sunday).',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'No estojo de Bernardo tem um objeto para apagar erros feitos a lápis. Como se chama esse objeto em inglês?',
     tip: 'É o mesmo objeto das questões 8 e 15.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Bernardo escreve na agenda: "Today is ___." e coloca o nome do dia em que estuda Matemática, que é quarta-feira. Qual palavra ele escreve?',
     tip: 'É o mesmo dia da questão 4.',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Bernardo organiza seus materiais escolares em cima da mesa: livro, caderno, régua e lápis. Como se diz "régua" em inglês?',
     tip: 'É o mesmo objeto das questões 10 e 16.',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Na atividade de matemática, Bernardo usa a régua para traçar uma linha reta. Depois, ele guarda tudo dentro da mochila. Como se diz "mochila" em inglês?',
     tip: 'É o mesmo objeto das questões 7 e 17.',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Bernardo organiza os dias da semana em ordem, do primeiro ao último. Ele começa com "Monday" e termina com:',
     tip: 'Pensa em qual dia fecha o ciclo da semana, antes de recomeçar na segunda-feira.',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Ao final da atividade, Bernardo resume o que aprendeu: os dias da semana e os objetos da sala de aula, em inglês. Isso mostra que ele já sabe:',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre dias da semana e objetos escolares.',

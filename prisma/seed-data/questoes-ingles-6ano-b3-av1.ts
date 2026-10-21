@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Como se diz "maçã" em inglês?',
     tip: 'É uma fruta redonda, que pode ser vermelha ou verde, muito usada em provérbios como "uma por dia mantém o médico longe"!',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: '"Bread" significa:',
     tip: 'Pensa no alimento que costuma ser comido no café da manhã, geralmente com manteiga.',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Como se diz "leite" em inglês?',
     tip: 'Pensa na bebida branca que costuma vir de vacas.',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: '"Rice" significa:',
     tip: 'Pensa no alimento branquinho, feito de grãos, muito comum no almoço brasileiro.',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Como se diz "água" em inglês?',
     tip: 'Pensa na bebida mais importante para matar a sede, sem cor nem sabor.',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: '"Egg" significa:',
     tip: 'Pensa no alimento que vem de galinhas e é muito usado no café da manhã.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Como se diz "suco" em inglês?',
     tip: 'Pensa na bebida feita espremendo frutas como laranja ou uva.',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: '"Cheese" significa:',
     tip: 'Pensa no alimento feito a partir do leite, muito usado em pães e lanches.',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Usamos "There is" para falar de:',
     tip: 'Pensa em "is", que também aparece em frases no singular, como "he is" ou "she is".',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Usamos "There are" para falar de:',
     tip: 'Pensa em "are", que também aparece com "we are" e "they are" — sempre no plural.',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ an apple on the table." (Há uma maçã na mesa)',
     tip: 'Pensa se "an apple" é uma coisa só ou várias — volta na questão 9.',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ three eggs in the fridge." (Há três ovos na geladeira)',
     tip: 'Pensa se "three eggs" é uma coisa só ou várias — volta na questão 10.',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Se na mesa tem apenas um copo de suco, a frase correta é:',
     tip: 'Pensa em quantos copos de suco tem na mesa: um só, ou vários?',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Se na cesta tem várias bananas, a frase correta é:',
     tip: 'Como são várias bananas, tanto o verbo quanto a palavra "banana" precisam estar no plural.',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ bread on the table." (Há pão na mesa)',
     tip: '"Bread" geralmente é tratado como uma coisa só (incontável), por isso usamos a forma do singular.',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Se Bernardo quer pedir água no almoço, ele pode dizer:',
     tip: 'Pensa em qual dessas opções é a bebida sem cor e sem sabor.',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ two cups of milk." (Há duas xícaras de leite)',
     tip: 'Pensa se "two cups" é uma coisa só ou mais de uma.',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Qual destes alimentos é uma fonte comum de café da manhã, junto com o pão e o leite?',
     tip: 'As outras opções são objetos escolares, não alimentos — pensa em qual é comida.',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ a lot of rice in this dish." (Há muito arroz neste prato)',
     tip: '"Rice" também é uma palavra incontável, como "bread" — volta na questão 15.',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Se na cozinha há vários queijos diferentes, a frase correta é:',
     tip: 'Como são vários tipos de queijo (plural), o verbo também deve ficar no plural.',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Bernardo olha para a mesa do café da manhã e vê apenas um copo de leite. Ele diz: "There ___ one glass of milk." Qual palavra ele usa?',
     tip: 'É a mesma regra da questão 11 e 13 — um copo só é singular.',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Na lancheira de Bernardo tem três maçãs. Ele diz para o colega: "There ___ three apples." Qual palavra ele usa?',
     tip: 'Três maçãs é mais de uma coisa — pensa no plural.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Bernardo aponta para a geladeira e diz que tem ovos lá dentro. Como ele diz "ovos" em inglês?',
     tip: 'Como são vários ovos, a palavra "egg" precisa ir para o plural.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'No almoço da escola, Bernardo pede arroz e feijão. Como se diz "arroz" em inglês?',
     tip: 'É a mesma palavra das questões 4 e 19.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Bernardo está com sede e pede: "Can I have some ___, please?" (apontando para a água). Qual palavra ele usa?',
     tip: 'É a mesma palavra da questão 5.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Ao montar sua lancheira, Bernardo coloca um pão, um suco e uma maçã. Como se diz "pão" em inglês?',
     tip: 'É a mesma palavra da questão 2.',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Bernardo descreve a mesa da cozinha: "There is juice and there ___ two apples." Qual palavra completa a frase corretamente?',
     tip: '"Two apples" é mais de uma coisa — pensa no plural.',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Na aula de inglês, Bernardo aprende a diferença entre "there is" e "there are". Ele explica ao colega que usamos "there is" para:',
     tip: 'É a mesma explicação da questão 9.',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Bernardo organiza frases sobre sua geladeira: "There is milk. There is cheese. There ___ eggs." Qual palavra completa corretamente?',
     tip: '"Eggs" está no plural, então precisa do verbo no plural também.',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Para fechar a atividade, Bernardo resume o que aprendeu sobre alimentos e as expressões "there is" e "there are". Isso mostra que ele já sabe:',
     tip: 'Pensa em tudo que você praticou neste simulado, sobre comidas, bebidas e quantidades.',
