@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Jogos e brincadeiras populares são atividades que:',
     tip: 'Pensa em brincadeiras que seus avós ou pais já brincavam quando eram crianças.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'A brincadeira de "pega-pega" é um exemplo de jogo que desenvolve principalmente:',
     tip: 'Pensa em como você precisa correr rápido e mudar de direção para não ser pego.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Na brincadeira de "amarelinha", os participantes precisam pular em quadrados numerados, desenvolvendo principalmente:',
     tip: 'Pensa em como você precisa se equilibrar em um pé só para pular nos quadrados certos.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'O jogo de "cabo de guerra" é uma atividade que exige principalmente:',
     tip: 'Pensa em como as equipes puxam a corda juntas, com força, para tentar vencer.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Brincadeiras como "corda" (pular corda) ajudam a desenvolver principalmente:',
     tip: 'Pensa em como você precisa coordenar os pulos com o movimento da corda, repetindo várias vezes.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'O jogo de "queimada" é uma brincadeira que envolve:',
     tip: 'Pensa em como os jogadores tentam acertar os adversários com a bola, enquanto tentam se esquivar.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Jogos e brincadeiras tradicionais, como "morto-vivo" e "estátua", ajudam a desenvolver:',
     tip: 'Pensa em como você precisa reagir rapidamente a um comando e depois congelar o corpo.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que é importante seguir regras durante os jogos e brincadeiras?',
     tip: 'Pensa em como seria uma brincadeira sem nenhuma regra, com todo mundo fazendo o que quiser.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Brincadeiras como "pular corda" e "amarelinha" são exemplos de jogos que podem ser praticados:',
     tip: 'Pensa no que você realmente precisa para brincar de amarelinha: só um giz e o chão!',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Qual é uma das principais funções dos jogos e brincadeiras na infância e na escola?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre os benefícios dos jogos e brincadeiras.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Se um grupo de crianças está brincando de pega-pega no recreio, quais capacidades físicas estão sendo mais exercitadas?',
     tip: 'É a mesma capacidade da questão 2.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Ao jogar cabo de guerra, uma equipe percebe que precisa se organizar e puxar a corda ao mesmo tempo. Isso mostra a importância de qual habilidade, além da força física?',
     tip: 'Pensa em como a equipe precisa agir junto, ao mesmo tempo, para conseguir puxar a corda com sucesso.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Durante uma partida de queimada, um jogador precisa se esquivar rapidamente da bola. Isso exercita principalmente:',
     tip: 'Pensa em como o jogador precisa reagir rápido para não ser atingido pela bola.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Por que os jogos e brincadeiras populares são considerados parte da cultura de um povo?',
     tip: 'Volta na questão 1 sobre a relação entre brincadeiras e cultura.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Se uma criança pratica amarelinha regularmente, isso pode ajudar a desenvolver, com o tempo:',
     tip: 'É a mesma capacidade da questão 3.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual é a importância de brincadeiras como "estátua" e "morto-vivo" para o desenvolvimento infantil?',
     tip: 'É a mesma ideia da questão 7.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Se dois grupos de amigos decidem inventar as próprias regras para uma brincadeira, isso mostra que os jogos populares também podem ser:',
     tip: 'Pensa em como as brincadeiras mudam um pouco de um lugar para outro, ou de um grupo para outro.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Por que brincadeiras que usam poucos materiais, como pega-pega e amarelinha, são tão populares em diferentes lugares do mundo?',
     tip: 'É a mesma ideia da questão 9.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Se uma escola organiza um dia de brincadeiras tradicionais, além da diversão, os alunos também estão:',
     tip: 'Pensa em tudo que você aprendeu sobre os benefícios dos jogos e brincadeiras neste simulado.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que é importante respeitar as regras durante uma brincadeira como a queimada?',
     tip: 'É a mesma ideia da questão 8.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Na aula de Educação Física, Bernardo participa de uma brincadeira de pega-pega. Qual capacidade física ele está exercitando principalmente?',
     tip: 'É a mesma capacidade das questões 2 e 11.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo e seus colegas jogam cabo de guerra, cada equipe puxando a corda com força. Além da força física, o que mais é importante nesse jogo?',
     tip: 'É a mesma habilidade da questão 12.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Durante o recreio, Bernardo brinca de amarelinha, pulando nos quadrados numerados. Que habilidades essa brincadeira ajuda a desenvolver?',
     tip: 'É a mesma habilidade das questões 3 e 15.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo participa de uma partida de queimada e precisa se esquivar rapidamente da bola. Isso exercita principalmente:',
     tip: 'É a mesma habilidade da questão 13.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo brinca de pular corda no intervalo, contando quantas vezes consegue pular sem errar. Que capacidades físicas essa brincadeira exercita?',
     tip: 'É a mesma capacidade da questão 5.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo e os colegas inventam novas regras para uma brincadeira de pega-pega, adaptando-a para a turma. Isso mostra que os jogos populares podem ser:',
     tip: 'É a mesma conclusão da questão 17.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo participa de uma brincadeira de estátua, precisando congelar o corpo ao sinal do colega. Isso ajuda a desenvolver:',
     tip: 'É a mesma habilidade das questões 7 e 16.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Na aula, o professor explica por que é importante seguir as regras durante os jogos. Qual é a explicação correta?',
     tip: 'É a mesma explicação das questões 8 e 20.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo percebe que consegue brincar de amarelinha e pega-pega mesmo sem nenhum material caro, usando apenas o chão do pátio. Isso mostra que essas brincadeiras são:',
     tip: 'É a mesma conclusão das questões 9 e 18.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Para fechar a aula, o professor resume: "Os jogos e brincadeiras populares são importantes porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre os benefícios dos jogos e brincadeiras.',

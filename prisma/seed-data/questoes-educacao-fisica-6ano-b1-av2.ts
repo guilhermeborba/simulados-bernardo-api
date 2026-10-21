@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'A capacidade física relacionada à quantidade de peso ou resistência que um músculo consegue vencer é chamada de:',
     tip: 'Pensa em levantar um objeto pesado — qual capacidade física você está usando?',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'A capacidade de manter uma atividade física por um longo período de tempo, sem cansar rapidamente, é chamada de:',
     tip: 'Pensa em uma corrida longa, como uma maratona — o que é preciso ter para completá-la?',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'A capacidade de se movimentar rapidamente de um ponto a outro é chamada de:',
     tip: 'Pensa em um corredor disparando na largada de uma prova curta.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'A capacidade de realizar movimentos amplos nas articulações, como se curvar ou alongar, é chamada de:',
     tip: 'Pensa em alguém tocando os pés sem dobrar os joelhos, ou fazendo um alongamento.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Antes de praticar qualquer atividade física intensa, é recomendado fazer:',
     tip: 'Pensa na etapa que prepara o corpo antes de qualquer exercício mais intenso.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'O aquecimento antes do exercício serve principalmente para:',
     tip: 'Pensa em como um carro precisa "esquentar o motor" antes de andar em alta velocidade — o corpo também precisa se preparar.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Alongamentos, geralmente feitos antes ou depois de atividades físicas, ajudam a desenvolver principalmente:',
     tip: 'É a mesma capacidade da questão 4.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Correr uma longa distância sem parar exige principalmente qual capacidade física?',
     tip: 'É a mesma capacidade da questão 2.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Levantar um objeto pesado exige principalmente qual capacidade física?',
     tip: 'É a mesma capacidade da questão 1.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Um corredor de 100 metros rasos precisa principalmente de:',
     tip: 'É a mesma capacidade da questão 3.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Se uma pessoa consegue correr uma maratona inteira sem parar, isso mostra que ela tem bem desenvolvida a capacidade de:',
     tip: 'É a mesma capacidade das questões 2 e 8.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Antes de uma partida de futebol, os jogadores costumam fazer um aquecimento. Por que isso é importante?',
     tip: 'É a mesma explicação da questão 6.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Se um atleta consegue tocar os pés sem dobrar os joelhos, isso mostra que ele tem bem desenvolvida a capacidade de:',
     tip: 'É a mesma capacidade das questões 4 e 7.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Um levantador de peso, que consegue erguer cargas muito pesadas, tem bem desenvolvida principalmente a capacidade de:',
     tip: 'É a mesma capacidade das questões 1 e 9.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Um velocista, que corre distâncias curtas o mais rápido possível, tem bem desenvolvida principalmente a capacidade de:',
     tip: 'É a mesma capacidade das questões 3 e 10.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Por que é importante desenvolver várias capacidades físicas (força, resistência, velocidade, flexibilidade), e não apenas uma?',
     tip: 'Pensa em como um jogador de futebol precisa de velocidade, resistência e até força, tudo ao mesmo tempo.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Se alguém pula direto para um exercício intenso sem se aquecer antes, isso aumenta o risco de:',
     tip: 'Pensa no que pode acontecer quando um músculo "frio" é exigido demais de repente.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Praticar alongamentos regularmente pode ajudar, ao longo do tempo, a:',
     tip: 'É a mesma capacidade que os alongamentos ajudam a desenvolver, estudada na questão 7.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Se dois amigos correm uma distância de 5 km sem parar, ambos estão exercitando principalmente:',
     tip: 'É a mesma capacidade das questões 2, 8 e 11.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que os professores de Educação Física costumam pedir um aquecimento no início das aulas?',
     tip: 'É a mesma explicação das questões 6 e 12.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Antes da aula de Educação Física, o professor pede para a turma fazer alguns exercícios leves de preparação. Como se chama essa etapa?',
     tip: 'É a mesma etapa das questões 5, 6, 12 e 20.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo tenta tocar os dedos dos pés sem dobrar os joelhos, durante um exercício de alongamento. Que capacidade física ele está trabalhando?',
     tip: 'É a mesma capacidade das questões 4, 7 e 13.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Durante uma atividade de corrida contínua por 20 minutos, Bernardo percebe que está desenvolvendo principalmente:',
     tip: 'É a mesma capacidade das questões 2, 8, 11 e 19.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Na aula de Educação Física, Bernardo participa de uma corrida curta e rápida de 50 metros. Que capacidade física está sendo mais exigida?',
     tip: 'É a mesma capacidade das questões 3, 10 e 15.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo tenta levantar um colchonete pesado sozinho durante a aula. Que capacidade física ele está utilizando principalmente?',
     tip: 'É a mesma capacidade das questões 1, 9 e 14.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'O professor explica à turma por que é importante fazer aquecimento antes de qualquer atividade física intensa. Qual é a explicação correta?',
     tip: 'É a mesma explicação das questões 6, 12 e 20.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao professor por que é importante desenvolver várias capacidades físicas diferentes, e não apenas uma. O professor explica que:',
     tip: 'É a mesma explicação da questão 16.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo percebe que, ao praticar alongamentos regularmente, consegue se curvar cada vez mais para tocar os pés. Isso mostra uma melhora em qual capacidade física?',
     tip: 'É a mesma capacidade das questões 4, 7, 13, 18 e 22.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Ao final da aula, Bernardo resume o que aprendeu sobre as capacidades físicas: força, resistência, velocidade e flexibilidade. Isso mostra que ele já entende que o corpo humano pode ser preparado de diferentes formas para diferentes:',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre as diferentes capacidades físicas.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Para fechar a aula, o professor resume: "Conhecer e desenvolver as capacidades físicas é importante porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre a importância das capacidades físicas.',

@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'O que são as lutas quando praticadas como esporte na escola?',
     tip: 'Pensa em um professor ensinando com calma, com regras claras — isso parece uma briga de verdade ou algo bem diferente?',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Nas lutas, o "respeito ao adversário" significa:',
     tip: 'Pensa em como você gostaria de ser tratado se perdesse um jogo — com zombaria ou com respeito?',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre "luta" (esporte) e "briga"?',
     tip: 'Pensa: numa luta esportiva tem árbitro, regras e respeito. Numa briga de verdade, tem isso?',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Qual dessas é considerada uma luta/arte marcial praticada no Brasil e no mundo?',
     tip: 'Pensa em qual dessas opções envolve dois lutadores em um tatame, tentando derrubar um ao outro com técnica.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'No Judô, o que os lutadores costumam usar para se cumprimentar antes e depois da luta?',
     tip: 'Pensa numa saudação feita com uma leve curvada do corpo, bem comum em artes marciais japonesas.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que as lutas praticadas na escola sempre precisam ter a supervisão de um professor?',
     tip: 'Pensa em qualquer atividade física com contato — o que ajuda a evitar acidentes e machucados?',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Qual valor é muito importante aprender ao praticar lutas?',
     tip: 'Pensa: para seguir as regras e respeitar o adversário mesmo perdendo, que qualidade a pessoa precisa ter?',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'O Karatê é uma arte marcial de origem:',
     tip: 'Pensa nos golpes de mão e nos quimonos brancos — de qual país da Ásia vem essa tradição famosa?',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Quando alguém perde uma luta esportiva com respeito e educação, dizemos que essa pessoa teve:',
     tip: 'Pensa na palavra em inglês "fair play" — o que ela quer dizer sobre jogar (ou lutar) de forma justa e educada?',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Antes de praticar qualquer luta, é fundamental:',
     tip: 'Lembra de outras atividades físicas que estudamos — o que sempre vem antes de qualquer esforço físico?',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'A Capoeira é uma luta/arte que nasceu:',
     tip: 'Pensa no berimbau, na ginga e no português cantado nas músicas — de qual país e cultura vem tudo isso?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O instrumento musical mais característico da Capoeira, que marca o ritmo, é:',
     tip: 'Pensa num instrumento feito de um arco de madeira, uma cabaça e um fio de arame — ele é o "maestro" da roda.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O espaço onde os capoeiristas jogam capoeira é chamado de:',
     tip: 'Pensa no formato que as pessoas fazem ao redor dos dois capoeiristas, cantando e tocando instrumentos.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O movimento de balanço, feito com o corpo de um lado para o outro na Capoeira, é chamado de:',
     tip: 'Pensa no movimento base que todo capoeirista faz o tempo todo, tipo um balanço constante, antes de qualquer outro golpe.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Na Capoeira, dizemos que os praticantes "jogam" capoeira, ao invés de "lutam". Isso mostra que a Capoeira mistura luta com:',
     tip: 'Pensa em tudo que acontece numa roda: berimbau tocando, gente cantando, movimentos que parecem dança — é só luta mesmo?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Além do berimbau, qual outro instrumento é comum na roda de capoeira?',
     tip: 'Pensa num instrumento de percussão pequeno e redondo, muito usado também no samba.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'A Capoeira foi criada, muitos anos atrás, principalmente por:',
     tip: 'Pensa na origem africana que já vimos na música e nos movimentos da capoeira — quem trouxe essa cultura para o Brasil?',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Na roda de capoeira, enquanto dois jogam, os outros participantes geralmente:',
     tip: 'Pensa na energia de uma roda de capoeira — todo mundo fica parado e calado, ou participa cantando e tocando junto?',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Hoje em dia, a Capoeira é reconhecida como:',
     tip: 'Pensa em como algo tão importante para a cultura brasileira seria reconhecido oficialmente pelo governo.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual dessas capacidades físicas é bastante trabalhada na Capoeira?',
     tip: 'Pensa nos movimentos de ginga, chutes altos e esquivas — que qualidades do corpo eles exigem ao mesmo tempo?',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Bernardo foi assistir a uma roda de capoeira pela primeira vez e ficou curioso com o instrumento que marcava o ritmo. Qual instrumento era esse?',
     tip: 'Lembra da Questão 12 — qual é o instrumento mais característico e principal da capoeira?',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Na roda, Bernardo viu dois capoeiristas se cumprimentando com respeito antes de começar a jogar. Isso mostra a importância de qual valor nas lutas?',
     tip: 'Lembra da Questão 2 — qual valor é sempre importante nas lutas, mesmo durante a competição?',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Bernardo experimentou fazer o movimento de balanço do corpo, de um lado para o outro, que é a base da Capoeira. Como se chama esse movimento?',
     tip: 'Lembra da Questão 14 — esse movimento de balanço constante tem um nome bem específico na capoeira.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O instrutor explicou para Bernardo que a Capoeira mistura três coisas ao mesmo tempo. Quais são elas?',
     tip: 'Lembra da Questão 15 — o que faz da capoeira uma atividade tão diferente das outras lutas?',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que os outros participantes da roda cantavam e batiam palmas enquanto dois jogavam capoeira. O instrutor explicou que isso é parte da:',
     tip: 'Lembra da Questão 18 — o que os outros participantes costumam fazer enquanto dois jogam na roda?',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Depois, Bernardo experimentou uma aula de Judô e aprendeu a fazer uma reverência antes de lutar. O que essa reverência representa?',
     tip: 'Lembra da Questão 5 — o que essa saudação japonesa representa entre os lutadores?',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Na aula de Judô, o professor deixou bem claro que ninguém deveria lutar sem supervisão. Por que essa regra é tão importante?',
     tip: 'Lembra da Questão 6 — para que serve a supervisão de um professor durante as lutas?',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, mesmo perdendo um combate de brincadeira, o colega dele parabenizou o vencedor com um aperto de mão. Isso é um exemplo de:',
     tip: 'Lembra da Questão 9 — como chamamos a atitude de aceitar a derrota com respeito e educação?',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Ao final do dia, Bernardo contou para o pai que aprendeu que luta não é sinônimo de briga. O que ele quis dizer com isso?',
     tip: 'Lembra da Questão 3 — qual é a diferença principal entre luta esportiva e briga?',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Bernardo decidiu que, na próxima aula de Educação Física, quer experimentar mais uma vez a Capoeira. O que ele espera aprender além dos movimentos?',
     tip: 'Lembra de tudo que Bernardo descobriu na roda — só teve movimento, ou também música, canto e história?',
