@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O que é "densidade demográfica"?',
     tip: 'Pense em quantas pessoas vivem, em média, em cada pedacinho de terra (como 1 km²).',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Como está distribuída a população brasileira pelo território, de forma geral?',
     tip: 'Pense em como as grandes cidades brasileiras, como Rio de Janeiro e Salvador, ficam perto do mar.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Qual é o nome do órgão brasileiro responsável por fazer o Censo e contar a população do país?',
     tip: 'Pense na sigla de três letras que aparece quando se fala em dados sobre a população do Brasil.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Como se chama o processo de as pessoas saírem do campo para morar nas cidades?',
     tip: 'Pense em uma "saída em massa" do campo, em direção às cidades.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Hoje, a maior parte da população brasileira vive em áreas:',
     tip: 'Pense em onde moram a maioria das pessoas que você conhece: no campo ou na cidade?',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Qual região do Brasil é a mais populosa, concentrando o maior número de habitantes?',
     tip: 'Pense na região onde ficam São Paulo e Rio de Janeiro.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Qual região do Brasil tem, em geral, a menor densidade demográfica, apesar de ser uma das maiores em área?',
     tip: 'Pense na região onde fica a Floresta Amazônica, com grandes áreas pouco habitadas.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O que pode explicar por que uma grande cidade tem uma densidade demográfica muito alta?',
     tip: 'Pense em como um prédio de apartamentos pode ter muita gente morando em um espaço pequeno.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Por que muitas pessoas migraram do campo para as cidades nas últimas décadas?',
     tip: 'Pense nas oportunidades que muitas pessoas buscam ao se mudar para uma cidade maior.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Por que é importante conhecer a distribuição da população em um país?',
     tip: 'Pense em como saber onde as pessoas moram ajuda o governo a planejar melhor os serviços que elas precisam.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O que significa dizer que a população brasileira está "envelhecendo", em termos demográficos?',
     tip: 'Pense em como a proporção de pessoas mais velhas pode crescer com o tempo.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O que é "expectativa de vida"?',
     tip: 'Pense em uma "previsão" de quantos anos, em média, as pessoas costumam viver em um lugar.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Qual desses fatores pode influenciar o crescimento populacional de um país?',
     tip: 'Pense em quem "entra" (nascimentos e imigração) e quem "sai" (mortes e emigração) de uma população.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'O que é migração?',
     tip: 'Pense em pessoas se mudando de um lugar para viver em outro.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'O que é "emigração"?',
     tip: 'Pense no prefixo "e" de "emigrar", que lembra a ideia de "sair".',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'O que é "imigração"?',
     tip: 'Pense no prefixo "i" de "imigrar", que lembra a ideia de "entrar".',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Por que grandes cidades costumam enfrentar desafios como trânsito intenso e moradias precárias?',
     tip: 'Pense em como muita gente morando perto pode gerar desafios de planejamento urbano.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Qual é a relação entre o crescimento das cidades e o êxodo rural?',
     tip: 'Pense em como a saída de pessoas do campo ajudou a aumentar a população das cidades.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O que uma pirâmide etária mostra sobre a população de um país?',
     tip: 'Pense em um gráfico que mostra quantas pessoas existem em cada faixa de idade.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Por que estudar a população de um país é importante para o planejamento do futuro?',
     tip: 'Pense em como saber quantas crianças ou idosos existem ajuda a planejar escolas e hospitais.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Na viagem de férias, Bernardo notou que a cidade litorânea onde estava hospedado tinha muito mais gente e prédios do que a pequena cidade do interior onde moravam os avós. Isso mostra que a população brasileira está:',
     tip: 'Pense em como grandes cidades costumam ficar perto do mar no Brasil.',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'O avô de Bernardo contou que, quando era jovem, morava no campo, mas se mudou para a cidade em busca de trabalho e melhores escolas. Esse tipo de movimento é chamado de:',
     tip: 'Pense na saída de pessoas do campo em direção às cidades.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Na escola, a professora mostrou um mapa com "manchas" mais escuras (mais gente) perto do litoral e mais claras (menos gente) na Amazônia. Esse mapa mostrava a:',
     tip: 'Pense no que um mapa de "mais gente" e "menos gente" representa.',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que sua bisavó havia vindo de outro país para morar no Brasil, décadas atrás. Esse tipo de movimento, de entrada de pessoas vindas de fora, é chamado de:',
     tip: 'Pense no prefixo "i" de "imigrar", lembrando a ideia de "entrar" em um novo país.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Na feira de ciências, Bernardo apresentou um gráfico mostrando quantas pessoas de cada idade existiam em sua cidade, separadas entre homens e mulheres. Esse tipo de gráfico é chamado de:',
     tip: 'Pense no gráfico que mostra a população dividida por faixas de idade.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Bernardo comparou dois bairros de sua cidade: um pequeno, mas com muitos prédios e moradores, e outro bem maior em área, mas com poucas casas. O bairro pequeno e cheio de gente tem uma densidade demográfica:',
     tip: 'Pense em como muita gente num espaço pequeno aumenta a densidade demográfica.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Ao pesquisar sobre a região Norte do Brasil, Bernardo descobriu que, apesar de ser a maior região em área, ela tem relativamente poucos habitantes por km². Isso mostra que essa região tem:',
     tip: 'Pense em como uma área muito grande com poucos habitantes resulta em uma densidade baixa.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Bernardo ajudou a mãe a preencher um formulário do Censo, respondendo perguntas sobre quantas pessoas moravam em casa. Ele aprendeu que essas informações são coletadas por um órgão chamado:',
     tip: 'Pense na sigla que aparece sempre que se fala sobre dados da população brasileira.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Na aula de Geografia, a professora perguntou por que era importante saber onde a população de um país está concentrada. Bernardo respondeu corretamente que isso ajuda a:',
     tip: 'Pense em como saber onde as pessoas moram ajuda o governo a planejar serviços.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora perguntou a Bernardo o que ele aprendeu sobre a população brasileira. Ele respondeu corretamente que:',
     tip: 'Pense em tudo que aprendemos sobre onde vivem a maioria dos brasileiros.',

@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Quantos são os pontos cardeais principais?',
     tip: 'Pense nas quatro direções principais que aparecem na bússola: N, S, L, O.',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Qual instrumento usamos para descobrir as direções, mesmo sem ver o Sol?',
     tip: 'Esse instrumento tem uma agulha que sempre aponta para o mesmo lugar do planeta.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Para onde a agulha da bússola sempre aponta?',
     tip: 'Lembra o nome do instrumento? Ele "bus-sola" o... Norte!',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Em qual direção o Sol nasce?',
     tip: 'Pense no nome "Extremo Oriente" — "oriente" tem a ver com o nascer do Sol.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Em qual direção o Sol se põe?',
     tip: 'Se o Sol nasce de um lado, ele se põe bem do lado oposto!',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Como se chama o desenho circular que mostra todas as direções, usado em mapas e bússolas?',
     tip: 'Tem "rosa" no nome, mas não é uma flor — pense no desenho com pontas para todos os lados!',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Quais são os pontos colaterais (entre os principais)?',
     tip: 'Pense em juntar dois pontos cardeais vizinhos, tipo Norte + Leste.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Em um mapa comum, para qual direção geralmente aponta a parte de cima da folha?',
     tip: 'É a mesma direção para onde aponta a agulha da bússola.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Qual é o principal objetivo de se orientar usando os pontos cardeais?',
     tip: 'Pense em quando você está perdido e precisa saber para onde ir.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Qual estrela ajudava os navegadores antigos a encontrar o Norte durante a noite?',
     tip: 'É uma estrela que fica quase parada no céu, sempre apontando para o Norte.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Qual é o nome do risco imaginário que divide a Terra em Hemisfério Norte e Hemisfério Sul?',
     tip: 'Pense numa linha bem no "meio" do globo, dividindo-o de cima a baixo.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'O que uma bússola tem dentro dela que reage ao magnetismo da Terra?',
     tip: 'É a parte que gira e sempre aponta para o mesmo lugar.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'O que é a "legenda" de um mapa?',
     tip: 'Pense em quando você vê um símbolo esquisito no mapa e precisa descobrir o que ele significa.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'Para que serve a escala de um mapa?',
     tip: 'Pense em como um mapa do Brasil cabe numa folha de papel, mesmo o Brasil sendo enorme de verdade.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'Como se chama o modelo em formato de esfera que representa a Terra?',
     tip: 'É redondo, igual ao nosso planeta de verdade — diferente do mapa, que é achatado.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'Um desenho simples e rápido de um lugar, feito à mão, sem muitos detalhes, é chamado de:',
     tip: 'É tipo um "rascunho" de mapa, feito rapidinho para explicar um caminho.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'O que é um "atlas"?',
     tip: 'Pense numa "coleção" de mapas, tudo junto em um só lugar.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Quando não há Sol nem bússola, uma forma de se orientar durante o dia é observando:',
     tip: 'Pense em como a sombra de uma árvore muda de posição ao longo do dia, seguindo o Sol.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'O GPS do celular usa sinais de satélites para:',
     tip: 'Pense em quando você usa o mapa do celular para saber "onde você está" bem certinho.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'Uma planta baixa é um tipo de representação usada principalmente para mostrar:',
     tip: 'Pense num desenho "de cima", mostrando onde fica cada cômodo da sua casa.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Bernardo estava fazendo uma trilha com o pai e usou uma bússola para descobrir para onde ir. A agulha apontou para um lado. Que direção era essa?',
     tip: 'Lembra para onde a agulha da bússola sempre aponta?',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Na escola, a professora pediu para Bernardo desenhar a rosa dos ventos no caderno. Quantas direções principais ele precisou desenhar?',
     tip: 'São as mesmas quatro direções que aparecem na bússola.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Bernardo reparou que, de manhã bem cedo, o Sol aparecia sempre do mesmo lado do quintal de casa. Esse lado era o:',
     tip: 'É a mesma direção por onde o Sol sempre nasce.',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'No mapa do livro de Geografia, Bernardo viu um quadradinho com símbolos e explicações no canto da página. Isso era:',
     tip: 'É a parte do mapa que explica o que cada símbolo significa.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Bernardo estava com o celular sem internet, mas o aplicativo de mapa ainda mostrava sua localização certinha. Isso acontece porque o celular usa:',
     tip: 'São sinais que vêm do espaço, de aparelhos que giram ao redor da Terra.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'Bernardo e a irmã estavam brincando de desenhar o caminho de casa até a padaria, sem se preocupar com detalhes exatos. Esse desenho simples é chamado de:',
     tip: 'É um desenho rápido e simples, feito só para explicar um caminho.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Durante um passeio, Bernardo notou que sua sombra ficava bem curtinha por volta do meio-dia. Isso acontece porque, nesse horário, o Sol está:',
     tip: 'Pense em como a sombra muda de tamanho dependendo da altura do Sol no céu.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Bernardo estava olhando um globo terrestre na sala de aula e a professora apontou uma linha imaginária bem no meio, dividindo o Norte e o Sul do planeta. Essa linha é:',
     tip: 'É a mesma linha que dá nome a um país da América do Sul!',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'No livro de Geografia, Bernardo viu um mapa com uma régua desenhada dizendo "1 cm = 100 km". Isso é a:',
     tip: 'Pense na parte do mapa que ajuda a calcular distâncias reais.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Ao final da aula, a professora pediu para os alunos citarem os 4 pontos cardeais na ordem certa, começando pelo Norte. Bernardo respondeu corretamente:',
     tip: 'Lembra a ordem clássica: começa no N, vai para o lado oposto (S), depois L e O.',

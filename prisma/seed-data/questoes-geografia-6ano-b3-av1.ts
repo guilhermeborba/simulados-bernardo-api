@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre "tempo atmosférico" e "clima"?',
     tip: 'Pense em como você fala "hoje está chovendo" (tempo) mas "aqui é sempre quente" (clima).',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual desses é um elemento do clima?',
     tip: 'Pense em algo que você sente na pele, tipo "está quente" ou "está frio".',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que é "precipitação", em termos de clima?',
     tip: 'Pense em água caindo do céu, de diferentes formas.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que é "umidade do ar"?',
     tip: 'Pense em como o ar pode estar mais "molhado" ou mais "seco" dependendo do lugar.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que causa o vento?',
     tip: 'Pense em como o ar se movimenta de um lugar de "mais pressão" para um de "menos pressão".',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual fator geográfico influencia bastante o clima de um lugar, relacionado à distância da Linha do Equador?',
     tip: 'Pense em como lugares mais perto do Equador costumam ser mais quentes.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Como a altitude (altura em relação ao nível do mar) influencia o clima de um lugar?',
     tip: 'Pense em como o topo de uma montanha costuma ser mais frio do que a base.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Como a proximidade do mar costuma influenciar o clima de uma região?',
     tip: 'Pense em como cidades litorâneas costumam ter um clima mais equilibrado, nem tão quente nem tão frio.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que são "massas de ar"?',
     tip: 'Pense em um grande "bloco" de ar que se move e pode trazer frio, calor, seca ou chuva para uma região.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que é importante entender o clima de uma região?',
     tip: 'Pense em como agricultores e prefeituras usam informações do clima para se planejar.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual tipo climático predomina na região Norte do Brasil, marcado por altas temperaturas e chuvas abundantes o ano todo?',
     tip: 'Pense no clima da região onde fica a Floresta Amazônica.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual tipo climático é característico da região Sul do Brasil, com verões e invernos mais bem definidos, podendo até gear?',
     tip: 'Pense na região do Brasil onde o frio no inverno é mais intenso.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual tipo climático é predominante em boa parte do Centro-Sul e Sudeste do Brasil, com verão chuvoso e inverno mais seco?',
     tip: 'Pense no clima mais comum em grande parte do território brasileiro.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual tipo climático é característico do interior do Nordeste, marcado por pouca chuva e longos períodos de seca?',
     tip: 'Pense na região conhecida pelo "Sertão", com paisagens secas boa parte do ano.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual tipo climático ocorre em áreas mais elevadas, como em partes de Minas Gerais e São Paulo, deixando as temperaturas mais amenas mesmo perto do Equador?',
     tip: 'Pense em como a altitude deixa um lugar mais fresco, mesmo estando numa área tropical.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual região do Brasil é mais associada ao clima semiárido, sofrendo com longos períodos de seca?',
     tip: 'Pense na região onde fica o Sertão, famoso pela seca.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que a Região Norte do Brasil tem chuvas tão frequentes durante praticamente o ano todo?',
     tip: 'Pense na localização dessa região em relação à linha imaginária que passa pelo meio da Terra.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que pode acontecer durante um longo período de seca em uma região de clima semiárido?',
     tip: 'Pense em como a falta de chuva prolongada afeta diretamente quem mora e planta naquela região.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que caracteriza principalmente o clima subtropical, presente no Sul do Brasil?',
     tip: 'Pense em como o Sul do Brasil tem um inverno mais "de verdade", às vezes até com geada.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual é a importância de conhecer os diferentes tipos climáticos do Brasil?',
     tip: 'Pense em como o clima influencia desde as plantações até o tipo de roupa que as pessoas usam em cada lugar.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo estava assistindo à previsão do tempo e ouviu o apresentador falar sobre "o clima da região Norte, marcado por altas temperaturas e chuvas o ano todo". Ele estava se referindo ao clima:',
     tip: 'Pense no clima da região onde fica a Floresta Amazônica.',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Na viagem para visitar os avós no Sul do Brasil, durante o inverno, Bernardo sentiu um frio bem mais intenso do que o normal em sua cidade. Isso acontece porque a região Sul tem clima:',
     tip: 'Pense no clima com estações bem definidas, especialmente um inverno mais frio.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo foi passar as férias em uma cidade de montanha, em Minas Gerais, e ficou surpreso com o clima fresco, mesmo sendo verão. A professora explicou que isso acontecia por causa do clima:',
     tip: 'Pense em como a altura de uma cidade pode deixar o clima mais ameno.',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'No noticiário, Bernardo viu uma reportagem sobre famílias do interior do Nordeste enfrentando um longo período sem chuva. Esse tipo de clima, com secas frequentes, é chamado de:',
     tip: 'Pense na região do Sertão, conhecida por sua vegetação seca e clima quente.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo reparou que, na sua cidade, no Sudeste, o verão era bem chuvoso, mas o inverno era mais seco, sem chuvas frequentes. Esse padrão é típico do clima:',
     tip: 'Pense no clima mais comum em grande parte do território brasileiro.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Durante uma aula, a professora explicou que o vento acontece por causa da diferença de pressão do ar entre dois lugares. Bernardo então entendeu que o vento é resultado de:',
     tip: 'Lembra por que o ar se movimenta de um lugar para o outro?',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo notou que, mesmo no verão, o ar do litoral parecia mais ameno do que o ar de uma cidade bem no interior, mais distante do mar. Isso acontece principalmente por causa:',
     tip: 'Pense em como o mar ajuda a "suavizar" as temperaturas dos lugares por perto.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'No projeto de ciências, Bernardo entrevistou um agricultor que disse: "Preciso conhecer bem o clima da minha região para saber a melhor época de plantar." Isso mostra como o conhecimento sobre clima é importante para:',
     tip: 'Pense em como o agricultor usa as informações do clima para decidir quando plantar.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo ficou curioso ao saber que uma "massa de ar" fria havia chegado à sua região, derrubando bastante a temperatura de um dia para o outro. Isso mostra que uma massa de ar é:',
     tip: 'Pense em um grande "bloco" de ar que se move e pode trazer frio ou calor para uma região.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora perguntou a Bernardo o que ele havia aprendido sobre os diferentes climas do Brasil. Ele respondeu corretamente que:',
     tip: 'Pense em tudo o que vimos sobre os diferentes climas ao longo deste simulado.',

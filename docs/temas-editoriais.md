@@ -790,3 +790,38 @@ Os nomes **Mesopotâmia**, **Egito Antigo**, **Grécia Antiga** e **Roma Antiga*
 A quantidade de temas acompanha o conteúdo: B1/AV1 e B2/AV1 têm cinco; B1/AV2 e B3/AV1, quatro; B2/AV2, sete; B3/AV2, cinco; B4/AV1, seis; B4/AV2 revisa dez. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura dos simulados.
 
 A definição anterior de cidadania ateniense em B3/AV1, IDs 4 e 24, que associa os direitos políticos a homens livres nascidos na cidade sem delimitar ascendência, idade e período histórico, foi registrada na [issue web #99](https://github.com/guilhermeborba/simulados-bernardo/issues/99), com fonte primária para revisão separada. As alternativas e explicações foram preservadas no lote de temas.
+
+### Geografia — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Biomas | Características, vegetação, fauna, biodiversidade, clima, localização e funções ambientais dos biomas brasileiros. |
+| Campo e cidade | Características dos espaços rural e urbano e atividades que os distinguem. |
+| Clima e cotidiano | Tempo e clima, elementos e fatores climáticos, massas de ar, tipos climáticos do Brasil e relações com a vegetação, a agricultura e o cotidiano. |
+| Fontes de energia | Aproveitamento da força da água e identificação de usinas na geração de energia elétrica. |
+| Geografia do Brasil | Sínteses do estudo de relevo, clima, vegetação, rios e população e das relações entre esses conteúdos. |
+| Hidrografia | Rios, nascentes, foz, afluentes, margens, leito, bacias, cheias, secas, abastecimento e usos da água. |
+| Migração | Deslocamentos internos e internacionais, êxodo rural, imigração, emigração e relações com o crescimento urbano. |
+| Organização das cidades | Concentração urbana, trânsito, moradias e desafios de infraestrutura das grandes cidades. |
+| Orientação e localização | Pontos cardeais e colaterais, rosa dos ventos, bússola, Sol, sombras, estrelas, hemisférios e GPS. |
+| Paisagens | Elementos naturais e humanos, paisagens naturais e transformadas e mudanças por fenômenos naturais ou ação humana. |
+| População brasileira | Densidade, quantidade e distribuição da população, Censo, IBGE, idade, expectativa de vida, crescimento e planejamento de serviços. |
+| Preservação ambiental | Proteção dos rios e biomas, matas ciliares, poluição, desmatamento, queimadas, economia de água e consumo consciente. |
+| Relevo | Formas do terreno, agentes internos e externos, unidades brasileiras, erosão, mudanças e relações com ocupação, plantio, obras e riscos. |
+| Representações cartográficas | Mapas, globos, croquis, atlas, plantas, legendas, escalas e seus usos. |
+| Solo | Camada superficial da terra e sua relação com o crescimento das plantas. |
+| Transportes e circulação | Uso dos rios para deslocamento de pessoas e mercadorias. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-geografia-6ano-b*-av*.ts`. Não há entradas privadas adicionais desse ano/disciplina no seed. Todos compartilham este vocabulário de 16 temas. Os nomes dos anos anteriores são reaproveitados; **Biomas** e **Fontes de energia** mantêm os nomes de Ciências do 5º ano, e **Solo**, o de Ciências do 6º, para conteúdos correspondentes.
+
+A classificação segue o objetivo de cada questão. **Orientação e localização** reúne direções e instrumentos, sem usar como rótulo a direção, o instrumento ou a linha imaginária que pode ser a resposta. **Representações cartográficas** agrupa elementos e modelos de representação, sem antecipar legenda, escala, globo, croqui, atlas ou planta. **Paisagens** cobre a distinção entre elementos e transformações; as características específicas de rural e urbano em B1/AV2, IDs 11 e 12, usam **Campo e cidade**. Formas do terreno mantêm **Relevo**, sem usar o nome da forma solicitada.
+
+**Hidrografia** reúne a estrutura, a distribuição e os usos dos rios e das bacias. Não se usa como tema o nome da bacia, da parte do rio ou do regime de água solicitado. A proteção da qualidade da água e das margens usa **Preservação ambiental**; a geração hidrelétrica mantém **Fontes de energia**, inclusive quando o aluno identifica o tipo de usina em B2/AV2, ID 25. O transporte fluvial em B2/AV2, ID 16, usa **Transportes e circulação**. O rótulo de hidrografia descreve o objetivo e não valida as definições anteriores de bacia.
+
+**Clima e cotidiano** reúne a unidade de tempo, clima e diversidade climática, sem usar o tipo climático ou o fator geográfico solicitado como rótulo. **Biomas** cobre reconhecimento, características, biodiversidade e funções ambientais; desmatamento, queimadas, consumo e proteção usam **Preservação ambiental**. Não se usa como tema o nome do bioma que é a resposta.
+
+**População brasileira** concentra distribuição, indicadores e instrumentos de estudo demográfico. Pirâmide etária mantém esse tema por seu objetivo demográfico, mesmo quando aparece em um gráfico. **Migração** reúne os diferentes deslocamentos, sem antecipar o tipo solicitado; desafios de trânsito e moradia em B4/AV1, ID 17, usam **Organização das cidades**. A síntese de relações entre natureza e população em B4/AV2, ID 30, usa **Geografia do Brasil**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1 e B3/AV2 têm dois; B1/AV2 e B2/AV2, quatro; B3/AV1 concentra clima; B4/AV1 tem três; B4/AV2 revisa onze. Não se subdividem artificialmente as avaliações concentradas em uma unidade. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura dos simulados.
+
+As formulações anteriores sobre bacia/rede hidrográfica (B2/AV2, IDs 5 e 24; B4/AV2, ID 9), tempo e clima (B3/AV1, ID 29), intemperismo/erosão (B2/AV1, ID 4) e orientação por sombras sem Sol (B1/AV1, ID 18) estão na [issue web #101](https://github.com/guilhermeborba/simulados-bernardo/issues/101), com referências oficiais e critérios para revisão separada. O lote de temas preserva o conteúdo e não declara essas definições cientificamente validadas.

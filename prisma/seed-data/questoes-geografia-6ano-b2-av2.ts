@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é um rio?',
     tip: 'Pense em água que corre, se movendo de um lugar para outro.',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Como se chama o local onde um rio nasce?',
     tip: 'Pense no "começo" da vida do rio, onde tudo começa.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Como se chama o local onde um rio termina, desaguando no mar, em um lago ou em outro rio?',
     tip: 'Pense no "final" da viagem da água do rio.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Como se chama um rio menor que desagua em um rio maior?',
     tip: 'Pense em um "ajudante" que entrega mais água para o rio principal.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Como se chama o conjunto formado por um rio principal e todos os seus afluentes?',
     tip: 'Pense em todos os "braços" de água que, juntos, formam um grande sistema de rios.',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual é a maior bacia hidrográfica do mundo, localizada principalmente no Brasil?',
     tip: 'Pense na região onde fica a maior floresta tropical e o maior rio do mundo.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual importante bacia hidrográfica corta várias regiões do Nordeste brasileiro e é conhecida como "rio da integração nacional"?',
     tip: 'Pense num rio bem conhecido que atravessa vários estados do Nordeste, levando água para regiões mais secas.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Para que serve a água represada em uma usina hidrelétrica?',
     tip: 'Pense em como a força da água caindo pode fazer uma turbina girar.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que é importante preservar as matas ao redor dos rios (chamadas de matas ciliares)?',
     tip: 'Pense em como as raízes das árvores ajudam a "segurar" a terra nas margens do rio.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Além de gerar energia e servir para transporte, qual é um dos usos mais essenciais da água dos rios para as pessoas?',
     tip: 'Pense em algo que usamos todos os dias, várias vezes, e que vem originalmente dos rios e represas.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual é o nome da grande bacia hidrográfica localizada na região Sul do Brasil, que também banha países vizinhos como Argentina e Paraguai?',
     tip: 'Pense numa região onde ficam a Usina de Itaipu e fronteiras com outros países da América do Sul.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual bacia hidrográfica brasileira leva o nome de dois grandes rios que se encontram, localizada entre o Norte e o Centro-Oeste do país?',
     tip: 'Pense no nome que junta dois rios importantes dessa região.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O que pode acontecer com um rio quando muito lixo é jogado nele?',
     tip: 'Pense em como jogar lixo na água pode fazer mal a quem bebe ou usa essa água depois.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Qual é uma forma simples de ajudar a preservar os rios no dia a dia?',
     tip: 'Pense em pequenas atitudes que qualquer pessoa pode ter para cuidar da água.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é o "leito" de um rio?',
     tip: 'Pense no "caminho" que a água percorre, entre uma margem e outra.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Transportes e circulação',
     type: 'multiple_choice',
     text: 'Por que os rios são importantes para o transporte de pessoas e mercadorias em algumas regiões do Brasil?',
     tip: 'Pense em regiões onde não existem muitas estradas, e os rios acabam sendo o principal caminho.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que são "margens" de um rio?',
     tip: 'Pense nas partes de terra de cada lado do rio, por onde você pode caminhar.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que caracteriza um período de "seca" em um rio?',
     tip: 'Pense em quando chove pouco e o nível da água vai baixando aos poucos.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que caracteriza uma "enchente" (ou cheia) de um rio?',
     tip: 'Pense em quando chove demais e a água do rio sobe, podendo até invadir as ruas próximas.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Por que é importante estudar as bacias hidrográficas de um país?',
     tip: 'Pense em como conhecer onde a água está ajuda a cuidar melhor dela.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Na viagem de férias, Bernardo visitou a nascente de um pequeno rio, escondida no meio de uma mata bem preservada. Ele aprendeu que aquele era o local onde:',
     tip: 'Pense no "começo da vida" daquele rio.',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Mais à frente na viagem, Bernardo viu esse mesmo rio, agora bem maior, recebendo a água de outro rio menor. Esse rio menor é chamado de:',
     tip: 'Pense em um rio "ajudante", que entrega água extra para o rio principal.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Ao chegar ao litoral, Bernardo viu o rio se encontrando com o mar, num ponto bem largo. Esse ponto final do rio é chamado de:',
     tip: 'Pense no "final da viagem" da água do rio.',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Na escola, a professora explicou que aquele rio, junto com todos os seus afluentes, forma um grande sistema chamado de:',
     tip: 'Pense no conjunto de "braços de água" que formam um sistema completo.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Bernardo soube, pelo noticiário, que uma usina próxima da cidade dos avós usava a força de um rio para produzir energia elétrica para várias cidades. Esse tipo de usina é chamada de:',
     tip: 'Pense na usina que usa diretamente a força da água represada.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Durante um período de muita chuva, Bernardo viu na TV que um rio perto de sua cidade tinha subido bastante e quase transbordado. Isso é chamado de:',
     tip: 'Pense em quando a água do rio sobe bastante, por causa de muita chuva.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Já em outra época do ano, Bernardo notou que esse mesmo rio estava com bem menos água do que de costume, quase mostrando pedras no fundo. Isso é chamado de:',
     tip: 'Pense em quando chove pouco e o volume de água vai diminuindo aos poucos.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo ajudou a organizar uma campanha na escola para incentivar os colegas a não jogarem lixo no riacho perto do bairro. Essa atitude ajuda a:',
     tip: 'Pense em como cuidar da água ajuda tanto as pessoas quanto os animais que vivem nela.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'No projeto de ciências, Bernardo escolheu apresentar a maior bacia hidrográfica do mundo, localizada principalmente no Brasil. Sobre qual bacia ele certamente falou?',
     tip: 'Pense na bacia que abriga o maior rio do mundo em volume de água.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora perguntou a Bernardo por que era tão importante estudar rios e bacias hidrográficas. Ele respondeu corretamente que era porque:',
     tip: 'Pense em tudo que aprendemos sobre os usos da água ao longo deste simulado.',
