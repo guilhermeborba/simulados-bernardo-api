@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Consciência corporal',
     type: 'multiple_choice',
     text: 'O que é "consciência corporal"?',
     tip: 'Pensa: quando você fecha os olhos e sente sua respiração ou o batimento do coração, o que você está fazendo com seu corpo?',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Alongamento',
     type: 'multiple_choice',
     text: 'O que é "alongamento"?',
     tip: 'Pensa num gato acordando e esticando bem devagar o corpo todo — o que ele está fazendo?',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'Qual é o principal objetivo do relaxamento corporal?',
     tip: 'Pensa em como você se sente depois de um dia cansativo, deitado tranquilo — o corpo fica mais tenso ou mais leve?',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'Qual dessas é uma boa prática para manter uma boa postura?',
     tip: 'Pensa numa régua bem reta — é mais ou menos assim que a coluna deveria ficar quando estamos sentados ou em pé.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'A respiração consciente, muito usada em exercícios de relaxamento, ajuda a:',
     tip: 'Pensa em quando alguém está nervoso e outra pessoa diz "respira fundo" — para que serve esse conselho?',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Alongamento',
     type: 'multiple_choice',
     text: 'Por que é importante alongar os músculos antes e depois de atividades físicas?',
     tip: 'Pensa num elástico: se ele estiver bem preparado (aquecido e alongado), ele estica sem rasgar. Com os músculos é parecido!',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Consciência corporal',
     type: 'multiple_choice',
     text: 'O que significa "ficar atento às sensações do corpo" durante um exercício de conscientização corporal?',
     tip: 'Pensa: se você está fazendo um alongamento e sente um "puxão" numa perna, o que você está percebendo?',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'Qual dessas atitudes pode prejudicar a postura ao longo do tempo?',
     tip: 'Pensa em como fica o pescoço de alguém que passa muito tempo olhando para baixo, para uma tela — isso ajuda ou atrapalha a postura?',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'Um exercício simples de relaxamento é:',
     tip: 'Pensa em como você se prepara para dormir à noite — o que você faz para o corpo relaxar antes do sono?',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Consciência corporal',
     type: 'multiple_choice',
     text: 'A "Ginástica de Conscientização Corporal" tem como foco principal:',
     tip: 'Repare no próprio nome: "consciência corporal" — o que isso tem a ver com competir por medalhas?',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Alongamento',
     type: 'multiple_choice',
     text: 'Durante um alongamento, é importante fazer os movimentos:',
     tip: 'Pensa: se você puxar um elástico rápido demais, ele pode rasgar. Como deve ser o alongamento, então?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Alongamento',
     type: 'multiple_choice',
     text: 'Se uma pessoa sente uma dor forte durante o alongamento, o que ela deve fazer?',
     tip: 'Pensa: dor forte é um sinal de alerta do corpo — o que costumamos fazer quando um sinal de alerta aparece?',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'Qual é uma boa forma de melhorar a postura ao usar a mochila da escola?',
     tip: 'Pensa numa balança: se você coloca peso só de um lado, ela fica torta. Com as costas é parecido!',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'Um exercício de respiração consciente costuma pedir que a pessoa:',
     tip: 'Pensa em como fica mais calmo respirar bem devagar, sentindo o ar entrar e sair, em vez de respirar rápido e curto.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'Além de ajudar o corpo, a prática de relaxamento e conscientização corporal também pode ajudar:',
     tip: 'Pensa: quando o corpo relaxa, a cabeça costuma ficar mais agitada ou mais tranquila?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'Qual desses hábitos ajuda a manter uma postura saudável durante o dia?',
     tip: 'Pensa: ficar parado na mesma posição por muito tempo é bom ou ruim para os músculos e a coluna?',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Consciência corporal',
     type: 'multiple_choice',
     text: 'Um exercício de conscientização corporal pode incluir perceber:',
     tip: '"Conscientização CORPORAL" tem a ver com o quê? Pensa nas partes do próprio corpo, não no ambiente.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Alongamento',
     type: 'multiple_choice',
     text: 'Por que alongar os músculos das pernas é especialmente importante depois de correr ou pular bastante?',
     tip: 'Pensa em quais músculos trabalharam mais durante a corrida ou os pulos — são eles que mais precisam "descansar" depois.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Consciência corporal',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre a Ginástica de Conscientização Corporal e esportes como o futebol?',
     tip: 'Pensa no que é mais importante em cada atividade: marcar gol e vencer, ou perceber e cuidar do próprio corpo com calma?',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Uma boa rotina de cuidado com o corpo pode incluir:',
     tip: 'Junta tudo que aprendemos nesse simulado: alongar, cuidar da postura e relaxar — isso tudo faz parte de quê?',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Depois de um dia inteiro sentado estudando, Bernardo sentiu as costas meio tensas. O que ele poderia fazer para ajudar seu corpo a relaxar?',
     tip: 'Lembra da Questão 11 — como devem ser os movimentos de alongamento, rápidos e bruscos ou suaves e devagar?',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Antes de dormir, Bernardo decidiu experimentar um exercício de respiração, inspirando e expirando bem devagar. Isso é um exemplo de:',
     tip: 'Lembra da Questão 14 — respirar devagar prestando atenção no ar é uma técnica usada para quê?',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'A mãe de Bernardo percebeu que ele estava sempre curvado enquanto usava o tablet. O que ela sugeriu para ajudar a postura dele?',
     tip: 'Lembra da Questão 8 e da Questão 16 — o que ajuda a evitar problemas de postura ao usar telas por muito tempo?',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Alongamento',
     type: 'multiple_choice',
     text: 'Bernardo sentiu um "puxão" incômodo na perna enquanto se alongava demais. O que ele deveria fazer?',
     tip: 'Lembra da Questão 12 — o que fazer quando sentimos uma dor forte durante o alongamento?',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Na aula de educação física, a professora pediu para todos ficarem parados e perceberem quais partes do corpo estavam tensas e quais estavam relaxadas. Que tipo de prática é essa?',
     tip: 'Lembra da Questão 17 — perceber tensão e relaxamento no próprio corpo é o nome dessa prática toda.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Depois de brincar bastante no parque, Bernardo sentiu as pernas cansadas. O que ele fez para ajudar na recuperação dos músculos?',
     tip: 'Lembra da Questão 18 — o que ajuda a relaxar os músculos que trabalharam mais depois de correr ou pular bastante?',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'Bernardo notou que, quando carregava a mochila sempre do mesmo lado, um ombro ficava mais cansado. O que seria melhor ele fazer?',
     tip: 'Lembra da Questão 13 — qual é a forma certa de usar a mochila para não prejudicar a postura?',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'Antes de uma apresentação na escola, Bernardo ficou nervoso. O que ele poderia fazer para se acalmar, usando o que aprendeu?',
     tip: 'Lembra da Questão 5 — o que a respiração consciente ajuda a fazer quando alguém está nervoso?',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo passou a fazer, todo dia antes de dormir, um pequeno momento de alongamento e respiração calma. Isso é um exemplo de:',
     tip: 'Lembra da Questão 20 — juntar alongamento, postura e relaxamento faz parte de quê?',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'No fim do bimestre, Bernardo resumiu o que aprendeu: "Cuidar do corpo não é só treinar forte, é também saber ouvir e relaxar ele". Essa frase mostra que ele entendeu bem o conceito de:',
     tip: 'Repare nas palavras de Bernardo: "ouvir" e "relaxar" o corpo — isso é exatamente o tema principal desse simulado inteiro!',

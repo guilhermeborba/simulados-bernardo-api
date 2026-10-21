@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A Ginástica é uma atividade física muito antiga. O que ela trabalha principalmente no nosso corpo?',
     tip: 'Pensa em um ginasta fazendo uma estrelinha ou uma ponte — quantas habilidades diferentes o corpo dele usa ao mesmo tempo?',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A palavra "ginástica" vem do grego "gymnos", que significa:',
     tip: 'Na Grécia Antiga, os atletas treinavam sem roupas nos ginásios — pensa em como era o corpo deles ali, "livre".',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual dessas NÃO é um tipo de ginástica praticado hoje em dia?',
     tip: 'Repara bem: três dessas opções você já deve ter visto nas Olimpíadas. Qual delas parece "inventada"?',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na Ginástica Artística, os ginastas usam aparelhos. Qual desses é um aparelho da ginástica artística feminina?',
     tip: 'Pensa numa ginasta andando com cuidado em cima de uma barra bem estreita e alta — como se chama esse aparelho?',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual desses materiais é usado na Ginástica Rítmica?',
     tip: 'Lembra das apresentações com muita dança e música, onde a ginasta faz a fita voar no ar em formato de espiral?',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual é um benefício de praticar ginástica regularmente?',
     tip: 'Pensa: alguém que treina ginástica cai mais fácil ou fica mais equilibrado ao caminhar numa superfície estreita?',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'O que é "flexibilidade" no contexto da ginástica?',
     tip: 'Pensa numa pessoa fazendo um espacate — que qualidade do corpo ela está usando?',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Antes de praticar ginástica, o que é importante fazer para preparar o corpo?',
     tip: 'Pensa num carro no frio: ele precisa "esquentar o motor" antes de andar rápido — o corpo humano também precisa disso!',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na Ginástica Artística masculina, qual desses é um aparelho usado?',
     tip: 'As outras três opções são materiais da Ginástica Rítmica (só feminina) — qual sobrou para a artística masculina?',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A Ginástica Geral (GG), diferente da artística e rítmica, tem como principal objetivo:',
     tip: 'Repara que essa pergunta é sobre o "principal objetivo" da GG — bem diferente de competir!',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Um ginasta está se equilibrando em uma barra estreita e alta, fazendo movimentos de dança e saltos. Em qual aparelho ele está?',
     tip: 'A palavra "equilíbrio" já está bem escondida na pergunta — em qual aparelho o equilíbrio é o desafio principal?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual desses elementos é comum tanto na Ginástica Artística quanto na Rítmica?',
     tip: 'Esqueça os aparelhos por um momento — pensa nas qualidades do CORPO que as duas ginásticas exigem igualmente.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'No solo da ginástica artística, o ginasta faz uma sequência de movimentos que inclui:',
     tip: 'Pensa no nome do aparelho: "solo" — que tipo de movimento a gente faz bem rente ao chão?',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual das opções abaixo é um exemplo de exercício de coordenação motora usado na ginástica?',
     tip: 'Coordenação é fazer duas ou mais coisas ao mesmo tempo com o corpo — qual opção envolve movimentos combinados?',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Em uma apresentação de Ginástica Geral, o que geralmente NÃO acontece?',
     tip: 'Lembra: a Ginástica Geral não tem competição — então o que dessa lista não combina com ela?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Qual é a função do "colchão" (tapete) usado nos treinos de ginástica?',
     tip: 'Pensa em quando você cai sentado no chão duro versus caindo em cima de um colchão — qual dói menos?',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Um ginasta pratica movimentos de força, como se sustentar com os braços esticados no ar. Essa capacidade física é chamada de:',
     tip: 'Pensa no nome: sustentar o peso do corpo no ar com os braços exige justamente essa capacidade física.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Qual dessas frases sobre segurança na ginástica está CORRETA?',
     tip: 'Pensa em quem te ensina a andar de bicicleta pela primeira vez — você começa sozinho direto na descida, ou com ajuda?',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A Ginástica Aeróbica combina movimentos de ginástica com:',
     tip: 'Pensa em uma aula animada, com música alta, onde todo mundo pula e dança seguindo o ritmo junto.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que é importante fazer alongamento depois de praticar ginástica?',
     tip: 'Pensa em como um elástico fica depois de ser esticado várias vezes — ele precisa de um tempinho para "voltar ao normal".',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Bernardo foi convidado para uma aula experimental de ginástica na escola. Antes de começar, a professora pediu que todos fizessem um aquecimento. Por que isso é importante?',
     tip: 'Lembra da Questão 8? O corpo precisa "esquentar" antes do esforço, igualzinho um carro no frio.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo experimentou fazer uma cambalhota no colchão. Em qual tipo de aparelho da ginástica artística ele estava praticando esse movimento?',
     tip: 'Cambalhota é feita rente ao chão, em cima de um tapete — que aparelho tem esse nome?',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Depois, a professora entregou uma fita colorida para Bernardo brincar de girá-la no ar. Essa fita é um material de qual tipo de ginástica?',
     tip: 'Lembra da Questão 5 — fita, bola, arco e corda são materiais de qual ginástica bem colorida e cheia de dança?',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo tentou se equilibrar em uma linha desenhada no chão, andando devagar sem cair. Que capacidade física ele estava treinando?',
     tip: 'Pensa: quando você anda numa linha fina tentando não cair para os lados, qual qualidade do corpo você está usando?',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'No final da aula, Bernardo participou de uma apresentação em grupo com a turma toda, sem ninguém ganhar prêmio, só para se divertir com os colegas. Isso é um exemplo de:',
     tip: 'Lembra: grupo, sem competição, só pela diversão — qual tipo de ginástica combina exatamente com isso?',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Bernardo sentiu que seus músculos das pernas ficaram um pouco tensos depois da aula. O que a professora recomendou para ele fazer?',
     tip: 'Lembra da Questão 20 — o que ajuda os músculos a relaxarem depois do esforço?',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Um colega de Bernardo quis subir direto nas argolas sem aprender o básico antes. O que Bernardo deveria dizer a ele?',
     tip: 'Lembra da Questão 18 — o que é essencial antes de usar aparelhos mais difíceis da ginástica?',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo contou para a mãe que aprendeu que a ginástica ajuda a melhorar várias capacidades do corpo ao mesmo tempo. Quais capacidades ele deve ter citado?',
     tip: 'Lembra da Questão 1 — a ginástica trabalha várias capacidades do corpo juntas, não só uma.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na próxima semana, Bernardo quer experimentar uma ginástica que junta dança, música animada e muito movimento aeróbico. Qual tipo de ginástica é essa?',
     tip: 'Lembra da Questão 19 — que tipo de ginástica combina música animada com dança e muito movimento?',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'No fim do dia, Bernardo disse: "Hoje aprendi que a ginástica não é só para quem quer ser campeão olímpico". Isso mostra que ele entendeu que a ginástica também serve para:',
     tip: 'Lembra de tudo que Bernardo viveu na aula — teve competição em algum momento, ou foi mais sobre se divertir e aprender?',

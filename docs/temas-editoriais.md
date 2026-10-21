@@ -865,3 +865,37 @@ A classificação considera o objetivo e as alternativas de cada questão. **Lin
 A quantidade de temas acompanha o conteúdo: B1/AV1 tem quatro; B4/AV1, três; B1/AV2 e B2/AV2, seis; B2/AV1 e B3/AV1, cinco; B3/AV2, sete; B4/AV2 revisa dez. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura dos simulados.
 
 As generalizações e a terminologia anteriores sobre espaços do teatro grego, realismo dos retratos romanos, comparação de materiais entre culturas e desenvolvimento rupestre/egípcio estão na [issue web #103](https://github.com/guilhermeborba/simulados-bernardo/issues/103), com referências e critérios para revisão separada. Os conteúdos e gabaritos foram preservados; a classificação não valida essas formulações de história da arte.
+
+
+### Educação Física — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Alongamento | Conceito, execução e finalidades dos alongamentos. |
+| Basquete | Objetivo, jogadores, cesta, pontuação, fundamentos e faltas. |
+| Capacidades físicas | Força, resistência, velocidade, agilidade, equilíbrio, coordenação e flexibilidade. |
+| Capoeira | História, roda, ginga, instrumentos, música, cultura e patrimônio. |
+| Consciência corporal | Percepção dos movimentos, tensões e sensações do próprio corpo. |
+| Futebol | Objetivo, jogadores, goleiro, áreas, reinícios, faltas e impedimento. |
+| Ginástica | Tipos, origens, aparelhos, movimentos e apresentações. |
+| Handebol | Objetivo, jogadores, mãos, área de gol, goleiro, infrações e estratégias. |
+| Jogos e brincadeiras | Tradição, acessibilidade, materiais, adaptações, cooperação e benefícios. |
+| Lutas | Modalidades, origens, cumprimentos, valores e diferença entre luta e briga. |
+| Modalidades esportivas | Comparações, categorias, cooperação e características compartilhadas dos esportes. |
+| Postura | Posições, pausas, uso de telas, mochila e distribuição do peso. |
+| Práticas corporais | Variedade de atividades, interesses e aprendizagens da Educação Física. |
+| Preparação e segurança | Aquecimento, proteção, supervisão, progressão e cuidados na prática. |
+| Regras e convivência | Regras, justiça, segurança coletiva, disciplina, respeito e esportividade. |
+| Relaxamento | Tensão, respiração calma e concentração. |
+| Saúde e bem-estar | Cuidados combinados, hábitos e bem-estar corporal. |
+| Voleibol | Objetivo, jogadores, toques, saque, rede, rodízio e fundamentos. |
+
+Primeiro lote de Educação Física da E04: **240 questões em oito simulados gerais**, em `questoes-educacao-fisica-6ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 18 nomes; Saúde e bem-estar reaproveita o nome usado em Ciências. Somente `theme` foi acrescentado; demais campos e estrutura foram preservados.
+
+A classificação segue o objetivo e as alternativas. Capacidades físicas não antecipa a capacidade solicitada. Identificar esportes como coletivos ou comparar modalidades usa Modalidades esportivas; os nomes dos esportes só aparecem quando não resolvem a tarefa. B2/AV2, ID 22, mantém o tema amplo, sem pressupor no rótulo o esporte da pergunta anterior.
+
+Ginástica não antecipa o tipo ou aparelho solicitado; Preparação e segurança permite identificar aquecimento sem entregar o nome. Em B3/AV2, IDs 21, 22, 25, 26 e 30, Saúde e bem-estar evita antecipar a prática ou o conceito pedido. No B4/AV2, ID 25, Lutas evita entregar o valor solicitado; ID 27 usa Práticas corporais. Capoeira não antecipa o movimento, instrumento ou origem.
+
+B1/AV1, B2/AV2 e B3/AV1 têm três temas; B1/AV2, dois; B2/AV1, quatro; B3/AV2 e B4/AV1, cinco. B4/AV2 retoma quinze temas das unidades, incluindo as quatro modalidades, preservando os nomes na revisão.
+
+As formulações anteriores sobre toques do voleibol e alongamento/recuperação estão na [issue web #105](https://github.com/guilhermeborba/simulados-bernardo/issues/105), para revisão separada. Os conteúdos e gabaritos foram preservados; os temas não validam essas formulações.

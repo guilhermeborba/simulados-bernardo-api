@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'O futebol é um esporte coletivo jogado principalmente com:',
     tip: 'Pensa em como os jogadores de futebol conduzem a bola durante uma partida, sem usar as mãos.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'No futebol, o objetivo principal de cada equipe é:',
     tip: 'Pensa no que faz a torcida comemorar durante uma partida de futebol.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, os jogadores marcam pontos ao:',
     tip: 'Pensa no objetivo principal ao jogar a bola em direção à cesta suspensa.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Quantos jogadores de cada equipe ficam em quadra, ao mesmo tempo, em uma partida oficial de basquete?',
     tip: 'É um número menor que o do futebol, mas maior que o de duplas de vôlei de praia.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'No futebol, apenas um jogador de cada equipe pode usar as mãos dentro de uma área específica. Esse jogador é o:',
     tip: 'Pensa no jogador que fica na frente do gol, usando luvas especiais.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, o movimento de quicar a bola no chão enquanto se movimenta é chamado de:',
     tip: 'Pensa no movimento repetido de bater a bola no chão enquanto anda ou corre.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Quantos jogadores de cada equipe ficam em campo, ao mesmo tempo, em uma partida oficial de futebol?',
     tip: 'É um número maior que o do vôlei e do basquete.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'No futebol, quando a bola sai pela linha lateral, o jogo é reiniciado com um:',
     tip: 'Pensa em como o jogo recomeça quando a bola sai pela linha das laterais do campo.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, uma cesta feita de fora de uma determinada linha vale:',
     tip: 'Pensa em arremessos feitos de mais longe da cesta, que costumam valer mais pontos.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'O futebol e o basquete são exemplos de esportes:',
     tip: 'Pensa em como esses esportes precisam de várias pessoas jogando juntas, em equipe.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Se um jogador de futebol usa as mãos para tocar na bola, sem ser o goleiro dentro da área, a arbitragem deve:',
     tip: 'Lembra que só o goleiro pode usar as mãos dentro da própria área — os demais jogadores não podem.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Por que o drible é uma habilidade importante no basquete?',
     tip: 'Pensa em como o jogador consegue avançar pela quadra sem perder a posse da bola.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Se uma equipe de futebol tem apenas 11 jogadores em campo, mas um deles é expulso, quantos jogadores restam para aquela equipe?',
     tip: 'É uma simples conta de subtração: 11 menos 1 jogador expulso.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Por que o basquete costuma valorizar tanto a altura dos jogadores?',
     tip: 'Pensa em como a altura pode ajudar a alcançar a cesta, que fica bem alta.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Se a bola de futebol sai pela linha de fundo, tendo sido tocada por último por um jogador do time atacante, o jogo é reiniciado com um:',
     tip: 'Pensa em qual jogada acontece quando o time que estava atacando é quem toca a bola por último antes dela sair.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Por que trabalho em equipe é tão importante tanto no futebol quanto no basquete?',
     tip: 'Pensa em como um time inteiro precisa se organizar para criar boas jogadas de ataque e defesa.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Se um time de basquete comete muitas faltas durante o jogo, o que pode acontecer com o time adversário?',
     tip: 'Pensa em como faltas costumam gerar uma punição para quem cometeu, e um benefício para o outro time.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que é importante conhecer as regras básicas de um esporte antes de jogá-lo?',
     tip: 'Pensa em como seria um jogo sem regras nenhumas, com todo mundo fazendo o que quiser.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Se um jogador de futebol está impedido (em posição de impedimento) ao receber um passe, o que normalmente acontece?',
     tip: 'Pensa em como uma jogada considerada "irregular" pelas regras costuma ser tratada pela arbitragem.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, por que os jogadores treinam tanto o arremesso quanto o drible e o passe?',
     tip: 'Pensa em como um bom jogador de basquete precisa saber fazer várias coisas diferentes durante o jogo.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Na aula de Educação Física, Bernardo joga futebol com os colegas e, ao final, sua equipe marca um gol. O que a equipe precisou fazer para isso?',
     tip: 'É o mesmo objetivo explicado na questão 2.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Durante o jogo, Bernardo percebe que só o goleiro do time pode usar as mãos, e mesmo assim apenas dentro de uma área específica. Como se chama essa área?',
     tip: 'É a área na frente do gol onde o goleiro pode usar as mãos.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Na aula seguinte, Bernardo joga basquete e aprende a arremessar a bola dentro de uma cesta para marcar pontos. Quantos jogadores de cada equipe costumam jogar ao mesmo tempo em uma partida oficial de basquete?',
     tip: 'É o mesmo número da questão 4.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Bernardo pratica o movimento de quicar a bola de basquete enquanto se movimenta pela quadra. Como se chama essa habilidade?',
     tip: 'É a mesma habilidade da questão 6.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Durante o jogo de futebol, a bola sai pela linha lateral depois de tocar em um jogador de Bernardo. Como o jogo é reiniciado nesse caso?',
     tip: 'É a mesma jogada da questão 8.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Bernardo faz um arremesso de fora de uma linha específica no basquete e acerta a cesta. Quantos pontos essa cesta vale?',
     tip: 'É o mesmo valor da questão 9.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Ao final da aula, o professor explica por que trabalho em equipe é tão importante no futebol e no basquete. Qual é a explicação correta?',
     tip: 'É a mesma explicação da questão 16.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Bernardo comete uma falta durante o jogo de basquete e o time adversário ganha a chance de arremessar sem defesa. Como se chama esse tipo de arremesso?',
     tip: 'É o mesmo tipo de arremesso da questão 17.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao professor por que é importante conhecer as regras antes de jogar futebol ou basquete. O professor explica que:',
     tip: 'É a mesma explicação da questão 18.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Para fechar a aula, o professor resume: "Futebol e basquete são esportes coletivos porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre trabalho em equipe nesses esportes.',

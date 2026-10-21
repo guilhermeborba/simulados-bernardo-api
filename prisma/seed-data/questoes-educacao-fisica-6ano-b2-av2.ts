@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'No voleibol, os jogadores tentam fazer a bola tocar o chão do campo adversário, sem deixá-la tocar o próprio chão. Isso é feito principalmente:',
     tip: 'Pensa em como os jogadores tocam na bola durante uma partida de vôlei, sem usar os pés.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Quantos jogadores de cada equipe ficam em quadra, ao mesmo tempo, em uma partida oficial de vôlei?',
     tip: 'É um número menor que o do futebol, mas maior que o do vôlei de praia (que tem só 2 por equipe).',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'No vôlei, cada equipe pode tocar na bola, no máximo, quantas vezes antes de enviá-la para o outro lado?',
     tip: 'Pensa na sequência clássica: passe, levantamento e ataque — quantos toques são esses?',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'No handebol, os jogadores marcam pontos ao:',
     tip: 'Pensa em como o handebol mistura elementos do futebol (o gol) com o uso das mãos.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Quantos jogadores de cada equipe ficam em quadra, ao mesmo tempo, em uma partida oficial de handebol?',
     tip: 'É um número entre o do basquete (5) e o do futebol (11).',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'No vôlei, o movimento usado para iniciar a jogada, enviando a bola para o campo adversário, é chamado de:',
     tip: 'Pensa no movimento feito no início de cada jogada, batendo na bola para o outro lado da quadra.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'No handebol, os jogadores podem usar principalmente:',
     tip: 'Pensa em como os jogadores de handebol seguram e lançam a bola durante o jogo.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'No vôlei, quando a bola toca a rede e passa para o outro lado durante o saque, o que geralmente acontece, dependendo da regra usada?',
     tip: 'Pensa em como as regras podem variar um pouco dependendo do tipo de competição ou categoria.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'No handebol, existe uma área próxima ao gol onde os jogadores de linha não podem entrar, chamada de:',
     tip: 'Pensa na área reservada especialmente para o goleiro, perto do gol.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'O vôlei e o handebol são exemplos de esportes:',
     tip: 'Pensa em como esses dois esportes precisam de várias pessoas jogando juntas, em equipe.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Por que a regra dos "três toques" no vôlei é importante para o jogo?',
     tip: 'Pensa em como os três toques costumam ser divididos entre diferentes jogadores da equipe.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Se um jogador de handebol entra na área de gol enquanto está com a bola, o que normalmente acontece?',
     tip: 'Lembra que a área de gol é reservada para o goleiro — jogadores de linha não podem entrar nela com a bola.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Por que o saque é considerado um fundamento importante no vôlei?',
     tip: 'Pensa em como um saque bem forte ou bem colocado pode dificultar a vida do time adversário.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Se uma equipe de handebol consegue armar boas jogadas de ataque, isso geralmente depende de:',
     tip: 'Pensa em como o handebol, assim como outros esportes coletivos, depende de trabalho em equipe.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Por que vôlei e handebol são considerados esportes coletivos, assim como futebol e basquete?',
     tip: 'Pensa no que todos esses quatro esportes (futebol, basquete, vôlei e handebol) têm em comum.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Se um time de vôlei toca na bola quatro vezes antes de mandá-la para o outro lado, o que acontece?',
     tip: 'Lembra da regra dos três toques — tocar uma vez a mais é uma infração.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Por que a posição dos jogadores no vôlei muda ao longo do jogo (rodízio)?',
     tip: 'Pensa em como essa regra ajuda a variar as posições dos jogadores ao longo da partida.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'No handebol, por que os goleiros têm regras um pouco diferentes dos outros jogadores dentro da área de gol?',
     tip: 'Pensa na função especial do goleiro, parecida com a do futebol.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Por que aprender diferentes esportes coletivos, como futebol, basquete, vôlei e handebol, é importante na Educação Física?',
     tip: 'Pensa em como cada esporte que você estudou tem regras e habilidades um pouco diferentes.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Se dois times de handebol jogam uma partida muito disputada, o que costuma decidir o resultado, além da habilidade individual?',
     tip: 'Pensa em tudo que você aprendeu sobre a importância do trabalho em equipe nos esportes coletivos.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Na aula de Educação Física, Bernardo joga vôlei e aprende que sua equipe pode tocar na bola, no máximo, três vezes antes de mandá-la para o outro lado. Qual é o nome dessa regra?',
     tip: 'É a mesma regra das questões 3 e 16.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Durante o jogo, Bernardo faz o movimento que inicia a jogada, enviando a bola para o campo adversário. Como se chama esse movimento?',
     tip: 'É o mesmo movimento das questões 6 e 13.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Na aula seguinte, Bernardo joga handebol e aprende que os jogadores marcam pontos lançando a bola dentro do gol, usando as mãos. Quantos jogadores de cada equipe costumam jogar ao mesmo tempo em uma partida oficial de handebol?',
     tip: 'É o mesmo número da questão 5.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Bernardo percebe que existe uma área perto do gol no handebol onde os jogadores de linha não podem entrar. Como se chama essa área?',
     tip: 'É a mesma área das questões 9 e 12.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'No vôlei, a posição de Bernardo muda a cada vez que sua equipe ganha o direito de sacar. Como se chama essa regra de troca de posições?',
     tip: 'É a mesma regra da questão 17.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'O professor explica por que trabalho em equipe é importante tanto no vôlei quanto no handebol. Qual é a explicação correta?',
     tip: 'É a mesma explicação das questões 11, 14 e 15.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao professor por que aprender vários esportes coletivos diferentes é importante na Educação Física. O professor explica que:',
     tip: 'É a mesma explicação da questão 19.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Durante o jogo de handebol, Bernardo entra sem querer na área de gol enquanto está com a bola. O que pode acontecer nesse caso?',
     tip: 'É a mesma situação da questão 12.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Ao final da aula de vôlei, Bernardo percebe que sua equipe jogou bem porque todos cooperaram: um fez o passe, outro o levantamento e outro o ataque. Isso mostra a importância de:',
     tip: 'Pensa em tudo que você aprendeu sobre a regra dos três toques e o trabalho em equipe.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'Para fechar a aula, o professor resume: "Vôlei e handebol são esportes coletivos porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre trabalho em equipe nesses esportes.',

@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Ao longo do ano, aprendemos que a Educação Física trabalha várias capacidades físicas. Qual das opções reúne corretamente algumas delas?',
     tip: 'Pensa em tudo que praticamos: futebol, ginástica, capoeira — que qualidades do corpo elas têm em comum?',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Qual brincadeira tradicional, estudada no início do ano, costuma ser passada de geração em geração?',
     tip: 'Pensa em brincadeiras que os avós de vocês também brincavam quando eram crianças, sem precisar de tela nenhuma.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'No futebol e no basquete, esportes coletivos que estudamos, o que é fundamental para o time jogar bem?',
     tip: 'Pensa: um time em que ninguém passa a bola para ninguém consegue jogar bem?',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'No vôlei e no handebol, qual é uma regra importante que aprendemos?',
     tip: 'Pensa em como cada jogador tem uma posição específica na quadra — isso é só coincidência ou faz parte das regras?',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na Ginástica Geral, qual é o principal objetivo das apresentações?',
     tip: 'Lembra que a Ginástica Geral é diferente da artística — ela tem competição ou é feita só pelo prazer de se movimentar junto?',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O que aprendemos sobre a importância do alongamento e do relaxamento na Ginástica de Conscientização Corporal?',
     tip: 'Pensa em como você se sente depois de alongar com calma — o corpo fica mais tenso ou mais leve?',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre "luta" esportiva e "briga", que estudamos no último bimestre?',
     tip: 'Pensa numa luta com árbitro, regras e respeito entre os dois lados — isso parece com uma briga de verdade?',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'A Capoeira, que estudamos, mistura quais elementos ao mesmo tempo?',
     tip: 'Pensa no berimbau tocando, nas pessoas cantando e nos movimentos de ginga — é só luta mesmo?',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que o aquecimento é importante antes de qualquer atividade física, seja jogo, ginástica ou luta?',
     tip: 'Lembra do exemplo do carro no frio, que precisa "esquentar o motor" antes de andar rápido — com o corpo é parecido!',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Ao longo do ano, vimos que o respeito ao colega e ao adversário é importante em qual(is) atividade(s)?',
     tip: 'Pensa em tudo que estudamos esse ano — o respeito apareceu só em uma atividade ou em todas elas?',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, para fazer uma cesta, a bola precisa passar por qual parte da quadra?',
     tip: 'Pensa no aro laranja com a rede pendurada, bem alto na quadra — como se chama esse equipamento do basquete?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'No vôlei, quantos toques cada time pode dar na bola antes de mandá-la para o outro lado (sem contar o bloqueio)?',
     tip: 'Pensa numa jogada de vôlei: recepção, levantamento e ataque — quantos toques diferentes são esses?',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na Ginástica Artística, qual aparelho exige da ginasta muito equilíbrio para andar e fazer movimentos em cima dele?',
     tip: 'Pensa num aparelho bem estreito e alto, onde a ginasta precisa se equilibrar com muito cuidado.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Na Capoeira, como se chama o movimento de balanço do corpo, que é a base de tudo?',
     tip: 'Pensa no movimento constante que todo capoeirista faz, de um lado para o outro, antes de qualquer golpe.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Qual é o nome do espaço onde os capoeiristas se apresentam, cercados pelos outros participantes que cantam e tocam instrumentos?',
     tip: 'Pensa no formato circular formado pelas pessoas ao redor de quem está jogando capoeira.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'No handebol, os jogadores podem usar principalmente qual parte do corpo para jogar a bola?',
     tip: 'Pensa no nome do esporte: "handebol" — a palavra "hand" em inglês tem a ver com qual parte do corpo?',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Relaxamento',
     type: 'multiple_choice',
     text: 'Qual exercício de respiração aprendemos que ajuda a acalmar o corpo e a mente?',
     tip: 'Pensa em como alguém nervoso é aconselhado a respirar para se acalmar — rápido ou bem devagar?',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Nas lutas praticadas na escola, o que sempre deve estar presente para garantir a segurança de todos?',
     tip: 'Pensa em qualquer atividade com contato físico — o que ajuda a evitar acidentes e garantir que tudo seja feito com segurança?',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual desses é um benefício de praticar atividades físicas variadas ao longo do ano, como jogos, esportes, ginástica e lutas?',
     tip: 'Pensa em tudo que aprendemos: força, flexibilidade, respeito, concentração — isso ajuda só o corpo ou também a mente?',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'No futebol, qual é o objetivo principal do jogo?',
     tip: 'Pensa no que faz a torcida comemorar durante uma partida de futebol — o que o time está tentando conseguir?',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Relembrando o ano todo, Bernardo fez uma lista de tudo que aprendeu na Educação Física. Qual desses NÃO fez parte do que ele estudou?',
     tip: 'Pensa em tudo que vimos esse ano nos simulados de Educação Física — matemática avançada fez parte disso?',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que, no primeiro bimestre, aprendeu brincadeiras tradicionais. O que essas brincadeiras têm de especial?',
     tip: 'Lembra da Questão 2 — quem também brincava dessas brincadeiras quando era criança?',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Modalidades esportivas',
     type: 'multiple_choice',
     text: 'No segundo bimestre, Bernardo jogou basquete e vôlei com os colegas. O que ele aprendeu sobre trabalhar em equipe?',
     tip: 'Lembra da Questão 3 — o que é fundamental para um time jogar bem junto?',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'No terceiro bimestre, Bernardo praticou ginástica e alongamento. O que ele aprendeu sobre cuidar do corpo?',
     tip: 'Lembra da Questão 6 — o que o alongamento e o relaxamento ajudam a fazer com o corpo?',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'No quarto bimestre, Bernardo experimentou capoeira e judô. Qual valor ele aprendeu que é importante em todas as lutas?',
     tip: 'Lembra da Questão 7 — qual valor separa a luta esportiva de uma simples briga?',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo contou para a família que a atividade física favorita dele mudou ao longo do ano, conforme experimentava coisas novas. Isso mostra a importância de:',
     tip: 'Pensa em como Bernardo só descobriu que gostava de capoeira porque experimentou algo novo no último bimestre.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Olhando para trás, Bernardo percebeu que em todas as atividades — jogos, esportes, ginástica e lutas — havia sempre algo em comum. O que era?',
     tip: 'Pensa em tudo que se repetiu nos simulados do ano: aquecimento, respeito, regras... isso apareceu em uma atividade só ou em todas?',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo decidiu que, no próximo ano, quer continuar praticando esportes coletivos e também experimentar mais ginástica. O que isso mostra sobre o que ele aprendeu?',
     tip: 'Pensa: se Bernardo quer continuar praticando várias atividades diferentes, isso mostra desinteresse ou interesse variado?',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Ao final do ano, o professor perguntou o que a turma mais aprendeu na Educação Física. Bernardo respondeu que aprendeu a cuidar do corpo, respeitar os colegas e se divertir com responsabilidade. Isso mostra que ele entendeu:',
     tip: 'Repara na resposta de Bernardo: ele falou de corpo, respeito E diversão — isso é só uma coisa ou tudo junto?',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Para encerrar o ano com chave de ouro, Bernardo organizou com os colegas uma tarde de jogos variados, misturando um pouco de tudo que aprenderam: brincadeiras, esportes, ginástica e até um pouco de capoeira. Isso mostra que ele aprendeu que a Educação Física é:',
     tip: 'Pensa em tudo que Bernardo viveu esse ano: brincadeiras, esportes, ginástica, lutas — isso foi pouco ou muito variado?',
