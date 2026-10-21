@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'Segundo a lenda, Roma foi fundada por:',
     tip: 'São dois irmãos, criados por uma loba, segundo a lenda romana.',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'Roma Antiga ficava localizada em qual território, hoje?',
     tip: 'É o país em formato de "bota", na Europa, famoso pela pizza e pela massa.',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'A lenda conta que Rômulo e Remo foram criados, quando bebês, por:',
     tip: 'É um animal selvagem, parecido com um cachorro grande, que amamentou os dois irmãos, segundo a lenda.',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'O sistema de governo em que várias pessoas (e não um só rei) participavam das decisões, adotado por Roma depois da monarquia, era chamado de:',
     tip: 'É uma palavra parecida com o sistema de governo do Brasil hoje!',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Na sociedade romana, os patrícios eram:',
     tip: 'Pensa em quem tinha mais poder e riqueza dentro da sociedade romana.',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Já os plebeus eram:',
     tip: 'Pensa no "resto" da população romana, que não fazia parte das famílias mais ricas.',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Um grupo de pessoas escolhidas para governar Roma durante a República era chamado de:',
     tip: 'É uma palavra que ainda é usada hoje em muitos países para nomear um grupo de políticos.',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Os romanos construíram estradas, pontes e aquedutos, mostrando grande habilidade em:',
     tip: 'Pensa em quem projeta e constrói estradas e pontes — que tipo de profissional faz isso hoje?',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Como eram chamados os grandes combates entre gladiadores, muito populares em Roma Antiga?',
     tip: 'Pensa no imenso anfiteatro romano onde esses combates aconteciam.',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O idioma falado pelos romanos, que deu origem ao português, ao espanhol e a outras línguas, era o:',
     tip: 'Muitas palavras do português têm origem direta nessa língua antiga dos romanos.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Se um romano quisesse participar das decisões políticas durante a República, ele poderia, dependendo de sua posição, votar ou até:',
     tip: 'Lembra do grupo de governantes estudado na questão 7 — quem podia participar dele?',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Por que os patrícios tinham mais poder do que os plebeus na sociedade romana?',
     tip: 'Volta na questão 5 sobre quem eram os patrícios.',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Imagine um romano usando uma estrada construída pelo Império para viajar rapidamente entre cidades. Isso mostra a importância de que área do conhecimento romano?',
     tip: 'Volta na questão 8 sobre as grandes obras que os romanos construíam.',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que a língua latina é tão importante para entendermos o português de hoje?',
     tip: 'Volta na questão 10 sobre a origem do português.',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Se os plebeus quisessem ter mais participação política em Roma, o que a história mostra que eles fizeram ao longo do tempo?',
     tip: 'Pensa em como grupos com menos poder, ao longo da história, costumam agir para conquistar mais direitos.',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Por que o Coliseu é considerado uma grande obra da engenharia romana?',
     tip: 'Volta na questão 9 sobre o que acontecia dentro do Coliseu.',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O que a construção de aquedutos, estradas e pontes revela sobre a organização do governo romano?',
     tip: 'Pensa em quanto planejamento é preciso para construir uma estrada ou um aqueduto enorme, sem máquinas modernas.',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Comparando a República romana com a democracia ateniense, é correto dizer que:',
     tip: 'Pensa no que você já sabe sobre a democracia de Atenas e agora sobre a República romana — as duas tinham alguma participação do povo, mesmo que diferente.',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Por que a sociedade romana era dividida entre patrícios e plebeus?',
     tip: 'Volta nas questões 5 e 6 sobre as diferenças entre esses dois grupos.',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Se um historiador encontrasse hoje os restos de uma antiga estrada romana, o que isso ajudaria a entender sobre o Império?',
     tip: 'Volta na questão 13 sobre a importância das estradas para o Império Romano.',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'Bernardo está contando para a turma a lenda da fundação de Roma. Quem são os personagens principais dessa lenda?',
     tip: 'É a mesma dupla de irmãos da questão 1.',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'Na maquete de Bernardo, ele representa um animal que, segundo a lenda, cuidou dos bebês fundadores de Roma. Que animal é esse?',
     tip: 'É o mesmo animal da questão 3.',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'A professora pergunta a Bernardo o nome do sistema de governo romano em que várias pessoas participavam das decisões, sem ter um rei. Qual é a resposta?',
     tip: 'É o mesmo sistema de governo da questão 4.',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Bernardo explica ao colega que, em Roma, as famílias mais ricas e tradicionais eram chamadas de:',
     tip: 'É o mesmo grupo social da questão 5.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'No quiz de Bernardo, a pista é: "Sou um imenso anfiteatro romano, onde aconteciam lutas de gladiadores." Qual é a resposta?',
     tip: 'É a mesma construção das questões 9 e 16.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao pai por que os romanos construíram tantas estradas por todo o império. O pai explica que:',
     tip: 'Volta nas questões 8, 13 e 20 sobre a importância das estradas romanas.',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo aprende que o português tem muitas palavras parecidas com outra língua antiga. Qual é essa língua, falada pelos romanos?',
     tip: 'É a mesma língua das questões 10 e 14.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Ao montar a linha do tempo, Bernardo posiciona Roma Antiga depois da Grécia Antiga. Isso mostra que Roma:',
     tip: 'Pensa em tudo que você já estudou este ano: Pré-História, Mesopotâmia, Egito, Grécia e agora Roma.',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora qual era a diferença entre patrícios e plebeus em Roma. Ela explica que:',
     tip: 'É a mesma explicação das questões 5, 6, 12 e 19.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume: "Roma Antiga é importante porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre estradas, Senado, República e latim.',

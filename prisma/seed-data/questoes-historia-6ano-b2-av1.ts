@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: '"Mesopotâmia" significa "terra entre rios". Quais são esses dois rios?',
     tip: 'Pensa no nome "Mesopotâmia" — ele já entrega os dois rios no meio da palavra, só que em grego antigo!',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Onde fica a região da antiga Mesopotâmia atualmente?',
     tip: 'É o mesmo país onde ficam os rios Tigre e Eufrates que você acabou de estudar na questão 1!',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Por que os rios eram tão importantes para os povos da Mesopotâmia?',
     tip: 'Sem chuva regular, de onde mais viria a água para molhar as plantações e matar a sede das pessoas?',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'O que são zigurates?',
     tip: 'Imagina uma construção bem alta, feita de "degraus" gigantes, no centro da cidade — para que serviria algo tão importante?',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Qual foi uma das primeiras formas de escrita criadas pelos sumérios?',
     tip: 'O nome dessa escrita vem da palavra "cunha", por causa do formato dos símbolos gravados.',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Em que material os sumérios escreviam?',
     tip: 'Pensa em um material mole, feito de barro, que os sumérios marcavam com um palito antes de secar ao sol.',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Quem foi Hamurábi?',
     tip: 'Pensa em alguém que governava e queria organizar as regras da sua cidade — que tipo de pessoa faria isso?',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'O Código de Hamurábi é conhecido por quê?',
     tip: 'Lembra quem criou esse código? Um rei normalmente cria isso para manter ordem no seu reino.',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Qual povo é considerado um dos criadores da roda, segundo os historiadores?',
     tip: 'É o mesmo povo que criou a escrita cuneiforme — eles viviam na região entre os rios Tigre e Eufrates.',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Por que a Mesopotâmia é chamada de "berço da civilização"?',
     tip: '"Berço" aqui é um jeito de dizer "onde tudo começou" — pensa em tudo que você aprendeu até agora sobre esse povo.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Se alguém precisasse guardar registro de quantos sacos de trigo colheu há 4 mil anos na Mesopotâmia, o que provavelmente usaria?',
     tip: 'Lembra em que material os sumérios escreviam? Era o único jeito de registrar algo naquela época.',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Os rios Tigre e Eufrates às vezes causavam cheias fortes. O que isso podia trazer de bom para a agricultura?',
     tip: 'Pensa no rio Nilo do Egito — as cheias deixam um "adubo natural" na terra.',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Imagine que uma pessoa da Mesopotâmia desobedeceu uma lei do Código de Hamurábi. O que isso mostra sobre aquela sociedade?',
     tip: 'Se existe um código de leis gravado em pedra, é porque alguém esperava que as pessoas seguissem essas regras!',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que ter um sistema de escrita ajudou os povos da Mesopotâmia a se desenvolverem?',
     tip: 'Pensa em tudo que vimos até agora: leis, contas de trigo, histórias — o que a escrita permite fazer com essas informações?',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Um zigurate era construído bem alto, no centro das cidades. Isso mostra que ele era:',
     tip: 'Pensa: por que uma cidade colocaria sua construção mais alta bem no centro, num lugar de destaque?',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Se dois vizinhos da Mesopotâmia tivessem uma briga por causa de um terreno, para onde poderiam recorrer?',
     tip: 'Lembra para que servia o código criado pelo rei Hamurábi? Ele resolvia justamente esse tipo de conflito.',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que os historiadores conseguem estudar a Mesopotâmia até hoje, mesmo sendo tão antiga?',
     tip: 'Pensa no material super resistente que os sumérios usavam para escrever — ele durou milhares de anos!',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'A invenção da roda ajudou os povos antigos principalmente a:',
     tip: 'Pensa em uma carroça ou uma bicicleta — para que servem as rodas nelas?',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Qual é a importância dos rios Tigre e Eufrates para o surgimento da Mesopotâmia?',
     tip: 'Por que os povos antigos se instalavam sempre perto de rios?',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'O que aconteceria com as plantações da Mesopotâmia se não existissem os rios Tigre e Eufrates naquela região tão seca?',
     tip: 'A região ao redor dos rios é bem seca — sem água, como as plantas conseguiriam crescer?',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Bernardo está fazendo uma maquete da Mesopotâmia para a escola. Ele quer representar os rios mais famosos da região. Quais nomes ele deve escrever nas placas?',
     tip: 'São os mesmos dois rios que dão nome à região "terra entre rios"!',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Na maquete, Bernardo constrói uma torre escalonada bem alta no meio da cidade. Que construção ele está representando?',
     tip: 'Lembra da construção religiosa mais famosa da Mesopotâmia, em formato de degraus?',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo encontrou, em um livro, o desenho de símbolos em formato de cunha gravados numa tábua. Que tipo de escrita é essa?',
     tip: '"Cunha" está bem no nome dessa escrita — pensa na questão 5!',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Na aula, a professora pediu para Bernardo explicar por que Hamurábi é lembrado até hoje. O que ele deve responder?',
     tip: 'O que Hamurábi fez de tão importante para a história?',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Bernardo perguntou ao pai por que os povos da Mesopotâmia se instalaram perto dos rios. O que o pai pode responder?',
     tip: 'Pensa em tudo que a água de um rio pode oferecer para quem vive da agricultura.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Ao montar uma linha do tempo para a prova, Bernardo coloca a Mesopotâmia entre a Pré-História e outras civilizações antigas. Isso mostra que a Mesopotâmia é considerada:',
     tip: 'Lembra o apelido que a Mesopotâmia recebe? Ele já dá a resposta!',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo viu uma tábua de argila em um museu virtual, cheia de marcas em formato de cunha, e quis saber para que servia. A resposta certa é:',
     tip: 'Pensa em tudo que os sumérios registravam usando a escrita cuneiforme.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'No trabalho em grupo, Bernardo precisa explicar por que a roda foi uma invenção tão importante. Qual argumento ele pode usar?',
     tip: 'Para que a roda realmente ajudou os povos antigos?',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Bernardo está montando um quiz e escreve a pista: "Sou um rei antigo, criei leis famosas gravadas em pedra." Quem é a resposta?',
     tip: 'É o mesmo rei da Mesopotâmia que aparece em várias questões desse simulado!',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Mesopotâmia',
     type: 'multiple_choice',
     text: 'Para fechar a apresentação, Bernardo resume: "A Mesopotâmia é chamada de berço da civilização porque..." Como ele deve completar a frase?',
     tip: 'Pensa em tudo que você aprendeu nesse simulado sobre escrita, leis, cidades e invenções.',

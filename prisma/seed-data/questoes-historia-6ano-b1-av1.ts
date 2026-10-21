@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'História e memória',
     type: 'multiple_choice',
     text: 'O que é a História, como área de estudo?',
     tip: 'Pensa em como aprendemos sobre reis, guerras, invenções e mudanças que aconteceram com as pessoas ao longo dos anos.',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Como os historiadores chamam os objetos, documentos e vestígios usados para estudar o passado?',
     tip: 'Pensa em tudo que pode "contar" algo sobre o passado: uma carta antiga, uma ferramenta, uma pintura...',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'A Pré-História é o período que compreende:',
     tip: 'Pensa no significado do prefixo "pré", que quer dizer "antes de" — antes de qual grande invenção?',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'A invenção da escrita marca o início de qual período histórico?',
     tip: 'Pensa em qual grande invenção divide a Pré-História do restante dos períodos históricos.',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'O período da Pré-História em que os seres humanos usavam instrumentos de pedra lascada é chamado de:',
     tip: '"Paleo" lembra "antigo" — pensa nas ferramentas mais simples e antigas, feitas de pedra lascada.',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'No período Paleolítico, os seres humanos eram principalmente:',
     tip: 'Pensa que, nessa época, a agricultura ainda não existia — como as pessoas conseguiam comida?',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Ser nômade significa:',
     tip: 'Pensa em um grupo de pessoas que muda de lugar sempre que os recursos daquela região começam a acabar.',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'A descoberta e o controle do fogo pelos seres humanos pré-históricos foi importante para:',
     tip: 'Pensa em várias funções práticas que o fogo tem até hoje: esquentar, cozinhar, iluminar e proteger.',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'As pinturas rupestres, feitas em paredes de cavernas, são um exemplo de:',
     tip: 'Pensa em como essas pinturas, mesmo sem palavras escritas, "contam" algo sobre como viviam essas pessoas.',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Os primeiros seres humanos utilizavam instrumentos feitos principalmente de:',
     tip: 'Pensa nos materiais disponíveis na natureza, antes da invenção de metais e plásticos.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que os historiadores usam fontes históricas variadas, como objetos, textos e imagens?',
     tip: 'Pensa em como cruzar diferentes "pistas" ajuda a montar um quebra-cabeça mais completo sobre o passado.',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Diferente do que muitas pessoas pensam, os seres humanos pré-históricos:',
     tip: 'Pensa em como caçar grandes animais ou se proteger de perigos exigia cooperação entre várias pessoas.',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'A vida nômade dos povos do Paleolítico estava relacionada principalmente com:',
     tip: 'Lembre que, sem agricultura, os grupos precisavam se mover para onde havia mais recursos naturais.',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O uso do fogo pelos seres humanos pré-históricos também ajudou a:',
     tip: 'Pensa em como alimentos cozidos costumam ser mais fáceis de mastigar e digerir do que crus.',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'As pinturas rupestres muitas vezes retratavam:',
     tip: 'Pensa no que era mais importante na vida cotidiana dos povos pré-históricos — provavelmente é o que eles retratavam nas pinturas.',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Por que é importante estudar a Pré-História, mesmo sem termos documentos escritos desse período?',
     tip: 'Pensa em como muitas técnicas e descobertas importantes, como o fogo e as primeiras ferramentas, começaram nesse período.',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'A ausência de escrita na Pré-História faz com que os historiadores dependam principalmente de:',
     tip: 'Lembre que, sem textos escritos, os historiadores precisam usar outros tipos de "pistas" físicas do passado.',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Uma das principais diferenças entre a Pré-História e a História é:',
     tip: 'Lembre da invenção que marca a transição entre esses dois grandes períodos.',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Estudar diferentes fontes históricas, como ferramentas de pedra e pinturas, ajuda os historiadores a:',
     tip: 'Pensa em como analisar cuidadosamente as evidências ajuda a chegar a conclusões mais confiáveis.',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'A capacidade de contar o tempo em anos, séculos e eras é chamada, na História, de:',
     tip: 'Pensa em como organizamos o tempo em unidades, como décadas e séculos, para estudar o passado.',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo visitou um museu e viu ferramentas de pedra lascada usadas por povos pré-históricos. Esses objetos são exemplos de:',
     tip: 'Lembre do nome dado a objetos e vestígios físicos usados para estudar o passado.',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, antes da invenção da escrita, esse período é chamado de:',
     tip: 'Lembre do nome do período que vem "antes" da invenção da escrita.',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Na exposição do museu, Bernardo viu uma réplica de pinturas em cavernas, mostrando cenas de caça. Essas pinturas são chamadas de:',
     tip: 'Lembre do nome dado às pinturas feitas em paredes de cavernas por povos pré-históricos.',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que os povos do período Paleolítico se deslocavam bastante, sem morar sempre no mesmo lugar. Isso é chamado de:',
     tip: 'Lembre do nome dado ao estilo de vida em que as pessoas se deslocam constantemente.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que essa vida nômade acontecia principalmente porque os povos pré-históricos:',
     tip: 'Lembre da principal razão que levava os povos do Paleolítico a se deslocarem constantemente.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo viu, no museu, uma réplica de uma fogueira pré-histórica e aprendeu que o controle do fogo ajudou os seres humanos a:',
     tip: 'Lembre das várias utilidades práticas do fogo para os povos pré-históricos.',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo ficou curioso sobre como os historiadores sabem tanto sobre um período sem escrita. A resposta está relacionada ao estudo cuidadoso de:',
     tip: 'Lembre de que tipo de evidência os historiadores usam quando não há documentos escritos disponíveis.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Bernardo perguntou à guia do museu como as pessoas mediam o tempo tão distante da Pré-História. Ela explicou que os historiadores usam a:',
     tip: 'Lembre do conceito que organiza o tempo em unidades para facilitar o estudo do passado.',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Ao final da visita, Bernardo entendeu que, apesar de não termos documentos escritos da Pré-História, é possível estudar esse período através de:',
     tip: 'Pensa em tudo que Bernardo viu no museu: ferramentas, pinturas, réplicas de fogueiras... tudo isso ajuda a estudar a Pré-História.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo concluiu que estudar a Pré-História é importante porque:',
     tip: 'Pensa em tudo que Bernardo aprendeu no museu sobre as origens da humanidade e suas primeiras descobertas.',

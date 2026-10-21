@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'O que foi a Revolução Neolítica?',
     tip: 'Pensa numa grande mudança na forma de conseguir alimento, deixando de depender só da caça e coleta.',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'A prática da agricultura permitiu que os seres humanos:',
     tip: 'Pensa em como cuidar de uma plantação exige ficar perto dela, ao invés de se mudar constantemente.',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Ser sedentário significa:',
     tip: 'Pensa no oposto de "nômade" — alguém que permanece sempre no mesmo lugar.',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'A domesticação de animais, no período Neolítico, serviu para:',
     tip: 'Pensa em vários benefícios práticos que animais como cabras, ovelhas e bois trazem até hoje.',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'O cultivo de plantas, como trigo e cevada, permitiu aos povos neolíticos:',
     tip: 'Pensa em como plantar e colher garante alimento sem precisar depender só da sorte da caça.',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Com a fixação em um local e a agricultura, os grupos humanos começaram a formar:',
     tip: 'Pensa no que acontece quando várias famílias se fixam próximas umas das outras, cultivando a terra juntas.',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O surgimento da agricultura também está relacionado ao desenvolvimento de:',
     tip: 'Pensa em quais instrumentos seriam necessários para plantar e colher de forma mais eficiente.',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'O período em que os seres humanos passaram a polir a pedra, ao invés de apenas lascá-la, é chamado de:',
     tip: '"Neo" lembra "novo" — pensa na nova técnica de trabalhar a pedra, mais refinada que o simples lascamento.',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Com o excedente de alimentos produzido pela agricultura, os povos neolíticos puderam:',
     tip: 'Pensa no que acontece quando sobra comida além do necessário para o consumo imediato.',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'A cerâmica, desenvolvida no período Neolítico, era usada principalmente para:',
     tip: 'Pensa em potes e vasilhas de barro — para que eles costumam servir?',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Por que a Revolução Neolítica é considerada uma mudança tão importante na história da humanidade?',
     tip: 'Pensa em todas as mudanças que vimos: agricultura, sedentarização, aldeias, cerâmica... tudo isso transformou a vida das pessoas.',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'A formação das primeiras aldeias trouxe, entre outras coisas, a necessidade de:',
     tip: 'Pensa em como viver junto de várias famílias exige alguma forma de organização para tudo funcionar bem.',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Com a vida em aldeias, algumas pessoas começaram a se especializar em tarefas específicas, como:',
     tip: 'Pensa em como, com mais comida disponível, nem todos precisavam mais fazer a mesma tarefa o tempo todo.',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'A produção de excedente de alimentos, resultado da agricultura, permitiu também que:',
     tip: 'Pensa em como sobrar comida além do necessário libera tempo para outras atividades, como fazer ferramentas ou cerâmica.',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'As primeiras cidades da história surgiram, tempos depois, a partir:',
     tip: 'Pensa na sequência: primeiro agricultura, depois aldeias, e então, com o tempo, cidades maiores.',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'A Revolução Neolítica é considerada um marco importante porque, a partir dela:',
     tip: 'Pensa em como a agricultura passou a garantir uma fonte de alimento mais estável, sem depender tanto da sorte da caça.',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O desenvolvimento de instrumentos como enxadas e foices de pedra polida ajudou os povos neolíticos a:',
     tip: 'Pensa na função prática dessas ferramentas: para que servem enxadas e foices?',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'A vida em aldeias, comparada à vida totalmente nômade, trouxe mudanças como:',
     tip: 'Pensa em como ficar fixo em um lugar permite construir casas mais resistentes, ao invés de abrigos temporários.',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'A domesticação de animais como cães, cabras e ovelhas ajudou os povos neolíticos a obter:',
     tip: 'Pensa em vários benefícios que esses animais trazem, desde comida até ajuda em tarefas do dia a dia.',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'A Revolução Neolítica é um exemplo de como mudanças na forma de produzir alimento podem:',
     tip: 'Pensa em tudo que mudou por causa da agricultura: sedentarização, aldeias, especialização de tarefas...',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu na aula de história que, no período Neolítico, os seres humanos passaram a plantar e colher seus próprios alimentos. Esse processo é chamado de:',
     tip: 'Lembre do nome dado à prática de cultivar plantas para obter alimento.',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que, graças à agricultura, os grupos humanos passaram a viver fixos em um só lugar. Isso é chamado de:',
     tip: 'Lembre do nome dado ao processo de fixação em um determinado território.',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo viu, em uma maquete na escola, a representação de uma aldeia neolítica com casas simples e plantações ao redor. Isso mostra que os povos neolíticos:',
     tip: 'Pensa no que a maquete mostra: casas e plantações, sinais de uma vida fixa e organizada.',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a domesticação de animais, como cabras e ovelhas, ajudava os povos neolíticos a obter:',
     tip: 'Lembre dos vários benefícios práticos que esses animais domesticados traziam para os povos neolíticos.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que, com o excedente de alimentos produzido pela agricultura, algumas pessoas da aldeia podiam se dedicar a outras tarefas, como fazer potes de cerâmica. Isso mostra o início de:',
     tip: 'Lembre de como o excedente de comida permitiu que nem todos precisassem fazer a mesma tarefa.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a cerâmica, criada no período Neolítico, era muito usada para:',
     tip: 'Lembre da principal utilidade prática dos potes e vasilhas de cerâmica.',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo entendeu, com a ajuda do professor, que a vida em aldeias trouxe mais estabilidade às comunidades neolíticas, permitindo:',
     tip: 'Lembre de como ficar fixo em um lugar permite investir em construções mais resistentes.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo comparou a vida no Paleolítico (nômade) com a vida no Neolítico (sedentária) e percebeu que essa mudança foi:',
     tip: 'Pensa em tudo que mudou entre esses dois períodos: agricultura, moradia fixa, aldeias...',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que ferramentas como enxadas e foices de pedra polida ajudaram os povos neolíticos a:',
     tip: 'Lembre da função prática dessas ferramentas relacionadas à agricultura.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo compreendeu que a Revolução Neolítica foi um marco importante porque:',
     tip: 'Pensa em tudo que Bernardo aprendeu nesse simulado: agricultura, sedentarização, aldeias, cerâmica...',
