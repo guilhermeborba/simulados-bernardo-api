@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O movimento que a Terra faz girando em torno de si mesma é chamado de:',
     tip: 'Pensa num pião girando no próprio eixo — esse tipo de movimento tem um nome específico.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O movimento de rotação da Terra é responsável por:',
     tip: 'Pensa em como, enquanto um lado do planeta recebe luz do Sol, o outro lado fica escuro — isso muda com o giro da Terra.',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'A rotação completa da Terra em torno de si mesma dura aproximadamente:',
     tip: 'Pensa em quanto tempo dura um dia inteiro, do amanhecer ao amanhecer seguinte.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O movimento que a Terra faz ao redor do Sol é chamado de:',
     tip: 'Pensa num carro fazendo uma volta completa ao redor de uma pista — a Terra faz algo parecido ao redor do Sol.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'A translação completa da Terra ao redor do Sol dura aproximadamente:',
     tip: 'Pensa em quanto tempo passa entre um aniversário e o próximo — isso está relacionado a esse movimento.',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O movimento de translação da Terra está relacionado principalmente com:',
     tip: 'Pensa em como o clima muda ao longo do ano — verão, outono, inverno e primavera — isso está ligado a esse movimento mais longo.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'As estações do ano (verão, outono, inverno e primavera) ocorrem principalmente por causa:',
     tip: 'Pensa que a Terra não fica "reta" enquanto gira ao redor do Sol — ela fica um pouco "inclinada", e isso muda a quantidade de luz que cada parte do planeta recebe.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Quando é verão em um hemisfério da Terra, no outro hemisfério geralmente é:',
     tip: 'Pensa em como a inclinação da Terra faz com que um hemisfério receba mais luz enquanto o outro recebe menos, ao mesmo tempo.',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'O eixo da Terra é uma linha imaginária que passa:',
     tip: 'Pensa num pião girando em torno de uma haste imaginária que passa pelo seu centro — a Terra tem algo parecido.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Astronomia',
     type: 'multiple_choice',
     text: 'A Lua é um satélite natural que gira ao redor de:',
     tip: 'Pensa em qual astro a Lua acompanha de perto, sempre visível no céu noturno da Terra.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Se a Terra não girasse em torno de si mesma (rotação), o que aconteceria?',
     tip: 'Pensa em como a rotação é o que faz cada parte do planeta se revezar entre ficar de frente e de costas para o Sol.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'O Sol nasce, de forma geral, em qual direção?',
     tip: 'Pensa em como as pessoas costumam se referir ao "nascer do sol" pela manhã, e associam a essa direção específica.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'O Sol se põe, de forma geral, em qual direção?',
     tip: 'Pensa na direção oposta ao nascer do sol — para onde ele "caminha" no céu até desaparecer no fim do dia.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Por que o Sol parece "se mover" no céu ao longo do dia?',
     tip: 'Lembre que é a Terra que gira, e não o Sol ao redor dela — essa é a explicação correta desde os estudos de Galileu e Copérnico.',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Lua e suas fases',
     type: 'multiple_choice',
     text: 'As fases da Lua (nova, crescente, cheia, minguante) acontecem por causa:',
     tip: 'Pensa em como a luz do Sol ilumina diferentes partes da Lua, dependendo de onde ela está em sua órbita ao redor da Terra.',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Astronomia',
     type: 'multiple_choice',
     text: 'Um eclipse solar acontece quando:',
     tip: 'Pensa em qual astro fica "no meio", bloqueando a luz do Sol que chegaria até a Terra.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Astronomia',
     type: 'multiple_choice',
     text: 'Um eclipse lunar acontece quando:',
     tip: 'Pensa em qual astro fica "no meio" dessa vez, bloqueando a luz que iluminaria a Lua.',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'No hemisfério onde vivemos (Sul), o verão costuma acontecer em quais meses?',
     tip: 'Pensa em quais meses costumam ser os mais quentes no Brasil, geralmente com festas de fim de ano e férias escolares.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'No hemisfério Sul, o inverno costuma acontecer em quais meses?',
     tip: 'Pensa em quais meses costumam ser os mais frios no Brasil, geralmente com férias escolares de meio de ano.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Estudar os movimentos da Terra e do Sistema Solar é importante porque ajuda a entender:',
     tip: 'Pensa em tudo que você aprendeu nesse simulado: dia e noite, verão e inverno... isso afeta diretamente a vida das pessoas.',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, ao anoitecer, o Sol "some" no horizonte, mas continua brilhando do outro lado do mundo. Isso acontece por causa do movimento de:',
     tip: 'Lembre do movimento responsável pela alternância entre dia e noite.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo notou que os dias ficam mais quentes em dezembro e mais frios em julho, no Brasil. Isso está relacionado principalmente com o movimento de:',
     tip: 'Lembre do movimento mais longo da Terra, relacionado às estações do ano.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, enquanto no Brasil (hemisfério Sul) é verão, em países como os Estados Unidos (hemisfério Norte) costuma ser:',
     tip: 'Lembre que os hemisférios Norte e Sul vivem estações opostas ao mesmo tempo.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Lua e suas fases',
     type: 'multiple_choice',
     text: 'Bernardo observou a Lua em fases diferentes ao longo do mês: às vezes cheia, às vezes um "risquinho" fino. Isso acontece por causa:',
     tip: 'Lembre do que determina as diferentes fases da Lua ao longo do mês.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Astronomia',
     type: 'multiple_choice',
     text: 'Bernardo assistiu, com óculos de proteção especiais, a um eclipse solar, em que a Lua cobriu parte do Sol por alguns minutos. Isso aconteceu porque:',
     tip: 'Lembre de qual astro fica "no meio" durante um eclipse solar.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que uma volta completa da Terra em torno de si mesma dura aproximadamente:',
     tip: 'Lembre da duração do movimento de rotação da Terra.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo também aprendeu que uma volta completa da Terra ao redor do Sol dura aproximadamente:',
     tip: 'Lembre da duração do movimento de translação da Terra.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, no verão, os dias costumam ser mais longos e claros, enquanto no inverno os dias são mais curtos. Isso está relacionado à:',
     tip: 'Lembre da causa principal das estações do ano, que também afeta a duração dos dias.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Bernardo observou o Sol nascendo pela manhã em uma direção específica. Essa direção geralmente é:',
     tip: 'Lembre da direção em que o Sol costuma nascer pela manhã.',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Movimentos da Terra',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo entendeu que os movimentos da Terra (rotação e translação) explicam fenômenos importantes como:',
     tip: 'Pensa em tudo que Bernardo observou nesse simulado: nascer e pôr do sol, mudanças de temperatura ao longo do ano...',

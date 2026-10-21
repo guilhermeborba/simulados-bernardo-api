@@ -1,6 +1,7 @@
 export const questoesCiencias6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'O que é Ciência?',
     tip: 'A Ciência não é sobre achismos ou mágica — ela usa observação cuidadosa e testes para entender como as coisas funcionam.',
@@ -16,6 +17,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'O método científico começa geralmente com:',
     tip: 'Pensa em como uma investigação começa: primeiro alguém percebe algo curioso e se pergunta "por quê?" ou "como?".',
@@ -31,6 +33,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'O que é uma hipótese?',
     tip: 'A hipótese é como um "palpite bem pensado" — ainda não é certeza, precisa ser testada para confirmar se está certa.',
@@ -46,6 +49,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Para testar uma hipótese, os cientistas costumam fazer:',
     tip: 'Sem testar, uma hipótese fica só no "talvez" — o experimento é o que ajuda a descobrir se ela está certa ou errada.',
@@ -61,6 +65,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'O que é um experimento controlado?',
     tip: 'Se várias coisas mudam ao mesmo tempo, fica difícil saber qual delas causou o resultado. Por isso, muda-se só uma coisa por vez!',
@@ -76,6 +81,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Depois de fazer um experimento, os cientistas costumam:',
     tip: 'Anotar tudo com cuidado é essencial para não esquecer detalhes importantes e poder tirar conclusões corretas depois.',
@@ -91,6 +97,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Por que é importante que outros cientistas possam repetir um experimento?',
     tip: 'Se só uma pessoa conseguiu aquele resultado e mais ninguém repete o mesmo experimento com sucesso, fica difícil confiar totalmente nele.',
@@ -106,6 +113,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Instrumentos científicos',
     type: 'multiple_choice',
     text: 'Um instrumento muito usado em laboratórios de ciências para observar coisas muito pequenas é:',
     tip: 'Pensa em qual instrumento aumenta o tamanho de coisas bem pequenininhas, como células, para que possamos ver detalhes.',
@@ -121,6 +129,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Instrumentos científicos',
     type: 'multiple_choice',
     text: 'Um instrumento usado para medir a temperatura é:',
     tip: 'Pensa no instrumento que você usa quando está com febre — ele mede quantos graus de temperatura o corpo está.',
@@ -136,6 +145,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Práticas de laboratório',
     type: 'multiple_choice',
     text: 'Usar óculos de proteção e avental em experimentos de laboratório serve para:',
     tip: 'Pensa em experimentos com materiais que podem espirrar ou ser perigosos — os equipamentos de proteção existem para evitar acidentes.',
@@ -151,6 +161,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Um cientista quer saber se plantas crescem mais com música. Qual seria uma boa hipótese para essa pergunta?',
     tip: 'Uma boa hipótese é uma explicação possível e testável, relacionada diretamente com a pergunta da pesquisa.',
@@ -166,6 +177,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Para testar essa hipótese, o cientista deveria:',
     tip: 'Sem um grupo de comparação, fica impossível saber se foi realmente a música que fez diferença, ou outra coisa qualquer.',
@@ -181,6 +193,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Nesse experimento, o grupo de plantas que NÃO recebe música é chamado de:',
     tip: 'O "grupo de controle" é aquele que fica sem a mudança que está sendo testada — ele serve de comparação para o outro grupo.',
@@ -196,6 +209,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Se, ao final do experimento, as plantas com música cresceram igual às sem música, o que o cientista deve concluir?',
     tip: 'Um resultado "sem diferença" também é uma resposta científica válida — não significa que o experimento falhou.',
@@ -211,6 +225,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Por que é importante anotar todos os passos de um experimento em um caderno de ciências?',
     tip: 'Pensa em como seria difícil repetir uma receita de bolo sem anotar os ingredientes e o passo a passo — com experimentos é a mesma coisa!',
@@ -226,6 +241,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Qual das opções abaixo é um exemplo de observação, e não de opinião?',
     tip: 'Uma observação científica é algo que pode ser medido ou verificado por qualquer pessoa, sem depender de gostos pessoais.',
@@ -241,6 +257,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Um cientista mediu a altura de uma planta todos os dias durante um mês. Isso é um exemplo de:',
     tip: 'Medir e registrar algo repetidamente, como a altura da planta, é uma forma de coletar dados através da observação.',
@@ -256,6 +273,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'As conclusões de uma pesquisa científica devem ser baseadas em:',
     tip: 'A ciência busca conclusões que possam ser comprovadas por evidências reais, não apenas por achismos.',
@@ -271,6 +289,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Se um experimento é repetido várias vezes por diferentes pessoas e sempre dá o mesmo resultado, isso torna a conclusão:',
     tip: 'Pensa: se várias pessoas diferentes, em lugares diferentes, chegam ao mesmo resultado, isso é um bom sinal de que a descoberta é verdadeira.',
@@ -286,6 +305,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'A Ciência está sempre:',
     tip: 'Pensa em quantas descobertas novas aparecem todos os anos, em áreas como medicina, espaço e tecnologia — a ciência nunca "para"!',
@@ -301,6 +321,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Bernardo quis saber se as plantas de sua casa crescem mais perto da janela, onde tem mais luz. Qual seria uma boa pergunta científica para começar essa investigação?',
     tip: 'Uma boa pergunta científica precisa ser testável através de observação e experimentos — pense em qual dessas opções pode ser investigada dessa forma.',
@@ -316,6 +337,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Bernardo decidiu colocar uma planta perto da janela e outra num canto escuro do quarto, cuidando das duas do mesmo jeito. Isso é um exemplo de:',
     tip: 'Repare que Bernardo manteve tudo igual entre as duas plantas, exceto a quantidade de luz — isso é exatamente o cuidado de um experimento bem planejado.',
@@ -331,6 +353,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Depois de duas semanas, Bernardo mediu as duas plantas e anotou os resultados em uma tabela. Essa atitude mostra a importância de:',
     tip: 'Confiar só na memória pode fazer a gente esquecer detalhes importantes — por isso anotar em uma tabela é tão útil.',
@@ -346,6 +369,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Se a planta perto da janela cresceu mais que a do canto escuro, qual conclusão Bernardo pode tirar, com base nesse experimento?',
     tip: 'É importante que a conclusão fique restrita ao que foi observado nesse experimento específico, sem generalizar demais para todas as situações.',
@@ -361,6 +385,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Instrumentos científicos',
     type: 'multiple_choice',
     text: 'Bernardo quis usar um microscópio na aula de ciências para observar uma folha de perto. O microscópio serve para:',
     tip: 'Pensa em detalhes bem pequenos de uma folha, como suas células, que não conseguimos ver só com os olhos.',
@@ -376,6 +401,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Práticas de laboratório',
     type: 'multiple_choice',
     text: 'Na aula de laboratório, a professora pediu para Bernardo usar óculos de proteção antes de manipular um material desconhecido. Isso é importante para:',
     tip: 'Pensa em materiais desconhecidos que podem reagir de forma inesperada — a proteção existe para evitar acidentes.',
@@ -391,6 +417,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Bernardo repetiu o experimento das plantas com um amigo, em outra casa, e obteve o mesmo resultado: mais luz, mais crescimento. Isso é importante porque:',
     tip: 'Lembre da questão sobre repetição de experimentos — quando o mesmo resultado aparece em lugares e situações diferentes, isso aumenta a confiança na descoberta.',
@@ -406,6 +433,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Bernardo apresentou seus resultados para a turma, mostrando a tabela com as medidas das plantas. Essa etapa do método científico é chamada de:',
     tip: 'Depois de coletar e analisar os dados, os cientistas costumam compartilhar o que descobriram com outras pessoas — essa etapa tem um nome específico.',
@@ -421,6 +449,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Se um colega de Bernardo disser "eu acho que a Terra é redonda só porque me falaram", isso é diferente da ciência porque:',
     tip: 'Pensa na diferença entre "acreditar porque alguém falou" e "acreditar porque existem provas e experimentos que confirmam".',
@@ -436,6 +465,7 @@ export const questoesCiencias6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Investigação científica',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que ser cientista é, principalmente:',
     tip: 'Pensa em tudo que Bernardo praticou nesse simulado: observar, criar hipóteses, testar e registrar resultados — isso é o coração da ciência.',
