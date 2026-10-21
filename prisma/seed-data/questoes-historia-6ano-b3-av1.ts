@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Como eram chamadas as cidades-estado da Grécia Antiga?',
     tip: 'É uma palavra grega curtinha que deu origem a "política" e "metrópole" — pensa nisso!',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Quais eram as duas pólis mais famosas e poderosas da Grécia Antiga?',
     tip: 'São os nomes mais famosos que aparecem em filmes e desenhos sobre a Grécia Antiga.',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'O sistema político criado em Atenas, em que os cidadãos podiam participar das decisões, é chamado de:',
     tip: 'É uma palavra que a gente usa até hoje para falar do governo do Brasil!',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Na Grécia Antiga, quem podia participar das decisões políticas em Atenas?',
     tip: 'Pensa bem: naquela época, nem todo mundo tinha os mesmos direitos — mulheres, estrangeiros e escravizados ficavam de fora.',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Esparta era conhecida principalmente por sua:',
     tip: 'Pensa em uma pólis onde os meninos treinavam para a guerra desde muito pequenos.',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'A palavra "democracia" tem origem grega e significa:',
     tip: '"Demo" quer dizer povo, e "cracia" quer dizer governo — junta as duas partes!',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Além de Atenas e Esparta, a Grécia Antiga era formada por:',
     tip: 'Lembra que "pólis" significa cidade-estado — existiam muitas delas, não só duas.',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Por que as pólis gregas eram independentes umas das outras?',
     tip: 'Pensa em cada pólis como uma "cidade-país" pequena, com regras só dela.',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Os meninos espartanos, desde pequenos, eram preparados principalmente para:',
     tip: 'Volta na questão 5 — qual era o grande foco da educação em Esparta?',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'O que significa dizer que a Grécia Antiga foi "berço da democracia"?',
     tip: '"Berço" aqui quer dizer "lugar onde algo nasceu" — pensa no que nasceu ali, estudado nas questões 3 e 6.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Se um cidadão ateniense discordasse de uma lei, o que ele poderia fazer na democracia ateniense?',
     tip: 'Pensa no que significa "democracia" — o povo tinha voz nas decisões.',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Por que nem todo mundo podia votar na democracia de Atenas, mesmo sendo chamada de "governo do povo"?',
     tip: 'Lembra da questão 4 — quem exatamente era considerado "cidadão" em Atenas?',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Um menino nascido em Esparta passava a maior parte da infância treinando para a guerra. O que isso mostra sobre os valores dessa pólis?',
     tip: 'Volta nas questões 5 e 9 — no que Esparta mais investia na formação dos seus jovens?',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Comparando Atenas e Esparta, é correto dizer que:',
     tip: 'Junta o que você aprendeu sobre a democracia em Atenas com o foco militar de Esparta.',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Se cada pólis grega tinha seu próprio governo e leis, o que isso significa sobre a "Grécia Antiga" como um todo?',
     tip: 'Volta na questão 8 — o que caracteriza cada pólis grega?',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Por que é importante estudar a democracia ateniense até hoje?',
     tip: 'Pensa em como o Brasil também tem eleições e votação — de onde será que vem essa ideia?',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Imagine que duas pólis gregas, como Atenas e Esparta, entrassem em conflito. O que isso mostra sobre a relação entre as cidades-estado?',
     tip: 'Lembra que cada pólis tinha seu próprio governo — o que pode acontecer quando dois governos diferentes discordam?',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Por que a organização política da Grécia Antiga é diferente da de um império, como o egípcio, governado por um só faraó?',
     tip: 'Pensa no que aprendeu sobre o Egito Antigo (governado por um faraó) e compare com o que estudou sobre as pólis gregas.',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Um cidadão espartano treinado desde criança para lutar reflete qual característica da sociedade de Esparta?',
     tip: 'É a mesma característica que você já viu nas questões 5, 9 e 13 sobre Esparta.',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Por que se diz que a participação política em Atenas era limitada, mesmo sendo uma democracia?',
     tip: 'Volta nas questões 4 e 12 — quem tinha, de fato, o direito de participar das decisões?',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Bernardo está montando uma apresentação sobre a Grécia Antiga e precisa explicar o que era uma "pólis". O que ele deve dizer?',
     tip: 'É a mesma palavra e definição da questão 1!',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'No trabalho, Bernardo compara duas pólis famosas. Quais nomes ele deve usar como exemplo?',
     tip: 'São as duas pólis gregas mais estudadas, que aparecem em quase todas as questões deste simulado.',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'A professora pergunta a Bernardo o nome do sistema político criado em Atenas, no qual os cidadãos participavam das decisões. Qual é a resposta certa?',
     tip: 'Volta nas questões 3 e 6 — qual é o nome desse sistema de governo?',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Bernardo lê que, em Atenas, apenas alguns moradores podiam votar. Ele pergunta ao professor quem eram essas pessoas. A resposta correta é:',
     tip: 'É a mesma resposta das questões 4 e 12.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Bernardo faz um desenho de um menino espartano treinando com uma lança desde pequeno. Isso representa qual característica de Esparta?',
     tip: 'Volta nas questões 5, 9, 13 e 19 sobre o que era mais valorizado em Esparta.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'No quiz de Bernardo, a pergunta é: "Que palavra grega significa \'governo do povo\'?" Qual é a resposta?',
     tip: 'É a mesma resposta e explicação da questão 6.',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à mãe por que a Grécia Antiga não era um único país, mas várias cidades diferentes. O que ela pode responder?',
     tip: 'Volta nas questões 7, 8 e 15 sobre como era organizada a Grécia Antiga.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Ao montar a linha do tempo, Bernardo posiciona a Grécia Antiga depois do Egito e da Mesopotâmia. Isso ajuda a mostrar que a Grécia:',
     tip: 'Pensa em tudo que você já estudou: Pré-História, Mesopotâmia, Egito e agora Grécia — elas fazem parte de uma mesma linha do tempo!',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao pai por que Esparta e Atenas eram tão diferentes, mesmo sendo as duas gregas. O pai explica que:',
     tip: 'Volta na questão 14, que já comparou essas duas pólis.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume: "A Grécia Antiga é importante porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre democracia e pólis.',

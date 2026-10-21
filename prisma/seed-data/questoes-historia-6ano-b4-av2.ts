@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'O período da história marcado pelo uso de pedra lascada, caça e coleta, antes da agricultura, é chamado de:',
     tip: 'É o primeiro grande período da Pré-História, antes das pessoas aprenderem a plantar.',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'A capacidade de plantar e cultivar alimentos, desenvolvida no período Neolítico, é chamada de:',
     tip: 'Pensa na atividade de plantar sementes e colher alimentos, que mudou totalmente a vida dos povos antigos.',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Os rios Tigre e Eufrates estão ligados a qual civilização antiga?',
     tip: 'É a civilização cujo nome significa "terra entre rios".',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'O rio Nilo é o rio mais importante para qual civilização antiga?',
     tip: 'Pensa na civilização das pirâmides e dos faraós, no norte da África.',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'O sistema político criado em Atenas, com participação dos cidadãos nas decisões, é chamado de:',
     tip: 'É uma palavra de origem grega que significa "governo do povo".',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Roma Antiga',
     type: 'multiple_choice',
     text: 'Segundo a lenda, Roma foi fundada por dois irmãos criados por uma loba. Como eles se chamavam?',
     tip: 'Um dos dois nomes deu origem ao próprio nome da cidade de Roma!',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'O Código de Hamurábi, um dos primeiros conjuntos de leis escritas da história, pertence a qual civilização?',
     tip: 'É a mesma civilização dos rios Tigre e Eufrates.',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'As pirâmides mais famosas, construídas para servir de túmulo para faraós, ficam em qual civilização?',
     tip: 'É a mesma civilização do rio Nilo e dos hieróglifos.',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O deus considerado "rei dos deuses" na mitologia grega, homenageado nos Jogos Olímpicos da Antiguidade, é:',
     tip: 'É o deus que morava no Monte Olimpo e segurava um raio como símbolo de poder.',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'O sistema de governo romano em que várias pessoas participavam das decisões, sem um rei, era chamado de:',
     tip: 'É a mesma palavra usada até hoje para o sistema de governo do Brasil.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Colocando em ordem cronológica, qual é a sequência correta dos períodos e civilizações estudados neste ano?',
     tip: 'Pensa em qual veio primeiro: os caçadores da Pré-História ou as cidades com escrita e leis?',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O que a Pré-História e a Mesopotâmia têm em comum, em relação ao uso de ferramentas e conhecimentos?',
     tip: 'Pensa em como a humanidade foi, aos poucos, desenvolvendo mais tecnologia e conhecimento ao longo do tempo.',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Por que tanto o Egito quanto a Mesopotâmia se desenvolveram perto de grandes rios?',
     tip: 'Pensa em tudo que um rio pode oferecer para uma civilização que vive da agricultura.',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre a democracia ateniense e a monarquia egípcia?',
     tip: 'Pensa em quem tomava as decisões em cada uma dessas civilizações.',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Assim como os gregos tinham suas pólis independentes, os romanos, na fase da República, também tinham uma forma de organização política baseada em:',
     tip: 'Pensa nos dois grupos sociais estudados no simulado sobre Roma.',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Tanto a escrita cuneiforme (Mesopotâmia) quanto os hieróglifos (Egito) mostram que essas civilizações:',
     tip: 'Pensa no que os dois tipos de escrita tinham em comum, mesmo sendo diferentes um do outro.',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O que a mitologia grega e a religião egípcia (com vários deuses) têm em comum?',
     tip: 'Pensa em quantos deuses diferentes cada uma dessas civilizações cultuava.',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Comparando o Código de Hamurábi com as leis criadas mais tarde em Roma, o que isso mostra sobre as civilizações antigas?',
     tip: 'Pensa em como diferentes povos antigos, cada um à sua maneira, criaram regras para viver em sociedade.',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Por que estudar a Pré-História, a Mesopotâmia, o Egito, a Grécia e Roma ajuda a entender o mundo de hoje?',
     tip: 'Pensa em tudo que você aprendeu este ano: escrita, leis, democracia, estradas — muita coisa ainda existe hoje!',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Se Bernardo quisesse montar uma linha do tempo com tudo que estudou neste ano, qual seria a ordem correta?',
     tip: 'É a mesma ordem cronológica da questão 11.',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Primeiras sociedades humanas',
     type: 'multiple_choice',
     text: 'Bernardo está organizando um grande mural na escola com tudo que aprendeu de História neste ano. No início do mural, ele coloca imagens de pessoas caçando com lanças de pedra. A qual período isso se refere?',
     tip: 'É o período mais antigo estudado, com caça, coleta e ferramentas de pedra.',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Mais à frente no mural, Bernardo cola a imagem de uma tábua de argila cheia de símbolos em formato de cunha. A que civilização isso pertence?',
     tip: 'É a civilização da escrita cuneiforme, feita em tábuas de argila.',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Bernardo também coloca a imagem de uma pirâmide e de uma múmia no mural. A qual civilização essas imagens pertencem?',
     tip: 'São símbolos bem famosos dessa civilização do rio Nilo.',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Logo depois, Bernardo cola a imagem do Monte Olimpo e de atletas competindo. A que civilização e evento isso se refere?',
     tip: 'Pensa na civilização que homenageava Zeus com competições esportivas.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Para fechar o mural, Bernardo cola a imagem de uma loba cuidando de dois bebês e de um grande anfiteatro. A que civilização isso se refere?',
     tip: 'É a mesma civilização da lenda de Rômulo e Remo e do Coliseu.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Ao explicar o mural para a turma, Bernardo diz que todas essas civilizações antigas têm algo em comum: desenvolveram formas de organizar a sociedade, criar regras e, muitas vezes, registrar tudo por escrito. Essa frase resume bem:',
     tip: 'Pensa em tudo que você viu sobre escrita e leis em Mesopotâmia, Egito e Roma.',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Bernardo explica que, apesar de tão diferentes, Mesopotâmia, Egito, Grécia e Roma tiveram algo em comum na escolha de onde se estabelecer. O que foi?',
     tip: 'Pensa nos rios e mares que apareceram em quase todas as civilizações estudadas este ano.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Direitos e participação',
     type: 'multiple_choice',
     text: 'Na revisão para a prova, Bernardo cria a pergunta: "Qual civilização é conhecida por criar a democracia?" Qual é a resposta certa?',
     tip: 'É a mesma civilização de Atenas e do Monte Olimpo.',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Bernardo também pergunta: "Qual civilização é conhecida por criar a República e pela lenda da loba que criou dois irmãos?" Qual é a resposta?',
     tip: 'É a mesma civilização de Rômulo, Remo e do Coliseu.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Para encerrar sua apresentação sobre o ano inteiro de História, Bernardo resume: "Estudamos várias civilizações antigas e descobrimos que..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você revisou neste simulado sobre as cinco civilizações estudadas este ano.',

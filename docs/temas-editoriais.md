@@ -754,3 +754,39 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-cie
 A quantidade de temas acompanha o conteúdo: B1/AV1, B1/AV2, B2/AV1, B2/AV2 e B3/AV1 têm três cada; B3/AV2 tem cinco; B4/AV1, quatro; B4/AV2 revisa treze. Os campos anteriores foram preservados exatamente.
 
 Os problemas anteriores de ebulição, exclusividade da parede celular, hipótese de ausência de rotação, vapor visível, exemplo infantil com naftalina, água doce/potabilidade e redação de hipótese estão na [issue web #97](https://github.com/guilhermeborba/simulados-bernardo/issues/97), com referências para revisão editorial separada. Este lote de temas não corrige nem valida cientificamente essas afirmações: apenas as classifica e preserva o conteúdo anterior.
+
+### História — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Cultura e identidade | Crenças, deuses, mitos, práticas funerárias, espetáculos e heranças linguísticas das sociedades antigas. |
+| Direitos e participação | Participação política, democracia ateniense, limites da cidadania e conquistas de direitos na sociedade romana. |
+| Egito Antigo | Localização, rio Nilo, monumentos, arquitetura funerária e sínteses da civilização egípcia. |
+| Expressões artísticas | Teatro grego, suas funções e relações com deuses, heróis e sociedade. |
+| Festas e tradições | Jogos da Antiguidade, celebrações religiosas, atletas, trégua e relações com os jogos atuais. |
+| Filosofia | Significado, reflexão, questionamento, filósofos e legado do pensamento grego. |
+| Grécia Antiga | Pólis, autonomia das cidades, Atenas e Esparta, formação militar e sínteses da civilização grega. |
+| História e memória | Objeto de estudo da História e transformações humanas ao longo do tempo. |
+| Mesopotâmia | Localização, rios, cidades, zigurates e sínteses da civilização mesopotâmica. |
+| Organização social | Divisão de tarefas, leis, códigos, autoridades, governos, instituições e hierarquias sociais. |
+| Primeiras sociedades humanas | Modos de vida, nomadismo, sedentarização, agricultura, aldeias e mudanças entre os primeiros grupos humanos. |
+| Produção de alimentos | Cultivo, domesticação, recursos dos animais, excedentes e condições de irrigação e fertilidade. |
+| Registros do passado | Fontes históricas, vestígios, pinturas rupestres, escrita, suportes e profissionais dos registros. |
+| Roma Antiga | Localização, lenda da fundação e sínteses das contribuições da civilização romana. |
+| Sociedades da Antiguidade | Comparações entre civilizações, reconhecimento de sua localização ou de seus vestígios e sínteses de legados comuns. |
+| Tempo histórico | Contagem, organização do tempo, periodização e linhas do tempo presentes no conteúdo. |
+| Trabalho e tecnologia | Ferramentas, domínio do fogo, cerâmica, roda, engenharia, construções e infraestrutura. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-historia-6ano-b*-av*.ts`. Não há entradas privadas adicionais desse ano/disciplina no seed. O vocabulário de 17 temas reaproveita os nomes dos anos anteriores quando o objetivo corresponde; os nomes novos agrupam as primeiras sociedades, a produção de alimentos, as civilizações antigas e a filosofia.
+
+A classificação considera o objetivo e as alternativas de cada questão. **Primeiras sociedades humanas** reúne modos de vida e suas transformações, sem usar como rótulo o nome do período, do nomadismo, da sedentarização ou da agricultura que pode ser a resposta. A identificação da agricultura em B1/AV2, ID 21, e B4/AV2, ID 2, usa esse tema amplo. **Produção de alimentos** concentra recursos animais, cultivos, excedentes, água e condições das plantações; a especialização de tarefas decorrente dos excedentes usa **Organização social**. Ferramentas, fogo, cerâmica e obras públicas mantêm **Trabalho e tecnologia**.
+
+**Registros do passado** reúne fontes e escrita, incluindo as pinturas rupestres e a atividade dos escribas. **Tempo histórico** descreve o objetivo das perguntas de periodização e linha do tempo; a classificação não valida a precisão histórica das formulações anteriores. **Direitos e participação** cobre democracia e cidadania, sem antecipar o nome do sistema político. **Organização social** cobre leis, governos, autoridades e grupos sociais, sem usar como tema o nome do código, governante ou instituição solicitado.
+
+Os nomes **Mesopotâmia**, **Egito Antigo**, **Grécia Antiga** e **Roma Antiga** só são usados quando a civilização já é dada pelo enunciado ou o nome não resolve a tarefa. A invenção da roda em B2/AV1, ID 9, usa **Trabalho e tecnologia**, pois a alternativa correta identifica o povo mesopotâmico. Na revisão B4/AV2, identificar a civilização dos rios (IDs 3 e 4), do código (ID 7), dos monumentos (IDs 8 e 23), dos jogos (ID 24) e da lenda e dos legados romanos (IDs 25 e 29) usa **Sociedades da Antiguidade**, preservando a identificação como tarefa do aluno. A escrita em argila no ID 22 mantém **Registros do passado**; reconhecer a origem da democracia no ID 28 mantém **Direitos e participação**.
+
+**Cultura e identidade** cobre crenças e mitos, práticas funerárias e herança linguística. O teatro mantém **Expressões artísticas**; as celebrações e competições, **Festas e tradições**; reflexão e pensadores, **Filosofia**. Os temas não recebem o nome do deus, herói, local, evento ou filósofo que o aluno precisa identificar.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 e B2/AV1 têm cinco; B1/AV2 e B3/AV1, quatro; B2/AV2, sete; B3/AV2, cinco; B4/AV1, seis; B4/AV2 revisa dez. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura dos simulados.
+
+A definição anterior de cidadania ateniense em B3/AV1, IDs 4 e 24, que associa os direitos políticos a homens livres nascidos na cidade sem delimitar ascendência, idade e período histórico, foi registrada na [issue web #99](https://github.com/guilhermeborba/simulados-bernardo/issues/99), com fonte primária para revisão separada. As alternativas e explicações foram preservadas no lote de temas.

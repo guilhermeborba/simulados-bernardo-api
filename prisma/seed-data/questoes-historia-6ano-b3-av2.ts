@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Os gregos antigos acreditavam em vários deuses. Esse conjunto de crenças é chamado de:',
     tip: 'Pensa nas histórias de deuses e heróis gregos que você já deve ter visto em filmes ou desenhos.',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Quem era considerado o "rei dos deuses" na mitologia grega?',
     tip: 'É o deus mais poderoso, associado a raios e trovões — o "chefe" do Monte Olimpo.',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Onde os gregos antigos acreditavam que os deuses viviam?',
     tip: 'É uma montanha bem alta, que até deu nome aos Jogos Olímpicos!',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Os Jogos Olímpicos da Antiguidade eram realizados em homenagem a qual deus?',
     tip: 'É o mesmo deus "chefe" que mora no Monte Olimpo.',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Além dos deuses, os gregos também contavam histórias sobre heróis, como:',
     tip: 'Pense em um herói famoso, conhecido pela força, que enfrentava monstros nas histórias gregas.',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'O teatro grego era uma forma importante de arte e contava histórias sobre:',
     tip: 'Pensa em tudo que os gregos gostavam de contar em suas histórias — deuses, heróis, guerras.',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Filosofia',
     type: 'multiple_choice',
     text: 'A palavra "filosofia" tem origem grega e significa:',
     tip: '"Filo" quer dizer amor, e "sofia" quer dizer sabedoria — junta as duas partes!',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Filosofia',
     type: 'multiple_choice',
     text: 'Qual destes é considerado um famoso filósofo grego da Antiguidade?',
     tip: 'Os outros nomes são de um rei da Mesopotâmia, um faraó egípcio e um general romano — nenhum deles é grego!',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Os primeiros Jogos Olímpicos da Antiguidade aconteciam na cidade de:',
     tip: 'O nome da cidade é bem parecido com o nome dos próprios jogos!',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Por que os Jogos Olímpicos antigos eram tão importantes para os gregos?',
     tip: 'Pensa em duas coisas importantes para os gregos: a religião (deuses) e a relação entre as pólis.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Se um grego antigo quisesse explicar por que havia trovões e relâmpagos, ele provavelmente diria que era obra de:',
     tip: 'Lembra qual deus segura um raio como símbolo de poder?',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que os mitos gregos, com deuses e heróis, eram importantes para a sociedade da época?',
     tip: 'Pensa no que a questão 11 mostrou sobre os trovões — os mitos serviam para explicar o quê?',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Imagine um atleta grego se preparando para competir nos Jogos Olímpicos da Antiguidade. Isso mostra que os gregos valorizavam:',
     tip: 'Pensa no motivo dos jogos existirem, estudado na questão 10.',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Filosofia',
     type: 'multiple_choice',
     text: 'Por que Sócrates é lembrado até hoje na história da filosofia?',
     tip: 'Volta na questão 8 — o que fazia dele um filósofo tão especial?',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se uma peça de teatro grego contava a história de um herói enfrentando um monstro, isso mostra que o teatro servia para:',
     tip: 'Volta na questão 6 — para que servia o teatro grego, além de contar histórias?',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Por que os Jogos Olímpicos da Antiguidade aconteciam sempre na mesma cidade, Olímpia?',
     tip: 'Lembra a quem os jogos eram dedicados — por que a cidade escolhida tinha esse significado?',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O que a existência de vários deuses, cada um com uma função (mar, guerra, sabedoria, etc.), revela sobre a mitologia grega?',
     tip: 'Pensa em como cada deus (Zeus do trovão, Poseidon do mar) cuidava de uma parte diferente do mundo.',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Filosofia',
     type: 'multiple_choice',
     text: 'Por que a filosofia grega é considerada uma base importante para o pensamento ocidental até hoje?',
     tip: 'Pensa no significado da palavra "filosofia" — sobre que tipo de assunto ela se debruçava?',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Durante os Jogos Olímpicos antigos, as guerras entre as pólis gregas muitas vezes eram interrompidas. O que isso demonstra?',
     tip: 'Volta na questão 10 — o que os Jogos Olímpicos representavam para a relação entre as pólis?',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Por que podemos dizer que a cultura grega (mitologia, teatro, filosofia e jogos) deixou uma grande herança para o mundo?',
     tip: 'Pensa nos Jogos Olímpicos modernos, no teatro, na filosofia estudada em escolas — tudo isso ainda existe hoje!',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo está desenhando o Monte Olimpo para o trabalho de História. Ele explica à turma que ali os gregos acreditavam que viviam:',
     tip: 'É a mesma resposta da questão 3.',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Na apresentação, Bernardo mostra a imagem de um deus segurando um raio e explica que ele é o "rei dos deuses" na mitologia grega. De quem ele está falando?',
     tip: 'É o mesmo deus das questões 2, 4 e 11.',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Bernardo monta uma pequena pista de corrida na escola para representar uma competição da Grécia Antiga, feita em homenagem aos deuses. Que evento ele está representando?',
     tip: 'Volta nas questões 4, 9 e 10 sobre esse grande evento esportivo grego.',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Filosofia',
     type: 'multiple_choice',
     text: 'No quiz de Bernardo, a pista é: "Sou um filósofo grego famoso por fazer perguntas que faziam as pessoas pensarem." Quem é a resposta?',
     tip: 'É o mesmo filósofo das questões 8 e 14.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao pai por que os gregos antigos contavam tantas histórias sobre deuses e heróis. O pai explica que:',
     tip: 'Volta na questão 12 sobre a função dos mitos gregos.',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Na peça de teatro que a turma de Bernardo vai apresentar, inspirada na Grécia Antiga, o enredo mistura deuses, heróis e uma lição de vida. Isso mostra que o teatro grego servia para:',
     tip: 'Volta nas questões 6 e 15 sobre a função do teatro na Grécia Antiga.',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Filosofia',
     type: 'multiple_choice',
     text: 'Bernardo explica ao colega que a palavra "filosofia" vem do grego e quer dizer:',
     tip: 'É a mesma explicação da questão 7.',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora por que os Jogos Olímpicos aconteciam sempre na cidade de Olímpia. Ela explica que:',
     tip: 'É a mesma explicação da questão 16.',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Festas e tradições',
     type: 'multiple_choice',
     text: 'Bernardo resume para a turma: "Os Jogos Olímpicos hoje em dia têm uma ligação direta com:" Como ele deve completar a frase?',
     tip: 'Volta na questão 20 sobre a herança deixada pela cultura grega.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Grécia Antiga',
     type: 'multiple_choice',
     text: 'Para encerrar sua apresentação sobre a cultura grega, Bernardo resume: "A Grécia Antiga nos deixou de herança..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado — mitologia, filosofia, teatro e jogos.',

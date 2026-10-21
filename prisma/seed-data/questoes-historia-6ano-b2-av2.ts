@@ -1,6 +1,7 @@
 export const questoesHistoria6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'O rio mais importante para o Egito Antigo é:',
     tip: 'É um rio bem comprido, na África, que corta o Egito de ponta a ponta.',
@@ -16,6 +17,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'O governante do Egito Antigo era chamado de:',
     tip: 'É uma palavra bem famosa, associada às pirâmides e às múmias — você já deve ter ouvido em filmes ou desenhos!',
@@ -31,6 +33,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'As pirâmides do Egito eram construídas para quê?',
     tip: 'Pensa em quem era enterrado lá dentro, junto com objetos valiosos, para a vida após a morte.',
@@ -46,6 +49,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Como eram chamados os símbolos usados na escrita egípcia?',
     tip: 'Pensa em desenhinhos de pássaros, olhos e outras figuras usados para escrever — bem diferente das nossas letras.',
@@ -61,6 +65,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O processo de preservar o corpo dos mortos no Egito Antigo era chamado de:',
     tip: 'Pensa no corpo enfaixado, guardado em uma pirâmide — como esse processo é chamado?',
@@ -76,6 +81,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Por que o rio Nilo era tão importante para os egípcios?',
     tip: 'Lembra do que acontecia com a Mesopotâmia quando os rios enchiam? Aqui é parecido!',
@@ -91,6 +97,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Os egípcios acreditavam em vários deuses. Esse tipo de crença é chamado de:',
     tip: '"Poli" quer dizer "muitos" — pensa em quantos deuses os egípcios cultuavam.',
@@ -106,6 +113,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Quem eram os escribas no Egito Antigo?',
     tip: 'Pensa em quem sabia usar os hieróglifos para escrever documentos importantes.',
@@ -121,6 +129,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Um material feito a partir de uma planta do rio Nilo, usado para escrever, era chamado de:',
     tip: 'É o nome que até hoje lembra "papel" — vem dessa planta que crescia às margens do Nilo.',
@@ -136,6 +145,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'As pirâmides mais famosas do Egito ficam localizadas em:',
     tip: 'É uma região do próprio Egito, perto da capital Cairo.',
@@ -151,6 +161,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'Por que os egípcios construíam pirâmides tão grandes e resistentes?',
     tip: 'Lembra para que servia a pirâmide? Pensa em como preservar algo importante por muitos anos.',
@@ -166,6 +177,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Se um egípcio antigo quisesse escrever uma mensagem importante, o que ele usaria?',
     tip: 'Pensa no material feito de planta e na escrita cheia de desenhos que os egípcios usavam juntos.',
@@ -181,6 +193,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que o processo de mumificação era feito com tanto cuidado?',
     tip: 'Pensa em por que alguém guardaria com tanto cuidado o corpo de uma pessoa que faleceu — o que os egípcios achavam que vinha depois da morte?',
@@ -196,6 +209,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Produção de alimentos',
     type: 'multiple_choice',
     text: 'Imagine que o rio Nilo não tivesse cheias todos os anos. O que poderia acontecer com a agricultura egípcia?',
     tip: 'Lembra que as cheias deixavam terra fértil? Sem elas, o que faltaria para as plantações?',
@@ -211,6 +225,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que a função dos escribas era tão valorizada no Egito Antigo?',
     tip: 'Por que saber escrever era algo tão raro e importante naquela época?',
@@ -226,6 +241,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O que o politeísmo egípcio (acreditar em vários deuses) mostra sobre a cultura deles?',
     tip: 'Pensa em quantos deuses diferentes os egípcios cultuavam e para que cada um servia.',
@@ -241,6 +257,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que o papiro foi uma invenção importante para os egípcios?',
     tip: 'Pensa em como o papiro ajudava os escribas a fazer seu trabalho de escrever e guardar informações.',
@@ -256,6 +273,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Um faraó era mais do que um governante político. Isso porque os egípcios também o consideravam:',
     tip: 'O que os egípcios pensavam sobre a natureza do faraó, além de ser um governante?',
@@ -271,6 +289,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Se arqueólogos encontram hieróglifos em uma parede de um templo egípcio, o que isso pode ajudar a descobrir?',
     tip: 'Lembra que os hieróglifos eram uma forma de escrita — o que uma escrita antiga pode contar para nós hoje?',
@@ -286,6 +305,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Por que as pirâmides são consideradas até hoje grandes obras de engenharia?',
     tip: 'Pensa no tamanho e no peso dos blocos de pedra usados, e em como eles foram encaixados com tanta precisão sem as máquinas modernas.',
@@ -301,6 +321,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'Bernardo está desenhando uma pirâmide para o trabalho de História. Ao lado dela, ele desenha um rio bem comprido. Que rio é esse?',
     tip: 'É o mesmo rio que aparece nas questões 1 e 6, o mais importante para o Egito.',
@@ -316,6 +337,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Na apresentação, Bernardo precisa explicar quem mandava no Egito Antigo. O que ele deve dizer?',
     tip: 'Qual era o título do governante egípcio?',
@@ -331,6 +353,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo encontrou uma foto de uma pessoa enfaixada, preservada há milhares de anos. Como se chama esse corpo preservado?',
     tip: 'Lembra do processo estudado para preservar corpos no Egito Antigo?',
@@ -346,6 +369,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo viu, num livro, desenhos de pássaros, olhos e outros símbolos formando frases. Que tipo de escrita é essa?',
     tip: 'É a mesma escrita cheia de desenhos que aparece nas questões 4, 12 e 19.',
@@ -361,6 +385,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Na maquete de Bernardo, ele cola um pedacinho de "papel" feito de planta, imitando o material usado pelos egípcios para escrever. Que material é esse?',
     tip: 'Lembra da planta do rio Nilo usada para fazer esse material?',
@@ -376,6 +401,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à mãe por que os egípcios cuidavam tanto do corpo dos mortos. Qual é a explicação correta?',
     tip: 'O que os egípcios pensavam que acontecia depois que uma pessoa morria?',
@@ -391,6 +417,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Sociedades da Antiguidade',
     type: 'multiple_choice',
     text: 'Ao montar a linha do tempo, Bernardo posiciona o Egito Antigo próximo à Mesopotâmia, ambos entre as primeiras civilizações. O que essas duas civilizações têm em comum?',
     tip: 'Pensa no Nilo, no Egito, e no Tigre e Eufrates, na Mesopotâmia — o que eles têm em comum na vida dessas civilizações?',
@@ -406,6 +433,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Organização social',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao professor por que o faraó era tão respeitado. O professor explica que:',
     tip: 'O faraó não era só um governante comum, era também ligado a quê?',
@@ -421,6 +449,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'No quiz de Bernardo, a pista é: "Fui construída para guardar o corpo de um faraó e sou uma das maiores construções da Antiguidade." Qual é a resposta?',
     tip: 'Pensa na construção mais famosa do Egito, estudada logo na questão 3.',
@@ -436,6 +465,7 @@ export const questoesHistoria6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Egito Antigo',
     type: 'multiple_choice',
     text: 'Para encerrar sua apresentação, Bernardo resume: "O Egito Antigo foi uma civilização incrível porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre escrita, construções e organização social egípcia.',
