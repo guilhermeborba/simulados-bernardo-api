@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Como se diz "acordar" em inglês?',
     tip: 'Pensa na primeira coisa que você faz de manhã, ao abrir os olhos.',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: '"Study" significa:',
     tip: 'É o que você faz quando está fazendo a lição de casa ou se preparando para uma prova.',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Como se diz "brincar/jogar" em inglês?',
     tip: 'Pensa no que você faz no recreio ou depois da escola, com os amigos.',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: '"Sleep" significa:',
     tip: 'É o oposto de "wake up" (acordar).',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Como se diz "comer" em inglês?',
     tip: 'Pensa no verbo usado nas refeições, como café da manhã, almoço e jantar.',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: '"Brush" (como em "brush my teeth") significa:',
     tip: 'Pensa no que fazemos com os dentes antes de dormir e ao acordar.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Como se diz "ir" em inglês?',
     tip: 'Pensa no verbo usado em "eu vou à escola".',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'No presente simples, para falar de uma ação que fazemos todo dia, usamos, por exemplo:',
     tip: 'Pensa na forma mais simples do verbo, sem nenhuma terminação extra, usada com "I".',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "She ___ to school every day." (Ela vai à escola todo dia)',
     tip: 'Com "she", "he" e "it", o verbo no presente simples geralmente ganha uma letra a mais no final.',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'No presente simples, com "he", "she" ou "it", geralmente acrescentamos qual letra no final do verbo?',
     tip: 'Pensa na diferença entre "I play" e "he plays" — o que muda no final?',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "I ___ up at seven o\'clock." (Eu acordo às sete horas)',
     tip: 'Com "I", o verbo no presente simples fica na forma mais simples, sem "-s".',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "He ___ up at seven o\'clock." (Ele acorda às sete horas)',
     tip: 'Volta na questão 10 — o que acontece com o verbo quando usamos "he"?',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Se Bernardo estuda todos os dias depois da escola, a frase correta é:',
     tip: 'Como "Bernardo" equivale a "he", o verbo "study" precisa da terminação certa.',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "They ___ soccer after school." (Eles jogam futebol depois da escola)',
     tip: 'Com "they" (eles/elas), o verbo no presente simples não recebe o "-s".',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "My brother ___ his teeth every morning." (Meu irmão escova os dentes toda manhã)',
     tip: '"My brother" equivale a "he" — pensa na regra do "-s" (ou "-es", nesse caso).',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Se a rotina de Bernardo é acordar, estudar, brincar e dormir, qual verbo representa a última parte do dia?',
     tip: 'Pensa em qual dessas atividades você faz por último, à noite.',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "We ___ lunch at noon." (Nós almoçamos ao meio-dia)',
     tip: 'Com "we", o verbo no presente simples não recebe "-s".',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "My mother ___ breakfast every day." (Minha mãe prepara/come o café da manhã todo dia)',
     tip: '"My mother" equivale a "she" — lembra da regra do "-s" no presente simples?',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Se você quer perguntar a rotina de alguém em inglês, pode perguntar: "What time do you ___ up?"',
     tip: 'Depois de "do you", o verbo volta para a forma simples, sem "-s".',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "The students ___ to school by bus." (Os estudantes vão à escola de ônibus)',
     tip: '"The students" é plural, equivalente a "they" — o verbo não recebe "-s".',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Bernardo conta sua rotina para a turma: "I ___ up at 7 a.m." (Eu acordo às 7h). Qual palavra ele usa?',
     tip: 'É o mesmo verbo das questões 1 e 11.',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Depois de acordar, Bernardo escova os dentes e vai para a escola. Para dizer "eu vou à escola", ele diz:',
     tip: 'Lembra que com "I" o verbo fica na forma simples, sem "-s" — volta na questão 7.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'À tarde, Bernardo faz a lição de casa. Para dizer "eu estudo à tarde", ele usa o verbo:',
     tip: 'É o mesmo verbo da questão 2.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Depois de estudar, Bernardo gosta de jogar bola com os amigos. Para dizer "eu jogo/brinco", ele usa o verbo:',
     tip: 'É o mesmo verbo da questão 3.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'À noite, antes de dormir, Bernardo escova os dentes novamente. Como se diz "escovar" em inglês?',
     tip: 'É o mesmo verbo da questão 6.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Bernardo descreve a rotina do irmão mais velho: "My brother ___ soccer every afternoon." (joga futebol toda tarde). Qual forma do verbo ele usa?',
     tip: '"My brother" equivale a "he" — lembra da regra do "-s" no presente simples?',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Na hora de dormir, Bernardo diz: "I ___ at nine o\'clock." (Eu durmo às nove horas). Qual verbo ele usa?',
     tip: 'É o mesmo verbo da questão 4.',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao colega sobre a rotina dele: "What time do you ___ up?" Qual palavra completa a pergunta?',
     tip: 'É a mesma regra da questão 19, sobre perguntas com "do you".',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Ao descrever a rotina da família toda, Bernardo diz: "We ___ breakfast together every morning." (Nós tomamos café da manhã juntos toda manhã). Qual verbo ele usa?',
     tip: 'Com "we", o verbo no presente simples não recebe "-s" — volta na questão 17.',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação sobre a rotina diária, Bernardo resume que aprendeu a usar verbos no presente simples, como "wake up", "study", "play" e "sleep". Isso mostra que ele já sabe:',
     tip: 'Pensa em tudo que você praticou neste simulado sobre verbos e rotina.',

@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Como se diz "Olá, como vai você?" em inglês?',
     tip: 'É uma combinação de cumprimento e pergunta sobre o bem-estar da pessoa.',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Qual é a forma correta do verbo "to be" com "I"?',
     tip: 'É a mesma forma usada na frase "I am Bernardo".',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Como se diz "mãe" em inglês?',
     tip: 'Pensa na forma carinhosa "mom" ou "mommy", parecida com essa palavra.',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Qual destas é uma cor em inglês?',
     tip: 'As outras opções são um objeto, um dia da semana e um animal — só uma é cor.',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Como se diz "cinco" em inglês?',
     tip: 'Pensa nos dedos de uma mão — quantos são?',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Qual destes é um dia da semana em inglês?',
     tip: 'As outras opções são uma fruta, um objeto escolar e um animal — só uma é dia da semana.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Materiais escolares',
     type: 'multiple_choice',
     text: 'Como se diz "lápis" em inglês?',
     tip: 'Pensa no objeto usado para escrever ou desenhar, que pode ser apagado com borracha.',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Alimentos e bebidas',
     type: 'multiple_choice',
     text: 'Qual destas é uma comida ou bebida em inglês?',
     tip: 'As outras opções são um animal, um dia da semana e um adjetivo — só uma é alimento.',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Como se diz "cachorro" em inglês?',
     tip: 'É o animal de estimação mais comum, conhecido por latir.',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Como se diz "acordar" em inglês?',
     tip: 'Pensa na primeira coisa que você faz ao abrir os olhos de manhã.',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Complete: "___ is my friend." (Ele é meu amigo)',
     tip: 'Pensa em qual pronome usamos para falar de um menino ou homem.',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "This is ___ mother." (Esta é a mãe DELE)',
     tip: 'Pensa no pronome "he" (ele) — qual adjetivo possessivo combina com ele?',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ three apples on the table." (Há três maçãs na mesa)',
     tip: 'Três maçãs é mais de uma coisa — pensa no plural.',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Como se descreve um elefante, que é enorme, em inglês?',
     tip: 'Pensa no oposto de "small" (pequeno).',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Complete: "We ___ friends." (Nós somos amigos)',
     tip: 'Pensa em qual forma do verbo "to be" combina com "we".',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Qual destas frases está correta para dizer "eu estudo todo dia"?',
     tip: 'Com "I", o verbo no presente simples fica na forma mais simples, sem "-s" ou "-ing".',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Presente simples',
     type: 'multiple_choice',
     text: 'Complete: "The students ___ to school every morning." (Os estudantes vão à escola toda manhã)',
     tip: '"The students" é plural, equivalente a "they" — o verbo não recebe "-s".',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Qual destas palavras é um adjetivo, usado para descrever algo pequeno e fofo?',
     tip: 'As outras opções são um dia da semana, uma comida e um objeto — só uma descreve uma característica.',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Complete: "There ___ a book on the desk." (Há um livro na mesa)',
     tip: 'Um livro é uma coisa só — pensa no singular.',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Qual destas expressões usamos para se despedir em inglês?',
     tip: 'As outras opções são perguntas ou cumprimentos de chegada, não de despedida.',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Bernardo está revisando tudo que aprendeu no ano de inglês. Ele lembra que, para se apresentar, deve dizer: "Hi! My ___ is Bernardo."',
     tip: 'Pensa na frase completa: "My name is..." (Meu nome é...)',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Na árvore genealógica, Bernardo escreve a palavra em inglês para "irmã":',
     tip: 'É o par feminino de "brother" (irmão).',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Números',
     type: 'multiple_choice',
     text: 'Bernardo conta seus lápis de cor: "I have ___ pencils." (Eu tenho sete lápis). Qual número ele usa?',
     tip: 'Pensa em qual número, em inglês, representa a quantidade 7.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Dias da semana',
     type: 'multiple_choice',
     text: 'Bernardo organiza sua agenda semanal e escreve o primeiro dia: "___." Qual dia ele escreve?',
     tip: 'É o primeiro dia da semana em muitas agendas e calendários escolares.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Existência e quantidade',
     type: 'multiple_choice',
     text: 'Na lancheira, Bernardo tem um pão e um suco. Ele diz: "There ___ bread and juice in my lunch box." Qual palavra ele usa?',
     tip: '"Bread" é uma palavra incontável, tratada como singular.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'No zoológico, Bernardo descreve um leão como sendo muito ___ (forte).',
     tip: 'Pensa no oposto de "weak" (fraco).',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Todas as manhãs, Bernardo tem uma rotina. Ele diz: "I ___ up at seven o\'clock." Qual verbo ele usa?',
     tip: 'É o verbo usado logo ao abrir os olhos de manhã.',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Rotina diária',
     type: 'multiple_choice',
     text: 'Ao final do dia, Bernardo escova os dentes antes de dormir. Como se diz "escovar" em inglês?',
     tip: 'Pensa no verbo usado com "teeth" (dentes).',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Bernardo resume tudo que aprendeu durante o ano: cumprimentos, família, números, cores, dias da semana, objetos escolares, comidas, animais, adjetivos e rotina diária. Isso mostra que ele:',
     tip: 'Pensa em tudo que você revisou neste simulado, de vários temas diferentes.',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Para encerrar o ano de inglês, Bernardo se despede da turma dizendo: "___! See you next year!"',
     tip: 'Pensa em qual palavra usamos para se despedir de alguém, especialmente por um bom tempo.',

@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Como se diz "família" em inglês?',
     tip: 'É uma palavra bem parecida com a palavra em português!',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Família',
     type: 'multiple_choice',
     text: '"Mother" significa:',
     tip: 'Pensa em uma palavra carinhosa parecida, como "mommy" ou "mamãe".',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Família',
     type: 'multiple_choice',
     text: '"Father" significa:',
     tip: 'Pensa em uma forma carinhosa parecida, como "daddy" ou "papai".',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Como se diz "irmão" em inglês?',
     tip: 'Pensa em uma palavra que começa com "br", parecida com "brother" de irmandade.',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Família',
     type: 'multiple_choice',
     text: '"Sister" significa:',
     tip: 'É o par feminino da palavra "brother" (questão 4).',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Como se diz "avó" em inglês?',
     tip: 'Pensa na palavra "mother" (mãe) com o prefixo "grand" na frente.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Família',
     type: 'multiple_choice',
     text: '"Grandfather" significa:',
     tip: 'É o par masculino de "grandmother" (questão 6).',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Como se diz "tio" em inglês?',
     tip: 'É uma palavra curtinha, bem diferente de "aunt" (tia).',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Família',
     type: 'multiple_choice',
     text: '"Aunt" significa:',
     tip: 'É o par feminino de "uncle" (questão 8).',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Como se diz "primo(a)" em inglês?',
     tip: 'É uma palavra usada tanto para primo quanto para prima, sem mudar a forma.',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Qual palavra em inglês usamos para dizer "meu" antes de um substantivo, como em "meu pai"?',
     tip: 'Pensa na frase "My name is..." que você já usou no simulado anterior.',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "This is ___ mother." (Esta é a mãe dele — referindo-se a um menino)',
     tip: 'Pensa no pronome "he" (ele) — qual adjetivo possessivo combina com ele?',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "This is ___ mother." (Esta é a mãe dela — referindo-se a uma menina)',
     tip: 'Pensa no pronome "she" (ela) — qual adjetivo possessivo combina com ele?',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Se Bernardo quer dizer "Este é o MEU irmão", ele deve dizer:',
     tip: 'Volta na questão 11 — qual palavra significa "meu"?',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "___ family is big." (A família DELES é grande)',
     tip: 'Pensa no pronome "they" (eles/elas) — qual adjetivo possessivo combina com ele?',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Se você aponta para o pai de um amigo e diz "This is your father", a palavra "your" significa:',
     tip: 'Pensa em para quem você está falando quando usa a palavra "you" (você).',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "He is talking to ___ sister." (Ele está falando com a irmã DELE)',
     tip: 'É a mesma regra da questão 12, com "he" e "his".',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "She is talking to ___ brother." (Ela está falando com o irmão DELA)',
     tip: 'É a mesma regra da questão 13, com "she" e "her".',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Complete: "This is ___ house." (Esta é a casa DE NÓS/nossa)',
     tip: 'Pensa no pronome "we" (nós) — qual adjetivo possessivo combina com ele?',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Ao apresentar sua família para a turma, um aluno diz "This is my grandmother." O que ele está dizendo?',
     tip: 'Volta na questão 6 sobre o significado de "grandmother".',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Bernardo está montando uma árvore genealógica para a aula de inglês. Ao lado da foto do pai dele, ele escreve a palavra em inglês:',
     tip: 'É a mesma palavra e significado da questão 3.',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Ao lado da foto da mãe, Bernardo escreve a palavra correta em inglês:',
     tip: 'É a mesma palavra e significado da questão 2.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Bernardo aponta para uma foto e explica à turma: "This is my brother." O que ele quer dizer?',
     tip: 'É a mesma palavra e significado da questão 4.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Na árvore genealógica, Bernardo escreve "grandfather" ao lado da foto de:',
     tip: 'É a mesma palavra e significado da questão 7.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Família',
     type: 'multiple_choice',
     text: 'Bernardo apresenta sua prima para a turma dizendo: "This is my ___." Qual palavra ele deve usar?',
     tip: 'É a mesma palavra e significado da questão 10.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Apontando para a irmã de um colega, Bernardo pergunta: "Is this ___ sister?" (Esta é a irmã DELE?)',
     tip: 'É a mesma regra das questões 12 e 17, usando "his" para "dele".',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Bernardo mostra a foto da própria família e diz: "This is ___ family." (Esta é a MINHA família)',
     tip: 'É a mesma regra da questão 11 e 14, usando "my" para "meu/minha".',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Na apresentação, Bernardo fala sobre a família de seus colegas em grupo e diz: "This is ___ classroom." (Esta é a SALA DE AULA DELES)',
     tip: 'É a mesma regra da questão 15, usando "their" para "deles/delas".',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Adjetivos possessivos',
     type: 'multiple_choice',
     text: 'Ao terminar sua árvore genealógica, Bernardo aponta para toda a família reunida e diz: "This is ___ family." (Esta é a NOSSA família)',
     tip: 'É a mesma regra da questão 19, usando "our" para "nosso/nossa".',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Para fechar a apresentação, Bernardo resume o que aprendeu: "Hoje eu aprendi os nomes da família em inglês e também aprendi a usar palavras como my, his, her e their." Essas palavras são chamadas de:',
     tip: 'Pensa no que essas palavrinhas (my, his, her, their) mostram: a quem algo pertence.',

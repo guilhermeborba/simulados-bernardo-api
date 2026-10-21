@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Como se diz "cachorro" em inglês?',
     tip: 'É o animal de estimação mais comum, conhecido por latir.',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: '"Cat" significa:',
     tip: 'É o animal de estimação conhecido por miar.',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Como se diz "pássaro" em inglês?',
     tip: 'É o animal que tem penas, bico e geralmente voa.',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: '"Fish" significa:',
     tip: 'É o animal que vive na água e nada com nadadeiras.',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Como se diz "grande" em inglês?',
     tip: 'Pensa no oposto de "small" (pequeno).',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: '"Small" significa:',
     tip: 'É o oposto de "big" (grande) — volta na questão 5.',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Como se diz "rápido" em inglês?',
     tip: 'Pensa em algo que se move com muita velocidade.',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: '"Slow" significa:',
     tip: 'É o oposto de "fast" (rápido) — volta na questão 7.',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Como se diz "forte" em inglês?',
     tip: 'Pensa no oposto de "weak" (fraco).',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: '"Cute" significa:',
     tip: 'Pensa em como descrevemos um filhote de cachorro ou gato bem pequenininho.',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Se um elefante é muito grande e um rato é muito pequeno, como você descreveria o elefante em inglês?',
     tip: 'Volta na questão 5 sobre o significado de "big".',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Uma lebre (hare) é conhecida por ser muito veloz. Como você a descreveria em inglês?',
     tip: 'Volta na questão 7 sobre o significado de "fast".',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Uma tartaruga é conhecida por se mover devagar. Como você a descreveria em inglês?',
     tip: 'Volta na questão 8 sobre o significado de "slow".',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Se um cachorrinho de estimação é pequeno e fofo, como você o descreveria em inglês?',
     tip: 'Pensa nos dois adjetivos que combinam com um filhote pequeno e adorável.',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Um leão é conhecido por sua força. Como você o descreveria em inglês?',
     tip: 'Volta na questão 9 sobre o significado de "strong".',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Qual destes animais normalmente vive na água e nada?',
     tip: 'É o mesmo animal da questão 4.',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Qual destes animais normalmente voa e faz ninho em árvores?',
     tip: 'É o mesmo animal da questão 3.',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Se você quer descrever um gato como "fofo", você diz: "The cat is ___."',
     tip: 'É a mesma palavra da questão 10.',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Qual é o oposto de "big" (grande) em inglês?',
     tip: 'Volta nas questões 5 e 6 sobre esses dois adjetivos opostos.',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Qual é o oposto de "fast" (rápido) em inglês?',
     tip: 'Volta nas questões 7 e 8 sobre esses dois adjetivos opostos.',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Bernardo tem um cachorro de estimação e o descreve para a turma: "My dog is small and ___." (fofo). Qual palavra ele usa?',
     tip: 'É a mesma palavra das questões 10 e 18.',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Bernardo visita um aquário e vê um animal que vive na água e nada bastante. Como se diz esse animal em inglês?',
     tip: 'É o mesmo animal das questões 4 e 16.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'No zoológico, Bernardo observa um elefante e diz para o colega: "The elephant is very ___." Qual palavra combina melhor?',
     tip: 'É a mesma descrição da questão 11.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Bernardo assiste a uma corrida entre um coelho e uma tartaruga. Ele descreve o coelho como sendo muito ___.',
     tip: 'É a mesma descrição da questão 12, sobre um animal veloz.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Já a tartaruga, Bernardo descreve como sendo bem ___, pois se move devagar.',
     tip: 'É a mesma descrição da questão 13.',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Animais',
     type: 'multiple_choice',
     text: 'Bernardo vê um pássaro no quintal de casa e diz: "Look, a ___!" Qual palavra ele usa?',
     tip: 'É o mesmo animal das questões 3 e 17.',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Na fazenda do avô, Bernardo vê um cavalo forte puxando uma carroça e diz: "The horse is very ___." Qual palavra combina melhor?',
     tip: 'É a mesma palavra das questões 9 e 15.',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Descrições em inglês',
     type: 'multiple_choice',
     text: 'Bernardo brinca com o gatinho da vizinha e diz que ele é bem pequeno e fofo: "The kitten is small and ___." Qual palavra ele usa?',
     tip: 'É a mesma palavra das questões 10, 18 e 21.',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Classes de palavras',
     type: 'multiple_choice',
     text: 'Ao descrever os animais que viu no fim de semana, Bernardo usa palavras como "big", "small", "fast" e "slow". Essas palavras são chamadas de:',
     tip: 'Pensa no que essas palavras fazem: elas descrevem características dos animais.',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume o que aprendeu sobre animais e adjetivos em inglês. Isso mostra que ele já sabe:',
     tip: 'Pensa em tudo que você praticou neste simulado sobre animais e suas características.',

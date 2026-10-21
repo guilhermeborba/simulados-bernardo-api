@@ -1,6 +1,7 @@
 export const questoesIngles6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'How do you say "Olá" in English?',
     tip: 'É a palavra mais usada para cumprimentar alguém quando você chega — parecida com "olá"!',
@@ -16,6 +17,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: '"Good morning" significa em português:',
     tip: '"Morning" é a parte do dia logo depois que você acorda.',
@@ -31,6 +33,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Qual é o pronome pessoal usado para "eu" em inglês?',
     tip: 'É a letra mais curtinha da língua inglesa, sempre escrita maiúscula, não importa onde apareça na frase.',
@@ -46,6 +49,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Complete: "___ is my friend." (Ele é meu amigo)',
     tip: 'Pensa em qual pronome usamos para falar de um menino ou homem.',
@@ -61,6 +65,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Qual é a forma correta do verbo "to be" para "I" no presente?',
     tip: 'Pensa na frase "I am happy" — qual palavrinha vem depois do "I"?',
@@ -76,6 +81,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Complete: "You ___ my classmate." (Você é meu colega)',
     tip: 'Pensa na frase "You are welcome" — qual forma do verbo "to be" aparece com "you"?',
@@ -91,6 +97,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: '"What\'s your name?" significa:',
     tip: '"Name" é uma palavra parecida com "nome" em português!',
@@ -106,6 +113,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Como se responde à pergunta "How are you?" de forma educada?',
     tip: 'Pensa em uma resposta que diz como você está se sentindo, e não seu nome ou idade.',
@@ -121,6 +129,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Qual pronome usamos para falar de um grupo de pessoas, incluindo você mesmo (nós)?',
     tip: 'Pensa em "nós vamos à escola" — qual palavra em inglês representa "nós"?',
@@ -136,6 +145,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: '"See you later!" é usado para:',
     tip: 'Pensa no significado de "later" (mais tarde) — quando você usaria essa expressão?',
@@ -151,6 +161,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Se você quer se apresentar em inglês pela primeira vez para um colega novo, o que você pode dizer?',
     tip: 'Pensa em como começamos uma conversa quando conhecemos alguém novo.',
@@ -166,6 +177,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Complete corretamente: "___ am Bernardo." (Eu sou o Bernardo)',
     tip: 'Volta na questão 3 — qual pronome combina com o verbo "am"?',
@@ -181,6 +193,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Escolha a frase correta para dizer "Ela é minha professora":',
     tip: 'Pensa em qual pronome usamos para falar de uma mulher ou menina.',
@@ -196,6 +209,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Qual é a forma correta do verbo "to be" para "they" (eles/elas)?',
     tip: 'Lembra que "are" também é usado com "you" e "we" — "they" segue a mesma regra.',
@@ -211,6 +225,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Se alguém te pergunta "What\'s your name?" e você se chama Bernardo, qual é a resposta correta?',
     tip: 'Volta na questão 7 — o que essa pergunta está pedindo como resposta?',
@@ -226,6 +241,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Complete: "We ___ friends." (Nós somos amigos)',
     tip: 'Volta na questão 9 — qual pronome combina com "we"?',
@@ -241,6 +257,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Qual saudação é mais adequada para usar à noite, antes de dormir?',
     tip: 'Pensa em qual palavra do inglês combina com a hora de dormir.',
@@ -256,6 +273,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Complete corretamente: "He ___ my brother." (Ele é meu irmão)',
     tip: 'Volta na questão 4 — "he" combina com qual forma do verbo "to be"?',
@@ -271,6 +289,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Se você quer perguntar o nome de um novo colega em inglês, o que você diz?',
     tip: 'É a mesma pergunta da questão 7.',
@@ -286,6 +305,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Escolha a frase correta para dizer "Eu sou o Bernardo. Eu sou seu amigo.":',
     tip: 'Pensa em qual pronome ("eu") e qual forma do verbo ("am") combinam nessa frase.',
@@ -301,6 +321,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'No primeiro dia de aula de inglês, Bernardo quer cumprimentar a professora de manhã. O que ele deve dizer?',
     tip: 'Pensa em qual período do dia é a manhã, e qual cumprimento combina com esse período (questão 2).',
@@ -316,6 +337,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Bernardo quer se apresentar para um novo colega de classe. O que ele pode dizer primeiro?',
     tip: 'Volta na questão 11 sobre como começar uma apresentação.',
@@ -331,6 +353,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'O colega de Bernardo pergunta: "What\'s your name?" O que essa pergunta significa?',
     tip: 'É a mesma pergunta e tradução das questões 7 e 19.',
@@ -346,6 +369,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Bernardo quer dizer, em inglês, "Eu sou seu amigo." Qual frase ele deve usar?',
     tip: 'Pensa em qual pronome ("eu") e qual forma do verbo ("am") combinam nessa frase.',
@@ -361,6 +385,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo aprende a apresentar um colega para a turma. Para dizer "Ele é meu amigo, Pedro", ele deve usar:',
     tip: 'Pensa em qual pronome usamos para falar de um menino (questão 4) e qual verbo combina com ele (questão 18).',
@@ -376,6 +401,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Verbo to be',
     type: 'multiple_choice',
     text: 'Bernardo e seus colegas estão descrevendo o grupo da sala. Para dizer "Nós somos alunos do 6º ano", ele deve completar: "We ___ students."',
     tip: 'É a mesma regra da questão 16 sobre o pronome "we".',
@@ -391,6 +417,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'No fim da aula de inglês, Bernardo se despede da professora. O que ele pode dizer?',
     tip: 'Volta na questão 10 sobre despedidas.',
@@ -406,6 +433,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Saudações e apresentações',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao colega "How are you?" O colega responde animado. Qual seria uma boa resposta?',
     tip: 'É a mesma resposta educada da questão 8.',
@@ -421,6 +449,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Pronomes pessoais',
     type: 'multiple_choice',
     text: 'Bernardo aponta para sua irmã e diz, em inglês, "Ela é minha irmã." Qual frase ele deve usar?',
     tip: 'Pensa em qual pronome usamos para falar de uma menina ou mulher (questão 13).',
@@ -436,6 +465,7 @@ export const questoesIngles6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Uso do inglês',
     type: 'multiple_choice',
     text: 'Para encerrar sua primeira apresentação em inglês, Bernardo resume tudo que aprendeu sobre cumprimentos e o verbo "to be". Isso mostra que ele já sabe:',
     tip: 'Pensa em tudo que você praticou neste simulado: saudações, pronomes e o verbo "to be".',
