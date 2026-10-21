@@ -673,3 +673,38 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-por
 A quantidade de temas acompanha o conteúdo: B1/AV1 e B1/AV2 têm quatro; B2/AV1, três; B2/AV2, dois; B3/AV1 concentra pronomes; B3/AV2, pontuação; B4/AV1 tem dois temas; B4/AV2 revisa dez. Não se subdividem artificialmente os simulados concentrados em um conteúdo.
 
 As inconsistências preexistentes de contagem de pronomes (B3/AV1, ID 16), correções ambíguas de concordância (B4/AV1, IDs 12 e 16; B4/AV2, ID 25), descrição das classes na frase (B4/AV1, ID 14) e definição de substantivo concreto (B1/AV2, ID 4) estão na [issue web #92](https://github.com/guilhermeborba/simulados-bernardo/issues/92), para revisão editorial separada. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura foram preservados exatamente neste lote.
+
+### Matemática — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Adição | Somas de naturais, reagrupamento, parcelas e problemas de juntar quantidades. |
+| Ângulos | Ângulos retos, rasos, agudos e obtusos, medidas em graus, identificação no cotidiano e soma dos ângulos internos de triângulos. |
+| Divisão | Partilhas iguais, termos da divisão, quociente, resto e cálculos com números naturais. |
+| Figuras planas | Polígonos, lados, quadrados, retângulos, triângulos, círculo e reconhecimento e comparação das formas. |
+| Frações | Partes iguais de um todo, numerador, denominador, leitura, equivalência, simplificação, comparação e adição e subtração. |
+| Geometria | Síntese que articula figuras planas, triângulos, ângulos e perímetro em situações do cotidiano. |
+| Matemática no cotidiano | Síntese da aprendizagem de numeração, operações, divisibilidade, frações, decimais, geometria e porcentagem. |
+| MMC e MDC | Listas de múltiplos e divisores comuns, cálculo do mínimo múltiplo comum e do máximo divisor comum e problemas de encontros periódicos. |
+| Múltiplos e divisores | Definições, divisibilidade, listas, agrupamentos iguais, paridade e classificação de naturais pela quantidade de divisores. |
+| Multiplicação | Produtos de naturais, tabuada, grupos iguais e cálculo de quantidades repetidas. |
+| Números decimais | Partes inteira e decimal, décimos e centésimos, leitura, escrita, equivalência, ordenação, comparação, adição e subtração. |
+| Perímetro | Contorno, soma dos lados e perímetros de quadrados e retângulos, incluindo cercas e terrenos. |
+| Porcentagem | Partes por cem, símbolo %, equivalências com frações e decimais, porcentagens de quantidades e descontos. |
+| Sistema de numeração | Algarismos, ordens, valor posicional, leitura, escrita, decomposição, comparação e ordenação de números naturais. |
+| Sistema monetário | Quantias em reais e centavos, preços, compras, gastos, economia e cálculo de valores restantes. |
+| Subtração | Diferenças de naturais e problemas de retirar quantidades ou calcular o que sobra. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-matematica-6ano-b*-av*.ts`. Não há entradas privadas desse ano/disciplina no seed. O vocabulário de 16 temas reaproveita os nomes dos anos anteriores quando o conteúdo corresponde; **Múltiplos e divisores** e **MMC e MDC** agrupam o estudo de divisibilidade introduzido neste lote.
+
+**Sistema de numeração** reúne o primeiro simulado e as retomadas de naturais em B4/AV2. A escrita por extenso de R$ 89 sem centavos, em B1/AV1, ID 23, trabalha a representação do natural e permanece nesse tema. **Adição**, **Subtração**, **Multiplicação** e **Divisão** reúnem cálculos e aplicações das operações. **Sistema monetário** concentra os valores de dinheiro em B1/AV2, IDs 22, 25 e 29, e preços, compras e troco em B3/AV1, IDs 23–25.
+
+**Múltiplos e divisores** cobre relações de divisibilidade e a classificação em primos e compostos a partir da quantidade de divisores, sem usar a classificação correta como rótulo. A pergunta que pede o nome de MDC em B2/AV1, ID 24, também usa esse tema amplo. **MMC e MDC** concentra o cálculo e as listas de comuns em B2/AV1, IDs 11–14, 25 e 26, e B4/AV2, ID 18, sem antecipar o valor procurado.
+
+**Frações** reúne o B2/AV2, incluindo operações com denominadores iguais, equivalência e simplificação. **Números decimais** cobre o valor posicional, leitura e cálculo mesmo quando o contexto é uma altura, distância ou duração; não se criam temas de grandezas quando o objetivo é a escrita ou a operação decimal. Em B3/AV1, ID 21, identificar a parte decimal do preço permanece nesse tema; comparar preços ou calcular gastos e troco usa **Sistema monetário**. A representação dos décimos em uma altura, retomada em B4/AV2, ID 25, continua em **Números decimais**.
+
+**Figuras planas** reúne formas, lados e tipos de triângulo; **Ângulos**, medidas, tipos, contagem e soma de ângulos; **Perímetro**, soma do contorno. Nenhum tema recebe o nome do polígono, do tipo de triângulo ou do tipo de ângulo que pode ser a resposta. A síntese do B3/AV2, ID 30, usa **Geometria**. **Porcentagem** reúne todo o B4/AV1, incluindo o preço final após o desconto da questão anterior no ID 23. A síntese geral em B4/AV2, ID 30, usa **Matemática no cotidiano**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 concentra numeração; B1/AV2 tem cinco; B2/AV1, dois; B2/AV2 concentra frações; B3/AV1 tem dois; B3/AV2, quatro; B4/AV1 concentra porcentagem; B4/AV2 revisa treze. Não se subdividem artificialmente os simulados concentrados em um assunto.
+
+As inconsistências anteriores de gabarito/contagem de zeros e contradição na votação (B1/AV1, IDs 28 e 29), comando sobre divisores (B2/AV1, ID 21), inclusão de zero na definição/listagem de múltiplos (B2/AV1, IDs 1, 3 e 13; B4/AV2, ID 3) e distinção entre círculo e circunferência (B3/AV2, IDs 16 e 29) estão na [issue web #94](https://github.com/guilhermeborba/simulados-bernardo/issues/94), para revisão separada. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados neste lote.

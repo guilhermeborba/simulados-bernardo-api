@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'O que é um polígono?',
     tip: 'Pensa em figuras como triângulo, quadrado e pentágono — todas elas são "fechadas" e feitas de linhas retas.',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um triângulo?',
     tip: 'O nome "tri" já dá uma pista — pensa em outras palavras que começam assim, como "tripé" ou "trio".',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um quadrilátero?',
     tip: 'O nome "quadri" já dá uma pista — pensa em "quadra", que também tem 4 lados.',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um pentágono?',
     tip: 'O nome "penta" já dá uma pista — pensa no "pentacampeão", que ganhou 5 vezes.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um hexágono?',
     tip: 'O nome "hexa" já dá uma pista — pensa no "hexacampeão", que ganhou 6 vezes.',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo reto mede:',
     tip: 'Pensa no canto de uma folha de papel ou de uma porta — esse "L" perfeito é o ângulo reto.',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo de 180 graus é chamado de:',
     tip: 'Pensa numa linha reta completamente esticada — ela forma um ângulo "raso", sem nenhuma curva.',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo menor que 90 graus é chamado de:',
     tip: 'Pensa na palavra "agudo", que lembra algo "pontudo" e fechado — como a ponta de uma fatia de pizza pequena.',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo maior que 90 graus e menor que 180 graus é chamado de:',
     tip: 'Pensa num ângulo "mais aberto" que o reto, mas que ainda não virou uma linha reta completa.',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um quadrado tem todos os lados:',
     tip: 'Pensa num quadrado de verdade — todos os quatro lados têm exatamente o mesmo tamanho.',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre um quadrado e um retângulo?',
     tip: 'Pensa numa folha de caderno (retângulo) e num azulejo (quadrado) — os dois têm 4 ângulos retos, mas só um deles tem todos os lados do mesmo tamanho.',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Quantos ângulos retos tem um retângulo?',
     tip: 'Pensa nos quatro cantos de uma folha de caderno — todos eles formam o mesmo tipo de ângulo.',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'O triângulo que tem todos os lados iguais é chamado de:',
     tip: '"Equi" lembra "igual" — pensa em "equilíbrio", quando tudo está igual dos dois lados.',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'O triângulo que tem dois lados iguais é chamado de:',
     tip: 'Pense numa forma de "sorvete" ou "chapéu de festa" — dois lados iguais e um diferente, formando um triângulo bem conhecido.',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'O triângulo que tem todos os lados diferentes é chamado de:',
     tip: '"Escaleno" vem de uma palavra grega que significa "torto" ou "desigual" — nenhum lado é igual ao outro.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um círculo é uma figura:',
     tip: 'Pensa numa roda de bicicleta — todos os pontos da borda estão sempre à mesma distância do centro.',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'O perímetro de uma figura plana é:',
     tip: 'Pensa em andar ao redor de uma quadra de esportes — a distância total que você anda dando a volta é o perímetro.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'Qual é o perímetro de um quadrado com lados de 5 cm cada?',
     tip: 'Some as medidas dos quatro lados iguais: 5+5+5+5, ou multiplique 5 por 4.',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'Qual é o perímetro de um retângulo com lados de 4 cm e 6 cm?',
     tip: 'Some os quatro lados: 4+6+4+6, lembrando que os lados opostos do retângulo são iguais.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'A soma dos ângulos internos de um triângulo é sempre:',
     tip: 'Não importa o tipo de triângulo (equilátero, isósceles ou escaleno) — essa soma é sempre a mesma!',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Bernardo desenhou uma figura com 4 lados iguais e 4 ângulos retos. Que figura ele desenhou?',
     tip: 'Pensa nas características que Bernardo desenhou: 4 lados iguais e 4 cantos "quadradinhos" — que figura tem exatamente isso?',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'Bernardo mediu os lados de um terreno retangular na maquete da escola: 8 metros e 5 metros. Qual é o perímetro desse terreno?',
     tip: 'Some os quatro lados do retângulo: 8+5+8+5, ou calcule (8+5) x 2.',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Bernardo observou o relógio da sala às 3 horas em ponto. Nesse horário, os ponteiros formam um ângulo:',
     tip: 'Pensa no ponteiro das horas apontando para o 3 e o dos minutos para o 12 — esse formato é bem parecido com o canto de uma folha de papel.',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Bernardo desenhou um triângulo com lados de 3 cm, 3 cm e 3 cm. Esse triângulo é:',
     tip: 'Repare que os três lados têm exatamente a mesma medida — isso é a marca registrada de um tipo específico de triângulo.',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Bernardo desenhou um triângulo com lados de 4 cm, 4 cm e 6 cm. Esse triângulo é:',
     tip: 'Repare que dois lados são iguais (4 cm) e um é diferente (6 cm) — isso é a marca registrada de um tipo específico de triângulo.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Bernardo cortou uma pizza redonda em fatias iguais. Que figura geométrica representa o formato da pizza inteira?',
     tip: 'Pensa no formato arredondado, sem cantos nem lados retos, de uma pizza inteira antes de ser cortada.',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'Bernardo construiu uma cerca ao redor de um jardim quadrado de 6 metros de lado. Quantos metros de cerca ele vai precisar?',
     tip: 'Multiplique a medida de um lado por 4, já que o quadrado tem todos os lados iguais.',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Bernardo brincou de identificar ângulos pela sala: a quina de uma porta bem aberta, formando uma linha reta, é um exemplo de ângulo:',
     tip: 'Pensa numa porta aberta até formar uma linha reta completa, sem nenhuma curva — isso é o ângulo mais "aberto" que existe.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Bernardo notou que o sinal de "proibido" em uma placa de trânsito tem o formato de um círculo. Isso porque o círculo:',
     tip: 'Lembre que o círculo é diferente dos polígonos — ele não tem cantos (vértices) nem lados retos.',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Geometria',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo aprendeu a identificar figuras planas, tipos de triângulos, ângulos e a calcular perímetros. Isso mostra que a geometria:',
     tip: 'Pensa em tudo que Bernardo observou nesse simulado: relógios, pizzas, terrenos, placas de trânsito... a geometria está em todo lugar!',

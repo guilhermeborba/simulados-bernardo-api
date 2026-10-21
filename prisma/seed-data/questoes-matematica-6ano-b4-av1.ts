@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'O que significa a palavra "porcentagem"?',
     tip: 'A palavra "por cento" já dá a dica — pensa em dividir alguma coisa em 100 partes iguais.',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'O símbolo % significa:',
     tip: 'Lembre que a porcentagem sempre representa uma fração com denominador 100 — o símbolo % é só uma forma resumida de escrever isso.',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual fração representa 50%?',
     tip: '50% é a metade de 100% — que fração representa "metade"?',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual fração representa 25%?',
     tip: '25% é a quarta parte de 100% — que fração representa "um quarto"?',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual fração representa 10%?',
     tip: '10% é a décima parte de 100% — que fração representa "um décimo"?',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'O que significa 100%?',
     tip: '100% representa as 100 partes inteiras de um total dividido em 100 — ou seja, tudo!',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual é o número decimal equivalente a 50%?',
     tip: 'Para transformar porcentagem em decimal, divida o número por 100 — 50 dividido por 100 é igual a quê?',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual é o número decimal equivalente a 25%?',
     tip: 'Divida 25 por 100 — quantas casas depois da vírgula isso vai gerar?',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Se uma turma tem 100 alunos e 50% deles são meninas, quantas meninas há na turma?',
     tip: 'Como a turma tem exatamente 100 alunos, calcular 50% é bem direto: é metade de 100.',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Se uma turma tem 20 alunos e 50% deles usam óculos, quantos alunos usam óculos?',
     tip: '50% é a metade — qual é a metade de 20?',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Calcule 10% de 200.',
     tip: 'Para calcular 10% de qualquer número, é só dividir esse número por 10.',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Calcule 25% de 80.',
     tip: '25% é a quarta parte — divida 80 por 4.',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Calcule 50% de 90.',
     tip: '50% é a metade — divida 90 por 2.',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Calcule 100% de 37.',
     tip: '100% representa o total inteiro — não muda o valor original.',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Se um produto custava R$ 100 e teve um desconto de 10%, qual é o novo preço?',
     tip: 'Primeiro calcule quanto é 10% de R$ 100, depois subtraia esse valor do preço original.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Se um produto custava R$ 50 e teve um desconto de 20%, quanto foi descontado?',
     tip: 'Calcule 20% de R$ 50 — uma dica é calcular primeiro 10% (que é R$ 5) e depois dobrar esse valor.',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual é o valor de 20% de 150?',
     tip: 'Calcule primeiro 10% de 150 (que é 15) e depois dobre esse valor para achar 20%.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Em uma prova de 10 questões, um aluno acertou 7. Quantos por cento ele acertou?',
     tip: 'Se a prova tem 10 questões, cada questão vale 10% da nota total. Quantos por cento são 7 questões?',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Em uma pesquisa com 50 pessoas, 25 preferem futebol. Que porcentagem isso representa?',
     tip: '25 de um total de 50 é a metade das pessoas. Que porcentagem representa a metade?',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Qual é o valor de 5% de 200?',
     tip: 'Calcule primeiro 10% de 200 (que é 20) e depois divida esse valor pela metade, já que 5% é a metade de 10%.',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo tirou 8 em uma prova que valia 10 pontos. Que porcentagem da prova ele acertou?',
     tip: 'Se a prova vale 10 pontos, cada ponto representa 10%. Quantos por cento são 8 pontos?',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo comprou um brinquedo de R$ 40 com 25% de desconto. Quanto foi o desconto em reais?',
     tip: '25% é a quarta parte — divida R$ 40 por 4.',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Com o desconto da questão anterior, quanto Bernardo pagou pelo brinquedo?',
     tip: 'Subtraia o valor do desconto (R$ 10) do preço original (R$ 40).',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo e sua turma fizeram uma votação para escolher o passeio da escola. 100 alunos votaram, e 40 escolheram o zoológico. Que porcentagem dos alunos escolheu o zoológico?',
     tip: 'Como o total de votantes é exatamente 100, o número de votos já indica diretamente a porcentagem.',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo economizou 50% da sua mesada de R$ 30 nesse mês. Quanto ele guardou?',
     tip: '50% é a metade — qual é a metade de R$ 30?',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo tem 20 figurinhas repetidas e trocou 10% delas com o amigo Pedro. Quantas figurinhas ele trocou?',
     tip: 'Para calcular 10% de 20, basta dividir 20 por 10.',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Na turma de Bernardo, 60% dos alunos foram ao passeio de campo. Se a turma tem 30 alunos, quantos foram ao passeio?',
     tip: 'Calcule primeiro 10% de 30 (que é 3) e depois multiplique por 6, já que 60% é 6 vezes 10%.',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, se algo custa "100% do preço normal", isso significa que:',
     tip: 'Lembre que 100% representa o todo completo, sem nenhuma mudança para mais ou para menos.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo quis calcular quanto é 0% de qualquer quantidade. Qual é a resposta?',
     tip: '0% significa "nenhuma parte" de um total — não importa o número, o resultado é sempre o mesmo.',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que a porcentagem é muito usada em:',
     tip: 'Pensa em tudo que Bernardo calculou nesse simulado: notas de prova, desconto de brinquedo, votação, mesada... porcentagem está em toda parte!',

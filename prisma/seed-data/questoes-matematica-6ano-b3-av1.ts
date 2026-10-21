@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'O que são números decimais?',
     tip: 'Pensa num preço, como R$ 5,75 — a vírgula separa os reais inteiros dos centavos. É assim que funcionam os números decimais!',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'No número 3,45, qual é a parte inteira?',
     tip: 'A parte inteira é sempre o número que vem antes da vírgula.',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'No número 3,45, qual é a parte decimal (depois da vírgula)?',
     tip: 'A parte decimal é sempre o número que vem depois da vírgula.',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Como se lê o número 2,5?',
     tip: 'O número antes da vírgula é a parte inteira (dois), e o número depois, com só uma casa, representa décimos.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'No número 0,7, o algarismo 7 representa:',
     tip: 'A primeira casa depois da vírgula é sempre a casa dos décimos.',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'No número 0,25, o algarismo 5 representa:',
     tip: 'A segunda casa depois da vírgula é sempre a casa dos centésimos.',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o número decimal equivalente à fração 1/10?',
     tip: 'Lembre que a primeira casa depois da vírgula representa "décimos", exatamente o que a fração 1/10 significa.',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o número decimal equivalente à fração 1/100?',
     tip: 'Lembre que a segunda casa depois da vírgula representa "centésimos", exatamente o que a fração 1/100 significa.',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Complete: o número 4,00 é igual a:',
     tip: 'Quando a parte decimal é só de zeros, isso significa que não sobrou nenhuma "fração" além do número inteiro.',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual das opções abaixo é um número decimal?',
     tip: 'Procure a opção que tem uma vírgula separando a parte inteira da parte decimal.',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o maior número: 3,5 ou 3,45?',
     tip: 'Transforme 3,5 em 3,50 para facilitar a comparação — agora compare os centésimos: 50 ou 45, qual é maior?',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Por que 3,5 é maior que 3,45?',
     tip: 'Ter menos algarismos não significa ter um valor menor — é preciso completar com zeros para comparar corretamente.',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Complete: 0,3 + 0,4 =',
     tip: 'Some os décimos: 3 décimos mais 4 décimos são quantos décimos ao todo?',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Complete: 1,5 + 2,3 =',
     tip: 'Some a parte inteira (1+2) e depois a parte decimal (5+3 décimos) separadamente.',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Complete: 5,8 − 2,3 =',
     tip: 'Subtraia a parte inteira (5−2) e depois a parte decimal (8−3 décimos) separadamente.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Complete: 10,0 − 3,5 =',
     tip: 'Escreva 10,0 e faça a subtração com calma, emprestando da parte inteira se precisar.',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é a forma correta de escrever "duas unidades e três décimos" em número decimal?',
     tip: '"Duas unidades" é a parte inteira (2), e "três décimos" é a primeira casa depois da vírgula (3).',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é a forma correta de escrever "sete unidades e doze centésimos" em número decimal?',
     tip: '"Sete unidades" é a parte inteira (7), e "doze centésimos" ocupa as duas primeiras casas depois da vírgula (12).',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Coloque em ordem crescente: 4,5 | 4,05 | 4,55 | 4,15',
     tip: 'Complete todos com duas casas decimais (4,50; 4,05; 4,55; 4,15) e compare os centésimos com calma.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual número decimal é equivalente a 2 e meio (2 inteiros e meia unidade)?',
     tip: '"Meio" é a mesma coisa que "cinco décimos" — pensa em 1/2 transformado em número decimal.',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo comprou um lanche que custou R$ 8,50. Qual é a parte decimal (centavos) desse valor?',
     tip: 'A parte decimal é o que vem depois da vírgula — nesse caso, os centavos do preço.',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo mediu sua altura e anotou 1,42 metro. O algarismo 4 nessa medida representa:',
     tip: 'A primeira casa depois da vírgula, na medida de comprimento, representa décimos do metro.',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo comparou os preços de dois lápis: um custava R$ 2,30 e outro R$ 2,80. Qual lápis é mais caro?',
     tip: 'Como as partes inteiras são iguais (2), compare os centavos: 30 ou 80, qual é maior?',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo comprou um caderno de R$ 12,50 e uma caneta de R$ 3,25. Quanto ele gastou ao todo?',
     tip: 'Some a parte inteira (12+3) e depois a parte decimal (50+25 centavos) separadamente.',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo tinha R$ 20,00 e gastou R$ 12,40 em um lanche. Quanto sobrou?',
     tip: 'Faça a subtração com calma, emprestando da parte inteira quando precisar, já que 20,00 não tem centavos.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo mediu o comprimento de sua mesa: 1,20 metro. Escrevendo por extenso, isso significa:',
     tip: 'A parte inteira (1) representa metros inteiros, e a parte decimal (20) representa centésimos de metro.',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Na corrida da escola, Bernardo fez o percurso em 4,35 minutos e seu amigo em 4,53 minutos. Quem foi mais rápido?',
     tip: 'Compare os centésimos, já que a parte inteira é igual (4): 35 ou 53, qual representa menos tempo?',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo está aprendendo a comparar números decimais e percebeu que, para comparar 6,4 e 6,40, é importante lembrar que:',
     tip: 'Completar um número decimal com um zero à direita não muda seu valor — é a mesma quantidade escrita de forma diferente.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo somou as distâncias que percorreu de bicicleta em dois dias: 2,75 km e 3,50 km. Qual foi a distância total?',
     tip: 'Some a parte inteira (2+3) e depois a parte decimal (75+50 centésimos), lembrando de "levar" quando passar de 100.',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Ao final do simulado, Bernardo percebeu que os números decimais aparecem bastante em situações do dia a dia, como:',
     tip: 'Pensa em tudo que Bernardo calculou nesse simulado: preços de lanches, altura, distância de bicicleta, tempo de corrida...',

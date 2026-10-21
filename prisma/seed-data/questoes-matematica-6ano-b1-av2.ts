@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 245 + 138?',
     tip: 'Some primeiro as unidades (5+8), depois as dezenas e por último as centenas, "levando" quando passar de 9.',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Subtração',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 500 − 267?',
     tip: 'Como 500 tem zeros nas dezenas e unidades, você vai precisar "pegar emprestado" das ordens seguintes para poder subtrair.',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 12 × 7?',
     tip: 'Pensa em 7 grupos de 12, ou use a tabuada do 7: 7×10=70, mais 7×2=14. Some os dois resultados.',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 144 ÷ 12?',
     tip: 'Pense: quantas vezes o 12 cabe dentro do 144? Uma dica é lembrar que 12 × 12 = 144.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'Na adição 356 + 478, qual operação usamos para "levar" quando a soma de uma coluna passa de 9?',
     tip: 'Pensa em quando você soma 6+8=14 — o "1" que sobra vai para a próxima coluna. Esse processo tem um nome especial na adição.',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Subtração',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 900 − 456?',
     tip: 'Como 900 tem zeros nas dezenas e unidades, você vai precisar fazer empréstimos em cadeia para conseguir subtrair.',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 25 × 4?',
     tip: 'Pense em 4 grupos de 25 — ou lembre que 4 moedas de 25 centavos formam exatamente 1 real (100 centavos)!',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Na divisão 100 ÷ 8, qual é o resto?',
     tip: 'Pense: 8 × 12 = 96. Quanto falta para chegar a 100? Esse "quanto falta" é o resto da divisão.',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 1.234 + 2.766?',
     tip: 'Some com calma, coluna por coluna, começando pelas unidades: 4+6=10, então "vai um" para a próxima coluna.',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 7 × 8?',
     tip: 'Lembre da tabuada do 7 ou do 8 — uma dica é pensar em 7×8 como 7×10 menos 7×2, ou seja, 70−14.',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Subtração',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 3.500 − 1.750?',
     tip: 'Faça a subtração com calma, coluna por coluna, fazendo os empréstimos necessários.',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 15 × 15?',
     tip: 'Uma forma de calcular é pensar em 15×10=150, mais 15×5=75. Depois é só somar os dois resultados.',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 648 ÷ 8?',
     tip: 'Pense em quantas vezes o 8 cabe dentro do 648 — uma dica é lembrar que 8 × 80 = 640, e ainda falta um pouquinho.',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 999 + 1?',
     tip: 'Pense em quando as unidades, dezenas e centenas todas "viram" ao mesmo tempo — isso cria uma nova ordem: o milhar!',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Em uma divisão, o número que é dividido se chama:',
     tip: 'Pensa na palavra "dividendo" — ela lembra "dividir". É o número total que está sendo repartido.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Em uma divisão, o resultado da divisão se chama:',
     tip: 'O "quociente" é a resposta final da divisão — é quanto cada parte recebeu depois de repartir igualmente.',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 2.500 ÷ 5?',
     tip: 'Pense em dividir 25 por 5 primeiro (dá 5), depois é só colocar os dois zeros que sobraram de volta.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Subtração',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 63 − 27?',
     tip: 'Como as unidades (3−7) não dá para subtrair direto, você vai precisar pegar emprestado da dezena.',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 9 × 9?',
     tip: 'Lembre da tabuada do 9 — uma dica é pensar em 9×9 como 9×10 menos 9, ou seja, 90−9.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 480 + 320?',
     tip: 'Some primeiro as unidades (0+0), depois as dezenas (8+2=10, "vai um"), depois as centenas.',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Bernardo comprou 3 pacotes de figurinhas, cada um com 45 figurinhas. Quantas figurinhas ele comprou ao todo?',
     tip: 'Essa situação pede uma multiplicação: 3 pacotes vezes 45 figurinhas cada. Tente calcular 45×3 por partes: 40×3 + 5×3.',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo tinha R$ 250 guardados e ganhou mais R$ 180 de mesada. Quanto ele tem agora?',
     tip: 'Essa é uma soma simples: junte o que Bernardo já tinha com o que ele ganhou a mais.',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Subtração',
     type: 'multiple_choice',
     text: 'Bernardo tinha 500 figurinhas e deu 235 para o amigo Pedro. Com quantas ele ficou?',
     tip: 'Essa situação pede uma subtração: do total que Bernardo tinha, tire a quantidade que ele deu para Pedro.',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'A turma de Bernardo tem 32 alunos, e a professora quer formar grupos de 4 alunos para um trabalho. Quantos grupos serão formados?',
     tip: 'Essa situação pede uma divisão: quantas vezes o número 4 cabe dentro do 32?',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo quer comprar 6 lápis que custam R$ 3 cada. Quanto ele vai gastar ao todo?',
     tip: 'Essa situação pede uma multiplicação: 6 lápis vezes o preço de cada um.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'No time de futebol da escola, Bernardo marcou 12 gols no primeiro semestre e 9 gols no segundo semestre. Quantos gols ele marcou no ano todo?',
     tip: 'Essa situação pede uma soma simples: junte os gols dos dois semestres.',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Bernardo tinha 144 figurinhas repetidas para dividir igualmente entre 12 amigos. Quantas figurinhas cada amigo vai receber?',
     tip: 'Essa situação pede uma divisão: quantas vezes o número 12 cabe dentro do 144?',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'A biblioteca da escola tinha 850 livros. Depois de uma doação de 275 livros, quantos livros ela passou a ter?',
     tip: 'Essa situação pede uma soma: junte a quantidade que a biblioteca já tinha com a quantidade doada.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo economizou dinheiro por 5 semanas, guardando R$ 20 por semana. Quanto ele economizou no total?',
     tip: 'Essa situação pede uma multiplicação: 5 semanas vezes a quantia guardada por semana.',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Bernardo resolveu o último desafio de matemática do bimestre: "Se eu tenho 3 caixas com 25 bolinhas de gude em cada uma, quantas bolinhas tenho ao todo?" Qual é a resposta certa?',
     tip: 'Essa situação pede uma multiplicação: 3 caixas vezes 25 bolinhas em cada uma. Tente calcular por partes: 25×3 = 20×3 + 5×3.',

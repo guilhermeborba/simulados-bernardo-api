@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Quantos algarismos existem no nosso sistema de numeração decimal?',
     tip: 'Conta nos dedos das duas mãos, de 0 até 9 — são esses os algarismos que usamos para formar qualquer número!',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 3.482, qual é o valor posicional do algarismo 4?',
     tip: 'Separe o número por ordens, da direita para a esquerda: unidade, dezena, centena, milhar. Em qual dessas posições está o algarismo 4?',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Como se lê o número 15.000?',
     tip: 'Conte quantos algarismos tem depois do 15 — são três zeros, o que indica "mil".',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 7.256, qual algarismo representa as unidades?',
     tip: 'A ordem das unidades é sempre a última posição, mais à direita do número.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual é o maior número entre as opções abaixo?',
     tip: 'Compare primeiro os milhares (todos são 4), depois as centenas — qual número tem a maior centena?',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'O sistema de numeração que usamos é chamado de decimal porque:',
     tip: 'Pense em como formamos uma dezena: juntando 10 unidades. E uma centena? Juntando 10 dezenas! Percebe o padrão que se repete?',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 9.031, qual é o valor posicional do algarismo 3?',
     tip: 'Conte as posições a partir da direita: unidade, dezena, centena, milhar. Onde está o 3?',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Como se escreve, em algarismos, o número "duzentos e quarenta e sete"?',
     tip: 'Separe em partes: "duzentos" (200) + "quarenta" (40) + "e sete" (7). Depois é só juntar tudo!',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual é o menor número entre as opções abaixo?',
     tip: 'Todos começam com "8.0" ou "8.1" ou "8.2" — compare a ordem das centenas primeiro para descobrir qual é o menor.',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 56.789, quantas ordens (algarismos) tem esse número?',
     tip: 'Conte um a um os algarismos do número: 5, 6, 7, 8, 9 — quantos são ao todo?',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Coloque em ordem crescente: 3.201, 3.021, 3.210, 3.012',
     tip: 'Todos começam com "3.0" ou "3.2" — compare a ordem das centenas de cada número com calma, um de cada vez.',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 4.056, o algarismo 0 representa:',
     tip: 'Olhe para a posição do zero: ele está bem no lugar das centenas. Isso significa que naquela ordem não há quantidade nenhuma.',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual é o número formado por 2 milhares, 5 centenas, 0 dezenas e 3 unidades?',
     tip: 'Monte o número por partes: 2 milhares = 2.000, 5 centenas = 500, 0 dezenas = 0, 3 unidades = 3. Depois é só somar tudo!',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual desses números está escrito corretamente por extenso? O número 1.500.',
     tip: 'Separe em partes: 1.000 é "mil", e 500 é "quinhentos". Depois é só juntar as duas partes.',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 623.410, qual algarismo ocupa a ordem das centenas de milhar?',
     tip: 'Conte as posições da esquerda para a direita: centena de milhar, dezena de milhar, unidade de milhar, centena, dezena, unidade.',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Complete: no número 8.204, a ordem das dezenas é ocupada pelo algarismo:',
     tip: 'Lembre a ordem, da direita para a esquerda: unidade (4), dezena, centena (2), milhar (8). Qual algarismo sobrou para a dezena?',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual é a forma correta de escrever "setenta mil e vinte" em algarismos?',
     tip: '"Setenta mil" já são 70.000 — depois é só somar o "vinte" no final.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Comparando os números 12.345 e 12.354, qual é o maior?',
     tip: 'Os dois números começam iguais (12.3), então compare as próximas ordens: dezena e unidade. Qual delas é maior num dos números?',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 90.706, quantos algarismos são zero?',
     tip: 'Escreva o número devagar: 9-0-7-0-6. Agora conte quantas vezes aparece o algarismo 0.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual número representa "três centenas de milhar, quatro dezenas de milhar e dois mil"?',
     tip: 'Monte por partes: 3 centenas de milhar = 300.000, 4 dezenas de milhar = 40.000, 2 mil = 2.000. Some tudo com calma!',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo estava organizando sua coleção de figurinhas e contou 2.348 figurinhas. Qual é o valor posicional do algarismo 3 nesse número?',
     tip: 'Separe o número por ordens: 2 (milhar), 3 (?), 4 (dezena), 8 (unidade). Qual ordem fica entre o milhar e a dezena?',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo comparou o número de figurinhas dele (2.348) com o do amigo Pedro (2.384). Quem tem mais figurinhas?',
     tip: 'Os dois números começam com "2.3" — compare a próxima ordem, a das dezenas: qual delas é maior, 4 ou 8?',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Na loja de brinquedos, Bernardo viu um jogo custando "R$ 89,00" e quis escrever esse valor por extenso, sem os centavos. Como fica?',
     tip: 'Separe em partes: "oitenta" (80) + "e nove" (9). Depois é só juntar as duas palavras.',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo está aprendendo sobre a ordem das unidades, dezenas, centenas e milhares. No número da sua coleção, 2.348, qual algarismo ocupa as unidades?',
     tip: 'A ordem das unidades é sempre a última posição do número, bem à direita.',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo quer colocar em ordem crescente as pontuações do seu jogo favorito: 1.230, 1.203, 1.320, 1.302. Qual é a menor pontuação?',
     tip: 'Todos começam com "1.2" ou "1.3" — compare a ordem das centenas primeiro para descobrir qual grupo é menor.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que o sistema decimal é baseado em grupos de 10. Isso significa que:',
     tip: 'Pensa em moedinhas: juntando 10 moedas de 1 real, você forma uma "nota" que vale 10. É esse mesmo princípio que se repete entre as ordens!',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo escreveu no caderno o número "cinco mil, trezentos e dez". Como fica esse número em algarismos?',
     tip: 'Separe em partes: "cinco mil" (5.000) + "trezentos" (300) + "e dez" (10). Depois é só somar tudo.',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Na feira de ciências, Bernardo viu um cartaz com o número 704.000. Quantos zeros esse número tem?',
     tip: 'Escreva o número devagar: 7-0-4-0-0-0. Agora conte quantas vezes aparece o algarismo 0.',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo e sua turma fizeram uma votação para escolher o nome da mascote da escola. A opção vencedora teve 1.048 votos e a segunda colocada teve 1.084 votos. Qual teve mais votos?',
     tip: 'Os dois números começam com "1.0" — compare a próxima ordem, a das centenas: qual delas é maior, 4 ou 8?',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, no sistema decimal, cada posição de um número (unidade, dezena, centena...) é chamada de:',
     tip: 'Pensa em como organizamos os algarismos um do lado do outro, cada um numa posição diferente — essa posição tem um nome especial.',

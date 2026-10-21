@@ -1,6 +1,7 @@
 export const questoesMatematica6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'No número 4.582, qual é o valor posicional do algarismo 5?',
     tip: 'Separe o número por ordens, da direita para a esquerda: unidade, dezena, centena, milhar. Onde está o 5?',
@@ -16,6 +17,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Adição',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 350 + 275?',
     tip: 'Some coluna por coluna, começando pelas unidades, e lembre de "levar um" quando a soma passar de 9.',
@@ -31,6 +33,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O que são múltiplos de um número?',
     tip: 'Pensa na tabuada — os múltiplos de um número são exatamente os resultados dessa tabuada.',
@@ -46,6 +49,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração representa "metade" de um todo?',
     tip: '"Metade" significa que o todo foi dividido em 2 partes iguais, e você pegou 1 delas.',
@@ -61,6 +65,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'No número decimal 5,7, o algarismo 7 representa:',
     tip: 'A primeira casa depois da vírgula é sempre a casa dos décimos.',
@@ -76,6 +81,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um pentágono?',
     tip: 'O nome "penta" já dá uma pista — pensa em "pentacampeão", que ganhou 5 vezes.',
@@ -91,6 +97,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'O que significa 50%?',
     tip: '50% é a metade de 100% — pensa em dividir algo em duas partes iguais.',
@@ -106,6 +113,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O que são divisores de um número?',
     tip: 'Pensa em quais números "cabem" perfeitamente dentro de outro, sem deixar resto na divisão.',
@@ -121,6 +129,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo reto mede:',
     tip: 'Pensa no canto de uma folha de papel — esse "L" perfeito é o ângulo reto.',
@@ -136,6 +145,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 12 × 8?',
     tip: 'Pensa em 8 grupos de 12, ou use a tabuada do 8: 8×10=80, mais 8×2=16. Some os dois resultados.',
@@ -151,6 +161,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Qual é o maior número: 3.201 ou 3.210?',
     tip: 'Os dois números começam com "3.2" — compare a próxima ordem, a das dezenas: qual é maior, 0 ou 1?',
@@ -166,6 +177,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 144 ÷ 12?',
     tip: 'Pense: quantas vezes o 12 cabe dentro do 144? Uma dica é lembrar que 12 × 12 = 144.',
@@ -181,6 +193,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 15 é múltiplo de qual número abaixo?',
     tip: 'Pensa na tabuada do 5: 5, 10, 15, 20... o 15 aparece nessa lista?',
@@ -196,6 +209,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração é equivalente a 2/4?',
     tip: 'Simplifique 2/4 dividindo o numerador e o denominador pelo mesmo número (nesse caso, por 2).',
@@ -211,6 +225,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o maior número: 4,5 ou 4,45?',
     tip: 'Transforme 4,5 em 4,50 para facilitar a comparação — agora compare os centésimos: 50 ou 45, qual é maior?',
@@ -226,6 +241,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'O triângulo que tem todos os lados iguais é chamado de:',
     tip: '"Equi" lembra "igual" — pensa em "equilíbrio", quando tudo está igual dos dois lados.',
@@ -241,6 +257,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Calcule 25% de 80.',
     tip: '25% é a quarta parte — divida 80 por 4.',
@@ -256,6 +273,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MDC entre 8 e 12?',
     tip: 'Liste os divisores de 8 (1,2,4,8) e os de 12 (1,2,3,4,6,12), depois veja qual é o maior número comum entre eles.',
@@ -271,6 +289,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'Qual é o perímetro de um quadrado com lados de 5 cm?',
     tip: 'Some as medidas dos quatro lados iguais: 5+5+5+5, ou multiplique 5 por 4.',
@@ -286,6 +305,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 5,8 − 2,3?',
     tip: 'Subtraia a parte inteira (5−2) e depois a parte decimal (8−3 décimos) separadamente.',
@@ -301,6 +321,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Sistema de numeração',
     type: 'multiple_choice',
     text: 'Bernardo organizou 2.348 figurinhas. Qual é o algarismo das centenas nesse número?',
     tip: 'Separe o número por ordens: 2 (milhar), 3 (?), 4 (dezena), 8 (unidade). Qual ordem fica entre o milhar e a dezena?',
@@ -316,6 +337,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Multiplicação',
     type: 'multiple_choice',
     text: 'Bernardo comprou 3 pacotes de 45 figurinhas cada. Quantas figurinhas ele comprou ao todo?',
     tip: 'Essa situação pede uma multiplicação: 3 pacotes vezes 45 figurinhas cada. Calcule por partes: 40×3 + 5×3.',
@@ -331,6 +353,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Divisão',
     type: 'multiple_choice',
     text: 'Bernardo dividiu 144 figurinhas repetidas entre 12 amigos igualmente. Quantas cada um recebeu?',
     tip: 'Pense em quantas vezes o 12 cabe dentro do 144.',
@@ -346,6 +369,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo comeu 3 de 8 fatias de uma pizza. Que fração representa o que ele comeu?',
     tip: 'O numerador é quantas fatias Bernardo comeu (3) e o denominador é o total de fatias (8).',
@@ -361,6 +385,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo mediu sua altura: 1,42 metro. Quantos décimos de metro isso representa na casa correspondente?',
     tip: 'A primeira casa depois da vírgula, na medida de comprimento, representa décimos do metro.',
@@ -376,6 +401,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Perímetro',
     type: 'multiple_choice',
     text: 'Bernardo desenhou um terreno retangular de 8m por 5m. Qual é o perímetro desse terreno?',
     tip: 'Some os quatro lados do retângulo: 8+5+8+5, ou calcule (8+5) x 2.',
@@ -391,6 +417,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo tirou 8 de 10 em uma prova. Que porcentagem ele acertou?',
     tip: 'Se a prova vale 10 pontos, cada ponto representa 10%. Quantos por cento são 8 pontos?',
@@ -406,6 +433,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que o número 2 é o único número par que também é:',
     tip: 'Lembre que todos os outros números pares podem ser divididos por 2 e por mais algum outro número além de 1 e ele mesmo — menos o 2!',
@@ -421,6 +449,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo comparou dois números decimais: 6,4 e 6,40. Ele concluiu que:',
     tip: 'Completar um número decimal com um zero à direita não muda seu valor — é a mesma quantidade escrita de forma diferente.',
@@ -436,6 +465,7 @@ export const questoesMatematica6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Matemática no cotidiano',
     type: 'multiple_choice',
     text: 'Ao final do simulado de revisão, Bernardo percebeu que aprendeu, ao longo do ano, conceitos de números naturais, operações, múltiplos e divisores, frações, decimais, geometria e porcentagem. Isso mostra que ele:',
     tip: 'Pensa em tudo que Bernardo praticou ao longo do ano — foram vários conteúdos diferentes trabalhados juntos, não só um.',
