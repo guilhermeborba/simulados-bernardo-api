@@ -1,6 +1,7 @@
 export const questoesArte6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'A arte romana foi muito influenciada pela arte de qual civilização vizinha?',
     tip: 'Pensa na civilização que você acabou de estudar no simulado anterior, com templos e colunas.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Diferente das esculturas gregas, que buscavam corpos idealizados, os retratos romanos costumavam ser:',
     tip: 'Pensa na diferença entre um corpo "perfeito" grego e um retrato bem realista, com detalhes do rosto.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'O Coliseu de Roma é um exemplo de:',
     tip: 'Pensa no tamanho e na complexidade dessa construção, que você já estudou em História.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Os romanos ficaram famosos por criar imagens usando pequenas peças coloridas encaixadas, chamadas de:',
     tip: 'Pensa em uma imagem formada por muitos pedacinhos pequenos e coloridos encaixados juntos.',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Os mosaicos romanos eram usados principalmente para decorar:',
     tip: 'Pensa em onde você imagina que ficavam essas imagens feitas de pequenas peças coloridas.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Os arcos, uma marca da arquitetura romana, ajudavam a construir estruturas como:',
     tip: 'Pensa nas grandes construções romanas que você já estudou em História, que levavam água para as cidades.',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Os romanos também eram conhecidos por suas esculturas em homenagem a:',
     tip: 'Pensa em quem os romanos mais queriam homenagear com suas estátuas.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'O uso de estátuas realistas de imperadores tinha, entre outras funções, o objetivo de:',
     tip: 'Pensa em como uma estátua grande e detalhada de um governante pode impressionar as pessoas.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'Assim como os gregos, os romanos também usavam colunas em seus templos e edifícios, mostrando:',
     tip: 'Volta na questão 1 sobre a influência grega na cultura romana.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Por que a arquitetura romana, com arcos, colunas e cúpulas, é estudada até hoje?',
     tip: 'Pensa em prédios importantes ao redor do mundo que ainda usam arcos e colunas.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Se um escultor romano fizesse o retrato de um imperador já idoso, ele provavelmente mostraria:',
     tip: 'Volta na questão 2 sobre o realismo dos retratos romanos.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Por que os romanos usavam mosaicos para decorar seus pisos e paredes?',
     tip: 'Volta nas questões 4 e 5 sobre o que são e para que serviam os mosaicos.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'O Coliseu, com sua estrutura de arcos e múltiplos andares, mostra que os romanos tinham grande conhecimento de:',
     tip: 'Volta na questão 3 sobre o que o Coliseu representa.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Comparando a escultura romana com a grega, qual é uma diferença importante?',
     tip: 'Volta na questão 2 sobre a diferença entre os dois estilos de escultura.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Por que os arcos eram tão importantes na construção de aquedutos romanos?',
     tip: 'Pensa em como um formato curvo pode ajudar a sustentar mais peso do que uma linha reta.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'Se um mosaico romano representa uma cena de caça, isso mostra que essa arte também servia para:',
     tip: 'Pensa em como os mosaicos, além de bonitos, também podiam contar histórias sobre a vida romana.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Por que muitas cidades ao redor do mundo ainda usam arcos e colunas inspirados na arquitetura romana?',
     tip: 'Volta na questão 10 sobre a influência da arquitetura romana até hoje.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma semelhança entre a arte romana e a arte grega?',
     tip: 'Pensa em tudo que você aprendeu nos dois simulados sobre Grécia e Roma.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que os retratos realistas dos imperadores romanos são importantes para os historiadores hoje?',
     tip: 'Volta nas questões 2 e 11 sobre o realismo dos retratos romanos.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'Por que estudar a arte romana é importante até hoje?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre a influência romana.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'Bernardo monta uma maquete do Coliseu de Roma para a aula de Arte, destacando os arcos usados na construção. Que aspecto da arte romana ele está representando?',
     tip: 'É o mesmo aspecto das questões 3 e 13.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Bernardo cria um pequeno mosaico colando pedacinhos coloridos de papel, imitando a técnica usada pelos romanos. Como se chama essa técnica?',
     tip: 'É a mesma técnica das questões 4, 5 e 12.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo aprende que os retratos romanos, diferente dos gregos, mostravam até as rugas e imperfeições dos rostos. Isso mostra que a arte romana valorizava:',
     tip: 'É a mesma característica das questões 2, 11 e 19.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Bernardo explica à turma que os arcos eram muito usados pelos romanos para construir:',
     tip: 'É a mesma resposta da questão 6.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Comparando a arte romana com a grega, Bernardo percebe uma semelhança. Qual é ela?',
     tip: 'É a mesma semelhança da questão 18.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora por que os romanos faziam estátuas tão realistas de seus imperadores. Ela explica que:',
     tip: 'É a mesma explicação da questão 8.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'Ao final da aula, Bernardo resume que a arte romana foi muito influenciada pela arte de qual civilização vizinha, adaptando colunas e ideais de escultura?',
     tip: 'É a mesma resposta da questão 1.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo percebe que, assim como os egípcios e os gregos, os romanos também usavam a arte para:',
     tip: 'Pensa em tudo que você aprendeu sobre o propósito da arte em várias civilizações antigas.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Arte romana',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação sobre a arte romana, Bernardo resume: "A arte e a arquitetura romana são importantes porque..." Como ele pode completar a frase?',
     tip: 'É a mesma conclusão da questão 20.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Ao encerrar o bimestre sobre arte na Antiguidade, Bernardo resume tudo que aprendeu: da Pré-História ao Egito, da Grécia a Roma. Isso mostra que a Arte:',
     tip: 'Pensa em tudo que você estudou neste bimestre e no anterior sobre arte na Antiguidade.',

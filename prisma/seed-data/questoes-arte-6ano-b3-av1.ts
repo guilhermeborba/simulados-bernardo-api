@@ -1,6 +1,7 @@
 export const questoesArte6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'A arte grega antiga é muito conhecida por suas:',
     tip: 'Pensa nas estátuas de heróis, deuses e atletas gregos, com músculos bem definidos.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Os templos gregos, como o Partenon, eram construídos principalmente para:',
     tip: 'Pensa nos deuses gregos que você estudou em História — os templos eram dedicados a eles.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'As colunas usadas na arquitetura grega são um elemento marcante e ainda inspiram construções:',
     tip: 'Pensa em prédios importantes, como museus e tribunais, que às vezes têm colunas parecidas.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Um tipo de arte muito comum na Grécia Antiga era a pintura em vasos de cerâmica, retratando:',
     tip: 'Pensa em tudo que era importante para os gregos: mitos, esportes e a vida cotidiana.',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'As esculturas gregas antigas buscavam representar o corpo humano de forma:',
     tip: 'Pensa em como os gregos valorizavam a beleza e a proporção do corpo humano em suas esculturas.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'O Partenon é um famoso templo grego dedicado à deusa:',
     tip: 'Pensa na deusa protetora da cidade de Atenas — o templo tem um nome parecido com ela.',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'As esculturas gregas frequentemente representavam:',
     tip: 'Pensa em quem os gregos mais admiravam e queriam homenagear com suas obras de arte.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'O teatro grego, além de linguagem cênica, também influenciou muito a:',
     tip: 'Pensa nos grandes espaços ao ar livre construídos para as peças de teatro gregas.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Diferente da arte egípcia, que representava figuras de perfil, a escultura grega buscava representar o corpo:',
     tip: 'Pensa na diferença entre uma pintura egípcia (sempre de perfil) e uma escultura grega mais realista.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'A cerâmica grega, com desenhos detalhados, servia tanto para fins:',
     tip: 'Pensa que os vasos gregos, além de bonitos, também serviam para guardar coisas do dia a dia, como azeite e vinho.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Se um artista grego esculpisse uma estátua de um atleta, ele provavelmente buscaria mostrar:',
     tip: 'Volta na questão 5 e 9 sobre o naturalismo e a proporção nas esculturas gregas.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Por que os templos gregos, como o Partenon, usavam tantas colunas?',
     tip: 'Pensa que as colunas serviam tanto para sustentar o telhado quanto para deixar o templo mais bonito.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Comparando a escultura grega com a egípcia, qual é uma diferença importante?',
     tip: 'Pensa no estilo egípcio (rosto de perfil, corpo rígido) e compare com o estilo grego mais natural.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Se um vaso de cerâmica grego representa uma cena de uma competição esportiva, isso mostra que a arte grega também registrava:',
     tip: 'Pensa em como os Jogos Olímpicos eram importantes para os gregos, algo que também aparecia na arte.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Por que muitos edifícios importantes ao redor do mundo, mesmo hoje, usam colunas inspiradas na arquitetura grega?',
     tip: 'Pensa em prédios de museus, tribunais e universidades que você já viu, com colunas parecidas com as gregas.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Se uma escultura grega representa um deus com músculos definidos e uma pose equilibrada, isso reflete o ideal grego de:',
     tip: 'Volta nas questões 1 e 5 sobre a valorização do corpo humano na arte grega.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Por que o teatro grego é considerado importante também para a arquitetura?',
     tip: 'Volta na questão 8 sobre a relação entre teatro e arquitetura.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Se você observasse um vaso grego com desenhos de heróis e batalhas mitológicas, poderia concluir que a arte grega, além de bonita, também servia para:',
     tip: 'Pensa em como a mitologia grega era importante para a cultura, e como isso aparecia na arte.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Qual é uma semelhança entre a arte grega e a arte egípcia estudada anteriormente?',
     tip: 'Pensa em como tanto egípcios quanto gregos usavam a arte para falar sobre religião e mitologia.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Por que estudar a arte grega antiga é importante até hoje?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre a influência grega na arte e arquitetura.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Na aula de Arte, Bernardo faz um desenho inspirado em uma escultura grega, tentando representar o corpo humano de forma equilibrada e realista. Que característica da arte grega ele está reproduzindo?',
     tip: 'É a mesma característica das questões 5 e 9.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Bernardo monta uma maquete de um templo grego com várias colunas ao redor. Que templo famoso pode ter inspirado essa maquete?',
     tip: 'É o mesmo templo das questões 2 e 6.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Bernardo pinta um vaso de papel, imitando a cerâmica grega, com uma cena de uma competição esportiva. Isso representa qual tema comum na cerâmica grega?',
     tip: 'É o mesmo tema das questões 4 e 14.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Na apresentação, Bernardo explica que a deusa homenageada no Partenon era:',
     tip: 'É a mesma deusa da questão 6.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo compara uma escultura grega com uma pintura egípcia e percebe uma diferença. Qual é ela?',
     tip: 'É a mesma comparação da questão 13.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Arquitetura',
     type: 'multiple_choice',
     text: 'Bernardo pergunta ao professor por que os gregos usavam tantas colunas em seus templos. O professor explica que:',
     tip: 'É a mesma explicação da questão 12.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Bernardo desenha um vaso com cenas de heróis mitológicos, como Hércules. Isso mostra que a cerâmica grega também servia para:',
     tip: 'É a mesma ideia da questão 18.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Ao comparar a arte grega com a arte egípcia, Bernardo percebe uma semelhança importante. Qual é ela?',
     tip: 'É a mesma semelhança da questão 19.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Arte grega',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume: "A arte grega é importante até hoje porque..." Como ele pode completar a frase?',
     tip: 'É a mesma conclusão da questão 20.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Ao encerrar a atividade sobre arte grega, Bernardo percebe que, assim como a Mesopotâmia, o Egito e a Grécia estudados em História, a Arte também acompanha:',
     tip: 'Pensa em como cada civilização que você estudou teve sua própria forma de arte.',

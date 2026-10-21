@@ -1,6 +1,7 @@
 export const questoesArte6AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'A arte indígena brasileira é conhecida por usar principalmente materiais:',
     tip: 'Pensa em como os povos indígenas vivem em contato próximo com a natureza.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'O grafismo indígena, muito usado em pinturas corporais e artesanato, é formado principalmente por:',
     tip: 'Pensa em desenhos com linhas, triângulos e outros formatos repetidos, cheios de significado.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'A cestaria, muito praticada por povos indígenas brasileiros, consiste em:',
     tip: 'Pensa em como um cesto é feito, entrelaçando tiras de material.',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'As pinturas corporais indígenas, além de decorativas, costumam também representar:',
     tip: 'Pensa em como um desenho no corpo pode mostrar a qual grupo ou povo uma pessoa pertence.',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'A cultura afro-brasileira trouxe, entre outras contribuições, a arte:',
     tip: 'As outras opções pertencem a civilizações antigas de outros continentes, bem diferentes.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O que são máscaras africanas, muito usadas em rituais e representadas na arte afro-brasileira?',
     tip: 'Pensa em como algumas máscaras têm um significado religioso ou espiritual profundo para quem as usa.',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'A arte afro-brasileira também está muito presente:',
     tip: 'Pensa em festas e tradições brasileiras que você já conhece, como o carnaval.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Um exemplo de arte indígena brasileira reconhecida internacionalmente é o(a):',
     tip: 'Pensa em adornos coloridos feitos com penas de pássaros, muito usados por povos indígenas.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que é importante valorizar a arte indígena e afro-brasileira na escola?',
     tip: 'Pensa em como o Brasil é formado por várias culturas diferentes, incluindo a indígena e a africana.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'A arte indígena e a arte afro-brasileira, juntas, mostram que a cultura brasileira é:',
     tip: 'Pensa em todas as diferentes origens que formam o povo brasileiro.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Se um artesão indígena tece um cesto usando fibras de palha, ele está praticando a técnica de:',
     tip: 'É a mesma técnica da questão 3.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Ao ver um padrão geométrico pintado no corpo de um indígena durante um ritual, você está observando um exemplo de:',
     tip: 'É o mesmo tipo de padrão da questão 2.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Se uma comunidade realiza uma festa com maracatu, unindo música, dança e fantasias coloridas, ela está praticando uma expressão artística de origem:',
     tip: 'É a mesma origem cultural da questão 5.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Por que os materiais naturais, como sementes e penas, são tão usados na arte indígena?',
     tip: 'Pensa em como os povos indígenas têm uma relação muito próxima e respeitosa com a natureza.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Se uma máscara africana é usada durante uma cerimônia religiosa, isso mostra que a arte, nesse contexto, também tem uma função:',
     tip: 'Volta na questão 6 sobre o significado das máscaras africanas.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Por que a arte plumária indígena, feita com penas coloridas, é tão valorizada?',
     tip: 'Pensa em quanto trabalho e conhecimento é preciso para escolher, tratar e organizar as penas em um cocar.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Comparando a arte indígena com a arte grega estudada anteriormente, uma diferença é que a arte indígena:',
     tip: 'Pensa nos materiais que cada cultura tinha disponível em sua região.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Se uma escola organiza uma apresentação de jongo, dança de origem afro-brasileira, isso é um exemplo de como a arte:',
     tip: 'Pensa em como festas e danças são formas vivas de expressar a cultura de um povo.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que estudar a arte indígena e afro-brasileira é importante para todos os alunos, não só para quem tem essas origens?',
     tip: 'Pensa em como conhecer diferentes culturas ajuda a entender melhor o próprio país onde vivemos.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Se um artista contemporâneo se inspira em grafismos indígenas para criar uma nova obra, isso mostra que a arte indígena:',
     tip: 'Pensa em como tradições antigas podem continuar inspirando coisas novas.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Na aula de Arte, Bernardo tece um pequeno cesto usando tiras de papel, imitando a técnica indígena de cestaria. Que material os povos indígenas costumam usar de verdade para essa técnica?',
     tip: 'É o mesmo material das questões 1 e 3.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Bernardo pinta desenhos geométricos no braço, inspirado nas pinturas corporais indígenas. Como se chama esse tipo de padrão visual?',
     tip: 'É o mesmo padrão das questões 2 e 12.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo assiste a uma apresentação de maracatu na escola, com música, dança e fantasias coloridas. De que cultura essa manifestação artística é originária?',
     tip: 'É a mesma cultura das questões 5 e 13.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre trabalhos indígenas feitos com penas coloridas, muito valorizados por sua beleza e significado. Como é chamada essa arte?',
     tip: 'É a mesma arte das questões 8 e 16.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Na apresentação, Bernardo explica à turma por que máscaras africanas são tão importantes em certas culturas. Qual é a explicação correta?',
     tip: 'É a mesma explicação das questões 6 e 15.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo pergunta à professora por que é importante estudar a arte indígena e afro-brasileira na escola. Ela explica que:',
     tip: 'É a mesma explicação das questões 9 e 19.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Bernardo cria um pequeno desenho inspirado em grafismos indígenas para decorar seu caderno. Isso mostra que a arte indígena:',
     tip: 'É a mesma conclusão da questão 20.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Ao comparar a arte indígena com a arte grega e romana estudadas anteriormente, Bernardo percebe uma diferença nos materiais utilizados. O que ele observa?',
     tip: 'É a mesma observação da questão 17.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Para fechar sua apresentação, Bernardo resume: "A arte indígena e afro-brasileira são importantes porque..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre essas duas ricas tradições culturais.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Ao encerrar a atividade, Bernardo percebe que a arte brasileira é formada por várias influências diferentes, incluindo a indígena e a africana. Isso mostra que a cultura do Brasil é:',
     tip: 'É a mesma conclusão da questão 10.',

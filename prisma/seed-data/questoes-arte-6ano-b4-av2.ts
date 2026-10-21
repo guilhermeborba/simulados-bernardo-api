@@ -1,6 +1,7 @@
 export const questoesArte6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Linguagem visual',
     type: 'multiple_choice',
     text: 'Quais são os elementos básicos da linguagem visual estudados este ano?',
     tip: 'Pensa nos cinco elementos que você estudou logo no início do ano.',
@@ -16,6 +17,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Quais são as quatro principais linguagens artísticas estudadas na escola?',
     tip: 'Pensa nas formas de expressão que envolvem imagens, sons, movimentos e atuação.',
@@ -31,6 +33,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'As pinturas feitas pelos primeiros seres humanos em paredes de cavernas são chamadas de:',
     tip: '"Rupestre" vem de uma palavra que significa "rocha".',
@@ -46,6 +49,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'As pirâmides e as máscaras funerárias, como a de Tutancâmon, são exemplos de arte de qual civilização?',
     tip: 'Pensa na civilização do rio Nilo e dos faraós.',
@@ -61,6 +65,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'As esculturas gregas buscavam representar o corpo humano de forma:',
     tip: 'Pensa em estátuas de atletas e deuses gregos, com músculos bem definidos.',
@@ -76,6 +81,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Materiais e técnicas',
     type: 'multiple_choice',
     text: 'Os romanos ficaram famosos por criar imagens com pequenas peças coloridas encaixadas, chamadas de:',
     tip: 'Pensa em uma imagem formada por muitos pedacinhos pequenos e coloridos encaixados juntos.',
@@ -91,6 +97,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'O grafismo indígena é formado principalmente por:',
     tip: 'Pensa em desenhos com linhas e formas repetidas, cheios de significado.',
@@ -106,6 +113,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'O maracatu e o jongo são exemplos de expressões artísticas de origem:',
     tip: 'Pensa em manifestações culturais brasileiras que unem música, dança e visual.',
@@ -121,6 +129,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Cores',
     type: 'multiple_choice',
     text: 'Misturando a cor azul com a amarela, obtemos a cor:',
     tip: 'Pensa na cor da grama e das folhas das árvores.',
@@ -136,6 +145,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Um bailarino ou uma bailarina se expressa principalmente através de qual linguagem artística?',
     tip: 'Pensa em como um bailarino se expressa em cima do palco, através do movimento do corpo.',
@@ -151,6 +161,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se um artista usa linhas, formas e cores para criar uma pintura, ele está usando os elementos da linguagem:',
     tip: 'Pensa em qual linguagem artística usa esses elementos visuais.',
@@ -166,6 +177,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Comparando a arte rupestre com a arte egípcia, o que mudou principalmente?',
     tip: 'Pensa na diferença entre pigmentos simples em uma caverna e pinturas detalhadas dentro de túmulos.',
@@ -181,6 +193,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Arte egípcia',
     type: 'multiple_choice',
     text: 'Por que os egípcios pintavam figuras com o rosto de perfil, mas o olho e os ombros de frente?',
     tip: 'Pensa em como essa técnica buscava mostrar a figura da forma mais clara possível.',
@@ -196,6 +209,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre a escultura grega e a romana?',
     tip: 'Pensa na diferença entre um corpo "perfeito" grego e um retrato bem realista romano.',
@@ -211,6 +225,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'Por que os materiais naturais, como fibras, sementes e penas, são tão usados na arte indígena?',
     tip: 'Pensa em como os povos indígenas têm uma relação muito próxima com a natureza.',
@@ -226,6 +241,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Se uma escultura tem volume e pode ser vista de vários ângulos, diferente de uma pintura, que é plana, isso é uma característica de qual linguagem artística?',
     tip: 'Pensa na diferença entre algo tridimensional e algo plano.',
@@ -241,6 +257,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Por que estudar diferentes civilizações e culturas através da arte (Pré-História, Egito, Grécia, Roma, povos indígenas e africanos) é importante?',
     tip: 'Pensa em tudo que você aprendeu este ano sobre diferentes culturas através da arte.',
@@ -256,6 +273,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Artes indígenas',
     type: 'multiple_choice',
     text: 'As pinturas corporais indígenas, além de decorativas, costumam representar:',
     tip: 'Pensa em como um desenho no corpo pode mostrar a qual grupo uma pessoa pertence.',
@@ -271,6 +289,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'O Coliseu de Roma e o Partenon de Atenas são exemplos de:',
     tip: 'Pensa no tamanho e na complexidade dessas duas famosas construções antigas.',
@@ -286,6 +305,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Ao longo do ano, Bernardo estudou arte desde a Pré-História até as culturas indígena e afro-brasileira. Isso mostra que a Arte:',
     tip: 'Pensa em tudo que você estudou este ano sobre diferentes culturas e épocas.',
@@ -301,6 +321,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo organiza um grande mural na escola reunindo tudo que aprendeu de Arte neste ano. No início, ele coloca a imagem de uma mão pintada na parede de uma caverna. A que período isso se refere?',
     tip: 'É o mesmo período da questão 3.',
@@ -316,6 +337,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Mais à frente no mural, Bernardo cola a imagem de uma pirâmide e de uma máscara funerária dourada. A qual civilização essas imagens pertencem?',
     tip: 'É a mesma civilização da questão 4.',
@@ -331,6 +353,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Escultura',
     type: 'multiple_choice',
     text: 'Bernardo também coloca a imagem de uma escultura grega de um atleta, com músculos bem definidos. Que característica da arte grega essa imagem representa?',
     tip: 'É a mesma característica da questão 5.',
@@ -346,6 +369,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Logo depois, Bernardo cola a imagem de um mosaico colorido e do Coliseu. A que civilização essas imagens se referem?',
     tip: 'É a mesma civilização da questão 6.',
@@ -361,6 +385,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Para representar a cultura brasileira, Bernardo cola a imagem de um cesto de palha e de um padrão geométrico pintado no corpo. A que tipo de arte isso se refere?',
     tip: 'É o mesmo tipo de arte das questões 7 e 15.',
@@ -376,6 +401,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por fim, Bernardo cola a imagem de uma máscara africana e de dançarinos de maracatu. A que cultura essas imagens se referem?',
     tip: 'É a mesma cultura da questão 8.',
@@ -391,6 +417,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Expressões artísticas',
     type: 'multiple_choice',
     text: 'Ao explicar o mural para a turma, Bernardo diz que todas essas culturas, de formas diferentes, usaram a arte para expressar crenças, identidade e história. Essa frase resume bem:',
     tip: 'Pensa em tudo que você aprendeu este ano sobre o propósito da arte em diferentes culturas.',
@@ -406,6 +433,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Artes visuais',
     type: 'multiple_choice',
     text: 'Bernardo explica que, apesar de tão diferentes, todas essas formas de arte usaram elementos como ponto, linha, forma, cor e textura. O que isso mostra?',
     tip: 'Pensa em como ponto, linha, forma, cor e textura aparecem em praticamente todas as artes visuais que você estudou.',
@@ -421,6 +449,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Na revisão para a prova final, Bernardo cria a pergunta: "Qual civilização é conhecida por suas pirâmides e máscaras funerárias?" Qual é a resposta certa?',
     tip: 'É a mesma civilização das questões 4 e 22.',
@@ -436,6 +465,7 @@ export const questoesArte6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Para encerrar sua apresentação sobre o ano inteiro de Arte, Bernardo resume: "Estudamos várias formas de arte e descobrimos que..." Como ele pode completar a frase?',
     tip: 'Pensa em tudo que você revisou neste simulado, de várias culturas diferentes.',
