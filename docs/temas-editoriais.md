@@ -638,3 +638,38 @@ A classificação considera o objetivo das questões e as alternativas dos enunc
 A quantidade de temas acompanha o conteúdo: B1/AV1 e B2/AV2 têm seis; B1/AV2 e B2/AV1, quatro; B3/AV1, sete; B3/AV2 e B4/AV1, dois; B4/AV2 revisa onze. Todos os campos anteriores foram preservados exatamente, incluindo enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura.
 
 As inconsistências preexistentes sobre quantidade de fusos e diferença Acre/Brasília (B4/AV2, IDs 4, 7, 21 e 24), além da precisão do enunciado sobre água doce e disponibilidade para consumo (B3/AV2, ID 4), foram registradas na [issue web #88](https://github.com/guilhermeborba/simulados-bernardo/issues/88), com fontes oficiais para revisão separada. Nenhum conteúdo anterior foi corrigido no lote de temas.
+
+### Português — 6º ano
+
+| Tema | Abrange |
+|---|---|
+| Adjetivos | Reconhecimento, função descritiva, características e locuções adjetivas nos exemplos estudados. |
+| Classes de palavras | Comparação entre classes gramaticais e identificação do nome da classe sem antecipar a resposta. |
+| Concordância | Ajustes de número e pessoa entre sujeito e verbo e de gênero e número entre substantivos, artigos e adjetivos. |
+| Fábulas | Características, animais personificados, comparação com contos e função do ensinamento final. |
+| Gêneros e tipos textuais | Características, finalidades, reconhecimento e comparação de contos, fábulas, lendas, crônicas, notícias, receitas e tipos de texto. |
+| Leitura e escrita | Síntese sobre a aprendizagem dos recursos da língua e seu papel na leitura, escrita e comunicação. |
+| Modos verbais | Indicativo, subjuntivo e imperativo: reconhecimento, diferenças e expressão de fatos, desejos, possibilidades, pedidos e ordens. |
+| Narrativas | Narrador, primeira e terceira pessoa, onisciência, personagens, enredo, conflito, espaço e tempo. |
+| Notícias | Definição, características e finalidade informativa de notícias sobre fatos reais. |
+| Ortografia | Escolha e usos de mas/mais e por que/porque e sínteses sobre grafia, acentuação e clareza do texto. |
+| Pontuação | Funções e usos de ponto final, interrogação, exclamação, vírgula, dois-pontos, reticências, aspas e travessão. |
+| Pronomes | Pronomes pessoais, possessivos, demonstrativos, indefinidos e de tratamento: reconhecimento, referência e emprego em frases. |
+| Sílabas e acentuação | Tonicidade, oxítonas, paroxítonas, proparoxítonas, regras de acentuação e grafia acentuada dos exemplos estudados. |
+| Substantivos | Reconhecimento, definição e classificação em próprios, comuns, concretos, abstratos e coletivos. |
+| Tempos verbais | Presente, passado e futuro: reconhecimento, uso nas frases e localização das ações no tempo. |
+| Verbos | Identificação, ações, estados, fenômenos, grupos de conjugação e síntese sobre flexões de tempo e modo. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-portugues-6ano-b*-av*.ts`. Não há entradas privadas desse ano/disciplina no seed. Os 16 temas reaproveitam os nomes de Português dos anos anteriores quando o conteúdo corresponde. **Modos verbais** separa a comparação entre indicativo, subjuntivo e imperativo, concentrada neste ano, da localização temporal das ações.
+
+**Gêneros e tipos textuais** reúne a definição e comparação de formas de texto e as perguntas em que o aluno precisa identificar o gênero ou tipo. Não se usa o nome da resposta como tema: B1/AV1, IDs 21 e 23–25, e B4/AV2, IDs 7, 13, 20, 21 e 26, por exemplo. **Fábulas** e **Notícias** concentram características de gêneros já dados no enunciado. **Narrativas** cobre os elementos e a organização das histórias, incluindo os tipos de narrador, sem antecipar suas classificações.
+
+**Substantivos** e **Adjetivos** agrupam seus usos e classificações específicos. **Classes de palavras** reúne as comparações entre eles e as perguntas em que o nome da classe seria a resposta: B1/AV2, IDs 20, 25, 26 e 30, e B4/AV2, IDs 22 e 23. Também cobre o reconhecimento da ausência de adjetivo em B4/AV1, ID 14. **Concordância** reúne os ajustes nominais e verbais, inclusive as lacunas em que artigo, adjetivo ou forma verbal precisa acompanhar o restante da frase.
+
+**Verbos** reúne identificação, função e grupos de conjugação; **Tempos verbais**, presente, passado e futuro; **Modos verbais**, indicativo, subjuntivo e imperativo. A síntese de tempo e modo em B2/AV1, ID 30, permanece em **Verbos**, sem escolher uma só das duas dimensões. **Pronomes** reúne os tipos estudados, sem usar como tema o tipo que deve ser identificado na resposta.
+
+**Sílabas e acentuação** reúne tonicidade, classificação e regras dos sinais gráficos. **Ortografia** cobre a distinção de mas/mais e por que/porque; a síntese que articula essas grafias e a acentuação em B2/AV2, ID 30, usa esse tema mais amplo. **Pontuação** agrupa os sinais e seus efeitos, sem nomear no rótulo o sinal pedido. A síntese final de vários conteúdos em B4/AV2, ID 30, usa **Leitura e escrita**.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1 e B1/AV2 têm quatro; B2/AV1, três; B2/AV2, dois; B3/AV1 concentra pronomes; B3/AV2, pontuação; B4/AV1 tem dois temas; B4/AV2 revisa dez. Não se subdividem artificialmente os simulados concentrados em um conteúdo.
+
+As inconsistências preexistentes de contagem de pronomes (B3/AV1, ID 16), correções ambíguas de concordância (B4/AV1, IDs 12 e 16; B4/AV2, ID 25), descrição das classes na frase (B4/AV1, ID 14) e definição de substantivo concreto (B1/AV2, ID 4) estão na [issue web #92](https://github.com/guilhermeborba/simulados-bernardo/issues/92), para revisão editorial separada. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs e estrutura foram preservados exatamente neste lote.

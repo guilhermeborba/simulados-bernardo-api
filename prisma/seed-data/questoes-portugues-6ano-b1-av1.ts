@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O que é um "conto"?',
     tip: 'Pense em uma história "curtinha", que pode ser lida de uma só vez.',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Fábulas',
     type: 'multiple_choice',
     text: 'O que caracteriza uma "fábula"?',
     tip: 'Pense em histórias com animais que falam e agem como gente, terminando com uma "lição de vida".',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Quem é o "narrador" de uma história?',
     tip: 'Pense em "quem está contando" a história para você, o leitor.',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Quando o narrador participa da história e conta os fatos usando "eu", dizemos que ele é um narrador:',
     tip: 'Pense em como "eu" é um pronome de primeira pessoa.',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Quando o narrador conta a história de fora, sem participar dela, usando "ele" ou "ela", dizemos que ele é um narrador:',
     tip: 'Pense em como "ele" e "ela" são pronomes de terceira pessoa.',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é o "enredo" de uma narrativa?',
     tip: 'Pense no "fio da história", tudo que acontece do início ao fim.',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é o "espaço" em uma narrativa?',
     tip: 'Pense em "onde" a história acontece: uma floresta, uma cidade, uma casa...',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é o "tempo" em uma narrativa?',
     tip: 'Pense em "quando" a história se passa: hoje, há muito tempo, no futuro...',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é um "conflito", dentro de uma narrativa?',
     tip: 'Pense no "problema principal" que move a história para frente.',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que diferencia os "personagens principais" dos "personagens secundários" em uma narrativa?',
     tip: 'Pense em quem "protagoniza" a história, ou seja, quem está no centro dos acontecimentos.',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Notícias',
     type: 'multiple_choice',
     text: 'O que é uma "notícia", como gênero textual?',
     tip: 'Pense no tipo de texto que aparece em jornais e telejornais, contando o que aconteceu.',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O que é uma "lenda"?',
     tip: 'Pense em histórias contadas há muito tempo, passadas de avós para netos.',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O que é uma "crônica"?',
     tip: 'Pense em um texto que fala sobre o dia a dia, muitas vezes com humor ou reflexão.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Notícias',
     type: 'multiple_choice',
     text: 'Qual é o principal objetivo de um texto do gênero "notícia"?',
     tip: 'Pense na função principal de um jornal: informar sobre o que está acontecendo.',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Fábulas',
     type: 'multiple_choice',
     text: 'O que geralmente diferencia uma fábula de um conto comum?',
     tip: 'Pense na "lição" que costuma aparecer no final das fábulas.',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que significa dizer que um narrador é "onisciente"?',
     tip: 'Pense na palavra "onisciente", que tem a ver com "saber tudo".',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Em uma lenda, é comum encontrar elementos:',
     tip: 'Pense em criaturas ou fatos que fogem do "normal", como parte da tradição popular.',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Fábulas',
     type: 'multiple_choice',
     text: 'Qual é a função de uma "moral", ao final de uma fábula?',
     tip: 'Pense no "recado" que a história quer deixar para quem está lendo.',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Por que é importante identificar o gênero de um texto antes de lê-lo?',
     tip: 'Pense em como você lê um texto de forma diferente se sabe que é notícia, fábula ou receita.',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O que costuma diferenciar uma crônica de uma notícia?',
     tip: 'Pense em como uma crônica traz o olhar pessoal de quem escreve.',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Na aula de Português, a professora leu para a turma uma história curta sobre uma raposa e um corvo, que terminava com um ensinamento sobre vaidade. Bernardo reconheceu corretamente esse texto como uma:',
     tip: 'Pense no gênero com animais que falam e terminam com uma moral.',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo escreveu uma redação contando um passeio ao zoológico, usando a palavra "eu" o tempo todo, como em "eu vi", "eu senti". Isso mostra que ele usou um narrador:',
     tip: 'Pense em como "eu" indica que quem conta também vive a história.',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Ao ler um jornal com a família, Bernardo encontrou um texto contando, de forma objetiva, sobre um evento esportivo que havia acontecido na cidade no dia anterior. Esse texto era uma:',
     tip: 'Pense no gênero que informa sobre fatos reais e recentes.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'A avó de Bernardo contou uma história antiga sobre uma criatura misteriosa que aparecia nas matas para proteger os animais. Esse tipo de narrativa popular, cheia de elementos fantásticos, é chamada de:',
     tip: 'Pense em histórias contadas de geração em geração, com toques de mistério.',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Na redação escolar, Bernardo escreveu sobre um dia comum em sua casa, mas com um tom bem-humorado e cheio de reflexões pessoais sobre a rotina da família. Esse tipo de texto é chamado de:',
     tip: 'Pense no gênero que comenta o cotidiano de forma pessoal, muitas vezes com humor.',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Ao analisar um conto lido em sala, Bernardo identificou o "problema principal" que o personagem precisava resolver ao longo da história. Esse elemento da narrativa é chamado de:',
     tip: 'Pense no "obstáculo" que move a história para frente.',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que a história que estava lendo se passava inteiramente dentro de uma escola, durante um único dia. Esses detalhes representam, respectivamente, o:',
     tip: 'Pense em "onde" e "quando" a história acontece.',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'No fim de um conto lido em sala, Bernardo notou que o narrador sabia exatamente o que cada personagem estava pensando, mesmo em momentos diferentes da trama. Isso indica que o narrador era:',
     tip: 'Pense na palavra que indica "saber tudo" sobre a história.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo comparou dois personagens de uma história: um que aparecia em quase todas as cenas e tomava as principais decisões, e outro que só aparecia uma vez, ajudando rapidamente o protagonista. O primeiro é um personagem:',
     tip: 'Pense em quem está no centro da história, tomando as decisões mais importantes.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora pediu que Bernardo explicasse a diferença entre os gêneros textuais estudados. Ele respondeu corretamente que cada gênero (conto, fábula, notícia, lenda, crônica) tem:',
     tip: 'Pense em tudo que aprendemos sobre as diferenças entre notícia, fábula, lenda e crônica.',

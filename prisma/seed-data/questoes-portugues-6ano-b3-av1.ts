@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'O que são pronomes pessoais retos?',
     tip: 'Pensa assim: quando você fala "eu" ou "ele" em vez do seu próprio nome, você está usando um pronome pessoal. Ele "faz o papel" da pessoa na frase!',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual pronome pessoal reto substitui "o Bernardo" na frase "Bernardo foi à escola"?',
     tip: 'Bernardo é uma pessoa do sexo masculino, falada por outra pessoa (não é quem fala nem quem ouve). Qual pronome combina com isso?',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Os pronomes "meu, teu, seu, nosso" são chamados de:',
     tip: 'Repara na palavra "possessivos" — ela lembra "possuir", que é o mesmo que "ter" ou "ser dono de algo". Esses pronomes mostram de quem é a coisa!',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Este livro é meu", a palavra "este" é um pronome:',
     tip: '"Este" mostra que o livro está pertinho de quem fala. Pronomes que mostram a posição de algo (perto, longe) são demonstrativos!',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual das opções abaixo é um pronome possessivo?',
     tip: 'Pergunte: essa palavra mostra de quem é alguma coisa? "Nosso lanche" é o lanche que pertence a "nós".',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Complete: "___ estudo todos os dias para a prova." Qual pronome pessoal completa corretamente?',
     tip: 'Quem está "estudando" na frase é a própria pessoa que fala. Qual pronome representa quem fala sozinho?',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Os pronomes demonstrativos servem para:',
     tip: 'Pensa em "isto", "isso" e "aquilo" — eles ajudam a "apontar" para onde ou quando algo está.',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual pronome indica algo indefinido, sem precisar quem ou quanto?',
     tip: 'Repare que "algum" não diz exatamente quem é — é por isso que ele é chamado de "indefinido", ou seja, sem definição clara.',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Nós vamos ao parque", o pronome pessoal "nós" se refere a:',
     tip: '"Nós" sempre inclui a pessoa que está falando, junto com mais alguém. É diferente de "eu", que é só uma pessoa.',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: '"Aquele carro é bonito." A palavra destacada é um pronome:',
     tip: '"Aquele" mostra que o carro está longe de quem fala e de quem ouve. Isso é uma pista de localização — típico dos demonstrativos!',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Substitua "a Maria" pelo pronome pessoal correto na frase "A Maria comprou um presente":',
     tip: 'Maria é uma pessoa do sexo feminino, e é dela que se fala (não é quem fala nem quem ouve). Qual pronome combina?',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: '"Vossa Senhoria" é um pronome de tratamento usado para:',
     tip: 'Pense em cartas muito formais, como as que se escrevem para autoridades importantes. Esse tipo de pronome mostra bastante respeito.',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "O caderno é seu, não é meu", os pronomes destacados indicam:',
     tip: '"Seu" e "meu" respondem à pergunta "de quem é?". Isso é a marca registrada dos pronomes possessivos.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual frase usa corretamente um pronome demonstrativo?',
     tip: 'Procure a palavra que "aponta" para algo que foi dito, sem repetir tudo de novo. "Isso" está no lugar da frase inteira que a pessoa falou!',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Complete com o pronome pessoal correto: "___ (vocês) vão à festa?"',
     tip: 'A dica já está entre parênteses na pergunta! Qual pronome representa um grupo de pessoas com quem se fala?',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Estes brinquedos são meus, aqueles são teus", quantos pronomes diferentes aparecem?',
     tip: 'Conte com calma: "estes", "meus", "aqueles" e "teus" — mas repare que "meus" e "teus" são do mesmo tipo (possessivos) e "estes"/"aqueles" são do mesmo tipo (demonstrativos). Quantos tipos diferentes existem no total contando cada palavra?',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual pronome indefinido completa: "___ pessoa viu o acidente."',
     tip: 'A frase fala de uma quantidade que não existiu — ninguém viu! Qual palavra mostra "quantidade zero" de forma indefinida?',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Assinale a frase com pronome possessivo:',
     tip: 'Procure a palavra que mostra de quem é o livro. Ela está bem ao lado da palavra "livro"!',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'O pronome "tu" é usado para se referir a:',
     tip: '"Tu" é a 2ª pessoa do singular — pense em quem está do outro lado da conversa, ouvindo o que você fala.',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Aquilo não me pertence", o pronome demonstrativo indica algo:',
     tip: '"Aquilo" é da mesma família de "aquele" — lembra que essa família de pronomes indica sempre a maior distância possível!',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo disse: "Este é o meu caderno de matemática." Qual pronome indica que o caderno pertence a Bernardo?',
     tip: 'Procure a palavrinha que responde "de quem é o caderno?" — ela está bem colada ao nome "caderno".',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo e seus amigos combinaram um passeio. Ele disse: "Nós vamos ao museu no sábado." O pronome "nós" mostra que:',
     tip: 'Lembra que "nós" sempre inclui quem fala mais outras pessoas. Bernardo está falando de um grupo, não sozinho!',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'A professora perguntou a Bernardo: "De quem é esta mochila?" Bernardo respondeu: "É minha." Qual é o pronome possessivo na resposta?',
     tip: 'A resposta de Bernardo responde diretamente "de quem é" — essa palavrinha mostra a posse da mochila.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo apontou para um livro na estante e disse: "Aquele é o livro que eu quero ler." O pronome "aquele" indica que o livro está:',
     tip: 'Se Bernardo está "apontando" de longe, que tipo de pronome demonstrativo ele usaria — o de perto ou o de longe?',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo escreveu um bilhete: "Alguém esqueceu este estojo na sala." O pronome "alguém" é do tipo:',
     tip: 'Bernardo não sabe quem esqueceu o estojo — por isso usa uma palavra que não define exatamente a pessoa.',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'No recreio, Bernardo disse ao amigo: "Você quer brincar comigo?" O pronome pessoal "você" se refere a:',
     tip: 'Quem está sendo convidado para brincar? É a pessoa que está ouvindo Bernardo falar.',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo organizou seus brinquedos e disse: "Estes são meus carrinhos, aqueles são da minha irmã." Quantos pronomes possessivos aparecem na frase?',
     tip: 'Procure as palavras que mostram "de quem é" cada grupo de carrinhos — são duas palavrinhas parecidas!',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo perguntou: "Isso que você fez foi muito legal!" O pronome "isso" está classificado como:',
     tip: '"Isso" está apontando para uma ação que já aconteceu, sem repetir tudo de novo — essa é a função dos pronomes que "mostram" algo.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na agenda de Bernardo estava escrito: "Nenhum aluno pode faltar à excursão." O pronome "nenhum" indica:',
     tip: '"Nenhum" está dizendo que a quantidade de alunos que podem faltar é zero — repare que ele não define uma pessoa específica.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo terminou a prova e disse à professora: "Este exercício foi mais fácil que aquele." Os pronomes "este" e "aquele" servem para:',
     tip: 'Bernardo está comparando dois exercícios diferentes, um mais perto na memória (este) e outro mais distante (aquele) — isso é bem típico dos demonstrativos.',

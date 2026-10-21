@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'O que é uma palavra "oxítona"?',
     tip: 'Pense em palavras como "café" e "jacaré", em que a força da voz cai na última sílaba.',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'O que é uma palavra "paroxítona"?',
     tip: 'Pense em palavras como "fácil" e "árvore", em que a força da voz cai na penúltima sílaba.',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'O que é uma palavra "proparoxítona"?',
     tip: 'Pense em palavras como "médico" e "lâmpada", em que a força cai na terceira sílaba de trás para frente.',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual é a regra geral de acentuação das palavras proparoxítonas?',
     tip: 'Pense em como não existe exceção para esse tipo de palavra.',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Palavras oxítonas terminadas em "a(s)", "e(s)" e "o(s)" geralmente recebem acento quando:',
     tip: 'Pense em exemplos como "sofá", "café" e "avô", que têm a força na última sílaba.',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Por que a palavra "fácil" recebe acento gráfico?',
     tip: 'Pense na sílaba tônica de "fácil": ela é a penúltima, e a palavra termina em "l".',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo é um exemplo de proparoxítona?',
     tip: 'Pense na palavra em que a força da voz cai na antepenúltima sílaba.',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo é um exemplo de oxítona acentuada?',
     tip: 'Pense na palavra em que a força da voz cai na última sílaba.',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Qual é a diferença de sentido entre "mas" e "mais"?',
     tip: 'Pense em como "mas" pode ser trocado por "porém", enquanto "mais" tem a ver com "quantidade".',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre "por que" (separado, sem acento) e "porque" (junto, sem acento)?',
     tip: 'Pense em como usamos "por que" para perguntar "por qual motivo", e "porque" para responder "pois".',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual é a regra geral das palavras paroxítonas quanto à acentuação?',
     tip: 'Pense em como "mesa" e "casa" não são acentuadas, mas "fácil" e "álbum" são.',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual das palavras abaixo é uma paroxítona acentuada?',
     tip: 'Pense na palavra paroxítona terminada em "um", que costuma ser acentuada.',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Por que a palavra "sofá" recebe acento?',
     tip: 'Pense em como a força da voz, em "sofá", cai na última sílaba.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Qual das frases usa corretamente "mas" (indicando oposição)?',
     tip: 'Pense na frase em que a palavra pode ser substituída por "porém".',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Qual das frases usa corretamente "mais" (indicando quantidade)?',
     tip: 'Pense na frase em que a palavra tem relação com "quantidade".',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Complete corretamente: "___ você não veio à festa?" (pergunta pelo motivo)',
     tip: 'Pense em como essa é uma pergunta direta sobre o motivo, sem estar no final da frase.',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Complete corretamente: "Bernardo não foi à festa ___ estava doente." (explicação/motivo)',
     tip: 'Pense em como essa frase está dando uma explicação, podendo ser trocada por "pois".',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual é a regra geral de acentuação das palavras oxítonas terminadas em "em" ou "ens"?',
     tip: 'Pense em palavras como "também" e "ninguém", que têm acento por serem oxítonas terminadas em "em".',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Por que é importante conhecer as regras de acentuação gráfica?',
     tip: 'Pense em como o acento pode até mudar o sentido de uma palavra, como em "sabia" e "sábia".',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Qual das opções resume corretamente as três classificações das palavras quanto à posição da sílaba tônica?',
     tip: 'Pense em tudo o que aprendemos sobre onde cai a força da voz em cada tipo de palavra.',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Na redação, Bernardo escreveu a palavra "café" e lembrou que ela precisava de acento porque:',
     tip: 'Pense em onde cai a força da voz na palavra "café".',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Na lista de palavras difíceis que a professora passou, Bernardo viu a palavra "álbum" e lembrou da regra de que ela é acentuada porque:',
     tip: 'Pense em onde cai a força da voz em "álbum" e em qual letra ela termina.',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Ao revisar a redação do colega, Bernardo encontrou a palavra "médico" sem o acento e corrigiu, lembrando que essa palavra é:',
     tip: 'Pense em onde cai a força da voz em "médico": na antepenúltima sílaba.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Eu queria ir ao cinema, ___ não tinha dinheiro." Ele completou corretamente com a palavra que indica oposição:',
     tip: 'Pense na palavra que pode ser substituída por "porém" nessa frase.',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Na mesma redação, Bernardo quis dizer que queria comer uma segunda fatia de bolo e escreveu corretamente: "Quero ___ uma fatia de bolo."',
     tip: 'Pense na palavra que tem relação com "quantidade" ou "mais uma unidade".',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Na prova de Português, Bernardo precisou completar a frase: "___ você não terminou a lição?" Ele completou corretamente com:',
     tip: 'Pense em como essa é uma pergunta direta sobre o motivo, no início da frase.',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Já em outra frase da prova, Bernardo escreveu: "Não fui à escola ___ estava doente." Ele completou corretamente com:',
     tip: 'Pense em como essa frase está dando uma explicação, podendo ser trocada por "pois".',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a palavra "também" recebe acento porque:',
     tip: 'Pense em onde cai a força da voz em "também" e em que letras ela termina.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Sílabas e acentuação',
     type: 'multiple_choice',
     text: 'Ao revisar seu texto, Bernardo lembrou que "fácil" é acentuada porque:',
     tip: 'Pense em onde cai a força da voz em "fácil" e em que letra ela termina.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Ortografia',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora pediu para Bernardo explicar por que é importante saber as regras de acentuação e a diferença entre palavras como "mas/mais" e "por que/porque". Ele respondeu corretamente que isso ajuda a:',
     tip: 'Pense em tudo que aprendemos sobre acentuação e as diferenças entre essas palavras parecidas.',

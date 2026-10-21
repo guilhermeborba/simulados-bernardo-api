@@ -1,6 +1,7 @@
 export const questoesPortugues6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'O que é um verbo?',
     tip: 'Pense na palavra que indica o que alguém "faz" ou "é" na frase.',
@@ -16,6 +17,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Na frase "Bernardo estudou muito para a prova", qual é o verbo?',
     tip: 'Pense na palavra que indica a ação realizada por Bernardo.',
@@ -31,6 +33,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Quais são as três conjugações verbais da língua portuguesa?',
     tip: 'Pense nas terminações dos verbos no infinitivo: "cantar", "correr" e "partir".',
@@ -46,6 +49,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'A que conjugação pertence o verbo "correr"?',
     tip: 'Pense na terminação do verbo no infinitivo: "-er".',
@@ -61,6 +65,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'A que conjugação pertence o verbo "partir"?',
     tip: 'Pense na terminação do verbo no infinitivo: "-ir".',
@@ -76,6 +81,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Quando dizemos que um verbo está no "tempo presente", isso indica que a ação:',
     tip: 'Pense em algo que está acontecendo "agora".',
@@ -91,6 +97,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Quando dizemos que um verbo está no "tempo passado" (pretérito), isso indica que a ação:',
     tip: 'Pense em algo que já ocorreu, antes de agora.',
@@ -106,6 +113,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Quando dizemos que um verbo está no "tempo futuro", isso indica que a ação:',
     tip: 'Pense em algo que ainda não aconteceu, mas vai acontecer depois.',
@@ -121,6 +129,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Amanhã, Bernardo viajará com a família", em que tempo verbal está o verbo "viajará"?',
     tip: 'Pense na palavra "amanhã", que indica algo que ainda vai acontecer.',
@@ -136,6 +145,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Por que é importante saber usar corretamente os tempos verbais em um texto?',
     tip: 'Pense em como usar o tempo verbal errado pode confundir quem está lendo.',
@@ -151,6 +161,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O que é o "modo indicativo" de um verbo?',
     tip: 'Pense em frases que afirmam algo com certeza, como "Bernardo estuda todos os dias".',
@@ -166,6 +177,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O que é o "modo imperativo" de um verbo?',
     tip: 'Pense em frases como "Estude para a prova!" ou "Feche a porta, por favor".',
@@ -181,6 +193,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Estude bastante para a prova, Bernardo!", em que modo está o verbo "estude"?',
     tip: 'Pense em como essa frase está dando um "conselho" ou uma "ordem" para Bernardo.',
@@ -196,6 +209,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O que é o "modo subjuntivo" de um verbo?',
     tip: 'Pense em frases como "Espero que Bernardo passe na prova", que expressam um desejo.',
@@ -211,6 +225,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Se Bernardo estudasse mais, tiraria notas melhores", o verbo "estudasse" está no modo:',
     tip: 'Pense em como essa frase expressa uma possibilidade, e não um fato certo.',
@@ -226,6 +241,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Qual é a diferença principal entre o modo indicativo e o modo subjuntivo?',
     tip: 'Pense em como um deles fala de "certezas" e o outro fala de "possibilidades".',
@@ -241,6 +257,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Feche a janela, por favor", o verbo "feche" está sendo usado no modo:',
     tip: 'Pense em como essa frase está pedindo para alguém fazer algo.',
@@ -256,6 +273,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Por que é importante saber diferenciar os modos verbais (indicativo, subjuntivo e imperativo)?',
     tip: 'Pense em como cada modo verbal ajuda a expressar uma intenção diferente na frase.',
@@ -271,6 +289,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo está no modo imperativo?',
     tip: 'Pense na frase que está dando uma ordem ou um conselho direto.',
@@ -286,6 +305,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo está no modo subjuntivo?',
     tip: 'Pense na frase que expressa um desejo, e não uma certeza.',
@@ -301,6 +321,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Na redação sobre o fim de semana, Bernardo escreveu: "Eu brinquei no parque com meus amigos." O verbo "brinquei" está no tempo:',
     tip: 'Pense em como a brincadeira já aconteceu, antes do momento em que Bernardo escreve.',
@@ -316,6 +337,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Bernardo disse à mãe: "Amanhã, vou estudar para a prova de matemática." O verbo dessa frase está no tempo:',
     tip: 'Pense na palavra "amanhã", que indica algo que ainda vai acontecer.',
@@ -331,6 +353,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Bernardo pertence ao time de futebol da escola. Ao descrever sua rotina, ele escreveu: "Eu treino todas as terças-feiras." O verbo "treino" está no tempo:',
     tip: 'Pense em como essa frase descreve um hábito, algo que Bernardo faz regularmente.',
@@ -346,6 +369,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na aula de Português, a professora pediu para Bernardo dar um exemplo de verbo no modo imperativo. Ele respondeu corretamente com a frase:',
     tip: 'Pense na frase que está dando uma ordem ou conselho direto.',
@@ -361,6 +385,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na sua redação: "Espero que a viagem seja divertida." O verbo "seja" está no modo:',
     tip: 'Pense em como essa frase expressa um desejo, e não uma certeza.',
@@ -376,6 +401,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Na aula de gramática, a professora pediu para Bernardo classificar o verbo "partir" quanto à conjugação. Ele respondeu corretamente:',
     tip: 'Pense na terminação do verbo no infinitivo: "-ir".',
@@ -391,6 +417,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Bernardo comparou dois verbos: "cantar" e "comer". Ele percebeu corretamente que eles pertencem a conjugações diferentes porque:',
     tip: 'Pense nas terminações dos verbos no infinitivo.',
@@ -406,6 +433,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na redação, Bernardo quis expressar uma ordem gentil para o irmão mais novo, escrevendo: "Guarde os brinquedos, por favor." Esse verbo está no modo:',
     tip: 'Pense em como essa frase está pedindo para o irmão fazer algo.',
@@ -421,6 +449,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Ao revisar sua redação, Bernardo percebeu que havia escrito "Se eu tivesse mais tempo, viajaria para a praia." O verbo "tivesse" está no modo:',
     tip: 'Pense em como essa frase expressa uma condição, e não um fato certo.',
@@ -436,6 +465,7 @@ export const questoesPortugues6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Ao final do bimestre, a professora pediu para Bernardo explicar por que é importante entender os tempos e modos verbais. Ele respondeu corretamente que isso ajuda a:',
     tip: 'Pense em tudo que aprendemos sobre tempos e modos verbais ao longo deste simulado.',
