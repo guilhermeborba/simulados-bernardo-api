@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O que é um "bioma"?',
     tip: 'Pense em uma grande "comunidade" de plantas e animais que combinam com o clima de um lugar.',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual é o maior bioma do Brasil, conhecido por sua floresta tropical densa e grande biodiversidade?',
     tip: 'Pense no bioma que abriga a maior floresta tropical do mundo.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma brasileiro é caracterizado por árvores baixas e retorcidas, arbustos e gramíneas, presente principalmente no Centro-Oeste?',
     tip: 'Pense na vegetação de árvores mais baixas e "tortas", comum no interior do Brasil.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma é conhecido pela vegetação adaptada à seca, com plantas como cactos e arbustos espinhosos, presente no interior do Nordeste?',
     tip: 'Pense na vegetação adaptada ao clima semiárido do Sertão.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma ficava originalmente ao longo de boa parte do litoral brasileiro, hoje bastante reduzido por causa da ocupação humana?',
     tip: 'Pense na vegetação que cobria a costa do Brasil quando os portugueses chegaram.',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma é marcado por planícies com vegetação de gramíneas (tipo "campos"), típico do extremo Sul do Brasil?',
     tip: 'Pense na vegetação de campos abertos, comum no Rio Grande do Sul.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma é conhecido por suas grandes áreas alagadas durante parte do ano, no Centro-Oeste do Brasil, com grande diversidade de aves e animais?',
     tip: 'Pense no bioma que "enche" de água em certas épocas do ano.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Qual é a principal causa da redução da vegetação nativa em muitos biomas brasileiros?',
     tip: 'Pense em como as pessoas derrubam árvores para abrir espaço para plantações e criação de animais.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Por que a vegetação de um bioma costuma estar bem adaptada ao clima da região onde ele se encontra?',
     tip: 'Pense em como um cacto sobrevive bem no clima seco, mas não sobreviveria tão bem numa floresta tropical.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que é importante preservar os biomas brasileiros?',
     tip: 'Pense em como plantas e animais dependem desses ambientes para sobreviver, e como isso também afeta as pessoas.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma brasileiro é o mais rico em biodiversidade entre as savanas do mundo, apesar de ter sofrido bastante com a expansão da agricultura?',
     tip: 'Pense no bioma de árvores baixas e retorcidas, muito usado hoje para plantações de soja.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma, apesar de estar em uma região de clima seco, tem espécies de plantas e animais adaptados a longos períodos sem chuva?',
     tip: 'Pense no bioma do Sertão nordestino, com vegetação resistente à seca.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma foi o primeiro a ser bastante explorado pelos colonizadores portugueses, por ficar ao longo do litoral?',
     tip: 'Pense na vegetação que os portugueses encontraram quando chegaram ao Brasil, perto do mar.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma é fortemente ligado à criação de gado, por causa de suas extensas áreas de campo, no Sul do Brasil?',
     tip: 'Pense na vegetação de campos abertos, típica do Rio Grande do Sul.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O que caracteriza especialmente o bioma Pantanal em relação aos outros biomas brasileiros?',
     tip: 'Pense em como esse bioma "enche" de água em certas épocas, criando um ambiente único.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Como as queimadas, muitas vezes causadas por ação humana, afetam os biomas brasileiros?',
     tip: 'Pense em como o fogo pode destruir árvores, plantas e o lar de muitos animais.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Por que a Amazônia é considerada tão importante para o clima do planeta?',
     tip: 'Pense em como uma floresta tão grande influencia o ar e o clima de uma região enorme.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O que é biodiversidade?',
     tip: 'Pense na "diversidade da vida" que existe em um lugar.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Qual atitude ajuda a proteger os biomas brasileiros no dia a dia?',
     tip: 'Pense em pequenas escolhas do dia a dia que ajudam a diminuir a pressão sobre esses ambientes.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Por que cada bioma brasileiro tem uma vegetação tão diferente uns dos outros?',
     tip: 'Pense em tudo que vimos sobre como clima e relevo influenciam a vegetação de um lugar.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Na viagem para o Norte, Bernardo visitou uma floresta densa, cheia de árvores altas e uma quantidade enorme de espécies de plantas e animais. Esse bioma era:',
     tip: 'Pense no maior bioma do Brasil, com a maior floresta tropical do mundo.',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Já em uma viagem ao Centro-Oeste, Bernardo viu árvores mais baixas e retorcidas, muito diferentes da floresta amazônica. A professora explicou que aquele bioma era o:',
     tip: 'Pense no bioma de árvores baixas e "tortas", comum no interior do Brasil.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'No Nordeste, durante a visita aos parentes, Bernardo reparou em plantas cheias de espinhos e um solo bem seco. Esse tipo de vegetação, adaptada à seca, pertence ao bioma:',
     tip: 'Pense na vegetação adaptada ao clima seco do Sertão.',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Na praia, Bernardo viu uma pequena área de mata preservada bem perto do mar, com árvores diferentes das que ele conhecia. A guia explicou que aquele era um resquício do bioma:',
     tip: 'Pense na vegetação que cobria boa parte do litoral brasileiro antes da colonização.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'No Sul do Brasil, Bernardo viu grandes campos abertos, muito usados para a criação de gado. Esse bioma, típico da região, é chamado de:',
     tip: 'Pense na vegetação de campos, comum no Rio Grande do Sul.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'No documentário sobre o Centro-Oeste, Bernardo viu uma imensa área alagada, cheia de aves, jacarés e capivaras. Esse bioma único é:',
     tip: 'Pense no bioma que enche de água em certas épocas do ano.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo assistiu a uma reportagem sobre queimadas afetando um dos biomas brasileiros e ficou preocupado com os animais que perderam seu habitat. Isso mostra a importância de:',
     tip: 'Pense em como cuidar da natureza ajuda a proteger os animais que dependem dela.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Na feira de ciências, Bernardo apresentou um trabalho explicando por que a Amazônia é tão importante para o clima de todo o planeta. Ele destacou que a floresta ajuda a:',
     tip: 'Pense em tudo o que aprendemos sobre a importância climática da Amazônia.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Ao final do trabalho, Bernardo explicou aos colegas o que é "biodiversidade", usando o exemplo do Brasil. Ele disse corretamente que biodiversidade é:',
     tip: 'Pense na "diversidade da vida" que existe em cada bioma.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'No fim do bimestre, a professora perguntou a Bernardo qual era a principal lição sobre os biomas brasileiros. Ele respondeu corretamente que:',
     tip: 'Pense em tudo o que aprendemos sobre a diversidade e a importância de cada bioma brasileiro.',

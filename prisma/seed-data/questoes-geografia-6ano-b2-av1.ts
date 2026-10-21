@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O que é "relevo"?',
     tip: 'Pense nas "formas" do terreno: se é plano, alto, baixo, com morros...',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Quais são os principais agentes internos que ajudam a formar o relevo da Terra?',
     tip: 'Pense em forças que vêm de "dentro" da Terra, bem lá no fundo.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Quais são exemplos de agentes externos que desgastam e modificam o relevo aos poucos?',
     tip: 'Pense em coisas que acontecem "por fora", na superfície, todos os dias.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O processo de desgaste das rochas pela ação do vento, da água e da temperatura é chamado de:',
     tip: 'É o mesmo processo que deixa pedras lisas nos rios, de tanto a água passar por cima.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O Brasil está localizado em uma área da Terra considerada:',
     tip: 'Pense em como raramente ouvimos falar de terremotos fortes ou vulcões em erupção no Brasil.',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é a forma de relevo caracterizada por ser uma área baixa e bem plana?',
     tip: 'Pense em algo "plano", parecido com a palavra.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é a forma de relevo caracterizada por ser uma área elevada, mas com o topo relativamente plano?',
     tip: 'É "alto" como uma montanha, mas o topo é mais "arrumado" e plano.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é o nome da forma de relevo que costuma ser mais alta e ter encostas íngremes?',
     tip: 'Pense no relevo mais "pontudo" e alto que existe.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Como se chama uma área mais baixa do que as regiões ao redor dela?',
     tip: 'Pense em algo "afundado" em relação ao que está em volta.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é o ponto mais alto do Brasil?',
     tip: 'Fica bem no norte do Brasil, na região Amazônica, e o nome tem a ver com "nuvens" cobrindo o topo.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é a maior planície do Brasil, localizada na região Norte?',
     tip: 'Fica na mesma região do maior rio do mundo em volume de água.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é a grande planície localizada na região Centro-Oeste, famosa por suas enchentes sazonais e grande biodiversidade?',
     tip: 'Pense numa área que enche de água em certas épocas do ano, virando um verdadeiro paraíso para animais.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é a maior unidade de relevo do Brasil, ocupando boa parte do território nacional?',
     tip: 'Pense na forma de relevo "alta e de topo plano" que é predominante no país.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'A faixa de terreno mais baixa e estreita, localizada ao longo do litoral brasileiro, é chamada de:',
     tip: 'Pense na área que fica bem na beira do mar, ao longo de toda a costa do Brasil.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Como a atividade de mineração pode afetar o relevo de uma região?',
     tip: 'Pense em como cavar a terra para retirar minérios muda a forma do terreno.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Por que áreas de relevo muito íngreme (como encostas de morros) são mais perigosas para construção de casas?',
     tip: 'Pense no que pode acontecer quando chove muito em um lugar bem inclinado.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O que é o solo, em relação ao relevo?',
     tip: 'Pense na parte "de cima" da terra, onde você planta uma semente.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual unidade de relevo fica localizada ao norte do Brasil, na fronteira com outros países da América do Sul?',
     tip: 'Pense numa região próxima a países vizinhos ao norte, como a Venezuela e as Guianas.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Como a construção de estradas em áreas de relevo montanhoso costuma ser feita?',
     tip: 'Pense em como uma estrada de montanha faz curvas e às vezes até atravessa um túnel.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Por que é importante estudar o relevo de uma região antes de planejar cidades e estradas?',
     tip: 'Pense em como construir em um lugar errado pode causar problemas quando chove muito.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Na viagem para o Norte do país, Bernardo viu uma floresta enorme e um rio muito largo, cercados por uma área bem baixa e plana. Essa região era a:',
     tip: 'Pense na região onde fica a maior floresta tropical do mundo.',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Durante as férias na praia, Bernardo notou que a faixa de terra onde ficava o hotel era bem baixa e próxima do mar. Essa área é chamada de:',
     tip: 'Pense na área que fica bem na beira do mar.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Na casa dos avós, no interior, Bernardo reparou que a região tinha um terreno alto, mas com o topo bem plano, ótimo para o plantio. Esse tipo de relevo é:',
     tip: 'Lembra do relevo "alto e de topo plano" mais comum no Brasil?',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo viu, num documentário, uma área que ficava mais baixa que as regiões ao seu redor, como se fosse um "vão" no meio do relevo. Isso é chamado de:',
     tip: 'Pense em algo "afundado" em relação ao que está em volta.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Depois de uma chuva muito forte, Bernardo soube que houve um deslizamento de terra em um morro perto de sua cidade. Isso aconteceu principalmente por causa de:',
     tip: 'Pense em como a inclinação do terreno, junto com muita água, pode causar esse tipo de acidente.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Na aula de Geografia, a professora mostrou um mapa e pediu para Bernardo apontar onde ficava o ponto mais alto do Brasil. Ele apontou corretamente para:',
     tip: 'Fica na região Norte, perto da fronteira com a Venezuela.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo visitou uma mina antiga que havia sido transformada em um grande lago, depois de anos sem uso. Isso mostra como a atividade humana pode:',
     tip: 'Pense em como cavar a terra durante anos pode mudar completamente aquele espaço.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo ajudou o avô a escolher um lugar no sítio para plantar uma horta. Eles escolheram uma área bem plana, evitando as partes muito inclinadas. Essa escolha foi importante porque:',
     tip: 'Pense em como a água da chuva escorre mais rápido em um terreno inclinado, levando a terra fértil embora.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'No fim de semana, Bernardo e a família visitaram uma cidade cercada de morros muito íngremes. O guia turístico explicou que ali era comum haver alertas de risco durante temporais. Isso acontece porque:',
     tip: 'Pense no que aprendemos sobre encostas íngremes e chuva forte.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre relevo, a professora perguntou a Bernardo qual característica marca bastante o relevo brasileiro, em comparação com países como o Chile ou o Peru. Ele respondeu corretamente:',
     tip: 'Pense em tudo que vimos sobre a estabilidade geológica do Brasil.',

@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'O que é uma paisagem natural?',
     tip: 'Pense num lugar bem "puro", sem casas, estradas ou plantações feitas pelo ser humano.',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'O que é uma paisagem transformada (ou humanizada)?',
     tip: 'Pense em construções, plantações e estradas feitas pelas pessoas.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Qual das opções é um elemento natural de uma paisagem?',
     tip: 'Pense em algo que existiria mesmo sem nenhuma pessoa por perto.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Qual das opções é um elemento social (feito pelo ser humano) de uma paisagem?',
     tip: 'Pense em algo que só existe porque alguém construiu.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Quando uma área de floresta é derrubada para dar lugar a uma plantação, dizemos que a paisagem foi:',
     tip: 'Pense na mudança causada pela ação das pessoas sobre a natureza.',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Quais elementos fazem parte de uma paisagem natural, sem ação humana?',
     tip: 'Pense em tudo aquilo que a natureza cria sozinha, sem precisar de máquinas ou pessoas.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Uma cidade grande, cheia de prédios, ruas e carros, é um exemplo de paisagem:',
     tip: 'Pense em quantas coisas naquele lugar foram construídas por pessoas.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'O que pode causar mudanças em uma paisagem natural, além da ação humana?',
     tip: 'Pense em forças da própria natureza, sem nenhuma pessoa envolvida.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Uma fazenda, com plantações organizadas em fileiras, é um exemplo de paisagem:',
     tip: 'Pense em como alguém precisou plantar, organizar e cuidar daquele espaço.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre uma paisagem natural e uma paisagem transformada?',
     tip: 'Pense em quem "mexeu" ou não naquele espaço: a natureza sozinha ou as pessoas.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Campo e cidade',
     type: 'multiple_choice',
     text: 'O espaço rural é caracterizado principalmente por:',
     tip: 'Pense no campo, nas plantações e nas casas mais espaçadas.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Campo e cidade',
     type: 'multiple_choice',
     text: 'O espaço urbano é caracterizado principalmente por:',
     tip: 'Pense nas cidades, com muitos prédios e gente andando pelas ruas.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Uma área com muitas árvores e plantas nativas de uma região, sem interferência humana, é chamada de:',
     tip: 'Pense em algo que já "nasceu" ali, sem ninguém ter plantado.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Um parque público, com árvores plantadas e caminhos organizados dentro de uma cidade, é um exemplo de:',
     tip: 'Mesmo tendo árvores, alguém planejou e organizou aquele espaço.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Quais desses são exemplos de relevo (formas da superfície terrestre)?',
     tip: 'Pense nas diferentes "formas" que o chão da Terra pode ter.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Uma área baixa e bem plana, geralmente perto de rios ou do mar, é chamada de:',
     tip: 'Pense em algo "plano", como o próprio nome sugere.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Uma área elevada, mas com o topo relativamente plano, é chamada de:',
     tip: 'É "alto" como uma montanha, mas com o topo mais "arrumado" e plano.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'O desmatamento de uma floresta para construção de uma cidade é um exemplo de:',
     tip: 'Pense em quem derrubou as árvores: a natureza sozinha ou as pessoas?',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima de uma região pode influenciar a paisagem, por exemplo, fazendo com que existam:',
     tip: 'Pense em como lugares quentes e chuvosos têm plantas bem diferentes de lugares secos.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Uma praça movimentada em um bairro é considerada um exemplo de paisagem:',
     tip: 'Mesmo com verde, alguém planejou bancos, calçadas e caminhos.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Na viagem para a casa dos avós, Bernardo passou por uma estrada cercada de plantações organizadas em fileiras. Essa paisagem é um exemplo de:',
     tip: 'Pense em quem plantou e organizou aquelas fileiras certinhas.',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Já na cidade dos avós, Bernardo notou uma pequena reserva de mata com árvores bem antigas, sem nenhuma construção dentro dela. Isso é um exemplo de:',
     tip: 'Pense em um pedaço de natureza que ficou intocado, sem interferência.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'No centro da cidade dos avós, Bernardo viu muitos prédios, lojas e um trânsito intenso de carros. Essa é claramente uma paisagem:',
     tip: 'Pense em quantas construções humanas existem ali.',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo reparou que a casa dos avós ficava no alto de um terreno bem elevado, mas com o topo bem plano, ideal para plantar. Esse tipo de relevo é chamado de:',
     tip: 'Lembra do relevo "alto e plano" que vimos antes?',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Durante o passeio, o avô contou que, décadas atrás, aquela região era só floresta, sem nenhuma casa. Hoje, com fazendas e estradas, a paisagem:',
     tip: 'Pense em como o lugar mudou bastante desde a época do avô.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Bernardo viu no noticiário que uma forte chuva causou um deslizamento de terra numa área de morro, mudando bastante aquela paisagem. Isso foi causado por:',
     tip: 'Pense em algo que a natureza fez sozinha, sem ajuda de máquinas ou pessoas.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'De volta para casa, Bernardo passou por uma região de terreno bem baixo e plano, perto de um rio, onde havia várias casas construídas. Esse tipo de relevo é chamado de:',
     tip: 'Lembra do relevo "baixo e plano", geralmente perto de rios?',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Bernardo ficou curioso e perguntou à mãe por que a floresta perto da estrada parecia menor do que antigamente. Ela explicou que parte dela foi derrubada para abrir espaço para plantações. Isso é um exemplo de:',
     tip: 'Pense em quem derrubou as árvores para plantar.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Ao chegar em casa, Bernardo desenhou, para um trabalho da escola, os elementos naturais e os elementos humanos que viu na viagem. Ele separou "rio" e "relevo" de um lado, e "estrada" e "casas" do outro. Essa separação representa:',
     tip: 'Pense em como ele dividiu o que a natureza fez do que as pessoas construíram.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'No fim do trabalho, a professora elogiou Bernardo por entender bem a diferença entre os dois tipos principais de paisagem estudados no bimestre. Quais eram eles?',
     tip: 'Pense no tema principal deste simulado, do começo ao fim.',

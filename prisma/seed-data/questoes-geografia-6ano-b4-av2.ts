@@ -1,6 +1,7 @@
 export const questoesGeografia6AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Para onde a agulha de uma bússola sempre aponta?',
     tip: 'Lembra o instrumento que usamos para nos orientar mesmo sem ver o Sol?',
@@ -16,6 +17,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'O que diferencia uma paisagem natural de uma paisagem transformada?',
     tip: 'Pense em quem "mexeu" ou não naquele espaço: a natureza sozinha ou as pessoas.',
@@ -31,6 +33,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é a forma de relevo predominante no território brasileiro?',
     tip: 'Pense na forma de relevo "alta e de topo plano" que é a mais comum no país.',
@@ -46,6 +49,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual é o nome do local onde um rio nasce?',
     tip: 'Pense no "começo da vida" de um rio.',
@@ -61,6 +65,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual clima predomina na região Norte do Brasil, com altas temperaturas e chuvas o ano todo?',
     tip: 'Pense no clima da região onde fica a Floresta Amazônica.',
@@ -76,6 +81,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual é o maior bioma do Brasil, conhecido por sua enorme biodiversidade?',
     tip: 'Pense no bioma que abriga a maior floresta tropical do mundo.',
@@ -91,6 +97,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O que é densidade demográfica?',
     tip: 'Pense em quantas pessoas vivem, em média, em cada km² de um território.',
@@ -106,6 +113,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Como se chama o desenho circular que mostra todas as direções, usado em mapas?',
     tip: 'Tem "rosa" no nome, mas não é uma flor.',
@@ -121,6 +129,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é uma bacia hidrográfica?',
     tip: 'Pense em todos os "braços de água" que, juntos, formam um grande sistema de rios.',
@@ -136,6 +145,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Como se chama o processo de saída das pessoas do campo para as cidades?',
     tip: 'Pense em uma "saída em massa" do campo, em direção às cidades.',
@@ -151,6 +161,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é o ponto mais alto do Brasil?',
     tip: 'Fica na região Norte, perto da fronteira com a Venezuela.',
@@ -166,6 +177,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que caracteriza o clima semiárido, presente no interior do Nordeste?',
     tip: 'Pense na região conhecida como Sertão, marcada pela seca.',
@@ -181,6 +193,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma é caracterizado pela vegetação adaptada à seca, com cactos e arbustos espinhosos?',
     tip: 'Pense na vegetação típica do Sertão nordestino.',
@@ -196,6 +209,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma ficava originalmente ao longo do litoral brasileiro, hoje bastante reduzido?',
     tip: 'Pense na vegetação que os portugueses encontraram ao chegar ao litoral do Brasil.',
@@ -211,6 +225,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Qual região do Brasil concentra o maior número de habitantes?',
     tip: 'Pense na região onde ficam São Paulo e Rio de Janeiro.',
@@ -226,6 +241,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Representações cartográficas',
     type: 'multiple_choice',
     text: 'O que é a legenda de um mapa?',
     tip: 'Pense na parte do mapa que explica o que cada símbolo significa.',
@@ -241,6 +257,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O que é uma planície?',
     tip: 'Pense em algo "plano", parecido com a palavra.',
@@ -256,6 +273,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Para que serve a água represada em uma usina hidrelétrica?',
     tip: 'Pense em como a força da água caindo pode fazer uma turbina girar.',
@@ -271,6 +289,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O que é biodiversidade?',
     tip: 'Pense na "diversidade da vida" que existe em um lugar.',
@@ -286,6 +305,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Por que muitas pessoas migraram do campo para as cidades nas últimas décadas?',
     tip: 'Pense nas oportunidades que muitas pessoas buscam ao se mudar para uma cidade maior.',
@@ -301,6 +321,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Durante a viagem de férias, Bernardo usou uma bússola para se orientar numa trilha. A agulha apontou para o Norte. Isso aconteceu porque a bússola:',
     tip: 'Lembra por que a agulha da bússola sempre aponta para o mesmo lugar?',
@@ -316,6 +337,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Paisagens',
     type: 'multiple_choice',
     text: 'Na cidade dos avós, Bernardo viu uma fazenda com plantações organizadas em fileiras. Esse tipo de paisagem é considerado:',
     tip: 'Pense em quem plantou e organizou aquelas fileiras certinhas.',
@@ -331,6 +353,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a casa dos avós ficava sobre um terreno alto, mas de topo bem plano. Esse tipo de relevo é chamado de:',
     tip: 'Lembra do relevo "alto e de topo plano" mais comum no Brasil?',
@@ -346,6 +369,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Na viagem, Bernardo viu um rio recebendo a água de outro rio menor. Esse rio menor é chamado de:',
     tip: 'Pense em um rio "ajudante" que entrega mais água ao rio principal.',
@@ -361,6 +385,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo notou que, na região visitada, chovia bastante o ano todo e fazia muito calor. Esse é o clima típico da região:',
     tip: 'Pense no clima da região da Floresta Amazônica.',
@@ -376,6 +401,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'No documentário, Bernardo viu grandes áreas alagadas cheias de aves e jacarés, no Centro-Oeste. Esse bioma é o:',
     tip: 'Pense no bioma que "enche" de água em certas épocas do ano.',
@@ -391,6 +417,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Bernardo reparou que a cidade litorânea que visitou tinha muito mais gente do que a cidade do interior onde moravam os avós. Isso mostra que a população brasileira está:',
     tip: 'Pense em como grandes cidades brasileiras costumam ficar perto do mar.',
@@ -406,6 +433,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Orientação e localização',
     type: 'multiple_choice',
     text: 'Na escola, a professora pediu para Bernardo explicar o que aprendeu sobre orientação, usando mapas. Ele respondeu corretamente que a bússola e a rosa dos ventos ajudam a:',
     tip: 'Pense na função principal desses instrumentos e desenhos.',
@@ -421,6 +449,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Ao revisar o conteúdo do ano, Bernardo listou os principais biomas brasileiros que estudou. Qual das opções reúne corretamente alguns deles?',
     tip: 'Pense nos grandes "conjuntos de vida vegetal e animal" que vimos ao longo do ano.',
@@ -436,6 +465,7 @@ export const questoesGeografia6AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Geografia do Brasil',
     type: 'multiple_choice',
     text: 'Ao final do ano, a professora perguntou a Bernardo o que ele mais gostou de aprender em Geografia. Ele respondeu que entendeu como o relevo, o clima, a vegetação, os rios e a população de um lugar estão:',
     tip: 'Pense em tudo o que vimos ao longo do ano sobre como esses temas se conectam.',
