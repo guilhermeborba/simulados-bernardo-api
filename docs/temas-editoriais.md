@@ -963,3 +963,32 @@ Coesão textual reúne os conectivos e seus sentidos, sem rotular a relação es
 B1/AV1 agrupa cinco temas; B1/AV2, B2/AV1, B3/AV1 e B4/AV1 concentram um tema cada, respectivamente Narrativas, Pronomes, Figuras de linguagem e Concordância. B2/AV2 e B3/AV2 têm três temas cada. B4/AV2 revisa onze temas das unidades. Não se subdividem artificialmente os simulados concentrados em um assunto.
 
 As pendências anteriores sobre análise de dela, coerência da frase do jogo sob chuva e exemplos de concordância estão na [issue web #109](https://github.com/guilhermeborba/simulados-bernardo/issues/109), com referências e critérios para revisão separada. Os campos anteriores foram preservados; a classificação temática não valida essas formulações.
+
+### Matemática — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Ângulos | Medidas, classificação, somas internas e externas, complementares, suplementares e relações entre paralelas e transversais. |
+| Equações | Incógnita, igualdade, resolução e verificação de equações do primeiro grau e modelagem de problemas. |
+| Figuras planas | Polígonos, número de lados, regularidade, convexidade e classificação de triângulos. |
+| Frações | Numerador, denominador, equivalência, comparação, números mistos, operações, frações de quantidades e conversão para decimal. |
+| MMC e MDC | Cálculo, fatoração, propriedades, encontros periódicos e divisão em grupos iguais. |
+| Múltiplos e divisores | Divisibilidade, critérios, divisores, fatoração e classificação em primos e compostos sem antecipar o tipo pedido. |
+| Números decimais | Leitura, operações e problemas com quantidades escritas na forma decimal. |
+| Números inteiros | Positivos, negativos, zero, reta numérica, módulo, opostos, comparação, propriedades e operações em situações do cotidiano. |
+| Plano cartesiano | Eixos, origem, pares ordenados, quadrantes, alinhamentos, localização e aplicações de coordenadas. |
+| Porcentagem | Partes por cem, equivalências, porcentagens de quantidades, descontos e aumentos. |
+| Razão e proporção | Comparação entre quantidades, igualdade de razões, escalas, proporcionalidade direta e regra de três. |
+| Sistema monetário | Gastos e partilhas de valores positivos em reais e centavos. |
+
+Lote E04: 240 questões em oito arquivos gerais `questoes-matematica-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 12 nomes; os conteúdos correspondentes reaproveitam os temas de Matemática dos anos anteriores. Números inteiros, Razão e proporção, Equações e Plano cartesiano agrupam os conteúdos introduzidos neste ano. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Números inteiros mantém juntas comparação, módulo, opostos e operações com sinais, inclusive temperaturas, elevadores, pontuações e saldos. Não se divide esse estudo entre os nomes das operações. Múltiplos e divisores cobre reconhecimento e classificação em primos e compostos sem antecipar qual deles é a resposta. MMC e MDC reúne cálculo, propriedades e aplicações de ambos, sem escolher no rótulo o método necessário ao problema.
+
+Frações inclui conversão para decimal e comparação entre representações. Números decimais trata leitura e operações entre decimais mesmo em problemas de comprimento ou distância. Os gastos e partilhas em reais e centavos de B2/AV1, IDs 23, 27 e 28, usam Sistema monetário. Saldos com sinais de B1/AV1 ficam em Números inteiros. Porcentagem mantém descontos e aumentos, inclusive o preço final em B2/AV2, ID 12. Razão e proporção cobre escala e preço unitário quando o foco é a relação proporcional.
+
+Equações agrupa todo o B3/AV1, inclusive a medida do lado do quadrado no ID 15 e os problemas de dinheiro: nesses casos, o foco é montar e resolver a igualdade. Plano cartesiano agrupa todo o B3/AV2, incluindo a analogia com coordenadas geográficas e tabuleiros; não se usam os nomes de eixos ou quadrantes pedidos como tema. Figuras planas mantém os tipos de polígonos e triângulos no mesmo agrupamento. Ângulos trata suas medidas, classificações e relações, sem revelar o tipo de ângulo solicitado.
+
+A quantidade de temas acompanha o conteúdo: B1/AV1, B3/AV1 e B3/AV2 concentram um tema cada; B1/AV2, B2/AV2 e B4/AV1 têm dois; B2/AV1 tem três; B4/AV2 revisa nove temas das unidades. Não se subdividem artificialmente os simulados concentrados em um assunto.
+
+As pendências anteriores de alternativas equivalentes em frações, generalizações em dicas/curiosidades e referência a São Joaquim estão na [issue web #111](https://github.com/guilhermeborba/simulados-bernardo/issues/111), com demonstrações e referências para revisão separada. Os campos anteriores foram preservados; a classificação temática não valida essas formulações.
