@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Durante o período colonial, quais dois grupos foram submetidos à escravização no território brasileiro?",
     tip: "Pensa em quem já vivia aqui e em quem foi trazido forçadamente de outro continente!",
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Por que, ao longo do tempo, os colonizadores portugueses passaram a recorrer cada vez mais à mão de obra africana escravizada, em vez de depender apenas da escravização indígena?",
     tip: "Pensa em tudo que estudamos sobre doenças europeias afetando os indígenas e o interesse comercial dos colonizadores!",
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "O que era o \"tráfico negreiro\"?",
     tip: "Pensa: esse \"comércio\" envolvia produtos ou pessoas sendo tratadas como mercadoria, contra sua vontade?",
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "As pessoas escravizadas trazidas da África eram, principalmente, utilizadas no Brasil colonial para:",
     tip: "Lembra do simulado anterior sobre os engenhos de açúcar e quem trabalhava neles!",
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Por que a escravidão é considerada, pela história e pelos direitos humanos atuais, uma violação grave e injusta?",
     tip: "Pensa no que significa perder completamente a liberdade e ser forçado a trabalhar contra a própria vontade!",
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Apesar da escravização, como os povos indígenas e africanos resistiram a essa condição durante o período colonial?",
     tip: "Pensa: será que as pessoas escravizadas simplesmente aceitaram tudo, ou lutaram por sua liberdade?",
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "O que eram os quilombos, formados principalmente por pessoas que fugiam da escravidão?",
     tip: "Pensa num lugar onde pessoas que fugiam da escravidão podiam viver livres e em comunidade!",
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Qual é um dos quilombos mais conhecidos da história brasileira, localizado principalmente no atual estado de Alagoas?",
     tip: "Esse quilombo é um dos mais estudados nas escolas — pensa no nome mais famoso!",
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Zumbi dos Palmares é uma figura histórica lembrada por:",
     tip: "Lembra da questão 8 deste simulado sobre o Quilombo dos Palmares!",
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Por que estudar a história da escravidão indígena e africana é importante para compreender a sociedade brasileira atual?",
     tip: "Pensa: a história da escravidão tem efeitos até hoje na sociedade brasileira, ou desapareceu completamente?",
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Comparando a escravização indígena e a escravização africana no Brasil colonial, qual foi um fator que contribuiu para a substituição gradual da mão de obra indígena pela africana?",
     tip: "Lembra da questão 2 deste simulado sobre os motivos dessa substituição!",
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Se muitas pessoas escravizadas resistiam à escravidão através de fugas e formação de quilombos, o que isso demonstra sobre a relação entre escravizados e colonizadores?",
     tip: "Lembra da questão 6 e 7 deste simulado sobre as fugas e os quilombos!",
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Por que o Quilombo dos Palmares é tão importante na história da resistência à escravidão no Brasil?",
     tip: "Lembra da questão 8 deste simulado sobre o tamanho e a duração desse quilombo!",
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Comparando a vida em um quilombo com a vida sob escravidão nos engenhos, qual era uma diferença fundamental?",
     tip: "Pensa: num quilombo, as pessoas eram livres ou continuavam escravizadas como nos engenhos?",
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Por que a figura de Zumbi dos Palmares é lembrada até hoje como um símbolo de resistência?",
     tip: "Lembra da questão 9 deste simulado sobre o papel de Zumbi!",
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Se o tráfico negreiro trazia forçadamente pessoas da África para serem escravizadas nas colônias, que tipo de violação de direitos isso representa, mesmo analisando pelos critérios da própria época?",
     tip: "Lembra da questão 3 e 5 deste simulado sobre o tráfico negreiro e a escravidão!",
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Comparando o uso de mão de obra escravizada nos engenhos de açúcar com seu uso posterior na mineração, o que se mantém como característica central da escravidão em ambos os casos?",
     tip: "Pensa: tanto no açúcar quanto no ouro, quem fazia o trabalho mais pesado, de forma forçada?",
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Por que é importante reconhecer as diferentes formas de resistência das pessoas escravizadas, e não apenas os aspectos de sofrimento e exploração?",
     tip: "Pensa: reconhecer a luta e a resistência tira o valor da história, ou mostra força e coragem dessas pessoas?",
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Comparando a escravidão no Brasil colonial com os valores de direitos humanos reconhecidos atualmente, qual conclusão é mais adequada?",
     tip: "Lembra da questão 5 e 16 deste simulado sobre a gravidade da escravidão!",
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Por que a história da escravidão indígena e africana deve ser estudada também a partir da perspectiva de resistência e contribuição cultural desses povos, e não apenas como sofrimento?",
     tip: "Lembra da questão 10 e 18 deste simulado sobre a importância de reconhecer esses dois aspectos juntos!",
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Bernardo está estudando sobre a escravidão no Brasil colonial e descobre que, com o tempo, a mão de obra africana foi substituindo gradualmente a indígena. Qual explicação ele deve dar sobre esse processo?",
     tip: "Lembra da questão 2 e 11 deste simulado sobre essa substituição!",
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Na aula de História, Bernardo aprende sobre os quilombos e sua importância como espaços de resistência. Qual explicação ele deve dar sobre o que eram os quilombos?",
     tip: "Lembra da questão 7 e 12 deste simulado sobre o que eram os quilombos!",
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Bernardo pesquisa sobre o Quilombo dos Palmares e descobre que ele resistiu por muitos anos contra tentativas de destruição. O que isso demonstra sobre esse quilombo?",
     tip: "Lembra da questão 8 e 13 deste simulado sobre a importância do Quilombo dos Palmares!",
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Durante um trabalho escolar sobre Zumbi dos Palmares, Bernardo precisa explicar por que essa figura histórica é lembrada até hoje. Qual é a explicação correta?",
     tip: "Lembra da questão 9 e 15 deste simulado sobre a importância de Zumbi dos Palmares!",
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Bernardo conversa com a professora sobre por que a escravidão é considerada, pelos valores atuais, uma grave violação de direitos. Qual explicação ele pode usar?",
     tip: "Lembra da questão 5 e 19 deste simulado sobre a gravidade da escravidão!",
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Bernardo organiza um resumo sobre as diferentes formas de resistência das pessoas escravizadas durante o período colonial. Qual frase resume corretamente essas formas de resistência?",
     tip: "Lembra da questão 6 e 12 deste simulado sobre as formas de resistência!",
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Na prova, Bernardo precisa explicar a diferença entre a vida em um quilombo e a vida sob escravidão nos engenhos. Qual é a resposta correta?",
     tip: "Lembra da questão 14 deste simulado sobre essa diferença entre quilombo e engenho!",
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Bernardo quer explicar por que é importante reconhecer tanto o sofrimento causado pela escravidão quanto a resistência e as contribuições culturais dos povos escravizados. Qual explicação ele deve usar?",
     tip: "Lembra da questão 18 e 20 deste simulado sobre a importância de reconhecer esses dois aspectos juntos!",
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Para seu resumo final sobre o tema, Bernardo escreve: \"A escravidão indígena e africana foi uma grave injustiça histórica, mas também existiram intensas formas de resistência e luta por liberdade.\" Essa afirmação está:",
     tip: "Pensa em tudo que você revisou neste simulado sobre sofrimento e resistência!",
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Bernardo conclui seu caderno de estudos destacando que \"conhecer a história da escravidão e da resistência dos povos indígenas e africanos é essencial para entender a formação social e cultural do Brasil.\" Essa conclusão está:",
     tip: "Pensa em tudo que você revisou neste simulado sobre a importância dessa história para entender o Brasil de hoje!",

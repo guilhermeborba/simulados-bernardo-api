@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Após as primeiras décadas de contato, qual sistema administrativo a Coroa portuguesa criou, em 1534, para tentar colonizar e defender o território brasileiro?",
     tip: "Pensa em um sistema que dividia o território em grandes faixas doadas a pessoas específicas!",
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "O que eram as capitanias hereditárias?",
     tip: "Pensa na palavra \"hereditária\" — ela tem a ver com passar algo de pai para filho, como uma terra!",
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Por que o sistema de capitanias hereditárias, em geral, não teve muito sucesso?",
     tip: "Pensa: administrar um território gigante, sozinho e com pouco dinheiro, é fácil ou difícil?",
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Diante do fracasso de muitas capitanias, a Coroa portuguesa criou, em 1549, qual sistema para centralizar a administração da colônia?",
     tip: "Pensa em um governo central, criado para organizar melhor a colônia depois do fracasso das capitanias!",
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Qual foi a principal atividade econômica do Brasil colonial durante boa parte do século XVI e XVII?",
     tip: "Pensa num produto doce, muito valorizado na Europa da época!",
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que a região Nordeste, especialmente a costa da Bahia e de Pernambuco, se tornou o principal centro da produção açucareira colonial?",
     tip: "Lembra do clima tropical e dos solos férteis que estudamos sobre essa região!",
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "O engenho de açúcar, unidade de produção da época colonial, reunia, entre outras estruturas:",
     tip: "Pensa num lugar bem completo, que reunia tudo que era preciso para produzir açúcar!",
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Qual era o destino principal do açúcar produzido na colônia?",
     tip: "Pensa em quem realmente tinha interesse e dinheiro para comprar açúcar na época!",
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Terra e propriedade',
     type: "multiple_choice",
     text: "O sistema de \"sesmarias\" era usado na colônia para:",
     tip: "Pensa: esse sistema distribuía terra de forma igual para todos, ou concentrava em poucas mãos?",
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que o período da economia açucareira é chamado por alguns historiadores de \"ciclo do açúcar\"?",
     tip: "Pensa em \"ciclos\" econômicos que a gente estuda em História: cada um tem um produto principal durante um tempo!",
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Comparando as capitanias hereditárias com o Governo-Geral, qual foi a principal mudança trazida por esse último sistema?",
     tip: "Lembra da questão 4 deste simulado sobre o motivo da criação do Governo-Geral!",
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Por que Salvador foi escolhida como a primeira sede do Governo-Geral?",
     tip: "Pensa: para administrar bem a colônia e escoar o açúcar, a capital devia ficar perto ou longe do mar?",
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Se o solo e o clima do litoral nordestino favoreciam o cultivo da cana-de-açúcar, o que isso explica sobre a concentração dos engenhos nessa região?",
     tip: "Lembra da questão 6 deste simulado sobre o clima e o solo favoráveis ao açúcar!",
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que a exportação do açúcar para a Europa era tão importante para a economia colonial e para a Coroa portuguesa?",
     tip: "Lembra da questão 8 deste simulado sobre o destino e o lucro do açúcar exportado!",
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Terra e propriedade',
     type: "multiple_choice",
     text: "Comparando o sistema de sesmarias com uma divisão igualitária de terras, qual é a principal diferença?",
     tip: "Lembra da questão 9 deste simulado sobre o funcionamento das sesmarias!",
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Se um engenho de açúcar reunia plantações, casa de processamento, moradias e mão de obra escravizada, o que isso revela sobre a organização da produção açucareira colonial?",
     tip: "Lembra da questão 7 deste simulado sobre as partes que compunham um engenho!",
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que o \"ciclo do açúcar\" é considerado um período tão importante na história econômica do Brasil colonial?",
     tip: "Lembra da questão 10 deste simulado sobre o significado do \"ciclo do açúcar\"!",
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Terra e propriedade',
     type: "multiple_choice",
     text: "Comparando as capitanias hereditárias com as sesmarias, qual é uma semelhança entre esses dois sistemas de distribuição de terras?",
     tip: "Pensa: tanto capitanias quanto sesmarias davam terra para poucas pessoas ou para todo mundo igualmente?",
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Se o Governo-Geral foi criado para resolver problemas das capitanias hereditárias, como ataques indígenas e falta de recursos, o que isso mostra sobre a administração colonial no início da colonização?",
     tip: "Lembra da questão 3 e 11 deste simulado sobre o fracasso das capitanias e a criação do Governo-Geral!",
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que entender a economia açucareira é importante para compreender a formação da sociedade colonial brasileira?",
     tip: "Pensa em tudo que você estudou sobre engenhos, sesmarias e exportação de açúcar!",
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Bernardo está estudando um mapa das capitanias hereditárias e percebe que o território foi dividido em grandes faixas de terra doadas a donatários. O que ele pode concluir sobre esse sistema administrativo?",
     tip: "Lembra da questão 1 e 2 deste simulado sobre o que eram as capitanias hereditárias!",
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Na aula de História, Bernardo aprende que muitas capitanias hereditárias fracassaram. Qual explicação ele deve dar para esse fracasso em um trabalho escolar?",
     tip: "Lembra da questão 3 deste simulado sobre as dificuldades enfrentadas pelas capitanias!",
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Bernardo descobre que, após o fracasso de muitas capitanias, a Coroa criou o Governo-Geral, com sede em Salvador. O que isso demonstra sobre a estratégia portuguesa de colonização?",
     tip: "Lembra da questão 4, 11 e 19 deste simulado sobre a criação do Governo-Geral!",
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Durante uma visita a um museu sobre a história colonial, Bernardo vê a reconstrução de um antigo engenho de açúcar. O que ele pode esperar encontrar representado nessa estrutura?",
     tip: "Lembra da questão 7 e 16 deste simulado sobre a estrutura de um engenho de açúcar!",
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo pesquisa sobre o motivo pelo qual o litoral da Bahia e de Pernambuco se tornou o principal centro produtor de açúcar na colônia. Qual explicação ele deve usar?",
     tip: "Lembra da questão 6 e 13 deste simulado sobre o clima e o solo dessa região!",
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo organiza um resumo sobre o destino do açúcar produzido na colônia. Qual frase resume corretamente essa informação?",
     tip: "Lembra da questão 8 e 14 deste simulado sobre a exportação do açúcar!",
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Terra e propriedade',
     type: "multiple_choice",
     text: "Na prova, Bernardo precisa explicar o que eram as sesmarias e qual era sua relação com a produção açucareira. Qual é a resposta correta?",
     tip: "Lembra da questão 9, 15 e 18 deste simulado sobre o funcionamento das sesmarias!",
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo quer explicar por que o período da economia açucareira é chamado de \"ciclo do açúcar\" por alguns historiadores. Qual explicação ele deve usar?",
     tip: "Lembra da questão 10 e 17 deste simulado sobre o significado desse \"ciclo\"!",
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Para seu resumo final sobre a colonização do Brasil e a economia açucareira, Bernardo escreve: \"A administração colonial e a economia açucareira estavam profundamente conectadas, moldando a sociedade da época.\" Essa afirmação está:",
     tip: "Pensa em tudo que você revisou neste simulado: capitanias, Governo-Geral, engenhos, sesmarias!",
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo conclui seu caderno de estudos destacando que \"entender a economia açucareira ajuda a entender também a formação da sociedade colonial brasileira, incluindo o uso de mão de obra escravizada.\" Essa conclusão está:",
     tip: "Pensa em tudo que você estudou sobre os engenhos e sua organização, incluindo o trabalho forçado!",

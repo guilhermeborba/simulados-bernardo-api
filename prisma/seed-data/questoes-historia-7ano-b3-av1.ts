@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Durante o período colonial, além de Portugal, quais outros países europeus tentaram invadir e ocupar partes do território brasileiro?",
     tip: "Pensa em dois países europeus que também tinham grandes frotas e interesse em colônias!",
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "A França fundou, no Rio de Janeiro, no século XVI, uma colônia conhecida como:",
     tip: "O nome tem a ver com o país que fundou a colônia e uma referência de localização geográfica!",
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que o litoral brasileiro era um alvo atrativo para invasões de outros países europeus durante o período colonial?",
     tip: "Pensa: uma costa gigante, com riquezas valiosas, era fácil ou difícil de proteger inteira?",
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "A invasão francesa que criou a \"França Equinocial\", no século XVII, ocorreu principalmente em qual região?",
     tip: "\"Equinocial\" tem a ver com a linha do Equador — pensa numa região mais ao norte do Brasil!",
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que os holandeses tiveram grande interesse em ocupar a região produtora de açúcar do Nordeste brasileiro, no século XVII?",
     tip: "Pensa: se os holandeses já vendiam o açúcar brasileiro na Europa, não seria mais lucrativo controlar a produção direto?",
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "A ocupação holandesa no Nordeste, especialmente em Pernambuco, teve como um dos governadores mais conhecidos:",
     tip: "Pensa num nome holandês, bem diferente de nomes portugueses como os das outras opções!",
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Durante o governo de Maurício de Nassau, a cidade de Recife passou por transformações como:",
     tip: "Lembra da questão 6 deste simulado sobre esse governador holandês diferenciado!",
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "A expulsão dos holandeses do Nordeste brasileiro, concluída em 1654, ocorreu principalmente através de:",
     tip: "Pensa: será que os holandeses foram embora sozinhos, ou houve luta pela expulsão deles?",
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que as invasões francesas e holandesas são importantes para entender a formação histórica do Brasil?",
     tip: "Pensa em tudo que você estudou: França no Rio e no Maranhão, Holanda em Pernambuco — isso mostra disputa ou tranquilidade total?",
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Qual foi uma consequência da ocupação holandesa para a economia açucareira mundial depois da expulsão dos holandeses do Brasil?",
     tip: "Pensa: será que os holandeses simplesmente desistiram do açúcar, ou foram buscar outro lugar para produzir?",
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Comparando a invasão francesa no Rio de Janeiro com a invasão holandesa no Nordeste, qual foi uma diferença importante entre elas?",
     tip: "Lembra da duração e organização do governo de Nassau, comparado às tentativas francesas mais breves!",
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que a posição geográfica do litoral brasileiro, com uma costa tão extensa, dificultava a defesa total do território pela Coroa portuguesa?",
     tip: "Lembra da questão 3 deste simulado sobre a dificuldade de defender uma costa tão grande!",
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Se os holandeses já participavam do comércio e do refino do açúcar brasileiro na Europa, por que eles tiveram tanto interesse em ocupar diretamente as áreas produtoras no Nordeste?",
     tip: "Lembra da questão 5 deste simulado sobre o interesse comercial holandês pelo açúcar!",
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Comparando o governo de Maurício de Nassau com outros períodos de ocupação estrangeira na colônia, o que tornou seu governo peculiar?",
     tip: "Lembra da questão 6 e 7 deste simulado sobre as particularidades do governo de Nassau!",
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que a Insurreição Pernambucana é considerada um marco importante na expulsão dos holandeses do Nordeste?",
     tip: "Lembra da questão 8 deste simulado sobre a expulsão holandesa!",
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Se os holandeses, após serem expulsos do Brasil, passaram a investir na produção de açúcar em outras colônias, como no Caribe, que efeito isso teve para a economia açucareira brasileira?",
     tip: "Lembra da questão 10 deste simulado sobre as consequências da expulsão holandesa!",
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Comparando a \"França Antártica\" (Rio de Janeiro) com a \"França Equinocial\" (Maranhão), qual é uma semelhança entre essas duas tentativas de colonização francesa?",
     tip: "Lembra da questão 2 e 4 deste simulado sobre essas duas tentativas francesas!",
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que as invasões estrangeiras no período colonial são um exemplo de disputa entre potências europeias pelo controle de territórios coloniais?",
     tip: "Pensa em tudo que você estudou sobre França, Holanda e Portugal disputando o Brasil!",
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Comparando o período de ocupação holandesa no Nordeste com o restante do período colonial português, qual foi uma particularidade dessa fase?",
     tip: "Lembra da questão 11 deste simulado sobre a duração da ocupação holandesa!",
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que entender as invasões francesas e holandesas ajuda a compreender melhor a complexidade da colonização brasileira?",
     tip: "Pensa em tudo que você revisou neste simulado sobre as disputas territoriais do período colonial!",
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo está estudando um mapa das invasões estrangeiras no Brasil colonial e percebe que França e Holanda tentaram ocupar diferentes partes do território em momentos diferentes. O que ele pode concluir sobre esse período?",
     tip: "Lembra da questão 1 e 9 deste simulado sobre as disputas territoriais no Brasil colonial!",
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Na aula de História, Bernardo aprende sobre a \"França Antártica\", fundada no Rio de Janeiro. Qual explicação ele deve dar sobre essa colônia em um trabalho escolar?",
     tip: "Lembra da questão 2 e 17 deste simulado sobre essa colônia francesa!",
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo pesquisa sobre o motivo do interesse holandês pelo Nordeste brasileiro e descobre que eles já participavam do comércio do açúcar na Europa. Qual explicação ele deve usar para esse interesse?",
     tip: "Lembra da questão 5 e 13 deste simulado sobre o interesse comercial holandês!",
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Durante um projeto escolar sobre a ocupação holandesa em Pernambuco, Bernardo escolhe apresentar Maurício de Nassau. Qual característica ele deve destacar sobre esse governador?",
     tip: "Lembra da questão 6, 7 e 14 deste simulado sobre o governo de Nassau!",
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo lê sobre a Insurreição Pernambucana e descobre que luso-brasileiros tiveram papel fundamental na expulsão dos holandeses. O que isso demonstra sobre esse movimento?",
     tip: "Lembra da questão 8 e 15 deste simulado sobre a Insurreição Pernambucana!",
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Tempo histórico',
     type: "multiple_choice",
     text: "Bernardo organiza uma linha do tempo com as principais invasões estrangeiras no Brasil colonial. Em qual ordem aproximada ele deve organizar os eventos: fundação da França Antártica, invasão holandesa em Pernambuco e expulsão holandesa (1654)?",
     tip: "Pensa nos séculos: XVI vem antes do XVII, e 1654 é dentro do século XVII!",
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo quer explicar por que o litoral brasileiro foi tão disputado por diferentes potências europeias durante o período colonial. Qual explicação ele deve usar?",
     tip: "Lembra da questão 3 e 12 deste simulado sobre a dificuldade de defender o litoral!",
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Na prova, Bernardo precisa explicar a consequência da expulsão dos holandeses do Brasil para a produção mundial de açúcar. Qual é a resposta correta?",
     tip: "Lembra da questão 10 e 16 deste simulado sobre essa consequência!",
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo organiza um resumo comparando as invasões francesas e holandesas no Brasil colonial. Qual associação está correta?",
     tip: "Lembra da questão 11 deste simulado sobre a comparação entre essas duas invasões!",
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Para fechar seu estudo sobre expansão territorial e invasões estrangeiras, Bernardo escreve: \"A colonização do Brasil não foi um processo tranquilo e isolado, mas envolveu disputas entre diferentes potências europeias pelo controle do território.\" Essa conclusão está:",
     tip: "Pensa em tudo que você revisou neste simulado sobre as invasões francesas e holandesas!",

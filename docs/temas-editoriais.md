@@ -791,6 +791,35 @@ A quantidade de temas acompanha o conteúdo: B1/AV1 e B2/AV1 têm cinco; B1/AV2 
 
 A definição anterior de cidadania ateniense em B3/AV1, IDs 4 e 24, que associa os direitos políticos a homens livres nascidos na cidade sem delimitar ascendência, idade e período histórico, foi registrada na [issue web #99](https://github.com/guilhermeborba/simulados-bernardo/issues/99), com fonte primária para revisão separada. As alternativas e explicações foram preservadas no lote de temas.
 
+### História — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Administração colonial | Capitanias, Governo-Geral, donatários, sedes, governos de ocupação e controle fiscal, sem antecipar nomes solicitados. |
+| Colonização do Brasil | Chegada portuguesa, primeiros contatos, trocas, conflitos e impactos demográficos. |
+| Conflitos coloniais | Contestações internas, revoltas, disputas nas minas, repressão, líderes e comparações entre movimentos. |
+| Cultura e identidade | Diversidade de línguas, costumes, conhecimentos e organizações dos povos indígenas e diferenças culturais. |
+| Direitos e participação | Liberdade, dignidade e análise da escravidão à luz dos direitos humanos. |
+| Disputas territoriais | Tratados, ocupações francesas e holandesas, defesa, expansão e formação do território. |
+| Economia colonial | Pau-brasil, açúcar, engenhos, mineração, comércio, distribuição da produção e relações entre economia e sociedade. |
+| Escravidão e resistência | Escravização indígena e africana, tráfico, trabalho forçado, quilombos, lideranças e luta por liberdade. |
+| Expressões artísticas | Relação entre a riqueza das minas e a produção de igrejas, esculturas e arquitetura. |
+| Filosofia | Ideias iluministas e sua circulação e influência nas contestações coloniais. |
+| Formação do Brasil | Populações, história anterior a 1500 e sínteses das heranças econômicas, sociais e culturais da colonização. |
+| História do trabalho | Atividades de subsistência indígenas e comparação com os interesses comerciais portugueses. |
+| Migrações | Origens, deslocamentos e atração populacional para as áreas mineradoras. |
+| Navegações marítimas | Reinos, navegadores, rotas, destinos, motivações comerciais e condições da expansão marítima europeia. |
+| Registros do passado | Carta de Caminha, relatos, arqueologia, tradição oral e diversidade das perspectivas históricas. |
+| Tempo histórico | Organização cronológica de viagens, invasões e movimentos coloniais. |
+| Terra e propriedade | Sesmarias, distribuição e concentração de terras e comparações com as capitanias. |
+| Trabalho e tecnologia | Embarcações, instrumentos, conhecimentos náuticos, orientação e aperfeiçoamento das viagens. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-historia-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 18 nomes; os nomes já consolidados são reaproveitados quando o conteúdo corresponde. Leitura e classificação individual de todas as questões, sem classificação automática por palavras-chave.
+
+**Administração colonial** mantém em aberto a identificação de capitanias, Governo-Geral, governadores, impostos e instituições. **Economia colonial** evita antecipar açúcar, mineração ou a corrida do ouro em B3/AV2, ID 2; perguntas sobre os deslocamentos, quando o fenômeno já é dado, usam **Migrações**. **Conflitos coloniais** abrange a identificação dos movimentos em B4/AV1, ID 1, e B4/AV2, ID 9, sem usar a categoria ou o nome solicitado como rótulo. A identificação do Iluminismo usa **Filosofia**. **Escravidão e resistência** não nomeia o quilombo ou a liderança que se deve reconhecer. **Formação do Brasil** inclui a identificação dos primeiros habitantes em B1/AV2, ID 2, sem fornecer seu nome.
+
+Os temas acompanham os conteúdos: B1/AV1 tem cinco; B1/AV2, seis; B2/AV1 e B2/AV2, três cada; B3/AV1, quatro; B3/AV2, sete; B4/AV1, quatro; B4/AV2, sete. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente. Os temas não atestam a precisão histórica das formulações anteriores sobre a Escola de Sagres e a derrama; revisão separada na [issue web #116](https://github.com/guilhermeborba/simulados-bernardo/issues/116).
+
 ### Geografia — 6º ano
 
 | Tema | Abrange |

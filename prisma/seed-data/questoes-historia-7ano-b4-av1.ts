@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Durante o período colonial e no final do século XVIII, surgiram diversos movimentos de contestação à administração portuguesa. Como esses movimentos são chamados de forma geral?",
     tip: "Pensa num nome que descreve pessoas da própria colônia se revoltando contra decisões de Portugal!",
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "A Inconfidência Mineira, ocorrida em 1789, teve como um de seus principais motivos:",
     tip: "Lembra do simulado sobre mineração e dos impostos pesados cobrados pela Coroa!",
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "O que era a \"derrama\", mencionada entre os motivos da Inconfidência Mineira?",
     tip: "Pensa: se a produção de ouro caía e o quinto não era totalmente pago, o que a Coroa fazia para \"completar\" essa cobrança?",
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Qual figura histórica é um dos símbolos mais conhecidos da Inconfidência Mineira, executado em 1792?",
     tip: "Pensa no apelido de um dos personagens mais lembrados da história brasileira, ligado à luta por liberdade!",
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Os participantes da Inconfidência Mineira foram influenciados, entre outras ideias, pelos princípios do:",
     tip: "Pensa num movimento filosófico que valorizava a razão, a liberdade e criticava reis absolutos!",
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Além da Inconfidência Mineira, outro movimento de contestação no período colonial foi a Revolta de Beckman, ocorrida no Maranhão, motivada principalmente por:",
     tip: "Pensa: se uma única empresa controla todo o comércio de uma região, isso gera satisfação ou revolta?",
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "A Guerra dos Emboabas, ocorrida em Minas Gerais no início do século XVIII, foi um conflito relacionado principalmente a:",
     tip: "Pensa: numa região rica em ouro, quem já estava lá e quem chegava depois podia entrar em conflito por quê?",
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Por que a Inconfidência Mineira é considerada um marco importante na história do Brasil colonial?",
     tip: "Lembra da questão 5 deste simulado sobre a influência do Iluminismo nesse movimento!",
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Qual foi o destino de Tiradentes após a descoberta e repressão da Inconfidência Mineira pela Coroa portuguesa?",
     tip: "Lembra da questão 4 deste simulado sobre o destino desse personagem histórico!",
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Por que estudar esses movimentos nativistas e revoltas coloniais é importante para entender a história do Brasil?",
     tip: "Pensa em tudo que você estudou: Guerra dos Emboabas, Revolta de Beckman, Inconfidência Mineira — o que isso mostra sobre a colônia?",
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Comparando a Inconfidência Mineira com a Guerra dos Emboabas, qual é uma diferença importante entre esses dois movimentos?",
     tip: "Lembra das diferenças de motivação entre esses dois movimentos que estudamos!",
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Por que a cobrança da \"derrama\" foi um dos estopins da Inconfidência Mineira?",
     tip: "Lembra da questão 3 deste simulado sobre o que era a derrama!",
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Se os participantes da Inconfidência Mineira foram influenciados pelo Iluminismo, que tipo de ideias esse movimento filosófico europeu defendia?",
     tip: "Lembra da questão 5 deste simulado sobre o Iluminismo!",
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Comparando a Revolta de Beckman com a Inconfidência Mineira, qual foi uma semelhança entre esses dois movimentos?",
     tip: "Pensa: tanto a Revolta de Beckman quanto a Inconfidência Mineira surgiram de que tipo de sentimento da população colonial?",
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Por que a execução de Tiradentes, em 1792, se tornou um marco simbólico na história brasileira?",
     tip: "Lembra da questão 9 deste simulado sobre o destino de Tiradentes!",
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Se a Guerra dos Emboabas foi uma disputa entre paulistas e forasteiros pelo controle da exploração do ouro, o que isso revela sobre a sociedade formada ao redor da mineração?",
     tip: "Lembra da questão 7 deste simulado sobre a causa da Guerra dos Emboabas!",
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Comparando os diferentes movimentos de contestação colonial estudados (Inconfidência Mineira, Revolta de Beckman, Guerra dos Emboabas), o que eles têm em comum, de forma geral?",
     tip: "Pensa em tudo que você revisou sobre esses três movimentos!",
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Por que o Iluminismo teve influência sobre movimentos como a Inconfidência Mineira, mesmo sendo um movimento filosófico europeu?",
     tip: "Lembra da questão 13 deste simulado sobre o alcance das ideias iluministas!",
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Se a Inconfidência Mineira foi descoberta e reprimida pela Coroa portuguesa antes de se concretizar, o que isso demonstra sobre o controle português sobre a colônia na época?",
     tip: "Pensa: será que a Coroa simplesmente ignorou esse movimento, ou agiu para impedi-lo?",
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Por que entender os movimentos nativistas e revoltas coloniais ajuda a compreender o processo histórico que levaria, décadas depois, à independência do Brasil?",
     tip: "Pensa em tudo que você revisou neste simulado sobre as revoltas coloniais!",
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Bernardo está estudando sobre a Inconfidência Mineira e descobre que um dos motivos do movimento foi a cobrança de impostos considerados excessivos, como a derrama. O que ele pode concluir sobre esse período?",
     tip: "Lembra da questão 2, 3 e 12 deste simulado sobre a derrama!",
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Na aula de História, Bernardo aprende sobre Tiradentes e sua participação na Inconfidência Mineira. Qual explicação ele deve dar sobre o destino desse personagem histórico?",
     tip: "Lembra da questão 4, 9 e 15 deste simulado sobre o destino de Tiradentes!",
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Bernardo descobre que os participantes da Inconfidência Mineira foram influenciados por ideias do Iluminismo europeu. Qual explicação ele deve dar sobre essa influência?",
     tip: "Lembra da questão 5, 13 e 18 deste simulado sobre o Iluminismo!",
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Durante um projeto escolar sobre a Guerra dos Emboabas, Bernardo precisa explicar a causa principal desse conflito. Qual é a explicação correta?",
     tip: "Lembra da questão 7 e 16 deste simulado sobre a Guerra dos Emboabas!",
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Bernardo lê sobre a Revolta de Beckman, ocorrida no Maranhão, e descobre que ela estava relacionada à insatisfação com o monopólio comercial de uma companhia. O que isso demonstra sobre as causas das revoltas coloniais?",
     tip: "Lembra da questão 6 e 14 deste simulado sobre a Revolta de Beckman!",
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Tempo histórico',
     type: "multiple_choice",
     text: "Bernardo organiza uma linha do tempo com os principais movimentos de contestação colonial: Guerra dos Emboabas, Revolta de Beckman e Inconfidência Mineira. Em qual ordem cronológica aproximada ele deve organizar esses eventos?",
     tip: "Pensa nos séculos: fim do XVII vem antes do início do XVIII, e 1789 é bem depois disso tudo!",
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Bernardo quer explicar por que a Inconfidência Mineira é considerada um marco tão importante na história do Brasil colonial. Qual explicação ele deve usar?",
     tip: "Lembra da questão 8 deste simulado sobre a importância da Inconfidência Mineira!",
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Na prova, Bernardo precisa explicar o que diferenciava a Guerra dos Emboabas dos demais movimentos estudados, em termos de motivação principal. Qual é a resposta correta?",
     tip: "Lembra da questão 7, 16 e 24 deste simulado sobre a Guerra dos Emboabas!",
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Bernardo organiza um resumo comparando os movimentos nativistas e revoltas coloniais estudados. Qual conclusão geral ele pode tirar sobre esse conjunto de eventos?",
     tip: "Pensa em tudo que você revisou neste simulado sobre os diferentes movimentos de contestação!",
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Para fechar seu estudo sobre movimentos nativistas e revoltas coloniais, Bernardo escreve: \"Esses movimentos de contestação, mesmo reprimidos pela Coroa portuguesa, mostram que a insatisfação com o domínio colonial já existia antes da independência do Brasil.\" Essa conclusão está:",
     tip: "Pensa em tudo que você revisou neste simulado sobre as revoltas coloniais!",

@@ -535,6 +535,15 @@ Validação editorial: `npm run seed:dry-run` e inventário JSON aprovados; tema
 A explicação anterior de cidadania e direitos políticos em Atenas (B3/AV1, IDs 4 e 24) está na [issue web #99](https://github.com/guilhermeborba/simulados-bernardo/issues/99), com fonte primária e critérios de revisão para distinguir local de nascimento, ascendência e período histórico. As alternativas e explicações foram preservadas no lote de temas. Quizzes (#90) continuam adiados conforme orientação do responsável. Não houve alteração de contrato, seed em banco existente, deploy ou operação em produção.
 
 
+### História do 7º ano — E04 (22/10/2026)
+
+Lote de oito simulados gerais/240 questões, classificado individualmente com vocabulário fechado de 18 temas em `docs/temas-editoriais.md`. Somente `theme` foi acrescentado; fontes sem essas linhas e dados por export idênticos à main. Identificar sistemas administrativos, atividades econômicas, movimentos, povos, impostos ou líderes mantém um rótulo amplo. Pendências históricas de Sagres e da derrama registradas na [issue web #116](https://github.com/guilhermeborba/simulados-bernardo/issues/116), sem alterar os campos anteriores.
+
+Este é um dos três lotes independentes autorizados no pacote História, Geografia e Arte/7º ano. Base integrada: api#250 (Ciências/7º ano), 6.989/23.444 questões com tema, 233/780 simulados completos. Este lote acrescenta 240 questões e oito simulados completos; após integrar os três, a expectativa conjunta é 7.709/23.444 e 257/780, com 1.440/1.920 questões do 7º ano em 48/64 simulados. E04 segue parcial; depois restam Educação Física e Inglês/7º ano e demais anos/públicos.
+
+Validação do lote: `npm run seed:dry-run`, vocabulário, ausência de resposta literal, preservação byte a byte das fontes e comparação dos dados por export aprovados. Inventário e testes completos registrados no PR. Quizzes #90 continuam adiados. Sem mudança de contrato ou operação em produção.
+
+
 ### Geografia do 6º ano — E04 (21/10/2026)
 
 História do 6º ano foi integrada em api#243, com registro em web#100. Este lote acrescenta 240 temas em oito simulados gerais de Geografia do 6º ano (`questoes-geografia-6ano-b*-av*.ts`), sem entradas privadas adicionais. O vocabulário de 16 temas e os critérios estão em `docs/temas-editoriais.md`. Todos os nomes são reaproveitados dos anos anteriores ou de Ciências para conteúdos correspondentes. Apenas `theme` foi acrescentado: enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

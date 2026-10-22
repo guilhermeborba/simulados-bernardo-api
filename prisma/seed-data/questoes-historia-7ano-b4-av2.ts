@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Qual tratado, assinado em 1494, dividiu inicialmente as terras recém-descobertas entre Portugal e Espanha?",
     tip: "Pensa no tratado que estudamos no início do ano, relacionado às Grandes Navegações!",
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Qual sistema administrativo, criado em 1534, dividiu o território brasileiro em grandes faixas de terra doadas a donatários?",
     tip: "Pensa no primeiro sistema usado para tentar colonizar e administrar o Brasil!",
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Qual foi a principal atividade econômica do Brasil colonial durante boa parte dos séculos XVI e XVII?",
     tip: "Pensa no \"ciclo\" que vinha antes do ouro!",
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Quais dois grupos foram submetidos à escravização durante o período colonial brasileiro?",
     tip: "Pensa em quem já vivia aqui e quem foi trazido forçadamente de outro continente!",
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Qual foi um dos quilombos mais conhecidos da resistência à escravidão, liderado por Zumbi?",
     tip: "Pensa no quilombo mais famoso que estudamos, localizado principalmente em Alagoas!",
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Quais países, além de Portugal, tentaram invadir e ocupar partes do território brasileiro durante o período colonial?",
     tip: "Lembra do simulado sobre invasões estrangeiras no Rio de Janeiro, Maranhão e Pernambuco!",
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Em qual região foram encontradas, no final do século XVII, as primeiras grandes descobertas de ouro no Brasil colonial?",
     tip: "O próprio nome do estado já dá uma grande pista!",
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "O que era o \"quinto\", imposto cobrado pela Coroa portuguesa durante o ciclo do ouro?",
     tip: "Pensa no nome: \"quinto\" tem a ver com uma fração, uma parte do total extraído!",
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Qual foi um dos principais movimentos de contestação colonial, ocorrido em Minas Gerais em 1789, influenciado por ideias iluministas?",
     tip: "Pensa no movimento mais lembrado, ligado a Tiradentes!",
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Por que o período colonial brasileiro é considerado tão importante para entender a formação do Brasil atual?",
     tip: "Pensa em tudo que você estudou este ano sobre formação territorial, economia, sociedade e resistência!",
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Comparando o início da colonização (com as capitanias hereditárias) com o período posterior (Governo-Geral), qual foi a principal mudança na administração colonial?",
     tip: "Lembra do simulado sobre a colonização e a criação do Governo-Geral!",
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que a economia açucareira, concentrada principalmente no litoral nordestino, foi posteriormente complementada pela economia do ouro, no interior de Minas Gerais?",
     tip: "Lembra da mudança de região entre o \"ciclo do açúcar\" e o \"ciclo do ouro\"!",
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Se a escravização indígena foi gradualmente substituída pela escravização africana ao longo da colonização, o que isso revela sobre a continuidade do trabalho forçado na economia colonial?",
     tip: "Pensa: mudou o grupo escravizado, mas será que o próprio sistema de trabalho forçado desapareceu?",
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Comparando as invasões francesas e holandesas com os movimentos nativistas como a Inconfidência Mineira, qual é uma diferença importante entre esses tipos de conflito?",
     tip: "Pensa: quem lutava contra quem em cada um desses dois tipos de conflito?",
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Por que a descoberta do ouro em Minas Gerais provocou uma intensa expansão da ocupação do interior do território brasileiro?",
     tip: "Lembra da \"corrida do ouro\" que estudamos no simulado sobre mineração!",
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Comparando a Inconfidência Mineira com a Guerra dos Emboabas, qual foi uma diferença importante em suas motivações principais?",
     tip: "Lembra do simulado sobre movimentos nativistas e a diferença entre esses dois eventos!",
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que entender a formação territorial do Brasil, desde as capitanias até a expansão da mineração, ajuda a compreender o tamanho atual do país?",
     tip: "Pensa em tudo que você estudou sobre bandeiras, mineração e expansão territorial!",
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Se tanto a economia açucareira quanto a mineradora dependeram fortemente da mão de obra escravizada, o que isso demonstra sobre a estrutura econômica e social do Brasil colonial como um todo?",
     tip: "Pensa em tudo que você estudou sobre escravidão nos engenhos e nas minas!",
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Comparando os diferentes movimentos de resistência e contestação estudados (quilombos, Inconfidência Mineira, invasões estrangeiras expulsas), o que eles têm em comum, de forma geral?",
     tip: "Pensa em tudo que você estudou sobre resistência durante todo o ano!",
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Por que o estudo do Brasil colonial, com seus diferentes ciclos econômicos, grupos sociais e conflitos, é considerado fundamental para compreender a história do país?",
     tip: "Pensa em tudo que você revisou neste simulado sobre o Brasil colonial!",
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Bernardo está organizando um grande resumo sobre o Brasil colonial para a prova final e decide começar pela formação territorial, incluindo o Tratado de Tordesilhas e as capitanias hereditárias. O que ele deve destacar sobre esse início da colonização?",
     tip: "Lembra de todo o primeiro simulado de História que estudamos este ano!",
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Na revisão sobre a economia colonial, Bernardo lista o \"ciclo do açúcar\" e o \"ciclo do ouro\" como as principais fases econômicas que estudou. Qual característica ele deve destacar como comum às duas fases?",
     tip: "Lembra da questão 13 e 18 deste simulado sobre a escravidão em diferentes ciclos econômicos!",
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Bernardo organiza um tópico sobre a escravidão indígena e africana em seu resumo, destacando também as formas de resistência, como os quilombos. Qual conclusão ele pode tirar sobre esse tema?",
     tip: "Lembra do simulado sobre escravidão indígena e africana, com os quilombos e Zumbi dos Palmares!",
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Durante a revisão sobre invasões estrangeiras, Bernardo lembra das tentativas francesas e holandesas de ocupar partes do território brasileiro. O que ele deve destacar sobre a importância desses episódios?",
     tip: "Lembra do simulado sobre expansão territorial e invasões estrangeiras!",
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Bernardo organiza um tópico sobre os movimentos nativistas e revoltas coloniais, como a Inconfidência Mineira e a Guerra dos Emboabas. Qual conclusão geral ele pode tirar sobre esses eventos?",
     tip: "Lembra do simulado anterior sobre movimentos nativistas e revoltas coloniais!",
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Para fechar seu grande resumo, Bernardo tenta conectar todos os temas estudados: formação territorial, economia açucareira e mineradora, escravidão e resistência, invasões estrangeiras e revoltas coloniais. Qual conclusão mais ampla ele pode tirar sobre o período colonial brasileiro?",
     tip: "Pensa em tudo que você estudou este ano inteiro sobre o Brasil colonial!",
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo organiza, para revisão, um quadro-resumo associando cada \"ciclo\" econômico à sua principal região de concentração. Qual associação está correta?",
     tip: "Elimine as associações que você já sabe que estão erradas primeiro!",
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Na prova final, Bernardo precisa explicar por que a Inconfidência Mineira é considerada um marco importante na história colonial, mesmo tendo sido reprimida pela Coroa portuguesa. Qual é a explicação correta?",
     tip: "Lembra do simulado anterior sobre a importância da Inconfidência Mineira!",
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Para seu resumo final sobre o Brasil colonial, Bernardo escreve: \"Ao longo de mais de 300 anos, o Brasil colonial passou por diferentes fases econômicas, sociais e territoriais, marcadas tanto por exploração quanto por resistência.\" Essa afirmação está:",
     tip: "Pensa em tudo que você revisou neste grande resumo sobre o Brasil colonial!",
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Bernardo conclui seu grande resumo de revisão destacando que \"entender o Brasil colonial, em todas suas dimensões econômicas, sociais e territoriais, é essencial para compreender a formação do Brasil que conhecemos hoje.\" Essa conclusão está:",
     tip: "Pensa em tudo que você aprendeu ao longo de todo o ano sobre o Brasil colonial!",
