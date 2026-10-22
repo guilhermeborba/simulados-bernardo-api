@@ -931,3 +931,35 @@ B1/AV2, ID 30, e B3/AV2, ID 29, pedem reconhecer uma classe gramatical. Usam Cla
 As questões que resumem a aprendizagem usam Uso do inglês, sem destacar no tema a combinação correta de conteúdos entre as alternativas: B1/AV1, ID 30; B2/AV1, IDs 29–30; B2/AV2, ID 30; B3/AV1, ID 30; B3/AV2, ID 30; B4/AV1, ID 30; B4/AV2, ID 29. Os sete primeiros simulados agrupam três ou quatro temas cada; B4/AV2 revisa dezesseis temas do ano, mantendo os mesmos nomes das unidades.
 
 As formulações anteriores sobre uso singular de their, branco/preto na roda de cores e convenção do primeiro dia da semana estão na [issue web #107](https://github.com/guilhermeborba/simulados-bernardo/issues/107), com fontes e critérios para revisão separada. A classificação temática não valida essas explicações; o conteúdo foi preservado neste lote.
+
+### Português — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Coerência textual | Definição, lógica, contradições e construção de sentido no texto. |
+| Coesão textual | Conectivos, relações de adição, oposição, causa e conclusão e ligação entre as partes do texto. |
+| Concordância | Concordância verbal e nominal, sujeitos simples e compostos, expressões partitivas e revisão de frases. |
+| Crônicas | Características, cotidiano, reflexão e humor em textos já identificados como crônicas. |
+| Figuras de linguagem | Metáfora, comparação, personificação, hipérbole e seus efeitos expressivos, sem usar a figura pedida como rótulo. |
+| Gêneros e tipos textuais | Definição, finalidades, reconhecimento e comparação de gêneros e tipos, incluindo cartas, bilhetes, receitas, bulas e anúncios. |
+| Leitura e escrita | Síntese sobre os recursos da língua e seu papel na leitura, escrita e comunicação. |
+| Modos verbais | Indicativo, subjuntivo e imperativo: reconhecimento, usos e diferenças. |
+| Narrativas | Narrador, personagens, enredo, conflito, clímax, desfecho, tempo, espaço e características dos contos estudados. |
+| Notícias | Finalidade informativa e características de textos já identificados como notícias. |
+| Organização textual | Comparação entre coesão e coerência e análise da ligação e do sentido das ideias sem antecipar a categoria solicitada. |
+| Pronomes | Funções, reconhecimento e emprego de pronomes pessoais, possessivos, demonstrativos e de tratamento. |
+| Tempos verbais | Presente, pretérito e futuro: reconhecimento e localização das ações no tempo. |
+| Textos de opinião | Ponto de vista, argumentos e finalidade de textos já identificados como opinativos ou argumentativos. |
+| Verbos | Definição, conjugação, regularidade, infinitivo e sínteses que articulam tempo e modo. |
+
+Lote E04: 240 questões em oito arquivos gerais `questoes-portugues-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 15 nomes; os conteúdos correspondentes reaproveitam os temas de Português dos anos anteriores. Crônicas e Textos de opinião individualizam gêneros já nomeados no enunciado; Organização textual permite tratar coesão e coerência juntas sem destacar qual delas é a resposta. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Gêneros e tipos textuais cobre os comandos que pedem identificar o gênero ou tipo: B1/AV1, IDs 6, 11, 15, 19, 22, 23, 25 e 27; B4/AV2, ID 21. A finalidade dos anúncios em B1/AV1, IDs 17 e 26, também usa esse tema amplo, sem antecipar a intenção persuasiva. Crônicas, Notícias, Narrativas e Textos de opinião detalham características de gêneros já informados no enunciado.
+
+Narrativas, Pronomes, Figuras de linguagem e Concordância mantêm os tipos e subcategorias no mesmo agrupamento: o tema não revela primeira/terceira pessoa, protagonista/antagonista, a classe de pronome, a figura de linguagem nem concordância nominal/verbal. Verbos cobre conjugações e irregularidade; Tempos verbais localiza as ações; Modos verbais distingue os modos. A síntese de tempo e modo de B2/AV2, ID 30, fica em Verbos.
+
+Coesão textual reúne os conectivos e seus sentidos, sem rotular a relação específica pedida. Coerência textual trata a definição e os problemas de sentido quando esse conceito já aparece no enunciado. Organização textual cobre a comparação dos dois conceitos e os comandos em que escrever Coesão/Coerência no tema anteciparia a resposta: B3/AV2, IDs 7, 15, 17–19 e 25–30. Leitura e escrita reúne a síntese de vários conteúdos em B4/AV2, IDs 28–30.
+
+B1/AV1 agrupa cinco temas; B1/AV2, B2/AV1, B3/AV1 e B4/AV1 concentram um tema cada, respectivamente Narrativas, Pronomes, Figuras de linguagem e Concordância. B2/AV2 e B3/AV2 têm três temas cada. B4/AV2 revisa onze temas das unidades. Não se subdividem artificialmente os simulados concentrados em um assunto.
+
+As pendências anteriores sobre análise de dela, coerência da frase do jogo sob chuva e exemplos de concordância estão na [issue web #109](https://github.com/guilhermeborba/simulados-bernardo/issues/109), com referências e critérios para revisão separada. Os campos anteriores foram preservados; a classificação temática não valida essas formulações.

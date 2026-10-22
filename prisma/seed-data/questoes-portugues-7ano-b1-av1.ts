@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O que é um "gênero textual"?',
     tip: 'Pensa em como uma receita, uma notícia e um poema são bem diferentes entre si — cada um tem seu formato e objetivo.',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'A "crônica" é um gênero textual que costuma:',
     tip: 'Pensa num texto curto que comenta, de um jeito quase de conversa, algo simples que aconteceu no dia a dia.',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Notícias',
     type: 'multiple_choice',
     text: 'Uma "notícia" é um gênero textual cujo principal objetivo é:',
     tip: 'Pensa no que você espera encontrar ao abrir o jornal ou um site de notícias — histórias inventadas ou fatos reais?',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Textos de opinião',
     type: 'multiple_choice',
     text: 'Um "texto de opinião" é caracterizado por:',
     tip: 'Pensa num texto em que o autor diz claramente o que ele pensa sobre um assunto, tentando convencer o leitor.',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "conto" é um gênero textual narrativo que se caracteriza por:',
     tip: 'Pensa em como um conto pode ser lido de uma vez só, sem precisar de muitos capítulos, diferente de um romance.',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Uma "receita culinária" é um exemplo de gênero textual:',
     tip: 'Pensa em como uma receita ensina, passo a passo, como preparar um prato — isso é uma opinião ou uma instrução?',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Uma carta ou um e-mail são exemplos de gêneros textuais usados principalmente para:',
     tip: 'Pensa na função principal de uma carta: ela serve para você conversar com alguém, mesmo estando longe.',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre um texto "narrativo" e um texto "descritivo"?',
     tip: 'Pensa: contar o que aconteceu numa festa é diferente de descrever como era a decoração da festa — qual é narrativo e qual é descritivo?',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Textos de opinião',
     type: 'multiple_choice',
     text: 'Um texto "argumentativo" tem como principal característica:',
     tip: 'Pensa em um texto que tenta te convencer de algo, usando razões e exemplos para sustentar uma ideia.',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Reconhecer diferentes gêneros textuais é importante porque:',
     tip: 'Pensa em como você lê uma bula de remédio de um jeito diferente de como lê um conto de fadas — reconhecer o gênero ajuda nisso.',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Qual desses é um exemplo de gênero textual jornalístico?',
     tip: 'Pensa no tipo de texto que você encontra em jornais e sites de notícias, contando fatos reais e atuais.',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Em uma crônica, é comum encontrar:',
     tip: 'Lembra da Questão 2 — o que caracteriza esse gênero textual tão comum em jornais e revistas?',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Textos de opinião',
     type: 'multiple_choice',
     text: 'Um artigo de opinião publicado em um jornal geralmente apresenta:',
     tip: 'Lembra da Questão 4 — o que caracteriza um texto que defende um ponto de vista?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O gênero "conto de fadas" é um tipo de narrativa que geralmente apresenta:',
     tip: 'Pensa em histórias como "Cinderela" ou "Branca de Neve" — o que elas têm de mágico ou fantástico?',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Uma bula de remédio é um exemplo de gênero textual:',
     tip: 'Pensa na função de uma bula: ela conta uma história ou explica como e quando tomar um remédio com segurança?',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Notícias',
     type: 'multiple_choice',
     text: 'Ao ler uma notícia, é importante que o texto seja:',
     tip: 'Lembra da Questão 3 — qual é o principal objetivo de uma notícia?',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O gênero "anúncio publicitário" tem como principal objetivo:',
     tip: 'Pensa nos comerciais de televisão — qual é a intenção principal deles?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Um bilhete, geralmente curto e informal, costuma ser usado para:',
     tip: 'Pensa em quando você escreve um recado rápido para alguém da família — que gênero textual é esse?',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Qual desses gêneros textuais tem como característica central contar uma história, com personagens e enredo?',
     tip: 'Lembra da Questão 5 — qual gênero é uma narrativa curta, com personagens e um conflito?',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Saber identificar o gênero de um texto ajuda o leitor a:',
     tip: 'Lembra da Questão 10 — por que é útil saber reconhecer diferentes gêneros textuais?',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Notícias',
     type: 'multiple_choice',
     text: 'Bernardo leu uma notícia no jornal sobre um evento esportivo na sua cidade. Qual é o principal objetivo desse tipo de texto?',
     tip: 'Lembra da Questão 3 — qual é o principal objetivo de uma notícia de jornal?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Depois, Bernardo escreveu um bilhete para a mãe avisando que estava na casa de um amigo. Que gênero textual ele usou?',
     tip: 'Lembra da Questão 18 — que gênero é usado para deixar um recado rápido e informal?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Na aula de Português, o professor pediu para Bernardo escrever um texto defendendo sua opinião sobre a importância da reciclagem. Que gênero textual ele deveria produzir?',
     tip: 'Lembra da Questão 4 e da Questão 9 — que gênero serve para defender um ponto de vista com argumentos?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Bernardo leu uma crônica sobre o dia a dia de uma família, escrita de forma leve e com um toque de humor. O que caracteriza esse gênero textual?',
     tip: 'Lembra da Questão 2 e da Questão 12 — o que caracteriza uma crônica?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Ajudando a avó na cozinha, Bernardo seguiu um texto que explicava, passo a passo, como fazer um bolo. Que gênero textual é esse?',
     tip: 'Lembra da Questão 6 — que gênero orienta passo a passo como preparar algo?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo viu um anúncio na televisão tentando convencê-lo a comprar um brinquedo novo. Qual é o principal objetivo desse gênero textual?',
     tip: 'Lembra da Questão 17 — qual é a intenção principal de um anúncio publicitário?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo leu um conto de fadas para a irmã mais nova, cheio de elementos mágicos, como fadas e reinos encantados. Isso é típico de qual gênero?',
     tip: 'Lembra da Questão 14 — qual gênero costuma ter elementos mágicos e fantásticos?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'O professor de Bernardo explicou que, ao ler qualquer texto, é importante identificar o gênero textual. Por que isso é importante?',
     tip: 'Lembra da Questão 10 e da Questão 20 — por que reconhecer o gênero de um texto é tão importante?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo comparou uma notícia de jornal com um conto de fadas e percebeu uma grande diferença entre eles. Qual é essa diferença?',
     tip: 'Pensa em tudo que Bernardo aprendeu: notícia informa fatos reais, conto de fadas é uma história inventada — isso é igual ou diferente?',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Ao final da aula, Bernardo entendeu que existem muitos gêneros textuais diferentes, cada um com um objetivo específico. O que ele deveria concluir sobre isso?',
     tip: 'Pensa em tudo que Bernardo estudou: notícia, crônica, conto, receita, anúncio — isso mostra pouca ou muita variedade de objetivos?',

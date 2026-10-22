@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'O que é uma "figura de linguagem"?',
     tip: 'Pensa em como dizer "meu coração está partido" soa mais expressivo do que "estou triste" — isso é um recurso criativo da linguagem.',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A "metáfora" é uma figura de linguagem que:',
     tip: 'Pensa na frase "ele é um leão" — não tem a palavra "como", mas ainda assim compara a pessoa a um leão.',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A "comparação" (ou símile) é uma figura de linguagem que:',
     tip: 'Pensa na frase "ele é forte como um touro" — que palavrinha aparece ligando as duas ideias?',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A "personificação" é uma figura de linguagem que:',
     tip: 'Pensa em "o vento sussurrava" — o vento não fala de verdade, mas a frase dá a ele uma ação humana.',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A "hipérbole" é uma figura de linguagem que:',
     tip: 'Pensa em "já te disse isso mil vezes" — ninguém disse literalmente mil vezes, é um exagero para dar ênfase.',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo é um exemplo de metáfora?',
     tip: 'Lembra da Questão 2 — qual frase compara sem usar a palavra "como"?',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo é um exemplo de comparação (símile)?',
     tip: 'Lembra da Questão 3 — qual frase usa a palavra "como" para comparar duas coisas?',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo é um exemplo de personificação?',
     tip: 'Lembra da Questão 4 — qual frase dá uma ação humana (sussurrar) para algo que não é humano (o vento)?',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo é um exemplo de hipérbole?',
     tip: 'Lembra da Questão 5 — qual frase exagera bastante uma ideia, de forma proposital?',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'As figuras de linguagem são importantes nos textos porque:',
     tip: 'Pensa em como um poema fica mais bonito e interessante usando metáforas e comparações, em vez de frases simples e diretas.',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na frase "O tempo é um ladrão que rouba nossos momentos", qual figura de linguagem está presente?',
     tip: 'Repare que a frase diz que o tempo "é" um ladrão, sem usar "como" — que figura de linguagem é essa?',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na frase "As ondas dançavam suavemente na praia", qual figura de linguagem está presente?',
     tip: 'Repare que "dançar" é uma ação humana sendo atribuída às ondas do mar — que figura é essa?',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na frase "Ele é forte como um touro", qual figura de linguagem está presente?',
     tip: 'Repare na palavra "como", ligando a força da pessoa à força de um touro — que figura é essa?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na frase "Estou morrendo de fome, não como nada há um século", qual figura de linguagem está presente?',
     tip: 'Pensa: será que a pessoa realmente ficou "um século" sem comer? Isso é um exagero proposital.',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'As figuras de linguagem são muito usadas em qual tipo de texto, para tornar a linguagem mais expressiva?',
     tip: 'Pensa em que tipo de texto costuma usar linguagem mais criativa e cheia de sentimentos.',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na música "O sol é meu amigo e me acorda todo dia", qual figura de linguagem aparece?',
     tip: 'Repare que o sol é tratado como um "amigo" que "acorda" alguém — ações e sentimentos humanos dados a algo não humano.',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual é a diferença principal entre metáfora e comparação?',
     tip: 'Lembra das Questões 2 e 3 — qual das duas figuras usa a palavra "como" para ligar as ideias?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na frase "Chorei rios de lágrimas", qual figura de linguagem está presente?',
     tip: 'Pensa: será que alguém realmente chora "rios" de lágrimas? Isso é um exagero para expressar tristeza intensa.',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Identificar figuras de linguagem em um texto ajuda o leitor a:',
     tip: 'Pensa em como interpretar "seu sorriso é um sol" ao pé da letra seria estranho — reconhecer a figura ajuda a entender o sentido real.',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na frase "A lua observava a cidade em silêncio", qual figura de linguagem está presente?',
     tip: 'Repare que "observar" é uma ação humana atribuída à lua — que figura de linguagem é essa?',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo escreveu em sua redação: "Meu coração é um oceano de sentimentos." Qual figura de linguagem ele usou?',
     tip: 'Lembra da Questão 2 e da Questão 11 — que figura de linguagem compara duas coisas sem usar "como"?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Depois, Bernardo escreveu: "Já contei essa piada um milhão de vezes." Qual figura de linguagem está presente?',
     tip: 'Lembra da Questão 5 e da Questão 9 — que figura de linguagem exagera uma ideia de forma proposital?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na redação de Bernardo, havia a frase: "O vento cantava uma canção triste." Qual figura de linguagem ele usou?',
     tip: 'Lembra da Questão 4 e da Questão 12 — que figura de linguagem dá uma ação humana (cantar) ao vento?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo também escreveu: "Ele é rápido como um guepardo." Qual figura de linguagem está presente?',
     tip: 'Lembra da Questão 3 e da Questão 13 — que figura de linguagem usa a palavra "como" para comparar?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na aula, o professor pediu para Bernardo identificar a figura de linguagem na frase "A vida é uma montanha-russa". Qual é essa figura?',
     tip: 'Lembra da Questão 2 — que figura de linguagem afirma que uma coisa "é" outra, sem usar "como"?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo notou que, ao dizer "estou tão cansado que poderia dormir um ano inteiro", ele estava usando qual figura de linguagem?',
     tip: 'Lembra da Questão 5 e da Questão 22 — que figura de linguagem exagera uma sensação para dar ênfase?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na música que Bernardo estava ouvindo, havia o verso "as estrelas piscavam para mim". Qual figura de linguagem aparece nesse verso?',
     tip: 'Lembra da Questão 4 — que figura de linguagem dá uma ação humana (piscar) às estrelas?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu a diferença entre metáfora e comparação. Qual das frases a seguir usa uma comparação, e não uma metáfora?',
     tip: 'Lembra da Questão 17 — qual dessas frases usa a palavra "como" para fazer a comparação?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que usar figuras de linguagem deixa os textos mais:',
     tip: 'Lembra da Questão 10 — qual é o benefício de usar figuras de linguagem num texto?',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre figuras de linguagem, Bernardo concluiu que reconhecê-las ajuda a:',
     tip: 'Pensa em tudo que Bernardo aprendeu: metáfora, comparação, personificação, hipérbole — isso ajuda a entender melhor ou pior os textos?',
