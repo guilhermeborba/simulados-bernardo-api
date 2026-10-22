@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um triângulo?',
     tip: 'Lembre-se da propriedade fundamental dos triângulos.',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo que mede exatamente 90° é chamado de:',
     tip: 'Pense no ângulo formado pelos lados de um quadrado.',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um hexágono?',
     tip: 'O prefixo "hexa" significa seis em grego.',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo que mede menos de 90° é classificado como:',
     tip: 'Compare com o ângulo reto — é menor.',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um quadrilátero?',
     tip: 'Um quadrilátero pode ser dividido em dois triângulos.',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um polígono com todos os lados e ângulos iguais é chamado de:',
     tip: 'Pense em "regular" como algo que segue uma regra uniforme.',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Dois ângulos são chamados de suplementares quando a soma deles é:',
     tip: 'A palavra "suplementar" tem a ver com completar 180°.',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um pentágono?',
     tip: 'O prefixo "penta" significa cinco.',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo que mede mais de 90° e menos de 180° é chamado de:',
     tip: 'É maior que reto mas menor que raso.',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Dois ângulos são complementares quando a soma deles é igual a:',
     tip: 'Pense no ângulo reto como referência.',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um pentágono?',
     tip: 'Use a fórmula: (n - 2) × 180°, onde n é o número de lados.',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um triângulo com os três lados de medidas diferentes é chamado de:',
     tip: 'Pense nas palavras "equi" (igual) e "iso" (mesmo).',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo que mede exatamente 180° é chamado de:',
     tip: 'Pense numa linha reta — ela forma que ângulo?',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a medida de cada ângulo interno de um quadrado?',
     tip: 'O quadrado tem 4 lados iguais e é um polígono regular.',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um triângulo que tem dois lados iguais é chamado de:',
     tip: 'O prefixo "iso" significa igual, e "sceles" vem de perna.',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um hexágono?',
     tip: 'Use a fórmula (n - 2) × 180° com n = 6.',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Ângulos opostos pelo vértice são sempre:',
     tip: 'Quando duas retas se cruzam, os ângulos opostos têm alguma relação especial.',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um triângulo com todos os lados iguais é chamado de:',
     tip: '"Equi" significa igual e "látero" vem de lado.',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a medida de cada ângulo interno de um triângulo equilátero?',
     tip: 'Divida a soma dos ângulos internos pelo número de ângulos.',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Polígonos convexos são aqueles em que:',
     tip: 'Imagine um polígono "estufado para fora" — nenhuma parte "afunda".',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um octógono?',
     tip: '"Octo" significa oito. Use a fórmula (n - 2) × 180°.',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo que mede 0° é chamado de:',
     tip: 'É o menor ângulo possível — os dois lados estão sobrepostos.',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Em um triângulo retângulo, qual é a medida do ângulo reto?',
     tip: 'O triângulo retângulo tem um ângulo especial que lhe dá o nome.',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Quando uma reta corta duas retas paralelas, os ângulos alternos internos são:',
     tip: 'Pense nas retas paralelas como trilhos de trem cortados por outra reta.',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a medida de cada ângulo externo de um triângulo equilátero?',
     tip: 'Ângulo interno + ângulo externo = 180°.',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um polígono com 7 lados é chamado de:',
     tip: '"Hepta" significa sete em grego.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Um triângulo cujo maior ângulo é obtuso é chamado de:',
     tip: 'O nome do triângulo relaciona-se com o tipo de ângulo que ele possui.',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos externos de qualquer polígono convexo?',
     tip: 'Independente do número de lados, a soma dos ângulos externos é sempre a mesma.',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Ângulos co-internos (colaterais internos) formados por uma transversal com duas paralelas são:',
     tip: 'Estão do mesmo lado da transversal e entre as paralelas.',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a medida de cada ângulo interno de um hexágono regular?',
     tip: 'Calcule a soma dos ângulos (720°) e divida pelo número de lados (6).',

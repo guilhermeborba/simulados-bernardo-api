@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'O plano cartesiano é formado por duas retas numéricas perpendiculares. Como se chama a reta horizontal?',
     tip: 'A reta horizontal, que vai da esquerda para a direita, é chamada de "eixo das abscissas" (ou eixo x).',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Como se chama a reta vertical do plano cartesiano?',
     tip: 'A reta vertical, que vai de cima para baixo, é chamada de "eixo das ordenadas" (ou eixo y).',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'O ponto onde os dois eixos se cruzam é chamado de:',
     tip: 'Esse ponto é o "início" de tudo no plano cartesiano — por isso o nome faz tanto sentido!',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Um par ordenado (x, y) representa um ponto no plano cartesiano. No par (3, 5), qual número é a coordenada x?',
     tip: 'No par ordenado, o PRIMEIRO número é sempre o x, e o segundo é sempre o y!',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No par ordenado (3, 5), qual número é a coordenada y?',
     tip: 'O SEGUNDO número do par ordenado é sempre a coordenada y.',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'O plano cartesiano é dividido em quantas partes, chamadas de quadrantes?',
     tip: 'Pense nos dois eixos se cruzando como uma cruz — quantos "pedaços" essa cruz forma?',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No 1º quadrante, os valores de x e y são:',
     tip: 'O 1º quadrante fica na parte de cima à direita — a região "totalmente positiva" do plano!',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No 3º quadrante, os valores de x e y são:',
     tip: 'O 3º quadrante fica na parte de baixo à esquerda — exatamente o oposto do 1º quadrante!',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Qual é a origem do plano cartesiano, em coordenadas?',
     tip: 'A origem é o ponto de partida de tudo — nem andou no x, nem andou no y!',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Para localizar o ponto (2, 4) no plano cartesiano, devemos:',
     tip: 'Lembre-se da ordem: primeiro o valor de x (andando na horizontal), depois o valor de y (andando na vertical).',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Em qual quadrante está localizado o ponto (-3, 5)?',
     tip: 'x negativo e y positivo é a combinação do quadrante que fica em cima, à esquerda.',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Em qual quadrante está localizado o ponto (4, -2)?',
     tip: 'x positivo e y negativo é a combinação do quadrante que fica embaixo, à direita.',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Um ponto sobre o eixo x tem a coordenada y igual a:',
     tip: 'Se o ponto está "em cima" do eixo x, ele não subiu nem desceu — ou seja, y não mudou de zero!',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Um ponto sobre o eixo y tem a coordenada x igual a:',
     tip: 'Se o ponto está "em cima" do eixo y, ele não andou para os lados — ou seja, x não saiu de zero!',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Qual é o par ordenado do ponto que está 5 unidades à direita da origem e 3 unidades acima dela?',
     tip: '"À direita" é o movimento no eixo x (primeiro número), e "acima" é o movimento no eixo y (segundo número).',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Dois pontos, A(2, 3) e B(2, 7), têm a mesma coordenada x. Isso significa que eles estão localizados em uma linha:',
     tip: 'Se o x não muda, os pontos estão exatamente um em cima do outro — formando uma linha que sobe e desce, ou seja, vertical!',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Dois pontos, C(1, 4) e D(6, 4), têm a mesma coordenada y. Isso significa que eles estão localizados em uma linha:',
     tip: 'Se o y não muda, os pontos estão na mesma "altura" — formando uma linha de lado a lado, ou seja, horizontal!',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'O ponto (0, 0) está localizado:',
     tip: '(0, 0) é um caso especial — ele não pertence a nenhum quadrante, pois está exatamente no cruzamento dos eixos.',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Se um ponto tem coordenadas (-4, -6), em qual quadrante ele está?',
     tip: 'x negativo e y negativo — os dois sinais negativos indicam o quadrante que fica embaixo, à esquerda.',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Para representar a localização de uma cidade em um mapa com coordenadas, usamos uma ideia parecida com o plano cartesiano, chamada de:',
     tip: 'Pense na Geografia: os mapas usam duas "linhas" (uma horizontal e uma vertical) para localizar qualquer lugar do planeta!',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Bernardo está jogando batalha naval e precisa marcar o ponto (4, 2) no tabuleiro. Em qual quadrante esse ponto estaria, se o tabuleiro fosse um plano cartesiano completo?',
     tip: 'Os dois números são positivos — isso indica o quadrante "totalmente positivo".',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No mapa do tesouro que Bernardo desenhou, o ponto de partida é a origem (0, 0) e o tesouro está no ponto (-3, 4). Em qual quadrante está o tesouro?',
     tip: 'x negativo e y positivo indicam o quadrante de cima, à esquerda.',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Bernardo marcou dois pontos no seu caderno: A(5, -1) e B(5, 8). Como as coordenadas x são iguais, esses pontos formam uma linha:',
     tip: 'Coordenada x igual sempre forma uma linha vertical — lembre da dica das questões anteriores!',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Bernardo está brincando de "Jogo dos Pontos" com seu pai. Ele precisa marcar o ponto que fica 6 unidades à direita da origem e 2 unidades abaixo dela. Qual é esse par ordenado?',
     tip: '"À direita" é x positivo, e "abaixo" é y negativo. Coloque na ordem certa: (x, y).',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Bernardo desenhou um gráfico e marcou o ponto (-7, -2). Em qual quadrante está esse ponto?',
     tip: 'Os dois números são negativos — essa é a marca registrada do 3º quadrante.',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Se Bernardo marcar um ponto exatamente sobre o eixo y, qual será obrigatoriamente o valor da coordenada x desse ponto?',
     tip: 'Lembre-se: em cima do eixo y, o ponto nunca andou para os lados.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Bernardo está aprendendo a jogar xadrez, que usa um sistema de coordenadas parecido com o plano cartesiano (letras e números) para identificar as casas do tabuleiro. Esse sistema serve para:',
     tip: 'Pense na função principal de qualquer sistema de coordenadas: apontar exatamente ONDE algo está.',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Bernardo comparou dois pontos: P(3, 3) e Q(-3, -3). O que podemos dizer sobre eles?',
     tip: 'Veja os sinais: P tem os dois positivos (1º quadrante) e Q tem os dois negativos (3º quadrante) — são opostos!',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No jogo de Bernardo, ele precisa marcar o ponto (0, 5). Onde esse ponto estará localizado?',
     tip: 'Como x = 0, o ponto não saiu do lugar na horizontal — ele está exatamente sobre um dos eixos. Qual deles?',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Depois de estudar bastante, Bernardo resumiu: no plano cartesiano, o primeiro número do par ordenado sempre indica o movimento no eixo ______, e o segundo número indica o movimento no eixo ______.',
     tip: 'Releia as primeiras questões desse simulado — a ordem do par ordenado (x, y) nunca muda!',

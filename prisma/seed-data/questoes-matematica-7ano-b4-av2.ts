@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (−8) + (+3)?',
     tip: 'Na adição de inteiros com sinais diferentes, subtraia e use o sinal do maior.',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MMC de 6 e 9?',
     tip: 'Liste os múltiplos de cada número e encontre o menor em comum.',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 2/3 + 1/4?',
     tip: 'Encontre o MMC dos denominadores para igualar as frações.',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: '30% de 200 é igual a:',
     tip: 'Calcule 30/100 × 200.',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Se 3 cadernos custam R$ 12,00, quanto custam 7 cadernos?',
     tip: 'Monte uma proporção: 3/12 = 7/x.',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Resolva a equação: x + 5 = 13.',
     tip: 'Isole o x subtraindo 5 dos dois lados.',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No plano cartesiano, o ponto (0, 0) é chamado de:',
     tip: 'É o ponto de referência de todo o sistema de coordenadas.',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um triângulo?',
     tip: 'Esta é uma das propriedades mais fundamentais da geometria plana.',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (−3) × (−4)?',
     tip: 'Negativo vezes negativo dá positivo.',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MDC de 12 e 18?',
     tip: 'Encontre os divisores comuns e escolha o maior.',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Converta 3/4 para decimal:',
     tip: 'Divida o numerador pelo denominador: 3 ÷ 4.',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Em uma turma de 40 alunos, 25% são aprovados com distinção. Quantos alunos são esses?',
     tip: 'Calcule 25% de 40.',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Resolva: 2x − 4 = 10.',
     tip: 'Primeiro some 4 nos dois lados, depois divida por 2.',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'Qual quadrante do plano cartesiano tem coordenadas (x > 0, y < 0)?',
     tip: 'No 1° quadrante ambas são positivas; pense no sentido horário.',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Figuras planas',
     type: 'multiple_choice',
     text: 'Quantos lados tem um octógono?',
     tip: '"Octo" significa oito em latim.',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 5/6 − 1/3?',
     tip: 'Converta 1/3 para ter o mesmo denominador de 5/6.',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Um produto foi aumentado em 20%. Se o preço original era R$ 50,00, qual é o novo preço?',
     tip: 'Calcule 20% de R$ 50,00 e some ao original.',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação: 3x = 21?',
     tip: 'Divida ambos os lados por 3.',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No plano cartesiano, em qual eixo ficam os pontos com y = 0?',
     tip: 'Quando y = 0, o ponto está sobre qual eixo?',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Dois ângulos suplementares somam:',
     tip: 'Lembre-se: suplementar vem de "complementar uma linha reta".',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (−15) ÷ (+3)?',
     tip: 'Sinais diferentes na divisão resultam em número negativo.',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MDC de 24 e 36?',
     tip: 'Fatore os dois números e encontre os fatores comuns.',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Uma receita usa 3/8 de xícara de açúcar. Qual é o decimal correspondente?',
     tip: 'Divida o numerador pelo denominador: 3 ÷ 8.',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um ângulo que mede 135° é classificado como:',
     tip: 'Compare com 90° e 180°.',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Resolva: 4x + 2 = 18.',
     tip: 'Subtraia 2 dos dois lados, depois divida por 4.',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Plano cartesiano',
     type: 'multiple_choice',
     text: 'No plano cartesiano, qual é a abscissa do ponto (−3, 5)?',
     tip: 'A abscissa é sempre o primeiro valor do par ordenado.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Qual é a soma dos ângulos internos de um quadrilátero?',
     tip: 'Divida o quadrilátero em triângulos para calcular.',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Se a razão entre duas quantidades é 3:5 e a menor é 12, qual é a maior?',
     tip: 'Monte a proporção: 3/5 = 12/x.',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 1/2 × 3/4?',
     tip: 'Na multiplicação de frações, multiplique numerador com numerador e denominador com denominador.',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Ângulos',
     type: 'multiple_choice',
     text: 'Um triângulo com todos os lados iguais é chamado de equilátero. Qual é a medida de cada um de seus ângulos internos?',
     tip: 'Some os ângulos (180°) e divida pelo número de ângulos (3).',
