@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'O que é um "verbo"?',
     tip: 'Pensa em palavras como "correr", "ser" e "chover" — o que elas têm em comum?',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O modo verbal "indicativo" é usado para expressar:',
     tip: 'Pensa em frases como "Eu estudo todos os dias" — isso expressa uma certeza ou uma dúvida?',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O modo verbal "subjuntivo" costuma expressar:',
     tip: 'Pensa em frases como "Se eu ganhasse na loteria..." — isso expressa uma certeza ou uma possibilidade?',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O modo verbal "imperativo" é usado principalmente para:',
     tip: 'Pensa em frases como "Feche a porta!" ou "Estude mais!" — o que elas estão fazendo?',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'O verbo no tempo "presente" indica uma ação que:',
     tip: 'Pensa em "Eu estudo todos os dias" — isso é algo que já terminou ou algo que acontece com frequência agora?',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'O verbo no tempo "pretérito" indica uma ação que:',
     tip: 'Pensa na palavra "pretérito", parecida com "passado" — que tempo verbal ela representa?',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'O verbo no tempo "futuro" indica uma ação que:',
     tip: 'Pensa em "Amanhã eu estudarei" — isso já aconteceu ou vai acontecer?',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Os verbos em português são divididos em três conjugações, de acordo com a terminação do infinitivo: -ar, -er e:',
     tip: 'Pensa em verbos como "partir", "dormir" e "sorrir" — qual é a terminação comum entre eles?',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Um verbo é considerado "irregular" quando:',
     tip: 'Pensa no verbo "ser": "sou", "és", "foi" — esse verbo muda muito ou segue sempre o mesmo padrão?',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Conjugar corretamente os verbos em um texto é importante porque:',
     tip: 'Pensa em como "eu vai" soa estranho comparado a "eu vou" — isso afeta a clareza da comunicação?',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Eu estudo todos os dias", o verbo "estudo" está no tempo:',
     tip: 'Lembra da Questão 5 — que tempo verbal indica uma ação que acontece com frequência agora?',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Nós estudamos ontem", o verbo "estudamos" está no tempo:',
     tip: 'Lembra da Questão 6 — que tempo verbal indica uma ação que já aconteceu?',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Eles estudarão amanhã", o verbo "estudarão" está no tempo:',
     tip: 'Lembra da Questão 7 — que tempo verbal indica uma ação que ainda vai acontecer?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Estude para a prova!", o verbo "estude" está no modo:',
     tip: 'Lembra da Questão 4 — que modo verbal é usado para dar ordens ou conselhos?',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na frase "Se eu estudasse mais, tiraria notas melhores", o verbo "estudasse" está no modo:',
     tip: 'Lembra da Questão 3 — que modo verbal costuma aparecer em frases que começam com "se"?',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'O verbo "cantar" pertence a qual conjugação?',
     tip: 'Lembra da Questão 8 — qual é a terminação do infinitivo do verbo "cantar"?',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'O verbo "partir" pertence a qual conjugação?',
     tip: 'Lembra da Questão 8 — qual é a terminação do infinitivo do verbo "partir"?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'O verbo "ser", muito usado na língua portuguesa, é considerado:',
     tip: 'Lembra da Questão 9 — o verbo "ser" muda muito quando conjugado ("sou", "és", "foi")?',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Ao escrever uma receita, geralmente usamos verbos no modo:',
     tip: 'Lembra da Questão 4 — que modo verbal é usado para dar instruções, como numa receita?',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Usar o tempo verbal correto em um texto ajuda o leitor a entender:',
     tip: 'Pensa em como usar o tempo verbal errado pode confundir sobre quando algo aconteceu numa história.',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Eu brinco no parque todos os dias." Em que tempo verbal está o verbo "brinco"?',
     tip: 'Lembra da Questão 5 e da Questão 11 — que tempo verbal indica um hábito frequente?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Depois, Bernardo escreveu: "Ontem eu brinquei no parque com meus amigos." Em que tempo verbal está o verbo "brinquei"?',
     tip: 'Lembra da Questão 6 e da Questão 12 — que tempo verbal indica uma ação que já aconteceu?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Bernardo também escreveu: "Amanhã eu brincarei no parque de novo." Em que tempo verbal está o verbo "brincarei"?',
     tip: 'Lembra da Questão 7 e da Questão 13 — que tempo verbal indica algo que ainda vai acontecer?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'Na receita de bolo que Bernardo seguiu com a avó, havia instruções como "misture os ingredientes" e "asse por 40 minutos". Em que modo verbal essas instruções estão?',
     tip: 'Lembra da Questão 4 e da Questão 19 — que modo verbal é usado para dar instruções?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O professor pediu para Bernardo escrever uma frase no modo subjuntivo, expressando um desejo. Qual das opções ele deveria escrever?',
     tip: 'Lembra da Questão 3 e da Questão 15 — qual dessas frases expressa uma possibilidade, começando com "se"?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Bernardo identificou que o verbo "brincar" pertence à primeira conjugação, terminada em "-ar". Qual desses verbos também pertence à mesma conjugação?',
     tip: 'Lembra da Questão 8 e da Questão 16 — qual desses verbos também termina em "-ar" no infinitivo?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que o verbo "ser" muda bastante quando conjugado ("sou", "és", "foi", "seremos"). Isso mostra que esse verbo é:',
     tip: 'Lembra da Questão 9 e da Questão 18 — o que significa um verbo mudar bastante ao ser conjugado?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo aprendeu que usar o tempo verbal correto ajuda o leitor a entender melhor:',
     tip: 'Lembra da Questão 20 — o que o tempo verbal ajuda o leitor a entender numa história?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que conjugar corretamente os verbos é importante para:',
     tip: 'Lembra da Questão 10 — qual é o benefício de conjugar corretamente os verbos em um texto?',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Verbos',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre verbos, Bernardo concluiu que conhecer os tempos e modos verbais ajuda a:',
     tip: 'Pensa em tudo que Bernardo aprendeu: tempos, modos, conjugações — isso ajuda a escrever com mais ou menos precisão?',

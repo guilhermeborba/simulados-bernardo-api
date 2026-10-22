@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'O que é "coesão textual"?',
     tip: 'Pensa em como palavras como "e", "mas" e "porque" ajudam a "costurar" as frases de um texto, ligando as ideias.',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Coerência textual',
     type: 'multiple_choice',
     text: 'O que é "coerência textual"?',
     tip: 'Pensa em como um texto pode ter frases bem conectadas, mas ainda assim não fazer sentido lógico — isso tem a ver com o quê?',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A conjunção "e" costuma expressar uma ideia de:',
     tip: 'Pensa em "gosto de arroz e feijão" — a palavra "e" está somando ou opondo essas duas coisas?',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A conjunção "mas" costuma expressar uma ideia de:',
     tip: 'Pensa em "eu queria ir, mas não pude" — a palavra "mas" está somando ideias ou mostrando um contraste?',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A conjunção "porque" costuma expressar uma ideia de:',
     tip: 'Pensa em "não fui à escola porque estava doente" — a palavra "porque" está explicando o motivo de algo?',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A conjunção "portanto" costuma expressar uma ideia de:',
     tip: 'Pensa em "estudei muito, portanto tirei boa nota" — a palavra "portanto" está introduzindo uma consequência ou conclusão?',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre coesão e coerência?',
     tip: 'Lembra das Questões 1 e 2 — qual das duas ideias tem a ver com "ligar palavras" e qual tem a ver com "fazer sentido"?',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Os "conectivos" (como "e", "mas", "porque", "portanto") têm a função de:',
     tip: 'Pensa em como essas palavrinhas ajudam a "costurar" as frases de um texto, uma depois da outra.',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Um texto sem coesão adequada pode:',
     tip: 'Pensa em como fica estranho ler frases soltas, sem nenhuma palavra ligando uma ideia à outra.',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Coerência textual',
     type: 'multiple_choice',
     text: 'Um texto sem coerência pode apresentar:',
     tip: 'Pensa em um texto que diz uma coisa numa frase e o contrário na frase seguinte — isso é um problema de quê?',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Na frase "Estudei bastante, mas não fui bem na prova", a conjunção "mas" expressa uma ideia de:',
     tip: 'Lembra da Questão 4 — que ideia a conjunção "mas" costuma expressar?',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Na frase "Não fui à escola porque estava doente", a conjunção "porque" expressa uma ideia de:',
     tip: 'Lembra da Questão 5 — que ideia a conjunção "porque" costuma expressar?',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Na frase "Gosto de matemática e de português", a conjunção "e" expressa uma ideia de:',
     tip: 'Lembra da Questão 3 — que ideia a conjunção "e" costuma expressar?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Na frase "Estudei muito, portanto tirei uma boa nota", a conjunção "portanto" expressa uma ideia de:',
     tip: 'Lembra da Questão 6 — que ideia a conjunção "portanto" costuma expressar?',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Um texto pode ter coesão (conectivos bem usados), mas ainda assim não ter:',
     tip: 'Lembra da Questão 7 — mesmo com boas ligações entre frases, o que ainda pode faltar num texto?',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Usar conectivos variados em um texto, em vez de repetir sempre "e" ou "aí", ajuda a:',
     tip: 'Pensa em como um texto cheio de "e aí, e aí, e aí" soa repetitivo comparado a um texto com conectivos variados.',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'A frase "Choveu muito, e o jogo continuou normalmente" apresenta um problema de:',
     tip: 'Pensa: será que faz sentido lógico um jogo continuar "normalmente" durante uma chuva forte, sem nenhuma explicação?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Ler um texto e perceber que as ideias se conectam de forma lógica, sem contradições, mostra que o texto tem:',
     tip: 'Lembra da Questão 2 — como se chama a qualidade de um texto fazer sentido lógico do início ao fim?',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Substituir a repetição de "depois" por conectivos como "em seguida" ou "posteriormente" ajuda a melhorar:',
     tip: 'Lembra da Questão 16 — o que a variedade de conectivos ajuda a melhorar num texto?',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Conhecer bem os conectivos e seu significado (adição, oposição, causa, conclusão) ajuda o estudante a:',
     tip: 'Pensa em tudo que aprendemos sobre conectivos até agora — isso ajuda a escrever melhor ou pior?',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Estudei bastante, portanto tirei uma boa nota." Qual ideia a conjunção "portanto" expressa?',
     tip: 'Lembra da Questão 6 e da Questão 14 — que ideia a conjunção "portanto" costuma expressar?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Depois, Bernardo escreveu: "Gosto de futebol e de basquete." Qual ideia a conjunção "e" expressa?',
     tip: 'Lembra da Questão 3 e da Questão 13 — que ideia a conjunção "e" costuma expressar?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Bernardo também escreveu: "Queria ir ao parque, mas estava chovendo." Qual ideia a conjunção "mas" expressa?',
     tip: 'Lembra da Questão 4 e da Questão 11 — que ideia a conjunção "mas" costuma expressar?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Na redação, Bernardo explicou: "Não fui à festa porque estava resfriado." Qual ideia a conjunção "porque" expressa?',
     tip: 'Lembra da Questão 5 e da Questão 12 — que ideia a conjunção "porque" costuma expressar?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'O professor de Bernardo apontou que uma frase da redação não fazia sentido lógico com o restante do texto. Isso é um problema de:',
     tip: 'Lembra da Questão 2 e da Questão 17 — que tipo de problema acontece quando as ideias de um texto não fazem sentido juntas?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Bernardo reescreveu seu texto usando conectivos variados, em vez de repetir sempre "e" ou "aí". Isso melhorou:',
     tip: 'Lembra da Questão 16 e da Questão 19 — o que a variedade de conectivos ajuda a melhorar num texto?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que, mesmo usando conectivos corretamente, um texto pode não fazer sentido se as ideias forem contraditórias. Isso mostra a importância de também ter:',
     tip: 'Lembra da Questão 15 — o que ainda pode faltar num texto, mesmo com boa coesão?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo aprendeu a diferença entre coesão e coerência. Como ele poderia explicar essa diferença a um colega?',
     tip: 'Lembra da Questão 7 — qual é a diferença correta entre esses dois conceitos?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que seu texto ficou mais claro depois de usar conectivos como "além disso" e "por outro lado". Isso mostra a importância de:',
     tip: 'Lembra da Questão 16 e da Questão 26 — o que a variedade de conectivos ajuda a melhorar num texto?',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Organização textual',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre coesão e coerência, Bernardo concluiu que escrever um bom texto exige:',
     tip: 'Pensa em tudo que Bernardo aprendeu: conectivos bem usados e ideias lógicas — isso resume coesão e coerência juntas?',

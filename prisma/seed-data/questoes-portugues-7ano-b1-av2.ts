@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é o "enredo" de uma narrativa?',
     tip: 'Pensa em como você contaria a história para um amigo: "primeiro aconteceu isso, depois aquilo" — isso é o quê?',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "narrador" de uma história é:',
     tip: 'Pensa em quem está "contando" a história para você, que pode ou não ser um personagem dela.',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Quando o narrador participa da história e conta os fatos usando "eu", dizemos que ele é um narrador:',
     tip: 'Pensa em como "primeira pessoa" na gramática se refere a "eu" — isso combina com esse tipo de narrador.',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Quando o narrador conta a história de fora, sem participar dela, usando "ele" ou "ela", dizemos que ele é um narrador:',
     tip: 'Pensa em como "terceira pessoa" na gramática se refere a "ele" ou "ela" — isso combina com esse tipo de narrador.',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "protagonista" de uma história é:',
     tip: 'Pensa em quem é o personagem mais importante, aquele sobre quem a história é contada.',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "antagonista" de uma história é geralmente:',
     tip: 'Pensa no "vilão" clássico das histórias, que atrapalha os planos do personagem principal.',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "tempo" na narrativa se refere a:',
     tip: 'Pensa em "quando" a história acontece — no passado, presente ou futuro.',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "espaço" na narrativa se refere a:',
     tip: 'Pensa em "onde" a história acontece — uma cidade, uma floresta, um castelo.',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "conflito" em uma narrativa é:',
     tip: 'Pensa: sem um problema para resolver, a história teria motivo para continuar?',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "desfecho" de uma narrativa é:',
     tip: 'Pensa em como toda história precisa de um "final" — como se chama essa parte?',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Em uma história contada em primeira pessoa, o narrador costuma usar palavras como:',
     tip: 'Lembra da Questão 3 — que pronome é característico do narrador em primeira pessoa?',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "narrador onisciente", muito comum em narrativas em terceira pessoa, é aquele que:',
     tip: 'A palavra "onisciente" vem do latim e significa "que sabe tudo" — pensa no que isso quer dizer sobre esse narrador.',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Em um conto de fadas clássico, o protagonista costuma enfrentar:',
     tip: 'Lembra da Questão 9 — o que move a história para frente e prende a atenção do leitor?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O momento de maior tensão em uma narrativa, quando o conflito atinge seu ponto mais intenso, é chamado de:',
     tip: 'Pensa na parte da história em que tudo parece estar no seu ponto mais emocionante e tenso.',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Uma história pode se passar em um tempo:',
     tip: 'Lembra da Questão 7 — em quantos tipos diferentes de tempo uma narrativa pode se passar?',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O espaço de uma narrativa pode ser:',
     tip: 'Lembra da Questão 8 — que tipos de lugares podem servir de espaço para uma narrativa?',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Em muitas histórias, o antagonista serve para:',
     tip: 'Lembra da Questão 6 — qual é a função principal do antagonista numa narrativa?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'A estrutura básica de uma narrativa costuma seguir a ordem:',
     tip: 'Pensa em como uma história começa apresentando a situação, depois surge um problema, a tensão aumenta e por fim tudo se resolve.',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Personagens secundários, que participam da história mas não são o foco principal, servem para:',
     tip: 'Pensa nos amigos ou familiares do protagonista numa história — eles não são o foco, mas ajudam a história a acontecer.',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Identificar os elementos da narrativa (narrador, personagens, tempo, espaço e enredo) ajuda o leitor a:',
     tip: 'Pensa em como conhecer essas "peças" de uma história ajuda a entender melhor como ela funciona por dentro.',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo leu um livro em que a personagem principal contava a história usando a palavra "eu". Que tipo de narrador é esse?',
     tip: 'Lembra da Questão 3 — que tipo de narrador usa a palavra "eu" para contar a história?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Na história, Bernardo identificou o personagem em torno de quem toda a trama acontecia. Como se chama esse personagem?',
     tip: 'Lembra da Questão 5 — como se chama o personagem principal de uma história?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que a história se passava em um reino distante e imaginário. A que elemento da narrativa isso se refere?',
     tip: 'Lembra da Questão 8 — como se chama o elemento que indica "onde" a história acontece?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'No meio da leitura, Bernardo chegou à parte de maior tensão da história, quando o conflito estava mais intenso. Como se chama esse momento?',
     tip: 'Lembra da Questão 14 — como se chama o momento de maior tensão de uma narrativa?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Ao terminar o livro, Bernardo leu a parte final, em que o problema da história finalmente se resolvia. Como se chama essa parte?',
     tip: 'Lembra da Questão 10 — como se chama a parte final de uma narrativa, onde tudo se resolve?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo notou que o vilão da história criava vários obstáculos para o protagonista. Como se chama esse tipo de personagem?',
     tip: 'Lembra da Questão 6 e da Questão 17 — como se chama o personagem que cria conflito com o protagonista?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Na aula, o professor pediu para Bernardo identificar onde e quando a história acontecia. A que elementos da narrativa isso se refere?',
     tip: 'Lembra da Questão 7 e da Questão 8 — quais elementos indicam "onde" e "quando" uma história acontece?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo comparou dois livros: um contado em primeira pessoa e outro em terceira pessoa. Qual é a principal diferença entre esses dois tipos de narrador?',
     tip: 'Lembra da Questão 3 e da Questão 4 — qual é a diferença entre esses dois tipos de narrador?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que toda narrativa segue uma estrutura básica. Qual é a ordem correta dessa estrutura?',
     tip: 'Lembra da Questão 18 — qual é a ordem correta das partes de uma narrativa?',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre os elementos da narrativa, Bernardo concluiu que conhecer narrador, personagens, tempo, espaço e enredo ajuda a:',
     tip: 'Pensa em tudo que Bernardo aprendeu: narrador, protagonista, antagonista, tempo, espaço, conflito, clímax, desfecho — isso ajuda a entender melhor ou a confundir mais uma história?',

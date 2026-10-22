@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Notícias',
     type: 'multiple_choice',
     text: 'Qual é o principal objetivo de uma notícia?',
     tip: 'Pensa no que você espera encontrar ao ler uma notícia de jornal — fatos reais ou uma história inventada?',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "conto" é um gênero textual narrativo caracterizado por:',
     tip: 'Pensa em como um conto pode ser lido de uma vez só, diferente de um romance com muitos capítulos.',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Quando o narrador participa da história e usa a palavra "eu", ele é chamado de narrador:',
     tip: 'Pensa em como "primeira pessoa" na gramática se refere a "eu".',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "protagonista" de uma narrativa é:',
     tip: 'Pensa em quem é o personagem mais importante de uma história, sobre quem tudo gira.',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Os pronomes pessoais têm a função de:',
     tip: 'Pensa em "eu", "tu", "ele" — essas palavras substituem os nomes das pessoas envolvidas na conversa.',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual das opções é um exemplo de pronome demonstrativo?',
     tip: 'Pensa em qual dessas palavras indica a posição de algo, como "este livro aqui".',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'O verbo no tempo presente indica uma ação que:',
     tip: 'Pensa em "eu estudo todos os dias" — isso é algo que já terminou ou que acontece com frequência agora?',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Modos verbais',
     type: 'multiple_choice',
     text: 'O modo verbal imperativo é usado principalmente para:',
     tip: 'Pensa em frases como "Estude mais!" — o que elas estão fazendo?',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A metáfora é uma figura de linguagem que:',
     tip: 'Pensa na frase "ele é um leão" — não tem a palavra "como", mas ainda assim compara.',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A comparação (símile) é uma figura de linguagem que:',
     tip: 'Pensa na frase "ele é forte como um touro" — que palavrinha aparece ligando as duas ideias?',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A personificação é uma figura de linguagem que:',
     tip: 'Pensa em "o vento sussurrava" — o vento não fala de verdade, mas a frase dá a ele uma ação humana.',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A hipérbole é uma figura de linguagem que:',
     tip: 'Pensa em "já te disse isso mil vezes" — isso é um exagero para dar ênfase.',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A coesão textual se refere a:',
     tip: 'Pensa em como palavras como "e", "mas" e "porque" ajudam a "costurar" as frases de um texto.',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Coerência textual',
     type: 'multiple_choice',
     text: 'A coerência textual se refere a:',
     tip: 'Pensa em como um texto pode ter frases bem conectadas, mas ainda assim não fazer sentido lógico.',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A conjunção "mas" costuma expressar uma ideia de:',
     tip: 'Pensa em "eu queria ir, mas não pude" — isso mostra um contraste entre as ideias.',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'A conjunção "porque" costuma expressar uma ideia de:',
     tip: 'Pensa em "não fui à escola porque estava doente" — a palavra "porque" explica o motivo de algo.',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'A concordância verbal é a relação de combinação entre:',
     tip: 'Pensa em como "o menino brinca" soa certo, mas "o menino brincam" soa errado.',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'A concordância nominal envolve a combinação, em gênero e número, entre:',
     tip: 'Pensa em "as flores bonitas" — quais palavras estão combinando entre si em gênero e número?',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Reconhecer diferentes gêneros textuais ajuda o leitor a:',
     tip: 'Pensa em como você lê uma bula de remédio de um jeito diferente de como lê um conto de fadas.',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Identificar os elementos da narrativa (narrador, personagens, tempo, espaço, enredo) ajuda a:',
     tip: 'Pensa em como conhecer essas "peças" de uma história ajuda a entender melhor como ela funciona por dentro.',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Ao revisar o ano inteiro, Bernardo lembrou que aprendeu sobre gêneros textuais. Qual desses é um exemplo de gênero textual instrucional?',
     tip: 'Lembra do primeiro bimestre — que gênero orienta passo a passo como preparar algo?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'No segundo bimestre, Bernardo estudou pronomes e verbos. Qual pronome ele usaria para substituir "Maria" numa frase, evitando repetição?',
     tip: 'Lembra da Questão 5 — que tipo de pronome substitui o nome de uma pessoa?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Tempos verbais',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que o verbo "estudarei" está em qual tempo verbal?',
     tip: 'Pensa na terminação "-arei" — ela indica uma ação que ainda vai acontecer.',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'No terceiro bimestre, Bernardo estudou figuras de linguagem. Na frase "Meu coração é um oceano", qual figura de linguagem aparece?',
     tip: 'Lembra da Questão 9 — que figura de linguagem compara sem usar a palavra "como"?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Coesão textual',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que a conjunção "portanto" costuma expressar uma ideia de:',
     tip: 'Pensa em "estudei muito, portanto tirei boa nota" — essa palavra está introduzindo uma consequência.',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'No quarto bimestre, Bernardo estudou concordância verbal. Na frase "Os alunos estudaram muito", o verbo concorda com o sujeito em:',
     tip: 'Lembra da Questão 17 — com o que o verbo precisa concordar numa frase?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo corrigiu a frase "As flores bonito desabrocharam" para "As flores bonitas desabrocharam." Que tipo de concordância ele aplicou?',
     tip: 'Lembra da Questão 18 — que tipo de concordância envolve substantivo e adjetivo combinando em gênero e número?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Relembrando tudo que aprendeu sobre gramática e texto, Bernardo percebeu que escrever bem envolve conhecer:',
     tip: 'Pensa em tudo que Bernardo estudou esse ano: gêneros, narrativa, pronomes, verbos, figuras de linguagem, coesão e concordância.',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Bernardo organizou um resumo de tudo que aprendeu no ano. O que todos esses temas têm em comum?',
     tip: 'Pensa em como cada tema, de um jeito diferente, contribui para uma boa leitura e escrita.',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Ao final do ano, Bernardo concluiu que estudar Português ajuda a:',
     tip: 'Pensa em tudo que Bernardo aprendeu: gêneros, gramática, figuras de linguagem — isso ajuda a se comunicar melhor ou pior?',

@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'O que é um "pronome"?',
     tip: 'Pensa em como, em vez de repetir "Maria" várias vezes, podemos usar "ela" — o que essa palavrinha está fazendo?',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Os "pronomes pessoais" têm a função de:',
     tip: 'Pensa em "eu", "tu", "ele" — essas palavras substituem os nomes de quem está envolvido na conversa.',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual das opções apresenta pronomes pessoais do caso reto?',
     tip: 'Pensa nos pronomes que geralmente aparecem no início da frase, fazendo o papel de sujeito.',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual das opções apresenta pronomes pessoais do caso oblíquo?',
     tip: 'Pensa em frases como "Ele me chamou" — qual palavra está no lugar de "chamou a mim"?',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Os "pronomes possessivos" indicam:',
     tip: 'Pensa em "meu caderno", "sua mochila" — o que essas palavras estão indicando sobre o objeto?',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual das opções é um exemplo de pronome possessivo?',
     tip: 'Pensa em qual dessas palavras indica que algo pertence a alguém.',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Os "pronomes demonstrativos" têm a função de:',
     tip: 'Pensa em "este", "esse" e "aquele" — eles ajudam a indicar se algo está perto ou longe de quem fala.',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual das opções é um exemplo de pronome demonstrativo?',
     tip: 'Pensa em qual dessas palavras indica a posição de algo, como "este livro aqui".',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: '"Você", "senhor" e "senhora" são exemplos de pronomes de:',
     tip: 'Pensa em como você se dirige a um adulto desconhecido, de forma educada — que tipo de pronome usamos nesse caso?',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Usar pronomes em um texto é importante porque:',
     tip: 'Pensa em como ficaria estranho repetir sempre o mesmo nome em vez de usar "ele" ou "ela".',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Maria pegou o livro dela", a palavra "dela" é um pronome:',
     tip: 'Lembra da Questão 5 — que tipo de pronome indica que o livro pertence a Maria?',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Aquele carro é muito bonito", a palavra "aquele" é um pronome:',
     tip: 'Lembra da Questão 7 — que tipo de pronome indica a posição de algo, geralmente mais distante?',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Nós vamos viajar amanhã", a palavra "nós" é um pronome pessoal do caso:',
     tip: 'Lembra da Questão 3 — em qual grupo de pronomes pessoais está a palavra "nós"?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Ele me chamou para brincar", a palavra "me" é um pronome pessoal do caso:',
     tip: 'Lembra da Questão 4 — em qual grupo de pronomes pessoais está a palavra "me"?',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Qual é a função principal dos pronomes pessoais em um texto?',
     tip: 'Lembra da Questão 2 — qual é a função central dos pronomes pessoais numa frase?',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Este é o meu caderno favorito", há dois tipos de pronomes. Quais são eles?',
     tip: 'Lembra das Questões 5 e 7 — que tipo de pronome é "este" e que tipo é "meu"?',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'O uso correto de pronomes de tratamento, como "senhor" e "senhora", geralmente indica:',
     tip: 'Lembra da Questão 9 — que sentimento geralmente está associado ao uso desses pronomes?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase "Essa camisa é sua?", a palavra "essa" é um pronome:',
     tip: 'Lembra da Questão 7 — que tipo de pronome indica a posição de algo perto de quem ouve?',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Substituir "Pedro foi à escola. Pedro esqueceu o material" por "Pedro foi à escola. Ele esqueceu o material" é um exemplo de uso de:',
     tip: 'Lembra da Questão 10 — para que serve usar pronomes em vez de repetir sempre o mesmo nome?',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Reconhecer os diferentes tipos de pronomes ajuda o estudante a:',
     tip: 'Pensa em tudo que aprendemos sobre pronomes até agora — isso ajuda a escrever melhor ou pior?',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo escreveu uma frase: "Eu adoro futebol." Que tipo de pronome é a palavra "eu"?',
     tip: 'Lembra da Questão 3 — em qual grupo de pronomes pessoais está a palavra "eu"?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na redação de Bernardo, havia a frase: "Aquele livro pertence à biblioteca." Que tipo de pronome é "aquele"?',
     tip: 'Lembra da Questão 7 e da Questão 12 — que tipo de pronome indica a posição de algo mais distante?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo escreveu para o avô: "Este presente é seu." A palavra "seu" nessa frase é um pronome:',
     tip: 'Lembra da Questão 5 — que tipo de pronome indica que o presente pertence ao avô?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na escola, o professor pediu que Bernardo se dirigisse ao diretor de forma respeitosa, usando "o senhor". Esse é um exemplo de pronome de:',
     tip: 'Lembra da Questão 9 e da Questão 17 — que tipo de pronome se usa para tratar alguém com respeito e formalidade?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo reescreveu uma frase para evitar repetir o nome do amigo: "João chegou. João estava atrasado" virou "João chegou. Ele estava atrasado." Que tipo de pronome ele usou?',
     tip: 'Lembra da Questão 19 — que tipo de pronome ajuda a evitar repetir o mesmo nome várias vezes?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na frase que Bernardo escreveu, "Essa mochila é minha", há dois pronomes. Quais são eles?',
     tip: 'Lembra da Questão 16 — como identificar dois tipos diferentes de pronomes numa mesma frase?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que usar pronomes em vez de repetir sempre o mesmo nome deixa o texto:',
     tip: 'Lembra da Questão 10 e da Questão 20 — qual é o benefício de usar pronomes num texto?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Na aula, o professor pediu para Bernardo identificar o pronome pessoal do caso oblíquo na frase "Ela me contou um segredo". Qual é esse pronome?',
     tip: 'Lembra da Questão 4 e da Questão 14 — qual palavra dessa frase pertence ao caso oblíquo dos pronomes pessoais?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que existem diferentes tipos de pronomes, cada um com uma função específica. Isso mostra a importância de:',
     tip: 'Pensa em tudo que Bernardo aprendeu: pessoal, possessivo, demonstrativo, tratamento — isso ajuda a comunicar melhor ou pior?',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Pronomes',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre pronomes, Bernardo concluiu que essas palavras são importantes porque:',
     tip: 'Pensa em tudo que Bernardo aprendeu sobre a função principal dos pronomes num texto.',

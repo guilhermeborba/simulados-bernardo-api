@@ -1,6 +1,7 @@
 export const questoesPortugues7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'O que é "concordância verbal"?',
     tip: 'Pensa em como "o menino brinca" soa certo, mas "o menino brincam" soa errado — o verbo precisa combinar com quem pratica a ação.',
@@ -16,6 +17,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'O que é "concordância nominal"?',
     tip: 'Pensa em "a menina bonita" versus "a menina bonito" — qual soa correto? Isso tem a ver com a combinação entre substantivo e adjetivo.',
@@ -31,6 +33,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na concordância verbal, o verbo deve concordar com:',
     tip: 'Pensa em quem está "fazendo" a ação do verbo na frase — é com essa parte que o verbo precisa combinar.',
@@ -46,6 +49,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na concordância nominal, os adjetivos e artigos devem concordar com o substantivo em:',
     tip: 'Pensa em "os meninos bonitos" e "as meninas bonitas" — o que muda no adjetivo em cada caso?',
@@ -61,6 +65,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual das frases apresenta concordância verbal correta?',
     tip: 'Pensa em qual frase tem o verbo combinando corretamente com um sujeito no singular ("o menino").',
@@ -76,6 +81,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual das frases apresenta concordância verbal correta com sujeito no plural?',
     tip: 'Pensa em qual frase tem o verbo combinando corretamente com um sujeito no plural ("os meninos").',
@@ -91,6 +97,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual das frases apresenta concordância nominal correta?',
     tip: 'Pensa em qual frase tem todas as palavras (artigo, substantivo e adjetivo) combinando corretamente em gênero e número.',
@@ -106,6 +113,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo apresenta um erro de concordância verbal?',
     tip: 'Pensa em qual frase tem um sujeito no plural ("os alunos") combinado com um verbo no singular ("estudou").',
@@ -121,6 +129,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Qual das frases abaixo apresenta um erro de concordância nominal?',
     tip: 'Pensa em qual frase mistura artigo no plural ("as") com substantivo no singular ("menina").',
@@ -136,6 +145,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Usar a concordância verbal e nominal corretamente é importante porque:',
     tip: 'Pensa em como frases com erros de concordância podem soar estranhas ou confusas para quem está ouvindo ou lendo.',
@@ -151,6 +161,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "Os alunos ___ muito na prova" (verbo "ir bem"), qual é a forma correta do verbo?',
     tip: 'Pensa em como o sujeito "os alunos" está no plural — o verbo também precisa estar no plural.',
@@ -166,6 +177,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "A maioria dos alunos ___ satisfeita com a aula", a concordância pode ser feita no singular ou no plural. Por quê?',
     tip: 'Pensa em como "a maioria" é singular, mas "dos alunos" é plural — a língua portuguesa permite concordar com qualquer um dos dois nesse caso.',
@@ -181,6 +193,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "Eu e você ___ ao cinema" (verbo "ir"), qual é a forma correta do verbo?',
     tip: 'Pensa em como "eu e você" formam um sujeito composto, equivalente a "nós" — que forma do verbo combina com "nós"?',
@@ -196,6 +209,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "Comprei uma blusa ___" (adjetivo "vermelho"), qual é a forma correta do adjetivo?',
     tip: 'Pensa em como "blusa" é uma palavra feminina e singular — o adjetivo precisa concordar com ela.',
@@ -211,6 +225,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "As casas da rua eram ___" (adjetivo "antigo"), qual é a forma correta do adjetivo?',
     tip: 'Pensa em como "casas" está no feminino e no plural — o adjetivo precisa concordar nas duas coisas.',
@@ -226,6 +241,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "Ele mesmo ___ o trabalho" (verbo "fazer"), qual é a forma correta do verbo?',
     tip: 'Pensa em como "ele" é um sujeito no singular e na terceira pessoa — qual forma do verbo "fazer" combina com isso?',
@@ -241,6 +257,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Quando o sujeito é composto por duas ou mais pessoas (como "eu e ela"), o verbo geralmente vai para:',
     tip: 'Lembra da Questão 13 — o que acontece com o verbo quando o sujeito é formado por mais de uma pessoa?',
@@ -256,6 +273,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "Bastante gente ___ na fila" (verbo "esperar"), qual é a forma correta do verbo, considerando que "gente" é singular?',
     tip: 'Pensa em como a palavra "gente", mesmo significando várias pessoas, é gramaticalmente singular.',
@@ -271,6 +289,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na frase "As portas ___ abertas" (verbo "estar" e adjetivo "aberto"), quais são as formas corretas?',
     tip: 'Pensa em como "as portas" está no feminino e no plural — tanto o verbo quanto o adjetivo precisam concordar com isso.',
@@ -286,6 +305,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Erros de concordância verbal e nominal são considerados, na língua portuguesa formal, como:',
     tip: 'Pensa em como um texto formal, como uma redação de vestibular, precisa seguir regras bem definidas de concordância.',
@@ -301,6 +321,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Os alunos estudaram muito para a prova." Isso é um exemplo de concordância verbal:',
     tip: 'Lembra da Questão 8 — o verbo "estudaram" combina corretamente com o sujeito "os alunos", que está no plural?',
@@ -316,6 +337,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo corrigiu a frase "As menina bonita chegaram" para "As meninas bonitas chegaram." Que tipo de correção ele fez?',
     tip: 'Lembra da Questão 9 — que tipo de concordância envolve artigo, substantivo e adjetivo combinando entre si?',
@@ -331,6 +353,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na redação de Bernardo, havia a frase "Eu e meu amigo iremos ao cinema." Por que o verbo está no plural ("iremos")?',
     tip: 'Lembra da Questão 13 e da Questão 17 — o que acontece com o verbo quando o sujeito tem mais de uma pessoa?',
@@ -346,6 +369,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'O professor de Bernardo apontou um erro na frase "Os meninos brinca no parque." Qual seria a correção correta?',
     tip: 'Lembra da Questão 6 — qual é a forma correta do verbo "brincar" para concordar com "os meninos"?',
@@ -361,6 +385,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, na frase "Comprei uma mochila azul", o adjetivo "azul" concorda com o substantivo "mochila" em:',
     tip: 'Lembra da Questão 4 — em que aspectos os adjetivos concordam com os substantivos?',
@@ -376,6 +401,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo notou um erro na frase "As flores bonito desabrocharam" e corrigiu para "As flores bonitas desabrocharam." Que tipo de erro ele corrigiu?',
     tip: 'Lembra da Questão 7 — que tipo de concordância envolve substantivo e adjetivo combinando em gênero e número?',
@@ -391,6 +417,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo entendeu que usar a concordância correta nos textos é importante porque:',
     tip: 'Lembra da Questão 10 e da Questão 20 — qual é o benefício de usar a concordância corretamente?',
@@ -406,6 +433,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo aprendeu que expressões como "a maioria dos alunos" podem ter o verbo concordando tanto no singular quanto no:',
     tip: 'Lembra da Questão 12 — o que acontece com expressões como "a maioria de" na concordância verbal?',
@@ -421,6 +449,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Bernardo revisou toda a sua redação prestando atenção na concordância verbal e nominal. O que ele estava verificando?',
     tip: 'Pensa em tudo que Bernardo aprendeu sobre concordância verbal e nominal nesse simulado.',
@@ -436,6 +465,7 @@ export const questoesPortugues7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Concordância',
     type: 'multiple_choice',
     text: 'Ao final do estudo sobre concordância, Bernardo concluiu que escrever com concordância correta ajuda a:',
     tip: 'Pensa em tudo que Bernardo aprendeu: verbo com sujeito, adjetivo com substantivo — isso deixa o texto mais claro ou mais confuso?',
