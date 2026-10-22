@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'O Brasil é dividido em cinco regiões pelo IBGE. Quais são elas?',
     tip: 'Lembra das cinco regiões do mapa do Brasil — Norte, Sul, Sudeste... quais faltam?',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual é o clima mais extenso no território brasileiro?',
     tip: 'Lembra do bimestre 2 — qual tipo de clima cobrimos mais na primeira questão?',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma é exclusivamente brasileiro — ou seja, não existe em nenhum outro país do mundo?',
     tip: 'Esse bioma fica no sertão nordestino e tem plantas adaptadas à seca!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual é o ponto mais alto do Brasil?',
     tip: 'Ficou no conteúdo do 3º Bimestre — é um pico lá no extremo norte!',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual é o maior rio do Brasil em extensão e volume de água?',
     tip: 'Lembra do bimestre 3 — qual rio dá nome à maior floresta do país?',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O Rio São Francisco é fundamental para o Nordeste. Por qual apelido ele é conhecido?',
     tip: 'Estudamos isso no 3º Bimestre — ele é o "rio da..."?',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'A urbanização no Brasil é muito alta. Qual porcentagem aproximada da população vive em cidades hoje?',
     tip: 'Lembra do que estudamos no 4º Bimestre — mais de 8 em cada 10 brasileiros vivem em cidades!',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima subtropical, presente na Região Sul do Brasil, é caracterizado por:',
     tip: 'Voltamos ao 2º Bimestre — qual era a característica do Sul, que tem as quatro estações bem definidas?',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'O êxodo rural foi um dos principais fatores da urbanização brasileira. O que é êxodo rural?',
     tip: 'Lembra do 4º Bimestre — "êxodo" significa saída; de onde para onde as pessoas iam?',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual é o maior bioma do Brasil em extensão territorial?',
     tip: 'Voltamos ao 2º Bimestre — qual é a maior floresta do mundo?',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo quer revisar o que aprendeu sobre o relevo. Quais são as principais formas de relevo do Brasil?',
     tip: 'Lembra do 3º Bimestre — as formas altas e as formas planas!',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo revisa sobre o Rio São Francisco. Em qual estado ele nasce?',
     tip: 'Lembra da Serra da Canastra — onde fica ela?',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Qual região brasileira tem o maior índice de urbanização e concentra mais da metade do PIB do país?',
     tip: 'Pensa na região com São Paulo, Rio de Janeiro, Minas Gerais e Espírito Santo!',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O que é a "mata ciliar" e por que ela é importante?',
     tip: 'Lembra do 3º Bimestre — aquela vegetação nas margens dos rios que os protege!',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual é a principal característica do clima semiárido do Nordeste?',
     tip: 'Revisa o 2º Bimestre — o clima do sertão nordestino tem uma marca registrada!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'A desigualdade social é um grande desafio das cidades brasileiras. Qual é um reflexo visível dessa desigualdade?',
     tip: 'Pensa no contraste que você vê nas cidades grandes: arranha-céus ao lado de favelas!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'A Serra do Mar é uma feição do relevo importante para o litoral do Sudeste. O que ela é?',
     tip: 'Lembra do 3º Bimestre — aquela formação que "separa" o litoral do interior no Sudeste!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O Cerrado é chamado de "caixa d\'água do Brasil". Por que ele recebe esse apelido?',
     tip: 'Lembra do 2º Bimestre — nascentes dos maiores rios do Brasil ficam onde?',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Economia brasileira',
     type: 'multiple_choice',
     text: 'São Paulo é considerada a maior metrópole do Brasil. Por que ela cresceu tanto?',
     tip: 'Lembra do 4º Bimestre — industrialização, café, imigração!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual bacia hidrográfica é a maior do Brasil (e do mundo)?',
     tip: 'Lembra do 3º Bimestre — qual bacia estudamos como a maior de todas?',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo faz um resumo do ano: "O relevo do Brasil é antigo e desgastado." O que isso quer dizer?',
     tip: 'Voltando ao 3º Bimestre — o que a erosão faz ao longo de milhões de anos com montanhas antigas?',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo revisa sobre biomas e lembra que a Mata Atlântica está bastante destruída. Qual porcentagem aproximada ainda resta de sua cobertura original?',
     tip: 'Lembra do 2º Bimestre — foi uma das primeiras informações que estudamos sobre a Mata Atlântica!',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que o Brasil tem uma grande diversidade climática?',
     tip: 'Revisando o 2º Bimestre — o que faz o clima variar tanto num país tão grande?',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo tem dúvida sobre o Pantanal. Qual é a característica que o torna único no mundo?',
     tip: 'Lembra do 2º Bimestre — o que o Pantanal tem de "maior" no mundo?',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo precisa listar os estados do Nordeste brasileiro para a prova. Qual grupo contém apenas estados nordestinos?',
     tip: 'O Nordeste tem 9 estados — lembra dos que estudamos como parte dessa região?',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Bernardo revisando: a hidrelétrica de Itaipu fica em qual rio?',
     tip: 'Lembra do 3º Bimestre — Itaipu fica no Rio...?',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo revisa: por que Brasília foi construída no interior do país?',
     tip: 'Lembra do 4º Bimestre — qual era o objetivo de levar a capital para o Planalto Central?',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Geografia do Brasil',
     type: 'multiple_choice',
     text: 'Ao revisar o ano inteiro, Bernardo percebe que todos os temas estudados têm algo em comum. Qual é essa conexão?',
     tip: 'Pensa: clima, biomas, relevo, rios, cidades — o que conecta tudo isso?',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Bernardo estuda para a prova final e relembra: qual é a região brasileira com menor densidade demográfica?',
     tip: 'Pensa em qual região tem muita terra e pouca gente — floresta densa que dificulta a ocupação!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Geografia do Brasil',
     type: 'multiple_choice',
     text: 'Para encerrar o simulado de revisão, Bernardo resume tudo que aprendeu no ano: "O Brasil é um país de contrastes — enorme território, grande diversidade de climas, biomas, relevos, rios e populações, com regiões muito desenvolvidas e outras com grandes desafios." Essa afirmação está:',
     tip: 'Pense em tudo que você revisou ao longo deste simulado — é uma boa síntese do Brasil?',

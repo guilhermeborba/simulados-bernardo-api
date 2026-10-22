@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O relevo brasileiro é composto principalmente por quais duas grandes formas de relevo?',
     tip: 'Pensa nas partes mais altas e nas partes mais baixas e planas do mapa do Brasil!',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O ponto mais alto do Brasil é o Pico da Neblina. Em qual estado ele está localizado?',
     tip: 'Pensa no estado mais ao Norte do Brasil, que faz fronteira com a Venezuela!',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'A Serra do Mar é uma importante feição do relevo brasileiro localizada no litoral. Qual é sua principal característica?',
     tip: 'Pensa numa cadeia de serras que acompanha o litoral do Sudeste — quase como uma "muralha" natural!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'As planícies brasileiras são áreas de relevo baixo e plano. Onde está localizada a maior planície do Brasil?',
     tip: 'Pensa no bioma que é a maior planície inundável do mundo — já vimos isso no bimestre passado!',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O que são as "chapadas" no relevo brasileiro?',
     tip: 'Pensa num planalto com o topo bem plano, como se fosse uma mesa gigante!',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O relevo brasileiro é considerado antigo e desgastado. O que isso significa?',
     tip: 'Pensa no que o tempo, a chuva e o vento fazem com as rochas ao longo de milhões de anos!',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'A Depressão Sertaneja está localizada no interior do Nordeste. O que é uma depressão no contexto do relevo?',
     tip: 'Pensa: "depressão" no relevo é o oposto de montanha — uma área mais baixa em relação ao entorno!',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'A erosão é um processo que modifica o relevo. O que é erosão?',
     tip: 'Pensa no que a água da chuva, o vento e os rios fazem com o solo e as rochas ao longo do tempo!',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Os planaltos brasileiros ocupam a maior parte do território nacional. Qual é uma característica dos planaltos?',
     tip: 'Pensa: um planalto é alto, mas diferente de uma montanha — como ele é por cima?',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O deslizamento de terra é um evento comum em áreas de relevo acidentado, especialmente após chuvas fortes. Qual condição aumenta o risco de deslizamentos?',
     tip: 'Pensa: o que acontece quando tira as raízes das plantas que seguram o solo em encostas íngremes?',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'A Planície Amazônica é uma extensa área plana acompanhada pelo Rio Amazonas. Qual é sua principal característica?',
     tip: 'Pensa num terreno muito plano que fica às margens do maior rio do mundo!',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Geologia',
     type: 'multiple_choice',
     text: 'O Planalto das Guianas, ao Norte do Brasil, é parte de um dos escudos cristalinos mais antigos do planeta. O que são escudos cristalinos?',
     tip: 'Pensa em rochas muito, muito antigas — formadas há centenas de milhões de anos!',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'As serras brasileiras são áreas elevadas e acidentadas. Qual é a diferença entre uma serra e um planalto?',
     tip: 'Pensa: um planalto é alto, mas tem topo relativamente plano; a serra tem picos e vales mais acidentados!',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Por que o relevo influencia diretamente onde as pessoas escolhem morar?',
     tip: 'Pensa: é mais fácil construir casas, estradas e plantar em terrenos planos ou em encostas íngremes?',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Geologia',
     type: 'multiple_choice',
     text: 'A região do Quadrilátero Ferrífero, em Minas Gerais, é famosa pelo relevo rico em quê?',
     tip: 'O nome já diz: "ferrífero" vem de ferro — pensa no que se extrai dali!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O relevo de uma região influencia o tipo de clima local. Como o relevo pode modificar o clima?',
     tip: 'Lembra da relação entre altitude e temperatura que estudamos no bimestre anterior!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que cidades localizadas em encostas das serras do Sudeste frequentemente sofrem com deslizamentos?',
     tip: 'Pensa no que estudamos sobre deslizamentos: inclinação + solo exposto + chuva!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Geologia',
     type: 'multiple_choice',
     text: 'As bacias sedimentares brasileiras são importantes para a economia. Por que?',
     tip: 'Pensa em recursos que ficam guardados em camadas de sedimento, muito usados como combustível!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo está estudando o mapa do relevo do Brasil para uma prova. Ele percebe que Brasília fica sobre um planalto. Que vantagem isso trouxe na hora de construir a capital?',
     tip: 'Pensa no que um terreno mais elevado e relativamente plano oferece para a construção de uma cidade moderna!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Em qual estado está localizada a Serra da Mantiqueira, importante feição do relevo do Sudeste?',
     tip: 'A Serra da Mantiqueira fica no encontro de três estados do Sudeste — Minas Gerais, São Paulo e Rio de Janeiro!',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo visita uma fazenda em Goiás e observa um terreno muito plano, com vegetação de Cerrado. Qual tipo de relevo ele está vendo?',
     tip: 'Pensa no tipo de relevo mais comum no Centro-Oeste — alto, mas relativamente plano!',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'No trabalho de Geografia, Bernardo precisa apontar um problema ambiental diretamente ligado ao relevo. Qual ele deve citar?',
     tip: 'Já estudamos um problema grave que acontece em encostas íngremes com solo exposto!',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo lê que o Planalto Nordestino tem altitudes menores que o Planalto Atlântico. O que isso implica em termos de temperatura?',
     tip: 'Lembra: altitude menor = temperatura maior, de forma geral!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo assiste a um documentário sobre os "tepuis" no extremo Norte do Brasil, formações rochosas de topos planos na fronteira com a Venezuela. A que tipo de relevo eles correspondem?',
     tip: 'Pensa nas chapadas, que já estudamos — topos planos e bordas íngremes!',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Geologia',
     type: 'multiple_choice',
     text: 'Bernardo precisa explicar por que o Brasil não tem terremoto frequente. Qual é a explicação correta relacionada ao relevo e à estrutura geológica?',
     tip: 'Terremotos acontecem principalmente nas bordas das placas tectônicas — e o Brasil fica no meio de uma placa!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Na prova, Bernardo tem que associar cada formação a uma região. Qual associação está correta?',
     tip: 'Revise as formas de relevo que estudamos e suas localizações!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo observa no mapa que as grandes cidades do interior do Brasil estão localizadas, em geral, sobre planaltos. Por que isso aconteceu historicamente?',
     tip: 'Pensa nos motivos práticos: defesa, saúde, transportes, agricultura!',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'As falésias são formas de relevo encontradas no litoral Nordestino. O que são falésias?',
     tip: 'Pensa naquelas paredes de rocha colorida que aparecem em fotos de praias do Nordeste!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo precisa escrever sobre a relação entre relevo e agricultura no Brasil. Qual é o ponto principal desta relação?',
     tip: 'Pensa em onde é mais fácil usar máquinas agrícolas e onde é mais difícil!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Para concluir o simulado, Bernardo resume: "O relevo brasileiro é variado, antigo e influencia diretamente o clima, os rios e a ocupação humana." Essa afirmação está:',
     tip: 'Pense em tudo que você estudou sobre as formas de relevo e suas influências!',

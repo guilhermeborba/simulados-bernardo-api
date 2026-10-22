@@ -855,6 +855,34 @@ A quantidade de temas acompanha o conteúdo: B1/AV1, B2/AV1 e B3/AV2 têm dois; 
 
 As formulações anteriores sobre bacia/rede hidrográfica (B2/AV2, IDs 5 e 24; B4/AV2, ID 9), tempo e clima (B3/AV1, ID 29), intemperismo/erosão (B2/AV1, ID 4) e orientação por sombras sem Sol (B1/AV1, ID 18) estão na [issue web #101](https://github.com/guilhermeborba/simulados-bernardo/issues/101), com referências oficiais e critérios para revisão separada. O lote de temas preserva o conteúdo e não declara essas definições cientificamente validadas.
 
+### Geografia — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Biomas | Distribuição, características, fauna, vegetação, diversidade, adaptações e relações entre biomas. |
+| Clima e cotidiano | Tipos, fatores e massas de ar, temperatura, precipitação, altitude, maritimidade e relações com agricultura e escolhas cotidianas. |
+| Economia brasileira | Industrialização, concentração econômica, empregos e fatores históricos da economia regional. |
+| Fontes de energia | Usinas e condições do aproveitamento hidrelétrico dos rios brasileiros. |
+| Formação territorial | Tratados, bandeiras, missões, ocupação colonial, mineração, fronteiras, diplomacia e integração territorial. |
+| Geografia do Brasil | Sínteses das relações entre clima, relevo, hidrografia, biomas, população e ação humana. |
+| Geologia | Escudos cristalinos, bacias sedimentares, recursos minerais e posição tectônica. |
+| Hidrografia | Rios, bacias, nascentes, foz, afluentes, regimes, águas subterrâneas, vazão, usos e relações com as comunidades. |
+| Migração | Êxodo rural e urbano, deslocamentos internos, origens, destinos e motivos das mudanças. |
+| Organização das cidades | Metrópoles, hierarquia, conurbação, planejamento, moradia, desigualdade e problemas sociais e ambientais urbanos. |
+| População brasileira | Densidade, quantidade e distribuição da população, urbanização e concentração no território. |
+| Preservação ambiental | Conservação dos biomas e rios, biodiversidade, desmatamento, queimadas, assoreamento, matas ciliares e riscos em encostas. |
+| Regiões do Brasil | Divisão regional, instituições responsáveis, localização, estados, características, contrastes internos e planejamento regional. |
+| Relevo | Formas, unidades, localização, processos e relações do terreno com agricultura, ocupação e construções. |
+| Saneamento e infraestrutura | Abastecimento, esgoto, resíduos e relações com saúde, qualidade de vida e ambiente urbano. |
+| Tempo histórico | Ordenação dos eventos abordados na formação territorial. |
+| Transportes e circulação | Rios como caminhos de deslocamento e ocupação e transporte público no espaço urbano. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-geografia-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 17 nomes, com reaproveitamento dos anos anteriores quando o conteúdo corresponde. Classificação individual, sem inferência automática por palavras-chave.
+
+**Regiões do Brasil** agrupa a divisão regional e suas características, sem antecipar o nome de uma região, estado, clima ou bioma solicitado. O simulado B1/AV2 mantém esse único tema por concentrar a comparação regional; B2/AV1 mantém **Clima e cotidiano**. Não se criam subdivisões artificiais para atingir a recomendação de três temas. **Biomas**, **Relevo** e **Hidrografia** mantêm em aberto a identificação de biomas, formas do terreno, rios e bacias. **Formação territorial** não antecipa um tratado, sistema ou instrumento diplomático específico. **Organização das cidades** permite reconhecer planejamento, conurbação, hierarquia e ilhas de calor sem usar a resposta como rótulo. **Migração** reúne o reconhecimento e as causas dos diferentes deslocamentos, sem fornecer êxodo rural ou urbano como tema. **Preservação ambiental** cobre danos, proteção e prevenção; a identificação de usinas mantém **Fontes de energia**.
+
+Distribuição: B1/AV1 tem três temas; B1/AV2 e B2/AV1, um cada; B2/AV2, três; B3/AV1 e B3/AV2, quatro cada; B4/AV1, oito; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo gabaritos. A leitura encontrou divergências de letras e formulações conceituais, documentadas com um roteiro manual de revisão na [issue web #117](https://github.com/guilhermeborba/simulados-bernardo/issues/117). Preencher `theme` não corrige nem certifica esses conteúdos.
+
 ### Arte — 6º ano
 
 | Tema | Abrange |

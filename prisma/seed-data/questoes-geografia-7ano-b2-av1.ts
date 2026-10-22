@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O Brasil está localizado principalmente entre quais zonas climáticas, por causa de sua extensão territorial?',
     tip: 'Pensa no mapa-múndi: o Brasil fica bem no "meio" dele, cortado pela linha do Equador e pelo Trópico de Capricórnio!',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual é o clima predominante na maior parte do território brasileiro?',
     tip: 'Lembra da posição do Brasil no mapa. O nome do clima tem a ver com essa faixa!',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima equatorial, presente na região Norte do Brasil, é caracterizado por:',
     tip: 'Pensa na floresta Amazônica: ela é verdinha e cheia de água o ano inteiro. Isso dá uma pista do clima por lá!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima semiárido, encontrado no interior do Nordeste, tem como principal característica:',
     tip: 'Pensa no sertão nordestino, com aquela terra rachada que a gente vê em fotos. O que falta ali?',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual fator influencia diretamente o clima de uma região?',
     tip: 'Pensa: o que realmente muda a temperatura e a chuva de um lugar — o nome dele ou coisas da natureza?',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima tropical de altitude, comum em áreas como a Serra da Mantiqueira, se diferencia por causa:',
     tip: 'Lembra da relação entre altitude e temperatura: subindo a montanha, a temperatura cai!',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima subtropical, presente na região Sul do Brasil, é conhecido por:',
     tip: 'Pensa no Sul do Brasil: lá dá pra ver árvores perdendo folhas no outono e até geada no inverno. Isso lembra qual tipo de clima?',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'As massas de ar são grandes volumes de ar que influenciam o clima. Qual delas traz frio intenso para o Sul do Brasil?',
     tip: 'O nome da massa tem a ver com um lugar bem geladinho do planeta. Qual seria?',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O que é "estação chuvosa"?',
     tip: '"Estação" aqui não é lugar — pensa nas estações do ano, como verão e inverno!',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que o Brasil, sendo um país tão grande, tem climas tão diferentes de uma região para outra?',
     tip: 'Pensa em tudo que você aprendeu até aqui: latitude, altitude, massas de ar... tudo isso varia MUITO num país gigante!',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Imagine duas cidades: uma no litoral do Nordeste e outra no interior do Sul, no inverno. Qual provavelmente estará mais fria?',
     tip: 'Pensa em qual dessas regiões recebe a massa de ar fria polar que estudamos!',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Se uma região recebe a Massa Equatorial Continental, que vem da Amazônia carregada de umidade, o que é mais provável acontecer?',
     tip: 'O nome dessa massa já entrega: ela nasce numa floresta conhecida por ser super chuvosa!',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que o sertão nordestino sofre tanto com a seca, mesmo estando perto do oceano em alguns trechos?',
     tip: 'Às vezes, mesmo perto do mar, montanhas ou ventos podem "bloquear" a chuva de chegar mais longe!',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Uma pessoa está planejando uma viagem para a Serra Gaúcha no inverno. O que ela deve levar na mala, considerando o clima subtropical da região?',
     tip: 'Lembra que a Serra Gaúcha fica numa região onde já estudamos que pode até nevar?',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Se a altitude de uma cidade aumenta bastante, mesmo estando na faixa tropical, o que normalmente acontece com a temperatura?',
     tip: 'Lembra da regra: quanto mais alto, mais frio!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual região brasileira tem maior influência do clima equatorial, com calor e umidade constantes?',
     tip: 'Pensa onde fica a maior floresta tropical do Brasil!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que entender o clima de uma região é importante para a agricultura?',
     tip: 'Dá pra plantar a mesma coisa num deserto e numa floresta chuvosa?',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Comparando o clima do litoral paulista com o clima do sertão nordestino, qual a principal diferença?',
     tip: 'Pensa em tudo que já vimos sobre o clima semiárido do sertão!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'As geadas, comuns no Sul do Brasil, acontecem por causa de qual fenômeno climático?',
     tip: 'Lembra qual massa de ar estudamos que traz frio intenso para o Sul!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Se dois lugares estão na mesma latitude, mas um fica no litoral e outro no interior, por que eles podem ter climas diferentes?',
     tip: 'Pensa no mar como um "regulador" de temperatura — ele deixa o clima mais estável por perto!',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo está estudando o mapa climático do Brasil para a prova e percebe que mora numa região de clima tropical. Qual característica ele deve esperar encontrar na maior parte do ano?',
     tip: 'Lembra da questão sobre o clima mais comum do Brasil!',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo vai passar as férias de julho na casa do avô, em uma cidade da Serra Catarinense. Ele pergunta à mãe se deve levar casaco. O que ela provavelmente responde, pensando no clima subtropical?',
     tip: 'Julho é inverno no Brasil — e a Serra Catarinense é famosa por ser uma das áreas mais frias do país!',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Na aula de Geografia, a professora pede que Bernardo explique por que, no mesmo dia, pode estar chovendo muito na Amazônia e estar seco no sertão nordestino. O que ele deve responder?',
     tip: 'Pensa em tudo que aprendemos sobre os diferentes tipos de clima do Brasil!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo lê uma notícia sobre uma seca prolongada afetando plantações no interior do Nordeste. Qual tipo de clima da região explica esse problema?',
     tip: 'Pensa no tipo de clima ligado ao sertão nordestino!',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Durante um projeto escolar, Bernardo precisa explicar por que São Paulo tem um clima um pouco diferente das cidades litorâneas da mesma região. Qual é a explicação correta?',
     tip: 'Lembra da regra da altitude que vimos no início deste simulado!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo observa no noticiário que uma "massa polar" está chegando ao Sul do país. O que ele deve esperar que aconteça com a temperatura?',
     tip: 'Pensa de onde vem essa massa de ar e o que o nome "polar" sugere!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Na prova, Bernardo precisa montar um quadro comparando os climas das regiões brasileiras. Qual associação está correta?',
     tip: 'Elimine as opções que você já sabe que estão erradas — qual região realmente tem as quatro estações marcadas?',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo quer entender por que, mesmo o Brasil sendo um país tropical, existe neve em algumas cidades serranas do Sul. Qual é a explicação mais correta?',
     tip: 'Junte as duas dicas que você já aprendeu: altitude + massa de ar polar!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo decide plantar um pequeno jardim em casa e pergunta ao pai qual época é melhor para regar menos as plantas, pensando no clima tropical com estações seca e chuvosa. A resposta correta é:',
     tip: 'Se está chovendo bastante, as plantas já estão recebendo água de onde?',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Para fechar seu estudo sobre climas, Bernardo resume: "O clima do Brasil é muito variado porque o país é enorme e recebe influências diferentes." Isso está:',
     tip: 'Pense em tudo que você revisou neste simulado — latitude, altitude, massas de ar, tamanho do território!',

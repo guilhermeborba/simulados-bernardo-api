@@ -555,6 +555,15 @@ Validação editorial: `npm run seed:dry-run` e inventário JSON aprovados; tema
 As formulações anteriores sobre bacia/rede hidrográfica, tempo e clima, intemperismo/erosão e orientação por sombras sem Sol estão na [issue web #101](https://github.com/guilhermeborba/simulados-bernardo/issues/101), com referências oficiais e critérios de revisão. Os campos anteriores foram preservados no lote; a classificação temática não equivale à validação científica dessas formulações. Quizzes (#90) continuam adiados conforme orientação do responsável. Não houve alteração de contrato, seed em banco existente, deploy ou operação em produção.
 
 
+### Geografia do 7º ano — E04 (22/10/2026)
+
+Lote de oito simulados gerais/240 questões, classificado individualmente com vocabulário fechado de 17 temas em `docs/temas-editoriais.md`. Somente `theme` foi acrescentado; fontes sem essas linhas e dados por export idênticos à main. Regiões do Brasil, Clima e cotidiano, Biomas, Relevo e Hidrografia não antecipam o nome pedido. B1/AV2 e B2/AV1 mantêm um tema por concentrarem o conteúdo; B4/AV2 revisa treze. Divergências de gabaritos e conceitos anteriores registradas na [issue web #117](https://github.com/guilhermeborba/simulados-bernardo/issues/117), com roteiro inicial de 70 letras a revisar e observações sobre comandos, sem modificar os campos anteriores. Cobertura temática não certifica correção dos gabaritos.
+
+Este é um dos três lotes independentes autorizados no pacote História, Geografia e Arte/7º ano. Base integrada: api#250 (Ciências/7º ano), 6.989/23.444 questões com tema, 233/780 simulados completos. Este lote acrescenta 240 questões e oito simulados completos; após integrar os três, a expectativa conjunta é 7.709/23.444 e 257/780, com 1.440/1.920 questões do 7º ano em 48/64 simulados. E04 segue parcial; depois restam Educação Física e Inglês/7º ano e demais anos/públicos.
+
+Validação do lote: `npm run seed:dry-run`, inventário JSON, vocabulário, ausência de resposta literal, preservação byte a byte das fontes e comparação dos dados por export aprovados. Demais entradas, cobertura e metadados preservados; testes completos registrados no PR. Quizzes #90 continuam adiados. Sem mudança de contrato ou operação em produção.
+
+
 ### Arte do 6º ano — E04 (21/10/2026)
 
 Geografia do 6º ano foi integrada em api#244, com registro em web#102. Este lote acrescenta 240 temas em oito simulados gerais de Arte do 6º ano (`questoes-arte-6ano-b*-av*.ts`), sem entradas privadas adicionais. É o primeiro lote de Arte da E04; o vocabulário fechado de 19 nomes e os critérios estão em `docs/temas-editoriais.md`. Cultura e identidade, Expressões artísticas, Patrimônio e preservação e Registros do passado reaproveitam nomes de História para conteúdos correspondentes. Apenas `theme` foi acrescentado: enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.
