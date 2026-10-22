@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'A água presente no ar, em forma de vapor (gás), é chamada de:',
     tip: 'Pense na água que fica "invisível" no ar, misturada aos outros gases da atmosfera.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'O processo em que a água líquida se transforma em vapor de água é chamado de:',
     tip: 'Pense em uma poça de água no sol, desaparecendo aos poucos — para onde ela vai?',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'O processo em que o vapor de água se transforma em gotículas líquidas, formando nuvens, é chamado de:',
     tip: 'É o processo oposto da evaporação — o vapor "volta" a ser água líquida.',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'As nuvens são formadas por:',
     tip: 'Pense no que acontece quando o vapor de água esfria lá no alto do céu.',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Quando as gotículas de água das nuvens ficam grandes e pesadas demais, elas caem na forma de:',
     tip: 'Pense no que acontece quando você não consegue mais segurar algo pesado — ele cai!',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Em dias muito frios, a chuva pode se transformar em pequenos cristais de gelo, formando a:',
     tip: 'Pense no fenômeno típico de países muito frios, onde tudo fica branco no inverno.',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Pedras de gelo que caem durante tempestades fortes são chamadas de:',
     tip: 'Diferente da neve (flocos leves), esse fenômeno forma pedrinhas de gelo mais duras.',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'As pequenas gotas de água que se formam sobre as folhas e gramados de manhã cedo, por causa da condensação durante a noite, são chamadas de:',
     tip: 'Esse fenômeno acontece sem chover — é só o vapor do ar condensando na superfície fria das plantas.',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'O conjunto de fenômenos atmosféricos (chuva, vento, temperatura) que ocorre em um determinado lugar, em um curto período de tempo, é chamado de:',
     tip: 'Pense na previsão que você vê na TV todo dia — ela fala sobre hoje ou amanhã, não sobre anos inteiros.',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'O padrão de temperatura, chuva e vento de uma região, observado ao longo de muitos anos, é chamado de:',
     tip: 'Pense em uma característica mais "permanente" de um lugar, como dizer que a Amazônia é uma região quente e chuvosa.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O ciclo da água é o processo contínuo de movimentação da água entre a atmosfera, a superfície terrestre e os oceanos. Qual é a primeira etapa desse ciclo, em que a água dos rios, lagos e mares vira vapor?',
     tip: 'É o mesmo processo que você estudou na segunda questão desse simulado!',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Depois da evaporação, o vapor de água sobe e esfria, formando as nuvens. Essa etapa é chamada de:',
     tip: 'É a mesma etapa que forma as nuvens, estudada no começo desse simulado.',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Quando a água cai das nuvens em forma de chuva, neve ou granizo, essa etapa do ciclo da água é chamada de:',
     tip: 'Pense na "queda" da água das nuvens — essa é a etapa final visível do ciclo.',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Além da evaporação da água de rios e mares, as plantas também liberam vapor de água para o ar através de um processo chamado:',
     tip: 'É parecido com o suor dos animais, mas feito pelas plantas através das folhas!',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O calor do Sol é a principal fonte de energia que impulsiona o ciclo da água porque ele:',
     tip: 'Pense na primeira etapa do ciclo da água — o que o calor do Sol provoca na água dos rios e mares?',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Em uma região de clima tropical úmido, como grande parte do Brasil, é comum observar:',
     tip: 'Pense no clima da maior parte do território brasileiro — é um clima quente, com bastante chuva em certas épocas.',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'A umidade relativa do ar indica:',
     tip: 'Pense em uma porcentagem — como se fosse "quão cheio" de vapor de água o ar está, perto do seu limite.',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Em dias de baixa umidade do ar, é comum sentirmos:',
     tip: 'Pense em como fica seu corpo e a natureza ao redor quando o ar está "seco", sem quase nenhuma umidade.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'As nuvens muito escuras e carregadas, que costumam anunciar chuva forte e trovoadas, são chamadas de:',
     tip: 'Esse é um dos tipos de nuvem mais estudados em ciências, famoso por formar tempestades.',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Quando a temperatura do ar está muito baixa, a água que cai das nuvens pode congelar e virar:',
     tip: 'Pense no fenômeno que cobre o chão de branco em países muito frios durante o inverno.',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo observou que, num dia quente, a poça de água no quintal foi diminuindo até sumir. Isso aconteceu por causa da:',
     tip: 'A água da poça não "sumiu" de verdade — ela virou vapor e foi para o ar!',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que o copo com suco gelado ficou "suado" por fora, com gotinhas de água. Isso acontece porque o vapor de água do ar perto do copo esfriou e virou líquido, num processo chamado de:',
     tip: 'É o mesmo processo que forma as nuvens, só que acontecendo na lateral de um copo gelado!',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Bernardo viu no telejornal que vai chover bastante no fim de semana. Essa previsão fala sobre o ______ daquele dia específico, e não sobre o clima da região em geral.',
     tip: 'Previsões do telejornal são sempre sobre um dia ou período curto específico.',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Bernardo e sua família ficaram presos em casa durante uma tempestade com pedras de gelo caindo do céu. Esse fenômeno é chamado de:',
     tip: 'Lembre da diferença: neve são flocos leves, mas esse fenômeno forma pedrinhas de gelo duras.',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu na escola que a água do mar evapora, forma nuvens, cai como chuva, e volta para os rios e mares. Esse processo contínuo é chamado de:',
     tip: 'É o nome do processo completo que você estudou neste simulado, com todas as suas etapas.',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Bernardo notou que, pela manhã, a grama do jardim estava molhada mesmo sem ter chovido durante a noite. Isso aconteceu por causa do:',
     tip: 'Esse fenômeno acontece quando o vapor de água do ar condensa diretamente nas superfícies frias, sem precisar chover.',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Bernardo mediu a umidade do ar com um instrumento na aula de ciências e descobriu que, naquele dia, o ar estava bem seco. Isso significa que havia ______ vapor de água no ar.',
     tip: '"Ar seco" é justamente o contrário de "ar úmido" — pense na quantidade de vapor de água presente.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'Bernardo viu no céu uma nuvem bem escura e carregada, e logo depois começou uma forte tempestade com trovões. Esse tipo de nuvem é chamada de:',
     tip: 'É o mesmo tipo de nuvem que você estudou antes, famosa por formar tempestades fortes.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que o calor do Sol é essencial para o ciclo da água porque é ele que faz a água dos rios e oceanos:',
     tip: 'Pense na primeira etapa do ciclo da água, que você já revisou várias vezes nesse simulado.',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'No fim da aula, Bernardo resumiu para a mãe: as nuvens se formam quando o vapor de água esfria e vira gotículas (condensação); quando essas gotículas ficam pesadas, caem na forma de:',
     tip: 'É a última etapa do ciclo da água — quando a água finalmente "volta" para a superfície da Terra.',

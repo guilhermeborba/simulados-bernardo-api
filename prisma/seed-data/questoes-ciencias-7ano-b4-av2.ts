@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Planeta Terra',
     type: 'multiple_choice',
     text: 'Qual das seguintes sequências representa corretamente as camadas internas da Terra, da mais externa para a mais interna?',
     tip: 'Pense: você pisa na crosta, depois tem o manto, depois o núcleo.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Planeta Terra',
     type: 'multiple_choice',
     text: 'A camada gasosa que envolve a Terra, protege a vida contra radiações e contém o ar que respiramos, é chamada de:',
     tip: 'Atmo vem do grego e significa "vapor" ou "ar".',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O nitrogênio é o gás mais abundante na atmosfera terrestre. Qual é a sua proporção aproximada?',
     tip: 'O oxigênio é o segundo mais abundante, com cerca de 21%.',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'O gás indispensável para a respiração celular dos seres vivos aeróbicos, liberado pelas plantas na fotossíntese, é:',
     tip: 'Sem ele, organismos aeróbicos não sobrevivem por minutos.',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'A camada de ozônio localiza-se na estratosfera e tem a função fundamental de:',
     tip: 'Sem a camada de ozônio, seria impossível a vida na superfície terrestre.',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O efeito estufa é um fenômeno:',
     tip: 'O efeito estufa em si não é o problema — é a sua intensificação.',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O principal gás responsável pelo intensificamento do efeito estufa pelas atividades humanas (queima de combustíveis fósseis, desmatamento) é o:',
     tip: 'É o mesmo gás que exalamos ao respirar — mas em quantidade controlada pela natureza.',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'A hidrosfera corresponde a:',
     tip: 'Hidro = água. Abrange toda a água do planeta.',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O ciclo da água (ciclo hidrológico) é impulsionado principalmente pela:',
     tip: 'Qual é a fonte de energia que faz a água evaporar?',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O processo pelo qual as rochas são desgastadas e decompostas ao longo do tempo por agentes físicos, químicos e biológicos, dando origem ao solo, é chamado de:',
     tip: 'É o ponto de partida para a formação do solo.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A camada mais superficial e fértil do perfil do solo, rica em matéria orgânica e vida, é denominada:',
     tip: 'É a camada de cima, onde as raízes vivem.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O bioma brasileiro que ocupa a maior extensão territorial, cobrindo mais de 49% do território nacional, é a:',
     tip: 'É o maior bioma do Brasil e também o maior do mundo.',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'A relação entre plantas leguminosas (feijão, soja, ervilha) e as bactérias fixadoras de nitrogênio que vivem em nódulos nas suas raízes é um exemplo de:',
     tip: 'As bactérias ganham abrigo e alimento; as plantas ganham nitrogênio fixado.',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Na cadeia alimentar: Capim → Gafanhoto → Sapo → Cobra → Gavião, qual é o nível trófico do sapo?',
     tip: 'Conta quem o sapo come: come o gafanhoto, que come o capim (produtor).',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A poluição atmosférica causada pela queima de combustíveis fósseis em indústrias, usinas e veículos produz principalmente:',
     tip: 'Queima de combustíveis libera múltiplos poluentes no ar.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'A biodiversidade pode ser medida de várias formas. A medida mais comum é:',
     tip: 'A forma mais básica de medir é contar as espécies.',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'A formação de chuvas depende diretamente do processo de:',
     tip: 'De onde vem a água que forma as nuvens e cai como chuva?',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Uma espécie é considerada ameaçada de extinção quando:',
     tip: 'Ameaçada = em risco de desaparecer para sempre.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'O desmatamento afeta o ciclo da água porque:',
     tip: 'Florestas "bombam" vapor para a atmosfera — o que acontece sem elas?',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A Mata Atlântica, um dos biomas mais ameaçados do Brasil e do mundo, já perdeu aproximadamente:',
     tip: 'É o bioma onde a maioria dos brasileiros vive — e o mais destruído.',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O intensificamento do efeito estufa pelas atividades humanas está causando principalmente:',
     tip: 'Mais gases de efeito estufa = mais calor retido.',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Num ecossistema aquático, o fitoplâncton (algas microscópicas) desempenha o papel de:',
     tip: 'Fitoplâncton faz fotossíntese — qual é seu papel na cadeia?',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A presença de metais pesados (mercúrio, chumbo, cádmio) em rios e solos é problemática principalmente porque:',
     tip: 'Pense em o que acontece com esses metais ao longo da cadeia alimentar.',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'A zonação ecológica (diferentes espécies em diferentes altitudes ou profundidades) é determinada principalmente por:',
     tip: 'O que muda com a altitude ou profundidade? Temperatura, luz, pressão...',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'O conceito de "capacidade suporte" (ou capacidade de carga) de um ecossistema representa:',
     tip: 'É o "limite" que o ambiente pode sustentar.',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A chuva ácida prejudica os ecossistemas terrestres e aquáticos porque:',
     tip: 'Ácido + solo e água = quais consequências?',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'O conceito de "pegada ecológica" mede:',
     tip: 'É a "marca" que nosso consumo deixa no planeta.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'Para se alimentar e produzir energia, as plantas utilizam a energia do sol no processo de:',
     tip: 'É o processo mais importante da biosfera.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'A relação entre o peixe-palhaço e a anêmona-do-mar, em que o peixe vive protegido nos tentáculos venenosos da anêmona e ajuda a atrair presas para ela, é um exemplo de:',
     tip: 'Pense em Nemo — quem ganha nessa relação?',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'A sustentabilidade ambiental pressupõe que a humanidade:',
     tip: 'Sustentável = que pode ser mantido a longo prazo.',

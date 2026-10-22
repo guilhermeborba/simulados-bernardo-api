@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'Os fatores físicos e químicos do ambiente que não têm vida, como a luz solar, a temperatura, a água, o solo e o ar, são chamados de fatores:',
     tip: 'A = ausência de vida. Pense: "a" + biótico.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'O conjunto de todos os seres vivos (plantas, animais, fungos, bactérias) que habitam um determinado ambiente são chamados de fatores:',
     tip: 'Bio = vida. Todos os seres vivos são fatores...',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Os organismos que produzem seu próprio alimento por meio da fotossíntese, transformando energia solar em matéria orgânica, são chamados de:',
     tip: 'Eles são a base de toda cadeia alimentar.',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Os fungos e as bactérias são os principais exemplos de organismos que atuam como:',
     tip: 'Eles "desmontam" a matéria orgânica morta.',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'A cadeia alimentar sempre começa com um(a):',
     tip: 'Quem capta a energia do sol e coloca na cadeia?',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'A teia alimentar difere da cadeia alimentar porque:',
     tip: 'Uma teia tem muitas conexões; uma cadeia é linear.',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'Na relação ecológica de mutualismo, o que ocorre entre os dois organismos envolvidos?',
     tip: 'Mútuo = dos dois lados. Quem ganha?',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'O parasitismo é uma relação ecológica em que:',
     tip: 'Pense em carrapatos ou pulgões — quem ganha, quem perde?',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'O predatismo é uma relação ecológica em que:',
     tip: 'Pense em leão e zebra — quem é o predador?',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'O comensalismo é uma relação ecológica em que:',
     tip: 'Comensal = "que come à mesma mesa". Um come, o outro não é afetado.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'A biodiversidade é fundamental para os ecossistemas porque:',
     tip: 'Mais espécies = mais equilíbrio e mais recursos.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'As espécies exóticas invasoras são aquelas que:',
     tip: 'Exótica = de fora. O problema está em o que fazem quando chegam.',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'O nicho ecológico de uma espécie é:',
     tip: 'Nicho não é apenas "onde mora" — é "como vive".',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Os consumidores primários são organismos que se alimentam diretamente de:',
     tip: 'Primário = primeiro nível de consumo. O que comem primeiro?',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'O fluxo de energia em uma cadeia alimentar é:',
     tip: 'Energia vai numa direção só — do sol para os organismos.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'A extinção de uma espécie-chave (keystone species) num ecossistema pode:',
     tip: 'Espécie-chave é como a pedra central de um arco — se remove, tudo cai.',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'Os produtores (vegetais e algas) realizam a fotossíntese, utilizando para isso:',
     tip: 'Quais ingredientes entram na fórmula da fotossíntese?',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'Uma região com maior diversidade de habitats (florestas, rios, praias, montanhas, campos) tende a apresentar:',
     tip: 'Mais tipos de ambiente = mais tipos de espécies.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'A relação entre a abelha e a flor, em que a abelha coleta néctar para se alimentar e polina a flor ao mesmo tempo, é um exemplo de:',
     tip: 'Quem ganha nessa relação? Ambos?',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O desmatamento afeta a biodiversidade principalmente porque:',
     tip: 'Sem habitat, as espécies não conseguem sobreviver.',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'O amensalismo é uma relação ecológica em que:',
     tip: 'Um é prejudicado, o outro... não é afetado.',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'A relação entre pulgões e formigas, em que as formigas "pastoreiam" os pulgões e os protegem de predadores para obter o líquido açucarado que eles secretam, é um exemplo de:',
     tip: 'Ambos ganham — formigas têm comida, pulgões têm proteção.',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A introdução do mexilhão-dourado (espécie asiática) nos rios brasileiros como espécie exótica invasora causou:',
     tip: 'Espécies invasoras sem predadores naturais se multiplicam sem controle.',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Os consumidores secundários são organismos que se alimentam de:',
     tip: 'Secundário = segundo nível. Quem vem depois dos herbívoros?',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'O conceito de cadeia alimentar representa:',
     tip: 'Pense em uma sequência de "quem come quem".',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'O sol é a fonte primária de energia para quase todos os ecossistemas terrestres porque:',
     tip: 'Quem capta a energia solar e a coloca na cadeia?',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Relações ecológicas',
     type: 'multiple_choice',
     text: 'A relação entre o carrapato e o cão, em que o carrapato se alimenta do sangue do cão e causa coceira e doenças, é um exemplo de:',
     tip: 'Um se beneficia, o outro é prejudicado.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A extinção em massa de espécies pode ser acelerada por atividades humanas como:',
     tip: 'Múltiplas ameaças humanas afetam a biodiversidade.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Ecossistemas',
     type: 'multiple_choice',
     text: 'O conceito de "serviços ecossistêmicos" refere-se a:',
     tip: 'A natureza nos presta serviços gratuitos e essenciais.',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Cadeias alimentares',
     type: 'multiple_choice',
     text: 'Uma teia alimentar mais complexa e com maior diversidade de espécies é geralmente mais estável porque:',
     tip: 'Mais conexões na teia = mais caminhos alternativos.',

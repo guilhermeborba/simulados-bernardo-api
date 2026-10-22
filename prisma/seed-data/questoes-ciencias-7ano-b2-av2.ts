@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A Estação de Tratamento de Água (ETA) é responsável por:',
     tip: 'ETA = onde a água bruta se transforma em água potável.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A primeira etapa do tratamento de água nas ETAs, em que produtos químicos (como sulfato de alumínio) são adicionados para agrupar as impurezas em flocos, é chamada de:',
     tip: 'O nome vem de "floco" — as impurezas se juntam formando flocos.',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Na decantação, o que acontece com os flocos de impurezas formados na etapa anterior?',
     tip: 'O que acontece com objetos pesados dentro de um recipiente com água parada?',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A filtração da água, realizada após a decantação, tem como objetivo principal:',
     tip: 'A filtração "peneira" o que sobrou após a decantação.',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A adição de cloro à água tratada (cloração) tem como objetivo principal:',
     tip: 'Cloro é usado em piscinas justamente para essa finalidade.',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O esgoto doméstico não tratado lançado diretamente em rios e lagos causa principalmente:',
     tip: 'Pense nos microrganismos e substâncias que o esgoto contém.',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A fluoretação da água é uma medida de saúde pública adotada no Brasil desde 1974. Qual é seu objetivo?',
     tip: 'O flúor é o componente ativo de muitos cremes dentais.',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Doenças como cólera, febre tifoide e hepatite A têm em comum o fato de serem transmitidas principalmente por:',
     tip: 'Essas doenças são mais comuns em locais sem saneamento básico.',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O saneamento básico, que é um direito garantido pela Constituição Brasileira, inclui:',
     tip: 'Saneamento é mais do que só ter água encanada.',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Qual das seguintes práticas é uma forma inteligente de reduzir o desperdício de água em casa?',
     tip: 'Pense em reutilizar a água que já foi usada para uma função.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A eutrofização é um processo de poluição da água causado pelo excesso de nutrientes (nitrogênio e fósforo) que provoca:',
     tip: 'Nutrientes em excesso "fertilizam" a água — com consequências negativas.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Propriedades dos materiais',
     type: 'multiple_choice',
     text: 'A turbidez da água está relacionada à:',
     tip: 'Água turva é aquela que não está transparente — o que pode causar isso?',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O chorume, líquido tóxico escuro que escorre de aterros sanitários e lixões, pode contaminar:',
     tip: 'O chorume é muito líquido e pode se infiltrar no solo.',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A água de qualidade para consumo humano deve, entre outras características, ser:',
     tip: 'Água potável vai além de apenas ser transparente.',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Uma das principais formas de poluição dos rios e lagos urbanos é:',
     tip: 'O problema começa nas casas e vai parar nos rios.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O tratamento de esgoto em Estações de Tratamento de Esgoto (ETEs) visa principalmente:',
     tip: 'O esgoto tratado deve poder voltar ao ambiente com segurança.',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O derramamento de petróleo nos oceanos afeta gravemente os seres vivos marinhos porque:',
     tip: 'Pense na camada que o óleo forma sobre a água.',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A chuva ácida é causada principalmente pela dissolução na água da chuva de:',
     tip: 'Vem de emissões de fábricas e veículos.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Em regiões sem saneamento básico adequado, qual é a doença mais diretamente relacionada à água contaminada com esgoto?',
     tip: 'É a causa número 1 de mortalidade infantil em países em desenvolvimento.',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'A reutilização de águas cinzas (água de pias, chuveiros e máquinas de lavar) é indicada para:',
     tip: 'Águas cinzas são mais limpas que o esgoto, mas não são potáveis.',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O desmatamento das margens dos rios (destruição da mata ciliar) afeta diretamente a qualidade da água porque:',
     tip: 'As raízes das plantas seguram o solo — o que acontece sem elas?',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Qual é a importância da mata ciliar para os recursos hídricos?',
     tip: 'Ciliar vem de "cílio" — imagine as franjas de folhas sobre o rio.',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'O conceito de "água virtual" refere-se a:',
     tip: 'Toda produção de alimentos e produtos industriais consome água.',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O Sistema de Abastecimento de Água (SAA) engloba o conjunto de obras e instalações com a finalidade de:',
     tip: 'SAA é o sistema que garante água nas torneiras das residências.',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O uso excessivo de agrotóxicos na agricultura pode contaminar:',
     tip: 'Os agrotóxicos não ficam só nas plantas — eles se espalham pelo ambiente.',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'A fervura da água é um método eficaz caseiro para:',
     tip: 'O calor destrói microrganismos, mas não elimina substâncias químicas.',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'Qual das alternativas descreve corretamente uma ação de coleta seletiva que indiretamente protege os recursos hídricos?',
     tip: 'Lixo mal descartado pode ir parar nos rios.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Temperatura e calor',
     type: 'multiple_choice',
     text: 'A temperatura da água em rios e lagos influencia diretamente:',
     tip: 'Água quente tem menos oxigênio dissolvido — pense nas consequências.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O indicador mais simples e eficaz para verificar se uma fonte de água está contaminada com esgoto é a presença de:',
     tip: 'Esse indicador mostra a presença de contaminação fecal.',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'A Política Nacional de Recursos Hídricos (Lei 9.433/97, chamada "Lei das Águas") estabelece que a água é:',
     tip: 'Essa lei definiu as bases da gestão da água no Brasil.',
