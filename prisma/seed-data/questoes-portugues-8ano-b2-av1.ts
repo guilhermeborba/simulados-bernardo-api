@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que é \"variação linguística\"?",
     tip: "Pense em como seus avós, seus pais e você podem usar palavras diferentes para falar a mesma língua portuguesa. Isso tem a ver com o quê?",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que é a \"norma padrão\" da língua portuguesa?",
     tip: "Pense na forma de falar e escrever que você aprende nas aulas de português, usada em documentos, provas e situações mais formais.",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que são \"gírias\"?",
     tip: "Pense em palavras que você e seus amigos usam no dia a dia, mas que talvez seus avós não entendam tão facilmente.",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que são \"regionalismos\"?",
     tip: "Pense em como uma mesma fruta ou comida pode ter nomes diferentes dependendo da região do Brasil onde você está.",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Qual é a diferença entre \"linguagem formal\" e \"linguagem informal\"?",
     tip: "Pense em como você fala com seus amigos de um jeito, e como fala com um professor ou em uma entrevista de outro jeito.",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que é um \"dialeto\"?",
     tip: "Pense em como a língua portuguesa pode ter \"sotaques\" e jeitos de falar diferentes dependendo de onde a pessoa vive.",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que é um \"jargão\"?",
     tip: "Pense em palavras técnicas que médicos, advogados ou programadores usam entre si, que às vezes são difíceis de entender para quem não é da área.",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Por que é importante entender que não existe \"jeito errado\" de falar, mas sim diferentes variações da língua?",
     tip: "Pense em como julgar o jeito de falar de alguém pode ser uma forma de preconceito, mesmo que a pessoa esteja se comunicando perfeitamente bem.",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Por que a língua portuguesa muda e evolui com o tempo?",
     tip: "Pense em palavras novas que surgiram por causa da internet e da tecnologia, que não existiam há 50 anos.",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Em qual destas situações seria mais adequado usar a linguagem formal?",
     tip: "Pense em qual dessas situações exige mais seriedade e seguir as regras da norma padrão da língua.",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Em uma mensagem de WhatsApp para um amigo, Bernardo escreveu \"vc tá on?\". Essa forma de escrever é um exemplo de:",
     tip: "Pense em como essa forma de escrever é adequada para uma conversa informal e rápida entre amigos, mas não seria usada em um texto formal.",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Em algumas regiões do Brasil, uma mesma fruta cítrica pode ser chamada de \"mexerica\", \"tangerina\" ou \"bergamota\", dependendo do lugar. Isso é um exemplo de:",
     tip: "Lembra da palavra que descreve expressões típicas de uma região específica do país?",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Quando um médico diz para outro médico que o paciente está com \"cefaleia\", em vez de simplesmente dizer \"dor de cabeça\", ele está usando:",
     tip: "Lembra do vocabulário técnico, específico de uma profissão, usado entre pessoas da mesma área?",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Por que é importante que uma pessoa saiba usar tanto a linguagem formal quanto a informal, dependendo da situação?",
     tip: "Pense em como você se comunica de um jeito com os amigos e de outro jeito em uma apresentação na escola — saber adaptar a linguagem é uma habilidade importante.",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Achar que uma pessoa que fala com um forte sotaque regional ou usa muitos regionalismos é \"menos inteligente\" ou \"fala errado\" é um exemplo de:",
     tip: "Lembra do conceito que você estudou sobre julgar certas formas de falar como inferiores, quando na verdade são apenas diferentes?",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Ao ler um texto escrito há muitos anos, Bernardo notou que algumas palavras eram usadas de um jeito diferente do que se usa hoje. Isso mostra que a língua portuguesa:",
     tip: "Pense em como novas palavras surgem e outras caem em desuso, mostrando que a língua está sempre em movimento.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Um sotaque \"carioca\" (do Rio de Janeiro) e um sotaque \"gaúcho\" (do Rio Grande do Sul) são exemplos de:",
     tip: "Pense em como a mesma língua portuguesa pode \"soar\" diferente dependendo da região do Brasil onde a pessoa nasceu e cresceu.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Por que não existe uma forma \"errada\" de falar português, mas sim diferentes variações adequadas a diferentes contextos?",
     tip: "Pense em como a gíria usada entre amigos é perfeitamente adequada naquele contexto, assim como a linguagem formal é adequada em uma redação.",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Em uma redação escolar, é mais adequado usar:",
     tip: "Pense no tipo de linguagem que os professores esperam ver em um texto escolar, mais formal e seguindo as regras da norma padrão.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Qual é a importância de estudar e respeitar as diferentes variações linguísticas do português?",
     tip: "Pense em como cada região e grupo social contribui com uma forma única de falar, enriquecendo a língua portuguesa como um todo.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo notou que, ao visitar seus parentes no Nordeste, algumas palavras usadas por lá eram diferentes das que ele usa em sua cidade. Isso é um exemplo de:",
     tip: "Lembra da palavra que descreve expressões típicas de uma determinada região do país?",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo mandou uma mensagem para o amigo dizendo \"blz, te vejo depois!\". Esse tipo de linguagem usada em mensagens rápidas é chamado de:",
     tip: "Lembra do tipo de linguagem mais usada no dia a dia, entre amigos, sem seguir rigidamente as regras formais?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo percebeu que seu avô, ao falar, usa algumas palavras diferentes das que ele mesmo usa no dia a dia. Isso mostra que a língua portuguesa:",
     tip: "Pense em como até dentro da própria família podem existir diferenças na forma de falar, dependendo da geração.",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Na escola, o professor pediu para Bernardo escrever um texto usando a norma padrão da língua portuguesa. Isso significa que ele deveria:",
     tip: "Lembra da variedade da língua ensinada na escola, usada em situações mais formais, como textos escolares?",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo ouviu um colega de escola dizer que uma pessoa com forte sotaque regional \"fala errado\". Bernardo discordou, lembrando que isso é um exemplo de:",
     tip: "Lembra do conceito que você estudou sobre julgar certas formas de falar como inferiores, quando na verdade são apenas diferentes?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo descobriu que, quando sua tia que é enfermeira fala com outros profissionais da saúde, ela usa palavras técnicas específicas da área. Isso é um exemplo de:",
     tip: "Lembra do vocabulário técnico usado entre profissionais de uma mesma área de trabalho?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo leu um texto escrito há muito tempo e notou que algumas palavras eram escritas de um jeito diferente do atual. Isso mostra que a língua portuguesa:",
     tip: "Pense em como a língua está sempre em movimento, incorporando novas palavras e deixando outras de lado ao longo do tempo.",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo aprendeu que, dependendo da situação, ele deve escolher entre usar uma linguagem mais formal ou mais informal. Essa habilidade de adaptar a linguagem ao contexto é chamada de:",
     tip: "Pense na habilidade de saber usar o tipo certo de linguagem para cada situação — mais formal numa redação, mais informal numa conversa com amigos.",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Depois de estudar sobre variação linguística, Bernardo concluiu que diferentes formas de falar português:",
     tip: "Pense em tudo que você aprendeu sobre a riqueza da variação linguística — gírias, regionalismos, jargões e a norma padrão, cada um com seu espaço e função.",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"a língua portuguesa tem muitas variações, como gírias, regionalismos e jargões, e cada uma é adequada para um contexto diferente, por isso não existe uma forma 'certa' ou 'errada' de falar, apenas formas mais...\". Qual palavra completa essa frase?",
     tip: "Pense na ideia central que você aprendeu nesse simulado: cada variação linguística tem seu espaço certo, dependendo do contexto.",

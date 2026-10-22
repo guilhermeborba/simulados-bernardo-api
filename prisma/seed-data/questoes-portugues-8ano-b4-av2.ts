@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Qual gênero textual tem como finalidade principal informar fatos reais e atuais, respondendo quem, o quê, quando e onde?",
     tip: "Lembra do gênero muito usado em jornais e telejornais, que informa acontecimentos do dia a dia.",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase \"Seus olhos são estrelas\", qual figura de linguagem está sendo usada?",
     tip: "Lembra da figura de linguagem que compara duas coisas de forma direta, sem usar a palavra \"como\"?",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Palavras ou expressões informais usadas principalmente por jovens, que mudam com o tempo, são chamadas de:",
     tip: "Lembra da palavra usada para descrever expressões informais, muito comuns entre grupos de amigos.",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"Os alunos terminaram a prova\", o verbo \"terminaram\" concorda com o sujeito \"os alunos\" porque:",
     tip: "Lembra de como o verbo deve combinar com o sujeito da frase em número e pessoa.",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "O que caracteriza o \"discurso direto\"?",
     tip: "Lembra do tipo de discurso que reproduz exatamente as palavras ditas por um personagem.",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na frase \"O bolo foi comido pelas crianças\", podemos identificar a voz:",
     tip: "Lembra de como, nessa frase, o bolo não pratica a ação de comer, mas sim a recebe.",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Estudei bastante e aprendi muita coisa\", qual tipo de conjunção coordenativa está presente?",
     tip: "Lembra da conjunção usada para somar duas ideias ou ações.",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Qual gênero textual comenta, de forma pessoal e muitas vezes com humor, fatos do dia a dia?",
     tip: "Lembra do gênero parecido com uma conversa, em que o autor comenta algo que viu ou viveu.",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase \"Já te esperei um século!\", qual figura de linguagem está sendo usada?",
     tip: "Lembra da figura de linguagem que exagera uma ideia de propósito, para dar mais intensidade à frase.",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "O que é a \"norma padrão\" da língua portuguesa?",
     tip: "Lembra da variedade da língua que você aprende nas aulas de português, usada em textos formais.",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Qual gênero textual defende um ponto de vista sobre um assunto, usando argumentos para convencer o leitor?",
     tip: "Lembra do gênero em que o autor tenta convencer o leitor de algo, apresentando razões.",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "No verso \"O vento sussurrava segredos pela janela\", qual figura de linguagem está presente?",
     tip: "Lembra da figura de linguagem que atribui características humanas a coisas, como o vento \"sussurrando\".",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Achar que uma pessoa que usa muitos regionalismos \"fala errado\" é um exemplo de:",
     tip: "Lembra do conceito que julga certas formas de falar como inferiores, mesmo sendo apenas diferentes variações da língua.",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na transformação da frase ativa \"O menino quebrou o vaso\" para a voz passiva, a frase correta seria:",
     tip: "Lembra de que o objeto direto da frase ativa (\"o vaso\") se transforma no sujeito da frase passiva.",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Transformando a frase em discurso direto '\"Estou cansado\", disse o menino' para o discurso indireto, a frase correta seria:",
     tip: "Lembra de como o pronome e o tempo verbal mudam na transposição para o discurso indireto.",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Estudei muito, mas fiquei nervoso na prova\", qual tipo de conjunção coordenativa está presente?",
     tip: "Lembra da conjunção usada para mostrar um contraste entre duas ideias.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"Maria e João foram ao parque\", por que o verbo \"foram\" está no plural?",
     tip: "Lembra de como um sujeito composto, formado por dois núcleos ligados por \"e\", geralmente exige o verbo no plural.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Em uma história em quadrinhos, as falas dos personagens dentro dos balões são um exemplo de qual tipo de discurso?",
     tip: "Lembra de como as HQs reproduzem exatamente as falas dos personagens, sem intermediação do narrador.",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Palavras ou expressões típicas de uma determinada região do país, como \"aipim\" e \"macaxeira\" para a mesma raiz, são chamadas de:",
     tip: "Lembra da palavra usada para descrever expressões típicas de uma região específica do Brasil.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Um vocabulário técnico usado por médicos, advogados ou outros profissionais de uma mesma área é chamado de:",
     tip: "Lembra da palavra usada para descrever o vocabulário específico de uma profissão.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo deixou um recadinho rápido colado na porta da geladeira, avisando que estava na casa de um amigo. Esse texto é um exemplo de:",
     tip: "Lembra do gênero usado para passar recados rápidos e informais.",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo disse ao amigo: \"Esse jogo é divertido como um parque de diversões!\" Qual figura de linguagem ele usou?",
     tip: "Lembra da palavra \"como\" ligando as duas coisas comparadas na frase de Bernardo.",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Variação linguística',
     type: "multiple_choice",
     text: "Bernardo sabe que, em uma redação escolar, deve usar a norma padrão da língua, mas, com os amigos, pode usar gírias e linguagem informal. Essa habilidade de adaptar a linguagem é chamada de:",
     tip: "Lembra da habilidade de saber usar o tipo certo de linguagem para cada situação.",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Os alunos da minha turma apresentaram o trabalho.\" O verbo \"apresentaram\" está no plural porque concorda com:",
     tip: "Lembra de que o verbo deve combinar com o sujeito da frase em número.",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo transformou a frase '\"Vou viajar amanhã\", disse a tia' para o discurso indireto, escrevendo \"A tia disse que viajaria no dia seguinte.\" Essa frase está em discurso:",
     tip: "Lembra do tipo de discurso em que o narrador conta o que foi dito, sem reproduzir exatamente as palavras, mudando pronomes e advérbios de tempo.",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo leu a notícia \"O novo parque foi inaugurado na cidade\", sem menção a quem o inaugurou. Essa frase está na voz:",
     tip: "Lembra de que é possível usar a voz passiva mesmo sem mencionar quem praticou a ação.",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Choveu muito, por isso a festa foi cancelada.\" Qual tipo de conjunção coordenativa ele usou?",
     tip: "Lembra da conjunção usada para indicar uma conclusão lógica a partir do que foi dito antes.",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Depois de revisar os gêneros textuais, Bernardo concluiu que cada tipo de texto, como notícia, receita e poema, tem uma finalidade diferente, e esses tipos são chamados de:",
     tip: "Pense na palavra que classifica os diferentes tipos de texto, de acordo com sua estrutura e finalidade.",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Bernardo lembrou que recursos como metáfora, comparação, hipérbole e personificação são usados para tornar a linguagem mais criativa e expressiva. Esses recursos são chamados de:",
     tip: "Pense na expressão que você aprendeu para descrever esses recursos criativos da linguagem, que fogem do sentido literal.",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Depois de revisar tudo o que aprendeu em Português neste bimestre, Bernardo resumiu para a família: \"aprendi sobre gêneros textuais, figuras de linguagem, variação linguística, concordância, discurso direto e indireto, vozes verbais e conjunções — tudo isso faz parte do estudo da...\". Qual palavra completa essa frase?",
     tip: "Pense na matéria escolar que você estudou durante todo esse bimestre, com todos esses conteúdos.",

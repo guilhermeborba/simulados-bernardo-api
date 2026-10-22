@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que são \"figuras de linguagem\"?",
     tip: "Pense em expressões como \"chorar rios de lágrimas\" — ninguém chora um rio de verdade, mas entendemos a ideia de muito choro. Isso é um recurso da linguagem!",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é uma \"comparação\" (ou símile) como figura de linguagem?",
     tip: "Pense na frase \"ele é forte como um leão\" — que palavra está ligando as duas coisas sendo comparadas?",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é uma \"metáfora\"?",
     tip: "Pense na frase \"seu sorriso é um sol\" — note que não tem a palavra \"como\" ligando as duas coisas, mas entendemos que o sorriso é comparado ao sol de forma direta.",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é a \"personificação\" (ou prosopopeia)?",
     tip: "Pense na frase \"o vento sussurrava segredos\" — o vento, que não é uma pessoa, está fazendo uma ação tipicamente humana, que é sussurrar.",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é \"hipérbole\"?",
     tip: "Pense na frase \"eu já te disse isso um milhão de vezes\" — será que a pessoa realmente disse um milhão de vezes, ou está exagerando para reforçar a ideia?",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é uma \"onomatopeia\"?",
     tip: "Pense em palavras como \"tique-taque\" (som do relógio) ou \"miau\" (som do gato) — o que elas estão imitando?",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é \"antítese\"?",
     tip: "Pense na frase \"ele é rico de dinheiro, mas pobre de amigos\" — quais palavras dessa frase têm sentidos opostos entre si?",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é \"eufemismo\"?",
     tip: "Pense em como as pessoas costumam dizer \"ele partiu desta vida\" em vez de uma palavra mais direta sobre a morte — isso é uma forma mais delicada de falar sobre algo difícil.",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é \"ironia\"?",
     tip: "Pense em quando alguém diz \"que dia maravilhoso!\" durante uma tempestade forte — a pessoa está falando a sério ou quer dizer o contrário?",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "O que é \"metonímia\"?",
     tip: "Pense na frase \"ele leu Machado de Assis\" — a pessoa leu o autor, de verdade, ou leu os livros escritos por ele? Isso é uma substituição de uma palavra por outra relacionada.",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase \"Meus olhos são dois lagos profundos\", qual figura de linguagem está sendo usada?",
     tip: "Observe que não há a palavra \"como\" ligando os olhos aos lagos — é uma comparação direta e implícita entre as duas coisas.",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase \"Ela é bonita como uma flor\", qual figura de linguagem está sendo usada?",
     tip: "Observe a palavra \"como\" ligando as duas coisas comparadas — isso é uma característica importante dessa figura de linguagem.",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "No verso \"A lua sorria no céu escuro\", qual figura de linguagem está presente?",
     tip: "Pense: a lua, que não é uma pessoa, está fazendo uma ação humana, que é sorrir. Isso dá características humanas a algo que não é humano.",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase \"Já te esperei um século!\", qual figura de linguagem está sendo usada?",
     tip: "Pense: será que a pessoa esperou realmente cem anos? Essa é uma forma de exagerar para mostrar o quanto a espera pareceu longa.",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Em uma história em quadrinhos, ao mostrar um carro batendo, o autor escreve \"CRASH!\" dentro do quadrinho. Essa palavra é um exemplo de:",
     tip: "Pense em como essa palavra está imitando o som da batida do carro, de forma escrita.",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase de uma música \"É pau, é pedra, é o fim do caminho\", que contrasta elementos simples com algo mais abstrato, podemos identificar uma figura de linguagem chamada:",
     tip: "Pense em como a música aproxima ideias bem diferentes entre si, criando um contraste interessante.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Em uma notícia, ao invés de dizer diretamente que uma pessoa morreu, o jornalista escreve que ela \"partiu desta vida\". Essa escolha de palavras mais suaves é um exemplo de:",
     tip: "Pense em como essa expressão tenta suavizar uma notícia triste, tornando-a menos dura de se ouvir.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Quando alguém diz \"que chuva maravilhosa!\" durante um dia claramente de sol forte e seco, está usando qual figura de linguagem?",
     tip: "Pense: a pessoa está falando a sério sobre a chuva, ou está dizendo o contrário do que realmente quer expressar, de forma irônica?",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na frase \"Todo mundo estava de olho na nova lanchonete da escola\", a palavra \"olho\" está sendo usada no lugar de \"atenção\". Essa substituição é um exemplo de:",
     tip: "Pense em como a palavra \"olho\" está relacionada à ideia de \"atenção\" ou \"observação\", sendo usada no lugar dela.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Propagandas costumam usar figuras de linguagem, como metáforas e hipérboles, principalmente para:",
     tip: "Pense em como frases criativas e chamativas em uma propaganda ajudam a atrair a atenção das pessoas para o produto.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo escreveu em sua redação: \"Meu coração é um oceano de alegria\". Qual figura de linguagem ele usou?",
     tip: "Lembra que, sem a palavra \"como\", quando uma coisa é comparada diretamente a outra, chamamos isso de qual figura de linguagem?",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo disse para o amigo: \"Esse jogo é divertido como um parque de diversões!\" Qual figura de linguagem ele usou?",
     tip: "Lembra da palavra \"como\" ligando as duas coisas comparadas na frase de Bernardo?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo escreveu um poema em que dizia: \"O relógio da sala parecia cansado, bocejando a cada hora que passava.\" Qual figura de linguagem ele usou?",
     tip: "Pense: um relógio pode realmente ficar cansado e bocejar? Essa é uma ação humana sendo atribuída a um objeto.",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo disse brincando: \"Esperei um milhão de anos pelo lanche da escola!\" Qual figura de linguagem ele usou?",
     tip: "Lembra da figura que exagera uma ideia de propósito, para dar mais intensidade a uma frase?",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Na história em quadrinhos favorita de Bernardo, aparece a palavra \"TOC TOC\" quando um personagem bate na porta. Isso é um exemplo de:",
     tip: "Lembra da figura de linguagem que imita sons através de palavras escritas?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo leu uma música que dizia: \"É alegria, é tristeza, é o encontro e a despedida\". Qual figura de linguagem está presente, por aproximar ideias opostas?",
     tip: "Lembra da figura de linguagem que aproxima palavras ou ideias com sentidos contrários, criando um contraste?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Quando o avô de Bernardo, ao invés de dizer que alguém \"morreu\", disse que a pessoa \"descansou em paz\", ele usou qual figura de linguagem?",
     tip: "Lembra da figura de linguagem usada para suavizar a forma de dizer algo difícil ou delicado?",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo ouviu seu colega dizer, sarcasticamente, \"Que ótimo!\" quando a prova foi cancelada em cima da hora e remarcada para um dia ainda mais difícil. Qual figura de linguagem foi usada?",
     tip: "Lembra da figura de linguagem em que se diz algo com um sentido contrário ao que realmente se quer expressar?",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "Bernardo disse: \"A escola toda estava de olho no resultado do campeonato de matemática.\" Nessa frase, a palavra \"olho\" substitui a ideia de \"atenção\". Essa figura de linguagem é chamada de:",
     tip: "Lembra da figura de linguagem em que uma palavra é usada no lugar de outra, por terem uma relação de sentido?",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Depois de estudar todas essas figuras de linguagem, Bernardo resumiu para a família: \"A linguagem pode ser usada de um jeito criativo, fugindo do sentido literal das palavras, para tornar os textos mais expressivos e bonitos. Esses recursos são chamados de...\". Qual expressão completa essa frase?",
     tip: "Pense na expressão que você aprendeu logo na primeira questão desse simulado, usada para descrever esses recursos criativos da linguagem.",

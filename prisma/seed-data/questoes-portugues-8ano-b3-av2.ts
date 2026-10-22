@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "O que é \"voz ativa\"?",
     tip: "Pense em uma frase em que o sujeito está \"fazendo\" a ação, e não \"recebendo\" ela.",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "O que é \"voz passiva\"?",
     tip: "Pense em uma frase em que o sujeito não está fazendo a ação, mas sim recebendo o resultado dela.",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na frase \"O gato comeu o peixe\", em qual voz verbal essa frase está?",
     tip: "Pense em quem está praticando a ação de comer nessa frase — o gato está fazendo ou recebendo a ação?",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na frase \"O peixe foi comido pelo gato\", em qual voz verbal essa frase está?",
     tip: "Pense em quem está sofrendo a ação de ser comido nessa frase — é o peixe ou o gato?",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na voz passiva analítica, qual é o nome dado ao termo que indica quem pratica a ação (como \"pelo gato\" na frase \"o peixe foi comido pelo gato\")?",
     tip: "Pense em quem realmente \"age\" na frase, mesmo não sendo o sujeito gramatical — essa pessoa ou coisa recebe um nome especial.",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "O que é a \"voz passiva sintética\"?",
     tip: "Pense em frases como \"vendem-se casas\" — como essa frase é formada, sem usar o verbo \"ser\"?",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na frase \"Vende-se esta casa\", qual voz verbal está sendo usada?",
     tip: "Pense em como essa frase usa o pronome \"se\" junto ao verbo, sem o auxiliar \"ser\" — isso é característico de qual tipo de voz passiva?",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Para transformar uma frase da voz ativa para a voz passiva analítica, o que geralmente acontece com o objeto direto da frase ativa?",
     tip: "Pense em como, na frase ativa \"o menino quebrou o vaso\", o vaso é o objeto direto; e na frase passiva \"o vaso foi quebrado pelo menino\", o que aconteceu com a palavra \"vaso\"?",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Por que é importante entender a diferença entre voz ativa e voz passiva?",
     tip: "Pense em como saber identificar quem \"faz\" e quem \"recebe\" a ação ajuda a compreender melhor o sentido das frases.",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Análise sintática',
     type: "multiple_choice",
     text: "Na frase \"A carta foi escrita por Maria\", qual é o sujeito da frase?",
     tip: "Pense em quem está sofrendo a ação de ser escrita nessa frase — é a carta ou Maria?",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Transforme a frase da voz ativa \"Os alunos entregaram os trabalhos\" para a voz passiva analítica.",
     tip: "Pense em qual palavra deveria se tornar o novo sujeito da frase passiva — o que estava sendo entregue?",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Transforme a frase da voz passiva \"O bolo foi feito pela vovó\" para a voz ativa.",
     tip: "Pense em quem realmente pratica a ação de fazer o bolo — quem deveria ser o sujeito na voz ativa?",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Por que os textos jornalísticos, às vezes, preferem usar a voz passiva ao relatar uma notícia?",
     tip: "Pense em frases como \"a ponte foi inaugurada\" — às vezes, o importante é destacar o fato em si, e não necessariamente quem o praticou.",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na frase \"O prédio foi construído\", sem a presença de um agente da passiva, podemos dizer que:",
     tip: "Pense em como, às vezes, não sabemos ou não precisamos dizer quem praticou a ação, mesmo usando a voz passiva.",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Qual destas frases apresenta um erro comum na concordância da voz passiva analítica?",
     tip: "Observe o sujeito \"os documentos\" (plural) e compare com a forma do verbo \"ser\" em cada frase — em qual delas a concordância está incorreta?",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Qual é a principal diferença de ênfase entre a frase ativa \"O professor corrigiu as provas\" e a passiva \"As provas foram corrigidas pelo professor\"?",
     tip: "Pense em qual das duas frases dá mais destaque ao professor, e qual dá mais destaque às provas.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Em placas e anúncios, como \"aluga-se sala comercial\", qual voz verbal está sendo usada?",
     tip: "Lembra da voz passiva formada com o pronome \"se\" junto ao verbo principal, sem o uso do verbo \"ser\"?",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Em textos científicos, por que a voz passiva é frequentemente usada para descrever experimentos e procedimentos?",
     tip: "Pense em frases como \"a reação foi observada\" — o importante, em muitos textos científicos, é o que aconteceu, e não necessariamente quem fez a observação.",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Na frase do dia a dia \"A mensagem foi enviada\", podemos identificar que essa frase está na voz:",
     tip: "Pense em quem está sofrendo a ação de ser enviada — é a mensagem. E note que não foi dito quem enviou a mensagem.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Qual destas frases está na voz ativa?",
     tip: "Observe qual frase tem o sujeito praticando diretamente a ação do verbo, sem a estrutura típica da voz passiva.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo escreveu na redação: \"O goleiro defendeu o pênalti.\" Essa frase está em qual voz verbal?",
     tip: "Lembra de quem está praticando a ação de defender nessa frase — o goleiro está fazendo ou recebendo a ação?",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo transformou a frase \"O goleiro defendeu o pênalti\" para a voz passiva analítica. Qual destas opções está correta?",
     tip: "Lembra de que o objeto direto da frase ativa (\"o pênalti\") se transforma no sujeito da frase passiva?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo leu uma placa na rua que dizia \"vende-se esta casa\". Ele identificou corretamente que essa frase está na voz:",
     tip: "Lembra da voz passiva formada com o pronome \"se\" junto ao verbo, sem o auxiliar \"ser\"?",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo leu uma notícia que dizia \"o novo hospital foi inaugurado ontem\", sem mencionar quem o inaugurou. Ele percebeu que essa frase está na voz passiva:",
     tip: "Lembra de que é possível usar a voz passiva analítica (com o verbo \"ser\") mesmo sem mencionar quem praticou a ação?",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo quis dar mais destaque ao resultado de uma ação, em vez de destacar quem a praticou, em uma frase de sua redação. Para isso, ele decidiu usar a voz:",
     tip: "Lembra de qual voz verbal dá mais destaque a quem recebe a ação, em vez de quem a pratica?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo transformou a frase passiva \"O bolo foi comido pelas crianças\" para a voz ativa. Qual destas opções está correta?",
     tip: "Lembra de que o agente da passiva (\"pelas crianças\") se transforma no sujeito da frase ativa?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Bernardo percebeu que, em um artigo científico que leu, a frase \"foram coletadas amostras de água do rio\" estava na voz passiva, dando destaque:",
     tip: "Lembra de por que textos científicos costumam usar a voz passiva, dando foco ao processo e ao resultado, em vez de destacar quem o realizou?",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo identificou um erro de concordância na frase \"Os relatórios foi entregue pela secretária\". Qual seria a forma correta, de acordo com a norma padrão?",
     tip: "Lembra de que, na voz passiva analítica, tanto o verbo \"ser\" quanto o particípio devem concordar em número com o sujeito \"os relatórios\"?",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Depois de estudar vozes verbais, Bernardo concluiu que a principal diferença entre a voz ativa e a voz passiva é:",
     tip: "Pense em tudo que você aprendeu sobre quem \"age\" e quem \"recebe\" a ação, dependendo da voz verbal usada na frase.",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Vozes verbais',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"quando o sujeito pratica a ação do verbo, a frase está na voz ativa; quando o sujeito recebe a ação, a frase está na voz...\". Qual palavra completa essa frase?",
     tip: "Pense na palavra que você aprendeu desde a segunda questão desse simulado, usada para descrever quando o sujeito sofre a ação do verbo.",

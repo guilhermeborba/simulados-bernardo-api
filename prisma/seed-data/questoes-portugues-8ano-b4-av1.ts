@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "O que é um \"período composto\"?",
     tip: "Pense em uma frase mais longa, formada pela união de duas ou mais \"frasezinhas\" menores, cada uma com seu próprio verbo.",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "O que é uma \"oração coordenada\"?",
     tip: "Pense em duas frases que fazem sentido mesmo separadas, mas que estão ligadas por uma palavra de conexão, como \"e\" ou \"mas\".",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual destas é uma \"conjunção coordenativa aditiva\", usada para somar ideias?",
     tip: "Pense na conjunção usada para \"adicionar\" uma informação a outra, como em \"Maria estudou e passou na prova\".",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual destas é uma \"conjunção coordenativa adversativa\", usada para indicar oposição ou contraste entre ideias?",
     tip: "Pense na conjunção usada quando duas ideias se contrastam, como em \"Ele estudou muito, mas não passou na prova\".",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual destas é uma \"conjunção coordenativa alternativa\", usada para indicar escolha entre possibilidades?",
     tip: "Pense na conjunção usada quando há uma escolha entre duas opções, como em \"Você quer suco ou água?\".",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual destas é uma \"conjunção coordenativa conclusiva\", usada para indicar uma conclusão?",
     tip: "Pense na conjunção usada para \"concluir\" uma ideia a partir do que foi dito antes, como em \"Estudei muito, portanto passarei na prova\".",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual destas é uma \"conjunção coordenativa explicativa\", usada para explicar ou justificar uma ideia?",
     tip: "Pense na conjunção usada para justificar o motivo de algo, como em \"Não saí de casa, porque estava chovendo muito\".",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Ele estudou muito, mas não passou na prova\", qual é a relação de sentido criada pela conjunção \"mas\"?",
     tip: "Pense em como a segunda parte da frase contrasta com a primeira — ele estudou muito, mas o resultado não foi o esperado.",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Pontuação',
     type: "multiple_choice",
     text: "Na pontuação, qual sinal normalmente é usado antes de conjunções adversativas, como \"mas\" e \"porém\"?",
     tip: "Pense em como, antes dessas conjunções que indicam contraste, costuma aparecer uma pequena pausa na escrita.",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Qual é a principal diferença entre uma oração coordenada e uma oração subordinada?",
     tip: "Pense em como uma oração coordenada poderia \"funcionar\" separadamente, enquanto uma subordinada, separada, ficaria incompleta.",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Estudei bastante e tirei uma boa nota\", qual tipo de conjunção coordenativa está presente?",
     tip: "Pense em como a conjunção \"e\" está somando duas ideias nessa frase — estudar e tirar uma boa nota.",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Vou de ônibus ou de bicicleta\", qual tipo de conjunção coordenativa está presente?",
     tip: "Pense em como a conjunção \"ou\" está apresentando duas opções de transporte, das quais apenas uma será escolhida.",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Choveu muito, por isso a festa foi cancelada\", qual tipo de conjunção coordenativa está presente?",
     tip: "Pense em como a segunda parte da frase apresenta uma consequência lógica (conclusão) da primeira parte.",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Ele não foi à escola, pois estava doente\", qual tipo de conjunção coordenativa está presente?",
     tip: "Pense em como a segunda parte da frase está explicando o motivo pelo qual ele não foi à escola.",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual é o efeito de sentido criado pela conjunção adversativa \"porém\" na frase \"Ela é tímida, porém muito talentosa\"?",
     tip: "Pense em como a frase quer mostrar que, mesmo sendo tímida, essa pessoa tem outra qualidade importante e, de certa forma, inesperada.",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Pontuação',
     type: "multiple_choice",
     text: "Qual destas frases apresenta um erro no uso da pontuação antes de uma conjunção adversativa?",
     tip: "Observe qual frase está sem a vírgula antes da conjunção adversativa \"mas\", que normalmente deveria estar presente.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Em um texto argumentativo, por que o uso de conjunções coordenativas conclusivas, como \"portanto\" e \"logo\", é importante?",
     tip: "Pense em como, em um texto que defende um ponto de vista, é importante mostrar como as ideias se encaixam, levando a uma conclusão clara.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Na frase \"Não fui à festa nem avisei que não iria\", qual tipo de conjunção coordenativa está presente, mesmo em uma frase negativa?",
     tip: "Pense em como \"nem\" está somando duas ações negativas na mesma frase — não ir e não avisar.",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Qual destas frases apresenta uma oração coordenada ligada por uma conjunção explicativa?",
     tip: "Observe qual frase está explicando o motivo pelo qual alguém deveria ficar em casa.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Por que é importante saber identificar os diferentes tipos de conjunções coordenativas em um texto?",
     tip: "Pense em como cada tipo de conjunção cria uma relação de sentido diferente entre as ideias — soma, contraste, conclusão ou explicação.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu na redação: \"Estudei bastante e aprendi muita coisa nova.\" Qual tipo de conjunção coordenativa ele usou?",
     tip: "Lembra da conjunção usada para somar duas ideias, como estudar e aprender?",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Quero ir ao parque ou ao cinema no fim de semana.\" Qual tipo de conjunção coordenativa ele usou?",
     tip: "Lembra da conjunção usada para apresentar opções de escolha, como entre duas atividades diferentes?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Estudei muito, mas fiquei nervoso na hora da prova.\" Qual tipo de conjunção coordenativa ele usou?",
     tip: "Lembra da conjunção usada para mostrar um contraste entre duas ideias, como estudar muito e, ainda assim, ficar nervoso?",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Treinei muito, por isso fiquei mais rápido na corrida.\" Qual tipo de conjunção coordenativa ele usou?",
     tip: "Lembra da conjunção usada para indicar uma conclusão lógica a partir do que foi dito antes?",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Não fui à escola, porque estava com febre.\" Qual tipo de conjunção coordenativa ele usou?",
     tip: "Lembra da conjunção usada para explicar o motivo de algo que aconteceu?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Pontuação',
     type: "multiple_choice",
     text: "Bernardo percebeu que faltava uma vírgula na frase \"Ele é esforçado mas um pouco distraído.\" Onde ele deveria colocar a vírgula?",
     tip: "Lembra de que, antes de conjunções adversativas como \"mas\", normalmente se usa uma vírgula?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo escreveu um texto argumentativo defendendo que as escolas deveriam ter mais tempo de recreio, usando a palavra \"portanto\" para concluir seu argumento. Essa conjunção tem valor:",
     tip: "Lembra da conjunção usada para indicar uma conclusão lógica a partir dos argumentos apresentados em um texto?",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Bernardo identificou, em uma frase do seu livro, a conjunção \"nem\" sendo usada para somar duas ideias negativas. Essa conjunção tem valor:",
     tip: "Lembra de que \"nem\" é uma variação da conjunção \"e\", usada quando a frase tem sentido negativo?",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Depois de estudar as conjunções coordenativas, Bernardo concluiu que elas são importantes porque:",
     tip: "Pense em tudo que você aprendeu sobre como cada conjunção cria uma relação de sentido diferente entre as ideias de uma frase.",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"quando duas orações têm sentido completo e estão ligadas por palavras como 'e', 'mas', 'ou', 'portanto' ou 'porque', elas formam um período composto por...\". Qual palavra completa essa frase?",
     tip: "Pense na palavra que você aprendeu desde o início desse simulado, usada para descrever orações independentes ligadas entre si.",
