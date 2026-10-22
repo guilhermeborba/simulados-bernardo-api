@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A brincadeira em que um jogador precisa tocar nos outros para 'pegá-los' é conhecida popularmente como:",
     tip: "Pense na brincadeira mais simples e conhecida, em que alguém precisa correr e tocar nos outros.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A brincadeira em que os participantes saltam em números desenhados no chão, geralmente usando uma pedrinha, é chamada de:",
     tip: "Pense na brincadeira desenhada no chão com números, muito popular em quintais e pátios de escola.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "O jogo em que duas equipes disputam puxando uma corda para seus lados, tentando fazer o outro time ultrapassar uma linha, é chamado de:",
     tip: "Pense no jogo em que duas equipes puxam uma corda, uma para cada lado, tentando vencer a força do time adversário.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "O jogo em que os jogadores tentam acertar os adversários com uma bola, eliminando-os do campo até restar apenas um, é chamado de:",
     tip: "Pense no jogo bem popular nas aulas de educação física, em que ser acertado pela bola tira o jogador do campo.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "O brinquedo de madeira ou plástico que gira sobre sua própria ponta quando é lançado com uma corda é chamado de:",
     tip: "Pense no brinquedo pontudo que gira sozinho no chão depois de ser lançado com uma cordinha enrolada.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A brincadeira em que os participantes se escondem e um jogador precisa encontrá-los é chamada de:",
     tip: "Pense na brincadeira em que alguns participantes se escondem e outro precisa procurá-los.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A brincadeira feita com pequenas esferas, geralmente de vidro, que os participantes tentam acertar com precisão no chão, é chamada de:",
     tip: "Pense nas pequenas esferas coloridas e brilhantes, muito usadas em brincadeiras de precisão no chão.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A brincadeira de corda feita entre os pés, em que os participantes precisam pular e passar pelos espaços formados, é chamada de:",
     tip: "Pense na brincadeira feita com uma corda elástica amarrada entre os pés de dois participantes, enquanto outro pula entre os espaços.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "O brinquedo circular, geralmente de plástico, que é rodado na cintura ou nos braços, é chamado de:",
     tip: "Pense no brinquedo redondo que as pessoas rodam na cintura, tentando não deixá-lo cair.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Um jogo popular jogado com tampinhas de garrafa, simulando um jogo de futebol em miniatura, é conhecido como:",
     tip: "Pense no jogo que usa pequenos objetos, como tampinhas ou botões, para simular uma partida de futebol em miniatura.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Durante uma brincadeira de pega-pega, um jogador consegue se salvar ao tocar em um lugar previamente combinado, como uma árvore. Essa área segura é chamada de:",
     tip: "Pense no nome popular dado ao lugar onde o jogador fica protegido de ser pego, combinado antes do início da brincadeira.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Em um jogo de queimada, quando um jogador é acertado pela bola, ele geralmente:",
     tip: "Pense no próprio nome do jogo — 'queimada' já dá uma pista sobre o que acontece quando alguém é acertado pela bola.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A amarelinha é desenhada no chão com números, geralmente de 1 a 10, e o jogador precisa pular de casa em casa seguindo uma regra sobre:",
     tip: "Pense nas regras clássicas dessa brincadeira — equilíbrio e cuidado para não pisar nas linhas são parte fundamental dela.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "No cabo de guerra, a equipe que consegue puxar a corda e fazer o time adversário ultrapassar a linha central é a que:",
     tip: "Pense no objetivo principal desse jogo — fazer o adversário ser puxado para o seu lado é o que define o vencedor.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Jogos e brincadeiras populares, como pular corda e amarelinha, costumam ser transmitidos entre as crianças de uma geração para outra principalmente através de:",
     tip: "Pense em como essas brincadeiras realmente chegam até as crianças — muitas vezes é brincando junto com os mais velhos, sem nenhum livro ou manual.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Regras e convivência',
     type: "multiple_choice",
     text: "Em um jogo de queimada, uma estratégia comum usada pelos times é:",
     tip: "Pense em como um time pode jogar melhor — ficando parado, ou se organizando em conjunto para atacar e se defender?",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Brincadeiras como pega-pega e esconde-esconde, além de serem divertidas, ajudam a desenvolver principalmente:",
     tip: "Pense em tudo que essas brincadeiras exigem: correr rápido, pensar em estratégias e interagir com os amigos.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Regras e convivência',
     type: "multiple_choice",
     text: "Diferente dos jogos competitivos, os jogos cooperativos têm como principal característica:",
     tip: "Pense no significado da palavra 'cooperativo' — ela tem relação com 'cooperar', ou seja, trabalhar junto, e não competir.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Jogos tradicionais, como amarelinha e pião, fazem parte da cultura popular brasileira e costumam ser considerados parte do patrimônio:",
     tip: "Pense na categoria de patrimônio estudada nas aulas de Arte, ligada a tradições e saberes passados entre gerações, sem ser um objeto físico fixo.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Em uma brincadeira de elástico, os participantes precisam pular seguindo passos combinados, exigindo bastante:",
     tip: "Pense no que é mais necessário para pular certinho entre os espaços do elástico, seguindo uma sequência de passos.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo jogou pega-pega no recreio da escola e precisou tocar em uma árvore combinada para se salvar de ser pego. Como se chama essa área segura?",
     tip: "Pense no nome popular dado ao lugar seguro combinado antes do início da brincadeira, já estudado nesta prova.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo participou de um jogo de queimada e foi acertado pela bola de um adversário. O que aconteceu com ele no jogo?",
     tip: "Pense no próprio nome do jogo — o que geralmente acontece quando alguém é acertado pela bola na queimada?",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo brincou de amarelinha no quintal de casa, pulando de casa em casa sem pisar nas linhas. Em algumas casas, ele precisava equilibrar o corpo de um jeito específico. Qual era esse jeito?",
     tip: "Pense na regra clássica dessa brincadeira — em algumas casas da amarelinha, o jogador precisa fazer esse tipo específico de equilíbrio.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo participou de um cabo de guerra na gincana da escola e seu time conseguiu puxar a corda, fazendo o time adversário ultrapassar a linha central. O que isso significa?",
     tip: "Pense no objetivo principal desse jogo — fazer o time adversário ultrapassar a linha para o seu lado é sinal de vitória.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo aprendeu a brincadeira de amarelinha com seus avós, que também brincavam disso quando eram crianças. Isso mostra que essa brincadeira é transmitida principalmente através de:",
     tip: "Pense em como Bernardo realmente aprendeu essa brincadeira — brincando junto com os avós, sem precisar de nenhum livro ou vídeo.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Regras e convivência',
     type: "multiple_choice",
     text: "Durante um jogo de queimada, Bernardo e seus colegas de time combinaram estratégias para acertar os adversários e também se defender bem. Isso mostra a importância de:",
     tip: "Pense em como combinar estratégias com os colegas ajuda o time a jogar melhor — isso tem um nome específico.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo brincou de pega-pega e esconde-esconde com seus amigos no parque. Além da diversão, essas brincadeiras ajudam a desenvolver principalmente:",
     tip: "Pense em tudo que essas brincadeiras exigem de Bernardo: correr rápido, pensar em estratégias e interagir com os amigos.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo participou de uma brincadeira em grupo na escola em que o objetivo era colaborar com os colegas, sem eliminar ninguém do jogo. Esse tipo de jogo é chamado de:",
     tip: "Pense no significado da palavra que descreve jogos focados em colaborar, e não em competir ou eliminar ninguém.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo descobriu que brincadeiras como amarelinha e pião fazem parte da cultura popular brasileira, passadas entre gerações. Esse tipo de patrimônio é chamado de:",
     tip: "Pense na categoria de patrimônio estudada nas aulas de Arte, ligada a tradições e saberes passados entre gerações.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Bernardo brincou de elástico com suas colegas, pulando seguindo passos combinados entre as cordas. Essa brincadeira exige bastante:",
     tip: "Pense no que é mais necessário para pular certinho entre os espaços do elástico, seguindo uma sequência de passos.",

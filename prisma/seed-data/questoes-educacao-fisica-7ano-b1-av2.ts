@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "O atletismo é considerado um esporte de modalidades:",
     tip: "Pense em como as provas de atletismo costumam ser disputadas — cada atleta correndo, saltando ou lançando por conta própria, mesmo quando representa um time.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova de corrida mais curta e rápida do atletismo, como os 100 metros, é chamada de corrida de:",
     tip: "Pense na característica principal dessa prova — ela dura poucos segundos e exige explosão física.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova em que o atleta corre uma longa distância, como a maratona, é chamada de corrida de:",
     tip: "Pense no oposto da corrida de velocidade — uma prova bem mais longa, que exige resistência física.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova de corrida em que vários atletas de um time se revezam carregando um bastão é chamada de:",
     tip: "Pense na palavra que descreve a troca entre os corredores, passando um bastão de mão em mão.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova em que o atleta precisa saltar o mais longe possível, a partir de uma corrida de aproximação, é chamada de salto em:",
     tip: "Pense no objetivo principal dessa prova: não é saltar alto, mas sim saltar o mais longe possível.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova em que o atleta usa uma vara flexível para se impulsionar e superar uma barra bem alta é chamada de salto com:",
     tip: "Pense no objeto especial usado nessa prova para ajudar o atleta a ganhar altura — ele dá o nome da modalidade.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova em que o atleta precisa saltar o mais alto possível, superando uma barra, sem usar vara, é chamada de salto em:",
     tip: "Pense no nome da prova que tem como objetivo principal superar uma barra, usando apenas o próprio corpo, sem nenhum objeto de apoio.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "O lançamento de um objeto comprido e pontudo, parecido com uma lança, é chamado de lançamento de:",
     tip: "Pense no formato do objeto — comprido e pontudo, parecido com uma lança usada antigamente.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "O arremesso de uma bola de metal pesada, feito com apenas uma mão, é chamado de arremesso de:",
     tip: "Pense no nome da prova que já descreve o próprio objeto: uma bola bem pesada.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "O lançamento de um objeto redondo e achatado, feito com um movimento de giro do corpo, é chamado de lançamento de:",
     tip: "Pense no formato do objeto — redondo e achatado, bem diferente do dardo comprido ou da bola de peso.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Um atleta corre os 100 metros rasos em poucos segundos, usando toda a sua força explosiva no início da prova. Essa prova é classificada como corrida de:",
     tip: "Pense na característica 'explosiva e rápida' descrita na questão — essa é a marca dessa modalidade de corrida.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Durante uma corrida de revezamento 4x100 metros, o momento mais delicado e treinado da prova é a:",
     tip: "Pense no momento em que um corredor passa o bastão para o próximo — isso precisa ser muito bem treinado para não perder tempo.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Um atleta corre uma distância bem longa, como 5 ou 10 quilômetros, controlando o ritmo da respiração ao longo de toda a prova. Essa prova é chamada de corrida de:",
     tip: "Pense na prova de longa distância, que exige resistência e controle de ritmo, diferente da corrida explosiva de velocidade.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No salto em distância, o atleta corre em uma pista de aproximação e depois impulsiona o corpo para frente, caindo em uma:",
     tip: "Pense no local especial onde o atleta cai depois do salto, projetado para amortecer a queda com segurança.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No salto em altura, o atleta costuma usar uma técnica chamada 'Fosbury Flop', em que ele salta de costas para a barra. Essa técnica revolucionou essa modalidade porque permitiu:",
     tip: "Pense no motivo pelo qual essa técnica se popularizou tanto — ela ajudou os atletas a superar barras ainda mais altas.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No lançamento de dardo, o atleta corre antes de lançar o objeto o mais longe possível. Essa corrida de aproximação ajuda a:",
     tip: "Pense no motivo físico pelo qual correr antes de lançar algo ajuda a jogá-lo mais longe — tem a ver com velocidade acumulada.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No arremesso de peso, diferente do lançamento de dardo e disco, o movimento é feito:",
     tip: "Pense na diferença entre 'lançar' (dardo, disco) e 'empurrar' (peso) — o arremesso de peso é feito com um movimento de empurrão a partir do ombro.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No salto com vara, quanto mais flexível e bem controlada for a vara durante a impulsão, maior é a chance de o atleta:",
     tip: "Pense no objetivo principal dessa prova — usar bem a vara ajuda o atleta a alcançar exatamente esse resultado.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Em uma prova de corrida de velocidade, a reação rápida do atleta ao som do tiro de largada é fundamental para um bom resultado. Essa reação rápida é chamada de:",
     tip: "Pense no nome que descreve exatamente 'o tempo que o atleta leva para reagir' ao sinal de largada.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No lançamento de disco, o atleta gira o corpo várias vezes antes de soltar o objeto, para ganhar:",
     tip: "Pense no motivo físico de girar o corpo antes de soltar o disco — isso acumula energia para o lançamento.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo participou de uma corrida de 100 metros na gincana da escola, usando toda a força logo no início da prova. Essa prova é classificada como corrida de:",
     tip: "Pense na prova rápida e explosiva, que dura poucos segundos, bem diferente de uma corrida longa.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo correu uma prova bem mais longa, de 5 quilômetros, controlando o ritmo da respiração durante todo o percurso. Essa prova é chamada de corrida de:",
     tip: "Pense na prova de longa distância, que exige resistência e controle de ritmo ao longo de todo o percurso.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo participou de uma corrida de revezamento com seus colegas de turma, passando um bastão de mão em mão. Como se chama essa prova?",
     tip: "Pense no nome da prova em que vários corredores de um time se revezam, carregando um bastão.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo tentou o salto em distância na aula de educação física, correndo e depois impulsionando o corpo para caírem uma área especial. Onde ele caiu?",
     tip: "Pense no local especial, com uma superfície mais fofa, projetado para amortecer a queda do atleta depois do salto.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo tentou o salto em altura, superando uma barra sem usar vara nenhuma. Qual modalidade de atletismo ele praticou?",
     tip: "Pense no nome da modalidade descrita na própria questão: superar uma barra, sem usar nenhum objeto de apoio.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo arremessou uma bola pesada de metal usando apenas um braço, empurrando-a a partir do ombro. Qual modalidade ele praticou?",
     tip: "Pense no movimento de 'empurrar' descrito na questão, bem diferente de 'lançar' como no dardo ou no disco.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo girou o corpo várias vezes antes de soltar um objeto redondo e achatado durante a aula de atletismo. Qual modalidade ele praticou?",
     tip: "Pense no formato do objeto descrito — redondo e achatado, diferente da lança do dardo ou da bola do peso.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo treinou sua reação rápida ao som do apito para começar a corrida de velocidade o mais rápido possível. Como se chama essa reação rápida?",
     tip: "Pense no nome que descreve exatamente 'o tempo que o atleta leva para reagir' a um sinal de largada.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo lançou um objeto comprido e pontudo, parecido com uma lança, durante a aula de atletismo. Qual modalidade ele praticou?",
     tip: "Pense no formato comprido e pontudo do objeto, parecido com uma lança usada antigamente.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo usou uma vara flexível para se impulsionar e tentar superar uma barra bem alta na aula de atletismo. Qual modalidade ele praticou?",
     tip: "Pense no objeto especial usado para ajudar o atleta a ganhar altura, que dá nome à própria modalidade.",

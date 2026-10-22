@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "As práticas corporais de aventura costumam envolver um elemento de risco controlado e contato frequente com:",
     tip: "Pense no tipo de ambiente onde essas práticas costumam acontecer — bem diferente de uma quadra fechada tradicional.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A prática de subir superfícies rochosas ou artificiais, usando técnicas específicas e equipamentos de segurança, é chamada de:",
     tip: "Pense na prática de subir, usando as mãos e os pés, superfícies verticais, com ajuda de cordas e equipamentos.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A descida controlada por uma corda, geralmente de um penhasco ou estrutura alta, usando equipamentos de segurança, é chamada de:",
     tip: "Pense na prática que é praticamente o 'oposto' da escalada — em vez de subir, o praticante desce, controlado por uma corda.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A prática de deslocamento urbano, em que o praticante salta, escala e corre por obstáculos da cidade de forma ágil, é chamada de:",
     tip: "Pense na prática urbana, feita em cidades, em que o praticante usa o ambiente (muros, escadas, grades) como obstáculos para se deslocar.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A prática de caminhar sobre uma fita esticada entre dois pontos fixos, mantendo o equilíbrio, é chamada de:",
     tip: "Pense na prática feita sobre uma fita elástica esticada, bem diferente de andar sobre uma corda fixa.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A prática de deslizar sobre as ondas do mar usando uma tábua é chamada de:",
     tip: "Pense na prática feita no mar, usando uma tábua especial para deslizar sobre as ondas.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A prática de remar em um pequeno barco, geralmente em rios ou lagos, controlando a embarcação com um remo, é chamada de:",
     tip: "Pense na prática feita em pequenos barcos, geralmente em rios, controlados com o auxílio de um remo.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes de qualquer prática de aventura, é fundamental usar equipamentos de proteção, como:",
     tip: "Pense nos itens de segurança realmente necessários para práticas com algum risco, diferentes de roupas comuns do dia a dia.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Uma caminhada feita em trilhas naturais, geralmente em matas ou montanhas, com contato direto com a natureza, é chamada de:",
     tip: "Pense na prática mais simples de todas, feita caminhando por caminhos naturais, em contato direto com matas ou montanhas.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Praticar atividades de aventura, mesmo sendo divertidas, sempre exige atenção especial com:",
     tip: "Pense no cuidado mais importante antes de qualquer prática com elemento de risco — ele tem a ver com prevenção de acidentes.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Durante uma escalada em uma parede artificial, o praticante usa cordas e um equipamento preso ao corpo para garantir sua segurança em caso de queda. Esse equipamento é chamado de:",
     tip: "Pense no equipamento preso à cintura e às pernas, conectado à corda, que protege o praticante em caso de queda durante a escalada.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes de praticar rapel, é fundamental que o equipamento de segurança seja verificado cuidadosamente, pois essa prática envolve:",
     tip: "Pense na natureza dessa prática — ela envolve descer de lugares altos, o que exige bastante atenção com a segurança.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Ao praticar slackline, o principal desafio do praticante é manter o equilíbrio sobre a fita, o que exige bastante:",
     tip: "Pense no que realmente é necessário para não cair da fita instável — tem mais a ver com foco e controle do corpo do que força bruta.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Praticantes de parkour treinam saltos, escaladas e corridas por obstáculos urbanos, sempre buscando:",
     tip: "Pense no verdadeiro objetivo do parkour — ele valoriza o movimento controlado e elegante, não a imprudência.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Um surfista precisa ler as ondas do mar e se equilibrar sobre a tábua para conseguir deslizar com sucesso. Essa leitura das condições do ambiente é importante para:",
     tip: "Pense no motivo real pelo qual um surfista observa bem as ondas antes de entrar na água — tem a ver com segurança e aproveitamento da prática.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Durante uma canoagem em um rio com corredeiras, é fundamental que o praticante conheça bem:",
     tip: "Pense no que realmente importa para uma canoagem segura em um rio com corredeiras — conhecimento do ambiente e equipamentos certos.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "As trilhas ecológicas, feitas em matas ou montanhas, além de exercitarem o corpo, também ajudam a desenvolver:",
     tip: "Pense no benefício extra dessa prática, além do exercício físico — tem a ver com a relação do praticante com o meio ambiente.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Nas práticas corporais de aventura, antes de iniciar qualquer atividade, é importante fazer uma avaliação chamada de 'gestão de risco', que serve para:",
     tip: "Pense no significado da expressão 'gestão de risco' — ela tem a ver com identificar e controlar possíveis perigos antes de agir.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Mesmo em atividades de aventura mais radicais, como escalada e rapel, o uso correto dos equipamentos de segurança é o que permite:",
     tip: "Pense no papel real dos equipamentos de segurança — eles reduzem bastante o risco, mas não o eliminam totalmente, por isso o cuidado continua sendo importante.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Uma das vantagens das práticas corporais de aventura é que elas costumam acontecer em contato direto com:",
     tip: "Pense no tipo de ambiente onde essas práticas costumam acontecer, bem diferente de quadras ou academias fechadas.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Bernardo experimentou escalar uma parede artificial na escola, usando um equipamento preso ao corpo para garantir sua segurança em caso de queda. Como se chama esse equipamento?",
     tip: "Pense no equipamento preso à cintura e às pernas, conectado à corda, que protege em caso de queda.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Bernardo caminhou por uma trilha natural em uma mata, próxima da sua cidade, durante uma atividade da escola. Como se chama esse tipo de prática?",
     tip: "Pense na prática mais simples de todas, feita caminhando por caminhos naturais em meio à natureza.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Bernardo tentou se equilibrar em uma fita esticada entre duas árvores, mantendo o equilíbrio o máximo de tempo possível. Qual prática ele estava experimentando?",
     tip: "Pense na prática feita sobre uma fita esticada entre dois pontos fixos, exigindo bastante equilíbrio.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Bernardo praticou uma descida controlada por uma corda, de uma pequena estrutura, usando equipamentos de segurança apropriados. Qual prática ele estava fazendo?",
     tip: "Pense na prática que é o 'oposto' da escalada — em vez de subir, o praticante desce, controlado por uma corda.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Bernardo remou em um pequeno barco durante um passeio em um rio, controlando a embarcação com um remo. Qual prática ele estava fazendo?",
     tip: "Pense na prática feita em pequenos barcos, geralmente em rios, controlados com o auxílio de um remo.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes de tentar o rapel na escola, Bernardo verificou com o professor se todo o equipamento de segurança estava correto. Por que esse cuidado é tão importante?",
     tip: "Pense na natureza dessa prática — ela envolve descer de lugares altos, o que exige bastante atenção com a segurança.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Bernardo caminhou por uma trilha ecológica durante um passeio escolar, observando plantas e animais ao longo do caminho. Além de exercitar o corpo, essa prática ajuda a desenvolver:",
     tip: "Pense no benefício extra dessa prática, além do exercício físico — tem a ver com a relação do Bernardo com o meio ambiente.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes de qualquer prática de aventura na escola, Bernardo e seus colegas aprenderam sobre a importância de avaliar os riscos antes de começar a atividade. Como se chama essa avaliação prévia?",
     tip: "Pense no nome da avaliação que identifica e reduz possíveis perigos antes de qualquer atividade de aventura.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Bernardo usou equipamentos de segurança corretos durante uma atividade de escalada na escola, o que permitiu praticar a atividade com:",
     tip: "Pense no papel real dos equipamentos de segurança — eles reduzem bastante o risco, mas o cuidado ainda é necessário.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "Bernardo percebeu que as práticas corporais de aventura, como trilha, canoagem e escalada, costumam acontecer em contato direto com:",
     tip: "Pense no tipo de ambiente onde essas práticas costumam acontecer, bem diferente de quadras ou academias fechadas.",

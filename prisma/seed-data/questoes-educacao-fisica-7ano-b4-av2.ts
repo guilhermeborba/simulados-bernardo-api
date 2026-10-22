@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, o fundamento usado para encaminhar a bola ao atacante, geralmente com as duas mãos acima da cabeça, é chamado de:",
     tip: "Pense no fundamento que 'prepara' a bola para o ataque, feito com as mãos acima da cabeça.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "A prova de corrida mais curta e rápida do atletismo, como os 100 metros, é chamada de corrida de:",
     tip: "Pense na prova explosiva e rápida, que dura poucos segundos.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "O movimento feito antes da prática de exercícios, para preparar o corpo e evitar lesões, é chamado de:",
     tip: "Pense no momento inicial de uma atividade física, quando o corpo precisa 'esquentar'.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "A brincadeira em que um jogador precisa tocar nos outros para 'pegá-los' é conhecida popularmente como:",
     tip: "Pense na brincadeira mais simples e conhecida, em que alguém precisa correr e tocar nos outros.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "A capoeira é uma luta brasileira de origem:",
     tip: "Pense na origem ligada à história da cultura africana trazida ao Brasil.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Práticas de aventura',
     type: "multiple_choice",
     text: "A prática de subir superfícies rochosas ou artificiais, usando técnicas específicas e equipamentos de segurança, é chamada de:",
     tip: "Pense na prática de subir, usando as mãos e os pés, superfícies verticais.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "A prática regular de atividade física traz benefícios para a saúde, como o fortalecimento de:",
     tip: "Pense em todos os órgãos que ficam mais fortes com o exercício regular.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "No handebol, quantos jogadores de cada time ficam em quadra ao mesmo tempo (sem contar o goleiro)?",
     tip: "Pense em um time parecido em tamanho com o de futsal, mas com um jogador extra: o goleiro.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "No judô, o espaço onde as lutas acontecem, feito de um material emborrachado para amortecer as quedas, é chamado de:",
     tip: "Pense no espaço especial, com material mais fofo, usado especificamente nas lutas.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Beber água regularmente, especialmente durante e após a atividade física, é importante para evitar a:",
     tip: "Pense no que acontece quando o corpo perde muita água através do suor, sem repor.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Durante um jogo de voleibol, um jogador recebe o saque adversário com os braços unidos e estendidos para cima. Esse fundamento é chamado de:",
     tip: "Pense no fundamento usado especificamente para receber o saque, formando uma 'tábua' firme.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Um atleta corre uma distância bem longa, como 5 ou 10 quilômetros, controlando o ritmo da respiração ao longo de toda a prova. Essa prova é chamada de corrida de:",
     tip: "Pense na prova de longa distância, que exige resistência e controle de ritmo.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Um ginasta realiza giros, saltos e acrobacias diretamente sobre o colchão, sem usar nenhum aparelho. Essa modalidade é chamada de:",
     tip: "Pense no nome que descreve exatamente o 'lugar' onde os movimentos acontecem — sobre o colchão.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Em um jogo de queimada, quando um jogador é acertado pela bola, ele geralmente:",
     tip: "Pense no próprio nome do jogo — ele já dá uma pista sobre o que acontece quando alguém é acertado.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Na capoeira, o movimento de balanço constante do corpo, usado como base para os outros movimentos, é chamado de:",
     tip: "Pense no movimento característico da capoeira, feito de um lado para o outro.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Durante uma escalada em uma parede artificial, o praticante usa cordas e um equipamento preso ao corpo para garantir sua segurança em caso de queda. Esse equipamento é chamado de:",
     tip: "Pense no equipamento preso à cintura e às pernas, conectado à corda.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Uma pessoa que fica muitas horas sentada, sem se exercitar, e tem uma alimentação pouco equilibrada, corre maior risco de desenvolver:",
     tip: "Pense nos riscos reais desse estilo de vida pouco ativo combinado com má alimentação.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "No handebol, é proibido ficar com a bola na mão por mais de:",
     tip: "Pense em um tempo bem curto — o jogador precisa decidir rápido o que fazer com a bola.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "No atletismo, a prova em que o atleta usa uma vara flexível para se impulsionar e superar uma barra bem alta é chamada de salto com:",
     tip: "Pense no objeto especial usado nessa prova para ajudar o atleta a ganhar altura.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "No judô, antes e depois de uma luta, os praticantes fazem uma reverência chamada cumprimento, que demonstra:",
     tip: "Pense no significado desse gesto tradicional japonês — é o oposto de desrespeito ou agressividade.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Bernardo jogou vôlei na escola e recebeu o saque adversário com os braços unidos, estendidos para cima. Qual fundamento ele usou?",
     tip: "Pense no fundamento usado especificamente para receber o saque, formando uma 'tábua' firme com os braços.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Atletismo',
     type: "multiple_choice",
     text: "Bernardo correu uma prova bem mais longa, de 5 quilômetros, controlando o ritmo da respiração durante todo o percurso. Essa prova é chamada de corrida de:",
     tip: "Pense na prova de longa distância, que exige resistência e controle de ritmo.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes da aula de educação física, Bernardo fez corridas leves e alongamentos para preparar o corpo. Como se chama esse momento inicial?",
     tip: "Pense no momento que prepara o corpo antes do esforço físico principal.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Jogos e brincadeiras',
     type: "multiple_choice",
     text: "Bernardo brincou de pega-pega no recreio da escola e precisou tocar em uma árvore combinada para se salvar de ser pego. Como se chama essa área segura?",
     tip: "Pense no nome popular dado ao lugar seguro combinado antes do início da brincadeira.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Bernardo participou de uma roda de capoeira na escola, jogando no centro enquanto os colegas cantavam e tocavam o berimbau ao redor. Qual é a origem cultural dessa luta?",
     tip: "Pense na origem dessa luta brasileira, ligada à história da cultura africana trazida ao Brasil.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Bernardo experimentou escalar uma parede artificial na escola, usando um equipamento preso ao corpo para garantir sua segurança em caso de queda. Como se chama esse equipamento?",
     tip: "Pense no equipamento preso à cintura e às pernas, conectado à corda, que protege em caso de queda.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo passou a ficar muitas horas sentado jogando videogame, sem se exercitar, e isso preocupou seus pais. Qual problema esse hábito pode trazer, se mantido por muito tempo?",
     tip: "Pense nos riscos reais de ficar muito tempo sentado, sem se exercitar.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Bernardo jogou handebol como goleiro durante uma partida na escola. Qual é a função principal dessa posição?",
     tip: "Pense na função principal dessa posição, parecida com a do goleiro de futebol.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Bernardo experimentou o judô em uma aula especial e, antes de lutar, cumprimentou o colega com uma reverência. O que esse gesto representa?",
     tip: "Pense no verdadeiro significado desse gesto tradicional — é o oposto de desrespeito ou agressividade.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo aprendeu que equilibrar atividade física, alimentação saudável, hidratação e sono adequado forma a base para:",
     tip: "Pense no resultado geral de combinar todos esses bons hábitos juntos na vida de Bernardo.",

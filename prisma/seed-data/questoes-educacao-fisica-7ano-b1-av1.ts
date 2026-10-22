@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Quantos jogadores de cada time ficam em quadra ao mesmo tempo em uma partida oficial de voleibol?",
     tip: "Pense na formação clássica do vôlei, com jogadores divididos em linha de frente e linha de fundo, três de cada.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, o fundamento usado para iniciar a jogada, enviando a bola para o outro lado da quadra, é chamado de:",
     tip: "Pense no fundamento que 'abre' a jogada, feito de fora da quadra, enviando a bola para o adversário.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "No handebol, quantos jogadores de cada time ficam em quadra ao mesmo tempo (sem contar o goleiro)?",
     tip: "Pense em um time parecido em tamanho com o de futsal, mas com um jogador extra: o goleiro.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, o fundamento usado para encaminhar a bola ao atacante, geralmente com as duas mãos acima da cabeça, é chamado de:",
     tip: "Pense no fundamento que 'prepara' a bola para o ataque, feito com as mãos acima da cabeça.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, o fundamento usado para impedir o ataque adversário, pulando perto da rede com os braços para cima, é chamado de:",
     tip: "Pense no fundamento defensivo feito pulando perto da rede, com as mãos para cima, tentando parar a cortada do adversário.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "No handebol, é proibido ficar com a bola na mão por mais de:",
     tip: "Pense em um tempo bem curto — o jogador precisa decidir rápido o que fazer com a bola na mão.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, o fundamento usado para receber uma bola mais baixa, com os braços estendidos e unidos, é chamado de:",
     tip: "Pense no fundamento usado para receber o saque ou uma bola baixa, com os dois braços juntos formando uma 'tábua'.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "No handebol, o jogador que fica na posição de defender o gol é chamado de:",
     tip: "Pense na posição que fica dentro da área, protegendo o gol do próprio time, parecida com o futebol.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, a rede que divide a quadra tem uma altura diferente para jogos femininos e masculinos. No masculino, ela é mais:",
     tip: "Pense na diferença de altura média entre os atletas — isso influencia na altura oficial da rede em cada categoria.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "No handebol, quando um jogador anda ou corre com a bola sem quicá-la, isso é chamado de infração conhecida como:",
     tip: "Pense em uma regra parecida com a do basquete, que limita quantos passos o jogador pode dar sem quicar a bola.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Durante um jogo de voleibol, um jogador recebe o saque adversário com os braços unidos e estendidos para cima. Esse fundamento é chamado de:",
     tip: "Pense no fundamento usado especificamente para receber o saque, com os braços formando uma 'tábua' firme.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Em uma partida de handebol, um jogador segura a bola e dá vários passos sem quicá-la no chão. Qual infração ele cometeu?",
     tip: "Pense na regra que limita os passos sem quicar a bola — ela tem um nome específico, já estudado antes.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, depois que a equipe recebe o saque, geralmente o próximo toque é o levantamento, feito para preparar qual fundamento?",
     tip: "Pense na sequência lógica do vôlei: recepção, levantamento e depois o golpe forte na bola. Qual fundamento vem depois do levantamento?",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Modalidades esportivas',
     type: "multiple_choice",
     text: "Em uma partida de handebol, dois jogadores adversários pulam perto da rede para impedir um ataque com os braços para cima. Isso é chamado de:",
     tip: "Pense no fundamento defensivo feito com salto e braços para cima, tentando impedir o arremesso adversário.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, quando um time comete um erro, como deixar a bola cair no próprio lado, o ponto é marcado para:",
     tip: "Pense em como funciona a contagem de pontos no vôlei moderno — todo erro, de qualquer time, gera ponto para o outro lado.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Em uma partida de handebol, o jogador que costuma ficar próximo à área do goleiro adversário, de costas para o gol, geralmente ocupa a posição de:",
     tip: "Pense na posição que fica bem próxima à área adversária, de costas para o gol, tentando criar espaço para os companheiros.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, para que uma cortada (ataque forte) seja bem-sucedida, geralmente o levantamento precisa ser feito de forma:",
     tip: "Pense em como o atacante precisa da bola numa altura e posição exatas para conseguir golpeá-la com força e precisão.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Em uma partida de handebol, após o goleiro defender a bola, ele pode iniciar um contra-ataque rápido lançando a bola para um companheiro. Essa jogada rápida é chamada de:",
     tip: "Pense no nome que descreve uma jogada rápida feita logo depois de uma defesa, aproveitando a desorganização do adversário.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "No voleibol, o fundamento usado quando um jogador salta e golpeia a bola com força para o campo adversário é chamado de:",
     tip: "Pense no fundamento ofensivo mais forte do vôlei, feito com um salto e um golpe potente na bola.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Em uma partida de handebol, a linha que o atacante não pode ultrapassar ao arremessar, próxima à área do goleiro, é chamada de:",
     tip: "Pense na linha que marca o limite da área do goleiro, que os jogadores de linha não podem invadir.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Bernardo jogou vôlei na escola e recebeu o saque adversário com os braços unidos, estendidos para cima. Qual fundamento ele usou?",
     tip: "Pense no fundamento usado especificamente para receber o saque, formando uma 'tábua' firme com os braços.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Bernardo jogou handebol e, sem perceber, andou com a bola na mão por mais tempo do que o permitido sem quicá-la. Qual infração ele cometeu?",
     tip: "Pense na regra que limita os passos com a bola na mão sem quicar — foi estudada em questões anteriores desta prova.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Durante um jogo de vôlei, Bernardo pulou perto da rede com os braços para cima para tentar impedir o ataque do time adversário. Qual fundamento ele usou?",
     tip: "Pense no fundamento defensivo feito perto da rede, com salto e braços para cima.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Bernardo jogou handebol como goleiro durante uma partida na escola. Qual é a função principal dessa posição?",
     tip: "Pense na função principal dessa posição, parecida com a do goleiro de futebol.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Bernardo levantou a bola com as duas mãos acima da cabeça para preparar o ataque de um colega durante o jogo de vôlei. Qual fundamento ele usou?",
     tip: "Pense no fundamento que 'prepara' a bola para o ataque, feito com as mãos acima da cabeça.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Bernardo fez um saque forte no início de uma jogada de vôlei, enviando a bola para o lado adversário. Qual fundamento ele usou?",
     tip: "Pense no fundamento que 'abre' cada jogada no vôlei, feito de fora da quadra.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Durante o jogo de handebol, Bernardo arremessou a bola para o gol de uma posição próxima à área do goleiro, mas sem ultrapassar a linha permitida. Qual linha ele respeitou?",
     tip: "Pense na linha em formato de semicírculo que protege a área do goleiro, estudada em questões anteriores.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Bernardo jogou como pivô em uma partida de handebol, ficando de costas para o gol adversário, próximo à área. Qual é a característica dessa posição?",
     tip: "Pense na posição que já foi explicada: fica perto do gol adversário, criando espaço e recebendo marcação forte.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Voleibol',
     type: "multiple_choice",
     text: "Bernardo tentou fazer uma cortada no vôlei, saltando e golpeando a bola com força para o campo adversário. Qual fundamento ele usou?",
     tip: "Pense no fundamento ofensivo mais potente do vôlei, feito com salto e golpe forte na bola.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Handebol',
     type: "multiple_choice",
     text: "Depois de defender a bola, o goleiro do time de Bernardo lançou rapidamente a bola para um companheiro avançar pela quadra. Como se chama essa jogada rápida?",
     tip: "Pense no nome da jogada rápida feita logo após uma defesa, aproveitando a desorganização do adversário.",

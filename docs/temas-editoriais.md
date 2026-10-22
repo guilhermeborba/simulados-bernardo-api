@@ -985,6 +985,35 @@ B1/AV1, B2/AV2 e B3/AV1 têm três temas; B1/AV2, dois; B2/AV1, quatro; B3/AV2 e
 
 As formulações anteriores sobre toques do voleibol e alongamento/recuperação estão na [issue web #105](https://github.com/guilhermeborba/simulados-bernardo/issues/105), para revisão separada. Os conteúdos e gabaritos foram preservados; os temas não validam essas formulações.
 
+### Educação Física — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Alimentação saudável | Variedade alimentar, nutrientes, moderação, hidratação e reposição de líquidos nas situações propostas. |
+| Atletismo | Corridas, saltos, lançamentos, arremessos, revezamentos, técnicas e reação à largada. |
+| Capacidades físicas | Força, resistência, flexibilidade, coordenação e ritmo nas atividades. |
+| Capoeira | Origem, roda, ginga, instrumentos, música e dimensões culturais da prática. |
+| Ginástica | Tipos, finalidades, aparelhos, solo, acrobacias e apresentações participativas. |
+| Handebol | Jogadores, posições, fundamentos, posse, passos, área e estratégias. |
+| Jogos e brincadeiras | Brincadeiras tradicionais, materiais, nomes, regras, transmissão e patrimônio cultural. |
+| Lutas | Judô, técnicas, espaços, graduação, princípios, regras, valores e diferença entre luta e briga. |
+| Modalidades esportivas | Reconhecimento e comparação de características esportivas quando a modalidade não pode ser presumida pelo comando. |
+| Postura | Posições corporais, coluna e pausas em atividades sentadas. |
+| Práticas de aventura | Modalidades, ambientes naturais e urbanos, técnica, equilíbrio e relações com a natureza. |
+| Preparação e segurança | Aquecimento, desaquecimento, limites, avaliação dos riscos, equipamentos, supervisão e cuidados. |
+| Regras e convivência | Estratégias coletivas, cooperação e colaboração em jogos. |
+| Saúde e bem-estar | Benefícios das práticas, hábitos combinados, sedentarismo, desenvolvimento e qualidade de vida. |
+| Sono e descanso | Recuperação, energia, concentração e consequências da privação de sono. |
+| Voleibol | Jogadores, rede, fundamentos, recepção, levantamento, ataque e pontuação. |
+
+Lote E04: **240 questões em oito simulados gerais**, em `questoes-educacao-fisica-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 16 temas; os nomes do 6º ano foram reaproveitados quando o conteúdo corresponde. Alimentação saudável mantém o nome de Ciências. Atletismo, Práticas de aventura e Sono e descanso agrupam os novos conteúdos. Classificação individual por mapa manual; somente `theme` foi acrescentado.
+
+Os nomes das modalidades são usados quando o contexto já as fornece e não resolvem a tarefa. B1/AV1, ID 14, combina o nome handebol com a descrição de bloqueio junto à rede; usa **Modalidades esportivas**, sem corrigir ou presumir a modalidade. Identificar provas mantém **Atletismo**; reconhecer capacidades mantém **Capacidades físicas**; identificar práticas como escalada, rapel ou slackline mantém **Práticas de aventura**. **Preparação e segurança** não antecipa aquecimento, gestão de risco ou o equipamento solicitado. B2/AV1, ID 4, usa **Saúde e bem-estar**, sem fornecer alongamento; os momentos finais dos IDs 19 e 27 usam o grupo amplo de preparação e cuidados. Perguntas sobre tipos de patrimônio, cooperação ou nomes de brincadeiras mantêm grupos amplos.
+
+B1/AV1 tem três temas; B1/AV2 concentra um; B2/AV1, quatro; B2/AV2 e B3/AV1, três cada; B3/AV2, dois; B4/AV1, cinco; B4/AV2 revisa onze. A quantidade acompanha o conteúdo, sem subdivisões artificiais. Todos os campos anteriores e a estrutura foram preservados exatamente.
+
+As formulações de regras, atletismo, bets/futebol de botão e alongamento estão na [issue web #120](https://github.com/guilhermeborba/simulados-bernardo/issues/120), para revisão separada, incluindo continuação dos conceitos já registrados na #105. A classificação temática não valida essas formulações nem constitui orientação clínica.
+
 ### Inglês — 6º ano
 
 | Tema | Abrange |

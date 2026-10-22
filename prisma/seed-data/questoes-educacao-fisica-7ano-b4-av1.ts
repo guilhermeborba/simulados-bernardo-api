@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "A prática regular de atividade física traz benefícios para a saúde, como o fortalecimento de:",
     tip: "Pense em todos os órgãos e partes do corpo que ficam mais fortes com o exercício regular, não só uma parte isolada.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Uma alimentação equilibrada, com frutas, verduras, legumes e outros alimentos variados, é fundamental para:",
     tip: "Pense no papel real da comida no nosso corpo — ela fornece o combustível e os materiais que o corpo precisa para funcionar bem.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Beber água regularmente, especialmente durante e após a atividade física, é importante para evitar a:",
     tip: "Pense no que acontece quando o corpo perde muita água através do suor, sem repor — isso tem um nome específico.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Sono e descanso',
     type: "multiple_choice",
     text: "Dormir bem e ter um sono adequado é fundamental para que o corpo consiga:",
     tip: "Pense no que acontece com o corpo enquanto dormimos — é um momento importante de descanso e recuperação, não de perda de condicionamento.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "O estilo de vida de uma pessoa que não pratica atividades físicas regularmente e passa muito tempo parada é chamado de:",
     tip: "Pense no nome que descreve o estilo de vida de quem fica muito tempo parado, sem se exercitar.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Praticar atividade física regularmente ajuda a prevenir diversos problemas de saúde, como:",
     tip: "Pense nos problemas de saúde mais comumente associados à falta de atividade física, bem diferentes de visão ou dentes.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Postura',
     type: "multiple_choice",
     text: "Manter uma postura correta ao sentar e ao caminhar ajuda a prevenir problemas na:",
     tip: "Pense na parte do corpo diretamente afetada por uma postura incorreta ao longo do tempo, principalmente ao ficar muito tempo sentado.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Alimentos ricos em açúcar e gordura, quando consumidos em excesso, podem contribuir para problemas de saúde, por isso devem ser consumidos:",
     tip: "Pense no equilíbrio — não é proibir totalmente esses alimentos, mas sim consumi-los com cuidado, dentro de uma dieta variada.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Qualidade de vida está relacionada a um conjunto de hábitos saudáveis, como alimentação equilibrada, atividade física regular e:",
     tip: "Pense em tudo que contribui para uma vida saudável de forma equilibrada — não é só uma coisa isolada, mas vários hábitos juntos.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Postura',
     type: "multiple_choice",
     text: "Fazer pausas durante atividades que exigem ficar muito tempo sentado, como estudar, ajuda a:",
     tip: "Pense no benefício real de se levantar e se mover de tempos em tempos, em vez de ficar parado por horas seguidas.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Um aluno que pratica esportes na escola, se alimenta de forma equilibrada e dorme bem durante a noite está adotando hábitos relacionados a:",
     tip: "Pense no conjunto desses hábitos juntos — eles representam um estilo de vida saudável de forma geral, não só uma coisa isolada.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Durante uma atividade física intensa, é comum o corpo perder líquidos através do suor. Por isso, é importante:",
     tip: "Pense no que o corpo precisa para repor a água perdida através do suor, de forma constante, não só depois do exercício.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Uma pessoa que fica muitas horas sentada, sem se exercitar, e tem uma alimentação pouco equilibrada, corre maior risco de desenvolver:",
     tip: "Pense nos riscos reais desse estilo de vida pouco ativo combinado com má alimentação, já discutidos nesta prova.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Alimentos como frutas, verduras e legumes são importantes na alimentação porque fornecem:",
     tip: "Pense no verdadeiro papel nutricional desses alimentos no corpo, além do sabor.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Sono e descanso',
     type: "multiple_choice",
     text: "Um aluno que dorme poucas horas por noite, regularmente, pode apresentar como consequência:",
     tip: "Pense no que realmente acontece quando o corpo não descansa o suficiente — é o oposto de melhora ou aumento de energia.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Praticar atividades físicas de forma equilibrada, sem excessos, e respeitando os limites do corpo, é importante para:",
     tip: "Pense no verdadeiro objetivo de respeitar os limites do corpo durante o exercício — é justamente para evitar problemas, não causá-los.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Manter uma rotina com horários equilibrados entre estudo, atividade física, alimentação e descanso contribui para:",
     tip: "Pense no benefício real de organizar bem o tempo entre essas diferentes atividades importantes do dia a dia.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Uma alimentação balanceada, aliada à prática regular de atividade física, ajuda o corpo a manter um:",
     tip: "Pense no resultado positivo esperado quando se combina boa alimentação com exercício regular.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Crianças e adolescentes que praticam atividades físicas regularmente na escola e em casa tendem a ter:",
     tip: "Pense no benefício esperado da prática regular de atividades físicas desde a infância e adolescência.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "O equilíbrio entre atividade física, alimentação saudável, hidratação e sono adequado forma a base para:",
     tip: "Pense no resultado geral de combinar todos esses bons hábitos juntos, não apenas focado em competições.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo passou a praticar esportes na escola, se alimentar de forma mais equilibrada e dormir bem todas as noites. Esses hábitos estão relacionados a:",
     tip: "Pense no conjunto desses hábitos juntos — eles representam um estilo de vida saudável de forma geral.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Durante uma atividade física intensa na escola, Bernardo suou bastante e sentiu sede. O que ele deveria fazer?",
     tip: "Pense no que o corpo de Bernardo precisa repor depois de perder líquido através do suor.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo passou a ficar muitas horas sentado jogando videogame, sem se exercitar, e isso preocupou seus pais. Qual problema esse hábito pode trazer, se mantido por muito tempo?",
     tip: "Pense nos riscos reais de ficar muito tempo sentado, sem se exercitar, já discutidos nesta prova.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Bernardo passou a comer mais frutas, verduras e legumes, incentivado pelos pais. Qual é o principal benefício desses alimentos?",
     tip: "Pense no verdadeiro papel nutricional desses alimentos para o corpo de Bernardo, além do sabor.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Sono e descanso',
     type: "multiple_choice",
     text: "Bernardo dormiu poucas horas durante várias noites seguidas e, no dia seguinte, sentiu dificuldade de se concentrar na escola. Qual foi a consequência da falta de sono?",
     tip: "Pense no que realmente acontece quando o corpo de Bernardo não descansa o suficiente durante a noite.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Bernardo aprendeu que praticar atividades físicas sem exagerar, respeitando os limites do seu corpo, é importante para:",
     tip: "Pense no verdadeiro objetivo de respeitar os limites do corpo durante o exercício — é para evitar problemas, não causá-los.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo organizou uma rotina equilibrada entre os estudos, a prática de esportes, a alimentação e o descanso. Isso contribui para:",
     tip: "Pense no benefício real de Bernardo organizar bem seu tempo entre essas diferentes atividades importantes.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo e sua família decidiram adotar uma alimentação mais equilibrada, junto com a prática regular de exercícios. Qual é o resultado esperado desses hábitos combinados?",
     tip: "Pense no resultado positivo esperado quando se combina boa alimentação com exercício regular.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo e seus colegas de escola, que praticam atividades físicas regularmente, tendem a apresentar:",
     tip: "Pense no benefício esperado da prática regular de atividades físicas desde a infância e adolescência.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo aprendeu que equilibrar atividade física, alimentação saudável, hidratação e sono adequado forma a base para:",
     tip: "Pense no resultado geral de combinar todos esses bons hábitos juntos na vida de Bernardo.",
