@@ -1,6 +1,7 @@
 export const questoesArte7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "As cores que não podem ser formadas pela mistura de outras cores são chamadas de cores:",
     tip: "Pense nas cores \"básicas\", aquelas de onde todas as outras nascem, misturando-as.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "As cores primárias são o vermelho, o azul e o:",
     tip: "As outras três opções são formadas pela mistura de cores — só falta uma cor \"pura\" na lista.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Quando misturamos duas cores primárias, criamos uma cor:",
     tip: "Se a cor \"nasce\" da mistura de duas primárias, ela não pode ser primária também. Qual é o nome dessa categoria?",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Misturando azul e amarelo, obtemos a cor:",
     tip: "Pense na cor das folhas e da grama — ela nasce exatamente dessa mistura.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Misturando vermelho e amarelo, obtemos a cor:",
     tip: "Pense na cor de uma fruta cítrica bem conhecida que tem justamente esse nome.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Misturando vermelho e azul, obtemos a cor:",
     tip: "Pense na cor de uma uva madura ou de uma flor de lavanda — ela nasce dessa combinação.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "As cores que passam a sensação de calor, como vermelho, laranja e amarelo, são chamadas de cores:",
     tip: "Pense no fogo e no sol — essas cores lembram esses elementos quentes.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "As cores que passam a sensação de frescor, como azul, verde e roxo, são chamadas de cores:",
     tip: "Pense no mar, no gelo e nas folhas — essas cores lembram elementos frescos e frios.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "O branco e o preto, junto com o cinza, são chamados de cores:",
     tip: "Essas cores não são nem quentes nem frias — elas ficam \"no meio\", sem causar essas sensações. Qual é o nome dessa categoria?",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "O círculo que mostra todas as cores organizadas e suas relações é chamado de círculo:",
     tip: "A palavra vem de \"cromo\", que tem relação com cor. Qual opção tem essa raiz?",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Um artista quer pintar um pôr do sol usando cores que transmitam sensação de calor. Quais cores ele deve escolher?",
     tip: "Pense nas cores que lembram o sol se pondo no horizonte — são tons quentes, como fogo.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Um artista quer pintar um lago gelado e passar uma sensação de frescor. Quais cores combinam melhor?",
     tip: "Pense nas cores frias, que lembram água e gelo.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Se um pintor misturar as três cores primárias (vermelho, azul e amarelo) em partes iguais, ele tende a obter uma cor:",
     tip: "Quando misturamos muitas cores diferentes juntas, o resultado costuma ficar \"sujo\" e escuro, não vibrante.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Qual par de cores é formado por duas cores primárias?",
     tip: "Lembre-se: as primárias são vermelho, azul e amarelo. Qual par da lista tem só essas duas cores \"puras\"?",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Qual destas é uma cor secundária?",
     tip: "Três dessas opções são primárias (não podem ser formadas por mistura). Só uma delas nasce da mistura de duas outras.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Um quadro pintado principalmente com azul, verde e roxo passa uma sensação geral de:",
     tip: "Essas três cores fazem parte do mesmo grupo — pense em qual sensação elas costumam transmitir juntas.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Para pintar uma fruta laranja, como uma tangerina, quais cores primárias um artista pode misturar?",
     tip: "Pense em como se forma a cor laranja — ela é secundária, nascida da mistura de duas primárias específicas.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Em um quadro, usar apenas tons de cinza, preto e branco cria um efeito visual chamado de obra:",
     tip: "Pense no nome que se dá a uma obra sem cores coloridas, usando só tons de cinza, como uma foto antiga.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Qual destas cores é considerada neutra?",
     tip: "As outras três fazem parte do grupo das cores quentes ou frias. Só uma delas não entra em nenhum desses dois grupos.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "No círculo cromático, as cores quentes e frias ficam organizadas de forma a mostrar que elas são:",
     tip: "Pense em como o calor e o frio são sensações contrárias uma da outra — no círculo cromático, as cores seguem essa mesma lógica.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo está pintando um quadro de uma fogueira e quer que ele pareça bem quentinho. Quais cores ele deve usar?",
     tip: "Pense nas cores que lembram o fogo de verdade — são bem quentes.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo misturou tinta azul com tinta amarela em seu desenho. Qual cor ele deve ter obtido?",
     tip: "Pense na cor das árvores e das folhas — ela nasce exatamente dessa combinação de azul e amarelo.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo quer pintar o mar e o céu usando cores que transmitam uma sensação de calma e frescor. Quais cores combinam melhor?",
     tip: "Pense nas cores frias, que lembram água e natureza — elas passam calma.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo aprendeu que vermelho, azul e amarelo são cores que não podem ser formadas pela mistura de outras cores. Como essas cores são chamadas?",
     tip: "Lembre-se: são as cores \"base\", de onde todas as outras nascem pela mistura.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo pintou um desenho usando apenas preto, branco e cinza, sem nenhuma outra cor. Esse tipo de obra é chamada de:",
     tip: "Pense no nome usado para obras feitas só com tons de cinza, sem cores coloridas de verdade.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo misturou tinta vermelha com tinta azul para pintar as uvas do seu desenho. Qual cor ele obteve?",
     tip: "Pense na cor de uma uva madura — ela nasce exatamente dessa mistura de vermelho e azul.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo quer saber qual é o nome da cor que resulta da mistura de duas cores primárias. Qual é esse nome?",
     tip: "Se ela \"nasce\" da mistura de duas primárias, ela não pode também ser primária. Qual é o nome certo dessa categoria?",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo organizou um desenho mostrando todas as cores em um círculo, para estudar como elas se relacionam. Como se chama esse círculo?",
     tip: "A palavra tem a ver com \"cor\" — pense em qual opção tem essa relação no nome.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo pintou uma floresta usando bastante verde e também um pouco de azul. Essas cores passam uma sensação de:",
     tip: "Pense no que essas cores lembram na natureza — florestas, água, ar puro.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo aprendeu que preto, branco e cinza não são consideradas cores quentes nem frias. Como elas são chamadas?",
     tip: "Essas cores ficam \"no meio\", sem transmitir nem calor nem frescor. Qual é o nome dessa categoria especial?",

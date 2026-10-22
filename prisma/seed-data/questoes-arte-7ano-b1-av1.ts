@@ -1,6 +1,7 @@
 export const questoesArte7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "O elemento mais simples da linguagem visual, que dá origem a todos os outros, é chamado de:",
     tip: "Pense no menor elemento que você pode desenhar: uma simples marquinha com o lápis no papel. É dessa marca que tudo começa!",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando vários pontos ou movimentos se juntam formando um traço contínuo, chamamos isso de:",
     tip: "Pense em quando você arrasta o lápis no papel sem parar. Aquele traço longo que aparece tem um nome bem conhecido.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "As linhas podem ser retas, curvas, onduladas ou:",
     tip: "As outras opções não têm nada a ver com desenho — pense em formatos possíveis para uma linha no papel, como um raio!",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando linhas se unem e formam um contorno fechado, criamos uma:",
     tip: "Pense em desenhar um círculo: você fecha a linha e cria um contorno. Isso tem um nome na arte visual.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "As formas geométricas básicas são o círculo, o quadrado e o:",
     tip: "Pense nas formas mais simples que você aprendeu em matemática — uma delas tem três lados.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "A sensação que percebemos ao tocar uma superfície (lisa, áspera, rugosa) é chamada de:",
     tip: "Pense em passar a mão em uma pedra ou em uma folha de papel. O que você sente ao tocar tem um nome específico na arte.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "A impressão de profundidade e tridimensionalidade em uma obra de arte é chamada de:",
     tip: "Pense em um desenho que parece \"saltar do papel\", como se tivesse altura, largura e profundidade.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "O elemento visual que permite distinguir as cores umas das outras é chamado de:",
     tip: "As outras opções são sentidos diferentes (audição, paladar, olfato). Qual elemento tem a ver com o que vemos com os olhos?",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "O lugar vazio ou ocupado em uma obra, onde os elementos visuais se organizam, é chamado de:",
     tip: "Pense na folha de papel inteira, com as partes desenhadas e as partes em branco. Como se chama esse \"lugar\" todo?",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando um artista usa luz e sombra em um desenho, ele está criando a sensação de:",
     tip: "Pense em uma bola desenhada com um lado mais claro e outro mais escuro. Isso faz ela parecer redonda de verdade, com volume.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Uma obra de arte feita apenas com linhas retas e ângulos, sem curvas, transmite uma sensação de:",
     tip: "Pense em como uma linha reta parece \"dura\" e certinha, diferente de uma linha curva, que parece mais suave.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando um artista desenha uma linha ondulada e sinuosa, geralmente ele quer transmitir uma sensação de:",
     tip: "Pense em como uma onda do mar se move. Uma linha que imita isso passa uma sensação parecida.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Em uma pintura, o céu azul e o mar foram desenhados usando principalmente qual elemento visual para diferenciar os dois?",
     tip: "Pense no que faz o céu parecer diferente do mar em um desenho, mesmo que os dois tenham formas parecidas (grandes áreas).",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Um artista que desenha uma pedra com muitos riscos e marcas irregulares está representando qual elemento visual?",
     tip: "Pense na sensação de tocar uma pedra de verdade — é lisa ou áspera? Esse é o elemento que o artista quer mostrar com os riscos.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando olhamos para um desenho de uma bola com sombra em um dos lados, percebemos que ela tem:",
     tip: "A sombra é o que faz o círculo parecer uma bola de verdade, com profundidade, e não só um desenho plano.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "As formas podem ser classificadas em geométricas (regulares) e:",
     tip: "Pense nas formas da natureza, como uma nuvem ou uma folha — elas não são quadradas nem redondas perfeitas. Têm um nome especial.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Em uma obra de arte, o espaço vazio, sem elementos desenhados, é chamado de espaço:",
     tip: "Se o espaço com desenho é \"positivo\", pense em qual palavra seria o oposto, usada para o espaço vazio.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando várias formas e cores se organizam de forma equilibrada dentro de uma obra, dizemos que ela tem uma boa:",
     tip: "Pense na palavra que descreve \"como os elementos foram organizados juntos\" dentro do desenho.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Uma linha fina e delicada transmite uma sensação diferente de uma linha:",
     tip: "Pense no contrário de \"fina e delicada\" — uma linha pesada e marcante.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "O ponto, quando repetido várias vezes seguindo um padrão, pode formar uma:",
     tip: "Pense em muitos pontinhos próximos formando um desenho que parece ter uma superfície diferente. Isso cria um efeito visual conhecido.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo está desenhando um gato e decide usar apenas linhas curvas e suaves para o corpo do animal. Qual sensação ele provavelmente quer transmitir?",
     tip: "Linhas curvas costumam parecer mais suaves do que linhas retas e duras. Pense nessa diferença.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo pintou uma pedra usando muitas marcas e riscos irregulares para parecer rugosa. Qual elemento visual ele representou?",
     tip: "Pense na sensação que esses riscos tentam imitar ao toque: é macio ou áspero? Esse é o elemento visual.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo desenhou um círculo e, para fazer parecer uma bola de futebol com volume, ele adicionou:",
     tip: "Pense em como fazemos um círculo parecer uma esfera de verdade — usando luz e uma sombra de um dos lados.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo quer pintar o céu e o mar de forma que fiquem bem diferentes um do outro. Qual elemento visual ele deve usar principalmente?",
     tip: "Pense no que diferencia visualmente o céu do mar em uma pintura, mesmo que os dois ocupem grandes áreas parecidas.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo fez um desenho deixando uma parte da folha completamente em branco, sem nenhum elemento. Essa parte vazia é chamada de espaço:",
     tip: "Lembre-se: o espaço com desenho é \"positivo\". A parte vazia, sem nada, tem o nome oposto.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo juntou vários pontinhos coloridos para formar o desenho de uma flor. Esse elemento inicial que ele usou é chamado de:",
     tip: "Pense no elemento mais simples de todos, a primeira marquinha que ele fez no papel antes de formar a flor.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo desenhou uma montanha usando linhas retas e ângulos bem marcados. Que sensação essa escolha de linhas transmite?",
     tip: "Linhas retas e ângulos geralmente dão uma sensação de solidez, diferente de linhas curvas e suaves.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo organizou os elementos do seu desenho (formas, cores e linhas) de um jeito equilibrado e harmonioso. Isso mostra que ele teve cuidado com a:",
     tip: "Pense na palavra que descreve \"a organização geral de todos os elementos juntos\" em uma obra de arte.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo uniu várias linhas e formou um contorno fechado para desenhar uma estrela. O que ele criou é chamado de:",
     tip: "Quando uma linha se fecha, formando um contorno completo, esse resultado tem um nome específico na arte visual.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo quer que seu desenho de uma bola pareça redonda e tridimensional, não apenas um círculo plano. Para isso, ele precisa trabalhar o elemento visual chamado:",
     tip: "Pense no elemento que dá a sensação de profundidade e de \"três dimensões\" a um desenho, fazendo-o parecer real.",

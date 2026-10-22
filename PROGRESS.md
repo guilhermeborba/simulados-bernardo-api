@@ -575,6 +575,15 @@ Validação editorial: `npm run seed:dry-run` e inventário JSON aprovados; tema
 As generalizações e os termos anteriores sobre espaços do teatro grego, realismo dos retratos romanos, comparação de materiais e desenvolvimento rupestre/egípcio estão na [issue web #103](https://github.com/guilhermeborba/simulados-bernardo/issues/103), com referências de museus/UNESCO e critérios para revisão separada. Os campos anteriores foram preservados; a classificação temática não valida essas formulações de história da arte. Quizzes (#90) continuam adiados conforme orientação do responsável. Não houve alteração de contrato, seed em banco existente, deploy ou operação em produção.
 
 
+### Arte do 7º ano — E04 (22/10/2026)
+
+Lote de oito simulados gerais/240 questões, classificado individualmente com vocabulário fechado de 15 temas em `docs/temas-editoriais.md`. Somente `theme` foi acrescentado; fontes sem essas linhas e dados por export idênticos à main. Identificar elementos visuais, cores, elementos musicais, instrumentos, elementos cênicos, danças ou personagens mantém rótulos amplos. Reconhecer o conceito de patrimônio usa Cultura e identidade. Unidades concentradas mantêm um ou dois temas; a revisão anual articula dez. Compasso e precisão dos comandos de patrimônio e narrativa folclórica estão na [issue web #118](https://github.com/guilhermeborba/simulados-bernardo/issues/118), sem alteração dos campos anteriores.
+
+Este é um dos três lotes independentes autorizados no pacote História, Geografia e Arte/7º ano. Base integrada: api#250 (Ciências/7º ano), 6.989/23.444 questões com tema, 233/780 simulados completos. Este lote acrescenta 240 questões e oito simulados completos; após integrar os três, a expectativa conjunta é 7.709/23.444 e 257/780, com 1.440/1.920 questões do 7º ano em 48/64 simulados. E04 segue parcial; depois restam Educação Física e Inglês/7º ano e demais anos/públicos.
+
+Validação do lote: `npm run seed:dry-run`, inventário JSON, vocabulário, ausência de resposta literal, preservação byte a byte das fontes e comparação dos dados por export aprovados. Demais entradas, cobertura e metadados preservados; testes completos registrados no PR. Quizzes #90 continuam adiados. Sem mudança de contrato ou operação em produção.
+
+
 ### Educação Física do 6º ano — E04 (21/10/2026)
 
 Arte do 6º ano foi integrada em api#245/web#104. Este lote acrescenta somente `theme` às 240 questões dos oito simulados gerais de Educação Física do 6º ano, sem entradas privadas adicionais. É o primeiro lote da disciplina na E04: 18 nomes e critérios em `docs/temas-editoriais.md`, reaproveitando Saúde e bem-estar de Ciências. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

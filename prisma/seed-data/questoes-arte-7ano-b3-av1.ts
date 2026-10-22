@@ -1,6 +1,7 @@
 export const questoesArte7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "A pessoa que representa um personagem em uma peça de teatro é chamada de:",
     tip: "Pense em quem realmente sobe no palco e interpreta a história na frente do público.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "O personagem que o ator interpreta durante a peça de teatro é construído a partir de um:",
     tip: "Pense no 'guia escrito' que conta a história, com as falas e ações de cada personagem, usado como base da peça.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "O conjunto de elementos visuais que representam o lugar onde a cena acontece (como móveis, pano de fundo, objetos) é chamado de:",
     tip: "Pense no 'lugar' onde a história se passa — uma sala, uma floresta, um castelo — tudo montado no palco.",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "As roupas e acessórios usados pelos atores para representar seus personagens são chamados de:",
     tip: "Pense nas roupas especiais que um ator veste para parecer um personagem diferente de si mesmo.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "A pessoa responsável por organizar a peça, orientar os atores e decidir como a história será contada no palco é chamada de:",
     tip: "Pense em quem está 'por trás das câmeras', orientando tudo, mas que normalmente não aparece atuando no palco.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "O espaço onde os atores se apresentam durante a peça de teatro é chamado de:",
     tip: "Pense no espaço elevado, geralmente na frente do teatro, onde a ação da peça acontece.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "As pessoas que assistem a uma peça de teatro são chamadas de:",
     tip: "Pense em quem está sentado nas cadeiras, observando a apresentação, e não em quem está atuando.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "A maquiagem usada pelos atores no teatro ajuda a:",
     tip: "Pense em como a maquiagem pode mudar o rosto de um ator, fazendo ele parecer mais velho, assustador ou diferente.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Os efeitos sonoros e músicas usados durante uma peça de teatro são chamados de:",
     tip: "Pense nos sons de trovão, passos ou músicas que ajudam a criar o clima da cena, sem aparecer visualmente.",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Quando os atores criam uma cena sem um roteiro pronto, inventando as falas e ações no momento, isso é chamado de:",
     tip: "Pense em criar algo 'na hora', sem planejamento prévio, usando a criatividade no momento.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Durante uma peça, o técnico de iluminação acende uma luz forte e colorida sobre o palco para criar um clima de suspense. Ele está trabalhando com qual elemento teatral?",
     tip: "Pense no elemento que usa luzes para criar diferentes climas e destacar partes do palco.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Em uma peça de comédia, os atores usam exageros na voz e no corpo para fazer o público rir. Esse exagero faz parte da:",
     tip: "Pense em como o ator usa o corpo e a voz, de forma exagerada, para transmitir a comédia da cena.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Antes da apresentação, os atores decoram suas falas e praticam várias vezes a peça inteira. Esse processo é chamado de:",
     tip: "Pense no momento de 'treino' antes da apresentação de verdade, quando tudo ainda pode ser ajustado.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Uma peça de teatro que conta uma história triste, com conflitos sérios e emocionantes, pertence ao gênero:",
     tip: "Pense em uma história que faz o público ficar emocionado ou até triste, ao contrário de uma peça que faz rir.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Uma peça de teatro cheia de situações engraçadas, feita para fazer o público rir, pertence ao gênero:",
     tip: "Pense no gênero que tem como objetivo principal arrancar risadas do público com situações divertidas.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Quando um ator muda a forma de falar, o tom de voz e os gestos para parecer outra pessoa, ele está trabalhando a:",
     tip: "Pense em como o ator 'se transforma' em outra pessoa usando voz, gestos e emoções diferentes dos seus próprios.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "O local onde os atores se preparam, trocam de roupa e fazem a maquiagem antes de entrar no palco é chamado de:",
     tip: "Pense no 'quarto' dos bastidores onde os atores se vestem e se maquiam antes de atuar.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Durante a peça, um ator se esconde atrás de uma cortina lateral, esperando sua hora de entrar em cena. Esse espaço é chamado de:",
     tip: "Pense no espaço lateral, perto do palco, de onde os atores entram e saem durante a apresentação.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Um grupo de teatro decide contar uma história usando apenas o corpo e os gestos, sem falar nenhuma palavra. Esse tipo de teatro é chamado de:",
     tip: "Pense em contar uma história só com o corpo, sem usar nenhuma palavra falada — isso tem um nome especial.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Quando a peça termina, os atores se posicionam no palco e o público bate palmas em agradecimento. Esse momento é chamado de:",
     tip: "Pense no momento final da apresentação, quando o público mostra sua aprovação pela peça batendo palmas.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo participou de uma peça na escola e, antes de entrar no palco, ficou esperando atrás de uma cortina lateral. Como se chama esse espaço?",
     tip: "Pense no espaço lateral, perto do palco, de onde os atores entram e saem durante a peça.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo interpretou um personagem triste em uma peça com uma história emocionante e séria. A que gênero teatral essa peça pertence?",
     tip: "Pense no gênero que conta histórias sérias e emocionantes, diferente de uma peça feita para fazer rir.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo usou uma roupa diferente da sua, específica para o personagem que ele interpretava na peça. Como se chama essa roupa teatral?",
     tip: "Pense na roupa especial que ajuda a transformar o ator visualmente em outro personagem.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Durante a apresentação, Bernardo exagerou nos gestos e na voz para fazer o público rir em uma cena de comédia. Isso faz parte de qual elemento teatral?",
     tip: "Pense no uso exagerado do corpo e da voz para transmitir a comédia de uma cena.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Antes da peça, Bernardo e seus colegas praticaram várias vezes as falas e os movimentos no palco. Como se chama essa prática?",
     tip: "Pense no momento de 'treinar' antes da apresentação de verdade, para que tudo saia certo no dia da peça.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo ficou responsável por acender luzes coloridas durante os momentos mais emocionantes da peça. Qual elemento teatral ele estava trabalhando?",
     tip: "Pense no elemento que usa luzes e cores para criar diferentes climas na peça.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "No final da apresentação da escola, Bernardo e os colegas atores se posicionaram no palco enquanto o público batia palmas. Como se chama esse momento?",
     tip: "Pense no momento em que o público demonstra sua aprovação pela peça, batendo palmas no final.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo e seus colegas criaram uma cena de teatro sem um roteiro pronto, inventando as falas na hora, durante uma brincadeira. Como se chama essa técnica?",
     tip: "Pense em criar uma cena 'na hora', sem roteiro pronto, usando só a criatividade no momento.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo ajudou a produzir os efeitos sonoros de trovões e chuva durante uma cena de tempestade na peça da escola. Qual elemento teatral ele estava criando?",
     tip: "Pense no elemento que usa sons e efeitos para criar o clima de uma cena, sem aparecer visualmente.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo assistiu a uma peça de teatro sentado junto com sua família, observando os atores no palco. Como são chamadas as pessoas que assistem a uma peça?",
     tip: "Pense em quem está sentado assistindo, e não em quem está atuando na peça.",

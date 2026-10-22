@@ -1,6 +1,7 @@
 export const questoesArte7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Música',
     type: "multiple_choice",
     text: "O ritmo musical é definido como:",
     tip: "Pense na organização dos sons ao longo do tempo.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Música',
     type: "multiple_choice",
     text: "O timbre é o elemento musical que nos permite:",
     tip: "Pense no que diferencia a voz de uma pessoa da de outra.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A melodia em uma composição musical é:",
     tip: "É a parte que você assobia ou canta.",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A harmonia musical refere-se a:",
     tip: "Pense em acordes e sons tocados ao mesmo tempo.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A altura de um som musical é determinada pela sua:",
     tip: "Pense em sons agudos e graves.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A intensidade sonora na música representa:",
     tip: "Pense no volume: forte (forte) ou suave (piano) em italiano.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "Os instrumentos de cordas produzem som por meio de:",
     tip: "Pense no violão ou no violino.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "Os instrumentos de percussão produzem som quando:",
     tip: "Pense no tambor ou no triângulo.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "Os instrumentos de sopro produzem som por meio de:",
     tip: "Pense na flauta ou no saxofone.",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Notação musical',
     type: "multiple_choice",
     text: "Na leitura de uma partitura, uma pausa indica:",
     tip: "Pense no silêncio na música.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Música',
     type: "multiple_choice",
     text: "O andamento em música refere-se:",
     tip: "Adagio é lento, Allegro é rápido.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Música',
     type: "multiple_choice",
     text: "Uma escala musical é:",
     tip: "Dó-ré-mi-fá-sol-lá-si-dó é um exemplo.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Práticas vocais',
     type: "multiple_choice",
     text: "O beatbox é uma técnica vocal que:",
     tip: "Pense em imitar instrumentos eletrônicos com a boca.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A dinâmica musical descreve:",
     tip: "Piano (p) e forte (f) são marcações de dinâmica.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O contrabaixo pertence à família dos instrumentos de:",
     tip: "É o maior e mais grave dos instrumentos de arco.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "A flauta transversal é um instrumento de:",
     tip: "Você a segura horizontalmente e sopra pela embocadura lateral.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O xilofone é um instrumento de percussão classificado como:",
     tip: "Ele tem lâminas de madeira que você golpeia com baquetas.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "A trompete pertence à família dos instrumentos de sopro:",
     tip: "É feita de metal e tem pistons.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Notação musical',
     type: "multiple_choice",
     text: "Em uma partitura musical, o compasso define:",
     tip: "Pense nos pulsos organizados em grupos regulares.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Notação musical',
     type: "multiple_choice",
     text: "A clave de sol em uma partitura indica:",
     tip: "Ela fica no início de cada linha da pauta.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Música',
     type: "multiple_choice",
     text: "Uma oitava musical corresponde a:",
     tip: "Do dó grave ao dó agudo seguinte.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O violoncelo é tocado:",
     tip: "O músico senta e o instrumento fica apoiado no chão.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O piano é classificado, ao mesmo tempo, como instrumento de cordas e de:",
     tip: "Você pressiona teclas que acionam martelos internos.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A polifonia na música significa:",
     tip: "Poly = muitos; phonia = vozes.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Música',
     type: "multiple_choice",
     text: "O que é um intervalo musical?",
     tip: "É a diferença de altura entre duas notas.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Notação musical',
     type: "multiple_choice",
     text: "O ritardando em uma partitura indica que o músico deve:",
     tip: "Em italiano, 'ritardare' significa atrasar.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "A bateria, instrumento popular no rock e no samba, pertence à família dos instrumentos de:",
     tip: "Você usa baquetas para golpear suas peças.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Música',
     type: "multiple_choice",
     text: "Um acorde musical é formado por:",
     tip: "Pense em três ou mais notas tocadas ao mesmo tempo.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O saxofone, apesar de ser feito de metal, pertence à família dos instrumentos de sopro:",
     tip: "O som é produzido por uma palheta de madeira (cana).",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Práticas vocais',
     type: "multiple_choice",
     text: "A música a cappella é uma execução vocal:",
     tip: "Em italiano, 'a cappella' significa 'à maneira da capela'.",
