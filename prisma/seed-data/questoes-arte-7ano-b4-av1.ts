@@ -1,6 +1,7 @@
 export const questoesArte7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "O conjunto de bens, tradições e manifestações culturais que uma sociedade herda e preserva ao longo do tempo é chamado de:",
     tip: "Pense em tudo aquilo que uma comunidade recebe das gerações passadas e tem o cuidado de preservar — prédios, festas, histórias.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Prédios históricos, monumentos e obras de arte são exemplos de patrimônio cultural do tipo:",
     tip: "Pense em algo que você pode tocar e ver fisicamente, como uma construção ou uma estátua.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Festas populares, lendas, danças e saberes tradicionais, que não são objetos físicos, são exemplos de patrimônio cultural do tipo:",
     tip: "Pense em algo que você não pode tocar, mas que existe na memória e nas tradições de um povo, passado de geração em geração.",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "O conjunto de tradições populares, como lendas, festas, crenças e costumes de um povo, é chamado de:",
     tip: "Pense na palavra que reúne lendas, festas, ditados populares e costumes transmitidos entre gerações.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "A lenda brasileira sobre uma criatura que vive nos rios e protege a natureza, puxando quem maltrata os peixes, é conhecida como:",
     tip: "Pense em um animal real da Amazônia que, na lenda, se transforma em um belo rapaz nas festas.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "O personagem do folclore brasileiro conhecido por ter apenas uma perna e gostar de fazer travessuras é o:",
     tip: "Pense no personagem que usa um gorro vermelho, fuma um cachimbo e adora criar confusão nas casas.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "A entidade do folclore brasileiro, protetora das florestas, conhecida por ter os pés virados para trás, é o:",
     tip: "Pense no protetor das matas, que confunde caçadores e madeireiros fazendo-os seguir pegadas na direção errada.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "A sereia do folclore brasileiro, conhecida por encantar os homens com seu canto nos rios, é a:",
     tip: "Pense na 'sereia brasileira', que vive nos rios e encanta pescadores com sua beleza e sua voz.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "A organização internacional responsável por declarar locais e tradições como Patrimônio Mundial é a:",
     tip: "Pense na sigla de uma organização ligada à educação, ciência e cultura, famosa por essas declarações de patrimônio.",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "O Boi-Bumbá (ou Bumba Meu Boi), manifestação cultural muito forte no Maranhão e no Norte do Brasil, conta a história de:",
     tip: "Pense no nome da manifestação — ela já dá uma pista sobre o animal principal da história, que passa por uma grande transformação.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "A cidade histórica de Ouro Preto, em Minas Gerais, com suas igrejas e construções do período colonial, é reconhecida como Patrimônio Cultural do tipo:",
     tip: "Pense nas construções físicas, prédios e igrejas que você pode visitar e tocar — esse tipo de patrimônio tem um nome específico.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "A capoeira, luta e dança de origem afro-brasileira, foi reconhecida pela UNESCO como Patrimônio Cultural Imaterial da Humanidade por representar:",
     tip: "Pense na origem da capoeira, ligada à história da escravidão e da resistência cultural no Brasil — ela é muito mais do que só uma luta ou dança.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Literatura e oralidade',
     type: "multiple_choice",
     text: "A literatura de cordel, tradicional do Nordeste, é composta por poemas e histórias impressos em:",
     tip: "Pense em pequenos livretos finos, geralmente pendurados em cordões nas feiras nordestinas, com rimas e xilogravuras.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "A Folia de Reis, manifestação cultural muito presente no período de janeiro, celebra a visita dos:",
     tip: "Pense na história religiosa de janeiro, quando três figuras importantes visitam o menino Jesus logo após seu nascimento.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "O artesanato tradicional, como cestos de palha e panelas de barro feitos à mão, faz parte do patrimônio cultural:",
     tip: "Pense no conhecimento e na técnica usada para fazer esses objetos, passados de geração em geração — isso tem mais a ver com o saber do que com o objeto físico pronto.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "A culinária típica de uma região, como receitas tradicionais passadas de geração em geração, é considerada parte do patrimônio cultural:",
     tip: "Pense no conhecimento sobre as receitas e o jeito de preparar os pratos, transmitido entre as pessoas — isso não é um objeto físico fixo.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "O congado, manifestação cultural afro-brasileira muito presente em Minas Gerais, combina música, dança e celebrações religiosas em homenagem a:",
     tip: "Pense em como essa manifestação mistura elementos da fé católica com tradições e ritmos trazidos da África.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Quando uma tradição, como uma festa popular, é transmitida de geração em geração através da prática e da oralidade, sem registros escritos formais, dizemos que ela é parte do patrimônio:",
     tip: "Pense em uma tradição que vive na memória e na prática das pessoas, sem precisar estar escrita em nenhum documento oficial.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "As ruínas de São Miguel das Missões, no Rio Grande do Sul, construções antigas de origem jesuítica e indígena, são um exemplo de patrimônio:",
     tip: "Pense nas construções físicas que ainda existem no local, mesmo que estejam em ruínas — isso é um tipo específico de patrimônio.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Expressões artísticas',
     type: "multiple_choice",
     text: "O Carnaval brasileiro, com suas escolas de samba, blocos e tradições regionais, é reconhecido como uma manifestação cultural que combina:",
     tip: "Pense em tudo que você vê em um desfile de carnaval — fantasias, músicas, coreografias e carros alegóricos. São várias linguagens artísticas juntas!",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo visitou uma cidade histórica com igrejas e construções antigas de mais de 200 anos. Esse tipo de patrimônio, formado por construções físicas, é chamado de patrimônio:",
     tip: "Pense nas construções que Bernardo viu — elas são objetos físicos que ele pode tocar e visitar.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo ouviu a lenda do Saci-Pererê contada por seu avô, uma história passada de geração em geração sem nenhum registro escrito formal. Essa tradição oral faz parte do patrimônio:",
     tip: "Pense em como essa história foi transmitida — pela fala, de avô para neto, sem estar escrita em nenhum livro oficial.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "Bernardo aprendeu que existe uma entidade do folclore brasileiro com os pés virados para trás, que protege as florestas. Qual é o nome dessa entidade?",
     tip: "Pense no protetor das matas, famoso por confundir quem tenta prejudicar a floresta com seus pés ao contrário.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "Bernardo assistiu a uma apresentação de Bumba Meu Boi na escola, que contava a história de um boi que morre e depois ressuscita. De qual região brasileira é mais forte essa tradição?",
     tip: "Pense na região citada diretamente na questão anterior sobre esse mesmo tema — é a mesma área do Brasil.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Literatura e oralidade',
     type: "multiple_choice",
     text: "Bernardo leu um pequeno folheto ilustrado, com rimas e uma história tradicional nordestina. Como se chama esse tipo de literatura?",
     tip: "Pense no pequeno folheto com rimas, muito vendido em feiras nordestinas, pendurado em cordões.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo visitou um museu e descobriu que a UNESCO é a organização responsável por declarar locais e tradições como Patrimônio Mundial. Qual é essa organização?",
     tip: "Pense na sigla de uma organização ligada à educação, ciência e cultura, famosa por reconhecer patrimônios mundiais.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Expressões artísticas',
     type: "multiple_choice",
     text: "Bernardo participou do carnaval da sua cidade e percebeu que a festa combina música, dança, teatro e artes visuais, todos juntos. Isso mostra que o Carnaval é uma manifestação cultural bem:",
     tip: "Pense em tudo que Bernardo percebeu na festa — vários elementos artísticos diferentes acontecendo ao mesmo tempo, e não apenas um.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo aprendeu na escola que a capoeira, além de ser uma luta, também é uma dança com música e história afro-brasileira muito importante. Por isso, ela foi reconhecida pela UNESCO como:",
     tip: "Pense na categoria de patrimônio usada para tradições culturais importantes que não são objetos físicos, mencionada em questões anteriores.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo viu sua avó fazer cestos de palha à mão, uma técnica aprendida com os pais dela. Esse tipo de saber tradicional faz parte do patrimônio cultural:",
     tip: "Pense no conhecimento e na técnica, passados de pessoa para pessoa, e não no objeto físico (o cesto) em si.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo descobriu que a culinária típica de sua região, com receitas passadas de geração em geração, também é considerada parte do patrimônio cultural de um povo. Esse tipo de patrimônio é chamado de:",
     tip: "Pense no conhecimento sobre as receitas e o jeito de preparar os pratos, que não são objetos físicos fixos.",

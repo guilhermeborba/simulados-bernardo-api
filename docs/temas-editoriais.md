@@ -867,6 +867,34 @@ A quantidade de temas acompanha o conteúdo: B1/AV1 tem quatro; B4/AV1, três; B
 As generalizações e a terminologia anteriores sobre espaços do teatro grego, realismo dos retratos romanos, comparação de materiais entre culturas e desenvolvimento rupestre/egípcio estão na [issue web #103](https://github.com/guilhermeborba/simulados-bernardo/issues/103), com referências e critérios para revisão separada. Os conteúdos e gabaritos foram preservados; a classificação não valida essas formulações de história da arte.
 
 
+### Arte — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Cores | Modelo de mistura de tintas adotado no conteúdo, cores primárias e secundárias, misturas, círculo cromático, temperatura e escala de cinza. |
+| Cultura e identidade | Reconhecimento do conjunto de bens e práticas herdados por uma sociedade e do conceito de tradições populares, sem fornecer os termos solicitados. |
+| Dança | Corpo, movimento, espaço, tempo, coreografia, improvisação, treino e origens das práticas de dança. |
+| Danças brasileiras | Frevo, carimbó, samba de roda, jongo, maracatu e pau de fitas: características, origens e contextos. |
+| Expressões artísticas | Integração das linguagens visuais, musicais, da dança e do teatro no Carnaval. |
+| Festas e tradições | Narrativas e personagens do folclore, Bumba Meu Boi, Folia de Reis e congado. |
+| Instrumentos musicais | Famílias, mecanismos sonoros, classificação, execução e instrumentos presentes nas tradições musicais. |
+| Linguagem visual | Ponto, linha, forma, textura, volume, espaço, composição, luz, sombra e percepção dos elementos visuais. |
+| Literatura e oralidade | Suportes e reconhecimento da literatura de cordel no contexto das tradições culturais. |
+| Música | Ritmo, timbre, melodia, harmonia, altura, intensidade, andamento, dinâmica, escalas, intervalos, oitavas e acordes. |
+| Música brasileira | Gêneros, movimentos, artistas, origens, influências, regiões, contextos históricos e produção musical brasileira. |
+| Notação musical | Pausas, compasso, clave e indicações de execução na partitura. |
+| Patrimônio e preservação | Bens materiais e imateriais, reconhecimento, instituições, transmissão dos saberes e exemplos de patrimônio. |
+| Práticas vocais | Beatbox, canto a cappella e organização das vozes em duplas. |
+| Teatro | Atores, personagens, textos, equipe, espaços, recursos cênicos, ensaios, gêneros, interpretação e improvisação. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-arte-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 15 nomes; Linguagem visual, Cores, Música, Teatro, Dança, Cultura e identidade, Expressões artísticas e Patrimônio e preservação reaproveitam os nomes do 6º ano. Festas e tradições mantém o nome já usado em História para o conteúdo correspondente. Classificação individual, sem associação automática por palavras-chave.
+
+**Linguagem visual** inclui o reconhecimento dos elementos ponto, linha, forma, textura, cor e volume, sem fornecer esses nomes como tema quando são a resposta. **Cores** reúne a identificação das cores e de suas classes, sem antecipar o resultado da mistura ou a classe pedida. **Música**, **Instrumentos musicais** e **Notação musical** não fornecem o elemento, família, instrumento ou sinal solicitado. A nomenclatura ampla também foi mantida no ID 19 de B2/AV1, cujo gabarito anterior precisa de revisão. **Teatro** e **Dança** são usados em questões cujo contexto já indica a linguagem; não antecipam ator, cenário, figurino, sonoplastia, palco, coreografia ou improvisação. **Danças brasileiras** mantém em aberto a dança, o estado ou a origem cultural solicitada.
+
+O reconhecimento de patrimônio cultural em B4/AV1, ID 1, e B4/AV2, ID 6, usa **Cultura e identidade**, para não fornecer o conceito como rótulo. A classificação em material/imaterial usa **Patrimônio e preservação**, sem antecipar o tipo. Personagens do folclore usam **Festas e tradições**; identificar cordel usa **Literatura e oralidade**, sem nomear o gênero antes da resposta.
+
+B1/AV1, B1/AV2 e B3/AV1 mantêm um tema cada, por serem concentrados em linguagem visual, cores e teatro; B2/AV1 tem quatro; B2/AV2, quatro; B3/AV2, dois; B4/AV1, cinco; B4/AV2 revisa dez. A recomendação de três a oito temas não obriga subdivisões artificiais nem limita a revisão anual. Todos os campos anteriores foram preservados exatamente. O gabarito de compasso e a precisão de comandos sobre patrimônio e uma narrativa folclórica estão na [issue web #118](https://github.com/guilhermeborba/simulados-bernardo/issues/118), para revisão separada.
+
 ### Educação Física — 6º ano
 
 | Tema | Abrange |

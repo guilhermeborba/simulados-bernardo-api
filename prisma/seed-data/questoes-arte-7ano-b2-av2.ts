@@ -1,6 +1,7 @@
 export const questoesArte7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O samba é um ritmo musical brasileiro que tem suas raízes na:",
     tip: "Pense na herança africana trazida ao Brasil durante a colonização.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O forró é um ritmo musical típico da região:",
     tip: "Pense no Nordeste do Brasil e no São João.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O funk carioca é um estilo musical que surgiu nas comunidades do Rio de Janeiro e tem forte influência de:",
     tip: "Pense no funk americano e no Miami bass.",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O cavaquinho é um instrumento fundamental para o samba. Ele pertence à família dos instrumentos de:",
     tip: "Pense em sua forma pequena e nas cordas que são dedilhadas.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O pandeiro é um instrumento de percussão muito presente na música brasileira. Ele é considerado um instrumento:",
     tip: "Pense no pandeiro de Bezerra da Silva ou da capoeira.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "A sanfona (acordeão) é o instrumento mais associado ao forró. Ela produz som por meio de:",
     tip: "O ar passa pelas palhetas ao mover o fole.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O axé é um ritmo musical baiano que mistura influências do samba, do reggae e de ritmos afro-brasileiros. Surgiu na cidade de:",
     tip: "Capital da Bahia, famosa pelo seu carnaval.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O frevo é um ritmo musical e uma dança típica do carnaval de:",
     tip: "Pense nos guarda-chuvas coloridos e acrobáticos.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "A bossa nova surgiu no Brasil na década de 1950, sendo associada principalmente à cidade de:",
     tip: "Zona Sul, apartamentos à beira-mar, violão e voz.",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O maracatu é um ritmo afro-brasileiro muito associado ao estado de:",
     tip: "Pense nos bonecos gigantes do carnaval de rua e nos atabaques.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "A cuíca é um instrumento de percussão característico do samba carioca. Seu som é produzido por:",
     tip: "Um bambu ou arame friccionado internamente faz a membrana vibrar.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O choro é um estilo musical brasileiro do século XIX que mistura influências europeias com ritmos africanos. Seu instrumento solista mais famoso é:",
     tip: "Pense em Chiquinha Gonzaga e Ernesto Nazareth.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "A zabumba é um instrumento de percussão muito presente no forró. Ela é classificada como:",
     tip: "É um grande tambor de dois lados tocado com maço e baqueta fina.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "A MPB (Música Popular Brasileira) surgiu como um movimento musical na década de:",
     tip: "Foi durante a ditadura militar, como forma de resistência cultural.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O sertanejo universitário é uma vertente moderna da música sertaneja que incorporou elementos de:",
     tip: "Pense no pop e no rock americano misturados com o sertanejo.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "A música gaúcha do Rio Grande do Sul é fortemente marcada pela influência cultural de:",
     tip: "Pense nos imigrantes que colonizaram o sul do Brasil.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "Luiz Gonzaga ficou conhecido como o 'Rei do Baião' e popularizou qual ritmo nordestino no Brasil inteiro?",
     tip: "Pense em 'Asa Branca' e no chapéu de couro.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "A Tropicália foi um movimento artístico e musical brasileiro da década de 1960 que misturou:",
     tip: "Rock psicodélico + música brasileira tradicional = ruptura cultural.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O berimbau é o instrumento principal da capoeira. Ele pertence à família dos instrumentos de:",
     tip: "Uma corda tensionada em um arco de madeira, percutida com uma vareta.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "O bumba meu boi é uma manifestação cultural e musical do estado do:",
     tip: "Pense no Maranhão e nas festas juninas do Norte/Nordeste.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "Elis Regina é considerada uma das maiores cantoras da história da música brasileira. Ela é associada principalmente ao estilo:",
     tip: "Pense em 'Como Nossos Pais' e em sua ligação com a MPB.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O reggae brasileiro, muito popular no Maranhão, chegou ao estado influenciado pela música de:",
     tip: "Pense em Bob Marley e na Jamaica.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O pagode, uma vertente mais popular do samba, surgiu nos subúrbios do Rio de Janeiro. Artistas como Zeca Pagodinho e Beth Carvalho são símbolos desse estilo. O pagode caracteriza-se por:",
     tip: "Rodas de amigos, banquinho e violão, ambiente informal.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "A lambada é um ritmo dançante que mistura influências do carimbó, do merengue e do bolero. Ela é originária do estado do:",
     tip: "Pense em Pará, Amazônia e no Norte do Brasil.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "Cartola, grande nome do samba brasileiro, era também:",
     tip: "Ele foi fundador de uma das escolas de samba mais famosas do Rio.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "O rock nacional brasileiro ganhou força na década de 1980 com o movimento chamado de:",
     tip: "Foi o momento em que o rock em português conquistou o grande público.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Práticas vocais',
     type: "multiple_choice",
     text: "A dupla sertaneja é uma característica marcante da música sertaneja tradicional. Isso significa que:",
     tip: "Pense em Milionário e José Rico, ou Chitãozinho e Xororó.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Instrumentos musicais',
     type: "multiple_choice",
     text: "O carimbó é um ritmo afro-indígena brasileiro típico do estado do Pará. Seu instrumento principal é:",
     tip: "É um grande tambor cilíndrico feito de tronco de árvore.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "Caetano Veloso e Gilberto Gil foram exilados durante a ditadura militar por causa de seu envolvimento com:",
     tip: "Pense no movimento que misturou rock com MPB nos anos 60.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "A música eletrônica no Brasil ganhou destaque com o funk e com festivais como o Lollapalooza. Uma característica desse estilo musical é:",
     tip: "Pense em DJs, sintetizadores e batidas digitais.",

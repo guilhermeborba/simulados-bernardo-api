@@ -1,6 +1,7 @@
 export const questoesArte7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "O principal 'instrumento' usado para se expressar na dança é o:",
     tip: "Pense no que o dançarino usa diretamente para criar os movimentos — não é uma roupa nem um objeto.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "A ação de mover o corpo de diferentes formas durante a dança é chamada de:",
     tip: "Pense na palavra mais simples que descreve 'o corpo se deslocando ou mudando de posição'.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "O local, maior ou menor, por onde o dançarino se move durante a dança é chamado de:",
     tip: "Pense no 'lugar físico' que o dançarino ocupa e percorre durante a apresentação.",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "O elemento da dança relacionado à velocidade e à duração dos movimentos (rápido, lento, longo, curto) é chamado de:",
     tip: "Pense na 'velocidade' e 'duração' dos movimentos — essa característica tem relação direta com o relógio.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Uma sequência organizada de movimentos de dança, criada e planejada, é chamada de:",
     tip: "Pense no nome dado a uma sequência de passos de dança planejada e decorada antes da apresentação.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O frevo, dançado durante o carnaval de Pernambuco, é conhecido por seus movimentos:",
     tip: "Pense na dança de carnaval que usa pequenas sombrinhas e movimentos ágeis das pernas, quase como acrobacias.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O carimbó é uma dança tradicional de qual região brasileira?",
     tip: "Pense na região amazônica, onde essa dança tem forte influência indígena e africana.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O samba de roda, manifestação cultural muito presente na Bahia, é dançado geralmente:",
     tip: "O próprio nome já dá uma pista — pense na formação que as pessoas fazem para dançar esse estilo.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O jongo é uma dança de origem africana, muito ligada à cultura:",
     tip: "Pense na origem citada na própria questão — essa dança tem raízes de um continente específico, combinadas com a cultura brasileira.",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "A dança do pau de fitas, muito vista em festas juninas, é dançada ao redor de um:",
     tip: "Pense em um objeto alto, no centro da dança, com várias fitas penduradas que os dançarinos entrelaçam enquanto se movem.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Durante uma apresentação de dança, os bailarinos usam todo o palco, se movendo de um lado para o outro e em diferentes alturas. Eles estão explorando principalmente o elemento:",
     tip: "Pense no elemento relacionado ao 'lugar' que os bailarinos ocupam e percorrem no palco.",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Em uma coreografia, os dançarinos alternam entre movimentos bem rápidos e momentos de pausa lenta. Eles estão trabalhando o elemento:",
     tip: "Pense no elemento relacionado à velocidade e duração dos movimentos — rápido, lento, pausado.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "Em uma apresentação de frevo, os dançarinos fazem movimentos muito rápidos com as pernas, quase como acrobacias. Esse estilo de dança tem origem em qual estado?",
     tip: "Pense no carnaval das cidades de Recife e Olinda, onde essa dança é tradição.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O maracatu combina música e dança em um cortejo que representa a corte de reis e rainhas, com raízes na cultura:",
     tip: "Pense na origem dessa tradição, ligada à história da escravidão e da cultura trazida da África para o Brasil.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Antes de uma apresentação de dança, o grupo pratica várias vezes os movimentos, decorando a sequência inteira. Esse processo cuidadoso de criar os movimentos é chamado de:",
     tip: "Pense no nome que já apareceu antes — a sequência planejada e decorada de passos de dança.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Quando um dançarino se move pelo espaço sem seguir uma sequência pronta, criando movimentos no momento, ele está fazendo uma dança:",
     tip: "Pense na palavra que descreve 'criar algo na hora', sem planejamento prévio, usada também no teatro.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "O balé clássico, uma forma de dança bem técnica e refinada, costuma usar sapatilhas especiais e exigir muito treino de:",
     tip: "Pense nas habilidades físicas necessárias para fazer os movimentos elegantes e precisos do balé, como ficar na ponta dos pés.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "A dança de rua, como o hip-hop e o breaking, costuma ter origem em:",
     tip: "Pense no ambiente onde esses estilos de dança surgiram, geralmente ligados a festas e movimentos culturais das grandes cidades.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Quando dançarinos se movem rapidamente pelo palco, cobrindo uma grande distância, eles estão usando bastante o elemento:",
     tip: "Pense no elemento relacionado à área percorrida pelo corpo do dançarino durante a apresentação.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Uma dança que mistura movimentos lentos e rápidos ao longo da apresentação está explorando bastante o elemento:",
     tip: "Pense no elemento relacionado à velocidade dos movimentos, que já apareceu em questões anteriores.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "Bernardo assistiu a uma apresentação de frevo no carnaval e ficou impressionado com os movimentos rápidos e acrobáticos das pernas dos dançarinos. De qual estado é essa dança?",
     tip: "Pense no estado onde fica o carnaval famoso de Recife e Olinda, berço dessa dança ágil.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "Bernardo participou de uma roda de samba de roda em uma festa baiana, onde os participantes se revezavam dançando no centro do círculo. Qual é a origem cultural dessa dança?",
     tip: "Pense na origem ligada à cultura trazida da África, muito presente na Bahia.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Na aula de dança, Bernardo usou todo o espaço da sala, se movendo de um canto para o outro. Qual elemento da dança ele estava explorando?",
     tip: "Pense no elemento relacionado à área que o corpo ocupa e percorre durante a dança.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Bernardo e seus colegas decoraram uma sequência de movimentos de dança para apresentar na festa da escola. Como se chama essa sequência planejada?",
     tip: "Pense no nome dado a uma sequência de passos de dança criada e decorada antes da apresentação.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "Bernardo dançou ao redor de um mastro alto decorado com fitas coloridas durante a festa junina da escola. Como se chama essa dança tradicional?",
     tip: "Pense no objeto central dessa dança — um mastro alto com fitas penduradas, bem típico das festas de junho.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Bernardo alternou entre movimentos bem rápidos e pausas lentas durante sua apresentação de dança. Qual elemento ele estava trabalhando?",
     tip: "Pense no elemento relacionado à velocidade e à duração dos movimentos, já estudado anteriormente.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Bernardo experimentou se mover livremente pela sala, sem seguir uma sequência decorada, criando passos na hora. Como se chama essa forma de dançar?",
     tip: "Pense na palavra que descreve criar movimentos 'na hora', sem planejamento, usando a criatividade espontânea.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Bernardo assistiu a uma apresentação de balé clássico e notou que os bailarinos precisavam de muito equilíbrio e força para fazer os movimentos. O que mais o balé clássico costuma exigir dos dançarinos?",
     tip: "Pense em outra habilidade física importante para fazer os movimentos elegantes do balé, além de equilíbrio e força.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Bernardo viu um grupo de dança de rua se apresentando em uma praça, com movimentos de hip-hop e breaking. Onde costuma ter origem esse tipo de dança?",
     tip: "Pense no ambiente urbano onde esses estilos de dança nasceram, ligados a movimentos culturais das cidades.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Bernardo participou de uma dança em que o grupo se movia bem rápido por todo o espaço do salão, cobrindo uma grande distância. Qual elemento da dança ele estava explorando principalmente?",
     tip: "Pense no elemento relacionado à área percorrida pelo corpo durante a dança, mencionado várias vezes nesta prova.",

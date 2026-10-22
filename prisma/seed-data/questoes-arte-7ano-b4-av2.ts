@@ -1,6 +1,7 @@
 export const questoesArte7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Quando linhas se unem e formam um contorno fechado, criamos uma:",
     tip: "Pense em desenhar um círculo: ao fechar a linha, você cria um contorno. Isso tem um nome na linguagem visual.",
@@ -16,6 +17,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "As cores vermelho, azul e amarelo, que não podem ser formadas pela mistura de outras cores, são chamadas de cores:",
     tip: "Pense nas cores 'base', de onde todas as outras nascem pela mistura.",
@@ -31,6 +33,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Música',
     type: "multiple_choice",
     text: "O elemento musical que organiza os sons no tempo, criando tempos fortes e fracos, é chamado de:",
     tip: "Pense em bater palmas seguindo um padrão de forte e fraco — esse elemento organiza o tempo da música.",
@@ -46,6 +49,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "A pessoa que representa um personagem em uma peça de teatro é chamada de:",
     tip: "Pense em quem sobe no palco e interpreta a história diretamente para o público.",
@@ -61,6 +65,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "O principal 'instrumento' usado para se expressar na dança é o:",
     tip: "Pense no que o dançarino usa diretamente para criar os movimentos — não é uma roupa nem um objeto externo.",
@@ -76,6 +81,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "O conjunto de bens, tradições e manifestações culturais que uma sociedade herda e preserva é chamado de:",
     tip: "Pense em tudo o que uma comunidade recebe das gerações passadas e preserva com cuidado.",
@@ -91,6 +97,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "As roupas e acessórios usados pelos atores para representar seus personagens são chamados de:",
     tip: "Pense na roupa especial que ajuda a transformar o ator em outro personagem.",
@@ -106,6 +113,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Misturando azul e amarelo, obtemos a cor:",
     tip: "Pense na cor das folhas e da grama — ela nasce exatamente dessa mistura.",
@@ -121,6 +129,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Música',
     type: "multiple_choice",
     text: "A sucessão de notas musicais, uma após a outra, formando aquilo que cantarolamos, é chamada de:",
     tip: "Pense na sequência de notas que você consegue assobiar de uma música, mesmo sem a letra.",
@@ -136,6 +145,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Festas e tradições',
     type: "multiple_choice",
     text: "O personagem do folclore brasileiro, com apenas uma perna, conhecido por fazer travessuras, é o:",
     tip: "Pense no personagem com gorro vermelho e cachimbo, que adora criar confusão nas casas.",
@@ -151,6 +161,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Um artista que desenha uma pedra com muitas marcas e riscos irregulares está representando qual elemento visual?",
     tip: "Pense na sensação que esses riscos tentam imitar ao toque — é macio ou áspero?",
@@ -166,6 +177,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O frevo, dançado durante o carnaval de Pernambuco, é conhecido por seus movimentos:",
     tip: "Pense na dança de carnaval com sombrinhas e movimentos ágeis das pernas, quase como acrobacias.",
@@ -181,6 +193,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Antes da apresentação, os atores decoram suas falas e praticam várias vezes a peça inteira. Esse processo é chamado de:",
     tip: "Pense no 'treino' antes da apresentação de verdade, quando tudo ainda pode ser ajustado.",
@@ -196,6 +209,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Um quadro pintado principalmente com azul, verde e roxo passa uma sensação geral de:",
     tip: "Pense no que essas cores lembram na natureza — água, folhas, frescor.",
@@ -211,6 +225,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "A capoeira, luta e dança de origem afro-brasileira, foi reconhecida pela UNESCO como:",
     tip: "Pense na categoria usada para tradições culturais importantes que não são objetos físicos.",
@@ -226,6 +241,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Música',
     type: "multiple_choice",
     text: "Quando várias notas são tocadas ao mesmo tempo, formando um acorde, isso se chama:",
     tip: "Pense em um violão tocando várias cordas juntas para acompanhar uma música. Esse 'encaixe' de notas tem um nome.",
@@ -241,6 +257,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "O samba de roda, manifestação cultural muito presente na Bahia, é dançado geralmente:",
     tip: "O próprio nome já dá uma pista — pense na formação que as pessoas fazem para dançar esse estilo.",
@@ -256,6 +273,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Prédios históricos, monumentos e obras de arte são exemplos de patrimônio cultural do tipo:",
     tip: "Pense em algo que você pode tocar e ver fisicamente, como uma construção.",
@@ -271,6 +289,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Dança',
     type: "multiple_choice",
     text: "Uma sequência organizada de movimentos de dança, criada e planejada, é chamada de:",
     tip: "Pense no nome dado a uma sequência de passos de dança planejada e decorada antes da apresentação.",
@@ -286,6 +305,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Os efeitos sonoros e músicas usados durante uma peça de teatro são chamados de:",
     tip: "Pense nos sons de trovão ou passos que ajudam a criar o clima da cena, sem aparecer visualmente.",
@@ -301,6 +321,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Linguagem visual',
     type: "multiple_choice",
     text: "Bernardo desenhou um círculo e, para fazer parecer uma bola de futebol com volume, ele adicionou sombra em um dos lados. Qual elemento visual ele estava trabalhando?",
     tip: "Pense no elemento que dá a sensação de profundidade e tridimensionalidade a um desenho.",
@@ -316,6 +337,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Cores',
     type: "multiple_choice",
     text: "Bernardo misturou tinta vermelha com tinta azul para pintar as uvas do seu desenho. Qual cor ele obteve?",
     tip: "Pense na cor de uma uva madura — ela nasce exatamente dessa mistura.",
@@ -331,6 +353,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Música',
     type: "multiple_choice",
     text: "Bernardo bateu palmas seguindo um padrão de tempos fortes e fracos durante a aula de música. Qual elemento musical ele estava trabalhando?",
     tip: "Pense no elemento que organiza os sons no tempo, criado por padrões de forte e fraco.",
@@ -346,6 +369,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo usou uma roupa diferente da sua, específica para o personagem que ele interpretava na peça da escola. Como se chama essa roupa teatral?",
     tip: "Pense na roupa especial que ajuda a transformar o ator visualmente em outro personagem.",
@@ -361,6 +385,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "Bernardo dançou ao redor de um mastro alto decorado com fitas coloridas durante a festa junina da escola. Como se chama essa dança tradicional?",
     tip: "Pense no objeto central dessa dança — um mastro alto com fitas penduradas, bem típico das festas de junho.",
@@ -376,6 +401,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo visitou uma cidade histórica com igrejas e construções antigas de mais de 200 anos. Esse tipo de patrimônio é chamado de patrimônio:",
     tip: "Pense nas construções físicas que Bernardo pode tocar e visitar.",
@@ -391,6 +417,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Patrimônio e preservação',
     type: "multiple_choice",
     text: "Bernardo ouviu a lenda do Saci-Pererê contada por seu avô, uma história passada de geração em geração sem registro escrito. Essa tradição oral faz parte do patrimônio:",
     tip: "Pense em como essa história foi transmitida — pela fala, sem estar escrita em nenhum livro oficial.",
@@ -406,6 +433,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Danças brasileiras',
     type: "multiple_choice",
     text: "Bernardo assistiu a uma apresentação de frevo no carnaval e ficou impressionado com os movimentos rápidos e acrobáticos das pernas dos dançarinos. De qual estado é essa dança?",
     tip: "Pense no estado onde fica o carnaval de Recife e Olinda, berço dessa dança ágil.",
@@ -421,6 +449,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Música brasileira',
     type: "multiple_choice",
     text: "Bernardo foi ao desfile de carnaval e ouviu uma escola de samba tocando pandeiro, cavaquinho e cuíca. Qual gênero musical ele estava escutando?",
     tip: "Pense nos instrumentos citados — pandeiro, cavaquinho e cuíca são a marca registrada desse gênero do carnaval carioca.",
@@ -436,6 +465,7 @@ export const questoesArte7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Teatro',
     type: "multiple_choice",
     text: "Bernardo ajudou a produzir os efeitos sonoros de trovões e chuva durante uma cena de tempestade na peça da escola. Qual elemento teatral ele estava criando?",
     tip: "Pense no elemento que usa sons e efeitos para criar o clima de uma cena, sem aparecer visualmente.",
