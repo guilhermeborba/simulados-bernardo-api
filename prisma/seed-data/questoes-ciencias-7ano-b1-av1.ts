@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Planeta Terra',
     type: 'multiple_choice',
     text: 'A camada de gases que envolve a Terra e permite a vida é chamada de:',
     tip: 'Pense na palavra "atmosfera" — ela tem a ver com "ar" (do grego "atmos")!',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Qual é o gás mais abundante na atmosfera terrestre?',
     tip: 'Muita gente pensa que é o oxigênio, mas na verdade existe um gás ainda mais abundante no ar que respiramos!',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Aproximadamente qual porcentagem do ar atmosférico é composta por oxigênio?',
     tip: 'O oxigênio é importante, mas é bem menos abundante do que o nitrogênio no ar!',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'O gás que os seres humanos e a maioria dos animais respiram para viver é o:',
     tip: 'Esse é o gás que usamos nos pulmões para transformar alimento em energia!',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O ar atmosférico é uma mistura de gases. Isso significa que:',
     tip: 'Lembre dos gases que você acabou de estudar: nitrogênio, oxigênio e outros — todos juntos no mesmo ar!',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'As plantas realizam a fotossíntese e, nesse processo, liberam para a atmosfera o gás:',
     tip: 'Pense no contrário da respiração: as plantas absorvem um gás e liberam outro!',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'Durante a respiração, os seres vivos liberam para a atmosfera o gás:',
     tip: 'É o oposto do que acontece na fotossíntese das plantas!',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'A atmosfera é dividida em camadas. A camada mais próxima da superfície da Terra, onde vivemos e ocorrem os fenômenos climáticos, é chamada de:',
     tip: '"Tropo" vem de uma palavra grega relacionada a "mudança" — é onde o tempo muda o tempo todo (chuva, vento, nuvens)!',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'A camada da atmosfera que contém a camada de ozônio, protegendo a Terra dos raios ultravioleta, é a:',
     tip: 'Essa camada fica logo acima da troposfera, onde você vive.',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Sem a atmosfera, a vida na Terra seria:',
     tip: 'Pense em tudo que a atmosfera faz: fornece ar para respirar, protege dos raios do Sol e mantém a temperatura.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'A camada de ozônio é importante porque ela:',
     tip: 'Pense nela como um "filtro de proteção" contra um tipo específico de raio solar.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O efeito estufa é um fenômeno natural em que certos gases da atmosfera retêm o calor do Sol. Sem ele, a Terra seria:',
     tip: 'O efeito estufa, em quantidade normal, é o que mantém a Terra "aquecidinha" o suficiente para a vida existir!',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O aumento excessivo de gases do efeito estufa, causado por atividades humanas, está relacionado a qual problema ambiental?',
     tip: 'Pense no que acontece quando o efeito estufa funciona "demais" — a Terra começa a esquentar além do normal.',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Qual gás é o principal responsável pelo aumento do efeito estufa devido à queima de combustíveis fósseis?',
     tip: 'Pense no gás que é liberado quando queimamos gasolina, carvão ou gás natural.',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A poluição do ar nas grandes cidades é causada principalmente por:',
     tip: 'Pense nas coisas que soltam fumaça nas cidades, como carros, ônibus e fábricas.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Propriedades dos gases',
     type: 'multiple_choice',
     text: 'A pressão atmosférica é a força que o ar exerce sobre:',
     tip: 'O ar está em toda parte ao nosso redor — e ele empurra tudo o que encontra pela frente!',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Propriedades dos gases',
     type: 'multiple_choice',
     text: 'Em locais de maior altitude, como no topo de uma montanha, a pressão atmosférica é:',
     tip: 'Quanto mais alto você sobe, menos "camada de ar" fica em cima de você empurrando para baixo.',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Temperatura e calor',
     type: 'multiple_choice',
     text: 'O ar quente, por ser menos denso, tende a:',
     tip: 'Pense no ar de um balão de festa junina: por que ele sobe quando é aquecido?',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Propriedades dos gases',
     type: 'multiple_choice',
     text: 'Os ventos são causados principalmente pela diferença de ______ entre duas regiões.',
     tip: 'Lembre que o ar sempre se movimenta de um lugar para outro buscando um "equilíbrio" de força.',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'A camada de ozônio ficou com um "buraco" em algumas regiões por causa do uso de certos produtos químicos, como os antigos:',
     tip: 'Pense em produtos que, no passado, eram muito usados em sprays e aparelhos de refrigeração.',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Propriedades dos gases',
     type: 'multiple_choice',
     text: 'Bernardo subiu uma montanha com sua família e sentiu dificuldade para respirar no topo. Isso aconteceu porque, em altitudes elevadas, a pressão atmosférica é:',
     tip: 'Lembre da relação entre altitude e pressão que você acabou de estudar.',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Propriedades dos materiais',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu na escola que, ao abrir uma garrafa de refrigerante, o gás que escapa fazendo aquele barulhinho é um exemplo de gás sob pressão. Esse fenômeno está relacionado ao estudo de:',
     tip: 'Pense no que acontece quando um gás está "comprimido" dentro de um espaço fechado, como a garrafa.',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Seres vivos',
     type: 'multiple_choice',
     text: 'Bernardo plantou uma mudinha na escola e aprendeu que, durante o dia, ela realiza fotossíntese. Nesse processo, a planta absorve gás carbônico e libera para o ar o gás:',
     tip: 'É o gás que nós respiramos, produzido pelas plantas durante a fotossíntese!',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo e sua turma visitaram uma fábrica e observaram fumaça saindo das chaminés. Esse tipo de fumaça contribui para:',
     tip: 'Pense no que a fumaça de fábricas e veículos costuma causar no ar das cidades.',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Bernardo está estudando as camadas da atmosfera para uma prova. A camada onde ele vive, onde o avião voa e onde se formam as nuvens é chamada de:',
     tip: 'É a camada mais próxima da superfície — a primeira que você aprendeu nesse simulado!',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Temperatura e calor',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, perto de uma fogueira, o ar quente sobe. Isso acontece porque o ar quente é:',
     tip: 'Pense no balão de ar quente — por que ele sobe quando o ar lá dentro esquenta?',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Propriedades dos gases',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que os ventos acontecem por causa da diferença de pressão atmosférica entre dois lugares. O ar sempre se move da região de:',
     tip: 'Pense em uma bexiga furada: o ar sempre escapa do lugar mais "apertado" para o mais "livre".',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que sem a atmosfera terrestre, não existiria o fenômeno natural que mantém a Terra aquecida, chamado de:',
     tip: 'Esse fenômeno, em quantidade equilibrada, é o que torna a Terra "habitável" em termos de temperatura.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'Na feira de ciências, Bernardo apresentou um cartaz mostrando que o gás mais abundante do ar que respiramos não é o oxigênio, mas sim o:',
     tip: 'Volte à segunda questão desse simulado — é o mesmo gás!',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Planeta Terra',
     type: 'multiple_choice',
     text: 'Depois de estudar bastante, Bernardo resumiu: a camada de gases que envolve a Terra, permite a vida e é formada principalmente por nitrogênio e oxigênio, se chama:',
     tip: 'É a mesma palavra que você aprendeu logo na primeira questão desse simulado!',

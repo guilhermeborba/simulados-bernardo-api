@@ -992,3 +992,44 @@ Equações agrupa todo o B3/AV1, inclusive a medida do lado do quadrado no ID 15
 A quantidade de temas acompanha o conteúdo: B1/AV1, B3/AV1 e B3/AV2 concentram um tema cada; B1/AV2, B2/AV2 e B4/AV1 têm dois; B2/AV1 tem três; B4/AV2 revisa nove temas das unidades. Não se subdividem artificialmente os simulados concentrados em um assunto.
 
 As pendências anteriores de alternativas equivalentes em frações, generalizações em dicas/curiosidades e referência a São Joaquim estão na [issue web #111](https://github.com/guilhermeborba/simulados-bernardo/issues/111), com demonstrações e referências para revisão separada. Os campos anteriores foram preservados; a classificação temática não valida essas formulações.
+
+### Ciências — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Água na natureza | Distribuição, reservatórios, hidrosfera já nomeada, oceanos, águas subterrâneas e identificação do ciclo hidrológico. |
+| Atmosfera | Composição, camadas, ozônio, proteção da vida, efeito estufa e sua intensificação. |
+| Biomas | Características e comparação dos biomas citados nos exemplos de biodiversidade e solo. |
+| Cadeias alimentares | Produtores, consumidores, decompositores, níveis tróficos, teias e fluxo de energia. |
+| Ciclo da água | Etapas, circulação da água, energia solar, transpiração e efeitos do desmatamento sobre as chuvas. |
+| Conservação do solo | Erosão, compactação, assoreamento, cobertura vegetal, calagem e práticas de proteção e recuperação. |
+| Ecossistemas | Fatores bióticos e abióticos, habitats, nichos, biodiversidade, serviços ecossistêmicos e capacidade de suporte. |
+| Estados físicos | Estados da água e composição física das nuvens. |
+| Planeta Terra | Esferas terrestres e camadas internas, sem antecipar o nome da esfera solicitada. |
+| Preservação ambiental | Poluição, contaminação, desmatamento, áreas protegidas, espécies invasoras e extinção. |
+| Propriedades dos gases | Pressão atmosférica, altitude, circulação do ar e formação dos ventos. |
+| Propriedades dos materiais | Propriedades da água, como solvente, tensão superficial, densidade e turbidez, e identificação de fenômenos envolvendo gases. |
+| Relações ecológicas | Mutualismo, parasitismo, predatismo, comensalismo e amensalismo, sem nomear no rótulo a relação pedida. |
+| Resíduos e reciclagem | Coleta seletiva, reciclagem e compostagem de matéria orgânica. |
+| Saúde e bem-estar | Tratamento e qualidade da água, saneamento, fluoretação e prevenção de doenças. |
+| Seres vivos | Fotossíntese, respiração e trocas gasosas nos exemplos estudados. |
+| Solo | Formação, intemperismo, horizontes, composição, textura, cor, fertilidade e propriedades. |
+| Sustentabilidade | Consumo, economia e reuso da água, gestão de recursos hídricos e práticas ambientais duradouras. |
+| Temperatura e calor | Aquecimento, densidade do ar e influência da temperatura nas propriedades da água. |
+| Tempo e clima | Umidade, nuvens, precipitação, orvalho, previsão meteorológica, clima e efeitos urbanos. |
+| Transformações da matéria | Mudanças de estado físico, temperaturas de fusão/ebulição e expansão da água ao congelar. |
+| Vida no solo | Organismos do solo, decomposição e papel de fungos, bactérias e minhocas. |
+
+Lote E04: 240 questões em oito arquivos gerais `questoes-ciencias-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 22 nomes, reaproveitando os temas de Ciências dos anos anteriores quando o conteúdo corresponde. Planeta Terra, Atmosfera, Propriedades dos gases, Tempo e clima e Relações ecológicas detalham conteúdos deste ano. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Planeta Terra cobre a identificação da atmosfera em B1/AV1, IDs 1 e 30, e B4/AV2, ID 2, da hidrosfera em B2/AV1, ID 1, e das camadas internas em B4/AV2, ID 1. Atmosfera detalha composição, camadas, ozônio e efeito estufa sem usar o nome da camada ou do fenômeno que pode ser a resposta. Propriedades dos gases cobre pressão, altitude e ventos. B1/AV1, ID 22, pede reconhecer o campo de estudo do fenômeno e usa Propriedades dos materiais para não antecipar Pressão dos gases. Temperatura e calor cobre o ar aquecido e a relação entre temperatura e oxigênio dissolvido em B2/AV2, ID 28.
+
+Tempo e clima reúne os tipos de precipitação, nuvens, umidade e a comparação entre tempo meteorológico e clima; não usa como rótulo o fenômeno solicitado. As transformações isoladas de B1/AV2, IDs 2, 3, 21 e 22, usam Transformações da matéria; as etapas explicitamente articuladas ao ciclo usam Ciclo da água. Quando o aluno precisa dar o nome do ciclo inteiro, B1/AV2, ID 25, e B2/AV1, ID 10, usam Água na natureza para não antecipar a resposta.
+
+Água na natureza também reúne reservatórios e disponibilidade; Estados físicos cobre os estados da água e a composição das nuvens. Propriedades dos materiais reúne solvente, densidade, tensão superficial e turbidez, sem usar a propriedade pedida como rótulo específico. Saúde e bem-estar agrupa tratamento, saneamento, qualidade e doenças, sem antecipar a etapa de tratamento. Preservação ambiental cobre impactos e contaminação; Sustentabilidade, consumo, reuso e gestão. A coleta seletiva e a compostagem reaproveitam Resíduos e reciclagem.
+
+Solo reúne formação, textura, horizontes e fertilidade; Vida no solo, organismos e decomposição; Conservação do solo, práticas e processos de degradação/recuperação. B3/AV1, ID 30, pede identificar a própria conservação e usa Solo para não antecipar a resposta. Biomas cobre as comparações de florestas e outros ambientes. Ecossistemas agrupa fatores, nicho, diversidade e capacidade de suporte; Cadeias alimentares, papéis tróficos e energia; Relações ecológicas, interações sem nomear o tipo solicitado. Seres vivos reúne fotossíntese, respiração e trocas gasosas, inclusive a identificação do processo em B4/AV2, ID 28.
+
+Os simulados têm, na ordem B1/AV1 a B4/AV2, sete, seis, nove, sete, cinco, quatro, cinco e doze temas. B2/AV1 articula disponibilidade, estados, propriedades, transformações e uso da água, mantendo nove agrupamentos. B4/AV2 revisa doze temas das unidades. A quantidade de rótulos acompanha o conteúdo, sem criar um nome para cada questão.
+
+As pendências anteriores sobre pressão, formação da neve, ciclo da água, percentuais, dados de saúde e horizontes do solo estão na [issue web #113](https://github.com/guilhermeborba/simulados-bernardo/issues/113), com referências e critérios para revisão separada. O conteúdo anterior foi preservado; a classificação temática não valida cientificamente essas formulações nem os dados quantitativos sem fonte/ano.

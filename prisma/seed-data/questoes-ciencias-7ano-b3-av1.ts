@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O processo de desintegração e decomposição das rochas pela ação de agentes físicos, químicos e biológicos, que origina o solo ao longo de milhões de anos, é chamado de:',
     tip: 'Intemper vem do latim e se relaciona com as condições do tempo/clima.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O Horizonte A, a camada mais superficial do solo, é rico principalmente em:',
     tip: 'É a camada onde vivem as raízes e os organismos do solo.',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A rocha matriz (ou rocha-mãe), que deu origem ao solo por intemperismo ao longo dos séculos, encontra-se no:',
     tip: 'É a camada mais profunda do perfil do solo, a base de tudo.',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo argiloso, quando comparado ao solo arenoso, tem a característica de:',
     tip: 'Pense em como a argila retém água — ao contrário da areia.',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Vida no solo',
     type: 'multiple_choice',
     text: 'Os organismos que se alimentam de matéria orgânica morta, decompondo-a e devolvendo nutrientes minerais ao solo, são chamados de:',
     tip: 'Eles são os "recicladores" da natureza.',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Vida no solo',
     type: 'multiple_choice',
     text: 'As minhocas são chamadas de "engenheiras do solo" e são muito importantes para a agricultura porque:',
     tip: 'Pense nos túneis que as minhocas constroem no solo.',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo avermelhado, rico em óxidos de ferro e alumínio, típico das regiões dos estados do Paraná e São Paulo, é popularmente chamado de:',
     tip: 'É famoso por sua cor avermelhada intensa.',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A camada de material orgânico em decomposição, escura e rica em nutrientes, que se forma na superfície do solo, é chamada de:',
     tip: 'É o que torna o solo fértil e escuro.',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A formação de apenas 1 centímetro de solo fértil pode levar:',
     tip: 'O solo é formado muito lentamente — por isso é considerado recurso não renovável.',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo arenoso, em comparação ao solo argiloso, é caracterizado por:',
     tip: 'Pense em como a água escoa na areia da praia.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A textura do solo refere-se a:',
     tip: 'Textura é sobre as partículas que formam o solo.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O perfil do solo é a sequência vertical de suas camadas (horizontes). Qual é a ordem correta de cima para baixo?',
     tip: 'O Horizonte A é o mais superficial (com vida); o R é a rocha no fundo.',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O processo pelo qual nutrientes e partículas finas são carregados para camadas mais profundas do solo pela água da chuva é chamado de:',
     tip: 'A água "lava" e leva os nutrientes para baixo.',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Vida no solo',
     type: 'multiple_choice',
     text: 'Fungos e bactérias do solo atuam principalmente como:',
     tip: 'Eles quebram a matéria orgânica morta.',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo é considerado um recurso natural:',
     tip: 'Pense em quanto tempo leva para o solo se formar.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A cor escura de um solo geralmente indica:',
     tip: 'Solos férteis de florestas são normalmente escuros.',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'As partículas de argila são muito menores que as de areia e têm a capacidade de:',
     tip: 'Pense por que vasos de barro retêm água.',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A calagem (adição de calcário agrícola ao solo) é uma prática comum na agricultura. Para que serve a calagem?',
     tip: 'Solos muito ácidos prejudicam o crescimento das plantas.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O bioma com maior diversidade e complexidade de vida no solo é geralmente a:',
     tip: 'Calor, umidade e muita matéria orgânica criam o ambiente ideal para o solo.',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O Horizonte B do solo é caracterizado por ser:',
     tip: 'É a camada intermediária — nem a superficial nem a de rocha.',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A compactação do solo, causada pelo pisoteio intenso de animais ou pelo uso de maquinário agrícola pesado, provoca:',
     tip: 'Solo compactado é duro — dificulta o que passa por ele.',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O processo pelo qual partículas de solo são transportadas pelo vento é chamado de:',
     tip: 'Esse tipo de erosão é comum em regiões áridas e secas.',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O pH neutro ideal para a maioria das plantas cultivadas (como milho, soja e feijão) fica em torno de:',
     tip: 'pH 7 é neutro; abaixo de 7 é ácido; acima de 7 é alcalino.',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Resíduos e reciclagem',
     type: 'multiple_choice',
     text: 'A adubação orgânica com composto de restos de alimentos e folhas secas (compostagem) melhora o solo porque:',
     tip: 'O composto orgânico "alimenta" o solo.',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'A região do solo onde se concentra a maior parte das raízes das plantas e da atividade biológica é o:',
     tip: 'É a camada mais rica em vida e nutrientes.',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O solo avermelhado-amarelado, comum em regiões tropicais como o Brasil, é rico em:',
     tip: 'A cor vermelha e amarela do solo é causada por certos minerais.',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'Para que um solo seja considerado fértil e produtivo, é necessário que ele possua:',
     tip: 'Fertilidade é equilíbrio — não é só ter muitos nutrientes.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A cobertura vegetal natural protege o solo da erosão porque:',
     tip: 'As plantas "abraçam" o solo de várias formas.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O Cerrado brasileiro tem solos chamados de "latossolos", que são geralmente:',
     tip: 'Latossolos tropicais passaram por muita lixiviação ao longo de milhões de anos.',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Solo',
     type: 'multiple_choice',
     text: 'O conjunto de práticas que visa manter e recuperar a capacidade produtiva do solo ao longo do tempo, evitando sua degradação, é chamado de:',
     tip: 'É a "medicina preventiva" do solo.',

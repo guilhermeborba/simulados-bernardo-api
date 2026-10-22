@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A erosão hídrica possui diferentes estágios de intensidade. Qual é o estágio mais grave, que forma incisões profundas no solo, podendo atingir o lençol freático e ser de difícil recuperação?',
     tip: 'É o pior estágio — depois da erosão laminar e das ravinas.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A erosão eólica é causada pela ação do:',
     tip: 'O vento pode ser tão destrutivo quanto a chuva para o solo.',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O terraceamento (construção de socalcos ou patamares em terrenos inclinados) é uma técnica agrícola milenar usada para:',
     tip: 'Imagine degraus gigantes em uma encosta — para que servem?',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O rodízio de culturas (plantar espécies diferentes em sucessão no mesmo local) beneficia o solo principalmente porque:',
     tip: 'Plantas diferentes usam e repõem nutrientes diferentes.',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O processo de assoreamento de rios ocorre quando:',
     tip: 'Assoreamento = acúmulo de sedimentos no fundo do rio.',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A mata ciliar é a vegetação que cresce às margens dos rios e córregos. Sua principal função para os recursos hídricos é:',
     tip: 'Ela age como uma "esponja e filtro" ao redor do rio.',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A impermeabilização do solo nas cidades (asfalto, concreto, calçadas) contribui para:',
     tip: 'Quando o solo não absorve água, para onde ela vai?',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Os deslizamentos de terra em encostas são mais comuns e graves em períodos de:',
     tip: 'O solo absorve água — quando fica saturado, o que acontece?',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A mineração a céu aberto (extração de minério, areia, argila), quando não realizada com responsabilidade ambiental, pode causar:',
     tip: 'A mineração remove camadas de solo e expõe rochas.',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O reflorestamento com espécies nativas é preferível ao uso de espécies exóticas (como o eucalipto) em áreas de recuperação ambiental porque:',
     tip: 'Espécies nativas "conhecem" o ecossistema local.',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A erosão laminar é o tipo de erosão que:',
     tip: 'É a mais "silenciosa" — difícil de ver no início.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O desmatamento aumenta drasticamente a erosão do solo porque:',
     tip: 'Sem plantas, o solo fica "nu" e vulnerável.',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'As plantações em curvas de nível (cultivo acompanhando as linhas de mesma altitude nas encostas) são adotadas porque:',
     tip: 'Imagine sulcos horizontais na encosta — qual seria o efeito da água da chuva?',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A criação de Unidades de Conservação (UCs) e Áreas de Preservação Permanente (APPs) contribui para:',
     tip: 'São áreas legalmente protegidas — com que finalidade?',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Tempo e clima',
     type: 'multiple_choice',
     text: 'O solo urbano impermeabilizado contribui para o "efeito de ilha de calor" nas cidades porque:',
     tip: 'O asfalto absorve e retém calor — diferente do solo natural.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A adubação verde consiste em:',
     tip: 'É uma prática de "adubar com plantas vivas".',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O uso excessivo de fertilizantes químicos no solo pode:',
     tip: 'Excesso de qualquer coisa causa problemas.',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O Código Florestal Brasileiro (Lei 12.651/2012) estabelece, entre outras coisas:',
     tip: 'É a lei que define onde se pode e não se pode desflorestar.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A calagem (aplicação de calcário ao solo) é fundamental para a agricultura no Cerrado. Para que ela serve?',
     tip: 'O Cerrado tem solos naturalmente ácidos que precisam de correção.',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O assoreamento dos rios causado pela erosão do solo afeta negativamente a:',
     tip: 'Um rio raso e cheio de sedimentos — o que isso impede?',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'As Áreas de Reserva Legal exigidas pelo Código Florestal nas propriedades rurais são importantes porque:',
     tip: 'São áreas de vegetação preservada dentro das propriedades privadas.',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A erosão por ravinas se diferencia da erosão laminar principalmente porque:',
     tip: 'Ravinas são visíveis como sulcos; erosão laminar não é visível a olho nu.',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A queimada, prática ainda utilizada em algumas regiões do Brasil para "limpar" o pasto ou a lavoura, é prejudicial ao solo porque:',
     tip: 'O fogo destrói tudo que há na superfície do solo.',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O pisoteio excessivo de animais em pastagens superlotadas degrada o solo por:',
     tip: 'Pisoteio constante age como "prensa" no solo.',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Os telhados verdes (coberturas vegetadas em edifícios) e os jardins de chuva são soluções urbanas que contribuem para:',
     tip: 'São soluções baseadas na natureza para problemas urbanos.',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A salinização do solo é um processo que torna o solo improdutivo. É comum principalmente em:',
     tip: 'Regiões secas com irrigação mal feita acumulam sal.',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'O processo de desertificação é a degradação de terras em regiões áridas, semiáridas e subúmidas, causada por:',
     tip: 'É a combinação de fatores naturais e humanos.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A cobertura morta (mulching), prática de cobrir o solo com palha, folhas secas, casca de arroz ou resíduos vegetais, é benéfica porque:',
     tip: 'É como um "cobertor" para o solo.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'Uma voçoroca é considerada o estágio mais avançado e grave de erosão hídrica porque:',
     tip: 'É mais do que um sulco — é uma ruptura profunda do terreno.',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Conservação do solo',
     type: 'multiple_choice',
     text: 'A recuperação de áreas degradadas pela mineração a céu aberto pode incluir:',
     tip: 'Recuperar é mais do que apenas "tampar o buraco".',

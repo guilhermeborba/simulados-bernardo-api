@@ -1,6 +1,7 @@
 export const questoesCiencias7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Planeta Terra',
     type: 'multiple_choice',
     text: 'A camada que engloba toda a água do planeta Terra é chamada de:',
     tip: 'Pense nas partes do planeta: hidro vem do grego e significa água.',
@@ -16,6 +17,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Aproximadamente quanto da superfície da Terra é coberta por água?',
     tip: 'A Terra é conhecida como "Planeta Azul" justamente por causa dessa proporção.',
@@ -31,6 +33,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Onde está localizada a maior parte da água do planeta?',
     tip: 'Olhe para um mapa-múndi: qual parte é mais azul?',
@@ -46,6 +49,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Qual é o percentual aproximado de água doce disponível na Terra?',
     tip: 'Lembre-se: 97% é salgada. Quanto sobra de água doce?',
@@ -61,6 +65,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Estados físicos',
     type: 'multiple_choice',
     text: 'Em quais estados físicos a água pode ser encontrada na natureza?',
     tip: 'Pense: neve, chuva e vapor — que estados são esses?',
@@ -76,6 +81,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Um reservatório subterrâneo natural de água doce, formado pelo acúmulo de água que se infiltra pelo solo e pelas rochas, é chamado de:',
     tip: 'Essa palavra vem do latim "aquifer", que significa "portador de água".',
@@ -91,6 +97,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Atmosfera',
     type: 'multiple_choice',
     text: 'O derretimento acelerado das geleiras polares é uma consequência direta de:',
     tip: 'Pense em qual fenômeno está aumentando a temperatura global.',
@@ -106,6 +113,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'O processo físico pelo qual um sólido (gelo) se transforma em líquido (água) ao receber calor é chamado de:',
     tip: 'Quando o gelo derrete, ele está sofrendo esse processo.',
@@ -121,6 +129,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'O processo pelo qual a água líquida se transforma em sólido ao perder calor é chamado de:',
     tip: 'É o que acontece quando a água entra no freezer.',
@@ -136,6 +145,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'O conjunto de todos os processos pelos quais a água circula entre a atmosfera, a superfície terrestre e o interior da Terra é chamado de:',
     tip: 'A palavra "hidrológico" vem de "hydro" (água) e "logos" (estudo).',
@@ -151,6 +161,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'A salinidade dos oceanos é causada principalmente por:',
     tip: 'Pense no que os rios carregam ao longo de seus cursos.',
@@ -166,6 +177,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'A água que se infiltra no solo e fica armazenada entre as rochas, formando reservatórios naturais, é chamada de:',
     tip: 'Essa água está abaixo da superfície, "escondida" no subsolo.',
@@ -181,6 +193,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'O processo pelo qual a água líquida se transforma em vapor ao receber calor é chamado de:',
     tip: 'Quando a água de uma poça "some" após o sol aparecer, o que aconteceu?',
@@ -196,6 +209,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Ciclo da água',
     type: 'multiple_choice',
     text: 'A queda de água da atmosfera para a superfície terrestre, seja na forma de chuva, neve, granizo ou garoa, é chamada de:',
     tip: 'Quando o vapor de água condensa nas nuvens e volta para a Terra, esse processo tem um nome específico.',
@@ -211,6 +225,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'O lençol freático é:',
     tip: 'É a camada de água subterrânea mais próxima da superfície.',
@@ -226,6 +241,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Quando o vapor de água esfria e se transforma em gotículas de água líquida, formando nuvens e neblina, ocorre o processo de:',
     tip: 'O vapor do banheiro que "embaça" o espelho está sofrendo esse processo.',
@@ -241,6 +257,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A transformação direta de um sólido em vapor, sem passar pelo estado líquido, é chamada de:',
     tip: 'As bolinhas de naftalina que "somem" sem deixar líquido sofrem esse processo.',
@@ -256,6 +273,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'Os estuários são regiões onde:',
     tip: 'Estuário vem do latim "aestus", que significa maré.',
@@ -271,6 +289,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'As grandes massas de gelo que se formam em zonas polares e áreas montanhosas de altitude elevada são chamadas de:',
     tip: 'Pense nas calotas polares e nas geleiras dos Alpes e dos Andes.',
@@ -286,6 +305,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Água potável é aquela que:',
     tip: 'Potável vem do latim "potabilis", que significa "que pode ser bebida".',
@@ -301,6 +321,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Propriedades dos materiais',
     type: 'multiple_choice',
     text: 'A água é chamada de "solvente universal" porque:',
     tip: 'Pense na capacidade da água de dissolver açúcar, sal, vitaminas e muitas outras substâncias.',
@@ -316,6 +337,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'Ao congelar, o que acontece com o volume da água?',
     tip: 'Por que garrafas de vidro estouram quando a água dentro delas congela?',
@@ -331,6 +353,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Propriedades dos materiais',
     type: 'multiple_choice',
     text: 'A tensão superficial da água é a propriedade que permite que:',
     tip: 'Já viu um clipe ou uma agulha "flutuando" na superfície da água?',
@@ -346,6 +369,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Propriedades dos materiais',
     type: 'multiple_choice',
     text: 'O Mar Morto é famoso por sua altíssima salinidade (10 vezes mais salgado que o oceano). Isso faz com que:',
     tip: 'O sal aumenta a densidade da água. Corpos mais densos afundam mais ou menos?',
@@ -361,6 +385,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'As geleiras continentais (Antártida e Groenlândia) armazenam aproximadamente quanto da água doce do planeta?',
     tip: 'A maior parte da água doce não está nos rios — está congelada.',
@@ -376,6 +401,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A temperatura de ebulição da água pura ao nível do mar é:',
     tip: 'Essa é a temperatura em que a água começa a ferver e transformar-se em vapor.',
@@ -391,6 +417,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Transformações da matéria',
     type: 'multiple_choice',
     text: 'A temperatura de fusão (ponto de congelamento) da água pura é:',
     tip: 'É a temperatura em que o gelo começa a derreter.',
@@ -406,6 +433,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'A crise hídrica enfrentada por muitas regiões do mundo está relacionada principalmente a:',
     tip: 'Não é falta total de água no planeta — é como ela é usada e distribuída.',
@@ -421,6 +449,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Água na natureza',
     type: 'multiple_choice',
     text: 'O processo de purificação natural da água que ocorre quando ela percola lentamente pelo solo e pelas rochas, que funcionam como filtros, é chamado de:',
     tip: 'O solo e as rochas porosas atuam como filtros naturais.',
@@ -436,6 +465,7 @@ export const questoesCiencias7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Qual das seguintes ações contribui diretamente para a conservação dos recursos hídricos?',
     tip: 'Pense em qual ação diminui o desperdício ou a contaminação da água.',
