@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "A ginástica que reúne diferentes manifestações corporais, sem competição, valorizando a participação e a diversidade de movimentos, é chamada de:",
     tip: "Pense no nome que já sugere 'para todo mundo', sem o foco em competir ou vencer, mas sim em participar.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "A ginástica que usa exercícios para desenvolver força, resistência e flexibilidade do corpo é chamada de ginástica de:",
     tip: "Pense no objetivo principal dessa prática — preparar e 'condicionar' o corpo física e fisicamente.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "O movimento feito antes da prática de exercícios, para preparar o corpo e evitar lesões, é chamado de:",
     tip: "Pense no momento inicial de uma atividade física, quando o corpo precisa 'esquentar' antes do esforço maior.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "O movimento feito após o exercício físico, estendendo os músculos para relaxá-los, é chamado de:",
     tip: "Pense no movimento de 'esticar' os músculos, geralmente feito no final de uma atividade física.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Na ginástica artística, o aparelho em que o ginasta realiza movimentos de equilíbrio sobre uma superfície estreita e elevada é a:",
     tip: "Pense no nome do aparelho que já descreve exatamente sua função: manter o equilíbrio em uma superfície estreita.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Na ginástica artística, os movimentos realizados diretamente no colchão, sem nenhum aparelho, formam a modalidade chamada de:",
     tip: "Pense no nome que já indica o 'lugar' onde os movimentos acontecem — diretamente no chão, sobre um colchão.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "A capacidade do corpo de alcançar grandes amplitudes de movimento nas articulações é chamada de:",
     tip: "Pense na capacidade de se 'dobrar' e alongar bem o corpo, como fazem os ginastas e bailarinos.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "A capacidade física de sustentar um esforço por um longo período de tempo sem se cansar é chamada de:",
     tip: "Pense na capacidade de 'resistir' ao cansaço durante um longo período de atividade física.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "A capacidade física relacionada à potência dos músculos para empurrar, levantar ou puxar objetos pesados é chamada de:",
     tip: "Pense na capacidade que permite levantar ou empurrar algo pesado, usando a potência dos músculos.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Praticar exercícios físicos regularmente ajuda a prevenir o estilo de vida conhecido como:",
     tip: "Pense no nome que descreve o estilo de vida de quem passa muito tempo sentado, sem se exercitar.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Durante uma aula de educação física, os alunos fazem corridas leves e movimentos de alongamento antes da atividade principal. Esse momento inicial é chamado de:",
     tip: "Pense no momento que prepara o corpo antes do esforço principal da aula.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Um ginasta realiza giros, saltos e acrobacias diretamente sobre o colchão, sem usar nenhum aparelho. Essa modalidade é chamada de:",
     tip: "Pense no nome que descreve exatamente o 'lugar' onde os movimentos acontecem — sobre o colchão, sem aparelhos.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Um atleta consegue fazer um espacate completo, alcançando grande amplitude de movimento com as pernas. Essa capacidade física é chamada de:",
     tip: "Pense na capacidade de alcançar grandes amplitudes de movimento nas articulações, como nas pernas.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Um atleta consegue correr por 30 minutos seguidos, sem parar, mantendo um ritmo constante. Essa capacidade física é chamada de:",
     tip: "Pense na capacidade de sustentar um esforço por um longo período de tempo, sem se cansar rapidamente.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes de uma atividade intensa, é importante alongar os músculos e fazer movimentos leves, pois isso ajuda a:",
     tip: "Pense no principal objetivo de se preparar bem o corpo antes de um esforço físico maior.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Uma ginasta se equilibra sobre uma superfície estreita e elevada, realizando giros e saltos. Qual aparelho da ginástica artística ela está usando?",
     tip: "Pense no aparelho já descrito anteriormente nesta prova, cujo nome indica exatamente sua função.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Um grupo de alunos participa de uma apresentação de ginástica geral na escola, com diferentes movimentos corporais em grupo, sem nenhuma competição entre eles. O objetivo principal dessa prática é:",
     tip: "Pense na característica principal dessa modalidade, que já foi explicada no início desta prova — ela não tem competição.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Um atleta realiza exercícios de musculação regularmente para aumentar a capacidade dos músculos de empurrar e levantar pesos. Essa capacidade física é chamada de:",
     tip: "Pense na capacidade relacionada diretamente à potência dos músculos, usada para levantar ou empurrar objetos pesados.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Depois de uma atividade física intensa, os alunos fazem exercícios de alongamento para relaxar os músculos. Esse momento final é chamado de:",
     tip: "Pense no momento que é o 'oposto' do aquecimento, feito no final da atividade, para relaxar o corpo.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Uma pessoa que não pratica nenhuma atividade física regularmente e passa a maior parte do tempo sentada corre maior risco de desenvolver:",
     tip: "Pense no nome do estilo de vida descrito na questão, e nos riscos associados a ele, já mencionados nesta prova.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Antes da aula de educação física, Bernardo fez corridas leves e alongamentos para preparar o corpo. Como se chama esse momento inicial?",
     tip: "Pense no momento que prepara o corpo antes do esforço físico principal.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Bernardo participou de uma apresentação de ginástica geral na escola, com vários colegas fazendo diferentes movimentos corporais juntos, sem competição entre eles. Qual é o objetivo principal dessa prática?",
     tip: "Pense na característica principal dessa modalidade, sem foco em vencer ou competir.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Bernardo tentou fazer um espacate na aula de educação física, alcançando uma grande amplitude de movimento com as pernas. Qual capacidade física ele estava trabalhando?",
     tip: "Pense na capacidade de alcançar grandes amplitudes de movimento nas articulações.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Bernardo correu por 20 minutos seguidos sem parar, mantendo um ritmo constante durante a aula. Qual capacidade física ele estava desenvolvendo?",
     tip: "Pense na capacidade de sustentar um esforço por um longo período de tempo, sem se cansar rapidamente.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Bernardo tentou se equilibrar em uma superfície estreita e elevada durante uma atividade de ginástica artística na escola. Qual aparelho ele estava usando?",
     tip: "Pense no aparelho cujo nome já descreve sua função principal: manter o equilíbrio em uma superfície estreita.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Capacidades físicas',
     type: "multiple_choice",
     text: "Bernardo fez exercícios de musculação leve, com a orientação do professor, para fortalecer os músculos dos braços. Qual capacidade física ele estava trabalhando?",
     tip: "Pense na capacidade relacionada à potência dos músculos, treinada com exercícios de musculação.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Depois de uma atividade física intensa, Bernardo fez alongamentos para relaxar os músculos antes de ir para casa. Como se chama esse momento final?",
     tip: "Pense no momento que é o 'oposto' do aquecimento, feito no final da atividade física.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Ginástica',
     type: "multiple_choice",
     text: "Bernardo fez giros e acrobacias diretamente sobre o colchão durante a aula de ginástica artística, sem usar nenhum aparelho. Qual modalidade ele praticou?",
     tip: "Pense no nome que descreve exatamente o 'lugar' onde os movimentos aconteceram — sobre o colchão, sem aparelhos.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "O professor explicou que praticar exercícios físicos regularmente ajuda Bernardo a prevenir problemas de saúde relacionados a ficar muito tempo sentado, sem se mexer. Como se chama esse estilo de vida pouco ativo?",
     tip: "Pense no nome do estilo de vida de quem passa muito tempo parado, sem se exercitar.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Bernardo aprendeu que alongar os músculos antes de uma atividade intensa ajuda a prevenir lesões. Esse cuidado faz parte de qual momento da aula de educação física?",
     tip: "Pense no momento inicial da aula, que prepara o corpo antes do esforço físico principal.",

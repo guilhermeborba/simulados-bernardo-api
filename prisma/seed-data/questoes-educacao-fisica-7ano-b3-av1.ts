@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "As lutas são práticas corporais que envolvem disputa corpo a corpo, com regras específicas, diferente de uma simples:",
     tip: "Pense na diferença fundamental entre uma luta esportiva, com regras e respeito, e algo sem controle nenhum.",
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "A capoeira é uma luta brasileira de origem:",
     tip: "Pense na origem dessa luta, muito ligada à história da escravidão e da resistência cultural no Brasil.",
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Na capoeira, o movimento de balanço constante do corpo, usado como base para os outros movimentos, é chamado de:",
     tip: "Pense no movimento característico da capoeira, feito de um lado para o outro, que serve de base para todos os outros movimentos.",
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "A roda de capoeira é formada por participantes que ficam ao redor, cantando e tocando instrumentos, enquanto dois capoeiristas jogam no:",
     tip: "Pense no formato dessa prática: as pessoas ficam em círculo, e os dois praticantes jogam exatamente no meio desse círculo.",
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "O instrumento musical que marca o ritmo e comanda o jogo durante a roda de capoeira é o:",
     tip: "Pense no instrumento de uma corda só, com origem africana, que já foi estudado nas aulas de música.",
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "O judô é uma luta de origem:",
     tip: "Pense no país asiático conhecido por criar essa luta, famosa pelas técnicas de quedas e imobilizações.",
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "No judô, o espaço onde as lutas acontecem, feito de um material emborrachado para amortecer as quedas, é chamado de:",
     tip: "Pense no espaço especial, com um material mais fofo, usado especificamente para amortecer quedas em lutas como o judô.",
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "No judô, a cor da faixa do praticante indica seu:",
     tip: "Pense no que a cor da faixa realmente representa — tem a ver com o tempo e o nível de aprendizado do praticante, não com peso ou time.",
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Antes e depois de uma luta de judô, os praticantes fazem uma reverência chamada cumprimento, que demonstra:",
     tip: "Pense no significado desse gesto tradicional japonês — ele mostra justamente o oposto de desrespeito ou agressividade.",
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Um dos princípios básicos presentes em praticamente todas as lutas é buscar tirar o equilíbrio do adversário, conhecido como:",
     tip: "Pense no objetivo comum de várias lutas: fazer o oponente perder a estabilidade do corpo.",
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Durante uma roda de capoeira, dois participantes jogam no centro enquanto o berimbau marca o ritmo. Esse momento de prática entre os dois capoeiristas é chamado de:",
     tip: "Pense no nome usado na capoeira para descrever a interação entre os dois praticantes no centro da roda.",
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Em uma luta de judô, um golpe que consiste em derrubar o adversário no tatame, usando técnicas específicas de equilíbrio, é chamado de:",
     tip: "Pense no objetivo principal de muitas técnicas de judô: usar o próprio movimento do adversário para derrubá-lo no tatame.",
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Na capoeira, além dos movimentos de ataque e defesa, também existem elementos de música, dança e cultura, o que mostra que ela é mais do que apenas uma:",
     tip: "Pense em como a capoeira combina várias linguagens diferentes — isso mostra que ela vai além de ser apenas uma coisa só.",
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Em uma luta de judô, antes de começar o combate, os dois atletas se cumprimentam fazendo uma reverência chamada:",
     tip: "Pense no gesto de respeito feito entre os atletas antes de iniciar o combate, já mencionado anteriormente nesta prova.",
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Nas aulas de educação física sobre lutas, é fundamental seguir as regras de segurança e o respeito ao colega, pois as lutas, diferente de uma briga, são praticadas com:",
     tip: "Pense na diferença fundamental entre uma luta esportiva e uma briga descontrolada, já discutida no início desta prova.",
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Na capoeira, os participantes ao redor da roda cantam e tocam instrumentos enquanto os dois capoeiristas jogam no centro. Essa participação coletiva mostra a importância da:",
     tip: "Pense em como todos ao redor da roda participam juntos, cantando e tocando — isso mostra o valor de fazer algo em grupo, não sozinho.",
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "No judô, quando um lutador consegue imobilizar o adversário no chão por um tempo determinado, sem permitir que ele se solte, essa técnica é chamada de:",
     tip: "Pense no nome que já descreve exatamente a ação: manter o adversário 'parado', sem conseguir se soltar.",
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "As lutas, como judô e capoeira, costumam ensinar valores importantes, como respeito, disciplina e controle das emoções, além dos:",
     tip: "Pense em como as lutas também ensinam, além dos valores, as próprias técnicas e movimentos específicos de cada modalidade.",
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Durante a prática de lutas na escola, é importante que os alunos pratiquem os movimentos com cuidado, controlando a força, pois o objetivo da aula é:",
     tip: "Pense no verdadeiro objetivo educacional dessas aulas — aprender com segurança é mais importante do que apenas 'ganhar'.",
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Um dos princípios fundamentais das lutas, que diferencia essa prática esportiva de uma briga de rua, é que as lutas acontecem dentro de:",
     tip: "Pense na diferença fundamental já discutida: lutas esportivas têm regras e alguém responsável por garantir que elas sejam seguidas.",
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Bernardo aprendeu na aula de educação física que lutas, como judô e capoeira, têm regras específicas e são diferentes de uma simples:",
     tip: "Pense na diferença fundamental entre uma luta esportiva, com regras, e uma briga sem controle nenhum.",
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Bernardo participou de uma roda de capoeira na escola, jogando no centro enquanto os colegas cantavam e tocavam o berimbau ao redor. Qual é a origem cultural dessa luta?",
     tip: "Pense na origem dessa luta brasileira, ligada à história da cultura africana trazida ao Brasil.",
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Durante a roda de capoeira, Bernardo fez o movimento de balanço constante do corpo, usado como base para os outros movimentos. Como se chama esse movimento?",
     tip: "Pense no movimento característico da capoeira, feito de um lado para o outro, usado como base dos outros movimentos.",
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Bernardo experimentou o judô em uma aula especial e, antes de lutar, cumprimentou o colega com uma reverência. O que esse gesto representa?",
     tip: "Pense no verdadeiro significado desse gesto tradicional — é justamente o oposto de desrespeito ou agressividade.",
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Bernardo praticou judô em um espaço emborrachado especial, que amortece as quedas durante a luta. Como se chama esse espaço?",
     tip: "Pense no espaço especial, com material mais fofo, usado especificamente nas lutas como o judô.",
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Bernardo descobriu que o judô é uma luta de origem:",
     tip: "Pense no país asiático conhecido por criar essa luta, famosa pelas técnicas de quedas e imobilizações.",
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Na aula de judô, Bernardo notou que a cor da faixa de cada colega era diferente. O que essa cor representa?",
     tip: "Pense no que a cor da faixa realmente representa — tem a ver com o nível de aprendizado, não com peso ou time.",
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Lutas',
     type: "multiple_choice",
     text: "Bernardo tentou um movimento de luta em que buscava tirar o equilíbrio do colega durante a prática orientada na escola. Esse princípio é comum em praticamente todas as lutas e é chamado de:",
     tip: "Pense no objetivo comum de várias lutas: fazer o oponente perder a estabilidade do corpo.",
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Capoeira',
     type: "multiple_choice",
     text: "Bernardo aprendeu que a capoeira, além dos movimentos de luta, também envolve música, canto e dança ao redor da roda. Isso mostra que a capoeira é mais do que apenas uma:",
     tip: "Pense em como a capoeira combina várias linguagens culturais diferentes, indo além de ser apenas uma única coisa.",
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Preparação e segurança',
     type: "multiple_choice",
     text: "Durante a prática orientada de luta na escola, Bernardo teve cuidado para controlar a força dos movimentos e respeitar o colega. Esse cuidado mostra a importância de praticar lutas com:",
     tip: "Pense no verdadeiro objetivo educacional dessas aulas — aprender com cuidado é mais importante do que usar força descontrolada.",
