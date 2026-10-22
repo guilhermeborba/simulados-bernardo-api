@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Múltiplos de um número são obtidos multiplicando esse número por 0, 1, 2, 3... Qual das opções mostra APENAS múltiplos de 5?',
     tip: 'Todo múltiplo de 5 termina em 0 ou 5! Confira número por número em cada alternativa.',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Divisores de um número são números que dividem esse número exatamente (resto zero). Quais são os divisores de 12?',
     tip: 'Teste dividir 12 por cada número da lista. Se sobrar resto, esse número NÃO é divisor!',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Um número é considerado PRIMO quando:',
     tip: 'Pense no número 7: só dá para dividir por 1 e por 7 mesmo, sem sobrar resto. Essa é a "marca registrada" de um primo!',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Qual das alternativas apresenta APENAS números primos?',
     tip: 'Cuidado com o número 1 — ele NÃO é considerado primo! E o 9 também não é (9 = 3 x 3).',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Um número é divisível por 2 quando:',
     tip: 'Olhe só para o último algarismo do número — é o único que importa nesse critério!',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Um número é divisível por 3 quando:',
     tip: 'Teste com o número 123: 1+2+3 = 6, que é múltiplo de 3. Por isso 123 é divisível por 3!',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'O número 235 é divisível por 5 porque:',
     tip: 'O critério de divisibilidade por 5 é bem simples: o número tem que terminar em 0 ou em 5.',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Ao decompor o número 12 em fatores primos, obtemos:',
     tip: 'Cada fator da decomposição precisa ser um número PRIMO. Repare que 6 e 4 ainda podem ser divididos mais!',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Um número composto é aquele que:',
     tip: 'Pense no oposto dos primos! Enquanto o primo tem só 2 divisores, o composto tem 3 ou mais.',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Qual é o menor número primo?',
     tip: 'Lembre-se: o 1 não conta como primo, e o 0 também não! O menor primo de todos é bem conhecido...',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'MMC significa Mínimo Múltiplo Comum. Qual é o MMC entre 4 e 6?',
     tip: 'Liste os múltiplos de cada número (4, 8, 12, 16... e 6, 12, 18...) e procure o primeiro que aparece nas duas listas!',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'MDC significa Máximo Divisor Comum. Qual é o MDC entre 8 e 12?',
     tip: 'Liste os divisores dos dois números e veja qual é o maior que aparece nas duas listas.',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MMC entre 3 e 5?',
     tip: 'Quando dois números não têm divisores em comum (além do 1), o MMC deles é sempre o produto dos dois!',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Qual é o MDC entre 15 e 25?',
     tip: 'Liste os divisores de 15 (1,3,5,15) e de 25 (1,5,25). Qual número aparece nas duas listas e é o maior?',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Dois ônibus saem juntos de uma estação: um a cada 6 minutos e outro a cada 8 minutos. Depois de quantos minutos eles sairão juntos novamente?',
     tip: 'Esse tipo de problema, de "coisas que acontecem juntas de novo", sempre se resolve com MMC!',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Uma professora quer dividir 18 lápis e 24 canetas em grupos iguais, sem sobrar nada, usando o maior número possível de grupos. Quantos grupos ela pode formar?',
     tip: 'Quando o problema fala em "dividir em partes iguais, sem sobrar, com o maior número possível", pense em MDC!',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Para calcular o MMC por fatoração, decompomos os números em fatores primos e multiplicamos os fatores:',
     tip: 'Para o MMC, você pega TODOS os fatores (repetidos ou não), sempre escolhendo o de maior expoente quando aparecer nos dois.',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Para calcular o MDC por fatoração, multiplicamos os fatores primos:',
     tip: 'Para o MDC, você pega SÓ os fatores que aparecem nos dois números ao mesmo tempo, com o menor expoente.',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Se dois números são primos entre si (não têm divisores comuns além do 1), o MDC entre eles é sempre:',
     tip: '"Primos entre si" significa que o único divisor em comum é o número 1 — e é exatamente isso que define o MDC deles!',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'O produto de dois números é igual ao produto do MMC pelo MDC deles. Se o MMC de dois números é 24 e o MDC é 2, qual é o produto dos dois números?',
     tip: 'Use a fórmula: número1 x número2 = MMC x MDC. Basta multiplicar 24 x 2!',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Bernardo tem um treino de natação a cada 4 dias e um treino de futebol a cada 6 dias. Se ele fez os dois treinos hoje, depois de quantos dias eles vão coincidir novamente?',
     tip: '"Coincidir de novo" é a palavra-chave para pensar em MMC! Calcule o MMC entre 4 e 6.',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Bernardo quer organizar 20 figurinhas e 30 cartinhas em pacotinhos iguais, sem sobrar nenhuma, usando o maior número de pacotinhos possível. Quantos pacotinhos ele pode fazer?',
     tip: '"Sem sobrar, com o maior número possível de grupos" é a dica clássica de MDC! Calcule o MDC entre 20 e 30.',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Na escola de Bernardo, o sinal para o recreio toca a cada 90 minutos e o sinal da troca de aula toca a cada 45 minutos. Se os dois sinais tocaram juntos às 8h, qual é o MMC entre 90 e 45?',
     tip: 'Repare que 90 já é um múltiplo de 45 (45 x 2 = 90)! Quando um número já é múltiplo do outro, o MMC é o próprio maior número.',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Bernardo está separando seus 16 carrinhos e 24 bonecos de ação em prateleiras, cada prateleira com a mesma quantidade de cada brinquedo, sem sobrar nenhum. Qual é o maior número de prateleiras que ele pode usar?',
     tip: 'Calcule o MDC entre 16 e 24 — ele mostra o maior número de grupos iguais possível.',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que o número 17 só pode ser dividido por 1 e por ele mesmo. Isso significa que 17 é um número:',
     tip: 'Lembre da definição: só dois divisores (1 e ele mesmo) é a "assinatura" de um número primo!',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Bernardo e sua irmã ganham mesada: ele a cada 5 dias e ela a cada 7 dias. Se os dois ganharam mesada hoje, qual é o MMC entre 5 e 7?',
     tip: 'Como 5 e 7 são primos entre si (não têm divisores em comum além do 1), o MMC deles é o produto direto: 5 x 7.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo listou os divisores de 9: 1, 3 e 9. Como 9 tem mais de dois divisores, ele concluiu corretamente que 9 é um número:',
     tip: 'Mais de dois divisores é exatamente a definição de número composto — o contrário do número primo!',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'Bernardo quer saber o MDC entre 10 e 10. Qual é o resultado?',
     tip: 'Quando os dois números são iguais, o maior divisor comum entre eles é o próprio número!',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Múltiplos e divisores',
     type: 'multiple_choice',
     text: 'Bernardo decompôs o número 30 em fatores primos e encontrou 2 x 3 x 5. Isso está correto porque 2, 3 e 5 são números:',
     tip: 'Uma fatoração só está completa quando TODOS os fatores são números primos — e 2, 3 e 5 são exatamente isso!',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'MMC e MDC',
     type: 'multiple_choice',
     text: 'No fim do simulado, Bernardo revisou: o MMC de dois números é sempre ______ ao maior deles, e o MDC é sempre ______ ao menor deles.',
     tip: 'Pense nos exemplos que você já resolveu: o MMC sempre foi igual ou maior que o maior número, e o MDC sempre foi igual ou menor que o menor número!',

@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'O símbolo % significa "por cento", ou seja, uma parte de cada:',
     tip: '"Cento" tem a ver com "cem"! Pense em "por cento" como "de cada 100".',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: '50% é o mesmo que a fração:',
     tip: '50% é 50/100. Agora simplifique essa fração dividindo os dois números por 50!',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: '25% em forma decimal é:',
     tip: 'Para transformar porcentagem em decimal, divida por 100 (ou "ande" a vírgula duas casas para a esquerda).',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Quanto é 10% de 200?',
     tip: 'Calcular 10% de um número é bem fácil: é só dividir o número por 10!',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Quanto é 50% de 80?',
     tip: '50% é sempre a metade! Divida 80 por 2.',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Uma razão compara dois valores por meio de uma divisão. A razão entre 4 e 2 é escrita como:',
     tip: 'Na razão "entre A e B", A vem sempre primeiro (em cima) e B depois (embaixo): A/B.',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Uma proporção é uma igualdade entre duas razões. Qual das alternativas é uma proporção verdadeira?',
     tip: 'Para conferir se é uma proporção verdadeira, simplifique a primeira fração e veja se ela fica igual à segunda!',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Na proporção 2/4 = 1/2, o produto dos meios é igual ao produto dos extremos. Qual é esse produto?',
     tip: 'Multiplique em "X": o numerador de uma fração pelo denominador da outra (2x2 e 4x1). Os dois resultados devem ser iguais!',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Em uma turma de 30 alunos, 12 são meninos. Qual é a razão entre meninos e o total de alunos?',
     tip: 'A ordem importa! "Meninos para o total" significa meninos em cima e total embaixo.',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: '75% equivale à razão:',
     tip: '75% é 75/100. Simplifique dividindo os dois números por 25!',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Uma loja está com 20% de desconto em um tênis de R$ 150. Qual é o valor do desconto?',
     tip: 'Calcule 10% de 150 primeiro (é fácil: divida por 10) e depois dobre esse valor para achar 20%!',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Se o tênis de R$ 150 tem 20% de desconto (R$ 30), qual é o preço final?',
     tip: 'O preço final é o preço original MENOS o desconto: 150 - 30.',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Um produto de R$ 50 teve um aumento de 10%. Qual é o novo preço?',
     tip: 'Primeiro calcule 10% de 50 (que é 5) e depois SOME ao preço original, já que é um aumento.',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Se 3 cadernos custam R$ 24, quanto custam 5 cadernos (mesmo preço unitário)?',
     tip: 'Descubra primeiro o preço de 1 caderno (24 ÷ 3) e depois multiplique pela nova quantidade (5)!',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Um mapa está na escala 1:1000, ou seja, cada 1 cm no mapa representa quantos cm na realidade?',
     tip: 'A escala 1:1000 é uma razão — o primeiro número é o mapa, o segundo é a realidade. Leia com atenção qual valor vem depois dos dois pontos!',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Em uma prova de 20 questões, um aluno acertou 16. Qual foi a porcentagem de acertos?',
     tip: 'Transforme a razão 16/20 em uma fração de denominador 100. Uma dica: 16/20 = 80/100!',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Duas grandezas são diretamente proporcionais quando, ao aumentar uma, a outra:',
     tip: '"Diretamente" quer dizer que elas andam "na mesma direção" — se uma sobe, a outra também sobe!',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Uma receita usa 2 xícaras de farinha para 1 xícara de açúcar. Se usarmos 6 xícaras de farinha, mantendo a proporção, quantas xícaras de açúcar são necessárias?',
     tip: 'Descubra quantas vezes 6 é maior que 2 (nesse caso, 3 vezes) e multiplique o açúcar pelo mesmo número de vezes!',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Uma calculadora custava R$ 40 e agora está R$ 30. Qual foi a porcentagem de desconto?',
     tip: 'Primeiro descubra o valor do desconto em reais (40 - 30 = 10) e depois calcule que porcentagem 10 representa de 40.',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Se 4 máquinas produzem 40 peças por hora, quantas peças 8 máquinas (iguais) produzem por hora, mantendo a proporção direta?',
     tip: 'Descubra quantas peças cada máquina produz sozinha (40 ÷ 4) e depois multiplique pelas 8 máquinas!',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo tirou 18 de 20 questões corretas numa prova. Qual foi sua porcentagem de acertos?',
     tip: 'Transforme 18/20 em uma fração de denominador 100 — pense em quanto vale cada "unidade" de 20 em termos de 100.',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo tem uma coleção de 40 figurinhas, sendo 25% delas repetidas. Quantas figurinhas repetidas ele tem?',
     tip: '25% é o mesmo que 1/4. Divida 40 por 4!',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo economizou dinheiro: sua mesada de R$ 20 vai passar para R$ 25. Qual foi a porcentagem de aumento?',
     tip: 'Primeiro ache o valor do aumento (25 - 20 = 5) e depois calcule que porcentagem 5 representa de 20 (o valor ORIGINAL).',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Na sala de Bernardo, a razão entre o número de meninos e meninas é 3 para 2. Se há 12 meninos, quantas meninas há, mantendo essa razão?',
     tip: 'Descubra quantas vezes 12 é maior que 3 (é 4 vezes) e multiplique o número de meninas (2) pelo mesmo fator!',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Bernardo e seus 2 amigos vão dividir igualmente uma caixa de 24 bombons. Qual razão representa a parte de cada um em relação ao total?',
     tip: 'Primeiro descubra quantos bombons cada um recebe (24 ÷ 3 amigos, incluindo Bernardo) e depois monte a razão com o total.',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo comprou uma bicicleta que custava R$ 300 com 15% de desconto. Quanto ele economizou?',
     tip: 'Calcule 10% de 300 (fácil: é 30) e depois 5% (metade de 10%, ou seja, 15). Some os dois: 30 + 15.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Uma receita de bolo que Bernardo e sua mãe fazem usa a proporção de 3 ovos para 2 xícaras de farinha. Se eles usarem 6 ovos, mantendo a proporção, quantas xícaras de farinha serão necessárias?',
     tip: 'Descubra quantas vezes 6 é maior que 3 (é o dobro) e multiplique a farinha (2) pelo mesmo fator!',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'Bernardo levou 40 minutos para fazer 8 exercícios de matemática, todos com a mesma dificuldade. Mantendo essa proporção, quanto tempo ele levaria para fazer 12 exercícios?',
     tip: 'Descubra quanto tempo Bernardo gasta em cada exercício (40 ÷ 8) e depois multiplique pelos 12 exercícios!',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Porcentagem',
     type: 'multiple_choice',
     text: 'Bernardo acertou 21 de 30 perguntas de um quiz. Qual foi sua porcentagem de acertos?',
     tip: 'Simplifique a fração 21/30 primeiro (dividindo por 3, vira 7/10) e depois transforme em porcentagem.',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Razão e proporção',
     type: 'multiple_choice',
     text: 'No fim do bimestre, Bernardo revisou: se um valor aumenta e o outro também aumenta na mesma razão, dizemos que as grandezas são:',
     tip: '"Diretamente" é a palavra-chave: as duas grandezas seguem na mesma direção, para cima ou para baixo, juntas.',

@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Uma fração representa uma parte de um todo dividido em partes iguais. Na fração 3/4, o número 4 (embaixo) é chamado de:',
     tip: 'O número de baixo mostra em quantas partes o todo foi dividido — ele "denomina" o tamanho de cada pedaço!',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Na fração 3/4, o número 3 (em cima) é chamado de:',
     tip: 'O número de cima conta quantas partes você está considerando — ele "numera" as partes!',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração é MAIOR: 2/5 ou 4/5?',
     tip: 'Quando o denominador é igual, basta comparar o numerador — quem tem mais partes é maior!',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual fração é equivalente a 1/2?',
     tip: 'Frações equivalentes representam a mesma quantidade. Multiplique o numerador e o denominador de 1/2 pelo mesmo número e veja o que aparece!',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'O número decimal 0,75 é lido como:',
     tip: 'Conte as casas depois da vírgula: são duas, então lemos em "centésimos" (como se fosse uma fração de denominador 100).',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é a forma decimal da fração 1/4?',
     tip: 'Faça a divisão 1 ÷ 4 e observe o resultado com calma!',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 2/7 + 3/7?',
     tip: 'Quando os denominadores são iguais, você só soma os numeradores e mantém o denominador!',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 2,5 + 1,3?',
     tip: 'Alinhe a vírgula embaixo da vírgula, como faria numa soma normal, e some casa por casa!',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 5/8 - 2/8?',
     tip: 'Com denominadores iguais, subtraia só os numeradores e mantenha o denominador embaixo!',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 5,0 - 1,8?',
     tip: 'Pode ser útil "pegar emprestado" na subtração, igual você faz com números inteiros. Vá com calma, casa por casa!',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 1/2 + 1/4?',
     tip: 'Antes de somar, transforme 1/2 em quartos: 1/2 = 2/4. Agora some 2/4 + 1/4!',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 2/3 x 3/4?',
     tip: 'Na multiplicação de frações, multiplique numerador com numerador e denominador com denominador: (2x3)/(3x4). Depois simplifique!',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 1/2 ÷ 1/4?',
     tip: 'Para dividir frações, "multiplique pela fração invertida": 1/2 x 4/1.',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 0,5 x 0,2?',
     tip: 'Multiplique como se não tivesse vírgula (5 x 2 = 10) e depois conte as casas decimais dos dois números para posicionar a vírgula!',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 4,8 ÷ 2?',
     tip: 'Divida como se fosse um número inteiro e mantenha a vírgula na mesma posição relativa do resultado.',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual é o resultado de 3/4 - 1/2?',
     tip: 'Transforme 1/2 em quartos primeiro: 1/2 = 2/4. Agora é só fazer 3/4 - 2/4!',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Quanto é 1/3 de 90 canetas?',
     tip: '"Fração de um número" é sempre uma divisão: divida 90 pelo denominador (3).',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Qual das alternativas é VERDADEIRA?',
     tip: 'Transforme as frações em decimais para comparar mais fácil: 1/4 = 0,25 e 1/2 = 0,5.',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'A fração 7/2 pode ser escrita como número misto:',
     tip: 'Divida 7 por 2: o quociente (3) é a parte inteira, e o resto (1) vira o numerador da fração, mantendo o mesmo denominador.',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Uma pizza foi dividida em 8 pedaços iguais. Se Bernardo comeu 3 pedaços, que fração da pizza ele comeu?',
     tip: 'O denominador é o total de pedaços da pizza, e o numerador é quantos pedaços foram comidos.',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo dividiu uma barra de chocolate em 6 pedaços iguais e comeu 2. Que fração ele comeu?',
     tip: 'O total de pedaços vai embaixo, e o que foi comido vai em cima. Depois, se der, simplifique!',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo tinha 3/4 de um pacote de biscoitos e deu 1/4 para sua irmã. Com quanto ele ficou?',
     tip: 'Como os denominadores já são iguais, é só subtrair os numeradores: 3/4 - 1/4.',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Na mesada de Bernardo, ele gastou R$ 12,50 em um brinquedo e R$ 3,25 em um doce. Quanto ele gastou no total?',
     tip: 'Alinhe as vírgulas e some casa por casa, começando pela direita, igual você faria com números inteiros!',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'Bernardo tem uma corda de 2,4 metros e quer cortá-la em pedaços de 0,6 metro cada. Quantos pedaços ele vai conseguir?',
     tip: 'Divida 2,4 por 0,6. Uma dica: multiplique os dois números por 10 para eliminar a vírgula (24 ÷ 6)!',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Se Bernardo acertou 18 de 24 questões de uma prova, que fração representa seus acertos?',
     tip: 'O total de questões vai no denominador, e os acertos no numerador. Depois, se quiser, simplifique dividindo os dois por 6!',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Bernardo comeu 1/2 de uma pizza e seu irmão comeu 1/4 da mesma pizza. Que fração da pizza sobrou?',
     tip: 'Some o que os dois comeram (1/2 + 1/4 = 3/4) e depois subtraia de um inteiro (4/4 - 3/4).',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo comprou um lápis por R$ 1,75 e uma borracha por R$ 0,90. Quanto ele gastou no total?',
     tip: 'Alinhe as vírgulas certinho e some com atenção, casa por casa!',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Sistema monetário',
     type: 'multiple_choice',
     text: 'Bernardo dividiu igualmente R$ 7,50 entre 3 amigos. Quanto cada um recebeu?',
     tip: 'Divida 7,50 por 3 com calma — pode ser mais fácil pensar em 750 centavos divididos por 3!',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Frações',
     type: 'multiple_choice',
     text: 'Se 2/5 dos alunos da turma de Bernardo são meninas, que fração representa os meninos (considerando só meninos e meninas)?',
     tip: 'O total da turma é sempre "um inteiro", ou seja, 5/5. Subtraia a fração das meninas: 5/5 - 2/5.',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Números decimais',
     type: 'multiple_choice',
     text: 'No fim de semana, Bernardo percorreu 0,75 km andando e depois mais 1,25 km de bicicleta. Qual foi a distância total percorrida?',
     tip: 'Alinhe as vírgulas e some 0,75 + 1,25 com atenção — repare que as casas decimais somam um número redondo!',

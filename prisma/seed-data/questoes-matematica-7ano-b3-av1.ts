@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Uma equação é uma igualdade matemática que contém uma letra (incógnita) representando um valor desconhecido. Na equação x + 5 = 12, qual é a incógnita?',
     tip: 'A incógnita é sempre a letra que representa o valor que ainda não conhecemos!',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação x + 4 = 10?',
     tip: 'Para "isolar" o x, faça a operação inversa da soma: subtraia 4 dos dois lados da igualdade.',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação x - 3 = 7?',
     tip: 'A operação inversa da subtração é a adição. Some 3 aos dois lados!',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 3x = 15?',
     tip: 'A operação inversa da multiplicação é a divisão. Divida os dois lados por 3!',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação x/4 = 5?',
     tip: 'A operação inversa da divisão é a multiplicação. Multiplique os dois lados por 4!',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 2x + 3 = 11?',
     tip: 'Primeiro "tire" o número solto (subtraia 3 dos dois lados) e só depois lide com o número que multiplica o x.',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Em uma equação, o sinal de igual (=) indica que:',
     tip: '"Igual" é a palavra-chave! Os dois lados da equação sempre representam a MESMA quantidade.',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 10 - x = 4?',
     tip: 'Pense: "10 menos qual número dá 4?" Você pode testar valores ou isolar o x com cuidado, já que ele está sendo subtraído.',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Para verificar se x = 3 é solução da equação x + 5 = 8, devemos:',
     tip: '"Verificar" uma solução é sempre colocar o valor encontrado no lugar do x e ver se a conta bate!',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 2(x + 1) = 8?',
     tip: 'Use a propriedade distributiva primeiro: multiplique o 2 por tudo que está dentro do parêntese.',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 3x + 2 = x + 10?',
     tip: 'Junte os "x" de um lado e os números do outro: subtraia x dos dois lados, depois subtraia 2 dos dois lados.',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação -2x = 10?',
     tip: 'Divida os dois lados por -2. Lembre-se da regra de sinais: positivo dividido por negativo dá negativo!',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'A idade de Ana mais 5 anos é igual a 20 anos. Qual é a idade de Ana hoje?',
     tip: 'Monte a equação: x + 5 = 20. Depois isole o x subtraindo 5 dos dois lados.',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação x/2 + 3 = 7?',
     tip: 'Primeiro subtraia 3 dos dois lados, depois multiplique por 2 para "desfazer" a divisão.',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'O perímetro de um quadrado é dado por 4x, onde x é o lado. Se o perímetro é 28 cm, qual é a medida do lado?',
     tip: 'Monte a equação 4x = 28 e divida os dois lados por 4.',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 3(x - 2) = 9?',
     tip: 'Distribua o 3 primeiro: 3 vezes x e 3 vezes -2. Depois resolva normalmente.',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Pedro comprou um livro e gastou R$ 8 a mais do que Ana, que gastou x reais. Se Pedro gastou R$ 30, qual é o valor de x?',
     tip: 'Monte a equação: x + 8 = 30. Isole o x subtraindo 8 dos dois lados.',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Qual é o valor de x na equação 5x - 3 = 2x + 9?',
     tip: 'Junte os x de um lado (subtraia 2x dos dois lados) e os números do outro (some 3 nos dois lados).',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'O dobro de um número, mais 4, é igual a 20. Qual é esse número?',
     tip: '"O dobro de um número" vira 2x. Monte a equação: 2x + 4 = 20.',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'A soma da idade de Bernardo com 3 é igual a 15. Qual é a idade de Bernardo?',
     tip: 'Monte a equação x + 3 = 15 e isole o x.',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo tinha algumas figurinhas e ganhou mais 7, ficando com 20. Quantas figurinhas ele tinha antes? (equação: x + 7 = 20)',
     tip: 'Subtraia 7 dos dois lados da equação para descobrir quanto Bernardo tinha antes de ganhar as novas figurinhas.',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo gastou metade de sua mesada (x/2) e ficou com R$ 15. Qual era o valor da mesada?',
     tip: 'Monte a equação x/2 = 15 e multiplique os dois lados por 2 para descobrir o valor total.',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo comprou 4 pacotes de figurinhas, cada um custando x reais, e gastou R$ 20 no total. Qual é o valor de cada pacote?',
     tip: 'Monte a equação 4x = 20 e divida os dois lados por 4.',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Triplicando a quantidade de bolinhas de gude de Bernardo e somando 2, ele chega a 20 bolinhas. Quantas bolinhas ele tinha? (3x + 2 = 20)',
     tip: 'Primeiro subtraia 2 dos dois lados (3x = 18), depois divida por 3.',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo tem x anos. Daqui a 4 anos, ele terá 13 anos. Qual é a idade de Bernardo hoje?',
     tip: 'Monte a equação x + 4 = 13 e subtraia 4 dos dois lados.',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo dividiu igualmente seus carrinhos entre 3 amigos (x/3) e cada um ficou com 6. Quantos carrinhos ele tinha no total?',
     tip: 'Monte a equação x/3 = 6 e multiplique os dois lados por 3.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo pagou R$ 45 por uma camiseta e um boné. Se o boné custou x reais e a camiseta custou o dobro do boné, qual é o valor de x, sabendo que x + 2x = 45?',
     tip: 'Primeiro junte os termos parecidos: x + 2x = 3x. Depois resolva 3x = 45.',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo tinha um certo número de reais guardados. Depois de gastar R$ 12, ficou com R$ 8. Quanto ele tinha guardado? (x - 12 = 8)',
     tip: 'Some 12 aos dois lados da equação para descobrir o valor guardado antes do gasto.',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Bernardo pensou em um número, multiplicou por 2 e subtraiu 5, chegando a 11. Qual foi o número pensado? (2x - 5 = 11)',
     tip: 'Primeiro some 5 aos dois lados (2x = 16), depois divida por 2.',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Equações',
     type: 'multiple_choice',
     text: 'Ao resolver a equação 2(x + 3) = 16 para descobrir um desafio de matemática, qual é o valor de x?',
     tip: 'Distribua o 2 primeiro (2x + 6 = 16), depois isole o x normalmente.',

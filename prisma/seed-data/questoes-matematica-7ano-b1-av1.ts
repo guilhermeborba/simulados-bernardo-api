@@ -1,6 +1,7 @@
 export const questoesMatematica7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Os números inteiros incluem números positivos, negativos e o zero. Qual das alternativas abaixo é um número inteiro negativo?',
     tip: 'Pense na reta numérica: os números negativos ficam à esquerda do zero, e sempre têm aquele sinalzinho de "menos" na frente!',
@@ -16,6 +17,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Observando a reta numérica, qual número está mais à esquerda (portanto, é o menor)?',
     tip: 'Quanto mais "longe" um número negativo está do zero, menor ele é! -8 está bem mais longe do que -2.',
@@ -31,6 +33,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o módulo (valor absoluto) de -6?',
     tip: 'O módulo é a distância do número até o zero, e distância nunca é negativa!',
@@ -46,6 +49,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (-5) + (+8)?',
     tip: 'Quando os sinais são diferentes, subtraia os números e mantenha o sinal do maior valor absoluto: 8 - 5 = 3, e o 8 é positivo!',
@@ -61,6 +65,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (+4) - (+9)?',
     tip: 'Subtrair é o mesmo que somar o oposto: 4 - 9 = 4 + (-9). Como 9 é maior, o resultado fica negativo.',
@@ -76,6 +81,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Ao multiplicar dois números negativos, o resultado é:',
     tip: 'Lembre da regra dos sinais: "menos com menos dá mais"! Dois negativos se multiplicando sempre viram positivo.',
@@ -91,6 +97,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (-20) ÷ (+4)?',
     tip: 'Sinais diferentes na divisão (negativo ÷ positivo) sempre dão resultado negativo. Primeiro divida os números (20÷4=5) e depois coloque o sinal certo.',
@@ -106,6 +113,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual das alternativas está em ORDEM CRESCENTE?',
     tip: 'Ordem crescente é do menor para o maior. Comece sempre pelo número mais negativo!',
@@ -121,6 +129,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Uma pessoa tinha uma dívida de R$ 50 (representada por -50) e pagou R$ 30. Qual é sua nova situação, em número inteiro?',
     tip: 'Pagar parte de uma dívida é somar um valor positivo a um número negativo: -50 + 30. A dívida diminui, mas não desaparece!',
@@ -136,6 +145,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Na operação (-3) + (+3), o resultado é zero. Isso mostra que -3 e +3 são chamados de:',
     tip: 'Pense em espelho! Um número e seu oposto estão à mesma distância do zero, mas em lados diferentes da reta.',
@@ -151,6 +161,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Em um dia de inverno, a temperatura em uma cidade era de -3°C pela manhã e subiu 8°C até a tarde. Qual foi a temperatura da tarde?',
     tip: '"Subir a temperatura" é somar. Calcule -3 + 8 pensando na reta numérica.',
@@ -166,6 +177,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Um submarino está a -120 m (120 m abaixo do nível do mar) e sobe 45 m. Em que profundidade ele fica?',
     tip: 'Subir é somar um valor positivo: -120 + 45. O resultado continua negativo porque ainda está abaixo da superfície.',
@@ -181,6 +193,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (-2) + (-3) x (+4)?',
     tip: 'Lembre-se da ordem das operações: multiplicação vem antes da adição! Primeiro calcule (-3) x (+4).',
@@ -196,6 +209,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'A propriedade comutativa da adição diz que podemos trocar a ordem das parcelas sem alterar o resultado. Qual alternativa mostra isso corretamente?',
     tip: '"Comutar" é trocar de lugar! Procure a alternativa que apenas inverte a ordem da MESMA operação (adição com adição).',
@@ -211,6 +225,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Usando a propriedade distributiva, qual é o resultado de 5 x (-2 + 4)?',
     tip: 'Distribua o 5 para cada número dentro do parêntese: (5 x -2) + (5 x 4). Depois some os resultados.',
@@ -226,6 +241,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de -(+7) + (-3)?',
     tip: 'O sinal de "menos" na frente do parêntese inverte o número de dentro: -(+7) vira -7. Depois some -7 + (-3).',
@@ -241,6 +257,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Um elevador está no 2º subsolo (-2) e sobe 5 andares. Em que andar ele para?',
     tip: 'Calcule -2 + 5. Como o resultado é positivo, o elevador passou do térreo e chegou a um andar "de cima"!',
@@ -256,6 +273,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual afirmação é VERDADEIRA?',
     tip: 'Calcule cada módulo primeiro (lembre-se: o módulo sempre vira positivo) e só depois compare os valores.',
@@ -271,6 +289,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Qual é o resultado de (-2) x (-3) x (-1)?',
     tip: 'Multiplique dois de cada vez: primeiro (-2) x (-3) = 6, depois 6 x (-1). Um número ímpar de sinais negativos dá resultado negativo!',
@@ -286,6 +305,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo tinha R$ 15 guardados, gastou R$ 20 numa loja (ficando devendo) e depois ganhou R$ 12 de mesada. Qual é a situação final, em número inteiro?',
     tip: 'Vá por partes: 15 - 20 primeiro (fica negativo), depois some o 12 que ele ganhou.',
@@ -301,6 +321,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo está brincando com um jogo de tabuleiro em que cada casa para trás vale -1 ponto e cada casa para frente vale +1 ponto. Ele avançou 6 casas e recuou 9 casas. Qual foi o resultado?',
     tip: 'Avançar é +6 e recuar é -9. Some os dois valores: +6 + (-9).',
@@ -316,6 +337,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'No boletim de Bernardo, ele tinha -2 pontos de penalidade e ganhou +5 pontos por bom comportamento. Qual é seu saldo de pontos agora?',
     tip: 'Some os dois valores diretamente: -2 + 5. Pense em quem "puxa mais forte" — o positivo ou o negativo?',
@@ -331,6 +353,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo e seu pai estão calculando a temperatura de um freezer: -18°C. Se a temperatura subir 4°C por causa de uma pane, qual será a nova temperatura?',
     tip: '"Subir a temperatura" significa somar um valor positivo: -18 + 4. O resultado continua negativo, só que "menos negativo".',
@@ -346,6 +369,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo comprou 3 pacotes de figurinhas, e cada pacote "custou" 4 pontos do seu cofrinho de mesada (ou seja, -4 por pacote). Qual foi o total gasto, em número inteiro?',
     tip: 'Multiplicação é soma repetida: 3 vezes (-4) é o mesmo que (-4) + (-4) + (-4).',
@@ -361,6 +385,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Na aula de matemática, a professora pediu para Bernardo calcular (-6) - (-10). Qual é o resultado correto?',
     tip: 'Menos com menos vira mais! Transforme -6 - (-10) em -6 + 10.',
@@ -376,6 +401,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo viu no jornal que a temperatura em uma cidade da Serra Gaúcha foi de -2°C, enquanto em Florianópolis estava 24°C. Qual é a diferença entre essas temperaturas?',
     tip: 'Para achar a diferença, subtraia o menor do maior: 24 - (-2), que vira 24 + 2.',
@@ -391,6 +417,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo está brincando de banco imaginário. Ele começa com saldo 0, deposita +25, depois faz uma retirada de -40. Qual é o saldo final?',
     tip: 'Some tudo na ordem: 0 + 25 - 40. Como ele retirou mais do que tinha, o saldo fica negativo!',
@@ -406,6 +433,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Se Bernardo está no 3º andar de um prédio (+3) e desce até o 2º subsolo (-2), quantos andares ele desceu no total?',
     tip: 'Calcule a distância entre os dois pontos: 3 - (-2). Lembre-se, quantidade de andares é sempre um número positivo!',
@@ -421,6 +449,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'Bernardo multiplicou dois números inteiros e obteve um resultado negativo. Isso significa que:',
     tip: 'Lembre da regra dos sinais: só dá negativo quando os sinais são DIFERENTES um do outro.',
@@ -436,6 +465,7 @@ export const questoesMatematica7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Números inteiros',
     type: 'multiple_choice',
     text: 'No fim de semana, Bernardo calculou seus gastos e ganhos: ganhou +30 de mesada, gastou -18 em um lanche e ganhou +5 de troco. Qual foi o resultado final?',
     tip: 'Some os três valores na ordem: 30 - 18 + 5. Vá fazendo conta por conta, com calma!',
