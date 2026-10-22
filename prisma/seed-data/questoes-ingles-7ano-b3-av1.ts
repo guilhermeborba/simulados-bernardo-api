@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"play\"?",
     tip: "Verbos regulares no passado geralmente terminam com \"-ed\". Qual opção tem essa terminação?",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"go\"?",
     tip: "\"Go\" é um verbo irregular — ele não segue a regra do \"-ed\". Tente lembrar dessa forma sozinha, sem o \"-ed\"!",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"eat\"?",
     tip: "\"Eat\" também é irregular. Pense: \"ontem eu já ___ o almoço\" — qual palavra parece mais com um verbo no passado?",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence is in the simple past?",
     tip: "Passado é algo que já aconteceu. As outras frases falam do presente, do presente contínuo ou do futuro. Qual sobrou?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"see\"?",
     tip: "Outro verbo irregular! Pense em \"eu ___ um filme ontem\" — qual palavra combina?",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"watch\"?",
     tip: "\"Watch\" é regular, então só precisa do \"-ed\" no final. Qual opção segue essa regra certinho?",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which word do we use to make past tense questions?",
     tip: "\"Do\" e \"Does\" são usados no presente. Qual dessas palavras é a versão desse auxiliar no passado?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"have\"?",
     tip: "\"Have\" é irregular. Pense: \"ontem eu ___ uma festa de aniversário\" — qual palavra combina melhor?",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence is correct for a regular verb in the past?",
     tip: "A palavra \"yesterday\" (ontem) na opção D é uma pista de que o verbo precisa estar no passado. Qual frase já tem o verbo certinho no passado?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"come\"?",
     tip: "Mais um irregular! Pense: \"ela ___ à minha festa ontem\" — qual palavra soa certo?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Choose the correct negative sentence in the past.",
     tip: "Quando usamos \"didn't\", o verbo principal volta para a forma simples (sem \"-ed\"). Qual frase segue essa regra?",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Choose the correct question in the past.",
     tip: "Depois de \"Did\", o verbo principal fica na forma simples, sem \"-ed\" ou forma irregular do passado. Qual opção faz isso certo?",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete: \"Yesterday, we ___ a movie at the cinema.\"",
     tip: "A palavra \"yesterday\" (ontem) mostra que a ação já aconteceu. Qual opção está no passado?",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete: \"Last week, my family ___ to the beach.\"",
     tip: "\"Last week\" (semana passada) indica passado. \"Go\" é irregular — qual é a forma certa dele no passado?",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Estruturas verbais',
     type: "multiple_choice",
     text: "Complete: \"She ___ her homework before dinner.\"",
     tip: "Pense em qual dessas palavras é a forma de \"do\" usada para falar de algo que já aconteceu.",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "Depois de \"didn't\", o verbo fica na forma simples (sem \"-ed\"). Qual frase segue essa regra?",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Estruturas verbais',
     type: "multiple_choice",
     text: "Complete: \"___ you like the birthday party?\"",
     tip: "A pergunta é sobre uma festa que já aconteceu. Qual palavra usamos para perguntas no passado?",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete: \"They ___ very happy when they won the game.\"",
     tip: "\"They\" é plural, e a frase fala de algo no passado (eles \"won\", ganharam). Qual forma do verbo \"to be\" no passado combina com \"they\"?",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete: \"I ___ a letter to my grandmother last month.\"",
     tip: "\"Last month\" (mês passado) indica que a ação já aconteceu. \"Write\" é irregular — qual é a forma certa no passado?",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Choose the correct sentence about something that already happened.",
     tip: "As outras opções falam do presente, futuro ou estão com erro de gramática. Qual frase mostra algo que já foi feito?",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Last Saturday, Bernardo visited his grandparents. Which sentence describes this correctly?",
     tip: "\"Last Saturday\" (sábado passado) já nos conta que isso aconteceu no passado. Qual frase está no tempo certo?",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo wants to ask his friend if he watched the soccer game yesterday. Which question is correct?",
     tip: "A palavra \"yesterday\" mostra que é uma pergunta no passado. Qual palavra auxiliar usamos para perguntas no passado?",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo didn't do his homework last night. Which sentence is correct?",
     tip: "Lembre-se: depois de \"didn't\", o verbo volta para a forma simples, sem repetir o passado. Qual frase faz isso certo?",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo went to a birthday party and ate a lot of cake. Which verb form completes: \"Bernardo ___ a lot of cake.\"?",
     tip: "A frase já conta a história no passado (\"went to a birthday party\"). Qual forma de \"eat\" também está no passado?",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Last year, Bernardo's family traveled to Rio de Janeiro. Which sentence is correct?",
     tip: "\"Last year\" (ano passado) indica que a viagem já aconteceu. Qual frase está certinha no passado?",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo's team won the school championship last month. Which sentence is correct?",
     tip: "\"Win\" é irregular. \"Last month\" mostra que já aconteceu. Qual forma do verbo está certa no passado?",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo wants to say he was very tired after playing soccer. Which sentence is correct?",
     tip: "\"Bernardo\" é uma pessoa só (singular), então usamos \"was\", não \"were\". E a frase fala do passado, não do presente.",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo's dog ran away yesterday, but he found it later. Which sentence is correct?",
     tip: "\"Find\" é irregular (não existe \"founded\" para esse sentido). Pense: \"ontem ele ___ o cachorro\" — qual opção soa certo?",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo didn't like the movie he watched last weekend. Which sentence is correct?",
     tip: "Depois de \"didn't\", o verbo volta para a forma simples (sem \"-ed\"). Qual frase segue essa regra?",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo's mom asked him what he did at school yesterday. Which question did she ask?",
     tip: "A pergunta é sobre \"yesterday\" (ontem), então precisa estar no passado, com \"did\" antes do sujeito.",

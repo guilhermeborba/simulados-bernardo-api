@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which word is an adjective that describes a person's height?",
     tip: "Pense em uma palavra que descreve 'como alguém é', não uma ação nem um objeto. Qual dessas opções fala sobre o tamanho de uma pessoa?",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Choose the adjective that means the opposite of \"big\".",
     tip: "\"Opposite\" significa \"oposto\". Se \"big\" é grande, qual palavra significa o contrário, ou seja, pequeno?",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which adjective can describe a city?",
     tip: "Três dessas palavras são verbos (ações como comer, saltar, cantar). Só uma delas descreve \"como algo é\". Essa é a resposta!",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "What is the opposite of \"old\"?",
     tip: "Pense em uma casa que acabou de ser construída. Ela não é \"old\" (velha), ela é...?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which adjective describes someone who tells jokes?",
     tip: "Pense em alguém que faz todo mundo rir na sua turma. Qual palavra descreve essa pessoa?",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Choose the adjective for a person who is not tall.",
     tip: "Se \"tall\" é alto, a palavra oposta para descrever alguém de baixa estatura é...?",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which word describes a person's feelings when something good happens?",
     tip: "Imagine que você ganhou um presente incrível. Como você se sente? Alegre, bravo, entediado ou com fome?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "What adjective means \"very big\"?",
     tip: "Três dessas palavras falam de coisas pequenininhas. Só uma fala do contrário — de algo gigante!",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which adjective describes a nice, kind person?",
     tip: "Pense em alguém que sempre ajuda os outros e trata todo mundo bem. Qual dessas palavras combina com essa pessoa?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Choose the correct adjective: \"The elephant is very ___.\"",
     tip: "Pense no tamanho de um elefante de verdade. Ele é rápido, magrinho, silencioso ou enorme?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Complete: \"My grandmother's house is very ___. It was built 100 years ago.\"",
     tip: "A frase diz que a casa foi construída há 100 anos. Uma casa assim é nova ou antiga?",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Complete: \"The park near my house is ___. It has many trees and flowers.\"",
     tip: "Um lugar com muitas árvores e flores geralmente é visto como feio ou bonito?",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Choose the sentence with the correct adjective order.",
     tip: "Em inglês, o adjetivo vem ANTES do substantivo (a palavra que ele descreve). Qual frase segue essa regra?",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Complete: \"My brother is very ___. He always helps me with my homework.\"",
     tip: "Uma pessoa que sempre ajuda os outros está sendo gentil ou grosseira? Pense no significado de cada palavra.",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Complete: \"This mountain is really ___. It takes hours to reach the top.\"",
     tip: "Se leva horas para chegar ao topo, a montanha é baixinha ou bem alta?",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which sentence correctly describes a person's personality?",
     tip: "Personalidade tem a ver com o jeito de ser de alguém (tímido, alegre, bravo...). Qual frase fala sobre isso?",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Complete: \"The movie was so ___ that I fell asleep.\"",
     tip: "Se você dormiu durante o filme, ele era emocionante ou chato?",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Choose the adjective that completes: \"Our classroom is ___ and clean.\"",
     tip: "A frase já diz que a sala está \"clean\" (limpa). Qual palavra combina com uma sala limpa e em ordem?",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Complete: \"The weather today is ___. I need my umbrella!\"",
     tip: "Se você precisa de um guarda-chuva, o tempo está ensolarado ou chuvoso?",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Choose the best adjective: \"Lions are ___ animals.\"",
     tip: "Pense no leão, o \"rei da selva\". Ele é fraquinho e devagar, ou forte e poderoso?",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo is describing his best friend. He says: \"My friend is very ___. He always makes everyone laugh.\" Which word completes the sentence?",
     tip: "Se o amigo do Bernardo faz todo mundo rir, ele é triste, calado, divertido ou bravo?",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo visited his grandparents' farm. He wants to say the farm is very large. What should he say?",
     tip: "\"Large\" significa grande. Qual das opções também significa grande?",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo is describing his new backpack. He wants to say it has bright, attractive colors. Which adjective fits best?",
     tip: "\"Bright colors\" significa cores vivas e chamativas. Qual palavra fala exatamente sobre cores?",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo's little sister is only 3 years old. Which adjective describes her age?",
     tip: "Uma criança de 3 anos é jovem ou idosa? Pense na idade dela.",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo tried a new food and didn't like the taste at all. Which word describes his opinion?",
     tip: "Se ele \"didn't like\" (não gostou) da comida, a opinião dele é positiva ou negativa?",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo's dog ran so fast that it won the race in the park. Which adjective describes the dog?",
     tip: "Se o cachorro ganhou a corrida, ele correu devagar ou rapidamente?",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo is describing his school. He says it has many students and a big playground. Which adjective fits?",
     tip: "Uma escola com muitos alunos e um playground grande é pequena ou grande?",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo's teacher is always patient and explains things carefully. Which adjective describes her?",
     tip: "A frase já conta a resposta: ela é \"always patient\". Releia a frase com atenção!",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo looked at the night sky and saw many stars shining. He wants to describe the sky. Which word fits?",
     tip: "Um céu cheio de estrelas brilhando é feio ou lindo? Pense no que o Bernardo estava sentindo.",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo's new sneakers are not expensive. Which adjective describes the price?",
     tip: "Se o tênis \"is not expensive\" (não é caro), que palavra descreve um preço baixo?",

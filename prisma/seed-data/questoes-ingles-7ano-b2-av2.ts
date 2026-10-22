@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Which food is countable (we can count it)?",
     tip: "Pense: você consegue contar \"uma maçã, duas maçãs\"? E com água, consegue contar \"uma água, duas águas\"?",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Which food is uncountable (we cannot count it)?",
     tip: "Açúcar vem em grãozinhos tão pequenos que não contamos um por um — por isso ele é diferente de ovos, bananas e biscoitos.",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the correct word: \"There is ___ milk in the fridge.\"",
     tip: "\"Milk\" é incontável, então não usamos \"a\" ou \"an\". Qual palavra da lista combina com coisas incontáveis?",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the correct word for a question: \"Is there ___ bread at home?\"",
     tip: "Em perguntas e frases negativas, geralmente usamos \"any\" em vez de \"some\". Lembra dessa regrinha?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Which word do we use with countable nouns in the plural?",
     tip: "\"Many\" combina com coisas que podem ser contadas, como \"many apples\". Qual opção serve para isso?",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Which word do we use with uncountable nouns?",
     tip: "\"Much\" é a parceira de palavras incontáveis, como \"much water\". As outras opções são para coisas contáveis.",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the uncountable noun.",
     tip: "Cenouras, batatas e tomates dá para contar um por um. Mas e o queijo, dá para contar \"um queijo, dois queijos\" do mesmo jeito?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the countable noun.",
     tip: "Farinha, mel e manteiga a gente mede (em gramas, colheres...), mas tem uma opção que podemos contar uma a uma. Qual é?",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"I would like ___ oranges, please.\"",
     tip: "A frase é um pedido educado (afirmativo), e \"oranges\" está no plural. Qual palavra combina melhor aqui?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"There isn't ___ juice left in the bottle.\"",
     tip: "A frase tem \"isn't\" (negativa). Lembra que em frases negativas usamos \"any\" em vez de \"some\"?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"How ___ sugar do you want in your tea?\"",
     tip: "\"Sugar\" é incontável. Quando perguntamos sobre quantidade de algo incontável, usamos \"how much\" ou \"how many\"?",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"How ___ apples are there in the basket?\"",
     tip: "\"Apples\" está no plural, ou seja, são contáveis. Para perguntar sobre quantidade de coisas contáveis, usamos \"how much\" ou \"how many\"?",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "\"Cookies\" está no plural, então o verbo deve ser \"are\", não \"is\". E a palavra para quantidade com plural é \"some\", não \"much\".",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "\"Water\" é incontável e vem sempre no singular, então usamos \"is\" (não \"are\") e \"some\" (não \"many\" ou \"a\").",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"We don't have ___ bananas today.\"",
     tip: "A frase está negativa (\"don't have\"). Lembra qual palavra combina com negativas?",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"She bought ___ bread from the bakery.\"",
     tip: "\"Bread\" é incontável e a frase é afirmativa. Qual palavra combina com isso: \"many\", \"a\", \"some\" ou \"any\"?",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the correct question.",
     tip: "\"Eggs\" está no plural, então o verbo certo é \"are\", não \"is\". E em perguntas, usamos \"any\".",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"There is too ___ salt in this soup!\"",
     tip: "\"Salt\" é incontável, igual \"sugar\" e \"water\". Qual palavra de quantidade combina com ela?",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"I need ___ tomatoes for the salad.\"",
     tip: "\"Tomatoes\" está no plural (contável) e a frase é afirmativa. Qual palavra combina melhor?",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "\"Rice\" é incontável (não existe \"rices\"), então usamos \"how much\" e o verbo \"is\", no singular.",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo is making a shopping list with his mom. He wants to buy fruit that can be counted, like apples. Which word is correct? \"We need ___ apples.\"",
     tip: "\"Apples\" é contável e a frase é afirmativa. Qual das palavras combina com isso?",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo looks in the fridge and there's no more milk. How should he say it?",
     tip: "Se não tem mais leite, a frase precisa ser negativa. E \"milk\" é incontável, então o verbo é \"is\", não \"are\".",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo is helping his mom cook rice. Rice is an uncountable noun. Which word fits? \"How ___ rice do we need?\"",
     tip: "A questão já avisa: \"rice is an uncountable noun\". Para perguntar quantidade de algo incontável, usamos \"how much\" ou \"how many\"?",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo wants to ask his mom if there are cookies in the kitchen. Which question is correct?",
     tip: "\"Cookies\" está no plural, então o verbo é \"are\". E em perguntas usamos \"any\", não \"some\" ou \"much\".",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo is setting the table and needs forks, which are countable. He says: \"We need ___ forks for everyone.\"",
     tip: "\"Forks\" é contável e plural, e a frase é afirmativa. Qual palavra combina?",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo's mom asks him to check the sugar for a cake. Sugar is uncountable. He should ask:",
     tip: "\"Sugar\" é incontável, então não existe \"sugars\" no plural aqui, e usamos \"how much\" com \"is\".",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo wants a snack but there are no bananas left. Which sentence is correct?",
     tip: "Se não sobrou nenhuma banana, a frase deve ser negativa, com \"aren't\" e \"any\", já que \"bananas\" está no plural.",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo's family is having soup. He wants to say there's a small amount of salt needed. Which phrase fits?",
     tip: "\"Salt\" é incontável, então não usamos \"many\" com ela. \"A little\" significa \"um pouquinho\" e combina com coisas incontáveis como sal.",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo is counting eggs for breakfast. Eggs are countable. He says: \"There are ___ eggs in the box.\"",
     tip: "\"Eggs\" é contável e plural, e a frase é afirmativa. Qual palavra combina?",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo's mom is making juice and asks how much orange juice is left. Which question is correct?",
     tip: "\"Juice\" é incontável, então usamos \"how much\" e o verbo \"is\", no singular, igual na própria pergunta que a mãe do Bernardo fez.",

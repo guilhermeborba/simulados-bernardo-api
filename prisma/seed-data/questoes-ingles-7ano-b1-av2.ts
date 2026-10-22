@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Família',
     type: "multiple_choice",
     text: "How do you say \"Minha família\" in English?",
     tip: "Pensa: essa é uma das primeiras palavras de vocabulário de família em inglês!",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Família',
     type: "multiple_choice",
     text: "Which word means \"pai\" in English?",
     tip: "Pensa: existem duas formas para \"pai\" em inglês, mas uma delas é mais formal!",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Complete: \"I ___ breakfast every morning.\"",
     tip: "\"I\" com o Simple Present sempre usa a forma base do verbo!",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Família',
     type: "multiple_choice",
     text: "What does \"sister\" mean in Portuguese?",
     tip: "Pensa nas palavras para membros da família — essa é feminina!",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which sentence uses the Simple Present correctly to describe a daily routine?",
     tip: "Lembra: com \"she\", o verbo no Simple Present ganha um \"s\" ou \"es\" no final!",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Família',
     type: "multiple_choice",
     text: "Which word means \"avó\" in English?",
     tip: "Pensa: tem \"grand\" (grande) no início e uma palavra que você já conhece!",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Complete: \"My brother ___ soccer on Saturdays.\"",
     tip: "\"My brother\" é terceira pessoa do singular — lembra o que acontece com o verbo?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "What does \"wake up\" mean in the context of a daily routine?",
     tip: "Pensa: essa é uma das primeiras coisas que você faz de manhã!",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "Complete: \"I ___ my teeth twice a day.\"",
     tip: "Pensa na ação de escovar os dentes — qual verbo em inglês significa isso?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Família',
     type: "multiple_choice",
     text: "Which word means \"irmão\" in English?",
     tip: "Pensa nas palavras de família que têm \"ther\" no final!",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "What time word is commonly used with Simple Present to indicate a daily habit?",
     tip: "Pensa nas palavras que significam \"todo dia\" ou \"sempre\"!",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Complete: \"My parents ___ dinner together every night.\"",
     tip: "\"My parents\" é plural — qual forma do verbo usamos com o plural no Simple Present?",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which sentence correctly describes a family member?",
     tip: "Lembra que com \"my mother\", o verbo precisa do \"s\" extra no Simple Present!",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "What does \"go to bed\" mean in a daily routine?",
     tip: "Pensa: \"bed\" significa cama — o que você faz com a cama no final do dia?",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Complete: \"My uncle and aunt ___ in São Paulo.\"",
     tip: "\"My uncle and aunt\" é plural — lembra do padrão do Simple Present com plural!",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "What does \"homework\" mean in the context of a student's routine?",
     tip: "Pensa: \"home\" = casa e \"work\" = trabalho — o que você faz em casa para a escola?",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Complete: \"She ___ up at 6 am every morning.\"",
     tip: "Lembra que com \"she\", verbos no Simple Present ganham \"s\" no final!",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Família',
     type: "multiple_choice",
     text: "What does \"cousin\" mean in Portuguese?",
     tip: "Pensa: são os filhos dos seus tios e tias!",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Complete: \"My father ___ to work by bus.\"",
     tip: "\"My father\" é terceira pessoa do singular — qual é a forma correta do verbo \"go\" para ela?",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "Which question asks about someone's daily activities?",
     tip: "Pensa: a pergunta correta usa o auxiliar \"do\" com \"you\" no Simple Present!",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Família',
     type: "multiple_choice",
     text: "Bernardo describes his family: \"I have a big family. My ___ are all very kind.\" Which word best fits to refer to all his family members together?",
     tip: "Pensa na palavra que significa todos da família juntos, no plural!",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "Bernardo describes his morning routine: \"I wake up at 7 am. Then I ___ a shower and get dressed.\" Which verb fits?",
     tip: "Pensa: que verbo combina com a palavra \"shower\" (banho)?",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Bernardo talks about his sister: \"My sister ___ piano every afternoon.\" Which verb form is correct?",
     tip: "\"My sister\" é singular feminino — como fica o verbo \"practice\" com ela?",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Bernardo describes his grandmother: \"My grandmother ___ very old stories about Brazil.\" Which verb form is correct?",
     tip: "\"My grandmother\" é terceira pessoa do singular — o verbo \"know\" ganha \"s\"!",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Rotina diária',
     type: "multiple_choice",
     text: "Bernardo writes about his family's evening routine: \"After dinner, we ___ TV together.\" Which verb fits?",
     tip: "Pensa: qual verbo em inglês combina com \"TV\" no contexto de assistir?",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "His teacher asks Bernardo to describe a family member in English. Which answer correctly uses the Simple Present?",
     tip: "Lembra que com \"my dad\", o verbo precisa do \"s\" de terceira pessoa!",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Bernardo wants to say he and his cousins live in the same city. Which sentence is correct?",
     tip: "\"My cousins and I\" equivale a \"we\" — plural sem terceira pessoa singular!",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Bernardo writes about his brother's routine: \"My brother ___ to school at 7:30 am.\" Which verb form is correct?",
     tip: "\"My brother\" é terceira pessoa singular — o verbo \"go\" ganha \"es\"!",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "For a class activity, Bernardo tells his friends: \"My family ___ Sunday lunches together every week.\" Which option is correct?",
     tip: "\"My family\" pode ser tratado como singular em inglês — então o verbo leva \"s\"!",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "For his bimester review, Bernardo summarizes: \"My daily routine ___ me feel happy and organized.\" Which verb completes the sentence?",
     tip: "\"My daily routine\" é singular — qual forma do verbo \"make\" combina com singular?",

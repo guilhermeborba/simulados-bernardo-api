@@ -604,6 +604,15 @@ Validação: dry-run e inventário JSON aprovados; 17 nomes documentados, de 1�
 
 As pendências anteriores sobre their, contraste de cores e convenção semanal estão na [issue web #107](https://github.com/guilhermeborba/simulados-bernardo/issues/107), para revisão separada; conteúdo preservado. Quizzes #90 seguem adiados. Não houve alteração de contrato, seed em banco existente, deploy ou operação em produção.
 
+### Inglês do 7º ano — E04 (22/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 11 temas documentados em `docs/temas-editoriais.md`. Acrescentado somente `theme`, com fontes sem essas linhas e dados por export idênticos à base main após api#253. Temas seguem a tarefa gramatical ou lexical; completar am/is/are mantém Verbo to be mesmo no contexto de futuro. B3/AV1, IDs 15 e 17, mantém Estruturas verbais para não induzir o passado sem contexto suficiente. Divergências de sete letras, variantes e lacunas que repetem verbos estão na [issue web #121](https://github.com/guilhermeborba/simulados-bernardo/issues/121), sem correção dos campos anteriores.
+
+Segundo dos três lotes independentes do pacote Educação Física/7º, Inglês/7º e Português/8º. Base integrada: 7.709/23.444 questões com tema e 257/780 simulados completos. Este lote acrescenta 240 temas/oito simulados; a composição dos três deve alcançar 8.429/23.444 e 281/780, completar o 7º ano (1.920/1.920 em 64/64) e iniciar o 8º (240/1.920 em 8/64). E04 segue parcial; depois vêm Matemática, Ciências e História/8º ano.
+
+Dry-run, inventário, vocabulário e preservação do lote aprovados; testes completos registrados no PR. Revisões editoriais continuam separadas, quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
+
 ### Português do 7º ano — E04 (21/10/2026)
 
 Inglês do 6º ano foi integrado em api#247/web#108, completando os temas das oito disciplinas desse ano. Este lote acrescenta somente `theme` às 240 questões dos oito simulados gerais de Português do 7º ano, sem entradas privadas adicionais. Vocabulário fechado de 15 nomes e critérios em `docs/temas-editoriais.md`, reaproveitando os nomes de Português dos anos anteriores quando o conteúdo corresponde. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

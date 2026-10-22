@@ -1017,6 +1017,32 @@ As questões que resumem a aprendizagem usam Uso do inglês, sem destacar no tem
 
 As formulações anteriores sobre uso singular de their, branco/preto na roda de cores e convenção do primeiro dia da semana estão na [issue web #107](https://github.com/guilhermeborba/simulados-bernardo/issues/107), com fontes e critérios para revisão separada. A classificação temática não valida essas explicações; o conteúdo foi preservado neste lote.
 
+### Inglês — 7º ano
+
+| Tema | Abrange |
+|---|---|
+| Comparações em inglês | Comparativos, superlativos, formas regulares e irregulares, sufixos, more/most e relações com than. |
+| Descrições em inglês | Adjetivos, opostos, aparência, personalidade, idade, tamanho, preço, clima e posição do adjetivo na descrição. |
+| Estruturas verbais | Escolha de formas verbais quando o contexto temporal anterior não permite pressupor um único tempo. |
+| Existência e quantidade | Contáveis e incontáveis, there is/are, some/any, much/many, quantidades e perguntas sobre disponibilidade. |
+| Família | Parentes, conjunto dos familiares e vocabulário de parentesco. |
+| Futuro em inglês | Planos, previsões, promessas e decisões, com will e be going to. |
+| Passado simples | Formas regulares e irregulares, was/were, afirmações, negações e perguntas com referência ao passado. |
+| Presente simples | Hábitos, concordância, terceira pessoa, formas verbais e negação com auxiliar. |
+| Rotina diária | Verbos e expressões de atividades, horários, frequência e vocabulário do cotidiano. |
+| Saudações e apresentações | Cumprimentos, despedidas, nomes, idade, origem, residência e diálogos de apresentação. |
+| Verbo to be | Concordância com am/is/are, perguntas e respostas, inclusive como auxiliar de be going to. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-ingles-7ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 11 nomes; os conteúdos correspondentes mantêm os nomes do 6º ano. Classificação individual por mapa manual; somente `theme` foi acrescentado e todos os demais campos e a estrutura foram preservados exatamente.
+
+A tarefa determina o tema: familiares no contexto não substituem **Presente simples** quando a escolha é concordância; reconhecer ações e expressões usa **Rotina diária**. Completar am/is/are usa **Verbo to be**, inclusive em B4/AV1, IDs 2, 5, 8 e 20, e B4/AV2, ID 14. Quando a escolha compara will e going to, mantém **Futuro em inglês**, sem antecipar a construção pretendida. **Existência e quantidade** não antecipa contável/incontável nem o quantificador específico; **Comparações em inglês** não fornece o grau ou a forma solicitada. **Descrições em inglês** cobre o vocabulário e sua organização nas frases, inclusive B2/AV1, ID 13.
+
+B3/AV1, IDs 15 e 17, usa **Estruturas verbais**: os comandos anteriores não oferecem contexto suficiente para excluir formas do presente. Usar Passado simples como rótulo nesses itens induziria a escolha antes de corrigir o comando. Nas demais questões com referência ao passado, mantém-se o tema da unidade.
+
+B1/AV1 tem dois temas; B1/AV2, três; B2/AV1 e B2/AV2 concentram um cada; B3/AV1, dois; B3/AV2 concentra um; B4/AV1, dois; B4/AV2 revisa sete. A quantidade acompanha os objetivos, sem subdivisões artificiais.
+
+Sete divergências de letras, variantes e contextos insuficientes e lacunas com duplicação de verbos estão na [issue web #121](https://github.com/guilhermeborba/simulados-bernardo/issues/121), para revisão separada. Nenhum gabarito foi corrigido neste lote; a cobertura de temas não certifica os campos anteriores.
+
 ### Português — 7º ano
 
 | Tema | Abrange |
