@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é uma bacia hidrográfica?',
     tip: 'Pensa num conjunto de rios — um rio principal e todos os seus afluentes, drenando uma mesma área de terra!',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual é o rio mais extenso do Brasil e um dos maiores do mundo?',
     tip: 'Pensa no rio que dá nome à maior floresta e ao maior estado do Brasil!',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O Rio São Francisco é muito importante para o Nordeste. Qual é o apelido pelo qual ele é carinhosamente chamado?',
     tip: 'Pensa no que esse rio representa para as populações do sertão nordestino — ele é a "vida" por lá!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é a "nascente" de um rio?',
     tip: 'Onde o rio começa? De onde a água surge pela primeira vez?',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é a "foz" de um rio?',
     tip: 'É o oposto da nascente — onde o rio termina!',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'O Rio Paraná é fundamental para a geração de energia elétrica no Brasil e tem uma das maiores hidrelétricas do mundo. Qual é ela?',
     tip: 'Pensa numa hidrelétrica gigante na fronteira do Brasil com o Paraguai!',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que é um afluente?',
     tip: 'Pensa: o Rio Negro, por exemplo, deságua no Amazonas. Qual é a relação entre eles?',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Por que os rios brasileiros são tão importantes para a geração de energia elétrica?',
     tip: 'Pensa no potencial hídrico do Brasil: muitos rios, com grande volume de água e desníveis de relevo!',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'As populações ribeirinhas são aquelas que vivem às margens dos rios. Por que os rios são tão importantes para essas populações?',
     tip: 'Pensa no que um rio oferece para quem vive perto dele: comida, água, transporte!',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A poluição dos rios é um grande problema ambiental no Brasil. Qual é uma das principais causas?',
     tip: 'Pensa no que jogamos nos rios — esgoto, lixo, agrotóxicos!',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O "encontro das águas" em Manaus, onde o Rio Negro encontra o Rio Solimões, é famoso porque as águas não se misturam por quilômetros. Por que isso acontece?',
     tip: 'Pensa que os dois rios têm características muito diferentes — temperatura, velocidade e composição química!',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O Rio São Francisco é chamado de "rio da integração nacional". Por que ele recebe esse nome?',
     tip: 'Pensa em como ele atravessa diferentes regiões e conecta populações do Nordeste!',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'A Bacia do Prata, que inclui os rios Paraná e Uruguai, é a segunda maior bacia hidrográfica do Brasil. Qual é sua importância econômica?',
     tip: 'Pensa em energia elétrica e na rota de exportação de soja e milho do interior do país!',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O assoreamento de rios é um problema sério. O que é o assoreamento?',
     tip: 'Pensa na erosão do solo — quando a terra vai parar dentro do rio, o que acontece?',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que a mata ciliar é fundamental para a saúde dos rios?',
     tip: 'A "mata ciliar" é a vegetação que cresce às margens dos rios — pensa no que ela faz!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'O que são "rios perenes" e "rios intermitentes"?',
     tip: 'A palavra "perene" significa "que não acaba" — a água flui o ano todo! Já o "intermitente" para na seca!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'A Transposição do Rio São Francisco é uma obra polêmica. Qual é seu objetivo?',
     tip: 'Pensa nas regiões que sofrem com falta de água — a obra tenta "levar" água do São Francisco para onde ela falta!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre o Rio Tocantins para um trabalho escolar. Qual é a importância desse rio?',
     tip: 'O Rio Tocantins tem uma das maiores hidrelétricas do Brasil — e percorre estados do Norte!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Bernardo vê no jornal uma reportagem sobre enchentes em cidades ribeirinhas. Qual é a principal causa das enchentes urbanas?',
     tip: 'Pensa no que acontece quando chove muito numa cidade com muita impermeabilização (asfalto, construções) e sem mata ciliar!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Na aula, a professora de Bernardo pergunta qual é a maior bacia hidrográfica do Brasil. Qual a resposta correta?',
     tip: 'Qual bacia estudamos como a maior de todas — inclusive do mundo?',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo lê que o Aquífero Guarani, sob os estados do Centro-Sul do Brasil, é um dos maiores reservatórios de água doce subterrânea do mundo. O que é um aquífero?',
     tip: 'Pensa em água que fica guardada dentro das rochas e do solo, debaixo da terra!',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo precisa explicar por que o Rio São Francisco é crucial para o abastecimento de cidades do Nordeste. Qual é o argumento correto?',
     tip: 'Pensa no contexto do clima semiárido nordestino — o que faz do São Francisco algo único nessa região?',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo visita o "encontro das águas" em Manaus e percebe que as duas cores de água demoram muito para se misturar. O que ele pode concluir sobre os dois rios?',
     tip: 'Lembra o que estudamos sobre o motivo desse fenômeno — temperatura, velocidade e composição diferentes!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Para um trabalho sobre sustentabilidade, Bernardo pesquisa como preservar os rios. Qual é a medida mais eficaz?',
     tip: 'Pensa nas causas da poluição e assoreamento — o que é a raiz do problema?',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Na prova de Geografia, Bernardo deve associar um rio a sua principal região. Qual associação está correta?',
     tip: 'Revise os rios e suas regiões — São Francisco no Nordeste, Amazonas no Norte, Paraná no Sul/Sudeste/Centro-Oeste!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo descobre que o Brasil tem 12% de toda a água doce disponível do mundo. Por que isso é um privilegio enorme?',
     tip: 'Pensa em quantas pessoas no mundo não têm acesso à água potável — e o quanto essa riqueza é valiosa!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Por que o Rio Amazonas tem uma vazão (quantidade de água) tão gigante comparada com outros rios do mundo?',
     tip: 'Pensa no clima da região, nas chuvas abundantes e na quantidade de afluentes que deságuam no Amazonas!',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo precisa explicar o conceito de "divisor de águas" para seus colegas. O que é isso?',
     tip: 'Pensa numa linha imaginária que "divide" para qual lado a água vai escorrer — para uma bacia ou para outra!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo lê sobre a poluição do Rio Paraíba do Sul, que abastece milhões de pessoas no Sudeste. Qual atitude pública seria mais eficaz para resolver o problema?',
     tip: 'Pensa na raiz do problema da poluição — esgoto sem tratamento é o principal culpado!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Para concluir, Bernardo resume o que aprendeu: "Os rios brasileiros são vitais para o abastecimento, a energia, o transporte e o equilíbrio dos ecossistemas." Essa afirmação está:',
     tip: 'Revise tudo que aprendemos sobre a hidrografia brasileira — rios para beber, produzir energia, navegar e manter a vida!',

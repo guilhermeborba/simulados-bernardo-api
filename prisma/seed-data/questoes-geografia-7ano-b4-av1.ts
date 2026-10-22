@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'O Brasil é considerado um país altamente urbanizado. O que isso significa?',
     tip: 'Pensa em como a maioria das pessoas hoje vive — em cidades ou no campo?',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'O êxodo rural é um fenômeno que marcou o Brasil ao longo do século XX. O que é êxodo rural?',
     tip: '"Êxodo" vem do grego e significa saída — de onde as pessoas saem no êxodo rural?',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'A densidade demográfica mede a concentração de pessoas em um território. Qual é a definição correta?',
     tip: 'Pensa em quantas pessoas vivem em cada quilômetro quadrado de uma área!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'As metrópoles são as maiores cidades do Brasil. Qual é a maior metrópole brasileira?',
     tip: 'Pensa na cidade com a maior concentração de indústrias, serviços e universidades do país!',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'O planejamento urbano é fundamental para o desenvolvimento das cidades. O que é planejamento urbano?',
     tip: 'Pensa no que acontece quando uma cidade cresce sem organização — trânsito, falta de água, favelas!',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'A Região Sudeste concentra mais da metade do PIB (produto interno bruto) do Brasil. Quais estados a compõem?',
     tip: 'Pensa nas quatro siglas mais famosas do Sudeste — SP, RJ, MG e ES!',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'A desigualdade urbana é um dos maiores problemas das cidades brasileiras. O que é desigualdade urbana?',
     tip: 'Pensa na diferença entre bairros ricos com boa infraestrutura e favelas sem saneamento básico na mesma cidade!',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Por que a urbanização acelerada no Brasil gerou problemas ambientais nas cidades?',
     tip: 'Pensa no que acontece com o lixo, o esgoto e o desmatamento quando muitas pessoas se concentram numa área pequena!',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'As favelas são uma realidade em muitas cidades brasileiras. O que explica o surgimento delas?',
     tip: 'Pensa no êxodo rural — quando muitas pessoas migram para as cidades sem ter dinheiro para pagar aluguel, onde elas vão morar?',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'A distribuição da população brasileira é desigual no território. Qual região tem maior densidade demográfica?',
     tip: 'Pensa na região com mais indústrias, empregos e cidades grandes — para onde as pessoas foram no êxodo rural?',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Economia brasileira',
     type: 'multiple_choice',
     text: 'A industrialização foi um fator decisivo para a urbanização do Brasil. Como ela contribuiu para o crescimento das cidades?',
     tip: 'Pensa: onde ficam as fábricas? E para onde as pessoas foram trabalhar nelas?',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Economia brasileira',
     type: 'multiple_choice',
     text: 'Bernardo aprende que São Paulo é chamada de "locomotiva do Brasil". O que esse apelido significa?',
     tip: 'Uma locomotiva puxa o trem — ela leva os outros vagões. Qual sentido isso tem para São Paulo?',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Saneamento e infraestrutura',
     type: 'multiple_choice',
     text: 'O saneamento básico inclui abastecimento de água, coleta e tratamento de esgoto e gestão do lixo. Por que ele é fundamental para as cidades?',
     tip: 'Pensa no que acontece quando não tem água limpa e esgoto a céu aberto — quais doenças surgem?',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo lê que Brasília foi fundada em 1960 para ser a nova capital do Brasil. Qual era o objetivo principal de transferir a capital para o interior?',
     tip: 'Pensa em por que uma capital no interior seria melhor para desenvolver o Brasil inteiro, e não só o litoral!',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Qual é o principal problema gerado pelo crescimento desordenado das cidades brasileiras?',
     tip: 'Pensa em tudo que cresce junto com as cidades sem planejamento: favelas, trânsito, poluição, falta de serviços!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'A "hierarquia urbana" classifica as cidades pelo nível de serviços e influência que exercem. Qual é a ordem crescente correta?',
     tip: 'Pensa do menor para o maior: uma cidadezinha, uma cidade média, uma capital regional, uma metrópole!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'A violência urbana é um problema sério nas grandes cidades brasileiras. Qual fator socioeconômico está diretamente ligado à violência urbana?',
     tip: 'Pensa nas relações entre pobreza, desigualdade, falta de oportunidades e violência!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'A "ilha de calor" é um fenômeno urbano. O que é isso?',
     tip: 'Pensa no que acontece com a temperatura num bairro cheio de asfalto e prédios comparado a um parque!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Bernardo descobre que a Região Norte tem a maior área territorial do Brasil, mas é a menos populosa. Por que isso acontece?',
     tip: 'Pensa nas dificuldades de viver na Amazônia — acesso, serviços, empregos, infraestrutura!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Na escola, Bernardo estuda sobre o "inchaço urbano" das metrópoles brasileiras. O que esse termo significa?',
     tip: 'Pensa no que acontece quando uma cidade cresce rápido demais sem estrutura para receber tanta gente!',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre o "êxodo urbano" — um fenômeno mais recente onde pessoas saem das grandes cidades. Por que isso acontece?',
     tip: 'Pensa: depois de tudo que cresceu nas cidades, por que alguém quereria ir embora?',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'População brasileira',
     type: 'multiple_choice',
     text: 'Bernardo faz um mapa da distribuição da população no Brasil. O que ele observa sobre a região litorânea?',
     tip: 'Pensa em onde a colonização começou e onde as maiores cidades se desenvolveram historicamente!',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Bernardo ouve falar de "conurbação" entre cidades. O que é isso?',
     tip: 'Pensa em duas ou mais cidades que cresceram tanto que suas bordas se "juntaram" — formando uma mancha urbana contínua!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Bernardo faz uma redação sobre os desafios do crescimento das cidades. Qual problema ele não deve incluir?',
     tip: 'Elimine a opção que na verdade é uma vantagem das cidades, não um problema!',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Bernardo precisa identificar a região brasileira que mais recebeu migrantes do Nordeste ao longo do século XX. Qual foi ela?',
     tip: 'Pensa em onde estavam as fábricas e os empregos que atraíram os nordestinos!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Transportes e circulação',
     type: 'multiple_choice',
     text: 'Bernardo lê sobre o "transporte público como solução para o trânsito". Por que o transporte público é importante no contexto da urbanização?',
     tip: 'Pensa em quantos carros menos haveria nas ruas se todo mundo usasse ônibus ou metrô!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Economia brasileira',
     type: 'multiple_choice',
     text: 'Por que a Região Sudeste concentra tanto a indústria e os serviços no Brasil?',
     tip: 'Pensa na história do Brasil: café, imigração europeia, ferrovias — tudo passou pelo Sudeste!',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Bernardo discute na aula a importância das cidades médias para o equilíbrio regional do Brasil. Qual é o papel das cidades médias?',
     tip: 'Pensa em cidades que ficam entre as grandes metrópoles e as pequenas cidades — servindo de polo regional!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Bernardo analisa uma notícia sobre um bairro com muito verde, boa iluminação, praças e ciclovias. Qual conceito de urbanismo isso representa?',
     tip: 'Pensa em cidades sustentáveis, onde o planejamento considera a qualidade de vida dos moradores!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Organização das cidades',
     type: 'multiple_choice',
     text: 'Para concluir, Bernardo resume: "A urbanização do Brasil foi muito rápida e trouxe tanto avanços como enormes desafios sociais e ambientais." Essa afirmação está:',
     tip: 'Pense em tudo que estudamos — cidades, favelas, êxodo rural, desigualdade, mas também empregos, serviços e cultura!',

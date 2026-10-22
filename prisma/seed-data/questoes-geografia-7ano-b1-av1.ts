@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'O território brasileiro foi formado ao longo de séculos através de um processo de:',
     tip: 'Pensa: o Brasil começou pequeno (só litoral) e foi ficando cada vez maior — como isso aconteceu?',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'O Tratado de Tordesilhas (1494) estabeleceu inicialmente uma linha de divisão entre Portugal e Espanha. O que aconteceu com o território colonial português ao longo do tempo?',
     tip: 'Pensa: será que os portugueses ficaram paradinhos na linha do tratado, ou foram além dela?',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'As expedições conhecidas como "bandeiras", organizadas principalmente por paulistas nos séculos XVII e XVIII, tinham como um dos objetivos:',
     tip: 'Pensa no nome "bandeira" — essas expedições iam para onde, explorando o quê?',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Transportes e circulação',
     type: 'multiple_choice',
     text: 'Por que o rio Amazonas e seus afluentes foram importantes para a ocupação da região Norte durante a colonização?',
     tip: 'Pensa: sem estradas, como alguém conseguiria se deslocar por dentro de uma floresta tão densa?',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'O atual formato do território brasileiro é resultado de:',
     tip: 'Pensa em tudo que já vimos: Tordesilhas, bandeiras, mineração... isso levou um dia ou séculos?',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Qual foi um dos papéis das missões jesuíticas na ocupação do interior do território, principalmente na região Sul?',
     tip: 'Pensa: os jesuítas construíam igrejas e povoados — isso ajudava a "ocupar" um território ou não?',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'A exploração do ouro em Minas Gerais, no século XVIII, teve qual consequência para a formação territorial?',
     tip: 'Pensa: se encontram ouro num lugar, as pessoas vão para lá ou fogem de lá?',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'O Brasil é hoje o maior país da América do Sul e o quinto maior do mundo em área territorial. Isso é resultado principalmente de:',
     tip: 'Lembra de tudo que estudamos sobre bandeiras, mineração e ocupação ao longo dos séculos!',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'As fronteiras do Brasil com os países vizinhos foram, em muitos casos, definidas através de:',
     tip: 'Pensa: países vizinhos resolvem suas fronteiras principalmente conversando ou brigando para sempre?',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Por que estudar a formação territorial do Brasil é importante para entender o país atual?',
     tip: 'Pensa: onde ficam hoje as maiores cidades do Brasil — isso tem a ver com a história da ocupação do território?',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Comparando o início da colonização (restrita ao litoral) com o território brasileiro atual, qual foi a principal mudança?',
     tip: 'Pensa no mapa do Brasil colonial comparado ao de hoje — qual deles é maior?',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Se as bandeiras paulistas avançavam cada vez mais para o interior em busca de riquezas e indígenas, que efeito isso teve sobre os limites do território colonial português?',
     tip: 'Lembra da questão 2 e 3 deste simulado sobre o papel das bandeiras na expansão territorial!',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Transportes e circulação',
     type: 'multiple_choice',
     text: 'Por que os rios foram tão importantes como "caminhos" para a ocupação de regiões como a Amazônia, antes da existência de estradas?',
     tip: 'Lembra da questão 4 deste simulado sobre a importância dos rios amazônicos!',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Comparando o papel do ouro em Minas Gerais com o papel do pau-brasil no litoral, qual é uma semelhança entre eles na formação do território?',
     tip: 'Pensa: tanto o pau-brasil quanto o ouro eram recursos valiosos — isso atraía ou afastava pessoas?',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Se o Brasil negociou diplomaticamente a maior parte de suas fronteiras com países vizinhos, o que isso demonstra sobre o processo de formação territorial, em comparação com conflitos armados constantes?',
     tip: 'Lembra da questão 9 deste simulado sobre negociações diplomáticas de fronteiras!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Por que as missões jesuíticas, além de catequizar indígenas, também contribuíam para a ocupação territorial?',
     tip: 'Lembra da questão 6 deste simulado sobre o papel das missões jesuíticas!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Comparando a extensão do Brasil colonial no início do século XVI com a extensão atual, qual conclusão é correta?',
     tip: 'Pensa em tudo que você já revisou sobre bandeiras, mineração e expansão territorial!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Se um país vizinho e o Brasil discordam sobre onde fica exatamente uma fronteira, qual é geralmente o caminho adotado para resolver essa questão nos dias de hoje?',
     tip: 'Lembra da questão 9 e 15 deste simulado sobre a importância da diplomacia!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Por que a formação territorial do Brasil é considerada um processo histórico, e não um evento único?',
     tip: 'Lembra da questão 5 deste simulado sobre a duração desse processo!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Comparando a ocupação do litoral brasileiro com a ocupação do interior (sertão e Amazônia), qual foi a principal diferença no ritmo desse processo?',
     tip: 'Pensa em onde os portugueses chegaram primeiro, e como foram avançando pouco a pouco para dentro do território!',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo está estudando um mapa mostrando o crescimento do território brasileiro desde a colonização até os dias de hoje. O que ele pode concluir ao perceber que o território foi crescendo com o tempo?',
     tip: 'Lembra da questão 5 e 17 deste simulado sobre o longo processo de formação territorial!',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Na aula de Geografia, Bernardo aprende sobre as bandeiras paulistas e sua importância para a expansão territorial. Qual argumento ele deve usar em um trabalho sobre o tema?',
     tip: 'Lembra da questão 2, 3 e 12 deste simulado sobre o papel das bandeiras!',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo descobre que o ouro encontrado em Minas Gerais, no século XVIII, atraiu muitas pessoas para o interior do Brasil. O que isso mostra sobre a relação entre riquezas naturais e ocupação territorial?',
     tip: 'Lembra da questão 7 e 14 deste simulado sobre o papel do ouro na ocupação territorial!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Transportes e circulação',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre os rios da Amazônia e descobre que eles foram essenciais para a exploração da região antes da construção de estradas. Qual explicação ele deve dar sobre essa importância?',
     tip: 'Lembra da questão 4 e 13 deste simulado sobre a função dos rios na Amazônia!',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Durante um debate em sala, Bernardo explica que muitas fronteiras do Brasil com países vizinhos foram definidas por meio de acordos diplomáticos, e não apenas por guerras. Qual é a importância dessa informação para entender a formação territorial?',
     tip: 'Lembra da questão 9, 15 e 18 deste simulado sobre o papel da diplomacia!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Bernardo monta uma linha do tempo simplificada da formação territorial do Brasil, incluindo o Tratado de Tordesilhas, as bandeiras e a mineração em Minas Gerais. Em qual ordem cronológica aproximada esses eventos devem aparecer?',
     tip: 'Pensa nas datas: 1494 é bem antes dos séculos XVII e XVIII!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo quer explicar aos colegas por que o Brasil é hoje um dos maiores países do mundo em extensão territorial. Qual explicação ele deve usar?',
     tip: 'Lembra da questão 8 deste simulado sobre o tamanho atual do Brasil!',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Na prova, Bernardo precisa explicar o papel das missões jesuíticas na ocupação do interior do território, especialmente no Sul do país. Qual é a resposta correta?',
     tip: 'Lembra da questão 6 e 16 deste simulado sobre o papel das missões jesuíticas!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Para seu resumo final sobre formação territorial, Bernardo escreve: "O tamanho atual do Brasil é resultado de um longo processo histórico, e não de uma única decisão tomada de uma vez." Essa afirmação está:',
     tip: 'Pensa em tudo que você revisou neste simulado: Tordesilhas, bandeiras, mineração, diplomacia!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo conclui seu caderno de estudos destacando que "entender a formação territorial do Brasil ajuda a entender também a distribuição da população e das regiões do país hoje." Essa conclusão está:',
     tip: 'Lembra da questão 10 deste simulado sobre a relação entre formação territorial e distribuição da população!',

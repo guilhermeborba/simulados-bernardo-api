@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Em quantas grandes regiões o território brasileiro é oficialmente dividido pelo IBGE?',
     tip: 'Conta: Norte, Nordeste, Centro-Oeste, Sudeste e Sul!',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Quais são as cinco grandes regiões brasileiras?',
     tip: 'A opção C traz biomas, não regiões — cuidado para não confundir!',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Qual instituição é responsável por organizar oficialmente essa divisão regional do Brasil?',
     tip: 'Pensa na sigla que aparece em quase toda pesquisa sobre dados do Brasil!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'A região Norte do Brasil é conhecida principalmente por abrigar:',
     tip: 'Pensa na maior floresta tropical do planeta — em qual região ela está?',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'A região Nordeste é conhecida por apresentar, entre outras características:',
     tip: 'Pensa nas praias famosas do litoral nordestino e, ao mesmo tempo, no sertão seco do interior!',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'A região Centro-Oeste é marcada principalmente pela presença de qual bioma?',
     tip: 'Pensa nas grandes plantações de soja e nos campos com árvores retorcidas típicas dessa região!',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'A região Sudeste, mesmo sendo uma das menores em área territorial, se destaca por:',
     tip: 'Pensa em cidades como São Paulo e Rio de Janeiro — elas ficam em qual região?',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'A região Sul do Brasil é conhecida por apresentar, entre outras características:',
     tip: 'Lembra do que estudamos sobre o clima do Sul no simulado de climas, lá no início do ano!',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Por que dividir o Brasil em regiões é útil para o estudo da Geografia e para o planejamento de políticas públicas?',
     tip: 'Pensa: fica mais fácil estudar o Brasil todo de uma vez, ou organizado em partes?',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Qual região brasileira é a maior em extensão territorial?',
     tip: 'Pensa na região onde está a maior parte da Floresta Amazônica — ela ocupa uma área enorme!',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Comparando a região Sudeste com a região Norte em relação à população, qual é a principal diferença?',
     tip: 'Lembra da questão 7 deste simulado sobre a concentração de população no Sudeste!',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Se uma região apresenta ao mesmo tempo um litoral úmido e um interior com clima semiárido, a que região brasileira isso provavelmente se refere?',
     tip: 'Lembra da questão 5 deste simulado sobre a diversidade interna do Nordeste!',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Por que a região Centro-Oeste é tão associada à produção agropecuária, especialmente de grãos como soja e milho?',
     tip: 'Lembra da questão 6 deste simulado sobre o bioma predominante no Centro-Oeste!',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Comparando a área territorial da região Sudeste com sua importância econômica, o que se pode concluir?',
     tip: 'Lembra da questão 7 e 11 deste simulado sobre a importância do Sudeste!',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Por que a divisão do Brasil em cinco regiões, embora oficial, não significa que cada região seja totalmente uniforme internamente?',
     tip: 'Lembra da questão 5 e 12 deste simulado sobre as diferenças internas do Nordeste!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Comparando a região Sul com a região Norte em termos de clima, qual é a principal diferença?',
     tip: 'Lembra de tudo que estudamos sobre os climas dessas duas regiões no simulado de clima!',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Se um governo quer planejar a construção de novas escolas e hospitais, por que a divisão regional do Brasil pode ajudar nesse planejamento?',
     tip: 'Lembra da questão 9 deste simulado sobre a utilidade da divisão regional para o planejamento!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Comparando a região Nordeste com a região Sudeste, qual aspecto ajuda a explicar por que o Sudeste concentra mais atividades industriais?',
     tip: 'Pensa em tudo que você já sabe sobre a concentração de fábricas e empregos no Sudeste!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Se uma pessoa está estudando o Cerrado, em qual região brasileira ela deve focar sua pesquisa como área de maior concentração desse bioma?',
     tip: 'Lembra da questão 6 e 13 deste simulado sobre o Cerrado no Centro-Oeste!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Por que entender as diferenças regionais do Brasil é importante para compreender a diversidade do país como um todo?',
     tip: 'Pensa em tudo que você revisou sobre cada uma das cinco regiões neste simulado!',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo está organizando um mapa do Brasil dividido em regiões para um trabalho escolar. Ele precisa colorir de forma diferente cada uma das cinco regiões. Quais são elas?',
     tip: 'Lembra da questão 1 e 2 deste simulado sobre as cinco regiões oficiais!',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Durante uma viagem para o interior da Bahia, Bernardo percebe uma paisagem bem diferente do litoral, com vegetação seca e poucas chuvas. A que característica da região Nordeste isso se refere?',
     tip: 'Lembra da questão 5, 12 e 15 deste simulado sobre a diversidade interna do Nordeste!',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Na aula de Geografia, Bernardo aprende que o Sudeste, mesmo sendo uma região relativamente pequena em área, tem grande importância econômica para o Brasil. Qual explicação ele deve dar sobre esse fato?',
     tip: 'Lembra da questão 7, 11 e 14 deste simulado sobre a importância do Sudeste!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre o Cerrado e descobre que esse bioma está fortemente associado a uma das regiões brasileiras. A qual região ele deve associar o Cerrado em seu trabalho?',
     tip: 'Lembra da questão 6, 13 e 19 deste simulado sobre o Cerrado!',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo organiza um quadro comparando o clima das regiões Sul e Norte do Brasil. Qual associação está correta?',
     tip: 'Lembra da questão 8 e 16 deste simulado sobre o clima dessas duas regiões!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Para um projeto escolar, Bernardo explica por que a divisão do Brasil em regiões é útil para o governo planejar investimentos em escolas e hospitais. Qual é a explicação correta?',
     tip: 'Lembra da questão 9 e 17 deste simulado sobre a utilidade da divisão regional!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo descobre que, mesmo dentro da região Nordeste, existem paisagens bem diferentes, como o litoral úmido e o sertão seco. O que isso mostra sobre a divisão regional do Brasil?',
     tip: 'Lembra da questão 15 e 22 deste simulado sobre a diversidade interna das regiões!',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo organiza, para revisão, um quadro-resumo associando cada região brasileira a uma característica marcante. Qual associação está correta?',
     tip: 'Elimine as associações que você já sabe que estão erradas primeiro!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Para fechar seu estudo sobre divisão regional, Bernardo escreve: "Cada uma das cinco regiões do Brasil tem características próprias de clima, relevo, economia e população, o que mostra a grande diversidade do país." Essa afirmação está:',
     tip: 'Pensa em tudo que você revisou neste simulado sobre as cinco regiões!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Regiões do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo conclui seu caderno de estudos destacando que "entender a divisão regional do Brasil ajuda a compreender melhor as diferenças e semelhanças entre as diversas áreas do país." Essa conclusão está:',
     tip: 'Pensa em tudo que você aprendeu neste simulado sobre a importância de estudar as regiões!',

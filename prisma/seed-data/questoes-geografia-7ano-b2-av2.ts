@@ -1,6 +1,7 @@
 export const questoesGeografia7AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Quantos biomas terrestres existem no Brasil?',
     tip: 'Tenta contar: Amazônia, Cerrado, Caatinga, Mata Atlântica, Pantanal e mais um!',
@@ -16,6 +17,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual é o maior bioma do Brasil em extensão?',
     tip: 'Pensa na maior floresta do mundo — ela é brasileira!',
@@ -31,6 +33,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O Cerrado é considerado a savana mais biodiversa do mundo. Ele está localizado principalmente em qual região do Brasil?',
     tip: 'Pensa em qual região fica no "meio" do mapa do Brasil!',
@@ -46,6 +49,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'A Caatinga é o único bioma exclusivamente brasileiro. Qual tipo de vegetação ela possui?',
     tip: 'Pensa no sertão nordestino: plantas que sobrevivem com pouca água têm características especiais!',
@@ -61,6 +65,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A Mata Atlântica já cobriu grande parte do litoral brasileiro. Qual é o estado atual desse bioma?',
     tip: 'A Mata Atlântica é um dos biomas mais ameaçados do mundo — pensa por que o litoral foi tão desmatado!',
@@ -76,6 +81,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O Pantanal é considerado a maior planície inundável do mundo. Onde ele está localizado?',
     tip: 'Pensa num bioma que fica inundado parte do ano e fica no interior do país, perto da fronteira com outros países!',
@@ -91,6 +97,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O Pampa é o bioma mais restrito ao Sul do Brasil. Qual é a característica de sua vegetação?',
     tip: 'Pensa nos campos gaúchos, onde os tropeiros criavam gado — como é essa paisagem?',
@@ -106,6 +113,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Por que a biodiversidade (variedade de seres vivos) dos biomas brasileiros é tão importante?',
     tip: 'Pensa no que acontece com medicamentos, alimentos e o equilíbrio da natureza — tudo depende da diversidade de seres vivos!',
@@ -121,6 +129,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O desmatamento é uma das maiores ameaças aos biomas brasileiros. O que ele provoca?',
     tip: 'Pensa: o que acontece com os animais e plantas quando a floresta some? E com o solo e a chuva?',
@@ -136,6 +145,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma brasileiro é reconhecido internacionalmente como "hotspot de biodiversidade", ou seja, uma das regiões mais ricas em espécies e mais ameaçadas do planeta?',
     tip: 'Já vimos que esse bioma perdeu mais de 88% da sua cobertura original — mas ainda tem muita vida!',
@@ -151,6 +161,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'As árvores do Cerrado têm raízes profundas e cascas grossas. Por que isso é uma adaptação ao ambiente?',
     tip: 'Pensa: o Cerrado tem uma estação seca longa — o que a planta precisa fazer para sobreviver?',
@@ -166,6 +177,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O que são áreas de preservação permanente (APPs) e reservas legais no contexto dos biomas brasileiros?',
     tip: 'Pensa em "preservação" e "reserva" — o que esses nomes sugerem sobre o que acontece nessas áreas?',
@@ -181,6 +193,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma abriga o maior número de espécies animais e vegetais do planeta, sendo considerado a maior floresta tropical do mundo?',
     tip: 'Já respondemos isso antes — qual é o maior bioma do Brasil?',
@@ -196,6 +209,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Por que muitos animais do Pantanal migram para áreas mais altas durante as cheias?',
     tip: 'Pensa no que acontece com o Pantanal na época das chuvas — e o que os animais precisam fazer para sobreviver!',
@@ -211,6 +225,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'A queimada ilegal é uma das causas do desmatamento no Brasil. Qual bioma mais sofre com queimadas ilegais atualmente?',
     tip: 'Pensa no bioma mais extenso do Brasil, que frequentemente aparece no noticiário com alertas de desmatamento!',
@@ -226,6 +241,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O que é a "transição" ou "ecótono" entre biomas?',
     tip: 'Pensa no que acontece nas bordas onde dois biomas se encontram — é uma mistura dos dois?',
@@ -241,6 +257,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que proteger os biomas brasileiros é fundamental para o clima global?',
     tip: 'Pensa no que as florestas fazem com o dióxido de carbono (CO₂) e como isso afeta o clima da Terra!',
@@ -256,6 +273,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual bioma brasileiro é o único exclusivamente brasileiro e está todo localizado no semiárido nordestino?',
     tip: 'Lembra: só existe em um único país do mundo — esse é o detalhe que diferencia!',
@@ -271,6 +289,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo lê que a Amazônia produz chuvas para outras partes do Brasil por meio dos chamados "rios voadores". O que são esses rios voadores?',
     tip: 'Pensa no ciclo da água: a floresta evapora água que vira nuvens e chuva em outros lugares!',
@@ -286,6 +305,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo visita um zoológico e vê um animal chamado "tamanduá-bandeira". Em qual bioma esse animal é mais associado?',
     tip: 'O tamanduá-bandeira é símbolo de qual bioma do Centro-Oeste brasileiro?',
@@ -301,6 +321,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo vê uma reportagem sobre a Mata Atlântica e fica surpreso ao saber que 70% dos brasileiros vivem nesse bioma, mesmo ele estando tão destruído. Por que isso acontece?',
     tip: 'Pensa onde a maioria das grandes cidades brasileiras está localizada — litoral ou interior?',
@@ -316,6 +337,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Na escola, Bernardo precisa responder: qual bioma ocupa a maior parte do interior do Brasil, entre a Amazônia e outros biomas?',
     tip: 'Já respondemos isso — qual é o segundo maior bioma do Brasil?',
@@ -331,6 +353,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo participa de um debate sobre o agronegócio e o desmatamento do Cerrado. Qual argumento a favor da preservação do Cerrado é mais correto?',
     tip: 'Pensa no papel do Cerrado nas nascentes dos rios brasileiros!',
@@ -346,6 +369,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo faz um trabalho comparando o Pantanal e a Amazônia. Qual diferença fundamental ele deve destacar?',
     tip: 'Pensa no que torna o Pantanal único: sua inundação sazonal!',
@@ -361,6 +385,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'No trabalho escolar, Bernardo precisa citar três animais típicos da Caatinga. Qual grupo está correto?',
     tip: 'Pensa em animais adaptados ao calor e à escassez de água — cobras, aves de rapina e animais pequenos são comuns por lá!',
@@ -376,6 +401,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo lê que o desmatamento da Amazônia pode afetar a chuva no Sudeste do Brasil. Qual é a ligação correta entre esses fenômenos?',
     tip: 'Lembra dos "rios voadores" que vimos antes neste simulado!',
@@ -391,6 +417,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O Pampa está localizado no extremo Sul do Brasil, especialmente no Rio Grande do Sul. Qual ameaça ele enfrenta atualmente?',
     tip: 'Pensa no que a agropecuária e as monoculturas fazem com as paisagens naturais de campos abertos!',
@@ -406,6 +433,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Em uma redação, Bernardo defende que "os biomas brasileiros são patrimônio nacional". Qual argumento melhor sustenta essa ideia?',
     tip: 'Pensa em tudo que aprendemos sobre biomas: recursos, clima, vida, identidade!',
@@ -421,6 +449,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo faz um jogo de associação na aula. Qual associação bioma → característica está correta?',
     tip: 'Revise o que estudamos: cada bioma tem uma característica marcante!',
@@ -436,6 +465,7 @@ export const questoesGeografia7AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Para encerrar o simulado, Bernardo resume: "Cada bioma brasileiro tem características únicas, abriga espécies exclusivas e é fundamental para o equilíbrio ambiental." Essa afirmação está:',
     tip: 'Pense em tudo que você aprendeu neste simulado sobre os 6 biomas brasileiros!',
