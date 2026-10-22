@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Quais eram os dois principais reinos ibéricos que lideraram as Grandes Navegações nos séculos XV e XVI?',
     tip: 'Pensa na Península Ibérica, no sul da Europa — quais dois países ficam lá?',
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Por que Portugal foi pioneiro nas navegações marítimas?',
     tip: 'Pensa no mapa: Portugal tem uma costa enorme virada para o oceano Atlântico!',
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'O que motivava os europeus a buscar novas rotas marítimas para o Oriente?',
     tip: 'Pensa em produtos caros e raros que vinham do Oriente, como a pimenta!',
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'A Escola de Sagres, criada em Portugal, foi importante por:',
     tip: 'Pensa no que um navegador precisa saber para não se perder no meio do oceano!',
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Qual navegador português chegou à Índia contornando a África, em 1498?',
     tip: 'Pensa no navegador que "deu a volta" pela África para chegar ao Oriente!',
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Disputas territoriais',
     type: 'multiple_choice',
     text: 'O Tratado de Tordesilhas, assinado em 1494, tinha como objetivo:',
     tip: 'Pensa em dois países disputando terras novas — o que eles precisavam resolver entre si?',
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'A caravela, embarcação usada pelos portugueses, era conhecida por:',
     tip: 'Pensa: para fazer viagens tão longas e difíceis, o navio precisava ser lento ou ágil?',
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Qual foi um dos principais motivos econômicos para as Grandes Navegações?',
     tip: 'Lembra da dica sobre a pimenta valer tanto quanto ouro!',
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Cristóvão Colombo, navegando a serviço da Espanha, chegou à América em:',
     tip: 'É uma das datas mais famosas da história mundial — tenta lembrar dela!',
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O avanço de tecnologias como a bússola e o astrolábio foi importante para as navegações porque:',
     tip: 'Pensa: sem nenhuma referência visual no oceano, como o navegador sabia para onde ir?',
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Por que a posição geográfica de Portugal, na ponta sudoeste da Europa, foi vantajosa para as navegações?',
     tip: 'Lembra da questão 2 deste simulado sobre a posição litorânea de Portugal!',
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Se um navegador quisesse chegar à Índia sem enfrentar os territórios controlados por outros povos no Oriente Médio, qual estratégia faria sentido?',
     tip: 'Pensa na rota que Vasco da Gama acabou escolhendo!',
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Comparando as viagens de Vasco da Gama e Cristóvão Colombo, qual é a principal diferença entre os destinos que eles buscavam?',
     tip: 'Pensa na direção que cada um seguiu: um foi para o leste (contornando a África), outro para o oeste!',
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Disputas territoriais',
     type: 'multiple_choice',
     text: 'Por que o Tratado de Tordesilhas foi necessário entre Portugal e Espanha?',
     tip: 'Lembra da questão 6 deste simulado sobre o objetivo do tratado!',
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Se um navio da época das Grandes Navegações precisasse enfrentar ventos contrários durante boa parte da viagem, por que a caravela era uma embarcação vantajosa?',
     tip: 'Lembra da questão 7 deste simulado sobre as características da caravela!',
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Por que os reinos ibéricos (Portugal e Espanha) tiveram papel tão importante nas Grandes Navegações, em comparação com outros reinos europeus da época?',
     tip: 'Pensa em tudo que estudamos sobre a Escola de Sagres e o apoio real às navegações!',
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Qual foi uma consequência direta da chegada de Colombo à América para a Europa?',
     tip: 'Pensa no que aconteceu depois de 1492 entre europeus e os povos que já viviam na América!',
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Por que as especiarias, como a pimenta e a canela, eram tão valorizadas na Europa a ponto de motivar viagens tão arriscadas?',
     tip: 'Lembra da questão 3 deste simulado sobre o interesse europeu por especiarias!',
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Disputas territoriais',
     type: 'multiple_choice',
     text: 'Se o Tratado de Tordesilhas estabeleceu uma linha dividindo as terras entre Portugal e Espanha, o que isso resultou, mais tarde, para o território que se tornaria o Brasil?',
     tip: 'Pensa: qual país colonizou o Brasil mais tarde? Isso tem relação direta com essa linha do tratado!',
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Comparando a navegação antes e depois do uso de bússolas e astrolábios, qual foi o principal avanço trazido por essas tecnologias?',
     tip: 'Lembra da questão 10 deste simulado sobre a função dessas tecnologias!',
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Bernardo está estudando um mapa das Grandes Navegações e percebe que Portugal e Espanha partiram de posições diferentes para alcançar o Oriente. O que isso mostra sobre as rotas escolhidas por cada reino?',
     tip: 'Lembra da comparação entre Vasco da Gama e Colombo que vimos na questão 13!',
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Na aula de História, Bernardo aprende sobre a importância da Escola de Sagres para Portugal. Qual argumento ele deve usar para explicar essa importância em um trabalho?',
     tip: 'Lembra da questão 4 deste simulado sobre a função da Escola de Sagres!',
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Disputas territoriais',
     type: 'multiple_choice',
     text: 'Bernardo lê sobre o Tratado de Tordesilhas e fica curioso sobre por que ele foi necessário. Qual explicação ele deve dar aos colegas?',
     tip: 'Lembra da questão 14 deste simulado sobre o motivo do tratado!',
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Durante um projeto escolar sobre navegadores, Bernardo escolhe apresentar Vasco da Gama. Qual conquista ele deve destacar sobre esse navegador?',
     tip: 'Lembra da questão 5 deste simulado sobre a viagem de Vasco da Gama!',
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Tempo histórico',
     type: 'multiple_choice',
     text: 'Bernardo monta uma linha do tempo com os principais eventos das Grandes Navegações. Em qual ordem cronológica aproximada ele deve organizar esses eventos?',
     tip: 'Pensa nas datas que estudamos: a Escola de Sagres é anterior, 1492 vem antes de 1494!',
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Bernardo quer explicar por que as especiarias eram tão importantes para os europeus da época das Grandes Navegações. Qual explicação ele deve usar?',
     tip: 'Lembra da questão 18 deste simulado sobre o valor das especiarias!',
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Na prova, Bernardo precisa explicar por que a caravela foi tão importante para as navegações portuguesas. Qual é a resposta correta?',
     tip: 'Lembra da questão 7 e 15 deste simulado sobre as características da caravela!',
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Bernardo descobre que Cristóvão Colombo estava, na verdade, buscando chegar à Índia quando encontrou a América. O que isso mostra sobre o objetivo original da viagem dele?',
     tip: 'Lembra da questão 13 deste simulado sobre o verdadeiro destino que Colombo buscava!',
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo organiza um resumo sobre a importância da bússola e do astrolábio para os navegadores. Qual frase resume melhor essa importância?',
     tip: 'Lembra da questão 10 e 20 deste simulado sobre essas tecnologias de navegação!',
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Navegações marítimas',
     type: 'multiple_choice',
     text: 'Para fechar seu estudo sobre os Reinos Ibéricos e as Grandes Navegações, Bernardo escreve: "Portugal e Espanha investiram em tecnologia, conhecimento e expedições marítimas, o que resultou no encontro com novas terras e novos povos." Essa conclusão está:',
     tip: 'Pensa em tudo que você revisou neste simulado sobre Portugal, Espanha e as Grandes Navegações!',

@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Em qual região do Brasil foram encontradas, no final do século XVII, as primeiras grandes descobertas de ouro?",
     tip: "O próprio nome do estado já dá uma grande pista sobre essa riqueza!",
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "A descoberta do ouro em Minas Gerais provocou um fenômeno conhecido como:",
     tip: "Pensa: quando se descobre uma riqueza assim, as pessoas tendem a fugir dali ou correr para lá?",
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Qual era a origem de muitas das pessoas que migraram para Minas Gerais durante a corrida do ouro?",
     tip: "Pensa em quem já vivia no Brasil, quem vinha de Portugal em busca de riqueza, e quem era forçado a trabalhar!",
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "A exploração do ouro nas minas utilizava principalmente qual tipo de mão de obra?",
     tip: "Lembra do simulado anterior sobre a escravidão africana e seu uso em diferentes atividades econômicas!",
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Para controlar a extração de ouro e arrecadar impostos, a Coroa portuguesa criou qual mecanismo de cobrança?",
     tip: "Pensa no nome: \"quinto\" tem a ver com uma fração, uma parte do total!",
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "As \"Casas de Fundição\" foram criadas pela Coroa portuguesa para:",
     tip: "Pensa na palavra \"fundição\" — ela tem a ver com transformar metal em outra forma, como barras!",
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Expressões artísticas',
     type: "multiple_choice",
     text: "A região da mineração, incluindo cidades como Ouro Preto e Mariana, teve um crescimento importante também em qual aspecto cultural?",
     tip: "Pensa em igrejas antigas e cheias de detalhes que você talvez já tenha visto em fotos de Minas Gerais!",
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Por que o descontentamento com a cobrança de impostos sobre o ouro, como o quinto, gerou tensões entre a população mineradora e a Coroa portuguesa?",
     tip: "Pensa: ninguém gosta de pagar impostos considerados injustos ou altos demais — isso gera conflito ou paz total?",
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "A transferência da capital colonial de Salvador para o Rio de Janeiro, em 1763, está relacionada principalmente a:",
     tip: "Pensa na localização do Rio de Janeiro em relação a Minas Gerais, comparada à distância de Salvador!",
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que o \"ciclo do ouro\" é considerado um período importante na história econômica e social do Brasil colonial?",
     tip: "Pensa em tudo que você estudou até aqui: migração, impostos, cidades crescendo!",
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Comparando o \"ciclo do açúcar\" com o \"ciclo do ouro\", qual foi uma diferença importante entre essas duas fases econômicas?",
     tip: "Lembra do simulado anterior sobre a economia açucareira e onde ela se concentrava!",
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Por que a descoberta de ouro em Minas Gerais provocou uma intensa migração de pessoas para a região, incluindo de outras partes do Brasil e de Portugal?",
     tip: "Lembra da questão 2 e 3 deste simulado sobre a \"corrida do ouro\"!",
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Se a Coroa portuguesa criou o \"quinto\" para cobrar uma parte do ouro extraído, o que isso revela sobre o interesse português na exploração mineradora?",
     tip: "Lembra da questão 5 deste simulado sobre o que era o quinto!",
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Por que as Casas de Fundição foram criadas como parte do controle português sobre o ouro extraído?",
     tip: "Lembra da questão 6 deste simulado sobre a função das Casas de Fundição!",
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Comparando a sociedade formada ao redor da mineração com a sociedade dos engenhos de açúcar, qual foi uma semelhança entre elas?",
     tip: "Lembra do simulado anterior sobre escravidão e sua relação com diferentes atividades econômicas!",
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Expressões artísticas',
     type: "multiple_choice",
     text: "Por que cidades como Ouro Preto se tornaram importantes centros de arte e arquitetura durante o período da mineração?",
     tip: "Lembra da questão 7 deste simulado sobre a arte barroca das cidades mineradoras!",
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Se muitos mineradores consideravam excessiva a cobrança de impostos como o quinto, que tipo de consequência social e política isso poderia gerar?",
     tip: "Lembra da questão 8 deste simulado sobre o descontentamento com os impostos!",
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Por que a transferência da capital colonial para o Rio de Janeiro, em 1763, está relacionada à importância da região mineradora?",
     tip: "Lembra da questão 9 deste simulado sobre essa transferência de capital!",
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Comparando o início da colonização (focada no litoral) com o período da mineração, qual foi uma mudança importante na ocupação do território?",
     tip: "Lembra de tudo que estudamos sobre a formação territorial do Brasil, com a expansão para o interior!",
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Por que entender o \"ciclo do ouro\" é importante para compreender a formação social e econômica do Brasil colonial no século XVIII?",
     tip: "Pensa em tudo que você revisou neste simulado sobre o ciclo do ouro!",
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Bernardo está estudando um mapa da região das Minas Gerais durante o século XVIII e percebe uma grande concentração de povoados próximos às áreas de extração de ouro. O que ele pode concluir sobre esse período?",
     tip: "Lembra da questão 2, 3 e 12 deste simulado sobre a migração provocada pela descoberta do ouro!",
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Na aula de História, Bernardo aprende sobre o \"quinto\", imposto cobrado pela Coroa portuguesa sobre o ouro extraído. Qual explicação ele deve dar sobre esse imposto em um trabalho escolar?",
     tip: "Lembra da questão 5 e 13 deste simulado sobre o que era o quinto!",
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Conflitos coloniais',
     type: "multiple_choice",
     text: "Bernardo descobre que muitos mineradores ficavam descontentes com a cobrança de impostos como o quinto. O que isso demonstra sobre a relação entre a população mineradora e a Coroa portuguesa?",
     tip: "Lembra da questão 8 e 17 deste simulado sobre esse descontentamento!",
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Expressões artísticas',
     type: "multiple_choice",
     text: "Durante uma visita a Ouro Preto, Bernardo se impressiona com as igrejas e esculturas barrocas da cidade. Qual explicação ele pode dar sobre a origem dessa riqueza artística?",
     tip: "Lembra da questão 7 e 16 deste simulado sobre a arte barroca das cidades mineradoras!",
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Administração colonial',
     type: "multiple_choice",
     text: "Bernardo pesquisa sobre a transferência da capital colonial de Salvador para o Rio de Janeiro, em 1763. Qual explicação ele deve usar para esse acontecimento?",
     tip: "Lembra da questão 9 e 18 deste simulado sobre essa transferência de capital!",
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Escravidão e resistência',
     type: "multiple_choice",
     text: "Bernardo organiza um resumo sobre a mão de obra utilizada na extração de ouro em Minas Gerais. Qual frase resume corretamente essa informação?",
     tip: "Lembra da questão 4 e 15 deste simulado sobre a mão de obra nas minas!",
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Na prova, Bernardo precisa comparar o ciclo do açúcar com o ciclo do ouro em termos de localização geográfica. Qual é a resposta correta?",
     tip: "Lembra da questão 11 e 19 deste simulado sobre essa comparação geográfica!",
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo quer explicar por que o \"ciclo do ouro\" é considerado tão importante para entender o Brasil colonial do século XVIII. Qual explicação ele deve usar?",
     tip: "Lembra da questão 10 e 20 deste simulado sobre a importância do ciclo do ouro!",
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Para seu resumo final sobre a mineração e a sociedade do ouro, Bernardo escreve: \"O ciclo do ouro transformou profundamente a ocupação do território, a economia e a sociedade do Brasil colonial no século XVIII.\" Essa afirmação está:",
     tip: "Pensa em tudo que você revisou neste simulado: migração, impostos, arte, mudança de capital!",
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Economia colonial',
     type: "multiple_choice",
     text: "Bernardo conclui seu caderno de estudos destacando que \"entender o ciclo do ouro ajuda a entender também a importância histórica de cidades como Ouro Preto e a transferência da capital colonial para o Rio de Janeiro.\" Essa conclusão está:",
     tip: "Pensa em tudo que você revisou sobre Ouro Preto e a transferência da capital para o Rio!",

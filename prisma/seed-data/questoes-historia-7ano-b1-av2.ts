@@ -1,6 +1,7 @@
 export const questoesHistoria7AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Em que ano a expedição de Pedro Álvares Cabral chegou ao território que viria a ser o Brasil?',
     tip: 'É uma das datas mais marcantes da nossa história — tenta lembrar!',
@@ -16,6 +17,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Formação do Brasil',
     type: 'multiple_choice',
     text: 'Quando os europeus chegaram à América, encontraram diversos povos que já viviam ali há milhares de anos. Como esses povos são chamados de forma geral?',
     tip: 'Pensa no termo que usamos até hoje para os primeiros habitantes das Américas!',
@@ -31,6 +33,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Qual foi uma das primeiras reações dos portugueses ao avistar a terra onde depois seria o Brasil?',
     tip: 'Pensa em quem escreveu um famoso documento descrevendo esse primeiro encontro!',
@@ -46,6 +49,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Os povos indígenas que viviam no território que se tornaria o Brasil tinham, entre outras características:',
     tip: 'Pensa: será que todos os povos indígenas eram exatamente iguais entre si?',
@@ -61,6 +65,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Por que o encontro entre europeus e povos indígenas é considerado um marco tão importante na história?',
     tip: 'Pensa em tudo que esse encontro mudou na história dos dois grupos!',
@@ -76,6 +81,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'História do trabalho',
     type: 'multiple_choice',
     text: 'Qual era uma das principais atividades econômicas indígenas antes da chegada dos europeus?',
     tip: 'Pensa em como os povos indígenas se alimentavam, sem fábricas ou máquinas!',
@@ -91,6 +97,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Formação do Brasil',
     type: 'multiple_choice',
     text: 'O pau-brasil, árvore usada para produzir corante vermelho muito valorizado na Europa, deu origem a qual nome?',
     tip: 'Pensa no próprio nome do nosso país — de onde ele pode ter vindo?',
@@ -106,6 +113,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Qual foi um dos principais impactos negativos do contato entre europeus e povos indígenas logo nas primeiras décadas?',
     tip: 'Pensa em doenças como a gripe e o sarampo, comuns na Europa, mas desconhecidas na América!',
@@ -121,6 +129,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'A carta escrita por Pero Vaz de Caminha, em 1500, é importante para os historiadores porque:',
     tip: 'Lembra da questão 3 deste simulado sobre esse famoso documento!',
@@ -136,6 +145,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Formação do Brasil',
     type: 'multiple_choice',
     text: 'Por que é importante estudar a história dos povos indígenas antes da chegada dos europeus?',
     tip: 'Pensa: a história do nosso território começou em 1500, ou muito antes disso?',
@@ -151,6 +161,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Comparando a visão europeia e a vida dos povos indígenas no momento do encontro em 1500, qual é uma diferença importante a se considerar?',
     tip: 'Pensa em tudo que estudamos sobre a diversidade e as diferenças entre esses dois mundos!',
@@ -166,6 +177,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Se os europeus registraram o primeiro contato através de cartas e relatos, como os historiadores de hoje conseguem também conhecer a perspectiva indígena desse encontro?',
     tip: 'Pensa em outras formas de estudar o passado além de documentos escritos!',
@@ -181,6 +193,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Por que a disseminação de doenças europeias teve um impacto tão grande sobre os povos indígenas logo após o contato?',
     tip: 'Lembra da questão 8 deste simulado sobre o impacto das doenças!',
@@ -196,6 +209,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Se um historiador quer entender a diversidade dos povos indígenas que viviam no atual território brasileiro antes de 1500, o que ele deve levar em conta?',
     tip: 'Lembra da questão 4 deste simulado sobre a diversidade cultural indígena!',
@@ -211,6 +225,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Economia colonial',
     type: 'multiple_choice',
     text: 'Por que o pau-brasil se tornou um dos primeiros produtos de interesse comercial dos portugueses na colônia?',
     tip: 'Lembra da questão 7 deste simulado sobre o motivo do interesse pelo pau-brasil!',
@@ -226,6 +241,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'História do trabalho',
     type: 'multiple_choice',
     text: 'Comparando a economia indígena com a economia que os europeus buscavam implantar, qual era uma diferença importante?',
     tip: 'Lembra da questão 6 deste simulado sobre a economia indígena baseada em agricultura, caça e pesca!',
@@ -241,6 +257,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que a carta de Pero Vaz de Caminha é considerada uma fonte histórica tão importante, mesmo sendo escrita apenas do ponto de vista europeu?',
     tip: 'Lembra da questão 9 deste simulado sobre a importância dessa carta!',
@@ -256,6 +273,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Se dois povos com culturas muito diferentes entram em contato pela primeira vez, como aconteceu em 1500, o que é comum acontecer, segundo os relatos históricos?',
     tip: 'Pensa em como seria estranho encontrar, de repente, pessoas com costumes totalmente diferentes dos seus!',
@@ -271,6 +289,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Por que entender o encontro de 1500 apenas pela perspectiva europeia pode ser uma visão incompleta da história?',
     tip: 'Pensa: será que só existe um "lado" dessa história?',
@@ -286,6 +305,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Comparando as primeiras décadas após 1500 com o período anterior, qual foi uma das maiores transformações vividas pelos povos indígenas?',
     tip: 'Pensa em tudo que você já estudou neste simulado sobre as consequências do encontro de 1500!',
@@ -301,6 +321,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo está lendo um trecho adaptado da carta de Pero Vaz de Caminha para a escola e percebe que o autor descreve a terra e os povos encontrados com muita admiração. O que isso mostra sobre a importância desse documento para os historiadores?',
     tip: 'Lembra da questão 9 e 17 deste simulado sobre a importância dessa carta!',
@@ -316,6 +337,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Formação do Brasil',
     type: 'multiple_choice',
     text: 'Na aula de História, Bernardo aprende que os povos indígenas já viviam no território brasileiro há milhares de anos antes de 1500. O que ele pode concluir sobre a história desse território?',
     tip: 'Lembra da questão 10 deste simulado sobre os milhares de anos de história indígena!',
@@ -331,6 +353,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Economia colonial',
     type: 'multiple_choice',
     text: 'Bernardo pesquisa sobre o pau-brasil e descobre que essa árvore deu origem ao nome do país. Qual foi o motivo do interesse português por essa árvore?',
     tip: 'Lembra da questão 7 e 15 deste simulado sobre o pau-brasil!',
@@ -346,6 +369,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo conversa com a professora sobre por que tantos indígenas morreram logo nas primeiras décadas após o contato com os europeus. Qual é a explicação histórica mais aceita?',
     tip: 'Lembra da questão 8 e 13 deste simulado sobre o impacto das doenças europeias!',
@@ -361,6 +385,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Durante um debate em sala, Bernardo defende que é importante estudar a diversidade dos povos indígenas, e não tratá-los como um grupo único e igual. Qual argumento ele pode usar?',
     tip: 'Lembra da questão 4 e 14 deste simulado sobre a diversidade dos povos indígenas!',
@@ -376,6 +401,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'História do trabalho',
     type: 'multiple_choice',
     text: 'Bernardo organiza um resumo sobre as diferenças entre a economia indígena e os interesses comerciais europeus no início da colonização. Qual associação está correta?',
     tip: 'Lembra da questão 6 e 16 deste simulado sobre essa diferença econômica!',
@@ -391,6 +417,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Registros do passado',
     type: 'multiple_choice',
     text: 'Bernardo quer explicar por que é importante considerar também a perspectiva dos povos indígenas, e não apenas os relatos europeus, para entender o encontro de 1500. Qual é a melhor explicação?',
     tip: 'Lembra da questão 19 deste simulado sobre a importância de considerar várias perspectivas históricas!',
@@ -406,6 +433,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo lê que, após o contato de 1500, houve tanto trocas culturais quanto conflitos entre europeus e indígenas. O que isso mostra sobre esse período histórico?',
     tip: 'Lembra da questão 18 deste simulado sobre como foi esse primeiro contato!',
@@ -421,6 +449,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Colonização do Brasil',
     type: 'multiple_choice',
     text: 'Para seu trabalho final sobre o tema, Bernardo escreve: "O encontro entre europeus e povos indígenas em 1500 marcou o início de intensas transformações para ambos os grupos." Essa afirmação está:',
     tip: 'Pensa em tudo que você estudou neste simulado sobre as consequências desse encontro para os dois lados!',
@@ -436,6 +465,7 @@ export const questoesHistoria7AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Formação do Brasil',
     type: 'multiple_choice',
     text: 'Bernardo conclui seu caderno de estudos destacando que "conhecer a história dos povos indígenas, antes e depois de 1500, é essencial para entender a formação do Brasil." Essa conclusão está:',
     tip: 'Pensa em tudo que você revisou neste simulado sobre a importância da história indígena!',
