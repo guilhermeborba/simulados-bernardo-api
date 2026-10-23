@@ -913,6 +913,46 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-geo
 
 Distribuição: B1/AV1 tem três temas; B1/AV2 e B2/AV1, um cada; B2/AV2, três; B3/AV1 e B3/AV2, quatro cada; B4/AV1, oito; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo gabaritos. A leitura encontrou divergências de letras e formulações conceituais, documentadas com um roteiro manual de revisão na [issue web #117](https://github.com/guilhermeborba/simulados-bernardo/issues/117). Preencher `theme` não corrige nem certifica esses conteúdos.
 
+### História — 9º ano
+
+| Tema | Abrange |
+|---|---|
+| Imperialismo | Expansão europeia/japonesa, domínio colonial, partilha africana e justificativas racistas. |
+| Cultura e sociedade | Belle Époque, comunicação, cultura e relações entre mídia e poder. |
+| Primeira Guerra Mundial | Causas, alianças, combates, participação, armistício e consequências da Primeira Guerra. |
+| Revolução Russa | Revoluções russas de 1917, grupos e reivindicações. |
+| União Soviética | Formação, políticas, stalinismo, reformas e dissolução da União Soviética. |
+| América Latina | Revoluções, populismo, ditaduras e intervenções nas Américas. |
+| Nacionalismo | Conceito, movimentos nacionais e formação de Estados. |
+| Período entreguerras | Instabilidade europeia entre as guerras mundiais. |
+| Crise de 1929 | Crise de 1929, depressão, New Deal, teorias e impactos econômicos/políticos. |
+| Fascismo e nazismo | Ascensão, ideologia, propaganda, expansionismo e organização de regimes fascistas/nazistas. |
+| Primeira República | Oligarquias, coronelismo, economia cafeeira e tenentismo na Primeira República. |
+| Era Vargas | 1930, fases de governo, Estado Novo, oposição, Petrobras e fim dos governos Vargas. |
+| Relações internacionais | Diplomacia, acordos, organizações, reconstrução, integração e relações entre Estados. |
+| História do trabalho | Direitos trabalhistas, corporativismo e relações políticas com os trabalhadores. |
+| Trabalho e tecnologia | Industrialização, indústrias de base e transformações técnicas. |
+| Segunda Guerra Mundial | Operações, frentes, resistências, participação brasileira, desfecho e consequências da Segunda Guerra. |
+| Holocausto | Perseguição antissemita, genocídio, campos, guetos e resgate de vítimas. |
+| Direitos e participação | Direitos humanos/civis, cidadania, movimentos sociais, mulheres, povos indígenas e memória. |
+| Guerra Fria | Bipolaridade, contenção, disputas, corrida espacial/nuclear e conflitos da Guerra Fria. |
+| Descolonização | Independências afro-asiáticas e superação do domínio colonial/apartheid. |
+| Oriente Médio | Israel, Palestina, conflitos regionais e Revolução Iraniana. |
+| Brasil contemporâneo | Governos, eleições e desafios políticos do Brasil após 1945. |
+| Ditadura militar | Golpe de 1964, instituições, repressão, oposição e políticas da ditadura brasileira. |
+| Redemocratização | Abertura, anistia, pluralismo, Diretas Já e transição democrática. |
+| Economia brasileira | Desenvolvimento, crise, inflação, dívida e planos econômicos brasileiros. |
+| Globalização | Integração mundial e suas críticas no período recente. |
+| Preservação ambiental | Conferências e acordos ambientais internacionais. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-historia-9ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 27 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Relações internacionais não antecipa a organização ou acordo solicitado. Primeira Guerra Mundial/Guerra Fria só são usadas quando o conflito já é dado no comando: B1/AV1, ID 21 (Conferência de Berlim), usa Imperialismo. Cultura e sociedade cobre a mídia sem presumir análise corrigida. Direitos e participação mantém em aberto a função histórica dos tribunais e dos movimentos. Ditadura militar em B4/AV1, ID 20, não presume resposta válida onde o legado carece de alternativa adequada. Os nomes acompanham os períodos dados nos comandos; não revelam lideranças, datas ou resultados pedidos.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 11, 9, 6, 13, 5, 7, 6, 11 temas. O ano percorre imperialismo, duas guerras mundiais, Guerra Fria e política brasileira do século XX/XXI. A unidade de pós-guerra reúne treze temas; o primeiro simulado e a revisão final, onze; os demais têm de cinco a nove. Esses totais refletem a diversidade real do programa e os mesmos agrupamentos reutilizados, sem criar um tema por questão.
+
+Gabaritos divergentes, alternativa ausente, cronologia, números e formulações anteriores registrados na [issue web #138](https://github.com/guilhermeborba/simulados-bernardo/issues/138). São correções próprias, com fontes e roteiro adicional de conferência; nenhum campo anterior foi modificado. Cobertura temática não certifica precisão histórica.
+
 ### Geografia — 8º ano
 
 | Tema | Abrange |

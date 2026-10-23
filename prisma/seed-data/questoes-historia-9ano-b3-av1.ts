@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A GUERRA FRIA foi o conflito dominante da segunda metade do século XX. Como ela pode ser definida?",
     tip: "Por que 'fria'? O que diferenciou a Guerra Fria de um conflito armado convencional entre as superpotências?",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A DOUTRINA TRUMAN (1947) definiu a política externa americana para toda a Guerra Fria. Em que consistia?",
     tip: "Truman pediu ao Congresso recursos para a Grécia e a Turquia — que princípio ele estabeleceu que moldaria décadas de política externa americana?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A DIVISÃO DA ALEMANHA em dois estados em 1949 foi uma das consequências mais duradouras da Guerra Fria. Como ocorreu?",
     tip: "As quatro zonas de ocupação (americana, britânica, francesa e soviética) evoluíram para dois países — como e por quê?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A OTAN (Organização do Tratado do Atlântico Norte) foi criada em 1949. O que ela representava no contexto da Guerra Fria?",
     tip: "Por que 12 países democráticos criaram uma aliança militar permanente em 1949, rompendo com a tradição americana de não fazer alianças em tempos de paz?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A 'CORTINA DE FERRO' foi um dos conceitos centrais da Guerra Fria. O que descrevia?",
     tip: "Churchill usou esse termo num discurso em 1946 — o que ele estava tentando descrever sobre a divisão da Europa?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A CORRIDA ARMAMENTISTA NUCLEAR foi um dos aspectos mais aterrorizantes da Guerra Fria. Como ela se desenvolveu?",
     tip: "Os EUA tinham o monopólio nuclear em 1945. Quanto tempo levou para a URSS desenvolver sua própria bomba?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O BLOQUEIO DE BERLIM (1948–1949) foi a primeira grande crise da Guerra Fria. O que aconteceu?",
     tip: "Berlim estava dentro do território soviético — como os aliados ocidentais responderam ao bloqueio sem entrar em guerra?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O lançamento do SPUTNIK (outubro de 1957) foi um choque para a opinião pública americana. Por quê?",
     tip: "O Sputnik era apenas um satélite de 83 kg que apitava — por que causou pânico nos EUA?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A GUERRA DA COREIA (1950–1953) foi o primeiro grande conflito 'quente' da Guerra Fria. Como ela começou e terminou?",
     tip: "A Coreia estava dividida no paralelo 38 desde 1945 — o que aconteceu em junho de 1950?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O COMECON (Conselho de Assistência Econômica Mútua) foi a resposta soviética ao Plano Marshall. O que era?",
     tip: "Quando os EUA ofereceram o Plano Marshall, a URSS recusou e impediu os países do leste europeu de participar — e criou sua própria alternativa. O quê?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A REVOLUÇÃO COMUNISTA CHINESA (1949) e suas implicações para a Guerra Fria. O que o triunfo de Mao significou?",
     tip: "A China era o país mais populoso do mundo — o que aconteceu quando 'caiu' para o comunismo?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O MACARTHISMO nos EUA (1950–1954) foi um fenômeno que marcou a política americana durante a Guerra Fria. O que foi?",
     tip: "O senador Joe McCarthy criou um clima de caça às bruxas nos EUA — quem eram os alvos e como o fenômeno acabou?",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'União Soviética',
     type: "multiple_choice",
     text: "O 'GRANDE SALTO ADIANTE' e a REVOLUÇÃO CULTURAL de Mao Tse-tung. Quais foram suas consequências?",
     tip: "O que aconteceu quando Mao tentou transformar a China agrária numa potência industrial em poucos anos?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O CONTEXTO DO VIETNÃ e a entrada dos EUA na guerra. Como os EUA se envolveram no Vietnã?",
     tip: "O Vietnã foi dividido em 1954 após a derrota francesa. Qual incidente foi usado para justificar a escalada militar americana?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A 'TEORIA DO DOMINÓ' foi um conceito central da política externa americana durante a Guerra Fria. O que dizia?",
     tip: "Esta teoria justificou intervenções militares americanas em diversos países — o que ela argumentava sobre o comunismo?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A CONSTRUÇÃO DO MURO DE BERLIM (agosto de 1961) chocou o mundo. O que motivou sua construção?",
     tip: "Berlim estava no coração da Alemanha Oriental — por que a Alemanha Oriental precisou construir um muro para separar suas próprias partes da cidade?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A CRISE DOS MÍSSEIS DE CUBA (outubro de 1962) levou o mundo mais próximo da guerra nuclear do que em qualquer outro momento. O que aconteceu?",
     tip: "Por 13 dias, EUA e URSS ficaram à beira de uma guerra nuclear. Como a crise foi resolvida?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "Yuri GAGARIN (1961) e a CORRIDA ESPACIAL. O que a viagem de Gagarin representou na disputa entre as superpotências?",
     tip: "Gagarin foi o primeiro ser humano no espaço — como os EUA responderam a essa conquista soviética?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Descolonização',
     type: "multiple_choice",
     text: "O 'ANO DA ÁFRICA' (1960) marcou a aceleração da DESCOLONIZAÇÃO. O que aconteceu naquele ano?",
     tip: "Quantos países africanos se tornaram independentes em 1960? O que acelerou esse processo de descolonização?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O MOVIMENTO DOS NÃO-ALINHADOS, fundado na Conferência de Bandung (1955), representou uma terceira via na Guerra Fria. O que propunha?",
     tip: "Enquanto EUA e URSS queriam que os países do Terceiro Mundo escolhessem um lado, o que Nehru, Tito e Nasser propuseram?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'América Latina',
     type: "multiple_choice",
     text: "A REVOLUÇÃO CUBANA (1959) criou um ponto de tensão permanente nas relações entre EUA e URSS. O que aconteceu?",
     tip: "Como Fidel Castro chegou ao poder em Cuba? E qual foi a reação americana que empurrou Cuba para a URSS?",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O ARMISTÍCIO NA COREIA (1953) e o legado do conflito até hoje. O que o armistício significou?",
     tip: "O armistício restaurou o status quo anterior — por que isso foi considerado uma 'guerra sem vencedor'?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A REPRESSÃO SOVIÉTICA na Hungria (1956) e na Tchecoslováquia (1968) revelou os limites do 'socialismo de rosto humano'. O que aconteceu?",
     tip: "Quando húngaros e tchecos tentaram reformar o socialismo, como a URSS respondeu?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A DERROTA AMERICANA NO VIETNÃ (1975) foi um momento transformador na história do século XX. Por que os EUA perderam?",
     tip: "Com todo o poderio militar americano, como um país pequeno como o Vietnã conseguiu derrotar os EUA?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A DÉTENTE (distensão) foi um período de relaxamento das tensões da Guerra Fria nos anos 1970. O que a caracterizou?",
     tip: "Nixon, o anticomunista histórico, visitou a China e a URSS — como foi possível?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O impacto do SPUTNIK NA EDUCAÇÃO AMERICANA. Como o lançamento do satélite soviético mudou a educação nos EUA?",
     tip: "O choque do Sputnik levou o Congresso americano a fazer algo sem precedentes em 1958 — o quê?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A CISÃO SINO-SOVIÉTICA (anos 1960) foi uma ruptura dentro do bloco comunista. O que causou esse conflito?",
     tip: "Mao e Khrushchev foram aliados no início — o que os separou?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O MOVIMENTO PELOS DIREITOS CIVIS nos EUA e a Guerra Fria. Como o conflito com a URSS influenciou a luta pela igualdade racial nos EUA?",
     tip: "Os EUA pregavam democracia e liberdade contra o comunismo — mas segregavam e linchavam cidadãos negros. Qual foi o impacto diplomático dessa contradição?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A CHEGADA DO HOMEM À LUA (julho de 1969) foi o clímax da corrida espacial. O que representou?",
     tip: "Com Neil Armstrong pisando na Lua, quem venceu a corrida espacial? E quais milestones a URSS havia ganhado antes?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A DOUTRINA DA DESTRUIÇÃO MÚTUA ASSEGURADA (MAD) foi o princípio que paradoxalmente manteve a paz entre as superpotências. Como funcionava?",
     tip: "O que significa 'assegurada' nessa doutrina? Por que ter armas nucleares suficientes para destruir o mundo múltiplas vezes garantia que elas nunca seriam usadas?",
