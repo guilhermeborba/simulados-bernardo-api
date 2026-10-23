@@ -1173,3 +1173,38 @@ Solo reúne formação, textura, horizontes e fertilidade; Vida no solo, organis
 Os simulados têm, na ordem B1/AV1 a B4/AV2, sete, seis, nove, sete, cinco, quatro, cinco e doze temas. B2/AV1 articula disponibilidade, estados, propriedades, transformações e uso da água, mantendo nove agrupamentos. B4/AV2 revisa doze temas das unidades. A quantidade de rótulos acompanha o conteúdo, sem criar um nome para cada questão.
 
 As pendências anteriores sobre pressão, formação da neve, ciclo da água, percentuais, dados de saúde e horizontes do solo estão na [issue web #113](https://github.com/guilhermeborba/simulados-bernardo/issues/113), com referências e critérios para revisão separada. O conteúdo anterior foi preservado; a classificação temática não valida cientificamente essas formulações nem os dados quantitativos sem fonte/ano.
+
+### Português — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Análise sintática | Núcleo e tipos de sujeito e identificação de funções na oração. |
+| Concordância | Relações entre sujeito e verbo e entre substantivos, artigos e adjetivos, incluindo coletivos, partitivos e estruturas passivas. |
+| Conjunções | Reconhecimento, valores e funções dos conectores e relações de adição, oposição, alternativa, conclusão e explicação. |
+| Crônicas | Características, cotidiano, reflexão e humor em textos já identificados como crônicas. |
+| Figuras de linguagem | Comparação, metáfora, personificação, hipérbole, onomatopeia, antítese, eufemismo, ironia e metonímia. |
+| Formas de discurso | Discurso direto, indireto e indireto livre, transposição, falas, vozes, referências e efeitos narrativos. |
+| Gêneros e tipos textuais | Definição, funções, características, comparação e reconhecimento de gêneros, incluindo cartas, bilhetes e receitas. |
+| Histórias em quadrinhos | Definição, sequência de imagens, balões, diálogos e articulação entre texto e imagem quando o gênero já é fornecido. |
+| Leitura e escrita | Sínteses dos recursos e conceitos da língua, suas finalidades e reconhecimento sem antecipar a categoria pedida. |
+| Narrativas | Características dos contos e função do narrador em textos já identificados como narrativas. |
+| Notícias | Características e finalidade informativa quando o gênero já é dado pelo comando. |
+| Período composto | Orações, relações de coordenação e subordinação e articulação das estruturas, sem fornecer a relação solicitada. |
+| Poesia | Características, versos, estrofes e musicalidade em textos já identificados como poemas. |
+| Pontuação | Marcação de falas e emprego da vírgula com conectores. |
+| Textos de opinião | Defesa de pontos de vista, argumentos e circulação dos artigos de opinião já nomeados no enunciado. |
+| Variação linguística | Diversidade regional, social, histórica e situacional, gírias, jargões, registros, norma padrão, adequação e preconceito. |
+| Verbos | Impessoalidade e ausência de sujeito nos exemplos de haver e fenômenos naturais. |
+| Vozes verbais | Voz ativa, passiva analítica e sintética, sujeito, agente, transposição e efeitos de ênfase. |
+
+Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-portugues-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 18 nomes, reaproveitando os nomes dos anos anteriores quando o objetivo corresponde. Classificação individual por mapa manual; somente `theme` foi acrescentado e todos os demais campos e a estrutura foram preservados exatamente.
+
+**Gêneros e tipos textuais** cobre o reconhecimento de gêneros sem fornecer notícia, crônica, carta, bilhete, receita, poema ou HQ como rótulo. Os temas específicos só aparecem quando o gênero já está dado. **Figuras de linguagem** não antecipa a figura pedida. **Leitura e escrita** reúne sínteses e os comandos que pedem reconhecer a própria categoria: B1/AV1, ID 30 (gênero textual); B1/AV2, ID 30 (figuras de linguagem); B2/AV2, ID 30 (concordância); B4/AV2, IDs 28–30. O tema não fornece o nome que completa a frase.
+
+**Variação linguística** mantém juntos os registros e tipos de variação e não antecipa informalidade, regionalismo, jargão ou preconceito. **Análise sintática** cobre sujeito simples/composto em B2/AV2, IDs 5–6, e o sujeito paciente em B3/AV2, ID 10. As questões sobre impessoalidade em B2/AV2, IDs 12, 14 e 23, usam **Verbos**; as perguntas sobre por que haver não varia e sobre concordância nas passivas mantêm **Concordância**. B3/AV2, IDs 15 e 28, têm como tarefa a concordância, mesmo no contexto de vozes verbais.
+
+**Formas de discurso** não antecipa direto, indireto ou indireto livre; **Vozes verbais** não fornece ativa ou passiva. **Período composto** mantém em aberto a relação de coordenação/subordinação; **Conjunções** não fornece a classe ou o sentido do conector pedido. A pontuação constitui um objetivo próprio nos itens correspondentes.
+
+Distribuição: B1/AV1 tem oito temas; B1/AV2, dois; B2/AV1 concentra um; B2/AV2, quatro; B3/AV1, dois; B3/AV2 e B4/AV1, três cada; B4/AV2 revisa oito. Não se subdividem artificialmente as unidades concentradas.
+
+Os exemplos anteriores de antítese/ironia e as relações entre orações estão na [issue web #122](https://github.com/guilhermeborba/simulados-bernardo/issues/122), para revisão separada. A classificação não valida os exemplos nem modifica seus gabaritos.

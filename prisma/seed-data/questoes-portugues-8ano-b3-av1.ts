@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "O que é \"discurso direto\"?",
     tip: "Pense em como, nos livros e HQs, você vê as falas dos personagens \"entre aspas\" ou depois de um travessão, exatamente como eles disseram.",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "O que é \"discurso indireto\"?",
     tip: "Pense em como, ao contar para um amigo o que outra pessoa disse, você pode recontar a ideia sem repetir exatamente as palavras usadas.",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Pontuação',
     type: "multiple_choice",
     text: "Qual sinal de pontuação é mais comumente usado para indicar a fala de um personagem no discurso direto, em textos literários?",
     tip: "Pense no sinal de pontuação (uma linha horizontal) que aparece no início da fala de um personagem em muitos livros e histórias.",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Quais são os principais \"verbos de elocução\" usados para introduzir uma fala no discurso direto?",
     tip: "Pense em verbos que indicam a ação de \"falar\" de alguma forma — são eles que costumam introduzir as falas dos personagens.",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Na frase em discurso direto '\"Eu vou à festa\", disse Maria', ao transformar para o discurso indireto, a frase ficaria:",
     tip: "Pense em como a fala de Maria, antes entre aspas, se transforma em uma frase contada pelo narrador, com o verbo mudando de pessoa e tempo.",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Qual destas frases está em discurso direto?",
     tip: "Observe qual das frases reproduz exatamente as palavras ditas pelo personagem, usando aspas ou travessão.",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Qual destas frases está em discurso indireto?",
     tip: "Observe qual frase está sendo contada pelo narrador, sem reproduzir exatamente as palavras do personagem, usando a conjunção \"que\".",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Por que os jornalistas costumam usar o discurso direto ao citar a fala de uma pessoa entrevistada em uma notícia?",
     tip: "Pense em como, numa notícia, é importante que o leitor saiba exatamente as palavras usadas pela pessoa entrevistada, sem alterações.",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Na transposição do discurso direto para o indireto, o que normalmente acontece com os pronomes pessoais?",
     tip: "Pense em como, ao contar o que alguém disse sobre si mesmo (\"eu vou\"), você muda para falar sobre essa pessoa (\"ela disse que iria\").",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Em uma história em quadrinhos, as falas dos personagens dentro dos balões são um exemplo de:",
     tip: "Pense em como as palavras dentro dos balões de fala representam exatamente o que os personagens estão dizendo, sem intermediação do narrador.",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Na frase em discurso direto '\"Estou aqui agora\", disse ele', ao transpor para o discurso indireto, o advérbio \"aqui\" normalmente se transforma em:",
     tip: "Pense em como, ao contar para alguém o que foi dito em outro momento e lugar, a referência de lugar também muda, assim como a de tempo.",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Na frase '\"Vou estudar hoje\", disse a aluna', ao transpor para o discurso indireto, a palavra \"hoje\" normalmente se transforma em:",
     tip: "Pense em como, ao recontar algo dito em outro momento, a referência de tempo \"hoje\" muda para indicar que já se passou algum tempo.",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "O que é \"discurso indireto livre\", um recurso usado por alguns escritores?",
     tip: "Pense em um estilo de escrita em que fica difícil saber exatamente quando é o narrador falando e quando são os pensamentos do personagem, misturados no texto.",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Em uma entrevista publicada em uma revista, por que é importante usar o discurso direto ao citar a fala do entrevistado?",
     tip: "Pense em como é importante, em uma entrevista, que o leitor saiba exatamente o que a pessoa disse, sem interpretações do jornalista.",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Qual é uma diferença importante de efeito entre o discurso direto e o discurso indireto em uma narrativa?",
     tip: "Pense em como ouvir a voz exata de um personagem é diferente de apenas saber, pelo narrador, o que ele disse de forma resumida.",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Qual destes é um erro comum ao transpor uma frase do discurso direto para o indireto?",
     tip: "Pense em como, ao transformar a fala, é importante lembrar de ajustar tanto os pronomes quanto os tempos verbais, para a frase continuar fazendo sentido.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Em contos e romances, por que os autores costumam alternar entre discurso direto e indireto?",
     tip: "Pense em como alternar entre ouvir a voz direta de um personagem e ter o narrador resumindo a fala pode tornar a leitura mais interessante e dinâmica.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Pontuação',
     type: "multiple_choice",
     text: "Na pontuação do discurso direto, o que geralmente vem logo após o travessão que introduz a fala de um personagem?",
     tip: "Pense em como o travessão \"abre espaço\" para a fala exata do personagem ser reproduzida imediatamente depois dele.",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Por que entender a diferença entre discurso direto e indireto é importante na interpretação de textos literários?",
     tip: "Pense em como saber diferenciar a voz do narrador da voz dos personagens ajuda a entender melhor o que está acontecendo na história.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Qual destas frases está corretamente construída no discurso indireto?",
     tip: "Observe qual frase está sendo contada pelo narrador, com o verbo mudando de pessoa e sem o uso de aspas ou travessão.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo escreveu em sua redação: '\"Vou ganhar o campeonato!\", gritou o jogador.' Essa frase está em qual tipo de discurso?",
     tip: "Lembra do tipo de discurso em que a fala do personagem é reproduzida exatamente como foi dita, usando aspas ou travessão?",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo transformou a frase '\"Estou com fome\", disse o menino' para o discurso indireto. Qual destas opções está correta?",
     tip: "Lembra de como o pronome e o tempo verbal mudam na transposição para o discurso indireto, e de que não se usam mais aspas ou travessão?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo leu uma notícia em que o prefeito da cidade foi citado dizendo, entre aspas, exatamente suas palavras sobre um novo projeto. Isso é um exemplo de uso de:",
     tip: "Lembra de como, em notícias, é comum reproduzir exatamente as palavras ditas por uma pessoa importante, para garantir precisão?",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo notou que, em uma frase de seu livro, o narrador contava o que um personagem havia dito, sem reproduzir exatamente suas palavras, usando a conjunção \"que\". Esse é um exemplo de:",
     tip: "Lembra do tipo de discurso em que o narrador resume a fala do personagem, geralmente usando a palavra \"que\"?",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo quis transformar a frase em discurso direto '\"Vou viajar amanhã\", disse a tia' para o discurso indireto. Ele sabe que a palavra \"amanhã\" normalmente se transforma em:",
     tip: "Lembra de como as referências de tempo mudam quando a fala é recontada em um momento diferente, na transposição para o discurso indireto?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo leu um conto em que, por várias páginas, era difícil saber se os pensamentos descritos eram do narrador ou do próprio personagem, misturados no texto. Esse recurso literário é chamado de:",
     tip: "Lembra do recurso que mistura a voz do narrador com os pensamentos do personagem, sem marcas claras de transição?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo percebeu que, na sua história em quadrinhos favorita, as falas dentro dos balões representam exatamente o que os personagens estão dizendo. Isso é um exemplo de:",
     tip: "Lembra de como as falas dentro dos balões de HQ reproduzem exatamente as palavras dos personagens, sem intermediação do narrador?",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Depois de estudar discurso direto e indireto, Bernardo concluiu que a principal diferença entre eles é:",
     tip: "Pense em tudo que você aprendeu sobre a diferença entre reproduzir exatamente uma fala e contar o que foi dito de forma resumida pelo narrador.",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Bernardo quer escrever um diálogo em sua redação, reproduzindo exatamente o que os personagens disseram. Para isso, ele deve usar:",
     tip: "Lembra de qual tipo de discurso é usado quando se quer reproduzir exatamente as palavras dos personagens, com o uso de travessão ou aspas?",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Formas de discurso',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"quando reproduzimos exatamente a fala de alguém, usando aspas ou travessão, chamamos de discurso direto; quando o narrador conta o que foi dito, sem reproduzir as palavras exatas, chamamos de discurso...\". Qual palavra completa essa frase?",
     tip: "Pense na palavra oposta a \"direto\", que você aprendeu desde a segunda questão desse simulado.",

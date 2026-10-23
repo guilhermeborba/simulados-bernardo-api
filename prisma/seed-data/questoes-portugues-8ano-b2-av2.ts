@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "O que é \"concordância verbal\"?",
     tip: "Pense em como o verbo muda dependendo de quem está praticando a ação: \"eu corro\" e \"eles correm\" — o que muda no verbo?",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"Os alunos estudaram para a prova\", o verbo \"estudaram\" está concordando com:",
     tip: "Pense em quem está praticando a ação de estudar nessa frase — é uma pessoa só, ou várias pessoas?",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "O que é \"concordância nominal\"?",
     tip: "Pense em como dizemos \"menina bonita\" e \"menino bonito\" — o que muda no adjetivo \"bonito/bonita\" para combinar com o substantivo?",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"As casas amarelas são bonitas\", o adjetivo \"amarelas\" concorda em gênero e número com qual palavra?",
     tip: "Pense em qual substantivo está sendo descrito pelo adjetivo \"amarelas\" nessa frase.",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Análise sintática',
     type: "multiple_choice",
     text: "O que é um \"sujeito simples\"?",
     tip: "Pense em uma frase com apenas uma pessoa ou coisa praticando a ação, sem nenhuma outra ligada por \"e\".",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Análise sintática',
     type: "multiple_choice",
     text: "O que é um \"sujeito composto\"?",
     tip: "Pense em uma frase como \"Maria e João foram ao parque\" — quantas pessoas estão praticando a ação de ir ao parque?",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"Maria e João foram ao parque\", por que o verbo \"foram\" está no plural?",
     tip: "Pense em quantas pessoas estão praticando a ação de ir ao parque — uma ou duas?",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"A menina está feliz\", o adjetivo \"feliz\" concorda com o substantivo \"menina\" em:",
     tip: "Pense em como \"feliz\" poderia mudar se estivesse descrevendo \"o menino\" em vez de \"a menina\" — mudaria o gênero e/ou número?",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Por que é importante seguir as regras de concordância verbal e nominal na escrita?",
     tip: "Pense em como um texto bem escrito, com as palavras combinando certinho, fica mais fácil e agradável de ler.",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"Os livros antigos estão guardados na estante\", quantas palavras precisam concordar em gênero e número com \"livros\"?",
     tip: "Observe todas as palavras que estão descrevendo ou acompanhando o substantivo \"livros\" — qual gênero e número elas têm?",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"A maioria dos alunos estudou para a prova\", o verbo \"estudou\" está no singular porque:",
     tip: "Pense em qual palavra é o núcleo do sujeito \"a maioria dos alunos\" — é \"maioria\" ou \"alunos\"?",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Verbos',
     type: "multiple_choice",
     text: "Na frase \"Há muitas pessoas na fila\", o verbo \"há\" (do verbo \"haver\") é considerado:",
     tip: "Pense em como o verbo \"haver\", no sentido de \"existir\", não tem um sujeito específico praticando a ação — por isso, ele não varia para concordar com \"pessoas\".",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Qual destas frases está de acordo com a norma padrão de concordância verbal?",
     tip: "Pense em qual verbo combina corretamente com o pronome \"nós\" — lembra que \"nós\" é a primeira pessoa do plural?",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Verbos',
     type: "multiple_choice",
     text: "Na frase \"Choveu bastante ontem na cidade\", o verbo \"choveu\" é considerado impessoal porque:",
     tip: "Pense em quem \"chove\" — existe alguém especificamente praticando essa ação, ou é um fenômeno da natureza?",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"É proibido entrada de animais\", a expressão \"é proibido\" permanece invariável porque:",
     tip: "Pense em como, em algumas construções específicas, certas expressões como \"é proibido\" ou \"é necessário\" podem não variar, dependendo da presença ou ausência de artigo antes do substantivo.",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"O grupo de turistas chegou cedo ao hotel\", o verbo \"chegou\" está no singular porque concorda com:",
     tip: "Pense em qual é a palavra principal (núcleo) do sujeito \"o grupo de turistas\" — é \"grupo\" ou \"turistas\"?",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase invertida \"Chegaram os convidados\", o verbo \"chegaram\" concorda com:",
     tip: "Pense em como, mesmo quando o sujeito vem depois do verbo (frase invertida), a regra de concordância continua valendo.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Na frase \"Comprei uma camisa e um short brancos\", a concordância do adjetivo \"brancos\" no masculino plural ocorre porque:",
     tip: "Pense em como \"camisa\" é feminino e \"short\" é masculino — quando um adjetivo descreve os dois juntos, para qual gênero ele costuma ir?",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Qual destas frases apresenta um erro de concordância verbal, segundo a norma padrão?",
     tip: "Observe o sujeito \"os meninos\" (plural) e compare com a forma do verbo em cada frase — em qual delas o verbo não está concordando corretamente?",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Por que os estudos de concordância verbal e nominal são importantes para a escrita de textos formais, como redações?",
     tip: "Pense em como um texto escolar bem escrito, com a concordância correta entre as palavras, fica mais claro e profissional.",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo escreveu na redação: \"Os alunos da minha turma estudaram muito para a prova.\" Ele usou corretamente a concordância verbal porque:",
     tip: "Pense em quantas pessoas estão praticando a ação de estudar nessa frase, e observe se o verbo combina com isso.",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo ouviu um colega falar \"nós vai pro recreio\", mas sabe que, na norma padrão, o correto seria dizer:",
     tip: "Lembra de qual verbo concorda corretamente com o pronome \"nós\", na primeira pessoa do plural?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Verbos',
     type: "multiple_choice",
     text: "Bernardo escreveu em seu diário: \"Choveu muito forte na noite de ontem.\" Ele sabe que o verbo \"choveu\" não tem um sujeito específico porque:",
     tip: "Lembra dos verbos que representam fenômenos da natureza, como chover e nevar, e por que eles não têm sujeito específico?",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo descreveu sua mochila dizendo \"Minha mochila nova é azul e bonita.\" Nessa frase, os adjetivos \"azul\" e \"bonita\" concordam em gênero e número com:",
     tip: "Pense em qual substantivo está sendo descrito pelos adjetivos \"azul\" e \"bonita\" na frase de Bernardo.",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo leu a frase \"Há muitos livros na biblioteca da escola\" e lembrou que o verbo \"há\" não varia para concordar com \"livros\" porque:",
     tip: "Lembra do verbo que, no sentido de \"existir\", não tem sujeito específico e, por isso, não varia para o plural?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo notou que, na frase \"Chegaram os convidados para a festa\", o verbo \"chegaram\" aparece antes do sujeito. Ainda assim, a concordância está correta porque:",
     tip: "Lembra que, mesmo em frases com ordem invertida, a regra de concordância entre verbo e sujeito continua valendo?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo escreveu: \"Comprei uma blusa e um tênis brancos.\" Ele usou o adjetivo \"brancos\" no masculino plural porque:",
     tip: "Lembra da regra sobre adjetivos que descrevem, ao mesmo tempo, um substantivo feminino e um substantivo masculino?",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Bernardo escreveu sobre seu time de futebol: \"A equipe venceu o campeonato.\" O verbo \"venceu\" está no singular porque concorda com:",
     tip: "Lembra que palavras coletivas, como \"equipe\", \"grupo\" e \"turma\", geralmente levam o verbo para o singular, mesmo representando várias pessoas?",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Concordância',
     type: "multiple_choice",
     text: "Depois de estudar concordância verbal e nominal, Bernardo concluiu que essas regras são importantes porque:",
     tip: "Pense em como um texto bem escrito, com a concordância correta entre as palavras, fica mais fácil de entender.",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"O verbo deve combinar com o sujeito da frase, e os adjetivos devem combinar com os substantivos que eles descrevem, em gênero e número. Isso se chama...\". Qual expressão completa essa frase?",
     tip: "Pense na expressão que você aprendeu desde a primeira questão desse simulado, sobre a combinação entre verbo e sujeito, e entre adjetivo e substantivo.",

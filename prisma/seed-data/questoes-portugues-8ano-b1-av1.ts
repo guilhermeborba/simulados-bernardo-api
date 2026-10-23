@@ -1,6 +1,7 @@
 export const questoesPortugues8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "O que é um \"gênero textual\"?",
     tip: "Pense em como uma receita de bolo é bem diferente de uma notícia de jornal — cada uma tem um \"jeito\" próprio de ser escrita.",
@@ -16,6 +17,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Narrativas',
     type: "multiple_choice",
     text: "O que é um \"conto\"?",
     tip: "Pense em uma história mais curta que um livro inteiro, com começo, meio e fim, contada rapidinho.",
@@ -31,6 +33,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Crônicas',
     type: "multiple_choice",
     text: "O que caracteriza uma \"crônica\"?",
     tip: "Pense num texto parecido com uma conversa, em que o autor comenta algo que viu ou viveu, de um jeito bem pessoal.",
@@ -46,6 +49,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Notícias',
     type: "multiple_choice",
     text: "Qual é a principal finalidade de uma \"notícia\"?",
     tip: "Pense no telejornal que você já viu em casa — qual é o objetivo principal de quem está contando aquilo?",
@@ -61,6 +65,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O que é um \"artigo de opinião\"?",
     tip: "Pense em um texto em que alguém está tentando te convencer de algo, apresentando razões para isso.",
@@ -76,6 +81,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O que é um \"poema\"?",
     tip: "Pense em um texto que, ao ser lido, parece até \"cantar\" — organizado em linhas curtas chamadas versos.",
@@ -91,6 +97,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Qual é a principal função de uma \"receita culinária\"?",
     tip: "Pense em como sua família segue instruções para fazer um bolo ou uma comida — que tipo de texto ensina isso?",
@@ -106,6 +113,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "O que é uma \"carta\"?",
     tip: "Pense em como, antigamente, as pessoas se comunicavam à distância escrevendo esse tipo de texto, endereçado a alguém.",
@@ -121,6 +129,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Histórias em quadrinhos',
     type: "multiple_choice",
     text: "O que são histórias em quadrinhos (HQs)?",
     tip: "Pense nos gibis ou tirinhas que você já leu — como as histórias são contadas ali, através de desenhos organizados em sequência.",
@@ -136,6 +145,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "O que é um \"bilhete\"?",
     tip: "Pense em um recadinho rápido que você deixaria para um familiar, avisando algo importante, mas de forma bem resumida.",
@@ -151,6 +161,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Notícias',
     type: "multiple_choice",
     text: "Qual destas é uma característica típica de uma \"notícia\" de jornal?",
     tip: "Pense no \"lide\" das notícias — a parte inicial que já conta o principal da informação.",
@@ -166,6 +177,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Qual é a principal diferença entre uma notícia e um artigo de opinião?",
     tip: "Pense em um texto que só informa o que aconteceu e outro que tenta te convencer de alguma coisa, com argumentos.",
@@ -181,6 +193,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Narrativas',
     type: "multiple_choice",
     text: "Em um conto, o \"narrador\" é:",
     tip: "Pense em quem está \"contando\" a história para você — essa pessoa (ou voz) pode participar da história ou apenas observar de fora.",
@@ -196,6 +209,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Crônicas',
     type: "multiple_choice",
     text: "Qual destas características é típica de uma crônica?",
     tip: "Lembra que a crônica é como uma conversa sobre algo simples do dia a dia, contada de um jeito pessoal?",
@@ -211,6 +225,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Receitas culinárias costumam usar qual tipo de linguagem, nas instruções do modo de preparo?",
     tip: "Pense em como as instruções de uma receita são dadas de forma direta, como ordens ou sugestões claras do que fazer.",
@@ -226,6 +241,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Em qual destes locais é mais comum encontrarmos artigos de opinião?",
     tip: "Pense em onde você costuma ver pessoas comentando e defendendo suas opiniões sobre assuntos atuais, de forma escrita.",
@@ -241,6 +257,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Qual é o público-alvo (para quem é escrito) de uma carta pessoal?",
     tip: "Pense em como uma carta geralmente começa com \"Querido(a)...\" — isso indica que ela é endereçada a alguém específico.",
@@ -256,6 +273,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Histórias em quadrinhos',
     type: "multiple_choice",
     text: "Qual destas é uma característica importante das histórias em quadrinhos?",
     tip: "Pense em como as HQs misturam desenho com palavras, usando balões para mostrar o que os personagens estão falando.",
@@ -271,6 +289,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Por que é importante saber identificar diferentes gêneros textuais?",
     tip: "Pense em como você leria uma receita de um jeito diferente de como leria um poema — cada gênero pede uma forma própria de leitura.",
@@ -286,6 +305,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Um bilhete costuma ter qual tipo de linguagem?",
     tip: "Pense em como você escreveria um recado rápido para um familiar — seria de um jeito bem formal ou mais simples e direto?",
@@ -301,6 +321,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo leu um texto no jornal que contava, de forma objetiva, sobre um acontecimento daquele dia, respondendo quem, o quê, quando e onde. Esse texto é um exemplo de:",
     tip: "Lembra do gênero que tem como finalidade informar fatos reais e atuais, geralmente respondendo a essas perguntas logo no início?",
@@ -316,6 +337,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo escreveu um recadinho rápido para avisar a mãe que estava na casa de um amigo e colou na porta da geladeira. Esse texto é um exemplo de:",
     tip: "Lembra do gênero usado para passar recados rápidos e informais entre pessoas próximas?",
@@ -331,6 +353,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo leu uma tirinha com desenhos e balões de fala, contando uma história curta e divertida sobre seus personagens favoritos. Esse gênero textual é chamado de:",
     tip: "Lembra do gênero que conta histórias através de imagens em sequência, geralmente com balões de fala?",
@@ -346,6 +369,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo ajudou sua mãe a fazer um bolo, seguindo um texto que explicava os ingredientes e o passo a passo do preparo. Esse texto é um exemplo de:",
     tip: "Lembra do gênero que ensina, passo a passo, como preparar um alimento?",
@@ -361,6 +385,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo leu um texto em que o autor comentava, de forma pessoal e com um toque de humor, sobre algo simples que aconteceu durante a semana dele. Esse gênero textual é chamado de:",
     tip: "Lembra do gênero que comenta fatos do dia a dia de forma pessoal, muitas vezes com humor ou reflexão?",
@@ -376,6 +401,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo escreveu um texto defendendo que todas as escolas deveriam ter mais tempo de recreio, apresentando argumentos para convencer seus colegas. Esse texto é um exemplo de:",
     tip: "Lembra do gênero em que o autor defende um ponto de vista sobre um assunto, usando argumentos para convencer o leitor?",
@@ -391,6 +417,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo recebeu, pelo correio, um texto de sua avó contando novidades da família, com saudação no início e despedida no final. Esse texto é um exemplo de:",
     tip: "Lembra do gênero usado para se comunicar com alguém específico à distância, com saudação e despedida?",
@@ -406,6 +433,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Gêneros e tipos textuais',
     type: "multiple_choice",
     text: "Bernardo leu um texto curto, organizado em versos, que falava sobre a natureza de um jeito bem bonito e musical. Esse gênero textual é chamado de:",
     tip: "Lembra do gênero organizado em versos e estrofes, que explora a musicalidade das palavras?",
@@ -421,6 +449,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Notícias',
     type: "multiple_choice",
     text: "Depois de estudar os gêneros textuais, Bernardo percebeu que cada texto tem uma finalidade diferente. Qual é a principal finalidade de uma notícia?",
     tip: "Pense no que você aprendeu sobre o objetivo principal desse gênero, muito usado em jornais e telejornais.",
@@ -436,6 +465,7 @@ export const questoesPortugues8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"cada tipo de texto tem uma função diferente: a notícia informa, a receita ensina a cozinhar, a carta se comunica com alguém, e cada um desses tipos de texto é chamado de...\". Qual palavra completa essa frase?",
     tip: "Pense na palavra que você aprendeu desde a primeira questão desse simulado, usada para classificar os diferentes tipos de texto.",
