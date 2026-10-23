@@ -1044,6 +1044,41 @@ B1/AV1 tem três temas; B1/AV2 concentra um; B2/AV1, quatro; B2/AV2 e B3/AV1, tr
 
 As formulações de regras, atletismo, bets/futebol de botão e alongamento estão na [issue web #120](https://github.com/guilhermeborba/simulados-bernardo/issues/120), para revisão separada, incluindo continuação dos conceitos já registrados na #105. A classificação temática não valida essas formulações nem constitui orientação clínica.
 
+### Educação Física — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Voleibol | Jogadores, rede, saque, toques e objetivo do voleibol. |
+| Basquete | Pontuação, arremessos, condução da bola e fundamentos do basquete. |
+| Handebol | Jogadores, goleiro, área, contato com a bola, passos, tempo e arremessos do handebol. |
+| Futebol | Jogadores, duração, goleiro, impedimento e reinícios do futebol. |
+| Práticas corporais | Reconhecimento e comparação de modalidades e categorias, sem antecipar a classificação pedida. |
+| Regras e convivência | Cooperação, comunicação, respeito, disciplina, autocontrole e valores da prática. |
+| Atletismo | História, corridas, saltos, lançamentos, revezamentos e bastão no atletismo. |
+| Natação | Estilos, características e movimentos da natação. |
+| Tênis | Raquete, saque, pontos, quique e formato de partidas de tênis. |
+| Preparação e segurança | Aquecimento, alongamento, treino progressivo, quedas, equipamentos e gerenciamento de risco. |
+| Lutas | Judô, karatê, origens, técnicas, espaços, graduação, classificação e contextos das lutas. |
+| Capoeira | História, resistência, roda, música, instrumentos e dimensões culturais da capoeira. |
+| Ginástica | Artística, rítmica e geral, aparelhos, materiais, música e apresentações. |
+| Capacidades físicas | Força, flexibilidade, equilíbrio, resistência, ritmo, coordenação e consciência corporal. |
+| Dança | Danças populares, urbanas e de salão, origens, coreografia, expressão e cultura. |
+| Jogos e brincadeiras | Amarelinha, queimada, pião, gude, bets, regras, materiais e transmissão cultural. |
+| Práticas de aventura | Escalada, skate, ambientes e características das práticas de aventura. |
+| Saúde e bem-estar | Prática regular, sedentarismo, variação e combinações de hábitos abordadas nas questões. |
+| Alimentação saudável | Variedade alimentar, hidratação, suor e reposição de líquidos nos exemplos. |
+| Sono e descanso | Sono, recuperação, disposição e energia nas situações estudadas. |
+| Postura | Posições corporais, alinhamento, coluna e relação com as práticas físicas. |
+| Jogos Olímpicos | Origens, história, datas, união, amizade e valores dos Jogos Olímpicos. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-educacao-fisica-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 22 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Práticas corporais amplia o agrupamento para reconhecer esportes, danças, jogos e aventuras sem presumir que todos sejam esportes. Evita antecipar Voleibol em B1/AV1, IDs 10 e 20; Atletismo e Natação em B1/AV2, IDs 21 e 10; Tênis no ID 27; Práticas de aventura em B3/AV2, IDs 6, 23 e 29, e B4/AV2, ID 27; e Jogos e brincadeiras no ID 26. Ginástica não entrega artística/rítmica/geral. Dança não entrega a classificação folclórica ou urbana. Capacidades físicas mantém em aberto a habilidade solicitada. B4/AV1, ID 23, usa Saúde e bem-estar para não antecipar Alimentação saudável pela classificação do prato.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 6, 5, 4, 3, 3, 6, 5, 10 temas. A quantidade acompanha unidades mistas de esportes, lutas e práticas corporais. Dança e ginástica mantêm poucos agrupamentos; a revisão final articula os conteúdos do ano sem subdividir cada nome de modalidade ou habilidade.
+
+Regras e conceitos anteriores de handebol, impedimento, toques e preparação registrados na [issue web #131](https://github.com/guilhermeborba/simulados-bernardo/issues/131), para revisão própria. Os campos anteriores foram preservados exatamente. A classificação temática não valida essas formulações nem constitui orientação clínica.
+
 ### Inglês — 6º ano
 
 | Tema | Abrange |

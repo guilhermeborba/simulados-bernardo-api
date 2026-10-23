@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'O atletismo é considerado o esporte mais antigo do mundo porque:',
     tip: 'Pensa nas primeiras Olimpíadas da história, na Grécia Antiga — corrida, salto e lançamento já existiam lá!',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Qual destas é uma prova de corrida do atletismo?',
     tip: 'Pensa na única opção que tem a ver com correr — as outras três são saltos ou lançamentos.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'Na natação, qual destes é um dos quatro estilos oficiais?',
     tip: 'Pensa num estilo em que os braços e as pernas se movem como um "sapinho" nadando.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Tênis',
     type: 'multiple_choice',
     text: 'No tênis, como os jogadores rebatem a bola?',
     tip: 'Pensa no equipamento que o jogador segura com a mão, com uma rede esticada na ponta, para bater na bola.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Qual destas é uma prova de salto do atletismo?',
     tip: 'Pensa na única opção que tem a ver com pular o mais longe possível — as outras são corrida, natação ou lançamento.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'Na natação, o que é o "nado livre" (ou crawl)?',
     tip: 'Pensa no estilo mais comum e rápido de natação, com uma braçada puxando a água de cada vez, alternando os braços.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'O que diferencia esportes individuais de esportes coletivos?',
     tip: 'Pensa na palavra "individual" — ela tem a ver com uma só pessoa competindo, diferente de um time.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Tênis',
     type: 'multiple_choice',
     text: 'No tênis, quando um jogador vence o primeiro ponto de um game, o placar costuma ser contado em:',
     tip: 'O tênis tem uma forma bem diferente de contar pontos, usando palavras em inglês em vez de números simples.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Qual destas é uma prova de lançamento do atletismo?',
     tip: 'Pensa na única opção que tem a ver com jogar um objeto o mais longe possível — as outras são corrida, salto ou natação.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Qual destes esportes é praticado dentro da água?',
     tip: 'Pensa no único esporte da lista que precisa de uma piscina ou de água para ser praticado.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Por que o atletismo é chamado de "esporte-base" ou "esporte mãe"?',
     tip: 'Pensa: correr, saltar e lançar são movimentos usados em quase todos os esportes, não só no atletismo.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'Na natação, qual estilo é nadado de costas, com braçadas alternadas para cima e para trás?',
     tip: 'O próprio nome do estilo já dá a resposta — pensa na posição do corpo do nadador na água.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Tênis',
     type: 'multiple_choice',
     text: 'No tênis, o que acontece se a bola bater duas vezes no chão antes de ser rebatida pelo adversário?',
     tip: 'Pensa: o jogador tem só uma chance de rebater a bola depois que ela toca o chão uma vez. E se ela quicar de novo?',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Qual destas provas de atletismo exige que o atleta ultrapasse obstáculos durante a corrida?',
     tip: 'Pensa no nome da prova — "barreiras" são obstáculos que o atleta precisa saltar enquanto corre.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'O nado borboleta é conhecido por ser:',
     tip: 'Pensa no nome do estilo — os braços se movem parecido com as asas de uma borboleta, os dois juntos.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Tênis',
     type: 'multiple_choice',
     text: 'No tênis, o que é um "saque"?',
     tip: 'Esse termo também apareceu no vôlei, lembra? No tênis tem o mesmo significado: começar a jogada.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Na corrida de revezamento do atletismo, o que os atletas de uma mesma equipe precisam fazer?',
     tip: 'Pensa num objeto pequeno que passa de mão em mão entre os corredores de um mesmo time, sem cair no chão.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'O que é preciso ter cuidado antes de qualquer atividade física intensa, como uma corrida de atletismo?',
     tip: 'Pensa no que os atletas fazem antes de qualquer prova, para preparar os músculos e evitar se machucar.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'Qual destas é uma característica do nado peito?',
     tip: 'Lembra da Questão 3 desta prova? Esse estilo tem um movimento bem parecido com o de um sapo nadando.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Tênis',
     type: 'multiple_choice',
     text: 'No tênis, quantos sets costuma ter uma partida masculina em torneios importantes como Grand Slams?',
     tip: 'Pensa: as partidas de Grand Slam masculinas costumam ser bem longas, podendo durar várias horas.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma corrida de 100 metros na escola. Essa prova pertence a qual esporte?',
     tip: 'Lembra da Questão 2 desta prova? É a mesma prova de corrida que apareceu ali.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'Na aula de natação, Bernardo aprendeu um estilo em que nada de costas, com braçadas alternadas para cima. Qual é esse estilo?',
     tip: 'É o mesmo estilo da Questão 12 desta prova — pensa na posição do corpo do nadador na água.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Tênis',
     type: 'multiple_choice',
     text: 'Bernardo jogou tênis com o pai no fim de semana e usou um equipamento para rebater a bola. Qual é esse equipamento?',
     tip: 'É o mesmo equipamento da Questão 4 desta prova — pensa em algo com uma rede esticada numa das pontas.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma prova de salto na Olimpíada da escola, tentando pular o mais longe possível. Essa prova se chama:',
     tip: 'É a mesma prova da Questão 5 desta prova — pensa em correr e depois pular numa caixa de areia.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Bernardo fez um bom aquecimento antes de correr na aula de Educação Física. Por que isso é importante?',
     tip: 'Lembra da Questão 18 desta prova? O aquecimento prepara os músculos para o esforço que vem depois.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Natação',
     type: 'multiple_choice',
     text: 'Bernardo observou que, na natação, existe um estilo considerado um dos mais difíceis, com os dois braços se movendo juntos por cima da água. Qual é esse estilo?',
     tip: 'É o mesmo estilo da Questão 15 desta prova — pensa no nome que lembra um inseto com asas bonitas.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'No jogo de tênis, Bernardo contou os pontos e disse "15 a 0". Essa forma de contar pontos é característica de qual esporte?',
     tip: 'Lembra da Questão 8 desta prova? É o mesmo esporte que conta pontos de um jeito bem diferente dos outros.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Na corrida de revezamento da escola, Bernardo precisou passar um objeto para o próximo colega da equipe. Que objeto é esse?',
     tip: 'É o mesmo objeto da Questão 17 desta prova — pensa num item pequeno que não pode cair no chão durante a troca.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Atletismo',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que o atletismo reúne corrida, salto e lançamento, sendo considerado a base de muitos esportes. Por isso ele é chamado de:',
     tip: 'É o mesmo nome que você viu na Questão 11 desta prova — pensa em quem "dá origem" a outros esportes.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo: qual a principal diferença entre esportes individuais e esportes coletivos? Bernardo respondeu corretamente:',
     tip: 'Lembra da Questão 7 desta prova? A resposta certa é sobre quem compete sozinho e quem compete em time.',
