@@ -1174,6 +1174,29 @@ Os simulados têm, na ordem B1/AV1 a B4/AV2, sete, seis, nove, sete, cinco, quat
 
 As pendências anteriores sobre pressão, formação da neve, ciclo da água, percentuais, dados de saúde e horizontes do solo estão na [issue web #113](https://github.com/guilhermeborba/simulados-bernardo/issues/113), com referências e critérios para revisão separada. O conteúdo anterior foi preservado; a classificação temática não valida cientificamente essas formulações nem os dados quantitativos sem fonte/ano.
 
+### Ciências — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Sistema digestório | Órgãos, dentes, enzimas, secreções, digestão, absorção e trajeto dos alimentos. |
+| Sistema respiratório | Vias aéreas, movimentos respiratórios, trocas gasosas, voz e defesa das vias respiratórias. |
+| Sistema cardiovascular | Coração, vasos, sangue, células sanguíneas, coagulação, circuitos e transporte de substâncias. |
+| Excreção | Rins, néfrons, urina, reabsorção, equilíbrio de água/sais e eliminação de resíduos por diferentes órgãos. |
+| Sistema nervoso | Encéfalo, medula, nervos, neurônios, reflexos, movimentos, memória e transmissão de informações. |
+| Sistema locomotor | Ossos, músculos, articulações, tendões, ligamentos, sustentação, movimento e lesões. |
+| Sistema imunológico | Defesas, barreiras, células, anticorpos, memória, vacinação, infecções, inflamação e antibióticos. |
+| Corpo humano | Integração entre sistemas e reconhecimento do sistema pedido por sua função, sem antecipar seu nome. |
+| Sentidos | Órgãos da percepção e reconhecimento de visão, audição, olfato, paladar e tato. |
+| Alimentação saudável | Variedade alimentar, fibras, água, nutrientes e fontes de cálcio. |
+| Saúde e bem-estar | Sono, aprendizagem, alimentação, postura e práticas físicas em situações de cuidado. |
+| Hábitos de higiene | Lavagem das mãos/alimentos, secreções e atitudes de prevenção da transmissão de microrganismos. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-ciencias-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 12 nomes, com leitura individual de todos os enunciados e alternativas. Corpo humano, Alimentação saudável, Saúde e bem-estar e Hábitos de higiene reaproveitam nomes consolidados; os sistemas agora têm estudo detalhado em unidades próprias. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Corpo humano cobre a integração dos sistemas e os itens B4/AV2, IDs 1, 18, 24 e 29, que pedem reconhecer o próprio sistema. Assim o tema não antecipa Sistema digestório, Sistema nervoso ou Sistema locomotor. Excreção inclui rins, pele e pulmões; não se confunde um único órgão com todas as vias de eliminação. Sentidos mantém em aberto a modalidade sensorial solicitada. Sistema imunológico não nomeia no rótulo a defesa, célula, reação ou medicamento pedido.
+
+Os simulados têm, na ordem B1/AV1 a B4/AV2, dois, um, um, um, três, três, três e oito temas. Não se subdividem artificialmente as unidades de um sistema; a revisão anual articula integração e sete sistemas/funções. Divergência de gabarito e comando anterior registradas na [issue web #127](https://github.com/guilhermeborba/simulados-bernardo/issues/127), preservadas para revisão separada. A classificação temática não certifica a precisão pedagógica ou científica do legado.
+
 ### Português — 8º ano
 
 | Tema | Abrange |

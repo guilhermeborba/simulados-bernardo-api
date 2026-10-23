@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Qual é a função principal do sistema excretor (urinário)?",
     tip: "Pense em um \"filtro de limpeza\" do sangue, que remove o que o corpo não precisa mais.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Quais são os principais órgãos responsáveis por filtrar o sangue no sistema excretor?",
     tip: "Pense nos órgãos em forma de \"feijão\", localizados na parte de trás da barriga.",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Quantos rins uma pessoa normalmente possui?",
     tip: "Pense num órgão que existe em par, um de cada lado do corpo.",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Dentro dos rins existem pequenas unidades filtradoras chamadas:",
     tip: "É um nome específico para essas estruturas minúsculas que realmente fazem a filtragem do sangue.",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Depois de filtrado pelos rins, o líquido formado (urina) sai por tubos chamados:",
     tip: "É um nome parecido com \"ureia\" — pense nos tubos que levam a urina para fora dos rins.",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Os ureteres levam a urina dos rins até:",
     tip: "Pense no órgão que \"guarda\" a urina antes dela ser eliminada.",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Qual é a função da bexiga?",
     tip: "Pense no órgão \"de bolsa\", que guarda a urina até você sentir vontade de ir ao banheiro.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "A urina é eliminada do corpo através de um tubo chamado:",
     tip: "Cuidado para não confundir com \"ureter\" — a uretra é o tubo final, que leva a urina para fora do corpo.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "A urina é formada principalmente por água e por uma substância que o corpo não precisa mais, chamada:",
     tip: "Essa substância tem o mesmo nome do tubo \"ureter\" que vimos antes — ela é um dos \"restos\" filtrados pelos rins.",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "A ureia é um resíduo produzido quando o corpo:",
     tip: "Pense em alimentos ricos em proteínas, como carne e ovo — o corpo produz esse resíduo ao usá-los.",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Por que é importante beber bastante água durante o dia?",
     tip: "Pense no trabalho que os rins fazem — eles precisam de água para conseguir filtrar bem o sangue.",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Além dos rins, qual outro órgão também ajuda a eliminar substâncias do corpo, através do suor?",
     tip: "Pense no órgão que cobre todo o seu corpo e que, às vezes, fica molhado depois de correr.",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "O sistema respiratório também participa da excreção, eliminando qual substância?",
     tip: "Lembre do Bloco 1 — qual gás sai do sangue para o ar, nos alvéolos dos pulmões?",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Se os rins de uma pessoa não funcionassem bem, o que poderia acontecer?",
     tip: "Pense: se o \"filtro\" do corpo parar de funcionar bem, o que acontece com as substâncias que ele deveria eliminar?",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Para manter os rins saudáveis, é importante:",
     tip: "Pense em hábitos que ajudam o corpo a filtrar bem o sangue, sem sobrecarregar os rins.",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Depois que os rins filtram o sangue, as substâncias úteis (como glicose e água em parte) são:",
     tip: "Pense: os rins não descartam tudo que filtram — eles \"devolvem\" o que ainda é útil para o corpo.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Os rins, além de filtrar o sangue, também ajudam a controlar:",
     tip: "Pense em como o corpo mantém o equilíbrio certo de líquidos e minerais, mesmo bebendo quantidades diferentes de água.",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "A cor mais clara ou mais escura da urina pode indicar:",
     tip: "Pense em quando você bebe pouca água — a urina costuma ficar mais clara ou mais escura?",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Qual é a ordem correta do caminho da urina, depois de ser formada nos rins?",
     tip: "Vá revendo cada estrutura que estudamos hoje, na ordem em que a urina realmente passa por elas.",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "O sistema excretor trabalha em conjunto com qual outro sistema para levar o sangue até os rins?",
     tip: "Pense: para os rins filtrarem o sangue, ele precisa chegar até lá — qual sistema faz esse transporte?",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo bebeu bastante água num dia de calor e percebeu que foi ao banheiro mais vezes. Isso acontece porque:",
     tip: "Pense no trabalho dos rins — quanto mais água no sangue, mais eles filtram e formam urina.",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo notou que, num dia que bebeu pouca água, sua urina ficou mais escura. Isso indica que:",
     tip: "Lembre da Questão 18 — o que a cor mais escura da urina costuma indicar?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo está aprendendo sobre o caminho da urina. Depois de ser formada nos rins, por onde ela passa primeiro?",
     tip: "Lembre da Questão 5 — qual estrutura leva a urina dos rins para a bexiga?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo quer saber onde a urina fica armazenada antes de ser eliminada do corpo.",
     tip: "Lembre da Questão 6 e 7 — qual órgão \"guarda\" a urina temporariamente?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo jogou bola num dia muito quente e ficou suando bastante. Além dos rins, qual órgão também ajudou a eliminar substâncias do corpo nesse momento?",
     tip: "Lembre da Questão 12 — qual órgão elimina substâncias através do suor?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo aprendeu que comer com muito sal pode sobrecarregar os rins. Por isso, é importante:",
     tip: "Lembre da Questão 15 — quais hábitos ajudam a manter os rins saudáveis?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo quer entender por que os néfrons são tão importantes dentro dos rins.",
     tip: "Lembre da Questão 4 — qual é a função específica dos néfrons?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo quer saber: se ele não bebesse água suficiente por muitos dias, o que poderia acontecer com seus rins?",
     tip: "Lembre da Questão 11 e 14 — por que a água é tão importante para o trabalho dos rins?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo está organizando o caminho completo da urina no corpo, da formação até a eliminação. Qual é a ordem correta?",
     tip: "Lembre da Questão 19 — qual é a ordem certa desse caminho?",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema excretor (urinário) no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: rins, néfrons, ureteres, bexiga e uretra — todos trabalham juntos para esse objetivo final.",

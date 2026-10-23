@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Qual é a função principal do sistema respiratório?",
     tip: "Pense no que você faz a cada respiração: você \"pega\" um gás do ar e \"devolve\" outro.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Por onde o ar normalmente entra no nosso corpo?",
     tip: "Pense na primeira estrutura por onde o ar passa, logo no início do seu rosto.",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Dentro do nariz, o ar é filtrado por pelos e:",
     tip: "Pense naquela substância pegajosa que prende poeira e partículas — ela ajuda a limpar o ar.",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Qual é a função da laringe?",
     tip: "Pense em quando você fala ou canta — qual parte do corpo vibra para produzir o som?",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Depois da laringe, o ar passa por um tubo chamado:",
     tip: "Cuidado para não confundir com o esôfago, que é do sistema digestório! Esse tubo é só para o ar.",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "A traqueia é formada por anéis de uma substância resistente e flexível chamada:",
     tip: "Pense no mesmo material flexível que forma a ponta do seu nariz e suas orelhas.",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "A traqueia se divide em dois tubos chamados:",
     tip: "Pense na primeira divisão da traqueia, logo na entrada dos pulmões — um tubo para cada lado.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Dentro dos pulmões, os bronquios se dividem em tubos menores chamados:",
     tip: "Pense num nome parecido com \"bronquio\", só que no \"diminutivo\" — tubos ainda menores.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "No final dos bronquíolos, encontramos pequenas bolsas de ar chamadas:",
     tip: "Pense nas pequenas \"bolhinhas\" no final do caminho do ar, onde a troca gasosa realmente acontece.",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "É nos alvéolos que ocorre:",
     tip: "Pense no objetivo final de todo o caminho do ar — o que precisa acontecer entre o ar e o sangue?",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Qual músculo é o principal responsável pelos movimentos de respiração?",
     tip: "Pense no músculo que fica embaixo dos pulmões e se move toda vez que você respira.",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Durante a inspiração (quando o ar entra), o diafragma:",
     tip: "Pense: para o ar entrar e os pulmões se expandirem, o diafragma precisa \"abrir espaço\" descendo.",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Durante a expiração (quando o ar sai), o diafragma:",
     tip: "É o movimento contrário da inspiração — o diafragma volta à posição de descanso, empurrando o ar para fora.",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Nos alvéolos, o oxigênio do ar passa para o sangue e é transportado principalmente por:",
     tip: "Pense nas células do sangue que dão a cor vermelha a ele — são elas que \"carregam\" o oxigênio pelo corpo.",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Ao mesmo tempo que o oxigênio entra no sangue nos alvéolos, o que sai do sangue para o ar?",
     tip: "Pense no gás que o corpo produz como \"lixo\" depois de usar o oxigênio — ele precisa ser eliminado.",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Por que é importante não fumar para a saúde do sistema respiratório?",
     tip: "Pense em tudo que aprendemos sobre os alvéolos — a fumaça suja e danifica essas estruturas tão importantes.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "A tosse e o espirro são mecanismos de defesa do corpo que servem para:",
     tip: "Pense em quando você espirra por causa de poeira — o que seu corpo está tentando fazer?",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "A poluição do ar pode prejudicar o sistema respiratório porque:",
     tip: "Pense em fumaça de carros e fábricas — o que esse tipo de ar sujo faz com os pulmões?",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Qual é a ordem correta do caminho do ar ao entrar no corpo?",
     tip: "Vá revendo cada estrutura que estudamos hoje, na ordem em que o ar realmente passa por elas.",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Os pulmões ficam protegidos dentro de uma estrutura óssea chamada:",
     tip: "Pense nos ossos curvos que você sente no seu peito e costas, protegendo os órgãos internos.",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo fez um exercício físico forte e notou que estava respirando mais rápido. Por que isso acontece?",
     tip: "Pense: durante o exercício, os músculos trabalham mais e por isso precisam de mais desse gás importante.",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo sentiu um cheiro forte de poeira e começou a espirrar. Isso é um exemplo de:",
     tip: "Lembre da Questão 17 — qual é a função do espirro?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo está aprendendo sobre o caminho do ar. Depois de passar pela traqueia, por onde o ar passa?",
     tip: "Lembre da Questão 7 — qual estrutura vem logo depois da traqueia?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo quer saber onde ocorre a troca de oxigênio por gás carbônico no seu corpo.",
     tip: "Lembre da Questão 9 e 10 — qual é a estrutura final do caminho do ar, onde a troca realmente acontece?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo observou que, ao respirar fundo, sua barriga (abdômen) se expande. Isso acontece porque:",
     tip: "Lembre da Questão 11 e 12 — qual músculo se move para baixo durante a respiração?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo aprendeu que fumar é prejudicial à saúde. Qual parte do sistema respiratório é mais afetada pelo cigarro?",
     tip: "Lembre da Questão 16 — qual órgão é mais prejudicado pela fumaça do cigarro?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo mediu sua respiração e notou que, em repouso, respira mais lentamente do que durante um jogo de futebol. Isso mostra que:",
     tip: "Lembre da Questão 21 — por que respiramos mais rápido durante o exercício?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo quer entender por que o ar que ele inspira (puro) é diferente do ar que ele expira (usado).",
     tip: "Lembre da Questão 14 e 15 — o que entra e o que sai do sangue nos alvéolos?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Bernardo percebeu que, quando está gripado, respira com mais dificuldade pelo nariz. Isso geralmente acontece por causa do:",
     tip: "Lembre da Questão 3 — qual substância do nariz aumenta quando estamos gripados?",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema respiratório no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: nariz, traqueia, bronquios, pulmões e alvéolos — todos trabalham juntos para esse objetivo final.",

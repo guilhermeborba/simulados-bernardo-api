@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Qual órgão é responsável por transformar os alimentos em nutrientes que o corpo pode absorver?",
     tip: "Pense no sistema que cuida de toda a \"jornada\" do alimento — da boca até sua absorção.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "Qual é a principal função dos pulmões no sistema respiratório?",
     tip: "Pense no que entra e sai quando você respira — o que você precisa absorver e o que precisa eliminar?",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Qual é a função do coração no sistema cardiovascular?",
     tip: "Pense no coração como uma \"bomba\" — o que ele faz com o sangue?",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Qual é a principal função dos rins no sistema excretor?",
     tip: "Os rins são os principais \"filtros\" do corpo — o que eles filtram e eliminam?",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "O sistema nervoso é responsável por:",
     tip: "Pense no sistema nervoso como o \"computador central\" do corpo — o que ele controla e coordena?",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "O sistema locomotor é formado principalmente por:",
     tip: "Pense no que permite que você se mova — quais estruturas trabalham juntas para isso?",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "O sistema imunológico tem como principal função:",
     tip: "Pense no sistema imunológico como o \"exército de defesa\" do corpo — contra o que ele protege?",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "O que o oxigênio que entra pelos pulmões faz depois que é absorvido?",
     tip: "Pense no caminho do oxigênio depois que chega ao pulmão — como ele chega até as células do corpo?",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Qual é o papel do sangue em relação aos nutrientes absorvidos pelo sistema digestório?",
     tip: "Pense: depois que os nutrientes são absorvidos no intestino, como eles chegam às outras partes do corpo?",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Os rins filtram o sangue e produzem a urina, que é eliminada. Isso é importante para:",
     tip: "Pense: o que aconteceria se os resíduos produzidos pelo corpo ficassem acumulados no sangue?",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "O cérebro faz parte do sistema nervoso. Qual é uma das suas funções?",
     tip: "Pense no cérebro como o \"centro de controle\" do corpo — o que ele processa e coordena?",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Os ossos, além de sustentar o corpo e permitir o movimento, também têm outra função importante. Qual é ela?",
     tip: "Pense no que fica dentro dos ossos — há uma substância que fabrica algo vital para o sangue.",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Os leucócitos (glóbulos brancos) são produzidos principalmente na medula óssea e têm a função de:",
     tip: "Lembre do sistema imunológico — qual é o papel dos leucócitos na defesa do corpo?",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Qual é a relação entre o sistema respiratório e o sistema cardiovascular?",
     tip: "Pense em como o oxigênio dos pulmões chega até o resto do corpo — qual sistema faz isso?",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "A digestão começa já na boca, com a mastigação e a saliva. A função da saliva na digestão é:",
     tip: "Pense no que acontece com o alimento quando ele fica na boca — a saliva ajuda de que forma?",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Por que é importante que o sistema excretor funcione bem?",
     tip: "Pense no que aconteceria se os resíduos do metabolismo ficassem acumulados no corpo.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Os músculos precisam de energia para funcionar. De onde vem essa energia?",
     tip: "Pense no que os músculos consomem para se contrair — qual substância fornece energia para as células?",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Quando você se machuca e percebe dor, qual sistema é responsável por levar essa informação até o cérebro?",
     tip: "Pense: qual sistema transmite as informações dos sentidos e do corpo até o cérebro?",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Sistema respiratório',
     type: "multiple_choice",
     text: "O gás carbônico (CO₂), produzido pelas células do corpo, é levado pelo sangue até os pulmões e então:",
     tip: "Pense no destino final do CO₂ — o que acontece com ele nos pulmões?",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "O fígado, que faz parte do sistema digestório, tem diversas funções, incluindo:",
     tip: "Pense no fígado como uma \"central química\" do corpo — ele processa substâncias que entram no corpo.",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Bernardo corre no pátio e fica ofegante (sem fôlego). Isso acontece porque:",
     tip: "Pense no que os músculos precisam durante o exercício — qual sistema trabalha mais para suprir essa necessidade?",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Bernardo come um lanche antes do treino. Os nutrientes desse lanche chegam até os músculos dele através de qual caminho?",
     tip: "Pense no caminho do alimento: digestão → absorção → transporte. Qual sistema faz o transporte?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo torceu o tornozelo e a região ficou vermelha e inchada. O médico disse que é uma inflamação. Esse processo é parte de:",
     tip: "Lembre do sistema imunológico — qual é o papel da inflamação na resposta do corpo a uma lesão?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Bernardo está estudando os sistemas do corpo humano. Qual dos sistemas é responsável por sustentar o corpo e proteger órgãos vitais, como o coração e o cérebro?",
     tip: "Pense na estrutura que age como uma \"armadura\" para o coração (caixa torácica) e o cérebro (crânio).",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Excreção',
     type: "multiple_choice",
     text: "Bernardo quer entender por que beber bastante água é importante para os rins. A resposta é que:",
     tip: "Pense no que os rins precisam para filtrar o sangue e produzir urina — qual substância é essencial?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Bernardo notou que, quando está muito nervoso ou com medo, seu coração bate mais rápido. Isso acontece porque:",
     tip: "Pense na comunicação entre o sistema nervoso e o sistema cardiovascular — como o cérebro influencia o coração?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre vários sistemas do corpo humano. Qual afirmação melhor descreve a relação entre eles?",
     tip: "Pense: os sistemas do corpo trabalham de forma isolada ou em conjunto?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo tomou um antibiótico para tratar uma infecção bacteriana. Os antibióticos funcionam combatendo:",
     tip: "Lembre do sistema imunológico — os antibióticos ajudam o corpo contra qual tipo de microrganismo?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Revisando tudo: Bernardo pergunta ao professor qual sistema coordena o funcionamento de todos os outros sistemas do corpo. A resposta é:",
     tip: "Pense no sistema que controla e coordena todos os outros — o \"computador central\" do organismo.",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Corpo humano',
     type: "multiple_choice",
     text: "Revisando tudo: qual conjunto de sistemas trabalha junto para fornecer energia às células do corpo?",
     tip: "Pense em quais sistemas estão diretamente envolvidos em obter nutrientes, transportá-los e fornecer oxigênio para que as células gerem energia.",
