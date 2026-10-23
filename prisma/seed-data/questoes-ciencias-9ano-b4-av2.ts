@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Uma REAÇÃO QUÍMICA é um processo em que:",
     tip: "Compare com mudança física: derreter gelo não é reação química — a água continua sendo H₂O. E queimar papel?",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Qual das situações a seguir é um indicativo de que uma REAÇÃO QUÍMICA ocorreu?",
     tip: "Mudanças físicas (derreter, dissolver) não criam novas substâncias — qual das opções gera uma substância nova?",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "A LEI DE CONSERVAÇÃO DA MASSA (Lavoisier, 1789) afirma que:",
     tip: "Antoine Lavoisier pesou os reagentes e os produtos com balança de precisão — o que ele descobriu?",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "O BALANCEAMENTO de uma equação química é necessário para:",
     tip: "A equação H₂ + O₂ → H₂O está errada. O que falta para que o número de átomos bata dos dois lados?",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Em uma reação de SÍNTESE (adição), ocorre:",
     tip: "Síntese significa 'juntar'. O que se junta e o que se forma?",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Em uma reação de ANÁLISE (decomposição), ocorre:",
     tip: "Análise significa 'separar'. Uma substância se divide — o que se forma?",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Uma reação de SIMPLES TROCA (deslocamento) ocorre quando:",
     tip: "Um elemento 'empurra' outro para fora do composto — qual precisa ser mais reativo?",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Uma reação EXOTÉRMICA é aquela que:",
     tip: "'Exo' = para fora. A energia vai para onde em uma reação exotérmica?",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Cinética química',
     type: "multiple_choice",
     text: "Um CATALISADOR acelera uma reação química porque:",
     tip: "O catalisador não é consumido — ele aparece no início e no final da reação. Como ele ajuda?",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Cinética química',
     type: "multiple_choice",
     text: "Qual dos fatores a seguir NÃO influencia a velocidade de uma reação química?",
     tip: "Pense: o que realmente importa para as moléculas colidirem com energia suficiente?",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Cinética química',
     type: "multiple_choice",
     text: "Aumentar a TEMPERATURA de uma reação geralmente a ACELERA porque:",
     tip: "Temperatura é uma medida da agitação das moléculas. O que acontece quando elas se movem mais rápido?",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Soluções',
     type: "multiple_choice",
     text: "Em uma SOLUÇÃO, o SOLUTO é:",
     tip: "Água com açúcar: qual é o soluto e qual é o solvente?",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Soluções',
     type: "multiple_choice",
     text: "Quando o NaCl (sal de cozinha) se dissolve em água, ocorre:",
     tip: "O sal 'some' na água — mas ele foi destruído quimicamente ou apenas separado em partes?",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Soluções',
     type: "multiple_choice",
     text: "Uma solução de NaCl com concentração de 10 g/L significa que:",
     tip: "g/L = gramas de soluto por litro de solução (não de solvente).",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Funções inorgânicas',
     type: "multiple_choice",
     text: "Segundo a teoria de ARRHENIUS, um ÁCIDO é uma substância que:",
     tip: "O que o ácido libera quando se dissolve em água?",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Funções inorgânicas',
     type: "multiple_choice",
     text: "O pH é uma escala que mede a acidez ou basicidade de uma solução. Um pH = 7 indica:",
     tip: "A escala de pH vai de 0 (muito ácido) a 14 (muito básico). Onde fica o neutro?",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Funções inorgânicas',
     type: "multiple_choice",
     text: "A REAÇÃO DE NEUTRALIZAÇÃO entre um ácido e uma base produz:",
     tip: "HCl + NaOH → ? Quais produtos se formam quando o ácido 'neutraliza' a base?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Funções inorgânicas',
     type: "multiple_choice",
     text: "Os ÓXIDOS são compostos formados por:",
     tip: "O nome já indica: são compostos com oxigênio. Mas oxigênio com o quê?",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "A COMBUSTÃO é uma reação química entre um combustível e o OXIGÊNIO que:",
     tip: "Acender uma vela ou queimar gasolina — o que acontece com a energia e com os produtos formados?",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "A FERRUGEM (corrosão do ferro) é uma reação química que ocorre quando:",
     tip: "Ferro exposto ao ar e umidade — quais substâncias estão reagindo com o ferro?",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "A ELETRÓLISE é um processo que usa energia elétrica para:",
     tip: "É o oposto da pilha: em vez de reação espontânea gerando eletricidade, é eletricidade forçando reação.",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Química orgânica',
     type: "multiple_choice",
     text: "Os POLÍMEROS são substâncias formadas por:",
     tip: "'Poli' = muitos; 'mero' = parte. São moléculas gigantes feitas de unidades que se repetem.",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Química orgânica',
     type: "multiple_choice",
     text: "Os COMPOSTOS ORGÂNICOS são caracterizados por:",
     tip: "Todo composto orgânico tem um elemento em comum — qual é ele?",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Química orgânica',
     type: "multiple_choice",
     text: "Os HIDROCARBONETOS são compostos orgânicos formados apenas por:",
     tip: "O nome diz: 'hidro' = hidrogênio, 'carbono' = carbono. Só esses dois elementos.",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Química orgânica',
     type: "multiple_choice",
     text: "As PROTEÍNAS são biopolímeros formados por:",
     tip: "As proteínas são os 'trabalhadores' da célula. De que 'tijolos' elas são feitas?",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Processos celulares',
     type: "multiple_choice",
     text: "O METABOLISMO celular inclui duas vias opostas:",
     tip: "'Cata' = quebrar; 'ana' = construir. O que o catabolismo e o anabolismo fazem?",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Processos celulares',
     type: "multiple_choice",
     text: "A equação geral da FOTOSSÍNTESE pode ser escrita como:",
     tip: "Plantas usam luz, CO₂ e água — o que produzem? Lembre que a fotossíntese é o oposto da respiração celular.",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "A SÍNTESE DA AMÔNIA (processo Haber-Bosch) é uma das reações químicas mais importantes da humanidade porque:",
     tip: "Sem amônia, não há como produzir fertilizantes nitrogenados em escala industrial.",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "A QUÍMICA VERDE é uma abordagem que busca:",
     tip: "É uma filosofia de desenvolvimento que repensa como a química industrial opera.",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Transformações químicas',
     type: "multiple_choice",
     text: "Qual das seguintes situações envolve uma REAÇÃO QUÍMICA e não apenas uma mudança física?",
     tip: "Em mudanças físicas, a composição química não muda. Em reações químicas, novas substâncias são formadas.",

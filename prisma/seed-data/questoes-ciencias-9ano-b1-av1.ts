@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "A ASTRONOMIA é a ciência que estuda:",
     tip: "A própria palavra diz: 'astro' = estrela/astro, 'nomia' = lei/estudo.",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "De acordo com a teoria do BIG BANG, o Universo teve origem:",
     tip: "Pense no que 'Big Bang' significa — 'Grande Explosão'. Qual é a ideia central dessa teoria?",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "A VIA LÁCTEA é:",
     tip: "Você está dentro dela agora! É a nossa galáxia — o 'bairro' cósmico do Sistema Solar.",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "O SISTEMA SOLAR é formado por:",
     tip: "Vá além dos planetas — o Sistema Solar tem muitos outros membros!",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Estrelas',
     type: "multiple_choice",
     text: "O Sol é classificado como:",
     tip: "Não confunda 'grande para nós' com 'grande no Universo' — o Sol é uma estrela bastante comum.",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "Os planetas Mercúrio, Vênus, Terra e Marte são chamados de ROCHOSOS ou TELÚRICOS porque:",
     tip: "'Telúrico' vem do latim 'tellus' (Terra). O que esses planetas têm em comum com a Terra?",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "A ordem correta dos planetas do Sistema Solar, do mais próximo ao mais distante do Sol, começa com:",
     tip: "Mnemônico clássico: 'Minha Vó Tem Muitos Jornais Sobre Um Novo Planeta' (Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano, Netuno).",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "A Terra é o único planeta do Sistema Solar com vida confirmada porque:",
     tip: "Pense nas condições necessárias para a vida como a conhecemos.",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "A Lua é classificada como:",
     tip: "A Lua orbita a Terra — não o Sol diretamente. Como se chama um astro que orbita um planeta?",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "Um METEORO é:",
     tip: "Diferente de asteroide (no espaço) e meteorito (que chega ao chão) — o meteoro é o fenômeno visual na atmosfera.",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "GALÁXIAS são:",
     tip: "São as 'ilhas' do Universo — cada uma contém bilhões de estrelas, unidas por quê?",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "Um ANO-LUZ é:",
     tip: "O nome pode confundir: não é um tempo — é uma distância. A distância que a luz percorre em um ano.",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Estrelas',
     type: "multiple_choice",
     text: "Estrelas como o Sol, ao esgotarem seu combustível nuclear, tornam-se:",
     tip: "Estrelas de massa média (como o Sol) têm um fim diferente das estrelas muito massivas.",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "Uma NEBULOSA é:",
     tip: "Pense no berçário das estrelas — onde elas nascem.",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Estrelas',
     type: "multiple_choice",
     text: "Uma SUPERNOVA é:",
     tip: "Acontece com estrelas muito mais massivas que o Sol — é o fim explosivo e espetacular delas.",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "Um BURACO NEGRO é:",
     tip: "É o que fica após a supernova de uma estrela muito massiva — a gravidade vence tudo.",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "Plutão foi reclassificado como PLANETA ANÃO em 2006 porque:",
     tip: "A União Astronômica Internacional definiu três critérios para ser planeta em 2006. Plutão falha em qual?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "O CINTURÃO DE ASTEROIDES é:",
     tip: "Fica entre dois planetas específicos do Sistema Solar. Quais são eles?",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "EXOPLANETAS são:",
     tip: "'Exo' significa 'fora'. Fora de quê?",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "Qual é a ordem correta de tamanho, do menor para o maior?",
     tip: "A Terra está dentro do Sistema Solar, que está dentro da Via Láctea, que está dentro do Universo.",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Estrelas',
     type: "multiple_choice",
     text: "A principal fonte de energia do Sol é:",
     tip: "O Sol 'queima' hidrogênio — mas não por combustão química. É um processo muito mais poderoso.",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "A Terra é o ______ planeta mais próximo do Sol.",
     tip: "Lembre da ordem: Mercúrio, Vênus, Terra...",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "Qual a diferença fundamental entre uma ESTRELA e um PLANETA?",
     tip: "Pense em quem 'brilha por conta própria' e quem apenas reflete a luz de outro.",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Exploração espacial',
     type: "multiple_choice",
     text: "A missão Apolo 11 foi responsável por:",
     tip: "Foi um marco histórico na exploração espacial — o primeiro ser humano em outro corpo celeste.",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Exploração espacial',
     type: "multiple_choice",
     text: "A Estação Espacial Internacional (ISS) é:",
     tip: "É o único local fora da Terra habitado continuamente por seres humanos.",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Exploração espacial',
     type: "multiple_choice",
     text: "O estudo da astronomia é importante para a humanidade porque:",
     tip: "Pense nas aplicações práticas e no impacto do conhecimento astronômico no dia a dia.",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "Os COMETAS são compostos principalmente de:",
     tip: "São chamados de 'bolas de neve sujas' do Sistema Solar.",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "A luz solar demora aproximadamente 8 minutos para chegar à Terra. Isso significa que:",
     tip: "A velocidade da luz é finita: 300.000 km/s. Pensar nisso revela algo fascinante sobre o que vemos no céu.",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "O céu é azul durante o dia porque:",
     tip: "Tem a ver com como a atmosfera interage com os diferentes comprimentos de onda da luz solar.",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Universo',
     type: "multiple_choice",
     text: "Qual das afirmações melhor descreve o lugar da Terra no Universo?",
     tip: "Pense na perspectiva cósmica real — sem geocentrismo.",

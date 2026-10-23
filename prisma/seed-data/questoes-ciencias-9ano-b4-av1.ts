@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "O modelo atômico de DALTON (1808) propôs que:",
     tip: "Dalton foi o primeiro a formular uma teoria atômica baseada em evidências experimentais — o que ele concluiu sobre os átomos?",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "O modelo de THOMSON (1897), chamado de 'pudim de passas', foi proposto porque:",
     tip: "Thomson descobriu o elétron — partícula negativa. Como o átomo neutro poderia contê-la?",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "O experimento da lâmina de ouro de RUTHERFORD (1911) mostrou que:",
     tip: "Rutherford bombardeou a lâmina com partículas alfa e observou o que aconteceu — a maioria passou sem desviar, mas algumas voltaram.",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "O modelo de BOHR (1913) contribuiu com a ideia de que:",
     tip: "Bohr explicou o espectro de emissão do hidrogênio — por que só certas cores de luz são emitidas?",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "Quais são as três principais partículas subatômicas e suas cargas?",
     tip: "Pense na estrutura do átomo: o que fica no núcleo e o que fica fora?",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "O NÚMERO ATÔMICO (Z) de um elemento indica:",
     tip: "Z é o que define um elemento — dois átomos com Z diferente são sempre elementos diferentes.",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "Os ISÓTOPOS são átomos do mesmo elemento que:",
     tip: "Mesmo elemento = mesmo número de prótons. O que pode variar entre isótopos?",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "A distribuição dos elétrons nas CAMADAS eletrônicas (K, L, M, N...) do átomo segue a regra de que:",
     tip: "A camada K é a mais próxima do núcleo. Qual é o número máximo de elétrons em cada camada?",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "Os ELÉTRONS DE VALÊNCIA são importantes porque:",
     tip: "Valência = camada mais externa. Por que essa camada é tão relevante para a química?",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "A TABELA PERIÓDICA organizada por Mendelejéev (1869) foi revolucionária porque:",
     tip: "Mendelejéev não apenas organizou os elementos conhecidos — ele fez algo ainda mais impressionante.",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "Na tabela periódica moderna, os elementos de um mesmo GRUPO (coluna vertical):",
     tip: "Pense: o sódio (Na) e o potássio (K) estão no mesmo grupo e têm propriedades parecidas. Por quê?",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "A maioria dos elementos da tabela periódica é classificada como METAIS. Uma característica que define os metais é:",
     tip: "Pense nos usos dos metais no cotidiano — fios elétricos, panelas, estruturas de prédios.",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "O RAIO ATÔMICO tende a aumentar ao longo de um período (→) ou ao longo de um grupo (↓)?",
     tip: "Ao longo de um período, aumenta o número de prótons — eles 'puxam' mais os elétrons para o núcleo.",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "A ELETRONEGATIVIDADE de um elemento é:",
     tip: "O elemento mais eletronegativo de todos é o flúor — ele 'puxa' elétrons de qualquer átomo com que se liga.",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "A ENERGIA DE IONIZAÇÃO é maior nos gases nobres porque:",
     tip: "Os gases nobres não reagem com nada — qual é a estabilidade que os torna tão 'preguiçosos'?",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "A LIGAÇÃO IÔNICA ocorre quando:",
     tip: "Um elemento 'quer' ceder elétrons (metal) e outro 'quer' ganhar (não-metal) — o que acontece entre eles?",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "Na LIGAÇÃO COVALENTE, os átomos se unem por:",
     tip: "Dois não-metais precisam de elétrons para completar o octeto — como resolvem esse problema juntos?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "A LIGAÇÃO METÁLICA é responsável pelas propriedades dos metais (condutividade, maleabilidade) porque:",
     tip: "Por que os metais conduzem eletricidade tão bem? O que se move quando se aplica tensão?",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "A FÓRMULA MOLECULAR de um composto indica:",
     tip: "A fórmula molecular do gás carbônico é CO₂ — o que esses símbolos e números significam exatamente?",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "A geometria molecular de uma molécula é determinada pela:",
     tip: "Os pares de elétrons — tanto os ligantes quanto os não-ligantes — se repelem. O que isso causa?",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "Uma ligação covalente é POLAR quando:",
     tip: "Se os dois átomos têm eletronegatividades diferentes, os elétrons compartilhados ficam mais próximos de qual?",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "A LIGAÇÃO DE HIDROGÊNIO é uma força intermolecular especialmente forte que ocorre quando:",
     tip: "O H ligado a F, O ou N fica com carga parcial positiva — o que ele atrai nas moléculas vizinhas?",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "Os compostos IÔNICOS como o NaCl (sal de cozinha) têm ponto de fusão alto porque:",
     tip: "Para derreter um sólido iônico, é preciso romper a rede de atrações entre íons.",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "Os metais ALCALINOS (grupo 1: Li, Na, K...) são altamente reativos porque:",
     tip: "Eles ficam no canto esquerdo da tabela periódica e têm algo especial na camada de valência.",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "Os HALOGÊNIOS (grupo 17: F, Cl, Br, I) são muito reativos porque:",
     tip: "Halogênio = 'formador de sal' em grego. Eles estão sempre tentando completar o octeto.",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "Os GASES NOBRES (grupo 18: He, Ne, Ar...) são quimicamente inertes porque:",
     tip: "Por que o hélio dos balões não reage com nada, nem mesmo com o oxigênio do ar?",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Estrutura atômica',
     type: "multiple_choice",
     text: "Quando um átomo de hidrogênio aquecido emite LUZ de comprimentos de onda específicos (espectro de emissão), isso ocorre porque:",
     tip: "Por que a chama do gás natural é azul? Por que o sódio produz luz amarela nos fogos de artifício?",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Tabela periódica',
     type: "multiple_choice",
     text: "A tabela periódica de MOSELEY (1913) ordenou os elementos pelo número atômico (Z) em vez da massa, corrigindo as inconsistências de Mendelejéev porque:",
     tip: "Mendelejéev teve que inverter alguns pares de elementos (como Ar e K) para que as propriedades fizessem sentido — Moseley explicou por quê.",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "O CARBONO pode formar grafite, diamante e grafeno — três materiais com propriedades completamente diferentes — porque:",
     tip: "Grafite conduz eletricidade, diamante é o material mais duro. Os dois são feitos de carbono puro. O que muda?",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Ligações químicas',
     type: "multiple_choice",
     text: "Na molécula de ÁGUA (H₂O), a geometria é angular (não linear) e ela é polar porque:",
     tip: "Se o H₂O fosse linear (como CO₂), os dipolos se cancelariam e a molécula seria apolar. O que a geometria angular muda?",

@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Movimentos da Terra',
     type: "multiple_choice",
     text: "O movimento de ROTAÇÃO da Terra é:",
     tip: "Rotação = giro em torno do próprio eixo. Pense num pião girando.",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Movimentos da Terra',
     type: "multiple_choice",
     text: "O movimento de TRANSLAÇÃO da Terra é:",
     tip: "Translação = deslocamento de um lugar para outro. A Terra se desloca ao redor do quê?",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Estações do ano',
     type: "multiple_choice",
     text: "As ESTAÇÕES DO ANO ocorrem porque:",
     tip: "Pense: em janeiro, o Brasil tem verão mas a Europa tem inverno — e a distância ao Sol é a mesma. O que explica isso?",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Estações do ano',
     type: "multiple_choice",
     text: "A inclinação do eixo terrestre em relação ao plano orbital é de aproximadamente:",
     tip: "É um valor específico — nem muito inclinado (45°) nem vertical (90°).",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Estações do ano',
     type: "multiple_choice",
     text: "Os EQUINÓCIOS são os momentos do ano em que:",
     tip: "'Equi' = igual; 'nócio' = noite. O que isso sugere sobre o dia e a noite nesse momento?",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Estações do ano',
     type: "multiple_choice",
     text: "Os SOLSTÍCIOS são os momentos do ano em que:",
     tip: "'Sol' = sol; 'stício' = parado. O Sol parece parar de subir ou descer no horizonte.",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "As FASES DA LUA ocorrem porque:",
     tip: "A Lua não muda de tamanho ou forma — o que muda é a porção iluminada visível da Terra.",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Marés',
     type: "multiple_choice",
     text: "A principal causa das MARÉS OCEÂNICAS na Terra é:",
     tip: "Há um astro que 'puxa' as massas de água da Terra mais do que qualquer outro — qual é?",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "Um ECLIPSE SOLAR ocorre quando:",
     tip: "Quem passa na frente de quem? Quem bloqueia a luz de quem?",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "Um ECLIPSE LUNAR ocorre quando:",
     tip: "No eclipse lunar, qual dos três astros está no meio?",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Calendário e horários',
     type: "multiple_choice",
     text: "O ANO BISSEXTO ocorre a cada 4 anos porque:",
     tip: "A translação dura um pouco mais do que 365 dias. Quanto a mais?",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Calendário e horários',
     type: "multiple_choice",
     text: "O ANO SIDERAL é o tempo que a Terra leva para completar uma volta ao redor do Sol, medido em relação:",
     tip: "'Sideral' vem de 'sidus' (estrela). Em relação ao quê o ano sideral é medido?",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Calendário e horários',
     type: "multiple_choice",
     text: "Os FUSOS HORÁRIOS existem porque:",
     tip: "Por que regiões diferentes do planeta têm horários diferentes? Pense na forma da Terra.",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Estações do ano',
     type: "multiple_choice",
     text: "Enquanto é VERÃO no Brasil (hemisfério sul), é INVERNO na Europa (hemisfério norte) porque:",
     tip: "Os hemisférios estão inclinados em direções opostas ao Sol em cada estação.",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Movimentos da Terra',
     type: "multiple_choice",
     text: "O fenômeno do DIA e da NOITE é causado por:",
     tip: "Por que certas partes da Terra ficam na luz e outras na escuridão, de forma que isso muda ciclicamente?",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "A Lua sempre mostra a mesma face para a Terra porque:",
     tip: "Isso é chamado de 'rotação síncrona'. Quanto tempo a Lua leva para girar em torno de si mesma?",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Marés',
     type: "multiple_choice",
     text: "A MARÉ DE SIZÍGIA (maré mais alta) ocorre quando:",
     tip: "'Sizígia' = alinhamento. Quando Sol, Terra e Lua estão alinhados, o que acontece com as forças gravitacionais?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "Os eclipses NÃO ocorrem todos os meses porque:",
     tip: "A Lua orbita a Terra, mas sua órbita não está exatamente no mesmo plano que a órbita da Terra ao redor do Sol.",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "Um ECLIPSE SOLAR ANULAR ocorre quando:",
     tip: "Pense na variação de distância da Lua à Terra. O que acontece quando a Lua parece menor do que o Sol?",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Exploração espacial',
     type: "multiple_choice",
     text: "Os satélites artificiais que orbitam a Terra são mantidos em órbita porque:",
     tip: "Não há foguetes ligados — e não há ausência de gravidade. O que os mantém em órbita?",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Exploração espacial',
     type: "multiple_choice",
     text: "O LIXO ESPACIAL é:",
     tip: "Décadas de lançamentos deixaram rastros no espaço — o que eles são?",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Observação do céu',
     type: "multiple_choice",
     text: "As CONSTELAÇÕES são:",
     tip: "São padrões que nós, humanos, enxergamos no céu — as estrelas em si não têm relação entre si.",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Observação do céu',
     type: "multiple_choice",
     text: "O ZODÍACO astronômico representa:",
     tip: "O Zodíaco é ligado ao movimento aparente do Sol ao longo do ano — quais constelações ele 'atravessa'?",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "Durante um eclipse solar TOTAL, o que se torna possível observar?",
     tip: "Com a luz intensa do Sol bloqueada, o que normalmente fica invisível torna-se visível?",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Movimentos da Terra',
     type: "multiple_choice",
     text: "A Terra orbita o Sol a uma velocidade média de aproximadamente:",
     tip: "É muito mais rápido do que qualquer veículo humano — pense em km/s.",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Estações do ano',
     type: "multiple_choice",
     text: "O TRÓPICO DE CAPRICÓRNIO é a linha imaginária que:",
     tip: "O Brasil está parcialmente acima do Trópico de Capricórnio — essa linha define um limite astronômico importante.",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Movimentos da Terra',
     type: "multiple_choice",
     text: "A PRECESSÃO DOS EQUINÓCIOS é:",
     tip: "É como um pião que oscila enquanto gira — o eixo terrestre faz isso lentamente.",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Sistema solar',
     type: "multiple_choice",
     text: "A distância média entre a Terra e o Sol é de aproximadamente:",
     tip: "Essa distância é tão importante que foi usada como unidade de medida na astronomia.",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "Na fase da LUA NOVA, o que ocorre?",
     tip: "Na lua nova, o lado iluminado da Lua está virado para quem — para o Sol ou para a Terra?",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Lua e eclipses',
     type: "multiple_choice",
     text: "O fenômeno em que a Terra fica entre o Sol e a Lua, projetando sua sombra sobre a Lua, é chamado de:",
     tip: "Quem está no meio determina o tipo de eclipse.",

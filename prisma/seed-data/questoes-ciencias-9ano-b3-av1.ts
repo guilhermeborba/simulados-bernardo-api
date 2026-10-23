@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Ondas',
     type: "multiple_choice",
     text: "Uma ONDA é definida como:",
     tip: "Pense no que as ondas do mar transportam — é a água que chega até você, ou apenas a perturbação?",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Ondas',
     type: "multiple_choice",
     text: "A diferença entre ondas MECÂNICAS e ondas ELETROMAGNÉTICAS é:",
     tip: "O som para num quarto de vácuo; a luz do Sol chega até nós pelo vácuo do espaço — qual precisa de meio?",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Ondas',
     type: "multiple_choice",
     text: "Em uma onda LONGITUDINAL, as partículas do meio vibram:",
     tip: "Imagine um acordeão sendo pressionado: a vibração vai na mesma direção que o movimento da onda.",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Ondas',
     type: "multiple_choice",
     text: "A FREQUÊNCIA de uma onda é:",
     tip: "Pense em quantas 'onduladas completas' passam por um ponto a cada segundo.",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Um som tem frequência de 680 Hz e velocidade de 340 m/s no ar. Qual é o seu comprimento de onda?",
     tip: "Use λ = v/f.",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O SOM é uma onda:",
     tip: "O som não chega pelo espaço, mas passa facilmente pela água e pelo ferro — que tipo de onda é essa?",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Som',
     type: "multiple_choice",
     text: "A velocidade do SOM no AR, à temperatura de 20°C, é aproximadamente:",
     tip: "Pense: você vê o relâmpago e conta os segundos até o trovão — cada segundo equivale a ~340 m de distância.",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Sons de ALTA FREQUÊNCIA são percebidos como:",
     tip: "Uma criança tem voz aguda (alta frequência); um homem adulto tem voz grave (baixa frequência).",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Som',
     type: "multiple_choice",
     text: "A AMPLITUDE de uma onda sonora está relacionada a:",
     tip: "Amplitude é a 'altura' da onda. Em sons, o que muda quando você regula o volume?",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O ECO é causado pela:",
     tip: "Pense em como o som volta quando você grita em direção a uma montanha ou parede distante.",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Sons com frequência ACIMA de 20.000 Hz são chamados de:",
     tip: "Ultra = além; infra = abaixo. Sons além do limite superior da audição humana são...?",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O ULTRASSOM é utilizado na medicina, especificamente no exame de ecografia (ultrassonografia), para:",
     tip: "Pense no mesmo princípio do sonar dos morcegos, mas aplicado ao interior do corpo humano.",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O EFEITO DOPPLER é o fenômeno em que:",
     tip: "Repare no som de uma ambulância passando: o tom muda quando ela se aproxima ou se afasta?",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Som',
     type: "multiple_choice",
     text: "A POLUIÇÃO SONORA é prejudicial à saúde porque:",
     tip: "O que causa perda auditiva progressiva em pessoas que trabalham em ambientes ruidosos?",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Som',
     type: "multiple_choice",
     text: "A escala de DECIBÉIS (dB) mede:",
     tip: "A escala de dB é logarítmica, como a de terremotos (Richter). O que ela mede no som?",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O TIMBRE é a característica do som que permite:",
     tip: "Mesmo que um violino e uma flauta toquem o mesmo 'Lá' na mesma altura de volume, você os distingue. Por quê?",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Por que NÃO HÁ SOM no espaço sideral?",
     tip: "O que o espaço sideral tem de diferente do ar, água e rochas da Terra?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Som',
     type: "multiple_choice",
     text: "A RESSONÂNCIA ocorre quando:",
     tip: "Já viu um cantor operístico quebrar uma taça de cristal com a voz? Esse é o fenômeno em ação.",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O SONAR (Sound Navigation And Ranging) é um sistema que:",
     tip: "Funciona como o eco: emite som e mede quanto tempo leva para o eco retornar.",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Em qual MEIO o som se propaga com maior velocidade?",
     tip: "Quanto mais próximas as partículas, mais rápido elas transmitem a vibração umas às outras.",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O trovão e o relâmpago ocorrem simultaneamente, mas vemos o relâmpago antes de ouvir o trovão porque:",
     tip: "Compare as velocidades: luz = 300.000 km/s; som = 0,34 km/s. A diferença é enorme.",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Um avião ultrapassa a BARREIRA DO SOM quando:",
     tip: "A barreira do som é ultrapassada quando o avião atinge a velocidade de propagação do próprio som no ar.",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Som',
     type: "multiple_choice",
     text: "O ouvido humano percebe sons na faixa de frequência de:",
     tip: "Sons muito graves e muito agudos ficam fora do alcance humano — qual é a faixa audível?",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Na ecografia obstétrica, a imagem do bebê é formada porque:",
     tip: "Pense no sonar: emite uma onda, mede o eco que retorna de cada tecido.",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Ondas',
     type: "multiple_choice",
     text: "Os TERREMOTOS geram ondas sísmicas. A análise dessas ondas pelos sismógrafos permite:",
     tip: "As ondas sísmicas se comportam diferente em cada camada da Terra — o que isso revela?",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Uma corda de violão vibrando produz, além da frequência fundamental (f₀), também os HARMÔNICOS (2f₀, 3f₀...). Isso explica:",
     tip: "O que torna o som de um violão diferente de qualquer outro instrumento tocando a mesma nota?",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Os ANFITEATROS gregos foram construídos com formato semicircular aproveitando:",
     tip: "Pense em como superfícies curvas concentram e direcionam o som.",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Estúdios de gravação e cinemas utilizam espuma, lã de vidro e carpete nas paredes para:",
     tip: "Esses materiais são 'irregulares' e macios — como eles interagem com as ondas sonoras?",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Som',
     type: "multiple_choice",
     text: "Os INFRASSONS (frequências abaixo de 20 Hz) são imperceptíveis ao ouvido humano, mas podem:",
     tip: "Animais detectam terremotos antes dos sismógrafos — alguns comunicam-se em infrassom.",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Ondas',
     type: "multiple_choice",
     text: "Qual das relações a seguir está CORRETA para uma onda sonora?",
     tip: "Lembre das fórmulas: v = λ · f e T = 1/f.",

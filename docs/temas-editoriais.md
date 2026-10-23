@@ -1398,6 +1398,49 @@ Corpo humano cobre a integração dos sistemas e os itens B4/AV2, IDs 1, 18, 24 
 
 Os simulados têm, na ordem B1/AV1 a B4/AV2, dois, um, um, um, três, três, três e oito temas. Não se subdividem artificialmente as unidades de um sistema; a revisão anual articula integração e sete sistemas/funções. Divergência de gabarito e comando anterior registradas na [issue web #127](https://github.com/guilhermeborba/simulados-bernardo/issues/127), preservadas para revisão separada. A classificação temática não certifica a precisão pedagógica ou científica do legado.
 
+### Ciências — 9º ano
+
+| Tema | Abrange |
+|---|---|
+| Universo | Astronomia, expansão, galáxias, escalas, distâncias e objetos além do Sistema Solar. |
+| Sistema solar | Planetas, satélites, pequenos corpos, organização e distâncias do Sistema Solar. |
+| Estrelas | Sol, energia estelar, evolução e supernovas. |
+| Exploração espacial | Missões, laboratórios, satélites artificiais, detritos e aplicações espaciais. |
+| Luz e cores | Cor, dispersão, absorção, prismas, arco-íris e interação da luz com materiais. |
+| Movimentos da Terra | Rotação, translação, velocidade orbital, dia/noite e precessão. |
+| Estações do ano | Inclinação, estações, solstícios, equinócios e iluminação dos hemisférios. |
+| Lua e eclipses | Fases, rotação síncrona, alinhamentos, sombras e tipos de eclipse. |
+| Marés | Atração gravitacional e marés oceânicas. |
+| Calendário e horários | Ano bissexto, ano sideral e diferenças de horário. |
+| Observação do céu | Constelações e caminho aparente do Sol. |
+| Eletricidade | Cargas, corrente, tensão, resistência e propriedades de materiais. |
+| Circuitos elétricos | Lei de Ohm, associações de resistores, funcionamento e cálculos de circuitos. |
+| Energia elétrica | Potência, consumo, custo, eficiência, efeito Joule e distribuição. |
+| Magnetismo | Ímãs, polos, campo terrestre, bobinas, motores e indução. |
+| Fontes de energia | Geração hidrelétrica, solar, eólica, química e nuclear e efeitos ambientais. |
+| Segurança elétrica | Curto-circuito, proteção, aterramento, raios e condutas de segurança. |
+| Ondas | Tipos, propagação, frequência, comprimento, relações e ondas sísmicas. |
+| Som | Velocidade, altura, intensidade, timbre, eco, ressonância e aplicações acústicas. |
+| Óptica | Reflexão, refração, fibras, lentes, espelhos, olho, imagens e laser. |
+| Radiações eletromagnéticas | Espectro, velocidade da luz, rádio, micro-ondas, infravermelho, UV, raios X/gama e aplicações. |
+| Estrutura atômica | Modelos, partículas, números, isótopos, camadas e emissão atômica. |
+| Tabela periódica | História, organização, famílias, propriedades e tendências periódicas. |
+| Ligações químicas | Ligações, geometria, polaridade, forças intermoleculares e estruturas dos materiais. |
+| Transformações químicas | Reações, conservação, balanceamento, tipos, energia, corrosão, eletrólise e processos industriais. |
+| Cinética química | Catalisadores, temperatura e fatores que influenciam a velocidade das reações. |
+| Soluções | Soluto, dissolução, dissociação e concentração. |
+| Funções inorgânicas | Ácidos, bases, pH, neutralização e óxidos. |
+| Química orgânica | Polímeros, carbono, hidrocarbonetos e proteínas. |
+| Processos celulares | Metabolismo, anabolismo/catabolismo e equação da fotossíntese. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-ciencias-9ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 30 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Universo não antecipa galáxia, nebulosa ou buraco negro solicitado. Sistema solar não revela classificação, posição ou composição pedida. Lua e eclipses mantém em aberto o tipo de eclipse em B1/AV2, ID 30. Eletricidade, Magnetismo e Óptica não fornecem o dispositivo ou conceito solicitado. Ondas mantém em aberto a natureza da onda; Som não antecipa ultrassons/infrassons nem características pedidas. Estrutura atômica, Tabela periódica, Ligações químicas e Transformações químicas agrupam conceitos sem fornecer gabaritos. Conteúdo anterior preservado, inclusive nas pendências registradas.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 5, 8, 4, 6, 2, 3, 3, 6 temas. O programa articula astronomia, eletricidade, ondas e química. O vocabulário total acompanha essas áreas, mantendo de dois a oito agrupamentos por simulado e reutilizando os nomes para o mesmo conteúdo. Nenhum tema foi criado por alternativa ou pergunta.
+
+Referenciais astronômicos, frequência e orientação de segurança elétrica registrados na [issue web #136](https://github.com/guilhermeborba/simulados-bernardo/issues/136), para revisão própria. Os campos anteriores foram preservados; cobertura temática não certifica precisão científica ou segurança do legado.
+
 ### Português — 9º ano
 
 | Tema | Abrange |
