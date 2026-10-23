@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which sentence uses the Present Simple correctly?",
     tip: "Lembre-se: na 3ª pessoa do singular (he/she/it), o verbo recebe um \"-s\" ou \"-es\" no Present Simple!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Presente contínuo',
     type: "multiple_choice",
     text: "When do we use the Present Continuous in English?",
     tip: "Pense: o que está acontecendo neste exato momento enquanto você lê essa questão?",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Artigos em inglês',
     type: "multiple_choice",
     text: "Which sentence uses the articles correctly?",
     tip: "Lembre-se: usamos 'an' antes de palavras que começam com SOM de vogal (a, e, i, o, u) e 'a' antes de sons de consoante!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Preposições em inglês',
     type: "multiple_choice",
     text: "Choose the correct sentence about a weekly routine.",
     tip: "Qual preposição usamos com DIAS da semana em inglês — 'in', 'at', 'on' ou 'by'?",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which sentence uses the negative form of the Present Simple correctly?",
     tip: "Para negar o Present Simple com 'he/she/it', usamos 'doesn't' (não 'don't') antes do verbo na forma base!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What does \"subject\" mean in this sentence: \"My favorite school subject is Math\"?",
     tip: "A palavra 'subject' tem vários significados em inglês. Qual faz sentido no contexto de 'escola'?",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Preposições em inglês',
     type: "multiple_choice",
     text: "Read: \"The supermarket is ________ the school and the hospital.\" Which preposition of place fits correctly?",
     tip: "Quantos lugares estão sendo mencionados? 'Between' é usado entre DOIS lugares — 'among' é usado entre TRÊS ou mais!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which is the correct question in the Present Simple?",
     tip: "Para fazer perguntas no Present Simple com 'he/she/it', usamos 'does' no início — e o verbo fica na forma BASE!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What does \"wake up\" mean in Portuguese?",
     tip: "É uma ação que fazemos toda manhã — bem no começo do dia, antes de qualquer outra coisa!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Leitura em inglês',
     type: "multiple_choice",
     text: "Read the text: \"Tom is a student. He studies at City School. He wakes up at 7 a.m. every day. He has breakfast with his family at 7:30 a.m.\" — According to the text, what time does Tom wake up?",
     tip: "As respostas com horários estão todas no texto. Leia com atenção para encontrar especificamente quando Tom acorda — não quando ele toma café!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Presente contínuo',
     type: "multiple_choice",
     text: "Which sentence uses the Present Continuous correctly?",
     tip: "O Present Continuous usa o verbo 'to be' (am/is/are) + verbo com '-ing'. Com 'they', qual forma de 'to be' usamos?",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Advérbios de frequência',
     type: "multiple_choice",
     text: "Which sentence uses the frequency adverb correctly?",
     tip: "Advérbios de frequência (always, usually, often, sometimes, rarely, never) geralmente ficam ANTES do verbo principal — mas DEPOIS do verbo 'to be'!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "Read: \"My sister is very shy. She doesn't like to talk to strangers.\" — What does \"shy\" mean in Portuguese?",
     tip: "Uma pessoa 'shy' evita o contato com pessoas desconhecidas — o oposto seria uma pessoa muito comunicativa e extrovertida!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Presente contínuo',
     type: "multiple_choice",
     text: "Which sentence correctly uses the Present Continuous?",
     tip: "Cuidado com os 'stative verbs' (verbos de estado) — eles geralmente não aparecem no Present Continuous. Procure a alternativa com um verbo de AÇÃO acontecendo agora!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Artigos em inglês',
     type: "multiple_choice",
     text: "Which sentence uses the definite article \"the\" correctly?",
     tip: "Usamos 'the' para se referir a algo ESPECÍFICO, já mencionado ou único. Não usamos 'the' para falar de conceitos gerais ou esportes!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Preposições em inglês',
     type: "multiple_choice",
     text: "Choose the correct sentence to express time with hours.",
     tip: "Qual preposição usamos com HORAS específicas em inglês? Pense: in (meses/anos), on (dias), at (horas)!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What is the opposite (antonym) of \"expensive\"?",
     tip: "Se 'expensive' significa caro, qual seria a palavra que descreve algo que custa pouco dinheiro?",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which sentence is grammatically correct?",
     tip: "Com o sujeito 'they', qual é a forma correta do verbo 'to live' no Present Simple? Atenção ao uso do '-s' na 3ª pessoa!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Presente contínuo',
     type: "multiple_choice",
     text: "What is the correct \"-ing\" form of the verb \"run\"?",
     tip: "Verbos curtos terminados em consoante-vogal-consoante (CVC), como 'run', têm uma regra especial para adicionar '-ing'. Você sabe qual é?",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Leitura em inglês',
     type: "multiple_choice",
     text: "Read: \"Maria and her brother Pedro go to school on Mondays, Tuesdays, Wednesdays, Thursdays, and Fridays. They take the bus to school. The bus stop is near their house.\" — How do Maria and Pedro get to school?",
     tip: "A resposta está no texto. Procure o trecho que descreve o meio de transporte que eles usam!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What does \"nephew\" mean in Portuguese?",
     tip: "'Nephew' é o filho do seu irmão ou irmã — pense nos membros da família que não são seus filhos diretos!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which is the correct way to ask about someone's location using \"where\"?",
     tip: "Para perguntar onde alguém MORA (hábito permanente), usamos o Present Simple com o auxiliar 'does' para a 3ª pessoa!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Preposições em inglês',
     type: "multiple_choice",
     text: "Which sentence correctly translates: \"A biblioteca fica em frente à escola\"?",
     tip: "Pense no significado de 'in front of' (em frente), 'behind' (atrás), 'next to' (ao lado) e 'between' (entre)!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What is a \"pencil case\" in Portuguese?",
     tip: "É um objeto escolar que você usa para guardar canetas, lápis e borrachas!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "What is the correct question for the answer: \"I exercise twice a week\"?",
     tip: "A resposta fala sobre a FREQUÊNCIA com que algo acontece — qual palavra interrogativa em inglês pergunta sobre frequência?",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Transform into the contracted negative form: \"She does not speak French.\"",
     tip: "A contração de 'does not' é 'doesn't' — use-a antes do verbo na forma BASE, sem o '-s'!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Presente contínuo',
     type: "multiple_choice",
     text: "Which is the correct negative form of the Present Continuous?",
     tip: "Para negar o Present Continuous, colocamos 'not' APÓS o verbo 'to be' (am/is/are) — formando 'isn't', 'aren't' ou 'am not'!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "\"The teacher asked us to do our homework by tomorrow.\" — What does \"homework\" mean in Portuguese?",
     tip: "'Home' = casa; 'work' = trabalho. Qual atividade escolar é feita em casa?",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Artigos em inglês',
     type: "multiple_choice",
     text: "Which sentence uses the article correctly before a profession?",
     tip: "Profissões em inglês geralmente precisam do artigo indefinido 'a' ou 'an'. Qual usamos antes de 'English teacher'?",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Leitura em inglês',
     type: "multiple_choice",
     text: "Read: \"Every morning, Ana drinks a cup of coffee before going to school. She always arrives at school at 7:45 a.m. Her first class starts at 8:00 a.m.\" — What does Ana drink every morning before school?",
     tip: "A resposta está diretamente no primeiro parágrafo do texto. Leia com atenção!",

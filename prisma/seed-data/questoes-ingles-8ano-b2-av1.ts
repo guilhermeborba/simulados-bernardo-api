@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence uses the comparative form correctly?",
     tip: "Pense em adjetivos curtos (uma sílaba): eles geralmente recebem \"-er\" no final!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of \"big\" used correctly in a sentence?",
     tip: "Pense em como usamos superlativos: eles quase sempre vêm acompanhados da palavra \"the\" antes do adjetivo!",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which word is commonly used after a comparative adjective, like \"bigger ___ a house\"?",
     tip: "Pense numa palavrinha usada para comparar duas coisas, bem parecida com \"then\", mas com outro significado!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of the adjective \"good\"?",
     tip: "Esse adjetivo é irregular, então ele muda completamente de forma, sem seguir a regra do \"-er\"!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of the adjective \"happy\"?",
     tip: "Pense em adjetivos terminados em \"y\": essa letra costuma virar \"i\" antes de adicionar \"-er\"!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence uses the superlative form correctly?",
     tip: "Pense em adjetivos longos (com três ou mais sílabas): eles usam \"the most\" em vez de \"-est\"!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of the adjective \"bad\"?",
     tip: "Esse adjetivo é irregular: ele muda completamente de forma no superlativo!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which structure is used to say that two things are equal in a comparison?",
     tip: "Pense numa estrutura usada quando duas coisas são parecidas, e não diferentes!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of the short adjective \"fast\"?",
     tip: "Pense em adjetivos curtos, de uma sílaba: eles recebem \"-er\" no final!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence correctly uses the superlative?",
     tip: "Pense num adjetivo longo, que precisa de \"the most\" para formar o superlativo!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete the sentence: \"This exercise is ___ than the last one.\"",
     tip: "Pense num adjetivo mais longo, que não aceita \"-er\" no final, e sim a palavra \"more\" antes dele!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete the sentence: \"Mount Everest is ___ mountain in the world.\"",
     tip: "Pense numa comparação entre várias montanhas do mundo inteiro, e não só entre duas!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence shows a correct comparison between two things?",
     tip: "Pense em comparar só duas coisas: usamos \"more...than\", sem a palavra \"the\" antes!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of the adjective \"small\"?",
     tip: "Pense num adjetivo curto, de uma sílaba, que recebe \"-est\" para formar o superlativo!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete the sentence: \"My dog is ___ as your dog.\"",
     tip: "Pense numa estrutura usada para mostrar que duas coisas são parecidas em tamanho!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence correctly compares two cities using the comparative form?",
     tip: "Pense num adjetivo curto, que recebe apenas \"-er\" ao comparar duas cidades!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of the adjective \"bad\"?",
     tip: "Esse adjetivo é irregular, então ele muda completamente de forma no comparativo!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete the sentence: \"This is ___ day of my life!\"",
     tip: "Pense numa frase que compara esse dia com todos os outros dias da vida de alguém, não só com um dia!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence uses \"as...as\" correctly?",
     tip: "Pense na estrutura completa: a palavra \"as\" aparece duas vezes, uma antes e outra depois do adjetivo!",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the correct spelling rule for forming the comparative of short adjectives ending in a single consonant after a vowel, like \"big\"?",
     tip: "Pense em como \"big\" se transforma em \"bigger\": alguma letra se repete antes do \"-er\"!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to compare his height with his friend's. Which sentence is correct?",
     tip: "Pense em adjetivos curtos, de uma sílaba: eles recebem \"-er\" no final!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to say which is the biggest animal in the zoo. Which sentence is correct?",
     tip: "Pense numa comparação entre o elefante e todos os outros animais do zoológico, e não só com um animal!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to say his dog is as big as his friend's dog. Which sentence is correct?",
     tip: "Pense numa estrutura usada para mostrar que duas coisas são iguais em tamanho, com \"as\" duas vezes!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to use the correct comparative of \"good\" to talk about his grades. Which one is correct?",
     tip: "Esse adjetivo é irregular, mudando completamente de forma, sem seguir a regra do \"-er\"!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to describe a very difficult test using the comparative form. Which sentence is correct?",
     tip: "Pense num adjetivo mais longo, que usa \"more\" em vez de \"-er\"!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to say Mount Everest is the highest mountain in the world. Which sentence is correct?",
     tip: "Pense numa comparação entre essa montanha e todas as outras montanhas do mundo!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to say today is the happiest day of his life. Which sentence is correct?",
     tip: "Pense em comparar esse dia com todos os outros dias da vida de alguém!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to use the comparative of \"bad\" to describe a worse situation. Which one is correct?",
     tip: "Esse adjetivo é irregular, mudando completamente de forma no comparativo!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to compare the size of two cities using a short adjective. Which sentence is correct?",
     tip: "Pense num adjetivo curto que dobra a última letra antes de receber \"-er\"!",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "To finish his review, Bernardo wants to remember when we use the superlative form. Which sentence best explains it?",
     tip: "Pense numa comparação entre algo e todo um grupo, e não só entre duas coisas!",

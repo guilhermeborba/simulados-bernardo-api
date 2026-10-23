@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"You like pizza, ___?\"",
     tip: "Pense na regra das question tags: frase afirmativa pede uma tag negativa!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"She isn't coming to the party, ___?\"",
     tip: "Pense na regra: frase negativa pede uma tag afirmativa!",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which word is used to ask about a place?",
     tip: "Pense numa palavra que pergunta sobre o local onde algo acontece!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which word is used to ask about a reason?",
     tip: "Pense numa palavra usada quando queremos saber o motivo de algo!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"They didn't finish the homework, ___?\"",
     tip: "Pense na regra: frase negativa no passado pede uma tag afirmativa, também no passado!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which word is used to ask about a person?",
     tip: "Pense numa palavra usada quando queremos saber a identidade de alguém!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"He can swim very well, ___?\"",
     tip: "Pense na regra: frase afirmativa pede uma tag negativa, usando o mesmo verbo modal!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which word is used to ask about time?",
     tip: "Pense numa palavra usada para saber em que momento algo acontece!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"This isn't your book, ___?\"",
     tip: "Pense na regra: frase negativa pede uma tag afirmativa!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which word is used to ask about the manner or way something is done?",
     tip: "Pense numa palavra usada para perguntar \"de que jeito\" algo é feito!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"Bernardo studies English, ___?\"",
     tip: "Pense na regra: frase afirmativa no presente simples pede uma tag negativa com \"doesn't\"!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"You don't like coffee, ___?\"",
     tip: "Pense na regra: frase negativa pede uma tag afirmativa, sem \"not\"!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which Wh- question word asks about a thing?",
     tip: "Pense numa palavra usada quando queremos saber sobre um objeto ou uma coisa, e não uma pessoa!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"We are going to the party, ___?\"",
     tip: "Pense na regra: frase afirmativa com o verbo \"to be\" pede uma tag negativa, também com \"to be\"!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"She wasn't at school yesterday, ___?\"",
     tip: "Pense na regra: frase negativa no passado pede uma tag afirmativa, também no passado!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which Wh- question word asks for a choice between specific options?",
     tip: "Pense numa palavra usada quando há opções específicas para escolher entre elas!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"They have finished the project, ___?\"",
     tip: "Pense na regra: frase afirmativa no Present Perfect pede uma tag negativa com \"haven't\"!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"You didn't call me yesterday, ___?\"",
     tip: "Pense na regra: frase negativa no passado pede uma tag afirmativa, também no passado!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Which Wh- question word asks about quantity, like \"How ___ apples do you have?\"",
     tip: "Pense em como perguntamos sobre coisas que podem ser contadas, uma por uma!",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"Your brother plays soccer, ___?\"",
     tip: "Pense na regra: frase afirmativa no presente simples pede uma tag negativa com \"doesn't\"!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Bernardo wants to confirm something with a question tag. Complete: \"You are my friend, ___?\"",
     tip: "Pense na regra: frase afirmativa com o verbo \"to be\" pede uma tag negativa, também com \"to be\"!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to ask about a reason using a Wh- question. Complete: \"___ are you sad today?\"",
     tip: "Pense numa palavra usada quando queremos saber o motivo de algo!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Bernardo wants to complete a question tag about a negative statement. Complete: \"She doesn't like vegetables, ___?\"",
     tip: "Pense na regra: frase negativa pede uma tag afirmativa, sem \"not\"!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to ask about a place. Which Wh- question word should he use?",
     tip: "Pense numa palavra que pergunta sobre o local onde algo acontece!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Bernardo wants to complete a question tag. Complete: \"They can speak French, ___?\"",
     tip: "Pense na regra: frase afirmativa pede uma tag negativa, usando o mesmo verbo modal!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Bernardo wants to complete a question tag about a negative sentence in the past. Complete: \"You didn't see that movie, ___?\"",
     tip: "Pense na regra: frase negativa no passado pede uma tag afirmativa, também no passado!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to ask about the identity of someone. Which Wh- question word should he use?",
     tip: "Pense numa palavra usada quando queremos saber quem é alguém!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Bernardo wants to complete a question tag about an affirmative statement in the present simple. Complete: \"Your sister studies a lot, ___?\"",
     tip: "Pense na regra: frase afirmativa no presente simples pede uma tag negativa com \"doesn't\"!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to ask about the manner something happens. Which Wh- question word should he use?",
     tip: "Pense numa palavra usada para perguntar \"de que jeito\" algo acontece!",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "To finish his review, Bernardo wants to remember the main rule of question tags. Which sentence best explains it?",
     tip: "Pense na regra principal: positivo pede negativo, e negativo pede positivo!",

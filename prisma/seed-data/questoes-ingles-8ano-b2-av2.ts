@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb is used to talk about ability, like \"I ___ swim very well\"?",
     tip: "Pense num verbo usado para dizer o que alguém é capaz de fazer!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb expresses strong obligation, like \"You ___ wear a seatbelt in the car\"?",
     tip: "Pense num verbo usado para regras importantes, quase como uma ordem!",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb is used to give advice, like \"You ___ study more for the test\"?",
     tip: "Pense num verbo usado quando damos um conselho, sem ser uma ordem!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb expresses possibility, like \"It ___ rain later\"?",
     tip: "Pense num verbo usado quando não temos certeza se algo vai acontecer!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Complete the sentence: \"Bernardo ___ ride a bike since he was five years old.\"",
     tip: "Pense numa habilidade que a pessoa já tem, desde pequena!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"must\" to express an obligation?",
     tip: "Pense em qual verbo é seguido diretamente pelo verbo principal, sem \"to\"!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence gives advice correctly?",
     tip: "Pense num verbo usado para dar sugestões mais suaves, sem ser uma ordem!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence correctly expresses possibility?",
     tip: "Pense num verbo usado quando não temos certeza sobre o que vai acontecer!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb is used to ask for permission, like \"___ I open the window?\"?",
     tip: "Pense num verbo bem comum, usado para pedir permissão de forma simples e educada!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "What always comes right after a modal verb like \"can\", \"must\" or \"should\"?",
     tip: "Pense em como dizemos \"I can swim\", e não \"I can to swim\" ou \"I can swimming\"!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Complete the sentence: \"You ___ cross the street when the light is red.\" (prohibition)",
     tip: "Pense numa regra de segurança importante, que proíbe uma ação perigosa!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Complete the sentence: \"Bernardo ___ speak a little English already.\"",
     tip: "Pense numa habilidade que a pessoa já tem, mesmo que ainda esteja aprendendo!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence gives a piece of advice about studying?",
     tip: "Pense num conselho equilibrado, nem uma ordem forte, nem algo totalmente opcional!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence expresses a strong obligation at school?",
     tip: "Pense numa regra obrigatória da escola, que todos precisam seguir!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence shows uncertainty about a future event?",
     tip: "Pense numa possibilidade, sem ter certeza se a pessoa vai realmente fazer isso!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence correctly expresses permission?",
     tip: "Pense numa frase que dá permissão para alguém sair, de forma simples!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb is the opposite in strength of \"must\" when giving a suggestion rather than an order?",
     tip: "Pense num verbo mais suave, usado para sugerir algo sem forçar a pessoa!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Complete the sentence: \"We ___ finish this project by Friday.\" (strong obligation)",
     tip: "Pense num prazo obrigatório, que precisa ser cumprido, sem outra opção!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"might\" to express a possibility about the weather?",
     tip: "Pense numa previsão incerta, sem garantia do que vai acontecer!",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb best completes: \"Bernardo ___ ride a bicycle, but he still needs practice to ride without training wheels\"?",
     tip: "Pense numa habilidade que a pessoa já tem, mesmo que ainda não seja perfeita!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo wants to say he knows how to swim. Which sentence is correct?",
     tip: "Pense num verbo usado para falar sobre habilidades que a pessoa já tem!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo's mother tells him to study more before the test. Which sentence shows this advice?",
     tip: "Pense num conselho equilibrado, nem uma ordem forte, nem algo opcional!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo isn't sure if it will rain today. Which sentence shows this uncertainty?",
     tip: "Pense numa possibilidade, sem certeza do que vai realmente acontecer!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo wants to ask permission to go outside. Which sentence is correct?",
     tip: "Pense num verbo bem comum, usado para pedir permissão de um jeito simples!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo's school has a strict rule about uniforms. Which sentence shows a strong obligation?",
     tip: "Pense numa regra obrigatória, que todos os alunos precisam seguir!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo wants to say it's possible he will go to the party, but he's not sure. Which sentence is correct?",
     tip: "Pense numa possibilidade, sem garantia de que isso vai acontecer!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo's teacher gives him permission to leave the classroom. Which sentence is correct?",
     tip: "Pense numa frase simples que dá permissão para alguém sair da sala!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo's friend gives him a gentle suggestion about sleeping earlier. Which sentence is correct?",
     tip: "Pense num verbo mais suave, usado para sugerir algo sem forçar a pessoa!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo's parents say he absolutely needs to finish his homework before playing. Which sentence shows this strong obligation?",
     tip: "Pense num verbo usado para ordens fortes, que não podem ser ignoradas!",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "To finish his review, Bernardo wants to remember which modal verb is used for permission and ability. Which one is it?",
     tip: "Pense num verbo usado tanto para dizer o que você sabe fazer quanto para pedir permissão!",

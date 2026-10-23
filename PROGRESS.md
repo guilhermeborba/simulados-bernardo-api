@@ -654,6 +654,14 @@ Segundo dos três lotes independentes do pacote Educação Física/7º, Inglês/
 Dry-run, inventário, vocabulário e preservação do lote aprovados; testes completos registrados no PR. Revisões editoriais continuam separadas, quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
 
 
+### Inglês do 8º ano — E04 (23/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 16 temas documentados. Acrescentado somente `theme`; fontes e dados anteriores preservados exatamente. Modais, perguntas, comparações e vocabulário usam agrupamentos que mantêm a resposta em aberto. Pendências editoriais registradas na [issue web #133](https://github.com/guilhermeborba/simulados-bernardo/issues/133).
+
+Primeiro de três lotes independentes da main após api#262: Inglês/8º, Português/9º e Matemática/9º. Base integrada: 9.869/23.444 questões com tema e 329/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 10.109/23.444 e 337/780. O 8º ano fica completo nesta branch: 1.920/1.920 em 64/64. A composição dos três deve atingir 10.589/23.444 e 353/780, com 8º ano completo (1.920/1.920 em 64/64) e 9º ano 480/1.920 em 16/64. E04 segue parcial; próximo trio: Ciências, História e Geografia do 9º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Português do 7º ano — E04 (21/10/2026)
 
 Inglês do 6º ano foi integrado em api#247/web#108, completando os temas das oito disciplinas desse ano. Este lote acrescenta somente `theme` às 240 questões dos oito simulados gerais de Português do 7º ano, sem entradas privadas adicionais. Vocabulário fechado de 15 nomes e critérios em `docs/temas-editoriais.md`, reaproveitando os nomes de Português dos anos anteriores quando o conteúdo corresponde. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.
