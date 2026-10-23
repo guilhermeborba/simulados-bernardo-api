@@ -700,6 +700,14 @@ Segundo de três lotes independentes da base main após api#256: Matemática, Ci
 
 Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
 
+### Português do 9º ano — E04 (23/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 13 temas documentados. Somente `theme` acrescentado; fontes e dados anteriores preservados exatamente. Linguagem e sociedade, Gêneros e tipos textuais, Narrativas, Figuras de linguagem e Poesia mantêm conceitos pedidos em aberto. Sonetos e causalidade registrados na [issue web #134](https://github.com/guilhermeborba/simulados-bernardo/issues/134).
+
+Segundo de três lotes independentes da main após api#262: Inglês/8º, Português/9º e Matemática/9º. Base integrada: 9.869/23.444 questões com tema e 329/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 10.109/23.444 e 337/780. O 9º ano fica com 240/1.920 questões classificadas em 8/64 simulados nesta branch. A composição dos três deve atingir 10.589/23.444 e 353/780, com 8º ano completo (1.920/1.920 em 64/64) e 9º ano 480/1.920 em 16/64. E04 segue parcial; próximo trio: Ciências, História e Geografia do 9º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Português do 8º ano — E04 (22/10/2026)
 
 Oito simulados gerais/240 questões classificados individualmente com 18 temas documentados em `docs/temas-editoriais.md`. Acrescentado somente `theme`, com fontes sem essas linhas e dados por export idênticos à base main após api#253. Rótulos específicos de gêneros só aparecem quando o gênero já é dado; Figuras de linguagem, Formas de discurso, Vozes verbais, Conjunções e Análise sintática mantêm em aberto a classificação solicitada. As sínteses que pedem o próprio nome de uma categoria usam Leitura e escrita. Exemplos anteriores de antítese/ironia e relações entre orações registrados na [issue web #122](https://github.com/guilhermeborba/simulados-bernardo/issues/122), sem correção dos campos anteriores.

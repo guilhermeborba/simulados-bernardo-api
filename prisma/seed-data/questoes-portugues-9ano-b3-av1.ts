@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O texto argumentativo tem como principal objetivo:",
     tip: "Pense na intenção do autor ao escrever esse tipo de texto — ele quer convencer o leitor de algo.",
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O artigo de opinião é um gênero textual que se caracteriza por:",
     tip: "O nome já diz: 'de opinião'. Pense em quem escreve e qual é o propósito.",
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Em um texto argumentativo, a TESE é:",
     tip: "A tese é o ponto de partida — é o que o autor quer provar ou defender.",
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Os argumentos em um texto argumentativo servem para:",
     tip: "Se a tese é o que você defende, os argumentos são o motivo pelo qual você acredita nela.",
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A conclusão de um texto argumentativo geralmente:",
     tip: "Pense no que acontece no final do texto — o autor encerra de que forma?",
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Qual das alternativas apresenta um exemplo de argumento de autoridade?",
     tip: "Argumento de autoridade recorre a especialistas, pesquisas ou fontes confiáveis.",
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O uso de dados estatísticos em um texto argumentativo tem a função de:",
     tip: "Por que um autor usaria números e porcentagens no texto?",
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A contraargumentação em um texto argumentativo consiste em:",
     tip: "O prefixo 'contra' já dá uma pista — é sobre lidar com ideias opostas.",
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Em um artigo de opinião, a linguagem utilizada deve ser predominantemente:",
     tip: "Lembre-se: é um texto jornalístico publicado para um público amplo, não uma conversa informal.",
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Qual é a estrutura básica de um texto argumentativo bem organizado?",
     tip: "Pense em como um texto argumentativo se organiza do início ao fim.",
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Os operadores argumentativos são palavras ou expressões que:",
     tip: "Pense em palavras como 'portanto', 'mas', 'porque' — o que elas fazem no texto?",
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "O conectivo 'embora' estabelece no texto uma relação de:",
     tip: "Use a frase 'Embora esteja chovendo, vou à praia' — qual é a relação entre as duas ideias?",
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Qual das alternativas apresenta um argumento do tipo 'apelo à emoção'?",
     tip: "O apelo à emoção tenta tocar o coração do leitor, não convencer pela razão.",
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Um texto argumentativo que apresenta apenas um ponto de vista, ignorando completamente as ideias contrárias, pode ser considerado:",
     tip: "Quando o autor não considera outras perspectivas, o que isso revela sobre a qualidade do argumento?",
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A diferença entre dissertação argumentativa e artigo de opinião é que:",
     tip: "Pense em onde cada um é publicado e quem os escreve.",
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "No artigo de opinião, o uso da primeira pessoa ('eu acho', 'na minha opinião') é:",
     tip: "Compare com a dissertação argumentativa do ENEM — como a voz do autor aparece em cada um?",
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A falácia do 'espantalho' ocorre quando o argumentador:",
     tip: "Imagine criar uma versão distorcida do argumento do oponente para atacar essa versão falsa.",
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "No contexto argumentativo, o que é um 'exemplo ilustrativo'?",
     tip: "É um caso concreto usado para tornar um argumento mais claro e compreensível.",
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O argumento por analogia consiste em:",
     tip: "Analogia significa comparação. O que acontece quando comparamos duas situações diferentes?",
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Em textos argumentativos, a progressão temática garante que:",
     tip: "Progressão = avanço. O que deve avançar ao longo de um bom texto argumentativo?",
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O editorial de jornal se diferencia do artigo de opinião porque:",
     tip: "Pense em quem assina cada um desses textos.",
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A proposta de intervenção na redação do ENEM deve ser:",
     tip: "Não basta identificar um problema — o que a proposta de intervenção precisa apresentar?",
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "O que caracteriza a linguagem de um bom texto argumentativo?",
     tip: "Um texto argumentativo precisa ser claro e convincente — quais características de linguagem favorecem isso?",
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A citação direta de um especialista em um texto argumentativo serve para:",
     tip: "Por que o autor prefere reproduzir exatamente as palavras de outra pessoa, em vez de parafrasear?",
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A coesão textual em um texto argumentativo é garantida principalmente pelo uso de:",
     tip: "Coesão é a ligação entre as partes do texto — quais elementos realizam essa ligação?",
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Um texto argumentativo coerente é aquele que:",
     tip: "Coerência é diferente de coesão — ela trata do sentido geral do texto.",
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "No texto argumentativo, o parágrafo de desenvolvimento deve conter:",
     tip: "Cada parágrafo de desenvolvimento tem uma função específica na construção do argumento.",
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Qual é o papel da introdução em um texto argumentativo?",
     tip: "A introdução é a primeira coisa que o leitor lê — o que ela precisa fazer?",
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "Ao escrever um artigo de opinião sobre o uso de tecnologia nas escolas, qual seria a tese mais adequada?",
     tip: "A tese deve ser uma posição clara e defendível sobre o tema.",
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A retórica, arte de argumentar e persuadir, foi sistematizada na Grécia Antiga por filósofos como Aristóteles. Nos dias de hoje, o domínio das técnicas argumentativas é importante porque:",
     tip: "Pense no cotidiano: em quais situações precisamos argumentar bem?",

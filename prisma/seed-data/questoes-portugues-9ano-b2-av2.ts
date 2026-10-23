@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'O que é "coesão textual"?',
     tip: 'Pensa na coesão como "cola": ela é o que amarra as partes do texto para que uma frase se conecte bem com a outra. Qual opção fala sobre essa "ligação"?',
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'O que é "coerência textual"?',
     tip: 'Pensa em um texto que "faz sentido" do início ao fim, sem contradições bobas. Qual opção fala sobre esse sentido lógico geral?',
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Em "Bernardo pegou o livro e O guardou na mochila", a palavra "O" substitui "livro" para evitar repetição. Esse tipo de palavra é chamado de:',
     tip: 'Pensa em palavrinhas pequenas como "ele", "ela", "o", "que" — elas substituem nomes para o texto não ficar repetitivo. Qual classe de palavras faz exatamente isso?',
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: '"Bernardo foi à escola. O garoto estava animado para a prova." A palavra "garoto" substitui "Bernardo" nessa segunda frase. Essa estratégia de coesão é chamada de uso de:',
     tip: '"Garoto" quer dizer a mesma coisa que "Bernardo" naquele contexto, só que com outra palavra. Quando trocamos uma palavra por outra de sentido parecido, usamos esse recurso!',
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Em "Bernardo estudou muito e [ ] tirou uma boa nota", percebemos que a palavra "ele" foi omitida, mas o leitor entende quem tirou a nota. Essa omissão é chamada de:',
     tip: 'Pense em quando "escondemos" uma palavra na frase porque já está claro quem ou o que estamos falando. Essa omissão proposital tem um nome específico na coesão!',
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Qual conjunção abaixo é do tipo ADITIVA (que soma ideias)?',
     tip: 'Pense em "somar" ideias, como juntar duas coisas: "Bernardo estudou E brincou." Qual palavrinha tem essa função de "adicionar" uma ideia à outra?',
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Qual conjunção abaixo é do tipo ADVERSATIVA (que mostra oposição)?',
     tip: 'Pense numa palavra que mostra um "contraste", uma ideia que vai contra a anterior: "Bernardo estudou, MAS ficou nervoso." Qual conjunção expressa essa oposição?',
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Qual conjunção abaixo é do tipo CONCLUSIVA (que indica uma conclusão)?',
     tip: 'Pense em uma palavra que vem para "fechar" o raciocínio, tirando uma conclusão do que foi dito antes: "Estudou muito, PORTANTO passou." Qual opção indica esse fechamento?',
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Qual conjunção abaixo é do tipo EXPLICATIVA (que dá uma explicação ou motivo)?',
     tip: 'Pense numa palavra que "explica o porquê" de algo: "Estude bastante, POIS a prova será difícil." Qual conjunção dá esse tipo de justificativa?',
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Qual conjunção abaixo é do tipo ALTERNATIVA (que indica escolha entre opções)?',
     tip: 'Pense em uma palavra usada quando você precisa ESCOLHER entre duas coisas: "Quer estudar Português OU Matemática primeiro?" Qual conjunção expressa essa escolha?',
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"Bernardo passou na prova PORQUE estudou todos os dias." A conjunção "porque" indica uma relação de:',
     tip: '"Porque" explica o MOTIVO de algo ter acontecido — ele passou na prova por qual razão? Essa razão é a causa!',
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"SE Bernardo estudar bastante, ele vai passar na prova." A conjunção "se" indica uma relação de:',
     tip: '"Se" mostra que uma coisa só vai acontecer SE outra condição for cumprida antes. Qual palavra da pergunta descreve exatamente essa ideia de "depender de algo"?',
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"EMBORA estivesse cansado, Bernardo terminou a lição." A conjunção "embora" indica uma relação de:',
     tip: '"Embora" mostra que, mesmo com um obstáculo (o cansaço), ele conseguiu terminar de qualquer jeito. Essa ideia de "apesar de" tem um nome especial!',
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"Bernardo estuda TANTO QUANTO sua irmã." Essa conjunção indica uma relação de:',
     tip: '"Tanto quanto" está comparando o esforço do Bernardo com o da irmã, mostrando que são parecidos. Qual relação estabelece esse tipo de semelhança entre duas coisas?',
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"Bernardo estudou TANTO QUE tirou nota máxima na prova." A conjunção "tanto que" indica uma relação de:',
     tip: 'Repare: o resultado (tirar nota máxima) é uma CONSEQUÊNCIA de ele ter estudado tanto. Qual relação mostra o efeito que vem depois da causa?',
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"Bernardo fez a redação CONFORME as instruções da professora." A conjunção "conforme" indica uma relação de:',
     tip: '"Conforme" mostra que ele seguiu exatamente o que foi pedido, de acordo com uma regra ou orientação. Qual relação expressa esse "seguir à risca"?',
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"Bernardo estudou bastante PARA QUE pudesse tirar uma boa nota." A conjunção "para que" indica uma relação de:',
     tip: '"Para que" mostra o OBJETIVO, a intenção por trás da ação de estudar. Qual relação expressa essa ideia de "com que propósito"?',
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"QUANDO a prova terminar, Bernardo vai comemorar com a família." A conjunção "quando" indica uma relação de:',
     tip: '"Quando" está marcando o MOMENTO em que outra coisa vai acontecer. Qual relação está ligada à ideia de tempo, de "em que momento"?',
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: '"À PROPORÇÃO QUE Bernardo lia mais livros, seu vocabulário aumentava." Essa conjunção indica uma relação de:',
     tip: 'Repare que as duas coisas crescem juntas, na mesma medida: mais leitura, mais vocabulário. Qual relação mostra que duas coisas aumentam ou diminuem ao mesmo tempo?',
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Na frase "Bernardo estudou bastante, PORTANTO estava confiante", a conjunção destacada é:',
     tip: 'Lembra da Questão 8? "Portanto" fecha uma ideia, tirando uma conclusão do que foi dito antes. Qual tipo de conjunção faz esse "encerramento" do raciocínio?',
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Bernardo escreveu uma redação repetindo "Bernardo" em quase toda frase. Qual seria a melhor forma de melhorar a coesão do texto?',
     tip: 'Lembra das Questões 3 e 4? Pronomes como "ele" e sinônimos como "o garoto" ajudam a evitar repetição cansativa. Qual opção usa exatamente esse recurso?',
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "Eu queria jogar bola, MAS estava chovendo." Que tipo de conjunção ele usou?',
     tip: '"Mas" mostra um contraste entre o que o Bernardo queria e o que realmente aconteceu (a chuva). Lembra da Questão 7? É o mesmo tipo de conjunção!',
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "Estudei bastante, PORTANTO me saí bem na prova." Que tipo de conjunção ele usou?',
     tip: '"Portanto" indica que uma conclusão foi tirada a partir do que foi dito antes (estudar bastante). Lembra das Questões 8 e 20? É o mesmo tipo!',
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "EMBORA estivesse com sono, continuou lendo o livro até o fim." Que tipo de conjunção ele usou?',
     tip: 'Lembra da Questão 13? "Embora" mostra que ele fez algo mesmo tendo um obstáculo (o sono) pela frente. Qual tipo de conjunção expressa esse "apesar de"?',
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "Vou estudar mais PORQUE quero entender melhor a matéria." Que tipo de conjunção ele usou?',
     tip: '"Porque" dá o motivo pelo qual Bernardo vai estudar mais. Lembra da Questão 11? É o mesmo tipo de conjunção, que explica a razão de uma ação!',
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Na frase "O livro QUE Bernardo está lendo é muito interessante", a palavra "que" funciona como:',
     tip: 'A palavra "que" está ligando a segunda informação ("está lendo") ao "livro" mencionado antes, sem precisar repetir a palavra "livro". Essa função de "religar" é de um pronome especial!',
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Bernardo escreveu um texto onde, no início, dizia que adorava estudar, mas no final afirmava que odiava estudar, sem nenhuma explicação para essa mudança. Esse texto tem um problema de:',
     tip: 'Lembra da Questão 2? Quando as ideias de um texto se contradizem sem explicação, o problema não é de "cola entre as palavras", e sim de sentido lógico geral. Qual conceito trata disso?',
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "SE eu organizar bem meu tempo, conseguirei estudar para todas as provas." Que tipo de conjunção ele usou?',
     tip: 'Lembra da Questão 12? "Se" mostra que uma coisa depende de outra acontecer primeiro. Qual tipo de conjunção expressa essa ideia de "dependência"?',
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Leitura e escrita',
     type: 'multiple_choice',
     text: 'Bernardo revisou sua redação e, em vez de escrever "Bernardo" cinco vezes, usou palavras como "o garoto", "ele" e "o estudante". Essa troca inteligente melhora:',
     tip: 'Lembra da Questão 21? Trocar palavras repetidas por pronomes e sinônimos deixa o texto mais "costurado" e agradável de ler. Qual conceito isso melhora?',
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Conjunções',
     type: 'multiple_choice',
     text: 'Depois de toda essa revisão, qual destas frases mostra o uso CORRETO de uma conjunção para ligar duas ideias com sentido de causa?',
     tip: 'Pense em qual conjunção explica o MOTIVO de Bernardo ter estudado tanto (querer uma boa nota). As outras opções usam conjunções de concessão, alternativa e tempo, que não combinam com esse sentido!',

@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Linguagem e sociedade',
     type: "multiple_choice",
     text: "A VARIAÇÃO LINGUÍSTICA ocorre porque a língua:",
     tip: "Pense em como as pessoas falam de formas diferentes dependendo da região, da idade e da situação.",
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Linguagem e sociedade',
     type: "multiple_choice",
     text: "A NORMA CULTA da língua portuguesa é:",
     tip: "Norma culta é a variedade usada em contextos formais — não é a 'melhor', é a mais valorizada socialmente.",
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Funções da linguagem',
     type: "multiple_choice",
     text: "A FUNÇÃO REFERENCIAL da linguagem é predominante quando o texto:",
     tip: "Referencial = focado no referente (no assunto). Qual tipo de texto tem essa característica?",
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Crônicas',
     type: "multiple_choice",
     text: "No GÊNERO TEXTUAL 'crônica', o texto se caracteriza por:",
     tip: "Crônica é um texto jornalístico-literário — tem leveza, humor ou lirismo e fala do cotidiano.",
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "As FIGURAS DE LINGUAGEM são recursos expressivos que ampliam o poder comunicativo do texto. A METÁFORA consiste em:",
     tip: "A metáfora diz que uma coisa É outra (sem o 'como') — ela transfere o significado.",
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A IRONIA como figura de linguagem consiste em:",
     tip: "Ironia é dizer o contrário do que se pensa — mas de forma que o contexto permita perceber o verdadeiro sentido.",
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O TEXTO ARGUMENTATIVO tem como elemento central:",
     tip: "Sem esse elemento, o texto argumentativo não existe — ele é o ponto de partida obrigatório.",
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "Em poesia, a RIMA CONSOANTE ocorre quando:",
     tip: "Rima consoante é a mais completa — o que exatamente coincide no final dos versos?",
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O SONETO, forma poética clássica, é composto por:",
     tip: "Lembre-se da estrutura do soneto — quantos versos e como estão distribuídos?",
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "A CONJUNÇÃO ADVERSATIVA 'mas' é usada para:",
     tip: "Quando uma ideia vem depois do 'mas', ela contradiz ou restringe o que veio antes.",
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A COESÃO TEXTUAL é garantida principalmente por:",
     tip: "Coesão é a ligação formal entre partes do texto — quais elementos realizam essa ligação?",
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A COERÊNCIA TEXTUAL diz respeito à:",
     tip: "Coerência é diferente de coesão — ela trata da lógica e do sentido geral do texto.",
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O VERSO LIVRE, muito usado no Modernismo, se caracteriza por:",
     tip: "Livre significa ausência de restrições — o que fica ausente no verso livre?",
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "A oração subordinada adjetiva RESTRITIVA se diferencia da EXPLICATIVA porque:",
     tip: "Restritiva limita; explicativa acrescenta. Como isso aparece na pontuação?",
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "O gênero ARTIGO DE OPINIÃO se distingue do editorial jornalístico porque:",
     tip: "Pense em quem assina cada um — o artigo de opinião tem autoria individual; o editorial, não.",
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Funções da linguagem',
     type: "multiple_choice",
     text: "A FUNÇÃO POÉTICA da linguagem é predominante quando o texto:",
     tip: "A função poética privilegia a forma — o texto chama atenção para si mesmo, para os sons e as imagens.",
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O HAIKU japonês é uma forma poética caracterizada por:",
     tip: "O haiku é extremamente sintético — captura um único momento da natureza em pouquíssimos versos.",
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Modernismo brasileiro',
     type: "multiple_choice",
     text: "O MODERNISMO BRASILEIRO (a partir de 1922) trouxe como ruptura central:",
     tip: "O Modernismo rejeitou as formas fixas do Parnasianismo e do Simbolismo — o que ele colocou no lugar?",
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES COORDENADAS SINDÉTICAS CONCLUSIVAS são introduzidas por conjunções que indicam:",
     tip: "Conclusiva = conclusão. O que essas conjunções introduzem em relação à oração anterior?",
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A INTERTEXTUALIDADE consiste em:",
     tip: "O prefixo 'inter' significa 'entre' — o que acontece entre dois textos quando há intertextualidade?",
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A LITERATURA DE CORDEL é um gênero literário tipicamente brasileiro que se caracteriza por:",
     tip: "O cordel tem características muito específicas de forma, distribuição e temática — o que o define?",
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Na análise do DISCURSO, o CONTEXTO DE PRODUÇÃO de um texto inclui:",
     tip: "Todo texto é produzido em uma situação específica — quem escreve, para quem, quando, onde e por quê.",
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Textos de opinião',
     type: "multiple_choice",
     text: "A PERSUASÃO em textos argumentativos pode ser alcançada por meio de:",
     tip: "Aristóteles identificou três pilares da persuasão — razão, emoção e credibilidade do autor.",
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "O PERÍODO COMPOSTO por SUBORDINAÇÃO se caracteriza por:",
     tip: "Subordinação cria dependência — uma oração precisa da outra para ter sentido completo.",
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Pronomes',
     type: "multiple_choice",
     text: "O PRONOME RELATIVO 'CUJO' estabelece no período uma relação de:",
     tip: "'Cujo' funciona como 'do qual' ou 'da qual' — essa substituição revela sua função.",
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A PERSONIFICAÇÃO (prosopopeia) consiste em:",
     tip: "Personificar = atribuir características humanas. A quê isso pode ser feito?",
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "A ORAÇÃO SUBORDINADA ADVERBIAL CONCESSIVA é introduzida por conjunções como 'embora', 'apesar de que', 'mesmo que'. Ela indica:",
     tip: "Concessão = admitir algo desfavorável sem que isso impeça o resultado da oração principal.",
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A INTERPRETAÇÃO DE TEXTO exige do leitor a habilidade de:",
     tip: "Interpretar vai além de apenas decodificar palavras — envolve relacionar, inferir e contextualizar.",
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A PROGRESSÃO TEMÁTICA em um texto dissertativo garante que:",
     tip: "Progressão = avanço. Em um bom texto, o que deve avançar de parágrafo a parágrafo?",
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "Ao finalizar o 9º ano, o estudo de Língua Portuguesa visa, em última análise, a:",
     tip: "Pense no objetivo maior de todo o aprendizado de língua materna — para que serve dominar a língua?",

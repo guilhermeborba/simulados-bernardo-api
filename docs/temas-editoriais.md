@@ -1342,6 +1342,32 @@ Corpo humano cobre a integração dos sistemas e os itens B4/AV2, IDs 1, 18, 24 
 
 Os simulados têm, na ordem B1/AV1 a B4/AV2, dois, um, um, um, três, três, três e oito temas. Não se subdividem artificialmente as unidades de um sistema; a revisão anual articula integração e sete sistemas/funções. Divergência de gabarito e comando anterior registradas na [issue web #127](https://github.com/guilhermeborba/simulados-bernardo/issues/127), preservadas para revisão separada. A classificação temática não certifica a precisão pedagógica ou científica do legado.
 
+### Português — 9º ano
+
+| Tema | Abrange |
+|---|---|
+| Linguagem e sociedade | Variação, preconceito linguístico, registros, norma e adequação social/contextual. |
+| Funções da linguagem | Funções referencial, emotiva, conativa, poética, metalinguística e fática, sem antecipar qual delas é pedida. |
+| Crônicas | Características, estilo, cotidiano, publicação e relação com o jornalismo. |
+| Narrativas | Contos, narradores, enredo, conflito, personagens, espaço e tempo. |
+| Gêneros e tipos textuais | Distinção entre conto, crônica e romance; reconhecimento de gêneros solicitados. |
+| Figuras de linguagem | Recursos expressivos, efeitos sonoros e figuras de sentido, pensamento e construção. |
+| Leitura e escrita | Coesão, coerência, referenciação, progressão, contexto, intertextualidade e leitura crítica. |
+| Conjunções | Conectivos coordenativos/subordinativos e relações semânticas entre ideias. |
+| Textos de opinião | Argumentação, tese, argumentos, refutação, persuasão, autoria e textos jornalísticos opinativos. |
+| Poesia | Versos, estrofes, formas fixas/livres, métrica, rimas, sujeito poético e gêneros em versos. |
+| Modernismo brasileiro | Experimentação modernista, cotidiano e poesia de Drummond e Bandeira. |
+| Período composto | Coordenação, subordinação, orações substantivas/adjetivas/adverbiais e funções sintáticas. |
+| Pronomes | Pronomes relativos, antecedente e relação de posse. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-portugues-9ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 13 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Linguagem e sociedade evita fornecer Variação linguística regional em B1/AV1, ID 21, ou Preconceito linguístico no ID 22. Gêneros e tipos textuais evita Crônica em B1/AV2, ID 21. Narrativas não antecipa Conflito, Enredo ou o tipo de narrador. Figuras de linguagem mantém em aberto a figura solicitada. Leitura e escrita não entrega Pronome, Elipse ou Coerência em B2/AV2. Poesia não fornece Verso, Estrofe ou o nome da forma poética. Período composto e Conjunções não antecipam a classificação específica pedida; Pronomes cobre somente itens que já nomeiam o relativo no comando.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 2, 3, 1, 2, 3, 4, 3, 11 temas. Variação/funções e coesão/conjunções usam dois temas; figuras de linguagem, um; contos/crônicas, argumentação e período composto usam três cada; poesia, quatro. A revisão anual retoma onze campos do programa. A distribuição acompanha os conteúdos estudados, sem criar temas com a resposta de cada pergunta.
+
+As alternativas sobre soneto e a distinção causal/explicativa do legado estão na [issue web #134](https://github.com/guilhermeborba/simulados-bernardo/issues/134), para revisão própria. Conteúdo e gabaritos preservados; classificação temática não certifica precisão pedagógica.
+
 ### Português — 8º ano
 
 | Tema | Abrange |

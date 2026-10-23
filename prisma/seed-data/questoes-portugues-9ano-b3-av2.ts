@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "Em poesia, cada linha do poema é chamada de:",
     tip: "Pense nas partes menores que formam um poema — a menor unidade é a linha.",
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O conjunto de versos agrupados em um poema é denominado:",
     tip: "Da mesma forma que um parágrafo agrupa frases, na poesia existe uma unidade que agrupa versos.",
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "Uma estrofe composta por apenas dois versos é chamada de:",
     tip: "O prefixo 'dis' em grego significa 'dois'. Existe uma palavra poética que vem dessa raiz.",
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "Como é chamada a estrofe formada por quatro versos?",
     tip: "Pense no número quatro e em termos poéticos que incluam essa ideia.",
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A RIMA em um poema é definida como:",
     tip: "Pense em como certas palavras soam ao final dos versos — o que elas têm em comum?",
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O RITMO poético é criado principalmente por:",
     tip: "O ritmo em poesia tem a ver com som e movimento — o que cria esse efeito musical nos versos?",
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O VERSO LIVRE se caracteriza por:",
     tip: "O adjetivo 'livre' já dá uma pista — o que está ausente ou é dispensado nesse tipo de verso?",
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O HAIKU é uma forma poética de origem:",
     tip: "Pense em uma cultura asiática conhecida por sua precisão e contenção estética.",
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O SONETO é uma forma poética fixa composta por:",
     tip: "O soneto é uma das formas mais conhecidas da poesia — tente lembrar sua estrutura clássica.",
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A POESIA CONCRETA se distingue por:",
     tip: "O nome 'concreta' sugere materialidade — o que seria concreto em um poema?",
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A ALITERAÇÃO é uma figura de linguagem sonora que consiste em:",
     tip: "Pense em versos com muitas consoantes iguais — como 'o rato roeu a roupa do rei de Roma'.",
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A ASSONÂNCIA, diferente da aliteração, é a repetição de:",
     tip: "Se a aliteração repete consoantes, a assonância repete o quê?",
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A ONOMATOPEIA em poesia é o recurso que:",
     tip: "Onomatopeia é usada em quadrinhos para representar sons — 'BOOM!', 'SPLASH!'. O que ela faz na poesia?",
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A diferença entre RIMA CONSOANTE e RIMA TOANTE é que:",
     tip: "'Consoante' e 'toante' se referem a quanta parte do som das palavras é igual.",
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A MÉTRICA em poesia é definida como:",
     tip: "Métrica vem de 'metro' — e metro é uma medida. O que é medido na poesia?",
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O verso DECASSÍLABO tem:",
     tip: "O prefixo 'deca' significa dez em grego — aplique isso à contagem de sílabas.",
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A REDONDILHA MAIOR é o metro poético com:",
     tip: "Redondilha maior é um metro muito usado na poesia popular brasileira e portuguesa — o número de sílabas é 7.",
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O POEMA ÉPICO é um gênero poético que tem como característica principal:",
     tip: "Pense em 'Os Lusíadas' de Camões ou na 'Ilíada' de Homero — o que esses poemas narram?",
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O POEMA LÍRICO se caracteriza por:",
     tip: "O adjetivo 'lírico' vem de 'lira', instrumento musical. O que esse tipo de poesia expressa?",
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O ENJAMBEMENT (ou encavalgamento) em poesia ocorre quando:",
     tip: "Em francês, 'enjamber' significa 'cavalgar' ou 'cruzar'. O que cruza de um verso para outro?",
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A estrofe de CINCO versos é chamada de:",
     tip: "Use o prefixo numérico — 'quint' significa cinco em latim.",
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "A SEXTILHA, forma muito usada no cordel nordestino, é composta por:",
     tip: "O prefixo 'sext' ou 'sex' vem do latim e significa seis.",
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Poesia',
     type: "multiple_choice",
     text: "O SUJEITO POÉTICO (ou eu lírico) é:",
     tip: "Em um poema, quem fala? É sempre o autor ou pode ser outra voz?",
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A PERSONIFICAÇÃO (ou prosopopeia) em poesia consiste em:",
     tip: "Personificar significa dar características de pessoa a algo que não é humano.",
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Figuras de linguagem',
     type: "multiple_choice",
     text: "A ANÁFORA é uma figura de linguagem que consiste em:",
     tip: "Pense em discursos políticos famosos que repetem uma frase no início de cada parágrafo.",
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Modernismo brasileiro',
     type: "multiple_choice",
     text: "O MODERNISMO na poesia brasileira (1922–) trouxe como principais inovações:",
     tip: "O Modernismo rompeu com a tradição — o que ele rejeitou e o que trouxe de novo?",
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Modernismo brasileiro',
     type: "multiple_choice",
     text: "Carlos Drummond de Andrade é considerado um dos maiores poetas brasileiros do século XX, conhecido especialmente por:",
     tip: "Drummond escreveu sobre o cotidiano, a pedra, a família, o Brasil — qual é sua marca registrada?",
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Modernismo brasileiro',
     type: "multiple_choice",
     text: "O poema 'Vou-me embora pra Pasárgada' de Manuel Bandeira é um exemplo de poesia que:",
     tip: "Pasárgada é um lugar imaginário — o que esse poema expressa ao criar esse lugar?",
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Leitura e escrita',
     type: "multiple_choice",
     text: "A INTERTEXTUALIDADE em poesia ocorre quando:",
     tip: "O prefixo 'inter' significa 'entre' — o que acontece quando dois textos se relacionam?",
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Modernismo brasileiro',
     type: "multiple_choice",
     text: "Manuel Bandeira, ao escrever sobre temas simples do cotidiano como a morte, a doença, as ruas do Recife e o carnaval, demonstra que a poesia modernista:",
     tip: "O que os modernistas queriam mostrar ao escolher temas 'pequenos' e cotidianos?",

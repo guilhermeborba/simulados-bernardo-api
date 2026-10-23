@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "O PERÍODO COMPOSTO se distingue do período simples porque:",
     tip: "Pense na quantidade de verbos — um período com mais de um verbo tem mais de uma oração.",
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES COORDENADAS se caracterizam por:",
     tip: "Coordenar = colocar lado a lado. O que diferencia orações coordenadas de subordinadas?",
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES SUBORDINADAS se distinguem das coordenadas porque:",
     tip: "Subordinar = colocar sob o comando de algo. Como isso se manifesta na gramática?",
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Em 'Estudei muito, MAS não passei na prova', a conjunção em destaque estabelece uma relação de:",
     tip: "Quando algo está bem encaminhado e de repente aparece um 'mas', o que muda na ideia?",
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES COORDENADAS ASSINDÉTICAS se distinguem das sindéticas porque:",
     tip: "O prefixo 'a-' significa 'sem' em grego; 'syndeton' significa 'ligação'. O que falta nas assindéticas?",
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Em 'Ou você estuda, OU você vai reprovar', a conjunção coordenativa é classificada como:",
     tip: "A ideia das duas orações é excludente — uma alternativa elimina a outra.",
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "A conjunção PORTANTO, usada na frase 'Ele se esforçou muito, PORTANTO merece o prêmio', é classificada como:",
     tip: "O 'portanto' introduz uma consequência lógica do que foi dito — uma conclusão.",
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Em 'Não saí de casa, POIS estava chovendo muito', a conjunção coordenativa POIS é classificada como:",
     tip: "Quando 'pois' aparece depois do verbo principal, ele serve para explicar o motivo.",
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "As conjunções ADITIVAS 'e', 'nem', 'não só...mas também' expressam:",
     tip: "Aditivo vem de 'adicionar'. O que essas conjunções fazem com as orações que conectam?",
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Identifique a oração que apresenta uma ORAÇÃO COORDENADA SINDÉTICA ADVERSATIVA:",
     tip: "Procure a conjunção que indica oposição ou contraste entre as ideias.",
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES SUBORDINADAS SUBSTANTIVAS exercem as seguintes funções na oração principal:",
     tip: "Substantiva = funciona como um substantivo. Quais funções um substantivo pode exercer na oração?",
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Em 'É necessário QUE todos estudem mais', a oração sublinhada exerce a função de:",
     tip: "O verbo 'ser' exige um sujeito — tente substituir a oração sublinhada por 'isso' e identifique a função.",
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Em 'Ele disse QUE viria amanhã', a oração destacada é subordinada substantiva com função de:",
     tip: "O verbo 'dizer' precisa de um complemento — o que ele disse? Tente substituir por 'isso'.",
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES SUBORDINADAS ADJETIVAS se caracterizam por:",
     tip: "Adjetiva = funciona como adjetivo. O que um adjetivo faz? Ele modifica um substantivo.",
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "A diferença entre oração subordinada adjetiva RESTRITIVA e EXPLICATIVA é que:",
     tip: "Restritiva restringe (limita); explicativa explica (acrescenta). Como isso aparece na pontuação?",
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Em 'Os alunos QUE estudaram passaram na prova', a oração adjetiva é classificada como:",
     tip: "A oração 'que estudaram' especifica quais alunos — ela restringe o universo de alunos referido.",
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "As ORAÇÕES SUBORDINADAS ADVERBIAIS expressam circunstâncias relacionadas à oração principal. Qual das alternativas apresenta uma oração adverbial CAUSAL?",
     tip: "Causa = motivo. A conjunção causal indica a razão pela qual algo aconteceu.",
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "Em 'EMBORA estivesse com febre, ele foi trabalhar', a conjunção concessiva indica:",
     tip: "A concessiva admite uma circunstância desfavorável, mas o resultado acontece mesmo assim.",
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "A oração 'SE você vier à festa, se divertirá muito' apresenta uma oração subordinada adverbial:",
     tip: "'Se' é a conjunção típica de que tipo de relação lógica?",
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Em 'Estudou TANTO que passou no vestibular com louvor', a oração em destaque é subordinada adverbial:",
     tip: "Quando um intensificador como 'tanto', 'tão', 'tal' aparece na oração principal, o que ele anuncia?",
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "A oração 'PARA QUE todos entendam, vou explicar novamente' é classificada como subordinada adverbial:",
     tip: "'Para que' indica a intenção ou o propósito da ação — a finalidade.",
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Em 'QUANDO chegar o verão, viajamos para o litoral', a oração subordinada é classificada como adverbial:",
     tip: "'Quando' estabelece que tipo de relação entre as duas ações?",
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Pronomes',
     type: "multiple_choice",
     text: "O pronome relativo CUJO é usado para expressar:",
     tip: "'Cujo' indica posse — pense em 'do qual', 'da qual'.",
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Na análise sintática de um período composto, identificar a oração PRINCIPAL é importante porque:",
     tip: "A oração principal é o centro do período — as demais se relacionam a ela.",
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Analise: 'Ele acredita que tudo vai melhorar'. Que função exerce a oração 'que tudo vai melhorar'?",
     tip: "O verbo 'acreditar' precisa de um complemento — em quê ele acredita? Tente substituir por 'nisso'.",
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Pronomes',
     type: "multiple_choice",
     text: "Na frase 'O livro QUE comprei ontem é ótimo', o pronome relativo 'que' retoma:",
     tip: "O pronome relativo sempre retoma (representa) um termo que apareceu antes na oração anterior.",
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Conjunções',
     type: "multiple_choice",
     text: "A oração 'À MEDIDA QUE o tempo passava, ele ficava mais nervoso' apresenta uma relação adverbial de:",
     tip: "'À medida que' indica que duas situações evoluem ao mesmo tempo e em proporção.",
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Qual das seguintes frases apresenta um PERÍODO COMPOSTO por coordenação?",
     tip: "No período por coordenação, as orações são independentes — cada uma poderia ser um período simples.",
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "Em 'Todos sabem QUE a verdade sempre aparece', a oração em destaque é subordinada substantiva com função de:",
     tip: "O verbo 'saber' precisa de um complemento — todos sabem o quê? Tente substituir 'que a verdade sempre aparece' por 'isso'.",
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Período composto',
     type: "multiple_choice",
     text: "O domínio da sintaxe do período composto é fundamental para a leitura e a escrita porque:",
     tip: "Pense em como períodos compostos constroem raciocínios complexos — o que o leitor precisa entender ao lê-los?",
