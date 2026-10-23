@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "A TRIGONOMETRIA é o ramo da matemática que estuda:",
     tip: "O próprio nome revela: 'trigonon' = triângulo, 'metria' = medida.",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "No triângulo retângulo, a HIPOTENUSA é:",
     tip: "É o lado que fica 'oposto' ao ângulo de 90° — e é sempre o maior lado.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "No triângulo retângulo, o SENO de um ângulo agudo α é definido como:",
     tip: "Lembre do mnemônico: SOH — Seno = Oposto / Hipotenusa.",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "No triângulo retângulo, o COSSENO de um ângulo agudo α é:",
     tip: "Lembre do mnemônico: CAH — Cosseno = Adjacente / Hipotenusa.",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "A TANGENTE de um ângulo agudo α no triângulo retângulo é:",
     tip: "Lembre do mnemônico: TOA — Tangente = Oposto / Adjacente.",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "A identidade trigonométrica fundamental é:",
     tip: "Deriva diretamente do Teorema de Pitágoras dividido pela hipotenusa ao quadrado.",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "A tangente pode ser expressa em termos de seno e cosseno como:",
     tip: "Divida cateto oposto por cateto adjacente, mas expresse tudo em relação à hipotenusa.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor do sen 30° é:",
     tip: "No triângulo equilátero de lado 2, o triângulo retângulo gerado tem hipotenusa 2, cateto oposto a 30° igual a 1 e cateto adjacente √3.",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor do cos 30° é:",
     tip: "No triângulo 30°-60°-90° com hipotenusa 2, o cateto adjacente a 30° é √3.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Os valores de sen 45° e cos 45° são, respectivamente:",
     tip: "No triângulo retângulo isósceles (45°-45°-90°), os dois catetos são iguais.",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor do sen 60° é:",
     tip: "No triângulo 30°-60°-90°, o cateto oposto a 60° é √3 e a hipotenusa é 2.",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor da tg 60° é:",
     tip: "tg 60° = sen 60° / cos 60° = (√3/2) / (1/2).",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo, a hipotenusa mede 10 cm e α = 30°. O cateto oposto a α mede:",
     tip: "Use sen α = cateto oposto / hipotenusa → cateto oposto = hipotenusa · sen 30°.",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo, a hipotenusa mede 10 cm e α = 30°. O cateto adjacente a α mede:",
     tip: "Use cos α = cateto adjacente / hipotenusa → cateto adjacente = hipotenusa · cos 30°.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo, o cateto adjacente mede 8 cm e α = 45°. O cateto oposto mede:",
     tip: "Use tg 45° = cateto oposto / cateto adjacente. Qual é o valor de tg 45°?",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Os valores de sen 90° e cos 90° são, respectivamente:",
     tip: "Quando α = 90°, o triângulo retângulo 'degenera' — pense no limite de uma rampa quase vertical.",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Os valores de sen 0° e cos 0° são, respectivamente:",
     tip: "A 0°, o triângulo retângulo está 'deitado' — o cateto oposto é nulo e o adjacente coincide com a hipotenusa.",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Um triângulo retângulo tem catetos de 3 cm e 4 cm. O seno do ângulo α oposto ao cateto de 3 cm é:",
     tip: "Primeiro calcule a hipotenusa pelo Teorema de Pitágoras: h² = 3² + 4².",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Um observador no chão olha para o topo de uma árvore sob um ângulo de elevação de 60°. Se a distância horizontal até a árvore é 4 m, a altura da árvore é:",
     tip: "Use tg 60° = altura / distância horizontal.",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Uma rampa faz um ângulo de 30° com o chão. Se o comprimento da rampa (hipotenusa) é 6 m, a altura vertical atingida é:",
     tip: "A altura vertical é o cateto oposto ao ângulo de 30°: altura = hipotenusa · sen 30°.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Se α e β são ângulos complementares (α + β = 90°), então:",
     tip: "Ângulos complementares somam 90°. No triângulo retângulo, os dois ângulos agudos são complementares.",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo isósceles, os dois catetos medem 5 cm cada. A tangente do ângulo agudo formado entre a hipotenusa e um dos catetos é:",
     tip: "O ângulo agudo do triângulo isósceles retângulo é 45°. Qual é tg 45°?",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Num triângulo retângulo com ângulo α, hipotenusa h, cateto oposto p e cateto adjacente q, a expressão p/h representa:",
     tip: "Relacione p (oposto) e h (hipotenusa) com as definições das razões trigonométricas.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo, o cateto oposto ao ângulo de 45° mede 7 cm. A hipotenusa mede:",
     tip: "sen 45° = cateto oposto / hipotenusa. Isole a hipotenusa.",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Um poste vertical de 6 m projeta uma sombra no chão. Se o ângulo de incidência do sol com o chão é 60°, o comprimento da sombra é:",
     tip: "O poste é o cateto oposto e a sombra é o cateto adjacente ao ângulo de 60°. Use tg 60°.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Para qual ângulo notável o seno, o cosseno e a tangente valem, respectivamente, 1/2, √3/2 e √3/3?",
     tip: "√3/3 = 1/√3. Qual ângulo tem seno = 1/2?",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "A razão hipotenusa/cateto oposto é chamada de:",
     tip: "É o inverso do seno — 'cosec' vem de co-secante (complemento da secante).",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "De um ponto no chão, a uma distância horizontal de 20 m de um edifício, o ângulo de elevação do topo é 45°. A altura do edifício é:",
     tip: "tg 45° = altura / distância horizontal.",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor da expressão sen²45° + cos²45° é:",
     tip: "Aplique a identidade trigonométrica fundamental.",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo, o cateto oposto mede 3 cm e a hipotenusa mede 6 cm. O ângulo α oposto a esse cateto é:",
     tip: "Calcule sen α = cateto oposto / hipotenusa = 3/6 = 1/2. Para qual ângulo notável sen α = 1/2?",

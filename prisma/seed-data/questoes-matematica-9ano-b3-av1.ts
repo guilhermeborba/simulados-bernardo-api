@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Funções',
     type: "multiple_choice",
     text: "Uma relação entre dois conjuntos A e B é chamada de FUNÇÃO quando:",
     tip: "Pense na regra essencial: cada entrada só pode ter uma saída.",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Na função f(x) = 3x − 2, qual é o valor de f(4)?",
     tip: "Substitua x = 4 na expressão: 3 · 4 − 2.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "A FUNÇÃO AFIM (ou função do 1º grau) é definida como f(x) = ax + b, onde:",
     tip: "Qual é a condição fundamental para que a função seja do 1º grau e não constante?",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Na função f(x) = 5x − 3, o coeficiente angular é:",
     tip: "O coeficiente angular é o número que multiplica x — ele indica a inclinação da reta.",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Na função f(x) = −2x + 7, o coeficiente linear é:",
     tip: "O coeficiente linear é o termo independente, o que não multiplica x.",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Uma função afim f(x) = ax + b é CRESCENTE quando:",
     tip: "Observe o que acontece com f(x) quando x aumenta — para qual sinal de 'a' f(x) também aumenta?",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Funções',
     type: "multiple_choice",
     text: "O ZERO (ou raiz) de uma função é o valor de x para o qual:",
     tip: "O zero da função é o ponto onde o gráfico corta o eixo das abscissas.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Qual é o zero da função f(x) = 2x − 6?",
     tip: "Iguale f(x) a zero: 2x − 6 = 0. Resolva para x.",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "O gráfico de uma função afim f(x) = ax + b no plano cartesiano é sempre:",
     tip: "Pense na forma geométrica mais simples que conecta dois pontos no plano.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "A FUNÇÃO LINEAR é um caso especial da função afim f(x) = ax + b onde:",
     tip: "Na função linear, a reta passa pela origem. O que isso implica para o valor de b?",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Considere f: ℝ → ℝ dada por f(x) = 3x + 1. Qual é o valor de f(−2)?",
     tip: "Substitua x = −2: 3 · (−2) + 1.",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Funções',
     type: "multiple_choice",
     text: "Uma função f(x) = k, onde k é uma constante real, é chamada de:",
     tip: "O gráfico é uma reta horizontal — o valor não muda independente de x.",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Na função afim f(x) = ax + b, quando x aumenta 1 unidade, f(x) varia:",
     tip: "Calcule f(x+1) − f(x) e veja o que sobra.",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Uma corrida de táxi custa R$ 5,00 de bandeirada mais R$ 2,00 por km rodado. A função C(k) que representa o custo total em função do número de km percorridos é:",
     tip: "O custo fixo é a bandeirada; o custo variável é proporcional à distância.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "A função f(x) = 4x − 8 corta o eixo y (ordenada na origem) no ponto:",
     tip: "A interseção com o eixo y ocorre quando x = 0. Calcule f(0).",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "A função f(x) = 3x − 9 corta o eixo x em:",
     tip: "Calcule o zero da função: iguale f(x) = 0 e resolva.",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Duas funções afins têm coeficientes angulares a₁ = 3 e a₂ = −1. Comparando seus gráficos:",
     tip: "O sinal do coeficiente angular determina se a reta sobe ou desce da esquerda para a direita.",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Duas retas são PARALELAS quando suas funções afins têm:",
     tip: "Retas paralelas nunca se encontram — o que isso diz sobre suas inclinações?",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Para qual valor de x a função f(x) = 5x − 15 vale 0?",
     tip: "Calcule o zero: 5x − 15 = 0.",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "A função f(x) = −3x + 6 é:",
     tip: "Observe o sinal do coeficiente angular 'a'.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Funções',
     type: "multiple_choice",
     text: "Dadas f(x) = 2x + 1 e g(x) = x − 3, qual é o valor de f(g(5))?",
     tip: "Composição: primeiro calcule g(5), depois aplique f ao resultado.",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Uma reta no plano cartesiano passa pelos pontos (0, 4) e (2, 0). A função afim correspondente é:",
     tip: "Calcule a = (y₂ − y₁)/(x₂ − x₁) e use b = 4 (ponto no eixo y).",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Uma empresa tem custo fixo de R$ 200 e custo variável de R$ 15 por camiseta produzida. Quantas camisetas precisam ser produzidas para que o custo total seja R$ 800?",
     tip: "Monte a equação: 200 + 15x = 800.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Na função f(x) = 4x − 1, quando x passa de 2 para 5, a variação de f(x) é:",
     tip: "Calcule f(5) − f(2).",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Qual é o ponto de interseção das funções f(x) = 2x + 1 e g(x) = −x + 7?",
     tip: "Iguale as duas funções: 2x + 1 = −x + 7. Resolva para x, depois calcule y.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Uma função afim passa pelos pontos (1, 5) e (3, 11). O coeficiente angular dessa função é:",
     tip: "Use a fórmula: a = (y₂ − y₁) / (x₂ − x₁).",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Funções',
     type: "multiple_choice",
     text: "A função inversa de f(x) = 2x + 4 é:",
     tip: "Para encontrar a inversa: escreva y = 2x + 4, troque x por y e y por x, depois resolva para y.",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Comparando as funções f(x) = 5x + 1 e g(x) = 2x − 3, pode-se afirmar que:",
     tip: "O coeficiente angular determina a inclinação — compare seus valores.",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Um carro parte de uma cidade e se afasta a velocidade constante de 80 km/h. A distância d (em km) em função do tempo t (em horas) é d(t) = 80t. Após 3 horas, qual a distância percorrida?",
     tip: "Substitua t = 3 na função.",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Qual das alternativas representa uma função afim?",
     tip: "Função afim tem a forma f(x) = ax + b, com a ≠ 0 — x aparece com expoente 1.",

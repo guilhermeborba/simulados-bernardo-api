@@ -690,6 +690,14 @@ Primeiro de três lotes independentes da base main após api#256: Matemática, C
 
 Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
 
+### Matemática do 9º ano — E04 (23/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 14 temas documentados. Somente `theme` acrescentado; fontes e dados anteriores preservados exatamente. Funções mantém em aberto a classificação solicitada; Equações e Trigonometria não revelam soluções ou razões. Pendências aritméticas, respostas equivalentes e unidade registradas na [issue web #135](https://github.com/guilhermeborba/simulados-bernardo/issues/135).
+
+Terceiro de três lotes independentes da main após api#262: Inglês/8º, Português/9º e Matemática/9º. Base integrada: 9.869/23.444 questões com tema e 329/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 10.109/23.444 e 337/780. O 9º ano fica com 240/1.920 questões classificadas em 8/64 simulados nesta branch. A composição dos três deve atingir 10.589/23.444 e 353/780, com 8º ano completo (1.920/1.920 em 64/64) e 9º ano 480/1.920 em 16/64. E04 segue parcial; próximo trio: Ciências, História e Geografia do 9º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Ciências do 7º ano — E04 (22/10/2026)
 
 Matemática do 7º ano foi integrada em api#249/web#112. Este lote acrescenta somente `theme` às 240 questões dos oito simulados gerais de Ciências do 7º ano, sem entradas privadas adicionais. Vocabulário fechado de 22 nomes e critérios em `docs/temas-editoriais.md`, reaproveitando nomes dos anos anteriores quando o conteúdo corresponde. Planeta Terra, Atmosfera, Propriedades dos gases, Tempo e clima e Relações ecológicas detalham os conteúdos deste ano. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

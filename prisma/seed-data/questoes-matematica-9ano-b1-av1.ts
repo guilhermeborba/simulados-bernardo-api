@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Números reais',
     type: "multiple_choice",
     text: "O conjunto dos NÚMEROS REAIS (ℝ) é formado pela reunião de:",
     tip: "Os reais incluem todos os conjuntos numéricos que você estudou — pense na hierarquia dos conjuntos.",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Números reais',
     type: "multiple_choice",
     text: "Os NÚMEROS IRRACIONAIS se caracterizam por:",
     tip: "Pense em π e √2 — o que esses números têm em comum na forma decimal?",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 2⁻³?",
     tip: "Expoente negativo significa o inverso da potência positiva: a⁻ⁿ = 1/aⁿ.",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Ao multiplicar potências de mesma base, o que fazemos com os expoentes?",
     tip: "aᵐ × aⁿ = ? Pense em 2³ × 2² = 8 × 4 = 32 = 2⁵.",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de 3⁵ ÷ 3²?",
     tip: "Na divisão de potências de mesma base, use a propriedade aᵐ ÷ aⁿ = aᵐ⁻ⁿ.",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "A propriedade 'potência de potência' afirma que (aᵐ)ⁿ é igual a:",
     tip: "Tente com números: (2²)³ = 4³ = 64. O que seria 2^? que dá 64?",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de qualquer número (diferente de zero) elevado à potência zero?",
     tip: "Use a propriedade de divisão: aⁿ ÷ aⁿ = a⁰. E qualquer número dividido por ele mesmo é...?",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "A RAIZ QUADRADA de um número positivo a (√a) é definida como:",
     tip: "√a é o número que, multiplicado por ele mesmo, resulta em a.",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √144?",
     tip: "Procure um número que, multiplicado por ele mesmo, dê 144. Tente números entre 10 e 15.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é a propriedade correta para multiplicação de radicais com mesmo índice?",
     tip: "ⁿ√a × ⁿ√b = ? Teste com √4 × √9 = 2 × 3 = 6. E √(4×9) = √36 = 6.",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é a forma simplificada de √50?",
     tip: "Decompõe 50 em fatores: 50 = 25 × 2. Depois use a propriedade √(a×b) = √a × √b.",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é a forma simplificada de √75?",
     tip: "Decompõe 75: 75 = 25 × 3. Aplique a propriedade do produto de radicais.",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "RACIONALIZAR o denominador de 1/√3 significa:",
     tip: "Racionalizar = eliminar o radical do denominador. Como você eliminaria √3 do denominador?",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "A NOTAÇÃO CIENTÍFICA serve para representar:",
     tip: "Pense em números muito grandes como a distância da Terra ao Sol ou muito pequenos como o diâmetro de um átomo.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "Expresse 0,00045 em notação científica:",
     tip: "Mova o ponto decimal até ter um número entre 1 e 10. Conta quantas casas você moveu.",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "Qual é o resultado de (3 × 10⁴) × (2 × 10³)?",
     tip: "Multiplique os coeficientes entre si e some os expoentes de 10.",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o resultado de ³√27?",
     tip: "A raiz cúbica de 27 é o número que, elevado ao cubo (³), dá 27. Tente 3.",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "A POTÊNCIA FRACIONÁRIA a^(1/2) é equivalente a:",
     tip: "A potência 1/2 de a é o mesmo que qual operação sobre a?",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 8^(2/3)?",
     tip: "Use a potência fracionária: 8^(2/3) = (³√8)². Calcule a raiz cúbica primeiro, depois eleve ao quadrado.",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o resultado de √12 + √27?",
     tip: "Simplifique cada radical primeiro: √12 = 2√3 e √27 = 3√3. Depois some os semelhantes.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o resultado de √3 × √12?",
     tip: "Use a propriedade: √a × √b = √(a×b). Calcule o produto e simplifique.",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Números reais',
     type: "multiple_choice",
     text: "Qual dos números abaixo é IRRACIONAL?",
     tip: "Irracional = decimal infinito e não periódico. Teste cada opção.",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Simplifique: (2³ × 2⁴) ÷ 2⁵",
     tip: "Primeiro some os expoentes da multiplicação, depois subtraia o do divisor.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de (−3)⁴?",
     tip: "Atenção: o sinal de menos está dentro do parêntese. Multiplique (−3) por si mesmo 4 vezes.",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Um quadrado tem área de 200 cm². Qual é a medida exata do lado, na forma simplificada?",
     tip: "Área do quadrado = lado². Então lado = √200. Simplifique: 200 = 100 × 2.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Números reais',
     type: "multiple_choice",
     text: "Qual dos números está em ordem crescente correta?",
     tip: "Compare cada número convertendo para decimal ou use propriedades dos radicais.",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o resultado de 4√5 − √5 + 2√5?",
     tip: "Trate √5 como um 'fator comum'. Some os coeficientes: 4 − 1 + 2 = ?",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o resultado de √2 × √8?",
     tip: "√2 × √8 = √(2 × 8) = √16. Calcule √16.",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Teorema de Pitágoras',
     type: "multiple_choice",
     text: "O Teorema de Pitágoras afirma que em um triângulo retângulo com catetos a e b e hipotenusa c: c² = a² + b². Se a = 3 e b = 4, qual é c?",
     tip: "Calcule c² = 3² + 4² = 9 + 16 = 25. Depois extraia a raiz quadrada.",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual das alternativas representa corretamente √(a²) para qualquer valor real de a?",
     tip: "Cuidado: √(a²) não é simplesmente a, pois a pode ser negativo e a raiz é sempre positiva.",

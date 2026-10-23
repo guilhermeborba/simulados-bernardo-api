@@ -1307,6 +1307,33 @@ Potenciação inclui as aplicações em área e volume quando o foco é a potên
 
 Os simulados têm, na ordem B1/AV1 a B4/AV2, dois, dois, um, dois, um, um, dois e oito temas. As unidades concentradas mantêm poucos agrupamentos; B4/AV2 revisa oito assuntos do ano. A revisão semântica não encontrou temas que nomeiem a alternativa pedida. Ambiguidades e conceitos anteriores registrados na [issue web #126](https://github.com/guilhermeborba/simulados-bernardo/issues/126), preservados para revisão separada. Classificação temática não certifica gabaritos ou precisão pedagógica.
 
+### Matemática — 9º ano
+
+| Tema | Abrange |
+|---|---|
+| Números reais | Conjuntos, racionais/irracionais, comparação e fundamentos das operações reais. |
+| Potenciação | Expoentes inteiros/fracionários e propriedades das potências. |
+| Radiciação | Raízes, simplificação, operações, racionalização, domínio e valor absoluto. |
+| Notação científica | Representação de números e operações com potências de dez. |
+| Teorema de Pitágoras | Cálculo da hipotenusa a partir dos catetos. |
+| Produtos notáveis | Quadrados/cubos, soma pela diferença e cálculo por identidades. |
+| Fatoração | Fator comum, agrupamento, trinômios e diferenças de potências. |
+| Expressões algébricas | Simplificação, avaliação e relação entre identidades e expressões. |
+| Equações | Equações quadráticas, biquadradas, irracionais e fracionárias, raízes e modelagem. |
+| Sistemas de equações | Sistemas lineares, métodos, soluções e problemas com condições simultâneas. |
+| Funções | Definição de função, avaliação, composição, inversa, constante e comparação entre graus. |
+| Função afim | Coeficientes, zeros, reta, crescimento/decrescimento e aplicações de funções afins. |
+| Função quadrática | Parábolas, coeficientes, zeros, discriminante, vértice, extremos e aplicações. |
+| Trigonometria | Triângulos retângulos, razões, ângulos notáveis, identidades e medidas indiretas. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-matematica-9ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 14 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Números reais não fornece o número irracional pedido. Equações mantém em aberto o grau, a natureza das raízes, a solução e o método solicitado, sem chamar um item pela resposta. Funções é usado em B3/AV1, ID 12, sem entregar Função constante. Função afim e Função quadrática são usadas quando o campo já está nomeado no comando ou sua expressão está apresentada, sem revelar o coeficiente, raiz, vértice ou gráfico pedidos. Trigonometria não antecipa o nome da razão em B4/AV1, IDs 23 e 27. Os temas não presumem correção das alternativas legadas.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 5, 3, 1, 2, 2, 2, 1, 10 temas. Potências/radicais articulam cinco temas e identidades/fatoração, três. Unidades de equações e trigonometria são focadas e têm um tema; sistemas e funções, dois. A revisão anual retoma dez campos. A contagem segue o conteúdo abordado, sem rótulo específico por resposta.
+
+Gabarito aritmético, alternativas equivalentes, notação de conjunto e unidade monetária registrados na [issue web #135](https://github.com/guilhermeborba/simulados-bernardo/issues/135), para revisão própria. Todos os campos anteriores preservados; cobertura temática não certifica correção matemática do legado.
+
 ### Ciências — 7º ano
 
 | Tema | Abrange |

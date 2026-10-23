@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de (3²)³ ÷ 3⁴?",
     tip: "Aplique a propriedade da potência de potência: (aᵐ)ⁿ = aᵐⁿ. Depois use a divisão de potências de mesma base.",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Simplifique: √75",
     tip: "Decomponha 75 em fatores: 75 = 25 · 3. Use √(a·b) = √a · √b.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Expanda o produto notável (x + 4)²:",
     tip: "Use (a + b)² = a² + 2ab + b². Aqui, a = x e b = 4.",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore completamente: x² − 9",
     tip: "Reconheça a diferença de dois quadrados: a² − b² = (a + b)(a − b).",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Usando Bhaskara, resolva x² − 5x + 6 = 0:",
     tip: "Calcule Δ = 25 − 24 = 1. As raízes são x = (5 ± √1)/2.",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para a equação x² + 4x + 5 = 0, o discriminante Δ vale:",
     tip: "Δ = b² − 4ac = 4² − 4·1·5.",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de √(2x + 1) = 3?",
     tip: "Eleve ao quadrado: 2x + 1 = 9. Resolva para x e verifique.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolva o sistema: { x + y = 10 ; x − y = 4 }",
     tip: "Some as duas equações para eliminar y.",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "Qual é o zero da função afim f(x) = 4x − 12?",
     tip: "Iguale f(x) = 0: 4x − 12 = 0.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "A função f(x) = −3x + 7 é DECRESCENTE. Qual é a justificativa correta?",
     tip: "O comportamento da função (crescer ou decrescer) depende de qual coeficiente?",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Para a função f(x) = x² − 6x + 8, o discriminante Δ é:",
     tip: "Δ = b² − 4ac = (−6)² − 4·1·8.",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Os zeros de f(x) = x² − 6x + 8 são:",
     tip: "Com Δ = 4, aplique Bhaskara: x = (6 ± √4)/2 = (6 ± 2)/2.",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Qual é a coordenada x do vértice de f(x) = x² − 6x + 8?",
     tip: "Use xv = −b/(2a) = −(−6)/(2·1).",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor do sen 30° é:",
     tip: "No triângulo 30°-60°-90° com hipotenusa 2, o cateto oposto a 30° tem comprimento 1.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor da tg 45° é:",
     tip: "tg 45° = sen 45° / cos 45°. Como sen 45° = cos 45°, o que resulta?",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Em um triângulo retângulo, a hipotenusa mede 8 cm e α = 30°. O cateto oposto mede:",
     tip: "cateto oposto = hipotenusa · sen 30° = 8 · (1/2).",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "Qual é o valor de sen²60° + cos²60°?",
     tip: "Aplique a identidade fundamental da trigonometria — ela vale para qualquer ângulo.",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "De um ponto no chão, a 10 m de um poste, o ângulo de elevação do topo é 60°. A altura do poste é:",
     tip: "tg 60° = altura / distância horizontal.",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de ³√27 + √16?",
     tip: "Calcule cada raiz separadamente: qual número elevado ao cubo dá 27? E ao quadrado dá 16?",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a soma das raízes da equação 2x² − 6x + 4 = 0?",
     tip: "Use a relação de Girard: soma das raízes = −b/a.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Função afim',
     type: "multiple_choice",
     text: "As funções afins f(x) = 2x + 3 e g(x) = 2x − 5 têm gráficos que são:",
     tip: "Compare os coeficientes angulares das duas funções.",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Números reais',
     type: "multiple_choice",
     text: "Qual das alternativas representa um número IRRACIONAL?",
     tip: "Número irracional não pode ser escrito como fração p/q com p, q inteiros e q ≠ 0.",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O COSSENO de um ângulo α no triângulo retângulo é definido como:",
     tip: "Lembre do mnemônico CAH: Cosseno = Adjacente / Hipotenusa.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolva o sistema: { 2x + y = 7 ; x − y = 2 }",
     tip: "Some as duas equações para eliminar y.",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Qual é o valor mínimo da função f(x) = x² − 4x + 7?",
     tip: "Calcule o vértice: xv = −(−4)/(2·1) = 2. Depois, f(2) = ?",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Qual é a fatoração de 4x² − 25?",
     tip: "Reconheça a diferença de dois quadrados: 4x² = (2x)² e 25 = 5².",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "A condição de existência (domínio) para a expressão √(3x − 6) é:",
     tip: "Para que a raiz quadrada exista em ℝ, o radicando deve ser ≥ 0.",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Trigonometria',
     type: "multiple_choice",
     text: "O valor do cos 60° é:",
     tip: "No triângulo 30°-60°-90° com hipotenusa 2, o cateto adjacente a 60° tem comprimento 1.",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "A parábola de f(x) = −2x² + 8x − 3 tem concavidade:",
     tip: "Analise o sinal do coeficiente 'a' para determinar a concavidade.",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Números reais',
     type: "multiple_choice",
     text: "Qual dos conteúdos a seguir é a base que sustenta todos os outros tópicos estudados no 9º ano de Matemática?",
     tip: "Pense: sem qual fundamento não seria possível estudar potências, equações, funções e trigonometria?",

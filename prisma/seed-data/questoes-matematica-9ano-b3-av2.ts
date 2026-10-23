@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "A FUNÇÃO QUADRÁTICA (ou função do 2º grau) é definida como f(x) = ax² + bx + c, onde:",
     tip: "Qual é a condição para que a função seja do 2º grau e não do 1º grau?",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Na função f(x) = 3x² − 5x + 2, os coeficientes a, b e c são, respectivamente:",
     tip: "Identifique o número que multiplica x², o que multiplica x e o termo independente.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Por que na função quadrática f(x) = ax² + bx + c exige-se que a ≠ 0?",
     tip: "O que acontece com a equação se a = 0?",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Dada f(x) = x² − 2x + 3, qual é o valor de f(3)?",
     tip: "Substitua x = 3: 3² − 2·3 + 3.",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "O gráfico de uma função quadrática f(x) = ax² + bx + c tem sempre a forma de:",
     tip: "Pense na forma da trajetória de uma bola jogada para cima.",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "A parábola de f(x) = ax² + bx + c tem concavidade voltada para CIMA quando:",
     tip: "Imagine uma tigela — para que ela fique com a abertura para cima?",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "O VÉRTICE de uma parábola é:",
     tip: "O vértice é o ponto mais especial da parábola — o ponto de virada.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Na função f(x) = 2x² − 8x + 3, a coordenada x do vértice é:",
     tip: "Use a fórmula xv = −b/(2a).",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "O DISCRIMINANTE de uma função quadrática f(x) = ax² + bx + c é calculado por:",
     tip: "O discriminante aparece debaixo da raiz na fórmula de Bhaskara.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Para a função f(x) = x² − 6x + 9, o valor do discriminante Δ é:",
     tip: "Identifique a = 1, b = −6, c = 9 e aplique Δ = b² − 4ac.",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Se Δ > 0, a função quadrática f(x) possui:",
     tip: "Δ positivo sob a raiz quadrada na fórmula de Bhaskara — quantas raízes reais isso gera?",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Se Δ = 0, a função quadrática f(x) possui:",
     tip: "Com Δ = 0, a fórmula de Bhaskara fica x = −b/(2a) — um único valor.",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Se Δ < 0, a função quadrática f(x) possui:",
     tip: "Com Δ < 0, a raiz quadrada de um número negativo não é real.",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Quais são os zeros de f(x) = x² − 5x + 6?",
     tip: "Calcule Δ = 25 − 24 = 1. Aplique Bhaskara: x = (5 ± 1)/2.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Para a função f(x) = −2x² + 4x − 1, o vértice representa:",
     tip: "Observe o sinal de 'a' para determinar se é máximo ou mínimo.",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Qual é o valor mínimo de f(x) = x² − 4x + 7?",
     tip: "Calcule o vértice: xv = −(−4)/(2·1) = 2. Depois, f(2) = ?",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "O EIXO DE SIMETRIA de uma parábola f(x) = ax² + bx + c é a reta vertical:",
     tip: "O eixo de simetria passa pelo vértice — qual é a fórmula da coordenada x do vértice?",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "A função f(x) = 3x² − 7x + 4 cruza o eixo y no ponto:",
     tip: "A interseção com o eixo y ocorre quando x = 0. Calcule f(0).",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Uma bola é lançada para cima com altura dada por h(t) = −5t² + 20t (em metros). O tempo para atingir a altura máxima é:",
     tip: "O tempo do vértice é tv = −b/(2a) = −20/(2·(−5)).",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Usando h(t) = −5t² + 20t, a altura máxima atingida pela bola é:",
     tip: "Substitua t = 2 s (tempo do vértice) na função h(t).",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Qual é o eixo de simetria da parábola f(x) = 2x² − 12x + 5?",
     tip: "Use xv = −b/(2a) = −(−12)/(2·2).",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Uma função quadrática tem zeros x = −1 e x = 4, com coeficiente a = 1. Qual é essa função?",
     tip: "Use: f(x) = a(x − x₁)(x − x₂) = 1·(x − (−1))(x − 4).",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Para f(x) = x² − 4 (zeros em x = −2 e x = 2), a função é NEGATIVA para:",
     tip: "Parábola com a > 0: negativa entre os zeros, positiva fora. Onde está o 'vale'?",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Qual das afirmações sobre a parábola de f(x) = −x² + 6x − 5 é CORRETA?",
     tip: "Observe o sinal do coeficiente a para determinar a concavidade.",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "A função f(x) = −x² + 6x − 5 atinge valor máximo em xv = 3. Qual é esse valor máximo?",
     tip: "Substitua x = 3: f(3) = −(3)² + 6·3 − 5.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Funções',
     type: "multiple_choice",
     text: "Qual é a principal diferença entre a função do 1º grau e a do 2º grau?",
     tip: "Pense nos gráficos: reta × parábola.",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "A parábola de f(x) = x² + 2x + 5 corta o eixo x em:",
     tip: "Calcule Δ = b² − 4ac = 4 − 20.",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Uma parábola tem concavidade voltada para cima e cruza o eixo y no ponto (0, 3). Qual poderia ser sua função?",
     tip: "Concavidade para cima → a > 0. Eixo y em (0, 3) → c = 3.",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "O lucro de uma empresa é dado por L(x) = −2x² + 40x − 150, onde x é o número de produtos vendidos (em centenas). Qual é o lucro máximo?",
     tip: "Calcule o vértice: xv = −40/(2·(−2)) = 10. Depois, L(10) = ?",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Função quadrática',
     type: "multiple_choice",
     text: "Qual das alternativas representa uma função quadrática?",
     tip: "Função quadrática tem forma f(x) = ax² + bx + c, com a ≠ 0 — x aparece ao quadrado.",
