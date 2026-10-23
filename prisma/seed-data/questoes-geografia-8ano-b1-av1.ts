@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O processo em que as potências europeias ocuparam e dominaram territórios na África e na Ásia, principalmente no século XIX, é chamado de:",
     tip: "Pense no prefixo 'neo', que significa 'novo' — é uma nova fase de colonização, diferente da mais antiga feita nas Américas.",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A reunião realizada em 1884-1885, em que as potências europeias decidiram como dividir o território africano entre si, é conhecida como:",
     tip: "Pense na capital alemã, que deu nome a essa reunião decisiva sobre o destino do continente africano.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Um dos principais motivos que levaram os países europeus a dominar territórios na África e na Ásia foi a busca por:",
     tip: "Pense no motivo econômico mais forte — os europeus precisavam de recursos para suas indústrias e de lugares para vender seus produtos.",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "As fronteiras de muitos países africanos foram traçadas pelos europeus sem considerar:",
     tip: "Pense no que realmente importava para a identidade dos povos locais — não eram apenas elementos geográficos, mas sim quem eram essas pessoas.",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O neocolonialismo na África e na Ásia ocorreu principalmente durante o século:",
     tip: "Pense no período logo após a Revolução Industrial se consolidar na Europa, bem diferente da colonização mais antiga das Américas.",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Diferente do colonialismo mais antigo, o neocolonialismo teve forte apoio em avanços:",
     tip: "Pense nas armas, navios e outras tecnologias que permitiram aos europeus dominar territórios tão distantes com mais facilidade.",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Muitos conflitos atuais em países africanos têm relação com as fronteiras artificiais criadas durante o período:",
     tip: "Pense no período em que as fronteiras africanas foram desenhadas por europeus, sem considerar os povos locais, já mencionado nesta prova.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "A exploração de recursos naturais, como minérios e produtos agrícolas, nas colônias africanas e asiáticas beneficiava principalmente:",
     tip: "Pense em quem realmente ficava com os lucros dessa exploração — os países que dominavam, e não os territórios explorados.",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O Reino Unido e a França foram dois dos principais países europeus envolvidos no processo de:",
     tip: "Pense nos dois países europeus que mais se destacaram na disputa por territórios no continente africano e asiático.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A resistência dos povos africanos e asiáticos à dominação europeia muitas vezes resultou em:",
     tip: "Pense em como os povos locais normalmente reagem quando seus territórios são invadidos e controlados por forças externas.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Um país africano cuja fronteira atual atravessa territórios de diferentes grupos étnicos, criando tensões internas, provavelmente teve suas fronteiras definidas durante:",
     tip: "Pense em quem realmente definiu essas fronteiras, sem considerar os grupos étnicos locais, já discutido nesta prova.",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "A exploração de borracha no Congo, controlada pela Bélgica durante o neocolonialismo, é um exemplo de como as potências europeias:",
     tip: "Pense no verdadeiro objetivo dessa exploração — era para beneficiar a metrópole, não a população local.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A Conferência de Berlim, realizada sem a participação de nenhum representante africano, mostra como a partilha do continente foi decidida:",
     tip: "Pense em quem realmente teve voz nessa decisão — apenas as potências europeias, sem nenhuma consulta aos africanos.",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Muitos países asiáticos, como a Índia, foram colonizados pelos europeus e tiveram suas economias voltadas principalmente para:",
     tip: "Pense no papel econômico que as colônias desempenhavam para as metrópoles europeias — fornecer recursos, não desenvolver sua própria indústria.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Após a Segunda Guerra Mundial, muitos países africanos e asiáticos que haviam sido colonizados passaram por um processo de:",
     tip: "Pense no movimento histórico que ocorreu depois da guerra, quando vários territórios conquistaram sua autonomia política.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "As divisões étnicas e culturais causadas pelas fronteiras artificiais do neocolonialismo ainda influenciam hoje:",
     tip: "Pense nas consequências de longo prazo desse processo histórico, que vão muito além de apenas questões econômicas.",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Um dos legados negativos do neocolonialismo para muitos países africanos e asiáticos foi a:",
     tip: "Pense no tipo de relação econômica que continuou existindo entre as antigas colônias e metrópoles, mesmo depois da independência.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "A ideia de que os europeus tinham o 'dever' de civilizar outros povos, usada para justificar o neocolonialismo, é conhecida como:",
     tip: "Pense em uma expressão que usa a palavra 'fardo' (peso, responsabilidade) relacionada a uma ideia europeia equivocada da época.",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A disputa entre potências europeias por territórios na África e na Ásia também contribuiu, mais tarde, para tensões que ajudaram a desencadear:",
     tip: "Pense no grande conflito mundial do início do século XX, que teve entre suas causas as rivalidades imperialistas entre as potências europeias.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "A exploração de diamantes e ouro na África do Sul durante o período colonial beneficiou principalmente:",
     tip: "Pense em quem realmente controlava e lucrava com essas minas, geralmente empresas e governos ligados à Europa.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo estudou sobre a Conferência de Berlim e descobriu que as potências europeias dividiram a África entre si sem a participação de nenhum representante africano. Esse processo é conhecido como:",
     tip: "Pense no nome dado a essa nova fase de dominação colonial europeia, diferente da colonização mais antiga das Américas.",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo leu sobre a reunião de 1884-1885 em que as potências europeias decidiram como dividir o território africano. Como se chama esse encontro histórico?",
     tip: "Pense na capital alemã que deu nome a essa reunião decisiva sobre o destino do continente africano.",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Bernardo percebeu, ao estudar o mapa da África, que muitas fronteiras são retas e não seguem características naturais ou étnicas. Isso tem relação direta com:",
     tip: "Pense em quem realmente definiu essas fronteiras retas, sem considerar as características locais.",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo descobriu que a exploração de recursos naturais nas colônias da África e da Ásia, durante o neocolonialismo, beneficiava principalmente:",
     tip: "Pense em quem realmente ficava com os lucros dessa exploração de recursos.",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo aprendeu que muitos países asiáticos, como a Índia, colonizados pelos europeus, tiveram suas economias voltadas principalmente para:",
     tip: "Pense no papel econômico das colônias para as metrópoles europeias — fornecer recursos, e não desenvolver sua própria indústria.",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "Bernardo descobriu que a expressão usada para justificar o domínio europeu sobre outros povos, como se fosse um 'dever' dos europeus, é chamada de:",
     tip: "Pense na expressão com a palavra 'fardo', relacionada a essa ideia equivocada da época colonial.",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo aprendeu que a disputa entre potências europeias por territórios na África e na Ásia também contribuiu para tensões que ajudaram a desencadear:",
     tip: "Pense no grande conflito mundial do início do século XX, que teve entre suas causas as rivalidades coloniais.",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo descobriu que, depois da Segunda Guerra Mundial, muitos países africanos e asiáticos colonizados passaram por um processo de:",
     tip: "Pense no movimento histórico de conquista da autonomia política, que ocorreu depois da guerra.",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo entendeu que um dos legados negativos do neocolonialismo para muitos países foi a:",
     tip: "Pense no tipo de relação econômica que continuou existindo entre antigas colônias e metrópoles, mesmo após a independência.",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Bernardo concluiu, após estudar o tema, que as divisões étnicas e culturais causadas pelas fronteiras artificiais do neocolonialismo ainda influenciam hoje:",
     tip: "Pense nas consequências de longo prazo desse processo histórico, que vão além de apenas questões econômicas pontuais.",

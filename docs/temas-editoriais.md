@@ -913,6 +913,42 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-geo
 
 Distribuição: B1/AV1 tem três temas; B1/AV2 e B2/AV1, um cada; B2/AV2, três; B3/AV1 e B3/AV2, quatro cada; B4/AV1, oito; B4/AV2 revisa treze. Todos os campos anteriores foram preservados exatamente, incluindo gabaritos. A leitura encontrou divergências de letras e formulações conceituais, documentadas com um roteiro manual de revisão na [issue web #117](https://github.com/guilhermeborba/simulados-bernardo/issues/117). Preencher `theme` não corrige nem certifica esses conteúdos.
 
+### Geografia — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Relações internacionais | Colonialismo, independências, poder, conflitos, diplomacia, organismos e soberania. |
+| Formação territorial | Partilha, fronteiras, território, povos e tensões históricas. |
+| Economia mundial | Matérias-primas, dependência, comércio, moedas, empresas e produção econômica. |
+| Trabalho e tecnologia | Avanços industriais, técnicos e informacionais, domínio e integração. |
+| Cultura e identidade | Justificativas do domínio colonial, línguas, expressões e influências culturais. |
+| Espaço mundial | Integração quando o conceito é solicitado; países, continentes, capitais, estados e localização. |
+| Globalização | Circulação de bens, informação e cultura, multinacionais e efeitos desiguais da integração. |
+| Blocos econômicos | Acordos, Mercosul, União Europeia, USMCA e cooperação comercial. |
+| População mundial | Censo, indicadores, densidade, natalidade, mortalidade, fecundidade, idade e distribuição. |
+| Migração | Movimentos internos/internacionais, motivos, êxodo rural e deslocamentos forçados. |
+| Organização das cidades | Urbanização, conurbação, verticalização, desigualdade, planejamento e mercado imobiliário. |
+| Campo e cidade | Características e distinção entre espaços rurais e urbanos. |
+| Saneamento e infraestrutura | Água, esgoto, resíduos, serviços urbanos e desigualdade de acesso. |
+| Transportes e circulação | Deslocamentos e mobilidade no espaço urbano. |
+| Sustentabilidade | Cidades, energia, resíduos, ambiente e próximas gerações. |
+| Relevo | Montanhas, cordilheiras, altitude e formas do terreno. |
+| Hidrografia | Rios, lagos, localização e características hidrográficas. |
+| Clima e cotidiano | Variações climáticas e fenômenos como furacões. |
+| Fusos horários | Extensão territorial, diferenças de horário, dia e noite. |
+| Agricultura | Produção agrícola das Grandes Planícies. |
+| Biomas | Desertos, savanas, florestas, vegetação e fauna. |
+| Recursos naturais | Minérios, riquezas naturais e exploração econômica. |
+| Preservação ambiental | Degradação de terras e desertificação. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-geografia-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 23 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Relações internacionais não antecipa neocolonialismo, imperialismo, descolonização, diplomacia ou organização solicitada. Espaço mundial evita fornecer Globalização em B1/AV2, IDs 1, 2, 17 e 29, e B4/AV2, ID 30. Economia mundial evita fornecer Blocos econômicos em B1/AV2, ID 3, e B4/AV2, ID 3. População mundial cobre B2/AV1, ID 23, sem antecipar a alternativa armazenada Migração. Organização das cidades não presume correções de comandos/alternativas sobre especulação ou gentrificação. Biomas mantém em aberto o deserto e a vegetação; Espaço mundial não entrega países, capitais ou continentes.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 5, 5, 2, 6, 8, 10, 4, 10 temas. O estudo dos EUA articula oito conteúdos de geografia e o da África, dez; a revisão anual retoma dez agrupamentos. A quantidade acompanha as diferentes áreas abordadas, sem um nome por pergunta. Demografia concentra dois agrupamentos.
+
+Gabaritos, alternativas ausentes e conceitos anteriores registrados com fontes na [issue web #130](https://github.com/guilhermeborba/simulados-bernardo/issues/130), preservados para revisão própria. Cobertura temática não certifica a precisão pedagógica, demográfica ou histórica do legado.
+
 ### Arte — 6º ano
 
 | Tema | Abrange |

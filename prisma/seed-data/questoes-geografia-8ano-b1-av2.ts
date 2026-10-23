@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "O processo de integração econômica, cultural e tecnológica entre os países do mundo, intensificado nas últimas décadas, é chamado de:",
     tip: "Pense no nome que descreve a conexão cada vez maior entre os países do mundo todo, em diversas áreas.",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Os avanços na internet, nos transportes e nas telecomunicações contribuíram diretamente para intensificar o processo de:",
     tip: "Pense em como essas tecnologias aproximaram as pessoas e os países, facilitando trocas e comunicação.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Um grupo de países que se une por meio de acordos para facilitar o comércio entre si é chamado de:",
     tip: "Pense no nome que descreve essa união de países com objetivos comerciais em comum.",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "O Mercosul é um bloco econômico formado principalmente por países da:",
     tip: "Pense no continente onde está localizado o Brasil, um dos principais membros desse bloco.",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "A União Europeia é um bloco econômico e político formado por diversos países do continente:",
     tip: "Pense no próprio nome do bloco — ele já indica diretamente o continente ao qual pertence.",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Empresas que atuam em diversos países ao mesmo tempo, com fábricas e filiais em diferentes continentes, são chamadas de empresas:",
     tip: "Pense no prefixo 'multi', que significa 'muitos' — são empresas presentes em muitas nações diferentes.",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "A globalização facilitou o acesso das pessoas a produtos, informações e culturas de:",
     tip: "Pense em como hoje conseguimos acessar filmes, músicas e produtos de qualquer lugar do mundo com facilidade.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Uma das críticas à globalização é que ela pode aumentar a desigualdade entre:",
     tip: "Pense na diferença econômica entre nações que já são bem desenvolvidas e aquelas que ainda estão se desenvolvendo.",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "A revolução técnico-científica-informacional, que impulsionou a globalização, está relacionada principalmente ao avanço:",
     tip: "Pense no próprio nome dessa revolução — ela tem relação direta com avanços tecnológicos e de informação.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Um exemplo de bloco econômico formado por países da América do Norte é o:",
     tip: "Pense nos três países da América do Norte que fizeram um acordo comercial famoso, renovado mais recentemente.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Quando uma pessoa no Brasil compra, pela internet, um produto fabricado em outro país e recebido em poucos dias, isso é um exemplo direto de como a globalização facilita:",
     tip: "Pense no que realmente está acontecendo nessa compra — um produto cruzando fronteiras rapidamente até chegar ao comprador.",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Países que fazem parte de um bloco econômico, como o Mercosul, costumam ter benefícios como a redução de:",
     tip: "Pense no principal objetivo de criar um bloco econômico — facilitar o comércio entre os países que fazem parte dele.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "A globalização também trouxe desafios, como a possibilidade de empresas multinacionais buscarem países com:",
     tip: "Pense no motivo econômico pelo qual algumas empresas procuram países com regras mais flexíveis — isso reduz os custos de produção.",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "A difusão global de músicas, filmes e produtos culturais de diferentes países é um exemplo de globalização:",
     tip: "Pense no tipo de globalização relacionada a hábitos, costumes, arte e entretenimento, e não apenas a dinheiro ou política.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Um país que exporta matérias-primas e importa produtos industrializados mais caros tende a ter uma relação:",
     tip: "Pense na diferença de valor entre matéria-prima bruta e produto já industrializado — isso cria um desequilíbrio comercial.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "A criação de blocos econômicos, como a União Europeia, busca fortalecer a economia dos países-membros através da:",
     tip: "Pense no verdadeiro objetivo de formar um bloco — trabalhar junto, não isolar cada país ou eliminar o comércio.",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "A rapidez com que notícias e informações se espalham pelo mundo hoje é um exemplo direto de como a tecnologia impulsionou a:",
     tip: "Pense em como as notícias de qualquer parte do mundo chegam até nós quase instantaneamente hoje em dia.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Multinacionais que instalam fábricas em diferentes países geralmente buscam, entre outros fatores, locais com:",
     tip: "Pense no motivo financeiro pelo qual uma empresa escolhe instalar fábricas em determinados países — geralmente é para reduzir custos.",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "A globalização também pode gerar uma 'padronização cultural', em que produtos e costumes de poucos países dominam o mundo, o que gera debates sobre a:",
     tip: "Pense no que pode acontecer com culturas locais quando poucos países e marcas dominam o que o mundo consome.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "O comércio entre os países-membros de um bloco econômico, como o Mercosul, costuma ser facilitado por meio da redução de:",
     tip: "Pense no principal objetivo econômico de criar um bloco — tornar mais barato comerciar entre os países que fazem parte dele.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Bernardo comprou, pela internet, um produto eletrônico fabricado em outro país e o recebeu em poucos dias no Brasil. Isso é um exemplo direto de como a globalização facilita:",
     tip: "Pense no que realmente aconteceu nessa compra de Bernardo — um produto cruzando fronteiras rapidamente.",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo descobriu que empresas que atuam em diversos países ao mesmo tempo, com fábricas e filiais em diferentes continentes, são chamadas de empresas:",
     tip: "Pense no prefixo 'multi', relacionado a 'muitos' países diferentes onde essas empresas atuam.",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Bernardo aprendeu que o Mercosul é um bloco econômico formado principalmente por países da:",
     tip: "Pense no continente onde está localizado o Brasil, um dos principais membros desse bloco.",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Bernardo pesquisou sobre blocos econômicos e descobriu que eles costumam trazer benefícios como a redução de:",
     tip: "Pense no principal objetivo de criar um bloco econômico — facilitar o comércio entre os países-membros.",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Bernardo entendeu que a globalização também trouxe desafios, como a possibilidade de empresas multinacionais buscarem países com:",
     tip: "Pense no motivo econômico pelo qual algumas empresas procuram países com regras mais flexíveis.",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Bernardo percebeu que a difusão global de músicas, filmes e produtos culturais de diferentes países é um exemplo de globalização:",
     tip: "Pense no tipo de globalização relacionada a costumes, arte e entretenimento, e não apenas a dinheiro.",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo descobriu que um país que exporta matérias-primas e importa produtos industrializados mais caros tende a ter uma relação:",
     tip: "Pense na diferença de valor entre matéria-prima bruta e produto já industrializado.",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Bernardo entendeu que a criação de blocos econômicos, como a União Europeia, busca fortalecer a economia dos países-membros através da:",
     tip: "Pense no verdadeiro objetivo de formar um bloco econômico — trabalhar junto, e não isolar cada país.",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo percebeu que a rapidez com que notícias e informações se espalham pelo mundo hoje é um exemplo direto de como a tecnologia impulsionou a:",
     tip: "Pense em como as notícias de qualquer parte do mundo chegam até Bernardo quase instantaneamente hoje em dia.",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo entendeu que multinacionais que instalam fábricas em diferentes países geralmente buscam, entre outros fatores, locais com:",
     tip: "Pense no motivo financeiro pelo qual uma empresa escolhe instalar fábricas em determinados países.",

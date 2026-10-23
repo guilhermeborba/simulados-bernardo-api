@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "A África é:",
     tip: "Pense em como você já estudou outros continentes, como a América e a Europa — a África é parecida com eles em que sentido?",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Quantos países, aproximadamente, existem no continente africano?",
     tip: "Pense em como a África é um continente enorme, dividido em muitos pedacinhos — cada pedaço é um país diferente.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "Qual é o maior deserto do mundo, localizado na África?",
     tip: "Esse deserto fica na parte norte da África e é tão grande quanto quase todo o território dos Estados Unidos!",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Hidrografia',
     type: "multiple_choice",
     text: "Qual é o rio mais longo do mundo, localizado na África?",
     tip: "Esse rio atravessa o Egito e é famoso por ter ajudado a civilização egípcia antiga a se desenvolver.",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Qual linha imaginária passa pelo meio do continente africano, dividindo-o entre hemisfério norte e sul?",
     tip: "Pense na linha que divide a Terra entre os dois hemisférios, norte e sul — ela passa bem pelo meio da África.",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "Por que muitos países africanos falam línguas europeias, como francês, inglês e português?",
     tip: "Pense em como o Brasil fala português por causa da colonização portuguesa — algo parecido aconteceu em vários países africanos, mas com outros países europeus.",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "O que é a \"savana africana\"?",
     tip: "Pense nos documentários que mostram leões, elefantes e girafas andando por um campo aberto, com árvores de vez em quando.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Relevo',
     type: "multiple_choice",
     text: "Qual é a montanha mais alta da África?",
     tip: "Essa montanha fica na Tanzânia e, apesar de estar perto da linha do Equador, seu topo pode ficar coberto de neve!",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Clima e cotidiano',
     type: "multiple_choice",
     text: "Qual destes climas pode ser encontrado no continente africano?",
     tip: "Pense num continente tão grande que tem desde desertos secos até florestas bem chuvosas — isso significa que ele tem vários tipos de clima diferentes.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "A Floresta Tropical do Congo, localizada na África Central, é importante porque:",
     tip: "Pense numa grande área verde, cheia de árvores e animais, parecida com a nossa Floresta Amazônica, mas localizada na África.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "O que foi a \"Partilha da África\", ocorrida principalmente no século XIX?",
     tip: "Pense em como os países europeus, há muito tempo, decidiram \"repartir\" o continente africano como se fosse um bolo, sem perguntar para quem já vivia lá.",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "Quais destes são exemplos de países africanos que falam português, por terem sido colonizados por Portugal?",
     tip: "Pense em países que, assim como o Brasil, falam português até hoje por causa da colonização portuguesa — mas localizados no continente africano.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "O Egito, localizado no norte da África, é famoso por:",
     tip: "Pense nas pirâmides e nos faraós que você já deve ter visto em livros ou documentários — de qual país africano eles vêm?",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Qual é, atualmente, o país mais populoso da África?",
     tip: "Esse país fica na região oeste da África e tem uma população enorme, com mais de 200 milhões de pessoas.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Por que a população da África vem crescendo tão rapidamente nas últimas décadas?",
     tip: "Lembra do que você aprendeu sobre taxa de natalidade? Pense em como isso afeta o crescimento da população de um lugar.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Recursos naturais',
     type: "multiple_choice",
     text: "Quais destes são recursos minerais importantes encontrados em países africanos?",
     tip: "Pense em pedras preciosas e metais valiosos que são extraídos da terra — alguns dos maiores produtores do mundo desses recursos ficam na África.",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Hidrografia',
     type: "multiple_choice",
     text: "Qual é o segundo rio mais longo da África, muito importante para os países da região central do continente?",
     tip: "Esse rio tem o mesmo nome do país e da floresta tropical da região central da África.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Preservação ambiental',
     type: "multiple_choice",
     text: "O que é \"desertificação\", um desafio ambiental enfrentado por algumas regiões da África?",
     tip: "Pense na palavra \"deserto\" escondida dentro dessa palavra. O que aconteceria se uma terra que antes tinha plantas fosse ficando seca como um deserto?",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "A música e a dança africanas são conhecidas mundialmente por:",
     tip: "Pense em como muitos ritmos musicais que você conhece, como o samba brasileiro, têm raízes que vêm de culturas africanas.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Apesar de riquezas naturais, muitos países africanos enfrentam desafios como pobreza e conflitos internos. Isso está relacionado, entre outros fatores, com:",
     tip: "Lembra da \"Partilha da África\" que você estudou? Pense em como dividir territórios sem respeitar os povos que já viviam lá pode causar problemas até hoje.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo está estudando um mapa da África e percebeu que o continente é dividido em muitos países pequenos e grandes. Ao todo, a África tem:",
     tip: "Lembra do que você aprendeu no começo desse simulado sobre quantos países formam esse continente?",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "Bernardo viu fotos de um deserto gigante na África, maior até que o território de muitos países juntos. Esse deserto se chama:",
     tip: "Lembra do nome do maior deserto quente do mundo, que fica no norte da África?",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo leu sobre as pirâmides egípcias na escola e quer saber em qual continente fica o Egito. A resposta certa é:",
     tip: "Pense no rio Nilo, que corta esse país — em qual continente você aprendeu que esse rio está localizado?",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "Bernardo descobriu que seu colega de escola tem familiares em Angola, um país africano. Que idioma provavelmente é falado por lá, assim como no Brasil?",
     tip: "Lembra que alguns países africanos foram colonizados pelos mesmos europeus que colonizaram o Brasil?",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "Bernardo assistiu a um documentário sobre animais selvagens, como leões e girafas, vivendo em grandes campos abertos na África. Esse tipo de paisagem é chamado de:",
     tip: "Lembra da palavra que descreve esses grandes campos com árvores espalhadas, cheios de animais selvagens?",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo ficou curioso ao saber que a Nigéria tem uma população enorme. Em qual continente fica esse país?",
     tip: "Lembra do país africano que você estudou como sendo o mais populoso do continente?",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Recursos naturais',
     type: "multiple_choice",
     text: "Bernardo aprendeu que diamantes e ouro são recursos minerais importantes extraídos em alguns países africanos. Qual país é famoso por essa produção?",
     tip: "Lembra do país do continente africano, bem ao sul, famoso há muito tempo pela extração desses minerais preciosos?",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Bernardo quer entender por que muitas fronteiras de países africanos parecem \"retas\", como se tivessem sido traçadas com régua. Isso tem relação com:",
     tip: "Lembra do processo histórico em que países europeus dividiram o território africano entre si, sem respeitar os povos locais?",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Cultura e identidade',
     type: "multiple_choice",
     text: "Bernardo percebeu que, em algumas músicas brasileiras, como o samba, existem ritmos parecidos com os de países africanos. Isso acontece porque:",
     tip: "Pense na história do Brasil e em como culturas de diferentes continentes se misturaram para formar a cultura brasileira que você conhece hoje.",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Formação territorial',
     type: "multiple_choice",
     text: "Depois de estudar tudo isso, Bernardo resumiu para a família: \"A África é um continente enorme, com mais de 50 países, desertos, savanas, florestas e uma história marcada pela...\". Qual palavra completa essa frase?",
     tip: "Pense no processo histórico que você estudou nesse simulado, que explica muitas das fronteiras e línguas dos países africanos hoje.",

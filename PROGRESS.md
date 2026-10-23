@@ -572,6 +572,14 @@ Este é um dos três lotes independentes autorizados no pacote História, Geogra
 Validação do lote: `npm run seed:dry-run`, inventário JSON, vocabulário, ausência de resposta literal, preservação byte a byte das fontes e comparação dos dados por export aprovados. Demais entradas, cobertura e metadados preservados; testes completos registrados no PR. Quizzes #90 continuam adiados. Sem mudança de contrato ou operação em produção.
 
 
+### Geografia do 8º ano — E04 (22/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 23 temas documentados. Acrescentado somente `theme`; fontes sem essas linhas e dados por export preservados exatamente. Relações internacionais, Espaço mundial, Economia mundial, População mundial e Organização das cidades evitam antecipar conceitos pedidos ou presumir correções de alternativas. Gabaritos e formulações anteriores na [issue web #130](https://github.com/guilhermeborba/simulados-bernardo/issues/130), para revisão própria.
+
+Primeiro de três lotes independentes da main após api#259: Geografia, Arte e Educação Física/8º ano. Base integrada: 9.149/23.444 questões com tema e 305/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 9.389/23.444 e 313/780; 8º ano 1.200/1.920 em 40/64. A composição dos três deve atingir 9.869/23.444 e 329/780, com 8º ano 1.680/1.920 em 56/64. E04 segue parcial; próximo trio: Inglês/8º, Português/9º e Matemática/9º.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Arte do 6º ano — E04 (21/10/2026)
 
 Geografia do 6º ano foi integrada em api#244, com registro em web#102. Este lote acrescenta 240 temas em oito simulados gerais de Arte do 6º ano (`questoes-arte-6ano-b*-av*.ts`), sem entradas privadas adicionais. É o primeiro lote de Arte da E04; o vocabulário fechado de 19 nomes e os critérios estão em `docs/temas-editoriais.md`. Cultura e identidade, Expressões artísticas, Patrimônio e preservação e Registros do passado reaproveitam nomes de História para conteúdos correspondentes. Apenas `theme` foi acrescentado: enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

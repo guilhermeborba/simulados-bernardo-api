@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Em qual continente estão localizados os Estados Unidos?",
     tip: "Pense no mapa-múndi — os EUA ficam ao norte do México, no mesmo continente do Canadá.",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Qual é a capital dos Estados Unidos?",
     tip: "Essa cidade não é a maior do país, mas é onde fica a Casa Branca, onde mora o presidente.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Qual é a maior cidade dos Estados Unidos em população?",
     tip: "Essa cidade é famosa pela Estátua da Liberdade e por ter prédios enormes, como o Empire State Building.",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Os Estados Unidos são divididos em quantos estados?",
     tip: "Pense na bandeira dos EUA — cada estrelinha nela representa um estado! Conte quantas estrelas ela tem.",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Qual é o idioma oficial mais falado nos Estados Unidos?",
     tip: "Pense no idioma que você aprende nas aulas de inglês — é esse mesmo que é falado por lá!",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Qual é a moeda oficial dos Estados Unidos?",
     tip: "Você já deve ter ouvido esse nome em filmes ou jogos — é a moeda símbolo dos EUA, representada pelo símbolo \"$\".",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Relevo',
     type: "multiple_choice",
     text: "Qual destas é uma importante cordilheira (cadeia de montanhas) dos Estados Unidos?",
     tip: "Essas montanhas ficam na parte oeste do país e têm um nome que lembra \"pedra\" em inglês.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Hidrografia',
     type: "multiple_choice",
     text: "Qual é um dos rios mais importantes e longos dos Estados Unidos?",
     tip: "Esse rio corta o país de norte a sul e é tão famoso que já apareceu em várias histórias e músicas americanas.",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Com qual país os Estados Unidos fazem fronteira ao norte?",
     tip: "Pense no mapa — esse é o país que fica \"em cima\" dos EUA, mais próximo do Polo Norte.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Com qual país os Estados Unidos fazem fronteira ao sul?",
     tip: "Pense no país vizinho que fica \"abaixo\" dos EUA, onde se fala espanhol e é famoso pela culinária picante.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Clima e cotidiano',
     type: "multiple_choice",
     text: "Por que os Estados Unidos têm climas tão diferentes entre suas regiões?",
     tip: "Pense no tamanho gigantesco do país — ele vai desde áreas bem geladas até áreas bem quentes. Isso tem a ver com o quê?",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Fusos horários',
     type: "multiple_choice",
     text: "Por que os Estados Unidos têm mais de um fuso horário?",
     tip: "Pense em como o dia amanhece mais cedo em um lado do país gigante do que no outro lado, bem distante.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Os Estados Unidos são considerados uma das maiores economias do mundo porque:",
     tip: "Pense em grandes empresas de tecnologia, carros e alimentos que você conhece — de onde muitas delas vêm?",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "O que é o \"Vale do Silício\" (Silicon Valley)?",
     tip: "Pense em \"silício\", um material usado para fabricar computadores. Que tipo de empresas estariam concentradas numa região com esse nome?",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Quais são os dois estados americanos que NÃO ficam conectados ao território principal (contínuo) dos EUA?",
     tip: "Um desses fica bem gelado, perto do Canadá, e o outro é um conjunto de ilhas tropicais no meio do Oceano Pacífico.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Agricultura',
     type: "multiple_choice",
     text: "Qual é a principal característica da região central dos Estados Unidos, conhecida como Grandes Planícies?",
     tip: "Pense em uma área plana, ótima para plantar trigo e milho em grande quantidade — o que ela produziria em abundância?",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Hidrografia',
     type: "multiple_choice",
     text: "O que são os \"Grandes Lagos\", localizados na região norte dos Estados Unidos?",
     tip: "Pense em um conjunto de lagos tão grandes que parecem mares — eles ficam bem na divisão entre os EUA e seu vizinho do norte.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "Por que os Estados Unidos recebem tantos imigrantes de diferentes países ao longo da sua história?",
     tip: "Pense em pessoas que se mudam para um país em busca de uma vida melhor, de trabalho ou de estudos — isso é parecido com o que você aprendeu sobre migração!",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Clima e cotidiano',
     type: "multiple_choice",
     text: "Qual fenômeno natural é comum na região sul e litorânea dos Estados Unidos, especialmente no verão e outono?",
     tip: "Pense em tempestades gigantes que se formam no oceano e atingem a costa, trazendo ventos fortes e muita chuva.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Os Estados Unidos costumam ser divididos, para fins de estudo, em grandes regiões. Qual destas é uma dessas regiões?",
     tip: "Pense em uma forma de organizar o território dos EUA parecida com a forma como o Brasil é dividido em regiões (Norte, Sul, Sudeste...).",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo está pesquisando sobre os Estados Unidos e quer saber qual é a capital do país para colocar no mapa. Ele deve escrever:",
     tip: "Lembra que essa cidade não é a mais famosa ou a maior, mas é onde fica o governo do país?",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Clima e cotidiano',
     type: "multiple_choice",
     text: "Bernardo viu em um documentário que, em uma parte dos Estados Unidos, as pessoas enfrentam furacões durante o verão e o outono. Essa região geralmente é:",
     tip: "Pense em onde os furacões se formam — próximo ao oceano, em regiões mais quentes.",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo quer visitar um lugar nos Estados Unidos famoso por empresas de tecnologia que criam celulares e computadores. Para onde ele deveria planejar essa viagem?",
     tip: "Lembra do nome dessa região que tem a ver com um material usado para fabricar computadores?",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo descobriu que seu primo foi estudar em um estado americano que não fica ligado ao território principal do país, cheio de ilhas e praias tropicais. Esse estado é:",
     tip: "Pense no estado que fica no meio do oceano, bem diferente do Alasca, que é gelado.",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo aprendeu que os Estados Unidos têm fronteira com dois países. Ao norte fica o Canadá, e ao sul fica:",
     tip: "Pense no país vizinho onde se fala espanhol, famoso também pela culinária com tacos e pimenta.",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Fusos horários',
     type: "multiple_choice",
     text: "Bernardo ficou curioso ao saber que, quando é de dia em Nova York, ainda pode ser de madrugada na Califórnia. Isso acontece por causa:",
     tip: "Lembra por que o país, sendo tão largo, tem horários diferentes em lugares diferentes?",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Agricultura',
     type: "multiple_choice",
     text: "Bernardo leu que uma região dos Estados Unidos é chamada de \"celeiro do país\" por produzir muito trigo e milho. Essa região é:",
     tip: "Pense na região plana, bem no meio do país, ótima para plantações enormes.",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Hidrografia',
     type: "multiple_choice",
     text: "Bernardo descobriu que um conjunto de cinco lagos enormes, parecidos com mares, fica na fronteira entre os Estados Unidos e o Canadá. Esse conjunto se chama:",
     tip: "Pense num grupo de lagos tão imensos que até formam ondas, como se fossem oceanos de água doce.",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "Bernardo concluiu que os Estados Unidos são uma das maiores economias do mundo principalmente por causa de:",
     tip: "Pense em tudo que você aprendeu nesse simulado: tecnologia no Vale do Silício, agricultura nas Grandes Planícies... tudo isso ajuda a economia do país!",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu: \"Os Estados Unidos são um país gigante, dividido em 50 estados, com climas diferentes e fronteira com Canadá e...\". Qual país completa essa frase?",
     tip: "Lembra do país vizinho ao sul dos EUA, onde se fala espanhol?",

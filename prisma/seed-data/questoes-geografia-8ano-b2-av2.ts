@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é 'urbanização'?",
     tip: "Pense na palavra 'urbano', que significa cidade — urbanização é o crescimento das cidades.",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Campo e cidade',
     type: "multiple_choice",
     text: "O que é 'zona rural'?",
     tip: "Pense na palavra 'rural' — ela é o oposto de urbano e está ligada ao campo e à natureza.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "O movimento de pessoas que saem do campo para morar nas cidades é chamado de:",
     tip: "Pense em 'êxodo', que significa saída em massa, e 'rural', que se refere ao campo — juntos, formam esse conceito.",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Uma enorme área urbana formada por várias cidades grandes que cresceram e se fundiram é chamada de:",
     tip: "Pense em um aglomerado de cidades tão grandes que formam uma só área urbana gigante.",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é 'conurbação'?",
     tip: "Pense em 'con' (junto) + 'urbano' (cidade) — é quando duas cidades crescem tanto que se unem.",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Saneamento e infraestrutura',
     type: "multiple_choice",
     text: "O que é 'infraestrutura urbana'?",
     tip: "Pense no que toda cidade precisa ter para funcionar bem e oferecer qualidade de vida para seus moradores.",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Saneamento e infraestrutura',
     type: "multiple_choice",
     text: "O que é 'saneamento básico'?",
     tip: "Pense nas condições mínimas de higiene e saúde que uma cidade precisa ter para seus moradores não adoecerem.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que são as 'periferias urbanas'?",
     tip: "Pense em 'periferia', que significa 'ao redor' — são as áreas mais distantes do centro das cidades.",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O crescimento vertical de uma cidade, com a construção de muitos prédios altos, é chamado de:",
     tip: "Pense em 'vertical' — é o crescimento para cima, por meio de edifícios altos, em vez de se expandir horizontalmente.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é 'planejamento urbano'?",
     tip: "Pense no trabalho dos governos para organizar como as cidades crescem, pensando em todo mundo que vive nelas.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Em países mais desenvolvidos, a urbanização costuma ocorrer:",
     tip: "Pense na diferença entre os países desenvolvidos e os em desenvolvimento no processo de urbanização — geralmente a diferença está na qualidade do crescimento.",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "No Brasil e em muitos países em desenvolvimento, a urbanização ocorreu de forma:",
     tip: "Pense na velocidade e qualidade com que as cidades brasileiras cresceram — foi muito rápido e nem sempre bem distribuído.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é a 'taxa de urbanização'?",
     tip: "Pense em uma porcentagem que mostra o quanto da população vive em áreas urbanas — cidades.",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Qual é a maior megalópole do mundo em número de habitantes?",
     tip: "Pense na enorme cidade-capital do Japão, que concentra milhões de pessoas na maior área metropolitana do mundo.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Transportes e circulação',
     type: "multiple_choice",
     text: "O que é 'mobilidade urbana'?",
     tip: "Pense na palavra 'mobilidade', que tem relação com se mover — é sobre como as pessoas se locomovem pelas cidades.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "A existência de bairros muito ricos ao lado de bairros muito pobres numa mesma cidade é chamada de:",
     tip: "Pense no contraste extremo que existe dentro de algumas cidades, com riqueza e pobreza lado a lado.",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Sustentabilidade',
     type: "multiple_choice",
     text: "Uma 'cidade sustentável' é aquela que:",
     tip: "Pense no que significa 'sustentável' — é algo que se preocupa com o futuro e com o bem-estar de todos.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é 'especulação imobiliária'?",
     tip: "Pense em quando o preço dos imóveis sobe de forma artificial, não pelo valor real, mas pelo interesse de lucro de quem vende.",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é 'gentrificação'?",
     tip: "Pense em quando um bairro popular passa por mudanças que o tornam caro, afastando os moradores originais.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é 'periferização'?",
     tip: "Pense em 'periferia' — é o processo pelo qual a população mais pobre é empurrada para as bordas da cidade.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Bernardo percebeu que no centro da cidade há muitos prédios altos. Esse crescimento para cima é chamado de:",
     tip: "Pense na direção desse crescimento — é para cima, com muitos prédios e torres.",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Saneamento e infraestrutura',
     type: "multiple_choice",
     text: "Bernardo morou em um bairro que tinha asfalto e esgoto, mas outro bairro da mesma cidade não tinha nada disso. Isso é um exemplo de:",
     tip: "Pense na diferença de infraestrutura entre bairros numa mesma cidade — essa desigualdade tem um nome.",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "Bernardo estudou que muita gente saiu do campo para a cidade no Brasil nas décadas de 1950 a 1970. Esse processo é chamado de:",
     tip: "Pense no nome do movimento de saída em massa das pessoas do campo para as cidades.",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre a Grande São Paulo, onde várias cidades cresceram tanto que se uniram. Esse fenômeno é chamado de:",
     tip: "Pense em quando cidades vizinhas crescem tanto que suas áreas se encontram e se misturam.",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Sustentabilidade',
     type: "multiple_choice",
     text: "Bernardo descobriu sobre cidades que economizam energia, cuidam do lixo e têm bom transporte público. Esse tipo de cidade é chamada de:",
     tip: "Pense em um tipo de cidade que pensa no futuro e no meio ambiente, cuidando do bem-estar das próximas gerações.",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Bernardo leu que, em muitas cidades, o preço dos apartamentos subiu muito por causa de investidores que compraram para valorizar e vender depois. Isso é chamado de:",
     tip: "Pense em quando alguém compra um imóvel não para morar, mas para esperar ele valorizar e vender mais caro depois.",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Transportes e circulação',
     type: "multiple_choice",
     text: "Bernardo aprendeu que, nas cidades, saber como as pessoas se movem — de bicicleta, metrô ou carro — é parte do conceito de:",
     tip: "Pense no conceito que se refere à capacidade de se movimentar dentro de uma cidade usando diferentes meios de transporte.",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Bernardo entendeu que a população mais pobre vai parar nas bordas da cidade, longe dos empregos e serviços. Esse processo é chamado de:",
     tip: "Pense em 'periferia' — é para lá que a população mais pobre acaba sendo empurrada.",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Saneamento e infraestrutura',
     type: "multiple_choice",
     text: "Bernardo concluiu que uma cidade ideal deveria oferecer à sua população:",
     tip: "Pense no que toda pessoa precisa para viver bem em uma cidade — os serviços e estruturas básicas que garantem qualidade de vida.",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Bernardo aprendeu que o crescimento organizado das cidades, com leis que definem onde morar, trabalhar e ter lazer, é chamado de:",
     tip: "Pense no conceito que envolve organizar o espaço da cidade de forma pensada e com regras.",
