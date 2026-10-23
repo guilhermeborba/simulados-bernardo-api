@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é \"geopolítica\"?",
     tip: "Pense em \"geo\" (terra/território) + \"política\" (poder, decisões entre países). O que estaria sendo estudado?",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é a ONU (Organização das Nações Unidas)?",
     tip: "Pense em uma \"grande reunião\" onde quase todos os países do mundo participam para discutir problemas em conjunto.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é um \"conflito territorial\"?",
     tip: "Pense em dois países que discordam sobre a quem pertence um pedaço de terra, uma ilha ou uma fronteira.",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "Quem são os \"refugiados\"?",
     tip: "Pense na palavra \"refúgio\", que significa um lugar seguro. Por que alguém precisaria sair do seu país à procura de um lugar seguro?",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é a NATO (Organização do Tratado do Atlântico Norte)?",
     tip: "Pense em um grupo de países que se unem para se defender e se ajudar militarmente, caso algum deles seja atacado.",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que significa \"diplomacia\" entre os países?",
     tip: "Pense em como duas pessoas podem resolver uma briga conversando, em vez de discutindo com gritos ou agressão. Isso também acontece entre países!",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "O que é um \"bloco econômico\"?",
     tip: "Pense em países \"vizinhos\" que decidem trabalhar juntos para facilitar a venda e compra de produtos entre eles, sem tantas taxas.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é uma \"guerra civil\"?",
     tip: "Pense na palavra \"civil\", que tem a ver com os cidadãos de um mesmo país. Quem estaria brigando dentro dessa guerra — países diferentes ou grupos do mesmo país?",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que são \"tratados de paz\"?",
     tip: "Pense em um \"contrato\" assinado depois de uma guerra ou conflito, no qual as partes concordam em parar de lutar.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Por que a geopolítica estuda também os recursos naturais, como petróleo e água?",
     tip: "Pense em como um país com muito petróleo, por exemplo, pode ter mais poder de negociação com outros países. Isso pode gerar interesse... e às vezes disputa.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que foi a \"Guerra Fria\"?",
     tip: "Pense em dois países poderosos que discordavam muito sobre política e economia, mas evitavam lutar diretamente um contra o outro.",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que foi o \"Muro de Berlim\"?",
     tip: "Pense em uma cidade dividida em duas partes, separando famílias e amigos, por causa de diferenças políticas entre os lados.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Por que o Oriente Médio é uma região com histórico de diversos conflitos geopolíticos?",
     tip: "Pense em uma região com muitas culturas e religiões diferentes, além de ser rica em um recurso natural muito valioso, usado em carros e indústrias.",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é \"terrorismo\", um tema estudado também pela geopolítica?",
     tip: "Pense em ações violentas usadas para espalhar medo e tentar forçar mudanças políticas, muitas vezes atingindo pessoas inocentes.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que são ONGs (Organizações Não Governamentais) relacionadas aos direitos humanos?",
     tip: "Pense em grupos de pessoas que, sem fazer parte do governo, se dedicam a ajudar outras pessoas, como refugiados ou vítimas de guerra.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é o G20?",
     tip: "Pense em um \"grupo\" formado pelos países com as maiores economias do mundo, que se encontram para discutir assuntos importantes.",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que significa \"soberania\" de um país?",
     tip: "Pense no direito que cada país tem de tomar suas próprias decisões, sem que outro país mande nele.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é o Conselho de Segurança da ONU?",
     tip: "Pense em um grupo dentro da ONU que toma decisões especialmente sobre conflitos e ameaças à paz mundial.",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Como a globalização pode estar relacionada a desigualdades entre países?",
     tip: "Pense em como nem todos os países conseguem vender e comprar produtos nas mesmas condições — alguns ganham mais vantagens que outros nesse processo.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Por que é importante estudar conflitos e geopolítica na escola?",
     tip: "Pense em como entender os conflitos do mundo pode ajudar você a ser um cidadão mais informado e capaz de pensar em soluções para os problemas.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo viu no noticiário que representantes de vários países se reuniram para tentar resolver um conflito através de conversas, sem usar armas. Isso é um exemplo de:",
     tip: "Lembra da palavra que você aprendeu para quando os países usam o diálogo, em vez da guerra, para resolver problemas?",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "Bernardo soube que uma família teve que deixar seu país de origem por causa de uma guerra e foi morar em outro país em busca de segurança. Essas pessoas são chamadas de:",
     tip: "Lembra da palavra relacionada a \"refúgio\", um lugar seguro para quem precisa fugir de perigo?",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo aprendeu na escola sobre uma organização internacional criada depois da Segunda Guerra Mundial para tentar manter a paz entre os países. Essa organização é:",
     tip: "Lembra da organização que reúne quase todos os países do mundo para discutir problemas em conjunto, criada em 1945?",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Bernardo descobriu que o Brasil faz parte de um bloco econômico junto com Argentina, Paraguai e Uruguai, facilitando o comércio entre esses países. Esse bloco se chama:",
     tip: "Lembra do bloco econômico da América do Sul, do qual o Brasil faz parte, que você estudou nesse simulado?",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo leu sobre um período histórico em que Estados Unidos e União Soviética viviam em forte tensão política, mas sem lutar diretamente um contra o outro. Esse período é conhecido como:",
     tip: "Lembra do nome desse período de tensão entre as duas superpotências, sem batalhas diretas entre elas?",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre um muro histórico que dividiu uma cidade da Alemanha durante a Guerra Fria e foi derrubado em 1989. Esse muro é conhecido como:",
     tip: "Lembra do muro que separava famílias e amigos em uma cidade alemã, derrubado em um momento histórico de celebração?",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo quer entender por que o Oriente Médio é citado com frequência em notícias sobre conflitos. Um dos motivos é:",
     tip: "Lembra dos motivos que tornam essa região tão importante e, às vezes, motivo de disputas, incluindo um recurso natural muito valioso?",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo soube que uma organização ajuda pessoas em zonas de conflito, levando comida e remédios, sem fazer parte de nenhum governo. Esse tipo de organização é chamado de:",
     tip: "Lembra do tipo de organização, independente dos governos, que ajuda pessoas em situações difíceis, como em guerras ou desastres?",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Depois de estudar sobre geopolítica, Bernardo concluiu que resolver conflitos através do diálogo é melhor do que a guerra porque:",
     tip: "Pense em tudo que você aprendeu sobre diplomacia e tratados de paz — por que eles são tão valorizados pelos países e organizações internacionais?",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Depois de todo esse estudo, Bernardo resumiu para a família: \"Os conflitos no mundo podem ter várias causas, como disputas por território, recursos naturais e religião, mas a melhor forma de resolvê-los é através da...\". Qual palavra completa essa frase?",
     tip: "Pense na palavra que você aprendeu logo no começo desse simulado, sobre resolver problemas através do diálogo entre países.",

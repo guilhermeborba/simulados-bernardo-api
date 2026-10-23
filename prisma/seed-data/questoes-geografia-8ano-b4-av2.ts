@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que foi o \"Neocolonialismo\", processo que ocorreu principalmente no século XIX?",
     tip: "Lembra da \"Partilha da África\" que você estudou? Pense em que direção aconteceu essa colonização — da Europa para onde?",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "O que é \"globalização\"?",
     tip: "Pense em como hoje é possível comprar um produto feito do outro lado do mundo, ou conversar com alguém de outro país em segundos. Isso tem a ver com o quê?",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Economia mundial',
     type: "multiple_choice",
     text: "O Mercosul é um exemplo de:",
     tip: "Lembra do bloco que facilita o comércio entre países vizinhos da América do Sul?",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é \"densidade demográfica\"?",
     tip: "Pense em \"denso\" como algo \"cheio\". Que tipo de informação sobre população isso mediria?",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que mostra uma \"pirâmide etária\"?",
     tip: "Lembra que \"etária\" tem a ver com idade? Que tipo de informação sobre a população esse gráfico mostraria?",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é \"urbanização\"?",
     tip: "Pense na palavra \"urbano\", relacionada a cidade. O que estaria crescendo?",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é uma \"conurbação\"?",
     tip: "Lembra de cidades vizinhas tão próximas que é difícil saber onde uma termina e a outra começa?",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Qual é a capital dos Estados Unidos?",
     tip: "Essa cidade não é a mais famosa, mas é onde fica a Casa Branca.",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "Qual é o maior deserto do mundo, localizado na África?",
     tip: "Esse deserto fica no norte da África e é enorme, quase do tamanho dos Estados Unidos.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que é a ONU?",
     tip: "Pense na \"grande reunião\" de quase todos os países do mundo, criada depois da Segunda Guerra Mundial.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Por que o Brasil tem uma taxa de urbanização tão alta, de mais de 85%?",
     tip: "Pense em \"taxa de urbanização\" como a porcentagem de pessoas vivendo em cidades. O Brasil tem mais gente na cidade ou no campo?",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Por que, em muitos países em desenvolvimento, a urbanização aconteceu de forma mais desigual do que em países desenvolvidos?",
     tip: "Pense em cidades que cresceram tão rápido que não deu tempo de planejar bem a infraestrutura para todos os bairros.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é uma \"explosão demográfica\"?",
     tip: "Pense na palavra \"explosão\" — ela dá ideia de algo rápido e grande. O que estaria crescendo tão rápido assim?",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Hidrografia',
     type: "multiple_choice",
     text: "O que são os \"Grandes Lagos\", na fronteira entre Estados Unidos e Canadá?",
     tip: "Pense em um grupo de lagos tão grandes que parecem mares, localizados no norte dos EUA.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "O Rio Nilo, um dos mais longos do mundo, está localizado em qual continente?",
     tip: "Esse rio atravessa o Egito, país que você já estudou como parte de qual continente?",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O que foi a Guerra Fria?",
     tip: "Lembra do período histórico de forte tensão entre essas duas superpotências, mas sem batalhas diretas entre elas?",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O que é \"gentrificação\"?",
     tip: "Pense em um bairro que \"vira moda\" e fica caro demais para quem sempre morou lá.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é o \"bônus demográfico\"?",
     tip: "Pense em \"bônus\" como uma vantagem. Ter muita gente podendo trabalhar pode ser bom para a economia de um país, certo?",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Por que a diplomacia é considerada melhor do que a guerra para resolver conflitos entre países?",
     tip: "Pense em como conversar para resolver um problema é geralmente melhor do que usar violência.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "Como a globalização pode estar relacionada a desigualdades entre países?",
     tip: "Pense em como nem todos os países conseguem as mesmas vantagens no comércio mundial.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "Bernardo lembrou que seu avô se mudou do campo para a cidade em busca de trabalho, há muitos anos. Esse movimento é chamado de:",
     tip: "Lembra da palavra que descreve a saída de pessoas do campo para morar nas cidades?",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Bernardo quer escrever a capital dos Estados Unidos em seu mapa. A resposta certa é:",
     tip: "Lembra que essa cidade não é a maior, mas é onde fica a Casa Branca?",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Biomas',
     type: "multiple_choice",
     text: "Bernardo assistiu a um documentário sobre leões e girafas vivendo em grandes campos abertos na África. Esse tipo de vegetação se chama:",
     tip: "Lembra da vegetação cheia de animais selvagens e árvores espalhadas que você estudou sobre a África?",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo descobriu que uma organização internacional trabalha para manter a paz entre os países desde 1945. Essa organização é:",
     tip: "Lembra da organização criada depois da Segunda Guerra Mundial, reunindo quase todos os países do mundo?",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "Bernardo visitou duas cidades vizinhas tão próximas que pareciam uma cidade só. Isso é um exemplo de:",
     tip: "Lembra da palavra para cidades vizinhas que crescem tanto que se misturam?",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo comparou dois países: um com muitas crianças nascendo e outro com muitos idosos. Para fazer essa comparação, ele usou um gráfico chamado:",
     tip: "Lembra do gráfico que mostra a quantidade de pessoas em cada faixa de idade de um país?",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Blocos econômicos',
     type: "multiple_choice",
     text: "Bernardo descobriu que o Brasil faz parte de um bloco econômico com Argentina, Paraguai e Uruguai. Esse bloco é chamado de:",
     tip: "Lembra do bloco econômico da América do Sul que facilita o comércio entre esses países vizinhos?",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre um muro que dividiu uma cidade da Alemanha durante a Guerra Fria. Esse muro é conhecido como:",
     tip: "Lembra do muro derrubado em 1989, que foi um símbolo do fim da Guerra Fria?",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Depois de estudar sobre conflitos mundiais, Bernardo concluiu que a melhor forma de resolver disputas entre países é através do(a):",
     tip: "Lembra da palavra que significa resolver problemas através do diálogo e da negociação, em vez da violência?",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Espaço mundial',
     type: "multiple_choice",
     text: "Depois de revisar tudo o que aprendeu sobre geografia neste bimestre, Bernardo resumiu: \"o mundo é formado por países com populações, cidades e histórias diferentes, mas que estão cada vez mais conectados pela...\". Qual palavra completa essa frase?",
     tip: "Pense na palavra que você aprendeu logo na primeira questão desse simulado, sobre a conexão entre países através do comércio, tecnologia e cultura.",

@@ -1,6 +1,7 @@
 export const questoesGeografia8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que significa 'população mundial'?",
     tip: "Pense na palavra 'mundial' — ela indica que estamos falando de todo o planeta Terra.",
@@ -16,6 +17,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Como os países costumam saber o número exato de habitantes que possuem?",
     tip: "Pense em uma pesquisa oficial que o governo faz periodicamente para contar todos os moradores do país.",
@@ -31,6 +33,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é a 'taxa de natalidade'?",
     tip: "Pense na palavra 'natal', que tem relação com nascimento — a taxa indica quantos bebês nascem em um período.",
@@ -46,6 +49,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é a 'taxa de mortalidade'?",
     tip: "Pense na palavra 'morte' — a taxa indica quantas pessoas falecem em um período.",
@@ -61,6 +65,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é 'densidade demográfica'?",
     tip: "Pense em quantas pessoas cabem em um espaço — quando tem muita gente em pouco espaço, a densidade é alta.",
@@ -76,6 +81,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Qual é o país mais populoso do mundo atualmente?",
     tip: "Pense no país asiático que recentemente ultrapassou a China no número de habitantes.",
@@ -91,6 +97,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é uma 'pirâmide etária'?",
     tip: "Pense em um gráfico com a forma de uma pirâmide, que mostra como a população está dividida por idades.",
@@ -106,6 +113,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Uma pirâmide etária com base larga (muitas crianças) e topo estreito (poucos idosos) indica que o país tem:",
     tip: "Pense em como seria a base dessa pirâmide — base larga significa que tem muita gente jovem e muitas crianças nascendo.",
@@ -121,6 +129,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "O que é 'migração'?",
     tip: "Pense em 'migrar', que significa se mover de um lugar para outro — as pessoas migram por diversas razões.",
@@ -136,6 +145,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é a 'transição demográfica'?",
     tip: "Pense em como um país muda ao longo do tempo — de muitos nascimentos e mortes para poucos nascimentos e mortes.",
@@ -151,6 +161,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Países com baixas taxas de natalidade e longevidade alta costumam ter populações:",
     tip: "Pense no que acontece com uma população quando nascem poucas crianças, mas as pessoas vivem por muito tempo.",
@@ -166,6 +177,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é o chamado 'bônus demográfico'?",
     tip: "Pense em um momento especial em que um país tem muita gente em idade produtiva — o que pode impulsionar a economia.",
@@ -181,6 +193,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Alguns países, como a China, adotaram políticas populacionais com o objetivo de:",
     tip: "Pense em por que um governo controlaria os nascimentos — geralmente é para lidar com os desafios de ter uma população muito grande.",
@@ -196,6 +209,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O que é a 'taxa de fecundidade'?",
     tip: "Pense em quantas vezes, em média, uma mulher tem filhos ao longo de sua vida.",
@@ -211,6 +225,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Migração',
     type: "multiple_choice",
     text: "Muitas pessoas migram de seu país de origem para outro em busca de:",
     tip: "Pense nas razões mais comuns que levam as pessoas a deixar sua terra natal — geralmente têm relação com melhorar de vida.",
@@ -226,6 +241,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Um país com população envelhecida e poucos jovens trabalhando:",
     tip: "Pense nos desafios que surgem quando tem muita gente se aposentando e pouca gente jovem trabalhando e pagando impostos.",
@@ -241,6 +257,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "O continente com as maiores taxas de natalidade e crescimento populacional atual é:",
     tip: "Pense no continente que ainda tem populações muito jovens e altas taxas de nascimento, especialmente em sua parte abaixo do deserto do Saara.",
@@ -256,6 +273,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "A Antártica tem uma densidade demográfica praticamente nula (zero) porque:",
     tip: "Pense nas condições extremas desse continente — elas tornam quase impossível a vida humana permanente.",
@@ -271,6 +289,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Quando dizemos que houve uma 'explosão demográfica' no século XX, queremos dizer que:",
     tip: "Pense no termo 'explosão' — ele sugere algo que aconteceu de forma muito rápida e intensa.",
@@ -286,6 +305,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "A distribuição da população mundial pelo planeta é:",
     tip: "Pense em como as pessoas se distribuem pelo mundo — algumas regiões têm muita gente e outras têm muito pouca.",
@@ -301,6 +321,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo viu no noticiário que Bangladesh tem mais de 1.200 pessoas por km². Isso significa que o país tem uma densidade demográfica:",
     tip: "Pense no que significa ter muita gente em pouco espaço — isso indica uma densidade muito alta.",
@@ -316,6 +337,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo estudou a pirâmide etária do Brasil e percebeu que a base está ficando mais estreita. Isso significa que o país está tendo:",
     tip: "Pense no que uma base mais estreita indica — ela representa as crianças e jovens, os mais recentemente nascidos.",
@@ -331,6 +353,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo aprendeu que o movimento de pessoas que deixam o campo para morar nas cidades é chamado de:",
     tip: "Pense no nome desse processo de saída das áreas rurais para áreas urbanas, que ocorreu muito no Brasil no século XX.",
@@ -346,6 +369,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo descobriu que a taxa de fecundidade no Brasil caiu muito nas últimas décadas. Isso indica que as mulheres brasileiras têm:",
     tip: "Pense no que significa uma queda na taxa de fecundidade — ela mede quantos filhos as mulheres têm, em média.",
@@ -361,6 +385,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo aprendeu que o continente com maior população do mundo é:",
     tip: "Pense no continente que abriga países como China, Índia, Indonésia e Japão — todos com populações gigantescas.",
@@ -376,6 +401,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo entendeu que o Japão tem uma pirâmide etária com base estreita e topo largo. Isso significa que a população japonesa está:",
     tip: "Pense no que base estreita (poucas crianças) e topo largo (muitos idosos) indicam sobre a população.",
@@ -391,6 +417,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo aprendeu que a Antártica tem densidade demográfica praticamente nula. Isso acontece principalmente porque:",
     tip: "Pense nas condições extremas do continente mais frio do mundo — elas tornam quase impossível a vida permanente.",
@@ -406,6 +433,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre qual órgão realiza o censo demográfico no Brasil. A resposta correta é:",
     tip: "Pense no instituto de pesquisa do governo brasileiro que é responsável por fazer levantamentos estatísticos, incluindo o censo.",
@@ -421,6 +449,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo comparou dois países: um com pirâmide etária de base larga (país A) e outro com base estreita (país B). Qual a diferença entre eles?",
     tip: "Pense no que a base representa — é a faixa de crianças e jovens. Base larga = muitas crianças; base estreita = poucas crianças.",
@@ -436,6 +465,7 @@ export const questoesGeografia8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'População mundial',
     type: "multiple_choice",
     text: "Bernardo concluiu, ao estudar o tema, que a distribuição desigual da população no mundo tem relação direta com fatores como clima, relevo e histórico de:",
     tip: "Pense no processo histórico e social que fez com que algumas áreas se tornassem muito populosas e outras permanecessem quase vazias.",
