@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Os Estados Unidos estão localizados em qual continente?',
     tip: 'Pensa no nome do continente que fica acima da América do Sul, incluindo também o Canadá e o México.',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Qual é a capital dos Estados Unidos?',
     tip: 'A capital não é a cidade mais famosa do país — pensa numa cidade que leva o nome de um dos fundadores dos EUA.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Os Estados Unidos fazem fronteira com quais países?',
     tip: 'Pensa nos dois países vizinhos: um ao norte e outro ao sul dos Estados Unidos.',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Por que os Estados Unidos são considerados uma das maiores potências econômicas do mundo?',
     tip: 'Pensa em tudo que você já sabe sobre empresas americanas de tecnologia, bancos e indústrias conhecidas no mundo todo.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'O Vale do Silício, nos Estados Unidos, é famoso por reunir empresas de qual setor?',
     tip: 'Pensa em grandes empresas de computadores, celulares e internet que você já ouviu falar — muitas têm sede nessa região.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Agricultura',
     type: 'multiple_choice',
     text: 'Qual destes é um importante produto agrícola dos Estados Unidos?',
     tip: 'Pensa em grãos muito produzidos em grandes fazendas americanas, usados tanto na alimentação quanto na indústria.',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Os Estados Unidos são formados por quantos estados?',
     tip: 'Pensa na bandeira dos Estados Unidos — cada estrela nela representa um estado do país.',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'A população dos Estados Unidos é marcada por qual característica histórica importante?',
     tip: 'Pensa na história dos Estados Unidos: pessoas de várias partes do mundo foram para lá ao longo dos séculos.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Qual destes é um bioma ou característica natural encontrada nos Estados Unidos?',
     tip: 'Pensa no tamanho do país — ele é tão grande que abriga vários tipos de paisagens diferentes ao mesmo tempo.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Os Estados Unidos são frequentemente descritos como uma das principais potências mundiais em qual área, além da economia?',
     tip: 'Lembra da Questão 5 desta prova? Pensa na região famosa por empresas de tecnologia.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Por que a localização geográfica dos Estados Unidos, entre dois oceanos, é considerada estratégica?',
     tip: 'Pensa nos dois oceanos que tocam o território americano — um do lado do Atlântico e outro do Pacífico.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'O que torna o Vale do Silício um polo tão importante para a economia mundial?',
     tip: 'Lembra das Questões 5 e 10 desta prova? Pensa em como a tecnologia criada ali chega até você, no celular ou computador.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Por que os Estados Unidos recebem o apelido de "terra das oportunidades" por muitos imigrantes?',
     tip: 'Lembra da Questão 8 desta prova? Pensa no que leva tantas pessoas a se mudarem para outro país em busca de uma vida melhor.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Agricultura',
     type: 'multiple_choice',
     text: 'Qual é uma das razões para os Estados Unidos terem uma agricultura tão produtiva?',
     tip: 'Lembra da Questão 6 desta prova? Pensa no tipo de terreno necessário para plantar milho e soja em grande escala.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Como a diversidade cultural dos Estados Unidos está relacionada à sua história?',
     tip: 'É a mesma ideia das Questões 8 e 13 desta prova.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Por que os Estados Unidos são considerados uma superpotência global?',
     tip: 'Pensa em tudo que você já estudou nesta prova sobre a economia, a tecnologia e a cultura americana.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O que caracteriza o relevo dos Estados Unidos, de forma geral?',
     tip: 'Lembra da Questão 9 desta prova? Pensa no tamanho do país e na diversidade de paisagens que ele abriga.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Por que o comércio entre Estados Unidos, Canadá e México é tão importante na América do Norte?',
     tip: 'Lembra da Questão 3 desta prova? Pensa na proximidade geográfica entre esses três países.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Qual é uma característica da indústria cultural dos Estados Unidos (cinema, música, tecnologia) com alcance mundial?',
     tip: 'Pensa em filmes de Hollywood ou aplicativos americanos que você já usou ou assistiu.',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Por que os Estados Unidos são um dos principais destinos de imigrantes no mundo?',
     tip: 'É a mesma ideia das Questões 8, 13 e 15 desta prova.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Bernardo estudou um mapa e descobriu que os Estados Unidos fazem fronteira com dois países vizinhos. Quais são eles?',
     tip: 'É a mesma resposta da Questão 3 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo leu sobre uma região dos Estados Unidos famosa por reunir grandes empresas de tecnologia. Qual é essa região?',
     tip: 'É a mesma região das Questões 5, 10 e 12 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que a capital dos Estados Unidos não é a cidade mais famosa do país, mas sim outra cidade. Qual é a capital?',
     tip: 'É a mesma capital da Questão 2 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a população dos Estados Unidos é marcada por uma grande mistura de culturas. Por que isso acontece historicamente?',
     tip: 'É a mesma explicação das Questões 8, 15 e 20 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Agricultura',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que os Estados Unidos têm uma agricultura tão produtiva. A resposta certa é:',
     tip: 'É a mesma resposta das Questões 6 e 14 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Bernardo observou, no mapa, que os Estados Unidos têm litoral tanto no Oceano Atlântico quanto no Oceano Pacífico. Por que essa localização é considerada estratégica?',
     tip: 'É a mesma ideia da Questão 11 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo assistiu a um filme americano e percebeu como a cultura dos Estados Unidos influencia outros países. Isso é um exemplo de:',
     tip: 'É a mesma ideia da Questão 19 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que muitos imigrantes buscam os Estados Unidos em busca de melhores oportunidades. Esse fenômeno mostra que o país é visto, por muitos, como:',
     tip: 'É a mesma ideia das Questões 13 e 20 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que os Estados Unidos combinam grande poder econômico, militar, tecnológico e cultural. Por isso, o país é chamado de:',
     tip: 'É o mesmo termo da Questão 16 desta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo o que torna os Estados Unidos uma das maiores potências do mundo. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre os diferentes pontos fortes dos Estados Unidos.',

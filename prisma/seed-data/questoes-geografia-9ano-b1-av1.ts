@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'O que é a globalização?',
     tip: 'Pensa na palavra "global" — ela tem a ver com o mundo todo ficando mais conectado.',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'A globalização foi impulsionada principalmente por quais avanços?',
     tip: 'Pensa em como você se comunica com pessoas de outros países hoje em dia — o que torna isso tão rápido e fácil?',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'O que foi a "Guerra Fria"?',
     tip: 'Pensa no nome "fria" — por que uma guerra seria chamada assim, se não houve batalhas diretas entre as duas potências principais?',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Em que ano caiu o Muro de Berlim, um dos símbolos do fim da Guerra Fria?',
     tip: 'Foi perto do fim do século XX, pouco antes da União Soviética deixar de existir.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'O que são "empresas multinacionais"?',
     tip: 'Pensa na palavra "multinacional" — ela já indica que a empresa atua em várias nações.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'O que caracteriza a "Nova Ordem Mundial", após o fim da Guerra Fria?',
     tip: 'Pensa: se antes existiam só dois grandes polos de poder, o que aconteceu com esse número depois da Guerra Fria?',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de fluxo que caracteriza a globalização?',
     tip: 'Pensa em tudo que atravessa fronteiras hoje em dia: dinheiro, produtos, notícias...',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'A globalização aumentou a conexão entre os países, mas também trouxe qual desafio importante?',
     tip: 'Pensa: nem todos os países se beneficiam igualmente da globalização — alguns ficam mais ricos, enquanto outros enfrentam dificuldades.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Antes do fim da Guerra Fria, o mundo era descrito como "bipolar". O que isso significa?',
     tip: 'Pensa na palavra "bipolar" — "bi" significa dois. Quais eram os dois grandes blocos de poder da época?',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de avanço tecnológico que impulsionou a globalização?',
     tip: 'Pensa em tecnologias bem recentes, usadas no dia a dia, que conectam o mundo quase instantaneamente.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Por que a internet é considerada um dos principais motores da globalização atual?',
     tip: 'Lembra da Questão 2 e da Questão 10 desta prova? Pensa na velocidade com que as informações circulam hoje.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual foi uma das principais consequências do fim da Guerra Fria para a geopolítica mundial?',
     tip: 'Lembra da Questão 6 e da Questão 9 desta prova? Pensa no que aconteceu com o número de potências influentes depois de 1991.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'Por que as empresas multinacionais são um exemplo importante da globalização econômica?',
     tip: 'Lembra da Questão 5 desta prova? Pensa em como essas empresas conectam diferentes economias ao mesmo tempo.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'Qual é uma crítica comum feita à globalização?',
     tip: 'É a mesma crítica da Questão 8 desta prova.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'O que significa dizer que o mundo, depois da Guerra Fria, se tornou "multipolar"?',
     tip: 'Pensa no oposto de "bipolar", que você viu na Questão 9 — agora são vários polos de poder, não só dois.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Como a globalização influencia a cultura dos países, de forma geral?',
     tip: 'Pensa em como você já teve contato com músicas, comidas ou costumes de outros países, mesmo sem viajar.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Por que a Guerra Fria não é chamada de guerra "quente" (com combates diretos entre as duas potências principais)?',
     tip: 'Lembra da Questão 3 desta prova? Pensa em como a disputa acontecia sem um confronto armado direto entre os dois países.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de como a globalização afeta o comércio mundial?',
     tip: 'Pensa em produtos que você usa no dia a dia — de onde eles costumam vir?',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Por que o fim da Guerra Fria é considerado um marco importante na história mundial?',
     tip: 'Pensa em tudo que você já viu nesta prova sobre o fim dessa disputa e o novo cenário mundial que surgiu depois.',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Qual destes países fazia parte do bloco liderado pela antiga União Soviética durante a Guerra Fria?',
     tip: 'Pensa em países que ficavam geograficamente mais próximos da própria União Soviética, na Europa.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo assistiu a um documentário sobre a queda do Muro de Berlim e descobriu que esse evento marcou o fim de qual grande disputa mundial?',
     tip: 'É a mesma disputa das Questões 3, 4 e 17 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que seu celular foi fabricado com peças de vários países diferentes. Isso é um exemplo de qual processo mundial?',
     tip: 'É o mesmo processo das Questões 1, 2, 7, 10, 11, 16 e 18 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo leu que, depois do fim da Guerra Fria, o mundo deixou de ser dividido em apenas dois grandes blocos de poder. Como esse novo cenário é chamado?',
     tip: 'É o mesmo conceito das Questões 6, 9, 12 e 15 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que uma grande empresa de tecnologia vende seus produtos em quase todo o mundo. Esse tipo de empresa é chamada de:',
     tip: 'É o mesmo tipo de empresa das Questões 5 e 13 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a internet ajudou a conectar o mundo de forma muito mais rápida. Isso é considerado um dos principais motores de qual processo?',
     tip: 'É o mesmo processo das Questões 2, 10 e 11 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que algumas pessoas criticam a globalização. O professor explicou que uma das críticas é:',
     tip: 'É a mesma crítica das Questões 8 e 14 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que, durante a Guerra Fria, Estados Unidos e União Soviética nunca se enfrentaram diretamente em batalha. Por que isso aconteceu?',
     tip: 'É a mesma explicação das Questões 3 e 17 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Bernardo viu no noticiário que produtos de uma mesma marca são vendidos em países bem diferentes, como Brasil, Japão e Alemanha. Isso mostra como a globalização afeta:',
     tip: 'É o mesmo efeito das Questões 7 e 18 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a queda do Muro de Berlim, em 1989, é considerada um marco importante da história mundial. Por quê?',
     tip: 'É a mesma importância histórica das Questões 4, 19 e 21 desta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo o que ele aprendeu sobre a globalização. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre os benefícios e os desafios da globalização.',

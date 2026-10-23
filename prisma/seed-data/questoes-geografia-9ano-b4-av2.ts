@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Globalização',
     type: 'multiple_choice',
     text: 'O que é a globalização, tema que você estudou no início do ano?',
     tip: 'Pensa no primeiro bloco do ano, sobre como o mundo ficou mais conectado através da tecnologia e do comércio.',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de bloco econômico estudado neste ano?',
     tip: 'Pensa no bloco formado por Brasil, Argentina, Paraguai e Uruguai, estudado junto com a União Europeia.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Os Estados Unidos, estudados neste ano, estão localizados em qual continente?',
     tip: 'Pensa no continente que inclui também o Canadá e o México, vizinhos dos Estados Unidos.',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'A União Europeia é um bloco formado principalmente por países de qual continente?',
     tip: 'O próprio nome do bloco já indica o continente — pensa no nome logo no início.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Qual destes países asiáticos é considerado uma grande potência econômica mundial?',
     tip: 'Pensa no único país da lista localizado na Ásia — os outros ficam na África, América e Europa.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'O Deserto do Saara, estudado neste ano, está localizado em qual continente?',
     tip: 'Pensa no continente que você estudou junto com a civilização egípcia antiga.',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'O que é o efeito estufa, tema ambiental estudado neste ano?',
     tip: 'Pensa no último grande tema do ano, sobre o aquecimento global e as mudanças climáticas.',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de organização internacional, diferente de um bloco econômico regional?',
     tip: 'Pensa na organização que busca reunir praticamente todos os países do mundo, com foco em paz e cooperação.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O Monte Everest, estudado neste ano, está localizado em qual cordilheira?',
     tip: 'Pensa na cordilheira asiática que abriga o ponto mais alto do mundo.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'Qual destes é um recurso natural mineral muito encontrado em países africanos?',
     tip: 'Pensa na riqueza mineral associada a países como África do Sul, estudada no bloco sobre o continente africano.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Por que o fim da Guerra Fria, estudado no início do ano, é considerado um marco histórico importante?',
     tip: 'Pensa na queda do Muro de Berlim e no que ela representou para o cenário mundial.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Por que blocos econômicos como o Mercosul e a União Europeia são criados pelos países membros?',
     tip: 'Pensa no motivo pelo qual países decidem se unir em blocos, estudado logo depois da globalização.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Por que o Vale do Silício, nos Estados Unidos, é tão importante para a economia mundial?',
     tip: 'Pensa na região californiana famosa por empresas de tecnologia, estudada no bloco sobre os Estados Unidos.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Qual é um dos principais desafios populacionais enfrentados por muitos países europeus atualmente?',
     tip: 'Pensa no desafio estudado no bloco sobre a Europa, relacionado a ter mais idosos do que crianças.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Por que a Ásia é considerada o continente mais populoso do mundo?',
     tip: 'Pensa nos dois países mais populosos do mundo, que você estudou no bloco sobre a Ásia.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Por que a "Partilha da África" pelas potências europeias é considerada um evento histórico tão impactante?',
     tip: 'Pensa no processo histórico estudado no bloco sobre a África, em que europeus dividiram o território sem considerar os povos locais.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Por que a queima de combustíveis fósseis é tão associada ao aquecimento global, tema estudado neste ano?',
     tip: 'Pensa no que sai do escapamento de carros e das chaminés de fábricas, estudado no último bloco do ano.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual é a relação entre a ONU e os conflitos internacionais, estudada neste ano?',
     tip: 'Pensa na organização internacional estudada junto com os blocos econômicos, criada após a Segunda Guerra Mundial.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Por que o Himalaia é uma característica geográfica tão importante da Ásia?',
     tip: 'Pensa na cordilheira estudada no bloco sobre a Ásia, conhecida como "Teto do Mundo".',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Por que é importante que diferentes países cooperem para enfrentar as mudanças climáticas, tema estudado neste ano?',
     tip: 'Pensa no Acordo de Paris, estudado no último bloco, e no motivo de tantos países terem assinado o mesmo compromisso.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Guerra Fria',
     type: 'multiple_choice',
     text: 'Bernardo revisou o ano de Geografia e lembrou do fim da Guerra Fria, simbolizado pela queda de um muro famoso. Qual é esse muro?',
     tip: 'É o mesmo muro estudado no primeiro bloco do ano, derrubado em 1989.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que o Brasil faz parte de um bloco econômico junto com Argentina, Paraguai e Uruguai. Qual é esse bloco?',
     tip: 'É o mesmo bloco das Questões 2 e 12 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Bernardo revisou os Estados Unidos e lembrou de uma região famosa por reunir grandes empresas de tecnologia. Qual é essa região?',
     tip: 'É a mesma região da Questão 13 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que a Europa enfrenta um desafio populacional importante, relacionado ao envelhecimento. O que caracteriza esse desafio?',
     tip: 'É o mesmo desafio da Questão 14 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Bernardo revisou a Ásia e lembrou que a Índia é um dos países mais populosos do mundo. Qual outro país asiático também tem esse destaque?',
     tip: 'É o mesmo país das Questões 5 e 15 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que a África passou por um processo histórico em que potências europeias dividiram seu território. Como esse processo é chamado?',
     tip: 'É o mesmo processo da Questão 16 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo revisou o tema do aquecimento global e lembrou de um acordo internacional importante sobre o clima. Qual é esse acordo?',
     tip: 'É o mesmo acordo estudado no último bloco do ano, sobre a redução de gases poluentes.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Bernardo lembrou que a queima de combustíveis fósseis contribui para o aquecimento global. Qual destes é um exemplo de combustível fóssil?',
     tip: 'É o mesmo combustível da Questão 17 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Depois de revisar o ano inteiro de Geografia, Bernardo percebeu que vários temas estudados (globalização, blocos econômicos, continentes e meio ambiente) estão conectados entre si. Isso mostra que a Geografia ajuda a entender:',
     tip: 'Pensa em como todos os temas que você estudou este ano se conectam: economia, política, população e meio ambiente.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'No fim do ano, o professor perguntou a Bernardo o que ele aprendeu de mais importante em Geografia na 9ª série. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você estudou este ano: globalização, blocos econômicos, continentes e meio ambiente — tudo conectado!',

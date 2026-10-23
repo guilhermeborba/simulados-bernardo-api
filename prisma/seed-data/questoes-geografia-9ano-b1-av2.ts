@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'O que é um "bloco econômico"?',
     tip: 'Pensa num grupo de países vizinhos que decidem trabalhar juntos para fortalecer suas economias.',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de bloco econômico?',
     tip: 'Pensa num grupo de países da América do Sul, incluindo o Brasil, que se uniram para facilitar o comércio entre eles.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'O Mercosul é formado principalmente por quais países?',
     tip: 'Pensa no próprio nome "Mercosul" — ele tem a ver com "Mercado Comum do Sul", referindo-se a uma região específica da América.',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'A União Europeia é um bloco econômico formado principalmente por países de qual continente?',
     tip: 'O nome do bloco já dá a resposta — pensa no continente mencionado logo no início do nome.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'O que é a ONU (Organização das Nações Unidas)?',
     tip: 'Pensa no próprio nome "Nações Unidas" — ele já sugere países se unindo por um objetivo maior.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Qual é um dos principais objetivos da criação de blocos econômicos como o Mercosul?',
     tip: 'Pensa no motivo pelo qual países decidem se unir em vez de ficar isolados: o que eles ganham fazendo isso juntos?',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Muitos países da União Europeia compartilham qual moeda em comum?',
     tip: 'Pensa numa moeda criada especialmente para facilitar o comércio entre os países europeus que a adotaram.',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'O que a ONU busca promover entre as nações do mundo?',
     tip: 'Lembra da Questão 5 desta prova? Pensa nos objetivos principais dessa organização, criados após uma grande guerra mundial.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Qual destes países faz parte do Mercosul como membro pleno?',
     tip: 'Pensa no país sul-americano que você já estudou como fundador desse bloco, na Questão 3 desta prova.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Por que países costumam formar blocos econômicos?',
     tip: 'É a mesma ideia da Questão 6 desta prova.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Por que a criação da União Europeia ajudou a fortalecer a economia dos países membros?',
     tip: 'Pensa em como fica mais fácil comercializar e viajar entre países que fazem parte do mesmo bloco.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual é uma função importante da ONU no cenário internacional?',
     tip: 'Lembra das Questões 5 e 8 desta prova? Pensa no papel que a ONU costuma ter quando dois países entram em conflito.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Por que o Mercosul é importante para o comércio entre os países da América do Sul?',
     tip: 'É a mesma ideia das Questões 3, 6 e 9 desta prova.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre um bloco econômico regional (como o Mercosul) e uma organização internacional mais ampla (como a ONU)?',
     tip: 'Pensa na abrangência de cada um: um é regional, o outro busca ser mundial.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Por que compartilhar uma moeda comum, como o euro, pode facilitar o comércio entre os países da União Europeia?',
     tip: 'Lembra da Questão 7 desta prova? Pensa em como seria mais fácil comprar algo em outro país se você não precisasse trocar seu dinheiro antes.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Qual destas é uma vantagem de um país pertencer a um bloco econômico?',
     tip: 'Pensa: um país sozinho tem o mesmo poder de negociação que vários países unidos?',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Por que a ONU é considerada uma organização internacional, e não um bloco econômico regional?',
     tip: 'Lembra da Questão 14 desta prova? Pensa na abrangência mundial da ONU, diferente de um bloco regional.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de cooperação que organizações internacionais costumam promover entre os países?',
     tip: 'Lembra da Questão 12 desta prova? Pensa em como organizações como a ONU ajudam em desastres e conflitos pelo mundo.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Por que países da América do Sul, como Brasil, Argentina, Paraguai e Uruguai, decidiram formar o Mercosul?',
     tip: 'É a mesma ideia das Questões 3, 6, 9 e 13 desta prova.',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre os objetivos de um bloco econômico e os de uma organização como a ONU?',
     tip: 'Pensa em tudo que você já estudou nesta prova sobre os diferentes objetivos de cada tipo de organização.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo viu no noticiário que o Brasil faz parte de um bloco econômico junto com Argentina, Paraguai e Uruguai. Qual é esse bloco?',
     tip: 'É o mesmo bloco das Questões 2, 3 e 9 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu sobre uma organização internacional que busca promover a paz entre os países do mundo. Qual é essa organização?',
     tip: 'É a mesma organização das Questões 5, 8, 12, 17 e 18 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que vários países da Europa usam a mesma moeda para facilitar o comércio entre eles. Qual é essa moeda?',
     tip: 'É a mesma moeda das Questões 7 e 15 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que o Mercosul foi criado pelos países da América do Sul. A resposta certa é:',
     tip: 'É a mesma resposta das Questões 6, 13 e 19 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a ONU também ajuda a mediar conflitos entre países. Isso mostra que uma das funções importantes dessa organização é:',
     tip: 'É a mesma função das Questões 12 e 18 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que países que fazem parte de blocos econômicos costumam ter mais força para negociar com outros países. Por que isso acontece?',
     tip: 'É a mesma ideia da Questão 16 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo comparou o Mercosul com a ONU e percebeu uma diferença importante entre eles. Qual é essa diferença?',
     tip: 'É a mesma comparação das Questões 14 e 17 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que o euro é usado por vários países da União Europeia. Qual é a vantagem disso para o comércio entre esses países?',
     tip: 'É a mesma vantagem das Questões 15 e 23 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a cooperação entre países pode incluir ajuda humanitária em casos de desastres naturais. Essa cooperação costuma ser organizada principalmente por:',
     tip: 'É a mesma organização que você já viu ajudando em diversas situações nesta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo qual é a importância de blocos econômicos e organizações internacionais no mundo atual. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre os papéis desses blocos e organizações no mundo.',

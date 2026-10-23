@@ -1018,6 +1018,40 @@ O reconhecimento de patrimônio cultural em B4/AV1, ID 1, e B4/AV2, ID 6, usa **
 
 B1/AV1, B1/AV2 e B3/AV1 mantêm um tema cada, por serem concentrados em linguagem visual, cores e teatro; B2/AV1 tem quatro; B2/AV2, quatro; B3/AV2, dois; B4/AV1, cinco; B4/AV2 revisa dez. A recomendação de três a oito temas não obriga subdivisões artificiais nem limita a revisão anual. Todos os campos anteriores foram preservados exatamente. O gabarito de compasso e a precisão de comandos sobre patrimônio e uma narrativa folclórica estão na [issue web #118](https://github.com/guilhermeborba/simulados-bernardo/issues/118), para revisão separada.
 
+### Geografia — 9º ano
+
+| Tema | Abrange |
+|---|---|
+| Globalização | Fluxos globais, integração, comércio e efeitos econômicos/culturais quando o processo já é dado. |
+| Espaço mundial | Reconhecimento da integração pedida, continentes, países, capitais, localização e sínteses espaciais. |
+| Relações internacionais | Poder, polaridade, cooperação, organizações, diplomacia e acordos. |
+| Guerra Fria | Disputa EUA–URSS, bipolaridade e Muro de Berlim quando o conflito já é dado. |
+| Economia mundial | Multinacionais, setores produtivos, potências, indústria e comércio internacional. |
+| Trabalho e tecnologia | Tecnologia, inovação, comunicação e polos tecnológicos. |
+| Blocos econômicos | Cooperação regional, Mercosul, União Europeia, moeda comum e vantagens comerciais. |
+| Hidrografia | Rios Nilo/Danúbio, localização, circulação e agricultura. |
+| Relevo | Cordilheiras, montanhas, relevo e relações com clima e turismo. |
+| Clima e cotidiano | Tipos e diversidade climática dos continentes. |
+| População mundial | População, distribuição, países populosos, natalidade e envelhecimento. |
+| Migração | Fluxos migratórios, oportunidades e formação populacional. |
+| Cultura e identidade | Diversidade cultural, línguas, religiões, história e influência cultural. |
+| Biomas | Desertos, savanas, florestas, fauna e diversidade dos ambientes. |
+| Recursos naturais | Minerais, petróleo, reservas e riqueza natural. |
+| Agricultura | Produtos, terras, produtividade e tecnologia agrícola. |
+| Formação territorial | Colonização, partilha, fronteiras e suas consequências. |
+| Sustentabilidade | ODS, desenvolvimento, consumo, água, energia e reciclagem. |
+| Preservação ambiental | Florestas, poluição, impactos ambientais e reconhecimento do fenômeno climático pedido. |
+| Mudanças climáticas | Efeito estufa, aquecimento, emissões, acordos, geleiras e eventos extremos. |
+| Fontes de energia | Combustíveis fósseis, fontes renováveis e energia solar. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-geografia-9ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 21 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Espaço mundial evita entregar Globalização em B1/AV1, IDs 22 e 25, e não fornece países ou capitais. Relações internacionais evita Guerra Fria no ID 21 e não entrega ONU ou Acordo de Paris solicitados. Economia mundial em B1/AV1, ID 24, não antecipa Empresa multinacional; no estudo dos EUA e do Japão evita fornecer Tecnologia como setor pedido. Formação territorial não revela Partilha da África. Preservação ambiental em B4/AV1, ID 29, não antecipa Aquecimento global e mudanças climáticas. Nenhum nome de país, rio, montanha, bioma específico ou recurso solicitado foi usado como resposta no tema.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 7, 2, 8, 9, 10, 7, 5, 13 temas. Blocos/organizações concentram dois agrupamentos; EUA, oito; Europa, nove; Ásia, dez; África, sete. A revisão anual retoma treze campos, conforme a variedade do programa. Os demais simulados têm cinco ou sete. Esses totais refletem conteúdos geográficos distintos com nomes reutilizados, sem um rótulo por alternativa.
+
+Separação entre população/território e periodização da polaridade estão na [issue web #139](https://github.com/guilhermeborba/simulados-bernardo/issues/139), para revisão própria e coerência com História. Os campos anteriores foram preservados; cobertura temática não certifica a precisão pedagógica do legado.
+
 ### Arte — 8º ano
 
 | Tema | Abrange |
