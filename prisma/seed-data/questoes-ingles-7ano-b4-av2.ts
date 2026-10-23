@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Choose the correct form: \"She ___ a teacher.\"",
     tip: "\"She\" é terceira pessoa do singular. Qual forma do verbo \"to be\" combina com ela?",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Which word means \"the opposite of big\"?",
     tip: "Pense em algo bem pequenininho. Qual palavra representa isso?",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Which is the correct simple present form: \"My brother ___ breakfast every morning.\"",
     tip: "Com \"he, she, it\" no presente simples, adicionamos \"-s\" ou \"-es\" no verbo. Qual opção tem essa terminação?",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Which food is uncountable?",
     tip: "Três dessas opções podem ser contadas uma a uma. Qual delas não dá para contar \"uma, duas, três...\"?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"go\"?",
     tip: "\"Go\" é um verbo irregular, então não segue a regra do \"-ed\". Lembra da forma especial dele no passado?",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of \"big\"?",
     tip: "\"Big\" é um adjetivo curto. Para comparar duas coisas, dobramos a última letra e adicionamos \"-er\". Qual opção faz isso?",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Which phrase is used for planned future actions?",
     tip: "As outras palavras falam do passado. Qual expressão fala sobre planos para o futuro?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Choose the correct question with \"to be\": \"___ you from Brazil?\"",
     tip: "\"You\" sempre usa a mesma forma do verbo \"to be\", seja no singular ou no plural. Qual é essa forma?",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the past tense of \"eat\"?",
     tip: "\"Eat\" é irregular. Pense: \"ontem eu já ___ o almoço\" — qual palavra combina?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Which word do we use with uncountable nouns to ask \"how much\" of something?",
     tip: "\"Much\" é a parceira das palavras incontáveis, como \"water\" e \"sugar\". Qual opção é essa palavra?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"There ___ some cookies on the table.\"",
     tip: "\"Cookies\" está no plural. Qual forma do verbo combina com substantivos no plural?",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"My grandmother's house is ___ than my house. It was built 100 years ago.\"",
     tip: "A frase compara duas casas e tem a palavra \"than\" — isso pede um comparativo. \"Old\" é curto, então usa \"-er\".",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete: \"Yesterday, we ___ a movie together.\"",
     tip: "\"Yesterday\" (ontem) mostra que a ação já aconteceu. \"Watch\" é regular — qual opção tem o \"-ed\" do passado?",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"I ___ going to visit my cousins next weekend.\"",
     tip: "O sujeito é \"I\". Qual forma do verbo \"to be\" combina com \"I\"?",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Complete: \"How ___ sugar do you want in your tea?\"",
     tip: "\"Sugar\" é incontável. Para perguntar sobre a quantidade de algo incontável, usamos \"how much\" ou \"how many\"?",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "\"Interesting\" é um adjetivo longo, então não recebe \"-er\" no final — usamos \"more\" antes dele, junto com \"than\".",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"Of all my friends, Lucas is the ___.\"",
     tip: "\"Of all my friends\" compara com TODOS os amigos — isso pede superlativo. \"Funny\" termina em consoante + \"y\", vira \"funniest\".",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Choose the correct negative sentence: \"He ___ like vegetables.\"",
     tip: "\"Like\" é um verbo de ação no presente simples, com \"he\" (terceira pessoa). Qual auxiliar negativo combina com isso?",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"Look at those clouds! It ___ rain soon.\"",
     tip: "A frase mostra uma evidência visível (as nuvens) agora. Isso pede \"going to\", na estrutura certa com o verbo \"to be\".",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete: \"We ___ very happy when our team won the game.\"",
     tip: "\"We\" é plural, e a frase fala de algo no passado (o time \"won\", ganhou). Qual forma do verbo \"to be\" no passado combina com \"we\"?",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Bernardo wants to introduce himself in English. Which sentence is correct?",
     tip: "\"My name\" é uma coisa só (singular). Qual forma do verbo \"to be\" combina com isso?",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Descrições em inglês',
     type: "multiple_choice",
     text: "Bernardo describes his best friend as someone who always makes people laugh. Which word fits?",
     tip: "Se o amigo faz todo mundo rir, ele é sério, quieto, triste ou divertido? Pense no significado de cada palavra.",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Presente simples',
     type: "multiple_choice",
     text: "Every morning, Bernardo ___ his teeth before breakfast. Which word completes it?",
     tip: "\"Every morning\" mostra uma rotina (presente simples), e \"Bernardo\" é terceira pessoa do singular. Qual opção tem a terminação certa?",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Existência e quantidade',
     type: "multiple_choice",
     text: "Bernardo's mom says there isn't any milk left in the fridge. Which sentence is correct?",
     tip: "Se não sobrou leite, a frase precisa ser negativa. \"Milk\" é incontável, então o verbo é \"is\", e usamos \"any\" nas negativas.",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Last Saturday, Bernardo visited his grandparents. Which sentence is correct?",
     tip: "\"Last Saturday\" (sábado passado) mostra que isso já aconteceu. Qual frase está no passado, certinho?",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo is taller than his little sister. Which sentence is correct?",
     tip: "\"Tall\" é um adjetivo curto, então usa \"-er\" para comparar duas pessoas, com \"than\" depois.",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo has already packed his bag for the school trip tomorrow. Which sentence shows his plan?",
     tip: "Se ele já arrumou a mochila, é um plano certo — isso combina com \"going to\", não com um \"will\" incerto como em \"maybe\".",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo's friend asks him to help right now, and he quickly says, \"Don't worry, I ___ help you!\"",
     tip: "É uma decisão espontânea, tomada na hora. Isso combina com \"will\", lembra da regrinha?",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo's dog is bigger than his friend's dog. Which sentence is correct?",
     tip: "\"Big\" é curto, então dobramos a última letra e adicionamos \"-er\": \"bigger\". E a frase precisa de \"than\" para comparar dois cachorros.",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo's family has already planned a trip to the beach next month, with everything booked. Which sentence shows this?",
     tip: "Viagem já planejada e reservada = plano certo, decidido com antecedência. Isso pede \"going to\", não \"will\" nem passado.",

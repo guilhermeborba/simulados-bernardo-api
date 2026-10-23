@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Which phrase do we use to talk about future plans?",
     tip: "As outras palavras falam do passado. Qual expressão fala sobre algo que ainda vai acontecer?",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"I ___ going to visit my cousin next weekend.\"",
     tip: "O sujeito é \"I\" (eu). Qual forma do verbo \"to be\" combina com \"I\"?",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Choose the correct structure for \"going to\".",
     tip: "Pense em \"I am going to play\". A estrutura é: sujeito + am/is/are + going to + verbo (sem \"-ing\"). Qual opção mostra isso certinho?",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Which word do we use for quick decisions or predictions, often without \"to\"?",
     tip: "Pense em alguém decidindo algo na hora, de repente: \"Ok, I ___ help you!\" Qual palavra combina?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"She ___ going to study English next year.\"",
     tip: "\"She\" é terceira pessoa do singular. Qual forma do verbo \"to be\" combina com \"she\"?",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Choose the correct sentence using \"will\".",
     tip: "Depois de \"will\", o verbo fica na forma simples, sem \"to\", sem \"-ing\" e sem \"-s\". Qual opção segue essa regra?",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Which sentence shows a future plan with \"going to\"?",
     tip: "Procure a frase que tem a estrutura \"verbo to be + going to + verbo\". Qual opção tem isso?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"They ___ going to travel to Europe this summer.\"",
     tip: "\"They\" é plural. Qual forma do verbo \"to be\" combina com \"they\"?",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Choose the correct negative sentence with \"going to\".",
     tip: "Para negar frases com \"going to\", colocamos \"not\" depois do verbo \"to be\" (am/is/are). Qual opção faz isso certo?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Which word often comes after \"will\" in a sentence?",
     tip: "Pense em \"I will play\", \"she will go\", \"they will eat\" — qual forma do verbo aparece sempre depois de \"will\"?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"Look at those clouds! It ___ rain soon.\"",
     tip: "A frase mostra uma evidência visível AGORA (as nuvens). Quando temos uma pista visível no presente, usamos \"going to\", não \"will\".",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"I promise I ___ help you with your homework.\"",
     tip: "A palavra \"promise\" (promessa) é uma pista forte! Promessas e decisões espontâneas geralmente usam \"will\", não \"going to\".",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"Based on the weather forecast, it ___ be sunny tomorrow.\"",
     tip: "\"Based on the weather forecast\" (baseado na previsão do tempo) é uma evidência concreta — isso pede \"going to\", não \"will\".",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"I think our team ___ win the game.\"",
     tip: "\"I think\" mostra uma opinião, sem evidência concreta — isso é típico do uso de \"will\" para previsões pessoais.",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"She has already bought the tickets. She ___ go to the concert.\"",
     tip: "\"She has already bought the tickets\" mostra um plano JÁ decidido antes — isso pede \"going to\", com \"is\" (pois \"she\" é singular).",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"Watch out! That glass ___ fall!\"",
     tip: "\"Watch out!\" mostra que algo está acontecendo bem na frente dos seus olhos AGORA — isso pede \"going to\", não \"will\".",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"I promise I ___ call you tonight.\"",
     tip: "De novo a palavra \"promise\"! Promessas combinam com \"will\", lembra?",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"They have already planned their trip. They ___ go to the beach next month.\"",
     tip: "\"They have already planned\" mostra um plano já decidido. \"They\" é plural, então usamos \"are going to\".",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Complete: \"I'm so thirsty. I ___ drink some water.\"",
     tip: "\"I'm so thirsty\" mostra uma decisão espontânea, tomada na hora — isso pede \"will\", não \"going to\".",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"Based on these dark clouds, it ___ going to storm.\"",
     tip: "\"It\" (referindo-se ao tempo/clima) é sempre acompanhado de \"is\" no presente. Qual opção é essa forma do verbo \"to be\"?",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo has already packed his bag for the school trip tomorrow. Which sentence shows his plan?",
     tip: "Se o Bernardo já arrumou a mochila, isso é um plano certo, decidido antes — combina com \"going to\", não com \"will\" (que soa mais incerto, como em \"maybe\").",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo looks outside and sees dark clouds. He says a prediction based on what he sees. Which sentence is correct?",
     tip: "A questão já avisa: é uma previsão baseada em uma evidência visível (nuvens escuras). Isso pede \"going to\".",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo's friend asks for help, and Bernardo decides immediately: \"Don't worry, I'll help you!\" Which structure did he use?",
     tip: "\"I'll\" é a forma reduzida de \"I will\". Qual estrutura ele usou para fazer essa decisão espontânea?",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo's family has already booked a hotel for their vacation next month. Which sentence shows this planned future?",
     tip: "A frase diz que o hotel já foi reservado (\"has already booked\") — isso é um plano certo, e por isso usamos \"going to\" no futuro, não o passado nem o \"will\".",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo already has tickets to the amusement park next Saturday. Which sentence is correct?",
     tip: "Se ele já tem os ingressos, é um plano decidido com antecedência — isso pede \"going to\", não \"will\" nem passado.",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo makes a quick promise to his mom: \"I ___ clean my room before dinner.\"",
     tip: "É uma promessa feita na hora, de repente. Isso combina com \"will\", lembra da regrinha?",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo's teacher announced that the class trip is already scheduled for next Friday. Which sentence is correct?",
     tip: "\"Already scheduled\" (já agendado) mostra um plano certo e decidido — isso pede \"going to\", não um \"will\" incerto como em \"maybe\".",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo sees his little sister about to drop her ice cream. He quickly says: \"Watch out, it ___ fall!\"",
     tip: "Ele está vendo o sorvete quase caindo AGORA, na frente dele — isso é uma evidência visível, que pede \"going to\".",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo hasn't decided yet, but he says: \"Maybe I ___ play video games later.\"",
     tip: "A palavra \"maybe\" (talvez) mostra que ele ainda não decidiu com certeza — isso combina com \"will\", usado para coisas mais incertas.",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Futuro em inglês',
     type: "multiple_choice",
     text: "Bernardo's whole family has already planned a trip to Disney next year, with tickets bought. Which sentence shows this?",
     tip: "Ingressos já comprados e viagem já planejada = plano certo, decidido com antecedência. Isso pede \"going to\", não \"will\" nem passado.",

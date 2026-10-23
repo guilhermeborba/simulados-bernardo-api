@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "How do you say \"Olá, como você está?\" in English?",
     tip: "Pensa: você quer saber como a pessoa ESTÁ, não o nome dela!",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Which sentence correctly uses the verb \"to be\" to introduce yourself?",
     tip: "Lembra: com \"I\", o verbo \"to be\" sempre vira \"am\"!",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "What is the correct way to ask someone's name in English?",
     tip: "Pensa na palavra \"name\" — ela aparece na pergunta certa!",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"She ___ my sister.\"",
     tip: "\"She\" é terceira pessoa do singular — qual forma do verbo \"to be\" combina com ela?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Which word means \"tchau\" in English?",
     tip: "Pensa: \"Hello\" é para chegar, e a palavra certa é para quando você vai embora!",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"They ___ from Brazil.\"",
     tip: "\"They\" é plural — qual forma do verbo \"to be\" combina com palavras no plural?",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "What does \"Nice to meet you!\" mean in Portuguese?",
     tip: "Pensa: essa frase é usada quando você conhece alguém pela primeira vez!",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"I ___ ten years old.\"",
     tip: "Lembra da regra: \"I\" sempre usa a mesma forma do verbo \"to be\"!",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "How do you say \"Qual é a sua idade?\" in English?",
     tip: "Pensa na palavra \"old\", que tem a ver com idade!",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Which greeting is most common to use in the morning?",
     tip: "Pensa: qual dessas opções tem a palavra \"morning\", que significa \"manhã\"?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "If someone asks \"What's your name?\", what is the most appropriate answer?",
     tip: "A pergunta é sobre o NOME — qual resposta fala sobre isso?",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Complete the dialogue: \"Hi! How are you?\" \"___\"",
     tip: "A pergunta é sobre como você ESTÁ — qual resposta fala sobre isso?",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Which sentence is grammatically correct?",
     tip: "\"He\" é terceira pessoa do singular, igual a \"she\" — lembra qual forma combina?",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"We ___ students.\"",
     tip: "\"We\" é plural, assim como \"they\" — qual forma combina?",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "If you want to say \"Eu sou do Brasil\" in English, what should you say?",
     tip: "Pensa: falta uma palavrinha pequena entre \"am\" e \"Brazil\" para indicar origem!",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"___ you a student?\"",
     tip: "\"You\" sempre combina com a mesma forma do verbo \"to be\" usada com \"we\" e \"they\"!",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Which question is correct to ask where someone lives?",
     tip: "Pensa na palavra \"where\", que pergunta sobre lugar!",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"It ___ a beautiful day.\"",
     tip: "\"It\" funciona como \"he\" e \"she\" — qual forma do verbo \"to be\" combina?",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "How should you politely respond when someone says \"Nice to meet you\"?",
     tip: "Pensa: a resposta educada repete parte da frase, acrescentando \"too\"!",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Complete: \"My parents ___ at home.\"",
     tip: "\"My parents\" é plural — qual forma do verbo \"to be\" combina com o plural?",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Bernardo meets a new student at school and wants to introduce himself in English. What should he say first?",
     tip: "Pensa: ao conhecer alguém, a primeira coisa é se apresentar, não se despedir!",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "The new student asks Bernardo: \"How old are you?\" What is the correct way for Bernardo to answer?",
     tip: "A pergunta é sobre IDADE — qual resposta fala sobre isso?",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Bernardo wants to ask his new friend where he lives. Which question should he use?",
     tip: "Lembra da questão 17 deste simulado sobre perguntar onde alguém mora!",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Bernardo introduces his friend to his teacher using the verb \"to be\". Which sentence is correct?",
     tip: "Lembra que \"he\" sempre combina com \"is\"!",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "At the end of the school day, Bernardo says goodbye to his friends. Which expression should he use?",
     tip: "Pensa: ele está indo para casa, então precisa de uma despedida, não uma saudação!",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Bernardo's friend greets him in the morning before class. Which greeting is most appropriate at that time?",
     tip: "Lembra da questão 10 deste simulado sobre a saudação da manhã!",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Bernardo wants to tell his classmates that he and his friends are Brazilian. Which sentence is correct?",
     tip: "Lembra que \"we\" sempre combina com \"are\"!",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "During class, the teacher asks Bernardo: \"Are you a student?\" What is the correct answer?",
     tip: "Lembra que \"I\" sempre combina com \"am\", nunca com \"are\" ou \"be\"!",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Saudações e apresentações',
     type: "multiple_choice",
     text: "Bernardo wants to politely respond after someone says \"Nice to meet you!\" during an introduction. What should he say?",
     tip: "Lembra da questão 19 deste simulado sobre essa resposta educada!",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "For his final English review of the bimester, Bernardo practices using the verb \"to be\" correctly. Which sentence shows the correct use of \"to be\" with \"they\"?",
     tip: "Lembra de toda a tabela do verbo \"to be\" que você revisou neste simulado!",

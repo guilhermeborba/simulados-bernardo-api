@@ -1,6 +1,7 @@
 export const questoesIngles7AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of \"big\"?",
     tip: "Comparativo serve para comparar DUAS coisas, e geralmente usa \"-er\" no final de adjetivos curtos. Qual opção tem essa terminação?",
@@ -16,6 +17,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of \"tall\"?",
     tip: "Superlativo serve para comparar algo com TODO o resto (o mais alto de todos). Geralmente usa \"-est\". Qual opção tem essa terminação?",
@@ -31,6 +33,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which suffix do we usually add to short adjectives to make comparatives?",
     tip: "Pense em \"small\" → \"smaller\". Qual terminação foi adicionada?",
@@ -46,6 +49,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which word do we use before long adjectives to make comparatives (like \"beautiful\")?",
     tip: "Adjetivos longos (com 3 ou mais sílabas) não recebem \"-er\" no final — usamos uma palavra separada antes deles. Qual das opções é essa palavra?",
@@ -61,6 +65,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of \"happy\"?",
     tip: "Quando o adjetivo termina em consoante + \"y\", trocamos o \"y\" por \"i\" antes de adicionar \"-er\". Qual opção faz isso certo?",
@@ -76,6 +81,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of \"fast\"?",
     tip: "\"Fast\" é um adjetivo curto, então o superlativo usa \"-est\", não \"most\". Qual opção está certa?",
@@ -91,6 +97,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which word usually comes after a comparative adjective?",
     tip: "Pense na frase \"Ele é mais alto DO QUE eu\". Em inglês, qual palavra substitui o \"do que\"?",
@@ -106,6 +113,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of \"small\"?",
     tip: "\"Small\" é um adjetivo curto, então usamos \"-er\". Qual opção tem essa terminação?",
@@ -121,6 +129,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of \"good\"?",
     tip: "\"Good\" é um adjetivo irregular — ele não segue a regra do \"-est\". Pense: \"o melhor de todos\" — qual palavra usamos?",
@@ -136,6 +145,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the comparative form of \"bad\"?",
     tip: "\"Bad\" também é irregular, assim como \"good\". Pense: \"isso é pior do que aquilo\" — qual palavra combina?",
@@ -151,6 +161,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"An elephant is ___ than a mouse.\"",
     tip: "A frase compara DUAS coisas (elefante e rato) e tem a palavra \"than\" depois. Isso pede um comparativo. Qual opção é a forma comparativa certa?",
@@ -166,6 +177,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"Mount Everest is the ___ mountain in the world.\"",
     tip: "A frase compara com TODAS as montanhas do mundo (\"in the world\"), então precisa de um superlativo, com \"the\" antes.",
@@ -181,6 +193,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"This book is ___ than that one. I understood it better.\"",
     tip: "\"Interesting\" é um adjetivo longo, então não usamos \"-er\". E a frase tem \"than\", pedindo um comparativo, não superlativo.",
@@ -196,6 +209,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"My sister is ___ than me. She was born first.\"",
     tip: "\"Old\" é um adjetivo curto, e a frase tem \"than\", pedindo um comparativo. Qual opção usa \"-er\" corretamente?",
@@ -211,6 +225,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"This is the ___ day of my life! I'm so happy!\"",
     tip: "A frase tem \"the\" antes do espaço, pedindo um superlativo. \"Good\" é irregular — qual é a forma superlativa certa?",
@@ -226,6 +241,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "\"Fast\" é curto, então usa \"-er\" (não \"more\") para comparar duas coisas, e precisa da palavra \"than\" depois.",
@@ -241,6 +257,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"Of all the students, Maria is the ___.\"",
     tip: "\"Of all the students\" (de todos os alunos) é uma pista forte de superlativo — comparando com o grupo inteiro.",
@@ -256,6 +273,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"Winter is ___ than summer in my city.\"",
     tip: "A frase já tem a palavra \"than\" depois do espaço, então a resposta não deve repetir \"than\". \"Cold\" é curto, use \"-er\".",
@@ -271,6 +289,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Choose the correct sentence.",
     tip: "\"Easy\" termina em consoante + \"y\", então no superlativo trocamos \"y\" por \"i\" e adicionamos \"-est\": fica parecido com \"happy\" → \"happiest\".",
@@ -286,6 +305,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete: \"A cheetah is the ___ land animal in the world.\"",
     tip: "\"In the world\" mostra que é uma comparação com TODOS os animais, pedindo superlativo. \"Fast\" é curto, usa \"-est\".",
@@ -301,6 +321,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo compared his height with his sister's. He is taller than her. Which sentence is correct?",
     tip: "\"Tall\" é um adjetivo curto, então usa \"-er\" para comparar duas pessoas, com \"than\" depois.",
@@ -316,6 +337,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo thinks math is more difficult than English. Which sentence is correct?",
     tip: "\"Difficult\" é um adjetivo longo (3 sílabas), então não usamos \"-er\" — usamos \"more\" antes dele.",
@@ -331,6 +353,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Of all his classmates, Bernardo runs the fastest. Which sentence is correct?",
     tip: "\"Of all his classmates\" (de todos os colegas) pede um superlativo, com \"the\" antes de \"fastest\".",
@@ -346,6 +369,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo says his dog is bigger than his friend's dog. Which sentence is correct?",
     tip: "\"Big\" é curto, então dobra a última letra e adiciona \"-er\": \"bigger\". E a frase precisa de \"than\" para comparar dois cachorros.",
@@ -361,6 +385,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo thinks his new video game is the best game he has ever played. Which sentence is correct?",
     tip: "\"Good\" é irregular. Pense no superlativo dele: não existe \"goodest\" — qual é a forma certa?",
@@ -376,6 +401,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo's grandfather is the oldest person in the family. Which sentence is correct?",
     tip: "\"In the family\" (na família) compara com TODOS os membros, pedindo superlativo com \"the\" e \"-est\".",
@@ -391,6 +417,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo says that, of all the subjects, Science is the most interesting for him. Which sentence is correct?",
     tip: "\"Interesting\" é um adjetivo longo, então o superlativo usa \"the most\", nunca \"-est\" no final.",
@@ -406,6 +433,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo compared two pizzas and said one was tastier than the other. Which sentence is correct?",
     tip: "\"Tasty\" termina em consoante + \"y\", então trocamos o \"y\" por \"i\" antes do \"-er\": \"tastier\". E a frase precisa de \"than\".",
@@ -421,6 +449,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo's new shoes are more comfortable than his old ones. Which sentence is correct?",
     tip: "\"Comfortable\" é um adjetivo longo, então usamos \"more\" antes dele, nunca \"-er\" no final.",
@@ -436,6 +465,7 @@ export const questoesIngles7AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo believes that, out of all his friends, Lucas is the funniest. Which sentence is correct?",
     tip: "\"Out of all his friends\" pede superlativo. \"Funny\" termina em consoante + \"y\", então vira \"funniest\" (troca o \"y\" por \"i\" + \"-est\").",
