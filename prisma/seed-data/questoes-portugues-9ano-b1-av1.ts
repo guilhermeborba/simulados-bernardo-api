@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'O que é "variação linguística"?',
     tip: 'Pensa em como seus familiares de outra região falam algumas palavras diferente de você — isso é erro ou é só uma forma diferente de falar a mesma língua?',
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de variação linguística regional?',
     tip: 'Pensa em como a mesma raiz pode ter nomes diferentes dependendo da região do Brasil onde você está.',
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'O que é "preconceito linguístico"?',
     tip: 'Pensa na palavra "preconceito" — ela tem a ver com julgar alguém de forma injusta, antes mesmo de conhecê-la.',
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Qual destas situações exige o uso da linguagem formal?',
     tip: 'Pensa em qual dessas situações é mais séria e oficial, exigindo mais cuidado com as regras da língua.',
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'A função "referencial" (ou informativa) da linguagem tem como objetivo principal:',
     tip: 'Pensa na palavra "referencial" — ela tem a ver com "referência", ou seja, informações sobre algo real.',
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'A função "emotiva" (ou expressiva) da linguagem está centrada em:',
     tip: 'Pensa na palavra "emotiva" — ela tem a ver com emoção, ou seja, com o que a pessoa que fala está sentindo.',
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'A função "conativa" (ou apelativa) da linguagem tem como objetivo:',
     tip: 'Pensa em comerciais de TV que tentam te convencer a comprar algo — qual é o objetivo principal dessa mensagem?',
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'A função "poética" da linguagem está voltada principalmente para:',
     tip: 'Pensa em um poema: o que importa ali não é só o que é dito, mas também como é dito — o som, o ritmo, as palavras escolhidas.',
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'A função "metalinguística" da linguagem ocorre quando:',
     tip: 'Pensa na palavra "metalinguística" — "meta" indica algo que fala sobre si mesmo. O que fala sobre a própria língua?',
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'A função "fática" da linguagem tem como objetivo principal:',
     tip: 'Pensa em expressões que usamos só para manter a conversa funcionando, como "entendeu?" ou "não é?".',
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Por que a variação linguística não deve ser vista como "erro", mas como uma característica natural da língua?',
     tip: 'Lembra da Questão 1 desta prova? Pensa em como a língua portuguesa falada hoje é diferente da falada há 100 anos.',
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Qual é uma consequência negativa do preconceito linguístico?',
     tip: 'Lembra da Questão 3 desta prova? Pensa em como alguém pode se sentir excluído só por falar diferente.',
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Em qual destas situações seria mais adequado usar a linguagem informal?',
     tip: 'Pensa em qual dessas situações é mais íntima e descontraída, sem exigência de formalidade.',
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Em um anúncio publicitário que tenta convencer o consumidor a comprar um produto, qual função da linguagem está mais presente?',
     tip: 'É a mesma função da Questão 7 desta prova.',
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Em um poema que valoriza o som e o ritmo das palavras, além do seu significado, qual função da linguagem predomina?',
     tip: 'É a mesma função da Questão 8 desta prova.',
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Quando um dicionário explica o significado de uma palavra, qual função da linguagem está sendo usada?',
     tip: 'É a mesma função da Questão 9 desta prova.',
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Em uma notícia de jornal que apenas relata fatos, sem opiniões, qual função da linguagem é predominante?',
     tip: 'É a mesma função da Questão 5 desta prova.',
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Quando alguém diz "alô, você está me ouvindo?" ao telefone, qual função da linguagem está sendo usada?',
     tip: 'É a mesma função da Questão 10 desta prova.',
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Por que é importante que a escola reconheça e respeite a variação linguística dos alunos, ao mesmo tempo em que ensina a norma padrão?',
     tip: 'Pensa em como é importante tanto respeitar a forma de falar de cada um quanto saber usar a norma padrão em situações formais.',
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Qual é a diferença entre "norma padrão" e "variação linguística regional"?',
     tip: 'Pensa em tudo que você já estudou nesta prova sobre os diferentes contextos de uso da língua.',
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que seu colega de uma cidade do interior usa palavras diferentes das que ele usa na capital, mas as duas formas estão corretas. Isso é um exemplo de:',
     tip: 'É o mesmo conceito das Questões 1 e 2 desta prova.',
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Bernardo ouviu um colega rir do jeito de falar de outro aluno vindo de outra região. O professor explicou que essa atitude é chamada de:',
     tip: 'É o mesmo conceito das Questões 3 e 12 desta prova.',
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Bernardo viu um anúncio na TV tentando convencer as pessoas a comprar um produto. Qual função da linguagem está mais presente nesse anúncio?',
     tip: 'É a mesma função das Questões 7 e 14 desta prova.',
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Bernardo abriu o dicionário para descobrir o significado de uma palavra difícil. Isso é um exemplo de qual função da linguagem?',
     tip: 'É a mesma função das Questões 9 e 16 desta prova.',
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Bernardo escreveu uma redação formal para um concurso da escola. Por que ele usou a norma padrão da língua nesse texto?',
     tip: 'É a mesma ideia das Questões 4 e 20 desta prova.',
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Bernardo mandou uma mensagem de texto informal para um amigo, usando gírias e abreviações. Isso mostra que a linguagem:',
     tip: 'É a mesma ideia das Questões 13 e 20 desta prova.',
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Bernardo leu um poema em que o som e o ritmo das palavras eram tão importantes quanto o significado. Qual função da linguagem predominava nesse poema?',
     tip: 'É a mesma função das Questões 8 e 15 desta prova.',
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Funções da linguagem',
     type: 'multiple_choice',
     text: 'Bernardo leu uma notícia de jornal que só apresentava fatos, sem opiniões pessoais do autor. Qual função da linguagem predominava nesse texto?',
     tip: 'É a mesma função das Questões 5 e 17 desta prova.',
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que respeitar a forma de falar de cada pessoa é importante para evitar o preconceito linguístico. Isso significa que:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre a importância de respeitar as diferentes formas de falar.',
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Linguagem e sociedade',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo o que ele aprendeu sobre a variação linguística e as funções da linguagem. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre variação linguística e as diferentes funções da linguagem.',

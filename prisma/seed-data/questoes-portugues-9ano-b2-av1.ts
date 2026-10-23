@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Quando dizemos "Bernardo é um leão em campo!", sem usar a palavra "como", estamos usando qual figura de linguagem?',
     tip: 'Pense bem: Bernardo não é literalmente um leão, né? Quando a gente afirma uma coisa no lugar da outra, sem usar "como" ou "tal qual", é porque estamos comparando de um jeito mais direto, quase como se fosse verdade!',
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"Bernardo correu como um raio até a escola." Essa frase usa qual figura de linguagem?',
     tip: 'Repare na palavinha "como" no meio da frase. Ela é a pista que liga duas coisas diferentes (o Bernardo e o raio) mostrando uma semelhança entre elas!',
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"O vento sussurrava segredos para as árvores." Isso é um exemplo de:',
     tip: 'O vento pode mesmo sussurrar, como uma pessoa faz? Quando damos características humanas (como falar, sentir, sussurrar) para coisas ou animais, isso tem um nome especial!',
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"Eu já disse isso um milhão de vezes!" Essa frase é um exemplo de:',
     tip: 'Será que alguém realmente fala a mesma coisa um milhão de vezes? Quando exageramos bastante para mostrar uma emoção forte, usamos essa figura de linguagem!',
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Quando alguém diz "Que ótimo!" depois de derrubar o suco na mesa, está usando:',
     tip: 'A pessoa realmente está feliz com o suco derramado? Quando falamos uma coisa querendo dizer o contrário, de um jeito meio de brincadeira ou crítica, é essa figura!',
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"O Brasil ganhou a partida de futebol" (referindo-se ao time brasileiro) é um exemplo de:',
     tip: 'O país inteiro jogou bola? Não, né! Usamos o nome do lugar para representar as pessoas (o time) que são de lá. Essa troca de uma palavra por outra relacionada é a dica!',
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Dizer que uma pessoa "partiu dessa para uma melhor" em vez de dizer que ela morreu é um exemplo de:',
     tip: 'Pensa em uma forma mais suave e delicada de falar sobre algo triste ou difícil. Quando trocamos uma palavra "pesada" por uma mais gentil, é essa figura!',
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"A sala estava em silêncio, mas o coração de Bernardo gritava de nervosismo." Esse contraste de ideias é:',
     tip: 'Repare: "silêncio" e "gritava" são ideias opostas colocadas lado a lado de propósito. Quando juntamos palavras ou ideias contrárias na mesma frase, temos essa figura!',
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'A palavra "miau", usada para representar o som do gato, é um exemplo de:',
     tip: 'Pensa em quadrinhos! Quando uma palavra tenta "imitar" um som da natureza ou de um objeto (como "boom", "tique-taque", "au au"), essa é a figura procurada!',
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"O rato roeu a roupa do rei de Roma" é um exemplo famoso de qual figura, por repetir sons parecidos (como o "r")?',
     tip: 'Fala essa frase em voz alta e preste atenção no som que se repete bastante no começo das palavras. Essa repetição de sons parecidos tem um nome!',
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"Ecoa a brisa macia na mata" repete o som da vogal "a" várias vezes. Isso é um exemplo de:',
     tip: 'Lembra que a aliteração repete sons de consoantes? Pois essa figura é "parecida", mas repete sons de vogais! Preste atenção nas vogais que mais aparecem na frase.',
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Quando dizemos "vou pegar o ônibus" (mesmo sabendo que ônibus não se "pega" com as mãos, mas sim embarcamos nele), estamos usando:',
     tip: 'Pensa em palavras que usamos no sentido errado há tanto tempo que já ficou "normal", como "descascar a laranja" ou "colocar o dedo na tomada". Esse uso "torto" tem nome!',
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"Ele entrou na sala, olhou, sorriu, gritou de alegria e pulou de felicidade." Essa sequência de ações cada vez mais intensa é chamada de:',
     tip: 'Olha como as ações vão aumentando de intensidade, uma depois da outra: olhar, sorrir, gritar, pular. Quando as ideias crescem em grau, pouco a pouco, temos essa figura!',
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"É um silêncio ensurdecedor" é uma frase que mistura duas ideias que parecem impossíveis juntas (silêncio não faz barulho, mas aqui "ensurdece"). Isso é chamado de:',
     tip: 'Pensa bem: como um silêncio pode "ensurdecer" alguém, se silêncio é justamente a ausência de som? Quando duas ideias parecem se contradizer, mas fazem sentido juntas, temos essa figura!',
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"A lua observava a cidade adormecida" usa a mesma figura da Questão 3. Qual é ela?',
     tip: 'A lua tem olhos para "observar" de verdade? Quando damos ações humanas para coisas da natureza, estamos usando a mesma figura que vimos com o vento que "sussurrava"!',
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual frase abaixo é um exemplo de HIPÉRBOLE?',
     tip: 'Lembra que a hipérbole é sempre um EXAGERO enorme, impossível de ser verdade. Procure a frase que exagera demais numa ideia simples, como cansaço.',
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual frase abaixo é um exemplo de METÁFORA?',
     tip: 'Procure a frase que afirma que uma coisa É a outra, sem usar "como". A vida realmente é feita de trilhos e carrinhos? Não, mas a ideia de subidas e descidas combina com ela!',
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Qual frase abaixo é um exemplo de COMPARAÇÃO (símile)?',
     tip: 'Procure a frase que tem a palavrinha "como" ligando duas coisas diferentes. Ela é como um peixe? Não é, mas nada parecido com um!',
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo disse: "Que surpresa boa, chover justamente no dia do piquenique!" — sendo que ele estava, na verdade, bem chateado. Isso é um exemplo de:',
     tip: 'Será que o Bernardo está mesmo feliz com a chuva estragando o piquenique? Quando a gente diz o contrário do que sente, de um jeito irônico, essa é a figura!',
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: '"Ela é tão alegre quanto triste ao mesmo tempo, rindo e chorando de emoção." Esse encontro de sentimentos opostos é exemplo de:',
     tip: '"Alegre" e "triste", "rindo" e "chorando" — são palavras que se opõem na mesma frase. Essa é a mesma figura que vimos com "silêncio" e "gritava"!',
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo escreveu na redação: "Meu quarto é um verdadeiro campo de batalha de brinquedos!" Que figura de linguagem ele usou?',
     tip: 'O quarto do Bernardo tem soldados e tanques de guerra de verdade? Não! Ele está comparando de forma direta (sem "como") a bagunça com uma batalha. Essa é a mesma figura da Questão 1!',
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo disse para a mãe: "Estou com uma fome de leão, poderia comer como um elefante!" Que figura ele usou?',
     tip: 'Repare na palavrinha "como" ligando a fome do Bernardo a um elefante. Ele é um elefante de verdade? Claro que não — ele está só comparando!',
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Na redação, Bernardo exagerou: "Esperei um século para a prova de Matemática acabar!" Isso é um exemplo de:',
     tip: 'Será que o Bernardo esperou mesmo cem anos? Claro que não! Quando exageramos tanto assim para mostrar como o tempo pareceu longo, usamos essa figura.',
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "O caderno dele sorria de tão organizado que estava." Que figura de linguagem aparece aqui?',
     tip: 'Um caderno pode sorrir de verdade? Quando damos características humanas, como sorrir, para objetos, estamos usando a mesma figura do vento e da lua que vimos antes!',
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Enquanto brincava, Bernardo imitou o som do trovão dizendo "Bum! Bum!". Isso é um exemplo de:',
     tip: 'Lembra da figura que imita sons, como "miau" e "tique-taque"? O Bernardo está fazendo a mesma coisa, só que com o som do trovão!',
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo tirou uma nota baixa e disse, de brincadeira: "Que ótimo, mais uma matéria para eu \'adorar\' estudar de novo!" Isso é um exemplo de:',
     tip: 'O Bernardo realmente adora estudar aquela matéria de novo? Pelo visto, não! Quando ele diz o contrário do que sente, com aquele tom de brincadeira, é a mesma figura da Questão 5 e 19!',
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Em vez de dizer que seu cachorro "morreu", Bernardo contou para o amigo que o cachorro "foi para o céu dos animais". Que figura ele usou?',
     tip: 'Lembra da figura que usa palavras mais suaves para falar de assuntos tristes? O Bernardo escolheu uma forma mais gentil de contar uma notícia difícil — é a mesma da Questão 7!',
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo escreveu: "Na mesma hora em que ria da piada, suas lágrimas de tristeza também caíam." Essa mistura de alegria e tristeza é exemplo de:',
     tip: '"Rir" e "lágrimas de tristeza" são ideias que parecem opostas na mesma frase. Essa é a mesma figura que apareceu nas Questões 8 e 20!',
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Bernardo criou um trava-língua para brincar com o irmão: "O bicho bravo berrava bem bravo no bosque." Qual figura de linguagem ele usou?',
     tip: 'Repare no som que se repete bastante no começo de várias palavras da frase do Bernardo. É a mesma figura do trava-língua "o rato roeu a roupa do rei de Roma"!',
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Figuras de linguagem',
     type: 'multiple_choice',
     text: 'Depois de estudar tanto, Bernardo quer fazer uma revisão geral. Qual das opções abaixo é uma HIPÉRBOLE?',
     tip: 'Lembre-se: a hipérbole é sempre um exagero GIGANTE, quase impossível de acontecer na vida real. Procure a frase com o número mais exagerado!',

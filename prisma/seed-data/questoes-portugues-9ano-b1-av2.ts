@@ -1,6 +1,7 @@
 export const questoesPortugues9AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'O que é uma "crônica"?',
     tip: 'Pensa num texto curto que você já leu em jornal, comentando algo do dia a dia de forma bem pessoal.',
@@ -16,6 +17,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é um "conto"?',
     tip: 'Pensa numa história curta, com personagens e um problema a ser resolvido, diferente de um romance mais longo.',
@@ -31,6 +33,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Qual é uma característica comum das crônicas?',
     tip: 'Pensa em assuntos comuns do dia a dia, como o trânsito ou uma fila de banco — esses temas aparecem bastante nesse gênero.',
@@ -46,6 +49,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é o "narrador" em uma narrativa, como um conto?',
     tip: 'Pensa em quem está "contando" a história para você, enquanto você lê — essa voz pode ou não ser um dos personagens.',
@@ -61,6 +65,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre crônica e conto?',
     tip: 'Pensa em como a crônica fala de algo real e atual, enquanto o conto cria uma história de ficção mais elaborada.',
@@ -76,6 +81,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "enredo" de uma narrativa é:',
     tip: 'Pensa em como você resumiria a história para alguém: "primeiro aconteceu isso, depois aquilo..." — isso é o enredo.',
@@ -91,6 +97,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O que é o "conflito" em um conto?',
     tip: 'Pensa no que faz a história ser interessante — geralmente é um problema que os personagens precisam enfrentar ou resolver.',
@@ -106,6 +113,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Em qual tipo de veículo as crônicas costumam ser publicadas, tradicionalmente?',
     tip: 'Pensa onde você costuma encontrar textos curtos comentando a atualidade, geralmente ao lado das notícias.',
@@ -121,6 +129,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "narrador em primeira pessoa" é aquele que:',
     tip: 'Pensa em histórias contadas como se fosse você mesmo vivendo os fatos, usando a palavra "eu".',
@@ -136,6 +145,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'O "narrador em terceira pessoa" é aquele que:',
     tip: 'Pensa em histórias contadas como se alguém estivesse observando tudo de fora, sem participar diretamente.',
@@ -151,6 +161,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Por que a crônica é considerada um gênero textual muito ligado à atualidade e ao cotidiano?',
     tip: 'Lembra da Questão 3 desta prova? Pensa no tipo de assunto que esse gênero costuma abordar.',
@@ -166,6 +177,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Qual é a função do "conflito" em um conto?',
     tip: 'Lembra da Questão 7 desta prova? Pensa em como o conflito mantém o leitor interessado até o final.',
@@ -181,6 +193,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Por que o tom humorístico é comum em muitas crônicas?',
     tip: 'Pensa em como rir de uma situação cotidiana pode tornar um texto mais agradável de ler, sem deixar de refletir sobre o assunto.',
@@ -196,6 +209,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre o narrador em primeira pessoa e o narrador em terceira pessoa?',
     tip: 'É a mesma distinção das Questões 9 e 10 desta prova.',
@@ -211,6 +225,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Por que o enredo é considerado um elemento fundamental de um conto?',
     tip: 'É a mesma ideia da Questão 6 desta prova.',
@@ -226,6 +241,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Qual é uma característica que diferencia o conto de um romance?',
     tip: 'Pensa no tamanho de cada gênero: qual costuma ser lido em poucos minutos, e qual pode levar dias ou semanas para ser terminado?',
@@ -241,6 +257,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Por que muitas crônicas de jornal têm uma linguagem mais próxima da fala cotidiana?',
     tip: 'Pensa em como um texto mais parecido com a fala comum pode tornar a leitura mais agradável e próxima do leitor.',
@@ -256,6 +273,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Qual é o papel do "espaço" e do "tempo" em uma narrativa, como um conto?',
     tip: 'Pensa em como saber "onde" e "quando" uma história acontece ajuda o leitor a entender melhor o contexto dos fatos.',
@@ -271,6 +289,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Por que a crônica é considerada um gênero textual de fronteira entre o jornalismo e a literatura?',
     tip: 'Pensa em como a crônica junta duas coisas: a atualidade do jornalismo e a elaboração artística da literatura.',
@@ -286,6 +305,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Qual é a importância dos personagens em um conto?',
     tip: 'Pensa em quem "vive" a história que está sendo contada — sem eles, não haveria ninguém para enfrentar o conflito.',
@@ -301,6 +321,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo leu uma crônica de jornal que comentava, de forma bem-humorada, o trânsito da cidade. Isso é uma característica típica de qual gênero?',
     tip: 'É o mesmo gênero das Questões 1, 3, 8, 11, 13, 17 e 19 desta prova.',
@@ -316,6 +337,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo leu um conto em que o narrador contava a história usando "eu", participando dela como personagem. Esse tipo de narrador é chamado de:',
     tip: 'É o mesmo tipo de narrador das Questões 9 e 14 desta prova.',
@@ -331,6 +353,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo identificou, em um conto, o problema central que movimentava toda a história. Como se chama esse elemento da narrativa?',
     tip: 'É o mesmo elemento das Questões 7 e 12 desta prova.',
@@ -346,6 +369,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que uma crônica, diferente de um conto, comentava um fato real e recente, de forma mais pessoal e reflexiva. Isso mostra uma característica importante da crônica, que é:',
     tip: 'É a mesma característica das Questões 3, 5, 11 e 19 desta prova.',
@@ -361,6 +385,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo leu um conto contado por um narrador que ficava "de fora", usando "ele" e "ela" para se referir aos personagens. Esse narrador é chamado de:',
     tip: 'É o mesmo tipo de narrador das Questões 10 e 14 desta prova.',
@@ -376,6 +401,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a sequência de acontecimentos que formam a história de um conto tem um nome específico. Qual é esse nome?',
     tip: 'É o mesmo elemento das Questões 6 e 15 desta prova.',
@@ -391,6 +417,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Crônicas',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que uma crônica costuma ser publicada em veículos específicos, ligados à atualidade. Quais são esses veículos?',
     tip: 'É o mesmo tipo de veículo da Questão 8 desta prova.',
@@ -406,6 +433,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'Bernardo comparou um conto com um romance e percebeu uma diferença importante entre eles. Qual é essa diferença?',
     tip: 'É a mesma diferença da Questão 16 desta prova.',
@@ -421,6 +449,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Narrativas',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que os personagens de um conto são responsáveis por viver os acontecimentos da história. Qual é a importância deles na narrativa?',
     tip: 'É a mesma importância da Questão 20 desta prova.',
@@ -436,6 +465,7 @@ export const questoesPortugues9AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Gêneros e tipos textuais',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo quais são as principais diferenças entre crônica e conto. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre as características de cada um desses dois gêneros textuais.',
