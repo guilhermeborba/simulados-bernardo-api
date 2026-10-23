@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Qual é a função do sistema digestório?",
     tip: "Pense em tudo que você come — ele precisa ser \"transformado\" para o corpo conseguir usar.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Qual é o primeiro órgão por onde o alimento passa na digestão?",
     tip: "Pense no caminho que a comida faz quando você come — por onde ela entra primeiro?",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Os dentes incisivos têm a função de:",
     tip: "Pense nos dentes da frente, mais finos e afiados — pra que eles servem quando você morde uma maçã?",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Os dentes caninos têm a função de:",
     tip: "Pense nos dentes pontudos, ao lado dos incisivos — eles servem para \"puxar e rasgar\" pedaços de carne, por exemplo.",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Os dentes molares têm a função de:",
     tip: "Pense nos dentes grandes do fundo da boca — eles \"esmagam\" bem a comida antes de engolir.",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "A saliva contém uma substância chamada amilase, que começa a digerir:",
     tip: "Pense em alimentos como pão e arroz — eles têm bastante amido, e é nele que a amilase age primeiro.",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Depois da boca, o alimento passa pelo tubo chamado:",
     tip: "Cuidado para não confundir com a traqueia, que é por onde passa o ar! O alimento passa por outro tubo.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "No esôfago, os alimentos são empurrados por movimentos chamados:",
     tip: "São movimentos de contração do próprio tubo, como uma \"onda\" empurrando a comida para baixo.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "No estômago, o suco gástrico contém uma substância ácida chamada:",
     tip: "É um ácido forte, produzido pelo próprio estômago, que ajuda a \"quebrar\" os alimentos.",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Qual é a função do ácido clorídrico e da pepsina no estômago?",
     tip: "Pense em alimentos como carne e ovo, ricos em proteínas — é sobre eles que essas substâncias agem no estômago.",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Depois do estômago, o alimento (já digerido parcialmente) vai para:",
     tip: "Pense na ordem do caminho da comida — depois do estômago vem o intestino mais fino e longo.",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "No intestino delgado, a maior parte dos nutrientes é:",
     tip: "Pense: depois de todo o processo de digestão, os nutrientes precisam \"entrar\" no corpo de alguma forma — para onde eles vão?",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "O intestino delgado tem pequenas estruturas parecidas com \"dedinhos\" chamadas:",
     tip: "Essas estruturas aumentam a superfície de contato para absorver mais nutrientes — pense num tapete \"peludo\".",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Qual é a função principal do intestino grosso?",
     tip: "Pense no que resta depois que o intestino delgado já absorveu os nutrientes — o que precisa ser feito com o que sobra?",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "O fígado produz uma substância chamada bile, que ajuda a digerir:",
     tip: "Pense em alimentos gordurosos, como frituras — a bile ajuda a \"quebrar\" esse tipo de alimento.",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "O pâncreas produz o suco pancreático, que é liberado no:",
     tip: "O suco pancreático ajuda a terminar a digestão — ele é liberado no mesmo órgão onde os nutrientes são absorvidos.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "O fígado e o pâncreas são chamados de glândulas anexas porque:",
     tip: "Pense: essas glândulas ficam \"do lado de fora\" do caminho principal da comida, mas ainda ajudam na digestão.",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Por que é importante mastigar bem os alimentos?",
     tip: "Pense: quanto menores os pedaços de comida, mais fácil fica para as próximas etapas da digestão trabalharem.",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Uma alimentação saudável para o sistema digestório deve incluir:",
     tip: "Pense em uma alimentação equilibrada, com frutas, verduras e bastante água — isso ajuda todo o sistema a funcionar bem.",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Qual órgão do sistema digestório é responsável por armazenar temporariamente os alimentos e começar a digestão das proteínas?",
     tip: "Pense no órgão em formato de \"bolsa\", onde a comida fica guardada por um tempo sendo misturada com o suco gástrico.",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Bernardo comeu um pedaço de pão e notou que, ao mastigar bastante, ele começou a sentir um gosto levemente doce. Isso acontece porque:",
     tip: "Lembre da Questão 6 — qual substância da saliva age sobre o amido?",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Depois de engolir, Bernardo sentiu o alimento \"descendo\" até o estômago. Qual estrutura faz esse transporte?",
     tip: "Lembre do tubo que conecta a boca ao estômago, e dos movimentos que empurram a comida.",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "No estômago de Bernardo, o suco gástrico ácido vai agir principalmente sobre:",
     tip: "Lembre da Questão 10 — sobre qual tipo de nutriente o ácido clorídrico e a pepsina agem?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Bernardo comeu uma salada com bastante fibra. Essas fibras serão importantes principalmente no:",
     tip: "Lembre da Questão 14 e 19 — qual órgão usa as fibras para formar as fezes?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Bernardo comeu um alimento bem gorduroso (como batata frita). Qual substância, produzida pelo fígado, vai ajudar a digerir essa gordura?",
     tip: "Lembre da Questão 15 — qual substância do fígado age especificamente sobre as gorduras?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Se Bernardo não mastigasse bem os alimentos antes de engolir, o que provavelmente aconteceria?",
     tip: "Lembre da Questão 18 — por que mastigar bem é importante?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Bernardo aprendeu que os nutrientes dos alimentos que ele come vão para o sangue principalmente através de qual órgão?",
     tip: "Lembre da Questão 12 e 13 — qual órgão tem as vilosidades que absorvem os nutrientes?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Bernardo está estudando e quer organizar a ordem correta do caminho do alimento no corpo. Qual é a sequência correta?",
     tip: "Vá revendo cada órgão que estudamos hoje, na ordem em que a comida realmente passa por eles.",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Bernardo quer saber por que o pâncreas é importante na digestão, mesmo sem o alimento passar diretamente por dentro dele.",
     tip: "Lembre da Questão 16 e 17 — o pâncreas é uma glândula anexa que produz uma substância importante.",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Sistema digestório',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema digestório no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: boca, esôfago, estômago, intestinos, fígado e pâncreas — todos trabalham juntos para esse objetivo final.",

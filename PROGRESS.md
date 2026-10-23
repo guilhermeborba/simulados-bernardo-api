@@ -660,6 +660,14 @@ Validação: dry-run e inventário JSON aprovados; 22 nomes documentados, de 1�
 
 As pendências anteriores de conceitos e dados estão na [issue web #113](https://github.com/guilhermeborba/simulados-bernardo/issues/113), para revisão separada; conteúdo preservado. Quizzes #90 continuam adiados. O checkout principal web com alterações de `giz/simulados-redesenho` foi preservado; o registro documental usa worktree separado. Não houve alteração de contrato, seed em banco existente, deploy ou operação em produção.
 
+### Ciências do 8º ano — E04 (22/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 12 temas documentados em `docs/temas-editoriais.md`. Acrescentado somente `theme`; fontes sem essas linhas e dados por export preservados exatamente. Sistemas detalhados em unidades próprias; Corpo humano evita antecipar o sistema solicitado e mantém as integrações; Excreção inclui rins, pele e pulmões. Divergência de letra em B4/AV2, ID 16, e comando do ID 1 registrados na [issue web #127](https://github.com/guilhermeborba/simulados-bernardo/issues/127), sem correção dos campos anteriores.
+
+Segundo de três lotes independentes da base main após api#256: Matemática, Ciências e História do 8º ano. Base: 8.429/23.444 questões com tema e 281/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 8.669/23.444 e 289/780; 8º ano 480/1.920 em 16/64. A composição dos três deve atingir 9.149/23.444 e 305/780, com 8º ano 960/1.920 em 32/64. E04 segue parcial; próximo trio: Geografia, Arte e Educação Física/8º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Português do 8º ano — E04 (22/10/2026)
 
 Oito simulados gerais/240 questões classificados individualmente com 18 temas documentados em `docs/temas-editoriais.md`. Acrescentado somente `theme`, com fontes sem essas linhas e dados por export idênticos à base main após api#253. Rótulos específicos de gêneros só aparecem quando o gênero já é dado; Figuras de linguagem, Formas de discurso, Vozes verbais, Conjunções e Análise sintática mantêm em aberto a classificação solicitada. As sínteses que pedem o próprio nome de uma categoria usam Leitura e escrita. Exemplos anteriores de antítese/ironia e relações entre orações registrados na [issue web #122](https://github.com/guilhermeborba/simulados-bernardo/issues/122), sem correção dos campos anteriores.

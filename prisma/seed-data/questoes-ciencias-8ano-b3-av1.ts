@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Qual é a função principal do sistema nervoso?",
     tip: "Pense no sistema nervoso como o \"centro de comando\" do corpo, que recebe informações e decide o que fazer.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "O sistema nervoso é dividido em sistema nervoso central e:",
     tip: "Pense na parte que fica \"ao redor\", formada pelos nervos que se espalham pelo corpo.",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "O sistema nervoso central é formado pelo encéfalo e por:",
     tip: "Pense na estrutura que passa por dentro da coluna vertebral, ligando o encéfalo ao corpo.",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "O encéfalo é formado por três partes principais: cérebro, cerebelo e:",
     tip: "É a parte que conecta o encéfalo à medula espinhal, controlando funções automáticas como a respiração.",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Qual é a função do cérebro?",
     tip: "Pense na parte do encéfalo responsável por você pensar, lembrar das coisas e decidir se mover.",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Qual é a função do cerebelo?",
     tip: "Pense em quando você anda de bicicleta sem cair — qual parte do encéfalo ajuda nisso?",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "A medula espinhal fica protegida dentro de qual estrutura óssea?",
     tip: "Pense na fileira de ossos que forma sua \"espinha\", protegendo esse cordão nervoso.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "A célula especializada do sistema nervoso, responsável por transmitir informações, é chamada de:",
     tip: "É a célula \"mensageira\" que leva informações pelo corpo todo.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Os nervos são responsáveis por:",
     tip: "Pense nos \"fios\" que conectam todas as partes do corpo ao encéfalo e à medula espinhal.",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Um reflexo é uma resposta do corpo que acontece:",
     tip: "Pense em quando você encosta em algo quente e afasta a mão na mesma hora, sem nem perceber.",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Quando você toca em algo muito quente e afasta a mão rapidamente, sem pensar, isso é um exemplo de:",
     tip: "Lembre da Questão 10 — qual é o nome dessa resposta rápida e automática?",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Qual sentido está relacionado com os olhos?",
     tip: "Pense no órgão que você usa para ver as cores e formas ao seu redor.",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Qual sentido está relacionado com os ouvidos?",
     tip: "Pense no sentido que te permite ouvir músicas e conversas.",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Qual sentido está relacionado com o nariz?",
     tip: "Pense no sentido que te permite perceber cheiros, como o de um bolo assando.",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Qual sentido está relacionado com a língua?",
     tip: "Pense no sentido que te permite distinguir sabores doces, salgados, ácidos e amargos.",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Qual sentido está relacionado com a pele, percebendo texturas e temperaturas?",
     tip: "Pense no sentido que te permite sentir se algo é liso, áspero, quente ou frio.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Os movimentos voluntários, como levantar o braço quando você decide, são controlados principalmente:",
     tip: "Lembre da Questão 5 — qual parte do encéfalo controla os movimentos que você decide fazer?",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Qual é a diferença entre um movimento voluntário e um reflexo?",
     tip: "Pense na diferença entre \"decidir\" se mover e \"reagir\" automaticamente a algo perigoso.",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Os neurônios se comunicam entre si através de sinais chamados:",
     tip: "Pense no tipo de sinal que viaja especificamente pelo sistema nervoso.",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Por que é importante dormir bem para a saúde do sistema nervoso?",
     tip: "Pense no que acontece quando você dorme mal antes de uma prova — como fica sua concentração no dia seguinte?",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Bernardo tocou acidentalmente numa panela quente e afastou a mão na mesma hora, antes mesmo de \"pensar\". Isso é um exemplo de:",
     tip: "Lembre das Questões 10 e 11 — qual é o nome dessa resposta rápida e automática?",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Bernardo está andando de bicicleta e mantém o equilíbrio o tempo todo. Qual parte do encéfalo é mais responsável por isso?",
     tip: "Lembre da Questão 6 — qual parte do encéfalo controla o equilíbrio e a coordenação motora?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Bernardo decidiu levantar o braço para fazer uma pergunta na escola. Esse é um exemplo de:",
     tip: "Lembre da Questão 17 — qual parte do encéfalo controla os movimentos que a pessoa decide fazer?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Bernardo sentiu o cheiro de um bolo assando na cozinha. Qual sentido e órgão estão envolvidos?",
     tip: "Lembre da Questão 14 — qual sentido e órgão estão relacionados a cheiros?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Sentidos',
     type: "multiple_choice",
     text: "Bernardo ouviu o despertador tocar de manhã. Qual sentido e órgão estão envolvidos?",
     tip: "Lembre da Questão 13 — qual sentido e órgão estão relacionados a sons?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Bernardo quer entender por que a medula espinhal é tão importante, mesmo não sendo o cérebro.",
     tip: "Lembre da Questão 3 — qual é a função da medula espinhal dentro do sistema nervoso central?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Bernardo aprendeu na escola e, mesmo depois de um tempo, ainda lembra do conteúdo. Qual parte do encéfalo guarda essas memórias?",
     tip: "Lembre da Questão 5 — qual parte do encéfalo é responsável pela memória?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Bernardo quer saber: se os nervos de uma pessoa fossem danificados, o que poderia acontecer?",
     tip: "Lembre da Questão 9 — qual é a função dos nervos no corpo?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo está estudando e quer saber por que dormir bem é importante antes de uma prova.",
     tip: "Lembre da Questão 20 — o que o cérebro faz durante o sono?",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Sistema nervoso',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema nervoso no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: encéfalo, medula espinhal, neurônios, nervos e os cinco sentidos — todos trabalham juntos para esse objetivo final.",

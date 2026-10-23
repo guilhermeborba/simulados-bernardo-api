@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Qual é a função principal do sistema locomotor?",
     tip: "Pense em tudo que te permite ficar de pé e se mover: ossos e músculos trabalhando juntos.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "O conjunto de todos os ossos do corpo é chamado de:",
     tip: "Pense na \"estrutura\" que sustenta todo o seu corpo, formada só por ossos.",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Aproximadamente, quantos ossos tem o esqueleto de um adulto?",
     tip: "É um número bem maior do que parece — pense em todos os ossinhos das mãos e dos pés, por exemplo.",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Além de sustentar o corpo, qual é outra função importante dos ossos?",
     tip: "Pense no crânio protegendo o cérebro, ou nas costelas protegendo o coração e os pulmões.",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Dentro de alguns ossos existe a medula óssea, responsável por:",
     tip: "Pense em outro lugar além do coração onde o corpo \"fabrica\" células do sangue.",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Os pontos de encontro entre dois ou mais ossos são chamados de:",
     tip: "Pense no joelho ou no cotovelo — qual é o nome desse \"encontro\" entre ossos que permite dobrar o corpo?",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "As articulações que permitem bastante movimento, como o joelho e o cotovelo, são chamadas de:",
     tip: "Pense no nome que indica que essas articulações se movem bastante.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "As articulações do crânio, que quase não se movem, são chamadas de:",
     tip: "Pense no contrário de \"móvel\" — essas articulações praticamente não se movem.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Os músculos são tecidos capazes de:",
     tip: "Pense no que acontece com seu braço quando você o dobra — o músculo \"aperta\" e depois \"solta\".",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Os músculos que controlamos de forma voluntária, como os dos braços e pernas, são chamados de:",
     tip: "Pense no nome que indica a ligação desses músculos com os ossos do esqueleto.",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "O coração é formado por um tipo especial de músculo, chamado de:",
     tip: "Pense no nome que vem diretamente de \"coração\" (em latim, cardio).",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Os músculos que trabalham de forma involuntária, como os do estômago e intestino, são chamados de:",
     tip: "Pense no nome que indica a aparência \"lisinha\" desse tipo de músculo, sem listras.",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "As estruturas que ligam os músculos aos ossos são chamadas de:",
     tip: "Pense na estrutura que \"amarra\" o músculo ao osso, permitindo que o movimento aconteça.",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "As estruturas que ligam um osso a outro osso, dando estabilidade às articulações, são chamadas de:",
     tip: "Pense na estrutura que \"segura\" dois ossos juntos numa articulação.",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Qual é a diferença entre tendão e ligamento?",
     tip: "Lembre das Questões 13 e 14 — o que cada estrutura conecta?",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Por que é importante manter uma boa postura ao sentar e ficar em pé?",
     tip: "Pense em como uma postura errada, mantida por muito tempo, pode sobrecarregar a coluna.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Praticar exercícios físicos regularmente ajuda a:",
     tip: "Pense no mesmo princípio que vimos no sistema cardiovascular — o exercício fortalece as estruturas do corpo.",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Quando uma pessoa quebra um osso, dizemos que ela teve:",
     tip: "Pense no nome específico usado para quando um osso se quebra.",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Quando uma articulação \"sai do lugar\", como pode acontecer no ombro, dizemos que a pessoa teve:",
     tip: "Cuidado para não confundir com \"fratura\" — isso é sobre o osso saindo do lugar na articulação, não quebrando.",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "O leite e outros alimentos ricos em cálcio são importantes para:",
     tip: "Pense em qual estrutura do corpo precisa de cálcio para ficar forte e resistente.",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo caiu de bicicleta e machucou o braço. No hospital, o médico disse que ele teve uma fratura. Isso significa que:",
     tip: "Lembre da Questão 18 — o que significa \"ter uma fratura\"?",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo está jogando futebol e corre, chuta e pula o tempo todo. Quais estruturas estão trabalhando juntas para permitir esses movimentos?",
     tip: "Pense em tudo que estudamos hoje — quais estruturas precisam trabalhar juntas para o corpo se mover?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo sentiu o coração batendo mais forte depois de correr. Esse batimento é produzido por qual tipo de músculo?",
     tip: "Lembre da Questão 11 — qual tipo de músculo forma o coração?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo aprendeu que, quando ele levanta o braço, um músculo se contrai enquanto outro relaxa. Esses músculos, que ele controla por vontade, são chamados de:",
     tip: "Lembre da Questão 10 — qual é o nome dos músculos que controlamos por vontade?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo quer saber qual estrutura liga o músculo da sua coxa ao osso da perna, permitindo que ele chute a bola.",
     tip: "Lembre da Questão 13 — qual estrutura liga músculo a osso?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo torceu o tornozelo jogando bola e o médico disse que ele machucou um ligamento. Qual é a função dos ligamentos?",
     tip: "Lembre da Questão 14 — qual é a função específica dos ligamentos?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Alimentação saudável',
     type: "multiple_choice",
     text: "Bernardo bebe leite todos os dias. Isso ajuda principalmente a:",
     tip: "Lembre da Questão 20 — para que serve o cálcio presente no leite?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo pratica exercícios físicos regularmente. Isso ajuda a fortalecer:",
     tip: "Lembre da Questão 17 — o que o exercício físico fortalece no corpo?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Bernardo está estudando as articulações do corpo e quer saber qual tipo permite mais movimento: a do crânio ou a do joelho.",
     tip: "Lembre das Questões 7 e 8 — qual é a diferença entre articulações móveis e fixas?",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Sistema locomotor',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema locomotor no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: ossos, articulações, músculos, tendões e ligamentos — todos trabalham juntos para esse objetivo final.",

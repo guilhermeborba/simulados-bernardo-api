@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Qual é a função principal do sistema imunológico?",
     tip: "Pense no sistema imunológico como o \"exército de defesa\" do corpo contra coisas que podem fazer mal.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Qual é a primeira barreira de defesa do corpo contra microrganismos?",
     tip: "Pense na primeira coisa que microrganismos encontram ao tentar entrar no seu corpo.",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Quais células do sangue são as principais responsáveis pela defesa do corpo?",
     tip: "Lembre do Bloco 2 — qual célula do sangue combate doenças?",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "As substâncias produzidas pelo corpo para combater um invasor específico são chamadas de:",
     tip: "Pense numa palavra que tem \"anti\" (contra) e \"corpo\" — elas agem especificamente contra um invasor.",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "A febre, durante uma infecção, é geralmente:",
     tip: "Pense: por que o corpo \"esquenta\" quando está doente? Isso ajuda de alguma forma?",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "A inflamação (vermelhidão e inchaço) numa região machucada ou infectada é um sinal de que:",
     tip: "Pense: quando você se machuca e a região fica vermelha e inchada, o corpo está \"parado\" ou \"trabalhando\"?",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "As vacinas funcionam ensinando o corpo a:",
     tip: "Pense: a vacina mostra ao corpo \"como é\" o invasor, mas sem deixar a pessoa gravemente doente.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Depois de uma infecção ou vacina, o corpo pode \"guardar na memória\" como combater aquele invasor. Isso é chamado de:",
     tip: "É o nome que explica por que você não costuma pegar a mesma doença (como catapora) duas vezes.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Os microrganismos que podem causar doenças, como gripes e infecções, incluem principalmente:",
     tip: "Pense nos \"inimigos\" que o sistema imunológico combate — são seres vivos minúsculos, muitas vezes invisíveis a olho nu.",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Hábitos de higiene',
     type: "multiple_choice",
     text: "Lavar bem as mãos é uma forma importante de:",
     tip: "Pense em tudo que suas mãos tocam durante o dia — lavar bem ajuda a remover microrganismos antes que entrem no corpo.",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Quando você se corta e a ferida fica vermelha e um pouco inchada, isso é chamado de:",
     tip: "Lembre da Questão 6 — qual é o nome dessa reação do corpo numa região machucada?",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "As vacinas geralmente contêm uma versão fraca, morta ou parte de um microrganismo, para que o corpo:",
     tip: "Lembre da Questão 7 — qual é a ideia principal por trás do funcionamento das vacinas?",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Por que algumas doenças, uma vez que você já teve, você não costuma ter de novo?",
     tip: "Lembre da Questão 8 — qual é o nome dessa \"lembrança\" que o corpo guarda?",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Quando uma pessoa tem febre durante uma gripe, isso geralmente ajuda porque:",
     tip: "Lembre da Questão 5 — por que a febre pode ajudar o corpo a combater a doença?",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Além da pele, qual outra estrutura ajuda a impedir a entrada de microrganismos pelo nariz e outras aberturas do corpo?",
     tip: "Lembre do Bloco 1 — qual substância do nariz ajuda a \"prender\" partículas estranhas?",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Manter uma alimentação saudável e dormir bem ajuda o sistema imunológico porque:",
     tip: "Pense: um corpo bem cuidado tem mais \"energia\" para produzir suas defesas?",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "As campanhas de vacinação são importantes para a sociedade porque:",
     tip: "Pense: quando muitas pessoas estão vacinadas, uma doença tem mais ou menos chances de se espalhar?",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "O que acontece se o sistema imunológico de uma pessoa estiver muito fraco?",
     tip: "Pense: se o \"exército de defesa\" do corpo está fraco, fica mais fácil ou mais difícil para os invasores entrarem?",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Hábitos de higiene',
     type: "multiple_choice",
     text: "Lavar frutas e verduras antes de comer é importante para:",
     tip: "Lembre da Questão 10 — qual é o objetivo de hábitos de higiene como lavar bem os alimentos?",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Hábitos de higiene',
     type: "multiple_choice",
     text: "Cobrir a boca ao tossir ou espirrar ajuda a:",
     tip: "Pense em quando alguém tosse ou espirra sem cobrir a boca — o que pode se espalhar pelo ar?",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo tomou uma vacina na escola e, por alguns dias, sentiu o braço um pouco dolorido no local. Isso acontece porque:",
     tip: "Lembre da Questão 12 — o que o corpo está fazendo depois de receber a vacina?",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo está com febre depois de pegar um resfriado. Isso geralmente indica que:",
     tip: "Lembre das Questões 5 e 14 — o que a febre indica sobre o trabalho do corpo?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo se cortou no joelho e, no dia seguinte, notou que a região ficou vermelha e um pouco inchada. Isso é chamado de:",
     tip: "Lembre das Questões 6 e 11 — qual é o nome dessa reação numa região machucada?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Hábitos de higiene',
     type: "multiple_choice",
     text: "Bernardo lava as mãos antes de comer. Essa atitude ajuda a:",
     tip: "Lembre da Questão 10 — por que lavar as mãos é um hábito tão importante?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo já teve catapora quando era bem pequeno e, por isso, dificilmente vai ter de novo. Isso acontece por causa da:",
     tip: "Lembre das Questões 8 e 13 — qual é o nome dessa \"lembrança\" do corpo?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Saúde e bem-estar',
     type: "multiple_choice",
     text: "Bernardo está com a imunidade baixa depois de muitas noites mal dormidas. O que ele deveria fazer para ajudar seu sistema imunológico?",
     tip: "Lembre da Questão 16 — quais hábitos ajudam a fortalecer o sistema imunológico?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo quer entender por que as campanhas de vacinação são importantes não só para ele, mas para toda a comunidade.",
     tip: "Lembre da Questão 17 — qual é o benefício coletivo da vacinação?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Bernardo aprendeu que seu corpo tem várias \"linhas de defesa\". Qual é considerada a primeira delas?",
     tip: "Lembre da Questão 2 — qual é a primeira barreira que os microrganismos encontram?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Hábitos de higiene',
     type: "multiple_choice",
     text: "Bernardo está com um amigo gripado na sala de aula. Qual atitude ajuda a evitar que Bernardo também fique doente?",
     tip: "Lembre das Questões 10 e 20 — quais hábitos ajudam a evitar a propagação de doenças entre as pessoas?",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Sistema imunológico',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema imunológico no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: leucócitos, anticorpos, vacinas e imunidade — todos trabalham juntos para esse objetivo final.",

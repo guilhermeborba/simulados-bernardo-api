@@ -1,6 +1,7 @@
 export const questoesCiencias8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Qual é a função principal do sistema cardiovascular?",
     tip: "Pense no sangue como um \"caminhão de entregas\" que leva coisas importantes para todas as partes do corpo.",
@@ -16,6 +17,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Qual é o órgão principal do sistema cardiovascular?",
     tip: "Pense no órgão que você sente \"batendo\" no peito.",
@@ -31,6 +33,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O coração é um órgão formado principalmente por:",
     tip: "Pense em como o coração se move, se contraindo e relaxando — isso é característica de qual tipo de tecido?",
@@ -46,6 +49,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O coração humano é dividido em quantas câmaras (cavidades)?",
     tip: "Pense em duas câmaras de cima e duas de baixo — quantas são no total?",
@@ -61,6 +65,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "As duas câmaras de cima do coração são chamadas de:",
     tip: "Pense nas câmaras que recebem o sangue primeiro, antes dele passar para as câmaras de baixo.",
@@ -76,6 +81,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "As duas câmaras de baixo do coração são chamadas de:",
     tip: "Pense nas câmaras que fazem a força maior, bombeando o sangue para longe do coração.",
@@ -91,6 +97,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Os vasos sanguíneos que levam o sangue do coração para o resto do corpo são chamados de:",
     tip: "Pense no caminho de \"ida\" do sangue, saindo do coração.",
@@ -106,6 +113,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Os vasos sanguíneos que trazem o sangue de volta para o coração são chamados de:",
     tip: "Pense no caminho de \"volta\" do sangue, retornando para o coração.",
@@ -121,6 +129,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Os vasos sanguíneos mais finos, onde ocorrem as trocas entre o sangue e as células do corpo, são chamados de:",
     tip: "Pense nos vasos tão fininhos que só uma célula de sangue passa por vez.",
@@ -136,6 +145,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O sangue é formado por plasma e por células. Qual célula sanguínea é responsável por transportar oxigênio?",
     tip: "Pense na célula que dá a cor vermelha ao sangue.",
@@ -151,6 +161,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "As hemácias conseguem transportar oxigênio porque contêm uma substância chamada:",
     tip: "Essa substância tem um nome parecido com \"hemácia\" — ela é quem realmente \"segura\" o oxigênio.",
@@ -166,6 +177,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Qual célula sanguínea é responsável pela defesa do corpo contra doenças?",
     tip: "Pense na célula de sangue que \"luta\" contra vírus e bactérias.",
@@ -181,6 +193,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Qual é a função das plaquetas no sangue?",
     tip: "Pense em quando você se corta e o sangramento para depois de um tempo — quem faz esse \"trabalho de fechar\"?",
@@ -196,6 +209,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "A parte líquida do sangue, onde as células ficam \"flutuando\", é chamada de:",
     tip: "Pense na parte amarelada e líquida do sangue, onde tudo o mais está \"nadando\".",
@@ -211,6 +225,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Quando você se corta e o sangramento para depois de um tempo, isso acontece graças à ação de:",
     tip: "Lembre da Questão 13 — qual célula ajuda na coagulação?",
@@ -226,6 +241,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O batimento cardíaco (o \"tum-tum\" do coração) acontece porque:",
     tip: "Pense no movimento de \"apertar e soltar\" que o coração faz, repetidas vezes.",
@@ -241,6 +257,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O \"pulso\" que sentimos no pulso da mão ou no pescoço é causado por:",
     tip: "Pense: toda vez que o coração bate, ele empurra sangue pelas artérias — isso cria um \"pulso\" que sentimos.",
@@ -256,6 +273,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Praticar exercícios físicos regularmente é importante para o sistema cardiovascular porque:",
     tip: "Pense no coração como um músculo que, assim como os outros, fica mais forte quando é exercitado.",
@@ -271,6 +289,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O sangue que sai do coração para os pulmões, para buscar oxigênio, e depois volta para o coração antes de seguir para o corpo é chamado de:",
     tip: "Pense no caminho \"curto\" entre o coração e os pulmões.",
@@ -286,6 +305,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "O sangue que sai do coração, carregando oxigênio para todo o corpo, e depois retorna ao coração é chamado de:",
     tip: "Pense no caminho \"longo\" que o sangue faz, passando por todo o corpo.",
@@ -301,6 +321,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo correu bastante durante a educação física e sentiu seu coração batendo mais rápido. Por que isso acontece?",
     tip: "Lembre da Questão 18 — o que acontece com a circulação durante o exercício físico?",
@@ -316,6 +337,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo se cortou no dedo enquanto brincava e, depois de um tempinho, o sangramento parou. Qual célula sanguínea foi responsável por isso?",
     tip: "Lembre da Questão 13 e 15 — qual célula ajuda a \"fechar\" o ferimento?",
@@ -331,6 +353,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo está ficando gripado e seu corpo está produzindo mais células de defesa para combater o vírus. Quais células são essas?",
     tip: "Lembre da Questão 12 — qual célula do sangue é responsável pela defesa do corpo?",
@@ -346,6 +369,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo colocou a mão no pulso e sentiu o \"tum-tum\" do sangue passando. Por qual tipo de vaso sanguíneo isso acontece mais sentido?",
     tip: "Lembre da Questão 17 — qual vaso sanguíneo pulsa com a força do coração?",
@@ -361,6 +385,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo aprendeu que seu sangue sai do coração, vai para os pulmões, pega oxigênio, e volta para o coração antes de seguir para o resto do corpo. Esse caminho é chamado de:",
     tip: "Lembre da Questão 19 — qual é o nome desse caminho mais curto entre coração e pulmões?",
@@ -376,6 +401,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo está estudando e quer saber: o sangue rico em oxigênio que sai do coração para todo o corpo faz parte de qual circulação?",
     tip: "Lembre da Questão 20 — qual é o nome do caminho mais longo, que leva oxigênio para o corpo todo?",
@@ -391,6 +417,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo notou que, quando corre bastante, fica com o rosto vermelho. Isso acontece porque:",
     tip: "Pense: o sangue ajuda a espalhar o calor do corpo — por que ele se concentraria mais perto da pele durante o exercício?",
@@ -406,6 +433,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo quer saber por que é importante o coração ter quatro câmaras (dois átrios e dois ventrículos), em vez de só uma.",
     tip: "Lembre da pequena e da grande circulação — por que seria importante não misturar os dois tipos de sangue?",
@@ -421,6 +449,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Bernardo quer saber: se ele praticar esportes regularmente, o que acontece com o coração dele ao longo do tempo?",
     tip: "Lembre da Questão 18 — qual é o efeito do exercício físico regular sobre o coração?",
@@ -436,6 +465,7 @@ export const questoesCiencias8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Sistema cardiovascular',
     type: "multiple_choice",
     text: "Revisando tudo: qual é a principal função do sistema cardiovascular no corpo de Bernardo?",
     tip: "Pense em tudo que vimos hoje: coração, artérias, veias, capilares e sangue — todos trabalham juntos para esse objetivo final.",
