@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Em que data o Brasil se tornou independente de Portugal?",
     tip: "Essa data é feriado nacional no Brasil até hoje! Pensa num mês de primavera, bem no início...",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Quem foi o responsável por proclamar a independência do Brasil?",
     tip: "Essa pessoa era filho do rei de Portugal e decidiu ficar no Brasil para governar como imperador!",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Onde a independência do Brasil foi proclamada?",
     tip: "Esse lugar é tão famoso que até um hino nacional tem o nome dele!",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual foi a famosa frase dita por D. Pedro I no momento da independência, conhecida como \"Grito do Ipiranga\"?",
     tip: "Essa frase mostra que D. Pedro estava decidido a romper com Portugal, nem que fosse preciso lutar!",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "O que foi o \"Dia do Fico\", ocorrido meses antes da independência?",
     tip: "Pensa no próprio nome do episódio: \"fico\" quer dizer que ele decidiu permanecer em algum lugar!",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Por que as Cortes portuguesas queriam que D. Pedro voltasse para Portugal?",
     tip: "Pensa no interesse de Portugal: eles queriam voltar a controlar o Brasil como antes, sem tanta liberdade!",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Quem era o rei de Portugal e pai de D. Pedro I?",
     tip: "Esse rei veio para o Brasil fugindo de Napoleão, lembra? Ele voltou para Portugal e deixou o filho aqui!",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual era a relação política entre Brasil e Portugal antes da independência?",
     tip: "Pensa num \"reino unido\": o Brasil tinha sido elevado à mesma categoria de Portugal, mas ainda fazia parte do mesmo reino!",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Que tipo de governo o Brasil se tornou depois da independência?",
     tip: "Pensa que o Brasil continuou tendo um governante único, só que agora com o título de imperador, e não mais rei!",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Quem foi a imperatriz que apoiou fortemente a causa da independência ao lado de D. Pedro I?",
     tip: "Essa imperatriz era de origem austríaca e assinou documentos importantes a favor da independência enquanto D. Pedro estava viajando!",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Por que a elevação do Brasil a Reino Unido de Portugal, Brasil e Algarves, em 1815, foi importante no caminho até a independência?",
     tip: "Pensa em como ganhar mais importância política pode ser um passo para depois buscar mais autonomia!",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual foi o papel de José Bonifácio no processo de independência do Brasil?",
     tip: "Esse nome ganhou um título de \"pai\" da independência por sua importância nos bastidores políticos!",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "O que foi a Confederação do Equador, ocorrida pouco depois da independência do Brasil?",
     tip: "Pensa numa região do Nordeste brasileiro que, insatisfeita, tentou formar seu próprio país separado do Império!",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Por que D. Pedro I decidiu romper com Portugal, mesmo sendo filho do rei português?",
     tip: "Pensa nos interesses da elite brasileira: eles queriam manter seus privilégios e não voltar a ser simples colônia!",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual foi a reação de Portugal à declaração de independência do Brasil?",
     tip: "Pensa no tamanho de Portugal comparado ao Brasil: era difícil manter uma guerra tão distante e cara!",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual país foi um dos primeiros a reconhecer oficialmente a independência do Brasil?",
     tip: "Pensa num país que também já tinha conquistado sua própria independência de uma potência europeia antes!",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual foi uma característica importante da independência do Brasil, comparada a outras independências da época?",
     tip: "Pensa em comparação com as guerras de independência na América espanhola, que duraram muito mais tempo e tiveram mais conflitos!",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual título D. Pedro I assumiu ao se tornar o governante do Brasil independente?",
     tip: "Pensa no tipo de governo que o Brasil se tornou: uma monarquia, mas com um título um pouco diferente de \"rei\"!",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual foi o papel da elite brasileira, como grandes proprietários de terra, no processo de independência?",
     tip: "Pensa nos interesses dessa elite: eles queriam continuar mandando nas suas terras sem depender tanto de Portugal!",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Por que a independência do Brasil manteve a monarquia, diferente dos Estados Unidos, que se tornaram república?",
     tip: "Pensa em quem liderou cada processo: nos EUA foram colonos comuns, e no Brasil foi o próprio príncipe herdeiro!",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo quer saber a data exata da independência do Brasil. Qual é ela?",
     tip: "É a mesma data comemorada todos os anos com desfiles pelo Brasil inteiro!",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo quer saber quem proclamou a independência do Brasil. Quem foi?",
     tip: "Foi o filho do rei de Portugal, que decidiu ficar no Brasil e se tornar o primeiro imperador!",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo leu sobre o \"Dia do Fico\". O que esse episódio representou?",
     tip: "Pensa no próprio nome: \"fico\" significa que ele decidiu permanecer aqui, e não voltar para a Europa!",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo descobriu a frase famosa gritada por D. Pedro no Ipiranga. Qual foi ela?",
     tip: "Essa frase mostra a decisão firme de D. Pedro de romper definitivamente com Portugal!",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo quer saber quem ajudou D. Pedro a organizar o processo de independência, sendo chamado de Patriarca da Independência. Quem foi essa pessoa?",
     tip: "Esse conselheiro ganhou um título de \"patriarca\" por sua grande importância nos bastidores da independência!",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre qual país reconheceu a independência do Brasil logo em 1824. Qual foi esse país?",
     tip: "Pensa num país que também já tinha conquistado sua independência de uma potência europeia antes do Brasil!",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo aprendeu que tipo de governo o Brasil se tornou depois da independência. Qual foi?",
     tip: "Pensa que o Brasil continuou tendo um único governante no poder, só que agora chamado de imperador!",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo quer saber qual título D. Pedro assumiu depois da independência. Qual foi?",
     tip: "Pensa no tipo de governo que o Brasil se tornou: ele usou um título parecido com o de outros grandes impérios da história!",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo está comparando a independência do Brasil com a dos Estados Unidos. Qual é uma diferença importante entre elas?",
     tip: "Pensa em quem liderou cada processo: no Brasil foi o próprio príncipe herdeiro, e nos Estados Unidos foram colonos comuns!",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Para resumir seus estudos, Bernardo quer lembrar o principal fato sobre a independência do Brasil. Qual frase resume bem esse momento?",
     tip: "Pensa em tudo que você aprendeu: a data, o líder e o tipo de governo que surgiu depois!",

@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Depois de proclamar a independência, que cargo D. Pedro I passou a ocupar no Brasil?",
     tip: "Pensa no tipo de governo que o Brasil se tornou: uma monarquia, mas com um título um pouco diferente de \"rei\"!",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Em que ano foi outorgada a primeira Constituição do Brasil, ainda durante o governo de D. Pedro I?",
     tip: "Foi dois anos depois da independência. Pensa num número logo depois de 1822...",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Por que D. Pedro I enfrentou forte oposição política durante seu governo?",
     tip: "Pensa num governante que não gostava de dividir decisões com outras pessoas do governo!",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Em que ano D. Pedro I abdicou do trono brasileiro, voltando para Portugal?",
     tip: "Foi quase dez anos depois da independência. Pensa num número entre 1824 e 1840...",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Quem assumiu o trono brasileiro depois da abdicação de D. Pedro I?",
     tip: "Pensa no filho de D. Pedro I: ele era muito jovem quando o pai abdicou, por isso precisou de ajuda para governar!",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Como ficou conhecido o período entre 1831 e 1840, quando o Brasil foi governado por representantes no lugar do jovem imperador?",
     tip: "Pensa em quem governava: pessoas escolhidas para \"representar\" o imperador enquanto ele crescia!",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "O que eram os regentes durante o Período Regencial?",
     tip: "Pensa no nome do período: \"regencial\" vem de \"regente\", alguém que governa no lugar de outra pessoa!",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "Qual foi uma das revoltas regionais mais importantes ocorridas durante o Período Regencial, no Rio Grande do Sul?",
     tip: "Pensa numa revolta que chegou a declarar uma república independente por um tempo, no extremo sul do Brasil!",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "Por que ocorreram tantas revoltas regionais durante o Período Regencial?",
     tip: "Pensa num governo mais fraco e instável, sem um imperador adulto no comando: isso deixou várias regiões descontentes!",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Como ficou conhecido o movimento que antecipou a coroação de D. Pedro II, encerrando o Período Regencial em 1840?",
     tip: "Pensa no motivo desse movimento: queriam que D. Pedro II se tornasse \"maior\" e assumisse o governo antes da idade prevista!",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Por que a Constituição de 1824 foi importante para a organização do Brasil independente?",
     tip: "Pensa num \"manual de regras\" de um país recém-formado: ele precisa decidir como vai se organizar!",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Qual era uma característica do poder de D. Pedro I garantida pela Constituição de 1824?",
     tip: "Pensa num poder especial, que dava ao imperador a última palavra em muitas decisões importantes do governo!",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Qual foi um dos motivos que levou D. Pedro I a abdicar do trono em 1831?",
     tip: "Pensa na concentração de poder que ele tinha: isso foi deixando cada vez mais pessoas insatisfeitas com seu governo!",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "Por que o Período Regencial foi considerado um momento de instabilidade política no Brasil?",
     tip: "Pensa na idade do imperador nessa época: ele era muito jovem, e isso deixou o governo central mais fraco!",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "O que foi a Cabanagem, uma das revoltas do Período Regencial?",
     tip: "Pensa numa região amazônica do Brasil, onde essa revolta aconteceu entre pessoas pobres e insatisfeitas!",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "O que foi a Revolução Farroupilha, ocorrida no Rio Grande do Sul durante o Período Regencial?",
     tip: "Pensa numa revolta tão forte que chegou a criar seu próprio governo separado por alguns anos, antes de voltar a fazer parte do Brasil!",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Por que as elites políticas decidiram antecipar a coroação de D. Pedro II através do Golpe da Maioridade?",
     tip: "Pensa no problema do Período Regencial: muita instabilidade. As elites queriam um governo mais forte e unificado!",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Com que idade D. Pedro II foi coroado imperador, antes da idade mínima prevista pela Constituição?",
     tip: "Pensa numa idade bem jovem, de alguém que ainda estava na adolescência quando assumiu tamanha responsabilidade!",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Qual foi uma consequência importante do fim do Período Regencial com o início do governo de D. Pedro II?",
     tip: "Pensa no nome que esse novo período ganhou, em contraste com o governo do pai de D. Pedro II!",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Qual foi a importância de se estudar o Primeiro Reinado e o Período Regencial para entender a história do Brasil?",
     tip: "Pensa em como um país recém-independente precisa aprender a se organizar, mesmo passando por dificuldades!",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo quer saber que cargo D. Pedro I ocupou depois da independência do Brasil. Qual foi?",
     tip: "Pensa no tipo de governo que o Brasil se tornou: uma monarquia, mas com um título diferente de \"rei\"!",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo descobriu que o Brasil ganhou sua primeira Constituição em determinado ano. Qual foi esse ano?",
     tip: "Foi dois anos depois da independência. Pensa num número logo depois de 1822!",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo quer saber por que D. Pedro I abdicou do trono em 1831. Qual foi o principal motivo?",
     tip: "Pensa na concentração de poder que ele tinha: isso foi deixando cada vez mais pessoas insatisfeitas!",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo aprendeu quem assumiu o governo depois da abdicação de D. Pedro I. Quem foi?",
     tip: "Pensa no filho de D. Pedro I: ele era muito jovem, por isso precisou de regentes para ajudar a governar!",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo quer saber como ficou conhecido o período em que o Brasil foi governado em nome do jovem imperador. Qual foi o nome desse período?",
     tip: "Pensa em quem governava: pessoas escolhidas para \"representar\" o imperador enquanto ele crescia!",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "Bernardo leu sobre uma revolta que aconteceu no Rio Grande do Sul durante o Período Regencial. Qual foi ela?",
     tip: "Pensa numa revolta que chegou a declarar uma república independente por alguns anos, no extremo sul do Brasil!",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "Bernardo quer saber por que aconteceram tantas revoltas regionais durante o Período Regencial. Qual é o motivo principal?",
     tip: "Pensa num governo mais fraco e instável, sem um imperador adulto no comando: isso deixou várias regiões descontentes!",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo descobriu o nome do movimento que antecipou a coroação de D. Pedro II. Como ele é chamado?",
     tip: "Pensa no motivo desse movimento: queriam que D. Pedro II se tornasse \"maior\" e assumisse o governo antes da idade prevista!",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo quer saber com quantos anos D. Pedro II foi coroado imperador, antes da idade mínima prevista. Qual foi essa idade?",
     tip: "Pensa numa idade bem jovem, de alguém que ainda estava na adolescência quando assumiu tamanha responsabilidade!",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Tempo histórico',
     type: "multiple_choice",
     text: "Para resumir seus estudos, Bernardo quer lembrar a sequência de governos depois da independência do Brasil. Qual é a ordem correta?",
     tip: "Pensa na ordem cronológica: primeiro governou o pai, depois vieram os regentes, e por fim o filho já crescido!",

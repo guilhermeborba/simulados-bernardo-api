@@ -820,6 +820,36 @@ Lote E04: **240 questões em oito simulados gerais**, nos arquivos `questoes-his
 
 Os temas acompanham os conteúdos: B1/AV1 tem cinco; B1/AV2, seis; B2/AV1 e B2/AV2, três cada; B3/AV1, quatro; B3/AV2, sete; B4/AV1, quatro; B4/AV2, sete. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente. Os temas não atestam a precisão histórica das formulações anteriores sobre a Escola de Sagres e a derrama; revisão separada na [issue web #116](https://github.com/guilhermeborba/simulados-bernardo/issues/116).
 
+### História — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Trabalho e tecnologia | Mecanização, produção artesanal, fábricas, invenções, energia e industrialização. |
+| História do trabalho | Condições, jornadas, trabalho infantil, classes, organização e reivindicações dos trabalhadores. |
+| Migrações | Deslocamentos do campo para as cidades e busca por trabalho industrial. |
+| Organização das cidades | Crescimento urbano, moradias, poluição e problemas de infraestrutura. |
+| Revolução Francesa | Causas, episódios, fases, personagens e transformações da revolução, quando o processo já é dado. |
+| Organização social | Grupos, hierarquias, governos, poder, códigos e instituições, sem nomear a revolução pedida. |
+| Filosofia | Iluminismo, razão, soberania popular, separação de poderes e pensadores. |
+| Direitos e participação | Declarações, direitos, liberdade, igualdade, fraternidade e circulação de ideais. |
+| Tempo histórico | Ordenação e comparação cronológica de eventos e períodos. |
+| Independência dos Estados Unidos | Treze colônias, impostos, protestos, guerra, lideranças e formação política dos EUA. |
+| Europa no século XIX | Ascensão, governo e queda de Napoleão e suas relações com a Revolução Francesa, sem antecipar seu nome. |
+| Disputas territoriais | Guerras, bloqueios, campanhas, congressos, restauração, fronteiras e equilíbrio europeu. |
+| Formação do Brasil | Transferência da corte portuguesa e consequências políticas para o Brasil. |
+| Independência do Brasil | Ruptura com Portugal, marcos, personagens, reconhecimento e organização inicial do país. |
+| Independências americanas | Haiti e América espanhola, lideranças, emancipações, novas nações e comparações entre independências. |
+| Brasil Império | Primeiro Reinado, Constituição, abdicação, regências, maioridade e sucessão monárquica. |
+| Revoltas no Império | Confederação do Equador, Cabanagem, Farroupilha e causas/efeitos dos conflitos internos do Império. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-historia-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 17 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados os nomes anteriores quando o conteúdo corresponde, incluindo Trabalho e tecnologia, História do trabalho, Migrações, Organização das cidades, Organização social, Filosofia, Direitos e participação, Tempo histórico, Disputas territoriais, Formação do Brasil e Brasil Império. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Trabalho e tecnologia cobre industrialização sem fornecer Revolução Industrial na revisão. Organização social cobre B4/AV2, IDs 2 e 22, sem fornecer Revolução Francesa. Europa no século XIX evita antecipar Napoleão nas perguntas de identificação. Independências americanas cobre B4/AV2, IDs 3 e 23, que pedem o país do episódio de Boston, sem nomear os EUA no tema; também mantém em aberto Haiti, países, lideranças e formas de governo da América espanhola. Filosofia evita antecipar Iluminismo. Brasil Império não fornece o nome do período regencial ou da maioridade; Revoltas no Império não nomeia a revolta solicitada.
+
+Os oito simulados têm, na ordem B1/AV1 a B4/AV2, 4, 5, 4, 5, 3, 2, 3, 11 temas. A revisão anual articula os diferentes processos do ano; não se cria um nome para cada pergunta.
+
+Cronologia, coroação/maioridade, sucessão/governo, início da campanha russa e alternativas sobre ajuda europeia registrados na [issue web #128](https://github.com/guilhermeborba/simulados-bernardo/issues/128), com fontes para revisão separada. Conteúdo anterior preservado; os temas não certificam a precisão histórica ou pedagógica do legado.
+
 ### Geografia — 6º ano
 
 | Tema | Abrange |

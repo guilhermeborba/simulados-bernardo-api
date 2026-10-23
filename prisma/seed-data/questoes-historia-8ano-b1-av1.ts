@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "O que foi a Revolução Industrial?",
     tip: "Pense em como as coisas passaram a ser produzidas em massa, com a ajuda de máquinas, em vez de serem feitas uma por uma, à mão.",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Em qual país a Revolução Industrial começou?",
     tip: "Pense no país europeu que tinha bastante carvão, ferro e capital disponível para investir em máquinas.",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Em qual século a Revolução Industrial teve seu início?",
     tip: "Pense num período logo antes da Revolução Francesa, que também aconteceu nesse mesmo século.",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Qual invenção foi fundamental para o início da Revolução Industrial, usada para mover máquinas e locomotivas?",
     tip: "Pense na força que vem da água fervendo, transformada em energia para mover engrenagens.",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "A máquina a vapor foi aperfeiçoada principalmente por:",
     tip: "Pense num nome de engenheiro escocês, bastante associado a essa invenção nos livros de história.",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Antes da Revolução Industrial, a produção de objetos era feita principalmente de forma:",
     tip: "Pense em como as pessoas faziam roupas, ferramentas e outros objetos antes de existirem fábricas com máquinas.",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Com a Revolução Industrial, o trabalho artesanal foi gradualmente substituído pelo trabalho:",
     tip: "Pense no novo tipo de local de trabalho que surgiu, cheio de máquinas e muitos trabalhadores.",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "O movimento de pessoas saindo do campo para viver e trabalhar nas cidades é chamado de:",
     tip: "Pense na palavra \"êxodo\", que significa uma saída em massa de um lugar — nesse caso, saindo do campo.",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Como eram, de modo geral, as condições de trabalho nas primeiras fábricas da Revolução Industrial?",
     tip: "Pense em como seria trabalhar muitas horas por dia, com pouco dinheiro, numa fábrica com máquinas ruidosas.",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "A classe trabalhadora que vendia sua força de trabalho nas fábricas, em troca de salário, era chamada de:",
     tip: "Pense no nome usado para os trabalhadores das fábricas, diferente dos donos das fábricas.",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Os donos das fábricas e dos meios de produção, durante a Revolução Industrial, formavam a classe chamada de:",
     tip: "Pense na classe social que tinha o dinheiro e as fábricas, diferente dos trabalhadores que vendiam sua força de trabalho.",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Uma das consequências sociais da Revolução Industrial foi:",
     tip: "Lembre da Questão 8 — o que aconteceu com as cidades quando muitas pessoas saíram do campo?",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Organização das cidades',
     type: "multiple_choice",
     text: "O crescimento rápido e desorganizado das cidades, durante a Revolução Industrial, trouxe problemas como:",
     tip: "Pense em como seria uma cidade crescendo muito rápido, sem planejamento, com fábricas usando carvão.",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Por causa das condições difíceis de trabalho, os trabalhadores começaram a se organizar em:",
     tip: "Pense em como os trabalhadores, unidos, podiam pedir mudanças nas fábricas onde trabalhavam.",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Qual invenção importante revolucionou o transporte durante a Revolução Industrial?",
     tip: "Pense no veículo que usava a máquina a vapor para se mover sobre trilhos.",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "O tear mecânico foi uma invenção importante para qual setor da indústria?",
     tip: "Pense na máquina usada para fazer tecidos de forma mais rápida do que à mão.",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "A primeira fase da Revolução Industrial foi marcada principalmente pelo uso de:",
     tip: "Pense nos materiais que alimentavam as máquinas a vapor e construíam as primeiras máquinas.",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Fases posteriores da Revolução Industrial passaram a usar também:",
     tip: "Pense em novas fontes de energia que foram surgindo conforme a tecnologia avançava.",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Por que a Inglaterra é considerada o berço da Revolução Industrial?",
     tip: "Pense em tudo que um país precisaria ter para começar a construir fábricas e máquinas: dinheiro, matéria-prima e trabalhadores.",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "A Revolução Industrial mudou profundamente a forma como as sociedades:",
     tip: "Pense em tudo que vimos hoje: máquinas, fábricas, trabalhadores — tudo isso mudou a forma de produzir e trabalhar.",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Bernardo está estudando sobre fábricas antigas e descobriu que, antes das máquinas, as pessoas faziam tecidos à mão, em casa. Esse tipo de produção é chamado de:",
     tip: "Lembre da Questão 6 — como era a produção antes da Revolução Industrial?",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre por que tantas famílias deixaram o campo para morar nas cidades durante a Revolução Industrial. O principal motivo foi:",
     tip: "Lembre da Questão 8 — qual é o nome desse movimento do campo para a cidade, e por que ele aconteceu?",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Bernardo imaginou como seria trabalhar numa fábrica do século XVIII. Ele descobriu que as jornadas de trabalho, na época, eram geralmente:",
     tip: "Lembre da Questão 9 — como eram as condições de trabalho nas primeiras fábricas?",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Bernardo quer entender por que os trabalhadores das fábricas começaram a se organizar em grupos.",
     tip: "Lembre da Questão 14 — qual era o objetivo dos movimentos operários?",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre James Watt na escola. Qual foi a importância dele para a Revolução Industrial?",
     tip: "Lembre da Questão 5 — qual foi a contribuição de James Watt?",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Bernardo está comparando a vida antes e depois da Revolução Industrial. O que mudou na forma de produzir objetos?",
     tip: "Pense em tudo que estudamos hoje sobre a transição da produção artesanal para a industrial.",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Migrações',
     type: "multiple_choice",
     text: "Bernardo quer saber por que as cidades cresceram tão rápido durante a Revolução Industrial.",
     tip: "Lembre do êxodo rural — por que as pessoas se mudavam para as cidades?",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Bernardo descobriu que, na época da Revolução Industrial, até crianças trabalhavam nas fábricas. Isso mostra que:",
     tip: "Pense em como as leis de proteção ao trabalho infantil, que existem hoje, ainda não existiam naquela época.",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "Bernardo quer entender a diferença entre burguesia industrial e proletariado durante a Revolução Industrial.",
     tip: "Lembre das Questões 10 e 11 — qual é a diferença entre essas duas classes sociais?",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Revisando tudo: qual foi a principal transformação trazida pela Revolução Industrial?",
     tip: "Pense em tudo que vimos hoje: máquinas, fábricas, trabalhadores, cidades — todos mudaram por causa dessa transformação.",

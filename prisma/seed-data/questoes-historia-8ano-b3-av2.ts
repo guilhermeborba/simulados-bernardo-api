@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual país das Américas foi o primeiro a conquistar sua independência de forma definitiva, em 1804, liderado por pessoas escravizadas?",
     tip: "Pensa numa ilha do Caribe, colônia francesa, onde escravizados se rebelaram e venceram seus senhores!",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Quem foi o importante líder da revolução que resultou na independência do Haiti?",
     tip: "Esse líder começou como um escravizado e se tornou um general brilhante, liderando seu povo à liberdade!",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual país europeu colonizava o Haiti antes de sua independência?",
     tip: "É o mesmo país da Revolução Francesa, que você já estudou antes!",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Quem foi o líder conhecido como \"o Libertador\", responsável por ajudar a libertar vários países da América do Sul do domínio espanhol?",
     tip: "Esse nome é homenageado até hoje: existe até um país sul-americano, a Bolívia, batizado em sua honra!",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Além de Bolívar, qual outro general importante lutou pela independência de países como Argentina, Chile e Peru?",
     tip: "Esse general é considerado herói nacional na Argentina e no Chile, tendo cruzado os Andes com seu exército!",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual país colonizava a maior parte da América do Sul e Central antes dos movimentos de independência do século XIX?",
     tip: "Esse mesmo país colonizava a maioria dos territórios de onde vieram líderes como Bolívar e San Martín!",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual grande país, formado por Simón Bolívar, unia territórios que hoje correspondem à Venezuela, Colômbia e Equador?",
     tip: "O nome desse país tem \"Colômbia\" dentro dele, mas era bem maior do que o país que existe hoje com esse nome!",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Quem foi o padre mexicano que iniciou o movimento pela independência do México?",
     tip: "Esse padre é tão importante para a história do México que até um feriado nacional lembra o início do movimento que ele liderou!",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Quais ideias europeias influenciaram os movimentos de independência na América espanhola?",
     tip: "São as mesmas ideias de liberdade e igualdade que também influenciaram a independência dos Estados Unidos!",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual foi o resultado geral dos movimentos de independência na América espanhola durante o século XIX?",
     tip: "Pensa em como o mapa da América do Sul é hoje: são muitos países diferentes, e não um só!",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Por que a independência do Haiti foi considerada tão revolucionária para a época?",
     tip: "Pensa em quem liderou essa luta: pessoas que eram escravizadas e conseguiram vencer um exército europeu poderoso!",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual foi um dos maiores desafios enfrentados por Simón Bolívar durante as guerras de independência?",
     tip: "Pensa no tamanho da América do Sul: são territórios enormes, com geografias bem diferentes, como montanhas e florestas!",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Por que San Martín e Bolívar são lembrados como heróis em vários países da América do Sul até hoje?",
     tip: "Pensa no papel deles nas guerras de independência: foram comandantes militares que ajudaram a libertar várias nações!",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "O que aconteceu com a Grã-Colômbia poucos anos depois de ser formada por Bolívar?",
     tip: "Pensa em como o mapa da América do Sul é hoje: existem vários países onde antes havia apenas um território unido!",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual foi a importância da vitória do Haiti para outras colônias que também buscavam a liberdade?",
     tip: "Pensa no exemplo que essa vitória deu: se pessoas escravizadas conseguiram vencer, isso inspirou esperança em outros lugares!",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "De que forma a independência dos Estados Unidos influenciou os movimentos de independência na América espanhola?",
     tip: "Pensa no exemplo dado pelos Estados Unidos: eles mostraram ao mundo que colônias podiam vencer países poderosos!",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Por que muitas elites locais na América espanhola apoiaram os movimentos de independência?",
     tip: "Pensa nos interesses dessas elites: elas queriam decidir sozinhas sobre impostos, comércio e governo em suas próprias terras!",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual foi uma consequência comum a quase todas as novas nações formadas depois das independências na América espanhola?",
     tip: "Pensa em tudo que um país novo precisa criar: leis, governo e uma forma de se organizar politicamente!",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Por que as guerras de independência na América espanhola duraram tantos anos, diferente da independência mais rápida do Brasil?",
     tip: "Pensa no tamanho dos territórios espanhóis na América e na resistência que a Espanha ofereceu para não perder suas colônias!",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual é um legado importante dos movimentos de independência liderados por Bolívar e San Martín?",
     tip: "Pensa no mapa atual da América do Sul: todos esses países que você conhece hoje surgiram graças a essas lutas!",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre o primeiro país da América Latina a conquistar a independência, em 1804. Qual foi esse país?",
     tip: "Pensa numa ilha do Caribe, onde pessoas escravizadas lutaram e venceram seus colonizadores franceses!",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo quer saber quem foi o líder conhecido como \"o Libertador\" na América do Sul. Quem foi essa pessoa?",
     tip: "O nome desse líder é homenageado até hoje em um país chamado Bolívia!",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo descobriu outro general importante, que ajudou a libertar países como Argentina e Chile. Quem foi ele?",
     tip: "Esse general é considerado herói nacional em mais de um país sul-americano, e cruzou montanhas enormes com seu exército!",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo leu sobre um grande país formado por Bolívar, que depois se dividiu em vários outros países. Qual era o nome desse país?",
     tip: "O nome desse país tem \"Colômbia\", mas era bem maior do que o país que existe atualmente com esse nome!",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo quer saber qual país colonizava a maior parte da América espanhola antes das independências. Qual foi esse país?",
     tip: "É o mesmo país de onde vieram os colonizadores que governavam a maior parte da América do Sul e Central!",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo ficou curioso sobre o padre que iniciou o movimento de independência do México. Quem foi ele?",
     tip: "Esse padre é lembrado até hoje com um feriado nacional no México, chamado \"Grito de Dolores\"!",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo percebeu que a independência do Haiti foi diferente das outras. Por que ela foi tão importante?",
     tip: "Pensa em quem liderou essa revolução: pessoas que eram escravizadas e conseguiram vencer um exército europeu poderoso!",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo está comparando a independência do Brasil com as da América espanhola. Qual é uma diferença importante entre elas?",
     tip: "Pensa no tipo de governo que surgiu depois de cada processo: um manteve um imperador, e os outros formaram repúblicas!",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo quer saber qual foi o resultado final de todas as lutas de independência na América espanhola. Qual foi esse resultado?",
     tip: "Pensa no mapa atual da América do Sul: são muitos países diferentes, cada um com seu próprio governo!",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Para resumir seus estudos, Bernardo quer lembrar os dois grandes líderes das independências na América do Sul. Quem foram eles?",
     tip: "Pensa nos dois generais que lutaram em diferentes partes da América do Sul para libertar vários países do domínio espanhol!",
