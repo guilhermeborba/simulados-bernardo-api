@@ -1,6 +1,7 @@
 export const questoesArte8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Em que período surgiu o estilo artístico conhecido como Neoclassicismo?',
     tip: 'Pense num período próximo da Revolução Francesa e do Iluminismo, que você já estudou em História!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Em que civilizações antigas o Neoclassicismo se inspirou?',
     tip: 'Pense no próprio nome do estilo: "neo" significa "novo", e "clássico" remete à Antiguidade!',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Qual é uma característica importante da arte Neoclássica, bem diferente do exagero barroco?',
     tip: 'Pense no contraste com o Barroco: enquanto um era dramático, o outro buscava ordem e equilíbrio!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é um dos mais famosos representantes do Neoclassicismo, autor de obras como "A Morte de Marat"?',
     tip: 'Esse pintor francês viveu durante a época da Revolução Francesa e retratou vários de seus eventos!',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual missão trouxe artistas franceses para o Brasil em 1816, ajudando a difundir o Neoclassicismo no país?',
     tip: 'Pense num grupo de artistas franceses convidados pela corte portuguesa para vir ao Brasil!',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual artista francês da Missão Artística Francesa é conhecido por retratar cenas do cotidiano brasileiro no século XIX?',
     tip: 'Esse artista fez muitos desenhos e pinturas mostrando a vida no Brasil durante o período colonial e imperial!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual instituição foi fundada no Rio de Janeiro com a ajuda da Missão Artística Francesa, para ensinar arte no estilo neoclássico?',
     tip: 'Pense numa escola de arte fundada no Rio de Janeiro, durante o período imperial!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Qual é um tema comum retratado por pintores neoclássicos e academicistas brasileiros, como Victor Meirelles e Pedro Américo?',
     tip: 'Pense em pinturas que retratam momentos importantes da história do Brasil, como batalhas e a independência!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual movimento de pensamento europeu influenciou os valores de razão e ordem presentes no Neoclassicismo?',
     tip: 'Pense no mesmo movimento de pensamento que influenciou a Revolução Francesa e a independência dos Estados Unidos!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre o Barroco e o Neoclassicismo?',
     tip: 'Pense no contraste de emoções: um é mais "agitado", e o outro mais "calmo e organizado"!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Por que os artistas neoclássicos valorizavam tanto a arte da Grécia e Roma antigas?',
     tip: 'Pense no que os gregos e romanos antigos valorizavam: harmonia e proporção nas formas!',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual foi a importância da Missão Artística Francesa para a arte no Brasil?',
     tip: 'Pense num grupo de artistas franceses que vieram ao Brasil e ajudaram a criar uma escola de arte importante!',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Qual era o objetivo das pinturas históricas feitas por artistas como Victor Meirelles e Pedro Américo?',
     tip: 'Pense em pinturas grandes e detalhadas, retratando eventos importantes como batalhas e a independência!',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Por que o estilo neoclássico combinava bem com os ideais do Iluminismo?',
     tip: 'Pense em como tanto a arte quanto o pensamento dessa época buscavam ordem e razão, ao invés de exagero emocional!',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma característica das obras de Jean-Baptiste Debret sobre o Brasil?',
     tip: 'Pense num artista que registrou com detalhes a vida das pessoas no Brasil durante o período imperial!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é a importância da Academia Imperial de Belas Artes para a história da arte brasileira?',
     tip: 'Pense numa escola de arte que formou muitos artistas importantes da história brasileira!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Por que as obras de Jacques-Louis David são consideradas representativas do Neoclassicismo?',
     tip: 'Pense em como esse pintor organizava suas cenas de forma equilibrada, mesmo retratando eventos dramáticos como a Revolução Francesa!',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Qual é a relação entre o Neoclassicismo e a Revolução Francesa, estudada em História?',
     tip: 'Pense em como artistas como Jacques-Louis David retrataram acontecimentos e personagens dessa revolução!',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual foi o papel dos artistas da Missão Artística Francesa na formação de artistas brasileiros?',
     tip: 'Pense em professores estrangeiros ensinando técnicas de pintura e escultura para alunos brasileiros!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é a importância de se estudar o Neoclassicismo para entender a arte brasileira do século XIX?',
     tip: 'Pense em como esse estilo chegou ao Brasil através de artistas franceses e influenciou gerações de pintores brasileiros!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Bernardo está estudando sobre o Neoclassicismo. Em que período esse estilo artístico surgiu?',
     tip: 'Pense num período próximo da Revolução Francesa e do Iluminismo!',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber em que civilizações antigas o Neoclassicismo se inspirou. Quais foram elas?',
     tip: 'Pense no próprio nome do estilo: "neo" significa "novo", e "clássico" remete à Antiguidade!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo descobriu uma diferença importante entre o Barroco e o Neoclassicismo. Qual é essa diferença?',
     tip: 'Pense no contraste de emoções: um é mais "agitado", e o outro mais "calmo e organizado"!',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês é famoso por obras neoclássicas como "A Morte de Marat". Quem foi ele?',
     tip: 'Esse pintor francês viveu durante a Revolução Francesa e retratou vários de seus eventos!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual missão trouxe artistas franceses para o Brasil em 1816. Como ela é chamada?',
     tip: 'Pense num grupo de artistas franceses convidados pela corte portuguesa!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual artista da Missão Artística Francesa retratou cenas do cotidiano brasileiro. Quem foi ele?',
     tip: 'Esse artista fez muitos desenhos mostrando a vida no Brasil durante o período imperial!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual instituição foi fundada no Rio de Janeiro com a ajuda dos artistas franceses. Qual foi ela?',
     tip: 'Pense numa escola de arte fundada no Rio de Janeiro, durante o período imperial!',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual é um tema comum em pinturas de artistas como Victor Meirelles e Pedro Américo. Qual é esse tema?',
     tip: 'Pense em pinturas que retratam momentos importantes da história do Brasil, como batalhas e a independência!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual movimento de pensamento europeu influenciou os valores de razão presentes no Neoclassicismo. Qual foi ele?',
     tip: 'Pense no mesmo movimento que influenciou a Revolução Francesa e a independência dos Estados Unidos!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Para resumir seus estudos sobre o Neoclassicismo, Bernardo quer lembrar sua principal característica. Qual é ela?',
     tip: 'Pense em tudo que você aprendeu: a inspiração na Antiguidade e a busca por ordem e equilíbrio!',

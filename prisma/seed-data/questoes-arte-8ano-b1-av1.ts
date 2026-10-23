@@ -1,6 +1,7 @@
 export const questoesArte8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Em que século surgiu o estilo artístico conhecido como Barroco?',
     tip: 'Pense num período logo depois do Renascimento, já na época das grandes igrejas europeias!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual é uma das principais características da arte Barroca?',
     tip: 'Pense em pinturas com um efeito bem teatral, quase como um holofote iluminando partes da cena!',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Quem foi o famoso escultor brasileiro do período barroco, conhecido por suas obras em igrejas de Minas Gerais?',
     tip: 'Esse artista mineiro é famoso por suas esculturas e talhas em igrejas de Ouro Preto!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual religião teve forte influência na criação da arte Barroca?',
     tip: 'Pense na instituição religiosa que usava a arte para impressionar e emocionar os fiéis nas igrejas!',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual é um tema comum nas pinturas e esculturas barrocas?',
     tip: 'Pense em obras feitas para igrejas, contando histórias sagradas!',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual material era muito usado nas igrejas barrocas brasileiras, especialmente em Minas Gerais?',
     tip: 'Pense num metal precioso usado para decorar altares e interiores de igrejas de forma luxuosa!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual cidade brasileira é famosa por suas igrejas e esculturas barrocas, muitas delas feitas por Aleijadinho?',
     tip: 'Pense numa cidade histórica de Minas Gerais, famosa pelo ciclo do ouro e por suas igrejas barrocas!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual é uma característica geral das obras barrocas em relação ao movimento e à emoção?',
     tip: 'Pense em esculturas e pinturas que parecem "vivas", cheias de energia e sentimento!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Música',
     type: 'multiple_choice',
     text: 'Qual famoso compositor é associado à música do período Barroco?',
     tip: 'Pense num compositor alemão muito importante, conhecido por suas complexas composições corais e para órgão!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual estilo artístico veio antes do Barroco, servindo de base para seu desenvolvimento?',
     tip: 'Pense num movimento artístico anterior, muito valorizado pela harmonia e pela proporção, que depois foi ampliado pelo exagero barroco!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Por que a Igreja Católica incentivou a produção de arte Barroca?',
     tip: 'Pense num momento de disputa religiosa na Europa, em que a Igreja queria reforçar sua presença e emocionar o povo!',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual foi a importância de Aleijadinho para a arte brasileira?',
     tip: 'Pense num artista que, apesar de enfrentar sérios problemas de saúde, criou obras incríveis em igrejas mineiras!',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual é o efeito do uso do "claro-escuro" nas obras barrocas?',
     tip: 'Pense num efeito teatral, como um holofote de teatro iluminando partes específicas de uma cena!',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Por que as igrejas barrocas de Minas Gerais eram decoradas com tanto ouro?',
     tip: 'Pense na economia da região de Minas Gerais na época: havia muita extração de ouro!',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre o Renascimento e o Barroco?',
     tip: 'Pense em como as obras do Barroco parecem mais "agitadas" e emocionais do que as do Renascimento!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Patrimônio e preservação',
     type: 'multiple_choice',
     text: 'Qual é a importância histórica de Ouro Preto para o estudo da arte Barroca no Brasil?',
     tip: 'Pense numa cidade histórica preservada, famosa por seu patrimônio artístico e arquitetônico!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Música',
     type: 'multiple_choice',
     text: 'Como a música barroca se relaciona com as outras artes do período?',
     tip: 'Pense em como todas as artes do período Barroco buscavam causar forte impacto emocional!',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual é uma característica comum entre as esculturas de Aleijadinho e as pinturas barrocas europeias?',
     tip: 'Pense na emoção intensa presente tanto nas esculturas mineiras quanto nas pinturas europeias do período!',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Por que o Barroco é considerado um estilo artístico muito expressivo?',
     tip: 'Pense em como as obras barrocas tentam "tocar" o espectador emocionalmente, não só mostrar uma cena!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Qual é a importância de se estudar o Barroco para entender a história da arte no Brasil?',
     tip: 'Pense nas igrejas e esculturas barrocas que ainda existem em cidades históricas brasileiras!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo está estudando sobre o Barroco. Em que século esse estilo artístico surgiu?',
     tip: 'Pense num período logo depois do Renascimento, já na época das grandes igrejas europeias!',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo quer saber quem foi o famoso escultor brasileiro do Barroco, conhecido por suas obras em Minas Gerais. Quem foi ele?',
     tip: 'Esse artista mineiro é famoso por suas esculturas e talhas em igrejas de Ouro Preto!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo descobriu uma técnica muito usada nas pinturas barrocas, com forte contraste entre luz e sombra. Como ela é chamada?',
     tip: 'Pense num efeito teatral, com partes bem iluminadas e outras na sombra!',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual religião teve forte influência na criação da arte Barroca. Qual foi ela?',
     tip: 'Pense na instituição religiosa que usava a arte para impressionar e emocionar os fiéis!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual material era muito usado nas igrejas barrocas de Minas Gerais. Qual foi esse material?',
     tip: 'Pense num metal precioso usado para decorar altares de forma luxuosa!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual cidade brasileira é famosa por suas igrejas e esculturas barrocas. Qual é essa cidade?',
     tip: 'Pense numa cidade histórica de Minas Gerais, famosa pelo ciclo do ouro!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual é uma característica da arte Barroca em relação ao movimento e à emoção. Qual é essa característica?',
     tip: 'Pense em esculturas e pinturas que parecem "vivas", cheias de energia!',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Música',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual compositor famoso é associado à música do período Barroco. Quem foi ele?',
     tip: 'Pense num compositor alemão conhecido por suas complexas composições corais e para órgão!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual estilo artístico veio antes do Barroco. Qual foi ele?',
     tip: 'Pense num movimento artístico anterior, valorizado pela harmonia e proporção!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'Para resumir seus estudos sobre o Barroco, Bernardo quer lembrar sua principal característica. Qual é ela?',
     tip: 'Pense em tudo que você aprendeu: o drama, a luz e a sombra, e a emoção das obras barrocas!',

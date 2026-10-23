@@ -1,6 +1,7 @@
 export const questoesArte8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual é uma das principais características do Romantismo, em contraste com a razão valorizada pelo Neoclassicismo?',
     tip: 'Pense num movimento que colocava os sentimentos e a imaginação em primeiro lugar, diferente da razão do Neoclassicismo!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é famoso pela obra "A Liberdade Guiando o Povo", um símbolo do Romantismo?',
     tip: 'Esse pintor francês retratou uma figura feminina simbolizando a liberdade, guiando o povo numa revolução!',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual elemento da natureza era muito valorizado nas pinturas românticas, muitas vezes retratado de forma grandiosa e misteriosa?',
     tip: 'Pense em pinturas de paisagens imponentes, que despertam um sentimento de admiração e até um pouco de medo!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual pintor brasileiro é conhecido pela obra "Primeira Missa no Brasil", um exemplo da pintura histórica romântica brasileira?',
     tip: 'Esse pintor brasileiro retratou um importante momento do início da colonização portuguesa no Brasil!',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual sentimento nacionalista era comum nas obras românticas de diversos países, incluindo o Brasil?',
     tip: 'Pense em artistas retratando heróis e momentos importantes da história do seu próprio país, com muito orgulho!',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual pintor brasileiro é conhecido por obras como "Independência ou Morte" e "Tiradentes"?',
     tip: 'Esse pintor retratou o momento exato do Grito do Ipiranga, que você estudou em História!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre o Romantismo e o Neoclassicismo?',
     tip: 'Pense no contraste: um movimento valoriza mais o coração, e o outro, mais a razão!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual tipo de herói era comum nas pinturas românticas, muitas vezes retratado de forma dramática e emocional?',
     tip: 'Pense em pinturas retratando pessoas importantes da história de um país, de forma bem dramática!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Por que a natureza era um tema tão importante nas pinturas românticas?',
     tip: 'Pense em como paisagens grandiosas podem despertar sentimentos intensos nas pessoas!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual país europeu teve grande influência no desenvolvimento do movimento Romântico na pintura?',
     tip: 'Pense num país europeu que já teve grande influência também no Neoclassicismo e no Iluminismo!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Por que a obra "A Liberdade Guiando o Povo" é considerada um símbolo do Romantismo?',
     tip: 'Pense numa pintura cheia de emoção, retratando um momento de luta e revolução!',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual é a importância da pintura "Primeira Missa no Brasil", de Victor Meirelles, para a arte brasileira?',
     tip: 'Pense numa pintura que retrata um evento importante da chegada dos portugueses ao Brasil!',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Por que artistas românticos valorizavam tanto temas nacionalistas e históricos?',
     tip: 'Pense em como pinturas de heróis e eventos importantes podem gerar orgulho nacional!',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual é uma característica da pintura "Independência ou Morte", de Pedro Américo?',
     tip: 'Pense numa pintura que mostra D. Pedro I montado a cavalo, num momento histórico muito importante!',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual sentimento o conceito de "sublime" busca descrever nas pinturas românticas de paisagens?',
     tip: 'Pense em como você se sentiria diante de uma montanha gigante ou uma tempestade poderosa: pequeno, mas impressionado!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Por que o Romantismo é considerado um movimento mais emocional do que o Neoclassicismo?',
     tip: 'Pense no contraste entre os dois estilos: um valoriza mais a razão, e o outro, mais a emoção!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual foi a importância dos pintores românticos brasileiros para a construção de uma identidade visual nacional?',
     tip: 'Pense em como pinturas de eventos como a independência ajudaram o Brasil a construir sua própria identidade visual!',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre a forma como o Neoclassicismo e o Romantismo retratavam a natureza?',
     tip: 'Pense em como cada estilo lidava com a emoção: um valorizava mais o drama, o outro, mais a ordem!',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Por que as pinturas históricas românticas, como as de Pedro Américo e Victor Meirelles, são importantes para o estudo da História do Brasil?',
     tip: 'Pense em como essas pinturas funcionam quase como "fotografias" de momentos importantes da história do Brasil!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Qual é a importância de se estudar o Romantismo para entender a arte do século XIX?',
     tip: 'Pense em como esse movimento trouxe novos temas e sentimentos para a arte, diferentes do Neoclassicismo!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo está estudando sobre o Romantismo. Qual é uma de suas principais características?',
     tip: 'Pense num movimento que colocava os sentimentos em primeiro lugar, diferente da razão do Neoclassicismo!',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês é famoso pela obra "A Liberdade Guiando o Povo". Quem foi ele?',
     tip: 'Esse pintor francês retratou uma figura feminina simbolizando a liberdade, guiando o povo numa revolução!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que a natureza era um tema muito importante nas pinturas românticas. Como ela costumava ser retratada?',
     tip: 'Pense em pinturas de paisagens imponentes, que despertam um sentimento de admiração e até um pouco de medo!',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor brasileiro é conhecido pela obra "Primeira Missa no Brasil". Quem foi ele?',
     tip: 'Esse pintor brasileiro retratou um importante momento do início da colonização portuguesa!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual sentimento nacionalista era comum nas obras românticas brasileiras. Qual era ele?',
     tip: 'Pense em artistas retratando heróis e momentos importantes da história do seu próprio país, com muito orgulho!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor brasileiro é conhecido por obras como "Independência ou Morte". Quem foi ele?',
     tip: 'Esse pintor retratou o momento exato do Grito do Ipiranga, que você estudou em História!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual é uma diferença importante entre o Romantismo e o Neoclassicismo. Qual é essa diferença?',
     tip: 'Pense no contraste: um movimento valoriza mais o coração, e o outro, mais a razão!',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual tipo de herói era comum nas pinturas românticas. Qual era esse tipo?',
     tip: 'Pense em pinturas retratando pessoas importantes da história de um país, de forma bem dramática!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber por que a natureza era um tema tão importante nas pinturas românticas. Qual é o motivo?',
     tip: 'Pense em como paisagens grandiosas podem despertar sentimentos intensos nas pessoas!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'Para resumir seus estudos sobre o Romantismo, Bernardo quer lembrar sua principal característica. Qual é ela?',
     tip: 'Pense em tudo que você aprendeu: sentimentos, paisagens grandiosas e orgulho da própria história!',

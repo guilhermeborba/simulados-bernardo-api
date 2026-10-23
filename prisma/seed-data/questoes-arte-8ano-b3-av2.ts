@@ -1,6 +1,7 @@
 export const questoesArte8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Em que período e região o movimento Expressionista se desenvolveu com mais força?',
     tip: 'Pense num período bem próximo ao início do século XX, numa região central da Europa!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual é o principal objetivo da arte Expressionista?',
     tip: 'Pense num movimento que queria mostrar o que o artista sentia por dentro, mesmo que isso distorcesse as formas!',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual pintor norueguês é considerado um importante precursor do Expressionismo, autor da famosa obra "O Grito"?',
     tip: 'Esse pintor retratou uma figura humana gritando, com cores e formas bem distorcidas, para expressar angústia!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre o Impressionismo e o Expressionismo?',
     tip: 'Pense no contraste: um movimento olhava para fora (a luz, o momento), e o outro olhava para dentro (os sentimentos)!',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual grupo alemão de artistas, formado no início do século XX, é um importante representante do Expressionismo?',
     tip: 'Pense num grupo alemão cujo nome significa "A Ponte" em português!',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual artista alemão é um importante membro do grupo Die Brücke?',
     tip: 'Esse artista alemão fazia parte do grupo que buscava uma nova forma de expressão artística, com cores fortes e formas distorcidas!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual técnica visual é comum nas obras expressionistas, usada para transmitir emoções intensas?',
     tip: 'Pense em pinturas com cores bem vivas e formas que parecem "esticadas" ou "torcidas" para expressar sentimento!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual pintora brasileira trouxe influências do Expressionismo europeu para o Brasil, em uma exposição que causou grande polêmica em 1917?',
     tip: 'Essa pintora brasileira estudou na Europa e trouxe um estilo mais moderno e expressivo para suas obras!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Por que a exposição de Anita Malfatti em 1917 causou tanta polêmica no Brasil?',
     tip: 'Pense em como um estilo novo e diferente pode chocar um público acostumado com arte mais tradicional!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual sentimento a pintura "O Grito", de Edvard Munch, busca expressar?',
     tip: 'Pense numa figura gritando, com formas distorcidas ao redor, como se o mundo estivesse em chamas de emoção!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Por que o Expressionismo pode ser considerado uma reação contra o Impressionismo?',
     tip: 'Pense no contraste de focos: um queria capturar o que se vê, o outro queria capturar o que se sente!',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual é a importância da obra "O Grito", de Edvard Munch, para a história da arte?',
     tip: 'Pense em como essa pintura ficou famosa justamente por expressar uma emoção tão forte e universal!',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual era o objetivo do grupo alemão Die Brücke (A Ponte)?',
     tip: 'Pense no próprio nome do grupo: eles queriam conectar diferentes formas de pensar a arte!',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Por que as formas nas pinturas expressionistas costumam parecer distorcidas?',
     tip: 'Pense em como sentimentos fortes, como angústia ou medo, podem ser mostrados através de formas "torcidas" ou exageradas!',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual foi a importância de Anita Malfatti para a introdução do Expressionismo no Brasil?',
     tip: 'Pense numa artista que estudou fora do Brasil e trouxe um estilo novo, que chocou o público na época!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Por que a exposição de Anita Malfatti em 1917 é considerada importante para a história da arte brasileira?',
     tip: 'Pense em como uma exposição polêmica pode, mesmo assim, abrir portas para novas ideias artísticas no futuro!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual é uma característica comum entre as obras de Edvard Munch e as do grupo Die Brücke?',
     tip: 'Pense na emoção intensa presente tanto na obra de Munch quanto nas pinturas do grupo alemão!',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Por que o Expressionismo é considerado um movimento muito ligado à subjetividade do artista?',
     tip: 'Pense em como cada obra expressionista mostra um pouco da emoção pessoal de quem a pintou!',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual foi o impacto do Expressionismo europeu na formação do Modernismo brasileiro?',
     tip: 'Pense em como ideias e estilos europeus podem viajar e influenciar artistas de outros países!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Qual é a importância de se estudar o Expressionismo para entender a arte do início do século XX?',
     tip: 'Pense em como esse movimento trouxe uma nova forma de pensar a arte, focada nos sentimentos do artista!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo está estudando sobre o Expressionismo. Em que período e região esse movimento se desenvolveu com mais força?',
     tip: 'Pense num período bem próximo ao início do século XX, numa região central da Europa!',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual é o principal objetivo da arte Expressionista. Qual é esse objetivo?',
     tip: 'Pense num movimento que queria mostrar o que o artista sentia por dentro, mesmo que isso distorcesse as formas!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor norueguês é famoso pela obra "O Grito". Quem foi ele?',
     tip: 'Esse pintor retratou uma figura humana gritando, com cores e formas bem distorcidas!',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo descobriu uma diferença importante entre o Impressionismo e o Expressionismo. Qual é essa diferença?',
     tip: 'Pense no contraste: um movimento olhava para fora, e o outro olhava para dentro, para os sentimentos!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual grupo alemão de artistas é um importante representante do Expressionismo. Qual é esse grupo?',
     tip: 'Pense num grupo alemão cujo nome significa "A Ponte" em português!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintora brasileira trouxe influências do Expressionismo para o Brasil. Quem foi ela?',
     tip: 'Essa pintora brasileira estudou na Europa e trouxe um estilo mais moderno e expressivo!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber por que a exposição de Anita Malfatti em 1917 causou polêmica. Qual foi o motivo?',
     tip: 'Pense em como um estilo novo e diferente pode chocar um público acostumado com arte mais tradicional!',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual sentimento a pintura "O Grito" busca expressar. Qual é esse sentimento?',
     tip: 'Pense numa figura gritando, com formas distorcidas ao redor, como se o mundo estivesse em chamas de emoção!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual técnica visual é comum nas obras expressionistas. Qual é essa técnica?',
     tip: 'Pense em pinturas com cores bem vivas e formas que parecem "esticadas" ou "torcidas" para expressar sentimento!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'Para resumir seus estudos sobre o Expressionismo, Bernardo quer lembrar sua principal característica. Qual é ela?',
     tip: 'Pense em tudo que você aprendeu: sentimentos intensos, cores fortes e formas distorcidas!',
