@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O produto notável (a + b)² é igual a:",
     tip: "Desenvolva multiplicando (a + b) × (a + b). Não esqueça o termo do meio.",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O produto notável (a − b)² é igual a:",
     tip: "Desenvolva (a − b) × (a − b). Preste atenção ao sinal do termo do meio.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O produto notável (a + b)(a − b) é chamado de:",
     tip: "Desenvolva: a² − ab + ab − b². O que acontece com os termos do meio?",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Calcule (x + 3)² usando o produto notável do quadrado da soma:",
     tip: "Use a = x e b = 3 na fórmula a² + 2ab + b².",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Calcule (2x − 5)² usando o produto notável do quadrado da diferença:",
     tip: "Use a = 2x e b = 5 na fórmula a² − 2ab + b². Atenção: (2x)² = 4x².",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Calcule (x + 4)(x − 4) usando o produto da soma pela diferença:",
     tip: "Use a fórmula (a + b)(a − b) = a² − b². Identifique a = x e b = 4.",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "A FATORAÇÃO é a operação inversa do desenvolvimento algébrico. Fatorar x² + 6x + 9 resulta em:",
     tip: "Reconheça o padrão: x² + 6x + 9 = x² + 2×x×3 + 3² → quadrado da soma de x e 3.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore a expressão x² − 25:",
     tip: "Reconheça o padrão de diferença de quadrados: a² − b² = (a+b)(a−b). Identifique a e b.",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "A FATORAÇÃO por agrupamento é usada quando:",
     tip: "Quando não há fator comum a todos os termos, você pode agrupar os termos e fatorar cada grupo.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore completamente: 3x² − 12:",
     tip: "Primeiro identifique o fator comum numérico. Depois fatore o que sobrar usando diferença de quadrados.",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "A fatoração por FATOR COMUM EM EVIDÊNCIA é aplicada quando:",
     tip: "Se todos os termos são divisíveis pelo mesmo fator, você pode 'colocá-lo em evidência' (do lado de fora).",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Qual é o resultado de fatorar 6x³ + 9x²?",
     tip: "Encontre o maior fator comum entre os dois termos — envolve tanto o número quanto a variável.",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O TRINÔMIO DO QUADRADO PERFEITO tem a forma a² + 2ab + b². Identifique qual expressão abaixo é um trinômio do quadrado perfeito:",
     tip: "Verifique se o termo do meio é o dobro do produto das raízes quadradas do primeiro e do último termos.",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Calcule 99² usando produto notável:",
     tip: "Escreva 99 = 100 − 1 e use o quadrado da diferença: (a − b)² = a² − 2ab + b².",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore o trinômio x² + 5x + 6:",
     tip: "Procure dois números que somados dão 5 e multiplicados dão 6. (Dica: pense em 2 e 3.)",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore o trinômio x² − 7x + 12:",
     tip: "Procure dois números negativos que somados dão −7 e multiplicados dão 12. (Dica: pense em −3 e −4.)",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O cubo da soma tem a fórmula: (a + b)³ = ?",
     tip: "Desenvolva (a + b)³ = (a + b)(a + b)² ou use a fórmula completa com os coeficientes de Pascal.",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Use produto notável para calcular 51 × 49:",
     tip: "Escreva como (50 + 1)(50 − 1) e aplique a diferença de quadrados.",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "A fatoração da expressão 4x² − 36 é:",
     tip: "Coloque o fator comum 4 em evidência primeiro. Depois aplique a diferença de quadrados.",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o valor de (x + y)² − (x − y)², sabendo que x = 3 e y = 2?",
     tip: "Use o produto notável para desenvolver cada quadrado, depois subtraia. Ou fatore a diferença de quadrados diretamente.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Qual expressão é a fatoração correta de x² − 16?",
     tip: "Reconheça a diferença de quadrados: x² − 16 = x² − 4².",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Identifique o ERRO na afirmação: '(a + b)² = a² + b²'",
     tip: "Desenvolva (a + b)² corretamente e compare com o que a afirmação diz.",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore completamente: 2x³ − 8x:",
     tip: "Primeiro coloque 2x em evidência. Depois fatore o que restar usando diferença de quadrados.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Qual produto notável corresponde à identidade a³ − b³?",
     tip: "A diferença de cubos tem uma fatoração específica: a³ − b³ = (a − b)(a² + ab + b²).",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplifique a expressão algébrica: (x² − 9) / (x + 3), com x ≠ −3:",
     tip: "Fatore o numerador usando diferença de quadrados: x² − 9 = (x+3)(x−3). Depois simplifique.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Expanda e simplifique: (3x + 2)² − (3x − 2)²",
     tip: "Desenvolva cada quadrado usando os produtos notáveis, depois subtraia. Ou use a identidade diretamente.",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Um campo retangular tem lados (x + 5) e (x − 5) metros. Qual é a área desse campo em função de x?",
     tip: "Área = comprimento × largura. Use o produto da soma pela diferença.",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Fatoração',
     type: "multiple_choice",
     text: "Fatore: x² + 8x + 16:",
     tip: "Verifique se é um trinômio do quadrado perfeito: √16 = 4 e 2 × x × 4 = 8x. ✓",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Use produtos notáveis para calcular 48 × 52:",
     tip: "Escreva como (50 − 2)(50 + 2) e aplique a diferença de quadrados: (a − b)(a + b) = a² − b².",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "A fatoração e os produtos notáveis são importantes em Matemática porque:",
     tip: "Pense em como essas ferramentas são usadas no dia a dia da matemática avançada.",

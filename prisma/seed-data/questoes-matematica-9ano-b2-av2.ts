@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma EQUAÇÃO IRRACIONAL é uma equação em que a incógnita:",
     tip: "Pense no que diferencia uma equação irracional das demais — onde a variável está?",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para resolver √(x + 3) = 4, qual é o primeiro passo?",
     tip: "Para eliminar o radical, você precisa fazer a operação inversa.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação irracional √x = 5:",
     tip: "Eleve os dois lados ao quadrado e verifique a solução.",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Ao resolver equações irracionais, por que é OBRIGATÓRIO verificar as soluções encontradas?",
     tip: "Elevar ao quadrado é uma operação que pode 'criar' soluções falsas.",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva √(2x − 1) = 3:",
     tip: "Eleve ao quadrado: 2x − 1 = 9. Resolva para x e verifique.",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma equação fracionária é uma equação em que a incógnita aparece no denominador. A condição de existência exige que:",
     tip: "Dividir por zero não é definido em matemática — o que isso implica para os denominadores?",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para resolver uma equação fracionária, o método mais eficiente é:",
     tip: "Pense em como eliminar os denominadores de uma vez.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva √(x + 6) = x:",
     tip: "Eleve ao quadrado: x + 6 = x². Reorganize: x² − x − 6 = 0. Resolva e VERIFIQUE cada solução.",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um SISTEMA DE EQUAÇÕES do 1º grau com duas variáveis tem solução ÚNICA quando as retas representadas pelos dois gráficos:",
     tip: "Pense geometricamente: duas retas no plano cartesiano podem se relacionar de três formas.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "O MÉTODO DA SUBSTITUIÇÃO para resolver sistemas consiste em:",
     tip: "Substituição significa trocar — o que você troca?",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolva o sistema por substituição: { x + y = 10 ; x − y = 4 }",
     tip: "Da primeira equação: x = 10 − y. Substitua na segunda: (10 − y) − y = 4.",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "O MÉTODO DA ADIÇÃO (ou eliminação) para resolver sistemas consiste em:",
     tip: "Adição = somar. O que você faz com as equações para eliminar uma variável?",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolva o sistema pelo método da adição: { 2x + y = 7 ; x − y = 2 }",
     tip: "Some as duas equações diretamente — o y é eliminado! Depois encontre y.",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um sistema de equações é IMPOSSÍVEL quando as retas são paralelas. O que isso significa em termos algébricos?",
     tip: "Paralelas = mesma inclinação, pontos de intersecção diferentes.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um sistema é INDETERMINADO quando as retas são coincidentes. Qual é o conjunto solução?",
     tip: "Coincidentes = a mesma reta. Quantos pontos em comum têm?",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolva o sistema: { 3x − 2y = 5 ; x + y = 5 }",
     tip: "Da segunda equação: x = 5 − y. Substitua na primeira: 3(5 − y) − 2y = 5.",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma equação irracional do tipo √(ax + b) = c tem solução apenas quando:",
     tip: "O resultado da raiz quadrada é sempre não negativo — quando c pode ser resultado de uma raiz?",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação fracionária 3/x = 12 (x ≠ 0):",
     tip: "Multiplique ambos os lados por x para eliminar o denominador.",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um problema de 'encontro' gera o sistema: João tem o dobro da idade de Maria. Daqui a 5 anos, a soma das idades será 40. Qual o sistema que modela esse problema?",
     tip: "João = 2 × Maria agora. Daqui a 5 anos: (João + 5) + (Maria + 5) = 40.",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolva o sistema: { 2x + 3y = 12 ; 4x − 3y = 0 }",
     tip: "Some as equações — o 3y e o −3y são eliminados. Depois encontre y.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação irracional √(x² − 5) = 2:",
     tip: "Eleve ao quadrado: x² − 5 = 4. Resolva para x² e depois para x. VERIFIQUE!",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um fazendeiro tem galinhas e coelhos totalizando 20 cabeças e 56 patas. Quantas galinhas há?",
     tip: "Galinhas têm 2 patas, coelhos têm 4. Monte o sistema: g + c = 20 e 2g + 4c = 56.",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Para resolver o sistema { 2x + y = 8 ; x − 2y = 1 } pelo método da adição, qual é o procedimento?",
     tip: "Para eliminar y, multiplique a primeira equação por 2 e some com a segunda.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Qual das alternativas representa um SISTEMA IMPOSSÍVEL?",
     tip: "Um sistema impossível tem equações contraditórias — nenhum par (x, y) satisfaz as duas ao mesmo tempo.",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação irracional √(3x + 1) = x − 1:",
     tip: "Condição: x − 1 ≥ 0, então x ≥ 1. Eleve ao quadrado: 3x + 1 = x² − 2x + 1. VERIFIQUE x = 0 e x = 5.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Uma mistura de cafés especiais: 2 kg do tipo A e 1 kg do tipo B custam R$ 28. 1 kg do tipo A e 3 kg do tipo B custam R$ 24. Qual o preço do tipo A?",
     tip: "Monte o sistema: 2A + B = 28 e A + 3B = 24. Da primeira: B = 28 − 2A. Substitua na segunda.",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação irracional √(x + 4) + 2 = x:",
     tip: "Isole a raiz: √(x + 4) = x − 2. Condição: x ≥ 2. Eleve ao quadrado e verifique as soluções.",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um sistema de 3 equações com 3 variáveis pode ser resolvido por:",
     tip: "O mesmo princípio das 2 variáveis se extende — como você reduziria para 2 variáveis?",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a condição de existência da equação irracional √(2x − 6)?",
     tip: "Para a raiz quadrada existir em ℝ, o radicando deve ser ≥ 0.",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "O estudo de equações irracionais e sistemas é fundamental em matemática porque:",
     tip: "Pense na diversidade de situações reais que esses conteúdos modelam.",

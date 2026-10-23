@@ -1,6 +1,7 @@
 export const questoesMatematica9AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma EQUAÇÃO DO 2º GRAU é uma equação polinomial em que o maior expoente da variável é:",
     tip: "O 'grau' de uma equação é dado pelo maior expoente da variável — o 2º grau tem expoente...",
@@ -16,6 +17,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "A forma geral de uma equação do 2º grau é ax² + bx + c = 0. Qual condição é obrigatória?",
     tip: "Sem essa condição, a equação seria do 1º grau, não do 2º.",
@@ -31,6 +33,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma equação do 2º grau COMPLETA é aquela em que:",
     tip: "Completa significa que todos os termos estão presentes.",
@@ -46,6 +49,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é o conjunto solução da equação incompleta x² = 0?",
     tip: "Que número, ao ser elevado ao quadrado, resulta em zero?",
@@ -61,6 +65,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação incompleta x² − 16 = 0:",
     tip: "Isole o x²: x² = 16. Quais números ao quadrado dão 16?",
@@ -76,6 +81,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação incompleta 3x² − 6x = 0:",
     tip: "Coloque x em evidência: x(3x − 6) = 0. Quando um produto é zero?",
@@ -91,6 +97,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "O DISCRIMINANTE (Δ) de uma equação do 2º grau ax² + bx + c = 0 é calculado por:",
     tip: "O discriminante determina a quantidade e a natureza das raízes.",
@@ -106,6 +113,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Quando Δ > 0, a equação do 2º grau possui:",
     tip: "O discriminante positivo indica... quantas raízes reais?",
@@ -121,6 +129,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Quando Δ = 0, a equação do 2º grau possui:",
     tip: "Δ = 0 é o caso especial de toque — a parábola é tangente ao eixo x.",
@@ -136,6 +145,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Quando Δ < 0, a equação do 2º grau no conjunto dos números reais possui:",
     tip: "Não é possível extrair raiz quadrada de número negativo nos reais.",
@@ -151,6 +161,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "A FÓRMULA DE BHASKARA para resolver a equação ax² + bx + c = 0 é:",
     tip: "Bhaskara é o método universal para equações do 2º grau completas.",
@@ -166,6 +177,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação x² − 5x + 6 = 0 usando Bhaskara:",
     tip: "Identifique a=1, b=−5, c=6. Calcule Δ = b² − 4ac = 25 − 24 = 1. Então x = (5 ± 1)/2.",
@@ -181,6 +193,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Pelas RELAÇÕES DE GIRARD, se x₁ e x₂ são as raízes de ax² + bx + c = 0, então a soma x₁ + x₂ é igual a:",
     tip: "As relações de Girard ligam as raízes aos coeficientes sem precisar resolver a equação.",
@@ -196,6 +209,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Pelas RELAÇÕES DE GIRARD, o produto das raízes x₁ × x₂ é igual a:",
     tip: "O produto das raízes depende dos coeficientes a e c da equação geral.",
@@ -211,6 +225,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Identifique os coeficientes a, b e c da equação 2x² − 3x + 1 = 0:",
     tip: "Compare com a forma geral ax² + bx + c = 0.",
@@ -226,6 +241,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação x² − 9 = 0 usando fatoração (diferença de quadrados):",
     tip: "x² − 9 = (x + 3)(x − 3) = 0. Aplique a regra do produto nulo.",
@@ -241,6 +257,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva 2x² + 3x = 0:",
     tip: "Coloque x em evidência: x(2x + 3) = 0. Aplique a regra do produto nulo.",
@@ -256,6 +273,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva x² + 4x + 4 = 0:",
     tip: "Reconheça o trinômio do quadrado perfeito: x² + 4x + 4 = (x + 2)².",
@@ -271,6 +289,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Um retângulo tem comprimento 3 cm a mais que a largura. Se a área é 28 cm², qual é a largura?",
     tip: "Se a largura é x, o comprimento é x + 3. Monte a equação: x(x + 3) = 28.",
@@ -286,6 +305,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para a equação 3x² − 2x + k = 0 ter uma raiz real dupla, qual deve ser o valor de k?",
     tip: "Para raiz dupla, Δ = 0. Calcule b² − 4ac = 0 e resolva para k.",
@@ -301,6 +321,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Determine o discriminante da equação x² + 6x + 9 = 0 e classifique suas raízes:",
     tip: "Calcule Δ = 6² − 4(1)(9) = 36 − 36. Qual é o resultado?",
@@ -316,6 +337,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "A EQUAÇÃO BIQUADRADA tem a forma ax⁴ + bx² + c = 0. Para resolvê-la, fazemos a substituição:",
     tip: "A substituição transforma a equação biquadrada em uma equação do 2º grau em outra variável.",
@@ -331,6 +353,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação x² − 7x + 10 = 0:",
     tip: "Use Bhaskara com a=1, b=−7, c=10. Δ = 49 − 40 = 9. x = (7 ± 3)/2.",
@@ -346,6 +369,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Determine a natureza das raízes de x² + 2x + 5 = 0 sem resolver a equação:",
     tip: "Calcule Δ = 4 − 20 e interprete o sinal.",
@@ -361,6 +385,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma bola é lançada para cima. Sua altura h (em metros) em função do tempo t (em segundos) é h = −5t² + 20t. Em que instante a bola atinge o solo novamente (h = 0, t > 0)?",
     tip: "Resolva −5t² + 20t = 0 para t > 0. Fatore: −5t(t − 4) = 0.",
@@ -376,6 +401,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Construa uma equação do 2º grau com raízes x₁ = 3 e x₂ = −5:",
     tip: "Use as relações de Girard: Soma = 3 + (−5) = −2 e Produto = 3 × (−5) = −15. A equação é x² − (soma)x + (produto) = 0.",
@@ -391,6 +417,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva a equação 4x² − 1 = 0:",
     tip: "Reconheça como diferença de quadrados: (2x)² − 1² = (2x + 1)(2x − 1) = 0.",
@@ -406,6 +433,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Verifique se x = −1 é raiz da equação x² + 3x + 2 = 0:",
     tip: "Substitua x = −1 na equação e verifique se o resultado é zero.",
@@ -421,6 +449,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolva x² + 2x − 15 = 0:",
     tip: "Use Bhaskara: a=1, b=2, c=−15. Calcule Δ = 4 + 60 = 64. x = (−2 ± 8)/2.",
@@ -436,6 +465,7 @@ export const questoesMatematica9AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Uma fazenda quadrada tem área de 225 m². Um agricultor quer aumentar cada lado em x metros para dobrar a área. Qual equação modela o problema?",
     tip: "O lado atual é 15 m (pois √225 = 15). A nova área deve ser 450 m². Nova equação: (15 + x)² = 450.",
