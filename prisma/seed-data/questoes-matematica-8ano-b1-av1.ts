@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Na potência 5³, qual é o número chamado de \"base\"?",
     tip: "A base é o número que se repete! Em 5³, o 5 aparece multiplicado três vezes: 5×5×5.",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Na mesma potência 5³, o número 3 é chamado de:",
     tip: "O expoente fica \"pequenininho\" no canto de cima e diz quantas vezes a base se multiplica.",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 7⁰?",
     tip: "Essa é uma regra especial: qualquer número (diferente de zero) elevado a zero dá sempre o mesmo resultado.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 9¹?",
     tip: "Quando o expoente é 1, a base não muda! Multiplicar \"uma vez só\" não altera o número.",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "2³ × 2² é igual a:",
     tip: "Na multiplicação de potências de mesma base, você SOMA os expoentes. Quanto é 3+2?",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "3⁵ ÷ 3² é igual a:",
     tip: "Na divisão de potências de mesma base, você SUBTRAI os expoentes. Quanto é 5−2?",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de (2²)³?",
     tip: "Numa potência de potência, você MULTIPLICA os expoentes: 2×3.",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de (3 × 2)²?",
     tip: "Numa potência de produto, você pode elevar cada número separado: 3² × 2², e depois multiplicar os resultados.",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de (−2)⁴?",
     tip: "Expoente PAR com base negativa dá resultado positivo! (−)×(−) sempre vira (+).",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de (−2)³?",
     tip: "Expoente ÍMPAR com base negativa dá resultado negativo! Sobra um sinal de menos \"solteiro\".",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 10⁴?",
     tip: "O expoente de 10 diz quantos zeros colocar depois do 1!",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "4⁵ ÷ 4⁴ resulta em:",
     tip: "Subtraia os expoentes: 5−4. O que sobra é a base elevada a esse valor.",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "A notação científica usa potências de base:",
     tip: "Nosso sistema de numeração é \"decimal\", baseado em grupos de 10.",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "O número 3.000 em notação científica é:",
     tip: "Conte quantas casas tem depois do primeiro algarismo \"3\" — esse número é o expoente.",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 2³ × 2⁰?",
     tip: "Lembre que qualquer número elevado a zero é 1! A conta fica só 2³×1.",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Simplificando 2⁴ × 2³ ÷ 2², o resultado é:",
     tip: "Primeiro soma os expoentes da multiplicação (4+3), depois subtrai o da divisão.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "O valor de (5²)² é igual a:",
     tip: "Potência de potência: multiplique os expoentes (2×2).",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de (−3)²?",
     tip: "O expoente 2 é par — base negativa com expoente par dá resultado positivo!",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "O número 0,0004 em notação científica é:",
     tip: "Números menores que 1 usam expoente NEGATIVO de 10. Conte as casas até o 4.",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Simplificando (2³)⁰, o resultado é:",
     tip: "Se o expoente \"de fora\" é zero, o resultado é sempre 1, não importa a base!",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo guarda figurinhas em 3 álbuns, cada um com 3 páginas, cada página com 3 figurinhas. Quantas figurinhas cabem, expresso em potência de base 3?",
     tip: "Conte quantas vezes o 3 se multiplica: álbuns × páginas × figurinhas.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo quer calcular a área de um terreno quadrado de 6 metros de lado. Qual potência ele calcula?",
     tip: "Área de quadrado é lado × lado — ou seja, o lado elevado a qual expoente?",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo leu que um vírus mede 2⁻⁵ metros. Isso representa um número:",
     tip: "Expoente negativo representa número bem pequeno, menor que 1 — não um número negativo!",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo tem uma caixa cúbica de 4 cm de lado. O volume é calculado por:",
     tip: "Volume de cubo é lado×lado×lado. Quantas vezes o 4 aparece?",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo calculou (5²)². Qual potência única representa essa conta?",
     tip: "Multiplique os dois expoentes (2×2).",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo comparou 2¹⁰ e 2⁵ × 2⁵. O que ele descobre?",
     tip: "Some os expoentes de 2⁵×2⁵ (5+5) e compare com 2¹⁰.",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 7²?",
     tip: "7² é 7×7, não 7×2! Multiplique 7 por ele mesmo.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "(−1) elevado a qualquer expoente par é sempre:",
     tip: "Expoente par com base negativa dá resultado positivo. (−1)×(−1) dá quanto?",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "Bernardo quer escrever 50.000 em notação científica. Qual é a forma correta?",
     tip: "Conte as casas depois do primeiro \"5\" em 50.000 — esse número é o expoente.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Para resolver 3⁴ × 3² ÷ 3³, qual propriedade Bernardo deve usar?",
     tip: "Resolva passo a passo: primeiro a multiplicação (soma), depois a divisão (subtrai).",

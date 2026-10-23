@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Radiciação é a operação que \"desfaz\" qual outra operação?",
     tip: "Pense: se potenciação multiplica várias vezes, radiciação \"volta atrás\" nessa conta.",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Na raiz √36, o número 36 é chamado de:",
     tip: "O radicando é o número que fica \"dentro\" do símbolo de raiz.",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Na raiz ³√8, o número 3 é chamado de:",
     tip: "O índice fica \"escondido\" no canto do símbolo de raiz e diz qual tipo de raiz é.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √49?",
     tip: "Pense: qual número multiplicado por ele mesmo dá 49?",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de ³√27?",
     tip: "Pense: qual número multiplicado por ele mesmo três vezes dá 27? (?×?×?=27)",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "O número 16 é um \"quadrado perfeito\" porque:",
     tip: "Pense em 4×4 — esse resultado é exatamente 16!",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Se 6² = 36, então √36 é igual a:",
     tip: "Radiciação desfaz a potenciação! Se 6×6=36, qual é a raiz quadrada de 36?",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √0?",
     tip: "Pense: qual número multiplicado por ele mesmo dá 0?",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √1?",
     tip: "Pense: qual número vezes ele mesmo dá 1?",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √(−9) nos números que Bernardo já conhece?",
     tip: "Pense: existe algum número que, multiplicado por ele mesmo, dê um resultado negativo?",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Entre quais dois números inteiros está √10?",
     tip: "Pense nos quadrados perfeitos mais próximos de 10: 9 (=3²) e 16 (=4²).",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de ³√(−8)?",
     tip: "Diferente da raiz quadrada, a raiz cúbica PODE ser negativa! Pense: (−2)×(−2)×(−2) = ?",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Um quadrado tem área de 64 m². Qual é a medida do lado?",
     tip: "Para achar o lado a partir da área, você precisa fazer a raiz quadrada da área!",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo disse: \"√9 + √16 é igual a √25\". Isso está:",
     tip: "Calcule separado: √9=3, √16=4, soma dá 7. Agora calcule √25. Os resultados são iguais?",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Teorema de Pitágoras',
     type: "multiple_choice",
     text: "No Teorema de Pitágoras, depois de somar os quadrados dos catetos, qual operação usamos para achar a hipotenusa?",
     tip: "Depois de somar os quadrados, você tem o quadrado da hipotenusa — para achar a hipotenusa, \"desfaça\" esse quadrado.",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Teorema de Pitágoras',
     type: "multiple_choice",
     text: "Um triângulo retângulo tem catetos 3 e 4. Qual é a hipotenusa?",
     tip: "Primeiro calcule 3²+4² = 9+16 = 25. Depois, qual é a raiz quadrada de 25?",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Simplificando √4 × √9, o resultado é:",
     tip: "Calcule cada raiz separada primeiro: √4=2 e √9=3. Depois multiplique os resultados.",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Entre quais números está √55 (estimando)?",
     tip: "Pense nos quadrados perfeitos próximos: 49 (=7²) e 64 (=8²).",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √100?",
     tip: "Pense: qual número vezes ele mesmo dá 100?",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de ³√64?",
     tip: "Pense: qual número multiplicado por ele mesmo três vezes dá 64? (?×?×?=64)",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo quer achar o lado de um terreno quadrado com área de 81 m². Qual conta ele faz?",
     tip: "Para achar o lado a partir da área de um quadrado, qual operação \"desfaz\" o quadrado?",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Fazendo a conta do terreno (√81), Bernardo descobre que o lado mede:",
     tip: "Pense: qual número vezes ele mesmo dá 81?",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo quer saber se √7 é exato. Entre quais quadrados perfeitos o 7 está?",
     tip: "Pense nos quadrados perfeitos: 4 (=2²) e 9 (=3²) — onde o 7 se encaixa?",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Estimando √7, Bernardo conclui que o valor está entre:",
     tip: "Como 7 está entre 4 e 9, sua raiz está entre as raízes desses dois números: 2 e 3.",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Teorema de Pitágoras',
     type: "multiple_choice",
     text: "Bernardo constrói uma rampa (triângulo retângulo) com catetos 6 e 8. Qual é o comprimento da rampa?",
     tip: "Primeiro calcule 6²+8² = 36+64 = 100. Depois ache a raiz quadrada de 100.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo brincou dizendo que √16 + √9 é igual a √25. A mãe dele explicou que:",
     tip: "Calcule: √16=4, √9=3, soma=7. Agora calcule √25=5. Os valores são diferentes!",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo tem um cubo de brinquedo com volume de 27 cm³. Qual conta ele faz para achar o lado?",
     tip: "Volume de cubo usa o lado três vezes (lado³). Para \"desfazer\" isso, qual raiz você usa?",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Fazendo a conta do cubo de Bernardo (³√27), o lado mede:",
     tip: "Pense: qual número multiplicado por ele mesmo três vezes dá 27?",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo nota que 4² e (−4)² dão o mesmo resultado (16). Isso significa que:",
     tip: "Dois números diferentes podem elevar ao quadrado e dar o mesmo resultado — mas quando fazemos √16, usamos sempre a resposta positiva.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Revisando tudo: a radiciação é a operação inversa de qual outra?",
     tip: "Pense em tudo que você estudou hoje — qual operação \"desfaz\" o que a potenciação faz?",

@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "O que é uma expressão algébrica?",
     tip: "Pense em \"x\" e \"y\" como caixinhas misteriosas que guardam um número que a gente ainda não sabe.",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Em 5x, o número 5 é chamado de:",
     tip: "O coeficiente é o número que fica \"na frente\", multiplicando a letra.",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Em 5x, a letra x é chamada de:",
     tip: "\"Literal\" vem de \"letra\"! É a parte do termo que usa letras.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o grau do monômio 3x²?",
     tip: "O grau de um monômio é o valor do expoente da parte literal. Olhe só para o expoente, não para o coeficiente!",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Os monômios 4x e 7x são chamados de \"monômios semelhantes\" porque:",
     tip: "Compare as letrinhas de cada monômio, não os números na frente. O que elas têm em comum?",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Para somar monômios semelhantes, você deve:",
     tip: "A parte literal (a letra) não muda — só os números na frente dela se somam.",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 4x + 3x?",
     tip: "Some só os coeficientes (4+3) e mantenha o \"x\" do mesmo jeitinho.",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "É possível somar 3x e 5y diretamente, como um único termo?",
     tip: "Lembre: só juntamos termos que têm a MESMA parte literal. \"x\" e \"y\" são letras diferentes!",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Multiplicando monômios: 2x × 3x é igual a:",
     tip: "Na multiplicação, você multiplica os coeficientes (2×3) E soma os expoentes das letras iguais (1+1).",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Dividindo monômios: 10x³ ÷ 2x é igual a:",
     tip: "Divida os coeficientes (10÷2) e subtraia os expoentes das letras iguais (3−1).",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o valor numérico da expressão 2x + 3 quando x = 4?",
     tip: "Troque o \"x\" pelo número 4 na expressão e resolva a conta com calma: 2×4+3.",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 7x − 2x?",
     tip: "Subtraia só os coeficientes (7−2) e mantenha o \"x\" igual.",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplificando 3x + 5y − x + 2y, o resultado é:",
     tip: "Junte separadamente os termos com \"x\" (3x e −x) e os termos com \"y\" (5y e 2y).",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 5x × 4x²?",
     tip: "Multiplique os coeficientes (5×4) e some os expoentes (1+2).",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o valor numérico de 3x² quando x = 2?",
     tip: "Primeiro calcule x² (2×2), depois multiplique pelo coeficiente 3.",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Em uma expressão algébrica, quando substituímos a letra por um número e calculamos o resultado, chamamos isso de:",
     tip: "Pense no nome: \"valor\" porque é um número, \"numérico\" porque veio de substituir a letra por número.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplificando 8x² − 3x² + x², o resultado é:",
     tip: "São todos termos semelhantes (mesma parte literal x²)! Some e subtraia só os coeficientes: 8−3+1.",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de (−3x) × (2x)?",
     tip: "Multiplique os coeficientes com atenção ao sinal: (−3)×(2). Depois some os expoentes das letras.",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o grau do monômio 7x²y?",
     tip: "Quando há mais de uma letra, o grau é a SOMA de todos os expoentes. Some o expoente do x (2) com o do y (1, mesmo escondido).",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplificando a expressão 4x + 2y + 3x − y, o resultado é:",
     tip: "Junte os termos com \"x\" (4x e 3x) separadamente dos termos com \"y\" (2y e −y).",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tem x figurinhas raras e ganhou mais 3x figurinhas de seu amigo. Qual expressão representa o total?",
     tip: "São termos semelhantes (mesma parte literal x)! Some os coeficientes: 1x + 3x.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Se Bernardo tem x reais e sua irmã tem o dobro, qual expressão representa o total dos dois?",
     tip: "O dobro de x é 2x. Agora some a parte de Bernardo (x) com a da irmã (2x).",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo guarda suas figurinhas em pacotes. Se cada pacote tem x figurinhas e ele tem 5 pacotes, qual expressão representa o total?",
     tip: "Pense: 5 pacotes de x figurinhas cada é uma multiplicação, não uma soma!",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo calculou que tem 5x figurinhas e depois usou 2x em uma troca. Quantas figurinhas sobraram, em expressão algébrica?",
     tip: "Subtraia os coeficientes dos termos semelhantes: 5x menos 2x.",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tem um terreno retangular com largura x e comprimento 3x. Qual expressão representa a área desse terreno?",
     tip: "Área do retângulo é largura × comprimento: x × 3x. Multiplique os coeficientes e some os expoentes.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Se x = 5 (a largura do terreno de Bernardo), qual é a área, usando a expressão 3x²?",
     tip: "Substitua x por 5: primeiro calcule 5² (25), depois multiplique por 3.",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tem 2x bolinhas de gude azuis e 3x bolinhas vermelhas. Qual expressão representa o total de bolinhas?",
     tip: "São termos semelhantes! Some os coeficientes: 2x + 3x.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo ganhou (4x + 2) reais de mesada e gastou (x + 2) reais num brinquedo. Quanto sobrou, simplificando?",
     tip: "Subtraia os termos com x entre si (4x−x) e os números entre si (2−2).",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Se o valor de x na mesada de Bernardo (questão anterior) é 10, quanto sobrou de dinheiro?",
     tip: "Use o resultado simplificado da questão 28 (3x) e substitua x por 10.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Revisando: para simplificar qualquer expressão algébrica com monômios semelhantes, Bernardo deve:",
     tip: "Lembre de tudo que vimos hoje: a parte literal nunca muda numa soma ou subtração — só os números na frente dela.",

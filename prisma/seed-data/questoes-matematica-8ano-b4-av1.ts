@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "O que é estatística?",
     tip: "Pense em pesquisas, enquetes e gráficos — tudo isso usa estatística para organizar informações!",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "A média aritmética de um conjunto de números é calculada:",
     tip: "Pense em \"repartir igualmente\": some tudo e depois divida entre a quantidade de números.",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a média das notas 6, 7 e 8?",
     tip: "Some as três notas (6+7+8=21) e divida pela quantidade de notas (3).",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "A \"moda\" de um conjunto de dados é:",
     tip: "Pense na palavra \"moda\" como \"o que está na moda\" — o que mais aparece, mais se repete!",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a moda do conjunto de números: 2, 3, 3, 5, 7?",
     tip: "Procure o número que aparece mais de uma vez na lista.",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "A \"mediana\" de um conjunto de dados é:",
     tip: "Pense na palavra \"mediana\" como \"do meio\" — é o valor que fica no centro da lista organizada.",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Para achar a mediana, o primeiro passo é:",
     tip: "Sem organizar a lista em ordem, é impossível saber qual valor está \"no meio\"!",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a mediana do conjunto ordenado: 2, 4, 6, 8, 10?",
     tip: "Com 5 números, o valor do meio é o terceiro da lista ordenada.",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Quando o conjunto de dados tem uma quantidade PAR de números, como calculamos a mediana?",
     tip: "Com quantidade par, não existe um único valor central — por isso calculamos a média dos dois do meio.",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a mediana do conjunto ordenado: 1, 3, 5, 7?",
     tip: "Como são 4 números (par), calcule a média dos dois valores do meio (3 e 5).",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a média das idades 10, 12, 14, 16?",
     tip: "Some as quatro idades (10+12+14+16=52) e divida por 4.",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Um conjunto de notas tem moda igual a 8. Isso significa que:",
     tip: "Lembre que moda é sobre repetição, não sobre todos terem o mesmo valor.",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "É possível um conjunto de dados ter mais de uma moda?",
     tip: "Pense em 2, 2, 3, 3, 5 — tanto o 2 quanto o 3 aparecem duas vezes!",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "No conjunto 4, 4, 6, 8, 8, 8, qual é a moda?",
     tip: "Conte quantas vezes cada número aparece: 4 aparece 2 vezes, 8 aparece 3 vezes.",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a mediana do conjunto 4, 4, 6, 8, 8, 8 (já ordenado, com 6 números)?",
     tip: "Com 6 números (par), calcule a média dos dois valores do meio: o 3º e o 4º da lista (6 e 8).",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "A diferença entre média e moda é que:",
     tip: "Pense: a média faz uma conta com TODOS os números, enquanto a moda só \"olha\" para o que mais se repete.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Numa pesquisa sobre o esporte favorito da turma, qual medida estatística é mais útil para saber qual esporte é mais popular?",
     tip: "Esportes não são números para somar ou ordenar — pense em qual medida identifica \"o que mais se repete\".",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Probabilidade',
     type: "multiple_choice",
     text: "Em probabilidade, se uma caixa tem 3 bolinhas azuis e 1 vermelha, qual é a chance de tirar a vermelha, em fração?",
     tip: "A probabilidade é \"casos favoráveis\" dividido por \"casos totais\". Quantas vermelhas (1) sobre o total de bolinhas (4)?",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Probabilidade',
     type: "multiple_choice",
     text: "A probabilidade de um evento impossível acontecer é:",
     tip: "Pense: se algo nunca pode acontecer, qual número representa \"nenhuma chance\"?",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Probabilidade',
     type: "multiple_choice",
     text: "A probabilidade de um evento certo (que sempre acontece) é:",
     tip: "Pense: se algo sempre vai acontecer, qual número representa \"100% de chance\"?",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Bernardo tirou as notas 7, 8 e 9 em três provas. Qual é a média dele?",
     tip: "Some as três notas (7+8+9=24) e divida por 3.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Bernardo anotou quantos gols seu time marcou em 5 jogos: 2, 2, 3, 2, 4. Qual é a moda?",
     tip: "Conte quantas vezes cada número aparece: o 2 aparece mais vezes que os outros.",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Ordenando os gols de Bernardo (2, 2, 2, 3, 4), qual é a mediana?",
     tip: "Com 5 números (ímpar), a mediana é o valor exatamente no meio da lista ordenada — o terceiro número.",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Bernardo quer saber a média de gols do time nos 5 jogos (2,2,2,3,4). Qual é o resultado?",
     tip: "Some todos os gols (2+2+2+3+4=13) e divida pela quantidade de jogos (5).",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Probabilidade',
     type: "multiple_choice",
     text: "Bernardo tem numa caixa 4 bolinhas de gude: 2 azuis e 2 vermelhas. Qual é a probabilidade de tirar uma azul?",
     tip: "Casos favoráveis (2 azuis) dividido pelo total (4 bolinhas). Simplifique a fração.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Probabilidade',
     type: "multiple_choice",
     text: "Bernardo jogou um dado comum (6 lados). Qual é a probabilidade de tirar o número 5?",
     tip: "Existe só um \"5\" entre as 6 faces possíveis do dado.",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Bernardo anotou as alturas de 4 amigos: 1,30m, 1,35m, 1,40m, 1,45m. Qual é a média das alturas?",
     tip: "Some as quatro alturas (5,50m) e divida por 4.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Bernardo quer saber qual foi a nota mais comum entre seus colegas: 6, 7, 7, 8, 7, 9. Qual é a moda?",
     tip: "Conte quantas vezes cada nota aparece — uma delas se repete mais que as outras.",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Ordenando as notas de Bernardo e seus colegas (6, 7, 7, 7, 8, 9), qual é a mediana?",
     tip: "Com 6 notas (par), calcule a média do 3º e do 4º valor da lista ordenada (ambos 7).",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Revisando tudo: se Bernardo quer saber o valor \"típico\" que mais aparece num grupo de dados, ele deve calcular:",
     tip: "Pense em qual das três medidas (média, moda, mediana) é definida justamente pela repetição.",

@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "O que é uma equação do 1º grau?",
     tip: "Pense: é uma \"balança\" matemática que tem um sinal de igual e uma letra desconhecida com expoente 1.",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Na equação 2x + 3 = 7, o número que \"resolve\" a equação é chamado de:",
     tip: "É o valor que, colocado no lugar da letra, torna a igualdade verdadeira.",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Na equação 2x + 3 = 7, tudo que está antes do sinal de igual é chamado de:",
     tip: "Pense na equação como uma balança: o lado esquerdo do \"=\" é o primeiro, o direito é o segundo.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a regra de equivalência das equações?",
     tip: "Pense numa balança equilibrada: se você tira um peso de um lado, precisa tirar o mesmo peso do outro para continuar equilibrado!",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para resolver x + 5 = 12, qual operação você faz dos dois lados?",
     tip: "Você quer deixar o \"x\" sozinho. Como ele está \"+5\", que operação desfaz essa soma?",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de x + 5 = 12?",
     tip: "Subtraia 5 dos dois lados: 12 − 5.",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para resolver 3x = 15, qual operação você faz dos dois lados?",
     tip: "O \"x\" está sendo multiplicado por 3. Qual operação desfaz uma multiplicação?",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de 3x = 15?",
     tip: "Divida os dois lados por 3: 15 ÷ 3.",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para verificar se x=5 é realmente a solução de 2x+1=11, você deve:",
     tip: "Troque o \"x\" pelo número 5 na equação original e resolva as contas com calma.",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo 2x − 3 = 9, qual é o primeiro passo?",
     tip: "Primeiro você precisa \"desfazer\" o −3, antes de lidar com a multiplicação por 2.",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de 2x − 3 = 9?",
     tip: "Depois de somar 3 nos dois lados (2x=12), o que falta fazer para isolar o x?",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Para resolver uma equação com parênteses, como 2(x+3)=10, o primeiro passo é:",
     tip: "Lembra da propriedade distributiva dos polinômios? O número de fora multiplica cada termo de dentro.",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Aplicando a distributiva em 2(x+3)=10, a equação se transforma em:",
     tip: "Multiplique o 2 por cada termo dentro do parêntese: 2×x e 2×3.",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de 2(x+3)=10?",
     tip: "Depois de aplicar a distributiva (2x+6=10), resolva como uma equação comum.",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Quando uma equação tem termos com x dos dois lados, como 5x + 2 = 3x + 8, o que devemos fazer primeiro?",
     tip: "Pense em organizar: todos os \"x\" de um lado da igualdade, todos os números soltos do outro.",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de 5x + 2 = 3x + 8?",
     tip: "Passe o 3x para o lado esquerdo (subtraindo) e o 2 para o lado direito (subtraindo): 2x = 6.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo 4x − 1 = 2x + 5, qual equação resulta depois de juntar os termos com x?",
     tip: "Passe o 2x para a esquerda e o −1 para a direita, cuidando dos sinais.",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a solução de 4x − 1 = 2x + 5?",
     tip: "De 2x=6, qual operação isola o x?",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo a equação 3(x − 2) = 9, qual é o valor de x?",
     tip: "Primeiro aplique a distributiva (3x−6=9), depois resolva como equação comum.",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Numa equação, quando encontramos a solução, é importante verificar substituindo o valor porque:",
     tip: "Pense: se você errou uma conta no meio do caminho, a verificação te ajuda a descobrir isso.",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Bernardo pensou em um número. Se ele somar 8 a esse número, obtém 15. Qual equação representa essa situação?",
     tip: "\"Pensei em um número\" é o x. \"Somar 8\" é +8. \"Obtém 15\" é = 15.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é o número que Bernardo pensou?",
     tip: "Resolva x+8=15 subtraindo 8 dos dois lados.",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Bernardo tem o triplo de um número de figurinhas, que é igual a 24. Qual é a equação e a solução?",
     tip: "\"O triplo\" significa multiplicar por 3. Para achar x, divida 24 por 3.",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Bernardo tem x reais. Depois de gastar 10 reais, ficou com 25 reais. Qual equação representa isso?",
     tip: "\"Gastar\" significa diminuir. O que ele tinha (x), menos o que gastou (10), é igual ao que ficou (25).",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Quanto Bernardo tinha antes de gastar os 10 reais (resolvendo x − 10 = 25)?",
     tip: "Some 10 nos dois lados para isolar o x: 25 + 10.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Bernardo tem o dobro da idade de sua irmã mais 2 anos, que resulta em 12 anos. Qual é a equação (sendo x a idade da irmã)?",
     tip: "\"O dobro\" é 2x, \"mais 2\" é +2, \"resulta em 12\" é =12.",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Qual é a idade da irmã de Bernardo, resolvendo 2x + 2 = 12?",
     tip: "Primeiro subtraia 2 dos dois lados (2x=10), depois divida por 2.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Bernardo comprou 3 pacotes iguais de figurinhas e usou mais um cupom de 2 figurinhas de bônus, totalizando 20 figurinhas. Qual equação representa isso (x = figurinhas por pacote)?",
     tip: "\"3 pacotes iguais\" é 3x, \"mais um cupom de 2\" é +2, \"totalizando 20\" é =20.",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Quantas figurinhas tinha cada pacote, resolvendo 3x + 2 = 20?",
     tip: "Primeiro subtraia 2 dos dois lados (3x=18), depois divida por 3.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Revisando: para resolver qualquer equação do 1º grau, Bernardo deve lembrar de:",
     tip: "Pense na balança equilibrada: toda operação que você faz de um lado, precisa fazer do outro também.",
