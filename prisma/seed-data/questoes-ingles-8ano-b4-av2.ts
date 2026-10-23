@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence is written in the Simple Past?",
     tip: "Pense num verbo que mostra uma ação já terminada no passado!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which word is used after a comparative adjective, like \"bigger ___ a house\"?",
     tip: "Pense numa palavrinha usada para comparar duas coisas, parecida com \"then\", mas com outro sentido!",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb is used to give advice?",
     tip: "Pense num verbo mais suave, usado para sugerir algo sem ser uma ordem!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "What is the past participle of \"to go\", used in the Present Perfect?",
     tip: "Pense na forma usada depois de \"have/has\", diferente do Simple Past!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"used to\" to describe a past habit?",
     tip: "Pense na forma correta: \"used to\" + verbo na forma base!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"You like pizza, ___?\"",
     tip: "Pense na regra: frase afirmativa pede uma tag negativa!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Passado contínuo',
     type: "multiple_choice",
     text: "Which sentence correctly uses the Past Continuous?",
     tip: "Pense numa ação em andamento num momento específico do passado!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "What is the superlative form of \"good\"?",
     tip: "Esse adjetivo é irregular, mudando completamente de forma no superlativo!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which modal verb expresses possibility?",
     tip: "Pense num verbo usado quando não temos certeza se algo vai acontecer!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which word means \"at some point before now\", often used in the Present Perfect?",
     tip: "Pense numa palavra usada em perguntas como \"Have you ___ been to London?\"!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Complete the sentence: \"Bernardo ___ to school by bus yesterday.\"",
     tip: "Pense na palavra \"yesterday\": ela pede um verbo no passado simples!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Passado contínuo',
     type: "multiple_choice",
     text: "Complete the sentence: \"They ___ soccer when it started to rain.\"",
     tip: "Pense numa ação em andamento que foi interrompida pela chuva!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Complete the sentence: \"Mount Everest is ___ mountain in the world.\"",
     tip: "Pense numa comparação com todas as montanhas do mundo, não só duas!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence correctly expresses a strong obligation?",
     tip: "Pense numa regra obrigatória, quase como uma ordem!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence correctly uses the Present Perfect with \"never\"?",
     tip: "Pense na estrutura \"have\" + \"never\" + verbo no participle!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Complete the sentence: \"My grandmother ___ tell me stories every night when I was young.\"",
     tip: "Pense na forma correta para descrever um hábito do passado!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Complete the question tag: \"She isn't coming to the party, ___?\"",
     tip: "Pense na regra: frase negativa pede uma tag afirmativa!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Passado contínuo',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"while\" with the Past Continuous?",
     tip: "Pense na palavra \"while\": ela indica uma ação em andamento!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Which sentence correctly uses the comparative form for a long adjective?",
     tip: "Pense num adjetivo longo, que usa \"more\" em vez de \"-er\"!",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which word is used with a specific point in time, like \"I have lived here ___ 2020\"?",
     tip: "Pense numa palavra usada com o momento exato em que algo começou!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Bernardo wants to describe what he did yesterday. Which sentence is correct?",
     tip: "Pense na palavra \"yesterday\": ela pede um verbo no passado simples!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Passado contínuo',
     type: "multiple_choice",
     text: "Bernardo wants to say he was doing something when the phone rang. Which sentence is correct?",
     tip: "Pense numa ação em andamento, interrompida por outra ação mais curta!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Comparações em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to compare his height with his friend's, using a short adjective. Which sentence is correct?",
     tip: "Pense em adjetivos curtos, de uma sílaba: eles recebem \"-er\" no final!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Bernardo's mother gives him advice about studying. Which sentence is correct?",
     tip: "Pense num conselho equilibrado, nem uma ordem forte, nem algo opcional!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to say he has never visited another country. Which sentence is correct?",
     tip: "Pense na estrutura \"have\" + \"never\" + verbo no participle!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to say he used to be afraid of the dark. Which sentence is correct?",
     tip: "Pense numa frase que mostra claramente que esse medo já não existe mais!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "Bernardo wants to confirm something using a question tag. Complete: \"You are my friend, ___?\"",
     tip: "Pense na regra: frase afirmativa com \"to be\" pede uma tag negativa, também com \"to be\"!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "Bernardo wants to ask about a reason. Which Wh- question word should he use?",
     tip: "Pense numa palavra usada quando queremos saber o motivo de algo!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to remember the main use of the Present Perfect. Which sentence best explains it?",
     tip: "Pense num tempo verbal que liga o passado ao presente, sem dizer exatamente quando!",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Question tags',
     type: "multiple_choice",
     text: "To finish his English review, Bernardo wants to remember the main rule of question tags. Which sentence best explains it?",
     tip: "Pense na regra principal: positivo pede negativo, e negativo pede positivo!",

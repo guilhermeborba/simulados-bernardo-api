@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence is written in the Present Perfect?",
     tip: "Pense numa estrutura formada por \"have/has\" + o verbo no participle!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which auxiliary verb is used with \"she/he/it\" in the Present Perfect?",
     tip: "Pense na forma do verbo \"have\" usada com a terceira pessoa do singular!",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "What is the past participle of the verb \"to eat\"?",
     tip: "Pense na forma usada depois de \"have/has\", diferente da forma do Simple Past!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which word means \"at some point before now, we don't know exactly when\", often used in the Present Perfect?",
     tip: "Pense numa palavra usada em perguntas como \"Have you ___ been to London?\"!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"never\" with the Present Perfect?",
     tip: "Pense na estrutura \"have\" + \"never\" + o verbo no participle!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "What is the past participle of the irregular verb \"to go\"?",
     tip: "Pense na forma usada depois de \"have/has\", diferente da forma do Simple Past!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which word is used to say an action is complete, often placed before the past participle, like \"I have ___ finished my homework\"?",
     tip: "Pense numa palavra usada para mostrar que algo já foi feito, antes do esperado!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which word is used in negative sentences or questions to ask if something happened up to now, like \"Have you finished your homework ___?\"",
     tip: "Pense numa palavra usada no final de perguntas ou frases negativas, perguntando se algo já aconteceu!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which preposition is used with a specific point in time, like \"I have lived here ___ 2020\"?",
     tip: "Pense numa palavra usada quando mencionamos o momento exato em que algo começou!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which preposition is used with a duration of time, like \"I have lived here ___ five years\"?",
     tip: "Pense numa palavra usada quando falamos sobre a duração de um período, e não o momento exato em que começou!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Complete the sentence: \"Bernardo ___ never been to Europe.\"",
     tip: "Pense na forma do verbo \"have\" usada com \"Bernardo\", que é terceira pessoa do singular!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Complete the sentence: \"We ___ already finished the project.\"",
     tip: "Pense na forma do verbo \"have\" usada com \"we\", que não é terceira pessoa do singular!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence correctly describes a life experience without saying exactly when it happened?",
     tip: "Pense numa frase que fala sobre uma experiência de vida, sem mencionar uma data exata!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence uses the Present Perfect correctly with \"for\"?",
     tip: "Pense na estrutura completa: \"have\" + verbo no participle + \"for\" + duração de tempo!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence uses the Present Perfect correctly with \"since\"?",
     tip: "Pense na estrutura completa: \"have\" + verbo no participle + \"since\" + um ponto específico no tempo!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which question correctly uses \"ever\" in the Present Perfect?",
     tip: "Pense na estrutura: \"Have\" + sujeito + \"ever\" + verbo no participle!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"already\" to show that something happened before expected?",
     tip: "Pense na posição correta de \"already\": ela fica entre \"have\" e o verbo principal!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence shows the difference between the Simple Past and Present Perfect correctly?",
     tip: "Pense em como usamos o Simple Past para um momento específico, e o Present Perfect para o total de vezes!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "What is the past participle of the irregular verb \"to write\"?",
     tip: "Pense na forma usada depois de \"have/has\", diferente da forma do Simple Past!",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Which sentence correctly uses the negative form of the Present Perfect?",
     tip: "Pense em juntar \"have\" com \"not\", formando uma contração bem comum!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to say he has never visited another country. Which sentence is correct?",
     tip: "Pense na estrutura \"have\" + \"never\" + verbo no participle!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to say his sister has already finished her homework. Which sentence is correct?",
     tip: "Pense na forma do verbo \"have\" usada com \"my sister\", terceira pessoa do singular!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to talk about a life experience without saying the exact date. Which sentence is correct?",
     tip: "Pense numa frase sobre uma experiência geral, sem mencionar quando exatamente aconteceu!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to ask his friend if he has ever traveled by airplane. Which question is correct?",
     tip: "Pense na estrutura: \"Have\" + sujeito + \"ever\" + verbo no participle!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to say he has lived in Florianópolis for his whole life. Which sentence is correct?",
     tip: "Pense na palavra usada com durações de tempo, e não com pontos específicos!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to say he has studied English since 2021. Which sentence is correct?",
     tip: "Pense na palavra usada com pontos específicos no tempo, como um ano exato!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to use the past participle of \"to see\" correctly. Which option is correct?",
     tip: "Pense na forma usada depois de \"have/has\", diferente da forma do Simple Past!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to say he hasn't watched that movie yet. Which sentence is correct?",
     tip: "Pense em juntar \"have\" com \"not\", formando uma contração usada em frases negativas!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "Bernardo wants to remember the main use of the Present Perfect. Which sentence best explains it?",
     tip: "Pense num tempo verbal que liga o passado ao presente, sem precisar dizer exatamente quando algo aconteceu!",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Present perfect',
     type: "multiple_choice",
     text: "To finish his review, Bernardo wants to remember how the Present Perfect is formed. Which structure is correct?",
     tip: "Pense na estrutura básica desse tempo verbal: dois elementos, um auxiliar e uma forma especial do verbo!",

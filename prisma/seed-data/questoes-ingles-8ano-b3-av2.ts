@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"used to\" to talk about a past habit?",
     tip: "Pense na forma correta: \"used to\" + o verbo na forma base, sem \"-ing\" ou \"-ed\"!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "What follows \"used to\" in a sentence?",
     tip: "Pense em como dizemos \"I used to play\", e não \"I used to playing\" ou \"I used to played\"!",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence shows a habit from the past that doesn't happen anymore?",
     tip: "Pense numa frase que mostra claramente uma mudança: algo que acontecia antes, mas não acontece mais!",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly uses the negative form of \"used to\"?",
     tip: "Pense em como formamos a negativa: \"did\" + \"not\" + \"use to\" (sem o \"-d\" no final)!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly asks a question using \"used to\"?",
     tip: "Pense em usar \"did\" no início da pergunta, igual fazemos no Simple Past!",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Complete the sentence: \"Bernardo ___ be afraid of the dark when he was little.\"",
     tip: "Pense na forma correta usada para descrever um hábito ou sentimento do passado!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence shows a state (not an action) that was true in the past but isn't true now?",
     tip: "Pense numa frase que compara como algo era antes com como é agora!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"used to\" to describe where someone lived in the past?",
     tip: "Pense na forma correta: \"used to\" + verbo na forma base!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence shows a habit that has changed from the past to the present?",
     tip: "Pense numa frase que mostra claramente uma mudança de hábito, usando a palavra \"but\" para fazer o contraste!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which time expression often comes with \"used to\" sentences to add context?",
     tip: "Pense numa expressão que mostra um período específico do passado, como a infância!",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Complete the sentence: \"My grandmother ___ tell me stories every night when I was young.\"",
     tip: "Pense na forma correta usada para descrever um hábito do passado que não acontece mais da mesma forma!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly uses the negative form to say someone didn't have a habit in the past?",
     tip: "Pense em como formamos a negativa: \"did\" + \"not\" + \"use to\"!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which question correctly asks about a childhood habit?",
     tip: "Pense em usar \"did\" no início da pergunta, assim como no Simple Past!",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence best contrasts a past habit with the present situation?",
     tip: "Pense numa frase que mostra claramente uma mudança, usando a palavra \"but\" para fazer o contraste!",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly describes a past state about someone's appearance?",
     tip: "Pense na forma correta: \"used to\" + verbo na forma base, mesmo para descrever estados!",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence shows that a habit has completely changed over time?",
     tip: "Pense numa frase que contrasta claramente o hábito antigo com uma nova preferência!",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "What happens to \"used to\" in negative sentences and questions?",
     tip: "Pense em como ficam as formas negativas e interrogativas: \"didn't use to\" e \"did...use to\"!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"used to\" to talk about a childhood fear?",
     tip: "Pense numa frase que mostra claramente que esse medo já não existe mais!",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Complete the question: \"___ you use to live in another city?\"",
     tip: "Pense na palavra usada para formar perguntas sobre hábitos do passado, igual no Simple Past!",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Why do we use \"used to\" instead of the Simple Past when talking about repeated habits in the past?",
     tip: "Pense em como \"used to\" destaca que algo era uma rotina ou costume antigo, e não só uma ação única!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to say he used to be afraid of dogs. Which sentence is correct?",
     tip: "Pense numa frase que mostra claramente que esse medo já não existe mais!",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to say his grandmother used to tell him stories. Which sentence is correct?",
     tip: "Pense na forma correta usada para descrever um hábito do passado!",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to say he used to live in a different city. Which sentence is correct?",
     tip: "Pense na forma correta: \"used to\" + verbo na forma base!",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to ask a negative question about a past habit. Which sentence is correct?",
     tip: "Pense em como formamos a negativa: \"did\" + \"not\" + \"use to\"!",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to ask if his friend used to play outside a lot as a child. Which question is correct?",
     tip: "Pense em usar \"did\" no início da pergunta, assim como no Simple Past!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to contrast a past habit with his present one, about transportation. Which sentence is correct?",
     tip: "Pense numa frase que mostra claramente uma mudança, usando a palavra \"but\" para o contraste!",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to describe how he looked when he was younger. Which sentence is correct?",
     tip: "Pense na forma correta: \"used to\" + verbo na forma base, mesmo para descrever a aparência!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to remember what happens to \"used to\" in negative sentences and questions. What's correct?",
     tip: "Pense em como ficam as formas negativas e interrogativas: \"didn't use to\" e \"did...use to\"!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "Bernardo wants to say his hobbies have changed since he was little. Which sentence best shows this?",
     tip: "Pense numa frase que contrasta claramente o hábito antigo com uma nova preferência!",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Hábitos do passado',
     type: "multiple_choice",
     text: "To finish his review, Bernardo wants to remember the main use of \"used to\". Which sentence best explains it?",
     tip: "Pense num jeito de falar sobre como as coisas eram antes, mas já não são mais hoje!",

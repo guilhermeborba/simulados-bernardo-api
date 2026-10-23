@@ -1,6 +1,7 @@
 export const questoesIngles8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the Past Simple correctly for a regular verb?",
     tip: "Verbos regulares no Past Simple recebem '-ed' no final. Mas cuidado com a ortografia: verbos terminados em '-y' precedido de consoante mudam o 'y' para 'i' antes do '-ed'!",
@@ -16,6 +17,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Which sentence uses \"was\" and \"were\" correctly?",
     tip: "'Was' é usado com I, he, she, it (singular). 'Were' é usado com you, we, they (plural). Com 'they', qual forma usamos?",
@@ -31,6 +33,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the correct Past Simple form of the verb \"go\"?",
     tip: "'Go' é um verbo irregular — seu Past Simple não segue a regra do '-ed'. Você se lembra da forma irregular?",
@@ -46,6 +49,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the negative form of the Past Simple correctly?",
     tip: "Para negar o Past Simple, usamos 'didn't' (did not) + verbo na forma BASE — sem o '-ed' ou a forma irregular!",
@@ -61,6 +65,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which time expression is typically used with the Past Simple?",
     tip: "O Past Simple descreve ações CONCLUÍDAS em um ponto específico no passado. Qual expressão de tempo indica isso?",
@@ -76,6 +81,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Leitura em inglês',
     type: "multiple_choice",
     text: "Read: \"Last Saturday, Tom and his friends visited the Natural History Museum. They saw dinosaur fossils and learned about prehistoric animals. Tom thought it was the most interesting visit ever.\" — Where did Tom and his friends go last Saturday?",
     tip: "Leia com atenção o início do texto — a resposta está na primeira frase!",
@@ -91,6 +97,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the correct way to form a question in the Past Simple?",
     tip: "Perguntas no Past Simple usam 'did' + sujeito + verbo na forma BASE. Atenção: o verbo principal fica no infinitivo!",
@@ -106,6 +113,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What does \"luggage\" mean in Portuguese?",
     tip: "'Luggage' é o que você carrega quando vai viajar — são as malas e bolsas que você leva no aeroporto!",
@@ -121,6 +129,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the correct Past Simple form of \"buy\"?",
     tip: "'Buy' é um verbo irregular. Você se lembra do seu passado? Dica: rima com 'thought' e 'brought'!",
@@ -136,6 +145,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Verbos modais',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"could\" to express past ability?",
     tip: "'Could' é o passado de 'can' e expressa habilidade ou possibilidade no passado. Quando você era criança, o que você 'could' fazer?",
@@ -151,6 +161,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence correctly uses the Past Simple of \"have\"?",
     tip: "'Have' é irregular no passado. Qual é o Past Simple de 'have'? Uma dica: você usa essa palavra todos os dias!",
@@ -166,6 +177,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "Read: \"After the match, the players were exhausted but very proud of their victory.\" — What does \"exhausted\" mean in Portuguese?",
     tip: "Pense em como os jogadores se sentem depois de um jogo intenso de 90 minutos — é uma sensação física intensa!",
@@ -181,6 +193,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "What is the correct Past Simple form of the verb \"stop\"?",
     tip: "'Stop' termina em consoante-vogal-consoante (CVC). Lembra da regra para adicionar '-ed' a esses verbos?",
@@ -196,6 +209,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which is the correct question using \"when\" in the Past Simple?",
     tip: "Perguntas com 'when' no Past Simple usam a estrutura: When + did + sujeito + verbo base?",
@@ -211,6 +225,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "Read: \"She felt nervous before the exam.\" — What does \"nervous\" mean in Portuguese?",
     tip: "'Nervous' descreve um estado emocional muito comum antes de provas e apresentações. Como você se sente antes de uma prova difícil?",
@@ -226,6 +241,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the correct Past Simple form of \"write\"?",
     tip: "'Write' é um verbo irregular no Past Simple. Você se lembra da forma irregular?",
@@ -241,6 +257,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "\"Did you enjoy the film?\" — What is the correct short answer?",
     tip: "Nas respostas curtas em inglês, repetimos o auxiliar — não o verbo principal. Para Past Simple, o auxiliar é 'did'!",
@@ -256,6 +273,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What does \"took the subway\" mean in Portuguese?",
     tip: "'Subway' é um meio de transporte subterrâneo muito comum em grandes cidades. Qual é a tradução correta?",
@@ -271,6 +289,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the correct Past Simple form of \"eat\"?",
     tip: "'Eat' é um verbo irregular. Você se lembra da forma que usamos para ações concluídas no passado?",
@@ -286,6 +305,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Leitura em inglês',
     type: "multiple_choice",
     text: "Read: \"Last summer, Maria traveled to Buenos Aires with her parents. They stayed at a small hotel near the city center. Every day, they explored different neighborhoods and tried local food.\" — Where did Maria travel last summer?",
     tip: "A resposta está na primeira frase do texto. Leia com atenção e identifique o destino da viagem!",
@@ -301,6 +321,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the negative form correctly with the irregular verb \"make\"?",
     tip: "Para negar no Past Simple, usamos 'didn't' + verbo na forma BASE. Qual é a forma base de 'made'?",
@@ -316,6 +337,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the correct Past Simple form of \"take\"?",
     tip: "'Take' é um verbo irregular com passado similar ao de 'make' (made) e 'wake' (woke). Consegue lembrar o padrão?",
@@ -331,6 +353,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "What does \"accident\" mean in Portuguese?",
     tip: "Esta palavra é um 'cognato' (parece igual em português e inglês). Será que tem o mesmo significado?",
@@ -346,6 +369,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Which sentence correctly uses the negative Past Simple of \"to be\"?",
     tip: "O negativo de 'was' é 'wasn't' — para sujeitos singulares (I, he, she, it). Com 'the food' (singular), qual forma usar?",
@@ -361,6 +385,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Leitura em inglês',
     type: "multiple_choice",
     text: "Read: \"On his birthday, Carlos received a new bicycle from his parents. He also got a book from his sister and a video game from his best friend.\" — What did Carlos receive from his sister?",
     tip: "Identifique quem deu cada presente para Carlos — leia com atenção cada trecho do texto!",
@@ -376,6 +401,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which sentence uses the correct Past Simple form of \"come\"?",
     tip: "'Come' é irregular. Seu passado tem uma vogal diferente — qual é?",
@@ -391,6 +417,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Perguntas em inglês',
     type: "multiple_choice",
     text: "\"_______ called you this morning?\" — Which question word asks about a PERSON?",
     tip: "'Who' pergunta sobre pessoas. 'What' pergunta sobre coisas. 'Which' pergunta sobre escolhas. 'When' pergunta sobre tempo. A frase pede o nome de UMA PESSOA que ligou!",
@@ -406,6 +433,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Vocabulário em inglês',
     type: "multiple_choice",
     text: "\"He was disappointed when his team lost.\" — What does \"disappointed\" mean in Portuguese?",
     tip: "'Disappointed' é a sensação que você tem quando algo não acontece como você esperava — como quando seu time perde um jogo importante!",
@@ -421,6 +449,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Verbo to be',
     type: "multiple_choice",
     text: "Which sentence correctly uses \"there was\" or \"there were\"?",
     tip: "'There was' usa com singular (uma coisa). 'There were' usa com plural (várias coisas). 'A big storm' é singular ou plural?",
@@ -436,6 +465,7 @@ export const questoesIngles8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Passado simples',
     type: "multiple_choice",
     text: "Which option is the correct Past Simple form of the verb \"think\"?",
     tip: "'Think' é irregular — e seu passado faz parte de um grupo de verbos com passado terminado em '-ought'. Você consegue lembrar?",

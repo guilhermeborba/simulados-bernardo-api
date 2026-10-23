@@ -1196,6 +1196,35 @@ B1/AV1 tem dois temas; B1/AV2, três; B2/AV1 e B2/AV2 concentram um cada; B3/AV1
 
 Sete divergências de letras, variantes e contextos insuficientes e lacunas com duplicação de verbos estão na [issue web #121](https://github.com/guilhermeborba/simulados-bernardo/issues/121), para revisão separada. Nenhum gabarito foi corrigido neste lote; a cobertura de temas não certifica os campos anteriores.
 
+### Inglês — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Presente simples | Afirmações, negativas, concordância e perguntas no presente habitual. |
+| Presente contínuo | Ações em curso, situações temporárias e formação em -ing. |
+| Artigos em inglês | Artigos definidos e indefinidos, sons iniciais e profissões. |
+| Preposições em inglês | Posição espacial e referências de dias e horas. |
+| Vocabulário em inglês | Tradução contextual, antônimos, escola, família, viagens e sentimentos. |
+| Leitura em inglês | Localização de informações explícitas em textos curtos. |
+| Advérbios de frequência | Posição de advérbios que indicam frequência. |
+| Passado simples | Passado concluído, verbos regulares/irregulares, auxiliares e expressões temporais. |
+| Verbo to be | Was/were, negativas e construções existenciais no passado. |
+| Verbos modais | Habilidade, possibilidade, obrigação, conselho, permissão e estrutura dos modais. |
+| Comparações em inglês | Comparativos, superlativos, igualdade e regras de formação. |
+| Present perfect | Have/has, particípios, experiências, duração e conexão entre passado e presente. |
+| Hábitos do passado | Hábitos e estados anteriores com used to, contraste com o presente e formas negativas/interrogativas. |
+| Perguntas em inglês | Palavras interrogativas, localização, identidade, frequência, quantidade, razão e modo. |
+| Question tags | Formação de perguntas de confirmação com auxiliares, sujeito e polaridade. |
+| Passado contínuo | Ações em andamento no passado e relação com outros acontecimentos. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-ingles-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 16 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Verbos modais mantém em aberto qual modal expressa a função solicitada. Perguntas em inglês não antecipa who/where/why/when/how/which. Comparações em inglês reúne os três graus sem entregar a forma pedida. Hábitos do passado nomeia o campo de estudo, sem fornecer a construção usada na lacuna; Present perfect inclui os particípios de B3/AV1, IDs 3, 6, 19 e 27, e B4/AV2, ID 4. Vocabulário em inglês não revela traduções ou antônimos. Não se presume correção do legado ao atribuir temas.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 8, 6, 1, 1, 1, 1, 2, 8 temas. As unidades de comparação, modais, present perfect e hábitos anteriores são focadas e usam um tema cada. B1/AV1 reúne oito campos e B4/AV2 retoma oito conteúdos da revisão anual; a distribuição acompanha os objetivos, sem criar um rótulo por pergunta.
+
+Respostas múltiplas, ausência de alternativa temporalmente adequada e comando divergente registrados na [issue web #133](https://github.com/guilhermeborba/simulados-bernardo/issues/133), para revisão própria. Nenhuma correção foi incluída neste lote; cobertura temática não certifica precisão pedagógica.
+
 ### Português — 7º ano
 
 | Tema | Abrange |
