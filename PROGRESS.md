@@ -716,6 +716,14 @@ Segundo de três lotes independentes da base main após api#256: Matemática, Ci
 
 Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
 
+### Ciências do 9º ano — E04 (23/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 30 temas documentados. Somente `theme` acrescentado; fontes e dados anteriores preservados exatamente. Agrupamentos de astronomia, eletricidade, ondas e química mantêm os conceitos pedidos em aberto. Revisão própria na [issue web #136](https://github.com/guilhermeborba/simulados-bernardo/issues/136).
+
+Primeiro de três lotes independentes da main após api#265: Ciências, História e Geografia do 9º ano. Base integrada: 10.589/23.444 questões com tema e 353/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 10.829/23.444 e 361/780; 9º ano 720/1.920 em 24/64. A composição dos três deve atingir 11.309/23.444 e 377/780, com 9º ano 1.200/1.920 em 40/64. E04 segue parcial; próximo trio: Arte, Educação Física e Inglês do 9º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Português do 9º ano — E04 (23/10/2026)
 
 Oito simulados gerais/240 questões classificados individualmente com 13 temas documentados. Somente `theme` acrescentado; fontes e dados anteriores preservados exatamente. Linguagem e sociedade, Gêneros e tipos textuais, Narrativas, Figuras de linguagem e Poesia mantêm conceitos pedidos em aberto. Sonetos e causalidade registrados na [issue web #134](https://github.com/guilhermeborba/simulados-bernardo/issues/134).

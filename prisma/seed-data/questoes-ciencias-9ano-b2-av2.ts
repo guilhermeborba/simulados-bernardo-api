@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Em um circuito elétrico, ao AUMENTAR a tensão mantendo a resistência constante, a corrente elétrica:",
     tip: "A Lei de Ohm relaciona V, I e R. Se R não muda e V aumenta, o que ocorre com I?",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Três resistores de 2 Ω, 3 Ω e 5 Ω estão em SÉRIE ligados a uma bateria de 20 V. Qual é a corrente no circuito?",
     tip: "Primeiro calcule Req (série: soma). Depois use I = V/Req.",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Dois resistores de 6 Ω e 3 Ω estão em PARALELO. Qual é a resistência equivalente?",
     tip: "Use: 1/Req = 1/R1 + 1/R2, depois inverta para achar Req.",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Um resistor de 20 Ω conduz uma corrente de 3 A. Qual é a POTÊNCIA dissipada?",
     tip: "Use P = R · I² (ou calcule V primeiro com a Lei de Ohm, depois P = V · I).",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Uma geladeira tem potência de 200 W e fica ligada 24 horas por dia. Quantos kWh ela consome em 30 dias?",
     tip: "E (kWh) = P(kW) × t(h). Converta 200 W para kW, multiplique pelas horas e pelos dias.",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "A principal fonte de energia elétrica do Brasil é:",
     tip: "O Brasil tem muitos rios e uma geografia favorável — qual fonte aproveitamos mais?",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "Nas usinas HIDRELÉTRICAS, a energia elétrica é gerada quando:",
     tip: "Água em movimento tem energia cinética — como transformá-la em energia elétrica?",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "Os painéis SOLARES FOTOVOLTAICOS funcionam porque:",
     tip: "'Foto' = luz, 'voltaico' = voltagem. Fótons interagem com elétrons no material.",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "As turbinas EÓLICAS geram eletricidade ao:",
     tip: "O vento tem energia cinética — como as pás capturam e convertem essa energia?",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "O CAMPO MAGNÉTICO ao redor de um ímã é representado por:",
     tip: "Imagine as 'linhas de força' que indicariam a direção de uma bússola em cada ponto.",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "Em relação aos POLOS MAGNÉTICOS, é correto afirmar que:",
     tip: "Lembre da regra dos ímãs que você conhece desde criança.",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "A Terra se comporta como um gigante ÍMÃ porque:",
     tip: "O que acontece no interior da Terra que poderia gerar magnetismo?",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "Hans Christian Oersted descobriu em 1820 que um FIO CONDUTOR com corrente elétrica:",
     tip: "Oersted fez a descoberta por acidente durante uma aula. O que ele observou com a bússola?",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "Um SOLENÓIDE é uma bobina de fio condutor por onde passa corrente elétrica. Com núcleo de ferro, ele se torna:",
     tip: "Com núcleo de ferro, o campo magnético da bobina é amplificado e pode ser controlado pela corrente.",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "O MOTOR ELÉTRICO converte energia elétrica em energia mecânica porque:",
     tip: "O que acontece quando uma bobina com corrente fica dentro de um campo magnético?",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "A INDUÇÃO ELETROMAGNÉTICA, descoberta por Faraday, é o princípio pelo qual:",
     tip: "Faraday percebeu que o contrário de Oersted também funciona. Se corrente cria campo, será que campo cria corrente?",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Os TRANSFORMADORES são usados na distribuição de energia elétrica para:",
     tip: "A energia é gerada em uma tensão, transmitida em outra e usada em outra diferente — o que faz essa conversão?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Segurança elétrica',
     type: "multiple_choice",
     text: "O PARA-RAIOS protege edifícios porque:",
     tip: "Benjamin Franklin inventou o para-raios em 1752. Como ele 'convence' o raio a seguir um caminho seguro?",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "Nas PILHAS COMUNS (pilhas alcalinas), a energia elétrica é gerada por:",
     tip: "A pilha é um dispositivo eletroquímico — como a química gera eletricidade?",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "As lâmpadas de LED são preferíveis às incandescentes porque:",
     tip: "Compare eficiência energética, vida útil e impacto ambiental.",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "As DESCARGAS ELÉTRICAS ATMOSFÉRICAS (raios) são causadas por:",
     tip: "Como as cargas elétricas se separam dentro de uma nuvem de tempestade?",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "A EFICIÊNCIA ENERGÉTICA de um aparelho é:",
     tip: "Eficiência sempre compara 'o que entrou' com 'o que foi aproveitado'.",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "Os VEÍCULOS ELÉTRICOS utilizam motores elétricos. Uma vantagem ambiental direta é:",
     tip: "Pense no que sai (ou não sai) do escapamento de um carro elétrico.",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Uma residência consome 300 kWh/mês, com tarifa de R$ 0,80/kWh. Qual é o valor da conta?",
     tip: "Valor = consumo (kWh) × tarifa (R$/kWh).",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Para REDUZIR o consumo de energia elétrica em casa, qual das ações a seguir é a mais eficaz?",
     tip: "Compare o impacto de cada ação em termos de kWh/mês.",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "A queima de combustíveis fósseis em usinas TERMELÉTRICAS contribui com o aquecimento global porque:",
     tip: "O que é liberado na queima de carvão, gás ou petróleo que afeta o clima?",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "Os SEMICONDUTORES (como o silício) são materiais que:",
     tip: "O nome diz: 'semi' = parcialmente. Nem tão bom quanto um condutor, nem tão ruim quanto um isolante.",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "Qual dos aparelhos a seguir utiliza o princípio do ELETROMAGNETISMO?",
     tip: "O eletromagnetismo envolve a interação entre corrente elétrica e campo magnético.",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Magnetismo',
     type: "multiple_choice",
     text: "Michael Faraday descobriu que é possível gerar corrente elétrica em uma bobina ao:",
     tip: "Faraday percebeu que o campo magnético precisa variar para gerar corrente.",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Fontes de energia',
     type: "multiple_choice",
     text: "A FUSÃO NUCLEAR é considerada a fonte de energia do futuro porque:",
     tip: "Compare com a fissão nuclear atual: o que é diferente nos combustíveis e nos resíduos?",

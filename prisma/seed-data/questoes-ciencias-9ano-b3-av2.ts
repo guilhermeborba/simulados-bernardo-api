@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "A LUZ VISÍVEL é uma onda:",
     tip: "A luz viaja pelo espaço vazio — que tipo de onda não precisa de meio para se propagar?",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "A velocidade da luz NO VÁCUO é:",
     tip: "É a velocidade máxima possível no universo, segundo a teoria da relatividade.",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "A LEI DA REFLEXÃO estabelece que o ângulo de incidência é:",
     tip: "O ângulo é sempre medido em relação à linha perpendicular (normal) à superfície.",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "A REFRAÇÃO da luz ocorre quando:",
     tip: "Um lápis dentro d'água parece 'quebrado' — o que acontece com a luz ao mudar de meio?",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "O ÍNDICE DE REFRAÇÃO (n) de um meio indica:",
     tip: "O índice compara como a luz se comporta naquele meio em relação ao vácuo.",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "A FIBRA ÓPTICA transmite informações usando:",
     tip: "Pense em como a luz 'fica presa' dentro de um fio transparente e percorre longas distâncias.",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "Quando a luz branca passa por um PRISMA e se decompõe em várias cores, isso ocorre porque:",
     tip: "Cada cor da luz 'obedece' ligeiramente diferente à refração — o que muda de cor para cor?",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "As ondas do ESPECTRO ELETROMAGNÉTICO se diferem entre si pelo:",
     tip: "O que muda entre ondas de rádio, luz visível e raios X? Velocidade? Tipo? Comprimento de onda?",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "As ONDAS DE RÁDIO são utilizadas em:",
     tip: "São as ondas com maior comprimento de onda do espectro eletromagnético.",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "O forno de MICRO-ONDAS aquece os alimentos porque:",
     tip: "As micro-ondas fazem algo específico às moléculas de água dos alimentos.",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "As radiações INFRAVERMELHAS estão associadas a:",
     tip: "Fique perto de uma fogueira sem tocá-la — o calor que você sente é transmitido por quê?",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "A LUZ VISÍVEL ocupa uma faixa estreita do espectro eletromagnético, com comprimentos de onda entre:",
     tip: "As cores do arco-íris vão do violeta (menor comprimento) ao vermelho (maior comprimento).",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "A radiação ULTRAVIOLETA (UV) do Sol causa bronzeamento e pode causar câncer de pele porque:",
     tip: "O que diferencia o UV dos outros tipos de radiação solar em termos de efeito sobre as células?",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "Os RAIOS X são usados em diagnósticos médicos porque:",
     tip: "Tecidos moles e ossos interagem de forma diferente com os raios X.",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "Os RAIOS GAMA são ondas eletromagnéticas de altíssima frequência produzidas em:",
     tip: "São os mais energéticos do espectro e surgem em processos nucleares.",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "Um objeto é visto na cor VERMELHA porque:",
     tip: "A cor que vemos em um objeto é a cor que ele NÃO absorve — é a que ele devolve para nossos olhos.",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "As CORES PRIMÁRIAS DA LUZ (síntese aditiva) são:",
     tip: "Quando se somam luzes de diferentes cores, o resultado é mais claro — diferente de misturar tintas.",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "Em um ESPELHO PLANO, a imagem formada é:",
     tip: "Observe seu reflexo: ele é seu tamanho exato e parece estar 'dentro' do espelho.",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "Um ESPELHO CÔNCAVO (convergente) é utilizado em:",
     tip: "Espelhos côncavos concentram a luz — como uma tigela que 'coleta' e direciona raios de luz.",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "A LENTE CONVERGENTE (convexa) forma imagens de objetos distantes:",
     tip: "Uma lente convergente de câmera projeta uma imagem real na superfície do filme/sensor.",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "No olho humano, a imagem é formada na RETINA porque:",
     tip: "Trace o caminho da luz: entra pela pupila, passa pelo cristalino — e onde forma a imagem?",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "Uma pessoa com MIOPIA vê mal de longe porque:",
     tip: "O foco da imagem cai antes da retina — o globo ocular é longo demais ou o cristalino é forte demais.",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "O LASER produz uma luz especial porque:",
     tip: "'Laser' = Light Amplification by Stimulated Emission of Radiation. O que torna essa luz única?",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "As plantas realizam FOTOSSÍNTESE preferencialmente usando luz VERMELHA e AZUL porque:",
     tip: "A cor das folhas revela quais cores a clorofila absorve e quais ela devolve ao ambiente.",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "A câmera fotográfica funciona de forma análoga ao olho humano porque:",
     tip: "Compare as partes: pupila/diafragma, cristalino/lente, retina/sensor — o que cada par faz?",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "O ARCO-ÍRIS é formado quando:",
     tip: "Por que o arco-íris aparece depois da chuva, com o Sol às suas costas?",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Luz e cores',
     type: "multiple_choice",
     text: "O CÉU É AZUL porque:",
     tip: "As moléculas do ar interagem de forma diferente com cores de comprimento de onda curto (azul) e longo (vermelho).",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Óptica',
     type: "multiple_choice",
     text: "As FIBRAS ÓPTICAS revolucionaram as telecomunicações porque:",
     tip: "Compare com os cabos de cobre que elas substituíram em termos de velocidade e capacidade.",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "Câmeras TERMOGRÁFICAS usadas em inspeções prediais e monitoramento médico funcionam porque:",
     tip: "Essas câmeras 'enxergam' o calor — qual tipo de radiação o calor emite?",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Radiações eletromagnéticas',
     type: "multiple_choice",
     text: "Qual afirmação sobre a LUZ está correta?",
     tip: "Lembre das propriedades fundamentais: velocidade, composição da luz branca, espectro eletromagnético.",

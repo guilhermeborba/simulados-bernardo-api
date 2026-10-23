@@ -1,6 +1,7 @@
 export const questoesCiencias9AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "A ELETRICIDADE é um fenômeno físico relacionado a:",
     tip: "Pense no que existe dentro de cada átomo e o que pode se mover livremente nos metais.",
@@ -16,6 +17,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "Qual das afirmações sobre CARGAS ELÉTRICAS está correta?",
     tip: "Lembre da estrutura atômica: o núcleo tem prótons e nêutrons, e ao redor ficam os elétrons.",
@@ -31,6 +33,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "Os materiais CONDUTORES elétricos são aqueles que:",
     tip: "Em metais, há elétrons 'livres' que se movem com facilidade entre os átomos.",
@@ -46,6 +49,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "A CORRENTE ELÉTRICA é definida como:",
     tip: "Corrente é o 'fluxo' de algo. O que flui nos fios elétricos?",
@@ -61,6 +65,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "A diferença entre CORRENTE CONTÍNUA (CC) e CORRENTE ALTERNADA (CA) é:",
     tip: "Contínua flui sempre na mesma direção; alternada muda de direção — com que frequência?",
@@ -76,6 +81,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "A TENSÃO ELÉTRICA (voltagem) é:",
     tip: "É a 'diferença de nível' que faz os elétrons se moverem — como a diferença de altura que faz a água cair.",
@@ -91,6 +97,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "A RESISTÊNCIA ELÉTRICA é:",
     tip: "Todo material 'resiste' um pouco à passagem de elétrons — uns mais, outros menos.",
@@ -106,6 +113,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "A LEI DE OHM estabelece que, para um condutor ôhmico a temperatura constante:",
     tip: "Georg Ohm descobriu a relação entre V (tensão), I (corrente) e R (resistência). Qual é essa relação?",
@@ -121,6 +129,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Um resistor de 10 Ω é conectado a uma fonte de 30 V. Qual é a corrente que passa por ele?",
     tip: "Use I = V/R.",
@@ -136,6 +145,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "A unidade de medida da resistência elétrica é o OHM (Ω). Essa unidade foi batizada em homenagem a:",
     tip: "Qual cientista descobriu a relação matemática entre tensão, corrente e resistência?",
@@ -151,6 +161,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Um CIRCUITO ELÉTRICO básico é composto por:",
     tip: "Todo circuito precisa de três elementos essenciais para funcionar.",
@@ -166,6 +177,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Em um circuito em SÉRIE, os componentes estão ligados:",
     tip: "Imagine vagões de um trem — um após o outro, em fila única.",
@@ -181,6 +193,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Em um circuito em PARALELO, os componentes estão ligados:",
     tip: "Imagine várias estradas indo ao mesmo destino — cada carro pode tomar um caminho diferente.",
@@ -196,6 +209,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Uma vantagem do circuito em PARALELO sobre o circuito em SÉRIE é que:",
     tip: "O que acontece se um componente falhar em cada tipo de circuito?",
@@ -211,6 +225,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Dois resistores de 4 Ω e 6 Ω estão em SÉRIE. Qual é a resistência equivalente?",
     tip: "Em série, as resistências se somam: Req = R1 + R2.",
@@ -226,6 +241,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Dois resistores iguais de 10 Ω cada estão em PARALELO. Qual é a resistência equivalente?",
     tip: "Em paralelo: 1/Req = 1/R1 + 1/R2. Para dois resistores iguais, há uma regra prática.",
@@ -241,6 +257,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "A POTÊNCIA ELÉTRICA de um aparelho é definida como:",
     tip: "Potência = taxa de uso de energia. P = energia/tempo = ?",
@@ -256,6 +273,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "A unidade de medida da potência elétrica é o WATT (W). 1 W é equivalente a:",
     tip: "Watt relaciona energia (joule) com tempo (segundo).",
@@ -271,6 +289,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "A ENERGIA ELÉTRICA consumida por um aparelho é calculada por:",
     tip: "Se potência é energia por tempo, então energia é potência × tempo.",
@@ -286,6 +305,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "O QUILOWATT-HORA (kWh) é:",
     tip: "kWh = unidade de energia na conta de luz. 1 kWh = 1.000 W por 1 hora.",
@@ -301,6 +321,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Um chuveiro de 5.400 W é usado 1 hora por dia. Qual é o seu consumo em 30 dias?",
     tip: "Converta para kW: 5.400 W = 5,4 kW. Depois: E = P(kW) × t(h) × dias.",
@@ -316,6 +337,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "O chuveiro elétrico é um dos maiores consumidores de energia em uma residência porque:",
     tip: "O que torna um aparelho 'gastão'? Potência alta, uso frequente, ou os dois?",
@@ -331,6 +353,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Segurança elétrica',
     type: "multiple_choice",
     text: "Um CURTO-CIRCUITO ocorre quando:",
     tip: "O nome diz tudo: o caminho da corrente fica 'curto demais' — com pouca resistência.",
@@ -346,6 +369,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Segurança elétrica',
     type: "multiple_choice",
     text: "A função de FUSÍVEIS e DISJUNTORES em uma instalação elétrica é:",
     tip: "São os 'guardiões' do circuito — o que eles fazem quando a corrente passa do limite?",
@@ -361,6 +385,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Segurança elétrica',
     type: "multiple_choice",
     text: "O ATERRAMENTO ELÉTRICO tem a função de:",
     tip: "'Terra' é um reservatório infinito de cargas — conectar ao solo elimina cargas perigosas.",
@@ -376,6 +401,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Segurança elétrica',
     type: "multiple_choice",
     text: "Qual das práticas a seguir é CORRETA em relação à segurança elétrica?",
     tip: "Pense em qual ação realmente protege o circuito e as pessoas.",
@@ -391,6 +417,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Eletricidade',
     type: "multiple_choice",
     text: "Os SUPERCONDUTORES são materiais que:",
     tip: "O prefixo 'super' indica algo extraordinário — o que acontece com a resistência desses materiais?",
@@ -406,6 +433,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "O EFEITO JOULE é o fenômeno em que:",
     tip: "O que acontece com a energia elétrica quando a corrente passa por um resistor?",
@@ -421,6 +449,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Energia elétrica',
     type: "multiple_choice",
     text: "Qual dos aparelhos a seguir NÃO utiliza o efeito Joule como princípio de funcionamento?",
     tip: "O efeito Joule converte energia elétrica em calor. Qual aparelho usa a eletricidade de forma diferente?",
@@ -436,6 +465,7 @@ export const questoesCiencias9AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Circuitos elétricos',
     type: "multiple_choice",
     text: "Georg Simon Ohm descobriu que, em um condutor ôhmico, a resistência elétrica é:",
     tip: "A lei leva o nome dele — o que ela afirma sobre a relação V, I e R?",
