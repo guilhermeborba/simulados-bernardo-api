@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Antes de se tornarem um país independente, os Estados Unidos eram formados por treze colônias que pertenciam a qual país?",
     tip: "Pensa bem: esse país também colonizou terras na América do Norte e tinha um rei bem famoso na história, chamado George III!",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual foi uma das principais causas da revolta dos colonos americanos contra a Inglaterra?",
     tip: "Lembra do lema \"sem representação, não há tributação\"? Isso quer dizer que eles pagavam, mas não tinham voz nenhuma!",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Como ficou conhecido o protesto em que os colonos jogaram caixas de chá no mar para protestar contra os impostos ingleses?",
     tip: "O nome tem a palavra de uma bebida bem popular na Inglaterra... e o nome de uma cidade dos Estados Unidos!",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Em que data os Estados Unidos declararam sua independência?",
     tip: "Essa data é tão importante que até hoje os americanos fazem fogos de artifício para comemorar! Pensa em qual mês combina com fogos de verão no hemisfério norte...",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "As ideias de liberdade e igualdade usadas na Declaração de Independência vieram de qual movimento de pensamento?",
     tip: "Foi o mesmo movimento que valorizava a razão e os direitos das pessoas, que também inspirou a Revolução Francesa que você já estudou!",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Quem foi o comandante do exército das treze colônias e se tornou o primeiro presidente dos Estados Unidos?",
     tip: "O nome dele hoje é também o nome da capital dos Estados Unidos! Pensa na cidade onde fica a Casa Branca...",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual país europeu ajudou as treze colônias na guerra contra a Inglaterra?",
     tip: "Esse país também teve sua própria revolução contra o rei, poucos anos depois. Pensa no país que você estudou na Era Napoleônica!",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Em que ano foi assinado o Tratado de Paris, que reconheceu oficialmente a independência dos Estados Unidos?",
     tip: "Foi alguns anos depois da Declaração de Independência, porque a guerra ainda continuava! Pensa num número entre 1776 e 1790...",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Depois da independência, que tipo de governo os Estados Unidos formaram?",
     tip: "Pensa no Brasil hoje: nosso país também é dividido em estados e não tem rei. É o mesmo tipo de organização!",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual documento organiza até hoje as leis principais e os direitos dos cidadãos dos Estados Unidos?",
     tip: "É o documento mais importante de um país, com todas as regras principais de como ele deve ser governado!",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Por que os colonos diziam a frase \"sem representação, não há tributação\"?",
     tip: "Pensa bem: eles pagavam para o rei da Inglaterra, mas nenhum colono tinha assento no parlamento inglês para decidir as leis!",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual foi a importância histórica da independência dos Estados Unidos?",
     tip: "Pensa nas Américas: antes disso, todo o continente ainda era formado só por colônias europeias!",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "De que forma a independência dos Estados Unidos influenciou outros povos, incluindo o Brasil?",
     tip: "Pensa: se uma colônia conseguiu se libertar de um rei poderoso, isso deu esperança para outras colônias tentarem o mesmo!",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual era a relação entre as treze colônias antes de formarem os Estados Unidos?",
     tip: "Pensa na força da união: seria muito mais difícil vencer a Inglaterra se cada colônia lutasse sozinha!",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual foi o papel da França durante a guerra de independência dos Estados Unidos?",
     tip: "Pensa numa rivalidade antiga: a França e a Inglaterra já haviam disputado guerras antes, então ajudar os colonos era uma forma de enfraquecer a Inglaterra!",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Quais direitos a Declaração de Independência dizia que todas as pessoas tinham?",
     tip: "Opa, a alternativa C não combina com o espírito da Declaração! Pensa nos valores do Iluminismo: liberdade, vida e felicidade das pessoas.",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Qual foi o papel de George Washington depois da vitória na guerra?",
     tip: "Pensa: depois de vencer a guerra como general, ele continuou liderando o país, mas de um jeito diferente, sem ser rei!",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Quem lutou contra quem na Guerra de Independência dos Estados Unidos?",
     tip: "Pensa em quem queria a liberdade (os colonos) e quem queria manter o controle (o país que os colonizava)!",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "O que a vitória dos Estados Unidos significou para outras colônias ao redor do mundo?",
     tip: "Pensa num exemplo real: se uma colônia conseguiu, isso deu coragem para outras tentarem a mesma coisa depois!",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Por que a Constituição dos Estados Unidos foi tão importante para o novo país?",
     tip: "Pensa num \"manual de regras\" de um país: ela decide como o governo funciona e o que os cidadãos podem ou não fazer!",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Bernardo está lendo sobre os impostos que a Inglaterra cobrava das colônias. Qual era o principal problema que isso causava?",
     tip: "Lembra do lema que você estudou? Ele fala exatamente sobre impostos sem voz nas decisões!",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Bernardo viu uma imagem de pessoas jogando chá no mar e ficou curioso. Como se chama esse episódio histórico?",
     tip: "O nome junta uma bebida famosa com o nome de uma cidade americana. Você já viu essa resposta em outra questão desse simulado!",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Bernardo quer saber em que data os Estados Unidos comemoram sua independência todos os anos. Qual é essa data?",
     tip: "Pensa nos fogos de artifício de verão nos Estados Unidos! É uma data bem conhecida mundialmente.",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Bernardo descobriu que um país europeu enviou soldados e navios para ajudar as colônias americanas. Qual foi esse país?",
     tip: "É o mesmo país da Revolução Francesa e da Era Napoleônica que você estudou antes!",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre o comandante do exército das colônias. Quem foi essa figura importante?",
     tip: "Essa pessoa depois se tornou o primeiro presidente dos Estados Unidos. O nome dela também é o nome da capital americana!",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Depois que os Estados Unidos venceram a guerra, o que eles decidiram fazer para organizar o novo país?",
     tip: "Pensa num país sem rei, dividido em estados, com leis escritas num documento importante. Isso é uma república!",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Bernardo percebeu que as ideias usadas na Declaração de Independência vinham de pensadores europeus. Qual movimento era esse?",
     tip: "É o mesmo movimento de pensamento que também inspirou a Revolução Francesa!",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Bernardo quer entender por que a independência dos Estados Unidos foi tão importante na história mundial. Qual é o motivo principal?",
     tip: "Pensa nas Américas antes desse momento: era tudo colônia europeia. Essa foi a primeira a se libertar!",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo está comparando a independência dos Estados Unidos com outros movimentos parecidos. O que ela tem em comum com a independência do Brasil, por exemplo?",
     tip: "Pensa no desejo comum: colônias querendo deixar de obedecer ao seu país colonizador e ganhar autonomia própria!",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Para fechar seus estudos, Bernardo quer resumir o que aprendeu. Qual frase resume melhor a independência dos Estados Unidos?",
     tip: "Pensa em tudo que você estudou: luta, união das colônias, ajuda francesa e formação de um novo país sem rei!",

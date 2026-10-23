@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Antes da Revolução Francesa, a sociedade francesa era dividida em três grupos, chamados de:",
     tip: "Pense nos três grupos principais da sociedade francesa da época: os religiosos, os nobres e o restante do povo.",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Quem fazia parte do \"terceiro estado\" na sociedade francesa do Antigo Regime?",
     tip: "Pense em quem sobrava depois de separar o clero e a nobreza — era a grande maioria do povo francês.",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Uma das principais causas da Revolução Francesa foi:",
     tip: "Pense em como o clero e a nobreza tinham privilégios, enquanto o terceiro estado sofria com impostos altos.",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "O movimento de ideias que valorizava a razão, a liberdade e a igualdade, influenciando a Revolução Francesa, era chamado de:",
     tip: "Pense num movimento que defendia \"iluminar\" as mentes das pessoas com a razão, contra o poder absoluto dos reis.",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Qual pensador iluminista defendia a separação dos poderes do governo (Executivo, Legislativo e Judiciário)?",
     tip: "Pense no filósofo francês conhecido por essa ideia, que ainda é usada em muitos governos democráticos hoje.",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Qual evento, ocorrido em 14 de julho de 1789, é considerado o marco inicial da Revolução Francesa?",
     tip: "Pense na prisão invadida pelo povo, que se tornou um símbolo de resistência ao Antigo Regime.",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O documento que declarava a liberdade e a igualdade de todos os cidadãos, criado durante a Revolução Francesa, é chamado de:",
     tip: "Pense num documento francês que declarava direitos iguais para \"o Homem e o Cidadão\".",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Qual é o lema (conjunto de palavras) mais famoso da Revolução Francesa?",
     tip: "Pense nas três palavras que resumem os principais ideais da Revolução Francesa.",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Durante a Revolução Francesa, o rei Luís XVI foi:",
     tip: "Pense em como a revolução foi radical ao lidar com o antigo rei, mostrando a força das mudanças que estavam acontecendo.",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Depois do período mais radical da Revolução Francesa, quem assumiu o poder na França?",
     tip: "Pense no general francês que se tornaria uma das figuras mais famosas da história europeia.",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "A Revolução Francesa teve diferentes fases. Qual foi uma delas?",
     tip: "Pense que a revolução não aconteceu de uma vez só — primeiro o rei ainda tinha algum poder, antes de tudo mudar completamente.",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "O período mais radical da Revolução Francesa, marcado por muitas execuções, incluindo de opositores políticos, é chamado de:",
     tip: "Pense num nome que já sugere o clima de medo e violência política dessa fase da revolução.",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Quais ideais da Revolução Francesa se espalharam por outras partes do mundo depois dela?",
     tip: "Lembre da Questão 8 — qual é o lema mais famoso da Revolução Francesa, que se tornou um ideal mundial?",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "A Revolução Francesa representou o fim de qual sistema de governo na França?",
     tip: "Pense no sistema baseado no poder absoluto do rei e nos privilégios da nobreza e do clero, que vimos no início do bloco.",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Qual pensador iluminista defendia a ideia de que o poder deveria vir da vontade do povo (soberania popular)?",
     tip: "Pense no filósofo francês conhecido por defender que o governo deveria representar a vontade geral do povo.",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Qual pensador iluminista era conhecido por criticar a intolerância religiosa e defender a liberdade de expressão?",
     tip: "Pense no filósofo francês famoso por suas críticas afiadas à intolerância e por defender a liberdade de pensamento.",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Por que a crise financeira foi uma das causas da Revolução Francesa?",
     tip: "Lembre da Questão 2 — quem pagava a maior parte dos impostos na sociedade francesa?",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "A Revolução Francesa é considerada um marco histórico importante porque:",
     tip: "Pense em como os ideais dessa revolução foram usados em outros movimentos pelo mundo, mesmo depois de séculos.",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Depois da Revolução Francesa e da ascensão de Napoleão, a França passou a ter:",
     tip: "Lembre da Questão 10 — quem assumiu o poder depois do período mais radical da revolução?",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "O Iluminismo defendia que as leis e o governo deveriam ser baseados principalmente:",
     tip: "Lembre da Questão 4 — qual era a principal ideia defendida pelo movimento iluminista?",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Bernardo está estudando sobre a sociedade francesa antes da revolução e descobriu que o povo comum pagava muitos impostos, enquanto nobres e clero pagavam pouco. Isso mostra:",
     tip: "Lembre da Questão 3 — qual era uma das principais causas da Revolução Francesa?",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Bernardo aprendeu sobre a Queda da Bastilha. O que essa prisão representava para o povo francês?",
     tip: "Lembre da Questão 6 — por que a invasão dessa prisão é tão importante na história da revolução?",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Filosofia',
     type: "multiple_choice",
     text: "Bernardo quer entender por que as ideias iluministas foram tão importantes para a Revolução Francesa.",
     tip: "Lembre das Questões 4, 5, 15 e 16 — quais ideias os pensadores iluministas defendiam?",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Bernardo descobriu que, durante a revolução, o rei Luís XVI foi julgado e executado. Isso mostra:",
     tip: "Lembre da Questão 9 — o que aconteceu com o rei durante a revolução, e o que isso representa?",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Bernardo quer saber o que aconteceu depois do período mais radical da Revolução Francesa (o Terror).",
     tip: "Lembre das Questões 10 e 19 — quem assumiu o poder depois dessa fase mais radical?",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Bernardo está pensando sobre o lema \"Liberdade, Igualdade, Fraternidade\". Por que esse lema é tão importante até hoje?",
     tip: "Lembre das Questões 8 e 13 — qual foi o impacto desse lema fora da França?",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Bernardo quer entender a diferença entre o Antigo Regime e o que veio depois da Revolução Francesa.",
     tip: "Lembre das Questões 1, 2 e 14 — como era a sociedade antes da revolução, e o que mudou depois?",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Bernardo quer saber por que a Revolução Francesa é estudada até hoje em escolas do mundo todo.",
     tip: "Lembre da Questão 18 — qual é a importância histórica mundial dessa revolução?",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Tempo histórico',
     type: "multiple_choice",
     text: "Bernardo está organizando uma linha do tempo da Revolução Francesa. Qual evento aconteceu primeiro?",
     tip: "Lembre da Questão 6 — qual evento é considerado o marco inicial da revolução?",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Revisando tudo: qual foi a principal transformação trazida pela Revolução Francesa?",
     tip: "Pense em tudo que vimos hoje: Antigo Regime, Iluminismo, Queda da Bastilha, execução do rei — todos levaram a essa grande transformação.",

@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Quem foi o militar francês que se tornou imperador da França depois da Revolução Francesa?",
     tip: "Essa pessoa começou como general e depois ficou tão poderosa que criou seu próprio império! Pensa num nome bem famoso da história francesa.",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Antes de se tornar imperador, qual era a profissão de Napoleão Bonaparte?",
     tip: "Ele ficou famoso primeiro vencendo batalhas, liderando soldados em campos de guerra!",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Em que ano Napoleão se coroou imperador da França?",
     tip: "Foi bem depois da Revolução Francesa, já no início do século XIX. Pensa num número que comece com \"180\"...",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Qual conjunto de leis criado por Napoleão organizou e unificou as regras legais da França?",
     tip: "O nome desse conjunto de leis tem o próprio nome do imperador que o criou!",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Qual era um dos princípios importantes trazidos pelo Código Napoleônico?",
     tip: "Pensa nos ideais da Revolução Francesa, como \"liberdade, igualdade e fraternidade\" — o Código seguia essa mesma linha!",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "O que foi o Bloqueio Continental, criado por Napoleão?",
     tip: "A alternativa C não é a resposta certa! Pensa num plano para prejudicar economicamente o maior rival de Napoleão: a Inglaterra.",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que Napoleão decidiu invadir Portugal em 1807?",
     tip: "Lembra do Bloqueio Continental? Portugal continuou comercializando com a Inglaterra, e isso irritou Napoleão!",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "O que a família real portuguesa fez quando soube da invasão francesa?",
     tip: "Pensa num país das Américas que foi colônia de Portugal por muito tempo... a família real foi para lá se proteger!",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "O que deu errado quando Napoleão tentou invadir a Rússia em 1812?",
     tip: "Pensa no clima da Rússia: é um dos lugares mais frios do mundo! Isso, junto com a fome, prejudicou muito os soldados franceses.",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Em qual batalha Napoleão sofreu sua derrota final?",
     tip: "O nome dessa batalha hoje também é usado para descrever qualquer \"derrota final\" de alguém. Pensa numa cidade da Bélgica!",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "O que aconteceu com Napoleão depois de ser derrotado em Waterloo?",
     tip: "Pensa num lugar bem isolado, no meio do oceano, para onde ele foi mandado sem poder voltar!",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "O que foi o Congresso de Viena, realizado depois da queda de Napoleão?",
     tip: "Pensa numa grande reunião de representantes de vários países, discutindo como organizar a Europa depois de tantas guerras!",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Qual era um dos principais objetivos do Congresso de Viena?",
     tip: "Pensa no medo das potências europeias depois de tantas guerras: elas queriam voltar à ordem antiga, com reis no poder!",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "O que as potências europeias queriam evitar ao organizar o Congresso de Viena?",
     tip: "Pensa no medo generalizado das monarquias europeias com ideias revolucionárias se espalhando, como a da França!",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Qual foi um legado duradouro do Código Napoleônico mesmo depois da queda de Napoleão?",
     tip: "Pensa em como boas ideias podem continuar sendo usadas mesmo depois que a pessoa que as criou perde o poder!",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "De que forma as conquistas militares de Napoleão ajudaram a espalhar ideias da Revolução Francesa pela Europa?",
     tip: "A alternativa D está errada! Pensa ao contrário: Napoleão levava consigo as ideias revolucionárias para os lugares que conquistava.",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Qual foi um dos principais motivos da derrota francesa na invasão da Rússia?",
     tip: "A alternativa C não é verdade! Pensa no fator climático: o frio extremo e as longas distâncias atrapalharam muito os franceses.",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Qual foi uma consequência importante da fuga da corte portuguesa para o Brasil?",
     tip: "A alternativa A está errada! Pensa ao contrário: com a chegada da família real, o Brasil ganhou mais importância, não menos!",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Por que o Congresso de Viena foi tão importante para a organização da Europa no século XIX?",
     tip: "Pensa num acordo que ajudou a manter certa estabilidade entre os países europeus por bastante tempo depois das guerras napoleônicas!",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Por que é importante estudar a Era Napoleônica hoje em dia?",
     tip: "Pensa em como decisões tomadas há muito tempo, como leis e fronteiras, ainda afetam o mundo em que vivemos!",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Bernardo está estudando como Napoleão conseguiu tanto poder. O que ele fez primeiro antes de se tornar imperador?",
     tip: "Pensa na carreira dele: antes de ser imperador, ele era militar e se destacou vencendo guerras!",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo leu que Napoleão invadiu Portugal. Qual foi o motivo dessa invasão?",
     tip: "Lembra do bloqueio comercial contra a Inglaterra? Portugal não quis seguir essa regra!",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Formação do Brasil',
     type: "multiple_choice",
     text: "Bernardo quer saber para onde a família real portuguesa fugiu durante a invasão francesa. Qual foi o destino?",
     tip: "Pensa na colônia portuguesa nas Américas, que depois se tornaria um país independente!",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo descobriu que Napoleão cometeu um erro grave ao invadir um país muito frio. Qual foi esse país?",
     tip: "Pensa num país enorme, conhecido por seus invernos extremamente rigorosos!",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Depois de perder a batalha de Waterloo, o que aconteceu com Napoleão?",
     tip: "Pensa num lugar bem isolado no meio do oceano, para onde ele foi mandado sem poder voltar à França!",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo quer entender por que os países europeus se reuniram no Congresso de Viena. Qual era o principal objetivo?",
     tip: "Pensa no medo das potências europeias depois de tantas guerras: eles queriam voltar à ordem antiga, com reis no poder!",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Por que o Código Napoleônico é considerado importante até hoje?",
     tip: "Pensa em como boas ideias de organização legal podem continuar sendo usadas mesmo muito tempo depois!",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Bernardo está comparando a Revolução Francesa com a Era Napoleônica. Qual é uma diferença importante entre elas?",
     tip: "Pensa na sequência dos acontecimentos: primeiro o povo derrubou o rei na Revolução, depois Napoleão se tornou um novo tipo de governante!",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo quer saber qual foi a importância do Congresso de Viena para a história europeia depois das guerras napoleônicas. Qual é a resposta correta?",
     tip: "Pensa num acordo que ajudou a organizar o continente europeu depois de tantos anos de guerra!",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Para fechar seus estudos sobre a Era Napoleônica, Bernardo quer resumir o que aprendeu. Qual frase representa bem esse período?",
     tip: "Pensa em toda a jornada: subida ao poder, conquistas, erros como a invasão da Rússia, derrota final e reorganização da Europa depois!",

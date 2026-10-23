@@ -1,6 +1,7 @@
 export const questoesHistoria8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Qual revolução, iniciada na Inglaterra no século XVIII, introduziu as máquinas e mudou completamente a forma de produção?",
     tip: "Pensa numa revolução que trouxe máquinas para dentro das fábricas, mudando o jeito de trabalhar!",
@@ -16,6 +17,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Qual revolução derrubou a monarquia absolutista na França em 1789?",
     tip: "Pensa no lema \"liberdade, igualdade e fraternidade\", que surgiu nesse momento histórico!",
@@ -31,6 +33,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Em que país aconteceu a famosa Festa do Chá de Boston, um protesto contra impostos ingleses?",
     tip: "Pensa nas treze colônias que depois se tornariam um país independente famoso!",
@@ -46,6 +49,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Quem foi o general francês que se tornou imperador da França no início do século XIX?",
     tip: "Pensa num general que criou um código de leis famoso com seu próprio nome!",
@@ -61,6 +65,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Em que data o Brasil se tornou independente de Portugal?",
     tip: "Pensa no feriado nacional brasileiro comemorado todos os anos, com desfiles pelo país!",
@@ -76,6 +81,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual país das Américas foi o primeiro a conquistar a independência, em 1804, liderado por pessoas escravizadas?",
     tip: "Pensa numa ilha do Caribe, colônia francesa, onde escravizados venceram seus colonizadores!",
@@ -91,6 +97,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Quem assumiu o trono do Brasil depois da abdicação de D. Pedro I, em 1831?",
     tip: "Pensa no filho de D. Pedro I: ele era muito jovem quando o pai abdicou do trono!",
@@ -106,6 +113,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Qual foi o nome do congresso que reorganizou a Europa depois da queda de Napoleão?",
     tip: "Pensa numa capital europeia, na Áustria, onde esse congresso aconteceu!",
@@ -121,6 +129,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Quem foi conhecido como \"o Libertador\" por ajudar a libertar vários países da América do Sul do domínio espanhol?",
     tip: "Pensa num país sul-americano, a Bolívia, batizado em homenagem a essa pessoa!",
@@ -136,6 +145,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Como ficou conhecido o período em que o Brasil foi governado por regentes, entre 1831 e 1840?",
     tip: "Pensa em quem governava nessa época: pessoas escolhidas para representar o imperador, que ainda era criança!",
@@ -151,6 +161,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Por que a Revolução Industrial é considerada um marco tão importante na história?",
     tip: "Pensa nas máquinas substituindo o trabalho manual e mudando completamente as cidades e fábricas!",
@@ -166,6 +177,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Revolução Francesa',
     type: "multiple_choice",
     text: "Qual foi um dos principais motivos da Revolução Francesa?",
     tip: "Pensa na divisão da sociedade francesa em grupos bem desiguais, com o povo pagando a maior parte dos impostos!",
@@ -181,6 +193,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Independência dos Estados Unidos',
     type: "multiple_choice",
     text: "Por que os colonos das treze colônias americanas se revoltaram contra a Inglaterra?",
     tip: "Lembra do lema \"sem representação, não há tributação\"? É exatamente esse o motivo!",
@@ -196,6 +209,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Qual foi um dos grandes erros militares de Napoleão, que contribuiu para sua queda?",
     tip: "Pensa num país enorme e muito frio, onde o exército francês sofreu muito com a falta de suprimentos!",
@@ -211,6 +225,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Qual foi a frase dita por D. Pedro I no momento da independência do Brasil?",
     tip: "Essa frase mostra a decisão firme de D. Pedro de romper definitivamente com Portugal!",
@@ -226,6 +241,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Por que a independência do Haiti foi tão revolucionária para a época?",
     tip: "Pensa em quem liderou essa luta: pessoas que eram escravizadas e conseguiram vencer um exército europeu poderoso!",
@@ -241,6 +257,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Revoltas no Império',
     type: "multiple_choice",
     text: "Por que o Período Regencial foi marcado por tantas revoltas regionais no Brasil?",
     tip: "Pensa num governo mais fraco, sem um imperador adulto no comando, que deixou várias regiões descontentes!",
@@ -256,6 +273,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Qual foi a importância do Congresso de Viena para a Europa do século XIX?",
     tip: "Pensa num acordo entre países europeus para reorganizar o continente depois de tantas guerras!",
@@ -271,6 +289,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Qual foi o resultado geral dos movimentos de independência na América espanhola no século XIX?",
     tip: "Pensa no mapa atual da América do Sul: são muitos países diferentes, e não um só!",
@@ -286,6 +305,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Por que D. Pedro I enfrentou forte oposição política durante seu governo no Brasil?",
     tip: "Pensa num governante que não gostava de dividir decisões com outras pessoas do governo!",
@@ -301,6 +321,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Bernardo está revisando tudo o que aprendeu sobre a Revolução Industrial. O que ela mudou na forma de produzir as coisas?",
     tip: "Pensa nas fábricas ganhando máquinas movidas a vapor, substituindo boa parte do trabalho manual!",
@@ -316,6 +337,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Organização social',
     type: "multiple_choice",
     text: "Bernardo quer lembrar qual revolução derrubou a monarquia absolutista na França. Qual foi ela?",
     tip: "Pensa no lema \"liberdade, igualdade e fraternidade\", bem famoso dessa revolução!",
@@ -331,6 +353,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo está revisando a independência dos Estados Unidos. Em que país ocorreu a Festa do Chá de Boston?",
     tip: "Pensa nas treze colônias inglesas que depois se tornariam um país famoso!",
@@ -346,6 +369,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Europa no século XIX',
     type: "multiple_choice",
     text: "Bernardo quer lembrar quem foi o general francês que se tornou imperador. Quem foi ele?",
     tip: "Pensa num general que criou um código de leis famoso, usado até hoje em vários países!",
@@ -361,6 +385,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Independência do Brasil',
     type: "multiple_choice",
     text: "Bernardo está revisando a data da independência do Brasil. Qual é essa data?",
     tip: "Pensa no feriado nacional brasileiro, comemorado com desfiles por todo o país!",
@@ -376,6 +401,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo quer lembrar qual país da América Latina conquistou sua independência primeiro, em 1804. Qual foi?",
     tip: "Pensa numa ilha do Caribe, onde pessoas escravizadas venceram seus colonizadores franceses!",
@@ -391,6 +417,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Brasil Império',
     type: "multiple_choice",
     text: "Bernardo está revisando o Período Regencial. O que esse período representou para o Brasil?",
     tip: "Pensa no filho de D. Pedro I: ele era muito jovem, por isso precisou de ajuda para governar!",
@@ -406,6 +433,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Disputas territoriais',
     type: "multiple_choice",
     text: "Bernardo quer lembrar o nome do congresso que reorganizou a Europa depois da queda de Napoleão. Qual foi?",
     tip: "Pensa numa capital europeia, na Áustria, onde os países se reuniram depois das guerras napoleônicas!",
@@ -421,6 +449,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Independências americanas',
     type: "multiple_choice",
     text: "Bernardo está revisando quem foi conhecido como \"o Libertador\" na América do Sul. Quem foi essa pessoa?",
     tip: "Pensa num país sul-americano, a Bolívia, batizado em homenagem a essa pessoa!",
@@ -436,6 +465,7 @@ export const questoesHistoria8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Tempo histórico',
     type: "multiple_choice",
     text: "Para fechar sua revisão de História, Bernardo quer lembrar a ordem geral dos acontecimentos estudados neste ano. Qual sequência está correta?",
     tip: "Pensa na ordem cronológica dos acontecimentos, bimestre por bimestre, do jeito que você estudou este ano!",

@@ -544,6 +544,14 @@ Este é um dos três lotes independentes autorizados no pacote História, Geogra
 Validação do lote: `npm run seed:dry-run`, vocabulário, ausência de resposta literal, preservação byte a byte das fontes e comparação dos dados por export aprovados. Inventário e testes completos registrados no PR. Quizzes #90 continuam adiados. Sem mudança de contrato ou operação em produção.
 
 
+### História do 8º ano — E04 (22/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 17 temas documentados em `docs/temas-editoriais.md`. Acrescentado somente `theme`; fontes sem essas linhas e dados por export preservados exatamente. Trabalho e tecnologia, Organização social, Europa no século XIX e Independências americanas evitam antecipar revoluções, governante e países solicitados. Brasil Império mantém em aberto o nome do período/movimento. Cronologia, coroação/maioridade, sucessão/governo, início da campanha russa e alternativas sobre ajuda europeia registrados na [issue web #128](https://github.com/guilhermeborba/simulados-bernardo/issues/128), sem alterar os campos anteriores.
+
+Terceiro de três lotes independentes da base main após api#256: Matemática, Ciências e História do 8º ano. Base: 8.429/23.444 questões com tema e 281/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 8.669/23.444 e 289/780; 8º ano 480/1.920 em 16/64. A composição dos três deve atingir 9.149/23.444 e 305/780, com 8º ano 960/1.920 em 32/64. E04 segue parcial; próximo trio: Geografia, Arte e Educação Física/8º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Geografia do 6º ano — E04 (21/10/2026)
 
 História do 6º ano foi integrada em api#243, com registro em web#100. Este lote acrescenta 240 temas em oito simulados gerais de Geografia do 6º ano (`questoes-geografia-6ano-b*-av*.ts`), sem entradas privadas adicionais. O vocabulário de 16 temas e os critérios estão em `docs/temas-editoriais.md`. Todos os nomes são reaproveitados dos anos anteriores ou de Ciências para conteúdos correspondentes. Apenas `theme` foi acrescentado: enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.
