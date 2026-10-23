@@ -1,6 +1,7 @@
 export const questoesArte8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'O que foi a Semana de Arte Moderna?',
     tip: 'Pensa no nome dela — "Semana de ARTE MODERNA". Foi um evento cheio de exposições, poesias e música, tudo junto, durante uma semana!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Em que cidade aconteceu a Semana de Arte Moderna de 1922?',
     tip: 'É a cidade que até hoje é conhecida como um grande centro de arte e cultura do Brasil, com muitos museus e teatros.',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Em que local de São Paulo a Semana de Arte Moderna foi realizada?',
     tip: 'É um teatro muito elegante, famoso até hoje, usado para óperas e grandes espetáculos. Fica bem no centro de São Paulo.',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'A Semana de Arte Moderna queria romper com que tipo de arte?',
     tip: 'Pensa no que já existia ANTES do modernismo — era uma arte com regras fixas, copiada dos padrões europeus clássicos.',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Qual escritor brasileiro foi um dos organizadores da Semana de 22?',
     tip: 'Esse escritor também escreveu o livro "Macunaíma" e foi uma das mentes mais importantes do movimento modernista.',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Qual escritor criou o "Manifesto Pau-Brasil"?',
     tip: 'Esse escritor depois criou também o famoso "Manifesto Antropófago". Os dois nomes de seus manifestos têm a ver com coisas bem brasileiras!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Qual pintora brasileira ficou famosa por obras como "O Homem Amarelo" e participou da Semana de 22?',
     tip: 'Essa pintora fez uma exposição em 1917 que já tinha chocado o público, antes mesmo da Semana de 22 acontecer!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Qual pintora criou a famosa obra "Abaporu"?',
     tip: 'O nome dessa obra vem de uma língua indígena e significa "homem que come gente". É uma pintura bem estranha e marcante!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Música',
     type: 'multiple_choice',
     text: 'Qual compositor brasileiro de música erudita participou da Semana de Arte Moderna?',
     tip: 'Esse compositor é um dos mais famosos do Brasil e misturava música clássica com ritmos e temas brasileiros.',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Como o público reagiu, no geral, às obras apresentadas na Semana de 22?',
     tip: 'Pensa: toda vez que algo é muito diferente do que as pessoas conhecem, costuma causar discussão, né? Foi exatamente isso que aconteceu!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'O movimento modernista brasileiro buscava inspiração em quais tendências artísticas europeias?',
     tip: 'Pensa em movimentos bem modernos e ousados da Europa do início do século XX, que também quebravam regras tradicionais.',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Por que a Semana de Arte Moderna é considerada um marco importante na cultura brasileira?',
     tip: 'Pense no que você já aprendeu: esse evento foi o início de um grande movimento artístico. Qual é o nome desse movimento?',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'O que caracteriza a pintura "Abaporu", de Tarsila do Amaral?',
     tip: 'Lembra que o nome da obra tem a ver com um "homem" de proporções bem estranhas e exageradas?',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'O que é o "Movimento Antropofágico", ligado aos modernistas?',
     tip: '"Antropofagia" tem a ver com "comer". Pensa: o que os modernistas queriam "engolir" e transformar em algo novo?',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Qual destas obras pertence ao movimento modernista brasileiro?',
     tip: 'Das quatro opções, só uma foi pintada por uma artista brasileira que você já conhece desta prova!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Além da pintura, quais outras artes estiveram presentes na Semana de 22?',
     tip: 'Lembra que Mário de Andrade era escritor e Villa-Lobos era músico? Isso já te dá duas pistas de quais artes estavam lá!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'O pintor Di Cavalcanti, que ajudou a organizar a Semana de 22, pintava principalmente:',
     tip: 'Pensa no espírito geral do modernismo brasileiro: valorizar o quê, do nosso próprio país?',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'O que os modernistas queriam expressar através de uma arte "brasileira"?',
     tip: 'O nome do movimento é "modernismo BRASILEIRO" — o que isso sugere sobre o que eles queriam mostrar nas obras?',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Por que algumas pessoas da época consideraram a Semana de Arte Moderna "escandalosa"?',
     tip: 'Pensa em como as pessoas reagem quando veem algo bem diferente do que conhecem — às vezes acham estranho ou até engraçado!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'A Semana de Arte Moderna de 1922 aconteceu em qual mês?',
     tip: 'Foi logo no começo do ano, no mesmo ano em que o Brasil completava 100 anos de Independência!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo visitou uma exposição sobre a Semana de Arte Moderna e viu um quadro com uma figura de pés gigantes. Que obra ele provavelmente viu?',
     tip: 'Lembra da obra mais famosa de Tarsila do Amaral, com uma figura de proporções exageradas?',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Na escola, Bernardo apresentou um trabalho sobre a Semana de 22 e disse que ela aconteceu em um teatro famoso de São Paulo. Qual é esse teatro?',
     tip: 'É o mesmo teatro que você aprendeu na primeira questão desta prova — fica no centro de São Paulo!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo leu que os modernistas queriam criar uma arte bem brasileira, usando temas do nosso país. Isso mostra que o movimento valorizava:',
     tip: 'Pensa no que Bernardo leu: "arte bem brasileira", "temas do nosso país" — o que isso está destacando?',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo ficou curioso sobre quem escreveu o "Manifesto Pau-Brasil" e descobriu que foi:',
     tip: 'É o mesmo escritor que depois criou o "Manifesto Antropófago" — você já viu esse nome nesta prova!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo contou para a mãe que a Semana de Arte Moderna gerou muita polêmica na época. O que isso significa?',
     tip: '"Polêmica" é quando um assunto gera muita discussão, gente a favor e gente contra. Foi isso que aconteceu na Semana de 22!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que Villa-Lobos participou da Semana de 22 com sua arte favorita, que era:',
     tip: 'Villa-Lobos é lembrado até hoje como um dos maiores nomes dessa arte no Brasil — pensa no instrumento ou na partitura!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo quer saber: a Semana de Arte Moderna rompeu com o estilo de arte que existia antes. Esse estilo antigo era chamado de:',
     tip: 'Pensa no estilo de arte que seguia regras fixas das academias de arte europeias, ensinado nas escolas tradicionais da época.',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que Tarsila do Amaral é famosa por suas pinturas modernistas. Qual destas obras é dela?',
     tip: 'Essa é a mesma obra com os pés gigantes que apareceu em outras questões desta prova!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo escreveu em seu caderno que a Semana de Arte Moderna buscava inspiração em movimentos europeus. Qual destes é um exemplo?',
     tip: 'Pensa em um movimento de arte moderno, com formas geométricas e vários ângulos ao mesmo tempo — bem diferente da arte clássica!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo concluiu seu trabalho dizendo que a Semana de Arte Moderna de 1922 foi importante porque:',
     tip: 'Pensa em tudo que você aprendeu nesta prova: a Semana de 22 foi o COMEÇO de um movimento, não o fim de nada!',

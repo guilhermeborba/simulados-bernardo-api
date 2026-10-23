@@ -1,6 +1,7 @@
 export const questoesArte8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Em que país surgiu o movimento artístico conhecido como Impressionismo?',
     tip: 'Pense num país europeu que também foi importante para o Neoclassicismo e o Romantismo!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'De onde veio o nome "Impressionismo"?',
     tip: 'Pense no título de uma pintura que retratava o nascer do sol num porto, de forma bem solta e rápida!',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual técnica os impressionistas costumavam usar para capturar a luz e os momentos rapidamente?',
     tip: 'Pense em pinturas que parecem feitas rapidamente, capturando um momento antes que ele mudasse!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Onde os pintores impressionistas costumavam pintar suas obras, diferente dos artistas anteriores que trabalhavam em estúdios?',
     tip: 'Pense em artistas saindo de seus ateliês para pintar diretamente na rua, no campo ou perto de rios!',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é considerado um dos fundadores do Impressionismo, autor da obra "Impressão, Nascer do Sol"?',
     tip: 'Esse pintor é muito famoso por suas pinturas de jardins, lagoas e efeitos de luz na natureza!',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual era um tema comum nas pinturas impressionistas, relacionado à vida moderna da época?',
     tip: 'Pense em pinturas mostrando pessoas comuns se divertindo, passeando ou tomando café em Paris!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Por que o Impressionismo foi inicialmente rejeitado pela Academia oficial de arte da época?',
     tip: 'Pense em como as pinceladas rápidas e soltas podiam parecer "incompletas" para quem estava acostumado com pinturas mais detalhadas!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é conhecido por retratar bailarinas e cenas de teatro, com uma perspectiva única e dinâmica?',
     tip: 'Esse pintor adorava capturar o movimento e a dança, retratando bailarinas em ensaios e apresentações!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é conhecido por retratar cenas de lazer e festas, com cores vibrantes e alegres?',
     tip: 'Esse pintor adorava retratar momentos felizes, como festas ao ar livre e encontros entre amigos!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre o Impressionismo e o Realismo?',
     tip: 'Pense em como cada movimento lidava com os detalhes: um buscava capturar um instante rápido, o outro, mostrar a realidade com cuidado!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Por que Claude Monet pintou a mesma paisagem várias vezes, em diferentes horários do dia?',
     tip: 'Pense em como a luz do sol muda de manhã, ao meio-dia e ao anoitecer, criando efeitos diferentes!',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual é a importância da prática de pintar "en plein air" para o movimento Impressionista?',
     tip: 'Pense em como pintar diretamente na natureza, observando a luz real, era diferente de pintar dentro de um estúdio fechado!',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Por que as pinceladas rápidas e visíveis são consideradas uma marca registrada do Impressionismo?',
     tip: 'Pense em como pinceladas soltas podem dar a sensação de movimento e de um momento passageiro!',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual foi a reação inicial da crítica de arte oficial em relação às obras impressionistas?',
     tip: 'Pense em como pinturas com pinceladas soltas podiam parecer "estranhas" para quem só conhecia obras mais detalhadas e polidas!',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual é a importância das pinturas de Edgar Degas sobre bailarinas para o movimento Impressionista?',
     tip: 'Pense em como esse pintor conseguia capturar o movimento das bailarinas de forma muito viva e interessante!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Por que o Impressionismo é considerado um movimento ligado à vida moderna de sua época?',
     tip: 'Pense em pinturas mostrando pessoas passeando, se divertindo e vivendo o dia a dia nas cidades da época!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual foi a importância da invenção de tintas em tubos para o desenvolvimento do Impressionismo?',
     tip: 'Pense em como seria difícil pintar fora de casa sem um jeito prático de levar as tintas!',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre as pinturas impressionistas e as pinturas acadêmicas tradicionais da época?',
     tip: 'Pense no contraste de técnicas: uma buscava capturar um momento rápido, a outra buscava um acabamento mais perfeito e detalhado!',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Por que os impressionistas organizaram suas próprias exposições, separadas da Academia oficial?',
     tip: 'Pense em como artistas rejeitados por uma instituição podem criar seus próprios espaços para mostrar seu trabalho!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Qual é a importância de se estudar o Impressionismo para entender a arte moderna?',
     tip: 'Pense em como esse movimento foi uma ruptura importante com as regras tradicionais da arte acadêmica!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo está estudando sobre o Impressionismo. Em que país esse movimento surgiu?',
     tip: 'Pense num país europeu que também foi importante para o Neoclassicismo e o Romantismo!',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber de onde veio o nome "Impressionismo". Qual é a origem desse nome?',
     tip: 'Pense no título de uma pintura que retratava o nascer do sol num porto, de forma bem solta e rápida!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo descobriu uma técnica muito usada pelos impressionistas para capturar a luz rapidamente. Qual é ela?',
     tip: 'Pense em pinturas que parecem feitas rapidamente, capturando um momento antes que ele mudasse!',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber onde os impressionistas costumavam pintar suas obras. Onde era isso?',
     tip: 'Pense em artistas saindo de seus ateliês para pintar diretamente na rua, no campo ou perto de rios!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês é considerado um dos fundadores do Impressionismo. Quem foi ele?',
     tip: 'Esse pintor é muito famoso por suas pinturas de jardins, lagoas e efeitos de luz na natureza!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual era um tema comum nas pinturas impressionistas. Qual era esse tema?',
     tip: 'Pense em pinturas mostrando pessoas comuns se divertindo, passeando ou tomando café em Paris!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber por que o Impressionismo foi inicialmente rejeitado pela Academia oficial. Qual foi o motivo?',
     tip: 'Pense em como as pinceladas rápidas e soltas podiam parecer "incompletas" para quem estava acostumado com pinturas mais detalhadas!',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês retratava bailarinas e cenas de teatro. Quem foi ele?',
     tip: 'Esse pintor adorava capturar o movimento e a dança, retratando bailarinas em ensaios e apresentações!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês retratava cenas de lazer e festas com cores vibrantes. Quem foi ele?',
     tip: 'Esse pintor adorava retratar momentos felizes, como festas ao ar livre e encontros entre amigos!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'Para resumir seus estudos sobre o Impressionismo, Bernardo quer lembrar sua principal característica. Qual é ela?',
     tip: 'Pense em tudo que você aprendeu: luz, pinceladas rápidas e cenas do cotidiano moderno!',

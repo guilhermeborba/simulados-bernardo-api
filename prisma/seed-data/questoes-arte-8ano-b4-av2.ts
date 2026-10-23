@@ -1,6 +1,7 @@
 export const questoesArte8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Barroco',
     type: 'multiple_choice',
     text: 'O Barroco era marcado por:',
     tip: 'Pensa em igrejas bem decoradas, com muitos detalhes dourados e cenas dramáticas, cheias de emoção.',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'O Neoclassicismo buscava inspiração em:',
     tip: 'O nome do movimento já dá a pista: "neo" significa "novo" e "clássico" lembra a Antiguidade. Novo + clássico = inspiração em quê?',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Romantismo',
     type: 'multiple_choice',
     text: 'O Romantismo valorizava principalmente:',
     tip: 'Pensa no nome do movimento: "Romantismo" tem a ver com sentimentos fortes, paixão e imaginação!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'O Realismo nas artes buscava:',
     tip: 'O próprio nome do movimento já ajuda bastante — "Realismo" tem a ver com o que mesmo?',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Impressionismo',
     type: 'multiple_choice',
     text: 'O Impressionismo ficou conhecido por pintar:',
     tip: 'Pensa em pinturas com pinceladas rápidas e borradas, feitas em jardins ou rios, capturando um instante de luz.',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Expressionismo',
     type: 'multiple_choice',
     text: 'O Expressionismo buscava expressar principalmente:',
     tip: 'O nome "Expressionismo" já entrega a resposta — o que esse estilo queria EXPRESSAR com tanta força?',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'A Semana de Arte Moderna de 1922 aconteceu em qual cidade?',
     tip: 'Foi no mesmo teatro famoso que você estudou na prova anterior desta mesma prova — fica nessa cidade!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual destes movimentos veio primeiro, na linha do tempo da história da arte?',
     tip: 'Pensa: qual desses estilos é bem mais antigo, do século XVII, enquanto os outros são do final do século XIX e início do XX?',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'O quadro "Abaporu" está relacionado a qual movimento?',
     tip: 'Pensa na pintora Tarsila do Amaral e no evento de 1922 que você estudou na última prova!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Neoclassicismo',
     type: 'multiple_choice',
     text: 'Qual característica é do Neoclassicismo?',
     tip: 'Lembra da Questão 2 desta prova? Esse movimento busca inspiração em um período bem antigo da história.',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Um pintor que usa muita luz e sombra, cenas dramáticas e religiosas, provavelmente pertence a qual movimento?',
     tip: 'Pensa nas igrejas decoradas e cheias de drama que você estudou no início desta prova.',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Um quadro que mostra uma paisagem com pinceladas rápidas, capturando a luz do sol em um determinado momento, é característico de:',
     tip: 'Pensa em artistas pintando ao ar livre, tentando capturar um instante de luz que passa rápido.',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Uma pintura que retrata trabalhadores em uma fábrica, mostrando a realidade social sem embelezamentos, é típica de:',
     tip: 'Pensa no movimento que queria mostrar a vida como ela realmente é, sem enfeitar nada.',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Uma obra com cores distorcidas, formas tensas e que expressa sofrimento ou angústia é exemplo de:',
     tip: 'Pensa no quadro "O Grito" que você viu antes nesta prova — qual movimento ele representa?',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Uma pintura com cenas de naufrágios dramáticos, paisagens selvagens e forte emoção é típica de:',
     tip: 'Pensa no movimento que mais valorizava emoção, imaginação e a força da natureza.',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Uma escultura equilibrada, inspirada em estátuas gregas antigas, com temas de heróis e virtudes, pertence a:',
     tip: 'Pensa no movimento que buscava inspiração direto na Grécia e Roma Antigas.',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Uma obra moderna brasileira, com figuras estilizadas e cores fortes, que rompeu com a arte tradicional em 1922, pertence a:',
     tip: 'Pensa no ano "1922" mencionado na pergunta — que evento e movimento você estudou com essa data?',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Se uma pintura tem anjos, nuvens dramáticas e muito contraste de luz, provavelmente é:',
     tip: 'Pensa em igrejas antigas, cheias de imagens religiosas e um jogo forte de luz e sombra.',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Colocando em ordem cronológica: Barroco, Neoclassicismo, Romantismo — qual vem depois do Barroco?',
     tip: 'Pensa na ordem que você estudou esses movimentos nos blocos anteriores — qual veio logo depois do Barroco?',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Tarsila do Amaral e Anita Malfatti são pintoras associadas a qual movimento?',
     tip: 'Lembra da Semana de Arte Moderna de 1922? Essas duas pintoras participaram desse movimento.',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo visitou um museu e viu quadros bem diferentes: um com anjos dramáticos, outro com formas gregas equilibradas, e outro com cores fortes e distorcidas. O quadro com anjos dramáticos e muito contraste de luz é do:',
     tip: 'Pensa no movimento mais antigo, cheio de drama e contraste de luz, que você já viu nesta prova.',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo viu uma pintura com pinceladas rápidas e borradas, mostrando um jardim na luz do meio-dia. Essa obra é do movimento:',
     tip: 'Pensa no movimento que adorava capturar a luz e os momentos rápidos, pintando direto da natureza.',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo leu sobre um quadro que mostrava trabalhadores cansados em uma fazenda, sem nenhum exagero ou idealização. Isso é característico do:',
     tip: 'Pensa no movimento que queria mostrar a vida das pessoas comuns exatamente como ela é, sem enfeites.',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo descobriu uma pintura com cores berrantes e formas tortas, que expressava uma sensação de angústia. Esse estilo é o:',
     tip: 'Pensa no movimento que gostava de "expressar" sentimentos fortes, às vezes bem angustiantes, através das formas e cores.',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo contou que viu uma escultura equilibrada, parecida com as estátuas da Grécia Antiga. Isso é típico do:',
     tip: 'Pensa no movimento que se inspirava diretamente na arte grega e romana, com muito equilíbrio e simetria.',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo apresentou um trabalho sobre a Semana de Arte Moderna e falou sobre uma pintora famosa por "Abaporu". Quem é ela?',
     tip: 'É a mesma pintora que criou essa obra com os pés gigantes, que você viu em outra questão desta prova.',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que um quadro com cenas de tempestades no mar e muita emoção pertence ao:',
     tip: 'Pensa no movimento que mais valorizava emoções fortes e a força indomável da natureza.',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo organizou os movimentos artísticos em ordem na linha do tempo da sua apresentação. Qual destes é o mais recente?',
     tip: 'Pensa nas datas: qual desses eventos é do século XX, enquanto os outros são de séculos bem anteriores?',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Modernismo brasileiro',
     type: 'multiple_choice',
     text: 'Bernardo explicou para a turma que a Semana de Arte Moderna aconteceu em um teatro famoso de São Paulo. Qual é esse teatro?',
     tip: 'É o mesmo teatro elegante que apareceu bem no início da prova anterior sobre a Semana de 22!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'No final da apresentação, Bernardo resumiu dizendo que a arte passou por várias fases: do dramático Barroco até o moderno estilo de 1922. Isso mostra que a arte:',
     tip: 'Pensa em tudo que você revisou nesta prova: Barroco, Neoclassicismo, Romantismo, Realismo, Impressionismo, Expressionismo, Modernismo... a arte ficou parada ou foi sempre mudando?',

@@ -1018,6 +1018,29 @@ O reconhecimento de patrimônio cultural em B4/AV1, ID 1, e B4/AV2, ID 6, usa **
 
 B1/AV1, B1/AV2 e B3/AV1 mantêm um tema cada, por serem concentrados em linguagem visual, cores e teatro; B2/AV1 tem quatro; B2/AV2, quatro; B3/AV2, dois; B4/AV1, cinco; B4/AV2 revisa dez. A recomendação de três a oito temas não obriga subdivisões artificiais nem limita a revisão anual. Todos os campos anteriores foram preservados exatamente. O gabarito de compasso e a precisão de comandos sobre patrimônio e uma narrativa folclórica estão na [issue web #118](https://github.com/guilhermeborba/simulados-bernardo/issues/118), para revisão separada.
 
+### Arte — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Barroco | Contextos, características, artistas, obras, materiais, expressão e contrastes do Barroco. |
+| Música | Compositores e relações da música com os períodos artísticos estudados. |
+| Patrimônio e preservação | Valor patrimonial, preservação e reconhecimento dos conjuntos artísticos de Ouro Preto. |
+| Neoclassicismo | Referências greco-romanas, artistas, obras, composição e contextos neoclássicos. |
+| Arte e história | Comparação, cronologia e reconhecimento de movimentos; missão artística, instituições e relações com o Brasil. |
+| Romantismo | Emoção, imaginação, natureza, sublime, identidade nacional, artistas e pintura histórica romântica. |
+| Realismo | Cotidiano, trabalhadores, crítica social, artistas e características realistas. |
+| Impressionismo | Luz, pinceladas, pintura ao ar livre, cotidiano, artistas, exposições e experimentação impressionista. |
+| Expressionismo | Subjetividade, cor, distorção, Munch, Die Brücke e influências em Anita Malfatti. |
+| Modernismo brasileiro | Semana de 1922, manifestações artísticas, artistas, identidade, vanguardas e antropofagia no Brasil. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-arte-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de 10 nomes, com leitura individual dos enunciados e alternativas. Reaproveitados nomes dos anos anteriores quando o conteúdo corresponde. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Arte e história cobre os itens de revisão que pedem o próprio nome de um movimento, inclusive B4/AV2, IDs 8, 9, 11–25, 27 e 28. Não se usam Barroco, Realismo ou outros nomes como rótulo quando esse é o reconhecimento pedido. As unidades específicas usam esses nomes quando o movimento já é dado e a tarefa pede características, obra, artista ou contexto. Comparações entre movimentos compartilham Arte e história. Música aparece em B4/AV1, ID 9, que já dá o campo musical e pede um compositor; o ID 26, que pede a própria linguagem, usa Modernismo brasileiro.
+
+Os oito simulados têm, de B1/AV1 a B4/AV2, 4, 2, 2, 2, 2, 2, 2, 8 temas. Unidades concentradas mantêm um ou dois agrupamentos principais. A revisão anual combina sete movimentos e Arte e história, sem antecipar o movimento que o aluno deve reconhecer.
+
+Enunciados, opções, gabaritos, dicas, curiosidades, IDs e exports anteriores preservados exatamente. A leitura e os testes verificam os rótulos e sua preservação; não certificam a precisão histórica ou a interpretação pedagógica dos campos anteriores. As revisões editoriais já abertas continuam em tarefas próprias.
+
 ### Educação Física — 6º ano
 
 | Tema | Abrange |

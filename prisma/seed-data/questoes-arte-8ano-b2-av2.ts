@@ -1,6 +1,7 @@
 export const questoesArte8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Em que período surgiu o movimento artístico conhecido como Realismo?',
     tip: 'Pense num período depois do Romantismo, já na segunda metade do século XIX!',
@@ -16,6 +17,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual era o principal objetivo dos artistas realistas?',
     tip: 'Pense num movimento que queria mostrar a vida como ela realmente era, sem exageros!',
@@ -31,6 +33,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é famoso pela obra "Os Britadores de Pedra", retratando trabalhadores comuns?',
     tip: 'Esse pintor francês é considerado um dos fundadores do movimento Realista!',
@@ -46,6 +49,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual tipo de pessoas os artistas realistas costumavam retratar em suas obras?',
     tip: 'Pense em pinturas mostrando camponeses, trabalhadores e cenas simples do cotidiano!',
@@ -61,6 +65,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual pintor francês é conhecido pela obra "O Semeador", retratando um trabalhador rural?',
     tip: 'Esse pintor francês é famoso por retratar camponeses trabalhando no campo, de forma simples e digna!',
@@ -76,6 +81,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual pintor brasileiro é conhecido por retratar cenas do cotidiano caipira do interior paulista, como em "Caipira Picando Fumo"?',
     tip: 'Esse pintor brasileiro nasceu no interior de São Paulo e retratava a vida simples das pessoas dessa região!',
@@ -91,6 +97,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre o Romantismo e o Realismo?',
     tip: 'Pense no contraste: um estilo exagerava emoções e heroísmo, e o outro queria mostrar a verdade do dia a dia!',
@@ -106,6 +113,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual tipo de crítica os artistas realistas frequentemente faziam através de suas obras?',
     tip: 'Pense em pinturas mostrando a dureza do trabalho e as dificuldades das pessoas comuns!',
@@ -121,6 +129,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Por que os artistas realistas evitavam embelezar ou idealizar suas cenas?',
     tip: 'Pense num movimento que valorizava a honestidade na representação da realidade, mesmo que ela fosse difícil!',
@@ -136,6 +145,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual movimento artístico veio imediatamente antes do Realismo, valorizando mais a emoção e a imaginação?',
     tip: 'Pense no movimento que você acabou de estudar, que valorizava os sentimentos e a natureza de forma grandiosa!',
@@ -151,6 +161,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Por que Gustave Courbet é considerado um dos fundadores do Realismo?',
     tip: 'Pense num pintor que queria mostrar exatamente o que via, sem embelezar nada!',
@@ -166,6 +177,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual é a importância da obra "O Semeador", de Jean-François Millet, para o movimento Realista?',
     tip: 'Pense numa pintura simples, mostrando um trabalhador do campo com respeito e dignidade!',
@@ -181,6 +193,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual foi a importância de Almeida Júnior para a pintura realista brasileira?',
     tip: 'Pense num pintor brasileiro que mostrava a vida simples das pessoas do interior de São Paulo!',
@@ -196,6 +209,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Por que o Realismo é considerado uma reação contra o Romantismo?',
     tip: 'Pense em como o Realismo queria mostrar a verdade da vida comum, ao invés de heróis e emoções exageradas!',
@@ -211,6 +225,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual é uma característica das pinturas realistas em relação às pessoas retratadas?',
     tip: 'Pense em pinturas mostrando a vida real de camponeses e trabalhadores, sem exagero nem heroísmo!',
@@ -226,6 +241,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual tipo de crítica social estava presente em muitas obras realistas?',
     tip: 'Pense em pinturas mostrando a dureza do trabalho e as condições de vida das pessoas comuns!',
@@ -241,6 +257,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Por que os artistas realistas evitavam cenas históricas grandiosas, como as pintadas por artistas românticos?',
     tip: 'Pense na diferença de foco: um movimento valorizava heróis e grandes eventos, o outro valorizava o dia a dia comum!',
@@ -256,6 +273,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual é a importância das pinturas de Almeida Júnior para entender a história cultural do Brasil?',
     tip: 'Pense em pinturas que mostram roupas, costumes e o jeito de viver das pessoas do interior paulista!',
@@ -271,6 +289,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre a forma como o Romantismo e o Realismo retratavam a emoção nas obras?',
     tip: 'Pense em como cada movimento lidava com os sentimentos: um exagerava, o outro buscava mostrar a verdade sem adornos!',
@@ -286,6 +305,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Qual é a importância de se estudar o Realismo para entender a arte do século XIX?',
     tip: 'Pense em como esse movimento trouxe novos temas para a arte, focando no cotidiano e na crítica social!',
@@ -301,6 +321,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo está estudando sobre o Realismo. Em que período esse movimento surgiu?',
     tip: 'Pense num período depois do Romantismo, já na segunda metade do século XIX!',
@@ -316,6 +337,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual era o principal objetivo dos artistas realistas. Qual era esse objetivo?',
     tip: 'Pense num movimento que queria mostrar a vida como ela realmente era, sem exageros!',
@@ -331,6 +353,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês é famoso pela obra "Os Britadores de Pedra". Quem foi ele?',
     tip: 'Esse pintor francês é considerado um dos fundadores do movimento Realista!',
@@ -346,6 +369,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que tipo de pessoas os artistas realistas costumavam retratar. Quem eram elas?',
     tip: 'Pense em pinturas mostrando camponeses, trabalhadores e cenas simples do cotidiano!',
@@ -361,6 +385,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor francês é conhecido pela obra "O Semeador". Quem foi ele?',
     tip: 'Esse pintor francês é famoso por retratar camponeses trabalhando no campo, de forma simples e digna!',
@@ -376,6 +401,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual pintor brasileiro retratava cenas do cotidiano caipira do interior paulista. Quem foi ele?',
     tip: 'Esse pintor brasileiro nasceu no interior de São Paulo e retratava a vida simples das pessoas dessa região!',
@@ -391,6 +417,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Arte e história',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual é uma diferença importante entre o Romantismo e o Realismo. Qual é essa diferença?',
     tip: 'Pense no contraste: um estilo exagerava emoções e heroísmo, e o outro queria mostrar a verdade do dia a dia!',
@@ -406,6 +433,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber qual tipo de crítica os artistas realistas frequentemente faziam. Qual era ela?',
     tip: 'Pense em pinturas mostrando a dureza do trabalho e as dificuldades das pessoas comuns!',
@@ -421,6 +449,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Bernardo quer saber por que os artistas realistas evitavam embelezar suas cenas. Qual era o motivo?',
     tip: 'Pense num movimento que valorizava a honestidade na representação da realidade, mesmo que ela fosse difícil!',
@@ -436,6 +465,7 @@ export const questoesArte8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Realismo',
     type: 'multiple_choice',
     text: 'Para resumir seus estudos sobre o Realismo, Bernardo quer lembrar sua principal característica. Qual é ela?',
     tip: 'Pense em tudo que você aprendeu: trabalhadores, vida cotidiana e crítica social, sem exageros!',
