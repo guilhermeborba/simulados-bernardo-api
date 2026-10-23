@@ -1133,6 +1133,27 @@ A quantidade de temas acompanha o conteúdo: B1/AV1, B3/AV1 e B3/AV2 concentram 
 
 As pendências anteriores de alternativas equivalentes em frações, generalizações em dicas/curiosidades e referência a São Joaquim estão na [issue web #111](https://github.com/guilhermeborba/simulados-bernardo/issues/111), com demonstrações e referências para revisão separada. Os campos anteriores foram preservados; a classificação temática não valida essas formulações.
 
+### Matemática — 8º ano
+
+| Tema | Abrange |
+|---|---|
+| Potenciação | Bases, expoentes, propriedades, sinais e aplicações de potências em contagens, áreas e volumes. |
+| Notação científica | Representação de números usando potências de dez. |
+| Radiciação | Raízes, elementos, propriedades, estimativa, raízes principais e aplicações em lados de figuras. |
+| Teorema de Pitágoras | Relação entre catetos e hipotenusa, operação final e aplicações em rampas. |
+| Expressões algébricas | Monômios, polinômios, coeficientes, parte literal, graus, valor numérico e operações. |
+| Produtos notáveis | Quadrados de somas/diferenças, expansão e aplicações em áreas. |
+| Equações | Igualdade, membros, incógnita, equivalência, solução, verificação e modelagem do primeiro grau. |
+| Sistemas de equações | Solução simultânea, substituição, adição, verificação e modelagem de situações com duas incógnitas. |
+| Estatística | Coleta e análise de dados, média, moda, mediana e escolha de medidas. |
+| Probabilidade | Eventos certos/impossíveis e chances em sorteios com bolas e dados. |
+
+Lote E04: **240 questões em oito simulados gerais** `questoes-matematica-8ano-b*-av*.ts`, sem entradas privadas adicionais. Vocabulário fechado de dez nomes, com leitura individual dos enunciados e alternativas. Equações e Probabilidade reaproveitam os nomes anteriores; Expressões algébricas reúne monômios e polinômios, sem fragmentar por operação. Somente `theme` foi acrescentado; todos os campos anteriores e a estrutura foram preservados exatamente.
+
+Potenciação inclui as aplicações em área e volume quando o foco é a potência; Notação científica trata a representação decimal. Radiciação não antecipa a potenciação pedida como operação inversa. B1/AV2, ID 15, já nomeia o Teorema de Pitágoras e pergunta pela operação final; usa Teorema de Pitágoras para não entregar Radiciação. Os passos isolados de equações inseridos numa sequência explícita de resolução de sistemas permanecem em Sistemas de equações. Estatística não antecipa a medida solicitada.
+
+Os simulados têm, na ordem B1/AV1 a B4/AV2, dois, dois, um, dois, um, um, dois e oito temas. As unidades concentradas mantêm poucos agrupamentos; B4/AV2 revisa oito assuntos do ano. A revisão semântica não encontrou temas que nomeiem a alternativa pedida. Ambiguidades e conceitos anteriores registrados na [issue web #126](https://github.com/guilhermeborba/simulados-bernardo/issues/126), preservados para revisão separada. Classificação temática não certifica gabaritos ou precisão pedagógica.
+
 ### Ciências — 7º ano
 
 | Tema | Abrange |

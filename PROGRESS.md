@@ -642,6 +642,14 @@ Validação: dry-run e inventário JSON aprovados; 12 nomes documentados, de 1�
 
 As pendências anteriores de alternativas equivalentes em frações, generalizações em dicas/curiosidades e referência geográfica estão na [issue web #111](https://github.com/guilhermeborba/simulados-bernardo/issues/111), para revisão separada; conteúdo preservado. Quizzes #90 continuam adiados. Não houve alteração de contrato, seed em banco existente, deploy ou operação em produção.
 
+### Matemática do 8º ano — E04 (22/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com dez temas documentados em `docs/temas-editoriais.md`. Acrescentado somente `theme`; fontes sem essas linhas e dados por export preservados exatamente. Expressões algébricas reúne monômios/polinômios, Estatística mantém em aberto a medida pedida, e Teorema de Pitágoras evita antecipar a operação solicitada em B1/AV2, ID 15. Ambiguidades e conceitos anteriores registrados na [issue web #126](https://github.com/guilhermeborba/simulados-bernardo/issues/126), sem alterar esses campos.
+
+Primeiro de três lotes independentes da base main após api#256: Matemática, Ciências e História do 8º ano. Base: 8.429/23.444 questões com tema e 281/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 8.669/23.444 e 289/780; 8º ano 480/1.920 em 16/64. A composição dos três deve atingir 9.149/23.444 e 305/780, com 8º ano 960/1.920 em 32/64. E04 segue parcial; próximo trio: Geografia, Arte e Educação Física/8º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Ciências do 7º ano — E04 (22/10/2026)
 
 Matemática do 7º ano foi integrada em api#249/web#112. Este lote acrescenta somente `theme` às 240 questões dos oito simulados gerais de Ciências do 7º ano, sem entradas privadas adicionais. Vocabulário fechado de 22 nomes e critérios em `docs/temas-editoriais.md`, reaproveitando nomes dos anos anteriores quando o conteúdo corresponde. Planeta Terra, Atmosfera, Propriedades dos gases, Tempo e clima e Relações ecológicas detalham os conteúdos deste ano. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

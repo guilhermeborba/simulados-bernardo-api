@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Um polinômio com exatamente dois termos é chamado de:",
     tip: "Pense no prefixo \"bi\" — igual em \"bicicleta\", que tem duas rodas!",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Um polinômio com exatamente três termos é chamado de:",
     tip: "Pense no prefixo \"tri\" — igual em \"triângulo\", que tem três lados!",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "O que é um polinômio?",
     tip: "Pense: um monômio é um termo só; um polinômio junta vários termos diferentes numa soma.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Para somar dois polinômios, você deve:",
     tip: "Lembre da regra dos monômios: só juntamos os termos que têm a mesma parte literal.",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de (3x + 2) + (5x + 4)?",
     tip: "Some os termos com x entre si (3x+5x) e os números soltos entre si (2+4).",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Na subtração de polinômios, como (5x + 3) − (2x + 1), o que acontece com os sinais do segundo polinômio?",
     tip: "O sinal de \"menos\" na frente dos parênteses troca TODOS os sinais de dentro, não só o primeiro.",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de (5x + 3) − (2x + 1)?",
     tip: "Troque os sinais do segundo polinômio primeiro: 5x+3−2x−1. Depois junte os termos semelhantes.",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Para multiplicar um monômio por um polinômio, usamos a propriedade:",
     tip: "Pense em \"distribuir\" — o monômio precisa multiplicar CADA termo do polinômio, um por um.",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 2x × (3x + 4)?",
     tip: "Multiplique 2x por 3x primeiro, depois 2x por 4, separadamente.",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 3x × (x − 2)?",
     tip: "Multiplique 3x por x primeiro, depois 3x por −2, com atenção ao sinal.",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O produto notável (a + b)² é igual a:",
     tip: "Lembre que (a+b)² é (a+b) multiplicado por (a+b) — não é só elevar cada parte ao quadrado!",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Usando o produto notável, qual é o resultado de (x + 3)²?",
     tip: "Use a fórmula a²+2ab+b² com a=x e b=3: x² + 2×x×3 + 3².",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "O produto notável (a − b)² é igual a:",
     tip: "É parecido com (a+b)², mas o termo do meio fica negativo porque tem um \"menos\" envolvido.",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Usando o produto notável, qual é o resultado de (x − 2)²?",
     tip: "Use a²−2ab+b² com a=x e b=2: x² − 2×x×2 + 2².",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "No produto notável (a+b)², o termo \"2ab\" aparece porque:",
     tip: "Imagine expandindo (a+b)×(a+b) termo por termo: a×a, a×b, b×a, b×b. Dois desses são iguais (a×b)!",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o valor numérico do polinômio 2x + 3y quando x=2 e y=1?",
     tip: "Substitua: 2×2 + 3×1. Resolva cada multiplicação antes de somar.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplificando (4x + 2) + (x − 5), o resultado é:",
     tip: "Some os termos com x (4x+x) e os números soltos (2−5) separadamente.",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplificando (6x + 4) − (3x − 2), o resultado é:",
     tip: "Troque os sinais do segundo polinômio primeiro: 6x+4−3x+2. Depois junte os termos.",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 4 × (2x + 3)?",
     tip: "Multiplique o 4 por cada termo de dentro: 4×2x e 4×3, separadamente.",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o valor numérico do polinômio x² + 2x quando x = 3?",
     tip: "Calcule x² (3×3=9) e 2x (2×3=6) separadamente, depois some os resultados.",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tem (2x + 5) reais na carteira e ganhou (x + 3) reais de seu avô. Qual é o total, simplificado?",
     tip: "Some os termos com x (2x+x) e os números soltos (5+3) separadamente.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Se x = 4 na situação anterior, quanto Bernardo tem no total (usando 3x+8)?",
     tip: "Substitua x por 4: 3×4 + 8.",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tinha (5x + 2) figurinhas e deu (2x + 1) para seu amigo. Quantas sobraram, simplificando?",
     tip: "É uma subtração de polinômios! Troque os sinais do segundo antes de juntar os termos.",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Bernardo quer calcular a área de um jardim quadrado de lado (x + 2). Usando o produto notável, qual é a expressão da área?",
     tip: "Área do quadrado é lado ao quadrado: (x+2)². Use a fórmula a²+2ab+b² com a=x e b=2.",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Se o lado do jardim de Bernardo é x = 3, qual é a área (usando x²+4x+4)?",
     tip: "Substitua x por 3: 3² + 4×3 + 4. Resolva cada parte com calma.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tem x bolinhas de gude e seu irmão tem o triplo menos 2, representado por (3x − 2). Se Bernardo entregar suas x bolinhas ao irmão, quantas o irmão terá no total, simplificando x + (3x − 2)?",
     tip: "Some os termos com x (x+3x) e mantenha o número solto (−2) do jeito que está.",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo multiplicou sua mesada x por 2 e depois somou 5 reais que ganhou de presente: 2x + 5. Se x = 6, quanto ele tem?",
     tip: "Substitua x por 6: 2×6 + 5.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Bernardo está aprendendo que (x + 1)² não é igual a x² + 1. Qual é a forma CORRETA de (x + 1)²?",
     tip: "Use a fórmula do produto notável a²+2ab+b² com a=x e b=1.",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo precisa multiplicar o monômio 5x pelo polinômio (x + 2). Qual é o resultado?",
     tip: "Multiplique 5x por x primeiro, depois 5x por 2, separadamente.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Revisando: para multiplicar um monômio por um polinômio, Bernardo deve lembrar da propriedade:",
     tip: "Lembre: o monômio precisa \"visitar\" cada termo do polinômio, multiplicando um por um.",

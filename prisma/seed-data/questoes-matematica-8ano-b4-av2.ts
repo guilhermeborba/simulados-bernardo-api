@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 2⁴?",
     tip: "Multiplique 2 por ele mesmo quatro vezes: 2×2×2×2.",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o valor de √81?",
     tip: "Pense: qual número vezes ele mesmo dá 81?",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Simplificando 3x + 5x, o resultado é:",
     tip: "São termos semelhantes! Some só os coeficientes e mantenha a parte literal.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 2x × (x + 3)?",
     tip: "Use a propriedade distributiva: multiplique 2x por x e depois 2x por 3.",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo a equação x + 7 = 15, qual é o valor de x?",
     tip: "Subtraia 7 dos dois lados da igualdade.",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Num sistema de equações x + y = 10 e x = 6, qual é o valor de y?",
     tip: "Substitua x por 6 na primeira equação e isole o y.",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a moda do conjunto 5, 6, 6, 7, 8?",
     tip: "Procure o número que se repete mais vezes na lista.",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de (−3)²?",
     tip: "Expoente par com base negativa dá resultado positivo!",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o valor de 5⁰?",
     tip: "Qualquer número diferente de zero elevado a zero dá sempre o mesmo resultado especial.",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a média das notas 5, 7 e 9?",
     tip: "Some as três notas e divida pela quantidade delas.",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Qual é o resultado de 3⁵ ÷ 3³?",
     tip: "Na divisão de potências de mesma base, subtraia os expoentes: 5−3.",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Qual é o resultado de ³√(−27)?",
     tip: "Raiz cúbica de número negativo pode ser negativa! Pense: (−3)×(−3)×(−3) = ?",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Produtos notáveis',
     type: "multiple_choice",
     text: "Simplificando (x + 2)² pelo produto notável, o resultado é:",
     tip: "Use a fórmula a²+2ab+b² com a=x e b=2.",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo a equação 2(x − 1) = 8, qual é o valor de x?",
     tip: "Primeiro aplique a distributiva (2x−2=8), depois resolva como equação comum.",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Num sistema y = 2x e x + y = 9, substituindo y na segunda equação, obtemos:",
     tip: "Troque o \"y\" por \"2x\" na equação x+y=9.",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Qual é a mediana do conjunto ordenado 3, 5, 7, 9, 11?",
     tip: "Com 5 números (ímpar), a mediana é o valor exatamente no meio da lista.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de (2x²) × (3x)?",
     tip: "Multiplique os coeficientes (2×3) e some os expoentes (2+1).",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Notação científica',
     type: "multiple_choice",
     text: "O número 0,00007 em notação científica é:",
     tip: "Números menores que 1 usam expoente negativo de 10. Conte as casas até o primeiro algarismo diferente de zero.",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Qual é o resultado de 6x − 2x + x?",
     tip: "Some e subtraia só os coeficientes dos termos semelhantes: 6−2+1.",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo a equação 3x + 1 = 2x + 7, qual é o valor de x?",
     tip: "Junte os termos com x de um lado e os números do outro: 3x−2x=7−1.",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Bernardo tem x figurinhas e seu amigo tem o triplo mais 2, representado por (3x+2). Se juntos eles têm 22 figurinhas, qual equação representa isso?",
     tip: "Some a parte de Bernardo (x) com a do amigo (3x+2), e tudo isso é igual a 22.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Equações',
     type: "multiple_choice",
     text: "Resolvendo x + 3x + 2 = 22, quantas figurinhas Bernardo tem (x)?",
     tip: "Junte os termos com x (4x+2=22), depois isole o x.",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Radiciação',
     type: "multiple_choice",
     text: "Bernardo tem um terreno quadrado com área de 49 m². Qual é o lado desse terreno?",
     tip: "Para achar o lado a partir da área de um quadrado, calcule a raiz quadrada.",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Estatística',
     type: "multiple_choice",
     text: "Bernardo anotou as notas de matemática da turma: 6, 7, 7, 8, 7, 9. Qual é a moda dessas notas?",
     tip: "Conte quantas vezes cada nota aparece — uma se repete mais que as outras.",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Potenciação',
     type: "multiple_choice",
     text: "Bernardo calcula o volume de uma caixa cúbica com 3 cm de lado. Qual é a expressão e o resultado?",
     tip: "Volume de cubo é lado×lado×lado, ou seja, lado elevado ao cubo.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Bernardo tem (2x + 3) reais e gastou (x + 1) reais. Quanto sobrou, simplificando?",
     tip: "Subtraia os termos com x entre si (2x−x) e os números entre si (3−1).",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Bernardo e sua irmã têm juntos 18 anos. Bernardo tem o dobro da idade da irmã. Qual sistema representa isso (x=Bernardo, y=irmã)?",
     tip: "\"Juntos têm 18\" é x+y=18. \"Bernardo tem o dobro da irmã\" é x=2y.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolvendo o sistema da questão anterior, quantos anos tem a irmã de Bernardo (y)?",
     tip: "Substitua x=2y na equação x+y=18: 2y+y=18, ou seja, 3y=18.",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Bernardo quer saber quantos anos ele tem (x=2y, com y=6).",
     tip: "Multiplique 2 por 6.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Expressões algébricas',
     type: "multiple_choice",
     text: "Revisando TUDO que aprendemos sobre Matemática no 8º ano, qual foi o assunto que apareceu em quase todos os blocos, ajudando a simplificar expressões e resolver equações?",
     tip: "Pense em potenciação, monômios, polinômios e equações — o que você fez em quase toda conta foi juntar o que era \"igual\".",

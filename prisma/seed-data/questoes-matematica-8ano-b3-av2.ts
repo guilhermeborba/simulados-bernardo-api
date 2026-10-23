@@ -1,6 +1,7 @@
 export const questoesMatematica8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "O que é um sistema de equações do 1º grau com duas variáveis?",
     tip: "Pense: são duas \"balanças\" diferentes, mas que precisam ficar equilibradas ao mesmo tempo, com as mesmas duas letras.",
@@ -16,6 +17,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "A solução de um sistema de equações é:",
     tip: "A solução precisa \"funcionar\" nas duas equações ao mesmo tempo, não só em uma delas.",
@@ -31,6 +33,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "No método da substituição, o primeiro passo é:",
     tip: "Pense: você precisa deixar uma letra \"sozinha\" de um lado, para depois trocá-la de lugar.",
@@ -46,6 +49,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Depois de isolar uma variável, o próximo passo do método da substituição é:",
     tip: "Você isolou uma letra para poder \"trocá-la de lugar\" dentro da outra equação.",
@@ -61,6 +65,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Dado o sistema x + y = 10 e x = 4, qual é o valor de y?",
     tip: "Substitua x por 4 na primeira equação: 4 + y = 10. Agora resolva para y.",
@@ -76,6 +81,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Dado o sistema x + y = 15 e y = 2x, substituindo y na primeira equação, obtemos:",
     tip: "Troque o \"y\" por \"2x\" na equação x+y=15.",
@@ -91,6 +97,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolvendo x + 2x = 15, qual é o valor de x?",
     tip: "Primeiro junte os termos com x (x+2x=3x), depois divida 15 por 3.",
@@ -106,6 +113,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Com x = 5 no sistema x + y = 15 e y = 2x, qual é o valor de y?",
     tip: "Use a equação y=2x e substitua x por 5.",
@@ -121,6 +129,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Para verificar a solução de um sistema, você deve:",
     tip: "A solução precisa funcionar nas DUAS equações — verificar só uma não é suficiente.",
@@ -136,6 +145,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Dado o sistema y = x + 3 e 2x + y = 9, substituindo y na segunda equação, obtemos:",
     tip: "Troque o \"y\" por \"x+3\" na equação 2x+y=9.",
@@ -151,6 +161,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolvendo 2x + x + 3 = 9, qual é o valor de x?",
     tip: "Primeiro junte os termos com x (2x+x=3x), depois isole o x: 3x+3=9, 3x=6.",
@@ -166,6 +177,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Com x = 2 no sistema y = x + 3, qual é o valor de y?",
     tip: "Substitua x por 2 na equação y=x+3.",
@@ -181,6 +193,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "No método da adição, para eliminar uma variável, é útil que os coeficientes dessa variável nas duas equações sejam:",
     tip: "Pense: se um lado tem \"+y\" e o outro tem \"−y\", eles se cancelam quando somados!",
@@ -196,6 +209,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Dado o sistema x + y = 8 e x − y = 2, somando as duas equações, obtemos:",
     tip: "Some os termos com x (x+x), os termos com y (y−y, que se cancelam) e os números (8+2).",
@@ -211,6 +225,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolvendo 2x = 10, qual é o valor de x?",
     tip: "Divida os dois lados por 2.",
@@ -226,6 +241,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Com x = 5 no sistema x + y = 8, qual é o valor de y?",
     tip: "Substitua x por 5 na equação x+y=8 e isole o y.",
@@ -241,6 +257,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Um sistema de equações pode ser resolvido tanto pelo método da substituição quanto pelo método:",
     tip: "Pense no método que você acabou de usar nas últimas questões — ele envolve somar as duas equações.",
@@ -256,6 +273,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Dado o sistema 2x + y = 7 e x = 1, substituindo x na primeira equação, qual é o valor de y?",
     tip: "Substitua x por 1: 2×1+y=7. Resolva para y.",
@@ -271,6 +289,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Qual é o par solução (x, y) do sistema x + y = 12 e x = 7?",
     tip: "O par solução sempre segue a ordem (x, y). Primeiro ache y substituindo x=7, depois escreva na ordem certa.",
@@ -286,6 +305,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Em um sistema de equações com duas variáveis, quantas soluções (pares x,y) geralmente encontramos quando as equações são diferentes?",
     tip: "Pense em todos os sistemas que você resolveu hoje — quantos pares (x,y) você encontrou em cada um?",
@@ -301,6 +321,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Bernardo e sua irmã têm, juntos, 21 figurinhas. Bernardo tem o dobro da irmã. Qual sistema representa a situação (x=Bernardo, y=irmã)?",
     tip: "\"Juntos têm 21\" é x+y=21. \"Bernardo tem o dobro da irmã\" é x=2y.",
@@ -316,6 +337,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Substituindo x=2y na equação x+y=21, obtemos:",
     tip: "Troque o \"x\" por \"2y\" na equação x+y=21.",
@@ -331,6 +353,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolvendo 2y+y=21 (ou seja, 3y=21), quantas figurinhas tem a irmã (y)?",
     tip: "Divida 21 por 3.",
@@ -346,6 +369,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Quantas figurinhas tem Bernardo (x = 2y, com y=7)?",
     tip: "Multiplique 2 por 7.",
@@ -361,6 +385,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Bernardo e seu amigo compraram juntos 2 lápis e 3 cadernos, pagando 16 reais; outro dia, compraram 1 lápis e 1 caderno, pagando 6 reais. Qual sistema representa isso (x=lápis, y=caderno)?",
     tip: "\"2 lápis e 3 cadernos, pagando 16\" é 2x+3y=16. \"1 lápis e 1 caderno, pagando 6\" é x+y=6.",
@@ -376,6 +401,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Isolando x na equação x+y=6, obtemos:",
     tip: "Para isolar o x, passe o y para o outro lado, trocando o sinal.",
@@ -391,6 +417,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Substituindo x=6−y na equação 2x+3y=16, obtemos:",
     tip: "Troque o \"x\" por \"(6−y)\" na equação 2x+3y=16, mantendo o sinal de +3y igual.",
@@ -406,6 +433,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Resolvendo 2(6−y)+3y=16, qual é o preço do caderno (y)?",
     tip: "Aplique a distributiva (12−2y+3y=16), junte os termos com y (−2y+3y=y) e isole o y.",
@@ -421,6 +449,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Com y=4 na equação x+y=6, qual é o preço do lápis (x)?",
     tip: "Substitua y por 4 na equação x+y=6 e isole o x.",
@@ -436,6 +465,7 @@ export const questoesMatematica8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Sistemas de equações',
     type: "multiple_choice",
     text: "Revisando tudo: no método da substituição, Bernardo deve lembrar de:",
     tip: "Pense em tudo que você praticou hoje: primeiro isola, depois troca de lugar.",
