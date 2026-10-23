@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O frevo é uma dança típica de qual região do Brasil?',
     tip: 'Pensa numa dança bem rápida e agitada, dançada com guarda-chuvas coloridos, no carnaval de uma cidade famosa chamada Recife.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O que é uma dança de salão?',
     tip: 'Pensa no nome "salão" — geralmente essas danças são feitas em pares, dentro de salões de festa.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O hip-hop e o break são exemplos de qual tipo de dança?',
     tip: 'Pensa na palavra "urbana" — essas danças nasceram nas ruas das cidades, ligadas à cultura jovem.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O que caracteriza uma "dança folclórica"?',
     tip: 'Pensa na palavra "folclore" — ela tem a ver com tradições e costumes de um povo, passados de geração em geração.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Qual destas é uma dança folclórica brasileira?',
     tip: 'Pensa numa dança bem animada, dançada em festas de milho e fogueira, no mês de junho.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O break dance (breaking) é conhecido por incluir movimentos de:',
     tip: 'Pensa nos dançarinos de break que você já viu: eles giram no chão, fazem acrobacias e usam bastante força e criatividade.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O forró é uma dança de salão muito associada a qual festa brasileira?',
     tip: 'Pensa na mesma festa de milho, fogueira e quadrilha que você viu na Questão 5 desta prova.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'O que a dança desenvolve no corpo, além da expressão artística?',
     tip: 'Pensa em tudo que um dançarino precisa fazer ao mesmo tempo: seguir a música, mover o corpo com precisão e saber onde está cada parte dele.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O tango é uma dança de salão de origem:',
     tip: 'Pensa numa dança dramática e elegante, bem famosa em países da América do Sul, perto do Brasil.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Qual é uma característica importante da dança, diferente de outras práticas corporais?',
     tip: 'Pensa em tudo que você já viu nesta prova: a dança sempre junta o corpo se movendo com algum ritmo e uma forma de se expressar.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Por que as danças folclóricas são importantes para preservar a cultura de um povo?',
     tip: 'Lembra da definição de dança folclórica, na Questão 4 desta prova? Pensa no que ela carrega consigo.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O que diferencia a dança urbana (como o hip-hop) das danças de salão?',
     tip: 'Pensa em onde cada uma nasceu: uma nas ruas das cidades, outra em salões de festa mais tradicionais.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual habilidade é especialmente exigida em danças como o break, com muitos giros e acrobacias?',
     tip: 'Lembra da Questão 6 desta prova? Pensa em tudo que é preciso para fazer giros no chão e se sustentar em posições difíceis.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O que a quadrilha de festa junina costuma representar, em suas coreografias?',
     tip: 'Pensa no contexto da festa junina: fogueira, milho, roupas de caipira... o que essa dança costuma contar?',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que dançar em par, como no forró ou no tango, exige boa comunicação entre os parceiros?',
     tip: 'Pensa: se os dois dançarinos não se entenderem, o que pode acontecer com os passos?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual destas é uma habilidade desenvolvida por praticamente todos os tipos de dança?',
     tip: 'Lembra da Questão 8 desta prova? Pensa no que todo dançarino precisa ter, seja qual for o estilo de dança.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Por que a dança é considerada também uma forma de expressão cultural e não só um exercício físico?',
     tip: 'Pensa na quadrilha, no frevo, no tango... cada uma carrega uma história por trás dos seus passos.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O que torna o hip-hop uma dança com forte identidade própria?',
     tip: 'Lembra da Questão 3 desta prova? Pensa em onde e com quem essa dança nasceu.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'O que significa dizer que uma dança tem "coreografia"?',
     tip: 'Pensa em como os dançarinos sabem exatamente o que fazer em cada parte da música — alguém planeja isso com antecedência.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Por que é importante respeitar e valorizar as danças de diferentes culturas, como o frevo e o tango?',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre o que cada dança carrega consigo.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma apresentação de quadrilha na festa junina da escola. Essa dança representa principalmente:',
     tip: 'É a mesma dança da Questão 5 e da Questão 14 desta prova.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Na aula de dança, Bernardo aprendeu alguns passos de hip-hop. Esse estilo pertence a qual categoria de dança?',
     tip: 'É a mesma categoria das Questões 3 e 18 desta prova.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Bernardo assistiu a uma apresentação de frevo na escola. Essa dança é típica de qual região do Brasil?',
     tip: 'É a mesma dança e região da Questão 1 desta prova.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Bernardo tentou dançar forró com um colega na festa da escola e percebeu que precisava se coordenar bem com o par. Isso mostra que a dança de salão exige:',
     tip: 'É a mesma ideia da Questão 15 desta prova.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo viu um colega fazer giros e acrobacias dançando break. Isso exige principalmente quais habilidades?',
     tip: 'É a mesma resposta das Questões 6 e 13 desta prova.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Na aula, o professor explicou que Bernardo estava aprendendo uma sequência organizada de passos. Como se chama essa sequência?',
     tip: 'É o mesmo termo da Questão 19 desta prova.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que o tango é uma dança de salão de origem:',
     tip: 'É a mesma origem da Questão 9 desta prova.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que muitas danças contam histórias e tradições de um povo. Por isso, a dança também é considerada uma forma de:',
     tip: 'É a mesma ideia da Questão 17 desta prova.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que as danças folclóricas, como a quadrilha, são importantes. O professor explicou que elas ajudam a:',
     tip: 'É a mesma resposta da Questão 11 desta prova.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'No fim da aula, Bernardo resumiu o que aprendeu sobre dança: ela combina movimento corporal com:',
     tip: 'É a mesma ideia da Questão 10 desta prova.',

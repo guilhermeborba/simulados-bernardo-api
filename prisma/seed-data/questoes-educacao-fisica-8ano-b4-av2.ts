@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Jogos Olímpicos',
     type: 'multiple_choice',
     text: 'Os Jogos Olímpicos modernos foram criados inspirados em qual evento histórico?',
     tip: 'Pensa num evento esportivo muito antigo, que acontecia na Grécia há milhares de anos, e que inspirou os Jogos de hoje.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Jogos Olímpicos',
     type: 'multiple_choice',
     text: 'Em que ano aconteceram os primeiros Jogos Olímpicos modernos?',
     tip: 'Foi no final do século XIX, bem antes da Semana de Arte Moderna que você estudou em Arte este ano.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Qual destes esportes é um exemplo de esporte coletivo, estudado nesta prova?',
     tip: 'Pensa num esporte jogado em equipe, com uma rede dividindo a quadra, que você estudou no início deste bloco de provas.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Qual destas é considerada uma luta, entre os temas estudados?',
     tip: 'Pensa na luta japonesa com faixas coloridas e golpes de desequilíbrio, que você estudou neste ano.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual destas é uma modalidade de ginástica estudada nesta prova?',
     tip: 'Pensa nos aparelhos como trave, solo e argolas, que você estudou no Bloco 2 deste ano.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Qual destas é uma dança de salão?',
     tip: 'Pensa numa dança de casal muito ligada às festas juninas, que você estudou neste ano.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Qual destes é um jogo tradicional popular brasileiro?',
     tip: 'Pensa num jogo desenhado no chão com giz, em que você pula de casa em casa numerada.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Práticas de aventura',
     type: 'multiple_choice',
     text: 'Qual destas é uma prática corporal de aventura?',
     tip: 'Pensa numa atividade feita em paredes ou rochas, exigindo força e equilíbrio, geralmente com equipamentos de segurança.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O que é essencial para manter um estilo de vida saudável, segundo o que você estudou nesta prova?',
     tip: 'Pensa em tudo que você estudou na prova anterior sobre os pilares de uma vida saudável.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Jogos Olímpicos',
     type: 'multiple_choice',
     text: 'Qual é o principal objetivo dos Jogos Olímpicos, além da competição?',
     tip: 'Pensa no lema olímpico, que fala sobre amizade e respeito entre as nações através do esporte.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Qual é uma diferença entre esportes coletivos e esportes individuais, estudada nesta prova?',
     tip: 'Pensa em exemplos: vôlei é jogado em equipe, e atletismo (corrida) costuma ser individual.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que o respeito ao adversário é tão valorizado nas lutas, como o judô e o karatê?',
     tip: 'Pensa no cumprimento antes e depois das lutas, que você estudou no Bloco 2 deste ano.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre a ginástica artística e a ginástica rítmica?',
     tip: 'Pensa nos aparelhos de cada modalidade: trave e barra são fixos; bola e fita são levados nas mãos.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Por que as danças folclóricas, como a quadrilha, são culturalmente importantes?',
     tip: 'Pensa em como a quadrilha representa cenas do campo, repassadas de geração em geração.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Por que jogos tradicionais, como amarelinha e pular corda, continuam populares mesmo com os jogos eletrônicos de hoje?',
     tip: 'Pensa em tudo que você aprendeu no Bloco 3 sobre o valor desses jogos tradicionais.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual é a relação entre o sedentarismo e os riscos à saúde, estudada nesta prova?',
     tip: 'Pensa em tudo que você estudou na prova anterior sobre os riscos de ficar muito tempo parado.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Jogos Olímpicos',
     type: 'multiple_choice',
     text: 'Qual é um dos principais valores transmitidos pelos Jogos Olímpicos, além da busca por medalhas?',
     tip: 'Lembra da Questão 10 desta prova? Pensa no lema olímpico e no que ele representa.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que é importante usar equipamentos de proteção em práticas como skate e escalada?',
     tip: 'Pensa em tudo que você estudou no Bloco 3 sobre segurança nas práticas de aventura.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'O que todas as práticas corporais estudadas nesta prova (esportes, lutas, danças, ginástica, jogos) têm em comum?',
     tip: 'Pensa em tudo que você estudou este ano inteiro: o que esportes, lutas, danças e jogos têm sempre em comum?',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Por que combinar diferentes tipos de atividade física (esportes, danças, lutas, ginástica) é benéfico para o corpo?',
     tip: 'Pensa em tudo que você estudou na prova anterior sobre a importância de variar os exercícios.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Jogos Olímpicos',
     type: 'multiple_choice',
     text: 'Bernardo assistiu às Olimpíadas na TV com a família e descobriu que os Jogos modernos foram inspirados em um evento muito antigo. De onde vêm essas origens?',
     tip: 'É a mesma origem da Questão 1 desta prova.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Durante o ano, Bernardo praticou vários esportes e atividades na escola: vôlei, judô, ginástica, forró e amarelinha. Qual deles é um esporte coletivo?',
     tip: 'É a mesma classificação da Questão 3 desta prova.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Bernardo também praticou capoeira, que mistura luta com música e dança. Além da capoeira, qual outra luta ele estudou neste ano?',
     tip: 'É a mesma luta da Questão 4 desta prova.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma apresentação de ginástica na escola usando fita e bola, fazendo movimentos de dança com música. Qual modalidade de ginástica é essa?',
     tip: 'É a mesma modalidade da Questão 5 desta prova.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Dança',
     type: 'multiple_choice',
     text: 'Na festa junina da escola, Bernardo dançou quadrilha com os colegas. Esse tipo de dança é chamado de:',
     tip: 'É a mesma categoria da Questão 14 desta prova.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo brincou de amarelinha e pião no recreio, brincadeiras que ele já conhecia desde criança. Essas brincadeiras são exemplos de:',
     tip: 'É a mesma categoria das Questões 7 e 15 desta prova.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo foi escalar com o pai durante um passeio de fim de semana, usando capacete e cordas de segurança. Essa prática pertence a qual categoria?',
     tip: 'É a mesma categoria das Questões 8 e 18 desta prova.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Depois de um ano estudando tantas práticas corporais diferentes, Bernardo e a família decidiram caminhar e se exercitar juntos todo fim de semana, além de comer de forma mais equilibrada. Essa mudança de hábito ajuda a combater principalmente:',
     tip: 'É o mesmo risco das Questões 9 e 16 desta prova.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Jogos Olímpicos',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que os Jogos Olímpicos valorizam, além das medalhas, a união entre os povos através do esporte. Isso mostra que o esporte pode servir também para:',
     tip: 'É a mesma ideia das Questões 10 e 17 desta prova.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'No fim do ano, o professor de Educação Física pediu para Bernardo resumir tudo o que aprendeu sobre as práticas corporais. Bernardo respondeu corretamente que todas elas, dos esportes às danças e lutas, têm em comum:',
     tip: 'É a mesma conclusão da Questão 19 desta prova.',

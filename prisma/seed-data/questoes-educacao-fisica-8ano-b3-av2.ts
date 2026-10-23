@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'A "amarelinha" é um jogo tradicional brasileiro em que o participante precisa:',
     tip: 'Pensa num desenho no chão, feito de giz, com números dentro de cada quadrado, onde você precisa pular de um jeito especial.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'O que é a "queimada", um jogo popular muito praticado nas escolas brasileiras?',
     tip: 'Pensa no próprio nome do jogo — "queimar" alguém com a bola tem a ver com acertar essa pessoa para ela sair do jogo.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Práticas de aventura',
     type: 'multiple_choice',
     text: 'O que são "práticas corporais de aventura"?',
     tip: 'Pensa na palavra "aventura" — ela tem a ver com desafio, natureza e, às vezes, uma dose de adrenalina.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Qual destes é um jogo tradicional brasileiro jogado com uma pequena bolinha redonda?',
     tip: 'Pensa num jogo em que os participantes lançam pequenas bolinhas de vidro, tentando acertar as dos adversários.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'O "pião" é um brinquedo tradicional que, para funcionar, precisa:',
     tip: 'Pensa num brinquedo pontudo que gira muito rápido, às vezes enrolado com um cordão antes de ser solto.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'O skate é considerado uma prática corporal de:',
     tip: 'Pensa num esporte praticado com uma tábua de rodinhas, em pistas ou ruas, cheio de manobras desafiadoras.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'O jogo "esconde-esconde" tem como principal característica:',
     tip: 'Pensa no próprio nome do jogo — "esconde" e "esconde" de novo, até alguém ser encontrado.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'O "pular corda" é uma brincadeira tradicional que desenvolve principalmente:',
     tip: 'Pensa em tudo que é preciso fazer ao pular a corda sem parar: sincronizar o salto, manter o ritmo e não se cansar rápido demais.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Práticas de aventura',
     type: 'multiple_choice',
     text: 'Qual destas é considerada uma prática corporal de aventura?',
     tip: 'Pensa na única opção que envolve subir em superfícies desafiadoras, muitas vezes ao ar livre ou na natureza.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'O jogo de "bets" (ou taco), bastante popular no Brasil, é jogado com:',
     tip: 'Pensa num jogo de rua parecido com o beisebol, em que se usa um bastão para rebater algo pequeno e redondo.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Por que jogos tradicionais como amarelinha e pular corda são importantes culturalmente?',
     tip: 'Pensa: seus pais ou avós provavelmente também brincaram dessas mesmas brincadeiras quando eram crianças!',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Práticas de aventura',
     type: 'multiple_choice',
     text: 'O que diferencia as "práticas corporais de aventura" dos esportes tradicionais como futebol e vôlei?',
     tip: 'Lembra da Questão 3 desta prova? Pensa no ambiente e no tipo de desafio envolvido nessas práticas.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que é importante usar equipamentos de proteção, como joelheiras e capacete, ao praticar skate ou escalada?',
     tip: 'Pensa no que pode acontecer se alguém cair sem nenhuma proteção durante essas práticas mais desafiadoras.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'O que é necessário para jogar bem a "queimada", além de lançar a bola com precisão?',
     tip: 'Pensa em tudo que é preciso fazer na queimada: tanto acertar o adversário quanto se defender dos ataques dele.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Por que os jogos populares, como amarelinha e pião, costumam exigir pouco ou nenhum material caro?',
     tip: 'Pensa: amarelinha só precisa de um giz, e o pião é feito de madeira simples. De onde vêm esses jogos tão acessíveis?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'O que a prática de escalada desenvolve especialmente no corpo?',
     tip: 'Pensa em tudo que é preciso para subir em uma parede ou rocha: segurar o peso do corpo, manter o equilíbrio e planejar os movimentos.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Qual é a principal diferença entre um "jogo" e uma "brincadeira" tradicional, de forma geral?',
     tip: 'Pensa em exemplos: a queimada tem regras bem definidas, enquanto brincar de "pega-pega" pode ter regras mais livres, combinadas na hora.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que o trabalho em equipe é importante em jogos como a queimada?',
     tip: 'Lembra da Questão 14 desta prova? Pensa em como o time pode se organizar junto para atacar e se defender melhor.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'O que significa dizer que uma prática corporal de aventura envolve "risco controlado"?',
     tip: 'Lembra da Questão 12 desta prova? Pensa em como capacetes, cordas e técnicas ajudam a tornar essas práticas mais seguras.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Por que jogos e brincadeiras tradicionais continuam sendo praticados até hoje, mesmo com tantos jogos eletrônicos disponíveis?',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre o valor cultural e físico desses jogos tradicionais.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo brincou de amarelinha no recreio, pulando nas casas numeradas desenhadas no chão. Essa brincadeira desenvolve principalmente:',
     tip: 'Pensa no que é preciso para pular de um pé só, sem cair, dentro dos quadrados desenhados.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Na aula de Educação Física, Bernardo jogou queimada e precisou desviar da bola para não ser "queimado". Esse jogo exige principalmente:',
     tip: 'É a mesma resposta das Questões 2 e 14 desta prova.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo experimentou andar de skate no parque com a ajuda do pai, usando capacete e joelheiras. Essa prática pertence a qual categoria?',
     tip: 'É a mesma categoria das Questões 3 e 6 desta prova.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Bernardo perguntou ao pai por que ele precisava usar capacete e joelheiras para andar de skate. A resposta certa é:',
     tip: 'É a mesma resposta da Questão 13 desta prova.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo brincou de pião com os amigos, usando um cordão para lançá-lo. O que faz o pião funcionar corretamente?',
     tip: 'É a mesma resposta da Questão 5 desta prova.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo e os amigos brincaram de esconde-esconde no quintal. Qual é a principal característica dessa brincadeira?',
     tip: 'É a mesma brincadeira da Questão 7 desta prova.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu a jogar bets (taco) com os vizinhos, usando um bastão e tampinhas. Esse jogo faz parte de qual tipo de brincadeira?',
     tip: 'É o mesmo jogo da Questão 10 desta prova.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Jogos e brincadeiras',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que jogos como amarelinha e pião continuam sendo praticados mesmo com tantos jogos eletrônicos hoje. A resposta certa é:',
     tip: 'É a mesma resposta da Questão 20 desta prova.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma trilha com escalada leve durante um passeio da escola. Isso é um exemplo de:',
     tip: 'É a mesma categoria das Questões 3, 6, 9 e 23 desta prova.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo por que é importante cooperar com os colegas durante um jogo como a queimada. Bernardo respondeu corretamente:',
     tip: 'É a mesma ideia das Questões 14 e 18 desta prova.',

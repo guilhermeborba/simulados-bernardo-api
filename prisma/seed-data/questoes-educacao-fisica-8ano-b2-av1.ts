@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'O judô é uma luta de origem:',
     tip: 'Pensa no país asiático famoso por kimonos brancos e tatames, onde essa luta foi criada no final do século XIX.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'A capoeira é uma manifestação cultural e luta que tem origem:',
     tip: 'Pensa no instrumento musical bem brasileiro usado nessa prática — ele já dá uma pista forte da origem!',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'O karatê é uma luta de origem:',
     tip: 'Pensa numa ilha do Japão, bem famosa por essa luta cheia de golpes de mão e pé.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Qual é um dos valores mais importantes ensinados nas lutas, além da técnica?',
     tip: 'Pensa no cumprimento que os lutadores fazem antes e depois de cada luta — o que isso demonstra?',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'No judô, qual é o objetivo principal de muitos golpes?',
     tip: 'Pensa no nome "judô", que significa "o caminho da suavidade" — a ideia é usar a força do outro contra ele mesmo, não chutar ou correr.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'A capoeira combina movimentos de luta com qual outro elemento cultural?',
     tip: 'Pensa na roda de capoeira: sempre tem gente cantando e tocando instrumentos enquanto os capoeiristas jogam.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Em que tipo de local as lutas como judô e karatê costumam ser praticadas?',
     tip: 'Pensa num tipo de "colchão" firme, usado para proteger os lutadores quando caem durante o treino.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O que é a "roda de capoeira"?',
     tip: 'Pensa num círculo de pessoas formado ao redor de quem está "jogando" a capoeira — todo mundo participa cantando e tocando.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Nas lutas, o que significa ter "disciplina"?',
     tip: 'Pensa no oposto de "fazer qualquer coisa sem pensar" — disciplina tem a ver com seguir regras e se dedicar.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Qual é o nome do instrumento musical mais associado à capoeira?',
     tip: 'É um instrumento de uma corda só, com uma cabaça na ponta, que marca o ritmo da roda de capoeira.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Por que as lutas marciais, como o judô e o karatê, costumam ter uma hierarquia de faixas coloridas?',
     tip: 'Pensa: quem começa a treinar usa uma faixa de cor mais clara, e quem já treina há anos usa outra cor. Isso indica o quê?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O que diferencia a capoeira de outras lutas como o judô e o karatê?',
     tip: 'Pensa em tudo que você já aprendeu sobre a capoeira nesta prova: música, roda, berimbau... o que isso tudo forma junto?',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Qual destas é uma atitude importante ao praticar qualquer luta, segundo os valores ensinados?',
     tip: 'Lembra da Questão 4 desta prova? O respeito ao adversário é demonstrado logo no início e no fim da luta.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'No judô, por que é importante aprender a cair corretamente (a chamada "queda")?',
     tip: 'Pensa: se alguém é derrubado o tempo todo nos treinos, o que é importante aprender para não se machucar?',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'A capoeira foi criada, historicamente, como uma forma de:',
     tip: 'Lembra da Questão 2 desta prova? Pensa em quem criou essa prática e em qual contexto histórico difícil do Brasil.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'O que é um "golpe" em uma luta, de forma geral?',
     tip: 'Pensa num movimento específico que o lutador usa durante o combate, seja para atacar ou se proteger.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que o respeito ao adversário é considerado tão importante nas lutas quanto a técnica?',
     tip: 'Pensa: as lutas ensinam muito mais do que golpes. O que elas ensinam sobre como conviver com os outros?',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'O berimbau, na roda de capoeira, tem a função de:',
     tip: 'Lembra da Questão 10 desta prova? Esse instrumento conduz toda a roda, indicando como o jogo deve ser.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'O que significa "praticar uma luta com disciplina e foco"?',
     tip: 'Lembra da Questão 9 desta prova? A disciplina tem a ver com dedicação e respeito às regras do treino.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Qual destas lutas é reconhecida oficialmente como esporte olímpico?',
     tip: 'Pensa na luta criada por Jigoro Kano, que você estudou na Questão 1 desta prova — ela está nos Jogos Olímpicos desde 1964!',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Bernardo começou a praticar judô e aprendeu que essa luta tem origem em qual país?',
     tip: 'É a mesma origem que você viu na Questão 1 desta prova.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Na escola, Bernardo participou de uma roda de capoeira e ouviu o som de um instrumento musical bem característico. Qual é esse instrumento?',
     tip: 'É o mesmo instrumento das Questões 10 e 18 desta prova — pensa na cabaça na ponta de uma corda só.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu, na aula de karatê, que essa luta tem origem em uma ilha japonesa. Qual é essa origem?',
     tip: 'É a mesma origem da Questão 3 desta prova — pensa na ilha japonesa famosa por essa luta.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Durante o treino de judô, Bernardo aprendeu a cair corretamente no tatame. Por que isso é importante?',
     tip: 'É a mesma ideia da Questão 14 desta prova — pensa em proteção durante as quedas.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Bernardo observou que, antes e depois de cada luta, os praticantes se cumprimentam com respeito. Isso mostra qual valor importante das lutas?',
     tip: 'É o mesmo valor que você viu nas Questões 4 e 13 desta prova.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que a capoeira combina luta com outros elementos culturais. Quais são eles?',
     tip: 'É a mesma combinação da Questão 6 desta prova.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que o judô e o karatê usam faixas de cores diferentes. O professor explicou que elas servem para:',
     tip: 'É a mesma explicação da Questão 11 desta prova.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Capoeira',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a capoeira surgiu, historicamente, como uma forma de resistência cultural de qual grupo?',
     tip: 'É a mesma origem histórica da Questão 15 desta prova.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Lutas',
     type: 'multiple_choice',
     text: 'No treino de judô, Bernardo aprendeu um movimento usado para desequilibrar o adversário e levá-lo ao tatame. Esse tipo de movimento é chamado de:',
     tip: 'É a mesma definição da Questão 16 desta prova.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo o que ele aprendeu de mais importante nas lutas, além dos golpes. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre os valores das lutas, além dos golpes em si.',

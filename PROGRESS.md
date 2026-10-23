@@ -627,6 +627,14 @@ Primeiro dos três lotes independentes do pacote Educação Física/7º, Inglês
 Dry-run, inventário, vocabulário e preservação do lote aprovados; testes completos registrados no PR. Revisões editoriais continuam separadas, quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
 
 
+### Educação Física do 8º ano — E04 (23/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 22 temas documentados. Acrescentado somente `theme`; fontes sem essas linhas e dados por export preservados exatamente. Práticas corporais mantém em aberto modalidades e categorias pedidas; Ginástica, Dança e Capacidades físicas preservam os subtipos como tarefa do aluno. Formulações anteriores de regras e preparação na [issue web #131](https://github.com/guilhermeborba/simulados-bernardo/issues/131), para revisão própria; nenhum campo anterior corrigido neste lote.
+
+Terceiro de três lotes independentes da main após api#259: Geografia, Arte e Educação Física/8º ano. Base integrada: 9.149/23.444 questões com tema e 305/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 9.389/23.444 e 313/780; 8º ano 1.200/1.920 em 40/64. A composição dos três deve atingir 9.869/23.444 e 329/780, com 8º ano 1.680/1.920 em 56/64. E04 segue parcial; próximo trio: Inglês/8º, Português/9º e Matemática/9º.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Inglês do 6º ano — E04 (21/10/2026)
 
 Educação Física do 6º ano foi integrada em api#246/web#106. Este lote acrescenta somente `theme` às 240 questões dos oito simulados gerais de Inglês do 6º ano, sem entradas privadas adicionais. Primeiro lote da disciplina na E04: 17 nomes e critérios em `docs/temas-editoriais.md`. Enunciados, alternativas, gabaritos, dicas, curiosidades, IDs, exports e estrutura foram preservados exatamente.

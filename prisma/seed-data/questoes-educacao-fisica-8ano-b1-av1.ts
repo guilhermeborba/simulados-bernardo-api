@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Quantos jogadores de cada time ficam em quadra ao mesmo tempo em uma partida oficial de voleibol?',
     tip: 'Pensa numa rotação: cada time tem 6 posições na quadra, 3 na frente e 3 atrás.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, quantos pontos vale uma cesta feita de dentro da linha de 3 pontos (arco)?',
     tip: 'Pensa: quanto mais perto da cesta, menos pontos ela costuma valer. A linha de 3 pontos é a mais distante!',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'No handebol, com que parte do corpo os jogadores NÃO podem tocar na bola, segundo as regras oficiais?',
     tip: 'Pensa no nome do esporte: "hand" significa mão em inglês. O que isso sugere sobre qual parte do corpo é mais usada?',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'No futebol, qual jogador pode usar as mãos dentro da própria área?',
     tip: 'Pensa no jogador que fica na frente do gol, com luvas especiais, protegendo a meta do time.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'O que é um "saque" no voleibol?',
     tip: 'Pensa em como cada jogada do vôlei começa — alguém precisa bater na bola primeiro, lá do fundo da quadra.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, o que é uma "cesta de 3 pontos"?',
     tip: 'Pensa na linha curva desenhada na quadra — quem arremessa de fora dela ganha mais pontos pela dificuldade.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Quantos jogadores de cada equipe ficam em quadra em uma partida de handebol?',
     tip: 'É um número parecido com o do futebol de salão — pensa em times menores que o futebol de campo.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Quanto tempo dura, oficialmente, cada tempo de uma partida de futebol profissional?',
     tip: 'Pensa: uma partida completa dura 90 minutos, divididos em duas partes iguais. Quanto é cada parte?',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'O que são "esportes coletivos"?',
     tip: 'Pensa na palavra "coletivo" — ela tem a ver com "coleção de pessoas", ou seja, um grupo trabalhando junto.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Qual destes é considerado um esporte coletivo?',
     tip: 'Pensa em qual dessas opções é jogado em times, com vários jogadores cooperando de um mesmo lado da quadra.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Durante um jogo de voleibol, cada equipe pode tocar na bola no máximo quantas vezes antes de mandá-la para o outro lado?',
     tip: 'Pensa numa jogada comum: alguém recebe, outro levanta a bola, e um terceiro ataca. Quantos toques foram esses?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Se um jogador de basquete anda com a bola nas mãos sem quicá-la no chão, isso é chamado de:',
     tip: 'Pensa no nome que combina com "andar" — o jogador precisa continuar quicando a bola enquanto se movimenta.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Em uma partida de handebol, o que acontece se um jogador ficar mais de 3 segundos parado com a bola nas mãos sem driblar?',
     tip: 'Pensa: as regras existem para manter o jogo dinâmico. Ficar parado demais com a bola prejudica o ritmo da partida.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'O que é "impedimento" no futebol?',
     tip: 'Pensa em uma regra que impede que o atacante fique "esperando" sozinho perto do gol adversário, sem nenhum defensor por perto.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Qual é o objetivo principal do voleibol dentro de uma jogada?',
     tip: 'Pensa: no vôlei não existe gol nem cesta. O que acontece quando a bola cai no chão do outro lado da rede?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'No basquete, o que é um "drible"?',
     tip: 'Pensa no som "tec, tec, tec" que a bola faz batendo no chão enquanto o jogador corre pela quadra.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Em uma partida de handebol, como os jogadores costumam arremessar a bola para o gol?',
     tip: 'Pensa no nome do esporte, que já apareceu antes nesta prova — tem a ver com qual parte do corpo?',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'O que é um "escanteio" no futebol?',
     tip: 'Pensa na palavra "canto" dentro de "escanteio" — a cobrança é feita bem no canto do campo!',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'Por que o trabalho em equipe é importante nos esportes coletivos?',
     tip: 'Lembra da definição de "esporte coletivo" que você viu antes nesta prova? Ela já dá a resposta!',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Práticas corporais',
     type: 'multiple_choice',
     text: 'Qual destes esportes é jogado com uma rede dividindo a quadra em duas partes?',
     tip: 'Pensa no esporte em que os times nunca se encontram do mesmo lado da quadra — sempre separados por algo no meio.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Bernardo jogou vôlei na aula de Educação Física e teve que bater na bola para começar a jogada. Esse movimento se chama:',
     tip: 'É o mesmo movimento que você viu na Questão 5 desta prova — o que inicia cada jogada do vôlei.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Na aula, Bernardo fez uma cesta de fora da linha mais distante da cesta e o professor disse que valia mais pontos. Quantos pontos valeu essa cesta?',
     tip: 'É a mesma cesta que você estudou na Questão 2 e na Questão 6 desta prova!',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Bernardo jogou handebol com os colegas e reparou que só um jogador podia usar as mãos para defender dentro da área, parecido com o futebol. Quem é esse jogador no handebol?',
     tip: 'Pensa no jogador que fica na frente do gol, igual no futebol, protegendo a meta.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Durante um jogo de futebol no recreio, Bernardo viu o goleiro pegar a bola com as mãos dentro da própria área. Isso é permitido porque:',
     tip: 'Lembra da Questão 4 desta prova? Só um jogador tem essa permissão especial, e apenas dentro de um lugar específico.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Bernardo contou para o pai que, no vôlei, sua equipe só pode tocar na bola um certo número de vezes antes de mandá-la para o outro lado. Quantas vezes, no máximo?',
     tip: 'É a mesma regra da Questão 11 desta prova — pensa na sequência receber, levantar, atacar.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Basquete',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que, no basquete, não se pode andar com a bola na mão sem quicá-la. Esse erro se chama:',
     tip: 'É a mesma infração que você viu na Questão 12 desta prova — pensa no verbo "andar".',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Handebol',
     type: 'multiple_choice',
     text: 'Bernardo jogou handebol e ficou alguns segundos parado com a bola sem driblar. O árbitro marcou uma infração. Qual foi o motivo?',
     tip: 'Lembra da Questão 13 desta prova? Existe um limite de segundos para ficar parado com a bola nas mãos.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Futebol',
     type: 'multiple_choice',
     text: 'Assistindo a uma partida de futebol com a família, Bernardo viu o árbitro marcar um "impedimento". O que isso significa?',
     tip: 'É a mesma regra da Questão 14 desta prova — pensa em quem fica "esperando" sozinho perto do gol adversário.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Voleibol',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, no vôlei, existe uma rede dividindo a quadra. Qual é o objetivo principal do jogo?',
     tip: 'É o mesmo objetivo que você viu na Questão 15 desta prova — pensa no que acontece quando ninguém consegue defender a bola.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Regras e convivência',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor de Educação Física explicou para Bernardo que esportes como vôlei, basquete, handebol e futebol são chamados de esportes coletivos porque:',
     tip: 'Lembra da definição que você viu na Questão 9 desta prova? Ela resume bem o que é um esporte coletivo.',

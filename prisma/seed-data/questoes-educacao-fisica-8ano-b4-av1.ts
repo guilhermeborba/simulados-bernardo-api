@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Alimentação saudável',
     type: 'multiple_choice',
     text: 'Por que é importante se hidratar bem durante e após a prática de atividades físicas?',
     tip: 'Pensa no que acontece com o corpo quando você sua bastante — ele perde algo importante que precisa ser reposto.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Alimentação saudável',
     type: 'multiple_choice',
     text: 'O que é uma alimentação equilibrada, para quem pratica atividades físicas regularmente?',
     tip: 'Pensa na palavra "equilibrada" — ela tem a ver com variedade e quantidade certa, não com excesso de um só tipo de comida.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O que é o "sedentarismo"?',
     tip: 'Pensa no oposto de "ser ativo" — uma pessoa que fica muito tempo parada, sem se exercitar.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual é um dos principais benefícios da prática regular de atividade física para a saúde?',
     tip: 'Pensa em como o corpo reage quando você corre ou pratica esportes — o coração bate mais forte e os músculos trabalham.',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que é importante fazer alongamento antes e depois de se exercitar?',
     tip: 'Pensa em como um elástico frio pode rasgar mais fácil que um elástico já "aquecido" — os músculos funcionam de um jeito parecido.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O que pode acontecer com uma pessoa que passa a maior parte do tempo sentada, sem se exercitar?',
     tip: 'Lembra da Questão 3 desta prova? Pensa nos riscos de ficar muito tempo parado, sem mover o corpo.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de hábito saudável no dia a dia?',
     tip: 'Pensa em tudo que você já viu nesta prova sobre exercício e alimentação — qual opção combina bem essas boas práticas?',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Sono e descanso',
     type: 'multiple_choice',
     text: 'Por que o sono de qualidade é importante para quem pratica atividades físicas?',
     tip: 'Pensa em como você se sente depois de uma boa noite de sono, comparado a uma noite mal dormida, antes de se exercitar.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'O que é uma "boa postura corporal"?',
     tip: 'Pensa em como seu corpo deveria estar posicionado, sentado ou em pé, para evitar dores nas costas no futuro.',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Qual destas atitudes ajuda a prevenir lesões durante a prática de esportes?',
     tip: 'Pensa em tudo que você já estudou sobre segurança nos esportes e lutas ao longo deste ano.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Por que praticar atividade física regularmente ajuda a prevenir doenças relacionadas ao sedentarismo?',
     tip: 'Lembra da Questão 4 desta prova? Pensa em como o exercício fortalece diferentes partes do corpo ao mesmo tempo.',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Alimentação saudável',
     type: 'multiple_choice',
     text: 'O que pode acontecer se uma pessoa se exercitar de forma intensa sem se hidratar adequadamente?',
     tip: 'Lembra da Questão 1 desta prova? Pensa no que acontece quando o corpo perde líquido demais sem repor.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Alimentação saudável',
     type: 'multiple_choice',
     text: 'Por que alimentos variados, como frutas e verduras, são importantes na alimentação de quem se exercita?',
     tip: 'Lembra da Questão 2 desta prova? Pensa no que frutas e verduras oferecem para o corpo funcionar bem.',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual é uma consequência comum do sedentarismo ao longo do tempo?',
     tip: 'Lembra das Questões 3 e 6 desta prova? Pensa nos riscos de ficar muito tempo sem se movimentar.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Por que o aquecimento antes do exercício ajuda a melhorar o desempenho físico?',
     tip: 'Lembra da Questão 5 desta prova? Pensa em como o corpo precisa "esquentar" antes do esforço maior.',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'O que caracteriza um "estilo de vida saudável", de forma geral?',
     tip: 'Pensa em tudo que você estudou nesta prova: exercício, alimentação e sono — qual opção junta tudo isso de forma equilibrada?',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Por que é importante variar os tipos de atividade física praticados (como esportes, danças e lutas)?',
     tip: 'Pensa em tudo que você estudou este ano: esportes, lutas, danças, ginástica... cada um desenvolve algo diferente no corpo.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'Qual é a relação entre uma boa postura e a prática de atividades físicas?',
     tip: 'Lembra da Questão 9 desta prova? Pensa em como fortalecer o corpo ajuda a mantê-lo mais alinhado.',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Sono e descanso',
     type: 'multiple_choice',
     text: 'Por que dormir bem é considerado parte importante de um estilo de vida saudável, junto com a atividade física?',
     tip: 'Lembra da Questão 8 desta prova? Pensa em como o corpo se recupera enquanto você dorme.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Qual destas é uma atitude que combina vários hábitos saudáveis ao mesmo tempo?',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre o que forma um estilo de vida saudável completo.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Alimentação saudável',
     type: 'multiple_choice',
     text: 'Bernardo bebeu bastante água antes, durante e depois do treino de futebol. Por que isso é importante?',
     tip: 'É a mesma ideia da Questão 1 desta prova.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Na escola, Bernardo aprendeu que passar o dia todo sentado, sem se movimentar, pode trazer riscos à saúde. Esse estilo de vida é chamado de:',
     tip: 'É o mesmo termo da Questão 3 desta prova.',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo fez um prato bem variado no almoço, com arroz, feijão, verduras e frango. Isso é um exemplo de:',
     tip: 'É o mesmo conceito da Questão 2 desta prova.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'Antes do treino de vôlei, Bernardo fez alguns alongamentos com o professor. Qual é o principal objetivo desse aquecimento?',
     tip: 'É a mesma ideia das Questões 5 e 15 desta prova.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Sono e descanso',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que dormir bem na noite anterior o deixou com mais energia para o treino do dia seguinte. Isso mostra que o sono é importante porque:',
     tip: 'É a mesma ideia das Questões 8 e 19 desta prova.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Postura',
     type: 'multiple_choice',
     text: 'O professor de Educação Física corrigiu a postura de Bernardo, que estava sentado torto na cadeira. Por que manter uma boa postura é importante?',
     tip: 'É a mesma ideia da Questão 9 desta prova.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo e a família decidiram caminhar juntos todos os fins de semana, em vez de ficar só em casa. Essa mudança ajuda a combater principalmente:',
     tip: 'É o mesmo risco das Questões 3, 6, 14 e 22 desta prova.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que praticar diferentes esportes, como futebol, natação e ginástica, traz benefícios diversos para o corpo. Por que isso acontece?',
     tip: 'É a mesma ideia da Questão 17 desta prova.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Alimentação saudável',
     type: 'multiple_choice',
     text: 'Bernardo sentiu muita sede durante um treino muito puxado em um dia de calor. O que ele deve fazer para evitar a desidratação?',
     tip: 'É a mesma ideia das Questões 1 e 12 desta prova.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Saúde e bem-estar',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor resumiu para Bernardo o que forma um estilo de vida saudável. Qual destas combinações está correta?',
     tip: 'É a mesma combinação das Questões 16 e 20 desta prova.',

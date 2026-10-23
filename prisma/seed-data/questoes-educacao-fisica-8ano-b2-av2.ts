@@ -1,6 +1,7 @@
 export const questoesEducacaoFisica8AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A ginástica artística é praticada, geralmente, em quais aparelhos?',
     tip: 'Pensa em equipamentos fixos, instalados num ginásio, usados para saltos, giros e equilíbrio.',
@@ -16,6 +17,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A ginástica rítmica é praticada, geralmente, com quais materiais?',
     tip: 'Pensa em objetos levados nas mãos da ginasta, usados para fazer movimentos de dança junto com a técnica.',
@@ -31,6 +33,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'O que é a "ginástica geral"?',
     tip: 'Pensa numa ginástica mais "para todo mundo", sem a pressão de competições oficiais, feita em grupo.',
@@ -46,6 +49,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual destas qualidades físicas é muito desenvolvida pela prática da ginástica?',
     tip: 'Pensa nos movimentos de ginástica que você já viu: giros, pontes, equilíbrio na trave... o que esses movimentos exigem do corpo?',
@@ -61,6 +65,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na ginástica artística, o que é feito no aparelho chamado "trave"?',
     tip: 'Pensa num aparelho bem fininho e alto, onde a ginasta precisa manter o equilíbrio enquanto faz giros e saltos.',
@@ -76,6 +81,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na ginástica rítmica, o que a ginasta costuma fazer enquanto manipula os objetos (bola, fita, arco)?',
     tip: 'Pensa em como a ginástica rítmica combina música, dança e manuseio de objetos ao mesmo tempo.',
@@ -91,6 +97,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Qual destas é uma característica importante para quem pratica ginástica?',
     tip: 'Pensa em tudo que um ginasta precisa ter ao mesmo tempo: dobrar o corpo, sustentar peso, não cair e se mover com precisão.',
@@ -106,6 +113,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'A ginástica geral costuma ser praticada em:',
     tip: 'Lembra da Questão 3 desta prova? Essa modalidade valoriza a participação em conjunto, não a competição individual.',
@@ -121,6 +129,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'O "solo", na ginástica artística, é o espaço onde o ginasta realiza:',
     tip: 'Pensa no nome "solo" — tem a ver com "chão". O que um ginasta faz direto no chão, sem nenhum aparelho elevado?',
@@ -136,6 +145,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual destes materiais é usado na ginástica rítmica?',
     tip: 'Lembra da Questão 2 desta prova? É um dos cinco objetos típicos dessa modalidade.',
@@ -151,6 +161,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Por que o equilíbrio é uma habilidade tão importante na ginástica, especialmente na trave?',
     tip: 'Pensa no tamanho estreito da trave, que você viu na Questão 5 — o que acontece se o ginasta perder o equilíbrio ali?',
@@ -166,6 +177,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual é uma diferença importante entre a ginástica artística e a ginástica rítmica?',
     tip: 'Pensa em tudo que você já viu nesta prova: uma modalidade usa equipamentos fixos no ginásio, e a outra usa objetos levados nas mãos.',
@@ -181,6 +193,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Por que a flexibilidade é tão trabalhada por quem pratica ginástica?',
     tip: 'Pensa em um ginasta fazendo uma ponte ou um giro bem aberto — o que a flexibilidade permite fazer com mais facilidade?',
@@ -196,6 +209,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na ginástica geral, o que é mais valorizado, diferente das modalidades competitivas?',
     tip: 'Lembra das Questões 3 e 8 desta prova? Essa modalidade não é sobre competir e sim sobre se expressar em grupo.',
@@ -211,6 +225,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Preparação e segurança',
     type: 'multiple_choice',
     text: 'O que pode acontecer se um ginasta não treinar o equilíbrio antes de se arriscar em movimentos mais difíceis na trave?',
     tip: 'Pensa em como o equilíbrio protege o ginasta — sem ele, o que pode acontecer numa superfície tão estreita?',
@@ -226,6 +241,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual destes aparelhos faz parte da ginástica artística masculina, mas não é usado na feminina (nas competições oficiais)?',
     tip: 'Pensa num aparelho em que o ginasta se sustenta pelos braços, pendurado no alto — é mais comum entre os homens nas competições.',
@@ -241,6 +257,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na ginástica rítmica, a combinação entre música e movimento serve para:',
     tip: 'Lembra da Questão 6 desta prova? A música e o movimento se combinam para criar algo além da simples técnica.',
@@ -256,6 +273,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Por que a coordenação motora é importante tanto na ginástica artística quanto na rítmica?',
     tip: 'Pensa em quantos movimentos diferentes o corpo faz ao mesmo tempo numa ginástica: braços, pernas, cabeça... tudo precisa estar sincronizado!',
@@ -271,6 +289,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Qual é um benefício de praticar ginástica geral em grupo, na escola, por exemplo?',
     tip: 'Lembra das Questões 3, 8 e 14 desta prova? Essa modalidade é toda baseada em fazer algo junto com outras pessoas.',
@@ -286,6 +305,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'O que diferencia o "solo" da "trave" na ginástica artística?',
     tip: 'Lembra das Questões 5 e 9 desta prova? Pensa no espaço disponível em cada um desses dois aparelhos.',
@@ -301,6 +321,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Bernardo assistiu a uma apresentação de ginástica artística e viu uma ginasta fazendo movimentos de equilíbrio numa superfície estreita e elevada. Em qual aparelho ela estava?',
     tip: 'É o mesmo aparelho das Questões 5, 11 e 20 desta prova.',
@@ -316,6 +337,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Na aula de Educação Física, Bernardo usou uma fita para fazer movimentos de dança coordenados com música. Essa prática pertence a qual modalidade?',
     tip: 'Pensa no objeto usado: fita, bola, arco... qual modalidade usa esses materiais que você já viu nesta prova?',
@@ -331,6 +353,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma apresentação de ginástica na escola, em grupo, sem competição oficial, só para se divertir e se expressar com os colegas. Essa modalidade se chama:',
     tip: 'É a mesma modalidade das Questões 3, 8, 14 e 19 desta prova — pensa na participação em grupo, sem competição.',
@@ -346,6 +369,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo treinou sua flexibilidade e seu equilíbrio na aula de ginástica. Por que essas habilidades são tão importantes?',
     tip: 'Lembra das Questões 4, 13 e 15 desta prova? Pensa em como essas habilidades ajudam a evitar quedas e fazer movimentos mais abertos.',
@@ -361,6 +385,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Bernardo viu um colega se apresentando no "solo" da ginástica artística. O que ele provavelmente fez?',
     tip: 'É a mesma atividade das Questões 9 e 20 desta prova.',
@@ -376,6 +401,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que existem aparelhos diferentes entre a ginástica masculina e feminina nas competições oficiais. Qual aparelho é exclusivo da ginástica artística masculina?',
     tip: 'É o mesmo aparelho da Questão 16 desta prova.',
@@ -391,6 +417,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Durante a aula, Bernardo perguntou por que a música é tão importante na ginástica rítmica. O professor explicou que ela serve para:',
     tip: 'É a mesma ideia das Questões 6 e 17 desta prova.',
@@ -406,6 +433,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, antes de arriscar movimentos mais difíceis na trave, é preciso treinar bastante uma habilidade específica. Qual é ela?',
     tip: 'É a mesma habilidade das Questões 11 e 15 desta prova.',
@@ -421,6 +449,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Ginástica',
     type: 'multiple_choice',
     text: 'Bernardo participou de uma apresentação coletiva de ginástica geral na escola. O que é mais valorizado nesse tipo de apresentação?',
     tip: 'É a mesma ideia das Questões 14 e 19 desta prova.',
@@ -436,6 +465,7 @@ export const questoesEducacaoFisica8AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Capacidades físicas',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo quais habilidades físicas são mais desenvolvidas pela prática da ginástica. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você revisou nesta prova sobre o que a ginástica desenvolve no corpo.',
