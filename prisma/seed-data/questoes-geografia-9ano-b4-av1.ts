@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'O que é o "efeito estufa"?',
     tip: 'Pensa numa estufa de plantas — ela retém calor dentro de si. A atmosfera faz algo parecido com o planeta inteiro.',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'O que é o "aquecimento global"?',
     tip: 'Pensa no próprio nome: "aquecimento" tem a ver com aumento de temperatura, e "global" significa que afeta o planeta todo.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Qual destas atividades humanas mais contribui para o aumento de gases do efeito estufa?',
     tip: 'Pensa em carros, fábricas e usinas que queimam algo para gerar energia — o que isso libera no ar?',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'O desmatamento de florestas, como a Amazônia, contribui para as mudanças climáticas porque:',
     tip: 'Pensa no papel das árvores: elas absorvem gás carbônico do ar. O que acontece se tiver menos árvores?',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'O que é o Acordo de Paris, firmado por diversos países?',
     tip: 'Pensa no tema principal discutido entre os países que assinaram esse acordo: o clima do planeta.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Qual destas é uma fonte de energia renovável, menos prejudicial ao meio ambiente?',
     tip: 'Pensa numa fonte de energia que nunca se esgota, vinda diretamente do céu, usada em painéis instalados em telhados.',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Uma das consequências do aquecimento global é o derretimento das geleiras, o que pode causar:',
     tip: 'Pensa: se o gelo dos polos derrete e se transforma em água líquida, para onde essa água vai?',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'O que são os ODS (Objetivos de Desenvolvimento Sustentável)?',
     tip: 'Pensa na organização internacional que você estudou em outra prova este ano — ela também criou essas metas globais.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Qual destes é considerado um evento climático extremo, que pode se tornar mais frequente com o aquecimento global?',
     tip: 'Pensa em fenômenos climáticos bem fora do normal, que causam problemas sérios, como falta de água e incêndios.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que a poluição do ar nas grandes cidades é considerada um problema ambiental importante?',
     tip: 'Pensa em como é respirar em um dia muito poluído, com fumaça de carros e fábricas no ar.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Por que a queima de combustíveis fósseis é tão associada ao aquecimento global?',
     tip: 'Lembra da Questão 3 desta prova? Pensa no que sai do escapamento de um carro ou da chaminé de uma fábrica.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Qual é a relação entre o desmatamento e as mudanças climáticas?',
     tip: 'É a mesma ideia da Questão 4 desta prova.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Por que os países assinaram o Acordo de Paris?',
     tip: 'É o mesmo objetivo da Questão 5 desta prova.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Por que a energia solar é considerada uma alternativa mais sustentável do que o carvão ou o petróleo?',
     tip: 'É a mesma ideia da Questão 6 desta prova.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Qual é uma possível consequência do derretimento acelerado das geleiras polares?',
     tip: 'É a mesma consequência da Questão 7 desta prova.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Por que os ODS da ONU incluem metas relacionadas ao meio ambiente?',
     tip: 'É a mesma ideia da Questão 8 desta prova.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Qual é uma consequência de eventos climáticos extremos mais frequentes, como secas e ondas de calor?',
     tip: 'Lembra da Questão 9 desta prova? Pensa em como secas e ondas de calor podem afetar o plantio e a saúde das pessoas.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Por que a poluição do ar está diretamente ligada ao uso de veículos e indústrias nas grandes cidades?',
     tip: 'É a mesma ideia da Questão 10 desta prova.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Por que é importante que diferentes países cooperem para enfrentar as mudanças climáticas?',
     tip: 'Pensa no Acordo de Paris, que você viu nesta prova — por que tantos países diferentes decidiram assinar o mesmo compromisso?',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Qual é uma atitude individual que pode ajudar a reduzir o impacto ambiental no dia a dia?',
     tip: 'Pensa em pequenas atitudes do dia a dia que ajudam o planeta, mesmo em casa ou na escola.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu na escola que a queima de combustíveis fósseis libera gases que agravam o aquecimento global. Qual destes é um exemplo de combustível fóssil?',
     tip: 'É o mesmo tipo de combustível das Questões 3 e 11 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que o desmatamento da Amazônia prejudica o clima do planeta. Por que isso acontece?',
     tip: 'É a mesma explicação das Questões 4 e 12 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Bernardo leu sobre um acordo internacional em que vários países se comprometeram a reduzir as emissões de gases poluentes. Qual é esse acordo?',
     tip: 'É o mesmo acordo das Questões 5 e 13 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que o derretimento das geleiras pode causar um problema grave para regiões costeiras. Qual é esse problema?',
     tip: 'É o mesmo problema das Questões 7 e 15 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Fontes de energia',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu sobre fontes de energia mais sustentáveis, que não dependem da queima de combustíveis fósseis. Qual destas é um exemplo?',
     tip: 'É a mesma fonte de energia das Questões 6 e 14 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Bernardo quis saber o que são os ODS da ONU. A resposta certa é:',
     tip: 'É a mesma definição das Questões 8 e 16 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, em dias muito poluídos na cidade, é mais difícil respirar ao ar livre. Isso mostra como a poluição do ar pode:',
     tip: 'É a mesma consequência das Questões 10 e 18 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Sustentabilidade',
     type: 'multiple_choice',
     text: 'Bernardo decidiu economizar água e energia em casa, além de separar o lixo para reciclagem. Essas atitudes ajudam a:',
     tip: 'É a mesma ideia da Questão 20 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Preservação ambiental',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que eventos como secas e ondas de calor têm se tornado mais frequentes. Isso está relacionado a qual fenômeno global?',
     tip: 'É o mesmo fenômeno das Questões 2, 9 e 17 desta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Mudanças climáticas',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo por que é importante que os países cooperem para enfrentar as mudanças climáticas. Bernardo respondeu corretamente:',
     tip: 'É a mesma conclusão da Questão 19 desta prova.',

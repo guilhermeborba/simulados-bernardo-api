@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB3Av1 = [
   {
     id: 1,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'A Ásia é considerada o continente:',
     tip: 'Pensa em países bem grandes e com muita gente, como China e Índia — em qual continente eles estão?',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 2,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Qual destes países é considerado uma grande potência econômica da Ásia?',
     tip: 'Pensa no único país da lista localizado no continente asiático — os outros ficam na África, América e Europa.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 3,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'O Monte Everest, o ponto mais alto do mundo, está localizado em qual cordilheira asiática?',
     tip: 'Pensa numa cordilheira entre Nepal e China, famosa por ser a mais alta do planeta.',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 4,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Qual é o país mais populoso do mundo atualmente, entre os países asiáticos?',
     tip: 'Pensa num país com mais de 1,4 bilhão de habitantes, que recentemente superou a China em população.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 5,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'A região do Oriente Médio, localizada na Ásia, é conhecida principalmente por sua grande produção de:',
     tip: 'Pensa num recurso natural muito usado em combustíveis, que torna essa região tão importante para a economia mundial.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 6,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'O Japão é conhecido mundialmente por sua forte presença em qual setor econômico?',
     tip: 'Pensa em marcas de carros e eletrônicos japoneses que você já conhece, vendidos no mundo todo.',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 7,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Qual destas religiões teve origem no continente asiático?',
     tip: 'Pensa numa religião praticada em vários países, como Tailândia e Japão, que surgiu há milhares de anos na Ásia.',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 8,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'A China é conhecida por ser, atualmente, uma das maiores:',
     tip: 'Pensa em produtos fabricados na China que você já usou ou viu — eletrônicos, roupas, brinquedos...',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 9,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual destes é um exemplo de deserto localizado no continente asiático?',
     tip: 'Pensa no único deserto da lista que fica perto da China e da Mongólia — os outros ficam na África e na América do Sul.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 10,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'A Ásia é um continente que apresenta grande diversidade de:',
     tip: 'Pensa em tudo que você já viu nesta prova: montanhas geladas, desertos, grandes cidades... a Ásia é bem variada!',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 11,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Por que a Ásia é considerada o continente mais populoso do mundo?',
     tip: 'Lembra das Questões 1 e 4 desta prova? Pensa nos dois países mais populosos do mundo e onde eles estão localizados.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 12,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Por que o Himalaia é uma característica geográfica tão importante da Ásia?',
     tip: 'Lembra da Questão 3 desta prova? Pensa na montanha mais alta do mundo e no que ela representa para a região.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 13,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'Por que o Oriente Médio é uma região estrategicamente importante no cenário mundial?',
     tip: 'Lembra da Questão 5 desta prova? Pensa no recurso natural que torna essa região tão disputada e importante economicamente.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 14,
+    theme: 'Trabalho e tecnologia',
     type: 'multiple_choice',
     text: 'Qual é uma razão para o Japão ser considerado uma potência tecnológica, mesmo tendo um território relativamente pequeno?',
     tip: 'Lembra da Questão 6 desta prova? Pensa em como um país pequeno pode se tornar tão avançado tecnologicamente.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 15,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que a diversidade religiosa da Ásia é tão significativa para a história mundial?',
     tip: 'É a mesma ideia da Questão 7 desta prova.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 16,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Qual é uma consequência do crescimento econômico da China nas últimas décadas?',
     tip: 'É a mesma ideia das Questões 2 e 8 desta prova.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 17,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Por que os desertos, como o de Gobi, são importantes para entender a diversidade geográfica da Ásia?',
     tip: 'Lembra das Questões 9 e 10 desta prova? Pensa em como um mesmo continente pode ter paisagens tão diferentes.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 18,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Qual é uma característica populacional importante da Índia, um dos países mais populosos do mundo?',
     tip: 'Pensa num país tão grande e populoso que reúne muitas culturas e línguas diferentes dentro das suas próprias fronteiras.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 19,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Por que entender a geografia da Ásia é importante para entender a economia mundial atual?',
     tip: 'Pensa em tudo que você já estudou nesta prova sobre a força econômica de países asiáticos.',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 20,
+    theme: 'Relações internacionais',
     type: 'multiple_choice',
     text: 'Qual destes é um motivo para a Ásia ser um continente de grande importância geopolítica?',
     tip: 'Pensa em tudo que você já aprendeu nesta prova sobre a importância econômica e estratégica de partes da Ásia.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 21,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo estudou um mapa e descobriu que o Monte Everest, o ponto mais alto do mundo, está em qual cordilheira?',
     tip: 'É a mesma cordilheira das Questões 3 e 12 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 22,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que um país asiático é o mais populoso do mundo atualmente. Qual é esse país?',
     tip: 'É o mesmo país das Questões 4, 11 e 18 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 23,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que uma região da Ásia é muito importante por concentrar grandes reservas de um recurso natural essencial para a economia mundial. Qual é essa região?',
     tip: 'É a mesma região das Questões 5 e 13 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 24,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Bernardo leu sobre um país asiático conhecido por sua forte presença em tecnologia e na indústria automobilística. Qual é esse país?',
     tip: 'É o mesmo país das Questões 6 e 14 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 25,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que várias religiões praticadas hoje no mundo, como o Budismo, têm origem em qual continente?',
     tip: 'É a mesma origem das Questões 7 e 15 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 26,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que a China se tornou, nas últimas décadas, uma das maiores potências econômicas do mundo. O que isso mostra sobre o país?',
     tip: 'É a mesma conclusão das Questões 2, 8 e 16 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 27,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo estudou sobre um deserto localizado na Ásia, diferente do deserto do Saara que fica na África. Qual é esse deserto asiático?',
     tip: 'É o mesmo deserto das Questões 9 e 17 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 28,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que a Índia tem uma enorme diversidade cultural, linguística e religiosa dentro do próprio território. Isso mostra que o país é marcado por:',
     tip: 'É a mesma ideia da Questão 18 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 29,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Bernardo concluiu, após estudar o continente asiático, que ele é o mais populoso e com o maior território do mundo. Isso se deve principalmente a quais países?',
     tip: 'É a mesma conclusão das Questões 1 e 11 desta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB3Av1 = [
   },
   {
     id: 30,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo por que a Ásia é tão importante no cenário mundial atual. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre a importância da Ásia no mundo atual.',

@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'A África é um continente formado por quantos países, aproximadamente?',
     tip: 'Pensa num continente bem grande, dividido em muitas nações diferentes — bem mais do que você imagina!',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'O Deserto do Saara, um dos maiores desertos do mundo, está localizado em qual continente?',
     tip: 'Pensa no deserto mais famoso do mundo, que ocupa boa parte do norte desse continente.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'A civilização do Egito Antigo, uma das mais importantes da história, se desenvolveu às margens de qual rio africano?',
     tip: 'Pensa no rio famoso pelas pirâmides e pelos faraós, que corta o Egito de norte a sul.',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Entre os séculos XIX e XX, a África passou por um processo histórico marcante conhecido como:',
     tip: 'Pensa num processo em que países europeus dividiram o território africano entre si, sem respeitar os povos locais.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'A África é um continente que apresenta grande diversidade de:',
     tip: 'Pensa em paisagens bem diferentes que você já viu em documentários sobre a África: desertos secos, savanas com animais, florestas densas...',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'Qual destes é um importante recurso natural encontrado em diversos países africanos?',
     tip: 'Pensa em pedras preciosas e metais valiosos, muito explorados em países como África do Sul e Botswana.',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'O processo de colonização europeia na África, ocorrido principalmente no século XIX, teve como uma das consequências:',
     tip: 'Lembra da Questão 4 desta prova? Pensa em como as fronteiras foram traçadas por europeus, sem considerar os povos locais.',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Qual destes é um bioma africano conhecido por grandes extensões de vegetação rasteira e animais como leões e elefantes?',
     tip: 'Pensa num bioma famoso por documentários sobre a vida selvagem africana, com vegetação baixa e muitos animais grandes.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'A diversidade étnica e linguística da África é resultado principalmente de:',
     tip: 'Pensa em como um continente tão grande e com tantos países pode abrigar muitos povos diferentes.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Qual destes países está localizado no continente africano?',
     tip: 'É o mesmo país das pirâmides e do Rio Nilo, que você viu na Questão 3 desta prova.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Por que a "Partilha da África" pelas potências europeias é considerada um evento histórico tão impactante?',
     tip: 'Lembra das Questões 4 e 7 desta prova? Pensa nas consequências de dividir território sem considerar os povos locais.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Por que o Rio Nilo foi tão importante para o surgimento da civilização egípcia antiga?',
     tip: 'Lembra da Questão 3 desta prova? Pensa em como um rio pode tornar possível a agricultura em uma região tão seca.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'Qual é uma riqueza natural importante de muitos países africanos, relacionada à mineração?',
     tip: 'É a mesma riqueza da Questão 6 desta prova.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que a diversidade étnica e cultural da África é tão significativa?',
     tip: 'É a mesma ideia da Questão 9 desta prova.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Qual é uma consequência histórica da colonização europeia que ainda afeta a África atualmente?',
     tip: 'É a mesma consequência das Questões 4, 7 e 11 desta prova.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Por que a savana africana é um bioma tão conhecido mundialmente?',
     tip: 'É o mesmo bioma da Questão 8 desta prova.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Qual é uma das potencialidades econômicas da África, apesar dos desafios históricos enfrentados?',
     tip: 'Pensa em tudo que você já viu nesta prova sobre os recursos naturais e a diversidade do continente.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Por que entender a história da colonização é importante para compreender os desafios atuais de muitos países africanos?',
     tip: 'É a mesma ideia das Questões 11 e 15 desta prova.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'O que caracteriza o Deserto do Saara, um dos maiores do mundo?',
     tip: 'É o mesmo deserto da Questão 2 desta prova.',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Por que é importante reconhecer a diversidade e as riquezas da África, além dos desafios que o continente enfrenta?',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre as riquezas naturais, culturais e o potencial do continente africano.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo estudou sobre uma das civilizações mais importantes da história, que se desenvolveu às margens de um grande rio africano. Qual é esse rio?',
     tip: 'É o mesmo rio das Questões 3 e 12 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu sobre um processo histórico em que potências europeias dividiram o território africano entre si. Como esse processo é chamado?',
     tip: 'É o mesmo processo das Questões 4, 7, 11 e 15 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que um dos maiores desertos do mundo está localizado no norte da África. Qual é esse deserto?',
     tip: 'É o mesmo deserto das Questões 2 e 19 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Biomas',
     type: 'multiple_choice',
     text: 'Bernardo viu um documentário sobre a savana africana e os animais que vivem lá. Quais destes animais são típicos desse bioma?',
     tip: 'É o mesmo bioma das Questões 8 e 16 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'Formação territorial',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que as fronteiras de muitos países africanos causam conflitos até hoje. A resposta certa é:',
     tip: 'É a mesma explicação das Questões 7, 15 e 18 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Recursos naturais',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que a África tem uma enorme riqueza em recursos minerais. Quais destes são exemplos citados na aula?',
     tip: 'É a mesma riqueza das Questões 6 e 13 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que a África tem milhares de grupos étnicos diferentes, cada um com sua própria língua e tradição. Isso mostra que o continente é marcado por:',
     tip: 'É a mesma conclusão das Questões 9 e 14 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo estudou que o Rio Nilo foi essencial para o surgimento da civilização egípcia antiga. Por que esse rio era tão importante?',
     tip: 'É a mesma explicação das Questões 12 e 21 desta prova.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Bernardo concluiu, após estudar a África, que o continente tem grande diversidade e potencial de desenvolvimento, apesar dos desafios históricos. Isso mostra que é importante:',
     tip: 'É a mesma conclusão da Questão 20 desta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo o que ele aprendeu sobre a geografia da África. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre os biomas, povos, recursos e história da África.',

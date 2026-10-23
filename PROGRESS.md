@@ -608,6 +608,14 @@ Este é um dos três lotes independentes autorizados no pacote História, Geogra
 Validação do lote: `npm run seed:dry-run`, inventário JSON, vocabulário, ausência de resposta literal, preservação byte a byte das fontes e comparação dos dados por export aprovados. Demais entradas, cobertura e metadados preservados; testes completos registrados no PR. Quizzes #90 continuam adiados. Sem mudança de contrato ou operação em produção.
 
 
+### Geografia do 9º ano — E04 (23/10/2026)
+
+Oito simulados gerais/240 questões classificados individualmente com 21 temas documentados. Somente `theme` acrescentado; fontes e dados anteriores preservados exatamente. Espaço mundial, Relações internacionais, Economia mundial e Formação territorial mantêm conceitos pedidos em aberto. Delimitação de critérios e coerência entre disciplinas na [issue web #139](https://github.com/guilhermeborba/simulados-bernardo/issues/139).
+
+Terceiro de três lotes independentes da main após api#265: Ciências, História e Geografia do 9º ano. Base integrada: 10.589/23.444 questões com tema e 353/780 simulados completos. Esta branch acrescenta 240 temas/oito simulados: 10.829/23.444 e 361/780; 9º ano 720/1.920 em 24/64. A composição dos três deve atingir 11.309/23.444 e 377/780, com 9º ano 1.200/1.920 em 40/64. E04 segue parcial; próximo trio: Arte, Educação Física e Inglês do 9º ano.
+
+Validação editorial e de preservação aprovada; dry-run, inventário e testes completos registrados no PR. Revisões editoriais continuam separadas; quizzes #90 adiados. Sem mudança de contrato, banco existente, deploy ou seed em produção.
+
 ### Arte do 8º ano — E04 (22/10/2026)
 
 Oito simulados gerais/240 questões classificados individualmente com dez temas documentados. Acrescentado somente `theme`; fontes sem essas linhas e dados por export preservados exatamente. Arte e história reúne comparações, cronologia e identificação dos movimentos na revisão, sem antecipar a resposta; os temas de movimentos são usados quando o contexto já os fornece. B4/AV1, ID 26, usa Modernismo brasileiro para não entregar Música. Os campos anteriores permanecem preservados; testes técnicos não certificam sua precisão pedagógica.

@@ -1,6 +1,7 @@
 export const questoesGeografia9AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'A Europa é um continente conhecido por sua grande diversidade de:',
     tip: 'Pensa em como a Europa tem muitos países pequenos, cada um com sua própria língua e tradições.',
@@ -16,6 +17,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'Qual destes é um país europeu?',
     tip: 'Pensa no único país da lista que fica no continente europeu — os outros ficam na América, Ásia e África.',
@@ -31,6 +33,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'O clima predominante na maior parte da Europa Ocidental é:',
     tip: 'Pensa em países como França e Alemanha — eles têm verão, outono, inverno e primavera bem marcados.',
@@ -46,6 +49,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Qual é um dos principais desafios populacionais enfrentados por muitos países europeus atualmente?',
     tip: 'Pensa no oposto de "muitos bebês nascendo" — muitos países europeus têm mais idosos do que crianças hoje em dia.',
@@ -61,6 +65,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'A Europa é conhecida por abrigar qual importante bloco econômico, que você já estudou nesta prova?',
     tip: 'Pensa no bloco formado justamente por países desse continente, que você estudou no Bloco 1 desta prova.',
@@ -76,6 +81,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Qual destes é um importante rio europeu?',
     tip: 'Pensa num rio que atravessa vários países europeus, como Alemanha, Áustria e Hungria.',
@@ -91,6 +97,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Qual cordilheira (cadeia de montanhas) é famosa na Europa, conhecida por suas estações de esqui?',
     tip: 'Pensa numa cordilheira que atravessa países como Suíça, França e Itália, famosa por paisagens nevadas.',
@@ -106,6 +113,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Migração',
     type: 'multiple_choice',
     text: 'Por que muitos imigrantes de outras regiões do mundo buscam países europeus para viver?',
     tip: 'Pensa no mesmo motivo que leva pessoas a migrarem para os Estados Unidos, que você estudou na prova anterior.',
@@ -121,6 +129,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Qual destes países europeus é conhecido por sua grande produção industrial e tecnológica?',
     tip: 'Lembra da Questão 2 desta prova? É o mesmo país, famoso por carros e máquinas de alta qualidade.',
@@ -136,6 +145,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'A Europa é dividida, de forma geral, em quantas grandes regiões (Ocidental, Oriental, do Norte e do Sul)?',
     tip: 'Pensa nos nomes das regiões citadas na própria pergunta e conte quantas são.',
@@ -151,6 +161,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Por que o envelhecimento da população é considerado um desafio para muitos países europeus?',
     tip: 'Lembra da Questão 4 desta prova? Pensa em quem vai trabalhar e sustentar a economia se a população estiver cada vez mais idosa.',
@@ -166,6 +177,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Como a União Europeia ajuda a fortalecer a economia dos países europeus membros?',
     tip: 'Lembra da Questão 5 desta prova e do que você já estudou sobre blocos econômicos? Pensa nos benefícios de países trabalharem juntos.',
@@ -181,6 +193,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Por que a Alemanha é considerada uma das maiores potências econômicas da Europa?',
     tip: 'É a mesma razão das Questões 2 e 9 desta prova.',
@@ -196,6 +209,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Qual é uma característica do clima temperado, predominante em boa parte da Europa?',
     tip: 'É a mesma característica da Questão 3 desta prova.',
@@ -211,6 +225,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Por que os Alpes são uma importante característica geográfica da Europa?',
     tip: 'É a mesma cordilheira da Questão 7 desta prova.',
@@ -226,6 +241,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Como a diversidade linguística e cultural da Europa se compara ao tamanho do continente?',
     tip: 'É a mesma ideia da Questão 1 desta prova.',
@@ -241,6 +257,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Por que o Rio Danúbio é considerado importante para a Europa?',
     tip: 'É a mesma importância da Questão 6 desta prova.',
@@ -256,6 +273,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Qual é uma das razões pelas quais muitos europeus se preocupam com a baixa taxa de natalidade?',
     tip: 'É a mesma preocupação das Questões 4 e 11 desta prova.',
@@ -271,6 +289,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Qual é a relação entre a União Europeia e a moeda euro, que você já estudou nesta prova?',
     tip: 'Lembra da prova anterior sobre blocos econômicos? Pensa na moeda que você já estudou ali, relacionada à União Europeia.',
@@ -286,6 +305,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Por que a Europa é considerada um continente de grande importância histórica e cultural para o mundo?',
     tip: 'Pensa em movimentos que você já estudou em outras matérias, como o Renascimento ou a Revolução Industrial, que começaram na Europa.',
@@ -301,6 +321,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo estudou um mapa da Europa e descobriu um bloco econômico muito importante formado por países do continente. Qual é esse bloco?',
     tip: 'É o mesmo bloco das Questões 5, 12 e 19 desta prova.',
@@ -316,6 +337,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Relevo',
     type: 'multiple_choice',
     text: 'Bernardo leu sobre uma cordilheira famosa na Europa, conhecida por suas estações de esqui. Qual é essa cordilheira?',
     tip: 'É a mesma cordilheira das Questões 7 e 15 desta prova.',
@@ -331,6 +353,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'População mundial',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que muitos países europeus enfrentam um desafio relacionado ao envelhecimento da população. Qual é esse desafio?',
     tip: 'É o mesmo desafio das Questões 4, 11 e 18 desta prova.',
@@ -346,6 +369,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Economia mundial',
     type: 'multiple_choice',
     text: 'Bernardo estudou sobre um país europeu conhecido por sua forte indústria e tecnologia. Qual é esse país?',
     tip: 'É o mesmo país das Questões 2, 9 e 13 desta prova.',
@@ -361,6 +385,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Clima e cotidiano',
     type: 'multiple_choice',
     text: 'Bernardo aprendeu que grande parte da Europa tem um clima com quatro estações bem definidas. Como se chama esse tipo de clima?',
     tip: 'É o mesmo clima das Questões 3 e 14 desta prova.',
@@ -376,6 +401,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Hidrografia',
     type: 'multiple_choice',
     text: 'Bernardo descobriu que o Rio Danúbio atravessa vários países europeus. Por que esse rio é tão importante para a região?',
     tip: 'É a mesma importância das Questões 6 e 17 desta prova.',
@@ -391,6 +417,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo percebeu que, apesar de ser um continente relativamente pequeno, a Europa tem uma enorme diversidade cultural. O que explica isso?',
     tip: 'É a mesma ideia das Questões 1 e 16 desta prova.',
@@ -406,6 +433,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Blocos econômicos',
     type: 'multiple_choice',
     text: 'Bernardo quis saber por que a moeda euro é tão importante para muitos países europeus. A resposta certa é:',
     tip: 'É a mesma vantagem da Questão 19 desta prova e da prova anterior sobre blocos econômicos.',
@@ -421,6 +449,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Cultura e identidade',
     type: 'multiple_choice',
     text: 'Bernardo concluiu que a Europa teve grande importância histórica para o mundo. Por quê?',
     tip: 'É a mesma conclusão da Questão 20 desta prova.',
@@ -436,6 +465,7 @@ export const questoesGeografia9AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Espaço mundial',
     type: 'multiple_choice',
     text: 'No fim da aula, o professor perguntou a Bernardo o que ele aprendeu sobre a geografia da Europa. Bernardo respondeu corretamente:',
     tip: 'Pensa em tudo que você aprendeu nesta prova sobre as características físicas, econômicas e populacionais da Europa.',
