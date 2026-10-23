@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB4Av2 = [
   {
     id: 1,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "O movimento 'DIRETAS JÁ' (1983–1984) foi um dos maiores da história política brasileira. O que foi e qual foi seu resultado imediato?",
     tip: "Milhões foram às ruas — a emenda foi votada e o que aconteceu no Congresso?",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 2,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "A ELEIÇÃO INDIRETA de Tancredo Neves pelo Colégio Eleitoral (1985). Como ele foi eleito?",
     tip: "Tancredo era do PMDB, o regime apoiava Paulo Maluf — como a oposição conseguiu vencer pelo Colégio Eleitoral?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 3,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "A MORTE DE TANCREDO NEVES e a posse de Sarney. O que aconteceu na véspera da posse?",
     tip: "O homem que todo o Brasil esperava que inaugurasse a Nova República nunca chegou a ser empossado — por quê?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 4,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "A ASSEMBLEIA NACIONAL CONSTITUINTE (1987–1988) e a Constituição Cidadã. O que foi e como foi feita?",
     tip: "Quem participou da escrita da Constituição de 1988 e o que a tornou diferente das constituições anteriores?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 5,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "A CONSTITUIÇÃO CIDADÃ DE 1988 — seus principais avanços e limitações.",
     tip: "O que a Constituição de 1988 garantiu que nenhuma anterior havia garantido?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 6,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "O governo COLLOR DE MELLO (1990–1992) — o Plano Collor e o confisco das poupanças.",
     tip: "Como Collor tentou acabar com a hiperinflação — e por que seu plano chocou a população?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 7,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "O IMPEACHMENT DE COLLOR (1992) — o primeiro na história do Brasil. Como aconteceu?",
     tip: "Qual escândalo derrubou Collor, e o que os 'caras-pintadas' tinham a ver com isso?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 8,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "O PLANO REAL (1994) — como Fernando Henrique Cardoso acabou com a hiperinflação.",
     tip: "O que foi a URV e por que a transição gradual funcionou quando outros planos de choque fracassaram?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 9,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "Os dois mandatos de FERNANDO HENRIQUE CARDOSO (FHC, 1995–2002). O que marcou seu governo?",
     tip: "FHC foi o presidente da estabilidade monetária — mas que reformas estruturais ele fez e a que custo?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 10,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "A ELEIÇÃO DE LULA em 2002 — por que foi considerada historicamente importante?",
     tip: "Por que a eleição de um ex-metalúrgico sem ensino fundamental completo à presidência do Brasil foi um marco?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 11,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A QUEDA DO MURO DE BERLIM (novembro de 1989). Como aconteceu?",
     tip: "O que levou a população da Alemanha Oriental às ruas e como o muro caiu sem um único tiro?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 12,
+    theme: 'União Soviética',
     type: "multiple_choice",
     text: "A DISSOLUÇÃO DA URSS (dezembro de 1991). Como o maior país do mundo deixou de existir?",
     tip: "O que causou o fim da União Soviética — uma derrota militar, uma revolução, ou algo mais complexo?",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 13,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O mundo pós-Guerra Fria — a 'NOVA ORDEM MUNDIAL' e o 'momento unipolar' americano.",
     tip: "Com o fim da URSS, qual foi a nova configuração geopolítica do mundo nos anos 1990?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 14,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "A GLOBALIZAÇÃO dos anos 1990. O que foi e quais foram seus impactos?",
     tip: "Como a integração global dos anos 1990 mudou o comércio, as finanças e as culturas ao redor do mundo?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 15,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "O CONSENSO DE WASHINGTON (1989) e as reformas neoliberais na América Latina. O que prescrevia?",
     tip: "Quais medidas o FMI e o Banco Mundial recomendavam para os países latino-americanos nos anos 1990?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 16,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "Os ATENTADOS DE 11 DE SETEMBRO DE 2001 (11/9). O que aconteceu e qual foi a escala do ataque?",
     tip: "Quem foram os responsáveis pelos ataques e qual foi o impacto imediato no mundo?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 17,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A RESPOSTA AMERICANA ao 11/9 — as guerras do Afeganistão (2001) e do Iraque (2003).",
     tip: "Com que justificativas os EUA invadiram o Afeganistão e o Iraque — e quais foram os resultados?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 18,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O LEGADO das guerras do Afeganistão e do Iraque para os Estados Unidos e o mundo.",
     tip: "O que as guerras pós-11/9 custaram e o que deixaram como herança geopolítica?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 19,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "O governo LULA (2003–2010) e seus resultados sociais. O que mudou no Brasil?",
     tip: "Qual foi o impacto do governo Lula na redução da pobreza e na posição internacional do Brasil?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 20,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O FIM DA GUERRA FRIA e o 'fim da história' — o que o politólogo Francis Fukuyama previu e o que aconteceu?",
     tip: "Fukuyama disse que a democracia liberal havia vencido definitivamente — sua tese se confirmou?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 21,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "A REDEMOCRATIZAÇÃO do Brasil — foi uma ruptura com a ditadura ou uma transição negociada?",
     tip: "O Brasil passou de ditadura para democracia da mesma forma que a Argentina, que julgou seus generais?",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 22,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "As ELEIÇÕES DIRETAS DE 1989 — a primeira eleição presidencial direta desde 1960. O que revelaram?",
     tip: "Quem foram os candidatos do 2.º turno e o que o resultado disse sobre a polarização da sociedade brasileira?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 23,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "A INTERNET e a revolução digital dos anos 1990 no Brasil. Como a tecnologia mudou a sociedade brasileira?",
     tip: "Quando o Brasil adotou a internet e qual foi o impacto nas primeiras décadas?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 24,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "O PLANO REAL e a estabilidade macroeconômica do Brasil pós-1994. Quais foram seus custos e legados?",
     tip: "O Real controlou a inflação mas a que custo — e quais foram as consequências de longo prazo?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 25,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O MERCOSUL (1991) e a integração regional da América do Sul. O que foi criado?",
     tip: "Quais países fundaram o Mercosul e qual foi o objetivo dessa integração regional?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 26,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "A DITADURA MILITAR BRASILEIRA no contexto latino-americano — a Operação Condor.",
     tip: "Como as ditaduras sul-americanas cooperavam para eliminar opositores que haviam fugido para outros países?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 27,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "A TRANSIÇÃO DEMOCRÁTICA BRASILEIRA em perspectiva comparada. O que a diferencia das outras?",
     tip: "Como a transição brasileira se compara com a argentina, a chilena e outras transições latino-americanas?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 28,
+    theme: 'Preservação ambiental',
     type: "multiple_choice",
     text: "A QUESTÃO AMBIENTAL global — a Rio-92 e o Protocolo de Kyoto (1997).",
     tip: "O que a Rio-92 produziu e por que a Amazônia colocou o Brasil no centro das negociações climáticas?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 29,
+    theme: 'Globalização',
     type: "multiple_choice",
     text: "A GLOBALIZAÇÃO e seus críticos — o movimento antglobalização e o Fórum Social Mundial.",
     tip: "Quem criticou a globalização neoliberal dos anos 1990 e quais foram os argumentos?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB4Av2 = [
   },
   {
     id: 30,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "O BRASIL NO SÉCULO XXI — democracia consolidada ou democracia em risco?",
     tip: "Após a redemocratização, o Brasil construiu uma democracia sólida ou ainda enfrenta desafios fundamentais?",

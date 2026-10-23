@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB1Av1 = [
   {
     id: 1,
+    theme: 'Imperialismo',
     type: "multiple_choice",
     text: "O IMPERIALISMO europeu do século XIX foi um processo de expansão das potências industriais sobre outros continentes. Qual foi a principal motivação econômica desse processo?",
     tip: "Pense no que as indústrias europeias precisavam para crescer e o que faziam com os produtos que fabricavam em excesso.",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 2,
+    theme: 'Cultura e sociedade',
     type: "multiple_choice",
     text: "A BELLE ÉPOQUE ('bela época', 1870-1914) foi um período de prosperidade e otimismo na Europa. O que melhor a caracteriza?",
     tip: "Como era a vida das classes altas europeias antes da Primeira Guerra? O que o surgimento de novas tecnologias trazia para o cotidiano?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 3,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "Às vésperas da Primeira Guerra Mundial, a Europa estava dividida em dois grandes blocos militares. Quais eram eles?",
     tip: "De um lado, três potências centrais; do outro, três potências que se opunham a elas.",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 4,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "O estopim (causa imediata) da Primeira Guerra Mundial foi:",
     tip: "Um evento específico em junho de 1914 em Sarajevo desencadeou uma série de declarações de guerra em cadeia.",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 5,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "A GUERRA DE TRINCHEIRAS foi uma das principais características da Primeira Guerra Mundial na Frente Ocidental. O que ela representou?",
     tip: "Imagine soldados cavando enormes valas e vivendo nelas por meses — o que essa situação revelava sobre como a guerra estava sendo travada?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 6,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "Qual NOVA ARMA usada pela primeira vez em larga escala na Primeira Guerra Mundial causou horror e foi depois proibida por convenções internacionais?",
     tip: "É uma arma química que sufoca as vítimas e que ainda hoje provoca indignação global quando é usada em guerras.",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 7,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "Em 1917, os ESTADOS UNIDOS entraram na Primeira Guerra Mundial ao lado da Tríplice Entente. Qual foi o principal motivo dessa decisão?",
     tip: "Os EUA tentaram ficar neutros por anos. O que afinal os fez mudar de posição?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 8,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "O ARMISTÍCIO de 11 de novembro de 1918 pôs fim à Primeira Guerra Mundial. O que o precipitou?",
     tip: "Quais foram as condições internas da Alemanha em 1918 que tornaram a continuação da guerra impossível?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 9,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "O TRATADO DE VERSALHES (1919) impôs condições severas à Alemanha. Quais foram as principais cláusulas?",
     tip: "Pense nas punições que a Alemanha sofreu: território, exército, dívida e responsabilidade pela guerra.",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 10,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A LIGA DAS NAÇÕES, criada após a Primeira Guerra Mundial, tinha como principal objetivo:",
     tip: "Foi a primeira organização internacional para manter a paz — o que deu errado com ela e por que fracassou?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 11,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "Quais foram as principais CONSEQUÊNCIAS da Primeira Guerra Mundial para o mapa político da Europa?",
     tip: "Quatro grandes impérios deixaram de existir após a guerra. Quais eram eles e o que surgiu no lugar?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 12,
+    theme: 'Revolução Russa',
     type: "multiple_choice",
     text: "Na REVOLUÇÃO DE FEVEREIRO DE 1917, o czar Nicolau II foi deposto. Quais eram as causas do descontentamento popular na Rússia?",
     tip: "A Rússia era o país mais atrasado da Europa — qual era a situação dos camponeses e dos operários em plena Primeira Guerra?",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 13,
+    theme: 'Revolução Russa',
     type: "multiple_choice",
     text: "Na REVOLUÇÃO DE OUTUBRO de 1917, os bolcheviques liderados por Lênin tomaram o poder. O que os diferenciava dos outros grupos revolucionários russos?",
     tip: "O que Lenin propunha de diferente nas suas 'Teses de Abril' — sobre a guerra, a terra e o poder?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 14,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "O BRASIL declarou guerra à Alemanha em 1917 e participou da Primeira Guerra Mundial. Qual foi a principal razão para essa decisão?",
     tip: "O que os alemães fizeram com navios brasileiros que levou o Brasil a abandonar a neutralidade?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 15,
+    theme: 'União Soviética',
     type: "multiple_choice",
     text: "Após a Revolução Russa, formou-se a URSS (União das Repúblicas Socialistas Soviéticas). Qual era o sistema econômico adotado?",
     tip: "O que Lênin fez com as fábricas, fazendas e bancos privados após tomar o poder?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 16,
+    theme: 'União Soviética',
     type: "multiple_choice",
     text: "O STALINISMO (governo de Josef Stalin, 1924-1953) foi caracterizado por:",
     tip: "O que distinguiu o governo de Stalin do de Lênin — em termos de liberdade, poder pessoal e repressão?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 17,
+    theme: 'América Latina',
     type: "multiple_choice",
     text: "A REVOLUÇÃO MEXICANA (1910-1920) foi a primeira grande revolução social do século XX nas Américas. Quais foram suas principais reivindicações?",
     tip: "O México era dominado pelo ditador Porfírio Díaz há 30 anos. O que os camponeses e trabalhadores queriam?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 18,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "Qual foi o SALDO HUMANO da Primeira Guerra Mundial?",
     tip: "Compare com conflitos anteriores — a escala de mortes na Primeira Guerra era algo sem precedentes na história europeia.",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 19,
+    theme: 'Imperialismo',
     type: "multiple_choice",
     text: "Durante o período imperialista, qual foi a situação da CHINA frente às potências europeias?",
     tip: "A China era formalmente independente, mas foi obrigada a ceder territórios e privilégios — como se chamava essa condição?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 20,
+    theme: 'Período entreguerras',
     type: "multiple_choice",
     text: "O PERÍODO ENTREGUERRAS (1919-1939) foi marcado por crises políticas e econômicas. O que melhor o caracteriza?",
     tip: "O que havia de tão instável nesse período que tornou possível a ascensão de regimes autoritários na Europa?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 21,
+    theme: 'Imperialismo',
     type: "multiple_choice",
     text: "A PARTILHA DA ÁFRICA pelas potências europeias foi formalmente definida na:",
     tip: "Houve uma conferência específica em que os europeus estabeleceram as regras e dividiram o mapa africano entre si.",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 22,
+    theme: 'Nacionalismo',
     type: "multiple_choice",
     text: "O CONCEITO DE NACIONALISMO foi uma força poderosa no século XIX e início do XX. O que ele significava?",
     tip: "Os Bálcãs eram chamados de 'barril de pólvora' da Europa — por quê? O que os diferentes grupos étnicos queriam?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 23,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "A CORRIDA ARMAMENTISTA que antecedeu a Primeira Guerra Mundial demonstrou que:",
     tip: "Se todos os países se armaram alegando 'defesa', o que essa corrida acabou produzindo na prática?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 24,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "A GUERRA SUBMARINA alemã (U-boots) durante a Primeira Guerra buscava:",
     tip: "A Grã-Bretanha dependia de importações de alimentos e materiais de guerra — o que os alemães queriam cortar?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 25,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "O acrônimo MAIN resume as causas estruturais da Primeira Guerra Mundial. O que cada letra representa?",
     tip: "'M' de militarismo, 'A' de alianças... mas o que 'I' e 'N' representam?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 26,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "As CONSEQUÊNCIAS SOCIAIS da Primeira Guerra Mundial incluíram mudanças profundas na sociedade europeia. Qual foi uma das mais significativas?",
     tip: "Com os homens nas trincheiras, quem assumiu as fábricas e os serviços? O que isso mudou na sociedade?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 27,
+    theme: 'Imperialismo',
     type: "multiple_choice",
     text: "O imperialismo europeu era justificado pelos colonizadores por meio do chamado 'fardo do homem branco'. O que significava essa ideia?",
     tip: "Os europeus tinham uma visão racista e paternalista sobre os povos colonizados — o que diziam sobre a sua própria missão?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 28,
+    theme: 'Primeira República',
     type: "multiple_choice",
     text: "A REPÚBLICA VELHA no Brasil (1889-1930) coincidiu com o período imperialista mundial. Qual foi a principal característica do modelo econômico brasileiro nesse período?",
     tip: "O que o Brasil exportava principalmente? E qual produto representava 70% das exportações?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 29,
+    theme: 'Imperialismo',
     type: "multiple_choice",
     text: "A GUERRA RUSSO-JAPONESA (1904-1905) teve grande impacto na política mundial. Por que foi um evento tão marcante?",
     tip: "Em que sentido essa guerra 'quebrou' uma ideia que os europeus tinham sobre si mesmos e sobre a superioridade de suas nações?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB1Av1 = [
   },
   {
     id: 30,
+    theme: 'Primeira Guerra Mundial',
     type: "multiple_choice",
     text: "Qual das opções resume corretamente as PRINCIPAIS CAUSAS da Primeira Guerra Mundial?",
     tip: "É uma combinação de fatores estruturais de longo prazo (MAIN) e um evento específico que detonou tudo.",

@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB1Av2 = [
   {
     id: 1,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "A CRISE DE 1929 (Crash da Bolsa de Nova York) foi um dos maiores colapsos econômicos da história. O que a causou?",
     tip: "Pense no que havia de problemático na economia americana dos anos 1920: especulação, superprodução e crédito fácil.",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 2,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "Quais foram as principais CONSEQUÊNCIAS sociais da Grande Depressão nos Estados Unidos?",
     tip: "Com bancos falindo e empresas fechando, o que aconteceu com os trabalhadores americanos?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 3,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "O NEW DEAL do presidente Franklin Roosevelt (a partir de 1933) foi uma resposta à Grande Depressão. No que consistia?",
     tip: "O que Roosevelt fez de diferente dos presidentes anteriores que apostavam no laissez-faire (não-intervenção do Estado na economia)?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 4,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "O KEYNESIANISMO é a teoria econômica que embasou o New Deal. O que ela defende?",
     tip: "John Maynard Keynes revolucionou o pensamento econômico ao propor que o Estado deveria agir em crises — como?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 5,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O FASCISMO surgiu na Itália após a Primeira Guerra Mundial. Quais fatores levaram à sua ascensão?",
     tip: "A Itália saiu da guerra descontente com os resultados — o que isso criou de terreno fértil para o fascismo?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 6,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O fascismo e o nazismo eram ideologias que se caracterizavam principalmente por:",
     tip: "O que esses regimes tinham em comum — em relação à democracia, ao papel do Estado, e ao modo de exercer o poder?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 7,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "A 'MARCHA SOBRE ROMA' (1922) foi o evento que levou Mussolini ao poder. O que aconteceu?",
     tip: "Mussolini não tomou o poder pela força bruta — como ele foi nomeado primeiro-ministro?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 8,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "Adolf Hitler chegou ao poder na Alemanha em 1933. Como isso ocorreu?",
     tip: "Hitler não fez um golpe militar clássico em 1933 — como ele chegou formalmente ao poder?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 9,
+    theme: 'Primeira República',
     type: "multiple_choice",
     text: "A REPÚBLICA VELHA brasileira (1889-1930) foi marcada pela 'política do café com leite'. O que esse sistema representava?",
     tip: "São Paulo e Minas Gerais eram os estados mais poderosos — qual era o acordo entre eles?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 10,
+    theme: 'Primeira República',
     type: "multiple_choice",
     text: "O CORONELISMO foi uma das bases políticas da República Velha brasileira. O que era?",
     tip: "O 'coronel' não era necessariamente militar — quem era ele e que poder exercia?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 11,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "A REVOLUÇÃO DE 1930 depôs o presidente Washington Luís e levou Getúlio Vargas ao poder. O que desencadeou essa ruptura?",
     tip: "O que quebrou o acordo 'café com leite' e uniu mineiros, gaúchos e militares tenentistas contra o governo?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 12,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "Como Getúlio Vargas exerceu o poder entre 1930 e 1945?",
     tip: "Vargas não governou sempre da mesma forma — há três fases distintas em seu primeiro período no poder.",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 13,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "O ESTADO NOVO (1937-1945) de Vargas era um regime autoritário. Quais eram suas características?",
     tip: "O que aconteceu com o Congresso, com os partidos políticos e com a imprensa no Estado Novo?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 14,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A POLÍTICA DO BOA VIZINHANÇA do presidente Roosevelt para a América Latina (anos 1930) representou:",
     tip: "Como a política externa americana para a América Latina mudou em relação à era do 'big stick' (porrete)?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 15,
+    theme: 'Primeira República',
     type: "multiple_choice",
     text: "As REVOLTAS TENENTISTAS dos anos 1920 (Revolução de 1922, Revolução de 1924, Coluna Prestes) eram movimento de:",
     tip: "Quem eram os tenentes e o que eles queriam mudar no Brasil?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 16,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "Como a CRISE DE 1929 se espalhou dos EUA para o resto do mundo?",
     tip: "Por que uma crise americana destruiu também as economias europeias e latino-americanas?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 17,
+    theme: 'Primeira República',
     type: "multiple_choice",
     text: "A COLUNA PRESTES (1925-1927) percorreu 25.000 km pelo Brasil sem ser derrotada. O que ela simbolizava?",
     tip: "Por que uma coluna militar rebelde que vagava pelo país sem objetivo militar claro tinha tanto apelo popular?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 18,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "Qual foi o impacto da CRISE DO CAFÉ DE 1929-1930 na história política e econômica do Brasil?",
     tip: "A crise arruinou os fazendeiros de café. Quem saiu ganhando politicamente com essa destruição?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 19,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "Qual foi o impacto da PRIMEIRA GUERRA MUNDIAL na economia brasileira?",
     tip: "Com a Europa em guerra, o que aconteceu com as importações de produtos industrializados que o Brasil comprava dos europeus?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 20,
+    theme: 'Crise de 1929',
     type: "multiple_choice",
     text: "A GRANDE DEPRESSÃO dos anos 1930 gerou nos países mais afetados um contexto político específico. Qual foi?",
     tip: "Com desemprego em massa e as democracias liberais falhando em resolver a crise, que alternativas políticas avançaram?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 21,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O INTEGRALISMO brasileiro dos anos 1930 foi um movimento inspirado no fascismo europeu. Quem o liderava?",
     tip: "O Integralismo brasileiro tinha 'camisas verdes' em vez de pretas ou pardas — quem era seu líder carismático?",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 22,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "A ALIANÇA LIBERAL (1929-1930), que apoiou Getúlio Vargas para presidente, era composta por:",
     tip: "Quais estados e grupos políticos se uniram contra a candidatura paulista de Júlio Prestes?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 23,
+    theme: 'Primeira República',
     type: "multiple_choice",
     text: "Quais eram as PROPOSTAS do Movimento Tenentista nos anos 1920?",
     tip: "O que os tenentes queriam reformar no Brasil além da simples troca de presidentes?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 24,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "A INDUSTRIALIZAÇÃO BRASILEIRA nos anos 1930-1940 foi baseada em qual modelo?",
     tip: "O Brasil não tinha dólares para importar — o que fez para resolver isso?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 25,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "A REVOLUÇÃO CONSTITUCIONALISTA DE 1932 foi uma guerra civil em São Paulo contra Vargas. O que os paulistas exigiam?",
     tip: "São Paulo era o estado mais rico e poderoso — por que lutaram contra o governo federal de Vargas?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 26,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "As LEIS TRABALHISTAS criadas por Vargas nos anos 1930 e consolidadas na CLT (1943) tinham qual função política?",
     tip: "Vargas criou os direitos trabalhistas, mas ao mesmo tempo controlava os sindicatos — como isso funcionava?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 27,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "O GOLPE DO ESTADO NOVO (10 de novembro de 1937) foi justificado por Vargas através de um documento falso. Qual era esse documento?",
     tip: "Vargas precisava de um pretexto para fechar o Congresso. Que ameaça inventou para justificar a ditadura?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 28,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Em que contexto foi promulgada a CONSTITUIÇÃO DE 1934 no Brasil?",
     tip: "Qual evento forçou Vargas a convocar uma Assembleia Constituinte?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 29,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "A INTENTONA COMUNISTA de 1935 foi uma tentativa de golpe no Brasil. O que aconteceu?",
     tip: "Quem organizou essa tentativa de golpe e quais foram as suas consequências políticas para Vargas?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB1Av2 = [
   },
   {
     id: 30,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "Qual foi o papel do BRASIL na SEGUNDA GUERRA MUNDIAL (1939-1945)?",
     tip: "O Brasil inicialmente tentou neutralidade, mas acabou entrando na guerra. Por que e de que lado?",

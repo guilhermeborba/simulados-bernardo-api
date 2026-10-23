@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB4Av1 = [
   {
     id: 1,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "O governo de JUSCELINO KUBITSCHEK (JK, 1956–1961) ficou marcado pelo slogan '50 anos em 5'. O que isso significava?",
     tip: "JK prometeu desenvolver o Brasil em velocidade inédita — quais foram os principais projetos e qual foi o preço?",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 2,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "A construção de BRASÍLIA (1957–1960) foi um dos maiores projetos da história do Brasil. O que motivou a mudança da capital?",
     tip: "Por que mudar a capital de uma cidade costeira (Rio de Janeiro) para o interior do Brasil?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 3,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "A RENÚNCIA DE JÂNIO QUADROS (agosto de 1961) foi um dos episódios mais desconcertantes da história política brasileira. O que aconteceu?",
     tip: "Por que um presidente eleito com a maior votação da história renunciou depois de apenas 7 meses?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 4,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "A POSSE DE JANGO GOULART (1961) foi dificultada por uma crise institucional. Como o vice-presidente tomou posse?",
     tip: "Jango estava na China quando Jânio renunciou — os ministros militares vetaram sua posse. Como a crise foi resolvida?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 5,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "As REFORMAS DE BASE de Goulart causaram polarização extrema na sociedade brasileira. O que eram essas reformas?",
     tip: "Quais medidas Goulart propôs que assustaram tanto os conservadores a ponto de justificarem um golpe?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 6,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "O GOLPE DE 1964 (31 de março – 1.º de abril) teve apoio amplo na sociedade civil. Quem apoiou o golpe?",
     tip: "Costuma-se dizer que o golpe foi 'militar' — mas quem mais estava do lado dos militares naquele momento?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 7,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "O ATO INSTITUCIONAL N.º 5 (AI-5) de dezembro de 1968 é chamado de 'golpe dentro do golpe'. Por quê?",
     tip: "Se o golpe foi em 1964, o que mudou em 1968 para que fosse necessário um novo ato institucional?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 8,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "O conteúdo do ATO INSTITUCIONAL N.º 5 (AI-5). Quais poderes ele conferiu ao regime?",
     tip: "O AI-5 eliminou quais garantias constitucionais que existiam mesmo durante a ditadura?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 9,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "O 'MILAGRE ECONÔMICO' brasileiro (1968–1974). O que foi e quais foram suas contradições?",
     tip: "O PIB cresceu mais de 10% ao ano — por que isso foi chamado de 'milagre' e quais foram seus custos?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 10,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "A GUERRILHA URBANA contra a ditadura militar — MR-8, ALN e outros grupos. O que fizeram?",
     tip: "Qual foi a ação mais famosa da guerrilha urbana brasileira, e qual foi o resultado geral dessa estratégia?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 11,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "A TORTURA E OS DESAPARECIDOS POLÍTICOS da ditadura militar. O que revelou a Comissão Nacional da Verdade?",
     tip: "Quantas pessoas foram mortas ou desaparecidas pela ditadura? Quais foram os mecanismos de tortura?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 12,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "O governo MÉDICI (1969–1974) — o mais repressivo da ditadura. O que o caracterizou?",
     tip: "Como o regime conseguiu ter o período mais violento e ao mesmo tempo o crescimento econômico mais alto de sua história?",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 13,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "O governo GEISEL (1974–1979) e a abertura 'lenta, gradual e segura'. O que isso significava?",
     tip: "Geisel queria democratizar — mas em que condições e a que velocidade?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 14,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "O BIPARTIDARISMO da ditadura — ARENA e MDB. Como funcionava o sistema político durante a ditadura?",
     tip: "A ditadura extinguiu os partidos existentes mas criou dois novos — qual era a lógica?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 15,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "A LEI DA ANISTIA (1979) — sua ambiguidade histórica até hoje. O que ela estabeleceu?",
     tip: "A Anistia libertou presos políticos — mas o que foi esquecido em troca?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 16,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "O governo FIGUEIREDO (1979–1985) — o fim da ditadura. O que caracterizou esse último governo militar?",
     tip: "Figueiredo prometeu 'abrir esta nação à democracia' — o que efetivamente aconteceu durante seu mandato?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 17,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "A 'DÉCADA PERDIDA' dos anos 1980 no Brasil. O que aconteceu com a economia?",
     tip: "Após o 'Milagre', o que causou o colapso econômico dos anos 1980?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 18,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "O COMÍCIO DE 13 DE MARÇO DE 1964 na Central do Brasil (Rio de Janeiro). O que foi e qual seu impacto?",
     tip: "O maior comício político da história do Brasil até então — o que Goulart anunciou e o que aconteceu 18 dias depois?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 19,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "A OPERAÇÃO LIMPEZA (1964) — as cassações imediatas após o golpe. O que aconteceu?",
     tip: "O que os militares fizeram com os opositores políticos imediatamente após o golpe de 1964?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 20,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "O 'PACOTE DE ABRIL' de 1977 — como o regime manipulou as regras durante a 'abertura'. O que foi?",
     tip: "Mesmo durante a abertura, o regime manipulou as regras eleitorais quando a oposição ficou forte demais — o que Geisel fez?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 21,
+    theme: 'Cultura e sociedade',
     type: "multiple_choice",
     text: "O papel da REDE GLOBO durante a ditadura militar. Qual foi a relação entre a emissora e o regime?",
     tip: "Como a Globo se tornou a maior rede de televisão do país durante um regime ditatorial?",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 22,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "A ESCOLA SUPERIOR DE GUERRA (ESG) e a 'Doutrina de Segurança Nacional'. O que foi essa doutrina?",
     tip: "Qual foi a base ideológica que justificou as ditaduras militares no Brasil e em toda a América do Sul?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 23,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "As ELEIÇÕES DE 1974 e o crescimento do MDB. O que revelaram para o regime?",
     tip: "Qual foi o resultado surpresa das eleições de 1974 que assustou o governo Geisel?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 24,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "CARLOS MARIGHELLA e a teoria da guerrilha urbana no Brasil. Qual era sua estratégia?",
     tip: "O que Marighella esperava que aconteceria depois das ações armadas — e por que essa teoria falhou?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 25,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "A IGREJA CATÓLICA e a oposição à ditadura nos anos 1970. Como ela se posicionou?",
     tip: "A Igreja havia apoiado o golpe de 1964 — como sua posição mudou nos anos 1970?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 26,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Os POVOS INDÍGENAS durante a ditadura militar. Como o regime tratou as comunidades indígenas?",
     tip: "Os projetos 'desenvolvimentistas' da ditadura (Transamazônica, usinas hidrelétricas) afetaram especialmente quais grupos?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 27,
+    theme: 'Redemocratização',
     type: "multiple_choice",
     text: "A restauração do MULTIPARTIDARISMO em 1979 — por que Figueiredo extinguiu a Arena e o MDB?",
     tip: "Se o objetivo da ditadura era o controle, por que criar mais partidos em 1979?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 28,
+    theme: 'Ditadura militar',
     type: "multiple_choice",
     text: "A LEI FALCÃO (1976) e o controle da propaganda eleitoral. O que foi?",
     tip: "Por que o regime criou uma lei restringindo o que candidatos podiam dizer no rádio e na TV em período eleitoral?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 29,
+    theme: 'Economia brasileira',
     type: "multiple_choice",
     text: "O II PND (Plano Nacional de Desenvolvimento, 1974–1979) — a aposta do Brasil contra a crise do petróleo. O que foi?",
     tip: "O choque do petróleo de 1973 atingiu o Brasil duramente — qual foi a resposta do governo Geisel?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB4Av1 = [
   },
   {
     id: 30,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "A MORTE DE VLADIMIR HERZOG (outubro de 1975) — um marco da resistência à ditadura. O que aconteceu?",
     tip: "Como um caso de assassinato em custódia se transformou num ponto de inflexão para a abertura política?",

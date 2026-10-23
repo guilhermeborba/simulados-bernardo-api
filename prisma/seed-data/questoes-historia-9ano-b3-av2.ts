@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB3Av2 = [
   {
     id: 1,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O MOVIMENTO PELOS DIREITOS CIVIS nos EUA (anos 1950–1960) ficou mundialmente conhecido pela sua estratégia. Em que consistia?",
     tip: "O que diferenciava a estratégia de Martin Luther King da luta armada? Qual modelo histórico o inspirou?",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 2,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O IMPACTO INTERNO da Guerra do Vietnã nos EUA criou a maior crise de confiança da história americana desde a Guerra Civil. O que aconteceu?",
     tip: "O que as imagens da guerra nos televisores domésticos fizeram com a opinião pública americana sobre o Vietnã?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 3,
+    theme: 'América Latina',
     type: "multiple_choice",
     text: "O golpe no CHILE (11 de setembro de 1973) pôs fim ao governo Allende. O que aconteceu?",
     tip: "Salvador Allende foi o primeiro socialista eleito democraticamente na América Latina — como terminou seu governo?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 4,
+    theme: 'Oriente Médio',
     type: "multiple_choice",
     text: "A GUERRA DOS SEIS DIAS (junho de 1967) e a expansão territorial de Israel. O que aconteceu nessa guerra?",
     tip: "Em apenas 6 dias, o mapa do Oriente Médio mudou radicalmente — o que Israel conquistou?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 5,
+    theme: 'Oriente Médio',
     type: "multiple_choice",
     text: "A REVOLUÇÃO IRANIANA (1979) transformou o Oriente Médio e surpreendeu o mundo. O que foi e quais foram suas consequências?",
     tip: "O Irã passou de aliado dos EUA a adversário declarado em poucos meses — o que aconteceu?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 6,
+    theme: 'América Latina',
     type: "multiple_choice",
     text: "A OPERAÇÃO CONDOR (1975–1989) foi uma das páginas mais sombrias da história da América do Sul. O que foi?",
     tip: "As ditaduras militares da América do Sul cooperavam entre si — de que forma?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 7,
+    theme: 'Descolonização',
     type: "multiple_choice",
     text: "A DESCOLONIZAÇÃO DO TERRITÓRIO PORTUGUÊS NA ÁFRICA (Angola e Moçambique) foi especialmente violenta. Por quê?",
     tip: "Portugal foi o último país a manter um império colonial africano — o que finalmente forçou a descolonização e o que aconteceu depois?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 8,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O ASSASSINATO DE MARTIN LUTHER KING (4 de abril de 1968) e o surgimento do Black Power. O que mudou depois de sua morte?",
     tip: "A morte de King trouxe revoltas e também intensificou movimentos mais radicais — quais?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 9,
+    theme: 'União Soviética',
     type: "multiple_choice",
     text: "As reformas de GORBACHEV — GLASNOST e PERESTROIKA (1985–1991) — foram a tentativa de salvar o socialismo soviético. O que aconteceu?",
     tip: "As reformas de Gorbachev queriam modernizar a URSS — por que elas acabaram destruindo o que tentavam salvar?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 10,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A PRIMAVERA DE PRAGA (1968) na Tchecoslováquia e a Doutrina Brezhnev. O que foi e o que implicava?",
     tip: "O que Alexander Dubček tentou criar na Tchecoslováquia, e por que a URSS respondeu com tanques?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 11,
+    theme: 'Oriente Médio',
     type: "multiple_choice",
     text: "A GUERRA DO YOM KIPPUR (1973) e a CRISE DO PETRÓLEO. Qual foi a conexão entre esses dois eventos?",
     tip: "Como uma guerra no Oriente Médio causou filas nos postos de gasolina nos EUA e na Europa?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 12,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A INVASÃO SOVIÉTICA DO AFEGANISTÃO (1979–1989) foi o 'Vietnã soviético'. O que aconteceu?",
     tip: "Por que a URSS invadiu o Afeganistão, e como os EUA responderam?",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 13,
+    theme: 'Descolonização',
     type: "multiple_choice",
     text: "A INDEPENDÊNCIA DA ÍNDIA (1947) e o legado de Gandhi moldaram o mundo pós-colonial. O que foi esse processo?",
     tip: "Como Gandhi conseguiu que a Índia se tornasse independente sem guerra — e qual foi o alto preço pago pela independência?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 14,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A POLÍTICA AMERICANA para a América Latina durante a Guerra Fria. Como os EUA trataram a região?",
     tip: "Quais foram as principais intervenções americanas na América Latina durante a Guerra Fria?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 15,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "As MULHERES NOS MOVIMENTOS SOCIAIS dos anos 1960–1970 tiveram papel central. O que caracterizou o feminismo dessa geração?",
     tip: "As mulheres participavam dos movimentos pelos direitos civis e anti-guerra — mas descobriram que eram discriminadas dentro dos próprios movimentos. Como reagiram?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 16,
+    theme: 'Descolonização',
     type: "multiple_choice",
     text: "A DESCOLONIZAÇÃO AFRICANA — de Nkrumah a Lumumba. O que revelou a primeira geração de líderes independentes africanos?",
     tip: "Kwame Nkrumah e Patrice Lumumba são os dois mais simbólicos — quais foram seus destinos e o que ensinaram?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 17,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A perspectiva do VIETNÃ DO NORTE sobre a guerra. Como Ho Chi Minh e os vietnamitas do Norte entendiam o conflito?",
     tip: "Para os vietnamitas, essa era uma guerra muito mais longa do que os 'anos 1960–1975' — como eles a viam?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 18,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "MALCOLM X e o movimento Black Power. O que diferenciava Malcolm X de Martin Luther King?",
     tip: "Malcolm X e King tinham o mesmo objetivo final mas visões radicalmente diferentes sobre o caminho — qual era a diferença central?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 19,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A ABERTURA SINO-AMERICANA (1972) — a visita de Nixon à China. Como foi possível esse encontro entre o maior anticomunista americano e Mao?",
     tip: "Nixon, que havia construído toda sua carreira política no anticomunismo, foi o presidente americano que visitou a China comunista — por que?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 20,
+    theme: 'Descolonização',
     type: "multiple_choice",
     text: "A GUERRA DA ARGÉLIA (1954–1962) foi um dos processos de descolonização mais violentos. O que aconteceu?",
     tip: "A Argélia era diferente de outras colônias — havia um milhão de colonos franceses lá. Como terminou a guerra?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 21,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A OFENSIVA DO TET (janeiro de 1968) foi um momento de virada na Guerra do Vietnã. O que aconteceu?",
     tip: "Militarmente, quem venceu a Ofensiva do Tet? E politicamente, quem saiu beneficiado?",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 22,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O LEGADO DO MOVIMENTO NÃO-ALINHADO para os países do 'Terceiro Mundo'. O que ele conseguiu construir?",
     tip: "O Terceiro Mundo — entre os dois blocos da Guerra Fria — conseguiu alguma autonomia ou acabou dividido entre as superpotências?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 23,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O PÓSGUERRA da Crise dos Mísseis de Cuba — quais foram as consequências permanentes da crise para as relações EUA-URSS?",
     tip: "A crise dos mísseis revelou falhas de comunicação perigosas — o que foi criado para evitar repetição?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 24,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A 'SÍNDROME DO VIETNÃ' e seu impacto duradouro na política externa americana. O que ela representava?",
     tip: "Como a derrota no Vietnã mudou a disposição americana de usar força militar no exterior nas décadas seguintes?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 25,
+    theme: 'América Latina',
     type: "multiple_choice",
     text: "A REVOLUÇÃO SANDINISTA na Nicarágua (1979) e o escândalo Irã-Contras. O que foi esse episódio?",
     tip: "Reagan financiou os Contras para lutar contra os Sandinistas — mas o Congresso americano proibiu esse financiamento. Como Reagan continuou?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 26,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Rosa Parks e o BOICOTE AOS ÔNIBUS DE MONTGOMERY (1955–1956). O que foi e por que foi decisivo para o Movimento pelos Direitos Civis?",
     tip: "Uma recusa a ceder o assento num ônibus se transformou num boicote de 381 dias — como isso foi possível?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 27,
+    theme: 'Oriente Médio',
     type: "multiple_choice",
     text: "A CRISE DOS REFÉNS NO IRÃ (1979–1981) e seus efeitos na política americana. O que foi esse episódio?",
     tip: "52 diplomatas americanos foram mantidos reféns por 444 dias — como isso afetou as eleições de 1980?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 28,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Os NOVOS MOVIMENTOS SOCIAIS dos anos 1960–1970 representaram uma ruptura com a política tradicional. O que os caracterizava?",
     tip: "O que diferenciou os movimentos dos anos 1960–70 dos movimentos operários tradicionais?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 29,
+    theme: 'Descolonização',
     type: "multiple_choice",
     text: "O APARTHEID NA ÁFRICA DO SUL e o papel de Nelson Mandela. Como o regime foi finalmente derrubado?",
     tip: "O apartheid durou de 1948 a 1994 — quais foram os fatores que finalmente o derrubaram?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB3Av2 = [
   },
   {
     id: 30,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A QUEDA DO MURO DE BERLIM (9 de novembro de 1989) marcou o fim da Guerra Fria. O que aconteceu e o que simbolizou?",
     tip: "Como o Muro caiu — foi uma decisão militar, uma invasão ou algo mais inesperado?",

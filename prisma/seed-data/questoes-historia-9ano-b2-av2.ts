@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB2Av2 = [
   {
     id: 1,
+    theme: 'Imperialismo',
     type: "multiple_choice",
     text: "O EXPANSIONISMO JAPONÊS na Ásia antes da Segunda Guerra criou a chamada 'Grande Esfera de Co-Prosperidade da Ásia Oriental'. O que isso significava na prática?",
     tip: "Por trás do discurso de 'liberar a Ásia do colonialismo europeu', o que o Japão realmente queria?",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 2,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A BATALHA DE MIDWAY (junho de 1942) é considerada o ponto de virada da guerra no Pacífico. Por quê essa batalha foi decisiva?",
     tip: "A guerra no Pacífico era essencialmente naval e aérea — o que a derrota japonesa em Midway mudou definitivamente?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 3,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A decisão de lançar as BOMBAS ATÔMICAS sobre Hiroshima e Nagasaki em agosto de 1945 continua sendo uma das mais debatidas da história. Qual foi a principal justificativa do presidente Truman?",
     tip: "Os EUA planejavam a Operação Downfall — a invasão terrestre do Japão. O que as estimativas militares projetavam?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 4,
+    theme: 'História do trabalho',
     type: "multiple_choice",
     text: "O TRABALHISMO de Getúlio Vargas transformou radicalmente sua relação com as classes trabalhadoras. Como funcionava essa estratégia política?",
     tip: "Vargas é chamado de 'pai dos pobres' pelos trabalhadores. Como ele construiu essa imagem politicamente?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 5,
+    theme: 'Trabalho e tecnologia',
     type: "multiple_choice",
     text: "O Estado Novo de Vargas investiu pesadamente na INDUSTRIALIZAÇÃO do Brasil. Qual foi o símbolo maior desse esforço de criação de indústrias de base?",
     tip: "Qual grande empresa estatal, símbolo do aço e da industrialização, foi fundada por Vargas após negociação com os EUA durante a guerra?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 6,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A FORÇA EXPEDICIONÁRIA BRASILEIRA (FEB) combateu na Europa em 1944–1945. Qual foi o papel efetivo do Brasil na Segunda Guerra Mundial?",
     tip: "O símbolo da FEB era 'a cobra fumando' — como os pracinhas brasileiros ficaram conhecidos na Campanha da Itália?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 7,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "A QUEDA DE VARGAS em outubro de 1945 é considerada um paradoxo histórico. Por quê?",
     tip: "Quem depôs Vargas em 1945? E quem havia ajudado Vargas a chegar ao poder em 1930?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 8,
+    theme: 'Oriente Médio',
     type: "multiple_choice",
     text: "A CRIAÇÃO DO ESTADO DE ISRAEL em 1948 transformou permanentemente o Oriente Médio. Qual foi o contexto histórico que tornou 1948 o momento da fundação?",
     tip: "O Holocausto e o colapso do mandato britânico na Palestina criaram as condições — o que a ONU decidiu e o que aconteceu imediatamente depois?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 9,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A CONFERÊNCIA DE YALTA (fevereiro de 1945) reuniu Roosevelt, Churchill e Stalin com a vitória aliada já garantida. Quais foram as principais decisões?",
     tip: "Com a guerra na Europa chegando ao fim, como as três potências dividiram as zonas de influência no mundo pós-guerra?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 10,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A CONFERÊNCIA DE POTSDAM (julho–agosto de 1945) foi a última reunião dos Três Grandes. Quais foram as principais decisões tomadas ali?",
     tip: "Truman havia substituído Roosevelt e tinha uma novidade para anunciar a Stalin sobre o poder destrutivo americano.",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 11,
+    theme: 'Holocausto',
     type: "multiple_choice",
     text: "A 'SOLUÇÃO FINAL' (Endlösung) foi a política nazista de extermínio sistemático dos judeus europeus. Como foi planejada e implementada?",
     tip: "O extermínio em massa passou de fuzilamentos espontâneos para campos industrializados de morte — qual evento marcou essa transição?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 12,
+    theme: 'Holocausto',
     type: "multiple_choice",
     text: "Os RIGHTEOUS AMONG THE NATIONS ('Justos entre as Nações') são homenageados por Israel por terem arriscado a vida para salvar judeus durante o Holocausto. Quem são os mais conhecidos?",
     tip: "Algumas histórias de resgate ficaram mundialmente famosas — Oscar Schindler e Raoul Wallenberg são os mais citados.",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 13,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A estratégia americana de 'ILHA EM ILHA' (island hopping) foi decisiva no Pacífico. Em que consistia essa tática?",
     tip: "Com milhares de ilhas japonesas no Pacífico, como os EUA avançaram em direção ao arquipélago japonês sem precisar tomar todas?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 14,
+    theme: 'Holocausto',
     type: "multiple_choice",
     text: "O LEVANTE DO GUETO DE VARSÓVIA (abril–maio de 1943) foi um dos episódios mais heroicos do Holocausto. O que aconteceu?",
     tip: "Com as deportações em massa para os campos de extermínio, um grupo de jovens judeus decidiu resistir — mesmo sabendo que morreriam.",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 15,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "O LEVANTE DE VARSÓVIA (agosto–outubro de 1944) — diferente do Levante do Gueto — foi organizado pela resistência polonesa. Por que esse episódio é especialmente trágico?",
     tip: "O Exército soviético estava às portas de Varsóvia — por que Stalin não ajudou os poloneses que combatiam os alemães?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 16,
+    theme: 'Brasil contemporâneo',
     type: "multiple_choice",
     text: "Após a Segunda Guerra, o Brasil passou por uma REDEMOCRATIZAÇÃO em 1945–1946. O que caracterizou esse processo?",
     tip: "Com Vargas deposto pelos militares, o que aconteceu politicamente no Brasil nos anos seguintes?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 17,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "O SUICÍDIO DE VARGAS (24 de agosto de 1954) e sua carta-testamento foram um terremoto político. O que aconteceu e qual foi o impacto?",
     tip: "Por que Vargas escolheu o suicídio em vez do exílio? O que diz a frase mais famosa da carta-testamento?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 18,
+    theme: 'América Latina',
     type: "multiple_choice",
     text: "O POPULISMO latino-americano pós-Segunda Guerra teve diferentes expressões. O que Juan Perón (Argentina) e Getúlio Vargas (Brasil) tinham em comum?",
     tip: "Dois dos maiores líderes populistas da América Latina governaram simultaneamente — quais eram suas características compartilhadas?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 19,
+    theme: 'Era Vargas',
     type: "multiple_choice",
     text: "A criação da PETROBRAS (1953) foi um marco do nacionalismo varguista. O que levou Vargas a criar a empresa e qual foi sua importância?",
     tip: "O slogan 'O petróleo é nosso' resume a disputa — quem queria o petróleo brasileiro e por que Vargas criou um monopólio estatal?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 20,
+    theme: 'Oriente Médio',
     type: "multiple_choice",
     text: "A QUESTÃO PALESTINA após 1948 tornou-se um dos conflitos mais duradouros do século XX. Quais são as raízes históricas desse conflito?",
     tip: "Por que israelenses e palestinos reivindicam o mesmo território? Quando e como essa disputa começou?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 21,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O CÓDIGO DE NUREMBERG (1947) foi um resultado direto dos julgamentos pós-guerra. O que ele estabeleceu?",
     tip: "Os experimentos médicos nazistas em prisioneiros sem consentimento levaram à necessidade de criar normas éticas para pesquisa científica.",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 22,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A GUERRA SINO-JAPONESA (1937–1945) foi parte do conflito da Segunda Guerra no Pacífico. Como a China reagiu à invasão japonesa, mesmo estando dividida por uma guerra civil?",
     tip: "Comunistas (Mao) e nacionalistas (Chiang Kai-shek) estavam em guerra civil — como reagiram à invasão japonesa comum?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 23,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "As MULHERES NA SEGUNDA GUERRA MUNDIAL tiveram um papel inédito nas sociedades beligerantes. Como a guerra mudou a posição das mulheres?",
     tip: "Com os homens nos campos de batalha, quem sustentou a produção industrial de guerra nos países aliados?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 24,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A RECONSTRUÇÃO DO JAPÃO pós-guerra sob ocupação americana foi um processo inédito. Como o general MacArthur transformou o Japão derrotado?",
     tip: "Os EUA ocuparam o Japão de 1945 a 1952 — o que mudaram no país para transformar um inimigo em aliado?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 25,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O PLANO MARSHALL (1948) foi a maior operação de ajuda econômica da história até então. Qual foi seu resultado concreto?",
     tip: "Como a Europa Ocidental respondeu ao Plano Marshall? Qual foi o efeito geopolítico da recusa soviética em participar?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 26,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "A OCUPAÇÃO NAZISTA da Europa gerou diferentes reações das populações locais. Qual foi o espectro de atitudes observado pelos historiadores?",
     tip: "Entre a resistência heroica e a colaboração voluntária, havia todo um espectro — e a maioria das pessoas estava no meio.",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 27,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A DEMOCRACIA CRISTÃ europeia foi o movimento político dominante na Europa Ocidental nos anos 1950–1970. O que representava?",
     tip: "Por que partidos democratas-cristãos dominaram a reconstrução da Europa após o fascismo?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 28,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O ESTADO DE BEM-ESTAR SOCIAL (welfare state) foi construído na Europa Ocidental após a Segunda Guerra. Em que consistia esse projeto?",
     tip: "O que os partidos europeus prometeram em 1945 a eleitores que tinham sofrido a Depressão, o fascismo e a guerra?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 29,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O processo de DESNAZIFICAÇÃO da Alemanha pós-guerra buscou erradicar o nazismo da sociedade alemã. Como foi conduzido?",
     tip: "Como se remove uma ideologia que foi dominante por 12 anos e que a maioria dos adultos viveu como 'normal'?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB2Av2 = [
   },
   {
     id: 30,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "Qual foi a importância histórica da SEGUNDA GUERRA MUNDIAL para o Brasil?",
     tip: "A guerra acelerou mudanças profundas no Brasil — tanto econômicas quanto políticas.",

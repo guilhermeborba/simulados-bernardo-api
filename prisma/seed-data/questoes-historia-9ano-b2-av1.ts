@@ -1,6 +1,7 @@
 export const questoesHistoria9AnoB2Av1 = [
   {
     id: 1,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O NAZISMO era a ideologia do Partido Nacional-Socialista de Hitler. Quais eram seus princípios centrais?",
     tip: "O nazismo combinava ultranacionalismo com uma ideia de 'raça superior' — quais eram os principais elementos dessa ideologia?",
@@ -16,6 +17,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 2,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O Ministro de Propaganda de Hitler, Joseph GOEBBELS, usou os meios de comunicação da época de forma inédita. Como?",
     tip: "Como o nazismo usava o rádio, o cinema e as grandes manifestações para moldar a opinião pública?",
@@ -31,6 +33,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 3,
+    theme: 'Holocausto',
     type: "multiple_choice",
     text: "A NOITE DOS CRISTAIS (Kristallnacht, 9-10 de novembro de 1938) foi um marco da perseguição nazista. O que aconteceu?",
     tip: "O nome vem dos vidros quebrados nas ruas — o que foi destruído e quem foi atacado?",
@@ -46,6 +49,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 4,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A política de APPEASEMENT ('apaziguamento') adotada por França e Grã-Bretanha diante das agressões de Hitler consistia em:",
     tip: "Por que as democracias europeias cederam às exigências de Hitler em vez de confrontá-lo mais cedo?",
@@ -61,6 +65,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 5,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "O PACTO RIBBENTROP-MOLOTOV (agosto de 1939) foi um acordo secreto entre Alemanha e URSS. Qual foi seu impacto?",
     tip: "Por que dois inimigos ideológicos (nazismo e comunismo) fizeram um acordo? O que o pacto secreto previu?",
@@ -76,6 +81,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 6,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A SEGUNDA GUERRA MUNDIAL começou oficialmente em 1º de setembro de 1939. Qual foi o evento que a desencadeou?",
     tip: "Qual país foi invadido pela Alemanha nessa data, fazendo França e Grã-Bretanha declararem guerra?",
@@ -91,6 +97,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 7,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A BLITZKRIEG ('guerra relâmpago') foi a tática militar usada pela Alemanha com grande sucesso. No que consistia?",
     tip: "A Blitzkrieg era o oposto da guerra de trincheiras da Primeira Guerra — como ela funcionava?",
@@ -106,6 +113,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 8,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A BATALHA DA GRÃ-BRETANHA (1940) foi travada nos céus da Inglaterra. Qual foi seu significado?",
     tip: "Hitler precisava destruir a aviação britânica (RAF) antes de invadir a Grã-Bretanha — o que aconteceu?",
@@ -121,6 +129,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 9,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A OPERAÇÃO BARBAROSSA (22 de junho de 1941) foi a invasão alemã da URSS. Por que foi uma decisão tão decisiva para o resultado da guerra?",
     tip: "Por que Hitler invadiu a URSS enquanto ainda lutava contra a Grã-Bretanha — o que ele esperava e o que realmente aconteceu?",
@@ -136,6 +145,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 10,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "O ataque japonês a PEARL HARBOR (7 de dezembro de 1941) levou os EUA à guerra. O que isso significou para o conflito?",
     tip: "Os EUA eram a maior potência industrial do mundo — o que sua entrada na guerra mudou?",
@@ -151,6 +161,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 11,
+    theme: 'Holocausto',
     type: "multiple_choice",
     text: "O HOLOCAUSTO foi o genocídio sistemático de judeus e outros grupos pelos nazistas. Quantas vítimas ele teve?",
     tip: "O Holocausto foi o maior genocídio da história moderna. Qual é o número de judeus mortos?",
@@ -166,6 +177,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 12,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A BATALHA DE STALINGRADO (agosto 1942 – fevereiro 1943) foi um ponto de virada decisivo na guerra. Por quê?",
     tip: "Uma das maiores e mais sangrentas batalhas da história — qual foi o resultado e o que ele significou?",
@@ -181,6 +193,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 13,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "O DIA D (6 de junho de 1944) — o desembarque na Normandia — foi a maior operação anfíbia da história. O que representou?",
     tip: "Mais de 150.000 soldados aliados desembarcaram nas praias da França nesse dia — qual foi a importância estratégica?",
@@ -196,6 +209,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 14,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "O fim da Segunda Guerra Mundial na Europa ocorreu em maio de 1945. Como a guerra na Europa terminou?",
     tip: "O que aconteceu com Hitler e com o governo nazista nos últimos dias de abril e início de maio de 1945?",
@@ -211,6 +225,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 15,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A bomba atômica foi lançada pelos EUA sobre o JAPÃO em agosto de 1945. O que isso representou?",
     tip: "Duas cidades japonesas foram destruídas — qual foi o impacto sobre a guerra e sobre o futuro das relações internacionais?",
@@ -226,6 +241,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 16,
+    theme: 'Relações internacionais',
     type: "multiple_choice",
     text: "A ONU (Organização das Nações Unidas) foi criada em 1945. Quais foram suas diferenças em relação à Liga das Nações?",
     tip: "Por que a ONU foi criada para substituir a Liga das Nações? O que ela fez de diferente?",
@@ -241,6 +257,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 17,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "O TRIBUNAL DE NUREMBERG (1945-1946) julgou os líderes nazistas. Qual foi a importância histórica desse julgamento?",
     tip: "Pela primeira vez na história, líderes de Estado foram julgados por crimes cometidos durante a guerra — qual foi o impacto desse precedente?",
@@ -256,6 +273,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 18,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "Qual foi o saldo total de MORTES da Segunda Guerra Mundial?",
     tip: "A Segunda Guerra foi muito mais mortífera que a Primeira — qual é a estimativa de mortes totais (soldados + civis)?",
@@ -271,6 +289,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 19,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "A DECLARAÇÃO UNIVERSAL DOS DIREITOS HUMANOS foi adotada pela ONU em 1948. O que ela representa?",
     tip: "Por que era necessário criar um documento internacional de direitos humanos justamente após a Segunda Guerra?",
@@ -286,6 +305,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 20,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "O PLANO MARSHALL (1948) foi um programa americano de ajuda econômica à Europa. Qual era seu objetivo?",
     tip: "Além de reconstruir a Europa, qual era o objetivo político do Plano Marshall no contexto do início da Guerra Fria?",
@@ -301,6 +321,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 21,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O FASCISMO ITALIANO de Mussolini (1922-1943) foi o primeiro regime fascista da história. O que foi o 'corporativismo' fascista?",
     tip: "Como o fascismo organizava as relações entre trabalhadores, patrões e Estado — diferente tanto do capitalismo puro quanto do socialismo?",
@@ -316,6 +337,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 22,
+    theme: 'Holocausto',
     type: "multiple_choice",
     text: "As LEIS DE NUREMBERG (1935) foram uma escalada da perseguição nazista aos judeus. O que elas determinavam?",
     tip: "Como as Leis de Nuremberg transformaram a discriminação social em discriminação legal?",
@@ -331,6 +353,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 23,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O conceito de LEBENSRAUM ('espaço vital') era central na ideologia nazista. O que significava?",
     tip: "Hitler acreditava que o povo alemão precisava de mais território — onde ele pretendia consegui-lo e às custas de quem?",
@@ -346,6 +369,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 24,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "O EIXO (Alemanha, Itália e Japão) foi a aliança que disputou a Segunda Guerra contra os Aliados. O que unia esses países?",
     tip: "Quais valores políticos e objetivos estratégicos aproximaram Alemanha, Itália e Japão?",
@@ -361,6 +385,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 25,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A FRENTE AFRICANA (1940-1943) envolveu batalhas no norte da África entre Aliados e Eixo. Qual foi sua importância estratégica?",
     tip: "Por que britânicos e alemães lutaram no deserto africano — o que estava em jogo no Canal de Suez?",
@@ -376,6 +401,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 26,
+    theme: 'Segunda Guerra Mundial',
     type: "multiple_choice",
     text: "A RESISTÊNCIA europeia aos nazistas foi um movimento organizado de civis e militares. Quais formas ela assumiu?",
     tip: "Como os europeus que viviam sob ocupação alemã se opuseram ao regime nazista?",
@@ -391,6 +417,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 27,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O COLABORACIONISMO foi uma resposta de alguns governos e cidadãos à ocupação nazista. O que significava?",
     tip: "Nem todos os ocupados resistiram — alguns colaboraram com os nazistas. Quais eram suas motivações?",
@@ -406,6 +433,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 28,
+    theme: 'Fascismo e nazismo',
     type: "multiple_choice",
     text: "O NAZISMO usou a pseudociência para justificar suas políticas raciais. Como?",
     tip: "O que os nazistas chamavam de 'higiene racial' e como justificavam o extermínio cientificamente?",
@@ -421,6 +449,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 29,
+    theme: 'Guerra Fria',
     type: "multiple_choice",
     text: "A QUESTÃO ALEMÃ após 1945: como os Aliados decidiram tratar a Alemanha derrotada?",
     tip: "Os Aliados aprenderam com os erros do Tratado de Versalhes (1919)? Como trataram a Alemanha desta vez?",
@@ -436,6 +465,7 @@ export const questoesHistoria9AnoB2Av1 = [
   },
   {
     id: 30,
+    theme: 'Direitos e participação',
     type: "multiple_choice",
     text: "Qual foi a principal LIÇÃO HISTÓRICA da Segunda Guerra Mundial que moldou as instituições internacionais criadas em 1945?",
     tip: "Por que a comunidade internacional criou a ONU, a Declaração Universal dos Direitos Humanos e o Tribunal de Nuremberg?",
